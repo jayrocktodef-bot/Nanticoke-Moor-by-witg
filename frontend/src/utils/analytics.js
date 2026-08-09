@@ -31,11 +31,24 @@ export const initGA = (measurementId = GA_MEASUREMENT_ID) => {
 };
 
 export const trackPageView = (path, title) => {
-  if (typeof window !== 'undefined' && window.gtag) {
-    window.gtag('event', 'page_view', {
-      page_path: path,
-      page_title: title || document.title,
-    });
+  if (typeof window !== 'undefined') {
+    // 1. Google Analytics 4 Page View
+    if (window.gtag) {
+      window.gtag('event', 'page_view', {
+        page_path: path,
+        page_title: title || document.title,
+      });
+    }
+
+    // 2. Jetpack Stats Event Queue Push
+    if (window._stq) {
+      window._stq.push(['view', {
+        v: 'ext',
+        blog: 'writteninthegenome.blog',
+        srv: 'familyarchive.writteninthegenome.blog',
+        subpath: path
+      }]);
+    }
   }
 };
 
