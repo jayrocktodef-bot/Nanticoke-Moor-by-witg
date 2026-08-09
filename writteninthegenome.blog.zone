@@ -1,0 +1,27 @@
+$ORIGIN writteninthegenome.blog.
+$TTL 3600
+
+; =====================================================================
+; BIND Zone File for writteninthegenome.blog
+; Standard RFC 1035 Format for Import / Export
+; =====================================================================
+
+; SOA (Start of Authority)
+@   IN  SOA  ns1.wordpress.com. hostmaster.wordpress.com. (
+            2026080901 ; Serial
+            10800      ; Refresh (3 hours)
+            3600       ; Retry (1 hour)
+            604800     ; Expire (1 week)
+            3600       ; Minimum TTL (1 hour)
+            )
+
+; Name Servers (NS)
+@   IN  NS   ns1.wordpress.com.
+@   IN  NS   ns2.wordpress.com.
+@   IN  NS   ns3.wordpress.com.
+
+; =====================================================================
+; CUSTOM SUBDOMAIN FOR GENETIC ARCHIVE (VERCEL HOSTING)
+; =====================================================================
+FamilyArchive   IN  CNAME   cname.vercel-dns.com.
+www.FamilyArchive IN CNAME  cname.vercel-dns.com.
