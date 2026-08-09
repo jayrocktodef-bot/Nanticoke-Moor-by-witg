@@ -20,15 +20,26 @@ def export_all():
     conn.row_factory = sqlite3.Row
     c = conn.cursor()
 
-    print("Step 1: Exporting /api/stats.json...")
+    c.execute("SELECT COUNT(*) FROM persons")
+    total_persons = c.fetchone()[0]
+    c.execute("SELECT COUNT(*) FROM relationships")
+    total_relationships = c.fetchone()[0]
+    c.execute("SELECT COUNT(*) FROM photo_catalog")
+    total_photos = c.fetchone()[0]
+    c.execute("SELECT COUNT(*) FROM obituaries")
+    total_obits = c.fetchone()[0]
+    c.execute("SELECT COUNT(*) FROM pages")
+    total_pages = c.fetchone()[0]
+
     stats = {
-        "pages": 357,
+        "pages": total_pages,
         "media_assets": 1888,
-        "persons": 6582,
-        "relationships": 186,
-        "photos": 1971,
-        "obituaries": 156,
+        "persons": total_persons,
+        "relationships": total_relationships,
+        "photos": total_photos,
+        "obituaries": total_obits,
         "sources": {
+            "davis_family_gedcom": {"name": "Davis Family Tree GEDCOM", "domain": "Desktop/Davis Family Tree.ged", "persons": 2697},
             "lynncjackson": {"name": "Lynn C. Jackson Family Archive", "domain": "lynncjackson.com", "persons": 502},
             "moors_delaware": {"name": "The Moors of Delaware Database", "domain": "moors-delaware.com", "persons": 84},
             "mitsawokett": {"name": "Mitsawokett Delaware Native Archive", "domain": "nativeamericansofdelawarestate.com", "persons": 5977, "photos": 1971, "obituaries": 156},
@@ -85,40 +96,47 @@ def export_all():
     c.execute("SELECT person_id, name, source_page, birth_info, death_info, notes, dataset_source FROM persons")
     all_persons = [dict(r) for r in c.fetchall()]
     
+    # Pre-fetch all relationships
+    c.execute("""
+        SELECT r.person_a_id, r.person_b_id, r.relationship_type, r.evidence_text, p1.name as p1_name, p2.name as p2_name
+        FROM relationships r
+        JOIN persons p1 ON r.person_a_id = p1.person_id
+        JOIN persons p2 ON r.person_b_id = p2.person_id
+    """)
+    rel_rows = c.fetchall()
+    rels_map = {}
+    for r in rel_rows:
+        pa, pb, rtype, ev, n1, n2 = r['person_a_id'], r['person_b_id'], r['relationship_type'], r['evidence_text'], r['p1_name'], r['p2_name']
+        rels_map.setdefault(pa, []).append({"relationship_type": rtype, "evidence_text": ev, "rel_id": pb, "rel_name": n2})
+        rels_map.setdefault(pb, []).append({"relationship_type": rtype, "evidence_text": ev, "rel_id": pa, "rel_name": n1})
+
+    # Pre-fetch all photos
+    c.execute("""
+        SELECT pp.person_id, pc.photo_id, pc.title_or_caption, pc.subject_names, pc.maiden_name, pc.married_surname, pc.location, pc.approximate_year, pc.local_image_path, pc.source_url, pc.dataset_source
+        FROM person_photos pp
+        JOIN photo_catalog pc ON pp.photo_id = pc.photo_id
+    """)
+    photos_map = {}
+    for r in c.fetchall():
+        photos_map.setdefault(r['person_id'], []).append(dict(r))
+
+    # Pre-fetch all obituaries
+    c.execute("""
+        SELECT po.person_id, o.id, o.deceased_name, o.age, o.birth_date, o.death_date, o.cemetery_location, o.full_text, o.source_url
+        FROM person_obituaries po
+        JOIN obituaries o ON po.obituary_id = o.id
+    """)
+    obits_map = {}
+    for r in c.fetchall():
+        obits_map.setdefault(r['person_id'], []).append(dict(r))
+
     for p in all_persons:
         pid = p['person_id']
-        
-        # Relationships
-        c.execute("""
-            SELECT r.relationship_type, r.evidence_text, p2.person_id as rel_id, p2.name as rel_name
-            FROM relationships r
-            JOIN persons p2 ON (r.person_b_id = p2.person_id AND r.person_a_id = ?) OR (r.person_a_id = p2.person_id AND r.person_b_id = ?)
-        """, (pid, pid))
-        rels = [dict(r) for r in c.fetchall()]
-
-        # Photos
-        c.execute("""
-            SELECT pc.photo_id, pc.title_or_caption, pc.subject_names, pc.maiden_name, pc.married_surname, pc.location, pc.approximate_year, pc.local_image_path, pc.source_url, pc.dataset_source
-            FROM person_photos pp
-            JOIN photo_catalog pc ON pp.photo_id = pc.photo_id
-            WHERE pp.person_id = ?
-        """, (pid,))
-        p_photos = [dict(r) for r in c.fetchall()]
-
-        # Obituaries
-        c.execute("""
-            SELECT o.id, o.deceased_name, o.age, o.birth_date, o.death_date, o.cemetery_location, o.full_text, o.source_url
-            FROM person_obituaries po
-            JOIN obituaries o ON po.obituary_id = o.id
-            WHERE po.person_id = ?
-        """, (pid,))
-        p_obits = [dict(r) for r in c.fetchall()]
-
         p_data = {
             "person": p,
-            "relationships": rels,
-            "photos": p_photos,
-            "obituaries": p_obits
+            "relationships": rels_map.get(pid, []),
+            "photos": photos_map.get(pid, []),
+            "obituaries": obits_map.get(pid, [])
         }
         with open(os.path.join(API_DIR, 'person', f'{pid}.json'), 'w') as f:
             json.dump(p_data, f, indent=2)

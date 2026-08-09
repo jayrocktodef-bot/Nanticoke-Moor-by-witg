@@ -8,9 +8,23 @@
     "notes": "Ingested from DavisLillian.htm",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "rel_id": 8613,
+      "rel_name": "Joseph Henry Davis"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "rel_id": 8599,
+      "rel_name": "Anna Eva ADLE"
+    }
+  ],
   "photos": [
     {
+      "person_id": 4455,
       "photo_id": 3173,
       "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
       "subject_names": "Eleanor Davis, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
@@ -23,6 +37,7 @@
       "dataset_source": "mitsawokett"
     },
     {
+      "person_id": 4455,
       "photo_id": 3173,
       "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
       "subject_names": "Eleanor Davis, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",

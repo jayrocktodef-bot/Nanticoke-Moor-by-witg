@@ -8,7 +8,26 @@
     "notes": "Ingested from preserved Probate.htm record",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "GEDCOM Family @F357@ marriage",
+      "rel_id": 9621,
+      "rel_name": "Elizabeth \"Eliza\" Ridgeway-Sammons"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "rel_id": 9620,
+      "rel_name": "Louisa C Sammons"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "rel_id": 368,
+      "rel_name": "William Sammons"
+    }
+  ],
   "photos": [],
   "obituaries": []
 }

@@ -8,7 +8,32 @@
     "notes": "Ingested from preserved Probate.htm record",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "rel_id": 8505,
+      "rel_name": "Thomas Morris"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "rel_id": 8506,
+      "rel_name": "Elizabeth Ann Gresham"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "rel_id": 8505,
+      "rel_name": "Thomas Morris"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "rel_id": 8506,
+      "rel_name": "Elizabeth Ann Gresham"
+    }
+  ],
   "photos": [],
   "obituaries": []
 }
