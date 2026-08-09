@@ -1,0 +1,36 @@
+<!-- 
+  Blog Integration Wrapper for writteninthegenome.blog
+  ======================================================
+  Options for embedding the Lynn C. Jackson Genealogy Preservation Archive:
+-->
+
+<!-- OPTION A: Responsive iframe embed -->
+<div id="genome-archive-container" style="width: 100%; max-width: 1200px; margin: 0 auto; height: 800px; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
+    <iframe 
+        src="http://localhost:3000" 
+        style="width: 100%; height: 100%; border: none;"
+        title="Lynn C. Jackson Genealogy Archive - Written In The Genome"
+        loading="lazy"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!-- OPTION B: Web Component Wrapper Script -->
+<script>
+    class GenomeArchiveViewer extends HTMLElement {
+        connectedCallback() {
+            const shadow = this.attachShadow({ mode: 'open' });
+            const iframe = document.createElement('iframe');
+            iframe.src = this.getAttribute('src') || 'http://localhost:3000';
+            iframe.style.width = '100%';
+            iframe.style.height = this.getAttribute('height') || '750px';
+            iframe.style.border = 'none';
+            iframe.style.borderRadius = '12px';
+            shadow.appendChild(iframe);
+        }
+    }
+    customElements.define('genome-archive-viewer', GenomeArchiveViewer);
+</script>
+
+<!-- Usage in blog layout/posts: -->
+<!-- <genome-archive-viewer src="https://writteninthegenome.blog/archive" height="800px"></genome-archive-viewer> -->
