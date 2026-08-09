@@ -241,13 +241,42 @@ def export_all():
             if os.path.isfile(s_path):
                 shutil.copy2(s_path, d_path)
 
+    print("Step 10: Automated Integrity & Dangling Reference Verification...")
+    c.execute("""
+        SELECT COUNT(*) FROM relationships r
+        LEFT JOIN persons p1 ON r.person_a_id = p1.person_id
+        LEFT JOIN persons p2 ON r.person_b_id = p2.person_id
+        WHERE p1.person_id IS NULL OR p2.person_id IS NULL
+    """)
+    dangling_rels = c.fetchone()[0]
+
+    c.execute("SELECT COUNT(*) FROM relationships WHERE person_a_id = person_b_id")
+    self_rels = c.fetchone()[0]
+
+    c.execute("""
+        SELECT COUNT(*) FROM person_photos pp
+        LEFT JOIN persons p ON pp.person_id = p.person_id
+        WHERE p.person_id IS NULL
+    """)
+    orphaned_photos = c.fetchone()[0]
+
     conn.close()
+    
     print("=========================================================================")
     print("  STATIC VERCEL BUILD EXPORT COMPLETE!")
     print(f"  - Preserved Persons Profiles: {len(all_persons)}")
     print(f"  - Preserved Photos:           {len(photos)}")
     print(f"  - Preserved Obituaries:       {len(obits)}")
     print(f"  - Primary Record Documents:   {len(pages)}")
+    print("-------------------------------------------------------------------------")
+    print(f"  INTEGRITY VERIFICATION REPORT:")
+    print(f"  - Dangling Relationship Links: {dangling_rels} (Expected: 0)")
+    print(f"  - Self-Referential Links:     {self_rels} (Expected: 0)")
+    print(f"  - Orphaned Photo References:   {orphaned_photos} (Expected: 0)")
+    if dangling_rels == 0 and self_rels == 0 and orphaned_photos == 0:
+        print("  ✓ PASSED: Database Integrity Asserted (0 dangling references)")
+    else:
+        print("  ⚠️ WARNING: Integrity anomalies detected!")
     print("=========================================================================")
 
 if __name__ == '__main__':

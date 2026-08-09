@@ -25,6 +25,8 @@ export default function HomeScreen() {
   const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false);
   const [viewMode, setViewMode] = useState('grid'); // 'grid' or 'list'
   const [selectedLetter, setSelectedLetter] = useState('ALL');
+  const [currentPage, setCurrentPage] = useState(1);
+  const pageSize = 24;
 
   // Track tab changes in Google Analytics
   const handleTabChange = (tabId) => {
@@ -65,12 +67,15 @@ export default function HomeScreen() {
       .catch(console.error);
   };
 
-  // Filter surnames by A-Z letter ribbon
+  // Filter surnames by A-Z letter ribbon & apply windowed pagination
   const alphabet = ['ALL', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')];
   const filteredSurnames = surnames.filter(s => {
     if (selectedLetter === 'ALL') return true;
     return s.surname.toUpperCase().startsWith(selectedLetter);
   });
+
+  const totalPages = Math.ceil(filteredSurnames.length / pageSize) || 1;
+  const paginatedSurnames = filteredSurnames.slice((currentPage - 1) * pageSize, currentPage * pageSize);
 
   return (
     <div className="min-h-screen bg-[#121110] text-[#E5E1DB] flex flex-col font-sans selection:bg-[#C68B59]/30">
@@ -342,11 +347,11 @@ export default function HomeScreen() {
               ))}
             </div>
 
-            {/* Surname Display: Grid vs List */}
+            {/* Surname Display: Grid vs List (Windowed DOM rendering: max 24 cards/rows) */}
             {viewMode === 'grid' ? (
               /* 3-Column Grid View */
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                {filteredSurnames.map(s => (
+                {paginatedSurnames.map(s => (
                   <SurnameCard
                     key={s.surname}
                     surname={s.surname}
@@ -374,7 +379,7 @@ export default function HomeScreen() {
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-[#2B2621]">
-                    {filteredSurnames.map(s => (
+                    {paginatedSurnames.map(s => (
                       <tr
                         key={s.surname}
                         onClick={() => handleSelectSurname(s.surname)}
@@ -404,6 +409,29 @@ export default function HomeScreen() {
                     ))}
                   </tbody>
                 </table>
+              </div>
+            )}
+
+            {/* DOM Windowing Pagination Toolbar */}
+            {totalPages > 1 && (
+              <div className="flex items-center justify-between border-t border-[#2B2621] pt-4 text-xs font-mono text-[#8C8275]">
+                <span>Showing page <strong>{currentPage}</strong> of <strong>{totalPages}</strong> ({filteredSurnames.length} portals)</span>
+                <div className="flex items-center gap-2">
+                  <button
+                    disabled={currentPage === 1}
+                    onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                    className="bg-[#1C1A17] hover:bg-[#26221E] disabled:opacity-40 text-[#D4A373] border border-[#332D27] px-3 py-1.5 rounded-lg transition-all"
+                  >
+                    ← Previous
+                  </button>
+                  <button
+                    disabled={currentPage === totalPages}
+                    onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                    className="bg-[#1C1A17] hover:bg-[#26221E] disabled:opacity-40 text-[#D4A373] border border-[#332D27] px-3 py-1.5 rounded-lg transition-all"
+                  >
+                    Next Page →
+                  </button>
+                </div>
               </div>
             )}
           </div>
