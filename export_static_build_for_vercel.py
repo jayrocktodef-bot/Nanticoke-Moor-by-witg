@@ -2,6 +2,8 @@ import sqlite3
 import json
 import os
 import shutil
+import re
+from collections import defaultdict
 
 DB_PATH = '/home/jequan/Desktop/Antigravity Projects/lynncjackson-genealogy-scraper/preservation_output/genealogy_preservation.db'
 FRONTEND_DIR = '/home/jequan/Desktop/Antigravity Projects/lynncjackson-genealogy-scraper/frontend'
@@ -159,43 +161,75 @@ def export_all():
         SELECT DISTINCT p.person_id, p.name, p.source_page
         FROM persons p
         JOIN relationships r ON p.person_id = r.person_a_id OR p.person_id = r.person_b_id
-        LIMIT 150
+        LIMIT 1200
     """)
     graph_nodes_raw = c.fetchall()
     node_dict = {row["person_id"]: dict(row) for row in graph_nodes_raw}
     if node_dict:
         placeholders = ",".join("?" * len(node_dict))
-        c.execute(f"SELECT id, person_a_id, person_b_id, relationship_type, evidence_text FROM relationships WHERE person_a_id IN ({placeholders}) OR person_b_id IN ({placeholders})", list(node_dict.keys()) + list(node_dict.keys()))
+        c.execute(f"SELECT id, person_a_id, person_b_id, relationship_type, evidence_text FROM relationships WHERE person_a_id IN ({placeholders}) AND person_b_id IN ({placeholders}) LIMIT 3000", list(node_dict.keys()) + list(node_dict.keys()))
         edges_rows = c.fetchall()
     else:
         edges_rows = []
 
-    nodes = [{"id": r["person_id"], "label": r["name"], "group": r["name"].split()[-1] if r["name"] else "Unknown", "source_page": r["source_page"]} for r in node_dict.values()]
+    nodes = [{"id": r["person_id"], "label": r["name"], "group": r["name"].split()[-1] if r["name"] and len(r["name"].split()) > 1 else "Unknown", "source_page": r["source_page"]} for r in node_dict.values()]
     edges = [{"from": r["person_a_id"], "to": r["person_b_id"], "label": r["relationship_type"], "type": r["relationship_type"], "evidence": r["evidence_text"]} for r in edges_rows]
     
     with open(os.path.join(API_DIR, 'graph.json'), 'w') as f:
         json.dump({"nodes": nodes, "edges": edges}, f, indent=2)
 
     print("Step 8: Exporting /api/family-interconnections.json...")
+    # A. Photo Catalog Ties
     c.execute("""
-        SELECT maiden_name, married_surname, COUNT(*) AS photo_count
+        SELECT maiden_name, married_surname, COUNT(*) AS cnt
         FROM photo_catalog
         WHERE maiden_name IS NOT NULL AND married_surname IS NOT NULL
           AND maiden_name != '' AND married_surname != ''
           AND LOWER(maiden_name) != LOWER(married_surname)
         GROUP BY maiden_name, married_surname
-        HAVING photo_count >= 2
-        ORDER BY photo_count DESC
+        ORDER BY cnt DESC
     """)
     photo_ties = c.fetchall()
-    interconnections = [{
-        "family_a": m.strip(),
-        "family_b": ms.strip(),
-        "tie_type": "Marriage / Photo Link",
-        "count": cnt,
-        "description": f"{cnt} cataloged preserved photographs linking the {m} and {ms} lineages"
-    } for m, ms, cnt in photo_ties]
     
+    # B. Kinship Database Ties between surnames
+    c.execute("""
+        SELECT p1.name AS n1, p2.name AS n2, r.relationship_type, r.evidence_text
+        FROM relationships r
+        JOIN persons p1 ON r.person_a_id = p1.person_id
+        JOIN persons p2 ON r.person_b_id = p2.person_id
+        WHERE p1.name LIKE '% %' AND p2.name LIKE '% %'
+    """)
+    rel_rows = c.fetchall()
+    
+    tie_counts = defaultdict(int)
+    tie_samples = {}
+
+    for m, ms, cnt in photo_ties:
+        fam_a, fam_b = sorted([m.strip(), ms.strip()])
+        key = (fam_a, fam_b)
+        tie_counts[key] += cnt
+        tie_samples[key] = f"{cnt} cataloged preserved photographs linking the {fam_a} and {fam_b} lineages"
+
+    for r in rel_rows:
+        s1 = r['n1'].split()[-1]
+        s2 = r['n2'].split()[-1]
+        if len(s1) > 2 and len(s2) > 2 and s1.lower() != s2.lower() and not any(w in s1.lower() for w in ['unknown', 'inc', 'page']) and not any(w in s2.lower() for w in ['unknown', 'inc', 'page']):
+            fam_a, fam_b = sorted([s1, s2])
+            key = (fam_a, fam_b)
+            tie_counts[key] += 1
+            if key not in tie_samples:
+                tie_samples[key] = f"Documented {r['relationship_type']} kinship connection between {r['n1']} and {r['n2']}"
+
+    interconnections = []
+    for (fam_a, fam_b), cnt in sorted(tie_counts.items(), key=lambda x: x[1], reverse=True)[:150]:
+        interconnections.append({
+            "family_a": fam_a,
+            "family_b": fam_b,
+            "tie_type": "Marriage & Kinship Link",
+            "count": cnt,
+            "description": tie_samples.get((fam_a, fam_b), f"{cnt} kinship connections between the {fam_a} and {fam_b} lineages")
+        })
+
     with open(os.path.join(API_DIR, 'family-interconnections.json'), 'w') as f:
         json.dump(interconnections, f, indent=2)
 
