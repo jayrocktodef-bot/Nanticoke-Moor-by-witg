@@ -5,17 +5,24 @@ import shutil
 import re
 from collections import defaultdict
 
-DB_PATH = '/home/jequan/Desktop/Antigravity Projects/lynncjackson-genealogy-scraper/preservation_output/genealogy_preservation.db'
-FRONTEND_DIR = '/home/jequan/Desktop/Antigravity Projects/lynncjackson-genealogy-scraper/frontend'
-PUBLIC_DIR = os.path.join(FRONTEND_DIR, 'public')
-API_DIR = os.path.join(PUBLIC_DIR, 'api')
-ASSETS_DEST = os.path.join(PUBLIC_DIR, 'assets', 'mitsawokett_photos')
-ASSETS_SRC = '/home/jequan/Desktop/Antigravity Projects/lynncjackson-genealogy-scraper/preservation_output/assets/mitsawokett_photos'
+BASE_DIR = '/home/jequan/Desktop/Antigravity Projects/lynncjackson-genealogy-scraper'
+DB_PATH = os.path.join(BASE_DIR, 'preservation_output', 'genealogy_preservation.db')
+API_DIR = os.path.join(BASE_DIR, 'frontend', 'public', 'api')
+PUBLIC_DIR = os.path.join(BASE_DIR, 'frontend', 'public')
+ASSETS_SRC = os.path.join(BASE_DIR, 'preservation_output', 'assets', 'mitsawokett_photos')
+ASSETS_DEST = os.path.join(BASE_DIR, 'frontend', 'public', 'assets', 'mitsawokett_photos')
 
-os.makedirs(API_DIR, exist_ok=True)
-os.makedirs(os.path.join(API_DIR, 'person'), exist_ok=True)
-os.makedirs(os.path.join(API_DIR, 'records'), exist_ok=True)
-os.makedirs(ASSETS_DEST, exist_ok=True)
+SUFFIXES = {'sr', 'sr.', 'jr', 'jr.', 'iii', 'iv', 'ii', 'v', 'vi', 'esq', 'esq.', 'md', 'phd'}
+
+def get_clean_surname(name):
+    if not name:
+        return "Unknown"
+    parts = [p.strip(' .,;') for p in name.strip().split() if p.strip(' .,;')]
+    if not parts:
+        return "Unknown"
+    while len(parts) > 1 and parts[-1].lower() in SUFFIXES:
+        parts.pop()
+    return parts[-1] if parts else "Unknown"
 
 def export_all():
     conn = sqlite3.connect(DB_PATH)
@@ -172,7 +179,7 @@ def export_all():
     else:
         edges_rows = []
 
-    nodes = [{"id": r["person_id"], "label": r["name"], "group": r["name"].split()[-1] if r["name"] and len(r["name"].split()) > 1 else "Unknown", "source_page": r["source_page"]} for r in node_dict.values()]
+    nodes = [{"id": r["person_id"], "label": r["name"], "group": get_clean_surname(r["name"]), "source_page": r["source_page"]} for r in node_dict.values()]
     edges = [{"from": r["person_a_id"], "to": r["person_b_id"], "label": r["relationship_type"], "type": r["relationship_type"], "evidence": r["evidence_text"]} for r in edges_rows]
     
     with open(os.path.join(API_DIR, 'graph.json'), 'w') as f:
@@ -205,14 +212,14 @@ def export_all():
     tie_samples = {}
 
     for m, ms, cnt in photo_ties:
-        fam_a, fam_b = sorted([m.strip(), ms.strip()])
+        fam_a, fam_b = sorted([get_clean_surname(m), get_clean_surname(ms)])
         key = (fam_a, fam_b)
         tie_counts[key] += cnt
         tie_samples[key] = f"{cnt} cataloged preserved photographs linking the {fam_a} and {fam_b} lineages"
 
     for r in rel_rows:
-        s1 = r['n1'].split()[-1]
-        s2 = r['n2'].split()[-1]
+        s1 = get_clean_surname(r['n1'])
+        s2 = get_clean_surname(r['n2'])
         if len(s1) > 2 and len(s2) > 2 and s1.lower() != s2.lower() and not any(w in s1.lower() for w in ['unknown', 'inc', 'page']) and not any(w in s2.lower() for w in ['unknown', 'inc', 'page']):
             fam_a, fam_b = sorted([s1, s2])
             key = (fam_a, fam_b)
