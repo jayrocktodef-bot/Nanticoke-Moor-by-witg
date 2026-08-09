@@ -247,12 +247,6 @@
       "source_page": "coker-w1.htm"
     },
     {
-      "id": 161,
-      "label": "He could have been",
-      "group": "been",
-      "source_page": "concilor.htm"
-    },
-    {
       "id": 174,
       "label": "Sarah Concilor",
       "group": "Concilor",
@@ -899,6 +893,12 @@
       "label": "Eliza Ann Harmon",
       "group": "Harmon",
       "source_page": "wrightp2.htm"
+    },
+    {
+      "id": 756,
+      "label": "Barnard Johnson",
+      "group": "Johnson",
+      "source_page": "wrightp2.htm"
     }
   ],
   "edges": [
@@ -1055,13 +1055,6 @@
       "label": "spouse",
       "type": "spouse",
       "evidence": "Stanley Coker married Ida May Mosley"
-    },
-    {
-      "from": 161,
-      "to": 162,
-      "label": "child_of",
-      "type": "child_of",
-      "evidence": "We do not know William's parents. He could have been the son of Mary Conselah or Thomas may have had a son who died prior to him (possibly the Thomas who died in 1726?)."
     },
     {
       "from": 174,
@@ -1461,6 +1454,13 @@
       "label": "spouse",
       "type": "spouse",
       "evidence": "William Howard Johnson who married Eliza Ann Harmon,"
+    },
+    {
+      "from": 756,
+      "to": 757,
+      "label": "spouse",
+      "type": "spouse",
+      "evidence": "Barnard Johnson who married Mamie Mosley"
     },
     {
       "from": 746,
