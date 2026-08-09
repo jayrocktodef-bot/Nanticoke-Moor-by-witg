@@ -8,7 +8,7 @@ export default function FamilyInterconnectionMatrix({ onSelectSurname }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/api/family-interconnections')
+    fetch('/api/family-interconnections.json')
       .then(r => r.json())
       .then(data => {
         setTies(data);

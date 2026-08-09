@@ -28,23 +28,17 @@ export default function AuditResolutionPanel() {
   const [expandedId, setExpandedId] = useState(null);
 
   const fetchFlags = () => {
-    const params = new URLSearchParams();
-    if (filter.category) params.append('category', filter.category);
-    if (filter.severity) params.append('severity', filter.severity);
-    if (filter.showResolved) params.append('resolved', 'true');
-    params.append('limit', '100');
-
-    fetch(`/api/audit/flags?${params}`)
+    fetch('/api/audit/flags.json')
       .then(r => r.json())
       .then(setFlags)
-      .catch(console.error);
+      .catch(() => setFlags([]));
   };
 
   const fetchSummary = () => {
-    fetch('/api/audit/summary')
+    fetch('/api/audit/summary.json')
       .then(r => r.json())
       .then(setSummary)
-      .catch(console.error);
+      .catch(() => setSummary([]));
   };
 
   useEffect(() => { fetchFlags(); fetchSummary(); }, [filter]);

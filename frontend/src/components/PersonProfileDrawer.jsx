@@ -9,7 +9,7 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
   useEffect(() => {
     if (!personId) return;
     setLoading(true);
-    fetch(`/api/person/${personId}`)
+    fetch(`/api/person/${personId}.json`)
       .then(r => r.json())
       .then(data => {
         setProfile(data);

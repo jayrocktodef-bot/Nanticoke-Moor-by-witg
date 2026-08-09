@@ -136,7 +136,52 @@ def export_all():
         with open(os.path.join(API_DIR, 'records', f'{fn}.json'), 'w') as f:
             json.dump(page, f, indent=2)
 
-    print("Step 7: Copying photo assets to frontend/public/assets/mitsawokett_photos/...")
+    print("Step 7: Exporting /api/graph.json...")
+    c.execute("""
+        SELECT DISTINCT p.person_id, p.name, p.source_page
+        FROM persons p
+        JOIN relationships r ON p.person_id = r.person_a_id OR p.person_id = r.person_b_id
+        LIMIT 150
+    """)
+    graph_nodes_raw = c.fetchall()
+    node_dict = {row["person_id"]: dict(row) for row in graph_nodes_raw}
+    if node_dict:
+        placeholders = ",".join("?" * len(node_dict))
+        c.execute(f"SELECT id, person_a_id, person_b_id, relationship_type, evidence_text FROM relationships WHERE person_a_id IN ({placeholders}) OR person_b_id IN ({placeholders})", list(node_dict.keys()) + list(node_dict.keys()))
+        edges_rows = c.fetchall()
+    else:
+        edges_rows = []
+
+    nodes = [{"id": r["person_id"], "label": r["name"], "group": r["name"].split()[-1] if r["name"] else "Unknown", "source_page": r["source_page"]} for r in node_dict.values()]
+    edges = [{"from": r["person_a_id"], "to": r["person_b_id"], "label": r["relationship_type"], "type": r["relationship_type"], "evidence": r["evidence_text"]} for r in edges_rows]
+    
+    with open(os.path.join(API_DIR, 'graph.json'), 'w') as f:
+        json.dump({"nodes": nodes, "edges": edges}, f, indent=2)
+
+    print("Step 8: Exporting /api/family-interconnections.json...")
+    c.execute("""
+        SELECT maiden_name, married_surname, COUNT(*) AS photo_count
+        FROM photo_catalog
+        WHERE maiden_name IS NOT NULL AND married_surname IS NOT NULL
+          AND maiden_name != '' AND married_surname != ''
+          AND LOWER(maiden_name) != LOWER(married_surname)
+        GROUP BY maiden_name, married_surname
+        HAVING photo_count >= 2
+        ORDER BY photo_count DESC
+    """)
+    photo_ties = c.fetchall()
+    interconnections = [{
+        "family_a": m.strip(),
+        "family_b": ms.strip(),
+        "tie_type": "Marriage / Photo Link",
+        "count": cnt,
+        "description": f"{cnt} cataloged preserved photographs linking the {m} and {ms} lineages"
+    } for m, ms, cnt in photo_ties]
+    
+    with open(os.path.join(API_DIR, 'family-interconnections.json'), 'w') as f:
+        json.dump(interconnections, f, indent=2)
+
+    print("Step 9: Copying photo assets to frontend/public/assets/mitsawokett_photos/...")
     if os.path.exists(ASSETS_SRC):
         for f_name in os.listdir(ASSETS_SRC):
             s_path = os.path.join(ASSETS_SRC, f_name)

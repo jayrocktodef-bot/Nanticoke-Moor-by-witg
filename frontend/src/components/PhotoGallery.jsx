@@ -9,19 +9,36 @@ export default function PhotoGallery() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    fetch('/api/photos/surnames')
+    fetch('/api/photos.json')
       .then(r => r.json())
-      .then(setSurnameCounts)
+      .then(data => {
+        const countsMap = {};
+        data.forEach(p => {
+          const s = p.maiden_name;
+          if (s && s.length > 1) {
+            countsMap[s] = (countsMap[s] || 0) + 1;
+          }
+        });
+        const countsArr = Object.entries(countsMap).map(([surname, photo_count]) => ({ surname, photo_count }));
+        countsArr.sort((a, b) => b.photo_count - a.photo_count);
+        setSurnameCounts(countsArr);
+      })
       .catch(console.error);
   }, []);
 
   const handleSelectSurname = (surname) => {
     setSelectedSurname(surname);
     setLoading(true);
-    fetch(`/api/photos?surname=${encodeURIComponent(surname)}&limit=300`)
+    fetch('/api/photos.json')
       .then(r => r.json())
       .then(data => {
-        setPhotos(data);
+        const lowerS = surname.toLowerCase();
+        const filtered = data.filter(p => 
+          p.maiden_name?.toLowerCase().includes(lowerS) ||
+          p.married_surname?.toLowerCase().includes(lowerS) ||
+          p.subject_names?.toLowerCase().includes(lowerS)
+        );
+        setPhotos(filtered);
         setLoading(false);
       })
       .catch(() => setLoading(false));
@@ -30,7 +47,7 @@ export default function PhotoGallery() {
   const handleShowAll = () => {
     setSelectedSurname(null);
     setLoading(true);
-    fetch('/api/photos?limit=200')
+    fetch('/api/photos.json')
       .then(r => r.json())
       .then(data => {
         setPhotos(data);

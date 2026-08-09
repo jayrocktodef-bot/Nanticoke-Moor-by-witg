@@ -27,10 +27,16 @@ export default function CommandPalette({ isOpen, onClose, onSelectPerson, onSele
   useEffect(() => {
     if (query.trim().length > 1) {
       setLoading(true);
-      fetch(`/api/persons?q=${encodeURIComponent(query)}`)
+      fetch('/api/surnames.json')
         .then(res => res.json())
         .then(data => {
-          setResults(data);
+          const lowerQ = query.toLowerCase();
+          const filtered = data.map((s, idx) => ({
+            person_id: idx + 1,
+            name: `${s.surname} Family Lineage (${s.individual_count} persons)`,
+            notes: `Associated variants: ${s.variants || s.surname}`
+          })).filter(s => s.name.toLowerCase().includes(lowerQ) || s.notes.toLowerCase().includes(lowerQ));
+          setResults(filtered);
           setLoading(false);
         })
         .catch(() => setLoading(false));

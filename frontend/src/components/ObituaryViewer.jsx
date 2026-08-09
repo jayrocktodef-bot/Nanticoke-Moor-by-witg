@@ -10,10 +10,20 @@ export default function ObituaryViewer() {
 
   const fetchObits = (q = '') => {
     setLoading(true);
-    fetch(`/api/obituaries?q=${encodeURIComponent(q)}&limit=200`)
+    fetch('/api/obituaries.json')
       .then(r => r.json())
       .then(data => {
-        setObituaries(data);
+        if (q.trim()) {
+          const lowerQ = q.toLowerCase();
+          const filtered = data.filter(o => 
+            o.deceased_name?.toLowerCase().includes(lowerQ) ||
+            o.full_text?.toLowerCase().includes(lowerQ) ||
+            o.cemetery_location?.toLowerCase().includes(lowerQ)
+          );
+          setObituaries(filtered);
+        } else {
+          setObituaries(data);
+        }
         setLoading(false);
       })
       .catch(() => setLoading(false));

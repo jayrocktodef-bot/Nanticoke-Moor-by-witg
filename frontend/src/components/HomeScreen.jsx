@@ -24,22 +24,32 @@ export default function HomeScreen() {
   const [selectedLetter, setSelectedLetter] = useState('ALL');
 
   useEffect(() => {
-    fetch('/api/stats').then(res => res.json()).then(setStats).catch(console.error);
-    fetch('/api/surnames').then(res => res.json()).then(setSurnames).catch(console.error);
-    fetch('/api/graph').then(res => res.json()).then(setGraphData).catch(console.error);
+    fetch('/api/stats.json').then(res => res.json()).then(setStats).catch(console.error);
+    fetch('/api/surnames.json').then(res => res.json()).then(setSurnames).catch(console.error);
+    fetch('/api/graph.json').then(res => res.json()).then(setGraphData).catch(console.error);
   }, []);
 
   const handleSelectSurname = (surname) => {
     setSelectedSurname(surname);
     setActiveTab('graph');
-    fetch(`/api/graph?surname=${encodeURIComponent(surname)}`)
+    fetch('/api/graph.json')
       .then(res => res.json())
-      .then(setGraphData)
+      .then(data => {
+        if (surname && data.nodes) {
+          const lowerS = surname.toLowerCase();
+          const filteredNodes = data.nodes.filter(n => n.label?.toLowerCase().includes(lowerS) || n.group?.toLowerCase().includes(lowerS));
+          const nodeIds = new Set(filteredNodes.map(n => n.id));
+          const filteredEdges = data.edges.filter(e => nodeIds.has(e.from) || nodeIds.has(e.to));
+          setGraphData({ nodes: filteredNodes, edges: filteredEdges });
+        } else {
+          setGraphData(data);
+        }
+      })
       .catch(console.error);
   };
 
   const handleOpenRecord = (filename) => {
-    fetch(`/api/records/${encodeURIComponent(filename)}`)
+    fetch(`/api/records/${encodeURIComponent(filename)}.json`)
       .then(res => res.json())
       .then(setSelectedRecord)
       .catch(console.error);
