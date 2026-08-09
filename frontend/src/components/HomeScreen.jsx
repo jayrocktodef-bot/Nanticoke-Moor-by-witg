@@ -67,60 +67,70 @@ export default function HomeScreen() {
       {/* Header & Navigation Toolbar */}
       {/* Header & Navigation Toolbar */}
       <header className="border-b border-[#2D2722] bg-[#141210]/95 sticky top-0 z-40 backdrop-blur-md">
-        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-0 sm:h-20 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           {/* Logo & Brand Title */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center justify-between w-full sm:w-auto">
             <a
               href="https://writteninthegenome.blog"
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center gap-3.5"
+              className="group flex items-center gap-3"
               title="Visit Main Blog — Written In The Genome"
             >
               <img
                 src="/logo.webp"
                 alt="Written In The Genome Official Logo"
-                className="w-11 h-11 rounded-full border-2 border-[#C68B59]/50 group-hover:border-[#D4A373] object-cover shadow-lg shadow-[#C68B59]/20 transition-all duration-300 group-hover:scale-105"
+                className="w-9 h-9 sm:w-11 sm:h-11 rounded-full border-2 border-[#C68B59]/50 group-hover:border-[#D4A373] object-cover shadow-lg shadow-[#C68B59]/20 transition-all duration-300 group-hover:scale-105"
                 onError={e => { e.target.style.display = 'none'; }}
               />
               <div>
-                <div className="flex items-center gap-2">
-                  <h1 className="font-serif-header font-bold text-xl leading-tight tracking-tight text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors">
+                <div className="flex items-center gap-1.5">
+                  <h1 className="font-serif-header font-bold text-lg sm:text-xl leading-tight tracking-tight text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors">
                     Genetic Archive
                   </h1>
-                  <span className="text-[10px] font-mono font-semibold bg-[#C68B59]/20 text-[#D4A373] border border-[#C68B59]/40 px-2 py-0.5 rounded-full uppercase tracking-wider">
+                  <span className="text-[9px] sm:text-[10px] font-mono font-semibold bg-[#C68B59]/20 text-[#D4A373] border border-[#C68B59]/40 px-1.5 py-0.5 rounded-full uppercase tracking-wider">
                     Official
                   </span>
                 </div>
-                <p className="text-xs text-[#A8A096] font-sans font-medium tracking-wide flex items-center gap-1.5 mt-0.5">
+                <p className="text-[11px] sm:text-xs text-[#A8A096] font-sans font-medium tracking-wide flex items-center gap-1 mt-0.5">
                   <span>Written In The Genome</span>
                   <span className="text-[#665E54]">•</span>
-                  <span className="text-[#C68B59]/90 italic">DNA Ancestry & Lineages</span>
+                  <span className="text-[#C68B59]/90 italic hidden xs:inline">DNA Ancestry</span>
                 </p>
               </div>
             </a>
+
+            {/* Mobile Search Button */}
+            <button
+              onClick={() => setIsCommandPaletteOpen(true)}
+              className="sm:hidden p-2 bg-[#1C1A17] border border-[#332D27] text-[#D4A373] rounded-xl flex items-center gap-1.5 text-xs font-semibold"
+              aria-label="Open Search"
+            >
+              <Search className="w-4 h-4 text-[#C68B59]" />
+              <span>Search</span>
+            </button>
           </div>
 
           {/* External Brand Links & Persistent Stats */}
-          <div className="flex items-center gap-4">
-            {/* Quick Action Links: Main Blog & Genotype Scout */}
-            <div className="hidden lg:flex items-center gap-2.5">
+          <div className="flex items-center justify-between sm:justify-end gap-3 w-full sm:w-auto">
+            <div className="flex items-center gap-2">
               <a
                 href="https://writteninthegenome.blog"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#1C1A17] hover:bg-[#26221E] border border-[#332D27] hover:border-[#C68B59]/60 text-[#F3EBE3] hover:text-[#D4A373] px-3.5 py-2 rounded-xl transition-all text-xs font-semibold flex items-center gap-2 shadow-sm"
+                className="bg-[#1C1A17] hover:bg-[#26221E] border border-[#332D27] hover:border-[#C68B59]/60 text-[#F3EBE3] hover:text-[#D4A373] px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-xl transition-all text-[11px] sm:text-xs font-semibold flex items-center gap-1.5 shadow-sm"
               >
-                <span>🌐 Main Blog & Articles</span>
+                <span>🌐 Main Blog</span>
               </a>
               <a
                 href="https://writteninthegenome.blog"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gradient-to-r from-[#C68B59]/20 to-[#9E6437]/20 border border-[#C68B59]/50 hover:border-[#C68B59] text-[#D4A373] hover:text-[#F3EBE3] px-3.5 py-2 rounded-xl transition-all text-xs font-bold flex items-center gap-2 shadow-md shadow-[#C68B59]/10"
+                className="bg-gradient-to-r from-[#C68B59]/20 to-[#9E6437]/20 border border-[#C68B59]/50 hover:border-[#C68B59] text-[#D4A373] hover:text-[#F3EBE3] px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-xl transition-all text-[11px] sm:text-xs font-bold flex items-center gap-1.5 shadow-md shadow-[#C68B59]/10"
               >
                 <Sparkles className="w-3.5 h-3.5 text-[#D4A373]" />
-                <span>Genotype Scout</span>
+                <span className="hidden xs:inline">Genotype Scout</span>
+                <span className="xs:hidden">Scout</span>
               </a>
             </div>
 
@@ -128,17 +138,17 @@ export default function HomeScreen() {
             <a
               href="/api/export/gedcom"
               download="delmarva_genealogy_preservation.ged"
-              className="bg-[#C68B59] hover:bg-[#D4A373] text-[#121110] px-4 py-2 rounded-xl transition-all flex items-center gap-1.5 font-bold text-xs shadow-md shadow-[#C68B59]/20"
+              className="bg-[#C68B59] hover:bg-[#D4A373] text-[#121110] px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl transition-all flex items-center gap-1.5 font-bold text-[11px] sm:text-xs shadow-md shadow-[#C68B59]/20 shrink-0"
               title="Export complete lineage database in standard GEDCOM format"
             >
               <Download className="w-3.5 h-3.5 stroke-[2.5]" />
-              Export GEDCOM
+              <span>Export GEDCOM</span>
             </a>
           </div>
         </div>
 
-        {/* Global Navigation Tabs */}
-        <div className="max-w-7xl mx-auto px-6 flex gap-8 text-sm font-medium border-t border-[#26221E] overflow-x-auto custom-scrollbar">
+        {/* Global Navigation Tabs (Touch-Friendly Horizontal Scroll bar) */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 flex gap-4 sm:gap-8 text-xs sm:text-sm font-medium border-t border-[#26221E] overflow-x-auto custom-scrollbar no-scrollbar-on-touch">
           {[
             { id: 'surnames', label: 'Surname Portals', icon: Users },
             { id: 'interconnections', label: 'Interconnections', icon: GitCommit },
@@ -155,14 +165,14 @@ export default function HomeScreen() {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`flex items-center gap-2 py-3.5 border-b-2 transition-all shrink-0 ${
+                className={`flex items-center gap-1.5 sm:gap-2 py-3 border-b-2 transition-all shrink-0 min-h-[44px] ${
                   isActive
                     ? 'border-[#C68B59] text-[#D4A373] font-semibold'
                     : 'border-transparent text-[#A8A096] hover:text-[#F3EBE3]'
                 }`}
               >
-                <Icon className={`w-4 h-4 ${isActive ? 'text-[#C68B59]' : 'text-[#8C8275]'}`} />
-                {tab.label}
+                <Icon className={`w-3.5 h-3.5 sm:w-4 sm:h-4 ${isActive ? 'text-[#C68B59]' : 'text-[#8C8275]'}`} />
+                <span className="whitespace-nowrap">{tab.label}</span>
               </button>
             );
           })}

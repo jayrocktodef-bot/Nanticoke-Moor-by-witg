@@ -26,13 +26,14 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
       onClick={onClose}
     >
       <div
-        className="w-full max-w-xl bg-slate-900 border-l border-slate-800 h-full p-6 overflow-y-auto flex flex-col shadow-2xl relative"
+        className="w-full sm:max-w-xl bg-slate-900 border-l border-slate-800 h-full p-4 sm:p-6 overflow-y-auto flex flex-col shadow-2xl relative"
         onClick={e => e.stopPropagation()}
       >
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-5 right-5 text-slate-400 hover:text-white p-1 rounded-lg bg-slate-800 transition-all"
+          className="absolute top-4 right-4 text-slate-400 hover:text-white p-2.5 rounded-xl bg-slate-800 transition-all min-w-[44px] min-h-[44px] flex items-center justify-center font-bold text-lg"
+          aria-label="Close Profile Drawer"
         >
           ✕
         </button>
