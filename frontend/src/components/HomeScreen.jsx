@@ -10,6 +10,7 @@ import PersonProfileDrawer from './PersonProfileDrawer';
 import FamilyInterconnectionMatrix from './FamilyInterconnectionMatrix';
 import SourcesCatalog from './SourcesCatalog';
 import CommandPalette from './CommandPalette';
+import { trackPageView, trackEvent } from '../utils/analytics';
 
 export default function HomeScreen() {
   const [activeTab, setActiveTab] = useState('surnames');
@@ -22,6 +23,13 @@ export default function HomeScreen() {
   const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false);
   const [viewMode, setViewMode] = useState('grid'); // 'grid' or 'list'
   const [selectedLetter, setSelectedLetter] = useState('ALL');
+
+  // Track tab changes in Google Analytics
+  const handleTabChange = (tabId) => {
+    setActiveTab(tabId);
+    trackPageView(`/${tabId}`, `Tab: ${tabId}`);
+    trackEvent('switch_tab', 'navigation', tabId);
+  };
 
   useEffect(() => {
     fetch('/api/stats.json').then(res => res.json()).then(setStats).catch(console.error);
@@ -164,7 +172,7 @@ export default function HomeScreen() {
             return (
               <button
                 key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
+                onClick={() => handleTabChange(tab.id)}
                 className={`flex items-center gap-1.5 sm:gap-2 py-3 border-b-2 transition-all shrink-0 min-h-[44px] ${
                   isActive
                     ? 'border-[#C68B59] text-[#D4A373] font-semibold'
