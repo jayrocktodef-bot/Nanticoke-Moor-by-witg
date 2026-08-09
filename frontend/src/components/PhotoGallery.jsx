@@ -160,7 +160,7 @@ export default function PhotoGallery() {
             >
               <div className="aspect-square overflow-hidden bg-slate-800">
                 <img
-                  src={`http://localhost:8000/${photo.local_image_path}`}
+                  src={photo.local_image_path.startsWith('/') ? photo.local_image_path : '/' + photo.local_image_path}
                   alt={photo.subject_names || photo.title_or_caption}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
@@ -207,7 +207,7 @@ export default function PhotoGallery() {
           >
             <div className="relative">
               <img
-                src={`http://localhost:8000/${lightboxPhoto.local_image_path}`}
+                src={lightboxPhoto.local_image_path.startsWith('/') ? lightboxPhoto.local_image_path : '/' + lightboxPhoto.local_image_path}
                 alt={lightboxPhoto.subject_names}
                 className="w-full max-h-[70vh] object-contain bg-black"
               />

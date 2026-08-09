@@ -112,7 +112,7 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
                       className="bg-slate-950 border border-slate-800 rounded-xl overflow-hidden p-2 cursor-pointer hover:border-amber-500/50 hover:shadow-lg transition-all group"
                     >
                       <img
-                        src={`http://localhost:8000/${photo.local_image_path}`}
+                        src={photo.local_image_path.startsWith('/') ? photo.local_image_path : '/' + photo.local_image_path}
                         alt={photo.subject_names}
                         className="w-full h-28 object-cover rounded-lg mb-1.5 group-hover:scale-105 transition-transform"
                       />
@@ -183,7 +183,7 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
           >
             <div className="relative">
               <img
-                src={`http://localhost:8000/${lightboxPhoto.local_image_path}`}
+                src={lightboxPhoto.local_image_path.startsWith('/') ? lightboxPhoto.local_image_path : '/' + lightboxPhoto.local_image_path}
                 alt={lightboxPhoto.subject_names}
                 className="w-full max-h-[75vh] object-contain bg-black"
               />

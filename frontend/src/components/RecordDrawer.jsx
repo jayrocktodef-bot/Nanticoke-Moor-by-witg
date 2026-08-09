@@ -69,7 +69,7 @@ export default function RecordDrawer({ record, onClose }) {
                     className="bg-slate-800 rounded-lg p-2 border border-slate-700/60 text-center cursor-pointer hover:border-amber-500/50 hover:shadow-lg transition-all group"
                   >
                     <img 
-                      src={`http://localhost:8000/${media.local_path}`} 
+                      src={media.local_path.startsWith('/') ? media.local_path : '/' + media.local_path} 
                       alt={media.caption || 'Preserved asset'} 
                       className="max-h-40 mx-auto rounded object-contain mb-2 group-hover:scale-105 transition-transform"
                     />
@@ -107,7 +107,7 @@ export default function RecordDrawer({ record, onClose }) {
           >
             <div className="relative">
               <img
-                src={`http://localhost:8000/${lightboxMedia.local_path}`}
+                src={lightboxMedia.local_path.startsWith('/') ? lightboxMedia.local_path : '/' + lightboxMedia.local_path}
                 alt={lightboxMedia.caption || 'Preserved Asset'}
                 className="w-full max-h-[80vh] object-contain bg-black"
               />
