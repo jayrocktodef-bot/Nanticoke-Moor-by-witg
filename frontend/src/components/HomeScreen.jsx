@@ -1,16 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, lazy, Suspense } from 'react';
 import { Search, Database, Users, FileText, Image as ImageIcon, GitFork, BookOpen, ShieldCheck, HeartHandshake, Download, GitCommit, Bookmark, LayoutGrid, List, Sparkles, Filter } from 'lucide-react';
 import SurnameCard from './SurnameCard';
-import NetworkGraph from './NetworkGraph';
 import RecordDrawer from './RecordDrawer';
-import AuditResolutionPanel from './AuditResolutionPanel';
-import PhotoGallery from './PhotoGallery';
-import ObituaryViewer from './ObituaryViewer';
 import PersonProfileDrawer from './PersonProfileDrawer';
-import FamilyInterconnectionMatrix from './FamilyInterconnectionMatrix';
-import SourcesCatalog from './SourcesCatalog';
 import CommandPalette from './CommandPalette';
 import { trackPageView, trackEvent } from '../utils/analytics';
+
+// Lazy load heavy components for instant initial page loading & reduced JS bundle size
+const NetworkGraph = lazy(() => import('./NetworkGraph'));
+const PhotoGallery = lazy(() => import('./PhotoGallery'));
+const ObituaryViewer = lazy(() => import('./ObituaryViewer'));
+const FamilyInterconnectionMatrix = lazy(() => import('./FamilyInterconnectionMatrix'));
+const SourcesCatalog = lazy(() => import('./SourcesCatalog'));
+const AuditResolutionPanel = lazy(() => import('./AuditResolutionPanel'));
 
 export default function HomeScreen() {
   const [activeTab, setActiveTab] = useState('surnames');
@@ -407,90 +409,98 @@ export default function HomeScreen() {
           </div>
         )}
 
-        {/* Tab 2: Interconnections */}
-        {activeTab === 'interconnections' && (
-          <FamilyInterconnectionMatrix onSelectSurname={handleSelectSurname} />
-        )}
-
-        {/* Tab 3: Lineage Graph */}
-        {activeTab === 'graph' && (
-          <div className="h-[620px] flex flex-col">
-            <div className="mb-4 flex justify-between items-center">
-              <div>
-                <h2 className="font-serif-header text-xl font-bold text-[#F3EBE3]">
-                  {selectedSurname ? `${selectedSurname} Lineage Graph` : 'Interactive Family Tree & Network'}
-                </h2>
-                <p className="text-xs text-[#A8A096]">Click any individual node to inspect their preserved source record.</p>
-              </div>
-              {selectedSurname && (
-                <button
-                  onClick={() => {
-                    setSelectedSurname(null);
-                    fetch('/api/graph').then(res => res.json()).then(setGraphData);
-                  }}
-                  className="text-xs bg-[#1C1A17] hover:bg-[#26221E] text-[#D4A373] border border-[#332D27] px-3 py-1.5 rounded-lg"
-                >
-                  Clear Filter
-                </button>
-              )}
-            </div>
-            <div className="flex-1">
-              <NetworkGraph
-                graphData={graphData}
-                onSelectNode={(node) => setSelectedPersonId(node.id)}
-              />
-            </div>
+        {/* Lazy Loaded Tab Contents with Suspense Fallback */}
+        <Suspense fallback={
+          <div className="flex flex-col items-center justify-center py-20 text-[#8C8275]">
+            <div className="w-8 h-8 border-2 border-[#C68B59]/30 border-t-[#C68B59] rounded-full animate-spin mb-3" />
+            <p className="text-xs font-mono">Loading archive module...</p>
           </div>
-        )}
+        }>
+          {/* Tab 2: Interconnections */}
+          {activeTab === 'interconnections' && (
+            <FamilyInterconnectionMatrix onSelectSurname={handleSelectSurname} />
+          )}
 
-        {/* Tab 4: Bible & Records */}
-        {activeTab === 'records' && (
-          <div className="space-y-4">
-            <h2 className="font-serif-header text-xl font-bold text-[#F3EBE3]">Preserved Family Bibles & Historical Records</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {['Change_of_Race.htm', 'Winnesoccum.htm', 'bible-c.htm', 'bible-c1.htm', 'bible-j.htm', 'bible-r.htm', 'census.htm', 'census01.htm', 'taxlist.htm', 'probate.htm'].map((file, idx) => (
-                <div
-                  key={idx}
-                  onClick={() => handleOpenRecord(file)}
-                  className="p-4 bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59]/60 rounded-xl cursor-pointer flex justify-between items-center transition-all group shadow-md"
-                >
-                  <div className="flex items-center gap-3.5">
-                    <div className="p-2 bg-[#121110] border border-[#2D2722] text-[#C68B59] rounded-lg group-hover:border-[#C68B59]/40">
-                      <FileText className="w-5 h-5" />
-                    </div>
-                    <div>
-                      <span className="font-serif-header font-bold text-[#F3EBE3] group-hover:text-[#D4A373] text-sm block">
-                        {file}
-                      </span>
-                      <span className="text-xs text-[#8C8275] font-mono">Historical primary document record</span>
-                    </div>
-                  </div>
-                  <span className="text-xs text-[#C68B59] font-mono font-medium group-hover:underline">View Record →</span>
+          {/* Tab 3: Lineage Graph */}
+          {activeTab === 'graph' && (
+            <div className="h-[620px] flex flex-col">
+              <div className="mb-4 flex justify-between items-center">
+                <div>
+                  <h2 className="font-serif-header text-xl font-bold text-[#F3EBE3]">
+                    {selectedSurname ? `${selectedSurname} Lineage Graph` : 'Interactive Family Tree & Network'}
+                  </h2>
+                  <p className="text-xs text-[#A8A096]">Click any individual node to inspect their preserved source record.</p>
                 </div>
-              ))}
+                {selectedSurname && (
+                  <button
+                    onClick={() => {
+                      setSelectedSurname(null);
+                      fetch('/api/graph').then(res => res.json()).then(setGraphData);
+                    }}
+                    className="text-xs bg-[#1C1A17] hover:bg-[#26221E] text-[#D4A373] border border-[#332D27] px-3 py-1.5 rounded-lg"
+                  >
+                    Clear Filter
+                  </button>
+                )}
+              </div>
+              <div className="flex-1">
+                <NetworkGraph
+                  graphData={graphData}
+                  onSelectNode={(node) => setSelectedPersonId(node.id)}
+                />
+              </div>
             </div>
-          </div>
-        )}
+          )}
 
-        {/* Tab 5: Photo Gallery */}
-        {activeTab === 'gallery' && (
-          <PhotoGallery />
-        )}
+          {/* Tab 4: Bible & Records */}
+          {activeTab === 'records' && (
+            <div className="space-y-4">
+              <h2 className="font-serif-header text-xl font-bold text-[#F3EBE3]">Preserved Family Bibles & Historical Records</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {['Change_of_Race.htm', 'Winnesoccum.htm', 'bible-c.htm', 'bible-c1.htm', 'bible-j.htm', 'bible-r.htm', 'census.htm', 'census01.htm', 'taxlist.htm', 'probate.htm'].map((file, idx) => (
+                  <div
+                    key={idx}
+                    onClick={() => handleOpenRecord(file)}
+                    className="p-4 bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59]/60 rounded-xl cursor-pointer flex justify-between items-center transition-all group shadow-md"
+                  >
+                    <div className="flex items-center gap-3.5">
+                      <div className="p-2 bg-[#121110] border border-[#2D2722] text-[#C68B59] rounded-lg group-hover:border-[#C68B59]/40">
+                        <FileText className="w-5 h-5" />
+                      </div>
+                      <div>
+                        <span className="font-serif-header font-bold text-[#F3EBE3] group-hover:text-[#D4A373] text-sm block">
+                          {file}
+                        </span>
+                        <span className="text-xs text-[#8C8275] font-mono">Historical primary document record</span>
+                      </div>
+                    </div>
+                    <span className="text-xs text-[#C68B59] font-mono font-medium group-hover:underline">View Record →</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
-        {/* Tab 6: Obituary Viewer */}
-        {activeTab === 'obituaries' && (
-          <ObituaryViewer />
-        )}
+          {/* Tab 5: Photo Gallery */}
+          {activeTab === 'gallery' && (
+            <PhotoGallery />
+          )}
 
-        {/* Tab 7: Sources Catalog */}
-        {activeTab === 'sources' && (
-          <SourcesCatalog onOpenRecord={handleOpenRecord} />
-        )}
+          {/* Tab 6: Obituary Viewer */}
+          {activeTab === 'obituaries' && (
+            <ObituaryViewer />
+          )}
 
-        {/* Tab 8: Audit Review */}
-        {activeTab === 'audit' && (
-          <AuditResolutionPanel />
-        )}
+          {/* Tab 7: Sources Catalog */}
+          {activeTab === 'sources' && (
+            <SourcesCatalog onOpenRecord={handleOpenRecord} />
+          )}
+
+          {/* Tab 8: Audit Review */}
+          {activeTab === 'audit' && (
+            <AuditResolutionPanel />
+          )}
+        </Suspense>
       </main>
 
       {/* Official Written In The Genome Footer */}
