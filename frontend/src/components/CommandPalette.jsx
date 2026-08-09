@@ -118,20 +118,25 @@ export default function CommandPalette({ isOpen, onClose, onSelectPerson, onSele
               className="p-3 bg-slate-900/60 hover:bg-slate-800 border border-transparent hover:border-amber-500/30 rounded-xl cursor-pointer flex items-center justify-between transition-all group"
             >
               <div className="flex items-center gap-3">
-                <div className="p-2 bg-amber-500/10 text-amber-400 rounded-lg group-hover:bg-amber-500/20">
+                <div className="p-2 bg-amber-500/10 text-amber-400 rounded-lg group-hover:bg-amber-500/20 shrink-0">
                   <Users className="w-4 h-4" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-semibold text-slate-100 group-hover:text-amber-300 transition-colors">
-                    {p.name}
-                  </h4>
+                  <div className="flex items-center gap-2">
+                    <span className="text-[10px] font-mono font-bold bg-amber-500/10 text-amber-400 border border-amber-500/30 px-1.5 py-0.5 rounded">
+                      ID #{p.person_id}
+                    </span>
+                    <h4 className="text-sm font-semibold text-slate-100 group-hover:text-amber-300 transition-colors">
+                      {p.name}
+                    </h4>
+                  </div>
                   {p.notes && (
-                    <p className="text-xs text-slate-400 truncate max-w-lg mt-0.5">{p.notes}</p>
+                    <p className="text-xs text-slate-400 truncate max-w-md sm:max-w-lg mt-0.5">{p.notes}</p>
                   )}
                 </div>
               </div>
-              <div className="flex items-center gap-1 text-xs text-slate-400 group-hover:text-amber-400 font-mono">
-                <span>View Profile</span>
+              <div className="flex items-center gap-1 text-xs text-slate-400 group-hover:text-amber-400 font-mono shrink-0">
+                <span className="hidden sm:inline">View Profile</span>
                 <CornerDownLeft className="w-3.5 h-3.5" />
               </div>
             </div>

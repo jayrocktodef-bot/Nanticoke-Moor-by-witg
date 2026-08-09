@@ -583,7 +583,7 @@ export default function HomeScreen() {
 
           <div className="pt-8 border-t border-[#26221E] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-[#665E54]">
             <p>© 2026 Written In The Genome. All Rights Reserved.</p>
-            <p>Genetic Archive v2.5 • 6,582 Preserved Profiles • 1,971 Photos</p>
+            <p>Genetic Archive v3.0 • {stats.persons || 8997} Preserved Profiles (ID #1 – #{stats.persons || 8997}) • {stats.photos || 1971} Photos</p>
           </div>
         </div>
       </footer>

@@ -50,10 +50,15 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
                 <User className="w-8 h-8" />
               </div>
               <div>
-                <span className="text-[10px] uppercase font-bold tracking-wider text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded font-mono">
-                  ID #{profile.person.person_id} • {profile.person.dataset_source}
-                </span>
-                <h2 className="text-2xl font-bold text-white mt-1">{profile.person.name}</h2>
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-mono font-bold uppercase tracking-wider text-amber-300 bg-amber-500/20 border border-amber-500/40 px-2.5 py-1 rounded-md shadow-sm">
+                    Individual ID #{profile.person.person_id}
+                  </span>
+                  <span className="text-[10px] uppercase font-mono text-slate-400 bg-slate-800 px-2 py-1 rounded">
+                    {profile.person.dataset_source}
+                  </span>
+                </div>
+                <h2 className="text-2xl font-bold text-white mt-1.5">{profile.person.name}</h2>
                 {profile.person.notes && (
                   <p className="text-xs text-slate-400 mt-1 leading-relaxed">{profile.person.notes}</p>
                 )}
