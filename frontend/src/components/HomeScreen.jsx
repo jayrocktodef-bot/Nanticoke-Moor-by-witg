@@ -55,45 +55,73 @@ export default function HomeScreen() {
   return (
     <div className="min-h-screen bg-[#121110] text-[#E5E1DB] flex flex-col font-sans selection:bg-[#C68B59]/30">
       {/* Header & Navigation Toolbar */}
-      <header className="border-b border-[#2D2722] bg-[#161412]/95 sticky top-0 z-40 backdrop-blur-md">
-        <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-3.5">
-            <div className="p-2.5 bg-gradient-to-br from-[#C68B59] to-[#9E6437] rounded-lg text-[#121110] shadow-md shadow-[#C68B59]/20">
-              <BookOpen className="w-5 h-5 stroke-[2.5]" />
-            </div>
-            <div>
-              <h1 className="font-serif-header font-bold text-lg leading-tight tracking-tight text-[#F3EBE3]">
-                Genetic Archive
-              </h1>
-              <span className="text-xs text-[#A8A096] font-mono tracking-wide">writteninthegenome.blog</span>
-            </div>
+      {/* Header & Navigation Toolbar */}
+      <header className="border-b border-[#2D2722] bg-[#141210]/95 sticky top-0 z-40 backdrop-blur-md">
+        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+          {/* Logo & Brand Title */}
+          <div className="flex items-center gap-4">
+            <a
+              href="https://writteninthegenome.blog"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-3.5"
+              title="Visit Main Blog — Written In The Genome"
+            >
+              <img
+                src="/logo.webp"
+                alt="Written In The Genome Official Logo"
+                className="w-11 h-11 rounded-full border-2 border-[#C68B59]/50 group-hover:border-[#D4A373] object-cover shadow-lg shadow-[#C68B59]/20 transition-all duration-300 group-hover:scale-105"
+                onError={e => { e.target.style.display = 'none'; }}
+              />
+              <div>
+                <div className="flex items-center gap-2">
+                  <h1 className="font-serif-header font-bold text-xl leading-tight tracking-tight text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors">
+                    Genetic Archive
+                  </h1>
+                  <span className="text-[10px] font-mono font-semibold bg-[#C68B59]/20 text-[#D4A373] border border-[#C68B59]/40 px-2 py-0.5 rounded-full uppercase tracking-wider">
+                    Official
+                  </span>
+                </div>
+                <p className="text-xs text-[#A8A096] font-sans font-medium tracking-wide flex items-center gap-1.5 mt-0.5">
+                  <span>Written In The Genome</span>
+                  <span className="text-[#665E54]">•</span>
+                  <span className="text-[#C68B59]/90 italic">DNA Ancestry & Lineages</span>
+                </p>
+              </div>
+            </a>
           </div>
 
-          {/* Persistent Heritage Stats & GEDCOM Export */}
-          <div className="hidden md:flex items-center gap-6 text-xs text-[#A8A096] font-mono">
-            <div className="flex items-center gap-2">
-              <FileText className="w-4 h-4 text-sky-400" />
-              <span><strong className="text-[#F3EBE3] tabular-nums">{stats.pages}</strong> Pages</span>
+          {/* External Brand Links & Persistent Stats */}
+          <div className="flex items-center gap-4">
+            {/* Quick Action Links: Main Blog & Genotype Scout */}
+            <div className="hidden lg:flex items-center gap-2.5">
+              <a
+                href="https://writteninthegenome.blog"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#1C1A17] hover:bg-[#26221E] border border-[#332D27] hover:border-[#C68B59]/60 text-[#F3EBE3] hover:text-[#D4A373] px-3.5 py-2 rounded-xl transition-all text-xs font-semibold flex items-center gap-2 shadow-sm"
+              >
+                <span>🌐 Main Blog & Articles</span>
+              </a>
+              <a
+                href="https://writteninthegenome.blog"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gradient-to-r from-[#C68B59]/20 to-[#9E6437]/20 border border-[#C68B59]/50 hover:border-[#C68B59] text-[#D4A373] hover:text-[#F3EBE3] px-3.5 py-2 rounded-xl transition-all text-xs font-bold flex items-center gap-2 shadow-md shadow-[#C68B59]/10"
+              >
+                <Sparkles className="w-3.5 h-3.5 text-[#D4A373]" />
+                <span>Genotype Scout</span>
+              </a>
             </div>
-            <div className="flex items-center gap-2">
-              <Users className="w-4 h-4 text-[#C68B59]" />
-              <span><strong className="text-[#F3EBE3] tabular-nums">{stats.persons}</strong> Persons</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <GitFork className="w-4 h-4 text-emerald-400" />
-              <span><strong className="text-[#F3EBE3] tabular-nums">{stats.relationships}</strong> Lineages</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <ImageIcon className="w-4 h-4 text-purple-400" />
-              <span><strong className="text-[#F3EBE3] tabular-nums">{stats.photos || stats.media_assets}</strong> Photos</span>
-            </div>
+
+            {/* GEDCOM Export Button */}
             <a
               href="/api/export/gedcom"
               download="delmarva_genealogy_preservation.ged"
-              className="bg-[#C68B59]/15 border border-[#C68B59]/40 text-[#D4A373] px-3.5 py-1.5 rounded-lg hover:bg-[#C68B59]/25 hover:border-[#C68B59]/60 transition-all flex items-center gap-1.5 font-semibold text-xs shadow-sm"
+              className="bg-[#C68B59] hover:bg-[#D4A373] text-[#121110] px-4 py-2 rounded-xl transition-all flex items-center gap-1.5 font-bold text-xs shadow-md shadow-[#C68B59]/20"
               title="Export complete lineage database in standard GEDCOM format"
             >
-              <Download className="w-3.5 h-3.5" />
+              <Download className="w-3.5 h-3.5 stroke-[2.5]" />
               Export GEDCOM
             </a>
           </div>
@@ -436,6 +464,109 @@ export default function HomeScreen() {
           <AuditResolutionPanel />
         )}
       </main>
+
+      {/* Official Written In The Genome Footer */}
+      <footer className="border-t border-[#2D2722] bg-[#141210] mt-16 text-[#A8A096]">
+        <div className="max-w-7xl mx-auto px-6 py-12">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+            {/* Column 1: Brand & Tagline */}
+            <div className="space-y-3.5 md:col-span-2">
+              <div className="flex items-center gap-3">
+                <img
+                  src="/logo.webp"
+                  alt="Written In The Genome Official Logo"
+                  className="w-10 h-10 rounded-full border border-[#C68B59]/40 object-cover"
+                />
+                <div>
+                  <h3 className="font-serif-header font-bold text-lg text-[#F3EBE3]">Written In The Genome</h3>
+                  <p className="text-xs text-[#C68B59] font-mono">African American Genealogy & DNA Ancestry</p>
+                </div>
+              </div>
+              <p className="text-xs text-[#8C8275] leading-relaxed max-w-md">
+                Preserving African American & Native American genealogies, oral histories, family Bibles, probate wills, and genomic ancestry records across Central Delaware and the Delmarva Peninsula.
+              </p>
+            </div>
+
+            {/* Column 2: Official Websites */}
+            <div className="space-y-2.5">
+              <h4 className="text-xs font-serif-header font-bold text-[#F3EBE3] uppercase tracking-wider">Official Websites</h4>
+              <ul className="space-y-2 text-xs">
+                <li>
+                  <a
+                    href="https://writteninthegenome.blog"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-[#D4A373] transition-colors flex items-center gap-1.5"
+                  >
+                    <span>🌐 Main Blog & Research</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://writteninthegenome.blog"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-[#D4A373] transition-colors flex items-center gap-1.5"
+                  >
+                    <Sparkles className="w-3 h-3 text-[#C68B59]" />
+                    <span>Genotype Scout Tool</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://familyarchive.writteninthegenome.blog"
+                    className="text-[#D4A373] hover:underline font-semibold flex items-center gap-1.5"
+                  >
+                    <span>🧬 Genetic Archive</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Column 3: Repositories & Open Source */}
+            <div className="space-y-2.5">
+              <h4 className="text-xs font-serif-header font-bold text-[#F3EBE3] uppercase tracking-wider">Repositories & Code</h4>
+              <ul className="space-y-2 text-xs">
+                <li>
+                  <a
+                    href="https://github.com/jayrocktodef-bot/Nanticoke-Moor-by-witg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-[#D4A373] transition-colors"
+                  >
+                    GitHub Source Repository
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://nativeamericansofdelawarestate.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-[#D4A373] transition-colors"
+                  >
+                    Mitsawokett Photo Archive
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://americanindian.si.edu/collections-search/search/archives"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-[#D4A373] transition-colors"
+                  >
+                    Smithsonian NMAI Archives
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="pt-8 border-t border-[#26221E] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-[#665E54]">
+            <p>© 2026 Written In The Genome. All Rights Reserved.</p>
+            <p>Genetic Archive v2.5 • 6,582 Preserved Profiles • 1,971 Photos</p>
+          </div>
+        </div>
+      </footer>
 
       {/* Person Profile Drawer Modal */}
       {selectedPersonId && (

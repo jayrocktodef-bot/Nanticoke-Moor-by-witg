@@ -13,14 +13,18 @@
   }
 
   body {
-    background-color: #121110;
+    background-color: #0F0E0D;
     color: #E5E1DB;
     font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   }
 
   h1, h2, h3, .font-serif-header {
-    font-family: 'Cinzel', Georgia, serif;
+    font-family: 'Cormorant Garamond', 'Cinzel', Georgia, serif;
     letter-spacing: -0.01em;
+  }
+
+  .font-brand {
+    font-family: 'Bricolage Grotesque', sans-serif;
   }
 
   .tabular-nums {
