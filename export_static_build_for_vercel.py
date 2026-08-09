@@ -260,6 +260,34 @@ def export_all():
     """)
     orphaned_photos = c.fetchone()[0]
 
+    print("Step 11: Generating production sitemap.xml...")
+    site_url = "https://familyarchive.writteninthegenome.blog"
+    sitemap_lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+        f'  <url><loc>{site_url}/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>',
+        f'  <url><loc>{site_url}/surnames</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>',
+        f'  <url><loc>{site_url}/interconnections</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>',
+        f'  <url><loc>{site_url}/graph</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>',
+        f'  <url><loc>{site_url}/records</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>',
+        f'  <url><loc>{site_url}/gallery</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>',
+        f'  <url><loc>{site_url}/obituaries</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>',
+        f'  <url><loc>{site_url}/sources</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>',
+        f'  <url><loc>{site_url}/audit</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>',
+    ]
+    
+    # Add surname portal routes
+    for s_item in surnames_data:
+        sn = s_item["surname"]
+        sitemap_lines.append(f'  <url><loc>{site_url}/surname/{sn}</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>')
+
+    sitemap_lines.append('</urlset>')
+    
+    sitemap_path = os.path.join(PUBLIC_DIR, 'sitemap.xml')
+    with open(sitemap_path, 'w', encoding='utf-8') as sf:
+        sf.write('\n'.join(sitemap_lines))
+    print(f"  ✓ sitemap.xml generated with {len(sitemap_lines)-3} indexed URLs at {sitemap_path}")
+
     conn.close()
     
     print("=========================================================================")
