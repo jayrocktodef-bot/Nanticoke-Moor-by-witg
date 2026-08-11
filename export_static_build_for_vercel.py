@@ -93,7 +93,12 @@ def export_all():
         json.dump(surnames_data, f, indent=2)
 
     print("Step 3: Exporting /api/obituaries.json...")
-    c.execute("SELECT id, deceased_name, age, birth_date, death_date, cemetery_location, full_text, source_url FROM obituaries ORDER BY deceased_name")
+    c.execute("""
+        SELECT o.id, o.deceased_name, o.age, o.birth_date, o.death_date, o.cemetery_location, o.full_text, o.source_url, po.person_id
+        FROM obituaries o
+        LEFT JOIN person_obituaries po ON o.id = po.obituary_id AND po.role = 'deceased'
+        ORDER BY o.deceased_name
+    """)
     obits = [dict(r) for r in c.fetchall()]
     with open(os.path.join(API_DIR, 'obituaries.json'), 'w') as f:
         json.dump(obits, f, indent=2)

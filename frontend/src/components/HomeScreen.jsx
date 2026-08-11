@@ -516,7 +516,7 @@ export default function HomeScreen() {
 
           {/* Tab 6: Obituary Viewer */}
           {activeTab === 'obituaries' && (
-            <ObituaryViewer />
+            <ObituaryViewer onSelectPerson={(pid) => setSelectedPersonId(pid)} />
           )}
 
           {/* Tab 7: Sources Catalog */}

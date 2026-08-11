@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, HeartHandshake, Calendar, MapPin, ExternalLink, User } from 'lucide-react';
 
-export default function ObituaryViewer() {
+export default function ObituaryViewer({ onSelectPerson }) {
   const [obituaries, setObituaries] = useState([]);
   const [search, setSearch] = useState('');
   const [selectedObit, setSelectedObit] = useState(null);
@@ -127,7 +127,21 @@ export default function ObituaryViewer() {
                 >
                   {expandedObitId === obit.id ? 'Collapse Text ▲' : 'Expand Text ▼'}
                 </button>
-                <span className="text-amber-400 group-hover:underline font-mono">View Full Detail →</span>
+                {obit.person_id ? (
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onSelectPerson && onSelectPerson(obit.person_id);
+                    }}
+                    className="text-amber-400 hover:text-amber-300 font-mono font-medium hover:underline flex items-center gap-1"
+                  >
+                    <User className="w-3 h-3 text-sky-400" />
+                    View Individual Profile (#{obit.person_id}) →
+                  </button>
+                ) : (
+                  <span className="text-amber-400 group-hover:underline font-mono">View Full Detail →</span>
+                )}
               </div>
             </div>
           ))}
