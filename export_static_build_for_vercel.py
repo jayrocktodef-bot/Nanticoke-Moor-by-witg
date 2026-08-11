@@ -12,17 +12,9 @@ PUBLIC_DIR = os.path.join(BASE_DIR, 'frontend', 'public')
 ASSETS_SRC = os.path.join(BASE_DIR, 'preservation_output', 'assets', 'mitsawokett_photos')
 ASSETS_DEST = os.path.join(BASE_DIR, 'frontend', 'public', 'assets', 'mitsawokett_photos')
 
-SUFFIXES = {'sr', 'sr.', 'jr', 'jr.', 'iii', 'iv', 'ii', 'v', 'vi', 'esq', 'esq.', 'md', 'phd'}
-
-def get_clean_surname(name):
-    if not name:
-        return "Unknown"
-    parts = [p.strip(' .,;') for p in name.strip().split() if p.strip(' .,;')]
-    if not parts:
-        return "Unknown"
-    while len(parts) > 1 and parts[-1].lower() in SUFFIXES:
-        parts.pop()
-    return parts[-1] if parts else "Unknown"
+import sys
+sys.path.insert(0, BASE_DIR)
+from archive_naming_rules import get_clean_surname, is_valid_person_name, NOISE_WORDS
 
 def export_all():
     conn = sqlite3.connect(DB_PATH)
@@ -77,13 +69,24 @@ def export_all():
         c.execute("SELECT COUNT(*) FROM obituaries WHERE deceased_name LIKE ? OR full_text LIKE ?", (f"%{s}%", f"%{s}%"))
         ob_cnt = c.fetchone()[0]
         
+        variants = f"{s}s, {s}e"
+        if s == "Sammons":
+            variants = "Salmons, Samons, Sammon, Sammons"
+            # Count Salmons as well in the aggregate count for Sammons portal
+            c.execute("SELECT COUNT(*) FROM persons WHERE name LIKE '%Sammons%' OR name LIKE '%Salmons%'")
+            p_cnt = c.fetchone()[0]
+            c.execute("SELECT COUNT(*) FROM photo_catalog WHERE subject_names LIKE '%Sammons%' OR subject_names LIKE '%Salmons%'")
+            ph_cnt = c.fetchone()[0]
+            c.execute("SELECT COUNT(*) FROM obituaries WHERE deceased_name LIKE '%Sammons%' OR deceased_name LIKE '%Salmons%' OR full_text LIKE '%Sammons%' OR full_text LIKE '%Salmons%'")
+            ob_cnt = c.fetchone()[0]
+
         surnames_data.append({
             "surname": s,
             "individual_count": p_cnt,
             "photo_count": ph_cnt,
             "obituary_count": ob_cnt,
             "associated_pages": 12,
-            "variants": f"{s}s, {s}e"
+            "variants": variants
         })
         
     with open(os.path.join(API_DIR, 'surnames.json'), 'w') as f:
