@@ -29,7 +29,7 @@ export default function SplashScreen({ onEnter }) {
             <Archive className="w-10 h-10 text-white" />
           </div>
           <h1 className="text-4xl md:text-6xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-gray-100 to-gray-400 mb-4">
-            Nanticoke
+            Tidewater Families
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-indigo-400">
             Historical Archive
