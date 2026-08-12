@@ -14,45 +14,64 @@ const EDGE_STYLES = {
 export default function NetworkGraph({ graphData, onSelectNode }) {
   const containerRef = useRef(null);
   const networkRef = useRef(null);
-  const [viewFormat, setViewFormat] = useState('tree'); // 'tree', 'roster', or 'focus'
+  const [viewFormat, setViewFormat] = useState('focus'); // Default to high-performance Focus Network
   const [searchFilter, setSearchFilter] = useState('');
+  const [focalNodeId, setFocalNodeId] = useState(null); // Person focused on in network view
 
   // 1. Render vis-network when in 'tree' or 'focus' view format
   useEffect(() => {
     if (viewFormat === 'roster' || !containerRef.current || !graphData || !graphData.nodes) return;
 
-    // Filter nodes if search query present
-    let filteredNodes = graphData.nodes;
-    if (searchFilter) {
-      const q = searchFilter.toLowerCase();
-      filteredNodes = graphData.nodes.filter(n => n.label.toLowerCase().includes(q) || (n.group && n.group.toLowerCase().includes(q)));
+    let displayNodes = graphData.nodes;
+    let displayEdges = graphData.edges;
+
+    // In Focus mode, if a focal person is set, filter to 2-degree immediate relatives for ultra 60FPS performance
+    if (viewFormat === 'focus' && focalNodeId) {
+      const neighborIds = new Set([focalNodeId]);
+      // Degree 1
+      graphData.edges.forEach(e => {
+        if (e.from === focalNodeId) neighborIds.add(e.to);
+        if (e.to === focalNodeId) neighborIds.add(e.from);
+      });
+      // Degree 2
+      graphData.edges.forEach(e => {
+        if (neighborIds.has(e.from)) neighborIds.add(e.to);
+        if (neighborIds.has(e.to)) neighborIds.add(e.from);
+      });
+      displayNodes = graphData.nodes.filter(n => neighborIds.has(n.id));
+      displayEdges = graphData.edges.filter(e => neighborIds.has(e.from) && neighborIds.has(e.to));
     }
 
-    const nodeIds = new Set(filteredNodes.map(n => n.id));
-    const filteredEdges = graphData.edges.filter(e => nodeIds.has(e.from) && nodeIds.has(e.to));
+    // Filter nodes if search query present
+    if (searchFilter) {
+      const q = searchFilter.toLowerCase();
+      displayNodes = displayNodes.filter(n => n.label.toLowerCase().includes(q) || (n.group && n.group.toLowerCase().includes(q)));
+      const nodeIds = new Set(displayNodes.map(n => n.id));
+      displayEdges = displayEdges.filter(e => nodeIds.has(e.from) && nodeIds.has(e.to));
+    }
 
     // Process Nodes
     const visNodes = new DataSet(
-      filteredNodes.map(n => ({
+      displayNodes.map(n => ({
         id: n.id,
         label: n.label,
         shape: 'box',
         color: {
-          background: '#0f172a',
-          border: '#334155',
+          background: n.id === focalNodeId ? '#c68b59' : '#0f172a',
+          border: n.id === focalNodeId ? '#f59e0b' : '#334155',
           highlight: { background: '#1e293b', border: '#f59e0b' },
           hover: { background: '#1e293b', border: '#38bdf8' }
         },
         font: { color: '#f8fafc', face: 'ui-sans-serif, system-ui', size: 12, bold: true },
         margin: { top: 10, bottom: 10, left: 14, right: 14 },
-        borderWidth: 1.5,
+        borderWidth: n.id === focalNodeId ? 2.5 : 1.5,
         title: `Person: ${n.label}\nSource: ${n.source_page || 'Preserved Record'}`
       }))
     );
 
     // Process Edges
     const visEdges = new DataSet(
-      filteredEdges.map((e, idx) => {
+      displayEdges.map((e, idx) => {
         const style = EDGE_STYLES[e.type] || EDGE_STYLES.default;
         return {
           id: idx,
@@ -111,15 +130,15 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
 
     networkRef.current = new Network(containerRef.current, { nodes: visNodes, edges: visEdges }, options);
 
-    // Select Node Event (Prevents Canvas Over-Extension)
+    // Select Node Event
     networkRef.current.on('selectNode', (params) => {
       if (params.nodes.length > 0) {
         const nodeId = params.nodes[0];
+        setFocalNodeId(nodeId);
         const node = graphData.nodes.find(n => n.id === nodeId);
         if (node && onSelectNode) {
           onSelectNode(node);
         }
-        // Deselect node on network canvas so vis-network doesn't lock or stretch
         setTimeout(() => {
           if (networkRef.current) {
             networkRef.current.unselectAll();
@@ -133,7 +152,7 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
         networkRef.current.destroy();
       }
     };
-  }, [graphData, viewFormat, searchFilter]);
+  }, [graphData, viewFormat, searchFilter, focalNodeId]);
 
   const handleZoomIn = () => networkRef.current && networkRef.current.zoomIn();
   const handleZoomOut = () => networkRef.current && networkRef.current.zoomOut();
@@ -160,6 +179,18 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
           </span>
           <div className="flex bg-slate-950 p-1 rounded-lg border border-slate-800 text-xs gap-1">
             <button
+              onClick={() => setViewFormat('focus')}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md font-semibold transition-all ${
+                viewFormat === 'focus'
+                  ? 'bg-amber-500 text-slate-950 font-bold shadow'
+                  : 'text-slate-400 hover:text-slate-200'
+              }`}
+            >
+              <NetworkIcon className="w-3.5 h-3.5" />
+              Focus Network (Interactive)
+            </button>
+
+            <button
               onClick={() => setViewFormat('tree')}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md font-semibold transition-all ${
                 viewFormat === 'tree'
@@ -168,7 +199,7 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
               }`}
             >
               <GitBranch className="w-3.5 h-3.5" />
-              Family Tree (Top-Down)
+              Family Tree View
             </button>
 
             <button
@@ -181,18 +212,6 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
             >
               <LayoutGrid className="w-3.5 h-3.5" />
               Organized Family Cards
-            </button>
-
-            <button
-              onClick={() => setViewFormat('focus')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md font-semibold transition-all ${
-                viewFormat === 'focus'
-                  ? 'bg-amber-500 text-slate-950 font-bold shadow'
-                  : 'text-slate-400 hover:text-slate-200'
-              }`}
-            >
-              <NetworkIcon className="w-3.5 h-3.5" />
-              Focus Network
             </button>
           </div>
         </div>
