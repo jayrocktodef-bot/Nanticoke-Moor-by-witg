@@ -13,18 +13,19 @@ export default function ObituaryViewer({ onSelectPerson }) {
     fetch('/api/obituaries.json')
       .then(r => r.json())
       .then(data => {
-        if (q.trim()) {
-          const lowerQ = q.toLowerCase();
-          const filtered = data.filter(o => 
-            o.deceased_name?.toLowerCase().includes(lowerQ) ||
-            o.full_text?.toLowerCase().includes(lowerQ) ||
-            o.cemetery_location?.toLowerCase().includes(lowerQ)
-          );
-          setObituaries(filtered);
-        } else {
-          setObituaries(data);
-        }
-        setLoading(false);
+          data.sort((a, b) => (a.deceased_name || '').localeCompare(b.deceased_name || '', undefined, { sensitivity: 'base' }));
+          if (q.trim()) {
+            const lowerQ = q.toLowerCase();
+            const filtered = data.filter(o => 
+              o.deceased_name?.toLowerCase().includes(lowerQ) ||
+              o.full_text?.toLowerCase().includes(lowerQ) ||
+              o.cemetery_location?.toLowerCase().includes(lowerQ)
+            );
+            setObituaries(filtered);
+          } else {
+            setObituaries(data);
+          }
+          setLoading(false);
       })
       .catch(() => setLoading(false));
   };

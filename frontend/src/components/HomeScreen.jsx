@@ -69,10 +69,12 @@ export default function HomeScreen() {
 
   // Filter surnames by A-Z letter ribbon & apply windowed pagination
   const alphabet = ['ALL', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')];
-  const filteredSurnames = surnames.filter(s => {
-    if (selectedLetter === 'ALL') return true;
-    return s.surname.toUpperCase().startsWith(selectedLetter);
-  });
+  const filteredSurnames = surnames
+    .filter(s => {
+      if (selectedLetter === 'ALL') return true;
+      return s.surname.toUpperCase().startsWith(selectedLetter);
+    })
+    .sort((a, b) => a.surname.localeCompare(b.surname, undefined, { sensitivity: 'base' }));
 
   const totalPages = Math.ceil(filteredSurnames.length / pageSize) || 1;
   const paginatedSurnames = filteredSurnames.slice((currentPage - 1) * pageSize, currentPage * pageSize);
