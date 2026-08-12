@@ -106,7 +106,7 @@ def export_all():
         json.dump(obits, f, indent=2)
 
     print("Step 4: Exporting /api/photos.json...")
-    c.execute("SELECT photo_id, title_or_caption, subject_names, maiden_name, married_surname, approximate_year, local_image_path, source_url FROM photo_catalog ORDER BY photo_id DESC")
+    c.execute("SELECT photo_id, title_or_caption, subject_names, maiden_name, married_surname, approximate_year, local_image_path, source_url, media_type FROM photo_catalog ORDER BY photo_id DESC")
     photos = [dict(r) for r in c.fetchall()]
     with open(os.path.join(API_DIR, 'photos.json'), 'w') as f:
         json.dump(photos, f, indent=2)

@@ -7,6 +7,18 @@ export default function PhotoGallery() {
   const [photos, setPhotos] = useState([]);
   const [lightboxPhoto, setLightboxPhoto] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [categoryTab, setCategoryTab] = useState('portraits'); // 'portraits', 'trees', 'all'
+
+  const isTreeItem = (p) => {
+    if (p.media_type === 'lineage_tree') return true;
+    const path = (p.local_image_path || '').toLowerCase();
+    const title = (p.title_or_caption || '').toLowerCase();
+    return (
+      path.includes('ancestry') || path.includes('tree') || path.includes('diagram') || path.includes('chart') ||
+      title.includes('ancestry') || title.includes('tree') || title.includes('diagram') || title.includes('chart') ||
+      title.includes('go to') || title.includes('| d |') || title.includes('| e-l |') || title.includes('| m |') || title.includes('| n-r')
+    );
+  };
 
   useEffect(() => {
     fetch('/api/photos.json')
@@ -14,13 +26,15 @@ export default function PhotoGallery() {
       .then(data => {
         const countsMap = {};
         data.forEach(p => {
-          const s = p.maiden_name;
-          if (s && s.length > 1) {
-            countsMap[s] = (countsMap[s] || 0) + 1;
+          if (!isTreeItem(p)) {
+            const s = p.maiden_name;
+            if (s && s.length > 1) {
+              countsMap[s] = (countsMap[s] || 0) + 1;
+            }
           }
         });
         const countsArr = Object.entries(countsMap).map(([surname, photo_count]) => ({ surname, photo_count }));
-        countsArr.sort((a, b) => b.photo_count - a.photo_count);
+        countsArr.sort((a, b) => a.surname.localeCompare(b.surname, undefined, { sensitivity: 'base' }));
         setSurnameCounts(countsArr);
       })
       .catch(console.error);
@@ -33,11 +47,16 @@ export default function PhotoGallery() {
       .then(r => r.json())
       .then(data => {
         const lowerS = surname.toLowerCase();
-        const filtered = data.filter(p => 
+        let filtered = data.filter(p => 
           p.maiden_name?.toLowerCase().includes(lowerS) ||
           p.married_surname?.toLowerCase().includes(lowerS) ||
           p.subject_names?.toLowerCase().includes(lowerS)
         );
+        if (categoryTab === 'portraits') {
+          filtered = filtered.filter(p => !isTreeItem(p));
+        } else if (categoryTab === 'trees') {
+          filtered = filtered.filter(p => isTreeItem(p));
+        }
         setPhotos(filtered);
         setLoading(false);
       })
@@ -50,7 +69,13 @@ export default function PhotoGallery() {
     fetch('/api/photos.json')
       .then(r => r.json())
       .then(data => {
-        setPhotos(data);
+        let filtered = data;
+        if (categoryTab === 'portraits') {
+          filtered = data.filter(p => !isTreeItem(p));
+        } else if (categoryTab === 'trees') {
+          filtered = data.filter(p => isTreeItem(p));
+        }
+        setPhotos(filtered);
         setLoading(false);
       })
       .catch(() => setLoading(false));
@@ -73,13 +98,41 @@ export default function PhotoGallery() {
 
     return (
       <div>
-        <div className="flex items-center justify-between mb-6">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
           <div>
             <h2 className="text-xl font-bold text-white mb-1">Photo Archive — Surname Portals</h2>
             <p className="text-xs text-slate-400">
-              {surnameCounts.length} surname groups • {surnameCounts.reduce((a, s) => a + s.photo_count, 0)} total photos cataloged
+              {surnameCounts.length} surname groups • {surnameCounts.reduce((a, s) => a + s.photo_count, 0)} historical portrait photos cataloged
             </p>
           </div>
+
+          {/* Media Category Tab Selector */}
+          <div className="flex items-center gap-2 bg-slate-900 border border-slate-800 p-1 rounded-xl text-xs">
+            <button
+              onClick={() => setCategoryTab('portraits')}
+              className={`px-3 py-1.5 rounded-lg font-semibold transition-all ${
+                categoryTab === 'portraits'
+                  ? 'bg-amber-500 text-slate-950 shadow-md font-bold'
+                  : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              📷 People Portraits
+            </button>
+            <button
+              onClick={() => {
+                setCategoryTab('trees');
+                handleShowAll();
+              }}
+              className={`px-3 py-1.5 rounded-lg font-semibold transition-all ${
+                categoryTab === 'trees'
+                  ? 'bg-amber-500 text-slate-950 shadow-md font-bold'
+                  : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              🌳 Lineage Trees & Charts
+            </button>
+          </div>
+
           <button
             onClick={handleShowAll}
             className="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-4 py-2 rounded-lg transition-all flex items-center gap-1.5"
