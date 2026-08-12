@@ -335,7 +335,10 @@ export default function HomeScreen() {
               {alphabet.map(letter => (
                 <button
                   key={letter}
-                  onClick={() => setSelectedLetter(letter)}
+                  onClick={() => {
+                    setSelectedLetter(letter);
+                    setCurrentPage(1);
+                  }}
                   className={`text-xs font-mono px-2.5 py-1 rounded-lg border transition-all shrink-0 ${
                     selectedLetter === letter
                       ? 'bg-[#C68B59] text-[#121110] font-bold border-[#C68B59]'

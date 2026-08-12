@@ -51,13 +51,15 @@ def export_all():
         json.dump(stats, f, indent=2)
 
     print("Step 2: Exporting /api/surnames.json...")
-    # Canonical surnames
+    # Canonical Delmarva & Nanticoke Protected Surnames
     key_surnames = [
-        "Harmon", "Wright", "Sockum", "Counselor", "Ridgeway", "Carney", "Davis",
-        "Cork", "Loatman", "Dean", "Durham", "Francisco", "Pierce", "Street",
-        "Jackson", "Mosley", "Muncey", "Johnson", "Reed", "Miller", "Butcher",
-        "Sammons", "Oakley", "Bantum", "Copes", "Hansor", "Hughes", "Puckham",
-        "Bookram", "Pinder", "Kinyon"
+        "Bantum", "Bookram", "Butcher", "Carmean", "Carney", "Clark", "Coker", "Conaway",
+        "Copes", "Cordrey", "Cork", "Cottman", "Counselor", "Cremeen", "Davis", "Dean",
+        "Dickerson", "Durham", "Francisco", "Goldsborough", "Green", "Handsor", "Hanzer",
+        "Harmon", "Hitchens", "Hughes", "Ingram", "Jackson", "Johnson", "Kinyon", "Loatman",
+        "Miller", "Moore", "Morris", "Mosley", "Muncey", "Norwood", "Oakley", "Pierce",
+        "Pinder", "Puckham", "Reed", "Ridgeway", "Sammons", "Sockum", "Street", "Thomas",
+        "Thompson", "Turner", "Wilson", "Wright"
     ]
     
     surnames_data = []
