@@ -466,7 +466,7 @@ export default function HomeScreen() {
                   <button
                     onClick={() => {
                       setSelectedSurname(null);
-                      fetch('/api/graph').then(res => res.json()).then(setGraphData);
+                      fetch('/api/graph.json').then(res => res.json()).then(setGraphData);
                     }}
                     className="text-xs bg-[#1C1A17] hover:bg-[#26221E] text-[#D4A373] border border-[#332D27] px-3 py-1.5 rounded-lg"
                   >

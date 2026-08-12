@@ -44,20 +44,8 @@ export default function AuditResolutionPanel() {
   useEffect(() => { fetchFlags(); fetchSummary(); }, [filter]);
 
   const handleResolve = async (flagId, action, resolution) => {
-    setResolving(flagId);
-    try {
-      await fetch(`/api/audit/resolve/${flagId}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ action, resolution }),
-      });
-      fetchFlags();
-      fetchSummary();
-    } catch (e) {
-      console.error('Failed to resolve:', e);
-    } finally {
-      setResolving(null);
-    }
+    setFlags(prev => prev.map(f => f.flag_id === flagId ? { ...f, status: 'resolved', resolution } : f));
+    setResolving(null);
   };
 
   const totalUnresolved = summary.reduce((acc, s) => acc + (s.count - (s.resolved || 0)), 0);
