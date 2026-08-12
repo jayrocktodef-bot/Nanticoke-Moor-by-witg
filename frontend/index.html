@@ -57,12 +57,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;600;700&family=Cinzel:wght@500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LYX9DTZ82F"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2N50VKT3KT"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-LYX9DTZ82F');
+      gtag('config', 'G-2N50VKT3KT', {
+        linker: {
+          domains: ['writteninthegenome.blog', 'scout.writteninthegenome.blog', 'familyarchive.writteninthegenome.blog']
+        }
+      });
+    </script>
+    <!-- Written In The Genome Network: Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Written In The Genome",
+      "url": "https://writteninthegenome.blog",
+      "logo": "https://writteninthegenome.blog/wp-content/uploads/2026/03/cropped-1000055020-e1773637919503.webp",
+      "description": "Exploring African American genealogy, DNA ancestry, and family history through genomic analysis.",
+      "sameAs": [
+        "https://writteninthegenome.blog",
+        "https://scout.writteninthegenome.blog",
+        "https://familyarchive.writteninthegenome.blog"
+      ]
+    }
     </script>
     <!-- WordPress Jetpack Stats Tracking Integration -->
     <script async defer src="https://stats.wp.com/w.js"></script>
