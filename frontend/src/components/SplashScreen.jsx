@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Archive, Library, Shield, Users, DatabaseZap } from 'lucide-react';
 
 export default function SplashScreen({ onEnter }) {
@@ -8,122 +8,245 @@ export default function SplashScreen({ onEnter }) {
     setIsAnimatingOut(true);
     setTimeout(() => {
       onEnter();
-    }, 600); // Wait for exit animation
+    }, 700);
   };
 
   return (
-    <div className={`fixed inset-0 z-50 flex items-center justify-center bg-gray-950 text-gray-100 overflow-y-auto overflow-x-hidden transition-opacity duration-700 ease-in-out ${isAnimatingOut ? 'opacity-0' : 'opacity-100'}`}>
-      
-      {/* Background Decorative Elements */}
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto overflow-x-hidden transition-opacity duration-700 ease-in-out"
+      style={{
+        background: '#0F0E0D',
+        color: '#E5E1DB',
+        opacity: isAnimatingOut ? 0 : 1,
+      }}
+    >
+      {/* Background warm glow orbs */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] bg-blue-900/20 rounded-full blur-[120px] mix-blend-screen" />
-        <div className="absolute bottom-[-20%] right-[-10%] w-[50%] h-[50%] bg-indigo-900/20 rounded-full blur-[120px] mix-blend-screen" />
-        <div className="absolute top-[40%] left-[30%] w-[40%] h-[40%] bg-purple-900/10 rounded-full blur-[100px] mix-blend-screen" />
+        <div style={{
+          position: 'absolute', top: '-15%', left: '-10%',
+          width: '55%', height: '55%',
+          background: 'radial-gradient(circle, rgba(198,139,89,0.12) 0%, transparent 70%)',
+          filter: 'blur(80px)',
+        }} />
+        <div style={{
+          position: 'absolute', bottom: '-15%', right: '-10%',
+          width: '55%', height: '55%',
+          background: 'radial-gradient(circle, rgba(212,163,115,0.10) 0%, transparent 70%)',
+          filter: 'blur(80px)',
+        }} />
+        <div style={{
+          position: 'absolute', top: '35%', left: '25%',
+          width: '50%', height: '40%',
+          background: 'radial-gradient(circle, rgba(198,139,89,0.06) 0%, transparent 70%)',
+          filter: 'blur(60px)',
+        }} />
+        {/* Subtle grain texture line across top */}
+        <div style={{
+          position: 'absolute', top: 0, left: 0, right: 0, height: '1px',
+          background: 'linear-gradient(90deg, transparent, #C68B59 40%, #D4A373 60%, transparent)',
+          opacity: 0.3,
+        }} />
       </div>
 
       <div className="relative z-10 max-w-4xl w-full mx-auto px-6 py-12 md:py-20 flex flex-col items-center">
-        
-        {/* Header Section */}
-        <div className="text-center mb-12 animate-fade-in-up" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
-          <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-indigo-500 to-blue-600 mb-6 shadow-lg shadow-indigo-500/30">
-            <Archive className="w-10 h-10 text-white" />
+
+        {/* Header */}
+        <div className="text-center mb-12 splash-fade-up" style={{ animationDelay: '0.1s' }}>
+          {/* Icon */}
+          <div style={{
+            display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+            width: 80, height: 80, borderRadius: 20,
+            background: 'linear-gradient(135deg, #C68B59, #8B5E3C)',
+            marginBottom: 24,
+            boxShadow: '0 8px 32px rgba(198,139,89,0.35)',
+            border: '1px solid rgba(212,163,115,0.3)',
+          }}>
+            <Archive style={{ width: 36, height: 36, color: '#F3EBE3' }} />
           </div>
-          <h1 className="text-4xl md:text-6xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-gray-100 to-gray-400 mb-4">
+
+          {/* Main title — Cormorant Garamond serif to match the app */}
+          <h1 style={{
+            fontFamily: "'Cormorant Garamond', 'Cinzel', Georgia, serif",
+            fontSize: 'clamp(2.4rem, 6vw, 4.5rem)',
+            fontWeight: 700,
+            letterSpacing: '-0.01em',
+            background: 'linear-gradient(135deg, #F3EBE3 20%, #C68B59 80%)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            backgroundClip: 'text',
+            marginBottom: 12,
+            lineHeight: 1.1,
+          }}>
             Tidewater Families
           </h1>
-          <h2 className="text-2xl md:text-3xl font-semibold text-indigo-400">
+
+          {/* Subtitle */}
+          <h2 style={{
+            fontFamily: "'Plus Jakarta Sans', system-ui, sans-serif",
+            fontSize: 'clamp(1rem, 2.5vw, 1.35rem)',
+            fontWeight: 500,
+            color: '#A8A096',
+            letterSpacing: '0.12em',
+            textTransform: 'uppercase',
+          }}>
             Historical Archive
           </h2>
-          <div className="h-1 w-24 bg-gradient-to-r from-indigo-500 to-transparent mx-auto mt-6 rounded-full opacity-50" />
+
+          {/* Divider */}
+          <div style={{
+            height: 1, width: 80,
+            background: 'linear-gradient(90deg, transparent, #C68B59, transparent)',
+            margin: '20px auto 0',
+            opacity: 0.6,
+          }} />
         </div>
 
-        {/* Content Grid */}
-        <div className="grid md:grid-cols-2 gap-8 w-full mb-16">
-          
-          {/* About Card */}
-          <div className="bg-gray-900/50 backdrop-blur-xl border border-gray-800 rounded-3xl p-8 hover:bg-gray-800/50 transition-colors duration-300 animate-fade-in-up" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-            <div className="flex items-center gap-3 mb-4">
-              <Library className="w-6 h-6 text-indigo-400" />
-              <h3 className="text-xl font-bold text-gray-200">About the Project</h3>
-            </div>
-            <p className="text-gray-400 leading-relaxed text-sm md:text-base">
-              A comprehensive digital preservation effort documenting the rich history, 
-              lineage, and interconnected families of the Nanticoke Indians. 
-              This archive permanently safeguards obituaries, photos, relationships, 
-              and historical records for future generations.
-            </p>
-          </div>
+        {/* Content Cards */}
+        <div className="grid md:grid-cols-2 gap-6 w-full mb-14">
 
-          {/* Credits & Sources Card */}
-          <div className="bg-gray-900/50 backdrop-blur-xl border border-gray-800 rounded-3xl p-8 hover:bg-gray-800/50 transition-colors duration-300 flex flex-col gap-6 animate-fade-in-up" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
-            
-            <div>
-              <div className="flex items-center gap-3 mb-2">
-                <Users className="w-5 h-5 text-emerald-400" />
-                <h3 className="text-lg font-bold text-gray-200">Curated By</h3>
+          {/* About */}
+          <div className="splash-fade-up" style={{ animationDelay: '0.3s' }}>
+            <div style={{
+              background: '#1C1A17',
+              border: '1px solid #332D27',
+              borderRadius: 20,
+              padding: '28px 28px',
+              height: '100%',
+              transition: 'border-color 0.2s',
+            }}
+              onMouseEnter={e => e.currentTarget.style.borderColor = '#C68B59'}
+              onMouseLeave={e => e.currentTarget.style.borderColor = '#332D27'}
+            >
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 14 }}>
+                <Library style={{ width: 20, height: 20, color: '#C68B59', flexShrink: 0 }} />
+                <h3 style={{
+                  fontFamily: "'Cormorant Garamond', Georgia, serif",
+                  fontSize: '1.2rem', fontWeight: 700, color: '#F3EBE3',
+                }}>About the Project</h3>
               </div>
-              <p className="text-gray-400 text-sm">
-                Developed and curated by <span className="text-gray-200 font-medium">Jequan</span> / <span className="text-gray-200 font-medium">Written in the Genome</span>.
+              <p style={{ color: '#A8A096', lineHeight: 1.75, fontSize: '0.9rem' }}>
+                A comprehensive digital preservation effort documenting the rich history,
+                lineage, and interconnected families of the Nanticoke Indians.
+                This archive permanently safeguards obituaries, photos, relationships,
+                and historical records for future generations.
               </p>
             </div>
+          </div>
 
-            <div className="h-px w-full bg-gray-800/50" />
-
-            <div>
-              <div className="flex items-center gap-3 mb-3">
-                <DatabaseZap className="w-5 h-5 text-amber-400" />
-                <h3 className="text-lg font-bold text-gray-200">Sources & Acknowledgments</h3>
+          {/* Credits & Sources */}
+          <div className="splash-fade-up" style={{ animationDelay: '0.5s' }}>
+            <div style={{
+              background: '#1C1A17',
+              border: '1px solid #332D27',
+              borderRadius: 20,
+              padding: '28px 28px',
+              display: 'flex', flexDirection: 'column', gap: 20,
+              height: '100%',
+              transition: 'border-color 0.2s',
+            }}
+              onMouseEnter={e => e.currentTarget.style.borderColor = '#C68B59'}
+              onMouseLeave={e => e.currentTarget.style.borderColor = '#332D27'}
+            >
+              {/* Curated by */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
+                  <Users style={{ width: 18, height: 18, color: '#D4A373', flexShrink: 0 }} />
+                  <h3 style={{
+                    fontFamily: "'Cormorant Garamond', Georgia, serif",
+                    fontSize: '1.1rem', fontWeight: 700, color: '#F3EBE3',
+                  }}>Curated By</h3>
+                </div>
+                <p style={{ color: '#A8A096', fontSize: '0.875rem' }}>
+                  Developed and curated by{' '}
+                  <span style={{ color: '#D4A373', fontWeight: 600 }}>Jequan</span>
+                  {' '}/{' '}
+                  <span style={{ color: '#D4A373', fontWeight: 600 }}>Written in the Genome</span>.
+                </p>
               </div>
-              <ul className="text-sm text-gray-400 space-y-2">
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 rounded-full bg-gray-600 mt-1.5 shrink-0" />
-                  <span><strong>Mitsawokett Archives:</strong> Foundational historical records and lineage data.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 rounded-full bg-gray-600 mt-1.5 shrink-0" />
-                  <span><strong>Find A Grave:</strong> Cemetery records, dates, and memorial verification.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 rounded-full bg-gray-600 mt-1.5 shrink-0" />
-                  <span><strong>Community Contributions:</strong> Preserved obituaries and family photographs.</span>
-                </li>
-              </ul>
+
+              <div style={{ height: 1, background: '#26221E' }} />
+
+              {/* Sources */}
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 12 }}>
+                  <DatabaseZap style={{ width: 18, height: 18, color: '#C68B59', flexShrink: 0 }} />
+                  <h3 style={{
+                    fontFamily: "'Cormorant Garamond', Georgia, serif",
+                    fontSize: '1.1rem', fontWeight: 700, color: '#F3EBE3',
+                  }}>Sources & Acknowledgments</h3>
+                </div>
+                <ul style={{ color: '#A8A096', fontSize: '0.875rem', display: 'flex', flexDirection: 'column', gap: 10 }}>
+                  {[
+                    ['Mitsawokett Archives', 'Foundational historical records and lineage data.'],
+                    ['Find A Grave', 'Cemetery records, dates, and memorial verification.'],
+                    ['Community Contributions', 'Preserved obituaries and family photographs.'],
+                  ].map(([title, desc]) => (
+                    <li key={title} style={{ display: 'flex', alignItems: 'flex-start', gap: 10 }}>
+                      <div style={{
+                        width: 6, height: 6, borderRadius: '50%',
+                        background: '#C68B59', marginTop: 5, flexShrink: 0,
+                      }} />
+                      <span><strong style={{ color: '#D4A373', fontWeight: 600 }}>{title}:</strong> {desc}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Enter Action */}
-        <div className="animate-fade-in-up" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
-          <button 
+        {/* CTA */}
+        <div className="splash-fade-up" style={{ animationDelay: '0.7s' }}>
+          <button
             onClick={handleEnter}
-            className="group relative inline-flex items-center justify-center gap-3 px-10 py-5 bg-white text-gray-950 font-bold text-lg rounded-full overflow-hidden transition-transform hover:scale-105 active:scale-95 shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)]"
+            style={{
+              display: 'inline-flex', alignItems: 'center', gap: 12,
+              padding: '16px 40px',
+              background: 'linear-gradient(135deg, #C68B59, #8B5E3C)',
+              color: '#F3EBE3',
+              fontFamily: "'Plus Jakarta Sans', system-ui, sans-serif",
+              fontWeight: 700, fontSize: '1rem',
+              borderRadius: 999,
+              border: '1px solid rgba(212,163,115,0.4)',
+              cursor: 'pointer',
+              boxShadow: '0 0 40px rgba(198,139,89,0.3)',
+              transition: 'transform 0.15s, box-shadow 0.15s',
+              letterSpacing: '0.02em',
+            }}
+            onMouseEnter={e => {
+              e.currentTarget.style.transform = 'scale(1.04)';
+              e.currentTarget.style.boxShadow = '0 0 60px rgba(198,139,89,0.45)';
+            }}
+            onMouseLeave={e => {
+              e.currentTarget.style.transform = 'scale(1)';
+              e.currentTarget.style.boxShadow = '0 0 40px rgba(198,139,89,0.3)';
+            }}
+            onMouseDown={e => { e.currentTarget.style.transform = 'scale(0.97)'; }}
+            onMouseUp={e => { e.currentTarget.style.transform = 'scale(1.04)'; }}
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-indigo-100 to-white opacity-0 group-hover:opacity-100 transition-opacity" />
-            <span className="relative z-10">Enter Archive</span>
-            <Shield className="w-5 h-5 relative z-10" />
+            Enter Archive
+            <Shield style={{ width: 18, height: 18 }} />
           </button>
-          <p className="text-center text-gray-600 text-xs mt-6 uppercase tracking-widest font-medium">
+          <p style={{
+            textAlign: 'center', color: '#4A4540',
+            fontSize: '0.7rem', marginTop: 20,
+            letterSpacing: '0.18em', textTransform: 'uppercase', fontWeight: 500,
+          }}>
             Permanent Digital Preservation
           </p>
         </div>
-
       </div>
 
-      <style dangerouslySetInnerHTML={{__html: `
-        @keyframes fadeInUp {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
+      <style dangerouslySetInnerHTML={{ __html: `
+        @keyframes splashFadeUp {
+          from { opacity: 0; transform: translateY(18px); }
+          to   { opacity: 1; transform: translateY(0); }
         }
-        .animate-fade-in-up {
-          animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        .splash-fade-up {
+          opacity: 0;
+          animation: splashFadeUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         }
-      `}} />
+      ` }} />
     </div>
   );
 }
