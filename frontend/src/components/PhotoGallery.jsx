@@ -20,13 +20,23 @@ export default function PhotoGallery() {
     );
   };
 
+  const isVitalItem = (p) => {
+    if (p.media_type === 'vital_record' || p.media_type === 'headstone') return true;
+    const path = (p.local_image_path || '').toLowerCase();
+    const title = (p.title_or_caption || '').toLowerCase();
+    return (
+      path.includes('certificate') || path.includes('death') || path.includes('birth') || path.includes('marriage') || path.includes('grave') || path.includes('tombstone') || path.includes('diploma') ||
+      title.includes('certificate') || title.includes('record of death') || title.includes('marriage') || title.includes('tombstone') || title.includes('headstone')
+    ) && !isTreeItem(p);
+  };
+
   useEffect(() => {
     fetch('/api/photos.json')
       .then(r => r.json())
       .then(data => {
         const countsMap = {};
         data.forEach(p => {
-          if (!isTreeItem(p)) {
+          if (!isTreeItem(p) && !isVitalItem(p)) {
             const s = p.maiden_name;
             if (s && s.length > 1) {
               countsMap[s] = (countsMap[s] || 0) + 1;
@@ -53,7 +63,9 @@ export default function PhotoGallery() {
           p.subject_names?.toLowerCase().includes(lowerS)
         );
         if (categoryTab === 'portraits') {
-          filtered = filtered.filter(p => !isTreeItem(p));
+          filtered = filtered.filter(p => !isTreeItem(p) && !isVitalItem(p));
+        } else if (categoryTab === 'vitals') {
+          filtered = filtered.filter(p => isVitalItem(p));
         } else if (categoryTab === 'trees') {
           filtered = filtered.filter(p => isTreeItem(p));
         }
@@ -63,16 +75,19 @@ export default function PhotoGallery() {
       .catch(() => setLoading(false));
   };
 
-  const handleShowAll = () => {
+  const handleShowAll = (tabOverride) => {
+    const tab = tabOverride || categoryTab;
     setSelectedSurname(null);
     setLoading(true);
     fetch('/api/photos.json')
       .then(r => r.json())
       .then(data => {
         let filtered = data;
-        if (categoryTab === 'portraits') {
-          filtered = data.filter(p => !isTreeItem(p));
-        } else if (categoryTab === 'trees') {
+        if (tab === 'portraits') {
+          filtered = data.filter(p => !isTreeItem(p) && !isVitalItem(p));
+        } else if (tab === 'vitals') {
+          filtered = data.filter(p => isVitalItem(p));
+        } else if (tab === 'trees') {
           filtered = data.filter(p => isTreeItem(p));
         }
         setPhotos(filtered);
@@ -107,9 +122,13 @@ export default function PhotoGallery() {
           </div>
 
           {/* Media Category Tab Selector */}
-          <div className="flex items-center gap-2 bg-slate-900 border border-slate-800 p-1 rounded-xl text-xs">
+          <div className="flex flex-wrap items-center gap-1.5 bg-slate-900 border border-slate-800 p-1 rounded-xl text-xs">
             <button
-              onClick={() => setCategoryTab('portraits')}
+              onClick={() => {
+                setCategoryTab('portraits');
+                setSelectedSurname(null);
+                setPhotos([]);
+              }}
               className={`px-3 py-1.5 rounded-lg font-semibold transition-all ${
                 categoryTab === 'portraits'
                   ? 'bg-amber-500 text-slate-950 shadow-md font-bold'
@@ -120,8 +139,21 @@ export default function PhotoGallery() {
             </button>
             <button
               onClick={() => {
+                setCategoryTab('vitals');
+                handleShowAll('vitals');
+              }}
+              className={`px-3 py-1.5 rounded-lg font-semibold transition-all ${
+                categoryTab === 'vitals'
+                  ? 'bg-amber-500 text-slate-950 shadow-md font-bold'
+                  : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              📜 Vital Records & Headstones
+            </button>
+            <button
+              onClick={() => {
                 setCategoryTab('trees');
-                handleShowAll();
+                handleShowAll('trees');
               }}
               className={`px-3 py-1.5 rounded-lg font-semibold transition-all ${
                 categoryTab === 'trees'
