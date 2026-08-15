@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Network } from 'vis-network';
 import { DataSet } from 'vis-data';
-import { ZoomIn, ZoomOut, RotateCcw, GitBranch, Layers, Search, Users, LayoutGrid, Network as NetworkIcon, ChevronRight, User } from 'lucide-react';
+import { ZoomIn, ZoomOut, RotateCcw, GitBranch, Search, Users, LayoutGrid, Network as NetworkIcon, ChevronRight, User, Maximize2, Minimize2, Sparkles, X, Target } from 'lucide-react';
+import GenerationalTreeView from './GenerationalTreeView';
 
 const EDGE_STYLES = {
   child_of: { color: '#f59e0b', highlight: '#fbbf24', dashes: false, width: 2.5, label: 'Child of' },
@@ -14,62 +15,82 @@ const EDGE_STYLES = {
 export default function NetworkGraph({ graphData, onSelectNode }) {
   const containerRef = useRef(null);
   const networkRef = useRef(null);
-  const [viewFormat, setViewFormat] = useState('focus'); // Default to high-performance Focus Network
+  const [viewFormat, setViewFormat] = useState('focus'); // 'focus' | 'tree' | 'roster'
   const [searchFilter, setSearchFilter] = useState('');
-  const [focalNodeId, setFocalNodeId] = useState(null); // Person focused on in network view
+  const [showSearchDropdown, setShowSearchDropdown] = useState(false);
+  const [focalNodeId, setFocalNodeId] = useState(null);
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
-  // 1. Render vis-network when in 'tree' or 'focus' view format
+  // Default focal node to first node if none selected
+  const activeFocalId = focalNodeId || (graphData?.nodes?.[0]?.id ?? null);
+
+  // 1. Render vis-network canvas
   useEffect(() => {
-    if (viewFormat === 'roster' || !containerRef.current || !graphData || !graphData.nodes) return;
+    if (viewFormat === 'roster' || !containerRef.current || !graphData || !graphData.nodes || graphData.nodes.length === 0) return;
 
     let displayNodes = graphData.nodes;
-    let displayEdges = graphData.edges;
+    let displayEdges = graphData.edges || [];
 
-    // In Focus mode, if a focal person is set, filter to 2-degree immediate relatives for ultra 60FPS performance
-    if (viewFormat === 'focus' && focalNodeId) {
-      const neighborIds = new Set([focalNodeId]);
-      // Degree 1
-      graphData.edges.forEach(e => {
-        if (e.from === focalNodeId) neighborIds.add(e.to);
-        if (e.to === focalNodeId) neighborIds.add(e.from);
-      });
-      // Degree 2
-      graphData.edges.forEach(e => {
-        if (neighborIds.has(e.from)) neighborIds.add(e.to);
-        if (neighborIds.has(e.to)) neighborIds.add(e.from);
-      });
-      displayNodes = graphData.nodes.filter(n => neighborIds.has(n.id));
-      displayEdges = graphData.edges.filter(e => neighborIds.has(e.from) && neighborIds.has(e.to));
+    // Focus View: Ego-centric 1-to-2 degree immediate family graph
+    if (viewFormat === 'focus') {
+      const centerId = activeFocalId;
+      if (centerId) {
+        const degree1 = new Set([centerId]);
+        displayEdges.forEach(e => {
+          if (e.from === centerId) degree1.add(e.to);
+          if (e.to === centerId) degree1.add(e.from);
+        });
+
+        // Add 2nd degree if 1st degree is very small (< 4 nodes)
+        const neighborIds = new Set(degree1);
+        if (degree1.size < 4) {
+          displayEdges.forEach(e => {
+            if (degree1.has(e.from)) neighborIds.add(e.to);
+            if (degree1.has(e.to)) neighborIds.add(e.from);
+          });
+        }
+
+        displayNodes = graphData.nodes.filter(n => neighborIds.has(n.id));
+        displayEdges = graphData.edges.filter(e => neighborIds.has(e.from) && neighborIds.has(e.to));
+      }
     }
 
-    // Filter nodes if search query present
-    if (searchFilter) {
+    // Filter by Search Query if active
+    if (searchFilter && !showSearchDropdown) {
       const q = searchFilter.toLowerCase();
       displayNodes = displayNodes.filter(n => n.label.toLowerCase().includes(q) || (n.group && n.group.toLowerCase().includes(q)));
       const nodeIds = new Set(displayNodes.map(n => n.id));
       displayEdges = displayEdges.filter(e => nodeIds.has(e.from) && nodeIds.has(e.to));
     }
 
-    // Process Nodes
+    // Format Nodes
     const visNodes = new DataSet(
-      displayNodes.map(n => ({
-        id: n.id,
-        label: n.label,
-        shape: 'box',
-        color: {
-          background: n.id === focalNodeId ? '#c68b59' : '#0f172a',
-          border: n.id === focalNodeId ? '#f59e0b' : '#334155',
-          highlight: { background: '#1e293b', border: '#f59e0b' },
-          hover: { background: '#1e293b', border: '#38bdf8' }
-        },
-        font: { color: '#f8fafc', face: 'ui-sans-serif, system-ui', size: 12, bold: true },
-        margin: { top: 10, bottom: 10, left: 14, right: 14 },
-        borderWidth: n.id === focalNodeId ? 2.5 : 1.5,
-        title: `Person: ${n.label}\nSource: ${n.source_page || 'Preserved Record'}`
-      }))
+      displayNodes.map(n => {
+        const isFocal = n.id === activeFocalId;
+        return {
+          id: n.id,
+          label: n.label,
+          shape: 'box',
+          color: {
+            background: isFocal ? '#c68b59' : '#0f172a',
+            border: isFocal ? '#f59e0b' : '#334155',
+            highlight: { background: '#1e293b', border: '#f59e0b' },
+            hover: { background: '#1e293b', border: '#38bdf8' }
+          },
+          font: { 
+            color: isFocal ? '#ffffff' : '#f8fafc', 
+            face: 'ui-sans-serif, system-ui', 
+            size: isFocal ? 14 : 12, 
+            bold: isFocal 
+          },
+          margin: { top: 10, bottom: 10, left: 14, right: 14 },
+          borderWidth: isFocal ? 3 : 1.5,
+          title: `Person: ${n.label}\nSource: ${n.source_page || 'Preserved Record'}`
+        };
+      })
     );
 
-    // Process Edges
+    // Format Edges
     const visEdges = new DataSet(
       displayEdges.map((e, idx) => {
         const style = EDGE_STYLES[e.type] || EDGE_STYLES.default;
@@ -89,18 +110,18 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
       })
     );
 
-    // Options for Clean Layout
+    // Network Config
     const options = {
       nodes: { shadow: { enabled: true, color: 'rgba(0,0,0,0.5)', size: 6 } },
       edges: { shadow: false },
       layout: viewFormat === 'tree' ? {
         hierarchical: {
           enabled: true,
-          direction: 'UD', // Up-Down top-down family tree
+          direction: 'UD',
           sortMethod: 'directed',
-          nodeSpacing: 180,
-          levelSeparation: 140,
-          treeSpacing: 200,
+          nodeSpacing: 160,
+          levelSeparation: 120,
+          treeSpacing: 180,
           blockShifting: true,
           edgeMinimization: true,
           parentCentralization: true
@@ -109,19 +130,22 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
         hierarchical: { enabled: false }
       },
       physics: viewFormat === 'tree' ? false : {
+        enabled: true,
         barnesHut: {
-          gravitationalConstant: -6000,
-          centralGravity: 0.15,
-          springLength: 160,
-          springConstant: 0.03,
-          damping: 0.09
+          gravitationalConstant: -3500,
+          centralGravity: 0.3,
+          springLength: 130,
+          springConstant: 0.04,
+          damping: 0.1
         },
-        maxVelocity: 30,
-        minVelocity: 0.75,
-        solver: 'barnesHut'
+        stabilization: {
+          enabled: true,
+          iterations: 150,
+          updateInterval: 25
+        }
       },
       interaction: {
-        dragNodes: viewFormat === 'focus',
+        dragNodes: true,
         dragView: true,
         zoomView: true,
         hover: true,
@@ -131,20 +155,24 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
 
     networkRef.current = new Network(containerRef.current, { nodes: visNodes, edges: visEdges }, options);
 
-    // Select Node Event
+    // Freeze physics once stabilized to ensure static readable layout
+    if (viewFormat === 'focus') {
+      networkRef.current.once('stabilized', () => {
+        if (networkRef.current) {
+          networkRef.current.setOptions({ physics: { enabled: false } });
+        }
+      });
+    }
+
+    // Node Selection Event
     networkRef.current.on('selectNode', (params) => {
       if (params.nodes.length > 0) {
-        const nodeId = params.nodes[0];
-        setFocalNodeId(nodeId);
-        const node = graphData.nodes.find(n => n.id === nodeId);
-        if (node && onSelectNode) {
-          onSelectNode(node);
+        const selectedId = params.nodes[0];
+        setFocalNodeId(selectedId);
+        const nodeObj = graphData.nodes.find(n => n.id === selectedId);
+        if (nodeObj && onSelectNode) {
+          onSelectNode(nodeObj);
         }
-        setTimeout(() => {
-          if (networkRef.current) {
-            networkRef.current.unselectAll();
-          }
-        }, 150);
       }
     });
 
@@ -153,11 +181,28 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
         networkRef.current.destroy();
       }
     };
-  }, [graphData, viewFormat, searchFilter, focalNodeId]);
+  }, [graphData, viewFormat, searchFilter, activeFocalId]);
 
+  // Controls Handlers
   const handleZoomIn = () => networkRef.current && networkRef.current.zoomIn();
   const handleZoomOut = () => networkRef.current && networkRef.current.zoomOut();
-  const handleReset = () => networkRef.current && networkRef.current.fit({ animation: true });
+  const handleReset = () => {
+    if (networkRef.current) {
+      networkRef.current.fit({ animation: { duration: 400, easingFunction: 'easeInOutQuad' } });
+    }
+  };
+
+  // Search Results Matching
+  const searchResults = searchFilter.trim() && graphData?.nodes
+    ? graphData.nodes.filter(n => n.label.toLowerCase().includes(searchFilter.toLowerCase())).slice(0, 8)
+    : [];
+
+  const handleSelectSearchResult = (node) => {
+    setFocalNodeId(node.id);
+    setSearchFilter('');
+    setShowSearchDropdown(false);
+    if (onSelectNode) onSelectNode(node);
+  };
 
   // Group nodes by surname for Roster View
   const familyGroups = {};
@@ -169,14 +214,24 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
     });
   }
 
+  // Active focal person details
+  const currentFocalPerson = graphData?.nodes?.find(n => n.id === activeFocalId);
+
   return (
-    <div className="w-full h-[580px] max-h-[580px] bg-slate-950 rounded-xl border border-slate-800 relative overflow-hidden flex flex-col">
+    <div 
+      className={`bg-slate-950 transition-all duration-300 flex flex-col ${
+        isFullscreen 
+          ? 'fixed inset-0 z-50 w-screen h-screen p-4' 
+          : 'w-full h-[680px] rounded-xl border border-slate-800 relative overflow-hidden'
+      }`}
+    >
       {/* Top Controls Toolbar */}
-      <div className="bg-slate-900 px-4 py-3 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3 z-10">
-        {/* View Format Switcher Buttons */}
+      <div className="bg-slate-900 px-4 py-3 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3 z-20">
+        
+        {/* View Format Switcher */}
         <div className="flex items-center gap-2">
           <span className="text-xs font-bold text-slate-300 uppercase tracking-wider hidden sm:inline">
-            Display Format:
+            Format:
           </span>
           <div className="flex bg-slate-950 p-1 rounded-lg border border-slate-800 text-xs gap-1">
             <button
@@ -188,7 +243,7 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
               }`}
             >
               <NetworkIcon className="w-3.5 h-3.5" />
-              Focus Network (Interactive)
+              Focus Network (Ego View)
             </button>
 
             <button
@@ -217,19 +272,50 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
           </div>
         </div>
 
-        {/* Filter Input */}
+        {/* Search & Canvas Tools */}
         <div className="flex items-center gap-2">
+          
+          {/* Instant Search to Focus */}
           <div className="relative w-48 sm:w-64">
             <Search className="w-3.5 h-3.5 absolute left-3 top-2.5 text-slate-400" />
             <input
               type="text"
-              placeholder="Filter by person name..."
+              placeholder="Search person to focus..."
               value={searchFilter}
-              onChange={e => setSearchFilter(e.target.value)}
-              className="w-full pl-8 pr-3 py-1 bg-slate-950 border border-slate-800 rounded-lg text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-amber-500/50"
+              onFocus={() => setShowSearchDropdown(true)}
+              onChange={e => {
+                setSearchFilter(e.target.value);
+                setShowSearchDropdown(true);
+              }}
+              className="w-full pl-8 pr-8 py-1.5 bg-slate-950 border border-slate-800 rounded-lg text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-amber-500/50"
             />
+            {searchFilter && (
+              <button 
+                onClick={() => setSearchFilter('')}
+                className="absolute right-2.5 top-2 text-slate-500 hover:text-slate-300"
+              >
+                <X className="w-3.5 h-3.5" />
+              </button>
+            )}
+
+            {/* Dropdown Results */}
+            {showSearchDropdown && searchResults.length > 0 && (
+              <div className="absolute top-full left-0 right-0 mt-1 bg-slate-900 border border-slate-700 rounded-xl shadow-2xl z-50 overflow-hidden max-h-60 overflow-y-auto">
+                {searchResults.map(n => (
+                  <button
+                    key={n.id}
+                    onClick={() => handleSelectSearchResult(n)}
+                    className="w-full px-3 py-2 text-left hover:bg-slate-800 flex items-center justify-between border-b border-slate-800/50 last:border-0"
+                  >
+                    <span className="text-xs font-semibold text-slate-200">{n.label}</span>
+                    <span className="text-[10px] text-amber-400 font-mono">Focus</span>
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
+          {/* Zoom / Reset / Fullscreen Controls */}
           {viewFormat !== 'roster' && (
             <div className="flex items-center gap-1">
               <button onClick={handleZoomIn} className="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg" title="Zoom In">
@@ -238,21 +324,38 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
               <button onClick={handleZoomOut} className="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg" title="Zoom Out">
                 <ZoomOut className="w-3.5 h-3.5" />
               </button>
-              <button onClick={handleReset} className="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg" title="Fit to Screen">
+              <button onClick={handleReset} className="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg" title="Reset View & Center">
                 <RotateCcw className="w-3.5 h-3.5" />
+              </button>
+
+              {/* Fullscreen Toggle */}
+              <button 
+                onClick={() => setIsFullscreen(!isFullscreen)} 
+                className="p-1.5 bg-amber-500/20 text-amber-400 hover:bg-amber-500/30 border border-amber-500/40 rounded-lg transition-colors ml-1"
+                title={isFullscreen ? "Exit Fullscreen" : "Fullscreen Expanded View"}
+              >
+                {isFullscreen ? <Minimize2 className="w-3.5 h-3.5" /> : <Maximize2 className="w-3.5 h-3.5" />}
               </button>
             </div>
           )}
         </div>
       </div>
 
-      {/* Legend & Instructions Bar */}
-      <div className="px-4 py-2 bg-slate-900/60 border-b border-slate-800/60 flex items-center justify-between text-xs text-slate-400">
-        <span className="text-[11px] italic">
-          {viewFormat === 'tree' && '🌲 Top-Down Generational Tree Layout — Nodes arranged hierarchically from ancestors to descendants.'}
-          {viewFormat === 'roster' && '🗂️ Organized Family Cards Layout — Lineages grouped neatly into structured family rosters.'}
-          {viewFormat === 'focus' && '🕸️ Focus Network Layout — Interactive force graph. Drag or click nodes to open profile cards.'}
-        </span>
+      {/* Sub-Header Status & Focal Information */}
+      <div className="px-4 py-2 bg-slate-900/80 border-b border-slate-800/80 flex flex-wrap items-center justify-between text-xs text-slate-400 gap-2 z-10">
+        <div className="flex items-center gap-2">
+          {viewFormat === 'focus' && currentFocalPerson && (
+            <span className="flex items-center gap-1.5 text-xs text-amber-300 font-semibold bg-amber-500/10 border border-amber-500/30 px-2.5 py-0.5 rounded-md">
+              <Target className="w-3.5 h-3.5 text-amber-400" />
+              Focused Node: {currentFocalPerson.label}
+            </span>
+          )}
+          <span className="text-[11px] italic text-slate-400 hidden md:inline">
+            {viewFormat === 'tree' && '🌲 Top-Down Generational Tree — Hierarchical structure from ancestors to descendants.'}
+            {viewFormat === 'roster' && '🗂️ Organized Family Cards — Lineages grouped into clean rosters.'}
+            {viewFormat === 'focus' && '🎯 Ego-Centric Focus View — Showing immediate family network. Click nodes to pivot focus.'}
+          </span>
+        </div>
 
         <div className="flex items-center gap-3 font-medium text-[11px]">
           <span className="flex items-center gap-1 text-amber-400">
@@ -267,8 +370,14 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
         </div>
       </div>
 
-      {/* Main View Display */}
-      {viewFormat === 'roster' ? (
+      {/* Main Content Display */}
+      {viewFormat === 'tree' ? (
+        <GenerationalTreeView 
+          graphData={graphData} 
+          onSelectNode={onSelectNode}
+          focalId={activeFocalId}
+        />
+      ) : viewFormat === 'roster' ? (
         /* Organized Family Cards View */
         <div className="flex-1 p-6 overflow-y-auto bg-slate-950 space-y-6">
           {Object.keys(familyGroups).sort().map(surname => {
@@ -315,9 +424,9 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
           })}
         </div>
       ) : (
-        /* Vis-Network Canvas (Tree & Focus Modes) */
-        <div className="flex-1 relative w-full h-full min-h-[500px] bg-slate-950">
-          <div ref={containerRef} className="w-full h-full min-h-[500px]" />
+        /* Vis-Network Canvas */
+        <div className="flex-1 relative w-full h-full min-h-[450px] bg-slate-950">
+          <div ref={containerRef} className="w-full h-full min-h-[450px]" />
         </div>
       )}
     </div>

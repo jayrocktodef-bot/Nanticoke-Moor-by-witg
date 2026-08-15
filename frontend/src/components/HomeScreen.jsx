@@ -2,7 +2,7 @@ import React, { useState, useEffect, lazy, Suspense } from 'react';
 import { Search, Database, Users, FileText, Image as ImageIcon, GitFork, BookOpen, ShieldCheck, HeartHandshake, GitCommit, Bookmark, LayoutGrid, List, Sparkles, Filter } from 'lucide-react';
 import SurnameCard from './SurnameCard';
 import RecordDrawer from './RecordDrawer';
-import PersonProfileDrawer from './PersonProfileDrawer';
+import PersonProfileView from './PersonProfileView';
 import CommandPalette from './CommandPalette';
 import { trackPageView, trackEvent } from '../utils/analytics';
 
@@ -691,11 +691,12 @@ export default function HomeScreen() {
     </main>
 
       {/* Person Profile Drawer Modal */}
+      {/* Selected Person Overlay */}
       {selectedPersonId && (
-        <PersonProfileDrawer
+        <PersonProfileView
           personId={selectedPersonId}
           onClose={() => setSelectedPersonId(null)}
-          onSelectPerson={(pid) => setSelectedPersonId(pid)}
+          onSelectPerson={setSelectedPersonId}
         />
       )}
 

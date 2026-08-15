@@ -220,6 +220,8 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
                 </a>
               </div>
             )}
+              </>
+            )}
           </div>
         ) : (
           <p className="text-slate-500 text-sm">Failed to load person profile.</p>
