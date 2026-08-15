@@ -21,8 +21,16 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
   const [focalNodeId, setFocalNodeId] = useState(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
 
-  // Default focal node to first node if none selected
-  const activeFocalId = focalNodeId || (graphData?.nodes?.[0]?.id ?? null);
+  // Reset focal node if graphData changes and previous focal is no longer in dataset
+  useEffect(() => {
+    if (focalNodeId && graphData?.nodes && !graphData.nodes.some(n => n.id === focalNodeId)) {
+      setFocalNodeId(null);
+    }
+  }, [graphData]);
+
+  // Default focal node to first valid node in current dataset if none selected or valid
+  const isFocalValid = focalNodeId && graphData?.nodes?.some(n => n.id === focalNodeId);
+  const activeFocalId = isFocalValid ? focalNodeId : (graphData?.nodes?.[0]?.id ?? null);
 
   // 1. Render vis-network canvas
   useEffect(() => {

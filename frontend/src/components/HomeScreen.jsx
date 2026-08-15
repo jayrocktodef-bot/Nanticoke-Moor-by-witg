@@ -49,9 +49,23 @@ export default function HomeScreen() {
       .then(data => {
         if (surname && data.nodes) {
           const lowerS = surname.toLowerCase();
-          const filteredNodes = data.nodes.filter(n => n.label?.toLowerCase().includes(lowerS) || n.group?.toLowerCase().includes(lowerS));
-          const nodeIds = new Set(filteredNodes.map(n => n.id));
-          const filteredEdges = data.edges.filter(e => nodeIds.has(e.from) || nodeIds.has(e.to));
+          // Find primary matching surname nodes
+          const surnameNodeIds = new Set(
+            data.nodes
+              .filter(n => n.label?.toLowerCase().includes(lowerS) || n.group?.toLowerCase().includes(lowerS))
+              .map(n => n.id)
+          );
+
+          // Include 1-degree family members (spouses, parents, children with different surnames)
+          const familyNodeIds = new Set(surnameNodeIds);
+          (data.edges || []).forEach(e => {
+            if (surnameNodeIds.has(e.from)) familyNodeIds.add(e.to);
+            if (surnameNodeIds.has(e.to)) familyNodeIds.add(e.from);
+          });
+
+          const filteredNodes = data.nodes.filter(n => familyNodeIds.has(n.id));
+          const filteredEdges = (data.edges || []).filter(e => familyNodeIds.has(e.from) && familyNodeIds.has(e.to));
+
           setGraphData({ nodes: filteredNodes, edges: filteredEdges });
         } else {
           setGraphData(data);
