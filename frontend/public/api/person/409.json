@@ -2,6 +2,11 @@
   "person": {
     "person_id": 409,
     "name": "Robert B. Jackson",
+    "first_name": "Robert",
+    "middle_name": "B.",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 2,
     "source_page": "jacksnja.htm",
     "birth_info": "Nov 1883",
     "death_info": "23 Aug 1886 (aged 2)",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F70@ marriage",
+      "certainty": "confirmed",
       "rel_id": 7978,
       "rel_name": "Lydia Ann Wright Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8791,
       "rel_name": "Mary E Jackson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 409,
+    "name": "Robert B. Jackson",
+    "children": []
+  }
 }

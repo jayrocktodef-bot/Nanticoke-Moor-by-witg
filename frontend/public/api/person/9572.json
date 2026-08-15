@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9572,
     "name": "Doris Reed",
+    "first_name": "Doris",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Reed",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1 Aug 1938",
     "death_info": "28 Jun 2021 (aged 82)",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9576,
       "rel_name": "Marris J Reed"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9572,
+    "name": "Doris Reed",
+    "children": [
+      {
+        "id": 9576,
+        "name": "Marris J Reed",
+        "children": []
+      }
+    ]
+  }
 }

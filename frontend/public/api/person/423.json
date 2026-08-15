@@ -2,6 +2,11 @@
   "person": {
     "person_id": 423,
     "name": "Agnes Hansley",
+    "first_name": "Agnes",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Hansley",
+    "evidence_level": 2,
     "source_page": "jacksnr2.htm",
     "birth_info": "31 Aug 1893",
     "death_info": "30 Aug 1943 (aged 49)",
@@ -12,6 +17,7 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Robert Street married Agnes Hansley",
+      "certainty": "confirmed",
       "rel_id": 422,
       "rel_name": "Robert Street"
     }
@@ -70,5 +76,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 423,
+    "name": "Agnes Hansley",
+    "children": []
+  }
 }

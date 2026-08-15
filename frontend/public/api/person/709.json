@@ -2,6 +2,11 @@
   "person": {
     "person_id": 709,
     "name": "Mary Sisco",
+    "first_name": "Mary",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Sisco",
+    "evidence_level": 2,
     "source_page": "sisco-w.htm",
     "birth_info": "Oct 1860",
     "death_info": "1934 (aged 73&ndash;74)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Mary Sisco married Iassc Puckham",
+      "certainty": "confirmed",
       "rel_id": 710,
       "rel_name": "Iassc Puckham"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 709,
+    "name": "Mary Sisco",
+    "children": []
+  }
 }

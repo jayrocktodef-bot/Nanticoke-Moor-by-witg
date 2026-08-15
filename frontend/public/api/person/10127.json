@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10127,
     "name": "Luther Mosley Sammons",
+    "first_name": "Luther",
+    "middle_name": "Mosley",
+    "maiden_name": "",
+    "married_last_name": "Sammons",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "5 February 1930 Dover, Kent County, Delaware, United States of America",
     "death_info": "28 December 2018 Dover, Kent County, Delaware, United States of America",
@@ -12,10 +17,63 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10126,
       "rel_name": "Rosella Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10127,
+    "name": "Luther Mosley Sammons",
+    "children": [
+      {
+        "id": 10126,
+        "name": "Rosella Mosley",
+        "children": [
+          {
+            "id": 10125,
+            "name": "Harry Charles Mosley",
+            "children": [
+              {
+                "id": 4768,
+                "name": "Elizabeth Mosley",
+                "children": [
+                  {
+                    "id": 9096,
+                    "name": "John C Hanzer",
+                    "children": [
+                      {
+                        "id": 9969,
+                        "name": "Jacob Hanzer Jr",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9940,
+                    "name": "Sophia J. Hanzer",
+                    "children": [
+                      {
+                        "id": 10122,
+                        "name": "John R (H) or Jonathan Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10123,
+                        "name": "Lavinia Lovinia Sammons",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

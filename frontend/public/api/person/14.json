@@ -2,6 +2,11 @@
   "person": {
     "person_id": 14,
     "name": "Obediah Cott",
+    "first_name": "Obediah",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Cott",
+    "evidence_level": 2,
     "source_page": "bible-c1.htm",
     "birth_info": "10 Mar 1845",
     "death_info": "5 Dec 1915 (aged 70)",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "Obediah Cott the son of John Cott & Sallie Cott died July 25, 1848",
+      "certainty": "confirmed",
       "rel_id": 15,
       "rel_name": "John Cott"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 14,
+    "name": "Obediah Cott",
+    "children": [
+      {
+        "id": 15,
+        "name": "John Cott",
+        "children": []
+      }
+    ]
+  }
 }

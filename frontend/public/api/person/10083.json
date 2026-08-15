@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10083,
     "name": "Wright Thomas Sr.",
+    "first_name": "Wright",
+    "middle_name": "Thomas",
+    "maiden_name": "",
+    "married_last_name": "Sr.",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1731 Spotsylvania, Spotsylvania, Virginia, USA",
     "death_info": "1803 Culpeper County, Virginia, United States of America",
@@ -12,34 +17,45 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10080,
       "rel_name": "Lucy Wright"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10081,
       "rel_name": "Richard M Wright"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9992,
       "rel_name": "Sally Wright"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10079,
       "rel_name": "Jean Wright"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10082,
       "rel_name": "James Wright"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10083,
+    "name": "Wright Thomas Sr.",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8643,
     "name": "Sylvia Lorraine Street",
+    "first_name": "Sylvia",
+    "middle_name": "Lorraine",
+    "maiden_name": "",
+    "married_last_name": "Street",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "11 Jun 1926 Baltimore Maryland",
     "death_info": "28 Feb 1993 Winterhaven, FL",
@@ -12,10 +17,68 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8642,
       "rel_name": "Grace Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8643,
+    "name": "Sylvia Lorraine Street",
+    "children": [
+      {
+        "id": 8642,
+        "name": "Grace Morris",
+        "children": [
+          {
+            "id": 8685,
+            "name": "Noble Morris",
+            "children": [
+              {
+                "id": 8571,
+                "name": "Francis E. \"Frank\" Morris",
+                "children": [
+                  {
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": [
+                      {
+                        "id": 8505,
+                        "name": "Morris Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 9992,
+                        "name": "Sally Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

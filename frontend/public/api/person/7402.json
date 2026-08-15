@@ -2,6 +2,11 @@
   "person": {
     "person_id": 7402,
     "name": "Frederick H. Seeney",
+    "first_name": "Frederick",
+    "middle_name": "H.",
+    "maiden_name": "",
+    "married_last_name": "Seeney",
+    "evidence_level": 2,
     "source_page": "SeeneyFrederick&HesterFamily.htm",
     "birth_info": "1880",
     "death_info": "13 Jan 1889 (aged 8&ndash;9)",
@@ -76,5 +81,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 516,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 7402,
+      "person_id_secondary": 594,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: frederick|seeney|1880",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 7402,
+    "name": "Frederick H. Seeney",
+    "children": []
+  }
 }

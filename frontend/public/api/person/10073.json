@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10073,
     "name": "George A Dickerson",
+    "first_name": "George",
+    "middle_name": "A",
+    "maiden_name": "",
+    "married_last_name": "Dickerson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1807 Sussex, Delaware, United States",
     "death_info": "26 Jan 1881 Wilmington, New Castle, Delaware, USA",
@@ -12,10 +17,40 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9073,
       "rel_name": "Charles Dickerson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10073,
+    "name": "George A Dickerson",
+    "children": [
+      {
+        "id": 9073,
+        "name": "Charles Dickerson",
+        "children": [
+          {
+            "id": 8606,
+            "name": "Richard Dickerson",
+            "children": [
+              {
+                "id": 9073,
+                "name": "Charles Dickerson",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 9071,
+            "name": "Minnie Dickerson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

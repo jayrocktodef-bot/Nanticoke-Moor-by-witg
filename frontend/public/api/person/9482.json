@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9482,
     "name": "Ella  N Mosley",
+    "first_name": "Ella",
+    "middle_name": "N",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "NOV 1880 Delaware",
     "death_info": "19 AUG 1957 Fairfield Twp.NJ",
@@ -12,10 +17,91 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9481,
       "rel_name": "George W. Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9482,
+    "name": "Ella  N Mosley",
+    "children": [
+      {
+        "id": 9481,
+        "name": "George W. Mosley",
+        "children": [
+          {
+            "id": 9419,
+            "name": "Elizabeth (Morris) Mosley Harmon",
+            "children": [
+              {
+                "id": 8617,
+                "name": "Negro Morris Thomas",
+                "children": [
+                  {
+                    "id": 8505,
+                    "name": "Morris Thomas",
+                    "children": [
+                      {
+                        "id": 8910,
+                        "name": "Leticia Morris",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9992,
+                    "name": "Sally Wright",
+                    "children": [
+                      {
+                        "id": 10083,
+                        "name": "Wright Thomas Sr.",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8910,
+                "name": "Leticia Morris",
+                "children": [
+                  {
+                    "id": 8616,
+                    "name": "Stephen Wright",
+                    "children": [
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8684,
+                    "name": "Priscilla Miller",
+                    "children": [
+                      {
+                        "id": 8618,
+                        "name": "Ebenezar Miller",
+                        "children": []
+                      },
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

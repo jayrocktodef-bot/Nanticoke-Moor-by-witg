@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8369,
     "name": "James N Thompson",
+    "first_name": "James",
+    "middle_name": "N",
+    "maiden_name": "",
+    "married_last_name": "Thompson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1918",
     "death_info": "18 Jun 1995 (aged 76&ndash;77)",
@@ -10,5 +15,22 @@
   },
   "relationships": [],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 532,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 8847,
+      "person_id_secondary": 8369,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: james|thompson|1918",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 8369,
+    "name": "James N Thompson",
+    "children": []
+  }
 }

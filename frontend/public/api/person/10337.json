@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10337,
     "name": "William CLARKE (Clark) Esq.",
+    "first_name": "William",
+    "middle_name": "CLARKE",
+    "maiden_name": "Clark",
+    "married_last_name": "Esq.",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "30 Nov 1855",
     "death_info": "24 April 1705 Lewes Hundred, Sussex, Delaware, USA",
@@ -12,10 +17,28 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10336,
       "rel_name": "William Vine Clark Jr."
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 416,
+      "category": "Logic Error",
+      "severity": "critical",
+      "person_id": 10337,
+      "person_id_secondary": null,
+      "description": "Death year before birth year",
+      "evidence": "Born: 1855, Died: 1705",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 10337,
+    "name": "William CLARKE (Clark) Esq.",
+    "children": []
+  }
 }

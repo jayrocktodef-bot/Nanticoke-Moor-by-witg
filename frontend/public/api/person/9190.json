@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9190,
     "name": "Ebenezer Miller Sr",
+    "first_name": "Ebenezer",
+    "middle_name": "Miller",
+    "maiden_name": "",
+    "married_last_name": "Sr",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1704 Cohansey, Salem County, New Jersey",
     "death_info": "06 Feb 1774 Greenwich, Cumberland co., New Jersey",
@@ -12,52 +17,77 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F461@ marriage 1724 Cumberland County, NJ",
+      "certainty": "confirmed",
       "rel_id": 9191,
       "rel_name": "Sarah Collier (Collyer) Miller"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9188,
       "rel_name": "Ebenezer Miller"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9194,
       "rel_name": "Hannah Miller"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9195,
       "rel_name": "Andrew Miller"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9196,
       "rel_name": "Josiah William Miller"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8892,
       "rel_name": "Sarah Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9192,
       "rel_name": "Joseph Miller Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9193,
       "rel_name": "Rebekah Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9190,
+    "name": "Ebenezer Miller Sr",
+    "children": [
+      {
+        "id": 9192,
+        "name": "Joseph Miller Sr",
+        "children": []
+      },
+      {
+        "id": 9193,
+        "name": "Rebekah Johnson",
+        "children": []
+      }
+    ]
+  }
 }

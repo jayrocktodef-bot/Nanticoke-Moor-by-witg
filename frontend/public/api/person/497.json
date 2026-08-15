@@ -2,6 +2,11 @@
   "person": {
     "person_id": 497,
     "name": "David W. Wright",
+    "first_name": "David",
+    "middle_name": "W.",
+    "maiden_name": "",
+    "married_last_name": "Wright",
+    "evidence_level": 2,
     "source_page": "mission2.htm",
     "birth_info": "4 Apr 1928",
     "death_info": "12 Sep 1992 (aged 64)",
@@ -50,5 +55,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 429,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 497,
+      "person_id_secondary": 444,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: david|wright|1928",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 497,
+    "name": "David W. Wright",
+    "children": []
+  }
 }

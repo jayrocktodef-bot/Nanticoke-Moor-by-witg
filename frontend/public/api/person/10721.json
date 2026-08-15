@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10721,
     "name": "Almeda Thomas",
+    "first_name": "Almeda",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "27 Jul 1931",
     "death_info": "31 Aug 2023 (aged 92)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F471@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10719,
       "rel_name": "Howard Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10721,
+    "name": "Almeda Thomas",
+    "children": []
+  }
 }

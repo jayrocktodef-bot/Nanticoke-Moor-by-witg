@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9196,
     "name": "Josiah William Miller",
+    "first_name": "Josiah",
+    "middle_name": "William",
+    "maiden_name": "",
+    "married_last_name": "Miller",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "01 May 1731 Greenwich, Cumberland, New Jersey, United States",
     "death_info": "02 Sep 1774 Philadelphia, Delaware, Pennsylvania, USA",
@@ -12,16 +17,46 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9190,
       "rel_name": "Ebenezer Miller Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9191,
       "rel_name": "Sarah Collier (Collyer) Miller"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9196,
+    "name": "Josiah William Miller",
+    "children": [
+      {
+        "id": 9190,
+        "name": "Ebenezer Miller Sr",
+        "children": [
+          {
+            "id": 9192,
+            "name": "Joseph Miller Sr",
+            "children": []
+          },
+          {
+            "id": 9193,
+            "name": "Rebekah Johnson",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 9191,
+        "name": "Sarah Collier (Collyer) Miller",
+        "children": []
+      }
+    ]
+  }
 }

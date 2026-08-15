@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10457,
     "name": "Eli Norwood",
+    "first_name": "Eli",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Norwood",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1770 Indian River Hundred, Sussex, Delaware, USA",
     "death_info": "1838 Indian River Hundred, Sussex, Delaware, United States",
@@ -12,52 +17,111 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10653,
       "rel_name": "John Norwood Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10652,
       "rel_name": "Anne \"Ann\" \"Annie\" Norwood"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10647,
       "rel_name": "Stephen M Norwood"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10542,
       "rel_name": "Nathaniel \"Nathan\" Norwood"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10374,
       "rel_name": "Jemima Harmon"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F190@ marriage 12 Oct 1824 Indian River Hundred, Sussex, Delaware, United States",
+      "certainty": "confirmed",
       "rel_id": 10649,
       "rel_name": "Ellen J \"Elon\" \"Eleana\" Cornish Norwood"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10650,
       "rel_name": "Mary Jane Norwood"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10651,
       "rel_name": "Samuel B Norwood"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10457,
+    "name": "Eli Norwood",
+    "children": [
+      {
+        "id": 10542,
+        "name": "Nathaniel \"Nathan\" Norwood",
+        "children": []
+      },
+      {
+        "id": 10374,
+        "name": "Jemima Harmon",
+        "children": [
+          {
+            "id": 10540,
+            "name": "Job Harmon",
+            "children": [
+              {
+                "id": 2098,
+                "name": "Edward Harmon",
+                "children": [
+                  {
+                    "id": 8862,
+                    "name": "William Harmon",
+                    "children": [
+                      {
+                        "id": 9407,
+                        "name": "David Roland Harmon Sr",
+                        "children": []
+                      },
+                      {
+                        "id": 8927,
+                        "name": "Eliza Jane Harmon",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10554,
+                "name": "Patience Harmon",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

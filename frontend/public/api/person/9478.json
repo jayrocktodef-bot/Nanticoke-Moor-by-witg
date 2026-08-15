@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9478,
     "name": "William Green",
+    "first_name": "William",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Green",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1779",
     "death_info": "22 Jun 1842 (aged 62&ndash;63)",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9475,
       "rel_name": "Ruth E Green"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9478,
+    "name": "William Green",
+    "children": [
+      {
+        "id": 9475,
+        "name": "Ruth E Green",
+        "children": []
+      }
+    ]
+  }
 }

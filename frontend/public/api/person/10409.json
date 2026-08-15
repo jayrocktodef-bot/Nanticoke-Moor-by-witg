@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10409,
     "name": "Johnson Thomas",
+    "first_name": "Johnson",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "BEF DEC 1605 Alrewas, Staffordshire, England",
     "death_info": "abt 1663 Staffordshire, England",
@@ -12,16 +17,58 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2366,
       "rel_name": "William Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10408,
       "rel_name": "Richard Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10409,
+    "name": "Johnson Thomas",
+    "children": [
+      {
+        "id": 2366,
+        "name": "William Johnson",
+        "children": [
+          {
+            "id": 10407,
+            "name": "John Johnson",
+            "children": [
+              {
+                "id": 10420,
+                "name": "Ann W. Johnson",
+                "children": []
+              },
+              {
+                "id": 10408,
+                "name": "Richard Johnson",
+                "children": [
+                  {
+                    "id": 10409,
+                    "name": "Johnson Thomas",
+                    "children": []
+                  },
+                  {
+                    "id": 10407,
+                    "name": "John Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

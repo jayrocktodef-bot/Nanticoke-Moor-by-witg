@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8701,
     "name": "Jeremiah Thompson",
+    "first_name": "Jeremiah",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thompson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Abt 1847 Delaware",
     "death_info": "4 August 1923 Delaware, United States of America",
@@ -12,52 +17,156 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8604,
       "rel_name": "Wallace B Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8640,
       "rel_name": "Elizabeth Thompson"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F381@ marriage 3 Mar 1875 Indian River Hundred, Sussex County, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 8375,
       "rel_name": "Mary A. Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9254,
       "rel_name": "Annie V. Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8702,
       "rel_name": "John Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "invalid_cycle_child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8382,
       "rel_name": "Mary C Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8377,
       "rel_name": "Sarah E Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8376,
       "rel_name": "Emeline Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 4944,
+      "category": "Structural Integrity",
+      "severity": "critical",
+      "person_id": 8382,
+      "person_id_secondary": 8701,
+      "description": "Removed topological loop (back-edge) in descent graph.",
+      "evidence": "Edge creates a cycle where a person becomes their own ancestor.",
+      "created_at": "2026-08-15 01:27:02"
+    }
+  ],
+  "ancestry": {
+    "id": 8701,
+    "name": "Jeremiah Thompson",
+    "children": [
+      {
+        "id": 8604,
+        "name": "Wallace B Thompson",
+        "children": [
+          {
+            "id": 8639,
+            "name": "Clemmon Thompson",
+            "children": [
+              {
+                "id": 8840,
+                "name": "Levin Game Thompson",
+                "children": []
+              },
+              {
+                "id": 8841,
+                "name": "Leah Thompson",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8638,
+            "name": "Melisa Molly Street",
+            "children": [
+              {
+                "id": 8680,
+                "name": "Jerry Street",
+                "children": [
+                  {
+                    "id": 9510,
+                    "name": "David Street",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8640,
+        "name": "Elizabeth Thompson",
+        "children": [
+          {
+            "id": 8382,
+            "name": "Mary C Thompson",
+            "children": [
+              {
+                "id": 8606,
+                "name": "Richard Dickerson",
+                "children": [
+                  {
+                    "id": 9073,
+                    "name": "Charles Dickerson",
+                    "children": [
+                      {
+                        "id": 8606,
+                        "name": "Richard Dickerson",
+                        "children": []
+                      },
+                      {
+                        "id": 9071,
+                        "name": "Minnie Dickerson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9071,
+                "name": "Minnie Dickerson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

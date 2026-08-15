@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11138,
     "name": "Harry Ingram",
+    "first_name": "Harry",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Ingram",
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": "8 Feb 1875",
     "death_info": "9 Jul 1924 (aged 49)",
@@ -12,40 +17,52 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11137,
       "rel_name": "Abraham Ingram"
     },
     {
       "relationship_type": "spouses",
       "evidence_text": "Restored GEDCOM family marriage record",
+      "certainty": "confirmed",
       "rel_id": 11143,
       "rel_name": "Emma A. Ingram"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11144,
       "rel_name": "Jerry Ingram"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11145,
       "rel_name": "Gardner I. Ingram"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11146,
       "rel_name": "Mary A. Ingram"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11147,
       "rel_name": "Sarah E. Ingram"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11138,
+    "name": "Harry Ingram",
+    "children": []
+  }
 }

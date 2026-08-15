@@ -2,6 +2,11 @@
   "person": {
     "person_id": 5259,
     "name": "Sabrina Davis",
+    "first_name": "Sabrina",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "DavisWHenry&Janet.htm",
     "birth_info": "1809",
     "death_info": "26 Dec 1862 (aged 52&ndash;53)",
@@ -115,5 +120,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 481,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 5259,
+      "person_id_secondary": 4785,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: sabrina|davis|1809",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 5259,
+    "name": "Sabrina Davis",
+    "children": []
+  }
 }

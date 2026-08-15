@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10120,
     "name": "Larry Jackson",
+    "first_name": "Larry",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "27 Jun 1951",
     "death_info": "14 Feb 2022 (aged 70)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10020,
       "rel_name": "Harry H, Sr Jackson Sr."
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10120,
+    "name": "Larry Jackson",
+    "children": []
+  }
 }

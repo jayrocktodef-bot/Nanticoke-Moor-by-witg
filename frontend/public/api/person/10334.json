@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10334,
     "name": "Chief William Russell \"Wyniaco\" Clark",
+    "first_name": "Chief",
+    "middle_name": "William Russell \"Wyniaco\"",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "30 Nov 1855",
     "death_info": "8 Oct 1928 (aged 72, Washington, D.C.)",
@@ -12,40 +17,64 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F428@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10335,
       "rel_name": "Jane Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9350,
       "rel_name": "Levin Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10336,
       "rel_name": "William Vine Clark Jr."
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": null,
+      "certainty": "confirmed",
       "rel_id": 10421,
       "rel_name": "James H Clark"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": null,
+      "certainty": "confirmed",
       "rel_id": 11252,
       "rel_name": "Nancy Harmon Clark"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": null,
+      "certainty": "confirmed",
       "rel_id": 1687,
       "rel_name": "Ferdinand \"Chief Sea Gull\" Clark"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10334,
+    "name": "Chief William Russell \"Wyniaco\" Clark",
+    "children": [
+      {
+        "id": 10336,
+        "name": "William Vine Clark Jr.",
+        "children": [
+          {
+            "id": 10337,
+            "name": "William CLARKE (Clark) Esq.",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

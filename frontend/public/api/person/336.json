@@ -2,6 +2,11 @@
   "person": {
     "person_id": 336,
     "name": "Elizabeth Durham",
+    "first_name": "Elizabeth",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "durhm-j1.htm",
     "birth_info": "1779",
     "death_info": "30 Nov 1827 (aged 47&ndash;48)",
@@ -12,24 +17,28 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Elizabeth Durham who married Bayman Williams",
+      "certainty": "confirmed",
       "rel_id": 178,
       "rel_name": "Bayman Williams"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
       "rel_id": 193,
       "rel_name": "Concilor Thomas"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "Elizabeth Durham married Jesse Dean",
+      "certainty": "confirmed",
       "rel_id": 93,
       "rel_name": "Jesse Dean"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1042,
       "rel_name": "Albert Durham"
     }
@@ -127,5 +136,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 336,
+    "name": "Elizabeth Durham",
+    "children": []
+  }
 }

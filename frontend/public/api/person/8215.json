@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8215,
     "name": "Leprum Pierce",
+    "first_name": "Leprum",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Pierce",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "30 Dec 1848",
     "death_info": "25 Dec 1912 (aged 63)",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8214,
       "rel_name": "Josiah Pierce"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8215,
+    "name": "Leprum Pierce",
+    "children": [
+      {
+        "id": 8214,
+        "name": "Josiah Pierce",
+        "children": []
+      }
+    ]
+  }
 }

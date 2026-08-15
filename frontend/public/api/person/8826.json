@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8826,
     "name": "Margriet Davis",
+    "first_name": "Margriet",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "13 Jan 1905",
     "death_info": "10 Aug 1996 (aged 91)",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8825,
       "rel_name": "Rachel Jans Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8826,
+    "name": "Margriet Davis",
+    "children": [
+      {
+        "id": 8825,
+        "name": "Rachel Jans Davis",
+        "children": []
+      }
+    ]
+  }
 }

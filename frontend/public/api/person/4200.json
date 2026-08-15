@@ -2,6 +2,11 @@
   "person": {
     "person_id": 4200,
     "name": "Rheba Mosley Carter",
+    "first_name": "Rheba",
+    "middle_name": "Mosley",
+    "maiden_name": "",
+    "married_last_name": "Carter",
+    "evidence_level": 2,
     "source_page": "CarterGeoE&MosleyRheba.htm",
     "birth_info": "17 Jul 1923",
     "death_info": "23 Jul 2008 (aged 85)",
@@ -128,5 +133,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 458,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 4209,
+      "person_id_secondary": 4200,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: rheba|carter|1923",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 4200,
+    "name": "Rheba Mosley Carter",
+    "children": []
+  }
 }

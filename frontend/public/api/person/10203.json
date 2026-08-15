@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10203,
     "name": "Elizabeth Conaway",
+    "first_name": "Elizabeth",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Conaway",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1908 Delaware",
     "death_info": "",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F268@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8380,
       "rel_name": "William Thomas Conaway"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10203,
+    "name": "Elizabeth Conaway",
+    "children": []
+  }
 }

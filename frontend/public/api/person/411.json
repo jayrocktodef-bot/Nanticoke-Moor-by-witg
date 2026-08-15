@@ -2,6 +2,11 @@
   "person": {
     "person_id": 411,
     "name": "John later",
+    "first_name": "John",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "later",
+    "evidence_level": 2,
     "source_page": "jacksnja.htm",
     "birth_info": "1894",
     "death_info": "1966 (aged 71&ndash;72)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "John later married Lovenia Prudence Norwood who was born on 22 February, 1877 and died 17 October, 1928. John and Lovenia had the following children:",
+      "certainty": "confirmed",
       "rel_id": 412,
       "rel_name": "Lovenia Prudence Norwood"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 411,
+    "name": "John later",
+    "children": []
+  }
 }

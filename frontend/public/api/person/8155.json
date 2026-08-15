@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8155,
     "name": "Stanley Oliver Davis Sr",
+    "first_name": "Stanley",
+    "middle_name": "Oliver Davis",
+    "maiden_name": "",
+    "married_last_name": "Sr",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
     "death_info": "1990",
@@ -12,16 +17,175 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8609,
       "rel_name": "William W. Davis Sr."
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8146,
       "rel_name": "Phoebe Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8155,
+    "name": "Stanley Oliver Davis Sr",
+    "children": [
+      {
+        "id": 8609,
+        "name": "William W. Davis Sr.",
+        "children": [
+          {
+            "id": 8610,
+            "name": "Davis Morris",
+            "children": [
+              {
+                "id": 4643,
+                "name": "Henry Davis",
+                "children": []
+              },
+              {
+                "id": 10618,
+                "name": "William H Davis",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8185,
+            "name": "Hester A. Morris Davis",
+            "children": [
+              {
+                "id": 8571,
+                "name": "Francis E. \"Frank\" Morris",
+                "children": [
+                  {
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": [
+                      {
+                        "id": 8505,
+                        "name": "Morris Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 9992,
+                        "name": "Sally Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8146,
+        "name": "Phoebe Thompson",
+        "children": [
+          {
+            "id": 9097,
+            "name": "Samuel L. Thompson",
+            "children": [
+              {
+                "id": 8381,
+                "name": "James W Thompson",
+                "children": [
+                  {
+                    "id": 9109,
+                    "name": "Robert Thompson",
+                    "children": [
+                      {
+                        "id": 8604,
+                        "name": "Wallace B Thompson",
+                        "children": []
+                      },
+                      {
+                        "id": 8640,
+                        "name": "Elizabeth Thompson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8382,
+                "name": "Mary C Thompson",
+                "children": [
+                  {
+                    "id": 8606,
+                    "name": "Richard Dickerson",
+                    "children": [
+                      {
+                        "id": 9073,
+                        "name": "Charles Dickerson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9071,
+                    "name": "Minnie Dickerson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8147,
+            "name": "Martha E Thompson",
+            "children": [
+              {
+                "id": 9519,
+                "name": "Harry Jackson",
+                "children": [
+                  {
+                    "id": 9149,
+                    "name": "Mary A. Jackson",
+                    "children": [
+                      {
+                        "id": 8921,
+                        "name": "Eliza Jane Morris",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 490,
+                "name": "Elizabeth Jackson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

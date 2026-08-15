@@ -2,6 +2,11 @@
   "person": {
     "person_id": 43,
     "name": "Henrietta Carty Morgan",
+    "first_name": "Henrietta",
+    "middle_name": "Carty",
+    "maiden_name": "",
+    "married_last_name": "Morgan",
+    "evidence_level": 2,
     "source_page": "carty-e2.htm",
     "birth_info": "22 Jun 1872",
     "death_info": "9 Jan 1950 (aged 77)",
@@ -375,5 +380,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 450,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 3678,
+      "person_id_secondary": 43,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: henrietta|morgan|1872",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 43,
+    "name": "Henrietta Carty Morgan",
+    "children": []
+  }
 }

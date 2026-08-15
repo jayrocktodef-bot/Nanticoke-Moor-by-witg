@@ -2,6 +2,11 @@
   "person": {
     "person_id": 774,
     "name": "Elizabeth Patience Wright",
+    "first_name": "Elizabeth",
+    "middle_name": "Patience",
+    "maiden_name": "",
+    "married_last_name": "Wright",
+    "evidence_level": 2,
     "source_page": "wrightw.htm",
     "birth_info": "29 May 1895",
     "death_info": null,
@@ -12,16 +17,24 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F57@ marriage",
+      "certainty": "confirmed",
       "rel_id": 584,
       "rel_name": "William Arthur Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 754,
       "rel_name": "William Howard Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 774,
+    "name": "Elizabeth Patience Wright",
+    "children": []
+  }
 }

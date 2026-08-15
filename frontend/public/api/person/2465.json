@@ -2,6 +2,11 @@
   "person": {
     "person_id": 2465,
     "name": "Levin Sockum",
+    "first_name": "Levin",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Sockum",
+    "evidence_level": 2,
     "source_page": "Apprentice%20Indentures%20-%20Warren%20Wright%20family%201843.htm",
     "birth_info": "1807",
     "death_info": "25 Dec 1864 (aged 56&ndash;57)",
@@ -50,5 +55,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 438,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 2465,
+      "person_id_secondary": 1924,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: levin|sockum|1807",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 2465,
+    "name": "Levin Sockum",
+    "children": []
+  }
 }

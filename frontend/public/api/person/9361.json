@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9361,
     "name": "Robert Green",
+    "first_name": "Robert",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Green",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "16 Nov 1950",
     "death_info": "22 Aug 2023 (aged 72)",
@@ -12,16 +17,35 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9358,
       "rel_name": "Harvey Green"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9357,
       "rel_name": "Roberta Green"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9361,
+    "name": "Robert Green",
+    "children": [
+      {
+        "id": 9358,
+        "name": "Harvey Green",
+        "children": []
+      },
+      {
+        "id": 9357,
+        "name": "Roberta Green",
+        "children": []
+      }
+    ]
+  }
 }

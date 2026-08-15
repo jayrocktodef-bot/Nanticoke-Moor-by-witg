@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9003,
     "name": "George Harmon Jr.",
+    "first_name": "George",
+    "middle_name": "Harmon",
+    "maiden_name": "",
+    "married_last_name": "Jr.",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1895",
     "death_info": "15 Apr 1957 (aged 61&ndash;62)",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9001,
       "rel_name": "George Isaac Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9003,
+    "name": "George Harmon Jr.",
+    "children": [
+      {
+        "id": 9001,
+        "name": "George Isaac Harmon",
+        "children": []
+      }
+    ]
+  }
 }

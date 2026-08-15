@@ -2,6 +2,11 @@
   "person": {
     "person_id": 344,
     "name": "Lucy Carney",
+    "first_name": "Lucy",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Carney",
+    "evidence_level": 2,
     "source_page": "durhm-m1.htm",
     "birth_info": "9 Jul 1921",
     "death_info": "7 Apr 1993 (aged 71)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "George Carney married Lucy Carney",
+      "certainty": "confirmed",
       "rel_id": 343,
       "rel_name": "George Carney"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 344,
+    "name": "Lucy Carney",
+    "children": []
+  }
 }

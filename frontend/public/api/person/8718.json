@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8718,
     "name": "Hester A Jackson",
+    "first_name": "Hester",
+    "middle_name": "A",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Jan 1852 Lewes, Sussex County, Delaware, USA",
     "death_info": "29 Aug 1933 Lewes, Sussex, De, USA",
@@ -12,76 +17,105 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 18,
       "rel_name": "John Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9555,
       "rel_name": "Eliza Parker Jackson"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F411@ marriage 1871",
+      "certainty": "confirmed",
       "rel_id": 8683,
       "rel_name": "Josiah Joseph Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8912,
       "rel_name": "Annie Rebecca Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8710,
       "rel_name": "JAMES EDWARD Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9721,
       "rel_name": "Maria Elizabeth Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9372,
       "rel_name": "Eliza J. Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 7250,
       "rel_name": "Alfred Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8513,
       "rel_name": "Sarah Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8730,
       "rel_name": "Frederick Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8732,
       "rel_name": "Rosa Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8731,
       "rel_name": "Elmer Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8718,
+    "name": "Hester A Jackson",
+    "children": [
+      {
+        "id": 18,
+        "name": "John Jackson",
+        "children": []
+      },
+      {
+        "id": 9555,
+        "name": "Eliza Parker Jackson",
+        "children": []
+      }
+    ]
+  }
 }

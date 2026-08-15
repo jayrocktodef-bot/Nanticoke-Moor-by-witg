@@ -2,6 +2,11 @@
   "person": {
     "person_id": 84,
     "name": "Anna Gould",
+    "first_name": "Anna",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Gould",
+    "evidence_level": 2,
     "source_page": "carty-w2.htm",
     "birth_info": "14 Feb 1803",
     "death_info": "17 Jun 1869 (aged 66)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Herbert Mosley married Anna GOULD",
+      "certainty": "confirmed",
       "rel_id": 83,
       "rel_name": "Herbert Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 84,
+    "name": "Anna Gould",
+    "children": []
+  }
 }

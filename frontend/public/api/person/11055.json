@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11055,
     "name": "Annie E Cordrey",
+    "first_name": "Annie",
+    "middle_name": "E",
+    "maiden_name": "",
+    "married_last_name": "Cordrey",
+    "evidence_level": 1,
     "source_page": null,
     "birth_info": "8 Sep 1885 Sussex, Delaware",
     "death_info": "5 Jun 1924",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11050,
       "rel_name": "Jacob B. Cordrey"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11055,
+    "name": "Annie E Cordrey",
+    "children": []
+  }
 }

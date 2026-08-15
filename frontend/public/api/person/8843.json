@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8843,
     "name": "Isaac Thompson",
+    "first_name": "Isaac",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thompson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1703",
     "death_info": "6 Jan 1776 (aged 72&ndash;73)",
@@ -12,16 +17,35 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8840,
       "rel_name": "Levin Game Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8841,
       "rel_name": "Leah Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8843,
+    "name": "Isaac Thompson",
+    "children": [
+      {
+        "id": 8840,
+        "name": "Levin Game Thompson",
+        "children": []
+      },
+      {
+        "id": 8841,
+        "name": "Leah Thompson",
+        "children": []
+      }
+    ]
+  }
 }

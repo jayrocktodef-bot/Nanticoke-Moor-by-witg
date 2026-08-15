@@ -2,6 +2,11 @@
   "person": {
     "person_id": 6361,
     "name": "Morgan Sammons",
+    "first_name": "Morgan",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Sammons",
+    "evidence_level": 2,
     "source_page": "McCallBlonnieSammons.htm",
     "birth_info": "2005",
     "death_info": "2 May 2005 (aged less&ndash;than 1 year)",
@@ -76,5 +81,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 497,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 6361,
+      "person_id_secondary": 2619,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: morgan|sammons|2005",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 6361,
+    "name": "Morgan Sammons",
+    "children": []
+  }
 }

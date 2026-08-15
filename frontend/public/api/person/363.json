@@ -2,6 +2,11 @@
   "person": {
     "person_id": 363,
     "name": "Jonathan Hander",
+    "first_name": "Jonathan",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Hander",
+    "evidence_level": 2,
     "source_page": "george.htm",
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -12,22 +17,31 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "Jacob Hander son of Jonathan Hander & Agness his wife born 5 Day of Septem. 1772",
+      "certainty": "confirmed",
       "rel_id": 362,
       "rel_name": "Jacob Hander"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 956,
       "rel_name": "Jonathan Muncer"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1014,
       "rel_name": "Jonathan Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 363,
+    "name": "Jonathan Hander",
+    "children": []
+  }
 }

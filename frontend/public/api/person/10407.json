@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10407,
     "name": "John Johnson",
+    "first_name": "John",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1722 Angola, Sussex County, Delaware, USA",
     "death_info": "1796 Angola, Sussex County, Delaware, USA",
@@ -12,52 +17,131 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10420,
       "rel_name": "Ann W. Johnson"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F290@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10410,
       "rel_name": "Grace MORRIS Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10406,
       "rel_name": "Robert Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "invalid_cycle_child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2366,
       "rel_name": "William Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2366,
       "rel_name": "William Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 10408,
+      "rel_name": "Richard Johnson"
+    },
+    {
+      "relationship_type": "invalid_cycle_child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10408,
       "rel_name": "Richard Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
-      "rel_id": 10408,
-      "rel_name": "Richard Johnson"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10408,
       "rel_name": "Richard Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 4945,
+      "category": "Structural Integrity",
+      "severity": "critical",
+      "person_id": 10407,
+      "person_id_secondary": 2366,
+      "description": "Removed topological loop (back-edge) in descent graph.",
+      "evidence": "Edge creates a cycle where a person becomes their own ancestor.",
+      "created_at": "2026-08-15 01:27:02"
+    },
+    {
+      "id": 4946,
+      "category": "Structural Integrity",
+      "severity": "critical",
+      "person_id": 10407,
+      "person_id_secondary": 10408,
+      "description": "Removed topological loop (back-edge) in descent graph.",
+      "evidence": "Edge creates a cycle where a person becomes their own ancestor.",
+      "created_at": "2026-08-15 01:27:02"
+    },
+    {
+      "id": 4947,
+      "category": "Structural Integrity",
+      "severity": "critical",
+      "person_id": 10407,
+      "person_id_secondary": 10408,
+      "description": "Removed topological loop (back-edge) in descent graph.",
+      "evidence": "Edge creates a cycle where a person becomes their own ancestor.",
+      "created_at": "2026-08-15 01:27:02"
+    }
+  ],
+  "ancestry": {
+    "id": 10407,
+    "name": "John Johnson",
+    "children": [
+      {
+        "id": 10420,
+        "name": "Ann W. Johnson",
+        "children": []
+      },
+      {
+        "id": 10408,
+        "name": "Richard Johnson",
+        "children": [
+          {
+            "id": 10409,
+            "name": "Johnson Thomas",
+            "children": [
+              {
+                "id": 2366,
+                "name": "William Johnson",
+                "children": [
+                  {
+                    "id": 10407,
+                    "name": "John Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10407,
+            "name": "John Johnson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

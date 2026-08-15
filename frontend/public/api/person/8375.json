@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8375,
     "name": "Mary A. Thompson",
+    "first_name": "Mary",
+    "middle_name": "A.",
+    "maiden_name": "",
+    "married_last_name": "Thompson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Abt 1856 Delaware",
     "death_info": "28 August 1918 Millsboro, Sussex County, Delaware, United States of America",
@@ -12,64 +17,154 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9096,
       "rel_name": "John C Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9940,
       "rel_name": "Sophia J. Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9096,
       "rel_name": "John C Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9507,
       "rel_name": "Mary Johnson"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F381@ marriage 3 Mar 1875 Indian River Hundred, Sussex County, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 8701,
       "rel_name": "Jeremiah Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9254,
       "rel_name": "Annie V. Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8702,
       "rel_name": "John Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8382,
       "rel_name": "Mary C Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8377,
       "rel_name": "Sarah E Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8376,
       "rel_name": "Emeline Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8375,
+    "name": "Mary A. Thompson",
+    "children": [
+      {
+        "id": 9096,
+        "name": "John C Hanzer",
+        "children": [
+          {
+            "id": 9969,
+            "name": "Jacob Hanzer Jr",
+            "children": [
+              {
+                "id": 9974,
+                "name": "Jacob Hanzer Sr",
+                "children": [
+                  {
+                    "id": 9978,
+                    "name": "Jonathan Hanzer",
+                    "children": [
+                      {
+                        "id": 4056,
+                        "name": "William Handsor",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9940,
+        "name": "Sophia J. Hanzer",
+        "children": [
+          {
+            "id": 10122,
+            "name": "John R (H) or Jonathan Harmon",
+            "children": [
+              {
+                "id": 9982,
+                "name": "Robert Emanuel Harmon",
+                "children": []
+              },
+              {
+                "id": 9983,
+                "name": "Rachel Anne Johnson",
+                "children": [
+                  {
+                    "id": 9984,
+                    "name": "Isaac Johnson",
+                    "children": []
+                  },
+                  {
+                    "id": 9985,
+                    "name": "Jemima WARD Johnson (MD)",
+                    "children": [
+                      {
+                        "id": 10401,
+                        "name": "Rachel Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10123,
+            "name": "Lavinia Lovinia Sammons",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

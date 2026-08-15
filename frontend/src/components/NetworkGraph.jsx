@@ -73,14 +73,15 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
     const visEdges = new DataSet(
       displayEdges.map((e, idx) => {
         const style = EDGE_STYLES[e.type] || EDGE_STYLES.default;
+        const isUncertain = e.certainty === 'uncertain';
         return {
           id: idx,
           from: e.from,
           to: e.to,
-          label: style.label,
-          font: { color: style.color, size: 10, align: 'middle', background: '#090d16' },
-          color: { color: style.color, highlight: style.highlight, hover: style.highlight },
-          dashes: style.dashes,
+          label: isUncertain ? `? ${style.label}` : style.label,
+          font: { color: isUncertain ? '#f87171' : style.color, size: 10, align: 'middle', background: '#090d16' },
+          color: { color: isUncertain ? '#f87171' : style.color, highlight: style.highlight, hover: style.highlight, opacity: isUncertain ? 0.7 : 1.0 },
+          dashes: isUncertain ? [4, 4] : style.dashes,
           width: style.width,
           arrows: e.type === 'spouse' ? undefined : { to: { enabled: true, scaleFactor: 0.7 } },
           smooth: viewFormat === 'tree' ? { type: 'cubicBezier', forceDirection: 'vertical' } : { type: 'continuous' }

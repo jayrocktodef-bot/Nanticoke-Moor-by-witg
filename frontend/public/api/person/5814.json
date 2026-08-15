@@ -2,6 +2,11 @@
   "person": {
     "person_id": 5814,
     "name": "Isaac Wilson \"Willie\" Harmon",
+    "first_name": "Isaac",
+    "middle_name": "Wilson \"Willie\"",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "HarmanIsaacWillie.htm",
     "birth_info": "about 1862 \u2014 Millsboro, Sussex, Delaware, United States",
     "death_info": null,
@@ -102,5 +107,42 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 492,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 5921,
+      "person_id_secondary": 5814,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: isaac|harmon|1862",
+      "created_at": "2026-08-14 03:42:34"
+    },
+    {
+      "id": 493,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 5922,
+      "person_id_secondary": 5814,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: isaac|harmon|1862",
+      "created_at": "2026-08-14 03:42:34"
+    },
+    {
+      "id": 553,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 11193,
+      "person_id_secondary": 5814,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: isaac|harmon|1862",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 5814,
+    "name": "Isaac Wilson \"Willie\" Harmon",
+    "children": []
+  }
 }

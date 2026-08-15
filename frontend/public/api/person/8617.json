@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8617,
     "name": "Negro Morris Thomas",
+    "first_name": "Negro",
+    "middle_name": "Morris",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1800 Broadkill, Sussex, Delaware, USA",
     "death_info": "Mar 1880 Sussex, Delaware, United States",
@@ -12,100 +17,211 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8505,
       "rel_name": "Morris Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9992,
       "rel_name": "Sally Wright"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8505,
       "rel_name": "Morris Thomas"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "invalid_cycle_child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8642,
       "rel_name": "Grace Morris"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F396@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8910,
       "rel_name": "Leticia Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9419,
       "rel_name": "Elizabeth (Morris) Mosley Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 7250,
       "rel_name": "Alfred Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "invalid_cycle_child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8505,
       "rel_name": "Morris Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 1479,
       "rel_name": "Robert B. Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8571,
       "rel_name": "Francis E. \"Frank\" Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9512,
       "rel_name": "James E Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4624,
       "rel_name": "Edward Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9511,
       "rel_name": "Rebecca Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8683,
       "rel_name": "Josiah Joseph Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10449,
       "rel_name": "Mary Morris"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F417@ marriage 1807 Orange, Virginia, United States",
+      "certainty": "confirmed",
       "rel_id": 9992,
       "rel_name": "Sally Wright"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 4949,
+      "category": "Structural Integrity",
+      "severity": "critical",
+      "person_id": 8505,
+      "person_id_secondary": 8617,
+      "description": "Removed topological loop (back-edge) in descent graph.",
+      "evidence": "Edge creates a cycle where a person becomes their own ancestor.",
+      "created_at": "2026-08-15 01:27:02"
+    },
+    {
+      "id": 4950,
+      "category": "Structural Integrity",
+      "severity": "critical",
+      "person_id": 8617,
+      "person_id_secondary": 8642,
+      "description": "Removed topological loop (back-edge) in descent graph.",
+      "evidence": "Edge creates a cycle where a person becomes their own ancestor.",
+      "created_at": "2026-08-15 01:27:02"
+    }
+  ],
+  "ancestry": {
+    "id": 8617,
+    "name": "Negro Morris Thomas",
+    "children": [
+      {
+        "id": 8505,
+        "name": "Morris Thomas",
+        "children": [
+          {
+            "id": 8910,
+            "name": "Leticia Morris",
+            "children": [
+              {
+                "id": 8616,
+                "name": "Stephen Wright",
+                "children": [
+                  {
+                    "id": 8687,
+                    "name": "Benjamin Wright",
+                    "children": [
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8684,
+                "name": "Priscilla Miller",
+                "children": [
+                  {
+                    "id": 8618,
+                    "name": "Ebenezar Miller",
+                    "children": []
+                  },
+                  {
+                    "id": 9188,
+                    "name": "Ebenezer Miller",
+                    "children": [
+                      {
+                        "id": 9190,
+                        "name": "Ebenezer Miller Sr",
+                        "children": []
+                      },
+                      {
+                        "id": 9191,
+                        "name": "Sarah Collier (Collyer) Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9992,
+        "name": "Sally Wright",
+        "children": [
+          {
+            "id": 10083,
+            "name": "Wright Thomas Sr.",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

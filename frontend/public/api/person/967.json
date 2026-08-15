@@ -2,6 +2,11 @@
   "person": {
     "person_id": 967,
     "name": "Daniel Robert Jackson",
+    "first_name": "Daniel",
+    "middle_name": "Robert",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 2,
     "source_page": "moors_moors.aspx",
     "birth_info": "24 Apr 1918",
     "death_info": "6 Jun 1974 (aged 56)",
@@ -10,5 +15,22 @@
   },
   "relationships": [],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 495,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 6127,
+      "person_id_secondary": 967,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: daniel|jackson|1918",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 967,
+    "name": "Daniel Robert Jackson",
+    "children": []
+  }
 }

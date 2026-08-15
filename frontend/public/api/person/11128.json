@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11128,
     "name": "Willie George Turner",
+    "first_name": "Willie",
+    "middle_name": "George",
+    "maiden_name": "",
+    "married_last_name": "Turner",
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": "",
     "death_info": "",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11039,
       "rel_name": "Charles Ambrose Turner"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11128,
+    "name": "Willie George Turner",
+    "children": []
+  }
 }

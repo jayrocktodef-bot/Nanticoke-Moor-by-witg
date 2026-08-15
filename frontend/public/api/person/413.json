@@ -2,6 +2,11 @@
   "person": {
     "person_id": 413,
     "name": "Mattie Jackson",
+    "first_name": "Mattie",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 2,
     "source_page": "jacksnja.htm",
     "birth_info": "18 May 1884",
     "death_info": "24 Apr 1970 (aged 85)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Mattie Jackson married Eldridge Johnson (b.c. 1889)",
+      "certainty": "confirmed",
       "rel_id": 414,
       "rel_name": "Eldridge Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 413,
+    "name": "Mattie Jackson",
+    "children": []
+  }
 }

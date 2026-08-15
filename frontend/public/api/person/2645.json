@@ -2,6 +2,11 @@
   "person": {
     "person_id": 2645,
     "name": "Hester Morris Davis",
+    "first_name": "Hester",
+    "middle_name": "Morris",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "DavisHesterMorris.htm",
     "birth_info": "16 Aug 1853",
     "death_info": "4 Oct 1916 (aged 63)",
@@ -12,6 +17,7 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Hester Morris Davis mother of Hershel (Hersel) Davis (DavisHesterMorris.htm)",
+      "certainty": "confirmed",
       "rel_id": 2646,
       "rel_name": "Hershel Davis"
     }
@@ -57,5 +63,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 526,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 8185,
+      "person_id_secondary": 2645,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: hester|davis|1853",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 2645,
+    "name": "Hester Morris Davis",
+    "children": []
+  }
 }

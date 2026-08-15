@@ -2,6 +2,11 @@
   "person": {
     "person_id": 1074,
     "name": "Harmon Thomas",
+    "first_name": "Harmon",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 2,
     "source_page": "moors_moors.aspx",
     "birth_info": "unknown",
     "death_info": "1959",
@@ -12,52 +17,128 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 76,
       "rel_name": "Hall Thomas"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 307,
       "rel_name": "Durham Thomas"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 405,
       "rel_name": "Derham Thomas"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 792,
       "rel_name": "Noah Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8931,
       "rel_name": "John Henson Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10575,
       "rel_name": "Edith Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8862,
       "rel_name": "William Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10639,
       "rel_name": "Frances Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 1074,
+    "name": "Harmon Thomas",
+    "children": [
+      {
+        "id": 8931,
+        "name": "John Henson Harmon",
+        "children": [
+          {
+            "id": 8930,
+            "name": "David W. Harmon",
+            "children": [
+              {
+                "id": 8921,
+                "name": "Eliza Jane Morris",
+                "children": [
+                  {
+                    "id": 9958,
+                    "name": "Emma Jane Johnson",
+                    "children": [
+                      {
+                        "id": 9936,
+                        "name": "Sarah Adeline Hanzer",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10539,
+                    "name": "Samuel Roland Johnson",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 8921,
+                "name": "Eliza Jane Morris",
+                "children": [
+                  {
+                    "id": 9958,
+                    "name": "Emma Jane Johnson",
+                    "children": [
+                      {
+                        "id": 9936,
+                        "name": "Sarah Adeline Hanzer",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10539,
+                    "name": "Samuel Roland Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10575,
+        "name": "Edith Harmon",
+        "children": []
+      }
+    ]
+  }
 }

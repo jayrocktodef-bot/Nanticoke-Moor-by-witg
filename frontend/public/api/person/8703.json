@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8703,
     "name": "Jeremiah M Thompson Jr",
+    "first_name": "Jeremiah",
+    "middle_name": "M Thompson",
+    "maiden_name": "",
+    "married_last_name": "Jr",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "May 1914 Delaware",
     "death_info": "Jun 1998 Bridgeton, Cumberland, New Jersey, United States of America",
@@ -12,52 +17,189 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F358@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8832,
       "rel_name": "Martha E. Pierce"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8833,
       "rel_name": "Rosella Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8834,
       "rel_name": "Flora Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8835,
       "rel_name": "Alice Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8836,
       "rel_name": "Linda Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8837,
       "rel_name": "Mary Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8702,
       "rel_name": "John Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8572,
       "rel_name": "Mary Elizabeth Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8703,
+    "name": "Jeremiah M Thompson Jr",
+    "children": [
+      {
+        "id": 8702,
+        "name": "John Thompson",
+        "children": [
+          {
+            "id": 8701,
+            "name": "Jeremiah Thompson",
+            "children": [
+              {
+                "id": 8604,
+                "name": "Wallace B Thompson",
+                "children": [
+                  {
+                    "id": 8639,
+                    "name": "Clemmon Thompson",
+                    "children": [
+                      {
+                        "id": 8840,
+                        "name": "Levin Game Thompson",
+                        "children": []
+                      },
+                      {
+                        "id": 8841,
+                        "name": "Leah Thompson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8638,
+                    "name": "Melisa Molly Street",
+                    "children": [
+                      {
+                        "id": 8680,
+                        "name": "Jerry Street",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8640,
+                "name": "Elizabeth Thompson",
+                "children": [
+                  {
+                    "id": 8382,
+                    "name": "Mary C Thompson",
+                    "children": [
+                      {
+                        "id": 8606,
+                        "name": "Richard Dickerson",
+                        "children": []
+                      },
+                      {
+                        "id": 9071,
+                        "name": "Minnie Dickerson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8375,
+            "name": "Mary A. Thompson",
+            "children": [
+              {
+                "id": 9096,
+                "name": "John C Hanzer",
+                "children": [
+                  {
+                    "id": 9969,
+                    "name": "Jacob Hanzer Jr",
+                    "children": [
+                      {
+                        "id": 9974,
+                        "name": "Jacob Hanzer Sr",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9940,
+                "name": "Sophia J. Hanzer",
+                "children": [
+                  {
+                    "id": 10122,
+                    "name": "John R (H) or Jonathan Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10123,
+                    "name": "Lavinia Lovinia Sammons",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8572,
+        "name": "Mary Elizabeth Thompson",
+        "children": []
+      }
+    ]
+  }
 }

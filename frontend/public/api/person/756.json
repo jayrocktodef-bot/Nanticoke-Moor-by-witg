@@ -2,6 +2,11 @@
   "person": {
     "person_id": 756,
     "name": "Barnard Johnson",
+    "first_name": "Barnard",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 2,
     "source_page": "wrightp2.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,6 +17,7 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Barnard Johnson who married Mamie Mosley",
+      "certainty": "confirmed",
       "rel_id": 757,
       "rel_name": "Mamie Mosley"
     }
@@ -109,5 +115,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 756,
+    "name": "Barnard Johnson",
+    "children": []
+  }
 }

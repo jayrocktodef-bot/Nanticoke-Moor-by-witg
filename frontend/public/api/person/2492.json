@@ -2,6 +2,11 @@
   "person": {
     "person_id": 2492,
     "name": "Nathaniel Clark",
+    "first_name": "Nathaniel",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 2,
     "source_page": "IdentifiedIndians.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,34 +17,85 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9350,
       "rel_name": "Levin Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2097,
       "rel_name": "Clark Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8514,
       "rel_name": "Elizabeth Morris"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F444@ marriage",
+      "certainty": "confirmed",
       "rel_id": 9986,
       "rel_name": "Eunice Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9943,
       "rel_name": "Jane Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 2492,
+    "name": "Nathaniel Clark",
+    "children": [
+      {
+        "id": 9350,
+        "name": "Levin Clark",
+        "children": [
+          {
+            "id": 10334,
+            "name": "Chief William Russell \"Wyniaco\" Clark",
+            "children": [
+              {
+                "id": 10336,
+                "name": "William Vine Clark Jr.",
+                "children": [
+                  {
+                    "id": 10337,
+                    "name": "William CLARKE (Clark) Esq.",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10335,
+            "name": "Jane Clark",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 2097,
+        "name": "Clark Thomas",
+        "children": [
+          {
+            "id": 9988,
+            "name": "Martha Clark",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

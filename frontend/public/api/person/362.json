@@ -2,6 +2,11 @@
   "person": {
     "person_id": 362,
     "name": "Jacob Hander",
+    "first_name": "Jacob",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Hander",
+    "evidence_level": 2,
     "source_page": "george.htm",
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "Jacob Hander son of Jonathan Hander & Agness his wife born 5 Day of Septem. 1772",
+      "certainty": "confirmed",
       "rel_id": 363,
       "rel_name": "Jonathan Hander"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 362,
+    "name": "Jacob Hander",
+    "children": [
+      {
+        "id": 363,
+        "name": "Jonathan Hander",
+        "children": []
+      }
+    ]
+  }
 }

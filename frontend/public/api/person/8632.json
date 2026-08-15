@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8632,
     "name": "Robert Henry Davis",
+    "first_name": "Robert",
+    "middle_name": "Henry",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1837",
     "death_info": "9 Mar 1902 (aged 64&ndash;65)",
@@ -12,34 +17,78 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F104@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8704,
       "rel_name": "Lillie M. Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8789,
       "rel_name": "Lillian Eleanor Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8705,
       "rel_name": "William H. Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8788,
       "rel_name": "John M. Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8791,
       "rel_name": "Mary E Jackson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8632,
+    "name": "Robert Henry Davis",
+    "children": [
+      {
+        "id": 8788,
+        "name": "John M. Davis",
+        "children": [
+          {
+            "id": 4643,
+            "name": "Henry Davis",
+            "children": []
+          },
+          {
+            "id": 10618,
+            "name": "William H Davis",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 8791,
+        "name": "Mary E Jackson",
+        "children": [
+          {
+            "id": 409,
+            "name": "Robert B. Jackson",
+            "children": []
+          },
+          {
+            "id": 7978,
+            "name": "Lydia Ann Wright Jackson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

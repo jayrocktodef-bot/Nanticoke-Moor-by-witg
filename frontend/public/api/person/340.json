@@ -2,6 +2,11 @@
   "person": {
     "person_id": 340,
     "name": "Helen Carney",
+    "first_name": "Helen",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Carney",
+    "evidence_level": 2,
     "source_page": "durhm-m1.htm",
     "birth_info": "4 Jan 1909",
     "death_info": "3 Feb 1995 (aged 86)",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Helen Carney married William Durham",
+      "certainty": "confirmed",
       "rel_id": 245,
       "rel_name": "William Durham"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (78.3% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1018,
       "rel_name": "John Carney"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 340,
+    "name": "Helen Carney",
+    "children": []
+  }
 }

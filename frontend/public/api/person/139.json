@@ -2,6 +2,11 @@
   "person": {
     "person_id": 139,
     "name": "Robert Dean",
+    "first_name": "Robert",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Dean",
+    "evidence_level": 2,
     "source_page": "coker-m2.htm",
     "birth_info": "May 1865",
     "death_info": "27 May 1865 (aged less than 1 month)",
@@ -12,6 +17,7 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1056,
       "rel_name": "Robert Harmon"
     }
@@ -330,5 +336,42 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 419,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 275,
+      "person_id_secondary": 139,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: robert|dean|1865",
+      "created_at": "2026-08-14 03:42:34"
+    },
+    {
+      "id": 462,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 4681,
+      "person_id_secondary": 139,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: robert|dean|1865",
+      "created_at": "2026-08-14 03:42:34"
+    },
+    {
+      "id": 463,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 4682,
+      "person_id_secondary": 139,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: robert|dean|1865",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 139,
+    "name": "Robert Dean",
+    "children": []
+  }
 }

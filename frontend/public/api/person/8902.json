@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8902,
     "name": "Elizabeth Davis",
+    "first_name": "Elizabeth",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1876",
     "death_info": "unknown",
@@ -12,22 +17,53 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F317@ marriage 31 Dec 1886 Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 8610,
       "rel_name": "Davis Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9834,
       "rel_name": "Sylvester H. Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9835,
       "rel_name": "Mary A Street"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 535,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 8902,
+      "person_id_secondary": 4472,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: elizabeth|davis|1876",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 8902,
+    "name": "Elizabeth Davis",
+    "children": [
+      {
+        "id": 9834,
+        "name": "Sylvester H. Johnson",
+        "children": []
+      },
+      {
+        "id": 9835,
+        "name": "Mary A Street",
+        "children": []
+      }
+    ]
+  }
 }

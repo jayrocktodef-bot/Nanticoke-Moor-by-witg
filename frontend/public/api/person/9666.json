@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9666,
     "name": "Eunice White Ridgeway",
+    "first_name": "Eunice",
+    "middle_name": "White",
+    "maiden_name": "",
+    "married_last_name": "Ridgeway",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "13 October 1813 Sussex County, Delaware, United States of America",
     "death_info": "16 April 1896 Gloucester City, Camden County, New Jersey, USA",
@@ -12,16 +17,30 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10214,
       "rel_name": "Sarah Jane Sockum"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10354,
       "rel_name": "Jacob Ridgeway"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9666,
+    "name": "Eunice White Ridgeway",
+    "children": [
+      {
+        "id": 10354,
+        "name": "Jacob Ridgeway",
+        "children": []
+      }
+    ]
+  }
 }

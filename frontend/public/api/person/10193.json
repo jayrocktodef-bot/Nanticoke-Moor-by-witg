@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10193,
     "name": "Annie Conaway",
+    "first_name": "Annie",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Conaway",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "18 March 1913 Delaware",
     "death_info": "17 August 1978",
@@ -12,16 +17,63 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8378,
       "rel_name": "Robert James Conaway"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8382,
       "rel_name": "Mary C Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10193,
+    "name": "Annie Conaway",
+    "children": [
+      {
+        "id": 8378,
+        "name": "Robert James Conaway",
+        "children": []
+      },
+      {
+        "id": 8382,
+        "name": "Mary C Thompson",
+        "children": [
+          {
+            "id": 8606,
+            "name": "Richard Dickerson",
+            "children": [
+              {
+                "id": 9073,
+                "name": "Charles Dickerson",
+                "children": [
+                  {
+                    "id": 8606,
+                    "name": "Richard Dickerson",
+                    "children": []
+                  },
+                  {
+                    "id": 9071,
+                    "name": "Minnie Dickerson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9071,
+            "name": "Minnie Dickerson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

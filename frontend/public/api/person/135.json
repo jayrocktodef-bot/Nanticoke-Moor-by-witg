@@ -2,6 +2,11 @@
   "person": {
     "person_id": 135,
     "name": "Donald Coker",
+    "first_name": "Donald",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Coker",
+    "evidence_level": 2,
     "source_page": "coker-j2.htm",
     "birth_info": "24 May 1924",
     "death_info": "15 Jul 2015 (aged 91)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Donald Coker married Harriett Morgan",
+      "certainty": "confirmed",
       "rel_id": 136,
       "rel_name": "Harriett Morgan"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 135,
+    "name": "Donald Coker",
+    "children": []
+  }
 }

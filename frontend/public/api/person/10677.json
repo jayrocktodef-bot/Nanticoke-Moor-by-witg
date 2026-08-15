@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10677,
     "name": "Donald Davis",
+    "first_name": "Donald",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "23 Jul 1973",
     "death_info": "9 Jul 1992 (aged 18)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10678,
       "rel_name": "Linda M. Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10677,
+    "name": "Donald Davis",
+    "children": []
+  }
 }

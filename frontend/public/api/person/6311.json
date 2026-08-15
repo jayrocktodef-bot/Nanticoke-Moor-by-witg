@@ -2,6 +2,11 @@
   "person": {
     "person_id": 6311,
     "name": "Lillie Mae Johnson Davis",
+    "first_name": "Lillie",
+    "middle_name": "Mae Johnson",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "JohnsonWilliam&Patience.htm",
     "birth_info": "1882",
     "death_info": "15 Apr 1909 (aged 26&ndash;27)",
@@ -76,5 +81,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 496,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 6311,
+      "person_id_secondary": 4470,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: lillie|davis|1882",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 6311,
+    "name": "Lillie Mae Johnson Davis",
+    "children": []
+  }
 }

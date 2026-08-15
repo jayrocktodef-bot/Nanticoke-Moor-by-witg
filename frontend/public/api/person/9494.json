@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9494,
     "name": "Msgt Willis Return Johnson",
+    "first_name": "Msgt",
+    "middle_name": "Willis Return",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "28 July 1927 Cheswold, Kent County, Delaware, United States of America",
     "death_info": "19 November 2012 San Pablo, Contra Costa County, California, United States of America",
@@ -12,10 +17,52 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9493,
       "rel_name": "Willis   Milton Bill Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9494,
+    "name": "Msgt Willis Return Johnson",
+    "children": [
+      {
+        "id": 9493,
+        "name": "Willis   Milton Bill Johnson",
+        "children": [
+          {
+            "id": 9490,
+            "name": "Reburn Johnson",
+            "children": [
+              {
+                "id": 8990,
+                "name": "Isaiah Johnson",
+                "children": [
+                  {
+                    "id": 2366,
+                    "name": "William Johnson",
+                    "children": [
+                      {
+                        "id": 10407,
+                        "name": "John Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8766,
+                    "name": "Sarah A Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

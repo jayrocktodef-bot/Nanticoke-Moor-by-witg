@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8505,
     "name": "Morris Thomas",
+    "first_name": "Morris",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1720 Spotsylvania,,Virginia,USA",
     "death_info": "1789 Chester, S.C.",
@@ -12,118 +17,227 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F142@ marriage 14 Dec 1807 Orange, Virginia, United States",
+      "certainty": "confirmed",
       "rel_id": 9992,
       "rel_name": "Sally Wright"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8617,
       "rel_name": "Negro Morris Thomas"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F143@ marriage 14 Dec 1807 Orange, Virginia",
+      "certainty": "confirmed",
       "rel_id": 9992,
       "rel_name": "Sally Wright"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10085,
       "rel_name": "Elizabeth \"Betsy\" Morris"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F301@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8642,
       "rel_name": "Grace Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 8617,
+      "rel_name": "Negro Morris Thomas"
+    },
+    {
+      "relationship_type": "invalid_cycle_child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8617,
       "rel_name": "Negro Morris Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
-      "rel_id": 8617,
-      "rel_name": "Negro Morris Thomas"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8910,
       "rel_name": "Leticia Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8509,
       "rel_name": "John Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8507,
       "rel_name": "Garrett Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2286,
       "rel_name": "William Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8511,
       "rel_name": "Richard Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8514,
       "rel_name": "Elizabeth Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8513,
       "rel_name": "Sarah Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2286,
       "rel_name": "William Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8262,
       "rel_name": "Joseph Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8508,
       "rel_name": "Calvin Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8512,
       "rel_name": "Ann Margaret Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8510,
       "rel_name": "Lewis D Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 4949,
+      "category": "Structural Integrity",
+      "severity": "critical",
+      "person_id": 8505,
+      "person_id_secondary": 8617,
+      "description": "Removed topological loop (back-edge) in descent graph.",
+      "evidence": "Edge creates a cycle where a person becomes their own ancestor.",
+      "created_at": "2026-08-15 01:27:02"
+    }
+  ],
+  "ancestry": {
+    "id": 8505,
+    "name": "Morris Thomas",
+    "children": [
+      {
+        "id": 8910,
+        "name": "Leticia Morris",
+        "children": [
+          {
+            "id": 8616,
+            "name": "Stephen Wright",
+            "children": [
+              {
+                "id": 8687,
+                "name": "Benjamin Wright",
+                "children": [
+                  {
+                    "id": 8684,
+                    "name": "Priscilla Miller",
+                    "children": [
+                      {
+                        "id": 8618,
+                        "name": "Ebenezar Miller",
+                        "children": []
+                      },
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8684,
+            "name": "Priscilla Miller",
+            "children": [
+              {
+                "id": 8618,
+                "name": "Ebenezar Miller",
+                "children": []
+              },
+              {
+                "id": 9188,
+                "name": "Ebenezer Miller",
+                "children": [
+                  {
+                    "id": 9190,
+                    "name": "Ebenezer Miller Sr",
+                    "children": [
+                      {
+                        "id": 9192,
+                        "name": "Joseph Miller Sr",
+                        "children": []
+                      },
+                      {
+                        "id": 9193,
+                        "name": "Rebekah Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9191,
+                    "name": "Sarah Collier (Collyer) Miller",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

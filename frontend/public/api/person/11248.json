@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11248,
     "name": "Sara (Sarah) Ann Thompson",
+    "first_name": "Sara",
+    "middle_name": "Ann",
+    "maiden_name": "Sarah",
+    "married_last_name": "Thompson",
+    "evidence_level": 1,
     "source_page": "FindAGrave Memorial 5207278",
     "birth_info": "1844",
     "death_info": "1929",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": null,
+      "certainty": "confirmed",
       "rel_id": 1681,
       "rel_name": "John Asbury Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11248,
+    "name": "Sara (Sarah) Ann Thompson",
+    "children": []
+  }
 }

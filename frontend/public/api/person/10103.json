@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10103,
     "name": "Mary E. Clark",
+    "first_name": "Mary",
+    "middle_name": "E.",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "3 Jun 1847",
     "death_info": "7 Jun 1926 (aged 79)",
@@ -12,16 +17,81 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2097,
       "rel_name": "Clark Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8514,
       "rel_name": "Elizabeth Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10103,
+    "name": "Mary E. Clark",
+    "children": [
+      {
+        "id": 2097,
+        "name": "Clark Thomas",
+        "children": [
+          {
+            "id": 9988,
+            "name": "Martha Clark",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 8514,
+        "name": "Elizabeth Morris",
+        "children": [
+          {
+            "id": 8505,
+            "name": "Morris Thomas",
+            "children": [
+              {
+                "id": 8910,
+                "name": "Leticia Morris",
+                "children": [
+                  {
+                    "id": 8616,
+                    "name": "Stephen Wright",
+                    "children": [
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8684,
+                    "name": "Priscilla Miller",
+                    "children": [
+                      {
+                        "id": 8618,
+                        "name": "Ebenezar Miller",
+                        "children": []
+                      },
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

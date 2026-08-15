@@ -2,6 +2,11 @@
   "person": {
     "person_id": 1003,
     "name": "Samuel Durham",
+    "first_name": "Samuel",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "moors_moors.aspx",
     "birth_info": "1815",
     "death_info": "Oct 1897 (aged 81&ndash;82)",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 194,
       "rel_name": "Daniel Durham"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 314,
       "rel_name": "Mamie Durham"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 1003,
+    "name": "Samuel Durham",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9474,
     "name": "Edna Thomas",
+    "first_name": "Edna",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "23 Aug 1906 Denton, Md",
     "death_info": "31 Mar 1990 Philadelphia, PA, USA",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9523,
       "rel_name": "George Thomas"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9474,
+    "name": "Edna Thomas",
+    "children": [
+      {
+        "id": 9523,
+        "name": "George Thomas",
+        "children": []
+      }
+    ]
+  }
 }

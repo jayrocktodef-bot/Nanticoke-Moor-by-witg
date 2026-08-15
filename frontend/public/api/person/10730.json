@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10730,
     "name": "Bruce L. Jackson",
+    "first_name": "Bruce",
+    "middle_name": "L.",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1942",
     "death_info": "1999 (aged 56&ndash;57)",
@@ -12,16 +17,103 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10725,
       "rel_name": "Samuel Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9964,
       "rel_name": "Agnes Beatrice Wright"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10730,
+    "name": "Bruce L. Jackson",
+    "children": [
+      {
+        "id": 10725,
+        "name": "Samuel Jackson",
+        "children": []
+      },
+      {
+        "id": 9964,
+        "name": "Agnes Beatrice Wright",
+        "children": [
+          {
+            "id": 9373,
+            "name": "Horace E. Wright",
+            "children": [
+              {
+                "id": 8712,
+                "name": "George Harvey Morris",
+                "children": [
+                  {
+                    "id": 8683,
+                    "name": "Josiah Joseph Morris",
+                    "children": [
+                      {
+                        "id": 8617,
+                        "name": "Negro Morris Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 8910,
+                        "name": "Leticia Morris",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9963,
+            "name": "Arabella B. Wright",
+            "children": [
+              {
+                "id": 9936,
+                "name": "Sarah Adeline Hanzer",
+                "children": [
+                  {
+                    "id": 9096,
+                    "name": "John C Hanzer",
+                    "children": [
+                      {
+                        "id": 9969,
+                        "name": "Jacob Hanzer Jr",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9940,
+                    "name": "Sophia J. Hanzer",
+                    "children": [
+                      {
+                        "id": 10122,
+                        "name": "John R (H) or Jonathan Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10123,
+                        "name": "Lavinia Lovinia Sammons",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

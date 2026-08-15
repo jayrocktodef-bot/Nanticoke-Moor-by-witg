@@ -2,6 +2,11 @@
   "person": {
     "person_id": 1030,
     "name": "William Eugene Durham",
+    "first_name": "William",
+    "middle_name": "Eugene",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "moors_moors.aspx",
     "birth_info": "1836",
     "death_info": "14 Feb 1876 (aged 39&ndash;40)",
@@ -12,10 +17,28 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (77.8% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 245,
       "rel_name": "William Durham"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 430,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 1030,
+      "person_id_secondary": 245,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: william|durham|1836",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 1030,
+    "name": "William Eugene Durham",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9001,
     "name": "George Isaac Harmon",
+    "first_name": "George",
+    "middle_name": "Isaac",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "23 May 1948 Lewes, Sussex County, Delaware, United States of America",
     "death_info": "18 November 2014",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9003,
       "rel_name": "George Harmon Jr."
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9001,
+    "name": "George Isaac Harmon",
+    "children": []
+  }
 }

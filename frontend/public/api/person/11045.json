@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11045,
     "name": "Elizabeth Ella Carmean",
+    "first_name": "Elizabeth",
+    "middle_name": "Ella",
+    "maiden_name": "",
+    "married_last_name": "Carmean",
+    "evidence_level": 1,
     "source_page": null,
     "birth_info": "January 10, 1863 Sussex County, Delaware, USA",
     "death_info": "25 June 1948",
@@ -12,22 +17,31 @@
     {
       "relationship_type": "spouses",
       "evidence_text": "Restored GEDCOM family marriage record",
+      "certainty": "confirmed",
       "rel_id": 11050,
       "rel_name": "Jacob B. Cordrey"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11054,
       "rel_name": "Franklin Webster Cordrey"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11058,
       "rel_name": "Pearl H Cordrey"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11045,
+    "name": "Elizabeth Ella Carmean",
+    "children": []
+  }
 }

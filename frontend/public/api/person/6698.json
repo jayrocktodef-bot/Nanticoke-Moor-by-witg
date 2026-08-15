@@ -2,6 +2,11 @@
   "person": {
     "person_id": 6698,
     "name": "Annie Mosley",
+    "first_name": "Annie",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 2,
     "source_page": "MosleyCharlesHenryFamily.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,12 +17,14 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10632,
       "rel_name": "Harry C Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10626,
       "rel_name": "Ellen Mosley"
     }
@@ -336,5 +343,28 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 6698,
+    "name": "Annie Mosley",
+    "children": [
+      {
+        "id": 10632,
+        "name": "Harry C Mosley",
+        "children": []
+      },
+      {
+        "id": 10626,
+        "name": "Ellen Mosley",
+        "children": [
+          {
+            "id": 10624,
+            "name": "Eliza Mosley",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

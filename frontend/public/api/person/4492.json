@@ -2,6 +2,11 @@
   "person": {
     "person_id": 4492,
     "name": "Pearl and William Whiteman",
+    "first_name": "Pearl",
+    "middle_name": "and William",
+    "maiden_name": "",
+    "married_last_name": "Whiteman",
+    "evidence_level": 2,
     "source_page": "ChappelleJohn&Pearl.htm",
     "birth_info": "18 Jan 1880",
     "death_info": "9 Oct 1889 (aged 9)",
@@ -206,5 +211,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 502,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 6692,
+      "person_id_secondary": 4492,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: pearl|whiteman|1880",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 4492,
+    "name": "Pearl and William Whiteman",
+    "children": []
+  }
 }

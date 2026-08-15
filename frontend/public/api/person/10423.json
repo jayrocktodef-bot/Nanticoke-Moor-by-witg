@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10423,
     "name": "Nancy Clark",
+    "first_name": "Nancy",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
     "death_info": "1 Nov 2010",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F149@ marriage 1853",
+      "certainty": "confirmed",
       "rel_id": 10421,
       "rel_name": "James H Clark"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10423,
+    "name": "Nancy Clark",
+    "children": []
+  }
 }

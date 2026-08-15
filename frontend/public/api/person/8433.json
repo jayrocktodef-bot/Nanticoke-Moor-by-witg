@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8433,
     "name": "Flossie Goldsborough",
+    "first_name": "Flossie",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Goldsborough",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Feb 1892",
     "death_info": "8 Mar 1953 (aged 61)",
@@ -12,16 +17,41 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8430,
       "rel_name": "John W Goldsborough"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8429,
       "rel_name": "Armenia Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8433,
+    "name": "Flossie Goldsborough",
+    "children": [
+      {
+        "id": 8430,
+        "name": "John W Goldsborough",
+        "children": []
+      },
+      {
+        "id": 8429,
+        "name": "Armenia Thompson",
+        "children": [
+          {
+            "id": 9410,
+            "name": "John Wesley Thompson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

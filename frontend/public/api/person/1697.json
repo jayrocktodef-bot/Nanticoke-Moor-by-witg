@@ -2,6 +2,11 @@
   "person": {
     "person_id": 1697,
     "name": "Joan Johnson",
+    "first_name": "Joan",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 2,
     "source_page": "Puckham.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,6 +17,7 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Married 25 Feb 1682/3 in Somerset Co, MD; minister John Huett",
+      "certainty": "confirmed",
       "rel_id": 1696,
       "rel_name": "John Puckham"
     }
@@ -200,5 +206,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 1697,
+    "name": "Joan Johnson",
+    "children": []
+  }
 }

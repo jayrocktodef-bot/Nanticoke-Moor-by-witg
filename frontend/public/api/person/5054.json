@@ -2,6 +2,11 @@
   "person": {
     "person_id": 5054,
     "name": "Helen Durham",
+    "first_name": "Helen",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "DurhamLeshiaKelly.htm",
     "birth_info": "12 Aug 1878",
     "death_info": "15 Nov 1943 (aged 65)",
@@ -180,5 +185,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 476,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 5054,
+      "person_id_secondary": 2564,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: helen|durham|1878",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 5054,
+    "name": "Helen Durham",
+    "children": []
+  }
 }

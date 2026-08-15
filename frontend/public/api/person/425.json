@@ -2,6 +2,11 @@
   "person": {
     "person_id": 425,
     "name": "John Myers",
+    "first_name": "John",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Myers",
+    "evidence_level": 2,
     "source_page": "jacksnr2.htm",
     "birth_info": "1821",
     "death_info": "1883 (aged 61&ndash;62)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Mildred Street married John Myers",
+      "certainty": "confirmed",
       "rel_id": 424,
       "rel_name": "Mildred Street"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 425,
+    "name": "John Myers",
+    "children": []
+  }
 }

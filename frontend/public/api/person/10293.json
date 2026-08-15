@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10293,
     "name": "Harriet Louisa Hansor - Harmon",
+    "first_name": "Harriet",
+    "middle_name": "Louisa Hansor -",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Jun 1818 Indian River Hundred, Sussex County, Delaware, USA",
     "death_info": "Aft. 1900 Indian River Hundred, Sussex County, Delaware, USA",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F211@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10260,
       "rel_name": "Adjoniah R. Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10291,
       "rel_name": "Charles S Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10293,
+    "name": "Harriet Louisa Hansor - Harmon",
+    "children": []
+  }
 }

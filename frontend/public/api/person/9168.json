@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9168,
     "name": "Irvin J Thompson",
+    "first_name": "Irvin",
+    "middle_name": "J",
+    "maiden_name": "",
+    "married_last_name": "Thompson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "15 Feb 1926",
     "death_info": "21 Dec 2013 (aged 87)",
@@ -12,16 +17,108 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8679,
       "rel_name": "John W Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9165,
       "rel_name": "Sarah A Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9168,
+    "name": "Irvin J Thompson",
+    "children": [
+      {
+        "id": 8679,
+        "name": "John W Thompson",
+        "children": [
+          {
+            "id": 8639,
+            "name": "Clemmon Thompson",
+            "children": [
+              {
+                "id": 8840,
+                "name": "Levin Game Thompson",
+                "children": []
+              },
+              {
+                "id": 8841,
+                "name": "Leah Thompson",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8638,
+            "name": "Melisa Molly Street",
+            "children": [
+              {
+                "id": 8680,
+                "name": "Jerry Street",
+                "children": [
+                  {
+                    "id": 9510,
+                    "name": "David Street",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9165,
+        "name": "Sarah A Thompson",
+        "children": [
+          {
+            "id": 10122,
+            "name": "John R (H) or Jonathan Harmon",
+            "children": [
+              {
+                "id": 9982,
+                "name": "Robert Emanuel Harmon",
+                "children": []
+              },
+              {
+                "id": 9983,
+                "name": "Rachel Anne Johnson",
+                "children": [
+                  {
+                    "id": 9984,
+                    "name": "Isaac Johnson",
+                    "children": []
+                  },
+                  {
+                    "id": 9985,
+                    "name": "Jemima WARD Johnson (MD)",
+                    "children": [
+                      {
+                        "id": 10401,
+                        "name": "Rachel Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10123,
+            "name": "Lavinia Lovinia Sammons",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

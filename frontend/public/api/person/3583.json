@@ -2,6 +2,11 @@
   "person": {
     "person_id": 3583,
     "name": "Della Mae Ridgway Carey",
+    "first_name": "Della",
+    "middle_name": "Mae Ridgway",
+    "maiden_name": "",
+    "married_last_name": "Carey",
+    "evidence_level": 2,
     "source_page": "CareyCharlesE&DellaRidgeway.htm",
     "birth_info": "26 Aug 1866",
     "death_info": "10 Dec 1902 (aged 36)",
@@ -141,5 +146,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 446,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 3583,
+      "person_id_secondary": 3536,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: della|carey|1866",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 3583,
+    "name": "Della Mae Ridgway Carey",
+    "children": []
+  }
 }

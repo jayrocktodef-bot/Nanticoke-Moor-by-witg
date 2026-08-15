@@ -2,6 +2,11 @@
   "person": {
     "person_id": 1683,
     "name": "Bartholomew Thompson",
+    "first_name": "Bartholomew",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thompson",
+    "evidence_level": 2,
     "source_page": "ThompsonBartholomew.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,12 +17,14 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "Son of John W. Thompson",
+      "certainty": "confirmed",
       "rel_id": 1684,
       "rel_name": "John W. Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "Son of Sarah Ann (Harmon) Thompson",
+      "certainty": "confirmed",
       "rel_id": 1685,
       "rel_name": "Sarah Ann Harmon"
     }
@@ -232,5 +239,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 1683,
+    "name": "Bartholomew Thompson",
+    "children": [
+      {
+        "id": 1684,
+        "name": "John W. Thompson",
+        "children": []
+      },
+      {
+        "id": 1685,
+        "name": "Sarah Ann Harmon",
+        "children": []
+      }
+    ]
+  }
 }

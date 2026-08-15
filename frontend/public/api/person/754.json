@@ -2,6 +2,11 @@
   "person": {
     "person_id": 754,
     "name": "William Howard Johnson",
+    "first_name": "William",
+    "middle_name": "Howard",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 2,
     "source_page": "wrightp2.htm",
     "birth_info": "unknown",
     "death_info": "2 Mar 1962",
@@ -12,30 +17,35 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "William Howard Johnson who married Eliza Ann Harmon,",
+      "certainty": "confirmed",
       "rel_id": 755,
       "rel_name": "Eliza Ann Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 584,
       "rel_name": "William Arthur Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 774,
       "rel_name": "Elizabeth Patience Wright"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F122@ marriage",
+      "certainty": "confirmed",
       "rel_id": 9270,
       "rel_name": "Elizabeth Anne Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8704,
       "rel_name": "Lillie M. Davis"
     }
@@ -81,5 +91,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 754,
+    "name": "William Howard Johnson",
+    "children": [
+      {
+        "id": 584,
+        "name": "William Arthur Johnson",
+        "children": []
+      },
+      {
+        "id": 774,
+        "name": "Elizabeth Patience Wright",
+        "children": []
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10134,
     "name": "Tammy Mosley",
+    "first_name": "Tammy",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "13 May 1974",
     "death_info": "26 Feb 2026 (aged 51)",
@@ -12,16 +17,93 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9491,
       "rel_name": "Jackie Melvin Johnson Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10135,
       "rel_name": "Helen Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10134,
+    "name": "Tammy Mosley",
+    "children": [
+      {
+        "id": 9491,
+        "name": "Jackie Melvin Johnson Sr",
+        "children": [
+          {
+            "id": 3722,
+            "name": "Franklin Johnson",
+            "children": [
+              {
+                "id": 9490,
+                "name": "Reburn Johnson",
+                "children": [
+                  {
+                    "id": 8990,
+                    "name": "Isaiah Johnson",
+                    "children": [
+                      {
+                        "id": 2366,
+                        "name": "William Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 8766,
+                        "name": "Sarah A Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10135,
+        "name": "Helen Johnson",
+        "children": [
+          {
+            "id": 10126,
+            "name": "Rosella Mosley",
+            "children": [
+              {
+                "id": 10125,
+                "name": "Harry Charles Mosley",
+                "children": [
+                  {
+                    "id": 4768,
+                    "name": "Elizabeth Mosley",
+                    "children": [
+                      {
+                        "id": 9096,
+                        "name": "John C Hanzer",
+                        "children": []
+                      },
+                      {
+                        "id": 9940,
+                        "name": "Sophia J. Hanzer",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

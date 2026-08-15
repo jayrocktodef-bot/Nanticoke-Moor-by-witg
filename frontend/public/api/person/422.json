@@ -2,6 +2,11 @@
   "person": {
     "person_id": 422,
     "name": "Robert Street",
+    "first_name": "Robert",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Street",
+    "evidence_level": 2,
     "source_page": "jacksnr2.htm",
     "birth_info": "unknown",
     "death_info": "Oct 1908",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Robert Street married Agnes Hansley",
+      "certainty": "confirmed",
       "rel_id": 423,
       "rel_name": "Agnes Hansley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 422,
+    "name": "Robert Street",
+    "children": []
+  }
 }

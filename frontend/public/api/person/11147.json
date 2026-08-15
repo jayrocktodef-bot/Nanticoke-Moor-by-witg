@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11147,
     "name": "Sarah E. Ingram",
+    "first_name": "Sarah",
+    "middle_name": "E.",
+    "maiden_name": "",
+    "married_last_name": "Ingram",
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": "unknown",
     "death_info": "Aug 1832",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11138,
       "rel_name": "Harry Ingram"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11143,
       "rel_name": "Emma A. Ingram"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11147,
+    "name": "Sarah E. Ingram",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8385,
     "name": "Leroy Harris Thompson",
+    "first_name": "Leroy",
+    "middle_name": "Harris",
+    "maiden_name": "",
+    "married_last_name": "Thompson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "12 February 1906 Painesville, Lake County, Ohio, USA",
     "death_info": "7 Apr 1963 McKeesport, Allegheny County, Pennsylvania",
@@ -12,22 +17,65 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8426,
       "rel_name": "Dolores Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8425,
       "rel_name": "James Errol Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8382,
       "rel_name": "Mary C Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8385,
+    "name": "Leroy Harris Thompson",
+    "children": [
+      {
+        "id": 8382,
+        "name": "Mary C Thompson",
+        "children": [
+          {
+            "id": 8606,
+            "name": "Richard Dickerson",
+            "children": [
+              {
+                "id": 9073,
+                "name": "Charles Dickerson",
+                "children": [
+                  {
+                    "id": 8606,
+                    "name": "Richard Dickerson",
+                    "children": []
+                  },
+                  {
+                    "id": 9071,
+                    "name": "Minnie Dickerson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9071,
+            "name": "Minnie Dickerson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

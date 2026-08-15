@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9969,
     "name": "Jacob Hanzer Jr",
+    "first_name": "Jacob",
+    "middle_name": "Hanzer",
+    "maiden_name": "",
+    "married_last_name": "Jr",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1794 Delaware",
     "death_info": "no record Indian River Hundred, Sussex County, Delaware, USA",
@@ -12,34 +17,63 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9976,
       "rel_name": "Sally Anna\"Nancy\" Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9977,
       "rel_name": "Eleanor Mosley Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9096,
       "rel_name": "John C Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9970,
       "rel_name": "Josephine Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9974,
       "rel_name": "Jacob Hanzer Sr"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9969,
+    "name": "Jacob Hanzer Jr",
+    "children": [
+      {
+        "id": 9974,
+        "name": "Jacob Hanzer Sr",
+        "children": [
+          {
+            "id": 9978,
+            "name": "Jonathan Hanzer",
+            "children": [
+              {
+                "id": 4056,
+                "name": "William Handsor",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 454,
     "name": "Margaret Harmon",
+    "first_name": "Margaret",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "jwesley.htm",
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -12,22 +17,31 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 958,
       "rel_name": "Mr Harmon"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (77.4% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1020,
       "rel_name": "Garretson Harmon"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1336,
       "rel_name": "Margaret Durham"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 454,
+    "name": "Margaret Harmon",
+    "children": []
+  }
 }

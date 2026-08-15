@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8704,
     "name": "Lillie M. Davis",
+    "first_name": "Lillie",
+    "middle_name": "M.",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1882",
     "death_info": "15 Apr 1909 (aged 26&ndash;27)",
@@ -12,34 +17,101 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F104@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8632,
       "rel_name": "Robert Henry Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8789,
       "rel_name": "Lillian Eleanor Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8705,
       "rel_name": "William H. Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 754,
       "rel_name": "William Howard Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9270,
       "rel_name": "Elizabeth Anne Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 530,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 8704,
+      "person_id_secondary": 4470,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: lillie|davis|1882",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 8704,
+    "name": "Lillie M. Davis",
+    "children": [
+      {
+        "id": 754,
+        "name": "William Howard Johnson",
+        "children": [
+          {
+            "id": 584,
+            "name": "William Arthur Johnson",
+            "children": []
+          },
+          {
+            "id": 774,
+            "name": "Elizabeth Patience Wright",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 9270,
+        "name": "Elizabeth Anne Harmon",
+        "children": [
+          {
+            "id": 5921,
+            "name": "Isaac W. Harmon",
+            "children": []
+          },
+          {
+            "id": 10214,
+            "name": "Sarah Jane Sockum",
+            "children": [
+              {
+                "id": 9666,
+                "name": "Eunice White Ridgeway",
+                "children": [
+                  {
+                    "id": 10354,
+                    "name": "Jacob Ridgeway",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

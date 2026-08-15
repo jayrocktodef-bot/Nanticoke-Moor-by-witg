@@ -2,6 +2,11 @@
   "person": {
     "person_id": 995,
     "name": "John Harmon",
+    "first_name": "John",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "moors_moors.aspx",
     "birth_info": "8 Jun 1853",
     "death_info": "28 Sep 1931 (aged 78)",
@@ -12,28 +17,138 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 771,
       "rel_name": "Leston Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9407,
       "rel_name": "David Roland Harmon Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8927,
       "rel_name": "Eliza Jane Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8862,
       "rel_name": "William Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 995,
+    "name": "John Harmon",
+    "children": [
+      {
+        "id": 9407,
+        "name": "David Roland Harmon Sr",
+        "children": []
+      },
+      {
+        "id": 8927,
+        "name": "Eliza Jane Harmon",
+        "children": [
+          {
+            "id": 5763,
+            "name": "Robert Marshall Hanzer",
+            "children": [
+              {
+                "id": 9096,
+                "name": "John C Hanzer",
+                "children": [
+                  {
+                    "id": 9969,
+                    "name": "Jacob Hanzer Jr",
+                    "children": [
+                      {
+                        "id": 9974,
+                        "name": "Jacob Hanzer Sr",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9940,
+                "name": "Sophia J. Hanzer",
+                "children": [
+                  {
+                    "id": 10122,
+                    "name": "John R (H) or Jonathan Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10123,
+                    "name": "Lavinia Lovinia Sammons",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10290,
+            "name": "Harriet Ann Harmon",
+            "children": [
+              {
+                "id": 10291,
+                "name": "Charles S Harmon",
+                "children": [
+                  {
+                    "id": 10260,
+                    "name": "Adjoniah R. Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10293,
+                    "name": "Harriet Louisa Hansor - Harmon",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 10292,
+                "name": "Ann Mariah Harmon",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

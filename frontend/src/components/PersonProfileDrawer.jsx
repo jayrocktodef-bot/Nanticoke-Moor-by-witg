@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { User, Users, Camera, HeartHandshake, FileText, ExternalLink, Calendar, GitBranch } from 'lucide-react';
+import FanChart from './FanChart';
 
 export default function PersonProfileDrawer({ personId, onClose, onSelectPerson }) {
   const [profile, setProfile] = useState(null);
   const [loading, setLoading] = useState(true);
   const [lightboxPhoto, setLightboxPhoto] = useState(null);
+  const [viewMode, setViewMode] = useState('details');
 
   useEffect(() => {
     if (!personId) return;
@@ -32,14 +34,14 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-slate-400 hover:text-white p-2.5 rounded-xl bg-slate-800 transition-all min-w-[44px] min-h-[44px] flex items-center justify-center font-bold text-lg"
+          className="absolute top-4 right-4 text-slate-400 hover:text-white p-2.5 rounded-xl bg-slate-800 transition-all min-w-[44px] min-h-[44px] flex items-center justify-center font-bold text-lg active:scale-[0.95]"
           aria-label="Close Profile Drawer"
         >
           ✕
         </button>
 
         {loading ? (
-          <div className="flex-1 flex items-center justify-center text-slate-500">
+          <div className="flex-1 flex flex-col items-center justify-center text-slate-500">
             <div className="w-6 h-6 border-2 border-amber-500/30 border-t-amber-400 rounded-full animate-spin mb-3" />
           </div>
         ) : profile ? (
@@ -58,13 +60,55 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
                     {profile.person.dataset_source}
                   </span>
                 </div>
-                <h2 className="text-2xl font-bold text-white mt-1.5">{profile.person.name}</h2>
+                <h2 className="text-2xl font-bold text-white mt-1.5 flex flex-wrap items-baseline gap-2">
+                  <span>{profile.person.first_name || profile.person.name}</span>
+                  {profile.person.middle_name && <span className="text-slate-300">{profile.person.middle_name}</span>}
+                  {profile.person.maiden_name && <span className="text-amber-400 italic">({profile.person.maiden_name})</span>}
+                  {profile.person.married_last_name && <span>{profile.person.married_last_name}</span>}
+                </h2>
+                
+                <div className="mt-2 flex items-center gap-2">
+                  {profile.person.evidence_level === 4 && <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-violet-500/20 text-violet-400 border border-violet-500/30">Level 4: DNA Confirmed</span>}
+                  {profile.person.evidence_level === 3 && <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">Level 3: Primary Source</span>}
+                  {profile.person.evidence_level === 2 && <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-amber-500/20 text-amber-400 border border-amber-500/30">Level 2: Indexed Record</span>}
+                  {(profile.person.evidence_level === 1 || !profile.person.evidence_level) && <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-slate-400 border border-slate-700">Level 1: Unverified</span>}
+                </div>
+
+                <div className="mt-4 flex gap-2">
+                  <button 
+                    onClick={() => setViewMode('details')}
+                    className={`px-3 py-1 text-xs font-bold rounded-md uppercase tracking-wider ${viewMode === 'details' ? 'bg-amber-500 text-slate-900' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'}`}
+                  >
+                    Details
+                  </button>
+                  <button 
+                    onClick={() => setViewMode('fan')}
+                    className={`px-3 py-1 text-xs font-bold rounded-md uppercase tracking-wider ${viewMode === 'fan' ? 'bg-amber-500 text-slate-900' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'}`}
+                  >
+                    Fan View
+                  </button>
+                </div>
+
+                {profile.audit_flags && profile.audit_flags.length > 0 && (
+                  <div className="mt-3 space-y-2">
+                    {profile.audit_flags.map((flag, idx) => (
+                      <div key={idx} className={`text-xs px-3 py-2 rounded-lg border ${flag.severity === 'critical' ? 'bg-red-500/10 border-red-500/30 text-red-400' : 'bg-orange-500/10 border-orange-500/30 text-orange-400'}`}>
+                        <strong>Warning:</strong> {flag.description}
+                      </div>
+                    ))}
+                  </div>
+                )}
+
                 {profile.person.notes && (
-                  <p className="text-xs text-slate-400 mt-1 leading-relaxed">{profile.person.notes}</p>
+                  <p className="text-xs text-slate-400 mt-3 leading-relaxed">{profile.person.notes}</p>
                 )}
               </div>
             </div>
 
+            {viewMode === 'fan' ? (
+              <FanChart ancestryData={profile.ancestry} onSelectPerson={onSelectPerson} />
+            ) : (
+              <>
             {/* Immediate Relationships */}
             <div>
               <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3 flex items-center gap-1.5">
@@ -92,9 +136,14 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
                           </span>
                         </div>
                       </div>
-                      <span className="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-slate-800 text-amber-400">
-                        {rel.relationship_type}
-                      </span>
+                      <div className="text-right">
+                        <span className="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-slate-800 text-amber-400 block mb-1">
+                          {rel.relationship_type}
+                        </span>
+                        {rel.certainty === 'uncertain' && (
+                          <span className="text-[9px] uppercase font-bold text-red-400 bg-red-400/10 px-1 py-0.5 rounded">Uncertain</span>
+                        )}
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -115,7 +164,7 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
                     <div
                       key={photo.photo_id}
                       onClick={() => setLightboxPhoto(photo)}
-                      className="bg-slate-950 border border-slate-800 rounded-xl overflow-hidden p-2 cursor-pointer hover:border-amber-500/50 hover:shadow-lg transition-all group"
+                      className="bg-slate-950 border border-slate-800 rounded-xl overflow-hidden p-2 cursor-pointer hover:border-amber-500/50 hover:shadow-lg transition-all group active:scale-[0.98]"
                     >
                       <img
                         src={photo.local_image_path.startsWith('/') ? photo.local_image_path : '/' + photo.local_image_path}

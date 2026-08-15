@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10724,
     "name": "Wesley S. Thompson Sr",
+    "first_name": "Wesley",
+    "middle_name": "S. Thompson",
+    "maiden_name": "",
+    "married_last_name": "Sr",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "5 July 1933 Cedarville, Cumberland County, New Jersey, United States of America",
     "death_info": "25 September 2007 Millville, Cumberland County, New Jersey, United States of America",
@@ -12,10 +17,101 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10277,
       "rel_name": "Amanda Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10724,
+    "name": "Wesley S. Thompson Sr",
+    "children": [
+      {
+        "id": 10277,
+        "name": "Amanda Thompson",
+        "children": [
+          {
+            "id": 8702,
+            "name": "John Thompson",
+            "children": [
+              {
+                "id": 8701,
+                "name": "Jeremiah Thompson",
+                "children": [
+                  {
+                    "id": 8604,
+                    "name": "Wallace B Thompson",
+                    "children": [
+                      {
+                        "id": 8639,
+                        "name": "Clemmon Thompson",
+                        "children": []
+                      },
+                      {
+                        "id": 8638,
+                        "name": "Melisa Molly Street",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8640,
+                    "name": "Elizabeth Thompson",
+                    "children": [
+                      {
+                        "id": 8382,
+                        "name": "Mary C Thompson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8375,
+                "name": "Mary A. Thompson",
+                "children": [
+                  {
+                    "id": 9096,
+                    "name": "John C Hanzer",
+                    "children": [
+                      {
+                        "id": 9969,
+                        "name": "Jacob Hanzer Jr",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9940,
+                    "name": "Sophia J. Hanzer",
+                    "children": [
+                      {
+                        "id": 10122,
+                        "name": "John R (H) or Jonathan Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10123,
+                        "name": "Lavinia Lovinia Sammons",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8572,
+            "name": "Mary Elizabeth Thompson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11193,
     "name": "Isaac M. Harmon",
+    "first_name": "Isaac",
+    "middle_name": "M.",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Obituary Archive",
     "birth_info": "about 1862 \u2014 Millsboro, Sussex, Delaware, United States",
     "death_info": "d. 1966",
@@ -22,5 +27,22 @@
       "full_text": "MILLSBORO: Isaac M. Harmon, 81, a native of Millsboro, died Friday in Miseriocordia Hospital, Philadelphia of injuries suffered when struck that day by a bus.\n\nHe had lived most of his life in Philadelphia and was a retired postal carrier.\n\nThere are no immediate survivors.\n\nServices will be tonight in Greater St. Matthews Independent Church,  Race & Vodges Sts., Philadelphia and again tomorrow afternoon at 1 in Indian Mission Methodist Church near Millsboro with interment in the adjoining cemetary.\n\nMrs. Leon Harmon  \nFeb. 19, \n1966",
       "source_url": null
     }
-  ]
+  ],
+  "audit_flags": [
+    {
+      "id": 553,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 11193,
+      "person_id_secondary": 5814,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: isaac|harmon|1862",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 11193,
+    "name": "Isaac M. Harmon",
+    "children": []
+  }
 }

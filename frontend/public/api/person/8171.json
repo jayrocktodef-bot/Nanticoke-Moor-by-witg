@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8171,
     "name": "George Thompson",
+    "first_name": "George",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thompson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "26 Jun 1925 Delaware",
     "death_info": "1989 Lewes",
@@ -12,58 +17,152 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F167@ marriage 20 Jan 1945 Georgetown, Sussex, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 8179,
       "rel_name": "Bertha M Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8181,
       "rel_name": "Sylvester E. \"Spark\" Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8189,
       "rel_name": "George W. Thompson Jr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8180,
       "rel_name": "Basil Ronnie Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8191,
       "rel_name": "Bruce Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8604,
       "rel_name": "Wallace B Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8640,
       "rel_name": "Elizabeth Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9097,
       "rel_name": "Samuel L. Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8147,
       "rel_name": "Martha E Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8171,
+    "name": "George Thompson",
+    "children": [
+      {
+        "id": 8604,
+        "name": "Wallace B Thompson",
+        "children": [
+          {
+            "id": 8639,
+            "name": "Clemmon Thompson",
+            "children": [
+              {
+                "id": 8840,
+                "name": "Levin Game Thompson",
+                "children": []
+              },
+              {
+                "id": 8841,
+                "name": "Leah Thompson",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8638,
+            "name": "Melisa Molly Street",
+            "children": [
+              {
+                "id": 8680,
+                "name": "Jerry Street",
+                "children": [
+                  {
+                    "id": 9510,
+                    "name": "David Street",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8640,
+        "name": "Elizabeth Thompson",
+        "children": [
+          {
+            "id": 8382,
+            "name": "Mary C Thompson",
+            "children": [
+              {
+                "id": 8606,
+                "name": "Richard Dickerson",
+                "children": [
+                  {
+                    "id": 9073,
+                    "name": "Charles Dickerson",
+                    "children": [
+                      {
+                        "id": 8606,
+                        "name": "Richard Dickerson",
+                        "children": []
+                      },
+                      {
+                        "id": 9071,
+                        "name": "Minnie Dickerson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9071,
+                "name": "Minnie Dickerson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

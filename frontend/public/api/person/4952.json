@@ -2,6 +2,11 @@
   "person": {
     "person_id": 4952,
     "name": "William Henry Davis",
+    "first_name": "William",
+    "middle_name": "Henry",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "DavisWilliamHenry.htm",
     "birth_info": "1900",
     "death_info": "1973 (aged 72&ndash;73)",
@@ -12,54 +17,63 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8613,
       "rel_name": "Joseph Henry Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10619,
       "rel_name": "James H Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8610,
       "rel_name": "Davis Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8891,
       "rel_name": "George F. Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8892,
       "rel_name": "Sarah Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8788,
       "rel_name": "John M. Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8893,
       "rel_name": "Mary Catherine Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8894,
       "rel_name": "Mitchel Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8222,
       "rel_name": "Ferdando E. Davis"
     }
@@ -404,5 +418,55 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 537,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 9147,
+      "person_id_secondary": 4952,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: william|davis|1900",
+      "created_at": "2026-08-14 03:42:34"
+    },
+    {
+      "id": 545,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 10618,
+      "person_id_secondary": 4952,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: william|davis|1900",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 4952,
+    "name": "William Henry Davis",
+    "children": [
+      {
+        "id": 8613,
+        "name": "Joseph Henry Davis",
+        "children": [
+          {
+            "id": 8629,
+            "name": "Jost Henry Davis",
+            "children": [
+              {
+                "id": 8809,
+                "name": "Ludwig (Lewis) Davis",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8614,
+            "name": "Katherina Davis",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

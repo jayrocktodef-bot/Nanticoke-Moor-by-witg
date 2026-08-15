@@ -2,6 +2,11 @@
   "person": {
     "person_id": 765,
     "name": "Clarence Jackson",
+    "first_name": "Clarence",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 2,
     "source_page": "wrightp3.htm",
     "birth_info": "1899",
     "death_info": "14 Jul 1950 (aged 50&ndash;51)",
@@ -12,6 +17,7 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Eloise Harmon who married Clarence Jackson",
+      "certainty": "confirmed",
       "rel_id": 764,
       "rel_name": "Eloise Harmon"
     }
@@ -226,5 +232,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 765,
+    "name": "Clarence Jackson",
+    "children": []
+  }
 }

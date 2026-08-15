@@ -2,6 +2,11 @@
   "person": {
     "person_id": 4056,
     "name": "William Handsor",
+    "first_name": "William",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Handsor",
+    "evidence_level": 2,
     "source_page": "BlountCatherine%20Meehan.htm",
     "birth_info": "27 Jul 1919",
     "death_info": "10 Oct 1974 (aged 55)",
@@ -12,42 +17,49 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10495,
       "rel_name": "Jacob Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9978,
       "rel_name": "Jonathan Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10396,
       "rel_name": "Handsor Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10397,
       "rel_name": "Naomi Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10398,
       "rel_name": "Rachel Handsor"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10399,
       "rel_name": "Cornelius Handsor"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10496,
       "rel_name": "Rhoda Hanzer"
     }
@@ -197,5 +209,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 542,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 10068,
+      "person_id_secondary": 4056,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: william|handsor|1919",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 4056,
+    "name": "William Handsor",
+    "children": []
+  }
 }

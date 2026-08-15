@@ -2,6 +2,11 @@
   "person": {
     "person_id": 7321,
     "name": "James Edward \"Ned\" Davis",
+    "first_name": "James",
+    "middle_name": "Edward \"Ned\"",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "NewhardArbanaBirdellaRidgway.htm",
     "birth_info": "6 Nov 1935",
     "death_info": "12 Mar 2019 (aged 83)",
@@ -232,5 +237,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 546,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 10619,
+      "person_id_secondary": 7321,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: james|davis|1935",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 7321,
+    "name": "James Edward \"Ned\" Davis",
+    "children": []
+  }
 }

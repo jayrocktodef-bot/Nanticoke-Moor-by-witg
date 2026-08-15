@@ -2,6 +2,11 @@
   "person": {
     "person_id": 500,
     "name": "Francis Jackson",
+    "first_name": "Francis",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 2,
     "source_page": "morgan-a.htm",
     "birth_info": "1865",
     "death_info": "13 Nov 1944 (aged 78&ndash;79)",
@@ -12,12 +17,14 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 18,
       "rel_name": "John Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9555,
       "rel_name": "Eliza Parker Jackson"
     }
@@ -63,5 +70,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 500,
+    "name": "Francis Jackson",
+    "children": [
+      {
+        "id": 18,
+        "name": "John Jackson",
+        "children": []
+      },
+      {
+        "id": 9555,
+        "name": "Eliza Parker Jackson",
+        "children": []
+      }
+    ]
+  }
 }

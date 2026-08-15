@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11131,
     "name": "Chauncey Turner",
+    "first_name": "Chauncey",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Turner",
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": "Aug 1842",
     "death_info": "28 Jan 1917 (aged 74)",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11040,
       "rel_name": "Dale D Turner"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11129,
       "rel_name": "Vivian Turner"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11131,
+    "name": "Chauncey Turner",
+    "children": []
+  }
 }

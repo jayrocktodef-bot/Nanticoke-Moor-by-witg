@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9581,
     "name": "Kathryn M Cottman",
+    "first_name": "Kathryn",
+    "middle_name": "M",
+    "maiden_name": "",
+    "married_last_name": "Cottman",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "28 Sep 1930",
     "death_info": "9 May 1997 (aged 66)",
@@ -12,16 +17,86 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9584,
       "rel_name": "Virgel Cottman"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8925,
       "rel_name": "Mildred M. Cottman"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9581,
+    "name": "Kathryn M Cottman",
+    "children": [
+      {
+        "id": 9584,
+        "name": "Virgel Cottman",
+        "children": []
+      },
+      {
+        "id": 8925,
+        "name": "Mildred M. Cottman",
+        "children": [
+          {
+            "id": 9106,
+            "name": "John M Harmon",
+            "children": [
+              {
+                "id": 8921,
+                "name": "Eliza Jane Morris",
+                "children": [
+                  {
+                    "id": 9958,
+                    "name": "Emma Jane Johnson",
+                    "children": [
+                      {
+                        "id": 9936,
+                        "name": "Sarah Adeline Hanzer",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10539,
+                    "name": "Samuel Roland Johnson",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 9531,
+                "name": "Joseph Harmon",
+                "children": [
+                  {
+                    "id": 8921,
+                    "name": "Eliza Jane Morris",
+                    "children": [
+                      {
+                        "id": 9958,
+                        "name": "Emma Jane Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 10539,
+                        "name": "Samuel Roland Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

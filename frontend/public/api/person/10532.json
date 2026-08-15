@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10532,
     "name": "Lydia J. Harmon",
+    "first_name": "Lydia",
+    "middle_name": "J.",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "30 Jul 1848",
     "death_info": "28 Oct 1927 (aged 79)",
@@ -12,34 +17,45 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F65@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10514,
       "rel_name": "Simon Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10533,
       "rel_name": "Ellen Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10528,
       "rel_name": "Irine Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9372,
       "rel_name": "Eliza J. Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10529,
       "rel_name": "Florence A. Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10532,
+    "name": "Lydia J. Harmon",
+    "children": []
+  }
 }

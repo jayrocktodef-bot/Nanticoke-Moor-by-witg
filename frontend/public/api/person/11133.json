@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11133,
     "name": "Luke Turner",
+    "first_name": "Luke",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Turner",
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": "16 Jul 1889",
     "death_info": "28 Jul 1889 (aged 12 days)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11134,
       "rel_name": "Annie Mae Turner"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11133,
+    "name": "Luke Turner",
+    "children": []
+  }
 }

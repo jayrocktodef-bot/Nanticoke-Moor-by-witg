@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9966,
     "name": "Shirley Bernice Johnson",
+    "first_name": "Shirley",
+    "middle_name": "Bernice",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "27 Dec 1945",
     "death_info": "24 Nov 1997 Baton Rouge, East Baton Rouge, Louisiana, USA",
@@ -12,22 +17,127 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9716,
       "rel_name": "Margaret Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9965,
       "rel_name": "Betty Bernice Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9717,
       "rel_name": "Aaron Street"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9966,
+    "name": "Shirley Bernice Johnson",
+    "children": [
+      {
+        "id": 9716,
+        "name": "Margaret Johnson",
+        "children": [
+          {
+            "id": 9715,
+            "name": "Stellar Harmon",
+            "children": [
+              {
+                "id": 9372,
+                "name": "Eliza J. Harmon",
+                "children": [
+                  {
+                    "id": 10514,
+                    "name": "Simon Harmon",
+                    "children": [
+                      {
+                        "id": 1022,
+                        "name": "Bowen Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 7577,
+                        "name": "Lydia Clark",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10532,
+                    "name": "Lydia J. Harmon",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9965,
+        "name": "Betty Bernice Jackson",
+        "children": [
+          {
+            "id": 10725,
+            "name": "Samuel Jackson",
+            "children": []
+          },
+          {
+            "id": 9964,
+            "name": "Agnes Beatrice Wright",
+            "children": [
+              {
+                "id": 9373,
+                "name": "Horace E. Wright",
+                "children": [
+                  {
+                    "id": 8712,
+                    "name": "George Harvey Morris",
+                    "children": [
+                      {
+                        "id": 8683,
+                        "name": "Josiah Joseph Morris",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9963,
+                "name": "Arabella B. Wright",
+                "children": [
+                  {
+                    "id": 9936,
+                    "name": "Sarah Adeline Hanzer",
+                    "children": [
+                      {
+                        "id": 9096,
+                        "name": "John C Hanzer",
+                        "children": []
+                      },
+                      {
+                        "id": 9940,
+                        "name": "Sophia J. Hanzer",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

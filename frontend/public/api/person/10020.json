@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10020,
     "name": "Harry H, Sr Jackson Sr.",
+    "first_name": "Harry",
+    "middle_name": "H, Sr Jackson",
+    "maiden_name": "",
+    "married_last_name": "Sr.",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "27 Nov 1917 Harrington, Delaware, USA",
     "death_info": "26 Aug 2002 Millsboro, Sussex, Delaware, USA",
@@ -12,16 +17,30 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10120,
       "rel_name": "Larry Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 6116,
       "rel_name": "Harry Jackson Jr."
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10020,
+    "name": "Harry H, Sr Jackson Sr.",
+    "children": [
+      {
+        "id": 10120,
+        "name": "Larry Jackson",
+        "children": []
+      }
+    ]
+  }
 }

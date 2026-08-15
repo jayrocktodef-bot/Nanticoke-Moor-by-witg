@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9170,
     "name": "Alfred Johnson",
+    "first_name": "Alfred",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1853",
     "death_info": "29 Sep 1897 (aged 43&ndash;44)",
@@ -12,16 +17,69 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2366,
       "rel_name": "William Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8766,
       "rel_name": "Sarah A Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9170,
+    "name": "Alfred Johnson",
+    "children": [
+      {
+        "id": 2366,
+        "name": "William Johnson",
+        "children": [
+          {
+            "id": 10407,
+            "name": "John Johnson",
+            "children": [
+              {
+                "id": 10420,
+                "name": "Ann W. Johnson",
+                "children": []
+              },
+              {
+                "id": 10408,
+                "name": "Richard Johnson",
+                "children": [
+                  {
+                    "id": 10409,
+                    "name": "Johnson Thomas",
+                    "children": [
+                      {
+                        "id": 2366,
+                        "name": "William Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10407,
+                    "name": "John Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8766,
+        "name": "Sarah A Johnson",
+        "children": []
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10131,
     "name": "Christopher Ridgeway",
+    "first_name": "Christopher",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Ridgeway",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "21 Aug 1961",
     "death_info": "7 Oct 2021 (aged 60)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F113@ marriage Abt 2000",
+      "certainty": "confirmed",
       "rel_id": 9492,
       "rel_name": "Peggy Ridgeway"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10131,
+    "name": "Christopher Ridgeway",
+    "children": []
+  }
 }

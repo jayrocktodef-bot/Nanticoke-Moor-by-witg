@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9289,
     "name": "Ruth Miller",
+    "first_name": "Ruth",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Miller",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "23 Apr 1772 Haddonfield, Camden, New Jersey",
     "death_info": "October 5, 1805 Haddonfield, Camden, New Jersey",
@@ -12,10 +17,45 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9188,
       "rel_name": "Ebenezer Miller"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9289,
+    "name": "Ruth Miller",
+    "children": [
+      {
+        "id": 9188,
+        "name": "Ebenezer Miller",
+        "children": [
+          {
+            "id": 9190,
+            "name": "Ebenezer Miller Sr",
+            "children": [
+              {
+                "id": 9192,
+                "name": "Joseph Miller Sr",
+                "children": []
+              },
+              {
+                "id": 9193,
+                "name": "Rebekah Johnson",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 9191,
+            "name": "Sarah Collier (Collyer) Miller",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

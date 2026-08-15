@@ -2,6 +2,11 @@
   "person": {
     "person_id": 744,
     "name": "Charles Sammons",
+    "first_name": "Charles",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Sammons",
+    "evidence_level": 2,
     "source_page": "wright-d.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,6 +17,7 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Ida Nora Wright who married Charles Sammons",
+      "certainty": "confirmed",
       "rel_id": 743,
       "rel_name": "Ida Nora Wright"
     }
@@ -1214,5 +1220,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 744,
+    "name": "Charles Sammons",
+    "children": []
+  }
 }

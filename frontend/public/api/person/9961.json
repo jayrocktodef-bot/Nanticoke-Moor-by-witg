@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9961,
     "name": "Donald Edward Sr Johnson",
+    "first_name": "Donald",
+    "middle_name": "Edward Sr",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "2 Aug 1935 Delaware, USA",
     "death_info": "27 Dec 2009 Millsboro, Sussex, Delaware, USA",
@@ -12,28 +17,84 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F117@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10696,
       "rel_name": "Dorothy Lorraine Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10694,
       "rel_name": "Donald Edward Johnson Jr."
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10683,
       "rel_name": "Juan Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9960,
       "rel_name": "Maryann Wright"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9961,
+    "name": "Donald Edward Sr Johnson",
+    "children": [
+      {
+        "id": 9960,
+        "name": "Maryann Wright",
+        "children": [
+          {
+            "id": 9958,
+            "name": "Emma Jane Johnson",
+            "children": [
+              {
+                "id": 9936,
+                "name": "Sarah Adeline Hanzer",
+                "children": [
+                  {
+                    "id": 9096,
+                    "name": "John C Hanzer",
+                    "children": [
+                      {
+                        "id": 9969,
+                        "name": "Jacob Hanzer Jr",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9940,
+                    "name": "Sophia J. Hanzer",
+                    "children": [
+                      {
+                        "id": 10122,
+                        "name": "John R (H) or Jonathan Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10123,
+                        "name": "Lavinia Lovinia Sammons",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

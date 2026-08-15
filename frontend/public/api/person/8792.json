@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8792,
     "name": "Oscar Burton Morris",
+    "first_name": "Oscar",
+    "middle_name": "Burton",
+    "maiden_name": "",
+    "married_last_name": "Morris",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "16 Sep 1872 Laurel, Sussex County, Delaware, USA",
     "death_info": "19 May 1962 Cheswold, Kent County, Delaware, United States of America",
@@ -12,16 +17,120 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 1479,
       "rel_name": "Robert B. Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8918,
       "rel_name": "Alfred Napoleon R Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8792,
+    "name": "Oscar Burton Morris",
+    "children": [
+      {
+        "id": 1479,
+        "name": "Robert B. Morris",
+        "children": [
+          {
+            "id": 8617,
+            "name": "Negro Morris Thomas",
+            "children": [
+              {
+                "id": 8505,
+                "name": "Morris Thomas",
+                "children": [
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9992,
+                "name": "Sally Wright",
+                "children": [
+                  {
+                    "id": 10083,
+                    "name": "Wright Thomas Sr.",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8910,
+            "name": "Leticia Morris",
+            "children": [
+              {
+                "id": 8616,
+                "name": "Stephen Wright",
+                "children": [
+                  {
+                    "id": 8687,
+                    "name": "Benjamin Wright",
+                    "children": [
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8684,
+                "name": "Priscilla Miller",
+                "children": [
+                  {
+                    "id": 8618,
+                    "name": "Ebenezar Miller",
+                    "children": []
+                  },
+                  {
+                    "id": 9188,
+                    "name": "Ebenezer Miller",
+                    "children": [
+                      {
+                        "id": 9190,
+                        "name": "Ebenezer Miller Sr",
+                        "children": []
+                      },
+                      {
+                        "id": 9191,
+                        "name": "Sarah Collier (Collyer) Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

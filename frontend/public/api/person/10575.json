@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10575,
     "name": "Edith Harmon",
+    "first_name": "Edith",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "28 Jan 1873",
     "death_info": "29 Mar 1958 (aged 85)",
@@ -12,34 +17,45 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F105@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8931,
       "rel_name": "John Henson Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8932,
       "rel_name": "Sylvia Marlene Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10576,
       "rel_name": "Bettie J Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10577,
       "rel_name": "Doughas H Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 1074,
       "rel_name": "Harmon Thomas"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10575,
+    "name": "Edith Harmon",
+    "children": []
+  }
 }

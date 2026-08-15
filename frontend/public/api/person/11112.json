@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11112,
     "name": "Prudence Carmean",
+    "first_name": "Prudence",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Carmean",
+    "evidence_level": 1,
     "source_page": null,
     "birth_info": "12 Mar 1791 Kingston, Ross County, Ohio, USA",
     "death_info": "28 April 1818",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11116,
       "rel_name": "Elmyra Carmean"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11112,
+    "name": "Prudence Carmean",
+    "children": []
+  }
 }

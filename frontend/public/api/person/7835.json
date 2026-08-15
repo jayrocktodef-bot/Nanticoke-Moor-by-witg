@@ -2,6 +2,11 @@
   "person": {
     "person_id": 7835,
     "name": "Thelma Hitchens",
+    "first_name": "Thelma",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Hitchens",
+    "evidence_level": 2,
     "source_page": "ThompsonAddie&HitchensKids.htm",
     "birth_info": "unknown",
     "death_info": "27 May 1983",
@@ -12,12 +17,14 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9812,
       "rel_name": "Harvey Eli Hitchens"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10050,
       "rel_name": "Vigire Mae Thompson"
     }
@@ -50,5 +57,101 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 7835,
+    "name": "Thelma Hitchens",
+    "children": [
+      {
+        "id": 9812,
+        "name": "Harvey Eli Hitchens",
+        "children": [
+          {
+            "id": 9728,
+            "name": "Joshua S. Hitchens",
+            "children": [
+              {
+                "id": 9732,
+                "name": "Joshua Hitchens",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10050,
+        "name": "Vigire Mae Thompson",
+        "children": [
+          {
+            "id": 9167,
+            "name": "Adda F Thompson",
+            "children": [
+              {
+                "id": 8679,
+                "name": "John W Thompson",
+                "children": [
+                  {
+                    "id": 8639,
+                    "name": "Clemmon Thompson",
+                    "children": [
+                      {
+                        "id": 8840,
+                        "name": "Levin Game Thompson",
+                        "children": []
+                      },
+                      {
+                        "id": 8841,
+                        "name": "Leah Thompson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8638,
+                    "name": "Melisa Molly Street",
+                    "children": [
+                      {
+                        "id": 8680,
+                        "name": "Jerry Street",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9165,
+                "name": "Sarah A Thompson",
+                "children": [
+                  {
+                    "id": 10122,
+                    "name": "John R (H) or Jonathan Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10123,
+                    "name": "Lavinia Lovinia Sammons",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

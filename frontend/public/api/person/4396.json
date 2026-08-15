@@ -2,6 +2,11 @@
   "person": {
     "person_id": 4396,
     "name": "th birthday party",
+    "first_name": "th",
+    "middle_name": "birthday",
+    "maiden_name": "",
+    "married_last_name": "party",
+    "evidence_level": 2,
     "source_page": "CarterCalvin&Family.htm",
     "birth_info": "14 Jun 1931",
     "death_info": "26 Apr 1991 (aged 59)",
@@ -128,5 +133,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 507,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 6924,
+      "person_id_secondary": 4396,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: th|party|1931",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 4396,
+    "name": "th birthday party",
+    "children": []
+  }
 }

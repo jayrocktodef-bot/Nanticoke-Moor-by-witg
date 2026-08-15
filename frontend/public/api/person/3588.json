@@ -2,6 +2,11 @@
   "person": {
     "person_id": 3588,
     "name": "Charles Edward Carey",
+    "first_name": "Charles",
+    "middle_name": "Edward",
+    "maiden_name": "",
+    "married_last_name": "Carey",
+    "evidence_level": 2,
     "source_page": "CareyCharlesE&DellaRidgeway.htm",
     "birth_info": "unknown",
     "death_info": "21 May 1881",
@@ -12,12 +17,14 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F343@ marriage",
+      "certainty": "confirmed",
       "rel_id": 9617,
       "rel_name": "Della Mae Ridgeway"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8194,
       "rel_name": "Lulu Rae Clark"
     }
@@ -154,5 +161,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 3588,
+    "name": "Charles Edward Carey",
+    "children": []
+  }
 }

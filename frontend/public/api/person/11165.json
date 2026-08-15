@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11165,
     "name": "Bell Ingram",
+    "first_name": "Bell",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Ingram",
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": "3 Feb 1882",
     "death_info": "7 Aug 1947 (aged 65)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11144,
       "rel_name": "Jerry Ingram"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11165,
+    "name": "Bell Ingram",
+    "children": []
+  }
 }

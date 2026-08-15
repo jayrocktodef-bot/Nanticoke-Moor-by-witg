@@ -2,6 +2,11 @@
   "person": {
     "person_id": 6129,
     "name": "Blaine Jackson",
+    "first_name": "Blaine",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 2,
     "source_page": "JacksonBlaine&Gladys.htm",
     "birth_info": "29 May 1907",
     "death_info": "17 Jun 1991 (aged 84)",
@@ -12,12 +17,14 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F176@ marriage",
+      "certainty": "confirmed",
       "rel_id": 9967,
       "rel_name": "Gladys Mae Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9968,
       "rel_name": "Geraldine Jackson"
     }
@@ -76,5 +83,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 6129,
+    "name": "Blaine Jackson",
+    "children": []
+  }
 }

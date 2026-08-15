@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9974,
     "name": "Jacob Hanzer Sr",
+    "first_name": "Jacob",
+    "middle_name": "Hanzer",
+    "maiden_name": "",
+    "married_last_name": "Sr",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "5 Sep 1772 Indian River Hundred, Sussex County, Delaware, USA",
     "death_info": "Indian River Hundred, Sussex County, Delaware, USA",
@@ -12,16 +17,36 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9969,
       "rel_name": "Jacob Hanzer Jr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9978,
       "rel_name": "Jonathan Hanzer"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9974,
+    "name": "Jacob Hanzer Sr",
+    "children": [
+      {
+        "id": 9978,
+        "name": "Jonathan Hanzer",
+        "children": [
+          {
+            "id": 4056,
+            "name": "William Handsor",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 746,
     "name": "Nelson Johnson",
+    "first_name": "Nelson",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 2,
     "source_page": "wright-d.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,12 +17,14 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Lottie Wright who married Nelson Johnson",
+      "certainty": "confirmed",
       "rel_id": 761,
       "rel_name": "Lottie Wright"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "Nelson Johnson who married Lottie Wright, daughter of Sarah and William Wright",
+      "certainty": "confirmed",
       "rel_id": 761,
       "rel_name": "Lottie Wright"
     }
@@ -76,5 +83,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 746,
+    "name": "Nelson Johnson",
+    "children": []
+  }
 }

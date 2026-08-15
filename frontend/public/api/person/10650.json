@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10650,
     "name": "Mary Jane Norwood",
+    "first_name": "Mary",
+    "middle_name": "Jane",
+    "maiden_name": "",
+    "married_last_name": "Norwood",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "12 Oct 1824 Lewis and Rehoboth Hundred, Sussex, Delaware, United States",
     "death_info": "28 Jul 1895 Lewis and Rehoboth Hundred, Sussex, Delaware, United States",
@@ -12,16 +17,69 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10457,
       "rel_name": "Eli Norwood"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10649,
       "rel_name": "Ellen J \"Elon\" \"Eleana\" Cornish Norwood"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10650,
+    "name": "Mary Jane Norwood",
+    "children": [
+      {
+        "id": 10457,
+        "name": "Eli Norwood",
+        "children": [
+          {
+            "id": 10542,
+            "name": "Nathaniel \"Nathan\" Norwood",
+            "children": []
+          },
+          {
+            "id": 10374,
+            "name": "Jemima Harmon",
+            "children": [
+              {
+                "id": 10540,
+                "name": "Job Harmon",
+                "children": [
+                  {
+                    "id": 2098,
+                    "name": "Edward Harmon",
+                    "children": [
+                      {
+                        "id": 8862,
+                        "name": "William Harmon",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10554,
+                    "name": "Patience Harmon",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10649,
+        "name": "Ellen J \"Elon\" \"Eleana\" Cornish Norwood",
+        "children": []
+      }
+    ]
+  }
 }

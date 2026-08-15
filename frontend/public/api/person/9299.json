@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9299,
     "name": "Annie MILLER CADE Harmon",
+    "first_name": "Annie",
+    "middle_name": "MILLER CADE",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Dec 1874 Sussex, Delaware",
     "death_info": "3 Aug 1969 Lewes, Sussex County, Delaware, United States of America",
@@ -12,28 +17,38 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F390@ marriage 1896",
+      "certainty": "confirmed",
       "rel_id": 9300,
       "rel_name": "James Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9301,
       "rel_name": "Otis Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9302,
       "rel_name": "Enoch Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9298,
       "rel_name": "Oscar Edward Harmon Sr"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9299,
+    "name": "Annie MILLER CADE Harmon",
+    "children": []
+  }
 }

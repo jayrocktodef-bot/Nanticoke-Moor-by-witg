@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9096,
     "name": "John C Hanzer",
+    "first_name": "John",
+    "middle_name": "C",
+    "maiden_name": "",
+    "married_last_name": "Hanzer",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "10 March 1838 Millsboro, Sussex County, Delaware, United States of America",
     "death_info": "08 Nov 1911 Sussex County, Delaware, USA",
@@ -12,118 +17,167 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9969,
       "rel_name": "Jacob Hanzer Jr"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F127@ marriage 3 Mar 1875 Indian River Hundred, Sussex County, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 9940,
       "rel_name": "Sophia J. Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9936,
       "rel_name": "Sarah Adeline Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8375,
       "rel_name": "Mary A. Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9939,
       "rel_name": "William E. Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9935,
       "rel_name": "Nancy Priscilla Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9938,
       "rel_name": "Matilda Jane Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9933,
       "rel_name": "Eunice J. \"Nicy\" Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4768,
       "rel_name": "Elizabeth Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 5763,
       "rel_name": "Robert Marshall Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 5764,
       "rel_name": "Alexander Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9937,
       "rel_name": "John W. Hanzer"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F239@ marriage 20 May 1856 Sussex County, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 9507,
       "rel_name": "Mary Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9936,
       "rel_name": "Sarah Adeline Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8375,
       "rel_name": "Mary A. Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9935,
       "rel_name": "Nancy Priscilla Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9938,
       "rel_name": "Matilda Jane Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9933,
       "rel_name": "Eunice J. \"Nicy\" Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4768,
       "rel_name": "Elizabeth Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9096,
+    "name": "John C Hanzer",
+    "children": [
+      {
+        "id": 9969,
+        "name": "Jacob Hanzer Jr",
+        "children": [
+          {
+            "id": 9974,
+            "name": "Jacob Hanzer Sr",
+            "children": [
+              {
+                "id": 9978,
+                "name": "Jonathan Hanzer",
+                "children": [
+                  {
+                    "id": 4056,
+                    "name": "William Handsor",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 1696,
     "name": "John Puckham",
+    "first_name": "John",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Puckham",
+    "evidence_level": 2,
     "source_page": "Puckham.htm",
     "birth_info": "18 Feb 1991",
     "death_info": "31 Jul 2005 (aged 14)",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Married 25 Feb 1682/3 in Somerset Co, MD; minister John Huett",
+      "certainty": "confirmed",
       "rel_id": 1697,
       "rel_name": "Joan Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "Grandson of John Puckham (b.1660); Nanticoke Chief 1742",
+      "certainty": "confirmed",
       "rel_id": 1698,
       "rel_name": "George Puckham"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 1696,
+    "name": "John Puckham",
+    "children": []
+  }
 }

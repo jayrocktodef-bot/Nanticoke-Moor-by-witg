@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9989,
     "name": "Hoyt C Morris",
+    "first_name": "Hoyt",
+    "middle_name": "C",
+    "maiden_name": "",
+    "married_last_name": "Morris",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "12 Mar 1931",
     "death_info": "20 Jun 1933 Millsboro, Sussex, Delaware, USA",
@@ -12,10 +17,89 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8339,
       "rel_name": "Sarah Jane Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9989,
+    "name": "Hoyt C Morris",
+    "children": [
+      {
+        "id": 8339,
+        "name": "Sarah Jane Morris",
+        "children": [
+          {
+            "id": 792,
+            "name": "Noah Harmon",
+            "children": [
+              {
+                "id": 9407,
+                "name": "David Roland Harmon Sr",
+                "children": []
+              },
+              {
+                "id": 8927,
+                "name": "Eliza Jane Harmon",
+                "children": [
+                  {
+                    "id": 5763,
+                    "name": "Robert Marshall Hanzer",
+                    "children": [
+                      {
+                        "id": 9096,
+                        "name": "John C Hanzer",
+                        "children": []
+                      },
+                      {
+                        "id": 9940,
+                        "name": "Sophia J. Hanzer",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10290,
+                    "name": "Harriet Ann Harmon",
+                    "children": [
+                      {
+                        "id": 10291,
+                        "name": "Charles S Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10292,
+                        "name": "Ann Mariah Harmon",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9831,
+            "name": "Nicy E. Johnson",
+            "children": [
+              {
+                "id": 9834,
+                "name": "Sylvester H. Johnson",
+                "children": []
+              },
+              {
+                "id": 9835,
+                "name": "Mary A Street",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

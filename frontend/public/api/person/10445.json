@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10445,
     "name": "Mary E Ridgeway",
+    "first_name": "Mary",
+    "middle_name": "E",
+    "maiden_name": "",
+    "married_last_name": "Ridgeway",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1859 Delaware",
     "death_info": "",
@@ -12,10 +17,34 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10424,
       "rel_name": "Tilghman (Jack) Ridgeway"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10445,
+    "name": "Mary E Ridgeway",
+    "children": [
+      {
+        "id": 10424,
+        "name": "Tilghman (Jack) Ridgeway",
+        "children": [
+          {
+            "id": 10426,
+            "name": "Joseph Ridgeway",
+            "children": []
+          },
+          {
+            "id": 10426,
+            "name": "Joseph Ridgeway",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10797,
     "name": "Clarence Coker",
+    "first_name": "Clarence",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Coker",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1 Jul 1897",
     "death_info": "6 Aug 1967 (aged 70)",
@@ -12,16 +17,80 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10796,
       "rel_name": "William Stanley Coker"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10687,
       "rel_name": "Ida Coker"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10797,
+    "name": "Clarence Coker",
+    "children": [
+      {
+        "id": 10796,
+        "name": "William Stanley Coker",
+        "children": []
+      },
+      {
+        "id": 10687,
+        "name": "Ida Coker",
+        "children": [
+          {
+            "id": 10128,
+            "name": "John Henry Mosley",
+            "children": [
+              {
+                "id": 4768,
+                "name": "Elizabeth Mosley",
+                "children": [
+                  {
+                    "id": 9096,
+                    "name": "John C Hanzer",
+                    "children": [
+                      {
+                        "id": 9969,
+                        "name": "Jacob Hanzer Jr",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9940,
+                    "name": "Sophia J. Hanzer",
+                    "children": [
+                      {
+                        "id": 10122,
+                        "name": "John R (H) or Jonathan Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10123,
+                        "name": "Lavinia Lovinia Sammons",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10689,
+            "name": "Anna Mosley",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

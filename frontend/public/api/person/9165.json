@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9165,
     "name": "Sarah A Thompson",
+    "first_name": "Sarah",
+    "middle_name": "A",
+    "maiden_name": "",
+    "married_last_name": "Thompson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Feb 1841 Delaware, USA",
     "death_info": "7 Nov 1921 Millsboro, Sussex County, Delaware, USA",
@@ -12,64 +17,119 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F361@ marriage 1867",
+      "certainty": "confirmed",
       "rel_id": 8679,
       "rel_name": "John W Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 1682,
       "rel_name": "Snowden Asher Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9508,
       "rel_name": "Ulysses G. Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9509,
       "rel_name": "Joseph B. S. Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9167,
       "rel_name": "Adda F Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9067,
       "rel_name": "John A Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9168,
       "rel_name": "Irvin J Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9169,
       "rel_name": "Bartholamew Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10122,
       "rel_name": "John R (H) or Jonathan Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10123,
       "rel_name": "Lavinia Lovinia Sammons"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9165,
+    "name": "Sarah A Thompson",
+    "children": [
+      {
+        "id": 10122,
+        "name": "John R (H) or Jonathan Harmon",
+        "children": [
+          {
+            "id": 9982,
+            "name": "Robert Emanuel Harmon",
+            "children": []
+          },
+          {
+            "id": 9983,
+            "name": "Rachel Anne Johnson",
+            "children": [
+              {
+                "id": 9984,
+                "name": "Isaac Johnson",
+                "children": []
+              },
+              {
+                "id": 9985,
+                "name": "Jemima WARD Johnson (MD)",
+                "children": [
+                  {
+                    "id": 10401,
+                    "name": "Rachel Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10123,
+        "name": "Lavinia Lovinia Sammons",
+        "children": []
+      }
+    ]
+  }
 }

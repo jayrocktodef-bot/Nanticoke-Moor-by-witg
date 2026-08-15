@@ -2,6 +2,11 @@
   "person": {
     "person_id": 313,
     "name": "James Hughes",
+    "first_name": "James",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Hughes",
+    "evidence_level": 2,
     "source_page": "durhm-d4.htm",
     "birth_info": "1829",
     "death_info": "30 Oct 1898 (aged 68&ndash;69)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Harriett Durham married James Hughes",
+      "certainty": "confirmed",
       "rel_id": 312,
       "rel_name": "Harriett Durham"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 313,
+    "name": "James Hughes",
+    "children": []
+  }
 }

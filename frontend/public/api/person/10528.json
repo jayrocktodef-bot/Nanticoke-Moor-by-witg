@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10528,
     "name": "Irine Harmon",
+    "first_name": "Irine",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Abt 1873 Delaware",
     "death_info": "18 Jan 1945 Darby, Delaware, Pennsylvania, USA",
@@ -12,28 +17,88 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10514,
       "rel_name": "Simon Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10532,
       "rel_name": "Lydia J. Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 1024,
       "rel_name": "Eli Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10514,
       "rel_name": "Simon Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10528,
+    "name": "Irine Harmon",
+    "children": [
+      {
+        "id": 10514,
+        "name": "Simon Harmon",
+        "children": [
+          {
+            "id": 1022,
+            "name": "Bowen Harmon",
+            "children": [
+              {
+                "id": 9982,
+                "name": "Robert Emanuel Harmon",
+                "children": []
+              },
+              {
+                "id": 9983,
+                "name": "Rachel Anne Johnson",
+                "children": [
+                  {
+                    "id": 9984,
+                    "name": "Isaac Johnson",
+                    "children": []
+                  },
+                  {
+                    "id": 9985,
+                    "name": "Jemima WARD Johnson (MD)",
+                    "children": [
+                      {
+                        "id": 10401,
+                        "name": "Rachel Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 7577,
+            "name": "Lydia Clark",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 10532,
+        "name": "Lydia J. Harmon",
+        "children": []
+      }
+    ]
+  }
 }

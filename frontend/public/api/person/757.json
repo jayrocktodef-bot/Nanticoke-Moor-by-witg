@@ -2,6 +2,11 @@
   "person": {
     "person_id": 757,
     "name": "Mamie Mosley",
+    "first_name": "Mamie",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 2,
     "source_page": "wrightp2.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,22 +17,31 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Barnard Johnson who married Mamie Mosley",
+      "certainty": "confirmed",
       "rel_id": 756,
       "rel_name": "Barnard Johnson"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 455,
       "rel_name": "Angea Mosley"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 778,
       "rel_name": "Charles Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 757,
+    "name": "Mamie Mosley",
+    "children": []
+  }
 }

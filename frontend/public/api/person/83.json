@@ -2,6 +2,11 @@
   "person": {
     "person_id": 83,
     "name": "Herbert Mosley",
+    "first_name": "Herbert",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 2,
     "source_page": "carty-w2.htm",
     "birth_info": "unknown",
     "death_info": "Aug 2012",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Herbert Mosley married Anna GOULD",
+      "certainty": "confirmed",
       "rel_id": 84,
       "rel_name": "Anna Gould"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (81.5% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1076,
       "rel_name": "Albert Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 83,
+    "name": "Herbert Mosley",
+    "children": []
+  }
 }

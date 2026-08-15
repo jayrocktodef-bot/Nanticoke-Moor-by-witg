@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8522,
     "name": "JOSHUA Davis",
+    "first_name": "JOSHUA",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "9 Feb 2010",
     "death_info": "25 Oct 2010 (aged 8 months)",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8519,
       "rel_name": "JAMES Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8522,
+    "name": "JOSHUA Davis",
+    "children": [
+      {
+        "id": 8519,
+        "name": "JAMES Davis",
+        "children": []
+      }
+    ]
+  }
 }

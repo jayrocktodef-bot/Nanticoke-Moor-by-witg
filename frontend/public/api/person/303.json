@@ -2,6 +2,11 @@
   "person": {
     "person_id": 303,
     "name": "Mariah Minnie Durham",
+    "first_name": "Mariah",
+    "middle_name": "Minnie",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "durhm-b2.htm",
     "birth_info": "14 Apr 1867",
     "death_info": "9 Apr 1900 (aged 32)",
@@ -10,5 +15,22 @@
   },
   "relationships": [],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 454,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 3753,
+      "person_id_secondary": 303,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: mariah|durham|1867",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 303,
+    "name": "Mariah Minnie Durham",
+    "children": []
+  }
 }

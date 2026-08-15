@@ -2,6 +2,11 @@
   "person": {
     "person_id": 2070,
     "name": "Emmanuel Harmon",
+    "first_name": "Emmanuel",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "MainMenu.html",
     "birth_info": "c. 1865",
     "death_info": null,
@@ -12,16 +17,52 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9982,
       "rel_name": "Robert Emanuel Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9983,
       "rel_name": "Rachel Anne Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 2070,
+    "name": "Emmanuel Harmon",
+    "children": [
+      {
+        "id": 9982,
+        "name": "Robert Emanuel Harmon",
+        "children": []
+      },
+      {
+        "id": 9983,
+        "name": "Rachel Anne Johnson",
+        "children": [
+          {
+            "id": 9984,
+            "name": "Isaac Johnson",
+            "children": []
+          },
+          {
+            "id": 9985,
+            "name": "Jemima WARD Johnson (MD)",
+            "children": [
+              {
+                "id": 10401,
+                "name": "Rachel Johnson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

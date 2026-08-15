@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9493,
     "name": "Willis   Milton Bill Johnson",
+    "first_name": "Willis",
+    "middle_name": "Milton Bill",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "24 APR 1908 DE",
     "death_info": "10 FEB 1990 DE",
@@ -12,16 +17,64 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9490,
       "rel_name": "Reburn Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9494,
       "rel_name": "Msgt Willis Return Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9493,
+    "name": "Willis   Milton Bill Johnson",
+    "children": [
+      {
+        "id": 9490,
+        "name": "Reburn Johnson",
+        "children": [
+          {
+            "id": 8990,
+            "name": "Isaiah Johnson",
+            "children": [
+              {
+                "id": 2366,
+                "name": "William Johnson",
+                "children": [
+                  {
+                    "id": 10407,
+                    "name": "John Johnson",
+                    "children": [
+                      {
+                        "id": 10420,
+                        "name": "Ann W. Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 10408,
+                        "name": "Richard Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8766,
+                "name": "Sarah A Johnson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

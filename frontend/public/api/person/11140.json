@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11140,
     "name": "Edward Ingram",
+    "first_name": "Edward",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Ingram",
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": "17 Sep 1888",
     "death_info": "19 Nov 1966 (aged 78)",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11137,
       "rel_name": "Abraham Ingram"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11137,
       "rel_name": "Abraham Ingram"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11140,
+    "name": "Edward Ingram",
+    "children": []
+  }
 }

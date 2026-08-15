@@ -2,6 +2,11 @@
   "person": {
     "person_id": 2246,
     "name": "Sarah Miller",
+    "first_name": "Sarah",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Miller",
+    "evidence_level": 3,
     "source_page": "Probate.htm",
     "birth_info": "1801",
     "death_info": "14 Sep 1854 (aged 52&ndash;53)",
@@ -12,6 +17,7 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9188,
       "rel_name": "Ebenezer Miller"
     }
@@ -70,5 +76,39 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 2246,
+    "name": "Sarah Miller",
+    "children": [
+      {
+        "id": 9188,
+        "name": "Ebenezer Miller",
+        "children": [
+          {
+            "id": 9190,
+            "name": "Ebenezer Miller Sr",
+            "children": [
+              {
+                "id": 9192,
+                "name": "Joseph Miller Sr",
+                "children": []
+              },
+              {
+                "id": 9193,
+                "name": "Rebekah Johnson",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 9191,
+            "name": "Sarah Collier (Collyer) Miller",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

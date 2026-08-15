@@ -2,6 +2,11 @@
   "person": {
     "person_id": 7093,
     "name": "Enoch Pierce Durham",
+    "first_name": "Enoch",
+    "middle_name": "Pierce",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "PierceEnosW&Emelyn.htm",
     "birth_info": "1816",
     "death_info": "16 Jul 1883 (aged 66&ndash;67)",
@@ -63,5 +68,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 510,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 7093,
+      "person_id_secondary": 47,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: enoch|durham|1816",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 7093,
+    "name": "Enoch Pierce Durham",
+    "children": []
+  }
 }

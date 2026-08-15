@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9940,
     "name": "Sophia J. Hanzer",
+    "first_name": "Sophia",
+    "middle_name": "J.",
+    "maiden_name": "",
+    "married_last_name": "Hanzer",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Abt 1843 Delaware",
     "death_info": "8 Sep 1912 Sussex, Delaware, USA",
@@ -12,82 +17,140 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F127@ marriage 3 Mar 1875 Indian River Hundred, Sussex County, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 9096,
       "rel_name": "John C Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9936,
       "rel_name": "Sarah Adeline Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8375,
       "rel_name": "Mary A. Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9939,
       "rel_name": "William E. Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9935,
       "rel_name": "Nancy Priscilla Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9938,
       "rel_name": "Matilda Jane Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9933,
       "rel_name": "Eunice J. \"Nicy\" Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4768,
       "rel_name": "Elizabeth Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 5763,
       "rel_name": "Robert Marshall Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 5764,
       "rel_name": "Alexander Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9937,
       "rel_name": "John W. Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10122,
       "rel_name": "John R (H) or Jonathan Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10123,
       "rel_name": "Lavinia Lovinia Sammons"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9940,
+    "name": "Sophia J. Hanzer",
+    "children": [
+      {
+        "id": 10122,
+        "name": "John R (H) or Jonathan Harmon",
+        "children": [
+          {
+            "id": 9982,
+            "name": "Robert Emanuel Harmon",
+            "children": []
+          },
+          {
+            "id": 9983,
+            "name": "Rachel Anne Johnson",
+            "children": [
+              {
+                "id": 9984,
+                "name": "Isaac Johnson",
+                "children": []
+              },
+              {
+                "id": 9985,
+                "name": "Jemima WARD Johnson (MD)",
+                "children": [
+                  {
+                    "id": 10401,
+                    "name": "Rachel Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10123,
+        "name": "Lavinia Lovinia Sammons",
+        "children": []
+      }
+    ]
+  }
 }

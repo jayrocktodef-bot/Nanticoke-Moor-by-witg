@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8892,
     "name": "Sarah Davis",
+    "first_name": "Sarah",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
     "death_info": "24 Nov 1988",
@@ -12,28 +17,60 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9190,
       "rel_name": "Ebenezer Miller Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9191,
       "rel_name": "Sarah Collier (Collyer) Miller"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10618,
       "rel_name": "William H Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4952,
       "rel_name": "William Henry Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8892,
+    "name": "Sarah Davis",
+    "children": [
+      {
+        "id": 9190,
+        "name": "Ebenezer Miller Sr",
+        "children": [
+          {
+            "id": 9192,
+            "name": "Joseph Miller Sr",
+            "children": []
+          },
+          {
+            "id": 9193,
+            "name": "Rebekah Johnson",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 9191,
+        "name": "Sarah Collier (Collyer) Miller",
+        "children": []
+      }
+    ]
+  }
 }

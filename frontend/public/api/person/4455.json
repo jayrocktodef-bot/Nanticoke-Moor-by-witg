@@ -2,6 +2,11 @@
   "person": {
     "person_id": 4455,
     "name": "Eleanor Davis",
+    "first_name": "Eleanor",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "DavisLillian.htm",
     "birth_info": "1918",
     "death_info": "unknown",
@@ -12,6 +17,7 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8613,
       "rel_name": "Joseph Henry Davis"
     }
@@ -44,5 +50,34 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 4455,
+    "name": "Eleanor Davis",
+    "children": [
+      {
+        "id": 8613,
+        "name": "Joseph Henry Davis",
+        "children": [
+          {
+            "id": 8629,
+            "name": "Jost Henry Davis",
+            "children": [
+              {
+                "id": 8809,
+                "name": "Ludwig (Lewis) Davis",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8614,
+            "name": "Katherina Davis",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

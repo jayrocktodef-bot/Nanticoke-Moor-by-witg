@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8434,
     "name": "Horace D Goldsborough",
+    "first_name": "Horace",
+    "middle_name": "D",
+    "maiden_name": "",
+    "married_last_name": "Goldsborough",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1898",
     "death_info": "19 Jun 1955 (aged 56&ndash;57)",
@@ -12,16 +17,41 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8430,
       "rel_name": "John W Goldsborough"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8429,
       "rel_name": "Armenia Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8434,
+    "name": "Horace D Goldsborough",
+    "children": [
+      {
+        "id": 8430,
+        "name": "John W Goldsborough",
+        "children": []
+      },
+      {
+        "id": 8429,
+        "name": "Armenia Thompson",
+        "children": [
+          {
+            "id": 9410,
+            "name": "John Wesley Thompson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

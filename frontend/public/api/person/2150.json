@@ -2,6 +2,11 @@
   "person": {
     "person_id": 2150,
     "name": "Isaac Sammons",
+    "first_name": "Isaac",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Sammons",
+    "evidence_level": 3,
     "source_page": "Probate.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,16 +17,30 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9620,
       "rel_name": "Louisa C Sammons"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 368,
       "rel_name": "William Sammons"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 2150,
+    "name": "Isaac Sammons",
+    "children": [
+      {
+        "id": 368,
+        "name": "William Sammons",
+        "children": []
+      }
+    ]
+  }
 }

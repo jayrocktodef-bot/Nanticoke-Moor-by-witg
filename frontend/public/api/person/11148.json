@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11148,
     "name": "Eliza A. Ingram",
+    "first_name": "Eliza",
+    "middle_name": "A.",
+    "maiden_name": "",
+    "married_last_name": "Ingram",
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": "1820",
     "death_info": "29 Sep 1878 (aged 57&ndash;58)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11136,
       "rel_name": "R Ingram Thomas"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11148,
+    "name": "Eliza A. Ingram",
+    "children": []
+  }
 }

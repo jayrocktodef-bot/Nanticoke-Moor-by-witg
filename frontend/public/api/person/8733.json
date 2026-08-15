@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8733,
     "name": "Robert (Bob) Wright",
+    "first_name": "Robert",
+    "middle_name": "",
+    "maiden_name": "Bob",
+    "married_last_name": "Wright",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1932 Delaware",
     "death_info": "June 3, 1974",
@@ -12,10 +17,84 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8711,
       "rel_name": "Mamie Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8733,
+    "name": "Robert (Bob) Wright",
+    "children": [
+      {
+        "id": 8711,
+        "name": "Mamie Morris",
+        "children": [
+          {
+            "id": 8710,
+            "name": "JAMES EDWARD Morris",
+            "children": [
+              {
+                "id": 8683,
+                "name": "Josiah Joseph Morris",
+                "children": [
+                  {
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": [
+                      {
+                        "id": 8505,
+                        "name": "Morris Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 9992,
+                        "name": "Sally Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8718,
+                "name": "Hester A Jackson",
+                "children": [
+                  {
+                    "id": 18,
+                    "name": "John Jackson",
+                    "children": []
+                  },
+                  {
+                    "id": 9555,
+                    "name": "Eliza Parker Jackson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

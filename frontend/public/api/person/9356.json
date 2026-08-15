@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9356,
     "name": "Joseph H Wright",
+    "first_name": "Joseph",
+    "middle_name": "H",
+    "maiden_name": "",
+    "married_last_name": "Wright",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "10 Jun 1721 Plympton, Plymouth, Massachusetts, USA",
     "death_info": "1804 Winchester, Clark, Kentucky, United States",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9355,
       "rel_name": "Frances Wright"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9356,
+    "name": "Joseph H Wright",
+    "children": []
+  }
 }

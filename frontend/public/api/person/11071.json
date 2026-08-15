@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11071,
     "name": "Kenn Turner",
+    "first_name": "Kenn",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Turner",
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11061,
       "rel_name": "Ambrose Turner"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11071,
+    "name": "Kenn Turner",
+    "children": []
+  }
 }

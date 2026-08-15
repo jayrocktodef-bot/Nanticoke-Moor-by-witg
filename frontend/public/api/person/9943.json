@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9943,
     "name": "Jane Morris",
+    "first_name": "Jane",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Morris",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1819 Sussex County, Delaware, United States of America",
     "death_info": "3 January 1902 Philadelphia, Philadelphia County, Pennsylvania, United States of America",
@@ -12,28 +17,95 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2492,
       "rel_name": "Nathaniel Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9986,
       "rel_name": "Eunice Clark"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F493@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8509,
       "rel_name": "John Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4624,
       "rel_name": "Edward Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9943,
+    "name": "Jane Morris",
+    "children": [
+      {
+        "id": 2492,
+        "name": "Nathaniel Clark",
+        "children": [
+          {
+            "id": 9350,
+            "name": "Levin Clark",
+            "children": [
+              {
+                "id": 10334,
+                "name": "Chief William Russell \"Wyniaco\" Clark",
+                "children": [
+                  {
+                    "id": 10336,
+                    "name": "William Vine Clark Jr.",
+                    "children": [
+                      {
+                        "id": 10337,
+                        "name": "William CLARKE (Clark) Esq.",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10335,
+                "name": "Jane Clark",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 2097,
+            "name": "Clark Thomas",
+            "children": [
+              {
+                "id": 9988,
+                "name": "Martha Clark",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9986,
+        "name": "Eunice Clark",
+        "children": [
+          {
+            "id": 9987,
+            "name": "John Ridgeway",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

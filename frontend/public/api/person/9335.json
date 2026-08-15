@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9335,
     "name": "Bowen Clark",
+    "first_name": "Bowen",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1850 Sussex",
     "death_info": "Sussex County, De",
@@ -12,34 +17,152 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9336,
       "rel_name": "James Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9334,
       "rel_name": "Lydia E Norwood"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F48@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10420,
       "rel_name": "Ann W. Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10421,
       "rel_name": "James H Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10422,
       "rel_name": "Wittington Clark"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9335,
+    "name": "Bowen Clark",
+    "children": [
+      {
+        "id": 9336,
+        "name": "James Clark",
+        "children": [
+          {
+            "id": 9334,
+            "name": "Lydia E Norwood",
+            "children": [
+              {
+                "id": 10542,
+                "name": "Nathaniel \"Nathan\" Norwood",
+                "children": []
+              },
+              {
+                "id": 10374,
+                "name": "Jemima Harmon",
+                "children": [
+                  {
+                    "id": 10540,
+                    "name": "Job Harmon",
+                    "children": [
+                      {
+                        "id": 2098,
+                        "name": "Edward Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10554,
+                        "name": "Patience Harmon",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9350,
+            "name": "Levin Clark",
+            "children": [
+              {
+                "id": 10334,
+                "name": "Chief William Russell \"Wyniaco\" Clark",
+                "children": [
+                  {
+                    "id": 10336,
+                    "name": "William Vine Clark Jr.",
+                    "children": [
+                      {
+                        "id": 10337,
+                        "name": "William CLARKE (Clark) Esq.",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10335,
+                "name": "Jane Clark",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9334,
+        "name": "Lydia E Norwood",
+        "children": [
+          {
+            "id": 10542,
+            "name": "Nathaniel \"Nathan\" Norwood",
+            "children": []
+          },
+          {
+            "id": 10374,
+            "name": "Jemima Harmon",
+            "children": [
+              {
+                "id": 10540,
+                "name": "Job Harmon",
+                "children": [
+                  {
+                    "id": 2098,
+                    "name": "Edward Harmon",
+                    "children": [
+                      {
+                        "id": 8862,
+                        "name": "William Harmon",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10554,
+                    "name": "Patience Harmon",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

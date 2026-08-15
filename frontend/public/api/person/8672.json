@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8672,
     "name": "Anna Davis",
+    "first_name": "Anna",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Aug 1851",
     "death_info": "7 May 1915 (aged 63)",
@@ -12,16 +17,58 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8613,
       "rel_name": "Joseph Henry Davis"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F329@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8827,
       "rel_name": "Samuel Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 529,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 8672,
+      "person_id_secondary": 577,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: anna|davis|1851",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 8672,
+    "name": "Anna Davis",
+    "children": [
+      {
+        "id": 8613,
+        "name": "Joseph Henry Davis",
+        "children": [
+          {
+            "id": 8629,
+            "name": "Jost Henry Davis",
+            "children": [
+              {
+                "id": 8809,
+                "name": "Ludwig (Lewis) Davis",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8614,
+            "name": "Katherina Davis",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

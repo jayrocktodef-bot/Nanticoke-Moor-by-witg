@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9073,
     "name": "Charles Dickerson",
+    "first_name": "Charles",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Dickerson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1881",
     "death_info": "1916 (aged 34&ndash;35)",
@@ -12,64 +17,118 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 8606,
+      "rel_name": "Richard Dickerson"
+    },
+    {
+      "relationship_type": "invalid_cycle_child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8606,
       "rel_name": "Richard Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
-      "rel_id": 8606,
-      "rel_name": "Richard Dickerson"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9071,
       "rel_name": "Minnie Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10073,
       "rel_name": "George A Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10072,
       "rel_name": "Ezekiel W Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10074,
       "rel_name": "Araminta Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10007,
       "rel_name": "Russell Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10001,
       "rel_name": "Mary Ellen Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10071,
       "rel_name": "Burton Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8606,
       "rel_name": "Richard Dickerson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 4951,
+      "category": "Structural Integrity",
+      "severity": "critical",
+      "person_id": 9073,
+      "person_id_secondary": 8606,
+      "description": "Removed topological loop (back-edge) in descent graph.",
+      "evidence": "Edge creates a cycle where a person becomes their own ancestor.",
+      "created_at": "2026-08-15 01:27:02"
+    },
+    {
+      "id": 4952,
+      "category": "Structural Integrity",
+      "severity": "critical",
+      "person_id": 9073,
+      "person_id_secondary": 8606,
+      "description": "Removed topological loop (back-edge) in descent graph.",
+      "evidence": "Edge creates a cycle where a person becomes their own ancestor.",
+      "created_at": "2026-08-15 01:27:02"
+    }
+  ],
+  "ancestry": {
+    "id": 9073,
+    "name": "Charles Dickerson",
+    "children": [
+      {
+        "id": 8606,
+        "name": "Richard Dickerson",
+        "children": [
+          {
+            "id": 9073,
+            "name": "Charles Dickerson",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 9071,
+        "name": "Minnie Dickerson",
+        "children": []
+      }
+    ]
+  }
 }

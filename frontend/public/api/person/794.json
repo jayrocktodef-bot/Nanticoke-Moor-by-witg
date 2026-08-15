@@ -2,6 +2,11 @@
   "person": {
     "person_id": 794,
     "name": "Glenn Barrentine",
+    "first_name": "Glenn",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Barrentine",
+    "evidence_level": 2,
     "source_page": "wrightw2.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,6 +17,7 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Gloria Harmon who married Glenn Barrentine",
+      "certainty": "confirmed",
       "rel_id": 793,
       "rel_name": "Gloria Harmon"
     }
@@ -83,5 +89,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 794,
+    "name": "Glenn Barrentine",
+    "children": []
+  }
 }

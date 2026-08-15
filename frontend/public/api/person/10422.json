@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10422,
     "name": "Wittington Clark",
+    "first_name": "Wittington",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1911",
     "death_info": "1968 (aged 56&ndash;57)",
@@ -12,16 +17,119 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9335,
       "rel_name": "Bowen Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10420,
       "rel_name": "Ann W. Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10422,
+    "name": "Wittington Clark",
+    "children": [
+      {
+        "id": 9335,
+        "name": "Bowen Clark",
+        "children": [
+          {
+            "id": 9336,
+            "name": "James Clark",
+            "children": [
+              {
+                "id": 9334,
+                "name": "Lydia E Norwood",
+                "children": [
+                  {
+                    "id": 10542,
+                    "name": "Nathaniel \"Nathan\" Norwood",
+                    "children": []
+                  },
+                  {
+                    "id": 10374,
+                    "name": "Jemima Harmon",
+                    "children": [
+                      {
+                        "id": 10540,
+                        "name": "Job Harmon",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9350,
+                "name": "Levin Clark",
+                "children": [
+                  {
+                    "id": 10334,
+                    "name": "Chief William Russell \"Wyniaco\" Clark",
+                    "children": [
+                      {
+                        "id": 10336,
+                        "name": "William Vine Clark Jr.",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10335,
+                    "name": "Jane Clark",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9334,
+            "name": "Lydia E Norwood",
+            "children": [
+              {
+                "id": 10542,
+                "name": "Nathaniel \"Nathan\" Norwood",
+                "children": []
+              },
+              {
+                "id": 10374,
+                "name": "Jemima Harmon",
+                "children": [
+                  {
+                    "id": 10540,
+                    "name": "Job Harmon",
+                    "children": [
+                      {
+                        "id": 2098,
+                        "name": "Edward Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10554,
+                        "name": "Patience Harmon",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10420,
+        "name": "Ann W. Johnson",
+        "children": []
+      }
+    ]
+  }
 }

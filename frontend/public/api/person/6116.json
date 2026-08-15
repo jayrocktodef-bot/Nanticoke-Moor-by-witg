@@ -2,6 +2,11 @@
   "person": {
     "person_id": 6116,
     "name": "Harry Jackson Jr.",
+    "first_name": "Harry",
+    "middle_name": "Jackson",
+    "maiden_name": "",
+    "married_last_name": "Jr.",
+    "evidence_level": 2,
     "source_page": "JacksonHarryJr.htm",
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -12,6 +17,7 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10020,
       "rel_name": "Harry H, Sr Jackson Sr."
     }
@@ -31,5 +37,23 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 6116,
+    "name": "Harry Jackson Jr.",
+    "children": [
+      {
+        "id": 10020,
+        "name": "Harry H, Sr Jackson Sr.",
+        "children": [
+          {
+            "id": 10120,
+            "name": "Larry Jackson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

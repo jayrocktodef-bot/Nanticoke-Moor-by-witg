@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10404,
     "name": "Nancy E Clark Johnson",
+    "first_name": "Nancy",
+    "middle_name": "E Clark",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "about 1775 Indian River Hundred Sussex, Delaware",
     "death_info": "1834 Indian River Hundred Sussex, Delaware",
@@ -12,28 +17,77 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F214@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10405,
       "rel_name": "Robert B Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10280,
       "rel_name": "Burton H Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2097,
       "rel_name": "Clark Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9000,
       "rel_name": "Elizabeth Clark"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10404,
+    "name": "Nancy E Clark Johnson",
+    "children": [
+      {
+        "id": 2097,
+        "name": "Clark Thomas",
+        "children": [
+          {
+            "id": 9988,
+            "name": "Martha Clark",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 9000,
+        "name": "Elizabeth Clark",
+        "children": [
+          {
+            "id": 8998,
+            "name": "George E Clark",
+            "children": [
+              {
+                "id": 9953,
+                "name": "George W. Clark",
+                "children": []
+              },
+              {
+                "id": 9954,
+                "name": "Harriett Hettie Johnson",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8997,
+            "name": "Caroline Clark",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

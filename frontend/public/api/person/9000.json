@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9000,
     "name": "Elizabeth Clark",
+    "first_name": "Elizabeth",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "3 Dec 1789",
     "death_info": "26 Jul 1835 (aged 45)",
@@ -12,52 +17,88 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8998,
       "rel_name": "George E Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8997,
       "rel_name": "Caroline Clark"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F401@ marriage",
+      "certainty": "confirmed",
       "rel_id": 2097,
       "rel_name": "Clark Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10404,
       "rel_name": "Nancy E Clark Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9350,
       "rel_name": "Levin Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2097,
       "rel_name": "Clark Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8514,
       "rel_name": "Elizabeth Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 1729,
       "rel_name": "Nathaniel Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9000,
+    "name": "Elizabeth Clark",
+    "children": [
+      {
+        "id": 8998,
+        "name": "George E Clark",
+        "children": [
+          {
+            "id": 9953,
+            "name": "George W. Clark",
+            "children": []
+          },
+          {
+            "id": 9954,
+            "name": "Harriett Hettie Johnson",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 8997,
+        "name": "Caroline Clark",
+        "children": []
+      }
+    ]
+  }
 }

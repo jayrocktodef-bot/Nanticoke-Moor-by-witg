@@ -2,6 +2,11 @@
   "person": {
     "person_id": 93,
     "name": "Jesse Dean",
+    "first_name": "Jesse",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Dean",
+    "evidence_level": 2,
     "source_page": "census10.htm",
     "birth_info": "unknown",
     "death_info": "11 Apr 1844",
@@ -12,6 +17,7 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Elizabeth Durham married Jesse Dean",
+      "certainty": "confirmed",
       "rel_id": 336,
       "rel_name": "Elizabeth Durham"
     }
@@ -174,5 +180,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 93,
+    "name": "Jesse Dean",
+    "children": []
+  }
 }

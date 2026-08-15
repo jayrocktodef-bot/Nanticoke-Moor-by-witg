@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9510,
     "name": "David Street",
+    "first_name": "David",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Street",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1736 Sussex County, Delaware",
     "death_info": "11 Mar 1816",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8680,
       "rel_name": "Jerry Street"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9510,
+    "name": "David Street",
+    "children": []
+  }
 }

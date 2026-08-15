@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11120,
     "name": "Hester Jemima Carmean",
+    "first_name": "Hester",
+    "middle_name": "Jemima",
+    "maiden_name": "",
+    "married_last_name": "Carmean",
+    "evidence_level": 1,
     "source_page": null,
     "birth_info": "6 March 1835 Delaware",
     "death_info": "15 June 1923",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11155,
       "rel_name": "Nathaniel Carmean"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11121,
       "rel_name": "Hettie Carmean"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11120,
+    "name": "Hester Jemima Carmean",
+    "children": []
+  }
 }

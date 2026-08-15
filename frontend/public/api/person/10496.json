@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10496,
     "name": "Rhoda Hanzer",
+    "first_name": "Rhoda",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Hanzer",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1764",
     "death_info": "aft 1790",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4056,
       "rel_name": "William Handsor"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10496,
+    "name": "Rhoda Hanzer",
+    "children": [
+      {
+        "id": 4056,
+        "name": "William Handsor",
+        "children": []
+      }
+    ]
+  }
 }

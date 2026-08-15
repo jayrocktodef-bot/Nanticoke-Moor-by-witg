@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10683,
     "name": "Juan Johnson",
+    "first_name": "Juan",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "13 Jun 1926",
     "death_info": "6 May 1999 (aged 72)",
@@ -12,22 +17,71 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9961,
       "rel_name": "Donald Edward Sr Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10696,
       "rel_name": "Dorothy Lorraine Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10692,
       "rel_name": "Tay Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10683,
+    "name": "Juan Johnson",
+    "children": [
+      {
+        "id": 9961,
+        "name": "Donald Edward Sr Johnson",
+        "children": [
+          {
+            "id": 9960,
+            "name": "Maryann Wright",
+            "children": [
+              {
+                "id": 9958,
+                "name": "Emma Jane Johnson",
+                "children": [
+                  {
+                    "id": 9936,
+                    "name": "Sarah Adeline Hanzer",
+                    "children": [
+                      {
+                        "id": 9096,
+                        "name": "John C Hanzer",
+                        "children": []
+                      },
+                      {
+                        "id": 9940,
+                        "name": "Sophia J. Hanzer",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10696,
+        "name": "Dorothy Lorraine Johnson",
+        "children": []
+      }
+    ]
+  }
 }

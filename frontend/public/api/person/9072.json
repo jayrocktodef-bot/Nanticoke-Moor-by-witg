@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9072,
     "name": "Jane Dickerson",
+    "first_name": "Jane",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Dickerson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Dec 1824",
     "death_info": "6 Feb 1907 (aged 82)",
@@ -12,16 +17,52 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8606,
       "rel_name": "Richard Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9071,
       "rel_name": "Minnie Dickerson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9072,
+    "name": "Jane Dickerson",
+    "children": [
+      {
+        "id": 8606,
+        "name": "Richard Dickerson",
+        "children": [
+          {
+            "id": 9073,
+            "name": "Charles Dickerson",
+            "children": [
+              {
+                "id": 8606,
+                "name": "Richard Dickerson",
+                "children": []
+              },
+              {
+                "id": 9071,
+                "name": "Minnie Dickerson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9071,
+        "name": "Minnie Dickerson",
+        "children": []
+      }
+    ]
+  }
 }

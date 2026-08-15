@@ -8,7 +8,7 @@ export default function SurnameCard({ surname, variants, count, pages, photos, o
   return (
     <div 
       onClick={() => onSelect(surname)}
-      className="group relative bg-[#1C1A17] hover:bg-[#24201C] border border-[#332D27] hover:border-[#C68B59]/60 rounded-xl p-5 transition-all duration-200 cursor-pointer shadow-lg hover:shadow-[0_0_25px_rgba(198,139,89,0.12)] flex flex-col justify-between"
+      className="group relative bg-[#1C1A17] hover:bg-[#24201C] border border-[#332D27] hover:border-[#C68B59]/60 rounded-xl p-5 transition-all duration-200 cursor-pointer shadow-lg hover:shadow-[0_0_25px_rgba(198,139,89,0.12)] flex flex-col justify-between active:scale-[0.98]"
     >
       <div>
         {/* Top Header Row: Primary Surname & Action Arrow */}

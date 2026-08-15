@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8222,
     "name": "Ferdando E. Davis",
+    "first_name": "Ferdando",
+    "middle_name": "E.",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1867",
     "death_info": "19 Nov 1934 (aged 66&ndash;67)",
@@ -12,10 +17,46 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4952,
       "rel_name": "William Henry Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8222,
+    "name": "Ferdando E. Davis",
+    "children": [
+      {
+        "id": 4952,
+        "name": "William Henry Davis",
+        "children": [
+          {
+            "id": 8613,
+            "name": "Joseph Henry Davis",
+            "children": [
+              {
+                "id": 8629,
+                "name": "Jost Henry Davis",
+                "children": [
+                  {
+                    "id": 8809,
+                    "name": "Ludwig (Lewis) Davis",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 8614,
+                "name": "Katherina Davis",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

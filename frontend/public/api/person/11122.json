@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11122,
     "name": "Elizabeth A Ingram",
+    "first_name": "Elizabeth",
+    "middle_name": "A",
+    "maiden_name": "",
+    "married_last_name": "Ingram",
+    "evidence_level": 1,
     "source_page": null,
     "birth_info": "26 Oct 1858 Dagsboro Hundred, Sussex County, Delaware, USA",
     "death_info": "3 Sep 1895",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11136,
       "rel_name": "R Ingram Thomas"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11122,
+    "name": "Elizabeth A Ingram",
+    "children": []
+  }
 }

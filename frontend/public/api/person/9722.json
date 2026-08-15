@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9722,
     "name": "James Walter Hanzer",
+    "first_name": "James",
+    "middle_name": "Walter",
+    "maiden_name": "",
+    "married_last_name": "Hanzer",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "5 July 1899 Sussex County, Delaware, United States of America",
     "death_info": "26 June 1967 Milton, Sussex County, Delaware, United States of America",
@@ -12,64 +17,186 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10501,
       "rel_name": "Carl Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10503,
       "rel_name": "William E Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9721,
       "rel_name": "Maria Elizabeth Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10503,
       "rel_name": "William E Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9721,
       "rel_name": "Maria Elizabeth Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10498,
       "rel_name": "James Jas Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10499,
       "rel_name": "Harold Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10500,
       "rel_name": "Earl Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10504,
       "rel_name": "Gene O Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10502,
       "rel_name": "Margaruett Hanzer"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 547,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 10711,
+      "person_id_secondary": 9722,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: james|hanzer|1899",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 9722,
+    "name": "James Walter Hanzer",
+    "children": [
+      {
+        "id": 10503,
+        "name": "William E Hanzer",
+        "children": []
+      },
+      {
+        "id": 9721,
+        "name": "Maria Elizabeth Morris",
+        "children": [
+          {
+            "id": 8683,
+            "name": "Josiah Joseph Morris",
+            "children": [
+              {
+                "id": 8617,
+                "name": "Negro Morris Thomas",
+                "children": [
+                  {
+                    "id": 8505,
+                    "name": "Morris Thomas",
+                    "children": [
+                      {
+                        "id": 8910,
+                        "name": "Leticia Morris",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9992,
+                    "name": "Sally Wright",
+                    "children": [
+                      {
+                        "id": 10083,
+                        "name": "Wright Thomas Sr.",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8910,
+                "name": "Leticia Morris",
+                "children": [
+                  {
+                    "id": 8616,
+                    "name": "Stephen Wright",
+                    "children": [
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8684,
+                    "name": "Priscilla Miller",
+                    "children": [
+                      {
+                        "id": 8618,
+                        "name": "Ebenezar Miller",
+                        "children": []
+                      },
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8718,
+            "name": "Hester A Jackson",
+            "children": [
+              {
+                "id": 18,
+                "name": "John Jackson",
+                "children": []
+              },
+              {
+                "id": 9555,
+                "name": "Eliza Parker Jackson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

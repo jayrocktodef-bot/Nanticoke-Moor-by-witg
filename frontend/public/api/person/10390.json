@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10390,
     "name": "James Carlton \"Carlton\" Mosley",
+    "first_name": "James",
+    "middle_name": "Carlton \"Carlton\"",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "29 Aug 1909 or 1910 Millsboro, Sussex, Delaware, USA",
     "death_info": "18 Jan 1942",
@@ -12,10 +17,29 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9239,
       "rel_name": "Harry Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10390,
+    "name": "James Carlton \"Carlton\" Mosley",
+    "children": [
+      {
+        "id": 9239,
+        "name": "Harry Mosley",
+        "children": [
+          {
+            "id": 9243,
+            "name": "Peter Mosley",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

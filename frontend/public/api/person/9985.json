@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9985,
     "name": "Jemima WARD Johnson (MD)",
+    "first_name": "Jemima",
+    "middle_name": "WARD",
+    "maiden_name": "MD",
+    "married_last_name": "Johnson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1753 Somerset Co, , Maryland, USA",
     "death_info": "17 apr 1827 Somerset Co, , Maryland, USA",
@@ -12,28 +17,44 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10401,
       "rel_name": "Rachel Johnson"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F453@ marriage 28 July 1771 Somerset, Maryland, USA",
+      "certainty": "confirmed",
       "rel_id": 9984,
       "rel_name": "Isaac Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9983,
       "rel_name": "Rachel Anne Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10262,
       "rel_name": "Nancy Jemima Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9985,
+    "name": "Jemima WARD Johnson (MD)",
+    "children": [
+      {
+        "id": 10401,
+        "name": "Rachel Johnson",
+        "children": []
+      }
+    ]
+  }
 }

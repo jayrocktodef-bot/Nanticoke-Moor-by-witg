@@ -2,6 +2,11 @@
   "person": {
     "person_id": 1924,
     "name": "Levin Eunice Sockum",
+    "first_name": "Levin",
+    "middle_name": "Eunice",
+    "maiden_name": "",
+    "married_last_name": "Sockum",
+    "evidence_level": 2,
     "source_page": "MainMenu.html",
     "birth_info": "1807",
     "death_info": "25 Dec 1864 (aged 56&ndash;57)",
@@ -10,5 +15,22 @@
   },
   "relationships": [],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 438,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 2465,
+      "person_id_secondary": 1924,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: levin|sockum|1807",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 1924,
+    "name": "Levin Eunice Sockum",
+    "children": []
+  }
 }

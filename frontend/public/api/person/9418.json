@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9418,
     "name": "Elizabeth Miller",
+    "first_name": "Elizabeth",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Miller",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1897",
     "death_info": "Abt 1992",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F170@ marriage 30 Sep 1924 Lewes, Sussex, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 8516,
       "rel_name": "Raymond Jackson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9418,
+    "name": "Elizabeth Miller",
+    "children": []
+  }
 }

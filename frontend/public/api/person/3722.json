@@ -2,6 +2,11 @@
   "person": {
     "person_id": 3722,
     "name": "Franklin Johnson",
+    "first_name": "Franklin",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 2,
     "source_page": "CarneyJamesR&EffieReed.htm",
     "birth_info": "14 Nov 1863",
     "death_info": "17 May 1864 (aged 6 months)",
@@ -12,12 +17,14 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9490,
       "rel_name": "Reburn Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9491,
       "rel_name": "Jackie Melvin Johnson Sr"
     }
@@ -141,5 +148,51 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 3722,
+    "name": "Franklin Johnson",
+    "children": [
+      {
+        "id": 9490,
+        "name": "Reburn Johnson",
+        "children": [
+          {
+            "id": 8990,
+            "name": "Isaiah Johnson",
+            "children": [
+              {
+                "id": 2366,
+                "name": "William Johnson",
+                "children": [
+                  {
+                    "id": 10407,
+                    "name": "John Johnson",
+                    "children": [
+                      {
+                        "id": 10420,
+                        "name": "Ann W. Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 10408,
+                        "name": "Richard Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8766,
+                "name": "Sarah A Johnson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8858,
     "name": "WILLIAM ALONZO Miller SR",
+    "first_name": "WILLIAM",
+    "middle_name": "ALONZO Miller",
+    "maiden_name": "",
+    "married_last_name": "SR",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "04/23/1903 Lewes, Sussex, Delaware, USA",
     "death_info": "08/12/1992 Lewes, Sussex, Delaware, USA",
@@ -12,16 +17,30 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8857,
       "rel_name": "John E Miller"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8859,
       "rel_name": "MARJORIE ELIZABETH Miller"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8858,
+    "name": "WILLIAM ALONZO Miller SR",
+    "children": [
+      {
+        "id": 8857,
+        "name": "John E Miller",
+        "children": []
+      }
+    ]
+  }
 }

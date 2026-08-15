@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9564,
     "name": "Robert Jackson",
+    "first_name": "Robert",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "5 Jan 1852",
     "death_info": "26 Dec 1897 (aged 45)",
@@ -12,22 +17,31 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F440@ marriage",
+      "certainty": "confirmed",
       "rel_id": 6480,
       "rel_name": "Mary Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9563,
       "rel_name": "Temperance Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9520,
       "rel_name": "Charles Jackson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9564,
+    "name": "Robert Jackson",
+    "children": []
+  }
 }

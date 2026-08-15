@@ -2,6 +2,11 @@
   "person": {
     "person_id": 790,
     "name": "Ephraim Harmon",
+    "first_name": "Ephraim",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "wrightw1.htm",
     "birth_info": "about 16 Jan 1891 \u2014 Millsboro, Sussex, Delaware, United States",
     "death_info": null,
@@ -12,18 +17,21 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Nicey Wright who married Ephraim Harmon",
+      "certainty": "confirmed",
       "rel_id": 789,
       "rel_name": "Nicey Wright"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1024,
       "rel_name": "Eli Harmon"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "Spouse of Ephraim Harmon documented in Smithsonian NMAI Speck collection",
+      "certainty": "confirmed",
       "rel_id": 1686,
       "rel_name": "Jane Harmon"
     }
@@ -108,5 +116,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 490,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 5834,
+      "person_id_secondary": 790,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: ephraim|harmon|1891",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 790,
+    "name": "Ephraim Harmon",
+    "children": []
+  }
 }

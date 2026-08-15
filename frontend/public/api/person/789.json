@@ -2,6 +2,11 @@
   "person": {
     "person_id": 789,
     "name": "Nicey Wright",
+    "first_name": "Nicey",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Wright",
+    "evidence_level": 2,
     "source_page": "wrightw1.htm",
     "birth_info": "19 Feb 1817",
     "death_info": "18 Jul 1891 (aged 74)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Nicey Wright who married Ephraim Harmon",
+      "certainty": "confirmed",
       "rel_id": 790,
       "rel_name": "Ephraim Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 789,
+    "name": "Nicey Wright",
+    "children": []
+  }
 }

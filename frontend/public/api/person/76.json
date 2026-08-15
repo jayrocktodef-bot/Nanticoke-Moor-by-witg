@@ -2,6 +2,11 @@
   "person": {
     "person_id": 76,
     "name": "Hall Thomas",
+    "first_name": "Hall",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 2,
     "source_page": "carty-w2.htm",
     "birth_info": "1817",
     "death_info": "17 May 1874 (aged 56&ndash;57)",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Sarah Carter who married Thomas HALL",
+      "certainty": "confirmed",
       "rel_id": 75,
       "rel_name": "Sarah Carter"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1074,
       "rel_name": "Harmon Thomas"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 76,
+    "name": "Hall Thomas",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10080,
     "name": "Lucy Wright",
+    "first_name": "Lucy",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Wright",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1810",
     "death_info": "11 May 1831 (aged 20&ndash;21)",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10083,
       "rel_name": "Wright Thomas Sr."
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10080,
+    "name": "Lucy Wright",
+    "children": [
+      {
+        "id": 10083,
+        "name": "Wright Thomas Sr.",
+        "children": []
+      }
+    ]
+  }
 }

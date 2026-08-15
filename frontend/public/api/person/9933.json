@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9933,
     "name": "Eunice J. \"Nicy\" Hanzer",
+    "first_name": "Eunice",
+    "middle_name": "J. \"Nicy\"",
+    "maiden_name": "",
+    "married_last_name": "Hanzer",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Abt 1870 Delaware",
     "death_info": "18 Nov 1953 Millsboro, Sussex County, Delaware, USA",
@@ -12,28 +17,112 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9096,
       "rel_name": "John C Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9940,
       "rel_name": "Sophia J. Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9096,
       "rel_name": "John C Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9507,
       "rel_name": "Mary Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9933,
+    "name": "Eunice J. \"Nicy\" Hanzer",
+    "children": [
+      {
+        "id": 9096,
+        "name": "John C Hanzer",
+        "children": [
+          {
+            "id": 9969,
+            "name": "Jacob Hanzer Jr",
+            "children": [
+              {
+                "id": 9974,
+                "name": "Jacob Hanzer Sr",
+                "children": [
+                  {
+                    "id": 9978,
+                    "name": "Jonathan Hanzer",
+                    "children": [
+                      {
+                        "id": 4056,
+                        "name": "William Handsor",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9940,
+        "name": "Sophia J. Hanzer",
+        "children": [
+          {
+            "id": 10122,
+            "name": "John R (H) or Jonathan Harmon",
+            "children": [
+              {
+                "id": 9982,
+                "name": "Robert Emanuel Harmon",
+                "children": []
+              },
+              {
+                "id": 9983,
+                "name": "Rachel Anne Johnson",
+                "children": [
+                  {
+                    "id": 9984,
+                    "name": "Isaac Johnson",
+                    "children": []
+                  },
+                  {
+                    "id": 9985,
+                    "name": "Jemima WARD Johnson (MD)",
+                    "children": [
+                      {
+                        "id": 10401,
+                        "name": "Rachel Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10123,
+            "name": "Lavinia Lovinia Sammons",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

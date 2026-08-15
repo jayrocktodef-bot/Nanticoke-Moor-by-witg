@@ -2,6 +2,11 @@
   "person": {
     "person_id": 755,
     "name": "Eliza Ann Harmon",
+    "first_name": "Eliza",
+    "middle_name": "Ann",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "wrightp2.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,18 +17,21 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "William Howard Johnson who married Eliza Ann Harmon,",
+      "certainty": "confirmed",
       "rel_id": 754,
       "rel_name": "William Howard Johnson"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1024,
       "rel_name": "Eli Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "Daughter of Jane Harmon & Ephraim Harmon",
+      "certainty": "confirmed",
       "rel_id": 1686,
       "rel_name": "Jane Harmon"
     }
@@ -303,5 +311,17 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 755,
+    "name": "Eliza Ann Harmon",
+    "children": [
+      {
+        "id": 1686,
+        "name": "Jane Harmon",
+        "children": []
+      }
+    ]
+  }
 }

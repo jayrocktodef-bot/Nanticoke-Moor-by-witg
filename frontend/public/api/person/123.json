@@ -2,6 +2,11 @@
   "person": {
     "person_id": 123,
     "name": "James Kearney Martin Naureckas",
+    "first_name": "James",
+    "middle_name": "Kearney Martin",
+    "maiden_name": "",
+    "married_last_name": "Naureckas",
+    "evidence_level": 2,
     "source_page": "coker-c1.htm",
     "birth_info": "31 Dec 1920",
     "death_info": "7 Nov 1943 (aged 22)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Janine Jackson married James Kearney Martin Naureckas",
+      "certainty": "confirmed",
       "rel_id": 122,
       "rel_name": "Janine Jackson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 123,
+    "name": "James Kearney Martin Naureckas",
+    "children": []
+  }
 }

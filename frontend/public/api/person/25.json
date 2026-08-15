@@ -2,6 +2,11 @@
   "person": {
     "person_id": 25,
     "name": "Laura Ridgeway",
+    "first_name": "Laura",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Ridgeway",
+    "evidence_level": 2,
     "source_page": "bible-r.htm",
     "birth_info": "1838",
     "death_info": "25 Dec 1915 (aged 76&ndash;77)",
@@ -12,16 +17,30 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "Laura Ridgeway daughter of Cornelius and Rebecca Ridgeway was borned Oct. 30 (1st), 1866",
+      "certainty": "confirmed",
       "rel_id": 26,
       "rel_name": "Cornelius Ridgeway"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1064,
       "rel_name": "Frank Ridgeway"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 25,
+    "name": "Laura Ridgeway",
+    "children": [
+      {
+        "id": 26,
+        "name": "Cornelius Ridgeway",
+        "children": []
+      }
+    ]
+  }
 }

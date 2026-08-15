@@ -1,5 +1,5 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react';
-import { Search, Database, Users, FileText, Image as ImageIcon, GitFork, BookOpen, ShieldCheck, HeartHandshake, Download, GitCommit, Bookmark, LayoutGrid, List, Sparkles, Filter } from 'lucide-react';
+import { Search, Database, Users, FileText, Image as ImageIcon, GitFork, BookOpen, ShieldCheck, HeartHandshake, GitCommit, Bookmark, LayoutGrid, List, Sparkles, Filter } from 'lucide-react';
 import SurnameCard from './SurnameCard';
 import RecordDrawer from './RecordDrawer';
 import PersonProfileDrawer from './PersonProfileDrawer';
@@ -113,7 +113,7 @@ export default function HomeScreen() {
           {/* Quick Search trigger */}
           <button
             onClick={() => setIsCommandPaletteOpen(true)}
-            className="p-2 bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] text-[#D4A373] rounded-lg transition-all"
+            className="p-2 bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] text-[#D4A373] rounded-lg transition-all active:scale-[0.98]"
             title="Search Person or Record (Cmd+K)"
           >
             <Search className="w-4 h-4" />
@@ -142,7 +142,7 @@ export default function HomeScreen() {
                   <button
                     key={tab.id}
                     onClick={() => handleTabChange(tab.id)}
-                    className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl font-medium text-xs transition-all ${
+                    className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl font-medium text-xs transition-all active:scale-[0.98] ${
                       isActive
                         ? 'bg-[#C68B59] text-[#121110] font-bold shadow-md shadow-[#C68B59]/20'
                         : 'text-[#A8A096] hover:bg-[#1C1A17] hover:text-[#F3EBE3]'
@@ -172,7 +172,7 @@ export default function HomeScreen() {
                   <button
                     key={tab.id}
                     onClick={() => handleTabChange(tab.id)}
-                    className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl font-medium text-xs transition-all ${
+                    className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl font-medium text-xs transition-all active:scale-[0.98] ${
                       isActive
                         ? 'bg-[#C68B59] text-[#121110] font-bold shadow-md shadow-[#C68B59]/20'
                         : 'text-[#A8A096] hover:bg-[#1C1A17] hover:text-[#F3EBE3]'
@@ -202,16 +202,8 @@ export default function HomeScreen() {
           </div>
         </div>
 
-        {/* Sidebar Footer Exports */}
+        {/* Sidebar Footer Links */}
         <div className="p-3 border-t border-[#26221E] space-y-2">
-          <a
-            href="/api/export/gedcom"
-            download="delmarva_genealogy_preservation.ged"
-            className="w-full bg-[#C68B59] hover:bg-[#D4A373] text-[#121110] px-3 py-2 rounded-xl transition-all flex items-center justify-center gap-2 font-bold text-xs shadow-md"
-          >
-            <Download className="w-3.5 h-3.5" />
-            <span>Export GEDCOM File</span>
-          </a>
           <a
             href="https://writteninthegenome.blog"
             target="_blank"
@@ -239,9 +231,7 @@ export default function HomeScreen() {
               {activeTab === 'sources' && 'Source Repositories & Archives'}
               {activeTab === 'audit' && 'System Integrity Review'}
             </h2>
-            <p className="text-xs text-[#A8A096]">
-              MacFamilyTree Edition • Jamstack Zero API Architecture
-            </p>
+
           </div>
 
           <div className="flex items-center gap-3">
@@ -310,7 +300,7 @@ export default function HomeScreen() {
           <div className="relative">
             <button
               onClick={() => setIsCommandPaletteOpen(true)}
-              className="w-full flex items-center justify-between px-5 py-3.5 bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59]/70 rounded-2xl text-[#F3EBE3] shadow-xl transition-all group"
+              className="w-full flex items-center justify-between px-5 py-3.5 bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59]/70 rounded-2xl text-[#F3EBE3] shadow-xl transition-all group active:scale-[0.98]"
             >
               <div className="flex items-center gap-3.5">
                 <Search className="w-5 h-5 text-[#C68B59] group-hover:scale-110 transition-transform" />

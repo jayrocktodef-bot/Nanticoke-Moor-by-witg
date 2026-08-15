@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9507,
     "name": "Mary Johnson",
+    "first_name": "Mary",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1841 Sussex, Delaware, USA",
     "death_info": "1870 Sussex, Delaware, USA",
@@ -12,52 +17,150 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F239@ marriage 20 May 1856 Sussex County, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 9096,
       "rel_name": "John C Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9936,
       "rel_name": "Sarah Adeline Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8375,
       "rel_name": "Mary A. Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9935,
       "rel_name": "Nancy Priscilla Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9938,
       "rel_name": "Matilda Jane Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9933,
       "rel_name": "Eunice J. \"Nicy\" Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4768,
       "rel_name": "Elizabeth Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10280,
       "rel_name": "Burton H Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9507,
+    "name": "Mary Johnson",
+    "children": [
+      {
+        "id": 10280,
+        "name": "Burton H Johnson",
+        "children": [
+          {
+            "id": 10404,
+            "name": "Nancy E Clark Johnson",
+            "children": [
+              {
+                "id": 2097,
+                "name": "Clark Thomas",
+                "children": [
+                  {
+                    "id": 9988,
+                    "name": "Martha Clark",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 9000,
+                "name": "Elizabeth Clark",
+                "children": [
+                  {
+                    "id": 8998,
+                    "name": "George E Clark",
+                    "children": [
+                      {
+                        "id": 9953,
+                        "name": "George W. Clark",
+                        "children": []
+                      },
+                      {
+                        "id": 9954,
+                        "name": "Harriett Hettie Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8997,
+                    "name": "Caroline Clark",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10405,
+            "name": "Robert B Johnson",
+            "children": [
+              {
+                "id": 10406,
+                "name": "Robert Johnson",
+                "children": [
+                  {
+                    "id": 10407,
+                    "name": "John Johnson",
+                    "children": [
+                      {
+                        "id": 10420,
+                        "name": "Ann W. Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 10408,
+                        "name": "Richard Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10410,
+                    "name": "Grace MORRIS Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

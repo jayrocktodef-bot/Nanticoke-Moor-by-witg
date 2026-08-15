@@ -2,6 +2,11 @@
   "person": {
     "person_id": 7978,
     "name": "Lydia Ann Wright Jackson",
+    "first_name": "Lydia",
+    "middle_name": "Ann Wright",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 2,
     "source_page": "WrightElwood.htm",
     "birth_info": "unknown",
     "death_info": "29 Jan 1840",
@@ -12,12 +17,14 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F70@ marriage",
+      "certainty": "confirmed",
       "rel_id": 409,
       "rel_name": "Robert B. Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8791,
       "rel_name": "Mary E Jackson"
     }
@@ -128,5 +135,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 7978,
+    "name": "Lydia Ann Wright Jackson",
+    "children": []
+  }
 }

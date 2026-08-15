@@ -2,6 +2,11 @@
   "person": {
     "person_id": 5921,
     "name": "Isaac W. Harmon",
+    "first_name": "Isaac",
+    "middle_name": "W.",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "HarmonIsaacW&SarahSockum.htm",
     "birth_info": "about 1862 \u2014 Millsboro, Sussex, Delaware, United States",
     "death_info": null,
@@ -12,78 +17,91 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F94@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10214,
       "rel_name": "Sarah Jane Sockum"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9667,
       "rel_name": "John Wesley Harmon Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 5825,
       "rel_name": "Eunice W. Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 578,
       "rel_name": "Levin T. Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 5839,
       "rel_name": "Isaac Wilson Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10254,
       "rel_name": "Ephram (Ephraim) Lincoln Harman (Harmon)"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10251,
       "rel_name": "Nancy T. Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 792,
       "rel_name": "Noah Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9669,
       "rel_name": "Lillie Mae Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10253,
       "rel_name": "David Harman (Harmon)"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10252,
       "rel_name": "Daniel Harman (Harmon)"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9270,
       "rel_name": "Elizabeth Anne Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9668,
       "rel_name": "Ceathew Harmon"
     }
@@ -129,5 +147,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 492,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 5921,
+      "person_id_secondary": 5814,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: isaac|harmon|1862",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 5921,
+    "name": "Isaac W. Harmon",
+    "children": []
+  }
 }

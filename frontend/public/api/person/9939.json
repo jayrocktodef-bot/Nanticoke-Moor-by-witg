@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9939,
     "name": "William E. Hanzer",
+    "first_name": "William",
+    "middle_name": "E.",
+    "maiden_name": "",
+    "married_last_name": "Hanzer",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1863 Milton, Sussex County, Delaware, United States of America",
     "death_info": "20 May 1940 Milford, Sussex County, Delaware, United States of America",
@@ -12,82 +17,186 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9096,
       "rel_name": "John C Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9940,
       "rel_name": "Sophia J. Hanzer"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F133@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10709,
       "rel_name": "Maria E Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10710,
       "rel_name": "Lenis H Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10508,
       "rel_name": "William O Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10711,
       "rel_name": "James W Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10509,
       "rel_name": "Ernest Everett Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10713,
       "rel_name": "Weldon Lyston Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10512,
       "rel_name": "Lester Melvin Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10714,
       "rel_name": "Charles Harold Hanzer"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F134@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10712,
       "rel_name": "Manoir Elizabeth Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10713,
       "rel_name": "Weldon Lyston Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10512,
       "rel_name": "Lester Melvin Hanzer"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 544,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 10503,
+      "person_id_secondary": 9939,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: william|hanzer|1863",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 9939,
+    "name": "William E. Hanzer",
+    "children": [
+      {
+        "id": 9096,
+        "name": "John C Hanzer",
+        "children": [
+          {
+            "id": 9969,
+            "name": "Jacob Hanzer Jr",
+            "children": [
+              {
+                "id": 9974,
+                "name": "Jacob Hanzer Sr",
+                "children": [
+                  {
+                    "id": 9978,
+                    "name": "Jonathan Hanzer",
+                    "children": [
+                      {
+                        "id": 4056,
+                        "name": "William Handsor",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9940,
+        "name": "Sophia J. Hanzer",
+        "children": [
+          {
+            "id": 10122,
+            "name": "John R (H) or Jonathan Harmon",
+            "children": [
+              {
+                "id": 9982,
+                "name": "Robert Emanuel Harmon",
+                "children": []
+              },
+              {
+                "id": 9983,
+                "name": "Rachel Anne Johnson",
+                "children": [
+                  {
+                    "id": 9984,
+                    "name": "Isaac Johnson",
+                    "children": []
+                  },
+                  {
+                    "id": 9985,
+                    "name": "Jemima WARD Johnson (MD)",
+                    "children": [
+                      {
+                        "id": 10401,
+                        "name": "Rachel Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10123,
+            "name": "Lavinia Lovinia Sammons",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

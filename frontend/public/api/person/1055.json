@@ -2,6 +2,11 @@
   "person": {
     "person_id": 1055,
     "name": "Wingate Mosley",
+    "first_name": "Wingate",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 2,
     "source_page": "moors_moors.aspx",
     "birth_info": "30 Jun 1882",
     "death_info": "4 Jan 1954 (aged 71)",
@@ -12,16 +17,30 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 455,
       "rel_name": "Angea Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10624,
       "rel_name": "Eliza Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 1055,
+    "name": "Wingate Mosley",
+    "children": [
+      {
+        "id": 10624,
+        "name": "Eliza Mosley",
+        "children": []
+      }
+    ]
+  }
 }

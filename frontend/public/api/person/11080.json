@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11080,
     "name": "Margaret Virginia Carmean",
+    "first_name": "Margaret",
+    "middle_name": "Virginia",
+    "maiden_name": "",
+    "married_last_name": "Carmean",
+    "evidence_level": 1,
     "source_page": null,
     "birth_info": "17 Oct 1914 Mathews County, Virginia, USA",
     "death_info": "06 Feb 2000",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11047,
       "rel_name": "Ida B Carmean"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11080,
+    "name": "Margaret Virginia Carmean",
+    "children": []
+  }
 }

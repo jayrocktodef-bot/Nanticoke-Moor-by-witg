@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10280,
     "name": "Burton H Johnson",
+    "first_name": "Burton",
+    "middle_name": "H",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1812 Delaware, USA",
     "death_info": "Mar 1880 Sussex County, Delaware, USA",
@@ -12,22 +17,120 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10404,
       "rel_name": "Nancy E Clark Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10405,
       "rel_name": "Robert B Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9507,
       "rel_name": "Mary Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10280,
+    "name": "Burton H Johnson",
+    "children": [
+      {
+        "id": 10404,
+        "name": "Nancy E Clark Johnson",
+        "children": [
+          {
+            "id": 2097,
+            "name": "Clark Thomas",
+            "children": [
+              {
+                "id": 9988,
+                "name": "Martha Clark",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 9000,
+            "name": "Elizabeth Clark",
+            "children": [
+              {
+                "id": 8998,
+                "name": "George E Clark",
+                "children": [
+                  {
+                    "id": 9953,
+                    "name": "George W. Clark",
+                    "children": []
+                  },
+                  {
+                    "id": 9954,
+                    "name": "Harriett Hettie Johnson",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 8997,
+                "name": "Caroline Clark",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10405,
+        "name": "Robert B Johnson",
+        "children": [
+          {
+            "id": 10406,
+            "name": "Robert Johnson",
+            "children": [
+              {
+                "id": 10407,
+                "name": "John Johnson",
+                "children": [
+                  {
+                    "id": 10420,
+                    "name": "Ann W. Johnson",
+                    "children": []
+                  },
+                  {
+                    "id": 10408,
+                    "name": "Richard Johnson",
+                    "children": [
+                      {
+                        "id": 10409,
+                        "name": "Johnson Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 10407,
+                        "name": "John Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10410,
+                "name": "Grace MORRIS Johnson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

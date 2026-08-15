@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8932,
     "name": "Sylvia Marlene Harmon",
+    "first_name": "Sylvia",
+    "middle_name": "Marlene",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1932 Delaware",
     "death_info": "USA",
@@ -12,16 +17,86 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8931,
       "rel_name": "John Henson Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10575,
       "rel_name": "Edith Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8932,
+    "name": "Sylvia Marlene Harmon",
+    "children": [
+      {
+        "id": 8931,
+        "name": "John Henson Harmon",
+        "children": [
+          {
+            "id": 8930,
+            "name": "David W. Harmon",
+            "children": [
+              {
+                "id": 8921,
+                "name": "Eliza Jane Morris",
+                "children": [
+                  {
+                    "id": 9958,
+                    "name": "Emma Jane Johnson",
+                    "children": [
+                      {
+                        "id": 9936,
+                        "name": "Sarah Adeline Hanzer",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10539,
+                    "name": "Samuel Roland Johnson",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 8921,
+                "name": "Eliza Jane Morris",
+                "children": [
+                  {
+                    "id": 9958,
+                    "name": "Emma Jane Johnson",
+                    "children": [
+                      {
+                        "id": 9936,
+                        "name": "Sarah Adeline Hanzer",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10539,
+                    "name": "Samuel Roland Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10575,
+        "name": "Edith Harmon",
+        "children": []
+      }
+    ]
+  }
 }

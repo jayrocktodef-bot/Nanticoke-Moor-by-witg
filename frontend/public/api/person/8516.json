@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8516,
     "name": "Raymond Jackson",
+    "first_name": "Raymond",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Aug 1894 Delaware",
     "death_info": "14 December 1926 Lewes, Sussex County, Delaware, United States of America",
@@ -12,34 +17,85 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F170@ marriage 30 Sep 1924 Lewes, Sussex, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 9418,
       "rel_name": "Elizabeth Miller"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9519,
       "rel_name": "Harry Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 490,
       "rel_name": "Elizabeth Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9519,
       "rel_name": "Harry Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 490,
       "rel_name": "Elizabeth Jackson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8516,
+    "name": "Raymond Jackson",
+    "children": [
+      {
+        "id": 9519,
+        "name": "Harry Jackson",
+        "children": [
+          {
+            "id": 9149,
+            "name": "Mary A. Jackson",
+            "children": [
+              {
+                "id": 8921,
+                "name": "Eliza Jane Morris",
+                "children": [
+                  {
+                    "id": 9958,
+                    "name": "Emma Jane Johnson",
+                    "children": [
+                      {
+                        "id": 9936,
+                        "name": "Sarah Adeline Hanzer",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10539,
+                    "name": "Samuel Roland Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 490,
+        "name": "Elizabeth Jackson",
+        "children": []
+      }
+    ]
+  }
 }

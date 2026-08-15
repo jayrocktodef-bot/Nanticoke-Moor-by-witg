@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11168,
     "name": "Betty Turner Morris",
+    "first_name": "Betty",
+    "middle_name": "Turner",
+    "maiden_name": "",
+    "married_last_name": "Morris",
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": "3 Aug 1930",
     "death_info": "29 Mar 2001 (aged 70)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11039,
       "rel_name": "Charles Ambrose Turner"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11168,
+    "name": "Betty Turner Morris",
+    "children": []
+  }
 }

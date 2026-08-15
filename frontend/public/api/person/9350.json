@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9350,
     "name": "Levin Clark",
+    "first_name": "Levin",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "27 August 1755 , Sussex, Delaware",
     "death_info": "1 September 1835 Baltimore Hundred, Sussex, Delaware",
@@ -12,58 +17,96 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9352,
       "rel_name": "William Aydelott Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9353,
       "rel_name": "Esther Aydelott Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 3591,
       "rel_name": "John Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9000,
       "rel_name": "Elizabeth Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9336,
       "rel_name": "James Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2492,
       "rel_name": "Nathaniel Clark"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F403@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10365,
       "rel_name": "Eleanor Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10334,
       "rel_name": "Chief William Russell \"Wyniaco\" Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10335,
       "rel_name": "Jane Clark"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9350,
+    "name": "Levin Clark",
+    "children": [
+      {
+        "id": 10334,
+        "name": "Chief William Russell \"Wyniaco\" Clark",
+        "children": [
+          {
+            "id": 10336,
+            "name": "William Vine Clark Jr.",
+            "children": [
+              {
+                "id": 10337,
+                "name": "William CLARKE (Clark) Esq.",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10335,
+        "name": "Jane Clark",
+        "children": []
+      }
+    ]
+  }
 }

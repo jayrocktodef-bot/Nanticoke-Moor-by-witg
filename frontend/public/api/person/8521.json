@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8521,
     "name": "JOHANNA Davis",
+    "first_name": "JOHANNA",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "6 Jan 1869",
     "death_info": "18 Oct 1918 (aged 49)",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8519,
       "rel_name": "JAMES Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8521,
+    "name": "JOHANNA Davis",
+    "children": [
+      {
+        "id": 8519,
+        "name": "JAMES Davis",
+        "children": []
+      }
+    ]
+  }
 }

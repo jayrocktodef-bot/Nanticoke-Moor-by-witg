@@ -2,6 +2,11 @@
   "person": {
     "person_id": 3686,
     "name": "Henrietta Morgan Durham",
+    "first_name": "Henrietta",
+    "middle_name": "Morgan",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "MorganNapoleonBonaparte.htm",
     "birth_info": "15 Sep 1925",
     "death_info": "15 Sep 1925",
@@ -739,5 +744,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 453,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 3686,
+      "person_id_secondary": 302,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: henrietta|durham|1925",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 3686,
+    "name": "Henrietta Morgan Durham",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9986,
     "name": "Eunice Clark",
+    "first_name": "Eunice",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1 Sep 1792",
     "death_info": "20 Nov 1867 (aged 75)",
@@ -12,22 +17,37 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F444@ marriage",
+      "certainty": "confirmed",
       "rel_id": 2492,
       "rel_name": "Nathaniel Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9943,
       "rel_name": "Jane Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9987,
       "rel_name": "John Ridgeway"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9986,
+    "name": "Eunice Clark",
+    "children": [
+      {
+        "id": 9987,
+        "name": "John Ridgeway",
+        "children": []
+      }
+    ]
+  }
 }

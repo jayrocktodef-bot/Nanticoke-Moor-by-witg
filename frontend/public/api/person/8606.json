@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8606,
     "name": "Richard Dickerson",
+    "first_name": "Richard",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Dickerson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Abt 1820 Delaware",
     "death_info": "16 Dec 1902 Blades, Sussex, Delaware, USA",
@@ -12,70 +17,125 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10327,
       "rel_name": "Annie E. Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9073,
       "rel_name": "Charles Dickerson"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F102@ marriage",
+      "certainty": "confirmed",
       "rel_id": 9071,
       "rel_name": "Minnie Dickerson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "invalid_cycle_child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9073,
       "rel_name": "Charles Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9075,
       "rel_name": "John Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9077,
       "rel_name": "Rachel Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9072,
       "rel_name": "Jane Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9074,
       "rel_name": "William Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9076,
       "rel_name": "George Dickerson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8382,
       "rel_name": "Mary C Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9073,
       "rel_name": "Charles Dickerson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 4951,
+      "category": "Structural Integrity",
+      "severity": "critical",
+      "person_id": 9073,
+      "person_id_secondary": 8606,
+      "description": "Removed topological loop (back-edge) in descent graph.",
+      "evidence": "Edge creates a cycle where a person becomes their own ancestor.",
+      "created_at": "2026-08-15 01:27:02"
+    },
+    {
+      "id": 4952,
+      "category": "Structural Integrity",
+      "severity": "critical",
+      "person_id": 9073,
+      "person_id_secondary": 8606,
+      "description": "Removed topological loop (back-edge) in descent graph.",
+      "evidence": "Edge creates a cycle where a person becomes their own ancestor.",
+      "created_at": "2026-08-15 01:27:02"
+    }
+  ],
+  "ancestry": {
+    "id": 8606,
+    "name": "Richard Dickerson",
+    "children": [
+      {
+        "id": 9073,
+        "name": "Charles Dickerson",
+        "children": [
+          {
+            "id": 8606,
+            "name": "Richard Dickerson",
+            "children": []
+          },
+          {
+            "id": 9071,
+            "name": "Minnie Dickerson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 468,
     "name": "Annie Durham",
+    "first_name": "Annie",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "manship.htm",
     "birth_info": "1857",
     "death_info": "1948 (aged 90&ndash;91)",
@@ -10,5 +15,22 @@
   },
   "relationships": [],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 436,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 2369,
+      "person_id_secondary": 468,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: annie|durham|1857",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 468,
+    "name": "Annie Durham",
+    "children": []
+  }
 }

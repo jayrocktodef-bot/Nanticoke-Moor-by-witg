@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9191,
     "name": "Sarah Collier (Collyer) Miller",
+    "first_name": "Sarah",
+    "middle_name": "Collier",
+    "maiden_name": "Collyer",
+    "married_last_name": "Miller",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "20 Feb 1696 Salem MM, Salem, New Jersey, USA",
     "death_info": "20 june 1764 Greenwich Cumberland New Jersey",
@@ -12,40 +17,52 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F461@ marriage 1724 Cumberland County, NJ",
+      "certainty": "confirmed",
       "rel_id": 9190,
       "rel_name": "Ebenezer Miller Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9188,
       "rel_name": "Ebenezer Miller"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9194,
       "rel_name": "Hannah Miller"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9195,
       "rel_name": "Andrew Miller"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9196,
       "rel_name": "Josiah William Miller"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8892,
       "rel_name": "Sarah Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9191,
+    "name": "Sarah Collier (Collyer) Miller",
+    "children": []
+  }
 }

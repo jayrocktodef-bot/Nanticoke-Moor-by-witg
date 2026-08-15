@@ -2,6 +2,11 @@
   "person": {
     "person_id": 410,
     "name": "Lydia Ann Wright",
+    "first_name": "Lydia",
+    "middle_name": "Ann",
+    "maiden_name": "",
+    "married_last_name": "Wright",
+    "evidence_level": 2,
     "source_page": "jacksnja.htm",
     "birth_info": "1827",
     "death_info": "1902 (aged 74&ndash;75)",
@@ -10,5 +15,22 @@
   },
   "relationships": [],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 422,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 447,
+      "person_id_secondary": 410,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: lydia|wright|1827",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 410,
+    "name": "Lydia Ann Wright",
+    "children": []
+  }
 }

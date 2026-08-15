@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8160,
     "name": "Stephen Davis",
+    "first_name": "Stephen",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1878",
     "death_info": "Dec 1943 (aged 64&ndash;65)",
@@ -12,16 +17,114 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8610,
       "rel_name": "Davis Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8185,
       "rel_name": "Hester A. Morris Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8160,
+    "name": "Stephen Davis",
+    "children": [
+      {
+        "id": 8610,
+        "name": "Davis Morris",
+        "children": [
+          {
+            "id": 4643,
+            "name": "Henry Davis",
+            "children": []
+          },
+          {
+            "id": 10618,
+            "name": "William H Davis",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 8185,
+        "name": "Hester A. Morris Davis",
+        "children": [
+          {
+            "id": 8571,
+            "name": "Francis E. \"Frank\" Morris",
+            "children": [
+              {
+                "id": 8617,
+                "name": "Negro Morris Thomas",
+                "children": [
+                  {
+                    "id": 8505,
+                    "name": "Morris Thomas",
+                    "children": [
+                      {
+                        "id": 8910,
+                        "name": "Leticia Morris",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9992,
+                    "name": "Sally Wright",
+                    "children": [
+                      {
+                        "id": 10083,
+                        "name": "Wright Thomas Sr.",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8910,
+                "name": "Leticia Morris",
+                "children": [
+                  {
+                    "id": 8616,
+                    "name": "Stephen Wright",
+                    "children": [
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8684,
+                    "name": "Priscilla Miller",
+                    "children": [
+                      {
+                        "id": 8618,
+                        "name": "Ebenezar Miller",
+                        "children": []
+                      },
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

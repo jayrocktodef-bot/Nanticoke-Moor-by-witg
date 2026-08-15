@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10807,
     "name": "Clara Thomas",
+    "first_name": "Clara",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1889",
     "death_info": "28 Dec 1928 (aged 38&ndash;39)",
@@ -12,28 +17,38 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F137@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10806,
       "rel_name": "Lindsey Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10482,
       "rel_name": "Lucille Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10819,
       "rel_name": "Alfred Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10820,
       "rel_name": "Lonenzo Thomas"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10807,
+    "name": "Clara Thomas",
+    "children": []
+  }
 }

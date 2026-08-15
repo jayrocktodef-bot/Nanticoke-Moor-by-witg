@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9591,
     "name": "Mitchell John Harmon",
+    "first_name": "Mitchell",
+    "middle_name": "John",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "May 1838 Indian River Hundred, Sussex County, Delaware, USA",
     "death_info": "19 May 1904 Sussex County, Delaware, USA",
@@ -12,34 +17,45 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F32@ marriage",
+      "certainty": "confirmed",
       "rel_id": 9108,
       "rel_name": "Josephine Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9879,
       "rel_name": "Charles A. Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9880,
       "rel_name": "Theodore R. Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9881,
       "rel_name": "Eliza A. Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10584,
       "rel_name": "Frederick Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9591,
+    "name": "Mitchell John Harmon",
+    "children": []
+  }
 }

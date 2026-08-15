@@ -2,6 +2,11 @@
   "person": {
     "person_id": 989,
     "name": "Theodore P Harmon",
+    "first_name": "Theodore",
+    "middle_name": "P",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "moors_moors.aspx",
     "birth_info": "7 Aug 1953",
     "death_info": "27 Feb 2012 (aged 58)",
@@ -10,5 +15,22 @@
   },
   "relationships": [],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 541,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 9880,
+      "person_id_secondary": 989,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: theodore|harmon|1953",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 989,
+    "name": "Theodore P Harmon",
+    "children": []
+  }
 }

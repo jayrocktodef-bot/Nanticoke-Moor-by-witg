@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10696,
     "name": "Dorothy Lorraine Johnson",
+    "first_name": "Dorothy",
+    "middle_name": "Lorraine",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "2 November 1942",
     "death_info": "",
@@ -12,22 +17,31 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F117@ marriage",
+      "certainty": "confirmed",
       "rel_id": 9961,
       "rel_name": "Donald Edward Sr Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10694,
       "rel_name": "Donald Edward Johnson Jr."
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10683,
       "rel_name": "Juan Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10696,
+    "name": "Dorothy Lorraine Johnson",
+    "children": []
+  }
 }

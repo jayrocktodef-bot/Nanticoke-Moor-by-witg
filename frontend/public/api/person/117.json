@@ -2,6 +2,11 @@
   "person": {
     "person_id": 117,
     "name": "Janet Street",
+    "first_name": "Janet",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Street",
+    "evidence_level": 2,
     "source_page": "coker-a5.htm",
     "birth_info": "13 Jan 1953",
     "death_info": "15 Sep 2013 (aged 60)",
@@ -12,6 +17,7 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Oscar Mosley married Janet Street",
+      "certainty": "confirmed",
       "rel_id": 116,
       "rel_name": "Oscar Mosley"
     }
@@ -616,5 +622,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 117,
+    "name": "Janet Street",
+    "children": []
+  }
 }

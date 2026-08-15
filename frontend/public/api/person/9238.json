@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9238,
     "name": "Frank Lear Wilson",
+    "first_name": "Frank",
+    "middle_name": "Lear",
+    "maiden_name": "",
+    "married_last_name": "Wilson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "2 Apr 1905 Berwyn, Pennsylvania",
     "death_info": "10 Oct 1988 New York, USA",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F443@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8223,
       "rel_name": "Myrtle Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8589,
       "rel_name": "Maurice Allen Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9238,
+    "name": "Frank Lear Wilson",
+    "children": []
+  }
 }

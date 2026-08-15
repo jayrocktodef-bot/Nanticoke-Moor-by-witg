@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10814,
     "name": "Layton Sylvester Davis",
+    "first_name": "Layton",
+    "middle_name": "Sylvester",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "6 Apr 1914",
     "death_info": "Jan 1997 (aged 82)",
@@ -12,16 +17,85 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10815,
       "rel_name": "Charles Morris \"Charlie\" Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9140,
       "rel_name": "Minnie Mae Street"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 552,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 10814,
+      "person_id_secondary": 9139,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: layton|davis|1914",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 10814,
+    "name": "Layton Sylvester Davis",
+    "children": [
+      {
+        "id": 10815,
+        "name": "Charles Morris \"Charlie\" Davis",
+        "children": []
+      },
+      {
+        "id": 9140,
+        "name": "Minnie Mae Street",
+        "children": [
+          {
+            "id": 9145,
+            "name": "Benton C Street",
+            "children": []
+          },
+          {
+            "id": 9144,
+            "name": "(Mary) Anne Harmon",
+            "children": [
+              {
+                "id": 10514,
+                "name": "Simon Harmon",
+                "children": [
+                  {
+                    "id": 1022,
+                    "name": "Bowen Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 7577,
+                    "name": "Lydia Clark",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8589,
     "name": "Maurice Allen Mosley",
+    "first_name": "Maurice",
+    "middle_name": "Allen",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1934 Delaware",
     "death_info": "30 June 2010 Millsboro, Sussex County, Delaware, United States of America",
@@ -12,34 +17,129 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8158,
       "rel_name": "Hersel R. Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8223,
       "rel_name": "Myrtle Mosley"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F410@ marriage 8 Aug 1952 Harrington, Kent, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 8790,
       "rel_name": "Ardith P Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9238,
       "rel_name": "Frank Lear Wilson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8223,
       "rel_name": "Myrtle Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8589,
+    "name": "Maurice Allen Mosley",
+    "children": [
+      {
+        "id": 8158,
+        "name": "Hersel R. Davis",
+        "children": [
+          {
+            "id": 8610,
+            "name": "Davis Morris",
+            "children": [
+              {
+                "id": 4643,
+                "name": "Henry Davis",
+                "children": []
+              },
+              {
+                "id": 10618,
+                "name": "William H Davis",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8185,
+            "name": "Hester A. Morris Davis",
+            "children": [
+              {
+                "id": 8571,
+                "name": "Francis E. \"Frank\" Morris",
+                "children": [
+                  {
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": [
+                      {
+                        "id": 8505,
+                        "name": "Morris Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 9992,
+                        "name": "Sally Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8223,
+        "name": "Myrtle Mosley",
+        "children": [
+          {
+            "id": 9239,
+            "name": "Harry Mosley",
+            "children": [
+              {
+                "id": 9243,
+                "name": "Peter Mosley",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

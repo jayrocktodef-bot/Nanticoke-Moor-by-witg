@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8610,
     "name": "Davis Morris",
+    "first_name": "Davis",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Morris",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
     "death_info": "8 Apr 1849",
@@ -12,88 +17,119 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F224@ marriage 3 April 1892 Delaware, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 8185,
       "rel_name": "Hester A. Morris Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8890,
       "rel_name": "John H Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8675,
       "rel_name": "Bertha M Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8160,
       "rel_name": "Stephen Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8186,
       "rel_name": "Elsie Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8676,
       "rel_name": "Charles \"Charlie\" Morris Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8609,
       "rel_name": "William W. Davis Sr."
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8157,
       "rel_name": "George Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8158,
       "rel_name": "Hersel R. Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8159,
       "rel_name": "Harry Edward Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4643,
       "rel_name": "Henry Davis"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F317@ marriage 31 Dec 1886 Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 8902,
       "rel_name": "Elizabeth Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10618,
       "rel_name": "William H Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4952,
       "rel_name": "William Henry Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8610,
+    "name": "Davis Morris",
+    "children": [
+      {
+        "id": 4643,
+        "name": "Henry Davis",
+        "children": []
+      },
+      {
+        "id": 10618,
+        "name": "William H Davis",
+        "children": []
+      }
+    ]
+  }
 }

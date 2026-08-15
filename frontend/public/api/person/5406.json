@@ -2,6 +2,11 @@
   "person": {
     "person_id": 5406,
     "name": "Isaiah and Gertrude Durham",
+    "first_name": "Isaiah",
+    "middle_name": "and Gertrude",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "DurhamIsaiahZed.htm",
     "birth_info": "29 May 1890",
     "death_info": "8 Jun 1976 (aged 86)",
@@ -115,5 +120,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 484,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 5406,
+      "person_id_secondary": 326,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: isaiah|durham|1890",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 5406,
+    "name": "Isaiah and Gertrude Durham",
+    "children": []
+  }
 }

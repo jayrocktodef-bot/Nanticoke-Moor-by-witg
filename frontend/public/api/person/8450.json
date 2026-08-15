@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8450,
     "name": "Philadelphia Johnson",
+    "first_name": "Philadelphia",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1709 Dorchester, Maryland",
     "death_info": "1770 Caroline, Maryland",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8565,
       "rel_name": "Sarah Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8566,
       "rel_name": "Cornelius Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8450,
+    "name": "Philadelphia Johnson",
+    "children": []
+  }
 }

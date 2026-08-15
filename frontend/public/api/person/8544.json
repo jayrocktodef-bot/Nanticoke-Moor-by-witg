@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8544,
     "name": "Leona Davis",
+    "first_name": "Leona",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "10 Aug 1926",
     "death_info": "13 Nov 2002 (aged 76)",
@@ -12,16 +17,35 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4643,
       "rel_name": "Henry Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8538,
       "rel_name": "Martha Peggy Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8544,
+    "name": "Leona Davis",
+    "children": [
+      {
+        "id": 4643,
+        "name": "Henry Davis",
+        "children": []
+      },
+      {
+        "id": 8538,
+        "name": "Martha Peggy Davis",
+        "children": []
+      }
+    ]
+  }
 }

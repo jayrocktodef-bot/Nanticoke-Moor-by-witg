@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9463,
     "name": "Leon Harmon",
+    "first_name": "Leon",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "11 Aug 1892",
     "death_info": "3 Feb 1965 (aged 72)",
@@ -12,22 +17,99 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F77@ marriage 10 Mar 1944 Millsboro, Sussex, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 8565,
       "rel_name": "Sarah Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9726,
       "rel_name": "Isaac Willis Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9462,
       "rel_name": "Christina Miller"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9463,
+    "name": "Leon Harmon",
+    "children": [
+      {
+        "id": 9726,
+        "name": "Isaac Willis Harmon",
+        "children": [
+          {
+            "id": 9531,
+            "name": "Joseph Harmon",
+            "children": [
+              {
+                "id": 8921,
+                "name": "Eliza Jane Morris",
+                "children": [
+                  {
+                    "id": 9958,
+                    "name": "Emma Jane Johnson",
+                    "children": [
+                      {
+                        "id": 9936,
+                        "name": "Sarah Adeline Hanzer",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10539,
+                    "name": "Samuel Roland Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9605,
+            "name": "Mary Adline Clark",
+            "children": [
+              {
+                "id": 9606,
+                "name": "Robert Clark",
+                "children": []
+              },
+              {
+                "id": 9607,
+                "name": "Ellen Johnson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9462,
+        "name": "Christina Miller",
+        "children": [
+          {
+            "id": 9728,
+            "name": "Joshua S. Hitchens",
+            "children": [
+              {
+                "id": 9732,
+                "name": "Joshua Hitchens",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

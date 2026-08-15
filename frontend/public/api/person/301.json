@@ -2,6 +2,11 @@
   "person": {
     "person_id": 301,
     "name": "Sally Ann Hanzer",
+    "first_name": "Sally",
+    "middle_name": "Ann",
+    "maiden_name": "",
+    "married_last_name": "Hanzer",
+    "evidence_level": 2,
     "source_page": "durhm-b2.htm",
     "birth_info": "1867",
     "death_info": "12 Nov 1911 (aged 43&ndash;44)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Much of Jolly's Neck Farm had been sold off before reaching Elizabeth, but she and Benjamin lived on the remaining portion until Benjamin died in 1810 and Elizabeth followed c. 1815. Jolly's Neck farm",
+      "certainty": "confirmed",
       "rel_id": 396,
       "rel_name": "Benjamin Durham II"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 301,
+    "name": "Sally Ann Hanzer",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 12,
     "name": "John Wesley Cott",
+    "first_name": "John",
+    "middle_name": "Wesley",
+    "maiden_name": "",
+    "married_last_name": "Cott",
+    "evidence_level": 2,
     "source_page": "bible-c1.htm",
     "birth_info": "unknown",
     "death_info": "9 Jul 1964",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "John Wesley Cott and Sarah Cott were married January 28 A.D. 1862",
+      "certainty": "confirmed",
       "rel_id": 13,
       "rel_name": "Sarah Cott"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.5% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1039,
       "rel_name": "John Wesley Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 12,
+    "name": "John Wesley Cott",
+    "children": []
+  }
 }

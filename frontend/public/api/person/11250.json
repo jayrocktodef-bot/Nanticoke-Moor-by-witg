@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11250,
     "name": "Ann Clark",
+    "first_name": "Ann",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 1,
     "source_page": "FindAGrave Memorial 55667866",
     "birth_info": "1810",
     "death_info": "1885",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": null,
+      "certainty": "confirmed",
       "rel_id": 10421,
       "rel_name": "James H Clark"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11250,
+    "name": "Ann Clark",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9270,
     "name": "Elizabeth Anne Harmon",
+    "first_name": "Elizabeth",
+    "middle_name": "Anne",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "3 Oct 1878 Millsboro, Indian, River, Hundred, Sussex County, Delaware, USA",
     "death_info": "21 Jan 1929 Georgetown, Sussex County, Delaware, USA",
@@ -12,28 +17,61 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 5921,
       "rel_name": "Isaac W. Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10214,
       "rel_name": "Sarah Jane Sockum"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F122@ marriage",
+      "certainty": "confirmed",
       "rel_id": 754,
       "rel_name": "William Howard Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8704,
       "rel_name": "Lillie M. Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9270,
+    "name": "Elizabeth Anne Harmon",
+    "children": [
+      {
+        "id": 5921,
+        "name": "Isaac W. Harmon",
+        "children": []
+      },
+      {
+        "id": 10214,
+        "name": "Sarah Jane Sockum",
+        "children": [
+          {
+            "id": 9666,
+            "name": "Eunice White Ridgeway",
+            "children": [
+              {
+                "id": 10354,
+                "name": "Jacob Ridgeway",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

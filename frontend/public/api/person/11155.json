@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11155,
     "name": "Nathaniel Carmean",
+    "first_name": "Nathaniel",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Carmean",
+    "evidence_level": 1,
     "source_page": null,
     "birth_info": "abt 1808 Delaware",
     "death_info": "3 Oct 1892",
@@ -12,22 +17,31 @@
     {
       "relationship_type": "spouses",
       "evidence_text": "Restored GEDCOM family marriage record",
+      "certainty": "confirmed",
       "rel_id": 11121,
       "rel_name": "Hettie Carmean"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11132,
       "rel_name": "Nancy J Carmean"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11120,
       "rel_name": "Hester Jemima Carmean"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11155,
+    "name": "Nathaniel Carmean",
+    "children": []
+  }
 }

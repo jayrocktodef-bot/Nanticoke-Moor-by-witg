@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11057,
     "name": "Nancy Jane Cordrey",
+    "first_name": "Nancy",
+    "middle_name": "Jane",
+    "maiden_name": "",
+    "married_last_name": "Cordrey",
+    "evidence_level": 1,
     "source_page": null,
     "birth_info": "1 Mar 1888 Little Crick, Sussex, Delaware",
     "death_info": "July 7 1966",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11050,
       "rel_name": "Jacob B. Cordrey"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11057,
+    "name": "Nancy Jane Cordrey",
+    "children": []
+  }
 }

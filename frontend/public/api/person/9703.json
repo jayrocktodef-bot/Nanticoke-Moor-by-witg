@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9703,
     "name": "L.D. Mosley",
+    "first_name": "L.D.",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "",
     "death_info": "",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9496,
       "rel_name": "Larry A Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9703,
+    "name": "L.D. Mosley",
+    "children": [
+      {
+        "id": 9496,
+        "name": "Larry A Mosley",
+        "children": []
+      }
+    ]
+  }
 }

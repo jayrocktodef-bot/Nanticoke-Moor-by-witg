@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8891,
     "name": "George F. Davis",
+    "first_name": "George",
+    "middle_name": "F.",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1793",
     "death_info": "Jun 1866 (aged 72&ndash;73)",
@@ -12,22 +17,42 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4643,
       "rel_name": "Henry Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10618,
       "rel_name": "William H Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4952,
       "rel_name": "William Henry Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8891,
+    "name": "George F. Davis",
+    "children": [
+      {
+        "id": 4643,
+        "name": "Henry Davis",
+        "children": []
+      },
+      {
+        "id": 10618,
+        "name": "William H Davis",
+        "children": []
+      }
+    ]
+  }
 }

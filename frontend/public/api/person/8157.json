@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8157,
     "name": "George Davis",
+    "first_name": "George",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1912",
     "death_info": "Dec 1923 (aged 10&ndash;11)",
@@ -12,52 +17,94 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F90@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8863,
       "rel_name": "Pearl Mae Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8187,
       "rel_name": "Alsup Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8182,
       "rel_name": "Delphine Mae Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8188,
       "rel_name": "Margarite Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8613,
       "rel_name": "Joseph Henry Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8519,
       "rel_name": "JAMES Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8610,
       "rel_name": "Davis Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8185,
       "rel_name": "Hester A. Morris Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8157,
+    "name": "George Davis",
+    "children": [
+      {
+        "id": 8613,
+        "name": "Joseph Henry Davis",
+        "children": [
+          {
+            "id": 8629,
+            "name": "Jost Henry Davis",
+            "children": [
+              {
+                "id": 8809,
+                "name": "Ludwig (Lewis) Davis",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8614,
+            "name": "Katherina Davis",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 8519,
+        "name": "JAMES Davis",
+        "children": []
+      }
+    ]
+  }
 }

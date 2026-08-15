@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10434,
     "name": "Franklin \"Francis\" \"Frank\" Jack Ridgeway",
+    "first_name": "Franklin",
+    "middle_name": "\"Francis\" \"Frank\" Jack",
+    "maiden_name": "",
+    "married_last_name": "Ridgeway",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1895",
     "death_info": "1973 (aged 77&ndash;78)",
@@ -12,16 +17,52 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10424,
       "rel_name": "Tilghman (Jack) Ridgeway"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10429,
       "rel_name": "Sina Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10434,
+    "name": "Franklin \"Francis\" \"Frank\" Jack Ridgeway",
+    "children": [
+      {
+        "id": 10424,
+        "name": "Tilghman (Jack) Ridgeway",
+        "children": [
+          {
+            "id": 10426,
+            "name": "Joseph Ridgeway",
+            "children": []
+          },
+          {
+            "id": 10426,
+            "name": "Joseph Ridgeway",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 10429,
+        "name": "Sina Mosley",
+        "children": [
+          {
+            "id": 961,
+            "name": "John Mosley",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9772,
     "name": "Ashley Harmon",
+    "first_name": "Ashley",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1991",
     "death_info": "unknown",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9767,
       "rel_name": "Atlas Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9772,
+    "name": "Ashley Harmon",
+    "children": [
+      {
+        "id": 9767,
+        "name": "Atlas Harmon",
+        "children": []
+      }
+    ]
+  }
 }

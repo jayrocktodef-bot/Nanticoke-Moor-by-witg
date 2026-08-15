@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9830,
     "name": "Burton Johnson",
+    "first_name": "Burton",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Abt 1869 Delaware",
     "death_info": "1924 Blackwood, New Jersey, USA",
@@ -12,16 +17,35 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9834,
       "rel_name": "Sylvester H. Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9835,
       "rel_name": "Mary A Street"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9830,
+    "name": "Burton Johnson",
+    "children": [
+      {
+        "id": 9834,
+        "name": "Sylvester H. Johnson",
+        "children": []
+      },
+      {
+        "id": 9835,
+        "name": "Mary A Street",
+        "children": []
+      }
+    ]
+  }
 }

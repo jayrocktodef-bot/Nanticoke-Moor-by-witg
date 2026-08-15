@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9480,
     "name": "Stephen F. Green",
+    "first_name": "Stephen",
+    "middle_name": "F.",
+    "maiden_name": "",
+    "married_last_name": "Green",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1955",
     "death_info": "22 Jul 2020",
@@ -12,10 +17,29 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9479,
       "rel_name": "Wilmer F Green"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9480,
+    "name": "Stephen F. Green",
+    "children": [
+      {
+        "id": 9479,
+        "name": "Wilmer F Green",
+        "children": [
+          {
+            "id": 9475,
+            "name": "Ruth E Green",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

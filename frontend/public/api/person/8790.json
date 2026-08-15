@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8790,
     "name": "Ardith P Harmon",
+    "first_name": "Ardith",
+    "middle_name": "P",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "7/27/1934 Millsboro, Delaware",
     "death_info": "12Feb2021  Millsboro, Sussex County, Delaware, USA",
@@ -12,22 +17,142 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F410@ marriage 8 Aug 1952 Harrington, Kent, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 8589,
       "rel_name": "Maurice Allen Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9298,
       "rel_name": "Oscar Edward Harmon Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8789,
       "rel_name": "Lillian Eleanor Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8790,
+    "name": "Ardith P Harmon",
+    "children": [
+      {
+        "id": 9298,
+        "name": "Oscar Edward Harmon Sr",
+        "children": [
+          {
+            "id": 9300,
+            "name": "James Harmon",
+            "children": [
+              {
+                "id": 9408,
+                "name": "George W Harmon",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 9299,
+            "name": "Annie MILLER CADE Harmon",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 8789,
+        "name": "Lillian Eleanor Davis",
+        "children": [
+          {
+            "id": 8632,
+            "name": "Robert Henry Davis",
+            "children": [
+              {
+                "id": 8788,
+                "name": "John M. Davis",
+                "children": [
+                  {
+                    "id": 4643,
+                    "name": "Henry Davis",
+                    "children": []
+                  },
+                  {
+                    "id": 10618,
+                    "name": "William H Davis",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 8791,
+                "name": "Mary E Jackson",
+                "children": [
+                  {
+                    "id": 409,
+                    "name": "Robert B. Jackson",
+                    "children": []
+                  },
+                  {
+                    "id": 7978,
+                    "name": "Lydia Ann Wright Jackson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8704,
+            "name": "Lillie M. Davis",
+            "children": [
+              {
+                "id": 754,
+                "name": "William Howard Johnson",
+                "children": [
+                  {
+                    "id": 584,
+                    "name": "William Arthur Johnson",
+                    "children": []
+                  },
+                  {
+                    "id": 774,
+                    "name": "Elizabeth Patience Wright",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 9270,
+                "name": "Elizabeth Anne Harmon",
+                "children": [
+                  {
+                    "id": 5921,
+                    "name": "Isaac W. Harmon",
+                    "children": []
+                  },
+                  {
+                    "id": 10214,
+                    "name": "Sarah Jane Sockum",
+                    "children": [
+                      {
+                        "id": 9666,
+                        "name": "Eunice White Ridgeway",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

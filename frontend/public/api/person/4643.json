@@ -2,6 +2,11 @@
   "person": {
     "person_id": 4643,
     "name": "Henry Davis",
+    "first_name": "Henry",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "DavisRobert&Bunny.htm",
     "birth_info": "1874",
     "death_info": "7 Jul 1914 (aged 39&ndash;40)",
@@ -12,96 +17,112 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F216@ marriage 1784",
+      "certainty": "confirmed",
       "rel_id": 8538,
       "rel_name": "Martha Peggy Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8541,
       "rel_name": "Marion C Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8542,
       "rel_name": "Margaret Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8539,
       "rel_name": "Henry Lovell Rees Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8543,
       "rel_name": "Daniel Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8544,
       "rel_name": "Leona Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8545,
       "rel_name": "N Davis Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8546,
       "rel_name": "John R Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10619,
       "rel_name": "James H Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8610,
       "rel_name": "Davis Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8891,
       "rel_name": "George F. Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10372,
       "rel_name": "Sarah J Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8788,
       "rel_name": "John M. Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8893,
       "rel_name": "Mary Catherine Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10373,
       "rel_name": "Nathaniel M. Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10620,
       "rel_name": "Annie C Davis"
     }
@@ -732,5 +753,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 528,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 8539,
+      "person_id_secondary": 4643,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: henry|davis|1874",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 4643,
+    "name": "Henry Davis",
+    "children": []
+  }
 }

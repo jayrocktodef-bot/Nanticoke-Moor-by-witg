@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9988,
     "name": "Martha Clark",
+    "first_name": "Martha",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1727 Kent County, Del",
     "death_info": "1 Sep 1780 New Castle County, Delaware, USA",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2097,
       "rel_name": "Clark Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10104,
       "rel_name": "MURDERED Clark"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9988,
+    "name": "Martha Clark",
+    "children": []
+  }
 }

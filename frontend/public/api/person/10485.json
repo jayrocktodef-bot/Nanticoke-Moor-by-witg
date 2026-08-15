@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10485,
     "name": "Joanah Durham",
+    "first_name": "Joanah",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1749 Kent County, Delaware, USA",
     "death_info": "",
@@ -12,16 +17,35 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10394,
       "rel_name": "Sarah Elenor Puckham"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10395,
       "rel_name": "Daniel David Durham"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10485,
+    "name": "Joanah Durham",
+    "children": [
+      {
+        "id": 10394,
+        "name": "Sarah Elenor Puckham",
+        "children": []
+      },
+      {
+        "id": 10395,
+        "name": "Daniel David Durham",
+        "children": []
+      }
+    ]
+  }
 }

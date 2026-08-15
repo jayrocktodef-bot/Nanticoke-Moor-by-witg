@@ -2,6 +2,11 @@
   "person": {
     "person_id": 7347,
     "name": "William Thomas",
+    "first_name": "William",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 2,
     "source_page": "ReedThomas&MaryMosley.htm",
     "birth_info": "1781",
     "death_info": "1846 (aged 64&ndash;65)",
@@ -12,6 +17,7 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8147,
       "rel_name": "Martha E Thompson"
     }
@@ -642,5 +648,51 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 7347,
+    "name": "William Thomas",
+    "children": [
+      {
+        "id": 8147,
+        "name": "Martha E Thompson",
+        "children": [
+          {
+            "id": 9519,
+            "name": "Harry Jackson",
+            "children": [
+              {
+                "id": 9149,
+                "name": "Mary A. Jackson",
+                "children": [
+                  {
+                    "id": 8921,
+                    "name": "Eliza Jane Morris",
+                    "children": [
+                      {
+                        "id": 9958,
+                        "name": "Emma Jane Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 10539,
+                        "name": "Samuel Roland Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 490,
+            "name": "Elizabeth Jackson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

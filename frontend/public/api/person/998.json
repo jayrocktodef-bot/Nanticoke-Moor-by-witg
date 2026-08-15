@@ -2,6 +2,11 @@
   "person": {
     "person_id": 998,
     "name": "Adonijah Harmon",
+    "first_name": "Adonijah",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "moors_moors.aspx",
     "birth_info": "1788",
     "death_info": "29 Mar 1864 (aged 75&ndash;76)",
@@ -12,16 +17,69 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 792,
       "rel_name": "Noah Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10540,
       "rel_name": "Job Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 998,
+    "name": "Adonijah Harmon",
+    "children": [
+      {
+        "id": 10540,
+        "name": "Job Harmon",
+        "children": [
+          {
+            "id": 2098,
+            "name": "Edward Harmon",
+            "children": [
+              {
+                "id": 8862,
+                "name": "William Harmon",
+                "children": [
+                  {
+                    "id": 9407,
+                    "name": "David Roland Harmon Sr",
+                    "children": []
+                  },
+                  {
+                    "id": 8927,
+                    "name": "Eliza Jane Harmon",
+                    "children": [
+                      {
+                        "id": 5763,
+                        "name": "Robert Marshall Hanzer",
+                        "children": []
+                      },
+                      {
+                        "id": 10290,
+                        "name": "Harriet Ann Harmon",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10554,
+            "name": "Patience Harmon",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

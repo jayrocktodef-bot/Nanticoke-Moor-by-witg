@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10354,
     "name": "Jacob Ridgeway",
+    "first_name": "Jacob",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Ridgeway",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt. 1790 Delaware, USA",
     "death_info": "Delaware, USA",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9666,
       "rel_name": "Eunice White Ridgeway"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10354,
+    "name": "Jacob Ridgeway",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10396,
     "name": "Handsor Thomas",
+    "first_name": "Handsor",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1745",
     "death_info": "",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4056,
       "rel_name": "William Handsor"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10396,
+    "name": "Handsor Thomas",
+    "children": [
+      {
+        "id": 4056,
+        "name": "William Handsor",
+        "children": []
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8250,
     "name": "Dwayne Davis",
+    "first_name": "Dwayne",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "15 Jan 1970",
     "death_info": "26 Sep 2019 (aged 49)",
@@ -12,10 +17,118 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8182,
       "rel_name": "Delphine Mae Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8250,
+    "name": "Dwayne Davis",
+    "children": [
+      {
+        "id": 8182,
+        "name": "Delphine Mae Davis",
+        "children": [
+          {
+            "id": 8157,
+            "name": "George Davis",
+            "children": [
+              {
+                "id": 8613,
+                "name": "Joseph Henry Davis",
+                "children": [
+                  {
+                    "id": 8629,
+                    "name": "Jost Henry Davis",
+                    "children": [
+                      {
+                        "id": 8809,
+                        "name": "Ludwig (Lewis) Davis",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8614,
+                    "name": "Katherina Davis",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 8519,
+                "name": "JAMES Davis",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8863,
+            "name": "Pearl Mae Thompson",
+            "children": [
+              {
+                "id": 9097,
+                "name": "Samuel L. Thompson",
+                "children": [
+                  {
+                    "id": 8381,
+                    "name": "James W Thompson",
+                    "children": [
+                      {
+                        "id": 9109,
+                        "name": "Robert Thompson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8382,
+                    "name": "Mary C Thompson",
+                    "children": [
+                      {
+                        "id": 8606,
+                        "name": "Richard Dickerson",
+                        "children": []
+                      },
+                      {
+                        "id": 9071,
+                        "name": "Minnie Dickerson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8147,
+                "name": "Martha E Thompson",
+                "children": [
+                  {
+                    "id": 9519,
+                    "name": "Harry Jackson",
+                    "children": [
+                      {
+                        "id": 9149,
+                        "name": "Mary A. Jackson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 490,
+                    "name": "Elizabeth Jackson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

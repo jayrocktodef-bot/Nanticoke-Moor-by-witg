@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8196,
     "name": "Wilfred Clark",
+    "first_name": "Wilfred",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1921 Delaware",
     "death_info": "",
@@ -12,16 +17,70 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8193,
       "rel_name": "John Wesley Clark Jr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8194,
       "rel_name": "Lulu Rae Clark"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8196,
+    "name": "Wilfred Clark",
+    "children": [
+      {
+        "id": 8193,
+        "name": "John Wesley Clark Jr",
+        "children": [
+          {
+            "id": 9622,
+            "name": "John Wesley Clark Sr",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 8194,
+        "name": "Lulu Rae Clark",
+        "children": [
+          {
+            "id": 3588,
+            "name": "Charles Edward Carey",
+            "children": []
+          },
+          {
+            "id": 9617,
+            "name": "Della Mae Ridgeway",
+            "children": [
+              {
+                "id": 9620,
+                "name": "Louisa C Sammons",
+                "children": [
+                  {
+                    "id": 2150,
+                    "name": "Isaac Sammons",
+                    "children": [
+                      {
+                        "id": 368,
+                        "name": "William Sammons",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

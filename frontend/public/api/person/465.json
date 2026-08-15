@@ -2,6 +2,11 @@
   "person": {
     "person_id": 465,
     "name": "Benjamin R. Durham",
+    "first_name": "Benjamin",
+    "middle_name": "R.",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "manship.htm",
     "birth_info": "1924",
     "death_info": "1928 (aged 3&ndash;4)",
@@ -10,5 +15,22 @@
   },
   "relationships": [],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 425,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 465,
+      "person_id_secondary": 61,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: benjamin|durham|1924",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 465,
+    "name": "Benjamin R. Durham",
+    "children": []
+  }
 }

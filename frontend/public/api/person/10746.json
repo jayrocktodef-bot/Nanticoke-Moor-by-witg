@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10746,
     "name": "Harvey H Harmon",
+    "first_name": "Harvey",
+    "middle_name": "H",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "18 Nov 1805",
     "death_info": "28 Feb 1879 (aged 73)",
@@ -12,46 +17,70 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10751,
       "rel_name": "WIlliam Coard Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9980,
       "rel_name": "Sarah Ann Handsor"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F508@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10521,
       "rel_name": "Sallie Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10748,
       "rel_name": "Elsa Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10749,
       "rel_name": "Harvey Harmon Jr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10750,
       "rel_name": "Marie Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10745,
       "rel_name": "Albert Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10746,
+    "name": "Harvey H Harmon",
+    "children": [
+      {
+        "id": 10751,
+        "name": "WIlliam Coard Harmon",
+        "children": []
+      },
+      {
+        "id": 9980,
+        "name": "Sarah Ann Handsor",
+        "children": []
+      }
+    ]
+  }
 }

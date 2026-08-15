@@ -115,7 +115,7 @@ export default function CommandPalette({ isOpen, onClose, onSelectPerson, onSele
                 onSelectPerson(p.person_id);
                 onClose();
               }}
-              className="p-3 bg-slate-900/60 hover:bg-slate-800 border border-transparent hover:border-amber-500/30 rounded-xl cursor-pointer flex items-center justify-between transition-all group"
+              className="p-3 bg-slate-900/60 hover:bg-slate-800 border border-transparent hover:border-amber-500/30 rounded-xl cursor-pointer flex items-center justify-between transition-all group active:scale-[0.98]"
             >
               <div className="flex items-center gap-3">
                 <div className="p-2 bg-amber-500/10 text-amber-400 rounded-lg group-hover:bg-amber-500/20 shrink-0">

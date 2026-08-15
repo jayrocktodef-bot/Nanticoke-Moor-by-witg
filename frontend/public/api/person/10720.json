@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10720,
     "name": "Alma Thompson",
+    "first_name": "Alma",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thompson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1930 Pennsylvania",
     "death_info": "",
@@ -12,10 +17,135 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8377,
       "rel_name": "Sarah E Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10720,
+    "name": "Alma Thompson",
+    "children": [
+      {
+        "id": 8377,
+        "name": "Sarah E Thompson",
+        "children": [
+          {
+            "id": 8701,
+            "name": "Jeremiah Thompson",
+            "children": [
+              {
+                "id": 8604,
+                "name": "Wallace B Thompson",
+                "children": [
+                  {
+                    "id": 8639,
+                    "name": "Clemmon Thompson",
+                    "children": [
+                      {
+                        "id": 8840,
+                        "name": "Levin Game Thompson",
+                        "children": []
+                      },
+                      {
+                        "id": 8841,
+                        "name": "Leah Thompson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8638,
+                    "name": "Melisa Molly Street",
+                    "children": [
+                      {
+                        "id": 8680,
+                        "name": "Jerry Street",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8640,
+                "name": "Elizabeth Thompson",
+                "children": [
+                  {
+                    "id": 8382,
+                    "name": "Mary C Thompson",
+                    "children": [
+                      {
+                        "id": 8606,
+                        "name": "Richard Dickerson",
+                        "children": []
+                      },
+                      {
+                        "id": 9071,
+                        "name": "Minnie Dickerson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8375,
+            "name": "Mary A. Thompson",
+            "children": [
+              {
+                "id": 9096,
+                "name": "John C Hanzer",
+                "children": [
+                  {
+                    "id": 9969,
+                    "name": "Jacob Hanzer Jr",
+                    "children": [
+                      {
+                        "id": 9974,
+                        "name": "Jacob Hanzer Sr",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9940,
+                "name": "Sophia J. Hanzer",
+                "children": [
+                  {
+                    "id": 10122,
+                    "name": "John R (H) or Jonathan Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10123,
+                    "name": "Lavinia Lovinia Sammons",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

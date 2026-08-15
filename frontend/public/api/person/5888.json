@@ -2,6 +2,11 @@
   "person": {
     "person_id": 5888,
     "name": "Laura Hall",
+    "first_name": "Laura",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Hall",
+    "evidence_level": 2,
     "source_page": "HallAmos&Laura.htm",
     "birth_info": "2 Nov 1896",
     "death_info": "14 Dec 1980 (aged 84)",
@@ -102,5 +107,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 491,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 5888,
+      "person_id_secondary": 5886,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: laura|hall|1896",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 5888,
+    "name": "Laura Hall",
+    "children": []
+  }
 }

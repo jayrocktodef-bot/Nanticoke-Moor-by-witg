@@ -2,6 +2,11 @@
   "person": {
     "person_id": 17,
     "name": "Martha A. Harmon",
+    "first_name": "Martha",
+    "middle_name": "A.",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "bible-j.htm",
     "birth_info": "30 Oct 1900",
     "death_info": "22 Aug 1937 (aged 36)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 792,
       "rel_name": "Noah Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 17,
+    "name": "Martha A. Harmon",
+    "children": []
+  }
 }

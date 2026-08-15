@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10689,
     "name": "Anna Mosley",
+    "first_name": "Anna",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1901 Delaware",
     "death_info": "Abt 1987",
@@ -12,34 +17,45 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F372@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10128,
       "rel_name": "John Henry Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10795,
       "rel_name": "William C Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10687,
       "rel_name": "Ida Coker"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10129,
       "rel_name": "Doris Ann Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 341,
       "rel_name": "Dorothy Carney"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10689,
+    "name": "Anna Mosley",
+    "children": []
+  }
 }

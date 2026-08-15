@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11081,
     "name": "Lydia Ethel Carmean",
+    "first_name": "Lydia",
+    "middle_name": "Ethel",
+    "maiden_name": "",
+    "married_last_name": "Carmean",
+    "evidence_level": 1,
     "source_page": null,
     "birth_info": "22 Feb 1895 Sussex County, Delaware, USA",
     "death_info": "Feb 1973",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11047,
       "rel_name": "Ida B Carmean"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11081,
+    "name": "Lydia Ethel Carmean",
+    "children": []
+  }
 }

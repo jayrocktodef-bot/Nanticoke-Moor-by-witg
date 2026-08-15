@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9029,
     "name": "Jacob J. Davis",
+    "first_name": "Jacob",
+    "middle_name": "J.",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
     "death_info": "5 Aug 1946",
@@ -12,10 +17,40 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8613,
       "rel_name": "Joseph Henry Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9029,
+    "name": "Jacob J. Davis",
+    "children": [
+      {
+        "id": 8613,
+        "name": "Joseph Henry Davis",
+        "children": [
+          {
+            "id": 8629,
+            "name": "Jost Henry Davis",
+            "children": [
+              {
+                "id": 8809,
+                "name": "Ludwig (Lewis) Davis",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8614,
+            "name": "Katherina Davis",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

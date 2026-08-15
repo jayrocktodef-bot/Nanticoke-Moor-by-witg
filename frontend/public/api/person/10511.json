@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10511,
     "name": "Weldon Hanzer",
+    "first_name": "Weldon",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Hanzer",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1914 Delaware",
     "death_info": "9 Oct 1993 Philadelphia, Philadelphia, Pennsylvania, USA",
@@ -12,28 +17,133 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10503,
       "rel_name": "William E Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9721,
       "rel_name": "Maria Elizabeth Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10503,
       "rel_name": "William E Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9721,
       "rel_name": "Maria Elizabeth Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10511,
+    "name": "Weldon Hanzer",
+    "children": [
+      {
+        "id": 10503,
+        "name": "William E Hanzer",
+        "children": []
+      },
+      {
+        "id": 9721,
+        "name": "Maria Elizabeth Morris",
+        "children": [
+          {
+            "id": 8683,
+            "name": "Josiah Joseph Morris",
+            "children": [
+              {
+                "id": 8617,
+                "name": "Negro Morris Thomas",
+                "children": [
+                  {
+                    "id": 8505,
+                    "name": "Morris Thomas",
+                    "children": [
+                      {
+                        "id": 8910,
+                        "name": "Leticia Morris",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9992,
+                    "name": "Sally Wright",
+                    "children": [
+                      {
+                        "id": 10083,
+                        "name": "Wright Thomas Sr.",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8910,
+                "name": "Leticia Morris",
+                "children": [
+                  {
+                    "id": 8616,
+                    "name": "Stephen Wright",
+                    "children": [
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8684,
+                    "name": "Priscilla Miller",
+                    "children": [
+                      {
+                        "id": 8618,
+                        "name": "Ebenezar Miller",
+                        "children": []
+                      },
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8718,
+            "name": "Hester A Jackson",
+            "children": [
+              {
+                "id": 18,
+                "name": "John Jackson",
+                "children": []
+              },
+              {
+                "id": 9555,
+                "name": "Eliza Parker Jackson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

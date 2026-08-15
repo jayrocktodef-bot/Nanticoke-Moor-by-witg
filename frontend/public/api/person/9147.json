@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9147,
     "name": "William A (Gusie) Davis",
+    "first_name": "William",
+    "middle_name": "A",
+    "maiden_name": "Gusie",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1900",
     "death_info": "1973 (aged 72&ndash;73)",
@@ -12,34 +17,167 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8676,
       "rel_name": "Charles \"Charlie\" Morris Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9140,
       "rel_name": "Minnie Mae Street"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F448@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10136,
       "rel_name": "Lillie Roma Wright"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10815,
       "rel_name": "Charles Morris \"Charlie\" Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9140,
       "rel_name": "Minnie Mae Street"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 537,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 9147,
+      "person_id_secondary": 4952,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: william|davis|1900",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 9147,
+    "name": "William A (Gusie) Davis",
+    "children": [
+      {
+        "id": 8676,
+        "name": "Charles \"Charlie\" Morris Davis",
+        "children": [
+          {
+            "id": 8610,
+            "name": "Davis Morris",
+            "children": [
+              {
+                "id": 4643,
+                "name": "Henry Davis",
+                "children": []
+              },
+              {
+                "id": 10618,
+                "name": "William H Davis",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8185,
+            "name": "Hester A. Morris Davis",
+            "children": [
+              {
+                "id": 8571,
+                "name": "Francis E. \"Frank\" Morris",
+                "children": [
+                  {
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": [
+                      {
+                        "id": 8505,
+                        "name": "Morris Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 9992,
+                        "name": "Sally Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9140,
+        "name": "Minnie Mae Street",
+        "children": [
+          {
+            "id": 9145,
+            "name": "Benton C Street",
+            "children": []
+          },
+          {
+            "id": 9144,
+            "name": "(Mary) Anne Harmon",
+            "children": [
+              {
+                "id": 10514,
+                "name": "Simon Harmon",
+                "children": [
+                  {
+                    "id": 1022,
+                    "name": "Bowen Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 7577,
+                    "name": "Lydia Clark",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10373,
     "name": "Nathaniel M. Davis",
+    "first_name": "Nathaniel",
+    "middle_name": "M.",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "23 Jan 1913",
     "death_info": "28 Aug 1972 (aged 59)",
@@ -12,22 +17,42 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4643,
       "rel_name": "Henry Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10618,
       "rel_name": "William H Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10618,
       "rel_name": "William H Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10373,
+    "name": "Nathaniel M. Davis",
+    "children": [
+      {
+        "id": 4643,
+        "name": "Henry Davis",
+        "children": []
+      },
+      {
+        "id": 10618,
+        "name": "William H Davis",
+        "children": []
+      }
+    ]
+  }
 }

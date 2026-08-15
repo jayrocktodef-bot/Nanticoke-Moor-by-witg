@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9167,
     "name": "Adda F Thompson",
+    "first_name": "Adda",
+    "middle_name": "F",
+    "maiden_name": "",
+    "married_last_name": "Thompson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Abt 1878 Delaware",
     "death_info": "1 April 1953 Millsboro, Sussex County, Delaware, United States of America",
@@ -12,22 +17,115 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8679,
       "rel_name": "John W Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9165,
       "rel_name": "Sarah A Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10050,
       "rel_name": "Vigire Mae Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9167,
+    "name": "Adda F Thompson",
+    "children": [
+      {
+        "id": 8679,
+        "name": "John W Thompson",
+        "children": [
+          {
+            "id": 8639,
+            "name": "Clemmon Thompson",
+            "children": [
+              {
+                "id": 8840,
+                "name": "Levin Game Thompson",
+                "children": []
+              },
+              {
+                "id": 8841,
+                "name": "Leah Thompson",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8638,
+            "name": "Melisa Molly Street",
+            "children": [
+              {
+                "id": 8680,
+                "name": "Jerry Street",
+                "children": [
+                  {
+                    "id": 9510,
+                    "name": "David Street",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9165,
+        "name": "Sarah A Thompson",
+        "children": [
+          {
+            "id": 10122,
+            "name": "John R (H) or Jonathan Harmon",
+            "children": [
+              {
+                "id": 9982,
+                "name": "Robert Emanuel Harmon",
+                "children": []
+              },
+              {
+                "id": 9983,
+                "name": "Rachel Anne Johnson",
+                "children": [
+                  {
+                    "id": 9984,
+                    "name": "Isaac Johnson",
+                    "children": []
+                  },
+                  {
+                    "id": 9985,
+                    "name": "Jemima WARD Johnson (MD)",
+                    "children": [
+                      {
+                        "id": 10401,
+                        "name": "Rachel Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10123,
+            "name": "Lavinia Lovinia Sammons",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

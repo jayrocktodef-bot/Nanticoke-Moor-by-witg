@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11065,
     "name": "Rena Turner",
+    "first_name": "Rena",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Turner",
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": "1874",
     "death_info": "1954 (aged 79&ndash;80)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11061,
       "rel_name": "Ambrose Turner"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11065,
+    "name": "Rena Turner",
+    "children": []
+  }
 }

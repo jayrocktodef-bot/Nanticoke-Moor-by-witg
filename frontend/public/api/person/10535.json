@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10535,
     "name": "Daniel Harmon",
+    "first_name": "Daniel",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1853 Delaware",
     "death_info": "28 Dec 1920 Sussex, Delaware, USA",
@@ -12,16 +17,63 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 1022,
       "rel_name": "Bowen Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 7577,
       "rel_name": "Lydia Clark"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10535,
+    "name": "Daniel Harmon",
+    "children": [
+      {
+        "id": 1022,
+        "name": "Bowen Harmon",
+        "children": [
+          {
+            "id": 9982,
+            "name": "Robert Emanuel Harmon",
+            "children": []
+          },
+          {
+            "id": 9983,
+            "name": "Rachel Anne Johnson",
+            "children": [
+              {
+                "id": 9984,
+                "name": "Isaac Johnson",
+                "children": []
+              },
+              {
+                "id": 9985,
+                "name": "Jemima WARD Johnson (MD)",
+                "children": [
+                  {
+                    "id": 10401,
+                    "name": "Rachel Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7577,
+        "name": "Lydia Clark",
+        "children": []
+      }
+    ]
+  }
 }

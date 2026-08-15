@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10071,
     "name": "Burton Dickerson",
+    "first_name": "Burton",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Dickerson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Aug 1817 Sussex Co., Delaware, USA",
     "death_info": "16 Dec 1902 Blades, Sussex, Delaware, United States",
@@ -12,10 +17,40 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9073,
       "rel_name": "Charles Dickerson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10071,
+    "name": "Burton Dickerson",
+    "children": [
+      {
+        "id": 9073,
+        "name": "Charles Dickerson",
+        "children": [
+          {
+            "id": 8606,
+            "name": "Richard Dickerson",
+            "children": [
+              {
+                "id": 9073,
+                "name": "Charles Dickerson",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 9071,
+            "name": "Minnie Dickerson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

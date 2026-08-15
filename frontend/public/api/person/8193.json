@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8193,
     "name": "John Wesley Clark Jr",
+    "first_name": "John",
+    "middle_name": "Wesley Clark",
+    "maiden_name": "",
+    "married_last_name": "Jr",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "13 May 1894 Milton, Delaware, USA",
     "death_info": "5 October 1964 Sussex County, Delaware, USA",
@@ -12,70 +17,93 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9622,
       "rel_name": "John Wesley Clark Sr"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F515@ marriage 1917 Delaware, United States",
+      "certainty": "confirmed",
       "rel_id": 8194,
       "rel_name": "Lulu Rae Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8192,
       "rel_name": "Ethel Gwendolyn Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8195,
       "rel_name": "Carlisie Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8209,
       "rel_name": "Corlezia \"Flower Keeper\" Cobb Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8196,
       "rel_name": "Wilfred Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8210,
       "rel_name": "Millie Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8207,
       "rel_name": "Arlie Benjamin Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8208,
       "rel_name": "Ray Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8211,
       "rel_name": "Joan Elaine Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10191,
       "rel_name": "John W Clark III"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8193,
+    "name": "John Wesley Clark Jr",
+    "children": [
+      {
+        "id": 9622,
+        "name": "John Wesley Clark Sr",
+        "children": []
+      }
+    ]
+  }
 }

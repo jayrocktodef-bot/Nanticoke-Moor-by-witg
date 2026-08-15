@@ -2,6 +2,11 @@
   "person": {
     "person_id": 522,
     "name": "Reed Thomas",
+    "first_name": "Reed",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 2,
     "source_page": "morganj4.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,6 +17,7 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Beatrice Morgan married Thomas Reed",
+      "certainty": "confirmed",
       "rel_id": 521,
       "rel_name": "Beatrice Morgan"
     }
@@ -772,5 +778,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 522,
+    "name": "Reed Thomas",
+    "children": []
+  }
 }

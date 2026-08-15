@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10627,
     "name": "Rebecca Mosley",
+    "first_name": "Rebecca",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1813",
     "death_info": "9 Dec 1894 (aged 80&ndash;81)",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10624,
       "rel_name": "Eliza Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10627,
+    "name": "Rebecca Mosley",
+    "children": [
+      {
+        "id": 10624,
+        "name": "Eliza Mosley",
+        "children": []
+      }
+    ]
+  }
 }

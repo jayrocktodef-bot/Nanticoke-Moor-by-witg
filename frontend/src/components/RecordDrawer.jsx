@@ -66,7 +66,7 @@ export default function RecordDrawer({ record, onClose }) {
                   <div
                     key={idx}
                     onClick={() => setLightboxMedia(media)}
-                    className="bg-slate-800 rounded-lg p-2 border border-slate-700/60 text-center cursor-pointer hover:border-amber-500/50 hover:shadow-lg transition-all group"
+                    className="bg-slate-800 rounded-lg p-2 border border-slate-700/60 text-center cursor-pointer hover:border-amber-500/50 hover:shadow-lg transition-all group active:scale-[0.95]"
                   >
                     <img 
                       src={media.local_path.startsWith('/') ? media.local_path : '/' + media.local_path} 

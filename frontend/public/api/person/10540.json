@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10540,
     "name": "Job Harmon",
+    "first_name": "Job",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1725 Sussex County, Delaware, USA",
     "death_info": "unknown Broadkill Hundred, Sussex County, Delaware, USA",
@@ -12,64 +17,152 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2098,
       "rel_name": "Edward Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10554,
       "rel_name": "Patience Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10374,
       "rel_name": "Jemima Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10544,
       "rel_name": "Sheppard Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10545,
       "rel_name": "Eunice Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10546,
       "rel_name": "Edward I Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "invalid_cycle_child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8862,
       "rel_name": "William Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 998,
       "rel_name": "Adonijah Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10547,
       "rel_name": "Shepherd Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10548,
       "rel_name": "Keisiah Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 4940,
+      "category": "Structural Integrity",
+      "severity": "critical",
+      "person_id": 8862,
+      "person_id_secondary": 10540,
+      "description": "Removed topological loop (back-edge) in descent graph.",
+      "evidence": "Edge creates a cycle where a person becomes their own ancestor.",
+      "created_at": "2026-08-15 01:27:02"
+    }
+  ],
+  "ancestry": {
+    "id": 10540,
+    "name": "Job Harmon",
+    "children": [
+      {
+        "id": 2098,
+        "name": "Edward Harmon",
+        "children": [
+          {
+            "id": 8862,
+            "name": "William Harmon",
+            "children": [
+              {
+                "id": 9407,
+                "name": "David Roland Harmon Sr",
+                "children": []
+              },
+              {
+                "id": 8927,
+                "name": "Eliza Jane Harmon",
+                "children": [
+                  {
+                    "id": 5763,
+                    "name": "Robert Marshall Hanzer",
+                    "children": [
+                      {
+                        "id": 9096,
+                        "name": "John C Hanzer",
+                        "children": []
+                      },
+                      {
+                        "id": 9940,
+                        "name": "Sophia J. Hanzer",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10290,
+                    "name": "Harriet Ann Harmon",
+                    "children": [
+                      {
+                        "id": 10291,
+                        "name": "Charles S Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10292,
+                        "name": "Ann Mariah Harmon",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10554,
+        "name": "Patience Harmon",
+        "children": []
+      }
+    ]
+  }
 }

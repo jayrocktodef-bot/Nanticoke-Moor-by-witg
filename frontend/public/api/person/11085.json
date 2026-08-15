@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11085,
     "name": "Mary Jane Carmean",
+    "first_name": "Mary",
+    "middle_name": "Jane",
+    "maiden_name": "",
+    "married_last_name": "Carmean",
+    "evidence_level": 1,
     "source_page": null,
     "birth_info": "1 Mar 1906 Sussex County, Delaware, USA",
     "death_info": "8 March 1997",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11047,
       "rel_name": "Ida B Carmean"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11085,
+    "name": "Mary Jane Carmean",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10482,
     "name": "Lucille Thomas",
+    "first_name": "Lucille",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "15 March 1925 Elizabeth, Union County, New Jersey, United States of America",
     "death_info": "14 January 2013 Newark, New Castle County, Delaware, United States of America",
@@ -12,40 +17,63 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10806,
       "rel_name": "Lindsey Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10807,
       "rel_name": "Clara Thomas"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F138@ marriage 3 Jun 1951 Sussex, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 10805,
       "rel_name": "Lester Charles Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10808,
       "rel_name": "Rosalind J Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10809,
       "rel_name": "Tyrone Evans Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10810,
       "rel_name": "Alphonso G Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10482,
+    "name": "Lucille Thomas",
+    "children": [
+      {
+        "id": 10806,
+        "name": "Lindsey Thomas",
+        "children": []
+      },
+      {
+        "id": 10807,
+        "name": "Clara Thomas",
+        "children": []
+      }
+    ]
+  }
 }

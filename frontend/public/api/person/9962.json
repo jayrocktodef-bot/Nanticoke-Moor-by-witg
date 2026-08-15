@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9962,
     "name": "Bessie Wright",
+    "first_name": "Bessie",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Wright",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "11 May 1925 Millsboro, Sussex County, Delaware, United States of America",
     "death_info": "28 January 1999 Millsboro, Sussex County, Delaware, United States of America",
@@ -12,22 +17,137 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F41@ marriage 25 Aug 1953 Kent, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 10705,
       "rel_name": "S. Wright Wilson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8921,
       "rel_name": "Eliza Jane Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8911,
       "rel_name": "David Wesley Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9962,
+    "name": "Bessie Wright",
+    "children": [
+      {
+        "id": 8921,
+        "name": "Eliza Jane Morris",
+        "children": [
+          {
+            "id": 9958,
+            "name": "Emma Jane Johnson",
+            "children": [
+              {
+                "id": 9936,
+                "name": "Sarah Adeline Hanzer",
+                "children": [
+                  {
+                    "id": 9096,
+                    "name": "John C Hanzer",
+                    "children": [
+                      {
+                        "id": 9969,
+                        "name": "Jacob Hanzer Jr",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9940,
+                    "name": "Sophia J. Hanzer",
+                    "children": [
+                      {
+                        "id": 10122,
+                        "name": "John R (H) or Jonathan Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10123,
+                        "name": "Lavinia Lovinia Sammons",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10539,
+            "name": "Samuel Roland Johnson",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 8911,
+        "name": "David Wesley Morris",
+        "children": [
+          {
+            "id": 8712,
+            "name": "George Harvey Morris",
+            "children": [
+              {
+                "id": 8683,
+                "name": "Josiah Joseph Morris",
+                "children": [
+                  {
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": [
+                      {
+                        "id": 8505,
+                        "name": "Morris Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 9992,
+                        "name": "Sally Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10538,
+            "name": "Agnes V Wright",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

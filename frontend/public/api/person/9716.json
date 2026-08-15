@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9716,
     "name": "Margaret Johnson",
+    "first_name": "Margaret",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "9 January 1922 Lewes, Sussex County, Delaware, United States of America",
     "death_info": "17 March 1946 Lewes, Sussex County, Delaware, United States of America",
@@ -12,16 +17,69 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9966,
       "rel_name": "Shirley Bernice Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9715,
       "rel_name": "Stellar Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9716,
+    "name": "Margaret Johnson",
+    "children": [
+      {
+        "id": 9715,
+        "name": "Stellar Harmon",
+        "children": [
+          {
+            "id": 9372,
+            "name": "Eliza J. Harmon",
+            "children": [
+              {
+                "id": 10514,
+                "name": "Simon Harmon",
+                "children": [
+                  {
+                    "id": 1022,
+                    "name": "Bowen Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 7577,
+                    "name": "Lydia Clark",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 10532,
+                "name": "Lydia J. Harmon",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 976,
     "name": "William Ridgeway",
+    "first_name": "William",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Ridgeway",
+    "evidence_level": 2,
     "source_page": "moors_moors.aspx",
     "birth_info": "1879",
     "death_info": "18 Mar 1954 (aged 74&ndash;75)",
@@ -12,10 +17,28 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 247,
       "rel_name": "William Dean"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 511,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 7156,
+      "person_id_secondary": 976,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: william|ridgeway|1879",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 976,
+    "name": "William Ridgeway",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8185,
     "name": "Hester A. Morris Davis",
+    "first_name": "Hester",
+    "middle_name": "A. Morris",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "16 Aug 1853",
     "death_info": "4 Oct 1916 (aged 63)",
@@ -12,96 +17,112 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F224@ marriage 3 April 1892 Delaware, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 8610,
       "rel_name": "Davis Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8890,
       "rel_name": "John H Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8675,
       "rel_name": "Bertha M Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8160,
       "rel_name": "Stephen Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8186,
       "rel_name": "Elsie Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8676,
       "rel_name": "Charles \"Charlie\" Morris Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8609,
       "rel_name": "William W. Davis Sr."
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8157,
       "rel_name": "George Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8158,
       "rel_name": "Hersel R. Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8159,
       "rel_name": "Harry Edward Davis"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F225@ marriage 29 Dec 1920 Millsboro, Sussex, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 9067,
       "rel_name": "John A Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8571,
       "rel_name": "Francis E. \"Frank\" Morris"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": null,
+      "certainty": "confirmed",
       "rel_id": 11246,
       "rel_name": "Francis E. Morris"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": null,
+      "certainty": "confirmed",
       "rel_id": 11247,
       "rel_name": "Hester J. Hettie Carmean Morris"
     },
     {
       "relationship_type": "spouse_of",
       "evidence_text": null,
+      "certainty": "confirmed",
       "rel_id": 1681,
       "rel_name": "John Asbury Thompson"
     },
     {
       "relationship_type": "spouse_of",
       "evidence_text": null,
+      "certainty": "confirmed",
       "rel_id": 1681,
       "rel_name": "John Asbury Thompson"
     }
@@ -121,5 +142,118 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 526,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 8185,
+      "person_id_secondary": 2645,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: hester|davis|1853",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 8185,
+    "name": "Hester A. Morris Davis",
+    "children": [
+      {
+        "id": 8571,
+        "name": "Francis E. \"Frank\" Morris",
+        "children": [
+          {
+            "id": 8617,
+            "name": "Negro Morris Thomas",
+            "children": [
+              {
+                "id": 8505,
+                "name": "Morris Thomas",
+                "children": [
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9992,
+                "name": "Sally Wright",
+                "children": [
+                  {
+                    "id": 10083,
+                    "name": "Wright Thomas Sr.",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8910,
+            "name": "Leticia Morris",
+            "children": [
+              {
+                "id": 8616,
+                "name": "Stephen Wright",
+                "children": [
+                  {
+                    "id": 8687,
+                    "name": "Benjamin Wright",
+                    "children": [
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8684,
+                "name": "Priscilla Miller",
+                "children": [
+                  {
+                    "id": 8618,
+                    "name": "Ebenezar Miller",
+                    "children": []
+                  },
+                  {
+                    "id": 9188,
+                    "name": "Ebenezer Miller",
+                    "children": [
+                      {
+                        "id": 9190,
+                        "name": "Ebenezer Miller Sr",
+                        "children": []
+                      },
+                      {
+                        "id": 9191,
+                        "name": "Sarah Collier (Collyer) Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10791,
     "name": "William H. Johnson",
+    "first_name": "William",
+    "middle_name": "H.",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
     "death_info": "30 Jul 1911",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10420,
       "rel_name": "Ann W. Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10791,
+    "name": "William H. Johnson",
+    "children": [
+      {
+        "id": 10420,
+        "name": "Ann W. Johnson",
+        "children": []
+      }
+    ]
+  }
 }

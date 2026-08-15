@@ -2,6 +2,11 @@
   "person": {
     "person_id": 458,
     "name": "Catherine Carney",
+    "first_name": "Catherine",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Carney",
+    "evidence_level": 2,
     "source_page": "manship.htm",
     "birth_info": "unknown",
     "death_info": "13 Oct 1879",
@@ -12,6 +17,7 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 969,
       "rel_name": "Ernest Carney"
     }
@@ -70,5 +76,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 458,
+    "name": "Catherine Carney",
+    "children": []
+  }
 }

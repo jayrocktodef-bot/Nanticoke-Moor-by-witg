@@ -2,6 +2,11 @@
   "person": {
     "person_id": 58,
     "name": "Napoleon B. Morgan",
+    "first_name": "Napoleon",
+    "middle_name": "B.",
+    "maiden_name": "",
+    "married_last_name": "Morgan",
+    "evidence_level": 2,
     "source_page": "carty-h2.htm",
     "birth_info": "17 Sep 1945",
     "death_info": "25 Sep 2019 (aged 74)",
@@ -10,5 +15,32 @@
   },
   "relationships": [],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 427,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 485,
+      "person_id_secondary": 58,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: napoleon|morgan|1945",
+      "created_at": "2026-08-14 03:42:34"
+    },
+    {
+      "id": 451,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 3679,
+      "person_id_secondary": 58,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: napoleon|morgan|1945",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 58,
+    "name": "Napoleon B. Morgan",
+    "children": []
+  }
 }

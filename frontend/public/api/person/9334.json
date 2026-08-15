@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9334,
     "name": "Lydia E Norwood",
+    "first_name": "Lydia",
+    "middle_name": "E",
+    "maiden_name": "",
+    "married_last_name": "Norwood",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1768 Sussex",
     "death_info": "26 Dec 1856 Delaware, USA",
@@ -12,34 +17,90 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F47@ marriage  Sussex Co, DE",
+      "certainty": "confirmed",
       "rel_id": 9336,
       "rel_name": "James Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9336,
       "rel_name": "James Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9335,
       "rel_name": "Bowen Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10542,
       "rel_name": "Nathaniel \"Nathan\" Norwood"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10374,
       "rel_name": "Jemima Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9334,
+    "name": "Lydia E Norwood",
+    "children": [
+      {
+        "id": 10542,
+        "name": "Nathaniel \"Nathan\" Norwood",
+        "children": []
+      },
+      {
+        "id": 10374,
+        "name": "Jemima Harmon",
+        "children": [
+          {
+            "id": 10540,
+            "name": "Job Harmon",
+            "children": [
+              {
+                "id": 2098,
+                "name": "Edward Harmon",
+                "children": [
+                  {
+                    "id": 8862,
+                    "name": "William Harmon",
+                    "children": [
+                      {
+                        "id": 9407,
+                        "name": "David Roland Harmon Sr",
+                        "children": []
+                      },
+                      {
+                        "id": 8927,
+                        "name": "Eliza Jane Harmon",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10554,
+                "name": "Patience Harmon",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

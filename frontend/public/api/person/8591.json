@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8591,
     "name": "Wm H Davis",
+    "first_name": "Wm",
+    "middle_name": "H",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1823",
     "death_info": "25 Mar 1905 (aged 81&ndash;82)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F89@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8893,
       "rel_name": "Mary Catherine Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8591,
+    "name": "Wm H Davis",
+    "children": []
+  }
 }

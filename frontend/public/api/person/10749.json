@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10749,
     "name": "Harvey Harmon Jr",
+    "first_name": "Harvey",
+    "middle_name": "Harmon",
+    "maiden_name": "",
+    "married_last_name": "Jr",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -12,16 +17,46 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10746,
       "rel_name": "Harvey H Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10521,
       "rel_name": "Sallie Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10749,
+    "name": "Harvey Harmon Jr",
+    "children": [
+      {
+        "id": 10746,
+        "name": "Harvey H Harmon",
+        "children": [
+          {
+            "id": 10751,
+            "name": "WIlliam Coard Harmon",
+            "children": []
+          },
+          {
+            "id": 9980,
+            "name": "Sarah Ann Handsor",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 10521,
+        "name": "Sallie Harmon",
+        "children": []
+      }
+    ]
+  }
 }

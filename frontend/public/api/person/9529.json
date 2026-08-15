@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9529,
     "name": "Howard Cornelius Wright",
+    "first_name": "Howard",
+    "middle_name": "Cornelius",
+    "maiden_name": "",
+    "married_last_name": "Wright",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "28 February 1943 United States of America",
     "death_info": "22 September 1981 United States of America",
@@ -12,10 +17,84 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9516,
       "rel_name": "Iris Mae Wright"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9529,
+    "name": "Howard Cornelius Wright",
+    "children": [
+      {
+        "id": 9516,
+        "name": "Iris Mae Wright",
+        "children": [
+          {
+            "id": 8730,
+            "name": "Frederick Morris",
+            "children": [
+              {
+                "id": 8683,
+                "name": "Josiah Joseph Morris",
+                "children": [
+                  {
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": [
+                      {
+                        "id": 8505,
+                        "name": "Morris Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 9992,
+                        "name": "Sally Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8718,
+                "name": "Hester A Jackson",
+                "children": [
+                  {
+                    "id": 18,
+                    "name": "John Jackson",
+                    "children": []
+                  },
+                  {
+                    "id": 9555,
+                    "name": "Eliza Parker Jackson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

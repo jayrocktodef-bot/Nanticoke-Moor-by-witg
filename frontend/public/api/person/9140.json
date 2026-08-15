@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9140,
     "name": "Minnie Mae Street",
+    "first_name": "Minnie",
+    "middle_name": "Mae",
+    "maiden_name": "",
+    "married_last_name": "Street",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1903 United States of America",
     "death_info": "1952 Sussex County, De",
@@ -12,118 +17,193 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F300@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8676,
       "rel_name": "Charles \"Charlie\" Morris Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8575,
       "rel_name": "Charles Davis Jr."
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9139,
       "rel_name": "Layton S Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9141,
       "rel_name": "Clarence Drexel Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8576,
       "rel_name": "Walter A Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9146,
       "rel_name": "Reginald Leon Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9147,
       "rel_name": "William A (Gusie) Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10087,
       "rel_name": "Albert Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9145,
       "rel_name": "Benton C Street"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9144,
       "rel_name": "(Mary) Anne Harmon"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F468@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10815,
       "rel_name": "Charles Morris \"Charlie\" Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10814,
       "rel_name": "Layton Sylvester Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10805,
       "rel_name": "Lester Charles Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10813,
       "rel_name": "Clarence Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9146,
       "rel_name": "Reginald Leon Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9147,
       "rel_name": "William A (Gusie) Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10087,
       "rel_name": "Albert Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10811,
       "rel_name": "Ann Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10812,
       "rel_name": "Cherita Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9140,
+    "name": "Minnie Mae Street",
+    "children": [
+      {
+        "id": 9145,
+        "name": "Benton C Street",
+        "children": []
+      },
+      {
+        "id": 9144,
+        "name": "(Mary) Anne Harmon",
+        "children": [
+          {
+            "id": 10514,
+            "name": "Simon Harmon",
+            "children": [
+              {
+                "id": 1022,
+                "name": "Bowen Harmon",
+                "children": [
+                  {
+                    "id": 9982,
+                    "name": "Robert Emanuel Harmon",
+                    "children": []
+                  },
+                  {
+                    "id": 9983,
+                    "name": "Rachel Anne Johnson",
+                    "children": [
+                      {
+                        "id": 9984,
+                        "name": "Isaac Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 9985,
+                        "name": "Jemima WARD Johnson (MD)",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 7577,
+                "name": "Lydia Clark",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

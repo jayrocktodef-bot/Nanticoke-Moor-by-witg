@@ -112,22 +112,25 @@ def export_all():
         json.dump(photos, f, indent=2)
 
     print("Step 5: Exporting /api/person/{id}.json for all persons...")
-    c.execute("SELECT person_id, name, source_page, birth_info, death_info, notes, dataset_source FROM persons")
+    c.execute("SELECT person_id, name, first_name, middle_name, maiden_name, married_last_name, evidence_level, source_page, birth_info, death_info, notes, dataset_source FROM persons")
     all_persons = [dict(r) for r in c.fetchall()]
     
     # Pre-fetch all relationships
     c.execute("""
-        SELECT r.person_a_id, r.person_b_id, r.relationship_type, r.evidence_text, p1.name as p1_name, p2.name as p2_name
+        SELECT r.person_a_id, r.person_b_id, r.relationship_type, r.evidence_text, r.certainty, p1.name as p1_name, p2.name as p2_name
         FROM relationships r
         JOIN persons p1 ON r.person_a_id = p1.person_id
         JOIN persons p2 ON r.person_b_id = p2.person_id
     """)
     rel_rows = c.fetchall()
     rels_map = {}
+    parents_map = {}
     for r in rel_rows:
-        pa, pb, rtype, ev, n1, n2 = r['person_a_id'], r['person_b_id'], r['relationship_type'], r['evidence_text'], r['p1_name'], r['p2_name']
-        rels_map.setdefault(pa, []).append({"relationship_type": rtype, "evidence_text": ev, "rel_id": pb, "rel_name": n2})
-        rels_map.setdefault(pb, []).append({"relationship_type": rtype, "evidence_text": ev, "rel_id": pa, "rel_name": n1})
+        pa, pb, rtype, ev, cert, n1, n2 = r['person_a_id'], r['person_b_id'], r['relationship_type'], r['evidence_text'], r['certainty'], r['p1_name'], r['p2_name']
+        rels_map.setdefault(pa, []).append({"relationship_type": rtype, "evidence_text": ev, "certainty": cert, "rel_id": pb, "rel_name": n2})
+        rels_map.setdefault(pb, []).append({"relationship_type": rtype, "evidence_text": ev, "certainty": cert, "rel_id": pa, "rel_name": n1})
+        if rtype == 'child_of':
+            parents_map.setdefault(pa, []).append({"id": pb, "name": n2})
 
     # Pre-fetch all photos
     c.execute("""
@@ -149,13 +152,39 @@ def export_all():
     for r in c.fetchall():
         obits_map.setdefault(r['person_id'], []).append(dict(r))
 
+    # Pre-fetch all audit flags
+    c.execute("SELECT flag_id as id, category, severity, person_id, person_id_secondary, description, evidence, created_at FROM audit_flags")
+    audit_map = {}
+    for r in c.fetchall():
+        audit_map.setdefault(r['person_id'], []).append(dict(r))
+        if r['person_id_secondary']:
+            audit_map.setdefault(r['person_id_secondary'], []).append(dict(r))
+
+    def build_ancestry_tree(person_id, person_name, current_depth, max_depth=5, visited=None):
+        if visited is None:
+            visited = set()
+        if current_depth >= max_depth or person_id in visited:
+            return {"id": person_id, "name": person_name, "children": []}
+        
+        visited.add(person_id)
+        node = {"id": person_id, "name": person_name, "children": []}
+        
+        parents = parents_map.get(person_id, [])
+        # To avoid massive branching due to data errors (e.g., 20+ parents), we cap it to first 2 parents
+        for p in parents[:2]:
+            node["children"].append(build_ancestry_tree(p["id"], p["name"], current_depth + 1, max_depth, visited.copy()))
+            
+        return node
+
     for p in all_persons:
         pid = p['person_id']
         p_data = {
             "person": p,
             "relationships": rels_map.get(pid, []),
             "photos": photos_map.get(pid, []),
-            "obituaries": obits_map.get(pid, [])
+            "obituaries": obits_map.get(pid, []),
+            "audit_flags": audit_map.get(pid, []),
+            "ancestry": build_ancestry_tree(pid, p['name'], 0, max_depth=5)
         }
         with open(os.path.join(API_DIR, 'person', f'{pid}.json'), 'w') as f:
             json.dump(p_data, f, indent=2)
@@ -184,13 +213,13 @@ def export_all():
     node_dict = {row["person_id"]: dict(row) for row in graph_nodes_raw}
     if node_dict:
         placeholders = ",".join("?" * len(node_dict))
-        c.execute(f"SELECT id, person_a_id, person_b_id, relationship_type, evidence_text FROM relationships WHERE person_a_id IN ({placeholders}) AND person_b_id IN ({placeholders}) LIMIT 3000", list(node_dict.keys()) + list(node_dict.keys()))
+        c.execute(f"SELECT id, person_a_id, person_b_id, relationship_type, evidence_text, certainty FROM relationships WHERE person_a_id IN ({placeholders}) AND person_b_id IN ({placeholders}) LIMIT 3000", list(node_dict.keys()) + list(node_dict.keys()))
         edges_rows = c.fetchall()
     else:
         edges_rows = []
 
     nodes = [{"id": r["person_id"], "label": r["name"], "group": get_clean_surname(r["name"]), "source_page": r["source_page"]} for r in node_dict.values()]
-    edges = [{"from": r["person_a_id"], "to": r["person_b_id"], "label": r["relationship_type"], "type": r["relationship_type"], "evidence": r["evidence_text"]} for r in edges_rows]
+    edges = [{"from": r["person_a_id"], "to": r["person_b_id"], "label": r["relationship_type"], "type": r["relationship_type"], "evidence": r["evidence_text"], "certainty": r["certainty"]} for r in edges_rows]
     
     with open(os.path.join(API_DIR, 'graph.json'), 'w') as f:
         json.dump({"nodes": nodes, "edges": edges}, f, indent=2)

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11070,
     "name": "Mary J Cordrey",
+    "first_name": "Mary",
+    "middle_name": "J",
+    "maiden_name": "",
+    "married_last_name": "Cordrey",
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": "1918",
     "death_info": "2001 (aged 82&ndash;83)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11050,
       "rel_name": "Jacob B. Cordrey"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11070,
+    "name": "Mary J Cordrey",
+    "children": []
+  }
 }

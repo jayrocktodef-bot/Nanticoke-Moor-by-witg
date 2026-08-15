@@ -2,6 +2,11 @@
   "person": {
     "person_id": 318,
     "name": "Leroy Durham",
+    "first_name": "Leroy",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "durhm-e1.htm",
     "birth_info": "11 Jun 1947",
     "death_info": "24 Aug 2001 (aged 54)",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Leroy Durham married Thelma Carney",
+      "certainty": "confirmed",
       "rel_id": 319,
       "rel_name": "Thelma Carney"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1042,
       "rel_name": "Albert Durham"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 318,
+    "name": "Leroy Durham",
+    "children": []
+  }
 }

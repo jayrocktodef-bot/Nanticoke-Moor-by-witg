@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11054,
     "name": "Franklin Webster Cordrey",
+    "first_name": "Franklin",
+    "middle_name": "Webster",
+    "maiden_name": "",
+    "married_last_name": "Cordrey",
+    "evidence_level": 1,
     "source_page": null,
     "birth_info": "Jul 1893 Laurel, Sussex, Delaware, USA",
     "death_info": "Aug 1971",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11050,
       "rel_name": "Jacob B. Cordrey"
     },
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11045,
       "rel_name": "Elizabeth Ella Carmean"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11054,
+    "name": "Franklin Webster Cordrey",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9991,
     "name": "Madge Helena Morris",
+    "first_name": "Madge",
+    "middle_name": "Helena",
+    "maiden_name": "",
+    "married_last_name": "Morris",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "22 January 1936 Dagsboro, Sussex, Delaware, USA",
     "death_info": "4 November 2017 Mount Holly, Burlington, New Jersey, USA",
@@ -12,10 +17,144 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8175,
       "rel_name": "Edgar Coil Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9991,
+    "name": "Madge Helena Morris",
+    "children": [
+      {
+        "id": 8175,
+        "name": "Edgar Coil Morris",
+        "children": [
+          {
+            "id": 8274,
+            "name": "Edgar Coil Morris Sr",
+            "children": [
+              {
+                "id": 4624,
+                "name": "Edward Morris",
+                "children": [
+                  {
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": [
+                      {
+                        "id": 8505,
+                        "name": "Morris Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 9992,
+                        "name": "Sally Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9979,
+                "name": "Frances F. Morris",
+                "children": [
+                  {
+                    "id": 9981,
+                    "name": "William Coard Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9980,
+                    "name": "Sarah Ann Handsor",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8339,
+            "name": "Sarah Jane Morris",
+            "children": [
+              {
+                "id": 792,
+                "name": "Noah Harmon",
+                "children": [
+                  {
+                    "id": 9407,
+                    "name": "David Roland Harmon Sr",
+                    "children": []
+                  },
+                  {
+                    "id": 8927,
+                    "name": "Eliza Jane Harmon",
+                    "children": [
+                      {
+                        "id": 5763,
+                        "name": "Robert Marshall Hanzer",
+                        "children": []
+                      },
+                      {
+                        "id": 10290,
+                        "name": "Harriet Ann Harmon",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9831,
+                "name": "Nicy E. Johnson",
+                "children": [
+                  {
+                    "id": 9834,
+                    "name": "Sylvester H. Johnson",
+                    "children": []
+                  },
+                  {
+                    "id": 9835,
+                    "name": "Mary A Street",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

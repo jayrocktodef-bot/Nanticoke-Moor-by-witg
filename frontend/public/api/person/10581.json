@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10581,
     "name": "Oscar Harmon",
+    "first_name": "Oscar",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1896 Delaware",
     "death_info": "",
@@ -12,16 +17,124 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9407,
       "rel_name": "David Roland Harmon Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8927,
       "rel_name": "Eliza Jane Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10581,
+    "name": "Oscar Harmon",
+    "children": [
+      {
+        "id": 9407,
+        "name": "David Roland Harmon Sr",
+        "children": []
+      },
+      {
+        "id": 8927,
+        "name": "Eliza Jane Harmon",
+        "children": [
+          {
+            "id": 5763,
+            "name": "Robert Marshall Hanzer",
+            "children": [
+              {
+                "id": 9096,
+                "name": "John C Hanzer",
+                "children": [
+                  {
+                    "id": 9969,
+                    "name": "Jacob Hanzer Jr",
+                    "children": [
+                      {
+                        "id": 9974,
+                        "name": "Jacob Hanzer Sr",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9940,
+                "name": "Sophia J. Hanzer",
+                "children": [
+                  {
+                    "id": 10122,
+                    "name": "John R (H) or Jonathan Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10123,
+                    "name": "Lavinia Lovinia Sammons",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10290,
+            "name": "Harriet Ann Harmon",
+            "children": [
+              {
+                "id": 10291,
+                "name": "Charles S Harmon",
+                "children": [
+                  {
+                    "id": 10260,
+                    "name": "Adjoniah R. Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10293,
+                    "name": "Harriet Louisa Hansor - Harmon",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 10292,
+                "name": "Ann Mariah Harmon",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

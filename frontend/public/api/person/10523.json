@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10523,
     "name": "Emmaline (Emily) Harmon",
+    "first_name": "Emmaline",
+    "middle_name": "",
+    "maiden_name": "Emily",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Jan 1871 Delaware, USA",
     "death_info": "23 Nov 1918 Lewes, Sussex, Delaware, USA",
@@ -12,16 +17,30 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 1024,
       "rel_name": "Eli Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10531,
       "rel_name": "Ollie Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10523,
+    "name": "Emmaline (Emily) Harmon",
+    "children": [
+      {
+        "id": 1024,
+        "name": "Eli Harmon",
+        "children": []
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10690,
     "name": "James Durham",
+    "first_name": "James",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "17 Sep 1919",
     "death_info": "24 Jun 1920 (aged 9 months)",
@@ -12,16 +17,80 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10685,
       "rel_name": "James Enoch Durham"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10129,
       "rel_name": "Doris Ann Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10690,
+    "name": "James Durham",
+    "children": [
+      {
+        "id": 10685,
+        "name": "James Enoch Durham",
+        "children": []
+      },
+      {
+        "id": 10129,
+        "name": "Doris Ann Mosley",
+        "children": [
+          {
+            "id": 10128,
+            "name": "John Henry Mosley",
+            "children": [
+              {
+                "id": 4768,
+                "name": "Elizabeth Mosley",
+                "children": [
+                  {
+                    "id": 9096,
+                    "name": "John C Hanzer",
+                    "children": [
+                      {
+                        "id": 9969,
+                        "name": "Jacob Hanzer Jr",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9940,
+                    "name": "Sophia J. Hanzer",
+                    "children": [
+                      {
+                        "id": 10122,
+                        "name": "John R (H) or Jonathan Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10123,
+                        "name": "Lavinia Lovinia Sammons",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10689,
+            "name": "Anna Mosley",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8990,
     "name": "Isaiah Johnson",
+    "first_name": "Isaiah",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1917",
     "death_info": "1987 (aged 69&ndash;70)",
@@ -12,28 +17,83 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2366,
       "rel_name": "William Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8766,
       "rel_name": "Sarah A Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9419,
       "rel_name": "Elizabeth (Morris) Mosley Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9490,
       "rel_name": "Reburn Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8990,
+    "name": "Isaiah Johnson",
+    "children": [
+      {
+        "id": 2366,
+        "name": "William Johnson",
+        "children": [
+          {
+            "id": 10407,
+            "name": "John Johnson",
+            "children": [
+              {
+                "id": 10420,
+                "name": "Ann W. Johnson",
+                "children": []
+              },
+              {
+                "id": 10408,
+                "name": "Richard Johnson",
+                "children": [
+                  {
+                    "id": 10409,
+                    "name": "Johnson Thomas",
+                    "children": [
+                      {
+                        "id": 2366,
+                        "name": "William Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10407,
+                    "name": "John Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8766,
+        "name": "Sarah A Johnson",
+        "children": []
+      }
+    ]
+  }
 }

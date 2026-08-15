@@ -2,6 +2,11 @@
   "person": {
     "person_id": 777,
     "name": "Bertha Wright",
+    "first_name": "Bertha",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Wright",
+    "evidence_level": 2,
     "source_page": "wrightw.htm",
     "birth_info": "1903",
     "death_info": null,
@@ -12,6 +17,7 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Bertha Wright married Charles Mosley",
+      "certainty": "confirmed",
       "rel_id": 778,
       "rel_name": "Charles Mosley"
     }
@@ -70,5 +76,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 521,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 7990,
+      "person_id_secondary": 777,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: bertha|wright|1903",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 777,
+    "name": "Bertha Wright",
+    "children": []
+  }
 }

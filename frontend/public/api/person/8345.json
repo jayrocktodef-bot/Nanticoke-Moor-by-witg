@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8345,
     "name": "Alberta Morris",
+    "first_name": "Alberta",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Morris",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "5 Mar 1937 Delaware, USA",
     "death_info": "1971 Residence",
@@ -12,16 +17,207 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8274,
       "rel_name": "Edgar Coil Morris Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8339,
       "rel_name": "Sarah Jane Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8345,
+    "name": "Alberta Morris",
+    "children": [
+      {
+        "id": 8274,
+        "name": "Edgar Coil Morris Sr",
+        "children": [
+          {
+            "id": 4624,
+            "name": "Edward Morris",
+            "children": [
+              {
+                "id": 8617,
+                "name": "Negro Morris Thomas",
+                "children": [
+                  {
+                    "id": 8505,
+                    "name": "Morris Thomas",
+                    "children": [
+                      {
+                        "id": 8910,
+                        "name": "Leticia Morris",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9992,
+                    "name": "Sally Wright",
+                    "children": [
+                      {
+                        "id": 10083,
+                        "name": "Wright Thomas Sr.",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8910,
+                "name": "Leticia Morris",
+                "children": [
+                  {
+                    "id": 8616,
+                    "name": "Stephen Wright",
+                    "children": [
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8684,
+                    "name": "Priscilla Miller",
+                    "children": [
+                      {
+                        "id": 8618,
+                        "name": "Ebenezar Miller",
+                        "children": []
+                      },
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9979,
+            "name": "Frances F. Morris",
+            "children": [
+              {
+                "id": 9981,
+                "name": "William Coard Harmon",
+                "children": [
+                  {
+                    "id": 9982,
+                    "name": "Robert Emanuel Harmon",
+                    "children": []
+                  },
+                  {
+                    "id": 9983,
+                    "name": "Rachel Anne Johnson",
+                    "children": [
+                      {
+                        "id": 9984,
+                        "name": "Isaac Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 9985,
+                        "name": "Jemima WARD Johnson (MD)",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9980,
+                "name": "Sarah Ann Handsor",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8339,
+        "name": "Sarah Jane Morris",
+        "children": [
+          {
+            "id": 792,
+            "name": "Noah Harmon",
+            "children": [
+              {
+                "id": 9407,
+                "name": "David Roland Harmon Sr",
+                "children": []
+              },
+              {
+                "id": 8927,
+                "name": "Eliza Jane Harmon",
+                "children": [
+                  {
+                    "id": 5763,
+                    "name": "Robert Marshall Hanzer",
+                    "children": [
+                      {
+                        "id": 9096,
+                        "name": "John C Hanzer",
+                        "children": []
+                      },
+                      {
+                        "id": 9940,
+                        "name": "Sophia J. Hanzer",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10290,
+                    "name": "Harriet Ann Harmon",
+                    "children": [
+                      {
+                        "id": 10291,
+                        "name": "Charles S Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10292,
+                        "name": "Ann Mariah Harmon",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9831,
+            "name": "Nicy E. Johnson",
+            "children": [
+              {
+                "id": 9834,
+                "name": "Sylvester H. Johnson",
+                "children": []
+              },
+              {
+                "id": 9835,
+                "name": "Mary A Street",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

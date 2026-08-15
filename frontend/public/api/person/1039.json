@@ -2,6 +2,11 @@
   "person": {
     "person_id": 1039,
     "name": "John Wesley Harmon",
+    "first_name": "John",
+    "middle_name": "Wesley",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "moors_moors.aspx",
     "birth_info": "unknown",
     "death_info": "20 Jun 1939",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (78.8% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 8,
       "rel_name": "John Wesley"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.5% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 12,
       "rel_name": "John Wesley Cott"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 1039,
+    "name": "John Wesley Harmon",
+    "children": []
+  }
 }

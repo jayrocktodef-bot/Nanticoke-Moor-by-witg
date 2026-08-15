@@ -2,6 +2,11 @@
   "person": {
     "person_id": 6480,
     "name": "Mary Jackson",
+    "first_name": "Mary",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 2,
     "source_page": "MorrisEdgar&JacksonMary.htm",
     "birth_info": "18 Oct 1907",
     "death_info": "28 Jun 1977 (aged 69)",
@@ -12,30 +17,35 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9519,
       "rel_name": "Harry Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 490,
       "rel_name": "Elizabeth Jackson"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F440@ marriage",
+      "certainty": "confirmed",
       "rel_id": 9564,
       "rel_name": "Robert Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9563,
       "rel_name": "Temperance Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9520,
       "rel_name": "Charles Jackson"
     }
@@ -55,5 +65,51 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 6480,
+    "name": "Mary Jackson",
+    "children": [
+      {
+        "id": 9519,
+        "name": "Harry Jackson",
+        "children": [
+          {
+            "id": 9149,
+            "name": "Mary A. Jackson",
+            "children": [
+              {
+                "id": 8921,
+                "name": "Eliza Jane Morris",
+                "children": [
+                  {
+                    "id": 9958,
+                    "name": "Emma Jane Johnson",
+                    "children": [
+                      {
+                        "id": 9936,
+                        "name": "Sarah Adeline Hanzer",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10539,
+                    "name": "Samuel Roland Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 490,
+        "name": "Elizabeth Jackson",
+        "children": []
+      }
+    ]
+  }
 }

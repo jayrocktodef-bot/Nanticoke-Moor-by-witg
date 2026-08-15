@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9408,
     "name": "George W Harmon",
+    "first_name": "George",
+    "middle_name": "W",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "19 Mar 1840 Murderkill Hundred, Kent County, Delaware, USA",
     "death_info": "26 Aug 1913 Ellendale, Sussex County, Delaware, USA",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9300,
       "rel_name": "James Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9408,
+    "name": "George W Harmon",
+    "children": []
+  }
 }

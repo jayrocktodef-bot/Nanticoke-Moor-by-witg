@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9557,
     "name": "Mary Priscilla Jackson-Jack Ridgeway",
+    "first_name": "Mary",
+    "middle_name": "Priscilla Jackson-Jack",
+    "maiden_name": "",
+    "married_last_name": "Ridgeway",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1850 Delaware",
     "death_info": "19 Aug 1924 Millsboro, Sussex, Delaware, USA",
@@ -12,16 +17,35 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 18,
       "rel_name": "John Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9555,
       "rel_name": "Eliza Parker Jackson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9557,
+    "name": "Mary Priscilla Jackson-Jack Ridgeway",
+    "children": [
+      {
+        "id": 18,
+        "name": "John Jackson",
+        "children": []
+      },
+      {
+        "id": 9555,
+        "name": "Eliza Parker Jackson",
+        "children": []
+      }
+    ]
+  }
 }

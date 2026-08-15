@@ -2,6 +2,11 @@
   "person": {
     "person_id": 5443,
     "name": "Robert H. Davis",
+    "first_name": "Robert",
+    "middle_name": "H.",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "DavisRobertNehemiahFamily.htm",
     "birth_info": "1874",
     "death_info": "unknown",
@@ -206,5 +211,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 485,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 5443,
+      "person_id_secondary": 4649,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: robert|davis|1874",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 5443,
+    "name": "Robert H. Davis",
+    "children": []
+  }
 }

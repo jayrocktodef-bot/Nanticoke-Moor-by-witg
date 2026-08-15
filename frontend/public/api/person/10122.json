@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10122,
     "name": "John R (H) or Jonathan Harmon",
+    "first_name": "John",
+    "middle_name": "R or Jonathan",
+    "maiden_name": "H",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1808 Dagsboro Hundred, Sussex County, Delaware, USA",
     "death_info": "4 Jan 1896 Felton, Kent County, Delaware, USA",
@@ -12,40 +17,80 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F404@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10123,
       "rel_name": "Lavinia Lovinia Sammons"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9165,
       "rel_name": "Sarah A Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9940,
       "rel_name": "Sophia J. Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9982,
       "rel_name": "Robert Emanuel Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9983,
       "rel_name": "Rachel Anne Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10124,
       "rel_name": "Alfred Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10122,
+    "name": "John R (H) or Jonathan Harmon",
+    "children": [
+      {
+        "id": 9982,
+        "name": "Robert Emanuel Harmon",
+        "children": []
+      },
+      {
+        "id": 9983,
+        "name": "Rachel Anne Johnson",
+        "children": [
+          {
+            "id": 9984,
+            "name": "Isaac Johnson",
+            "children": []
+          },
+          {
+            "id": 9985,
+            "name": "Jemima WARD Johnson (MD)",
+            "children": [
+              {
+                "id": 10401,
+                "name": "Rachel Johnson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

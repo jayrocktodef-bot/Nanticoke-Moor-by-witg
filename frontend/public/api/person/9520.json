@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9520,
     "name": "Charles Jackson",
+    "first_name": "Charles",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Abt. 1850 Dover Hundred, Kent County, Delaware, USA",
     "death_info": "Abt. 1910 Sussex County, Delaware, USA",
@@ -12,52 +17,122 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F81@ marriage",
+      "certainty": "confirmed",
       "rel_id": 9149,
       "rel_name": "Mary A. Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "invalid_cycle_child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9519,
       "rel_name": "Harry Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9148,
       "rel_name": "Mary Emma Ella Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9569,
       "rel_name": "Nellie P Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9570,
       "rel_name": "William Joseph Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9565,
       "rel_name": "Rachel Ann Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9564,
       "rel_name": "Robert Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 6480,
       "rel_name": "Mary Jackson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 4941,
+      "category": "Structural Integrity",
+      "severity": "critical",
+      "person_id": 9519,
+      "person_id_secondary": 9520,
+      "description": "Removed topological loop (back-edge) in descent graph.",
+      "evidence": "Edge creates a cycle where a person becomes their own ancestor.",
+      "created_at": "2026-08-15 01:27:02"
+    }
+  ],
+  "ancestry": {
+    "id": 9520,
+    "name": "Charles Jackson",
+    "children": [
+      {
+        "id": 9564,
+        "name": "Robert Jackson",
+        "children": []
+      },
+      {
+        "id": 6480,
+        "name": "Mary Jackson",
+        "children": [
+          {
+            "id": 9519,
+            "name": "Harry Jackson",
+            "children": [
+              {
+                "id": 9149,
+                "name": "Mary A. Jackson",
+                "children": [
+                  {
+                    "id": 8921,
+                    "name": "Eliza Jane Morris",
+                    "children": [
+                      {
+                        "id": 9958,
+                        "name": "Emma Jane Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 10539,
+                        "name": "Samuel Roland Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 490,
+            "name": "Elizabeth Jackson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

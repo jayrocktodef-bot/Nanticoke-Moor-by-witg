@@ -2,6 +2,11 @@
   "person": {
     "person_id": 2646,
     "name": "Hershel Davis",
+    "first_name": "Hershel",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "DavisHesterMorris.htm",
     "birth_info": "1926",
     "death_info": "1930 (aged 3&ndash;4)",
@@ -12,6 +17,7 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Hester Morris Davis mother of Hershel (Hersel) Davis (DavisHesterMorris.htm)",
+      "certainty": "confirmed",
       "rel_id": 2645,
       "rel_name": "Hester Morris Davis"
     }
@@ -44,5 +50,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 2646,
+    "name": "Hershel Davis",
+    "children": []
+  }
 }

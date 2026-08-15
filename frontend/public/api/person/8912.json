@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8912,
     "name": "Annie Rebecca Morris",
+    "first_name": "Annie",
+    "middle_name": "Rebecca",
+    "maiden_name": "",
+    "married_last_name": "Morris",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "3 Dec 1873 Cedar Creek Hundred, Sussex County, Delaware, USA",
     "death_info": "30 Apr 1955 Sussex County, Delaware, USA",
@@ -12,22 +17,143 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8683,
       "rel_name": "Josiah Joseph Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8718,
       "rel_name": "Hester A Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8913,
       "rel_name": "Amos Edward Harmon Sr."
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8912,
+    "name": "Annie Rebecca Morris",
+    "children": [
+      {
+        "id": 8683,
+        "name": "Josiah Joseph Morris",
+        "children": [
+          {
+            "id": 8617,
+            "name": "Negro Morris Thomas",
+            "children": [
+              {
+                "id": 8505,
+                "name": "Morris Thomas",
+                "children": [
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9992,
+                "name": "Sally Wright",
+                "children": [
+                  {
+                    "id": 10083,
+                    "name": "Wright Thomas Sr.",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8910,
+            "name": "Leticia Morris",
+            "children": [
+              {
+                "id": 8616,
+                "name": "Stephen Wright",
+                "children": [
+                  {
+                    "id": 8687,
+                    "name": "Benjamin Wright",
+                    "children": [
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8684,
+                "name": "Priscilla Miller",
+                "children": [
+                  {
+                    "id": 8618,
+                    "name": "Ebenezar Miller",
+                    "children": []
+                  },
+                  {
+                    "id": 9188,
+                    "name": "Ebenezer Miller",
+                    "children": [
+                      {
+                        "id": 9190,
+                        "name": "Ebenezer Miller Sr",
+                        "children": []
+                      },
+                      {
+                        "id": 9191,
+                        "name": "Sarah Collier (Collyer) Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8718,
+        "name": "Hester A Jackson",
+        "children": [
+          {
+            "id": 18,
+            "name": "John Jackson",
+            "children": []
+          },
+          {
+            "id": 9555,
+            "name": "Eliza Parker Jackson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 508,
     "name": "John Davies",
+    "first_name": "John",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davies",
+    "evidence_level": 2,
     "source_page": "morgan-e.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,16 +17,24 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Carol Mosley who married John Davies",
+      "certainty": "confirmed",
       "rel_id": 507,
       "rel_name": "Carol Mosley"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "Carol Ann Mosley who married John Davies",
+      "certainty": "confirmed",
       "rel_id": 511,
       "rel_name": "Carol Ann Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 508,
+    "name": "John Davies",
+    "children": []
+  }
 }

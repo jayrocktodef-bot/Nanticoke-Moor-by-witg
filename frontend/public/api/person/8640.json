@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8640,
     "name": "Elizabeth Thompson",
+    "first_name": "Elizabeth",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thompson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1870",
     "death_info": "1962 (aged 91&ndash;92)",
@@ -10,90 +15,155 @@
   },
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "invalid_cycle_child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8381,
       "rel_name": "James W Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8382,
       "rel_name": "Mary C Thompson"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F236@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8604,
       "rel_name": "Wallace B Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9109,
       "rel_name": "Robert Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8851,
       "rel_name": "Joshua Shepard Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9109,
       "rel_name": "Robert Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8701,
       "rel_name": "Jeremiah Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8876,
       "rel_name": "wally Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8877,
       "rel_name": "Coard Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8853,
       "rel_name": "Lettie Shepard Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8171,
       "rel_name": "George Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8852,
       "rel_name": "George Shepard Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8641,
       "rel_name": "Nancy Elizabeth Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9109,
       "rel_name": "Robert Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 4943,
+      "category": "Structural Integrity",
+      "severity": "critical",
+      "person_id": 8640,
+      "person_id_secondary": 8381,
+      "description": "Removed topological loop (back-edge) in descent graph.",
+      "evidence": "Edge creates a cycle where a person becomes their own ancestor.",
+      "created_at": "2026-08-15 01:27:02"
+    }
+  ],
+  "ancestry": {
+    "id": 8640,
+    "name": "Elizabeth Thompson",
+    "children": [
+      {
+        "id": 8382,
+        "name": "Mary C Thompson",
+        "children": [
+          {
+            "id": 8606,
+            "name": "Richard Dickerson",
+            "children": [
+              {
+                "id": 9073,
+                "name": "Charles Dickerson",
+                "children": [
+                  {
+                    "id": 8606,
+                    "name": "Richard Dickerson",
+                    "children": []
+                  },
+                  {
+                    "id": 9071,
+                    "name": "Minnie Dickerson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9071,
+            "name": "Minnie Dickerson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

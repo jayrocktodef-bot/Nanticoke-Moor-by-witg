@@ -2,6 +2,11 @@
   "person": {
     "person_id": 133,
     "name": "James Russell Coker",
+    "first_name": "James",
+    "middle_name": "Russell",
+    "maiden_name": "",
+    "married_last_name": "Coker",
+    "evidence_level": 2,
     "source_page": "coker-j2.htm",
     "birth_info": "unknown",
     "death_info": "Apr 1950",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "James Russell Coker married Dorothy Johnson",
+      "certainty": "confirmed",
       "rel_id": 134,
       "rel_name": "Dorothy Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 133,
+    "name": "James Russell Coker",
+    "children": []
+  }
 }

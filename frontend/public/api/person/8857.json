@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8857,
     "name": "John E Miller",
+    "first_name": "John",
+    "middle_name": "E",
+    "maiden_name": "",
+    "married_last_name": "Miller",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1856",
     "death_info": "4 Jun 1927 (aged 70&ndash;71)",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8858,
       "rel_name": "WILLIAM ALONZO Miller SR"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8860,
       "rel_name": "Hattie Miller"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8857,
+    "name": "John E Miller",
+    "children": []
+  }
 }

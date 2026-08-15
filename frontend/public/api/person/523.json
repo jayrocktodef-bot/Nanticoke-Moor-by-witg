@@ -2,6 +2,11 @@
   "person": {
     "person_id": 523,
     "name": "Edna Mosley",
+    "first_name": "Edna",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 2,
     "source_page": "morganj4.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,22 +17,31 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Edna Mosley married Charles Edward Marriott",
+      "certainty": "confirmed",
       "rel_id": 524,
       "rel_name": "Charles Edward Marriott"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 962,
       "rel_name": "Benjamin Mosley"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 993,
       "rel_name": "Nathan Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 523,
+    "name": "Edna Mosley",
+    "children": []
+  }
 }

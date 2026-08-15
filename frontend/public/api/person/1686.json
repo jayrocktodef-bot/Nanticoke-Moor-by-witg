@@ -2,6 +2,11 @@
   "person": {
     "person_id": 1686,
     "name": "Jane Harmon",
+    "first_name": "Jane",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "NMAI.AC.001.008",
     "birth_info": "4 May 1833",
     "death_info": "26 Nov 1919 (aged 86)",
@@ -12,12 +17,14 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Spouse of Ephraim Harmon documented in Smithsonian NMAI Speck collection",
+      "certainty": "confirmed",
       "rel_id": 790,
       "rel_name": "Ephraim Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "Daughter of Jane Harmon & Ephraim Harmon",
+      "certainty": "confirmed",
       "rel_id": 755,
       "rel_name": "Eliza Ann Harmon"
     }
@@ -115,5 +122,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 1686,
+    "name": "Jane Harmon",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11160,
     "name": "Willard Turner",
+    "first_name": "Willard",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Turner",
+    "evidence_level": 1,
     "source_page": null,
     "birth_info": "Oct 1886 Delaware, USA",
     "death_info": "5 March 1967",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11158,
       "rel_name": "Daniel Turner"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11160,
+    "name": "Willard Turner",
+    "children": []
+  }
 }

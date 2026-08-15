@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10486,
     "name": "Rachel Durham",
+    "first_name": "Rachel",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "21 Mar 1905",
     "death_info": "12 Jan 1993 (aged 87)",
@@ -12,16 +17,35 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10394,
       "rel_name": "Sarah Elenor Puckham"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10395,
       "rel_name": "Daniel David Durham"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10486,
+    "name": "Rachel Durham",
+    "children": [
+      {
+        "id": 10394,
+        "name": "Sarah Elenor Puckham",
+        "children": []
+      },
+      {
+        "id": 10395,
+        "name": "Daniel David Durham",
+        "children": []
+      }
+    ]
+  }
 }

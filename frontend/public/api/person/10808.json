@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10808,
     "name": "Rosalind J Davis",
+    "first_name": "Rosalind",
+    "middle_name": "J",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1904",
     "death_info": "2000 (aged 95&ndash;96)",
@@ -12,16 +17,85 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10805,
       "rel_name": "Lester Charles Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10482,
       "rel_name": "Lucille Thomas"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10808,
+    "name": "Rosalind J Davis",
+    "children": [
+      {
+        "id": 10805,
+        "name": "Lester Charles Davis",
+        "children": [
+          {
+            "id": 10815,
+            "name": "Charles Morris \"Charlie\" Davis",
+            "children": []
+          },
+          {
+            "id": 9140,
+            "name": "Minnie Mae Street",
+            "children": [
+              {
+                "id": 9145,
+                "name": "Benton C Street",
+                "children": []
+              },
+              {
+                "id": 9144,
+                "name": "(Mary) Anne Harmon",
+                "children": [
+                  {
+                    "id": 10514,
+                    "name": "Simon Harmon",
+                    "children": [
+                      {
+                        "id": 1022,
+                        "name": "Bowen Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 7577,
+                        "name": "Lydia Clark",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10482,
+        "name": "Lucille Thomas",
+        "children": [
+          {
+            "id": 10806,
+            "name": "Lindsey Thomas",
+            "children": []
+          },
+          {
+            "id": 10807,
+            "name": "Clara Thomas",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

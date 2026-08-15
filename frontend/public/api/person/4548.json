@@ -2,6 +2,11 @@
   "person": {
     "person_id": 4548,
     "name": "Bertha Sammons",
+    "first_name": "Bertha",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Sammons",
+    "evidence_level": 2,
     "source_page": "CarterMaeWilsonfamily.htm",
     "birth_info": "3 Dec 1884",
     "death_info": "17 Oct 1978 (aged 93)",
@@ -375,5 +380,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 512,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 7270,
+      "person_id_secondary": 4548,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: bertha|sammons|1884",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 4548,
+    "name": "Bertha Sammons",
+    "children": []
+  }
 }

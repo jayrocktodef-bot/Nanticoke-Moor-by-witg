@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10364,
     "name": "Return Johnson",
+    "first_name": "Return",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Apr 1875",
     "death_info": "1 Feb 1908 (aged 32)",
@@ -12,16 +17,125 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10420,
       "rel_name": "Ann W. Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9419,
       "rel_name": "Elizabeth (Morris) Mosley Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10364,
+    "name": "Return Johnson",
+    "children": [
+      {
+        "id": 10420,
+        "name": "Ann W. Johnson",
+        "children": []
+      },
+      {
+        "id": 9419,
+        "name": "Elizabeth (Morris) Mosley Harmon",
+        "children": [
+          {
+            "id": 8617,
+            "name": "Negro Morris Thomas",
+            "children": [
+              {
+                "id": 8505,
+                "name": "Morris Thomas",
+                "children": [
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9992,
+                "name": "Sally Wright",
+                "children": [
+                  {
+                    "id": 10083,
+                    "name": "Wright Thomas Sr.",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8910,
+            "name": "Leticia Morris",
+            "children": [
+              {
+                "id": 8616,
+                "name": "Stephen Wright",
+                "children": [
+                  {
+                    "id": 8687,
+                    "name": "Benjamin Wright",
+                    "children": [
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8684,
+                "name": "Priscilla Miller",
+                "children": [
+                  {
+                    "id": 8618,
+                    "name": "Ebenezar Miller",
+                    "children": []
+                  },
+                  {
+                    "id": 9188,
+                    "name": "Ebenezer Miller",
+                    "children": [
+                      {
+                        "id": 9190,
+                        "name": "Ebenezer Miller Sr",
+                        "children": []
+                      },
+                      {
+                        "id": 9191,
+                        "name": "Sarah Collier (Collyer) Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

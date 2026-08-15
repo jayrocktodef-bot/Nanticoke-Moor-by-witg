@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9516,
     "name": "Iris Mae Wright",
+    "first_name": "Iris",
+    "middle_name": "Mae",
+    "maiden_name": "",
+    "married_last_name": "Wright",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "3 August 1913",
     "death_info": "1 March 1993",
@@ -12,22 +17,121 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9517,
       "rel_name": "William Nelson Wright"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9529,
       "rel_name": "Howard Cornelius Wright"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8730,
       "rel_name": "Frederick Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9516,
+    "name": "Iris Mae Wright",
+    "children": [
+      {
+        "id": 8730,
+        "name": "Frederick Morris",
+        "children": [
+          {
+            "id": 8683,
+            "name": "Josiah Joseph Morris",
+            "children": [
+              {
+                "id": 8617,
+                "name": "Negro Morris Thomas",
+                "children": [
+                  {
+                    "id": 8505,
+                    "name": "Morris Thomas",
+                    "children": [
+                      {
+                        "id": 8910,
+                        "name": "Leticia Morris",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9992,
+                    "name": "Sally Wright",
+                    "children": [
+                      {
+                        "id": 10083,
+                        "name": "Wright Thomas Sr.",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8910,
+                "name": "Leticia Morris",
+                "children": [
+                  {
+                    "id": 8616,
+                    "name": "Stephen Wright",
+                    "children": [
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8684,
+                    "name": "Priscilla Miller",
+                    "children": [
+                      {
+                        "id": 8618,
+                        "name": "Ebenezar Miller",
+                        "children": []
+                      },
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8718,
+            "name": "Hester A Jackson",
+            "children": [
+              {
+                "id": 18,
+                "name": "John Jackson",
+                "children": []
+              },
+              {
+                "id": 9555,
+                "name": "Eliza Parker Jackson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

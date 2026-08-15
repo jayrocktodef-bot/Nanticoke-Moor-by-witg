@@ -2,6 +2,11 @@
   "person": {
     "person_id": 787,
     "name": "Ann Wright",
+    "first_name": "Ann",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Wright",
+    "evidence_level": 2,
     "source_page": "wrightw1.htm",
     "birth_info": "unknown",
     "death_info": "Dec 1807",
@@ -12,6 +17,7 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Ann Wright who married Paynter Harmon",
+      "certainty": "confirmed",
       "rel_id": 788,
       "rel_name": "Paynter Harmon"
     }
@@ -642,5 +648,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 787,
+    "name": "Ann Wright",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10631,
     "name": "Douglas Mosley",
+    "first_name": "Douglas",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "22 Jul 1952",
     "death_info": "8 Nov 2009 (aged 57)",
@@ -12,16 +17,41 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10632,
       "rel_name": "Harry C Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10626,
       "rel_name": "Ellen Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10631,
+    "name": "Douglas Mosley",
+    "children": [
+      {
+        "id": 10632,
+        "name": "Harry C Mosley",
+        "children": []
+      },
+      {
+        "id": 10626,
+        "name": "Ellen Mosley",
+        "children": [
+          {
+            "id": 10624,
+            "name": "Eliza Mosley",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

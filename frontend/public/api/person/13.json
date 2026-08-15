@@ -2,6 +2,11 @@
   "person": {
     "person_id": 13,
     "name": "Sarah Cott",
+    "first_name": "Sarah",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Cott",
+    "evidence_level": 2,
     "source_page": "bible-c1.htm",
     "birth_info": "unknown",
     "death_info": "29 Apr 1825",
@@ -12,16 +17,30 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "Sarah Cott the daughter of Thomas Carney and Sarah his wife was born Marth (4th?) \t\tA.D. 1839",
+      "certainty": "confirmed",
       "rel_id": 11,
       "rel_name": "Carney Thomas"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "John Wesley Cott and Sarah Cott were married January 28 A.D. 1862",
+      "certainty": "confirmed",
       "rel_id": 12,
       "rel_name": "John Wesley Cott"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 13,
+    "name": "Sarah Cott",
+    "children": [
+      {
+        "id": 11,
+        "name": "Carney Thomas",
+        "children": []
+      }
+    ]
+  }
 }

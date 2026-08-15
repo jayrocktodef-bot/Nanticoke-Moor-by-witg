@@ -2,6 +2,11 @@
   "person": {
     "person_id": 507,
     "name": "Carol Mosley",
+    "first_name": "Carol",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 2,
     "source_page": "morgan-e.htm",
     "birth_info": "10 Mar 1932",
     "death_info": "27 Dec 2009 (aged 77)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Carol Mosley who married John Davies",
+      "certainty": "confirmed",
       "rel_id": 508,
       "rel_name": "John Davies"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 507,
+    "name": "Carol Mosley",
+    "children": []
+  }
 }

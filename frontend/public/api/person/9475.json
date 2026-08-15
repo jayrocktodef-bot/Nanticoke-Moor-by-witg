@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9475,
     "name": "Ruth E Green",
+    "first_name": "Ruth",
+    "middle_name": "E",
+    "maiden_name": "",
+    "married_last_name": "Green",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "28 May 1904",
     "death_info": "March 1989",
@@ -12,22 +17,31 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9479,
       "rel_name": "Wilmer F Green"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9477,
       "rel_name": "Otelia Green"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9478,
       "rel_name": "William Green"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9475,
+    "name": "Ruth E Green",
+    "children": []
+  }
 }

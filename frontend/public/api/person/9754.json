@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9754,
     "name": "Felonise Norwood",
+    "first_name": "Felonise",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Norwood",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "28 Jun 1898",
     "death_info": "25 Jun 1940 (aged 41)",
@@ -12,10 +17,79 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8859,
       "rel_name": "MARJORIE ELIZABETH Miller"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9754,
+    "name": "Felonise Norwood",
+    "children": [
+      {
+        "id": 8859,
+        "name": "MARJORIE ELIZABETH Miller",
+        "children": [
+          {
+            "id": 8858,
+            "name": "WILLIAM ALONZO Miller SR",
+            "children": [
+              {
+                "id": 8857,
+                "name": "John E Miller",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8895,
+            "name": "SARAH HESTER Morris",
+            "children": [
+              {
+                "id": 8710,
+                "name": "JAMES EDWARD Morris",
+                "children": [
+                  {
+                    "id": 8683,
+                    "name": "Josiah Joseph Morris",
+                    "children": [
+                      {
+                        "id": 8617,
+                        "name": "Negro Morris Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 8910,
+                        "name": "Leticia Morris",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8718,
+                    "name": "Hester A Jackson",
+                    "children": [
+                      {
+                        "id": 18,
+                        "name": "John Jackson",
+                        "children": []
+                      },
+                      {
+                        "id": 9555,
+                        "name": "Eliza Parker Jackson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

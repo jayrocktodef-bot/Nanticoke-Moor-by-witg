@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8618,
     "name": "Ebenezar Miller",
+    "first_name": "Ebenezar",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Miller",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "November 19, 1725 Union, New Jersey",
     "death_info": "July 11, 1800 Union, New Jersey",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8684,
       "rel_name": "Priscilla Miller"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8618,
+    "name": "Ebenezar Miller",
+    "children": []
+  }
 }

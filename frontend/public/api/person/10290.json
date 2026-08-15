@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10290,
     "name": "Harriet Ann Harmon",
+    "first_name": "Harriet",
+    "middle_name": "Ann",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "6 September 1864 Delaware, United States of America",
     "death_info": "11 February 1940 Millsboro, Sussex County, Delaware, United States of America",
@@ -12,46 +17,109 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10291,
       "rel_name": "Charles S Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10292,
       "rel_name": "Ann Mariah Harmon"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F185@ marriage",
+      "certainty": "confirmed",
       "rel_id": 5763,
       "rel_name": "Robert Marshall Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 305,
       "rel_name": "William Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 5898,
       "rel_name": "Elmer Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8927,
       "rel_name": "Eliza Jane Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10704,
       "rel_name": "Marshall Edward Hanzer"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10290,
+    "name": "Harriet Ann Harmon",
+    "children": [
+      {
+        "id": 10291,
+        "name": "Charles S Harmon",
+        "children": [
+          {
+            "id": 10260,
+            "name": "Adjoniah R. Harmon",
+            "children": [
+              {
+                "id": 9982,
+                "name": "Robert Emanuel Harmon",
+                "children": []
+              },
+              {
+                "id": 9983,
+                "name": "Rachel Anne Johnson",
+                "children": [
+                  {
+                    "id": 9984,
+                    "name": "Isaac Johnson",
+                    "children": []
+                  },
+                  {
+                    "id": 9985,
+                    "name": "Jemima WARD Johnson (MD)",
+                    "children": [
+                      {
+                        "id": 10401,
+                        "name": "Rachel Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10293,
+            "name": "Harriet Louisa Hansor - Harmon",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 10292,
+        "name": "Ann Mariah Harmon",
+        "children": []
+      }
+    ]
+  }
 }

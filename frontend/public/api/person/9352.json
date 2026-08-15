@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9352,
     "name": "William Aydelott Clark",
+    "first_name": "William",
+    "middle_name": "Aydelott",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "30 Nov 1855",
     "death_info": "1837 Knox Co IN",
@@ -12,10 +17,67 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9350,
       "rel_name": "Levin Clark"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 414,
+      "category": "Logic Error",
+      "severity": "critical",
+      "person_id": 9352,
+      "person_id_secondary": null,
+      "description": "Death year before birth year",
+      "evidence": "Born: 1855, Died: 1837",
+      "created_at": "2026-08-14 03:42:34"
+    },
+    {
+      "id": 539,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 9352,
+      "person_id_secondary": 748,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: william|clark|1855",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 9352,
+    "name": "William Aydelott Clark",
+    "children": [
+      {
+        "id": 9350,
+        "name": "Levin Clark",
+        "children": [
+          {
+            "id": 10334,
+            "name": "Chief William Russell \"Wyniaco\" Clark",
+            "children": [
+              {
+                "id": 10336,
+                "name": "William Vine Clark Jr.",
+                "children": [
+                  {
+                    "id": 10337,
+                    "name": "William CLARKE (Clark) Esq.",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10335,
+            "name": "Jane Clark",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

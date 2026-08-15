@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11,
     "name": "Carney Thomas",
+    "first_name": "Carney",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 2,
     "source_page": "bible-c1.htm",
     "birth_info": "1910",
     "death_info": "18 Mar 1986 (aged 75&ndash;76)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "Sarah Cott the daughter of Thomas Carney and Sarah his wife was born Marth (4th?) \t\tA.D. 1839",
+      "certainty": "confirmed",
       "rel_id": 13,
       "rel_name": "Sarah Cott"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11,
+    "name": "Carney Thomas",
+    "children": []
+  }
 }

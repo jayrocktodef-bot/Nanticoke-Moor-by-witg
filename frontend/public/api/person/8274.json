@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8274,
     "name": "Edgar Coil Morris Sr",
+    "first_name": "Edgar",
+    "middle_name": "Coil Morris",
+    "maiden_name": "",
+    "married_last_name": "Sr",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "26 September 1890 Kent County, Delaware, United States of America",
     "death_info": "6 September 1960 Sussex County, Delaware, United States of America",
@@ -12,76 +17,234 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F379@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8339,
       "rel_name": "Sarah Jane Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8175,
       "rel_name": "Edgar Coil Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8343,
       "rel_name": "Uscar Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8344,
       "rel_name": "Noah O Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8348,
       "rel_name": "Ella G Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8349,
       "rel_name": "Delema Street"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8340,
       "rel_name": "Preston Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8341,
       "rel_name": "Granville Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8342,
       "rel_name": "Walter Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8345,
       "rel_name": "Alberta Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4624,
       "rel_name": "Edward Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9979,
       "rel_name": "Frances F. Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8274,
+    "name": "Edgar Coil Morris Sr",
+    "children": [
+      {
+        "id": 4624,
+        "name": "Edward Morris",
+        "children": [
+          {
+            "id": 8617,
+            "name": "Negro Morris Thomas",
+            "children": [
+              {
+                "id": 8505,
+                "name": "Morris Thomas",
+                "children": [
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9992,
+                "name": "Sally Wright",
+                "children": [
+                  {
+                    "id": 10083,
+                    "name": "Wright Thomas Sr.",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8910,
+            "name": "Leticia Morris",
+            "children": [
+              {
+                "id": 8616,
+                "name": "Stephen Wright",
+                "children": [
+                  {
+                    "id": 8687,
+                    "name": "Benjamin Wright",
+                    "children": [
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8684,
+                "name": "Priscilla Miller",
+                "children": [
+                  {
+                    "id": 8618,
+                    "name": "Ebenezar Miller",
+                    "children": []
+                  },
+                  {
+                    "id": 9188,
+                    "name": "Ebenezer Miller",
+                    "children": [
+                      {
+                        "id": 9190,
+                        "name": "Ebenezer Miller Sr",
+                        "children": []
+                      },
+                      {
+                        "id": 9191,
+                        "name": "Sarah Collier (Collyer) Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9979,
+        "name": "Frances F. Morris",
+        "children": [
+          {
+            "id": 9981,
+            "name": "William Coard Harmon",
+            "children": [
+              {
+                "id": 9982,
+                "name": "Robert Emanuel Harmon",
+                "children": []
+              },
+              {
+                "id": 9983,
+                "name": "Rachel Anne Johnson",
+                "children": [
+                  {
+                    "id": 9984,
+                    "name": "Isaac Johnson",
+                    "children": []
+                  },
+                  {
+                    "id": 9985,
+                    "name": "Jemima WARD Johnson (MD)",
+                    "children": [
+                      {
+                        "id": 10401,
+                        "name": "Rachel Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9980,
+            "name": "Sarah Ann Handsor",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

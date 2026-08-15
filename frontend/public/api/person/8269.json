@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8269,
     "name": "Dionne Thomas",
+    "first_name": "Dionne",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "3 Sep 1935",
     "death_info": "24 Aug 2013 (aged 77)",
@@ -12,10 +17,85 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8268,
       "rel_name": "Ruth Ann Thomas"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8269,
+    "name": "Dionne Thomas",
+    "children": [
+      {
+        "id": 8268,
+        "name": "Ruth Ann Thomas",
+        "children": [
+          {
+            "id": 8169,
+            "name": "Samuel Thompson",
+            "children": [
+              {
+                "id": 9097,
+                "name": "Samuel L. Thompson",
+                "children": [
+                  {
+                    "id": 8381,
+                    "name": "James W Thompson",
+                    "children": [
+                      {
+                        "id": 9109,
+                        "name": "Robert Thompson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8382,
+                    "name": "Mary C Thompson",
+                    "children": [
+                      {
+                        "id": 8606,
+                        "name": "Richard Dickerson",
+                        "children": []
+                      },
+                      {
+                        "id": 9071,
+                        "name": "Minnie Dickerson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8147,
+                "name": "Martha E Thompson",
+                "children": [
+                  {
+                    "id": 9519,
+                    "name": "Harry Jackson",
+                    "children": [
+                      {
+                        "id": 9149,
+                        "name": "Mary A. Jackson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 490,
+                    "name": "Elizabeth Jackson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

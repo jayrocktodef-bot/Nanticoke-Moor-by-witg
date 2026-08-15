@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9929,
     "name": "Ella J Harmon",
+    "first_name": "Ella",
+    "middle_name": "J",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1943 Delaware",
     "death_info": "",
@@ -12,16 +17,63 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9931,
       "rel_name": "Raymond Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8860,
       "rel_name": "Hattie Miller"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9929,
+    "name": "Ella J Harmon",
+    "children": [
+      {
+        "id": 9931,
+        "name": "Raymond Harmon",
+        "children": [
+          {
+            "id": 8860,
+            "name": "Hattie Miller",
+            "children": [
+              {
+                "id": 8857,
+                "name": "John E Miller",
+                "children": []
+              },
+              {
+                "id": 9797,
+                "name": "John E. Miller",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8860,
+        "name": "Hattie Miller",
+        "children": [
+          {
+            "id": 8857,
+            "name": "John E Miller",
+            "children": []
+          },
+          {
+            "id": 9797,
+            "name": "John E. Miller",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

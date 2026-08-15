@@ -2,6 +2,11 @@
   "person": {
     "person_id": 5007,
     "name": "Mary Elizabeth Durham",
+    "first_name": "Mary",
+    "middle_name": "Elizabeth",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "DurhamBenjaminR&AnnaFamily.htm",
     "birth_info": "1849",
     "death_info": "1917 (aged 67&ndash;68)",
@@ -102,5 +107,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 475,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 5007,
+      "person_id_secondary": 179,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: mary|durham|1849",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 5007,
+    "name": "Mary Elizabeth Durham",
+    "children": []
+  }
 }

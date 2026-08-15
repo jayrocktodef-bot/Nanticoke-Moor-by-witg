@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8791,
     "name": "Mary E Jackson",
+    "first_name": "Mary",
+    "middle_name": "E",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1868 Sussex, DE, USA",
     "death_info": "1897 Sussex, DE, USA",
@@ -12,28 +17,49 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 409,
       "rel_name": "Robert B. Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 7978,
       "rel_name": "Lydia Ann Wright Jackson"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F383@ marriage 25 Dec 1888 Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 8788,
       "rel_name": "John M. Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8632,
       "rel_name": "Robert Henry Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8791,
+    "name": "Mary E Jackson",
+    "children": [
+      {
+        "id": 409,
+        "name": "Robert B. Jackson",
+        "children": []
+      },
+      {
+        "id": 7978,
+        "name": "Lydia Ann Wright Jackson",
+        "children": []
+      }
+    ]
+  }
 }

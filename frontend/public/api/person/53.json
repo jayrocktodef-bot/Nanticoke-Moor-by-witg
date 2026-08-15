@@ -2,6 +2,11 @@
   "person": {
     "person_id": 53,
     "name": "Hopewell Carter",
+    "first_name": "Hopewell",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Carter",
+    "evidence_level": 2,
     "source_page": "carty-h.htm",
     "birth_info": "18 Apr 1908",
     "death_info": "30 Oct 1967 (aged 59)",
@@ -10,5 +15,22 @@
   },
   "relationships": [],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 417,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 53,
+      "person_id_secondary": 37,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: hopewell|carter|1908",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 53,
+    "name": "Hopewell Carter",
+    "children": []
+  }
 }

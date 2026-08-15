@@ -2,6 +2,11 @@
   "person": {
     "person_id": 4623,
     "name": "Rosa Mae Morris",
+    "first_name": "Rosa",
+    "middle_name": "Mae",
+    "maiden_name": "",
+    "married_last_name": "Morris",
+    "evidence_level": 2,
     "source_page": "DayHelenJohnson.htm",
     "birth_info": "unknown",
     "death_info": "15 May 1858",
@@ -12,24 +17,28 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10017,
       "rel_name": "grover cleaveland johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8710,
       "rel_name": "JAMES EDWARD Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8565,
       "rel_name": "Sarah Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8565,
       "rel_name": "Sarah Johnson"
     }
@@ -62,5 +71,106 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 4623,
+    "name": "Rosa Mae Morris",
+    "children": [
+      {
+        "id": 10017,
+        "name": "grover cleaveland johnson",
+        "children": []
+      },
+      {
+        "id": 8710,
+        "name": "JAMES EDWARD Morris",
+        "children": [
+          {
+            "id": 8683,
+            "name": "Josiah Joseph Morris",
+            "children": [
+              {
+                "id": 8617,
+                "name": "Negro Morris Thomas",
+                "children": [
+                  {
+                    "id": 8505,
+                    "name": "Morris Thomas",
+                    "children": [
+                      {
+                        "id": 8910,
+                        "name": "Leticia Morris",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9992,
+                    "name": "Sally Wright",
+                    "children": [
+                      {
+                        "id": 10083,
+                        "name": "Wright Thomas Sr.",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8910,
+                "name": "Leticia Morris",
+                "children": [
+                  {
+                    "id": 8616,
+                    "name": "Stephen Wright",
+                    "children": [
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8684,
+                    "name": "Priscilla Miller",
+                    "children": [
+                      {
+                        "id": 8618,
+                        "name": "Ebenezar Miller",
+                        "children": []
+                      },
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8718,
+            "name": "Hester A Jackson",
+            "children": [
+              {
+                "id": 18,
+                "name": "John Jackson",
+                "children": []
+              },
+              {
+                "id": 9555,
+                "name": "Eliza Parker Jackson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

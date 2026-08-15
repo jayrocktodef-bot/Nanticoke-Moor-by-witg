@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11124,
     "name": "Sarah Carmean",
+    "first_name": "Sarah",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Carmean",
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": "13 Jun 1826",
     "death_info": "18 Sep 1904 (aged 78)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11121,
       "rel_name": "Hettie Carmean"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11124,
+    "name": "Sarah Carmean",
+    "children": []
+  }
 }

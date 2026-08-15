@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8875,
     "name": "Edith Marie Thompson",
+    "first_name": "Edith",
+    "middle_name": "Marie",
+    "maiden_name": "",
+    "married_last_name": "Thompson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "2 Dec 1913 Millsboro, Delaware, USA",
     "death_info": "01 Dec 1989 Kent County, Delaware, USA",
@@ -12,28 +17,156 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F161@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8175,
       "rel_name": "Edgar Coil Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8262,
       "rel_name": "Joseph Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9097,
       "rel_name": "Samuel L. Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8147,
       "rel_name": "Martha E Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8875,
+    "name": "Edith Marie Thompson",
+    "children": [
+      {
+        "id": 9097,
+        "name": "Samuel L. Thompson",
+        "children": [
+          {
+            "id": 8381,
+            "name": "James W Thompson",
+            "children": [
+              {
+                "id": 9109,
+                "name": "Robert Thompson",
+                "children": [
+                  {
+                    "id": 8604,
+                    "name": "Wallace B Thompson",
+                    "children": [
+                      {
+                        "id": 8639,
+                        "name": "Clemmon Thompson",
+                        "children": []
+                      },
+                      {
+                        "id": 8638,
+                        "name": "Melisa Molly Street",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8640,
+                    "name": "Elizabeth Thompson",
+                    "children": [
+                      {
+                        "id": 8382,
+                        "name": "Mary C Thompson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8382,
+            "name": "Mary C Thompson",
+            "children": [
+              {
+                "id": 8606,
+                "name": "Richard Dickerson",
+                "children": [
+                  {
+                    "id": 9073,
+                    "name": "Charles Dickerson",
+                    "children": [
+                      {
+                        "id": 8606,
+                        "name": "Richard Dickerson",
+                        "children": []
+                      },
+                      {
+                        "id": 9071,
+                        "name": "Minnie Dickerson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9071,
+                "name": "Minnie Dickerson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8147,
+        "name": "Martha E Thompson",
+        "children": [
+          {
+            "id": 9519,
+            "name": "Harry Jackson",
+            "children": [
+              {
+                "id": 9149,
+                "name": "Mary A. Jackson",
+                "children": [
+                  {
+                    "id": 8921,
+                    "name": "Eliza Jane Morris",
+                    "children": [
+                      {
+                        "id": 9958,
+                        "name": "Emma Jane Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 10539,
+                        "name": "Samuel Roland Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 490,
+            "name": "Elizabeth Jackson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10751,
     "name": "WIlliam Coard Harmon",
+    "first_name": "WIlliam",
+    "middle_name": "Coard",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "27 Oct 1829 Millsboro, Sussex, Delaware, USA",
     "death_info": "8 May 1895 Sussex, Delaware, United States",
@@ -12,16 +17,35 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F265@ marriage",
+      "certainty": "confirmed",
       "rel_id": 9980,
       "rel_name": "Sarah Ann Handsor"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10746,
       "rel_name": "Harvey H Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 549,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 10751,
+      "person_id_secondary": 9981,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: william|harmon|1829",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 10751,
+    "name": "WIlliam Coard Harmon",
+    "children": []
+  }
 }

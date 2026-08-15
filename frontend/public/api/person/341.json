@@ -2,6 +2,11 @@
   "person": {
     "person_id": 341,
     "name": "Dorothy Carney",
+    "first_name": "Dorothy",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Carney",
+    "evidence_level": 2,
     "source_page": "durhm-m1.htm",
     "birth_info": "unknown",
     "death_info": "4 Mar 1992",
@@ -12,12 +17,14 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10128,
       "rel_name": "John Henry Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10689,
       "rel_name": "Anna Mosley"
     }
@@ -102,5 +109,73 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 341,
+    "name": "Dorothy Carney",
+    "children": [
+      {
+        "id": 10128,
+        "name": "John Henry Mosley",
+        "children": [
+          {
+            "id": 4768,
+            "name": "Elizabeth Mosley",
+            "children": [
+              {
+                "id": 9096,
+                "name": "John C Hanzer",
+                "children": [
+                  {
+                    "id": 9969,
+                    "name": "Jacob Hanzer Jr",
+                    "children": [
+                      {
+                        "id": 9974,
+                        "name": "Jacob Hanzer Sr",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9940,
+                "name": "Sophia J. Hanzer",
+                "children": [
+                  {
+                    "id": 10122,
+                    "name": "John R (H) or Jonathan Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10123,
+                    "name": "Lavinia Lovinia Sammons",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10689,
+        "name": "Anna Mosley",
+        "children": []
+      }
+    ]
+  }
 }

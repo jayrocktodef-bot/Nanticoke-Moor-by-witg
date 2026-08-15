@@ -2,6 +2,11 @@
   "person": {
     "person_id": 314,
     "name": "Mamie Durham",
+    "first_name": "Mamie",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "durhm-e1.htm",
     "birth_info": "22 Jun 1887",
     "death_info": "31 Dec 1973 (aged 86)",
@@ -12,22 +17,31 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1003,
       "rel_name": "Samuel Durham"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1009,
       "rel_name": "Marvel Durham"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1047,
       "rel_name": "Matthew Durham"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 314,
+    "name": "Mamie Durham",
+    "children": []
+  }
 }

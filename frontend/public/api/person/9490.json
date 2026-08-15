@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9490,
     "name": "Reburn Johnson",
+    "first_name": "Reburn",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -12,22 +17,76 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 3722,
       "rel_name": "Franklin Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9493,
       "rel_name": "Willis   Milton Bill Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8990,
       "rel_name": "Isaiah Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9490,
+    "name": "Reburn Johnson",
+    "children": [
+      {
+        "id": 8990,
+        "name": "Isaiah Johnson",
+        "children": [
+          {
+            "id": 2366,
+            "name": "William Johnson",
+            "children": [
+              {
+                "id": 10407,
+                "name": "John Johnson",
+                "children": [
+                  {
+                    "id": 10420,
+                    "name": "Ann W. Johnson",
+                    "children": []
+                  },
+                  {
+                    "id": 10408,
+                    "name": "Richard Johnson",
+                    "children": [
+                      {
+                        "id": 10409,
+                        "name": "Johnson Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 10407,
+                        "name": "John Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8766,
+            "name": "Sarah A Johnson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

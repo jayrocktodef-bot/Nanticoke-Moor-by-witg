@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8614,
     "name": "Katherina Davis",
+    "first_name": "Katherina",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1758",
     "death_info": "10 May 1839 (aged 80&ndash;81)",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F177@ marriage 1781 prob Herkimer Co., NY",
+      "certainty": "confirmed",
       "rel_id": 8629,
       "rel_name": "Jost Henry Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8613,
       "rel_name": "Joseph Henry Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8614,
+    "name": "Katherina Davis",
+    "children": []
+  }
 }

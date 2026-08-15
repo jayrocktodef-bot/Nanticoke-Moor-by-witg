@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9584,
     "name": "Virgel Cottman",
+    "first_name": "Virgel",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Cottman",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1909 Delaware",
     "death_info": "",
@@ -12,28 +17,38 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F229@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8925,
       "rel_name": "Mildred M. Cottman"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9532,
       "rel_name": "Bertha A Cottman"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9581,
       "rel_name": "Kathryn M Cottman"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9582,
       "rel_name": "Helen N Cottman"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9584,
+    "name": "Virgel Cottman",
+    "children": []
+  }
 }

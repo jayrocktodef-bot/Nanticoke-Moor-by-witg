@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11141,
     "name": "George Ingram",
+    "first_name": "George",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Ingram",
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": "abt 1856 Delaware",
     "death_info": "",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11137,
       "rel_name": "Abraham Ingram"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11141,
+    "name": "George Ingram",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9811,
     "name": "John R Hitchens",
+    "first_name": "John",
+    "middle_name": "R",
+    "maiden_name": "",
+    "married_last_name": "Hitchens",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "12 March 1913 Sussex County, Delaware, United States of America",
     "death_info": "6 June 1996 Sussex County, Delaware, United States of America",
@@ -12,10 +17,29 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9728,
       "rel_name": "Joshua S. Hitchens"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9811,
+    "name": "John R Hitchens",
+    "children": [
+      {
+        "id": 9728,
+        "name": "Joshua S. Hitchens",
+        "children": [
+          {
+            "id": 9732,
+            "name": "Joshua Hitchens",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9881,
     "name": "Eliza A. Harmon",
+    "first_name": "Eliza",
+    "middle_name": "A.",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1838",
     "death_info": "8 Jun 1906 (aged 67&ndash;68)",
@@ -12,16 +17,69 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9591,
       "rel_name": "Mitchell John Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9108,
       "rel_name": "Josephine Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9881,
+    "name": "Eliza A. Harmon",
+    "children": [
+      {
+        "id": 9591,
+        "name": "Mitchell John Harmon",
+        "children": []
+      },
+      {
+        "id": 9108,
+        "name": "Josephine Harmon",
+        "children": [
+          {
+            "id": 8921,
+            "name": "Eliza Jane Morris",
+            "children": [
+              {
+                "id": 9958,
+                "name": "Emma Jane Johnson",
+                "children": [
+                  {
+                    "id": 9936,
+                    "name": "Sarah Adeline Hanzer",
+                    "children": [
+                      {
+                        "id": 9096,
+                        "name": "John C Hanzer",
+                        "children": []
+                      },
+                      {
+                        "id": 9940,
+                        "name": "Sophia J. Hanzer",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10539,
+                "name": "Samuel Roland Johnson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

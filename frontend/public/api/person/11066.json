@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11066,
     "name": "Malinda Turner",
+    "first_name": "Malinda",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Turner",
+    "evidence_level": 1,
     "source_page": null,
     "birth_info": "14 Mar 1916 Georgetown, Sussex, Delaware, United States",
     "death_info": "19 Dec 2009",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11061,
       "rel_name": "Ambrose Turner"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11066,
+    "name": "Malinda Turner",
+    "children": []
+  }
 }

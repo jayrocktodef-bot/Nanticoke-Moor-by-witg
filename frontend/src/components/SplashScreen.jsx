@@ -13,7 +13,7 @@ export default function SplashScreen({ onEnter }) {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto overflow-x-hidden transition-opacity duration-700 ease-in-out"
+      className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto overflow-x-hidden transition-opacity duration-300 ease-out"
       style={{
         background: '#0F0E0D',
         color: '#E5E1DB',

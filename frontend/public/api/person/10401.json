@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10401,
     "name": "Rachel Johnson",
+    "first_name": "Rachel",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1728 Somerset, Maryland, USA",
     "death_info": "1808 North Carolina, USA",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9985,
       "rel_name": "Jemima WARD Johnson (MD)"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10401,
+    "name": "Rachel Johnson",
+    "children": []
+  }
 }

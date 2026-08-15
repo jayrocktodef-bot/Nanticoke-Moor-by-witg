@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11072,
     "name": "Charlie Frederick Carmean",
+    "first_name": "Charlie",
+    "middle_name": "Frederick",
+    "maiden_name": "",
+    "married_last_name": "Carmean",
+    "evidence_level": 1,
     "source_page": null,
     "birth_info": "8 Mar 1909 Sussex County, Delaware, USA",
     "death_info": "7 Jun 1987",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11047,
       "rel_name": "Ida B Carmean"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11072,
+    "name": "Charlie Frederick Carmean",
+    "children": []
+  }
 }

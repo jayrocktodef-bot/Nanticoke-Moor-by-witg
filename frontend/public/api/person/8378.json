@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8378,
     "name": "Robert James Conaway",
+    "first_name": "Robert",
+    "middle_name": "James",
+    "maiden_name": "",
+    "married_last_name": "Conaway",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "29 apr 1872 Delaware",
     "death_info": "03 Feb 1961 Millsboro, Delaware, USA",
@@ -12,28 +17,38 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F380@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8382,
       "rel_name": "Mary C Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8380,
       "rel_name": "William Thomas Conaway"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8379,
       "rel_name": "Sarah Luvenia Conaway"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10193,
       "rel_name": "Annie Conaway"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8378,
+    "name": "Robert James Conaway",
+    "children": []
+  }
 }

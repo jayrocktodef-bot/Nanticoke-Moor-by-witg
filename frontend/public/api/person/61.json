@@ -2,6 +2,11 @@
   "person": {
     "person_id": 61,
     "name": "Benjamin Durham",
+    "first_name": "Benjamin",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "carty-h2.htm",
     "birth_info": "1924",
     "death_info": "1928 (aged 3&ndash;4)",
@@ -12,12 +17,14 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10394,
       "rel_name": "Sarah Elenor Puckham"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10395,
       "rel_name": "Daniel David Durham"
     }
@@ -37,5 +44,33 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 425,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 465,
+      "person_id_secondary": 61,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: benjamin|durham|1924",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 61,
+    "name": "Benjamin Durham",
+    "children": [
+      {
+        "id": 10394,
+        "name": "Sarah Elenor Puckham",
+        "children": []
+      },
+      {
+        "id": 10395,
+        "name": "Daniel David Durham",
+        "children": []
+      }
+    ]
+  }
 }

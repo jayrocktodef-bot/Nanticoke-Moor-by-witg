@@ -2,6 +2,11 @@
   "person": {
     "person_id": 373,
     "name": "John Oakey",
+    "first_name": "John",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Oakey",
+    "evidence_level": 2,
     "source_page": "hansor.htm",
     "birth_info": "1781",
     "death_info": "9 Nov 1859 (aged 77&ndash;78)",
@@ -12,22 +17,31 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "It was this appearance of Aminidab with the Oakeys that led Douglas Deal to believe that Aminidab Hansor was Aminidab, the illegitimate son of Mary Vincent and a black servant named Aminidab of Nandua",
+      "certainty": "confirmed",
       "rel_id": 372,
       "rel_name": "Mary Vincent later"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.2% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 961,
       "rel_name": "John Mosley"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.2% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1018,
       "rel_name": "John Carney"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 373,
+    "name": "John Oakey",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9610,
     "name": "Sarah Ella Thompson",
+    "first_name": "Sarah",
+    "middle_name": "Ella",
+    "maiden_name": "",
+    "married_last_name": "Thompson",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "2 August 1880 Delaware, United States of America",
     "death_info": "8 October 1918 Millsboro, Sussex County, Delaware, United States of America",
@@ -12,16 +17,80 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9531,
       "rel_name": "Joseph Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9605,
       "rel_name": "Mary Adline Clark"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9610,
+    "name": "Sarah Ella Thompson",
+    "children": [
+      {
+        "id": 9531,
+        "name": "Joseph Harmon",
+        "children": [
+          {
+            "id": 8921,
+            "name": "Eliza Jane Morris",
+            "children": [
+              {
+                "id": 9958,
+                "name": "Emma Jane Johnson",
+                "children": [
+                  {
+                    "id": 9936,
+                    "name": "Sarah Adeline Hanzer",
+                    "children": [
+                      {
+                        "id": 9096,
+                        "name": "John C Hanzer",
+                        "children": []
+                      },
+                      {
+                        "id": 9940,
+                        "name": "Sophia J. Hanzer",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10539,
+                "name": "Samuel Roland Johnson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9605,
+        "name": "Mary Adline Clark",
+        "children": [
+          {
+            "id": 9606,
+            "name": "Robert Clark",
+            "children": []
+          },
+          {
+            "id": 9607,
+            "name": "Ellen Johnson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

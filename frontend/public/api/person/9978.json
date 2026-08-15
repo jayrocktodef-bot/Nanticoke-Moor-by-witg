@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9978,
     "name": "Jonathan Hanzer",
+    "first_name": "Jonathan",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Hanzer",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1725 Sussex Co, DE",
     "death_info": "Aft 1789 No Record",
@@ -12,28 +17,44 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4056,
       "rel_name": "William Handsor"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10067,
       "rel_name": "Sarah Handsor"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9974,
       "rel_name": "Jacob Hanzer Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10066,
       "rel_name": "Jane Handsor"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9978,
+    "name": "Jonathan Hanzer",
+    "children": [
+      {
+        "id": 4056,
+        "name": "William Handsor",
+        "children": []
+      }
+    ]
+  }
 }

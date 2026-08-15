@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8941,
     "name": "Winnie Ann Wright",
+    "first_name": "Winnie",
+    "middle_name": "Ann",
+    "maiden_name": "",
+    "married_last_name": "Wright",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1783 Oglethorpe County, Georgia",
     "death_info": "1875 Bowdon, Carroll, Georgia, United States",
@@ -12,34 +17,45 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F328@ marriage ABT 1811 VA",
+      "certainty": "confirmed",
       "rel_id": 8603,
       "rel_name": "William M Wright"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9085,
       "rel_name": "Mason J Wright"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 2463,
       "rel_name": "Mary Wright"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9083,
       "rel_name": "Asa Asbury Wright"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9084,
       "rel_name": "Melissa Wright"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8941,
+    "name": "Winnie Ann Wright",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8101,
     "name": "Aaron Terry",
+    "first_name": "Aaron",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Terry",
+    "evidence_level": 2,
     "source_page": "TerryBetty&Ray.htm",
     "birth_info": "16 Jul 1940",
     "death_info": "2 May 2014 (aged 73)",
@@ -167,5 +172,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 524,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 8101,
+      "person_id_secondary": 5360,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: aaron|terry|1940",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 8101,
+    "name": "Aaron Terry",
+    "children": []
+  }
 }

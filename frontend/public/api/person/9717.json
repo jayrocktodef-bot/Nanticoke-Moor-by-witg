@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9717,
     "name": "Aaron Street",
+    "first_name": "Aaron",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Street",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "",
     "death_info": "",
@@ -12,10 +17,91 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9966,
       "rel_name": "Shirley Bernice Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9717,
+    "name": "Aaron Street",
+    "children": [
+      {
+        "id": 9966,
+        "name": "Shirley Bernice Johnson",
+        "children": [
+          {
+            "id": 9716,
+            "name": "Margaret Johnson",
+            "children": [
+              {
+                "id": 9715,
+                "name": "Stellar Harmon",
+                "children": [
+                  {
+                    "id": 9372,
+                    "name": "Eliza J. Harmon",
+                    "children": [
+                      {
+                        "id": 10514,
+                        "name": "Simon Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10532,
+                        "name": "Lydia J. Harmon",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9965,
+            "name": "Betty Bernice Jackson",
+            "children": [
+              {
+                "id": 10725,
+                "name": "Samuel Jackson",
+                "children": []
+              },
+              {
+                "id": 9964,
+                "name": "Agnes Beatrice Wright",
+                "children": [
+                  {
+                    "id": 9373,
+                    "name": "Horace E. Wright",
+                    "children": [
+                      {
+                        "id": 8712,
+                        "name": "George Harvey Morris",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9963,
+                    "name": "Arabella B. Wright",
+                    "children": [
+                      {
+                        "id": 9936,
+                        "name": "Sarah Adeline Hanzer",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 26,
     "name": "Cornelius Ridgeway",
+    "first_name": "Cornelius",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Ridgeway",
+    "evidence_level": 2,
     "source_page": "bible-r.htm",
     "birth_info": "28 Mar 1842",
     "death_info": "31 Mar 1918 (aged 76)",
@@ -12,6 +17,7 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "Laura Ridgeway daughter of Cornelius and Rebecca Ridgeway was borned Oct. 30 (1st), 1866",
+      "certainty": "confirmed",
       "rel_id": 25,
       "rel_name": "Laura Ridgeway"
     }
@@ -694,5 +700,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 26,
+    "name": "Cornelius Ridgeway",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 81,
     "name": "Elmira Mosley",
+    "first_name": "Elmira",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 1,
     "source_page": "carty-w2.htm",
     "birth_info": "22 Jan 1831",
     "death_info": "1907 (aged 75\u201376)",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Elmira Mosley married Roscoe MILLER",
+      "certainty": "confirmed",
       "rel_id": 82,
       "rel_name": "Roscoe Miller"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1017,
       "rel_name": "Nehemiah Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 81,
+    "name": "Elmira Mosley",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 6364,
     "name": "Anthalinda Carney Loatman",
+    "first_name": "Anthalinda",
+    "middle_name": "Carney",
+    "maiden_name": "",
+    "married_last_name": "Loatman",
+    "evidence_level": 2,
     "source_page": "LoatmanJohn&Anthalinda.htm",
     "birth_info": "28 Apr 1866",
     "death_info": "3 Jan 1938 (aged 71)",
@@ -193,5 +198,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 498,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 6366,
+      "person_id_secondary": 6364,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: anthalinda|loatman|1866",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 6364,
+    "name": "Anthalinda Carney Loatman",
+    "children": []
+  }
 }

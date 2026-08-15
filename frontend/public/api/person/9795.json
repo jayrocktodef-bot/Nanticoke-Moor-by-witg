@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9795,
     "name": "Chester D. Miller",
+    "first_name": "Chester",
+    "middle_name": "D.",
+    "maiden_name": "",
+    "married_last_name": "Miller",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1947 Bridgeton, NJ",
     "death_info": "30 Aug 2016 Lehigh Valley Hospital-Cedar Crest",
@@ -12,10 +17,29 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9794,
       "rel_name": "Roland Francis Miller"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9795,
+    "name": "Chester D. Miller",
+    "children": [
+      {
+        "id": 9794,
+        "name": "Roland Francis Miller",
+        "children": [
+          {
+            "id": 9793,
+            "name": "Roland Miller",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

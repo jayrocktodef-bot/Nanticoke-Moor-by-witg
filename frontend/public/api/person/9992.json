@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9992,
     "name": "Sally Wright",
+    "first_name": "Sally",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Wright",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "4 Jun 1935",
     "death_info": "15 Jan 1998 (aged 62)",
@@ -12,40 +17,58 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F142@ marriage 14 Dec 1807 Orange, Virginia, United States",
+      "certainty": "confirmed",
       "rel_id": 8505,
       "rel_name": "Morris Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8617,
       "rel_name": "Negro Morris Thomas"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F143@ marriage 14 Dec 1807 Orange, Virginia",
+      "certainty": "confirmed",
       "rel_id": 8505,
       "rel_name": "Morris Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10085,
       "rel_name": "Elizabeth \"Betsy\" Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10083,
       "rel_name": "Wright Thomas Sr."
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F417@ marriage 1807 Orange, Virginia, United States",
+      "certainty": "confirmed",
       "rel_id": 8617,
       "rel_name": "Negro Morris Thomas"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9992,
+    "name": "Sally Wright",
+    "children": [
+      {
+        "id": 10083,
+        "name": "Wright Thomas Sr.",
+        "children": []
+      }
+    ]
+  }
 }

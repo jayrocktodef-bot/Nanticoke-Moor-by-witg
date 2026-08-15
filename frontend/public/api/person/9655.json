@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9655,
     "name": "Gary Harmon",
+    "first_name": "Gary",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1951",
     "death_info": "1972 (aged 20&ndash;21)",
@@ -12,10 +17,57 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9654,
       "rel_name": "Gary Lawrence Harmon Sr"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9655,
+    "name": "Gary Harmon",
+    "children": [
+      {
+        "id": 9654,
+        "name": "Gary Lawrence Harmon Sr",
+        "children": [
+          {
+            "id": 8929,
+            "name": "George Harrison Harmon  Jr.",
+            "children": [
+              {
+                "id": 8928,
+                "name": "Johanna Josephine Harmon",
+                "children": [
+                  {
+                    "id": 9407,
+                    "name": "David Roland Harmon Sr",
+                    "children": []
+                  },
+                  {
+                    "id": 8927,
+                    "name": "Eliza Jane Harmon",
+                    "children": [
+                      {
+                        "id": 5763,
+                        "name": "Robert Marshall Hanzer",
+                        "children": []
+                      },
+                      {
+                        "id": 10290,
+                        "name": "Harriet Ann Harmon",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 4552,
     "name": "Pearl Mosley Chappelle",
+    "first_name": "Pearl",
+    "middle_name": "Mosley",
+    "maiden_name": "",
+    "married_last_name": "Chappelle",
+    "evidence_level": 2,
     "source_page": "CarterMaeWilsonfamily.htm",
     "birth_info": "25 Jun 1882",
     "death_info": "12 Jun 1946 (aged 63)",
@@ -843,5 +848,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 460,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 4552,
+      "person_id_secondary": 4490,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: pearl|chappelle|1882",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 4552,
+    "name": "Pearl Mosley Chappelle",
+    "children": []
+  }
 }

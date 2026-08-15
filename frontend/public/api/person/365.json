@@ -2,6 +2,11 @@
   "person": {
     "person_id": 365,
     "name": "Caleb Dean",
+    "first_name": "Caleb",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Dean",
+    "evidence_level": 2,
     "source_page": "george.htm",
     "birth_info": "2 Jan 1789",
     "death_info": "6 Jul 1842 (aged 53)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "Bapt. William Burton Dean son of Caleb and Rachel Dean b. 18 Jan. 1791",
+      "certainty": "confirmed",
       "rel_id": 364,
       "rel_name": "William Burton Dean"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 365,
+    "name": "Caleb Dean",
+    "children": []
+  }
 }

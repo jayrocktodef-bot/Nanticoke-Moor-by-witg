@@ -2,6 +2,11 @@
   "person": {
     "person_id": 1690,
     "name": "Charles C. Clark",
+    "first_name": "Charles",
+    "middle_name": "C.",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 2,
     "source_page": "NMAI.AC.001.008",
     "birth_info": "about 1877 \u2014 Delaware, United States",
     "death_info": null,
@@ -12,12 +17,14 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9953,
       "rel_name": "George W. Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9954,
       "rel_name": "Harriett Hettie Johnson"
     }
@@ -89,5 +96,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 1690,
+    "name": "Charles C. Clark",
+    "children": [
+      {
+        "id": 9953,
+        "name": "George W. Clark",
+        "children": []
+      },
+      {
+        "id": 9954,
+        "name": "Harriett Hettie Johnson",
+        "children": []
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 578,
     "name": "Levin T. Harmon",
+    "first_name": "Levin",
+    "middle_name": "T.",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "photo.htm",
     "birth_info": "17 Jul 1860",
     "death_info": null,
@@ -12,12 +17,14 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 5921,
       "rel_name": "Isaac W. Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10214,
       "rel_name": "Sarah Jane Sockum"
     }
@@ -167,5 +174,34 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 578,
+    "name": "Levin T. Harmon",
+    "children": [
+      {
+        "id": 5921,
+        "name": "Isaac W. Harmon",
+        "children": []
+      },
+      {
+        "id": 10214,
+        "name": "Sarah Jane Sockum",
+        "children": [
+          {
+            "id": 9666,
+            "name": "Eunice White Ridgeway",
+            "children": [
+              {
+                "id": 10354,
+                "name": "Jacob Ridgeway",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

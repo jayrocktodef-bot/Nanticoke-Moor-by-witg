@@ -2,6 +2,11 @@
   "person": {
     "person_id": 111,
     "name": "Mary Ann Dean",
+    "first_name": "Mary",
+    "middle_name": "Ann",
+    "maiden_name": "",
+    "married_last_name": "Dean",
+    "evidence_level": 2,
     "source_page": "coker-a4.htm",
     "birth_info": "2 Jun 1928",
     "death_info": "28 May 2008 (aged 79)",
@@ -89,5 +94,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 421,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 283,
+      "person_id_secondary": 111,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: mary|dean|1928",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 111,
+    "name": "Mary Ann Dean",
+    "children": []
+  }
 }

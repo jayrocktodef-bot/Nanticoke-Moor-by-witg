@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9166,
     "name": "Naomi Thompson",
+    "first_name": "Naomi",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thompson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -12,16 +17,24 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F259@ marriage",
+      "certainty": "confirmed",
       "rel_id": 8639,
       "rel_name": "Clemmon Thompson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8679,
       "rel_name": "John W Thompson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9166,
+    "name": "Naomi Thompson",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9880,
     "name": "Theodore R. Harmon",
+    "first_name": "Theodore",
+    "middle_name": "R.",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "7 Aug 1953",
     "death_info": "27 Feb 2012 (aged 58)",
@@ -12,16 +17,80 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9591,
       "rel_name": "Mitchell John Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9108,
       "rel_name": "Josephine Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 541,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 9880,
+      "person_id_secondary": 989,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: theodore|harmon|1953",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 9880,
+    "name": "Theodore R. Harmon",
+    "children": [
+      {
+        "id": 9591,
+        "name": "Mitchell John Harmon",
+        "children": []
+      },
+      {
+        "id": 9108,
+        "name": "Josephine Harmon",
+        "children": [
+          {
+            "id": 8921,
+            "name": "Eliza Jane Morris",
+            "children": [
+              {
+                "id": 9958,
+                "name": "Emma Jane Johnson",
+                "children": [
+                  {
+                    "id": 9936,
+                    "name": "Sarah Adeline Hanzer",
+                    "children": [
+                      {
+                        "id": 9096,
+                        "name": "John C Hanzer",
+                        "children": []
+                      },
+                      {
+                        "id": 9940,
+                        "name": "Sophia J. Hanzer",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10539,
+                "name": "Samuel Roland Johnson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9028,
     "name": "Joseph L. Davis Jr.",
+    "first_name": "Joseph",
+    "middle_name": "L. Davis",
+    "maiden_name": "",
+    "married_last_name": "Jr.",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1899",
     "death_info": "3 May 1900 (aged 0&ndash;1)",
@@ -12,10 +17,40 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8613,
       "rel_name": "Joseph Henry Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9028,
+    "name": "Joseph L. Davis Jr.",
+    "children": [
+      {
+        "id": 8613,
+        "name": "Joseph Henry Davis",
+        "children": [
+          {
+            "id": 8629,
+            "name": "Jost Henry Davis",
+            "children": [
+              {
+                "id": 8809,
+                "name": "Ludwig (Lewis) Davis",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8614,
+            "name": "Katherina Davis",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

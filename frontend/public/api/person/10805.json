@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10805,
     "name": "Lester Charles Davis",
+    "first_name": "Lester",
+    "middle_name": "Charles",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1951",
     "death_info": "25 Jul 2009 (aged 57&ndash;58)",
@@ -12,40 +17,102 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F138@ marriage 3 Jun 1951 Sussex, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 10482,
       "rel_name": "Lucille Thomas"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10808,
       "rel_name": "Rosalind J Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10809,
       "rel_name": "Tyrone Evans Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10810,
       "rel_name": "Alphonso G Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10815,
       "rel_name": "Charles Morris \"Charlie\" Davis"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9140,
       "rel_name": "Minnie Mae Street"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10805,
+    "name": "Lester Charles Davis",
+    "children": [
+      {
+        "id": 10815,
+        "name": "Charles Morris \"Charlie\" Davis",
+        "children": []
+      },
+      {
+        "id": 9140,
+        "name": "Minnie Mae Street",
+        "children": [
+          {
+            "id": 9145,
+            "name": "Benton C Street",
+            "children": []
+          },
+          {
+            "id": 9144,
+            "name": "(Mary) Anne Harmon",
+            "children": [
+              {
+                "id": 10514,
+                "name": "Simon Harmon",
+                "children": [
+                  {
+                    "id": 1022,
+                    "name": "Bowen Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 7577,
+                    "name": "Lydia Clark",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 977,
     "name": "Nathaniel Harmon",
+    "first_name": "Nathaniel",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "moors_moors.aspx",
     "birth_info": "16 Jun 1806",
     "death_info": "14 Jan 1886 (aged 79)",
@@ -12,34 +17,84 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (78.8% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 428,
       "rel_name": "Nathaniel Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 1022,
       "rel_name": "Bowen Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 7577,
       "rel_name": "Lydia Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9982,
       "rel_name": "Robert Emanuel Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9983,
       "rel_name": "Rachel Anne Johnson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 977,
+    "name": "Nathaniel Harmon",
+    "children": [
+      {
+        "id": 1022,
+        "name": "Bowen Harmon",
+        "children": [
+          {
+            "id": 9982,
+            "name": "Robert Emanuel Harmon",
+            "children": []
+          },
+          {
+            "id": 9983,
+            "name": "Rachel Anne Johnson",
+            "children": [
+              {
+                "id": 9984,
+                "name": "Isaac Johnson",
+                "children": []
+              },
+              {
+                "id": 9985,
+                "name": "Jemima WARD Johnson (MD)",
+                "children": [
+                  {
+                    "id": 10401,
+                    "name": "Rachel Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7577,
+        "name": "Lydia Clark",
+        "children": []
+      }
+    ]
+  }
 }

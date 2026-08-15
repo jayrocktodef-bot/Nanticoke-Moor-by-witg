@@ -2,6 +2,11 @@
   "person": {
     "person_id": 1048,
     "name": "Burton Harmon",
+    "first_name": "Burton",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "moors_moors.aspx",
     "birth_info": null,
     "death_info": null,
@@ -12,6 +17,7 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 771,
       "rel_name": "Leston Harmon"
     }
@@ -148,5 +154,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 1048,
+    "name": "Burton Harmon",
+    "children": []
+  }
 }

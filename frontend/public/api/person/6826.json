@@ -2,6 +2,11 @@
   "person": {
     "person_id": 6826,
     "name": "Luther Barnes Norwood",
+    "first_name": "Luther",
+    "middle_name": "Barnes",
+    "maiden_name": "",
+    "married_last_name": "Norwood",
+    "evidence_level": 2,
     "source_page": "NorwoodLuther.htm",
     "birth_info": "1936",
     "death_info": "6 Mar 2013 (aged 76&ndash;77)",
@@ -37,5 +42,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 504,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 6826,
+      "person_id_secondary": 1705,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: luther|norwood|1936",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 6826,
+    "name": "Luther Barnes Norwood",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10704,
     "name": "Marshall Edward Hanzer",
+    "first_name": "Marshall",
+    "middle_name": "Edward",
+    "maiden_name": "",
+    "married_last_name": "Hanzer",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "9 Apr 1924",
     "death_info": "1 Mar 2006 (aged 81)",
@@ -12,16 +17,141 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 5763,
       "rel_name": "Robert Marshall Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10290,
       "rel_name": "Harriet Ann Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10704,
+    "name": "Marshall Edward Hanzer",
+    "children": [
+      {
+        "id": 5763,
+        "name": "Robert Marshall Hanzer",
+        "children": [
+          {
+            "id": 9096,
+            "name": "John C Hanzer",
+            "children": [
+              {
+                "id": 9969,
+                "name": "Jacob Hanzer Jr",
+                "children": [
+                  {
+                    "id": 9974,
+                    "name": "Jacob Hanzer Sr",
+                    "children": [
+                      {
+                        "id": 9978,
+                        "name": "Jonathan Hanzer",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9940,
+            "name": "Sophia J. Hanzer",
+            "children": [
+              {
+                "id": 10122,
+                "name": "John R (H) or Jonathan Harmon",
+                "children": [
+                  {
+                    "id": 9982,
+                    "name": "Robert Emanuel Harmon",
+                    "children": []
+                  },
+                  {
+                    "id": 9983,
+                    "name": "Rachel Anne Johnson",
+                    "children": [
+                      {
+                        "id": 9984,
+                        "name": "Isaac Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 9985,
+                        "name": "Jemima WARD Johnson (MD)",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10123,
+                "name": "Lavinia Lovinia Sammons",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10290,
+        "name": "Harriet Ann Harmon",
+        "children": [
+          {
+            "id": 10291,
+            "name": "Charles S Harmon",
+            "children": [
+              {
+                "id": 10260,
+                "name": "Adjoniah R. Harmon",
+                "children": [
+                  {
+                    "id": 9982,
+                    "name": "Robert Emanuel Harmon",
+                    "children": []
+                  },
+                  {
+                    "id": 9983,
+                    "name": "Rachel Anne Johnson",
+                    "children": [
+                      {
+                        "id": 9984,
+                        "name": "Isaac Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 9985,
+                        "name": "Jemima WARD Johnson (MD)",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10293,
+                "name": "Harriet Louisa Hansor - Harmon",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 10292,
+            "name": "Ann Mariah Harmon",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 4984,
     "name": ". Robert Nehemiah Davis",
+    "first_name": ".",
+    "middle_name": "Robert Nehemiah",
+    "maiden_name": "",
+    "married_last_name": "Davis",
+    "evidence_level": 2,
     "source_page": "DavisWilliamHenry.htm",
     "birth_info": "15 Mar 1924",
     "death_info": "9 Feb 1975 (aged 50)",
@@ -154,5 +159,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 471,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 4984,
+      "person_id_secondary": 4971,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: .|davis|1924",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 4984,
+    "name": ". Robert Nehemiah Davis",
+    "children": []
+  }
 }

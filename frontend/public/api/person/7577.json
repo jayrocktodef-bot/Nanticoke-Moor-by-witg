@@ -2,6 +2,11 @@
   "person": {
     "person_id": 7577,
     "name": "Lydia Clark",
+    "first_name": "Lydia",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 2,
     "source_page": "SockumeLevin&Eunice.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,42 +17,49 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F418@ marriage 1834 Sussex, Delaware, United States",
+      "certainty": "confirmed",
       "rel_id": 1022,
       "rel_name": "Bowen Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10514,
       "rel_name": "Simon Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10515,
       "rel_name": "Minta Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10516,
       "rel_name": "Ann Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 977,
       "rel_name": "Nathaniel Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10535,
       "rel_name": "Daniel Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10533,
       "rel_name": "Ellen Harmon"
     }
@@ -80,5 +92,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 7577,
+    "name": "Lydia Clark",
+    "children": []
+  }
 }

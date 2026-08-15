@@ -2,6 +2,11 @@
   "person": {
     "person_id": 2335,
     "name": "William Jones",
+    "first_name": "William",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Jones",
+    "evidence_level": 3,
     "source_page": "Probate.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,10 +17,73 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8922,
       "rel_name": "Minnie E Harmon"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 2335,
+    "name": "William Jones",
+    "children": [
+      {
+        "id": 8922,
+        "name": "Minnie E Harmon",
+        "children": [
+          {
+            "id": 8862,
+            "name": "William Harmon",
+            "children": [
+              {
+                "id": 9407,
+                "name": "David Roland Harmon Sr",
+                "children": []
+              },
+              {
+                "id": 8927,
+                "name": "Eliza Jane Harmon",
+                "children": [
+                  {
+                    "id": 5763,
+                    "name": "Robert Marshall Hanzer",
+                    "children": [
+                      {
+                        "id": 9096,
+                        "name": "John C Hanzer",
+                        "children": []
+                      },
+                      {
+                        "id": 9940,
+                        "name": "Sophia J. Hanzer",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10290,
+                    "name": "Harriet Ann Harmon",
+                    "children": [
+                      {
+                        "id": 10291,
+                        "name": "Charles S Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10292,
+                        "name": "Ann Mariah Harmon",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

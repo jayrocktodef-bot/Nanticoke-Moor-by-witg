@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9709,
     "name": "Alan Fulton Morris",
+    "first_name": "Alan",
+    "middle_name": "Fulton",
+    "maiden_name": "",
+    "married_last_name": "Morris",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "",
     "death_info": "",
@@ -12,10 +17,90 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8713,
       "rel_name": "Edward Sylvester Morris"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9709,
+    "name": "Alan Fulton Morris",
+    "children": [
+      {
+        "id": 8713,
+        "name": "Edward Sylvester Morris",
+        "children": [
+          {
+            "id": 8921,
+            "name": "Eliza Jane Morris",
+            "children": [
+              {
+                "id": 9958,
+                "name": "Emma Jane Johnson",
+                "children": [
+                  {
+                    "id": 9936,
+                    "name": "Sarah Adeline Hanzer",
+                    "children": [
+                      {
+                        "id": 9096,
+                        "name": "John C Hanzer",
+                        "children": []
+                      },
+                      {
+                        "id": 9940,
+                        "name": "Sophia J. Hanzer",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10539,
+                "name": "Samuel Roland Johnson",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8911,
+            "name": "David Wesley Morris",
+            "children": [
+              {
+                "id": 8712,
+                "name": "George Harvey Morris",
+                "children": [
+                  {
+                    "id": 8683,
+                    "name": "Josiah Joseph Morris",
+                    "children": [
+                      {
+                        "id": 8617,
+                        "name": "Negro Morris Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 8910,
+                        "name": "Leticia Morris",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10538,
+                "name": "Agnes V Wright",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

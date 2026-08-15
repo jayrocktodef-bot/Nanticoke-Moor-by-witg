@@ -2,6 +2,11 @@
   "person": {
     "person_id": 1022,
     "name": "Bowen Harmon",
+    "first_name": "Bowen",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Harmon",
+    "evidence_level": 2,
     "source_page": "moors_moors.aspx",
     "birth_info": null,
     "death_info": null,
@@ -12,60 +17,70 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F418@ marriage 1834 Sussex, Delaware, United States",
+      "certainty": "confirmed",
       "rel_id": 7577,
       "rel_name": "Lydia Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10514,
       "rel_name": "Simon Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10515,
       "rel_name": "Minta Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10516,
       "rel_name": "Ann Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 977,
       "rel_name": "Nathaniel Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10535,
       "rel_name": "Daniel Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10533,
       "rel_name": "Ellen Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9982,
       "rel_name": "Robert Emanuel Harmon"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9983,
       "rel_name": "Rachel Anne Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 1058,
       "rel_name": "Emanuel Harmon"
     }
@@ -98,5 +113,39 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 1022,
+    "name": "Bowen Harmon",
+    "children": [
+      {
+        "id": 9982,
+        "name": "Robert Emanuel Harmon",
+        "children": []
+      },
+      {
+        "id": 9983,
+        "name": "Rachel Anne Johnson",
+        "children": [
+          {
+            "id": 9984,
+            "name": "Isaac Johnson",
+            "children": []
+          },
+          {
+            "id": 9985,
+            "name": "Jemima WARD Johnson (MD)",
+            "children": [
+              {
+                "id": 10401,
+                "name": "Rachel Johnson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

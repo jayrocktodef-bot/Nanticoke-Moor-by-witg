@@ -2,6 +2,11 @@
   "person": {
     "person_id": 8207,
     "name": "Arlie Benjamin Clark",
+    "first_name": "Arlie",
+    "middle_name": "Benjamin",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "21 Jun 1925 Milton, Sussex, Delaware USA",
     "death_info": "11 May 1998 Beebe Medical Center, Lewes, Sussex, Delaware, USA",
@@ -12,16 +17,70 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8193,
       "rel_name": "John Wesley Clark Jr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 8194,
       "rel_name": "Lulu Rae Clark"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 8207,
+    "name": "Arlie Benjamin Clark",
+    "children": [
+      {
+        "id": 8193,
+        "name": "John Wesley Clark Jr",
+        "children": [
+          {
+            "id": 9622,
+            "name": "John Wesley Clark Sr",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 8194,
+        "name": "Lulu Rae Clark",
+        "children": [
+          {
+            "id": 3588,
+            "name": "Charles Edward Carey",
+            "children": []
+          },
+          {
+            "id": 9617,
+            "name": "Della Mae Ridgeway",
+            "children": [
+              {
+                "id": 9620,
+                "name": "Louisa C Sammons",
+                "children": [
+                  {
+                    "id": 2150,
+                    "name": "Isaac Sammons",
+                    "children": [
+                      {
+                        "id": 368,
+                        "name": "William Sammons",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

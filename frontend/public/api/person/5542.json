@@ -2,6 +2,11 @@
   "person": {
     "person_id": 5542,
     "name": "Sarah Beatrice Morris Durham",
+    "first_name": "Sarah",
+    "middle_name": "Beatrice Morris",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "DurhamSamuel&Sarah.htm",
     "birth_info": "1872",
     "death_info": "1965 (aged 92&ndash;93)",
@@ -37,5 +42,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 488,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 5542,
+      "person_id_secondary": 353,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: sarah|durham|1872",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 5542,
+    "name": "Sarah Beatrice Morris Durham",
+    "children": []
+  }
 }

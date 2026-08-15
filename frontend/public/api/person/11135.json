@@ -2,6 +2,11 @@
   "person": {
     "person_id": 11135,
     "name": "E Ingram Thomas",
+    "first_name": "E",
+    "middle_name": "Ingram",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": "1870",
     "death_info": "1927 (aged 56&ndash;57)",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "parent_of",
       "evidence_text": "Restored GEDCOM parent-child record",
+      "certainty": "confirmed",
       "rel_id": 11136,
       "rel_name": "R Ingram Thomas"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11135,
+    "name": "E Ingram Thomas",
+    "children": []
+  }
 }

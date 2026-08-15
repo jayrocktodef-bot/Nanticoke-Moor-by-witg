@@ -2,6 +2,11 @@
   "person": {
     "person_id": 192,
     "name": "Elisha Durham",
+    "first_name": "Elisha",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "concl-j1.htm",
     "birth_info": "25 Aug 1864",
     "death_info": "4 Mar 1942 (aged 77)",
@@ -12,6 +17,7 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "If this is the case then it produces another interesting note: Jeremiah and Elizabeth's daughter, Esther Concilor, married a Jesse Dean in 1814 but that Jesse (relationship to our Jesse still unknown)",
+      "certainty": "confirmed",
       "rel_id": 191,
       "rel_name": "when Esther"
     }
@@ -96,5 +102,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 192,
+    "name": "Elisha Durham",
+    "children": []
+  }
 }

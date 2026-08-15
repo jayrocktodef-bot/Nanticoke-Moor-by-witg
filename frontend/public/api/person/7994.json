@@ -2,6 +2,11 @@
   "person": {
     "person_id": 7994,
     "name": "Howard C. Wilson Jr.",
+    "first_name": "Howard",
+    "middle_name": "C. Wilson",
+    "maiden_name": "",
+    "married_last_name": "Jr.",
+    "evidence_level": 2,
     "source_page": "WilsonHowardCliftonJr.htm",
     "birth_info": "1915",
     "death_info": "20 Jan 1916 (aged 0&ndash;1)",
@@ -440,5 +445,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 522,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 7994,
+      "person_id_secondary": 4541,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: howard|jr.|1915",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 7994,
+    "name": "Howard C. Wilson Jr.",
+    "children": []
+  }
 }

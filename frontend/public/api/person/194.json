@@ -2,6 +2,11 @@
   "person": {
     "person_id": 194,
     "name": "Daniel Durham",
+    "first_name": "Daniel",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Durham",
+    "evidence_level": 2,
     "source_page": "concl-w1.htm",
     "birth_info": "18 Sep 1885",
     "death_info": "20 Nov 1953 (aged 68)",
@@ -12,12 +17,14 @@
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1003,
       "rel_name": "Samuel Durham"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 1009,
       "rel_name": "Marvel Durham"
     }
@@ -115,5 +122,11 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 194,
+    "name": "Daniel Durham",
+    "children": []
+  }
 }

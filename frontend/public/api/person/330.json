@@ -2,6 +2,11 @@
   "person": {
     "person_id": 330,
     "name": "This child",
+    "first_name": "This",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "child",
+    "evidence_level": 2,
     "source_page": "durhm-j1.htm",
     "birth_info": "16 Jan 1869",
     "death_info": "6 Feb 1869 (aged 21 days)",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "In 1783 Rebecca Durham (later mentioned in John's will as the guardian of his 2 grandchildren - children of his deceased son, John ) appeared in Kent Co. Orphans Court records petitioning for guardian",
+      "certainty": "confirmed",
       "rel_id": 331,
       "rel_name": "deceased John Durham Jr"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 330,
+    "name": "This child",
+    "children": [
+      {
+        "id": 331,
+        "name": "deceased John Durham Jr",
+        "children": []
+      }
+    ]
+  }
 }

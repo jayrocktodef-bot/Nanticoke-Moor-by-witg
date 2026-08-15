@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9606,
     "name": "Robert Clark",
+    "first_name": "Robert",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Dec 1892",
     "death_info": "3 May 1893 Indian River Hundred, Sussex, Delaware, United States-burial in Harmony Cemetery Millsboro, Sussex, Delaware",
@@ -12,22 +17,31 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F472@ marriage  Sussex County, Delaware, USA",
+      "certainty": "confirmed",
       "rel_id": 9607,
       "rel_name": "Ellen Johnson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9611,
       "rel_name": "Parnelpa A \"Penelope\" Clark"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9605,
       "rel_name": "Mary Adline Clark"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9606,
+    "name": "Robert Clark",
+    "children": []
+  }
 }

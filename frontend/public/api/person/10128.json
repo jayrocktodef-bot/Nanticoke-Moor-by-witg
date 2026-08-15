@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10128,
     "name": "John Henry Mosley",
+    "first_name": "John",
+    "middle_name": "Henry",
+    "maiden_name": "",
+    "married_last_name": "Mosley",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1900 Delaware",
     "death_info": "10 October 1964",
@@ -12,40 +17,120 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F372@ marriage",
+      "certainty": "confirmed",
       "rel_id": 10689,
       "rel_name": "Anna Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10795,
       "rel_name": "William C Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10687,
       "rel_name": "Ida Coker"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10129,
       "rel_name": "Doris Ann Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 341,
       "rel_name": "Dorothy Carney"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4768,
       "rel_name": "Elizabeth Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 10128,
+    "name": "John Henry Mosley",
+    "children": [
+      {
+        "id": 4768,
+        "name": "Elizabeth Mosley",
+        "children": [
+          {
+            "id": 9096,
+            "name": "John C Hanzer",
+            "children": [
+              {
+                "id": 9969,
+                "name": "Jacob Hanzer Jr",
+                "children": [
+                  {
+                    "id": 9974,
+                    "name": "Jacob Hanzer Sr",
+                    "children": [
+                      {
+                        "id": 9978,
+                        "name": "Jonathan Hanzer",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9940,
+            "name": "Sophia J. Hanzer",
+            "children": [
+              {
+                "id": 10122,
+                "name": "John R (H) or Jonathan Harmon",
+                "children": [
+                  {
+                    "id": 9982,
+                    "name": "Robert Emanuel Harmon",
+                    "children": []
+                  },
+                  {
+                    "id": 9983,
+                    "name": "Rachel Anne Johnson",
+                    "children": [
+                      {
+                        "id": 9984,
+                        "name": "Isaac Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 9985,
+                        "name": "Jemima WARD Johnson (MD)",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10123,
+                "name": "Lavinia Lovinia Sammons",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

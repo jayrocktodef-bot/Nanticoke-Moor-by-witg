@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9492,
     "name": "Peggy Ridgeway",
+    "first_name": "Peggy",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Ridgeway",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "6 Dec 1932",
     "death_info": "29 Mar 2008 (aged 75)",
@@ -12,22 +17,100 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9491,
       "rel_name": "Jackie Melvin Johnson Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10135,
       "rel_name": "Helen Johnson"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F113@ marriage Abt 2000",
+      "certainty": "confirmed",
       "rel_id": 10131,
       "rel_name": "Christopher Ridgeway"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9492,
+    "name": "Peggy Ridgeway",
+    "children": [
+      {
+        "id": 9491,
+        "name": "Jackie Melvin Johnson Sr",
+        "children": [
+          {
+            "id": 3722,
+            "name": "Franklin Johnson",
+            "children": [
+              {
+                "id": 9490,
+                "name": "Reburn Johnson",
+                "children": [
+                  {
+                    "id": 8990,
+                    "name": "Isaiah Johnson",
+                    "children": [
+                      {
+                        "id": 2366,
+                        "name": "William Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 8766,
+                        "name": "Sarah A Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10135,
+        "name": "Helen Johnson",
+        "children": [
+          {
+            "id": 10126,
+            "name": "Rosella Mosley",
+            "children": [
+              {
+                "id": 10125,
+                "name": "Harry Charles Mosley",
+                "children": [
+                  {
+                    "id": 4768,
+                    "name": "Elizabeth Mosley",
+                    "children": [
+                      {
+                        "id": 9096,
+                        "name": "John C Hanzer",
+                        "children": []
+                      },
+                      {
+                        "id": 9940,
+                        "name": "Sophia J. Hanzer",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

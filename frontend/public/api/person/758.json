@@ -2,6 +2,11 @@
   "person": {
     "person_id": 758,
     "name": "Lilly Johnson",
+    "first_name": "Lilly",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Johnson",
+    "evidence_level": 2,
     "source_page": "wrightp2.htm",
     "birth_info": null,
     "death_info": null,
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Lilly Johnson who married Bud Davis",
+      "certainty": "confirmed",
       "rel_id": 759,
       "rel_name": "Bud Davis"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 758,
+    "name": "Lilly Johnson",
+    "children": []
+  }
 }

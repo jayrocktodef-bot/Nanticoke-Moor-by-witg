@@ -2,6 +2,11 @@
   "person": {
     "person_id": 10503,
     "name": "William E Hanzer",
+    "first_name": "William",
+    "middle_name": "E",
+    "maiden_name": "",
+    "married_last_name": "Hanzer",
+    "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1863 Milton, Sussex, Delaware, USA",
     "death_info": "20 May 1940 Milford, Sussex, Delaware, USA",
@@ -12,112 +17,147 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F297@ marriage",
+      "certainty": "confirmed",
       "rel_id": 9721,
       "rel_name": "Maria Elizabeth Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10507,
       "rel_name": "Louis Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10508,
       "rel_name": "William O Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9722,
       "rel_name": "James Walter Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10509,
       "rel_name": "Ernest Everett Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10511,
       "rel_name": "Weldon Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10512,
       "rel_name": "Lester Melvin Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10513,
       "rel_name": "Charles Harold hanzer Sr."
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10513,
       "rel_name": "Charles Harold hanzer Sr."
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F298@ marriage",
+      "certainty": "confirmed",
       "rel_id": 9721,
       "rel_name": "Maria Elizabeth Morris"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10507,
       "rel_name": "Louis Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10508,
       "rel_name": "William O Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9722,
       "rel_name": "James Walter Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10509,
       "rel_name": "Ernest Everett Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10511,
       "rel_name": "Weldon Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10512,
       "rel_name": "Lester Melvin Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10513,
       "rel_name": "Charles Harold hanzer Sr."
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10513,
       "rel_name": "Charles Harold hanzer Sr."
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 544,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 10503,
+      "person_id_secondary": 9939,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: william|hanzer|1863",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 10503,
+    "name": "William E Hanzer",
+    "children": []
+  }
 }

@@ -2,6 +2,11 @@
   "person": {
     "person_id": 3238,
     "name": "Loretta Sammons Gourley",
+    "first_name": "Loretta",
+    "middle_name": "Sammons",
+    "maiden_name": "",
+    "married_last_name": "Gourley",
+    "evidence_level": 2,
     "source_page": "BloomsburyMeeting9May98.htm",
     "birth_info": "1938",
     "death_info": "2020 (aged 81&ndash;82)",
@@ -141,5 +146,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 499,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 6416,
+      "person_id_secondary": 3238,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: loretta|gourley|1938",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 3238,
+    "name": "Loretta Sammons Gourley",
+    "children": []
+  }
 }

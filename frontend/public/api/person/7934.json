@@ -2,6 +2,11 @@
   "person": {
     "person_id": 7934,
     "name": "Charles Wright",
+    "first_name": "Charles",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Wright",
+    "evidence_level": 2,
     "source_page": "Wright%20Brothers%20Ontario.htm",
     "birth_info": "28 Nov 1906",
     "death_info": "8 Jul 1935 (aged 28)",
@@ -24,5 +29,22 @@
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [
+    {
+      "id": 520,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 7934,
+      "person_id_secondary": 2926,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: charles|wright|1906",
+      "created_at": "2026-08-14 03:42:34"
+    }
+  ],
+  "ancestry": {
+    "id": 7934,
+    "name": "Charles Wright",
+    "children": []
+  }
 }

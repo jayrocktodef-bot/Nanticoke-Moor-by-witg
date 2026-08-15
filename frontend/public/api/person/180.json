@@ -2,6 +2,11 @@
   "person": {
     "person_id": 180,
     "name": "George Clark",
+    "first_name": "George",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Clark",
+    "evidence_level": 2,
     "source_page": "concl-h1.htm",
     "birth_info": "unknown",
     "death_info": "Jul 1854",
@@ -12,10 +17,17 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Mary Durham who married George Clark",
+      "certainty": "confirmed",
       "rel_id": 179,
       "rel_name": "Mary Durham"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 180,
+    "name": "George Clark",
+    "children": []
+  }
 }

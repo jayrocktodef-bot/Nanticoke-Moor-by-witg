@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9563,
     "name": "Temperance Jackson",
+    "first_name": "Temperance",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Jackson",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "11 Oct 1839",
     "death_info": "7 Mar 1915 (aged 75)",
@@ -12,16 +17,69 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9564,
       "rel_name": "Robert Jackson"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 6480,
       "rel_name": "Mary Jackson"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9563,
+    "name": "Temperance Jackson",
+    "children": [
+      {
+        "id": 9564,
+        "name": "Robert Jackson",
+        "children": []
+      },
+      {
+        "id": 6480,
+        "name": "Mary Jackson",
+        "children": [
+          {
+            "id": 9519,
+            "name": "Harry Jackson",
+            "children": [
+              {
+                "id": 9149,
+                "name": "Mary A. Jackson",
+                "children": [
+                  {
+                    "id": 8921,
+                    "name": "Eliza Jane Morris",
+                    "children": [
+                      {
+                        "id": 9958,
+                        "name": "Emma Jane Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 10539,
+                        "name": "Samuel Roland Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 490,
+            "name": "Elizabeth Jackson",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 }

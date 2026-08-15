@@ -2,6 +2,11 @@
   "person": {
     "person_id": 527,
     "name": "Mosley Thomas",
+    "first_name": "Mosley",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 2,
     "source_page": "morganj4.htm",
     "birth_info": "1843",
     "death_info": "1925 (aged 81&ndash;82)",
@@ -12,22 +17,37 @@
     {
       "relationship_type": "spouse",
       "evidence_text": "Thomas Mosley married Leticia Hughes",
+      "certainty": "confirmed",
       "rel_id": 528,
       "rel_name": "Leticia Hughes"
     },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
       "rel_id": 993,
       "rel_name": "Nathan Mosley"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10624,
       "rel_name": "Eliza Mosley"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 527,
+    "name": "Mosley Thomas",
+    "children": [
+      {
+        "id": 10624,
+        "name": "Eliza Mosley",
+        "children": []
+      }
+    ]
+  }
 }

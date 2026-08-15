@@ -2,6 +2,11 @@
   "person": {
     "person_id": 9898,
     "name": "Chester R Thomas",
+    "first_name": "Chester",
+    "middle_name": "R",
+    "maiden_name": "",
+    "married_last_name": "Thomas",
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
     "death_info": "2025",
@@ -12,10 +17,23 @@
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 9523,
       "rel_name": "George Thomas"
     }
   ],
   "photos": [],
-  "obituaries": []
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 9898,
+    "name": "Chester R Thomas",
+    "children": [
+      {
+        "id": 9523,
+        "name": "George Thomas",
+        "children": []
+      }
+    ]
+  }
 }
