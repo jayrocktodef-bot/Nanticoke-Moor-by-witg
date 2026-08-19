@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_132">
+    <name>
+      <nameForm>
+        <fullText>Lethia Harriett Coker</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_24"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>7 Jul 1849</original>
+      </date>
+      <source description="#s_24"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>16 Aug 1880 (aged 31)</original>
+      </date>
+      <source description="#s_24"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_24">
+    <about resource="coker-j2.htm"/>
+    <title>Record: coker-j2.htm</title>
+  </sourceDescription>
+</gedcomx>

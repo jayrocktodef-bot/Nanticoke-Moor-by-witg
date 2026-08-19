@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9367,
+      "person_id": 9983,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Rachel Anne Johnson",
+      "citations": [
+        {
+          "citation_id": 9361,
+          "fact_id": 9367,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9368,
+      "person_id": 9983,
+      "fact_type": "Birth",
+      "date_string": "3 Jul 1777 Coventry Parish, Somerset, Maryland",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9362,
+          "fact_id": 9368,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9369,
+      "person_id": 9983,
+      "fact_type": "Death",
+      "date_string": "abt 1850 Indian River Hundred, Sussex County, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9363,
+          "fact_id": 9369,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -26,7 +85,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9985,
-      "rel_name": "Jemima WARD Johnson (MD)"
+      "rel_name": "Jemima WARD Johnson"
     },
     {
       "relationship_type": "spouse",
@@ -61,7 +120,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10122,
-      "rel_name": "John R (H) or Jonathan Harmon"
+      "rel_name": "John R or Jonathan Harmon"
     },
     {
       "relationship_type": "child_of",
@@ -134,7 +193,7 @@
       },
       {
         "id": 9985,
-        "name": "Jemima WARD Johnson (MD)",
+        "name": "Jemima WARD Johnson",
         "children": [
           {
             "id": 10401,

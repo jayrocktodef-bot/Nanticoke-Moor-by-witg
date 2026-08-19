@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4650">
+    <name>
+      <nameForm>
+        <fullText>Lillian Johnson Davis</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_273"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_273"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>3 Feb 1957</original>
+      </date>
+      <source description="#s_273"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_273">
+    <about resource="DavisRobert&amp;Lillie&amp;son.htm"/>
+    <title>Record: DavisRobert&amp;Lillie&amp;son.htm</title>
+  </sourceDescription>
+</gedcomx>

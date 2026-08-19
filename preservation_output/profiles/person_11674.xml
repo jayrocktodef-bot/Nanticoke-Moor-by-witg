@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11674">
+    <name>
+      <nameForm>
+        <fullText>Francis Lawrence Jackson was the</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_73"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11674"/>
+    <person2 resource="#p_11675"/>
+    <note>
+      <text>Evidence: Francis Lawrence Jackson was the son of  Levin Jackson  and  Caroline Coker . He was born in Wilmington DE. on 7 April,</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_73">
+    <about resource="jacksonf.htm"/>
+    <title>Record: jacksonf.htm</title>
+  </sourceDescription>
+</gedcomx>

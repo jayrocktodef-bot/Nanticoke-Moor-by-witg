@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_445">
+    <name>
+      <nameForm>
+        <fullText>Lynn Christine Jackson.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_73"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_73"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>22 Feb 1964</original>
+      </date>
+      <source description="#s_73"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_73">
+    <about resource="jacksonf.htm"/>
+    <title>Record: jacksonf.htm</title>
+  </sourceDescription>
+</gedcomx>

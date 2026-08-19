@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11647">
+    <name>
+      <nameForm>
+        <fullText>Elizabeth was the</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_642"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11647"/>
+    <person2 resource="#p_244"/>
+    <note>
+      <text>Evidence: Elizabeth was the daughter of  Isabel Hewes . Sometime prior to</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_642">
+    <about resource="hewes-e1.htm"/>
+    <title>Record: hewes-e1.htm</title>
+  </sourceDescription>
+</gedcomx>

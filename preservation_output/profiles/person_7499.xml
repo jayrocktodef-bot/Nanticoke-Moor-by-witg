@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7499">
+    <name>
+      <nameForm>
+        <fullText>. John Street</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_581"/>
+    <source description="#s_667"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_581"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1719</original>
+      </date>
+      <source description="#s_581"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_667">
+    <about resource="https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"/>
+    <title>Obituary: Marguerite J. Brown ~1928-2016</title>
+  </sourceDescription>
+  <sourceDescription id="s_581">
+    <about resource="StreetDavidP.htm"/>
+    <title>Record: StreetDavidP.htm</title>
+  </sourceDescription>
+</gedcomx>

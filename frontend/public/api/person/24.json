@@ -13,7 +13,73 @@
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/52561921/theodore-carty",
     "dataset_source": "lynncjackson"
   },
+  "facts": [
+    {
+      "fact_id": 37,
+      "person_id": 24,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Theodore Carty",
+      "citations": [
+        {
+          "citation_id": 37,
+          "fact_id": 37,
+          "source_id": 2,
+          "evidence_text": null,
+          "source_title": "Record: bible-j.htm",
+          "source_url": "bible-j.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 38,
+      "person_id": 24,
+      "fact_type": "Birth",
+      "date_string": "16 Nov 1854",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 38,
+          "fact_id": 38,
+          "source_id": 2,
+          "evidence_text": null,
+          "source_title": "Record: bible-j.htm",
+          "source_url": "bible-j.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 39,
+      "person_id": 24,
+      "fact_type": "Death",
+      "date_string": "10 Feb 1857 (aged 2)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 39,
+          "fact_id": 39,
+          "source_id": 2,
+          "evidence_text": null,
+          "source_title": "Record: bible-j.htm",
+          "source_url": "bible-j.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
   "relationships": [
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 973,
+      "rel_name": "Theodore Harmon"
+    },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",

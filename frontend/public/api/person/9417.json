@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8768,
+      "person_id": 9417,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Edith Gertrude Morris",
+      "citations": [
+        {
+          "citation_id": 8762,
+          "fact_id": 8768,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8769,
+      "person_id": 9417,
+      "fact_type": "Birth",
+      "date_string": "22 August 1909 Kent County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8763,
+          "fact_id": 8769,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8770,
+      "person_id": 9417,
+      "fact_type": "Death",
+      "date_string": "13 April 1976 United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8764,
+          "fact_id": 8770,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -29,21 +88,7 @@
       "rel_name": "Bertha Caroline Sammons"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9417,
-      "photo_id": 5412,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "\"Jake\"  & Bertha Caroline, rd Anna Beatrice Johnson, Luther Jr., Luther Sr., C. Morris Sammons\", then married Perk Ridgeway, Father was my great uncle, Alfred Morris, I think his father, Edith Sammons-Morris, Bertha C Morris Sammons' mother, was a, sister to Ulysses, Mildred Sammons Sammons- married Alfred, can't remember her first name., Jackie Johnson, a brother, to Nehemiah Sammons., of Mae Wilson Collins, Bertha C. Morris, Anita Ridgeway Sammons, & sons Aaron, Luther and Kyle, of Birdella Newhard, Beatrice Johnson Sammons, of Luther Sammons, SP VAR, = spelling varies, | N-R | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Caroline",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_SammonsLutherAncestry.GIF",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsLuther.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

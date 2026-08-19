@@ -13,48 +13,67 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 9506,
       "person_id": 10109,
-      "photo_id": 2630,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Wright Clark, Louise Clark & daughter, Anna Johnson, Dorsey Johnson, Anna Clark Johnson, | N-R | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Clark",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ClarkEdnaWrightAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ClarkLouiseWright&dauAnna.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Louise Clark",
+      "citations": [
+        {
+          "citation_id": 9500,
+          "fact_id": 9506,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     },
     {
+      "fact_id": 9507,
       "person_id": 10109,
-      "photo_id": 2631,
-      "title_or_caption": "Louise Wright Clark Photo courtesy of Frank W. PorterIII \"A Photograph...",
-      "subject_names": "Clark Louise Wright & dau Anna",
-      "maiden_name": "Clark",
-      "married_surname": "Johnson",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_JohnsonDorsey&Anna&CWright.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ClarkLouiseWright&dauAnna.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Birth",
+      "date_string": "abt 1921 Georgia",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9501,
+          "fact_id": 9507,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     },
     {
+      "fact_id": 9508,
       "person_id": 10109,
-      "photo_id": 2632,
-      "title_or_caption": "Louise Wright Clark Photo courtesy of Frank W. PorterIII \"A Photograph...",
-      "subject_names": "Clark Louise Wright & dau Anna",
-      "maiden_name": "Clark",
-      "married_surname": "Johnson",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ClarkEdnaWrightAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ClarkLouiseWright&dauAnna.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Death",
+      "date_string": "1 Jan 1999 Dayton, Montgomery, Ohio, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9502,
+          "fact_id": 9508,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_10334">
+    <name>
+      <nameForm>
+        <fullText>William Russell Wyniaco Clark</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_622"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>30 Nov 1855</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>8 Oct 1928 (aged 72, Washington, D.C.)</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_10334"/>
+    <person2 resource="#p_10335"/>
+    <note>
+      <text>Evidence: GEDCOM Family @F428@ marriage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9350"/>
+    <person2 resource="#p_10334"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10334"/>
+    <person2 resource="#p_10336"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10421"/>
+    <person2 resource="#p_10334"/>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11252"/>
+    <person2 resource="#p_10334"/>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10334"/>
+    <person2 resource="#p_1687"/>
+  </relationship>
+  <sourceDescription id="s_622">
+    <about resource="Davis Family Tree.ged"/>
+    <title>Record: Davis Family Tree.ged</title>
+  </sourceDescription>
+</gedcomx>

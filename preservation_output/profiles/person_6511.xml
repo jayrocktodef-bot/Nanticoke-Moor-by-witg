@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6511">
+    <name>
+      <nameForm>
+        <fullText>Walter &amp; Myrtle</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_455"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>25 Mar 1925</original>
+      </date>
+      <source description="#s_455"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>3 Jan 2001 (aged 75)</original>
+      </date>
+      <source description="#s_455"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_455">
+    <about resource="MorganHarryN.htm"/>
+    <title>Record: MorganHarryN.htm</title>
+  </sourceDescription>
+</gedcomx>

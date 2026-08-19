@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_340">
+    <name>
+      <nameForm>
+        <fullText>Helen Carney</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_54"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>4 Jan 1909</original>
+      </date>
+      <source description="#s_54"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>3 Feb 1995 (aged 86)</original>
+      </date>
+      <source description="#s_54"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_340"/>
+    <person2 resource="#p_245"/>
+    <note>
+      <text>Evidence: Helen Carney married William Durham</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_340"/>
+    <person2 resource="#p_1018"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (78.3% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_340"/>
+    <person2 resource="#p_1018"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (78.3% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_340"/>
+    <person2 resource="#p_245"/>
+    <note>
+      <text>Evidence: Helen Carney married William Durham</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_340"/>
+    <person2 resource="#p_245"/>
+    <note>
+      <text>Evidence: Helen Carney married William Durham</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_340"/>
+    <person2 resource="#p_245"/>
+    <note>
+      <text>Evidence: Helen Carney married William Durham</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_340"/>
+    <person2 resource="#p_245"/>
+    <note>
+      <text>Evidence: Helen Carney married William Durham</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_54">
+    <about resource="durhm-m1.htm"/>
+    <title>Record: durhm-m1.htm</title>
+  </sourceDescription>
+</gedcomx>

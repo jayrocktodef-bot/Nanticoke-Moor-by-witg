@@ -13,6 +13,65 @@
     "notes": "Daughter of Hattie Morris of Sussex County, DE; married Morris Davis | Verified via FindAGrave: https://www.findagrave.com/memorial/168454091/hester-davis (Buried at Jerusalem AME Church Cemetery)",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 2162,
+      "person_id": 2645,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Hester Morris Davis",
+      "citations": [
+        {
+          "citation_id": 2156,
+          "fact_id": 2162,
+          "source_id": 148,
+          "evidence_text": null,
+          "source_title": "Record: DavisHesterMorris.htm",
+          "source_url": "DavisHesterMorris.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 2163,
+      "person_id": 2645,
+      "fact_type": "Birth",
+      "date_string": "16 Aug 1853",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 2157,
+          "fact_id": 2163,
+          "source_id": 148,
+          "evidence_text": null,
+          "source_title": "Record: DavisHesterMorris.htm",
+          "source_url": "DavisHesterMorris.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 2164,
+      "person_id": 2645,
+      "fact_type": "Death",
+      "date_string": "4 Oct 1916 (aged 63)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 2158,
+          "fact_id": 2164,
+          "source_id": 148,
+          "evidence_text": null,
+          "source_title": "Record: DavisHesterMorris.htm",
+          "source_url": "DavisHesterMorris.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "parent_of",
@@ -22,58 +81,18 @@
       "rel_name": "Hershel Davis"
     }
   ],
-  "photos": [
-    {
-      "person_id": 2645,
-      "photo_id": 3137,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Davis & Family, daughter of Hattie Morris, of Sussex County, Hersel Davis, son of Hester Morris Davis, of Hersel Davis, | N-R | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Family",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHerselAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisHesterMorris.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 2645,
-      "photo_id": 3139,
-      "title_or_caption": "Hersel (Hershel) Davis Ancestry & Pedigree Chart",
-      "subject_names": "Hersel Davis Ancestry",
-      "maiden_name": "Davis",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHerselAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisHesterMorris.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 2645,
-      "photo_id": 5944,
-      "title_or_caption": "Hester (Morris) Davis & Family \u2014 daughter of Hattie Morris of Sussex County, Delaware",
-      "subject_names": "Hester Morris Davis",
-      "maiden_name": "Morris",
-      "married_surname": "Davis",
-      "location": null,
-      "approximate_year": null,
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHesterMorris.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisHesterMorris.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [
     {
-      "id": 526,
+      "id": 5190,
       "category": "Duplicate Candidate",
       "severity": "warning",
       "person_id": 8185,
       "person_id_secondary": 2645,
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: hester|davis|1853",
-      "created_at": "2026-08-14 03:42:34"
+      "created_at": "2026-08-19 00:14:46"
     }
   ],
   "ancestry": {

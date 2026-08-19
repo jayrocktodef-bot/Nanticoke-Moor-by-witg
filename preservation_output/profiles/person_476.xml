@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_476">
+    <name>
+      <nameForm>
+        <fullText>Mamie D. Morgan</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_77"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>8 Dec 1891</original>
+      </date>
+      <source description="#s_77"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>19 Aug 1900 (aged 8)</original>
+      </date>
+      <source description="#s_77"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_77">
+    <about resource="manship.htm"/>
+    <title>Record: manship.htm</title>
+  </sourceDescription>
+</gedcomx>

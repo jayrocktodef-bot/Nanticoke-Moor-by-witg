@@ -13,35 +13,67 @@
     "notes": "Ingested from preserved MainMenu.html record | Verified via FindAGrave: https://www.findagrave.com/memorial/8221441/eva-martin",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 1504,
       "person_id": 2114,
-      "photo_id": 2671,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "| D, | E-L, | M, | N-R, | S-Z, History and Genealogy of the, Native American Isolate Communities, of Kent County, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "D",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_Photo_20Survey230.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/PhotographicSurvey-page9.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Isolate Communities",
+      "citations": [
+        {
+          "citation_id": 1504,
+          "fact_id": 1504,
+          "source_id": 132,
+          "evidence_text": null,
+          "source_title": "Record: MainMenu.html",
+          "source_url": "MainMenu.html",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
+      "fact_id": 1505,
       "person_id": 2114,
-      "photo_id": 5923,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Frank W. Porter III, by permission of FWP III, | D, | E-L, | M, | N-R, | S-Z, History and Genealogy of the, Native American Isolate Communities, of Kent County, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "III",
-      "location": null,
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_Photo_20Survey221.jpg",
-      "source_url": "http://www.mitsawokett.com/Photographic%20Survey/Photographic%20Survey.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Birth",
+      "date_string": "29 Sep 1918",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1505,
+          "fact_id": 1505,
+          "source_id": 132,
+          "evidence_text": null,
+          "source_title": "Record: MainMenu.html",
+          "source_url": "MainMenu.html",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1506,
+      "person_id": 2114,
+      "fact_type": "Death",
+      "date_string": "15 Dec 2003 (aged 85)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1506,
+          "fact_id": 1506,
+          "source_id": 132,
+          "evidence_text": null,
+          "source_title": "Record: MainMenu.html",
+          "source_url": "MainMenu.html",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

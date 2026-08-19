@@ -13,20 +13,79 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7576,
+      "person_id": 8146,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Phoebe Thompson",
+      "citations": [
+        {
+          "citation_id": 7570,
+          "fact_id": 7576,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7577,
+      "person_id": 8146,
+      "fact_type": "Birth",
+      "date_string": "27 September 1920 Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7571,
+          "fact_id": 7577,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7578,
+      "person_id": 8146,
+      "fact_type": "Death",
+      "date_string": "11 January 1981 Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7572,
+          "fact_id": 7578,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F196@ marriage",
       "certainty": "confirmed",
       "rel_id": 8609,
-      "rel_name": "William W. Davis Sr."
+      "rel_name": "William W. Davis Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8152,
-      "rel_name": "William Davis  Davis Jr"
+      "rel_name": "William Davis Jr"
     },
     {
       "relationship_type": "child_of",
@@ -107,24 +166,7 @@
               {
                 "id": 8606,
                 "name": "Richard Dickerson",
-                "children": [
-                  {
-                    "id": 9073,
-                    "name": "Charles Dickerson",
-                    "children": [
-                      {
-                        "id": 8606,
-                        "name": "Richard Dickerson",
-                        "children": []
-                      },
-                      {
-                        "id": 9071,
-                        "name": "Minnie Dickerson",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
+                "children": []
               },
               {
                 "id": 9071,

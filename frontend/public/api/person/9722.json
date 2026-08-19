@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9040,
+      "person_id": 9722,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "James Walter Hanzer",
+      "citations": [
+        {
+          "citation_id": 9034,
+          "fact_id": 9040,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9041,
+      "person_id": 9722,
+      "fact_type": "Birth",
+      "date_string": "5 July 1899 Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9035,
+          "fact_id": 9041,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9042,
+      "person_id": 9722,
+      "fact_type": "Death",
+      "date_string": "26 June 1967 Milton, Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9036,
+          "fact_id": 9042,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -85,136 +144,18 @@
       "rel_name": "Margaruett Hanzer"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9722,
-      "photo_id": 4199,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "James E. Hanzer Family, James E. Hanzer, Neocia Mae, Pettyjohn Harmon, Mother of Rosa Harmon Duker, Great-great grandmother of Troy Duker, James W., Hanzer born, husband of Laura Pettyjohn Hanzer, father of, Bishop James E. Hanzer, Harmon Duker, grandmother of Troy Duker, of Bishop James E. Hanzer, of Troy L. Duker, of Rosa Harmon Duker, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Family",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1899",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HanzerJamesE-obit.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HanzerBishopJamesE.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9722,
-      "photo_id": 4200,
-      "title_or_caption": "Hanzer Bishop James E",
-      "subject_names": "Hanzer Bishop James E",
-      "maiden_name": "Hansor",
-      "married_surname": "Bishop",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1899",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonNeocia-Duker.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HanzerBishopJamesE.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9722,
-      "photo_id": 4203,
-      "title_or_caption": "Hanzer Bishop James E",
-      "subject_names": "Hanzer Bishop James E",
-      "maiden_name": "Hansor",
-      "married_surname": "Bishop",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1899",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HanzerJamesWborn1899husbofLauraPettyjohn.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HanzerBishopJamesE.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9722,
-      "photo_id": 4204,
-      "title_or_caption": "Hanzer Bishop James E",
-      "subject_names": "Hanzer Bishop James E",
-      "maiden_name": "Hansor",
-      "married_surname": "Bishop",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1899",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonRosa.JPG",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HanzerBishopJamesE.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9722,
-      "photo_id": 4205,
-      "title_or_caption": "Hanzer Bishop James E",
-      "subject_names": "Hanzer Bishop James E",
-      "maiden_name": "Hansor",
-      "married_surname": "Bishop",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1899",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HanzerJamesAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HanzerBishopJamesE.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9722,
-      "photo_id": 4209,
-      "title_or_caption": "Hanzer Bishop James E",
-      "subject_names": "Hanzer Bishop James E",
-      "maiden_name": "Hansor",
-      "married_surname": "Bishop",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1899",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DukerTroyAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HanzerBishopJamesE.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9722,
-      "photo_id": 4210,
-      "title_or_caption": "Hanzer Bishop James E",
-      "subject_names": "Hanzer Bishop James E",
-      "maiden_name": "Hansor",
-      "married_surname": "Bishop",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1899",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonRosaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HanzerBishopJamesE.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9722,
-      "photo_id": 4213,
-      "title_or_caption": "Hanzer Bishop James E",
-      "subject_names": "Hanzer Bishop James E",
-      "maiden_name": "Hansor",
-      "married_surname": "Bishop",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1899",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonNeociaObit.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HanzerBishopJamesE.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9722,
-      "photo_id": 4215,
-      "title_or_caption": "Bishop James E. Hanzer Family Ancestral li...",
-      "subject_names": "Bishop James E. Hanzer Family Ancestral li...",
-      "maiden_name": "Hansor",
-      "married_surname": "Bishop",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1899",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HanzerJamesE-obit.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HanzerBishopJamesE.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [
     {
-      "id": 547,
+      "id": 5212,
       "category": "Duplicate Candidate",
       "severity": "warning",
       "person_id": 10711,
       "person_id_secondary": 9722,
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: james|hanzer|1899",
-      "created_at": "2026-08-14 03:42:34"
+      "created_at": "2026-08-19 00:14:46"
     }
   ],
   "ancestry": {
@@ -224,7 +165,69 @@
       {
         "id": 10503,
         "name": "William E Hanzer",
-        "children": []
+        "children": [
+          {
+            "id": 9096,
+            "name": "John C Hanzer",
+            "children": [
+              {
+                "id": 9969,
+                "name": "Jacob Hanzer Jr",
+                "children": [
+                  {
+                    "id": 9974,
+                    "name": "Jacob Hanzer Sr",
+                    "children": [
+                      {
+                        "id": 9978,
+                        "name": "Jonathan Hanzer",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9940,
+            "name": "Sophia J. Hanzer",
+            "children": [
+              {
+                "id": 10122,
+                "name": "John R or Jonathan Harmon",
+                "children": [
+                  {
+                    "id": 9982,
+                    "name": "Robert Emanuel Harmon",
+                    "children": []
+                  },
+                  {
+                    "id": 9983,
+                    "name": "Rachel Anne Johnson",
+                    "children": [
+                      {
+                        "id": 9984,
+                        "name": "Isaac Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 9985,
+                        "name": "Jemima WARD Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10123,
+                "name": "Lavinia Lovinia Sammons",
+                "children": []
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 9721,
@@ -239,26 +242,9 @@
                 "name": "Negro Morris Thomas",
                 "children": [
                   {
-                    "id": 8505,
-                    "name": "Morris Thomas",
-                    "children": [
-                      {
-                        "id": 8910,
-                        "name": "Leticia Morris",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
                     "id": 9992,
                     "name": "Sally Wright",
-                    "children": [
-                      {
-                        "id": 10083,
-                        "name": "Wright Thomas Sr.",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   }
                 ]
               },

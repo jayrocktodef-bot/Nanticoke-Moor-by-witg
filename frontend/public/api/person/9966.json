@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9328,
+      "person_id": 9966,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Shirley Bernice Johnson",
+      "citations": [
+        {
+          "citation_id": 9322,
+          "fact_id": 9328,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9329,
+      "person_id": 9966,
+      "fact_type": "Birth",
+      "date_string": "27 Dec 1945",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9323,
+          "fact_id": 9329,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9330,
+      "person_id": 9966,
+      "fact_type": "Death",
+      "date_string": "24 Nov 1997 Baton Rouge, East Baton Rouge, Louisiana, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9324,
+          "fact_id": 9330,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -72,9 +131,20 @@
                     ]
                   },
                   {
-                    "id": 10532,
-                    "name": "Lydia J. Harmon",
-                    "children": []
+                    "id": 9928,
+                    "name": "Lydia J Harmon",
+                    "children": [
+                      {
+                        "id": 9931,
+                        "name": "Raymond Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 8860,
+                        "name": "Hattie Miller",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               }
@@ -95,23 +165,6 @@
             "id": 9964,
             "name": "Agnes Beatrice Wright",
             "children": [
-              {
-                "id": 9373,
-                "name": "Horace E. Wright",
-                "children": [
-                  {
-                    "id": 8712,
-                    "name": "George Harvey Morris",
-                    "children": [
-                      {
-                        "id": 8683,
-                        "name": "Josiah Joseph Morris",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
               {
                 "id": 9963,
                 "name": "Arabella B. Wright",

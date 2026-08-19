@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3969">
+    <name>
+      <nameForm>
+        <fullText>Mae Carney</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_222"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>3 Dec 1933</original>
+      </date>
+      <source description="#s_222"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>7 Jan 2008 (aged 74)</original>
+      </date>
+      <source description="#s_222"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_222">
+    <about resource="CheswoldSchool.htm"/>
+    <title>Record: CheswoldSchool.htm</title>
+  </sourceDescription>
+</gedcomx>

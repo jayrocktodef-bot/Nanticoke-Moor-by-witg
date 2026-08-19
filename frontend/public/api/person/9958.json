@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9307,
+      "person_id": 9958,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Emma Jane Johnson",
+      "citations": [
+        {
+          "citation_id": 9301,
+          "fact_id": 9307,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9308,
+      "person_id": 9958,
+      "fact_type": "Birth",
+      "date_string": "19 September 1877 Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9302,
+          "fact_id": 9308,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9309,
+      "person_id": 9958,
+      "fact_type": "Death",
+      "date_string": "1 December 1953 Millsboro, Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9303,
+          "fact_id": 9309,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -78,47 +137,7 @@
       "rel_name": "Maryann Wright"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9958,
-      "photo_id": 2184,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Millie Durham Carney, & Roy, W. Sammons Sr., by Matt Sammons:, Jennie Morgan Dean, Hester Sammons Morgan, Roy Carney, Cordelia Mosley Carney, Roy's wife Millie Durham, Elmirah Morgan Durham, Jim Mosley, Emma Johnson Mosley, Jim's sister Ethel, Emma Johnson Mosley, Gertrude Pierce, Durham Pritchett, Charles Pritchett, of Amy Reed Moore, of Leroy & Mildred Carney, | D | E-L |, M | N-R | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Durham",
-      "married_surname": "Carney",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1918",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_CarneyLeroy_MillieAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyLeroy&Millie.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9958,
-      "photo_id": 3263,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Juanita Johnson Day, by Stacie Ricketts, of Helen Juanita Johnson Day, from Stacie Ricketts  Oct, I talked, citing 'George B' --, Indian River, Christ Church Cemetery, Beaverdam Rd -- JOHNSON, d //, Rosa Mae Morris, Edward Morris, Emma Dell Morris, Helen Juanita Johnson Day, of Lewes died Friday, in Christiana Hospital of Christiana, in the, Lewes area, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Day",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "2006",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DayHelenJohnsonAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DayHelenJohnson.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9958,
-      "photo_id": 5931,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Jennie Morgan, Hester Sammons Morgan, Roy Carney, Cordelia Mosley Carney, Roy's wife Millie, Elmirah Morgan Durham, Jim Mosley, Emma Johnson Mosley, Jim's sister, Emma Johnson Mosley, Gertrude Pierce, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Morgan",
-      "location": null,
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_CarneyMosleyPierceDean2.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Friends-Carney_Dean_Mosley_Pierce_Mosley.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -158,7 +177,7 @@
             "children": [
               {
                 "id": 10122,
-                "name": "John R (H) or Jonathan Harmon",
+                "name": "John R or Jonathan Harmon",
                 "children": [
                   {
                     "id": 9982,
@@ -176,7 +195,7 @@
                       },
                       {
                         "id": 9985,
-                        "name": "Jemima WARD Johnson (MD)",
+                        "name": "Jemima WARD Johnson",
                         "children": []
                       }
                     ]

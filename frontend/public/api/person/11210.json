@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 11210,
-    "name": "Mrs. Lela Morris",
-    "first_name": "Mrs.",
-    "middle_name": "Lela",
+    "name": "Lela Morris",
+    "first_name": "Lela",
+    "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Morris",
     "evidence_level": 2,
@@ -13,25 +13,72 @@
     "notes": "Obituary Record: burial in the church cemetery | Verified via FindAGrave: https://www.findagrave.com/memorial/206271044/m-morris",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 11091,
       "person_id": 11210,
-      "id": 37,
-      "deceased_name": "Mrs. Lela Morris",
-      "age": null,
-      "birth_date": null,
-      "death_date": null,
-      "cemetery_location": "burial in the church cemetery",
-      "full_text": "CHESWOLD: Mrs. Lela Morris, 61, died at her home here Friday after a long illness.\n\nSurvivors include her husband, Archie Morris, a Dover city employee; one son William K. of Dover; her father and step-mother, Mr. & Mrs. William H. Morgan, Cheswold; two brothers, Nelson Morgan, New York City and Harry Morgan, Dover; a sister, Mrs. Nora Pierce, Monroeville, N.J. and three grandchildren.\n\nFuneral services will be Wednesday afternoon at 1 in the Immanuel Union Methodist Church, Cheswold, with burial in the church cemetery. Friends may call at the Torbert Funeral Home tomorrow night and Wednesday morning until noon.\n\nClarence S. Morris  \n(no date listed)",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Lela Morris",
+      "citations": [
+        {
+          "citation_id": 10709,
+          "fact_id": 11091,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11092,
+      "person_id": 11210,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10710,
+          "fact_id": 11092,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11093,
+      "person_id": 11210,
+      "fact_type": "Death",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10711,
+          "fact_id": 11093,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11210,
-    "name": "Mrs. Lela Morris",
+    "name": "Lela Morris",
     "children": []
   }
 }

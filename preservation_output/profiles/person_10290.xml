@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_10290">
+    <name>
+      <nameForm>
+        <fullText>Harriet Ann Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_622"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>6 September 1864 Delaware, United States of America</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>11 February 1940 Millsboro, Sussex County, Delaware, United States of America</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10290"/>
+    <person2 resource="#p_10291"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10290"/>
+    <person2 resource="#p_10292"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_5763"/>
+    <person2 resource="#p_10290"/>
+    <note>
+      <text>Evidence: GEDCOM Family @F185@ marriage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_305"/>
+    <person2 resource="#p_10290"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_5898"/>
+    <person2 resource="#p_10290"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8927"/>
+    <person2 resource="#p_10290"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10704"/>
+    <person2 resource="#p_10290"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_622">
+    <about resource="Davis Family Tree.ged"/>
+    <title>Record: Davis Family Tree.ged</title>
+  </sourceDescription>
+</gedcomx>

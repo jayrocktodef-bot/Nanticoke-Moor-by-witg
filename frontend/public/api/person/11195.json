@@ -8,26 +8,62 @@
     "married_last_name": "Harmon",
     "evidence_level": 2,
     "source_page": "Obituary Archive",
-    "birth_info": "",
+    "birth_info": null,
     "death_info": "d. 1968",
     "notes": "Obituary Record: Delmarva Burial | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 11060,
       "person_id": 11195,
-      "id": 20,
-      "deceased_name": "Levi Harmon",
-      "age": null,
-      "birth_date": null,
-      "death_date": "1968",
-      "cemetery_location": null,
-      "full_text": "MILTON: Levi Harmon, 73, died Monday at the State Home at Smyra after a long illness. Mr. Harmon, a retired farmer, is survived by his widow, Mrs. Arzelia W. Harmon; two sisters, Mrs. Minnie A. Warren and Mrs. Virginia E. Harmon, both of Milton; and a brother Irving Harmon of Lewes. Services will be at 1 Friday afternoon from the Short Funeral Home where friends may call tomorrow night.\n\nMrs. Levi W. Harmon  \nJan. 17, \n1968",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Levi Harmon",
+      "citations": [
+        {
+          "citation_id": 10678,
+          "fact_id": 11060,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11061,
+      "person_id": 11195,
+      "fact_type": "Death",
+      "date_string": "d. 1968",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10679,
+          "fact_id": 11061,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (85.7% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 1024,
+      "rel_name": "Eli Harmon"
+    }
+  ],
+  "photos": [],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11195,

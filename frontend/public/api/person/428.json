@@ -13,7 +13,73 @@
     "notes": "Linked to jacksonn.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/228615805/nathaniel-jackson",
     "dataset_source": "lynncjackson"
   },
+  "facts": [
+    {
+      "fact_id": 706,
+      "person_id": 428,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Nathaniel Jackson",
+      "citations": [
+        {
+          "citation_id": 706,
+          "fact_id": 706,
+          "source_id": 70,
+          "evidence_text": null,
+          "source_title": "Record: jacksnw1.htm",
+          "source_url": "jacksnw1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 707,
+      "person_id": 428,
+      "fact_type": "Birth",
+      "date_string": "5 Jan 1868",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 707,
+          "fact_id": 707,
+          "source_id": 70,
+          "evidence_text": null,
+          "source_title": "Record: jacksnw1.htm",
+          "source_url": "jacksnw1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 708,
+      "person_id": 428,
+      "fact_type": "Death",
+      "date_string": "3 Aug 1947 (aged 79)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 708,
+          "fact_id": 708,
+          "source_id": 70,
+          "evidence_text": null,
+          "source_title": "Record: jacksnw1.htm",
+          "source_url": "jacksnw1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
   "relationships": [
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (78.8% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 977,
+      "rel_name": "Nathaniel Harmon"
+    },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (78.8% confidence) between Lynn C. Jackson archive and Moors of Delaware",
@@ -22,34 +88,7 @@
       "rel_name": "Nathaniel Harmon"
     }
   ],
-  "photos": [
-    {
-      "person_id": 428,
-      "photo_id": 2834,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "H. & Cora M. Morgan, Nora D. Morgan, & Will Morgan, Harry N. Morgan Sr., Alice Morgan, & husband David W. Conley, Son Nelson Morgan & friend, Henry Morgan, United Methodist Manship Cemetery, Durham; Nora D. Jackson, in Fork Branch Cemetery, daughter of Nathaniel, C. Jackson and Lucy Perkins., of son Nelson Henry Morgan, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Morgan",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "2000",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ConleyAliceMorgan.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ConleyAliceMorgan&Husband.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 428,
-      "photo_id": 4591,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "H. & Cora M. Morgan, Nora D. Morgan, & Will Morgan, Harry N. Morgan Sr., Alice Morgan, & husband David W. Conley, Son Nelson Morgan & friend, Henry Morgan, United Methodist Manship Cemetery, Durham; Nora D. Jackson, in Fork Branch Cemetery, daughter of Nathaniel, C. Jackson and Lucy Perkins., of son Nelson Henry Morgan, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Morgan",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1882",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MorganNelsonAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganWilliam&Nora.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

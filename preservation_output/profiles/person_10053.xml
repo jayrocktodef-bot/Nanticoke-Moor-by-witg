@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_10053">
+    <name>
+      <nameForm>
+        <fullText>Donna Hitchens</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_622"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1 Jan 1899</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>22 Dec 1977 (aged 78)</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_622">
+    <about resource="Davis Family Tree.ged"/>
+    <title>Record: Davis Family Tree.ged</title>
+  </sourceDescription>
+</gedcomx>

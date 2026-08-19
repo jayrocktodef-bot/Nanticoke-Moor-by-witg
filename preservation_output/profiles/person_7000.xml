@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7000">
+    <name>
+      <nameForm>
+        <fullText>Mary A. Miller</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_519"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>29 Jun 1831</original>
+      </date>
+      <source description="#s_519"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>25 Jul 1904 (aged 73)</original>
+      </date>
+      <source description="#s_519"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_519">
+    <about resource="PickremWilliamFamily.htm"/>
+    <title>Record: PickremWilliamFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

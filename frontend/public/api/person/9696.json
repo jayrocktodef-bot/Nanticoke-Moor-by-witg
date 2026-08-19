@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9024,
+      "person_id": 9696,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Dallas Robert Johnson",
+      "citations": [
+        {
+          "citation_id": 9018,
+          "fact_id": 9024,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9025,
+      "person_id": 9696,
+      "fact_type": "Birth",
+      "date_string": "December 14, 1921 Ridgely, Caroline, Maryland, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9019,
+          "fact_id": 9025,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9026,
+      "person_id": 9696,
+      "fact_type": "Death",
+      "date_string": "14 Jan 2016 Seaford, Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9020,
+          "fact_id": 9026,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -67,15 +126,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Johnson Robert",
       "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Johnson Robert",
-      "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -97,13 +149,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Johnson Robert",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -151,29 +196,8 @@
       "relationship_type": "child_of",
       "evidence_text": "Obituary parentage for Johnson Robert",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Johnson Robert",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Johnson Robert",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Johnson Robert",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "child_of",
@@ -195,13 +219,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Johnson Robert",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "child_of",
@@ -291,20 +308,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Johnson Robert",
       "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Johnson Robert",
-      "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Johnson Robert",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -334,7 +337,7 @@
       "evidence_text": "Obituary child link for Johnson Robert",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -411,7 +414,7 @@
       "evidence_text": "Obituary child link for Johnson Robert",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -571,15 +574,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Robert Johnson",
       "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Robert Johnson",
-      "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -601,13 +597,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Robert Johnson",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -655,29 +644,8 @@
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Robert Johnson",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Robert Johnson",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Robert Johnson",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Robert Johnson",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -699,13 +667,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Robert Johnson",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -795,20 +756,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Robert Johnson",
       "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Robert Johnson",
-      "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Robert Johnson",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -838,7 +785,7 @@
       "evidence_text": "Obituary child link for Robert Johnson",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -915,7 +862,7 @@
       "evidence_text": "Obituary child link for Robert Johnson",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -1023,416 +970,21 @@
       "rel_name": "Niquita Harris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9696,
-      "photo_id": 2131,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Nehemiah Durham, Anna Carter Durham, New Castle, see brief line, Loretta Gross Jordan, . \u00a0\u00a0Lois Gross Mott, .\u00a0\u00a0 Lester Bowers, . \u00a0\u00a0Charlotte \"Lottie\" Durham Gross, . \u00a0\u00a0Morgan Brian Mott, .\u00a0 \u00a0Carlton William Davis, .\u00a0 \u00a0Robert Alexander Newbrough, .\u00a0 \u00a0Paul Anthony Mott Sr., . Noelle Spencer, . Melanie Gross Newbrough, . Baraka David Noel, . Gigi Loraine Gross, . Grace Wilson Davis, . Betty Davis Terry, . Raymond Terry, Michael Davis, . Ann Gross Lawson, . Thomas Mott, . Lena Jackson, . Leah Jackson, . Stephanie May Bowers, . Lois Jenkins Gross, . Rock Anthony Davis, . Lorita Turner Brown, . Joan Davis Casey, . Elizabeth Pritchett Turner, . Beverly Gross Spencer, . David Joseph Terry, . Elaine Davis Blackwell, . Janice Atkins Turner, Paul Anthony Mott Jr., . Dallas Turner Jackson, . Elizabeth Wathina Velasquez, . Dominique Ellysse Gross, . Belinda Gross Broadus, . Peter Brian Mott, . Paris Ariel Broadus, . Kim Overall Mott, . Richard Isaiah Mott, . Richard Isaiah Gross Jr., . Tonye Smith Gross, . Milan Kira Broadus, Delaware; died  Feb, in Clayton, Bishop's Corner, Delaware. He married Johnson, died in Perhaps Kent County, Delaware; on  Sep  in Smyrna, Delaware Anna Elizabeth Carter, born  Apr  in Lockwood, Delaware; died  Jan  in Clayton, Delaware; buried  Jan, Methodist Church Manship Cemetery, of  Bridge) and Lina Mosley., Orda Arbana Durham, born  Sep  in Clayton, Delaware; died, Aug  in Dover, Delaware; buried  Aug  in Immanuel, Union Manship Cemetery, Henry Davis., William McKinley Durham, born  Jun  in Clayton, Colanthe & Elizabeth whose whereabouts, are not known to us., Sarah Virginia Durham, born  Mar  in Clayton, Delaware; died, Bishop's Corner, Delaware. She married Leroy Pritchett., Isaiah Return \"Zed\" Durham, born  Oct  in Clayton, Delaware; buried, Immanuel Union Manship Cemetery, Pennsylvania Gertrude, Rebecca Ridgeway, born  Dec  in Camden, Delaware; died, Feb  in Smyrna, Delaware; buried in Immanuel Union, Bishop's Corner, daughter of Sylvester Ridgeway, Charlotte Augusta \"Lottie\" Durham, born  Dec / in Clayton, Delaware; died  Nov  in Wilmington, New Castle, Delaware; buried, Immanuel Union Manship Cemetery, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1996",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamOrdaArbanaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamReunion1996HiRes.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 622,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 736,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 853,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 967,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1084,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1198,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1315,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1429,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1546,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1660,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1777,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1891,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2008,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2122,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2239,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2353,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2470,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2584,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2701,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2815,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2932,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3046,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3163,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3277,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3394,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3507,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3623,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3737,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3854,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3968,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4085,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4199,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4316,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4430,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4547,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4660,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4777,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4891,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 9696,
     "name": "Dallas Robert Johnson",
     "children": [
       {
-        "id": 10857,
-        "name": "Nanticoke Chiefs",
+        "id": 10858,
+        "name": "Gwendolyn Durham",
         "children": []
       },
       {
-        "id": 10858,
-        "name": "Gwendolyn Durham",
+        "id": 6088,
+        "name": "Myrtle Sammons Harmon",
         "children": []
       }
     ]

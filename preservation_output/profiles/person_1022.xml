@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1022">
+    <name>
+      <nameForm>
+        <fullText>Bowen Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_119"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_1022"/>
+    <person2 resource="#p_7577"/>
+    <note>
+      <text>Evidence: GEDCOM Family @F418@ marriage 1834 Sussex, Delaware, United States</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10514"/>
+    <person2 resource="#p_1022"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10515"/>
+    <person2 resource="#p_1022"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10516"/>
+    <person2 resource="#p_1022"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_977"/>
+    <person2 resource="#p_1022"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10535"/>
+    <person2 resource="#p_1022"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10533"/>
+    <person2 resource="#p_1022"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1022"/>
+    <person2 resource="#p_9982"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1022"/>
+    <person2 resource="#p_9983"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1022"/>
+    <person2 resource="#p_1058"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_119">
+    <about resource="moors_moors.aspx"/>
+    <title>Record: moors_moors.aspx</title>
+  </sourceDescription>
+</gedcomx>

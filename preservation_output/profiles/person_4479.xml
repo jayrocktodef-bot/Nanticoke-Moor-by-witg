@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4479">
+    <name>
+      <nameForm>
+        <fullText>Jonathan Williams</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_261"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>22 Jun 1811</original>
+      </date>
+      <source description="#s_261"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>10 Mar 1893 (aged 81)</original>
+      </date>
+      <source description="#s_261"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_261">
+    <about resource="Chambers.htm"/>
+    <title>Record: Chambers.htm</title>
+  </sourceDescription>
+</gedcomx>

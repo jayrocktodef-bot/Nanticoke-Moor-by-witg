@@ -13,33 +13,72 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
-  "relationships": [
+  "facts": [
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9355,
-      "rel_name": "Frances Wright"
+      "fact_id": 8621,
+      "person_id": 9181,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Willis W Wright",
+      "citations": [
+        {
+          "citation_id": 8615,
+          "fact_id": 8621,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8622,
+      "person_id": 9181,
+      "fact_type": "Birth",
+      "date_string": "1793 Oglethorpe, Georgia, United States",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8616,
+          "fact_id": 8622,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8623,
+      "person_id": 9181,
+      "fact_type": "Death",
+      "date_string": "1837 Sumter, Georgia, United States",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8617,
+          "fact_id": 8623,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     }
   ],
+  "relationships": [],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 9181,
     "name": "Willis W Wright",
-    "children": [
-      {
-        "id": 9355,
-        "name": "Frances Wright",
-        "children": [
-          {
-            "id": 9356,
-            "name": "Joseph H Wright",
-            "children": []
-          }
-        ]
-      }
-    ]
+    "children": []
   }
 }

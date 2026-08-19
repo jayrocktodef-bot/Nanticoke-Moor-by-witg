@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7866,
+      "person_id": 8376,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Emeline Thompson",
+      "citations": [
+        {
+          "citation_id": 7860,
+          "fact_id": 7866,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7867,
+      "person_id": 8376,
+      "fact_type": "Birth",
+      "date_string": "9 Dec 1890 Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7861,
+          "fact_id": 7867,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7868,
+      "person_id": 8376,
+      "fact_type": "Death",
+      "date_string": "30 Jun 1953 Philadelphia, Philadelphia, Pennsylvania, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7862,
+          "fact_id": 7868,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -90,13 +149,7 @@
                   {
                     "id": 8606,
                     "name": "Richard Dickerson",
-                    "children": [
-                      {
-                        "id": 9073,
-                        "name": "Charles Dickerson",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 9071,
@@ -142,7 +195,7 @@
             "children": [
               {
                 "id": 10122,
-                "name": "John R (H) or Jonathan Harmon",
+                "name": "John R or Jonathan Harmon",
                 "children": [
                   {
                     "id": 9982,
@@ -160,7 +213,7 @@
                       },
                       {
                         "id": 9985,
-                        "name": "Jemima WARD Johnson (MD)",
+                        "name": "Jemima WARD Johnson",
                         "children": []
                       }
                     ]

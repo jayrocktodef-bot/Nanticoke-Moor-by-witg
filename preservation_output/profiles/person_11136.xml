@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11136">
+    <name>
+      <nameForm>
+        <fullText>R Ingram Thomas</fullText>
+      </nameForm>
+    </name>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1 March 1833 Dagsboro Hundred, Sussex County, Delaware, USA</original>
+      </date>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>26 February 1915</original>
+      </date>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11136"/>
+    <person2 resource="#p_11122"/>
+    <note>
+      <text>Evidence: Restored GEDCOM parent-child record</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11136"/>
+    <person2 resource="#p_11148"/>
+    <note>
+      <text>Evidence: Restored GEDCOM parent-child record</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11136"/>
+    <person2 resource="#p_11135"/>
+    <note>
+      <text>Evidence: Restored GEDCOM parent-child record</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11137"/>
+    <person2 resource="#p_11136"/>
+    <note>
+      <text>Evidence: Restored GEDCOM parent-child record</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11137"/>
+    <person2 resource="#p_11136"/>
+    <note>
+      <text>Evidence: Restored GEDCOM parent-child record</text>
+    </note>
+  </relationship>
+</gedcomx>

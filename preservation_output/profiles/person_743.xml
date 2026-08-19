@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_743">
+    <name>
+      <nameForm>
+        <fullText>Ida Nora Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_112"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_743"/>
+    <person2 resource="#p_744"/>
+    <note>
+      <text>Evidence: Ida Nora Wright who married Charles Sammons</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_112">
+    <about resource="wright-d.htm"/>
+    <title>Record: wright-d.htm</title>
+  </sourceDescription>
+</gedcomx>

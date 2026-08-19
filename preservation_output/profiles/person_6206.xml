@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6206">
+    <name>
+      <nameForm>
+        <fullText>Coolidge Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_400"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>15 Feb 1926</original>
+      </date>
+      <source description="#s_400"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>20 Dec 2007 (aged 81)</original>
+      </date>
+      <source description="#s_400"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_400">
+    <about resource="JacksonPreston.htm"/>
+    <title>Record: JacksonPreston.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9845,
+      "person_id": 10499,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Harold Hanzer",
+      "citations": [
+        {
+          "citation_id": 9839,
+          "fact_id": 9845,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9846,
+      "person_id": 10499,
+      "fact_type": "Birth",
+      "date_string": "abt 1927 Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9840,
+          "fact_id": 9846,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9847,
+      "person_id": 10499,
+      "fact_type": "Death",
+      "date_string": "Dec 1981 Ellendale, Sussex, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9841,
+          "fact_id": 9847,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -36,7 +95,52 @@
           {
             "id": 10503,
             "name": "William E Hanzer",
-            "children": []
+            "children": [
+              {
+                "id": 9096,
+                "name": "John C Hanzer",
+                "children": [
+                  {
+                    "id": 9969,
+                    "name": "Jacob Hanzer Jr",
+                    "children": [
+                      {
+                        "id": 9974,
+                        "name": "Jacob Hanzer Sr",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9940,
+                "name": "Sophia J. Hanzer",
+                "children": [
+                  {
+                    "id": 10122,
+                    "name": "John R or Jonathan Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10123,
+                    "name": "Lavinia Lovinia Sammons",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 9721,
@@ -50,11 +154,6 @@
                     "id": 8617,
                     "name": "Negro Morris Thomas",
                     "children": [
-                      {
-                        "id": 8505,
-                        "name": "Morris Thomas",
-                        "children": []
-                      },
                       {
                         "id": 9992,
                         "name": "Sally Wright",

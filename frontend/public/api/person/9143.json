@@ -13,6 +13,65 @@
     "notes": "WikiTree: https://www.wikitree.com/wiki/Clark-93421 (Clark-93421) | Verified via FindAGrave: https://www.findagrave.com/memorial/31738606/laymond-clark",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8579,
+      "person_id": 9143,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Laymond William Clark",
+      "citations": [
+        {
+          "citation_id": 8573,
+          "fact_id": 8579,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8580,
+      "person_id": 9143,
+      "fact_type": "Birth",
+      "date_string": "22 Nov 1893",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8574,
+          "fact_id": 8580,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8581,
+      "person_id": 9143,
+      "fact_type": "Death",
+      "date_string": "20 Jul 1918 (aged 24)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8575,
+          "fact_id": 8581,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -68,38 +127,17 @@
         "name": "Elsie Davis",
         "children": [
           {
-            "id": 8610,
-            "name": "Davis Morris",
-            "children": [
-              {
-                "id": 4643,
-                "name": "Henry Davis",
-                "children": []
-              },
-              {
-                "id": 10618,
-                "name": "William H Davis",
-                "children": []
-              }
-            ]
-          },
-          {
             "id": 8185,
             "name": "Hester A. Morris Davis",
             "children": [
               {
                 "id": 8571,
-                "name": "Francis E. \"Frank\" Morris",
+                "name": "Francis E. Frank Morris",
                 "children": [
                   {
                     "id": 8617,
                     "name": "Negro Morris Thomas",
                     "children": [
-                      {
-                        "id": 8505,
-                        "name": "Morris Thomas",
-                        "children": []
-                      },
                       {
                         "id": 9992,
                         "name": "Sally Wright",

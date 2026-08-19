@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_10627">
+    <name>
+      <nameForm>
+        <fullText>Rebecca Mosley</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_622"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1813</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>9 Dec 1894 (aged 80&amp;ndash;81)</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10627"/>
+    <person2 resource="#p_10624"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_622">
+    <about resource="Davis Family Tree.ged"/>
+    <title>Record: Davis Family Tree.ged</title>
+  </sourceDescription>
+</gedcomx>

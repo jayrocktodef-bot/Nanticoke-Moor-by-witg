@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_794">
+    <name>
+      <nameForm>
+        <fullText>Glenn Barrentine</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_118"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_793"/>
+    <person2 resource="#p_794"/>
+    <note>
+      <text>Evidence: Gloria Harmon who married Glenn Barrentine</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_118">
+    <about resource="wrightw2.htm"/>
+    <title>Record: wrightw2.htm</title>
+  </sourceDescription>
+</gedcomx>

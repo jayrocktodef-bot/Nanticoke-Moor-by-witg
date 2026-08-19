@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1064">
+    <name>
+      <nameForm>
+        <fullText>Frank Ridgeway</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_119"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1911</original>
+      </date>
+      <source description="#s_119"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>4 Dec 1911 (aged less&amp;ndash;than 1 year)</original>
+      </date>
+      <source description="#s_119"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_25"/>
+    <person2 resource="#p_1064"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_25"/>
+    <person2 resource="#p_1064"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_119">
+    <about resource="moors_moors.aspx"/>
+    <title>Record: moors_moors.aspx</title>
+  </sourceDescription>
+</gedcomx>

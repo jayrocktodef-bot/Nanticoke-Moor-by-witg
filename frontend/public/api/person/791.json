@@ -13,43 +13,75 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/246915553/gertrude-wright",
     "dataset_source": "lynncjackson"
   },
+  "facts": [
+    {
+      "fact_id": 1115,
+      "person_id": 791,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Gertrude Wright",
+      "citations": [
+        {
+          "citation_id": 1115,
+          "fact_id": 1115,
+          "source_id": 118,
+          "evidence_text": null,
+          "source_title": "Record: wrightw2.htm",
+          "source_url": "wrightw2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1116,
+      "person_id": 791,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1116,
+          "fact_id": 1116,
+          "source_id": 118,
+          "evidence_text": null,
+          "source_title": "Record: wrightw2.htm",
+          "source_url": "wrightw2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1117,
+      "person_id": 791,
+      "fact_type": "Death",
+      "date_string": "Mar 1898",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1117,
+          "fact_id": 1117,
+          "source_id": 118,
+          "evidence_text": null,
+          "source_title": "Record: wrightw2.htm",
+          "source_url": "wrightw2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
       "evidence_text": "Gertrude Wright who married Noah Harmon, Jr.",
       "certainty": "confirmed",
-      "rel_id": 792,
+      "rel_id": 5971,
       "rel_name": "Noah Harmon"
     }
   ],
-  "photos": [
-    {
-      "person_id": 791,
-      "photo_id": 4689,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Gertrude Lottie Wright Johnson, of son Arthur B. Johnson, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Wright",
-      "married_surname": "Johnson",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_JohnsonArthurBAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonNelson&LottieWright1.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 791,
-      "photo_id": 5228,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "& Annie Wright; Sarah Norwood, L to, R: Gertrude Wright, Sarah Norwood, Annie C. Wright, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Norwood",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WrightGertrude_Annie_SarahNorwood.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightGertrude&Annie&SarahNorwood.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11609">
+    <name>
+      <nameForm>
+        <fullText>around this time although we do not know the name of his first wife</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_46"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11608"/>
+    <person2 resource="#p_11609"/>
+    <note>
+      <text>Evidence: we find Benjamin living, not in Little Creek Hundred with his family, but in St. Jones Hundred, so it is possible he was married around this time although we do not know the name of his first wife.</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_46">
+    <about resource="durhm-b1.htm"/>
+    <title>Record: durhm-b1.htm</title>
+  </sourceDescription>
+</gedcomx>

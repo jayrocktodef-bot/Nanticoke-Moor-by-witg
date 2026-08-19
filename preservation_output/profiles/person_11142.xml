@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11142">
+    <name>
+      <nameForm>
+        <fullText>Peter Ingram</fullText>
+      </nameForm>
+    </name>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>abt 1859 Delaware</original>
+      </date>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11137"/>
+    <person2 resource="#p_11142"/>
+    <note>
+      <text>Evidence: Restored GEDCOM parent-child record</text>
+    </note>
+  </relationship>
+</gedcomx>

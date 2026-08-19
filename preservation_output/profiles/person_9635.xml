@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_9635">
+    <name>
+      <nameForm>
+        <fullText>Levin Cremeen</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_622"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>31 Oct 1935</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>11 Nov 1938 (aged 3)</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_622">
+    <about resource="Davis Family Tree.ged"/>
+    <title>Record: Davis Family Tree.ged</title>
+  </sourceDescription>
+</gedcomx>

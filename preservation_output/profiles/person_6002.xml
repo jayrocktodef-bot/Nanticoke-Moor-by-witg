@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6002">
+    <name>
+      <nameForm>
+        <fullText>given to me by Rita</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_363"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>9 Feb 1930</original>
+      </date>
+      <source description="#s_363"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>21 Aug 1935 (aged 5)</original>
+      </date>
+      <source description="#s_363"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_363">
+    <about resource="GreenageGeoWashFamily.htm"/>
+    <title>Record: GreenageGeoWashFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

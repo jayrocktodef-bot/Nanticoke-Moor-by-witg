@@ -13,14 +13,66 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/58029453/hersel-davis (Buried at Mount Pisgah Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
-  "relationships": [
+  "facts": [
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8610,
-      "rel_name": "Davis Morris"
+      "fact_id": 7591,
+      "person_id": 8158,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Hersel R. Davis",
+      "citations": [
+        {
+          "citation_id": 7585,
+          "fact_id": 7591,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     },
+    {
+      "fact_id": 7592,
+      "person_id": 8158,
+      "fact_type": "Birth",
+      "date_string": "14 May 1921",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7586,
+          "fact_id": 7592,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7593,
+      "person_id": 8158,
+      "fact_type": "Death",
+      "date_string": "12 Mar 1922 (aged 9 months)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7587,
+          "fact_id": 7593,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
+  "relationships": [
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
@@ -50,58 +102,18 @@
       "rel_name": "Maurice Allen Mosley"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8158,
-      "photo_id": 3137,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Davis & Family, daughter of Hattie Morris, of Sussex County, Hersel Davis, son of Hester Morris Davis, of Hersel Davis, | N-R | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Family",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHerselAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisHesterMorris.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8158,
-      "photo_id": 3138,
-      "title_or_caption": "Hersel (Hershel) Davis Portrait",
-      "subject_names": "Hersel Davis (Hershel Davis)",
-      "maiden_name": "Davis",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHersel.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisHesterMorris.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8158,
-      "photo_id": 3139,
-      "title_or_caption": "Hersel (Hershel) Davis Ancestry & Pedigree Chart",
-      "subject_names": "Hersel Davis Ancestry",
-      "maiden_name": "Davis",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHerselAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisHesterMorris.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [
     {
-      "id": 525,
+      "id": 5189,
       "category": "Duplicate Candidate",
       "severity": "warning",
       "person_id": 8158,
       "person_id_secondary": 4459,
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: hersel|davis|1921",
-      "created_at": "2026-08-14 03:42:34"
+      "created_at": "2026-08-19 00:14:46"
     }
   ],
   "ancestry": {
@@ -109,54 +121,21 @@
     "name": "Hersel R. Davis",
     "children": [
       {
-        "id": 8610,
-        "name": "Davis Morris",
-        "children": [
-          {
-            "id": 4643,
-            "name": "Henry Davis",
-            "children": []
-          },
-          {
-            "id": 10618,
-            "name": "William H Davis",
-            "children": []
-          }
-        ]
-      },
-      {
         "id": 8185,
         "name": "Hester A. Morris Davis",
         "children": [
           {
             "id": 8571,
-            "name": "Francis E. \"Frank\" Morris",
+            "name": "Francis E. Frank Morris",
             "children": [
               {
                 "id": 8617,
                 "name": "Negro Morris Thomas",
                 "children": [
                   {
-                    "id": 8505,
-                    "name": "Morris Thomas",
-                    "children": [
-                      {
-                        "id": 8910,
-                        "name": "Leticia Morris",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
                     "id": 9992,
                     "name": "Sally Wright",
-                    "children": [
-                      {
-                        "id": 10083,
-                        "name": "Wright Thomas Sr.",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   }
                 ]
               },

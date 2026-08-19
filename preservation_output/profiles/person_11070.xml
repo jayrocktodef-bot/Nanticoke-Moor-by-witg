@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11070">
+    <name>
+      <nameForm>
+        <fullText>Mary J Cordrey</fullText>
+      </nameForm>
+    </name>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1918</original>
+      </date>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>2001 (aged 82&amp;ndash;83)</original>
+      </date>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11050"/>
+    <person2 resource="#p_11070"/>
+    <note>
+      <text>Evidence: Restored GEDCOM parent-child record</text>
+    </note>
+  </relationship>
+</gedcomx>

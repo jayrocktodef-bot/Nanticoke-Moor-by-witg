@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2366">
+    <name>
+      <nameForm>
+        <fullText>William Johnson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_658"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_658"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>30 Jul 1911</original>
+      </date>
+      <source description="#s_658"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_2366"/>
+    <person2 resource="#p_8766"/>
+    <note>
+      <text>Evidence: GEDCOM Family @F393@ marriage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9170"/>
+    <person2 resource="#p_2366"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8990"/>
+    <person2 resource="#p_2366"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8565"/>
+    <person2 resource="#p_2366"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8989"/>
+    <person2 resource="#p_2366"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9171"/>
+    <person2 resource="#p_2366"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_10407"/>
+    <person2 resource="#p_2366"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_2366"/>
+    <person2 resource="#p_10407"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_658">
+    <about resource="Probate.htm"/>
+    <title>Record: Probate.htm</title>
+  </sourceDescription>
+</gedcomx>

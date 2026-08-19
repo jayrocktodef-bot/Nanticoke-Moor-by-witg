@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1030">
+    <name>
+      <nameForm>
+        <fullText>William Eugene Durham</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_119"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1836</original>
+      </date>
+      <source description="#s_119"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>14 Feb 1876 (aged 39&amp;ndash;40)</original>
+      </date>
+      <source description="#s_119"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_245"/>
+    <person2 resource="#p_1030"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (77.8% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_245"/>
+    <person2 resource="#p_1030"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_119">
+    <about resource="moors_moors.aspx"/>
+    <title>Record: moors_moors.aspx</title>
+  </sourceDescription>
+</gedcomx>

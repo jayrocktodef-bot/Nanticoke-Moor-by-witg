@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11252">
+    <name>
+      <nameForm>
+        <fullText>Nancy Harmon Clark</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_629"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1838</original>
+      </date>
+      <source description="#s_629"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1910</original>
+      </date>
+      <source description="#s_629"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11252"/>
+    <person2 resource="#p_10334"/>
+  </relationship>
+  <sourceDescription id="s_629">
+    <about resource="FindAGrave Memorial 55667752"/>
+    <title>Record: FindAGrave Memorial 55667752</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_180">
+    <name>
+      <nameForm>
+        <fullText>George Clark</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_30"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_30"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Jul 1854</original>
+      </date>
+      <source description="#s_30"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_179"/>
+    <person2 resource="#p_180"/>
+    <note>
+      <text>Evidence: Mary Durham who married George Clark</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_30">
+    <about resource="concl-h1.htm"/>
+    <title>Record: concl-h1.htm</title>
+  </sourceDescription>
+</gedcomx>

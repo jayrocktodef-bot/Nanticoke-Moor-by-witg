@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_242">
+    <name>
+      <nameForm>
+        <fullText>Hester Ann Carney</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_38"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>17 Sep 1848</original>
+      </date>
+      <source description="#s_38"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>3 Feb 1913 (aged 64)</original>
+      </date>
+      <source description="#s_38"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_38">
+    <about resource="dean-e.htm"/>
+    <title>Record: dean-e.htm</title>
+  </sourceDescription>
+</gedcomx>

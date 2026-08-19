@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3588">
+    <name>
+      <nameForm>
+        <fullText>Charles Edward Carey</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_197"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_197"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>21 May 1881</original>
+      </date>
+      <source description="#s_197"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_3588"/>
+    <person2 resource="#p_9617"/>
+    <note>
+      <text>Evidence: GEDCOM Family @F343@ marriage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8194"/>
+    <person2 resource="#p_3588"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_197">
+    <about resource="CareyCharlesE&amp;DellaRidgeway.htm"/>
+    <title>Record: CareyCharlesE&amp;DellaRidgeway.htm</title>
+  </sourceDescription>
+</gedcomx>

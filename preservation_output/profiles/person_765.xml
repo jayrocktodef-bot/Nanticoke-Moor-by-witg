@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_765">
+    <name>
+      <nameForm>
+        <fullText>Clarence Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_115"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1899</original>
+      </date>
+      <source description="#s_115"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>14 Jul 1950 (aged 50&amp;ndash;51)</original>
+      </date>
+      <source description="#s_115"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_764"/>
+    <person2 resource="#p_765"/>
+    <note>
+      <text>Evidence: Eloise Harmon who married Clarence Jackson</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_115">
+    <about resource="wrightp3.htm"/>
+    <title>Record: wrightp3.htm</title>
+  </sourceDescription>
+</gedcomx>

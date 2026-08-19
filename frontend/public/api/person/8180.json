@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7621,
+      "person_id": 8180,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Basil Ronnie Thompson",
+      "citations": [
+        {
+          "citation_id": 7615,
+          "fact_id": 7621,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7622,
+      "person_id": 8180,
+      "fact_type": "Birth",
+      "date_string": "17 January 1957",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7616,
+          "fact_id": 7622,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7623,
+      "person_id": 8180,
+      "fact_type": "Death",
+      "date_string": "26 June 1971 Wilmington",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7617,
+          "fact_id": 7623,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -90,13 +149,7 @@
                   {
                     "id": 8606,
                     "name": "Richard Dickerson",
-                    "children": [
-                      {
-                        "id": 9073,
-                        "name": "Charles Dickerson",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 9071,
@@ -145,28 +198,12 @@
             "name": "Elsie Davis",
             "children": [
               {
-                "id": 8610,
-                "name": "Davis Morris",
-                "children": [
-                  {
-                    "id": 4643,
-                    "name": "Henry Davis",
-                    "children": []
-                  },
-                  {
-                    "id": 10618,
-                    "name": "William H Davis",
-                    "children": []
-                  }
-                ]
-              },
-              {
                 "id": 8185,
                 "name": "Hester A. Morris Davis",
                 "children": [
                   {
                     "id": 8571,
-                    "name": "Francis E. \"Frank\" Morris",
+                    "name": "Francis E. Frank Morris",
                     "children": [
                       {
                         "id": 8617,

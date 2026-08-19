@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_9913">
+    <name>
+      <nameForm>
+        <fullText>Elena V. Morris</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_622"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1936</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1962</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_8343"/>
+    <person2 resource="#p_9913"/>
+    <note>
+      <text>Evidence: GEDCOM Family @F491@ marriage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_622">
+    <about resource="Davis Family Tree.ged"/>
+    <title>Record: Davis Family Tree.ged</title>
+  </sourceDescription>
+</gedcomx>

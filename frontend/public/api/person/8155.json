@@ -13,13 +13,72 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/66421404/stanley-davis (Buried at Alvinston Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7585,
+      "person_id": 8155,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Stanley Oliver Davis Sr",
+      "citations": [
+        {
+          "citation_id": 7579,
+          "fact_id": 7585,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7586,
+      "person_id": 8155,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7580,
+          "fact_id": 7586,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7587,
+      "person_id": 8155,
+      "fact_type": "Death",
+      "date_string": "1990",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7581,
+          "fact_id": 7587,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8609,
-      "rel_name": "William W. Davis Sr."
+      "rel_name": "William W. Davis Sr"
     },
     {
       "relationship_type": "child_of",
@@ -38,41 +97,20 @@
     "children": [
       {
         "id": 8609,
-        "name": "William W. Davis Sr.",
+        "name": "William W. Davis Sr",
         "children": [
-          {
-            "id": 8610,
-            "name": "Davis Morris",
-            "children": [
-              {
-                "id": 4643,
-                "name": "Henry Davis",
-                "children": []
-              },
-              {
-                "id": 10618,
-                "name": "William H Davis",
-                "children": []
-              }
-            ]
-          },
           {
             "id": 8185,
             "name": "Hester A. Morris Davis",
             "children": [
               {
                 "id": 8571,
-                "name": "Francis E. \"Frank\" Morris",
+                "name": "Francis E. Frank Morris",
                 "children": [
                   {
                     "id": 8617,
                     "name": "Negro Morris Thomas",
                     "children": [
-                      {
-                        "id": 8505,
-                        "name": "Morris Thomas",
-                        "children": []
-                      },
                       {
                         "id": 9992,
                         "name": "Sally Wright",
@@ -139,13 +177,7 @@
                   {
                     "id": 8606,
                     "name": "Richard Dickerson",
-                    "children": [
-                      {
-                        "id": 9073,
-                        "name": "Charles Dickerson",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 9071,

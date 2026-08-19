@@ -13,78 +13,72 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
-  "relationships": [
+  "facts": [
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8505,
-      "rel_name": "Morris Thomas"
+      "fact_id": 7964,
+      "person_id": 8510,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Lewis D Morris",
+      "citations": [
+        {
+          "citation_id": 7958,
+          "fact_id": 7964,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7965,
+      "person_id": 8510,
+      "fact_type": "Birth",
+      "date_string": "23 Dec 1772 Camden, Chester, South Carolina, United States",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7959,
+          "fact_id": 7965,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7966,
+      "person_id": 8510,
+      "fact_type": "Death",
+      "date_string": "28 Jul 1855 Chambers, Alabama, United States",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7960,
+          "fact_id": 7966,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     }
   ],
+  "relationships": [],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 8510,
     "name": "Lewis D Morris",
-    "children": [
-      {
-        "id": 8505,
-        "name": "Morris Thomas",
-        "children": [
-          {
-            "id": 8910,
-            "name": "Leticia Morris",
-            "children": [
-              {
-                "id": 8616,
-                "name": "Stephen Wright",
-                "children": [
-                  {
-                    "id": 8687,
-                    "name": "Benjamin Wright",
-                    "children": [
-                      {
-                        "id": 8684,
-                        "name": "Priscilla Miller",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": 8684,
-                "name": "Priscilla Miller",
-                "children": [
-                  {
-                    "id": 8618,
-                    "name": "Ebenezar Miller",
-                    "children": []
-                  },
-                  {
-                    "id": 9188,
-                    "name": "Ebenezer Miller",
-                    "children": [
-                      {
-                        "id": 9190,
-                        "name": "Ebenezer Miller Sr",
-                        "children": []
-                      },
-                      {
-                        "id": 9191,
-                        "name": "Sarah Collier (Collyer) Miller",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "children": []
   }
 }

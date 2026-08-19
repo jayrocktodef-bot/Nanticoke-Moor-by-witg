@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/206525747/isaiah-johnson",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8474,
+      "person_id": 8990,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Isaiah Johnson",
+      "citations": [
+        {
+          "citation_id": 8468,
+          "fact_id": 8474,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8475,
+      "person_id": 8990,
+      "fact_type": "Birth",
+      "date_string": "1917",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8469,
+          "fact_id": 8475,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8476,
+      "person_id": 8990,
+      "fact_type": "Death",
+      "date_string": "1987 (aged 69&ndash;70)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8470,
+          "fact_id": 8476,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -33,7 +92,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9419,
-      "rel_name": "Elizabeth (Morris) Mosley Harmon"
+      "rel_name": "Elizabeth Mosley Harmon"
     },
     {
       "relationship_type": "child_of",
@@ -43,21 +102,7 @@
       "rel_name": "Reburn Johnson"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8990,
-      "photo_id": 2131,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Nehemiah Durham, Anna Carter Durham, New Castle, see brief line, Loretta Gross Jordan, . \u00a0\u00a0Lois Gross Mott, .\u00a0\u00a0 Lester Bowers, . \u00a0\u00a0Charlotte \"Lottie\" Durham Gross, . \u00a0\u00a0Morgan Brian Mott, .\u00a0 \u00a0Carlton William Davis, .\u00a0 \u00a0Robert Alexander Newbrough, .\u00a0 \u00a0Paul Anthony Mott Sr., . Noelle Spencer, . Melanie Gross Newbrough, . Baraka David Noel, . Gigi Loraine Gross, . Grace Wilson Davis, . Betty Davis Terry, . Raymond Terry, Michael Davis, . Ann Gross Lawson, . Thomas Mott, . Lena Jackson, . Leah Jackson, . Stephanie May Bowers, . Lois Jenkins Gross, . Rock Anthony Davis, . Lorita Turner Brown, . Joan Davis Casey, . Elizabeth Pritchett Turner, . Beverly Gross Spencer, . David Joseph Terry, . Elaine Davis Blackwell, . Janice Atkins Turner, Paul Anthony Mott Jr., . Dallas Turner Jackson, . Elizabeth Wathina Velasquez, . Dominique Ellysse Gross, . Belinda Gross Broadus, . Peter Brian Mott, . Paris Ariel Broadus, . Kim Overall Mott, . Richard Isaiah Mott, . Richard Isaiah Gross Jr., . Tonye Smith Gross, . Milan Kira Broadus, Delaware; died  Feb, in Clayton, Bishop's Corner, Delaware. He married Johnson, died in Perhaps Kent County, Delaware; on  Sep  in Smyrna, Delaware Anna Elizabeth Carter, born  Apr  in Lockwood, Delaware; died  Jan  in Clayton, Delaware; buried  Jan, Methodist Church Manship Cemetery, of  Bridge) and Lina Mosley., Orda Arbana Durham, born  Sep  in Clayton, Delaware; died, Aug  in Dover, Delaware; buried  Aug  in Immanuel, Union Manship Cemetery, Henry Davis., William McKinley Durham, born  Jun  in Clayton, Colanthe & Elizabeth whose whereabouts, are not known to us., Sarah Virginia Durham, born  Mar  in Clayton, Delaware; died, Bishop's Corner, Delaware. She married Leroy Pritchett., Isaiah Return \"Zed\" Durham, born  Oct  in Clayton, Delaware; buried, Immanuel Union Manship Cemetery, Pennsylvania Gertrude, Rebecca Ridgeway, born  Dec  in Camden, Delaware; died, Feb  in Smyrna, Delaware; buried in Immanuel Union, Bishop's Corner, daughter of Sylvester Ridgeway, Charlotte Augusta \"Lottie\" Durham, born  Dec / in Clayton, Delaware; died  Nov  in Wilmington, New Castle, Delaware; buried, Immanuel Union Manship Cemetery, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1996",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamOrdaArbanaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamReunion1996HiRes.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -76,28 +121,6 @@
                 "id": 10420,
                 "name": "Ann W. Johnson",
                 "children": []
-              },
-              {
-                "id": 10408,
-                "name": "Richard Johnson",
-                "children": [
-                  {
-                    "id": 10409,
-                    "name": "Johnson Thomas",
-                    "children": [
-                      {
-                        "id": 2366,
-                        "name": "William Johnson",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 10407,
-                    "name": "John Johnson",
-                    "children": []
-                  }
-                ]
               }
             ]
           }

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11247">
+    <name>
+      <nameForm>
+        <fullText>Hester J. Hettie Carmean Morris</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_626"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1835</original>
+      </date>
+      <source description="#s_626"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1923</original>
+      </date>
+      <source description="#s_626"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11247"/>
+    <person2 resource="#p_8185"/>
+  </relationship>
+  <sourceDescription id="s_626">
+    <about resource="FindAGrave Memorial 41150907"/>
+    <title>Record: FindAGrave Memorial 41150907</title>
+  </sourceDescription>
+</gedcomx>

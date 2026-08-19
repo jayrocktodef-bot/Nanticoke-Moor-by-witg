@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7978">
+    <name>
+      <nameForm>
+        <fullText>Lydia Ann Wright Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_613"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_613"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>29 Jan 1840</original>
+      </date>
+      <source description="#s_613"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_409"/>
+    <person2 resource="#p_7978"/>
+    <note>
+      <text>Evidence: GEDCOM Family @F70@ marriage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8791"/>
+    <person2 resource="#p_7978"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_613">
+    <about resource="WrightElwood.htm"/>
+    <title>Record: WrightElwood.htm</title>
+  </sourceDescription>
+</gedcomx>

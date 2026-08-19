@@ -13,15 +13,28 @@
     "notes": " | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [
+  "facts": [
     {
-      "relationship_type": "spouse",
-      "evidence_text": "Beatrice Morgan married Thomas Reed",
-      "certainty": "confirmed",
-      "rel_id": 522,
-      "rel_name": "Reed Thomas"
+      "fact_id": 896,
+      "person_id": 521,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Beatrice Morgan",
+      "citations": [
+        {
+          "citation_id": 896,
+          "fact_id": 896,
+          "source_id": 87,
+          "evidence_text": null,
+          "source_title": "Record: morganj4.htm",
+          "source_url": "morganj4.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],

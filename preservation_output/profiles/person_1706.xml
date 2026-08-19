@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1706">
+    <name>
+      <nameForm>
+        <fullText>Oscar W. Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_131"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1868</original>
+      </date>
+      <source description="#s_131"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1956 (aged 87&amp;ndash;88)</original>
+      </date>
+      <source description="#s_131"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_131">
+    <about resource="Change_of_Race.htm"/>
+    <title>Record: Change_of_Race.htm</title>
+  </sourceDescription>
+</gedcomx>

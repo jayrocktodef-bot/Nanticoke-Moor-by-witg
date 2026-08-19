@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 10123,
+      "person_id": 10724,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Wesley S. Thompson Sr",
+      "citations": [
+        {
+          "citation_id": 10117,
+          "fact_id": 10123,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 10124,
+      "person_id": 10724,
+      "fact_type": "Birth",
+      "date_string": "5 July 1933 Cedarville, Cumberland County, New Jersey, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10118,
+          "fact_id": 10124,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 10125,
+      "person_id": 10724,
+      "fact_type": "Death",
+      "date_string": "25 September 2007 Millville, Cumberland County, New Jersey, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10119,
+          "fact_id": 10125,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -91,7 +150,7 @@
                     "children": [
                       {
                         "id": 10122,
-                        "name": "John R (H) or Jonathan Harmon",
+                        "name": "John R or Jonathan Harmon",
                         "children": []
                       },
                       {

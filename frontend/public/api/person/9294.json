@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8687,
+      "person_id": 9294,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Ebenezer Wright",
+      "citations": [
+        {
+          "citation_id": 8681,
+          "fact_id": 8687,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8688,
+      "person_id": 9294,
+      "fact_type": "Birth",
+      "date_string": "4 Nov 1789 Union, Hunterdon, New Jersey, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8682,
+          "fact_id": 8688,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8689,
+      "person_id": 9294,
+      "fact_type": "Death",
+      "date_string": "December 1860 Cinnaminson, Burlington, New Jersey, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8683,
+          "fact_id": 8689,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -64,7 +123,7 @@
                       },
                       {
                         "id": 9191,
-                        "name": "Sarah Collier (Collyer) Miller",
+                        "name": "Sarah Collier Miller",
                         "children": []
                       }
                     ]
@@ -106,7 +165,7 @@
               },
               {
                 "id": 9191,
-                "name": "Sarah Collier (Collyer) Miller",
+                "name": "Sarah Collier Miller",
                 "children": []
               }
             ]

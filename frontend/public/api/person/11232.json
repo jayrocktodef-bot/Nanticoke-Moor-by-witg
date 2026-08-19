@@ -1,37 +1,65 @@
 {
   "person": {
     "person_id": 11232,
-    "name": "Mrs. Gertrude Street",
-    "first_name": "Mrs.",
-    "middle_name": "Gertrude",
+    "name": "Gertrude Street",
+    "first_name": "Gertrude",
+    "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Street",
     "evidence_level": 2,
     "source_page": "Obituary Archive",
-    "birth_info": "",
+    "birth_info": null,
     "death_info": "d. 1967",
     "notes": "Obituary Record: Delmarva Burial | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 11144,
       "person_id": 11232,
-      "id": 59,
-      "deceased_name": "Mrs. Gertrude Street",
-      "age": null,
-      "birth_date": null,
-      "death_date": "1967",
-      "cemetery_location": null,
-      "full_text": "LEWES: Mrs. Gertrude Street, 81, of Lewes died at her home Saturday after a long illness.\n\nShe is survived by her husband, Joseph L. Street; two daughters , Mrs. Doris Rice of Baltimore and Mrs. Ann Eighmill of Washington, DC; three sons; Joseph Street Jr. of Washington DC, Preston of Wilmington and Evans of Lewes; a sister, Mrs. Marie V. Crane of Phildelphia and a brother Joseph of Portland, Ore.\n\nFuneral services will be held at 1 tomorrow afternoon at Isreal Methodist Church, Lewes. Friends may call tonight at Young's Funeral Home, Lewes.\n\nHarvey Street  \nSept. 22, \n1967\n\nHarvey Street, 51, a native of Delaware died yesterday in the Veterans Administration Hospital, Los Angeles. He lived in that city at 755 E. 54th Street.\n\nMr. Street was born in Millsboro and left Wilmington 10 years ago. He had been a waitor at the former Hob Tea Room and worked for the former Wilmington Jobbing Co.\n\nSurviving are his widow, Mrs. Ellen Street; two brothers, Howard Street, Wilmington and Alonzo Street, Los Angeles and five half-brothers and half-sisters in California.\n\nServices will be Tuesday afternoon at 1:30 in the Peoples Funeral Home, 4250 S. Central Ave. Los Angeles.\n\nMrs. Pocahontas Street  \n(no date listed)",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Gertrude Street",
+      "citations": [
+        {
+          "citation_id": 10762,
+          "fact_id": 11144,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11145,
+      "person_id": 11232,
+      "fact_type": "Death",
+      "date_string": "d. 1967",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10763,
+          "fact_id": 11145,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11232,
-    "name": "Mrs. Gertrude Street",
+    "name": "Gertrude Street",
     "children": []
   }
 }

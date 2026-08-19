@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3678">
+    <name>
+      <nameForm>
+        <fullText>Henrietta Durham Morgan</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_201"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>22 Jun 1872</original>
+      </date>
+      <source description="#s_201"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>9 Jan 1950 (aged 77)</original>
+      </date>
+      <source description="#s_201"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_201">
+    <about resource="MorganNapoleonBonaparte.htm"/>
+    <title>Record: MorganNapoleonBonaparte.htm</title>
+  </sourceDescription>
+</gedcomx>

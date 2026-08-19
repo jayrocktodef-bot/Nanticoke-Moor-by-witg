@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2009">
+    <name>
+      <nameForm>
+        <fullText>Mary Gray Counsellor</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_132"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>24 Sep 1813</original>
+      </date>
+      <source description="#s_132"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>21 Jun 1906 (aged 92)</original>
+      </date>
+      <source description="#s_132"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_132">
+    <about resource="MainMenu.html"/>
+    <title>Record: MainMenu.html</title>
+  </sourceDescription>
+</gedcomx>

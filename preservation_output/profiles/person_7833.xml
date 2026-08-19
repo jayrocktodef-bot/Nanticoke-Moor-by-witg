@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7833">
+    <name>
+      <nameForm>
+        <fullText>Reginald Hitchens</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_597"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>Jan 1898</original>
+      </date>
+      <source description="#s_597"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Feb 1898 (aged 0&amp;ndash;1 months)</original>
+      </date>
+      <source description="#s_597"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_7833"/>
+    <person2 resource="#p_9812"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_7833"/>
+    <person2 resource="#p_10050"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_597">
+    <about resource="ThompsonAddie&amp;HitchensKids.htm"/>
+    <title>Record: ThompsonAddie&amp;HitchensKids.htm</title>
+  </sourceDescription>
+</gedcomx>

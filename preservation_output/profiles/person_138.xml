@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_138">
+    <name>
+      <nameForm>
+        <fullText>Lorrine Green</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_24"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>15 Oct 1931</original>
+      </date>
+      <source description="#s_24"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>27 Mar 2019 (aged 87)</original>
+      </date>
+      <source description="#s_24"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_137"/>
+    <person2 resource="#p_138"/>
+    <note>
+      <text>Evidence: Edward Coker married Lorrine Greenage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_24">
+    <about resource="coker-j2.htm"/>
+    <title>Record: coker-j2.htm</title>
+  </sourceDescription>
+</gedcomx>

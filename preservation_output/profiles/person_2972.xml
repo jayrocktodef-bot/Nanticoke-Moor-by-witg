@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2972">
+    <name>
+      <nameForm>
+        <fullText>Lorraine Smith</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_170"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>5 Sep 1911</original>
+      </date>
+      <source description="#s_170"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>29 Apr 1986 (aged 74)</original>
+      </date>
+      <source description="#s_170"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_170">
+    <about resource="BassKLorraine.htm"/>
+    <title>Record: BassKLorraine.htm</title>
+  </sourceDescription>
+</gedcomx>

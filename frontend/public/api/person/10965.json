@@ -13,6 +13,65 @@
     "notes": "Mentioned in obituary | Verified via FindAGrave: https://www.findagrave.com/memorial/92547804/hunter-patrick-mosley",
     "dataset_source": "mitsawokett_obituaries"
   },
+  "facts": [
+    {
+      "fact_id": 10475,
+      "person_id": 10965,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Hunter Phyllis Sharon Mosley",
+      "citations": [
+        {
+          "citation_id": 10469,
+          "fact_id": 10475,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    },
+    {
+      "fact_id": 10476,
+      "person_id": 10965,
+      "fact_type": "Birth",
+      "date_string": "18 Aug 2004",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10470,
+          "fact_id": 10476,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    },
+    {
+      "fact_id": 10477,
+      "person_id": 10965,
+      "fact_type": "Death",
+      "date_string": "11 Oct 2004 (aged 1 month)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10471,
+          "fact_id": 10477,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -67,15 +126,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Hunter Phyllis Sharon Mosley",
       "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Hunter Phyllis Sharon Mosley",
-      "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -97,13 +149,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Hunter Phyllis Sharon Mosley",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -151,29 +196,8 @@
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Hunter Phyllis Sharon Mosley",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Hunter Phyllis Sharon Mosley",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Hunter Phyllis Sharon Mosley",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Hunter Phyllis Sharon Mosley",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -195,13 +219,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Hunter Phyllis Sharon Mosley",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -291,20 +308,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Hunter Phyllis Sharon Mosley",
       "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Hunter Phyllis Sharon Mosley",
-      "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Hunter Phyllis Sharon Mosley",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -334,7 +337,7 @@
       "evidence_text": "Obituary child link for Hunter Phyllis Sharon Mosley",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -411,7 +414,7 @@
       "evidence_text": "Obituary child link for Hunter Phyllis Sharon Mosley",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -519,240 +522,9 @@
       "rel_name": "Niquita Harris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10965,
-      "photo_id": 2524,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Elizabeth Wilson Davis, and Robert & Libby Davis, Rob & Libby, th Anniversary May, L to R rear, children: Elaine Davis Blackwell, Cathy Davis Moore, Joan Davis Casey, Robert H. Davis, Libby Davis, Bobby Davis, Davis Family about, William H. Davis Jr., Pearl Orda Davis May, Grace Wilson Davis, Beatrice Davis Hunter, Wilson S. Davis, Brothers & Sister, L to R:, of Mae Wilson Collins, Libby Davis & daughter, Elaine Davis Blackwell, Sam Moore, Cathy Davis Moore, daughter of Robert & Libby, Matt Casey, son of Joan Davis Casey, Son Robert Howard Davis, Daughter Joan Davis, Robert N. Davis, Elizabeth Wilson Davis, Robert N. Davis, Davis Family, to R: \u00a0back--Libby Wilson Davis, Mable Mosley Wilson, Pearl Mosley Chappelle, Howard Carter, Mae Wilson Carter holding Seville, Birdella Ridgway, front--Elaine Davis, Terri Carter, Joan & Bobby Davis, Rita Carter, Betty Davis Terry, Henry Davis, Joan Davis Casey, Michael Davis, Libby Davis, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Wilson",
-      "married_surname": "Davis",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1993",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisRobertNchildrenAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisRobertNehemiahFamily.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10965,
-      "photo_id": 3222,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Grace Geneva Wilson Davis, Seville Davis \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Grace, Geneva Wilson Davis, Daughter Betty\u00a0Glendora\u00a0Davis\u00a0Terry, Wilson\u00a0Davis, Wilson Davis, Wilson & Grace Davis, Davis Family about, William H. Davis Jr., Pearl Orda Davis May, Grace Wilson Davis, Beatrice Davis Hunter, Wilson S. Davis, Wilson Davis, Robert Davis, Christ Church, Wilson Davis, Grace Davis, Davis at home, Lebanon Road, Mildred Terry Knowles, Betty & Ray Terry., Standing: Ellen Terry, Will Terry Terry, Fran Terry, Terry home, L to R: Grace, & Wilson Davis, Sue & Jim Hollingsworth, right unknown, handmade bowling bed, now by Seville Carter, & Grace Davis, a horse and carri, five of us together., of in a car.\", her mother, contracted tuberculosis. \"In August, my mother called us into, her bedroom, then me and then, family removed to Cheswold, Mabel Mosley, following year., her older brother Charlie, she had dearly loved, last words were, here's Mom, I don't see her, ' and he pointed, 'There she is, ' and passed, and so young to die, we will be together someday., shoes and, Seville Davis was born August, at Clayton, then marri, S. Davis, they moved to Wilmington, for over  years., had to, struggled with the low w, World War II, DE. Many a student was, enjoyed sewing, crocheting and growing beautiful flowers., Delaware for over, created a bed, a work of art., state except Alaska, but true to, with Betty and her husband., Grace learned bowling, \"A long time, the Gospel, Wilson passed, Elizabeth G. Terry, of San Francisco, William W. Terry of Springville, Terry Phillips of Columbia, David J. Terry of Beltsville, MD; eight great-grandchildren, Aaron and Seth Terry, Thomas and Meghan Phillips, and Lauren, and David Reichard; two sisters, Elizabeth Davis of Hartly, and Mae Collins of Cheswold, Delaware; a godchild, Colette Carney, Wheatley of Dover, and many relatives and friends., Facts Challenged, by Matt Zabitka, sports columnist for the Wilmington, Del. News-Journal, \"Bill\" Stradley, 'Mr. Bowling\" of Delaware, takes issue with some, noted black bowlers in Delaware, \" Braxton, which had, four lanes, \" writes Stradley, a Wilmington, who has been a, at the Parkway Bowling Academy, then man, Leo Tolliver, Freddie Wing, Fletcher White, Noah Daniels, Oria Obyrant, Wilson Davis, \" adds Stradley, I think, on French Street, th and th., ' and I, \"Mr. Davis, along with his brother, was a caretaker at the, column with \"great interest, who was mentioned, of daughter Betty Davis Terry, | N-R | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Wilson",
-      "married_surname": "Davis",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1954",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisBettyAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisWilson&Family.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10965,
-      "photo_id": 4960,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Benjamin C. & Marcelina, Mosley Family, Mosley Sr., C. & Marcelina Mosley, about /, and Benjamin Sr., Clifford Mosley Sr., George and George's, name unknown, Uncle George, Aunt Elsie, Aunt Lil, is Marcelina and George., Jaunita Mosley, Sara Mosley Simmons, Sharon \"Mici\" Hood, and Gail Mosley, Benjamin Jr., George Mosley, Benjamin Mosley Jr.., Tricia (m. to Donald Mosley, George Mosley, Sharon and Raymond Hunter, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Marcelina",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1940",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MosleySharonAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyBenjaminCFamily.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 618,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 849,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1080,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1311,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1542,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1773,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2004,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2235,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2466,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2697,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2928,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3159,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3390,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3619,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3850,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4081,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4312,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4543,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4773,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 10965,
     "name": "Hunter Phyllis Sharon Mosley",

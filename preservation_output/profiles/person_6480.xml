@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6480">
+    <name>
+      <nameForm>
+        <fullText>Mary Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_449"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>18 Oct 1907</original>
+      </date>
+      <source description="#s_449"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>28 Jun 1977 (aged 69)</original>
+      </date>
+      <source description="#s_449"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_6480"/>
+    <person2 resource="#p_9519"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_6480"/>
+    <person2 resource="#p_490"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_9564"/>
+    <person2 resource="#p_6480"/>
+    <note>
+      <text>Evidence: GEDCOM Family @F440@ marriage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9563"/>
+    <person2 resource="#p_6480"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9520"/>
+    <person2 resource="#p_6480"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_449">
+    <about resource="MorrisEdgar&amp;JacksonMary.htm"/>
+    <title>Record: MorrisEdgar&amp;JacksonMary.htm</title>
+  </sourceDescription>
+</gedcomx>

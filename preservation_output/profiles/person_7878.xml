@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7878">
+    <name>
+      <nameForm>
+        <fullText>Bart Thompson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_602"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_602"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>17 Jan 1979</original>
+      </date>
+      <source description="#s_602"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_602">
+    <about resource="ThompsonJohn&amp;Sarah.htm"/>
+    <title>Record: ThompsonJohn&amp;Sarah.htm</title>
+  </sourceDescription>
+</gedcomx>

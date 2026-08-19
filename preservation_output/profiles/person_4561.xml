@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4561">
+    <name>
+      <nameForm>
+        <fullText>Mark Weidemann</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_265"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>30 Sep 1967</original>
+      </date>
+      <source description="#s_265"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>26 Feb 2026 (aged 58)</original>
+      </date>
+      <source description="#s_265"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_265">
+    <about resource="CarterMaeWilsonfamily.htm"/>
+    <title>Record: CarterMaeWilsonfamily.htm</title>
+  </sourceDescription>
+</gedcomx>

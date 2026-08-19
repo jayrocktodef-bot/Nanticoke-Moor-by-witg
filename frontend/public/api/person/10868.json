@@ -13,6 +13,65 @@
     "notes": "Mentioned in obituary | Verified via FindAGrave: https://www.findagrave.com/memorial/146968009/elizabeth-lively",
     "dataset_source": "mitsawokett_obituaries"
   },
+  "facts": [
+    {
+      "fact_id": 10289,
+      "person_id": 10868,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Elizabeth Lively",
+      "citations": [
+        {
+          "citation_id": 10283,
+          "fact_id": 10289,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    },
+    {
+      "fact_id": 10290,
+      "person_id": 10868,
+      "fact_type": "Birth",
+      "date_string": "6 Jan 1766",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10284,
+          "fact_id": 10290,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    },
+    {
+      "fact_id": 10291,
+      "person_id": 10868,
+      "fact_type": "Death",
+      "date_string": "23 Nov 1851 (aged 85)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10285,
+          "fact_id": 10291,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "invalid_mass_parent",
@@ -75,7 +134,7 @@
       "evidence_text": "Obituary parentage for Carney Milton &quot;Nick&quot;",
       "certainty": "confirmed",
       "rel_id": 10914,
-      "rel_name": "Milton \"Nick\" Carney"
+      "rel_name": "Milton Nick Carney"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -117,7 +176,7 @@
       "evidence_text": "Obituary parentage for Coombs Ellsworth &quot;Buddy&quot;",
       "certainty": "confirmed",
       "rel_id": 10919,
-      "rel_name": "Coombs Ellsworth \"Buddy\""
+      "rel_name": "Coombs Ellsworth Buddy"
     },
     {
       "relationship_type": "child_of",
@@ -160,13 +219,6 @@
       "certainty": "confirmed",
       "rel_id": 10925,
       "rel_name": "Cuff Florence"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Cuff Francis M.",
-      "certainty": "confirmed",
-      "rel_id": 4402,
-      "rel_name": "Margaret M. Cuff"
     },
     {
       "relationship_type": "child_of",
@@ -229,7 +281,7 @@
       "evidence_text": "Obituary parentage for Durham Buena &quot;Boni&quot;",
       "certainty": "confirmed",
       "rel_id": 10934,
-      "rel_name": "Buena \"Boni\" Durham"
+      "rel_name": "Buena Boni Durham"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -345,80 +397,10 @@
     },
     {
       "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Green Rachel M. Hughes",
-      "certainty": "confirmed",
-      "rel_id": 5567,
-      "rel_name": "Hughes Green"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage Benjamin",
-      "certainty": "confirmed",
-      "rel_id": 10949,
-      "rel_name": "Greenage Benjamin"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage Janet Marie Henry",
-      "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage John Wallace",
-      "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage John Reggs",
-      "certainty": "confirmed",
-      "rel_id": 10952,
-      "rel_name": "Greenage John Reggs"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage Mary C. Van Dusen",
-      "certainty": "confirmed",
-      "rel_id": 10953,
-      "rel_name": "Greenage Mary C. Van Dusen"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage Paul Joseph",
-      "certainty": "confirmed",
-      "rel_id": 10954,
-      "rel_name": "Greenage Paul Joseph"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage Sr. Robert",
-      "certainty": "confirmed",
-      "rel_id": 10956,
-      "rel_name": "Greenage Sr. Robert"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Grinage Clarence Mark",
-      "certainty": "confirmed",
-      "rel_id": 10957,
-      "rel_name": "Grinage Clarence Mark"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Grinage Wilma R. Coffinger",
-      "certainty": "confirmed",
-      "rel_id": 10958,
-      "rel_name": "Grinage Wilma R. Coffinger"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Harmon Leonard &quot;Dunk&quot;",
       "certainty": "confirmed",
       "rel_id": 10959,
-      "rel_name": "Leonard \"Dunk\" Harmon"
+      "rel_name": "Leonard Dunk Harmon"
     },
     {
       "relationship_type": "child_of",
@@ -460,7 +442,7 @@
       "evidence_text": "Obituary parentage for Hughes Adella Naomi",
       "certainty": "confirmed",
       "rel_id": 10964,
-      "rel_name": "Hughes Adella Naomi"
+      "rel_name": "Adella Naomi Hughes"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -599,15 +581,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Lively Eliza",
       "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Lively Eliza",
-      "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -629,13 +604,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Lively Eliza",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -683,29 +651,8 @@
       "relationship_type": "child_of",
       "evidence_text": "Obituary parentage for Lively Eliza",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Lively Eliza",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Lively Eliza",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Lively Eliza",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "child_of",
@@ -727,13 +674,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Lively Eliza",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "child_of",
@@ -816,20 +756,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Lively Eliza",
       "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Lively Eliza",
-      "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Lively Eliza",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -859,7 +785,7 @@
       "evidence_text": "Obituary child link for Lively Eliza",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -936,7 +862,7 @@
       "evidence_text": "Obituary child link for Lively Eliza",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -1069,14 +995,7 @@
       "evidence_text": "Obituary parentage for Morris Charles",
       "certainty": "confirmed",
       "rel_id": 8676,
-      "rel_name": "Charles \"Charlie\" Morris Davis"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Morris Elva E. Street",
-      "certainty": "confirmed",
-      "rel_id": 6149,
-      "rel_name": "and Frances \"Fannie\" Street Morris"
+      "rel_name": "Charles Charlie Morris Davis"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1094,13 +1013,6 @@
     },
     {
       "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Mosley Elisha M.",
-      "certainty": "confirmed",
-      "rel_id": 358,
-      "rel_name": "Lillie M. Mosley"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Mosley Elsie H.",
       "certainty": "confirmed",
       "rel_id": 477,
@@ -1111,7 +1023,7 @@
       "evidence_text": "Obituary parentage for Murray/ Mury Isaac Nichols 1881/1882-1937",
       "certainty": "confirmed",
       "rel_id": 10979,
-      "rel_name": "Murray/ Mury Isaac Nichols 1881/1882-1937"
+      "rel_name": "Murray Mury Isaac Nichols"
     },
     {
       "relationship_type": "child_of",
@@ -1174,7 +1086,7 @@
       "evidence_text": "Obituary parentage for Pierce Caleb ~1858/1864-1938",
       "certainty": "confirmed",
       "rel_id": 10988,
-      "rel_name": "Caleb ~1858/1864-1938 Pierce"
+      "rel_name": "Caleb ~ Pierce"
     },
     {
       "relationship_type": "child_of",
@@ -1219,20 +1131,6 @@
       "rel_name": "Laura A. Richmond Pierce"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Pierce Lucetta Pierce",
-      "certainty": "confirmed",
-      "rel_id": 8138,
-      "rel_name": "\"Butch\" & Susie Webster Pierce"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Pierce Marietta Pierce",
-      "certainty": "confirmed",
-      "rel_id": 8138,
-      "rel_name": "\"Butch\" & Susie Webster Pierce"
-    },
-    {
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Pierce Martha Irene",
       "certainty": "confirmed",
@@ -1269,13 +1167,6 @@
     },
     {
       "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Sammons Alfred Oscar",
-      "certainty": "confirmed",
-      "rel_id": 4129,
-      "rel_name": "Oscar & Ethel L. Sammons"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Satterfield Angeline",
       "certainty": "confirmed",
       "rel_id": 10873,
@@ -1287,13 +1178,6 @@
       "certainty": "confirmed",
       "rel_id": 10998,
       "rel_name": "Scott Ella Mae Bailey"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Seeney Laura E. Ridgeway",
-      "certainty": "confirmed",
-      "rel_id": 7457,
-      "rel_name": "Forrest Seeney Ridgeway and Marietta"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1363,7 +1247,7 @@
       "evidence_text": "Obituary parentage for Ward Helen Harmon",
       "certainty": "confirmed",
       "rel_id": 8913,
-      "rel_name": "Amos Edward Harmon Sr."
+      "rel_name": "Amos Edward Harmon Sr"
     },
     {
       "relationship_type": "child_of",
@@ -1430,13 +1314,6 @@
     },
     {
       "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for 1972-1975, receiving many commendations for his excellent work. At the V.A.,",
-      "certainty": "confirmed",
-      "rel_id": 11018,
-      "rel_name": "1972-1975, receiving many commendations for his excellent work. At the V.A.,"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Adele Marie Massey Wright",
       "certainty": "confirmed",
       "rel_id": 11014,
@@ -1489,7 +1366,7 @@
       "evidence_text": "Obituary parentage for Milton &quot;Nick&quot; Carney",
       "certainty": "confirmed",
       "rel_id": 10914,
-      "rel_name": "Milton \"Nick\" Carney"
+      "rel_name": "Milton Nick Carney"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1510,14 +1387,14 @@
       "evidence_text": "Obituary parentage for Charles Glendon Coker Sr.",
       "certainty": "confirmed",
       "rel_id": 10513,
-      "rel_name": "Charles Harold hanzer Sr."
+      "rel_name": "Charles Harold hanzer Sr"
     },
     {
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Ellsworth &quot;Buddy&quot; Coombs",
       "certainty": "confirmed",
       "rel_id": 10919,
-      "rel_name": "Coombs Ellsworth \"Buddy\""
+      "rel_name": "Coombs Ellsworth Buddy"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1545,7 +1422,7 @@
       "evidence_text": "Obituary parentage for Charles Willis Coursey",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1553,13 +1430,6 @@
       "certainty": "confirmed",
       "rel_id": 10925,
       "rel_name": "Cuff Florence"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Francis M. &quot;Frank&quot; Cuff",
-      "certainty": "confirmed",
-      "rel_id": 11020,
-      "rel_name": "Francis M. \"Frank\" Cuff"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1643,7 +1513,7 @@
       "evidence_text": "Obituary parentage for Edward E. Ford Jr.",
       "certainty": "confirmed",
       "rel_id": 10694,
-      "rel_name": "Donald Edward Johnson Jr."
+      "rel_name": "Donald Edward Johnson Jr"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1689,13 +1559,6 @@
     },
     {
       "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Ella M. Williams Gould",
-      "certainty": "confirmed",
-      "rel_id": 11021,
-      "rel_name": "Ella M. Williams Gould"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Christina Mae Norwood-Green",
       "certainty": "confirmed",
       "rel_id": 10983,
@@ -1707,20 +1570,6 @@
       "certainty": "confirmed",
       "rel_id": 2561,
       "rel_name": "Bedell Elsie Rachel Green"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Clarence Mark &quot;Mark&quot; Grinage",
-      "certainty": "confirmed",
-      "rel_id": 10957,
-      "rel_name": "Grinage Clarence Mark"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Wilma R. Coffinger Grinage",
-      "certainty": "confirmed",
-      "rel_id": 10958,
-      "rel_name": "Grinage Wilma R. Coffinger"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1748,7 +1597,7 @@
       "evidence_text": "Obituary parentage for Adella Naomi Hughes",
       "certainty": "confirmed",
       "rel_id": 10964,
-      "rel_name": "Hughes Adella Naomi"
+      "rel_name": "Adella Naomi Hughes"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1756,13 +1605,6 @@
       "certainty": "confirmed",
       "rel_id": 10966,
       "rel_name": "Huntsinger Luella Durham"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Elsie L. Pierce James",
-      "certainty": "confirmed",
-      "rel_id": 5487,
-      "rel_name": "Elsie & James."
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1784,13 +1626,6 @@
       "certainty": "confirmed",
       "rel_id": 9696,
       "rel_name": "Dallas Robert Johnson"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Sandra Z. Bailey Johnson",
-      "certainty": "confirmed",
-      "rel_id": 3945,
-      "rel_name": "Joan Johnson ) Sandra Johnson?"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1880,15 +1715,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Eliza Lively",
       "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Eliza Lively",
-      "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -1910,13 +1738,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Eliza Lively",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -1964,29 +1785,8 @@
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Eliza Lively",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Eliza Lively",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Eliza Lively",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Eliza Lively",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -2008,13 +1808,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Eliza Lively",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -2097,20 +1890,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Eliza Lively",
       "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Eliza Lively",
-      "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Eliza Lively",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -2140,7 +1919,7 @@
       "evidence_text": "Obituary child link for Eliza Lively",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -2217,7 +1996,7 @@
       "evidence_text": "Obituary child link for Eliza Lively",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -2329,7 +2108,7 @@
       "evidence_text": "Obituary parentage for Raymond H. Lively Jr.",
       "certainty": "confirmed",
       "rel_id": 6815,
-      "rel_name": "Aubrey Raymond Newlin Jr."
+      "rel_name": "Aubrey Raymond Newlin Jr"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -2343,21 +2122,14 @@
       "evidence_text": "Obituary parentage for Charles Morris",
       "certainty": "confirmed",
       "rel_id": 8676,
-      "rel_name": "Charles \"Charlie\" Morris Davis"
+      "rel_name": "Charles Charlie Morris Davis"
     },
     {
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Sanford G. Morris Sr.",
       "certainty": "confirmed",
       "rel_id": 11025,
-      "rel_name": "Sanford G. Morris Sr."
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Elisha M. Mosley",
-      "certainty": "confirmed",
-      "rel_id": 11026,
-      "rel_name": "Elisha M. Mosley"
+      "rel_name": "Sanford G. Morris Sr"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -2371,7 +2143,7 @@
       "evidence_text": "Obituary parentage for Isaac Nichols Murray or Mury 1881/1882-1937",
       "certainty": "confirmed",
       "rel_id": 10979,
-      "rel_name": "Murray/ Mury Isaac Nichols 1881/1882-1937"
+      "rel_name": "Murray Mury Isaac Nichols"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -2413,7 +2185,7 @@
       "evidence_text": "Obituary parentage for Caleb Pierce ~1858/1864-1938",
       "certainty": "confirmed",
       "rel_id": 10988,
-      "rel_name": "Caleb ~1858/1864-1938 Pierce"
+      "rel_name": "Caleb ~ Pierce"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -2428,13 +2200,6 @@
       "certainty": "confirmed",
       "rel_id": 11029,
       "rel_name": "Carrie V. Cuff Pierce"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Frances E Cuff Pierce",
-      "certainty": "confirmed",
-      "rel_id": 11030,
-      "rel_name": "Frances E Cuff Pierce"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -2462,14 +2227,14 @@
       "evidence_text": "Obituary parentage for Lucetta Pierce Pierce",
       "certainty": "confirmed",
       "rel_id": 11031,
-      "rel_name": "Lucetta Pierce Pierce"
+      "rel_name": "Lucetta Pierce"
     },
     {
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Marietta Pierce Pierce",
       "certainty": "confirmed",
       "rel_id": 11032,
-      "rel_name": "Marietta Pierce Pierce"
+      "rel_name": "Marietta Pierce"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -2539,7 +2304,7 @@
       "evidence_text": "Obituary parentage for James Howard Street, Sr.",
       "certainty": "confirmed",
       "rel_id": 613,
-      "rel_name": "James Dean Sr."
+      "rel_name": "James Dean Sr"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -2614,2670 +2379,19 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 630,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 743,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 861,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 974,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1092,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1205,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1323,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1436,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1554,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1667,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1785,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1898,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2016,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2129,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2247,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2360,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2478,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2591,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2709,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2822,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2940,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3053,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3171,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3284,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3326,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10839,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3327,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10905,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3328,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10906,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3329,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10908,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3330,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10911,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3331,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3337,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3332,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10912,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3333,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10913,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3334,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10914,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3335,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 2330,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3336,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10915,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3337,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10917,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3338,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3339,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10918,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3340,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10919,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3341,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10921,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3342,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10922,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3343,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4370,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3344,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3345,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10924,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3346,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10925,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3347,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4402,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3348,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10927,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3349,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10928,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3350,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10929,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3351,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10930,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3352,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4609,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3353,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10931,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3354,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10932,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3355,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10933,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3356,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10934,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3357,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10935,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3358,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 2569,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3359,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6474,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3360,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4134,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3361,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10936,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3362,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10937,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3363,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10938,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3364,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10940,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3365,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10941,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3366,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10943,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3367,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10944,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3368,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10945,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3369,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 2884,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3370,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10947,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3371,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6795,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3372,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10948,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3373,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5567,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3374,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10949,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3375,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10950,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3376,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10951,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3377,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10952,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3378,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10953,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3379,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10954,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3380,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10956,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3381,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10957,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3382,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10958,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3383,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10959,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3384,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10960,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3385,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10961,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3386,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7089,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3387,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10962,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3388,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10963,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3389,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10964,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3390,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3391,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10966,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3392,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8202,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3393,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3394,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3395,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10968,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3396,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10932,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3397,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10969,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3398,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10970,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3399,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10971,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3400,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10972,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3401,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10973,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3402,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10975,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3403,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3404,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10977,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3405,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8676,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3406,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6149,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3407,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10978,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3408,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6427,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3409,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 358,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3410,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 477,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3411,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10979,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3412,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10980,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3413,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10981,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3414,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10982,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3415,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10983,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3416,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10984,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3417,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3418,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10986,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3419,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10987,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3420,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10988,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3421,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3422,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10989,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3423,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3424,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8200,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3425,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8206,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3426,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10990,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3427,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8138,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3428,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8138,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3429,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10991,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3430,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3431,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10993,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3432,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10994,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3433,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10996,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3434,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4129,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3435,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10873,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3436,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10998,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3437,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7457,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3438,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10999,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3439,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11000,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3440,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11001,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3441,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11002,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3442,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11004,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3443,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3444,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11005,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3445,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11007,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3446,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11008,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3447,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8913,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3448,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11009,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3449,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11010,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3450,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11011,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3451,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11012,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3452,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10963,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3453,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11013,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3454,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11014,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3455,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3456,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11015,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3457,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11018,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3458,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11014,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3459,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10918,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3460,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10905,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3461,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10906,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3462,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10908,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3463,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10911,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3464,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10913,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3465,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10914,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3466,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10915,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3467,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10917,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3468,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10513,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3469,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10919,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3470,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10921,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3471,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10922,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3472,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4370,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3473,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7448,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3474,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10925,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3475,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11020,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3476,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10928,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3477,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10927,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3478,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10929,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3479,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10930,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3480,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 364,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3481,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10933,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3482,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 2569,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3483,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6474,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3484,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10936,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3485,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10937,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3486,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10938,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3487,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10694,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3488,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10940,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3489,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10941,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3490,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10943,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3491,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10947,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3492,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10944,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3493,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10945,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3494,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11021,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3495,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10983,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3496,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 2561,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3497,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10957,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3498,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10958,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3499,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10960,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3500,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11022,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3501,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10963,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3502,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10964,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3503,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10966,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3504,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5487,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3505,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10969,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3506,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11023,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3507,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3508,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3945,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3509,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11024,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3510,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10970,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3511,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10971,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3512,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10972,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3513,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10973,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3514,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6815,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3515,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10977,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3516,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8676,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3517,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11025,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3518,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11026,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3519,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11027,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3520,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10979,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3521,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10980,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3522,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10984,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3523,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3524,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10986,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3525,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10987,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3526,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10988,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3527,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11028,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3528,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11029,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3529,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11030,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3530,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8202,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3531,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 1771,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3532,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10990,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3533,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11031,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3534,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11032,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3535,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8832,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3536,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3537,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11034,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3538,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10996,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3539,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11035,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3540,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10998,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3541,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11000,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3542,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11001,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3543,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11004,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3544,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 613,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3545,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11007,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3546,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11008,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3547,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11009,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3548,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11010,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3549,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11011,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3550,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11036,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3551,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11013,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3552,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11037,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3553,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11015,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3554,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11038,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3631,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3744,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3862,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3975,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4093,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4206,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4324,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4437,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4555,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4667,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4785,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4898,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 10868,
     "name": "Elizabeth Lively",
     "children": [
       {
-        "id": 10857,
-        "name": "Nanticoke Chiefs",
+        "id": 10858,
+        "name": "Gwendolyn Durham",
         "children": []
       },
       {
-        "id": 10858,
-        "name": "Gwendolyn Durham",
+        "id": 6088,
+        "name": "Myrtle Sammons Harmon",
         "children": []
       }
     ]

@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 3762,
-    "name": ". George \"Mike\" Carney",
+    "name": "George Mike Carney",
     "first_name": ".",
-    "middle_name": "George \"Mike\"",
+    "middle_name": "George Mike",
     "maiden_name": "",
     "married_last_name": "Carney",
     "evidence_level": 2,
@@ -13,40 +13,34 @@
     "notes": "Ingested from CarneyShade.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 3102,
       "person_id": 3762,
-      "photo_id": 2286,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "\"Shary\" & Mary J. Carney, Shary &, Shadrack \"Shade\" Carney, Mary Jane Carty Carney, of John C. Carter, of grandson Goldie Carney, | N-R | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Carney",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1870",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_CarneyGoldieAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyShade.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3762,
-      "photo_id": 2286,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "\"Shary\" & Mary J. Carney, Shary &, Shadrack \"Shade\" Carney, Mary Jane Carty Carney, of John C. Carter, of grandson Goldie Carney, | N-R | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Carney",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1870",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_CarneyGoldieAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyShade.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": ". George Mike Carney",
+      "citations": [
+        {
+          "citation_id": 3096,
+          "fact_id": 3102,
+          "source_id": 206,
+          "evidence_text": null,
+          "source_title": "Record: CarneyShade.htm",
+          "source_url": "CarneyShade.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 3762,
-    "name": ". George \"Mike\" Carney",
+    "name": "George Mike Carney",
     "children": []
   }
 }

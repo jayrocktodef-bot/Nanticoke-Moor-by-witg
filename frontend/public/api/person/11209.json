@@ -8,26 +8,54 @@
     "married_last_name": "Johnson",
     "evidence_level": 2,
     "source_page": "Obituary Archive",
-    "birth_info": "",
+    "birth_info": null,
     "death_info": "d. 1965",
     "notes": "Obituary Record: Delmarva Burial | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 11089,
       "person_id": 11209,
-      "id": 36,
-      "deceased_name": "L. Clinton Johnson",
-      "age": null,
-      "birth_date": null,
-      "death_date": "1965",
-      "cemetery_location": null,
-      "full_text": "MILLSBORO: L. Clinton Johnson, 83, farmer, died Monday after a lingering illness at the home of his niece, Mrs. Mabel Harmon.\n\nMrs. Dorsey Johnson  \nApril 14, \n1965",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "L. Clinton Johnson",
+      "citations": [
+        {
+          "citation_id": 10707,
+          "fact_id": 11089,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11090,
+      "person_id": 11209,
+      "fact_type": "Death",
+      "date_string": "d. 1965",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10708,
+          "fact_id": 11090,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11209,

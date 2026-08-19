@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_185">
+    <name>
+      <nameForm>
+        <fullText>Hannah Concilor</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_31"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>16 Apr 1916</original>
+      </date>
+      <source description="#s_31"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>29 Apr 1954 (aged 38)</original>
+      </date>
+      <source description="#s_31"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_185"/>
+    <person2 resource="#p_186"/>
+    <note>
+      <text>Evidence: Hannah Concilor who married Perry Cork</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_31">
+    <about resource="concl-j1.htm"/>
+    <title>Record: concl-j1.htm</title>
+  </sourceDescription>
+</gedcomx>

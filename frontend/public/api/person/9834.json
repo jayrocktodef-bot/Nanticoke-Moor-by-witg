@@ -13,13 +13,72 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9123,
+      "person_id": 9834,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Sylvester H. Johnson",
+      "citations": [
+        {
+          "citation_id": 9117,
+          "fact_id": 9123,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9124,
+      "person_id": 9834,
+      "fact_type": "Birth",
+      "date_string": "Abt 1847 Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9118,
+          "fact_id": 9124,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9125,
+      "person_id": 9834,
+      "fact_type": "Death",
+      "date_string": "29 Oct 1924 Millsboro",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9119,
+          "fact_id": 9125,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F452@ marriage 15 Nov 1868 New Castle, New Castle County, Delaware, USA",
       "certainty": "confirmed",
-      "rel_id": 9835,
-      "rel_name": "Mary A Street"
+      "rel_id": 7504,
+      "rel_name": "Mary A. Street"
     },
     {
       "relationship_type": "child_of",
@@ -47,7 +106,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9832,
-      "rel_name": "Madge (Fanny) M Johnson"
+      "rel_name": "Madge M Johnson"
     },
     {
       "relationship_type": "child_of",
@@ -92,34 +151,7 @@
       "rel_name": "Charles J Johnson"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9834,
-      "photo_id": 2131,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Nehemiah Durham, Anna Carter Durham, New Castle, see brief line, Loretta Gross Jordan, . \u00a0\u00a0Lois Gross Mott, .\u00a0\u00a0 Lester Bowers, . \u00a0\u00a0Charlotte \"Lottie\" Durham Gross, . \u00a0\u00a0Morgan Brian Mott, .\u00a0 \u00a0Carlton William Davis, .\u00a0 \u00a0Robert Alexander Newbrough, .\u00a0 \u00a0Paul Anthony Mott Sr., . Noelle Spencer, . Melanie Gross Newbrough, . Baraka David Noel, . Gigi Loraine Gross, . Grace Wilson Davis, . Betty Davis Terry, . Raymond Terry, Michael Davis, . Ann Gross Lawson, . Thomas Mott, . Lena Jackson, . Leah Jackson, . Stephanie May Bowers, . Lois Jenkins Gross, . Rock Anthony Davis, . Lorita Turner Brown, . Joan Davis Casey, . Elizabeth Pritchett Turner, . Beverly Gross Spencer, . David Joseph Terry, . Elaine Davis Blackwell, . Janice Atkins Turner, Paul Anthony Mott Jr., . Dallas Turner Jackson, . Elizabeth Wathina Velasquez, . Dominique Ellysse Gross, . Belinda Gross Broadus, . Peter Brian Mott, . Paris Ariel Broadus, . Kim Overall Mott, . Richard Isaiah Mott, . Richard Isaiah Gross Jr., . Tonye Smith Gross, . Milan Kira Broadus, Delaware; died  Feb, in Clayton, Bishop's Corner, Delaware. He married Johnson, died in Perhaps Kent County, Delaware; on  Sep  in Smyrna, Delaware Anna Elizabeth Carter, born  Apr  in Lockwood, Delaware; died  Jan  in Clayton, Delaware; buried  Jan, Methodist Church Manship Cemetery, of  Bridge) and Lina Mosley., Orda Arbana Durham, born  Sep  in Clayton, Delaware; died, Aug  in Dover, Delaware; buried  Aug  in Immanuel, Union Manship Cemetery, Henry Davis., William McKinley Durham, born  Jun  in Clayton, Colanthe & Elizabeth whose whereabouts, are not known to us., Sarah Virginia Durham, born  Mar  in Clayton, Delaware; died, Bishop's Corner, Delaware. She married Leroy Pritchett., Isaiah Return \"Zed\" Durham, born  Oct  in Clayton, Delaware; buried, Immanuel Union Manship Cemetery, Pennsylvania Gertrude, Rebecca Ridgeway, born  Dec  in Camden, Delaware; died, Feb  in Smyrna, Delaware; buried in Immanuel Union, Bishop's Corner, daughter of Sylvester Ridgeway, Charlotte Augusta \"Lottie\" Durham, born  Dec / in Clayton, Delaware; died  Nov  in Wilmington, New Castle, Delaware; buried, Immanuel Union Manship Cemetery, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1996",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamOrdaArbanaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamReunion1996HiRes.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9834,
-      "photo_id": 4359,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Sarah Jane Sockum Harmon, Isaac W. Harmon, Sarah Jane Sockum Harmon, Isaac Harman, Sylvia Davis Pinkett, Ephraim Charles married Eunice Wright, of Warren & Marie Wright, moved to Phila., Pa. & operated, Ann Wright;, As a young boy, became a seaman, an obsession with owning land, Indian river, soft-shelled crabs, three saw mills., dau of, married Amelia Street, one child John Wesley, who married Lillie Clark, dau. of, had one, Isaac who lived in Phila., who married Vina Ann Harmon, children Were: Ralph B., Theodore Parker, Ephraim Lincoln. Fanny, William Augustus, Eunice E., Noah Chester, Anna Janie, Isaac Wilson, Jr.; Sarah Jane, who married Ralph Bumbray, Jr.; Noah, who married Eunice Johnson, dau. Of Wesley Sylvester, Sarah Jane, and Noah, Jr.; Lillie Mae, children were: Isaac, Mable and Leon., Isaac\u2019s wife, Sarah Jane, each to granddaughter, Bertha and grandson John Wesley, and to each living child:, Sarah Jane, Isaac Wilson, Eliza Ann, and Noah, Jane Sockume, born abt  in Sussex County, . \u00a0\u00a0Thomas W. Harmon, born abt ., . \u00a0\u00a0Levin T. Harmon, . \u00a0\u00a0Sarah Jane Harmon, born abt . She married, Ralph Bumbray., Isaac Wilson  Harman, Millsboro. He, married Vina Ann Harmon., born abt ., . \u00a0\u00a0Noah Harmon, born abt  in Millsboro, Delaware. He married Eunice E.., . \u00a0\u00a0Lillie Mae Harmon, born abt ., . \u00a0\u00a0Eliza Anne Harmon, born abt . She married, William Howard Johnson, Patience Wright., . Robert M. Harmon, died Infant ., . Eunice W. Harmon, died Infant ., . Nancy Harmon, died Child ., . Ralph B. Harmon, of son John Wesley Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Sockum",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1829",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonJohnWesleyAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonIsaacW&SarahSockum.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

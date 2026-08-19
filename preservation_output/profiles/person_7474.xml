@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7474">
+    <name>
+      <nameForm>
+        <fullText>James Seeney</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_580"/>
+    <source description="#s_667"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_580"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1814</original>
+      </date>
+      <source description="#s_580"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_667">
+    <about resource="https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"/>
+    <title>Obituary: Marguerite J. Brown ~1928-2016</title>
+  </sourceDescription>
+  <sourceDescription id="s_580">
+    <about resource="SeeneyClifford&amp;James&amp;wives.htm"/>
+    <title>Record: SeeneyClifford&amp;James&amp;wives.htm</title>
+  </sourceDescription>
+</gedcomx>

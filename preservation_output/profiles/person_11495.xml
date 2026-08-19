@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11495">
+    <name>
+      <nameForm>
+        <fullText>The earliest known ancestors were  James McCarty</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_4"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11495"/>
+    <person2 resource="#p_11496"/>
+    <note>
+      <text>Evidence: The earliest known ancestors were  James McCarty  and Barsheba Dean who were married in Dorchester Co., MD on 17 August,</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11495"/>
+    <person2 resource="#p_11496"/>
+    <note>
+      <text>Evidence: The earliest known ancestors were  James McCarty  and Barsheba Dean who were married in Dorchester Co., MD on 17 August,</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_4">
+    <about resource="carter.htm"/>
+    <title>Record: carter.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1690">
+    <name>
+      <nameForm>
+        <fullText>Charles C. Clark</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_126"/>
+    <source description="#s_667"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>about 1877 — Delaware, United States</original>
+      </date>
+      <source description="#s_126"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1690"/>
+    <person2 resource="#p_9953"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1690"/>
+    <person2 resource="#p_9954"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_667">
+    <about resource="https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"/>
+    <title>Obituary: Marguerite J. Brown ~1928-2016</title>
+  </sourceDescription>
+  <sourceDescription id="s_126">
+    <about resource="NMAI.AC.001.008"/>
+    <title>Record: NMAI.AC.001.008</title>
+  </sourceDescription>
+</gedcomx>

@@ -13,6 +13,74 @@
     "notes": "Mentioned in obituary | Verified via FindAGrave: https://www.findagrave.com/memorial/15091442/john-devin",
     "dataset_source": "mitsawokett_obituaries"
   },
+  "facts": [
+    {
+      "fact_id": 10527,
+      "person_id": 10985,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Perkins Margaret Elizabeth",
+      "citations": [
+        {
+          "citation_id": 10521,
+          "fact_id": 10527,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        },
+        {
+          "citation_id": 11307,
+          "fact_id": 10527,
+          "source_id": 667,
+          "evidence_text": "Detected in Obituary of With family members at",
+          "source_title": "Obituary: Marguerite J. Brown ~1928-2016",
+          "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm",
+          "source_dataset": "mitsawokett_obits"
+        }
+      ]
+    },
+    {
+      "fact_id": 10528,
+      "person_id": 10985,
+      "fact_type": "Birth",
+      "date_string": "31 Aug 1856",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10522,
+          "fact_id": 10528,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    },
+    {
+      "fact_id": 10529,
+      "person_id": 10985,
+      "fact_type": "Death",
+      "date_string": "6 Apr 1925 (aged 68)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10523,
+          "fact_id": 10529,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -67,15 +135,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Perkins Margaret Elizabeth",
       "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Perkins Margaret Elizabeth",
-      "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -97,13 +158,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Perkins Margaret Elizabeth",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -151,29 +205,8 @@
       "relationship_type": "child_of",
       "evidence_text": "Obituary parentage for Perkins Margaret Elizabeth",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Perkins Margaret Elizabeth",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Perkins Margaret Elizabeth",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Perkins Margaret Elizabeth",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "child_of",
@@ -195,13 +228,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Perkins Margaret Elizabeth",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "child_of",
@@ -291,20 +317,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Perkins Margaret Elizabeth",
       "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Perkins Margaret Elizabeth",
-      "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Perkins Margaret Elizabeth",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -334,7 +346,7 @@
       "evidence_text": "Obituary child link for Perkins Margaret Elizabeth",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -411,7 +423,7 @@
       "evidence_text": "Obituary child link for Perkins Margaret Elizabeth",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -571,15 +583,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Margaret Elizabeth Perkins",
       "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Margaret Elizabeth Perkins",
-      "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -601,13 +606,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Margaret Elizabeth Perkins",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -655,29 +653,8 @@
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Margaret Elizabeth Perkins",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Margaret Elizabeth Perkins",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Margaret Elizabeth Perkins",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Margaret Elizabeth Perkins",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -699,13 +676,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Margaret Elizabeth Perkins",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -795,20 +765,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Margaret Elizabeth Perkins",
       "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Margaret Elizabeth Perkins",
-      "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Margaret Elizabeth Perkins",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -838,7 +794,7 @@
       "evidence_text": "Obituary child link for Margaret Elizabeth Perkins",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -915,7 +871,7 @@
       "evidence_text": "Obituary child link for Margaret Elizabeth Perkins",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -1023,416 +979,21 @@
       "rel_name": "Niquita Harris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10985,
-      "photo_id": 5438,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Rebecca Clark Sammons, L. Sammons Sr., of Isaac L. Sammons, Mary Elizabeth, Munce Sammons, Isaac L. Sammons, & daughter, & Ethel L. Sammons, Ancestry of grandson, Alfred Perkins Sammons, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Clark",
-      "married_surname": "Sammons",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1867",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_SammonsAlfredPAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsIsaacLSr.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 646,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 753,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 877,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 984,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1108,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1215,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1339,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1446,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1570,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1677,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1801,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1908,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2032,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2139,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2263,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2370,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2494,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2601,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2725,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2832,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2956,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3063,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3187,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3294,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3417,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3523,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3647,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3754,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3878,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3985,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4109,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4216,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4340,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4447,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4571,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4677,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4801,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4908,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 10985,
     "name": "Perkins Margaret Elizabeth",
     "children": [
       {
-        "id": 10857,
-        "name": "Nanticoke Chiefs",
+        "id": 10858,
+        "name": "Gwendolyn Durham",
         "children": []
       },
       {
-        "id": 10858,
-        "name": "Gwendolyn Durham",
+        "id": 6088,
+        "name": "Myrtle Sammons Harmon",
         "children": []
       }
     ]

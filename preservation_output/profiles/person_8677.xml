@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_8677">
+    <name>
+      <nameForm>
+        <fullText>Louis Alexander Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_622"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>20 August 1893 Philadelphia, Philadelphia County, Pennsylvania, United States of America</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>2 Oct 1958 Bridgeton, Cumberland County, New Jersey, USA</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_8677"/>
+    <person2 resource="#p_8675"/>
+    <note>
+      <text>Evidence: GEDCOM Family @F299@ marriage 25 Aug 1916 Cumberland County, New Jersey, USA</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_622">
+    <about resource="Davis Family Tree.ged"/>
+    <title>Record: Davis Family Tree.ged</title>
+  </sourceDescription>
+</gedcomx>

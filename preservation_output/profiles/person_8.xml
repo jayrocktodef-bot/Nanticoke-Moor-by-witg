@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_8">
+    <name>
+      <nameForm>
+        <fullText>John Wesley</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_1"/>
+    <source description="#s_667"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>27 Nov 1903</original>
+      </date>
+      <source description="#s_1"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>19 Mar 1981 (aged 77)</original>
+      </date>
+      <source description="#s_1"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8"/>
+    <person2 resource="#p_15"/>
+    <note>
+      <text>Evidence: John Wesley the son of John Cott and Sarah his wife was born May the 27 A.D. 1838. 		Died Aug. 23, 1920</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_8"/>
+    <person2 resource="#p_1039"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (78.8% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_8"/>
+    <person2 resource="#p_961"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (81.8% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_8"/>
+    <person2 resource="#p_985"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_8"/>
+    <person2 resource="#p_1039"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_8"/>
+    <person2 resource="#p_1046"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_1">
+    <about resource="bible-c1.htm"/>
+    <title>Record: bible-c1.htm</title>
+  </sourceDescription>
+  <sourceDescription id="s_667">
+    <about resource="https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"/>
+    <title>Obituary: Marguerite J. Brown ~1928-2016</title>
+  </sourceDescription>
+</gedcomx>

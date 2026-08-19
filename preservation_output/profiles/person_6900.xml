@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6900">
+    <name>
+      <nameForm>
+        <fullText>Clarence Norwood</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_505"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>10 Jan 1902</original>
+      </date>
+      <source description="#s_505"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>15 Mar 1902 (aged 2 months)</original>
+      </date>
+      <source description="#s_505"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_505">
+    <about resource="NorwoodC&amp;LKids.htm"/>
+    <title>Record: NorwoodC&amp;LKids.htm</title>
+  </sourceDescription>
+</gedcomx>

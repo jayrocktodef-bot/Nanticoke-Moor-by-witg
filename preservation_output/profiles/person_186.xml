@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_186">
+    <name>
+      <nameForm>
+        <fullText>Perry Cork</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_31"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_31"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Apr 1824</original>
+      </date>
+      <source description="#s_31"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_185"/>
+    <person2 resource="#p_186"/>
+    <note>
+      <text>Evidence: Hannah Concilor who married Perry Cork</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11813"/>
+    <person2 resource="#p_186"/>
+    <note>
+      <text>Evidence: daughter Hannah married Perry Cork.</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11813"/>
+    <person2 resource="#p_186"/>
+    <note>
+      <text>Evidence: daughter Hannah married Perry Cork.</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11813"/>
+    <person2 resource="#p_186"/>
+    <note>
+      <text>Evidence: daughter Hannah married Perry Cork.</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_31">
+    <about resource="concl-j1.htm"/>
+    <title>Record: concl-j1.htm</title>
+  </sourceDescription>
+</gedcomx>

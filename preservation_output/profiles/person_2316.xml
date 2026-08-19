@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2316">
+    <name>
+      <nameForm>
+        <fullText>S. Butcher Thomas</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_658"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1846</original>
+      </date>
+      <source description="#s_658"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1917 (aged 70&amp;ndash;71)</original>
+      </date>
+      <source description="#s_658"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_658">
+    <about resource="Probate.htm"/>
+    <title>Record: Probate.htm</title>
+  </sourceDescription>
+</gedcomx>

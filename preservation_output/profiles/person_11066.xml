@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11066">
+    <name>
+      <nameForm>
+        <fullText>Malinda Turner</fullText>
+      </nameForm>
+    </name>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>14 Mar 1916 Georgetown, Sussex, Delaware, United States</original>
+      </date>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>19 Dec 2009</original>
+      </date>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11061"/>
+    <person2 resource="#p_11066"/>
+    <note>
+      <text>Evidence: Restored GEDCOM parent-child record</text>
+    </note>
+  </relationship>
+</gedcomx>

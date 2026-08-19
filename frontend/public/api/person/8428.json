@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/198261450/patricia-thompson",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7910,
+      "person_id": 8428,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Patricia Thompson",
+      "citations": [
+        {
+          "citation_id": 7904,
+          "fact_id": 7910,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7911,
+      "person_id": 8428,
+      "fact_type": "Birth",
+      "date_string": "4 Oct 1953",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7905,
+          "fact_id": 7911,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7912,
+      "person_id": 8428,
+      "fact_type": "Death",
+      "date_string": "24 Jan 2019 (aged 65)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7906,
+          "fact_id": 7912,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -73,13 +132,7 @@
                   {
                     "id": 8606,
                     "name": "Richard Dickerson",
-                    "children": [
-                      {
-                        "id": 9073,
-                        "name": "Charles Dickerson",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 9071,

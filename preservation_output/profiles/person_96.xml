@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_96">
+    <name>
+      <nameForm>
+        <fullText>Sally Ann</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_15"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_15"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1980</original>
+      </date>
+      <source description="#s_15"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_15">
+    <about resource="census18.htm"/>
+    <title>Record: census18.htm</title>
+  </sourceDescription>
+</gedcomx>

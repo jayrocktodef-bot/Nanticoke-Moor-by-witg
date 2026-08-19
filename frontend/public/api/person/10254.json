@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 10254,
-    "name": "Ephram (Ephraim) Lincoln Harman (Harmon)",
+    "name": "Ephram Lincoln Harman",
     "first_name": "Ephram",
-    "middle_name": "Lincoln Harman",
+    "middle_name": "Lincoln",
     "maiden_name": "Ephraim",
     "married_last_name": "(Harmon)",
     "evidence_level": 1,
@@ -13,6 +13,65 @@
     "notes": "WikiTree: https://www.wikitree.com/wiki/Harmon-11449 (Harmon-11449)",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9578,
+      "person_id": 10254,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Ephram Lincoln Harman",
+      "citations": [
+        {
+          "citation_id": 9572,
+          "fact_id": 9578,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9579,
+      "person_id": 10254,
+      "fact_type": "Birth",
+      "date_string": "1864",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9573,
+          "fact_id": 9579,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9580,
+      "person_id": 10254,
+      "fact_type": "Death",
+      "date_string": "17 March 1890",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9574,
+          "fact_id": 9580,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -34,7 +93,7 @@
   "audit_flags": [],
   "ancestry": {
     "id": 10254,
-    "name": "Ephram (Ephraim) Lincoln Harman (Harmon)",
+    "name": "Ephram Lincoln Harman",
     "children": [
       {
         "id": 5921,

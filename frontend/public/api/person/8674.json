@@ -13,22 +13,67 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/197966326/esther-davis (Buried at Walnut Hill Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 8152,
       "person_id": 8674,
-      "photo_id": 4063,
-      "title_or_caption": "Richard Gilbert husband of Esther Muntz Richard and Betty Davis Terry a...",
-      "subject_names": "Richard Gilbert husband of Esther Muntz Richard and Betty Davis Terry a...",
-      "maiden_name": "Gilbert",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "2001",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_GilbertEstherMuntzAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/GilbertRichard.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Esther Davis",
+      "citations": [
+        {
+          "citation_id": 8146,
+          "fact_id": 8152,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8153,
+      "person_id": 8674,
+      "fact_type": "Birth",
+      "date_string": "1827",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8147,
+          "fact_id": 8153,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8154,
+      "person_id": 8674,
+      "fact_type": "Death",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8148,
+          "fact_id": 8154,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

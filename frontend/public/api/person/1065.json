@@ -13,7 +13,73 @@
     "notes": "Moor/Nanticoke lineage record - Mosley cluster | Verified via FindAGrave: https://www.findagrave.com/memorial/25398090/p-destiny-mosley",
     "dataset_source": "moors_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 1262,
+      "person_id": 1065,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Purnel Mosley",
+      "citations": [
+        {
+          "citation_id": 1262,
+          "fact_id": 1262,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1263,
+      "person_id": 1065,
+      "fact_type": "Birth",
+      "date_string": "13 Feb 2000",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1263,
+          "fact_id": 1263,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1264,
+      "person_id": 1065,
+      "fact_type": "Death",
+      "date_string": "13 Feb 2000",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1264,
+          "fact_id": 1264,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 114,
+      "rel_name": "Pearl Mosley"
+    },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
@@ -22,21 +88,7 @@
       "rel_name": "Pearl Mosley"
     }
   ],
-  "photos": [
-    {
-      "person_id": 1065,
-      "photo_id": 4127,
-      "title_or_caption": "Albert P. & H. Virginia (Grigsby) Mosley Harriet Virginia & Albert Purnel...",
-      "subject_names": "Albert P",
-      "maiden_name": "Grigsby",
-      "married_surname": "Mosley",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1910",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MosleyAlbert&HarriettAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyAlbert&Virginia.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

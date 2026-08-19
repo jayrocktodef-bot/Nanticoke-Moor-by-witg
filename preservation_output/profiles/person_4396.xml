@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4396">
+    <name>
+      <nameForm>
+        <fullText>th birthday party</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_252"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>14 Jun 1931</original>
+      </date>
+      <source description="#s_252"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>26 Apr 1991 (aged 59)</original>
+      </date>
+      <source description="#s_252"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_252">
+    <about resource="CarterCalvin&amp;Family.htm"/>
+    <title>Record: CarterCalvin&amp;Family.htm</title>
+  </sourceDescription>
+</gedcomx>

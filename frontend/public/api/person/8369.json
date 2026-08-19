@@ -13,19 +13,78 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/76954220/james-thompson",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7846,
+      "person_id": 8369,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "James N Thompson",
+      "citations": [
+        {
+          "citation_id": 7840,
+          "fact_id": 7846,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7847,
+      "person_id": 8369,
+      "fact_type": "Birth",
+      "date_string": "1918",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7841,
+          "fact_id": 7847,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7848,
+      "person_id": 8369,
+      "fact_type": "Death",
+      "date_string": "18 Jun 1995 (aged 76&ndash;77)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7842,
+          "fact_id": 7848,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
   "audit_flags": [
     {
-      "id": 532,
+      "id": 5196,
       "category": "Duplicate Candidate",
       "severity": "warning",
       "person_id": 8847,
       "person_id_secondary": 8369,
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: james|thompson|1918",
-      "created_at": "2026-08-14 03:42:34"
+      "created_at": "2026-08-19 00:14:46"
     }
   ],
   "ancestry": {

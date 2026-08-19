@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7438">
+    <name>
+      <nameForm>
+        <fullText>John Sterrett</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_263"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1865</original>
+      </date>
+      <source description="#s_263"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1897 (aged 31&amp;ndash;32)</original>
+      </date>
+      <source description="#s_263"/>
+    </fact>
+    <name>
+      <nameForm>
+        <fullText>. John Sterrett.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_573"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1865</original>
+      </date>
+      <source description="#s_573"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1897 (aged 31&amp;ndash;32)</original>
+      </date>
+      <source description="#s_573"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_573">
+    <about resource="SterrettParisFamily.htm"/>
+    <title>Record: SterrettParisFamily.htm</title>
+  </sourceDescription>
+  <sourceDescription id="s_263">
+    <about resource="CourseyCharlesM&amp;family.htm"/>
+    <title>Record: CourseyCharlesM&amp;family.htm</title>
+  </sourceDescription>
+</gedcomx>

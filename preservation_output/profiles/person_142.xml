@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_142">
+    <name>
+      <nameForm>
+        <fullText>Albeda Coker</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_25"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1843</original>
+      </date>
+      <source description="#s_25"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_25"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_25">
+    <about resource="coker-m2.htm"/>
+    <title>Record: coker-m2.htm</title>
+  </sourceDescription>
+</gedcomx>

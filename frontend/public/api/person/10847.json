@@ -1,7 +1,7 @@
 {
   "person": {
     "person_id": 10847,
-    "name": "Janet Greenage",
+    "name": "Janet Green",
     "first_name": "Janet",
     "middle_name": "",
     "maiden_name": "",
@@ -13,6 +13,65 @@
     "notes": "Mentioned in obituary | Verified via FindAGrave: https://www.findagrave.com/memorial/721288/janet-marie-greenage",
     "dataset_source": "mitsawokett_obituaries"
   },
+  "facts": [
+    {
+      "fact_id": 10243,
+      "person_id": 10847,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Janet Green",
+      "citations": [
+        {
+          "citation_id": 10237,
+          "fact_id": 10243,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    },
+    {
+      "fact_id": 10244,
+      "person_id": 10847,
+      "fact_type": "Birth",
+      "date_string": "12 Aug 1935",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10238,
+          "fact_id": 10244,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    },
+    {
+      "fact_id": 10245,
+      "person_id": 10847,
+      "fact_type": "Death",
+      "date_string": "21 Oct 1995 (aged 60)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10239,
+          "fact_id": 10245,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -75,7 +134,7 @@
       "evidence_text": "Obituary text evidence for Carney Milton &quot;Nick&quot;",
       "certainty": "confirmed",
       "rel_id": 10914,
-      "rel_name": "Milton \"Nick\" Carney"
+      "rel_name": "Milton Nick Carney"
     },
     {
       "relationship_type": "spouse",
@@ -117,7 +176,7 @@
       "evidence_text": "Obituary text evidence for Coombs Ellsworth &quot;Buddy&quot;",
       "certainty": "confirmed",
       "rel_id": 10919,
-      "rel_name": "Coombs Ellsworth \"Buddy\""
+      "rel_name": "Coombs Ellsworth Buddy"
     },
     {
       "relationship_type": "spouse",
@@ -160,13 +219,6 @@
       "certainty": "confirmed",
       "rel_id": 10925,
       "rel_name": "Cuff Florence"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Cuff Francis M.",
-      "certainty": "confirmed",
-      "rel_id": 4402,
-      "rel_name": "Margaret M. Cuff"
     },
     {
       "relationship_type": "spouse",
@@ -229,7 +281,7 @@
       "evidence_text": "Obituary text evidence for Durham Buena &quot;Boni&quot;",
       "certainty": "confirmed",
       "rel_id": 10934,
-      "rel_name": "Buena \"Boni\" Durham"
+      "rel_name": "Buena Boni Durham"
     },
     {
       "relationship_type": "spouse",
@@ -342,20 +394,6 @@
       "certainty": "confirmed",
       "rel_id": 10948,
       "rel_name": "Gourley Edward Duckie"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Green Rachel M. Hughes",
-      "certainty": "confirmed",
-      "rel_id": 5567,
-      "rel_name": "Hughes Green"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Greenage Benjamin",
-      "certainty": "confirmed",
-      "rel_id": 10949,
-      "rel_name": "Greenage Benjamin"
     }
   ],
   "photos": [],
@@ -363,7 +401,7 @@
   "audit_flags": [],
   "ancestry": {
     "id": 10847,
-    "name": "Janet Greenage",
+    "name": "Janet Green",
     "children": []
   }
 }

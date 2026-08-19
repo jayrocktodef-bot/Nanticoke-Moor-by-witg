@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2385">
+    <name>
+      <nameForm>
+        <fullText>Benjamin Sammons</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_658"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>19 Apr 1886</original>
+      </date>
+      <source description="#s_658"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>12 Feb 1938 (aged 51)</original>
+      </date>
+      <source description="#s_658"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_658">
+    <about resource="Probate.htm"/>
+    <title>Record: Probate.htm</title>
+  </sourceDescription>
+</gedcomx>

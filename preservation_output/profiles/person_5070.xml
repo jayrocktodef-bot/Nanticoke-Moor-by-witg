@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_5070">
+    <name>
+      <nameForm>
+        <fullText>Raymond Green</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_302"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>13 Nov 1886</original>
+      </date>
+      <source description="#s_302"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>9 Jun 1955 (aged 68)</original>
+      </date>
+      <source description="#s_302"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_302">
+    <about resource="DurhamLeshiaKelly.htm"/>
+    <title>Record: DurhamLeshiaKelly.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_995">
+    <name>
+      <nameForm>
+        <fullText>John Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_119"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>8 Jun 1853</original>
+      </date>
+      <source description="#s_119"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>28 Sep 1931 (aged 78)</original>
+      </date>
+      <source description="#s_119"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_771"/>
+    <person2 resource="#p_995"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_995"/>
+    <person2 resource="#p_9407"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_995"/>
+    <person2 resource="#p_8927"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_995"/>
+    <person2 resource="#p_8862"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_771"/>
+    <person2 resource="#p_995"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_119">
+    <about resource="moors_moors.aspx"/>
+    <title>Record: moors_moors.aspx</title>
+  </sourceDescription>
+</gedcomx>

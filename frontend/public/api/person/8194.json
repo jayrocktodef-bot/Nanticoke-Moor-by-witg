@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7660,
+      "person_id": 8194,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Lulu Rae Clark",
+      "citations": [
+        {
+          "citation_id": 7654,
+          "fact_id": 7660,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7661,
+      "person_id": 8194,
+      "fact_type": "Birth",
+      "date_string": "30 July 1897 Kent County, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7655,
+          "fact_id": 7661,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7662,
+      "person_id": 8194,
+      "fact_type": "Death",
+      "date_string": "21 November 1988 Lewes, Sussex County, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7656,
+          "fact_id": 7662,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -54,7 +113,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8209,
-      "rel_name": "Corlezia \"Flower Keeper\" Cobb Clark"
+      "rel_name": "Corlezia Flower Keeper Cobb Clark"
     },
     {
       "relationship_type": "child_of",
@@ -99,34 +158,7 @@
       "rel_name": "John W Clark III"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8194,
-      "photo_id": 1945,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Edward Carey, Della Mae Ridgway Carey, Charles Edward &, Della Mae Carey, Chris Wimmer, Paula Wimmer, Charles Edward, of Chris & Paula Wimmer, Charles Edward Carey, Park. N.J. Store, of Chris & Paula Wimmer, L to R: Wilmore, John Clark, Della Ridgway Carey, Howard Carey, Willis Johnson, Lulu Rae Carey, Carey Jackson, wife of Phillip Harrison Jackson, of Della Mae Ridgway Carey, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Carey",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_CareyDellaRidgwayAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CareyCharlesE&DellaRidgeway.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8194,
-      "photo_id": 1955,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "H. & Nellie V. Carey, Charles Howard Carey, L to R: Grace Carey, Wilmore Carey, Bertha Carey Jackson, Della Mae Ridgeway Carey, Howard Carey, Wimore Carey, Grace Carey Sammons, The Carey Girls: Lulu, Henrietta and Grace, Susie Carey Clark, and Bertha Carey Jackson, Lulu Carey Clark, Lulu Carey Clark, Parents of Charles, Chris Wimmer, Paula Wimmer, Ancestry of Charles, Howard Carey, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Carey",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_CareyCharlesHowardAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CareyCharlesH&NellieVRidgeway.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

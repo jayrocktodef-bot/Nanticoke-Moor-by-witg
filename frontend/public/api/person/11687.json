@@ -1,0 +1,72 @@
+{
+  "person": {
+    "person_id": 11687,
+    "name": "Mary Elva was the",
+    "first_name": null,
+    "middle_name": null,
+    "maiden_name": null,
+    "married_last_name": null,
+    "evidence_level": 1,
+    "source_page": "morgan-m.htm",
+    "birth_info": null,
+    "death_info": null,
+    "notes": "",
+    "dataset_source": "lynncjackson"
+  },
+  "facts": [
+    {
+      "fact_id": 11442,
+      "person_id": 11687,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Mary Elva was the",
+      "citations": [
+        {
+          "citation_id": 11035,
+          "fact_id": 11442,
+          "source_id": 85,
+          "evidence_text": null,
+          "source_title": "Record: morgan-m.htm",
+          "source_url": "morgan-m.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "Mary Elva was the daughter of  Edward Morgan  and",
+      "certainty": "confirmed",
+      "rel_id": 11688,
+      "rel_name": "Edward Morgan  and"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "Mary Elva was the daughter of  Edward Morgan  and",
+      "certainty": "confirmed",
+      "rel_id": 11688,
+      "rel_name": "Edward Morgan  and"
+    }
+  ],
+  "photos": [],
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11687,
+    "name": "Mary Elva was the",
+    "children": [
+      {
+        "id": 11688,
+        "name": "Edward Morgan  and",
+        "children": []
+      },
+      {
+        "id": 11688,
+        "name": "Edward Morgan  and",
+        "children": []
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "person": {
     "person_id": 7807,
-    "name": "James Clifford.",
+    "name": "James Clifford",
     "first_name": "James",
     "middle_name": "",
     "maiden_name": "",
@@ -13,66 +13,34 @@
     "notes": "Ingested from SeeneyChuck&Ann.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 7182,
       "person_id": 7807,
-      "photo_id": 5504,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Earl \"Chuck\" Seeney, Chuck says: \"The, portraits are my mother, and father, James Clifford., Below are siblings: Chuck, Kenneth Frederick, Patricia Seeney Lawson, and James Harold Jr., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Seeney",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1999",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_Seeney_20Chuck_20Family.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SeeneyChuck&Ann.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 7807,
-      "photo_id": 5504,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Earl \"Chuck\" Seeney, Chuck says: \"The, portraits are my mother, and father, James Clifford., Below are siblings: Chuck, Kenneth Frederick, Patricia Seeney Lawson, and James Harold Jr., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Seeney",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1999",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_Seeney_20Chuck_20Family.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SeeneyChuck&Ann.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 7807,
-      "photo_id": 5366,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "James Seeney, Ina Seeney, Clifford Seeney, Mavis Seeney, Beverley Seeney Phipps, From left to right, back row:, Clifford Seeney, James Seeney, front row:, Mavis Seeney, Ina Seeney., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Seeney",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_SeeneyJamesHaroldAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SeeneyClifford&James&wives.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 7807,
-      "photo_id": 5368,
-      "title_or_caption": "Seeney Clifford & James & wives",
-      "subject_names": "Seeney Clifford & James & wives",
-      "maiden_name": "Rickman",
-      "married_surname": "Seeney",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_SeeneyJamesHaroldAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SeeneyClifford&James&wives.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "James Clifford.",
+      "citations": [
+        {
+          "citation_id": 7176,
+          "fact_id": 7182,
+          "source_id": 590,
+          "evidence_text": null,
+          "source_title": "Record: SeeneyChuck&Ann.htm",
+          "source_url": "SeeneyChuck&Ann.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 7807,
-    "name": "James Clifford.",
+    "name": "James Clifford",
     "children": []
   }
 }

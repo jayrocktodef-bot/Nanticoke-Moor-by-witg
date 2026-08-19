@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_365">
+    <name>
+      <nameForm>
+        <fullText>Caleb Dean</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_60"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>2 Jan 1789</original>
+      </date>
+      <source description="#s_60"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>6 Jul 1842 (aged 53)</original>
+      </date>
+      <source description="#s_60"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_364"/>
+    <person2 resource="#p_365"/>
+    <note>
+      <text>Evidence: Bapt. William Burton Dean son of Caleb and Rachel Dean b. 18 Jan. 1791</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_60">
+    <about resource="george.htm"/>
+    <title>Record: george.htm</title>
+  </sourceDescription>
+</gedcomx>

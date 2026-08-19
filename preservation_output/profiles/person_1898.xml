@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1898">
+    <name>
+      <nameForm>
+        <fullText>Franklin Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_132"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1832</original>
+      </date>
+      <source description="#s_132"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>26 Feb 1883 (aged 50&amp;ndash;51)</original>
+      </date>
+      <source description="#s_132"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_132">
+    <about resource="MainMenu.html"/>
+    <title>Record: MainMenu.html</title>
+  </sourceDescription>
+</gedcomx>

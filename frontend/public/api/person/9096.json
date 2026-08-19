@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8540,
+      "person_id": 9096,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "John C Hanzer",
+      "citations": [
+        {
+          "citation_id": 8534,
+          "fact_id": 8540,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8541,
+      "person_id": 9096,
+      "fact_type": "Birth",
+      "date_string": "10 March 1838 Millsboro, Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8535,
+          "fact_id": 8541,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8542,
+      "person_id": 9096,
+      "fact_type": "Death",
+      "date_string": "08 Nov 1911 Sussex County, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8536,
+          "fact_id": 8542,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -46,8 +105,8 @@
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
-      "rel_id": 9939,
-      "rel_name": "William E. Hanzer"
+      "rel_id": 10503,
+      "rel_name": "William E Hanzer"
     },
     {
       "relationship_type": "child_of",
@@ -68,7 +127,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9933,
-      "rel_name": "Eunice J. \"Nicy\" Hanzer"
+      "rel_name": "Eunice J. Nicy Hanzer"
     },
     {
       "relationship_type": "child_of",
@@ -138,7 +197,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9933,
-      "rel_name": "Eunice J. \"Nicy\" Hanzer"
+      "rel_name": "Eunice J. Nicy Hanzer"
     },
     {
       "relationship_type": "child_of",
@@ -148,47 +207,7 @@
       "rel_name": "Elizabeth Mosley"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9096,
-      "photo_id": 2418,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Adeline Hanzer Morris, wife of John Wingate Morris, Granddaughter Sylvia, Beatrice Morris Mitchell, Roxanne Radcliffe, Brooke Ashley Boyd, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Morris",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MorrisSylviaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisSarahAdeline.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9096,
-      "photo_id": 2420,
-      "title_or_caption": "Sarah Adeline Hanzer Morris wife of John Wingate Morris Granddaughter S...",
-      "subject_names": "Sarah Adeline Hanzer Morris wife of John Wingate Morris Granddaughter S...",
-      "maiden_name": "Boyd",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_BoydBrooke.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisSarahAdeline.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9096,
-      "photo_id": 2421,
-      "title_or_caption": "Sarah Adeline Hanzer Morris wife of John Wingate Morris Granddaughter S...",
-      "subject_names": "Sarah Adeline Hanzer Morris wife of John Wingate Morris Granddaughter S...",
-      "maiden_name": "Boyd",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MorrisSylviaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisSarahAdeline.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

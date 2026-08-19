@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_651">
+    <name>
+      <nameForm>
+        <fullText>Amelia Sisco</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_99"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>22 Apr 1917</original>
+      </date>
+      <source description="#s_99"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>7 Feb 2000 (aged 82)</original>
+      </date>
+      <source description="#s_99"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_99">
+    <about resource="probate.htm"/>
+    <title>Record: probate.htm</title>
+  </sourceDescription>
+</gedcomx>

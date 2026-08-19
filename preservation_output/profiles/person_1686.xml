@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1686">
+    <name>
+      <nameForm>
+        <fullText>Jane Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_126"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>4 May 1833</original>
+      </date>
+      <source description="#s_126"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>26 Nov 1919 (aged 86)</original>
+      </date>
+      <source description="#s_126"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_1686"/>
+    <person2 resource="#p_790"/>
+    <note>
+      <text>Evidence: Spouse of Ephraim Harmon documented in Smithsonian NMAI Speck collection</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_755"/>
+    <person2 resource="#p_1686"/>
+    <note>
+      <text>Evidence: Daughter of Jane Harmon &amp; Ephraim Harmon</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_126">
+    <about resource="NMAI.AC.001.008"/>
+    <title>Record: NMAI.AC.001.008</title>
+  </sourceDescription>
+</gedcomx>

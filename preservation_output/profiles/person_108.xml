@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_108">
+    <name>
+      <nameForm>
+        <fullText>James B. Coker</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_17"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_17"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1882</original>
+      </date>
+      <source description="#s_17"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_17">
+    <about resource="coker-a3.htm"/>
+    <title>Record: coker-a3.htm</title>
+  </sourceDescription>
+</gedcomx>

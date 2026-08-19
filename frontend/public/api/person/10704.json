@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/13503874/orval-ray",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 10089,
+      "person_id": 10704,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Marshall Edward Hanzer",
+      "citations": [
+        {
+          "citation_id": 10083,
+          "fact_id": 10089,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 10090,
+      "person_id": 10704,
+      "fact_type": "Birth",
+      "date_string": "9 Apr 1924",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10084,
+          "fact_id": 10090,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 10091,
+      "person_id": 10704,
+      "fact_type": "Death",
+      "date_string": "1 Mar 2006 (aged 81)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10085,
+          "fact_id": 10091,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -29,21 +88,7 @@
       "rel_name": "Harriet Ann Harmon"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10704,
-      "photo_id": 4193,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Perkins & Hanzer family, L to, R: Ann Perkins, Harriet Harmon Hanzer, & Robert M.), Robert Marshall Hanzer, Alexander Hanzer, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "family",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HanzerMarshallEAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Hanzers&PerkinsAnn.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -83,7 +128,7 @@
             "children": [
               {
                 "id": 10122,
-                "name": "John R (H) or Jonathan Harmon",
+                "name": "John R or Jonathan Harmon",
                 "children": [
                   {
                     "id": 9982,
@@ -101,7 +146,7 @@
                       },
                       {
                         "id": 9985,
-                        "name": "Jemima WARD Johnson (MD)",
+                        "name": "Jemima WARD Johnson",
                         "children": []
                       }
                     ]
@@ -145,7 +190,7 @@
                       },
                       {
                         "id": 9985,
-                        "name": "Jemima WARD Johnson (MD)",
+                        "name": "Jemima WARD Johnson",
                         "children": []
                       }
                     ]

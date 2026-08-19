@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4574">
+    <name>
+      <nameForm>
+        <fullText>Alonzo Davis</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_266"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1 Aug 1886</original>
+      </date>
+      <source description="#s_266"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>17 Aug 1944 (aged 58)</original>
+      </date>
+      <source description="#s_266"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_266">
+    <about resource="DavisWalter.htm"/>
+    <title>Record: DavisWalter.htm</title>
+  </sourceDescription>
+</gedcomx>

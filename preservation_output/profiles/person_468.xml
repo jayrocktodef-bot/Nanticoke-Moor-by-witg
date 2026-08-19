@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_468">
+    <name>
+      <nameForm>
+        <fullText>Annie Durham</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_77"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1857</original>
+      </date>
+      <source description="#s_77"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1948 (aged 90&amp;ndash;91)</original>
+      </date>
+      <source description="#s_77"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_77">
+    <about resource="manship.htm"/>
+    <title>Record: manship.htm</title>
+  </sourceDescription>
+</gedcomx>

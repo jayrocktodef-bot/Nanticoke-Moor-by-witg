@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11690">
+    <name>
+      <nameForm>
+        <fullText>Napoleon Bonaparte Morgan was the</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_86"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11690"/>
+    <person2 resource="#p_11691"/>
+    <note>
+      <text>Evidence: Napoleon Bonaparte Morgan was the son of James Morgan  and Henrietta Carty. He was born in Kent Co., DE on April 13,</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_86">
+    <about resource="morgan-n.htm"/>
+    <title>Record: morgan-n.htm</title>
+  </sourceDescription>
+</gedcomx>

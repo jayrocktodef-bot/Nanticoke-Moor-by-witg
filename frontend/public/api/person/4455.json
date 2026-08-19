@@ -13,6 +13,65 @@
     "notes": "Ingested from DavisLillian.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/138607958/eleanor-davis (Buried at Restland Cemetery)",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 3793,
+      "person_id": 4455,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Eleanor Davis",
+      "citations": [
+        {
+          "citation_id": 3787,
+          "fact_id": 3793,
+          "source_id": 257,
+          "evidence_text": null,
+          "source_title": "Record: DavisLillian.htm",
+          "source_url": "DavisLillian.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 3794,
+      "person_id": 4455,
+      "fact_type": "Birth",
+      "date_string": "1918",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 3788,
+          "fact_id": 3794,
+          "source_id": 257,
+          "evidence_text": null,
+          "source_title": "Record: DavisLillian.htm",
+          "source_url": "DavisLillian.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 3795,
+      "person_id": 4455,
+      "fact_type": "Death",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 3789,
+          "fact_id": 3795,
+          "source_id": 257,
+          "evidence_text": null,
+          "source_title": "Record: DavisLillian.htm",
+          "source_url": "DavisLillian.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -22,34 +81,7 @@
       "rel_name": "Joseph Henry Davis"
     }
   ],
-  "photos": [
-    {
-      "person_id": 4455,
-      "photo_id": 3173,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Eleanor Davis, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Davis",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisLillianAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisLillian.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 4455,
-      "photo_id": 3173,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Eleanor Davis, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Davis",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisLillianAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisLillian.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -66,7 +98,7 @@
             "children": [
               {
                 "id": 8809,
-                "name": "Ludwig (Lewis) Davis",
+                "name": "Ludwig Davis",
                 "children": []
               }
             ]

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3605">
+    <name>
+      <nameForm>
+        <fullText>Barbara Lee</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_198"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1866</original>
+      </date>
+      <source description="#s_198"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1946 (aged 79&amp;ndash;80)</original>
+      </date>
+      <source description="#s_198"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_198">
+    <about resource="CarneyLawrence&amp;Doris.htm"/>
+    <title>Record: CarneyLawrence&amp;Doris.htm</title>
+  </sourceDescription>
+</gedcomx>

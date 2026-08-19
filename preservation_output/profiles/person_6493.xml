@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6493">
+    <name>
+      <nameForm>
+        <fullText>Alice Morgan</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_452"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>26 Apr 1891</original>
+      </date>
+      <source description="#s_452"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>12 Feb 1974 (aged 82)</original>
+      </date>
+      <source description="#s_452"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_452">
+    <about resource="MorganWilliam&amp;Nora.htm"/>
+    <title>Record: MorganWilliam&amp;Nora.htm</title>
+  </sourceDescription>
+</gedcomx>

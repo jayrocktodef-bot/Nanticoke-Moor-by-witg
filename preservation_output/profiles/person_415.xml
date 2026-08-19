@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_415">
+    <name>
+      <nameForm>
+        <fullText>Walter B. Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_68"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_68"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>19 Oct 1927</original>
+      </date>
+      <source description="#s_68"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_68">
+    <about resource="jacksnme.htm"/>
+    <title>Record: jacksnme.htm</title>
+  </sourceDescription>
+</gedcomx>

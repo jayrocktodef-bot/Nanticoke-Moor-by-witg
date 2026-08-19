@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_703">
+    <name>
+      <nameForm>
+        <fullText>Amelia Sisco Hanzer</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_107"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>23 Mar 1919</original>
+      </date>
+      <source description="#s_107"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>3 Dec 1956 (aged 37)</original>
+      </date>
+      <source description="#s_107"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_107">
+    <about resource="sisco-j2.htm"/>
+    <title>Record: sisco-j2.htm</title>
+  </sourceDescription>
+</gedcomx>

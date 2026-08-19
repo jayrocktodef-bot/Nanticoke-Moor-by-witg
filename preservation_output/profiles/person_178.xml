@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_178">
+    <name>
+      <nameForm>
+        <fullText>Bayman Williams</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_30"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1836</original>
+      </date>
+      <source description="#s_30"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>30 Mar 1917 (aged 80&amp;ndash;81)</original>
+      </date>
+      <source description="#s_30"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_5251"/>
+    <person2 resource="#p_178"/>
+    <note>
+      <text>Evidence: Elizabeth Durham who married Bayman Williams</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_30">
+    <about resource="concl-h1.htm"/>
+    <title>Record: concl-h1.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 10167,
+      "person_id": 10793,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Sophia E. Johnson",
+      "citations": [
+        {
+          "citation_id": 10161,
+          "fact_id": 10167,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 10168,
+      "person_id": 10793,
+      "fact_type": "Birth",
+      "date_string": "24 October 1834 Sussex County, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10162,
+          "fact_id": 10168,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 10169,
+      "person_id": 10793,
+      "fact_type": "Death",
+      "date_string": "4 March 1860 Sussex County, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10163,
+          "fact_id": 10169,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -22,21 +81,7 @@
       "rel_name": "Ann W. Johnson"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10793,
-      "photo_id": 5554,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "P. Street Family, husband of Anna, Harmon Johnson, Matilda Johnson, David P. Street, Photo coutesy, of Sterling Street, David P. Street & family, David R. Street, Anna Harmon Street, Photo coutesy of Sterling Street, William Edward Streett, Lydia Wright Street, Bertha Mae Sockum Street, Photo coutesy, of Sterling Street, David P. STREET, Sussex County, he married Matilda JOHNSON., . David R., . John Street, born about ., . Catharine, . Jeremiah Street, born about ., . Isaac STREET, . Mary A. STREET, . Sophia Isabelle, Street. She married Charlie Morris., . Robert P., married Matilda Jackson., . Carrie J., . Howard D., . Gardiner, R. STREET, Mission Church Cemetery, Delaware. He married, Clara Miller, Della Hester Norwood., . Burton C., Clara Carney, of grandson William Edward Streett, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Family",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1822",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_StreettWilliamEAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetDavidP.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

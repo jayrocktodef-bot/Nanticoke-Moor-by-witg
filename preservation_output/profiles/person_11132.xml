@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11132">
+    <name>
+      <nameForm>
+        <fullText>Nancy J Carmean</fullText>
+      </nameForm>
+    </name>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1938</original>
+      </date>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>2017 (aged 78&amp;ndash;79)</original>
+      </date>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11155"/>
+    <person2 resource="#p_11132"/>
+    <note>
+      <text>Evidence: Restored GEDCOM parent-child record</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11121"/>
+    <person2 resource="#p_11132"/>
+    <note>
+      <text>Evidence: Restored GEDCOM parent-child record</text>
+    </note>
+  </relationship>
+</gedcomx>

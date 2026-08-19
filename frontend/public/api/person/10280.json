@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9605,
+      "person_id": 10280,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Burton H Johnson",
+      "citations": [
+        {
+          "citation_id": 9599,
+          "fact_id": 9605,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9606,
+      "person_id": 10280,
+      "fact_type": "Birth",
+      "date_string": "1812 Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9600,
+          "fact_id": 9606,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9607,
+      "person_id": 10280,
+      "fact_type": "Death",
+      "date_string": "Mar 1880 Sussex County, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9601,
+          "fact_id": 9607,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -36,34 +95,7 @@
       "rel_name": "Mary Johnson"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10280,
-      "photo_id": 2465,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "J. Johnson Burton, Survey of Indian River Community, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Burton",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_BurtonSarahJJohnson.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/BurtonSarahJJohnson.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10280,
-      "photo_id": 5554,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "P. Street Family, husband of Anna, Harmon Johnson, Matilda Johnson, David P. Street, Photo coutesy, of Sterling Street, David P. Street & family, David R. Street, Anna Harmon Street, Photo coutesy of Sterling Street, William Edward Streett, Lydia Wright Street, Bertha Mae Sockum Street, Photo coutesy, of Sterling Street, David P. STREET, Sussex County, he married Matilda JOHNSON., . David R., . John Street, born about ., . Catharine, . Jeremiah Street, born about ., . Isaac STREET, . Mary A. STREET, . Sophia Isabelle, Street. She married Charlie Morris., . Robert P., married Matilda Jackson., . Carrie J., . Howard D., . Gardiner, R. STREET, Mission Church Cemetery, Delaware. He married, Clara Miller, Della Hester Norwood., . Burton C., Clara Carney, of grandson William Edward Streett, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Family",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1822",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_StreettWilliamEAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetDavidP.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -74,17 +106,6 @@
         "id": 10404,
         "name": "Nancy E Clark Johnson",
         "children": [
-          {
-            "id": 2097,
-            "name": "Clark Thomas",
-            "children": [
-              {
-                "id": 9988,
-                "name": "Martha Clark",
-                "children": []
-              }
-            ]
-          },
           {
             "id": 9000,
             "name": "Elizabeth Clark",
@@ -130,29 +151,8 @@
                     "id": 10420,
                     "name": "Ann W. Johnson",
                     "children": []
-                  },
-                  {
-                    "id": 10408,
-                    "name": "Richard Johnson",
-                    "children": [
-                      {
-                        "id": 10409,
-                        "name": "Johnson Thomas",
-                        "children": []
-                      },
-                      {
-                        "id": 10407,
-                        "name": "John Johnson",
-                        "children": []
-                      }
-                    ]
                   }
                 ]
-              },
-              {
-                "id": 10410,
-                "name": "Grace MORRIS Johnson",
-                "children": []
               }
             ]
           }

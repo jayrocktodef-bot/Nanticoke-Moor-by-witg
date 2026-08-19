@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9319,
+      "person_id": 9963,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Arabella B. Wright",
+      "citations": [
+        {
+          "citation_id": 9313,
+          "fact_id": 9319,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9320,
+      "person_id": 9963,
+      "fact_type": "Birth",
+      "date_string": "9 Jan 1894 Sussex County, Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9314,
+          "fact_id": 9320,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9321,
+      "person_id": 9963,
+      "fact_type": "Death",
+      "date_string": "May 1976 Millsboro, Sussex, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9315,
+          "fact_id": 9321,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -69,7 +128,7 @@
             "children": [
               {
                 "id": 10122,
-                "name": "John R (H) or Jonathan Harmon",
+                "name": "John R or Jonathan Harmon",
                 "children": [
                   {
                     "id": 9982,
@@ -87,7 +146,7 @@
                       },
                       {
                         "id": 9985,
-                        "name": "Jemima WARD Johnson (MD)",
+                        "name": "Jemima WARD Johnson",
                         "children": []
                       }
                     ]

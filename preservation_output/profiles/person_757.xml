@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_757">
+    <name>
+      <nameForm>
+        <fullText>Mamie Mosley</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_114"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_756"/>
+    <person2 resource="#p_757"/>
+    <note>
+      <text>Evidence: Barnard Johnson who married Mamie Mosley</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_455"/>
+    <person2 resource="#p_757"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_778"/>
+    <person2 resource="#p_757"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_114">
+    <about resource="wrightp2.htm"/>
+    <title>Record: wrightp2.htm</title>
+  </sourceDescription>
+</gedcomx>

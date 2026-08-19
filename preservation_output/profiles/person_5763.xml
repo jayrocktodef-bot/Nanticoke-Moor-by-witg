@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_5763">
+    <name>
+      <nameForm>
+        <fullText>Robert Marshall Hanzer</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_348"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_348"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>20 Jan 1904</original>
+      </date>
+      <source description="#s_348"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_5763"/>
+    <person2 resource="#p_9096"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_5763"/>
+    <person2 resource="#p_9940"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_5763"/>
+    <person2 resource="#p_10290"/>
+    <note>
+      <text>Evidence: GEDCOM Family @F185@ marriage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_305"/>
+    <person2 resource="#p_5763"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_5898"/>
+    <person2 resource="#p_5763"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8927"/>
+    <person2 resource="#p_5763"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10704"/>
+    <person2 resource="#p_5763"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_348">
+    <about resource="Hanzers&amp;PerkinsAnn.htm"/>
+    <title>Record: Hanzers&amp;PerkinsAnn.htm</title>
+  </sourceDescription>
+</gedcomx>

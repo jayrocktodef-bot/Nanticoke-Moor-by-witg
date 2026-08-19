@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6131">
+    <name>
+      <nameForm>
+        <fullText>Charles Blaine Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_385"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>Nov 1877</original>
+      </date>
+      <source description="#s_385"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>22 Oct 1910 (aged 32)</original>
+      </date>
+      <source description="#s_385"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_385">
+    <about resource="JacksonBlaine&amp;Gladys.htm"/>
+    <title>Record: JacksonBlaine&amp;Gladys.htm</title>
+  </sourceDescription>
+</gedcomx>

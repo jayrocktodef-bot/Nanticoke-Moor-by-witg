@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/102006473/margarite-davis (Buried at Prospect Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7645,
+      "person_id": 8188,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Margarite Davis",
+      "citations": [
+        {
+          "citation_id": 7639,
+          "fact_id": 7645,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7646,
+      "person_id": 8188,
+      "fact_type": "Birth",
+      "date_string": "29 Apr 1919",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7640,
+          "fact_id": 7646,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7647,
+      "person_id": 8188,
+      "fact_type": "Death",
+      "date_string": "25 Apr 1921 (aged 1)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7641,
+          "fact_id": 7647,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -50,7 +109,7 @@
                 "children": [
                   {
                     "id": 8809,
-                    "name": "Ludwig (Lewis) Davis",
+                    "name": "Ludwig Davis",
                     "children": []
                   }
                 ]
@@ -106,13 +165,7 @@
                   {
                     "id": 8606,
                     "name": "Richard Dickerson",
-                    "children": [
-                      {
-                        "id": 9073,
-                        "name": "Charles Dickerson",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 9071,

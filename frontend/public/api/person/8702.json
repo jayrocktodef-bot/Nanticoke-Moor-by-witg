@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8191,
+      "person_id": 8702,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "John Thompson",
+      "citations": [
+        {
+          "citation_id": 8185,
+          "fact_id": 8191,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8192,
+      "person_id": 8702,
+      "fact_type": "Birth",
+      "date_string": "abt 1877 Dagsboro, Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8186,
+          "fact_id": 8192,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8193,
+      "person_id": 8702,
+      "fact_type": "Death",
+      "date_string": "Nov 14, 1945 Philadelphia, Philadelphia County, Pennsylvania, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8187,
+          "fact_id": 8193,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -78,86 +137,7 @@
       "rel_name": "Adele Ruby Thompson"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8702,
-      "photo_id": 5598,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "John Asbury Thompson, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Thompson",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ThompsonAsburyAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThompsonAsbury.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8702,
-      "photo_id": 5600,
-      "title_or_caption": "John Asbury Thompson GO TO PHOTO INDEX A-C | D | E-L | M ...",
-      "subject_names": "John Asbury Thompson GO TO PHOTO INDEX A-C | D | E-L | M ...",
-      "maiden_name": "Thompson",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ThompsonAsburyAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThompsonAsbury.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8702,
-      "photo_id": 5602,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Asher Thompson, son of John, Sarah Ann Harmon Thompson, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Thompson",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ThompsonJohnFamily.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThompsonAsher.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8702,
-      "photo_id": 5604,
-      "title_or_caption": "Snowden Asher Thompson Asher, son of John W. & Sarah Ann (Harm...",
-      "subject_names": "Snowden Asher Thompson Asher, son of John W",
-      "maiden_name": "Thompson",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ThompsonJohnFamily.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThompsonAsher.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8702,
-      "photo_id": 5606,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "John & Sarah, of son, Bart Thompson, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Sarah",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ThompsonBartAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThompsonBartholomew.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8702,
-      "photo_id": 5610,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "John & Sarah, of son, Bart Thompson, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Sarah",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ThompsonJohn_Sarah.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThompsonJohn&Sarah.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -218,13 +198,7 @@
                   {
                     "id": 8606,
                     "name": "Richard Dickerson",
-                    "children": [
-                      {
-                        "id": 9073,
-                        "name": "Charles Dickerson",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 9071,
@@ -270,7 +244,7 @@
             "children": [
               {
                 "id": 10122,
-                "name": "John R (H) or Jonathan Harmon",
+                "name": "John R or Jonathan Harmon",
                 "children": [
                   {
                     "id": 9982,
@@ -288,7 +262,7 @@
                       },
                       {
                         "id": 9985,
-                        "name": "Jemima WARD Johnson (MD)",
+                        "name": "Jemima WARD Johnson",
                         "children": []
                       }
                     ]

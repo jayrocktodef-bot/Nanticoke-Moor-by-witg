@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_8131">
+    <name>
+      <nameForm>
+        <fullText>Elmer Webster</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_621"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>27 Oct 1891</original>
+      </date>
+      <source description="#s_621"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>6 Jan 1946 (aged 54)</original>
+      </date>
+      <source description="#s_621"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_621">
+    <about resource="WebsterElmer&amp;Ida.htm"/>
+    <title>Record: WebsterElmer&amp;Ida.htm</title>
+  </sourceDescription>
+</gedcomx>

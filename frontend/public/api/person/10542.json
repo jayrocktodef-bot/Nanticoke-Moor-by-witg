@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 10542,
-    "name": "Nathaniel \"Nathan\" Norwood",
+    "name": "Nathaniel Nathan Norwood",
     "first_name": "Nathaniel",
-    "middle_name": "\"Nathan\"",
+    "middle_name": "Nathan",
     "maiden_name": "",
     "married_last_name": "Norwood",
     "evidence_level": 1,
@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9930,
+      "person_id": 10542,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Nathaniel Nathan Norwood",
+      "citations": [
+        {
+          "citation_id": 9924,
+          "fact_id": 9930,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9931,
+      "person_id": 10542,
+      "fact_type": "Birth",
+      "date_string": "1745 Indian River Hundred, Sussex County, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9925,
+          "fact_id": 9931,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9932,
+      "person_id": 10542,
+      "fact_type": "Death",
+      "date_string": "10 Mar 1786 Indian River Hundred, Sussex, Delaware, United States",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9926,
+          "fact_id": 9932,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -69,7 +128,7 @@
   "audit_flags": [],
   "ancestry": {
     "id": 10542,
-    "name": "Nathaniel \"Nathan\" Norwood",
+    "name": "Nathaniel Nathan Norwood",
     "children": []
   }
 }

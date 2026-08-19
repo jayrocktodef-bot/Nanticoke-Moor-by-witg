@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_640">
+    <name>
+      <nameForm>
+        <fullText>Hanzer Thomas</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_99"/>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>d. 1821</original>
+      </date>
+      <source description="#s_99"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_640"/>
+    <person2 resource="#p_1074"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_99">
+    <about resource="probate.htm"/>
+    <title>Record: probate.htm</title>
+  </sourceDescription>
+</gedcomx>

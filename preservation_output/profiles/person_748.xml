@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_748">
+    <name>
+      <nameForm>
+        <fullText>William Clark</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_112"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>30 Nov 1855</original>
+      </date>
+      <source description="#s_112"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_747"/>
+    <person2 resource="#p_748"/>
+    <note>
+      <text>Evidence: Louise Wright who married William Clark</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_748"/>
+    <person2 resource="#p_278"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_112">
+    <about resource="wright-d.htm"/>
+    <title>Record: wright-d.htm</title>
+  </sourceDescription>
+</gedcomx>

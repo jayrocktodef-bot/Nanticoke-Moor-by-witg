@@ -13,6 +13,65 @@
     "notes": "Ingested from WrightAnnaCatherineDavis.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/77205793/anna-davis (Buried at Old Church Cemetery)",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 2569,
+      "person_id": 3175,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Anna C. Davis Wright",
+      "citations": [
+        {
+          "citation_id": 2563,
+          "fact_id": 2569,
+          "source_id": 172,
+          "evidence_text": null,
+          "source_title": "Record: WrightAnnaCatherineDavis.htm",
+          "source_url": "WrightAnnaCatherineDavis.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 2570,
+      "person_id": 3175,
+      "fact_type": "Birth",
+      "date_string": "Aug 1851",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 2564,
+          "fact_id": 2570,
+          "source_id": 172,
+          "evidence_text": null,
+          "source_title": "Record: WrightAnnaCatherineDavis.htm",
+          "source_url": "WrightAnnaCatherineDavis.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 2571,
+      "person_id": 3175,
+      "fact_type": "Death",
+      "date_string": "7 May 1915 (aged 63)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 2565,
+          "fact_id": 2571,
+          "source_id": 172,
+          "evidence_text": null,
+          "source_title": "Record: WrightAnnaCatherineDavis.htm",
+          "source_url": "WrightAnnaCatherineDavis.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -67,15 +126,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Wright Earl C.",
       "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Wright Earl C.",
-      "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -97,13 +149,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Wright Earl C.",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -151,29 +196,8 @@
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Wright Earl C.",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Wright Earl C.",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Wright Earl C.",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Wright Earl C.",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -195,13 +219,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Wright Earl C.",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -291,20 +308,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Wright Earl C.",
       "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Wright Earl C.",
-      "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Wright Earl C.",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -334,7 +337,7 @@
       "evidence_text": "Obituary child link for Wright Earl C.",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -411,7 +414,7 @@
       "evidence_text": "Obituary child link for Wright Earl C.",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -519,482 +522,18 @@
       "rel_name": "Niquita Harris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 3175,
-      "photo_id": 3051,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHarmonWrightLadies.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 3051,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHarmonWrightLadies.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 3051,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHarmonWrightLadies.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 3051,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHarmonWrightLadies.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 3051,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHarmonWrightLadies.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 5943,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": null,
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WrightWalterB_Anna_Barrent.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 3052,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WrightAnnaCatherineDavis2.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 3053,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WrightAnnaCDavis.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 5943,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": null,
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WrightWalterB_Anna_Barrent.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 3051,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHarmonWrightLadies.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 1992,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Are These People, -- p, to Unknowns P, Go to Unknowns P, Go to Unknowns P, your choice., BRIDGETON OR MILLSBORO, Bibles or obituaries, Durham Heard presents the following, photos to be identified., Pierce collection, Pierce replies below:, Helen Pierce [mailto:pierceh@gmail.com], Sent: June, The people, Magnolia Street in Salem NJ, I believe, one with headband is Pauline, The boy, the mother of the kids, but they are not sure., left. Who are the others?, Priscilla Durham & boy, Durham Heard says:, photo D Joseph Carney and, his children with Alma Mosley, Durham Heard says:, Lottie Bowles, not related to group, Durham Heard says:, to be identified., Pierce collection, This is, Ricketts says, \"this is an unknown JOHNSON.\", Please ID this gentleman., Virginia Sammons Reed, of Cheswold owned this photo., \"Lily and Angie Mosley\", are their parents?, Virginia Sammons Reed, of Cheswold owned this photo., \"Mosley family\", Virginia Sammons Reed, of Cheswold owned this photo., \"Morgan and Reed families\", Sammons Mosley, of Cheswold owned this photo., Nemar Mar Durham, I say #, be #'s, husband of Mae Sammons, Sent: February, Subject: Picture &, Photo  # Lawrence also, Sammons Mosley, of Cheswold owned this photo., Carney is #, back is Charles E. Pritchett, Jr. The big, Mildred nee Mosley Durham, Person # Charles E. Pritchett, Elva nee Miller Pritchett, are brothers in picture #., Sallie Durham Muntz., Marshall adds:, like my grandmother, Anna Hughes Wright from Cheswold, De.. I don't, Sent: February, Subject: Picture &, Photo  # Lawrence also, Sammons Mosley, of Cheswold owned this photo., Sammons Mosley, of Cheswold owned this photo., Sammons Mosley, of Cheswold owned this photo., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "People",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "2015",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_Who2.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WhoAreThesePeople.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 2630,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Wright Clark, Louise Clark & daughter, Anna Johnson, Dorsey Johnson, Anna Clark Johnson, | N-R | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Clark",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ClarkEdnaWrightAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ClarkLouiseWright&dauAnna.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 2631,
-      "title_or_caption": "Louise Wright Clark Photo courtesy of Frank W. PorterIII \"A Photograph...",
-      "subject_names": "Clark Louise Wright & dau Anna",
-      "maiden_name": "Clark",
-      "married_surname": "Johnson",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_JohnsonDorsey&Anna&CWright.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ClarkLouiseWright&dauAnna.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 2632,
-      "title_or_caption": "Louise Wright Clark Photo courtesy of Frank W. PorterIII \"A Photograph...",
-      "subject_names": "Clark Louise Wright & dau Anna",
-      "maiden_name": "Clark",
-      "married_surname": "Johnson",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ClarkEdnaWrightAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ClarkLouiseWright&dauAnna.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 3054,
-      "title_or_caption": "Walter B. & Anna Catherine (Davis) Wright See Photographic Surve...",
-      "subject_names": "Walter B",
-      "maiden_name": "Wright",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WrightWalterB&Anna&Barrent.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 3055,
-      "title_or_caption": "Walter B. & Anna Catherine (Davis) Wright See Photographic Surve...",
-      "subject_names": "Walter B",
-      "maiden_name": "Wright",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHarmonWrightLadies.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 4359,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Sarah Jane Sockum Harmon, Isaac W. Harmon, Sarah Jane Sockum Harmon, Isaac Harman, Sylvia Davis Pinkett, Ephraim Charles married Eunice Wright, of Warren & Marie Wright, moved to Phila., Pa. & operated, Ann Wright;, As a young boy, became a seaman, an obsession with owning land, Indian river, soft-shelled crabs, three saw mills., dau of, married Amelia Street, one child John Wesley, who married Lillie Clark, dau. of, had one, Isaac who lived in Phila., who married Vina Ann Harmon, children Were: Ralph B., Theodore Parker, Ephraim Lincoln. Fanny, William Augustus, Eunice E., Noah Chester, Anna Janie, Isaac Wilson, Jr.; Sarah Jane, who married Ralph Bumbray, Jr.; Noah, who married Eunice Johnson, dau. Of Wesley Sylvester, Sarah Jane, and Noah, Jr.; Lillie Mae, children were: Isaac, Mable and Leon., Isaac\u2019s wife, Sarah Jane, each to granddaughter, Bertha and grandson John Wesley, and to each living child:, Sarah Jane, Isaac Wilson, Eliza Ann, and Noah, Jane Sockume, born abt  in Sussex County, . \u00a0\u00a0Thomas W. Harmon, born abt ., . \u00a0\u00a0Levin T. Harmon, . \u00a0\u00a0Sarah Jane Harmon, born abt . She married, Ralph Bumbray., Isaac Wilson  Harman, Millsboro. He, married Vina Ann Harmon., born abt ., . \u00a0\u00a0Noah Harmon, born abt  in Millsboro, Delaware. He married Eunice E.., . \u00a0\u00a0Lillie Mae Harmon, born abt ., . \u00a0\u00a0Eliza Anne Harmon, born abt . She married, William Howard Johnson, Patience Wright., . Robert M. Harmon, died Infant ., . Eunice W. Harmon, died Infant ., . Nancy Harmon, died Child ., . Ralph B. Harmon, of son John Wesley Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Sockum",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1829",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonJohnWesleyAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonIsaacW&SarahSockum.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 5185,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Henry Munson, Anna Wynder Munson, Henry Munson, Wynder Munson, Wynder Munson, Contributed by Paul Johnson  Aug, Anna W. Munson, of RD, Shoemaker Lane died Wednesday in, she was, graduate of Virginia State College, Munson was employed as, member of the NJEA., are two sons, Charles Davis of West Chester, Pa. And Robert J., of Baltimore, Md.; two daughters, Madeline Munson of Toms River, Mary Conaway, Wright and Abbie Goldsborough, all of Bridgeton; three grandchildren, Edward L. Wynder., E. Commerce, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Munson",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1924",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MunsonAnnaW.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MunsonCharlesHenry.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 5384,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna H. Ridgeway Clark, Anna H. Ridgeway Wright, Anna H., was born April, she completed, in Washington, Anna met and, and remained in Philadelphia., Ancestry of Anna H., Ridgeway Wright, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Clark",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1915",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WrightAnnaRidgewayAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightAnnaHRidgeway.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 5386,
-      "title_or_caption": "Anna H. Ridgeway Clark Wright 1915 - 1989 Anna H. Ridgeway Wright Mrs. ...",
-      "subject_names": "Anna H",
-      "maiden_name": "Ridgeway",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1915",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WrightAnnaRidgewayAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightAnnaHRidgeway.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 3175,
-      "photo_id": 5554,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "P. Street Family, husband of Anna, Harmon Johnson, Matilda Johnson, David P. Street, Photo coutesy, of Sterling Street, David P. Street & family, David R. Street, Anna Harmon Street, Photo coutesy of Sterling Street, William Edward Streett, Lydia Wright Street, Bertha Mae Sockum Street, Photo coutesy, of Sterling Street, David P. STREET, Sussex County, he married Matilda JOHNSON., . David R., . John Street, born about ., . Catharine, . Jeremiah Street, born about ., . Isaac STREET, . Mary A. STREET, . Sophia Isabelle, Street. She married Charlie Morris., . Robert P., married Matilda Jackson., . Carrie J., . Howard D., . Gardiner, R. STREET, Mission Church Cemetery, Delaware. He married, Clara Miller, Della Hester Norwood., . Burton C., Clara Carney, of grandson William Edward Streett, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Family",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1822",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_StreettWilliamEAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetDavidP.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [
     {
-      "id": 444,
+      "id": 5115,
       "category": "Duplicate Candidate",
       "severity": "warning",
       "person_id": 3175,
       "person_id_secondary": 3170,
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: anna|wright|1851",
-      "created_at": "2026-08-14 03:42:34"
-    },
-    {
-      "id": 684,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 915,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1146,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1377,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1608,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1839,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2070,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2301,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2532,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2763,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2994,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3225,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3455,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3685,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3916,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4147,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4378,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4608,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4839,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
+      "created_at": "2026-08-19 00:14:46"
     }
   ],
   "ancestry": {

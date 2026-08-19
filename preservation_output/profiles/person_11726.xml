@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11726">
+    <name>
+      <nameForm>
+        <fullText>Mary my wife to be equally divided Between Both in</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_652"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11725"/>
+    <person2 resource="#p_11726"/>
+    <note>
+      <text>Evidence: In the name of God Amen. I William Hansor in Kent Co. on Delaware Bay am in good Health and a sound Memory Blessed be God do say in the year of one thousand seven hundred and fifty six Make and Publis</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_652">
+    <about resource="probt-h3.htm"/>
+    <title>Record: probt-h3.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_171">
+    <name>
+      <nameForm>
+        <fullText>Sarah Hewes</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_29"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1819</original>
+      </date>
+      <source description="#s_29"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>19 Mar 1840 (aged 20&amp;ndash;21)</original>
+      </date>
+      <source description="#s_29"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_29">
+    <about resource="concl-e1.htm"/>
+    <title>Record: concl-e1.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2246">
+    <name>
+      <nameForm>
+        <fullText>Sarah Miller</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_658"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1801</original>
+      </date>
+      <source description="#s_658"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>14 Sep 1854 (aged 52&amp;ndash;53)</original>
+      </date>
+      <source description="#s_658"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_2246"/>
+    <person2 resource="#p_9188"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_658">
+    <about resource="Probate.htm"/>
+    <title>Record: Probate.htm</title>
+  </sourceDescription>
+</gedcomx>

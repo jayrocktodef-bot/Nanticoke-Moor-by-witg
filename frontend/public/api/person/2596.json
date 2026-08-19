@@ -13,22 +13,67 @@
     "notes": "Ingested from preserved SocialSecurityApplications.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/107096207/oliver-green",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 2119,
       "person_id": 2596,
-      "photo_id": 5932,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "R. & Ellen H. Green, Anniversary photo, of Oliver & Ellen's child, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Green",
-      "location": null,
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_GreenOliverchildAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/GreenOliver&wife.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Oliver Raymond Green",
+      "citations": [
+        {
+          "citation_id": 2119,
+          "fact_id": 2119,
+          "source_id": 147,
+          "evidence_text": null,
+          "source_title": "Record: SocialSecurityApplications.htm",
+          "source_url": "SocialSecurityApplications.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 2120,
+      "person_id": 2596,
+      "fact_type": "Birth",
+      "date_string": "1864",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 2120,
+          "fact_id": 2120,
+          "source_id": 147,
+          "evidence_text": null,
+          "source_title": "Record: SocialSecurityApplications.htm",
+          "source_url": "SocialSecurityApplications.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 2121,
+      "person_id": 2596,
+      "fact_type": "Death",
+      "date_string": "1881 (aged 16&ndash;17)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 2121,
+          "fact_id": 2121,
+          "source_id": 147,
+          "evidence_text": null,
+          "source_title": "Record: SocialSecurityApplications.htm",
+          "source_url": "SocialSecurityApplications.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

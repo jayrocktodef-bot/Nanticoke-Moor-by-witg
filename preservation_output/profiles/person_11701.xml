@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11701">
+    <name>
+      <nameForm>
+        <fullText>Alberta HARMON from Millsboro</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_88"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11700"/>
+    <person2 resource="#p_11701"/>
+    <note>
+      <text>Evidence: . He then married Alberta HARMON from Millsboro, DE.</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11700"/>
+    <person2 resource="#p_11701"/>
+    <note>
+      <text>Evidence: . He then married Alberta HARMON from Millsboro, DE.</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_88">
+    <about resource="morganl2.htm"/>
+    <title>Record: morganl2.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/88977286/jost-henry-davis (Buried at Yellow Church Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8128,
+      "person_id": 8629,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Jost Henry Davis",
+      "citations": [
+        {
+          "citation_id": 8122,
+          "fact_id": 8128,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8129,
+      "person_id": 8629,
+      "fact_type": "Birth",
+      "date_string": "Oct 1750",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8123,
+          "fact_id": 8129,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8130,
+      "person_id": 8629,
+      "fact_type": "Death",
+      "date_string": "10 Feb 1836 (aged 85)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8124,
+          "fact_id": 8130,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -40,7 +99,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8809,
-      "rel_name": "Ludwig (Lewis) Davis"
+      "rel_name": "Ludwig Davis"
     }
   ],
   "photos": [],
@@ -52,7 +111,7 @@
     "children": [
       {
         "id": 8809,
-        "name": "Ludwig (Lewis) Davis",
+        "name": "Ludwig Davis",
         "children": []
       }
     ]

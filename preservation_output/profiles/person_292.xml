@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_292">
+    <name>
+      <nameForm>
+        <fullText>leaving numerous</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_45"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>18 Apr 1950</original>
+      </date>
+      <source description="#s_45"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Sep 2013 (aged 63)</original>
+      </date>
+      <source description="#s_45"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_45">
+    <about resource="durham.htm"/>
+    <title>Record: durham.htm</title>
+  </sourceDescription>
+</gedcomx>

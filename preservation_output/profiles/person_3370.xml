@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3370">
+    <name>
+      <nameForm>
+        <fullText>Fred &amp; Minnie</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_182"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_182"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_182"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_182">
+    <about resource="BowenFred&amp;Minnie.htm"/>
+    <title>Record: BowenFred&amp;Minnie.htm</title>
+  </sourceDescription>
+</gedcomx>

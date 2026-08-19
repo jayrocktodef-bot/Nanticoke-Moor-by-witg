@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11596">
+    <name>
+      <nameForm>
+        <fullText>He was the same minister who</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_637"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11596"/>
+    <person2 resource="#p_11597"/>
+    <note>
+      <text>Evidence: she married John Saunders. Rev. Piner Mansfield performed the ceremony. He was the same minister who married Elmira CARTY and Isaiah MUNCE.</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_637">
+    <about resource="dean-m2.htm"/>
+    <title>Record: dean-m2.htm</title>
+  </sourceDescription>
+</gedcomx>

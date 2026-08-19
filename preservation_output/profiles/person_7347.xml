@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7347">
+    <name>
+      <nameForm>
+        <fullText>William Thomas</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_563"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1781</original>
+      </date>
+      <source description="#s_563"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1846 (aged 64&amp;ndash;65)</original>
+      </date>
+      <source description="#s_563"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_7347"/>
+    <person2 resource="#p_8147"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_563">
+    <about resource="ReedThomas&amp;MaryMosley.htm"/>
+    <title>Record: ReedThomas&amp;MaryMosley.htm</title>
+  </sourceDescription>
+</gedcomx>

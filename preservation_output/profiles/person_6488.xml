@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6488">
+    <name>
+      <nameForm>
+        <fullText>Addie Mosley</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_451"/>
+    <source description="#s_667"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>5 Feb 1882</original>
+      </date>
+      <source description="#s_451"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>24 Dec 1968 (aged 86)</original>
+      </date>
+      <source description="#s_451"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_451">
+    <about resource="MosleyAddie.htm"/>
+    <title>Record: MosleyAddie.htm</title>
+  </sourceDescription>
+  <sourceDescription id="s_667">
+    <about resource="https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"/>
+    <title>Obituary: Marguerite J. Brown ~1928-2016</title>
+  </sourceDescription>
+</gedcomx>

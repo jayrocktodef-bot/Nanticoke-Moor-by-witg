@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_243">
+    <name>
+      <nameForm>
+        <fullText>Robert Muncey Jr.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_38"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>9 Mar 1801</original>
+      </date>
+      <source description="#s_38"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Feb 1804 (aged 2)</original>
+      </date>
+      <source description="#s_38"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_38">
+    <about resource="dean-e.htm"/>
+    <title>Record: dean-e.htm</title>
+  </sourceDescription>
+</gedcomx>

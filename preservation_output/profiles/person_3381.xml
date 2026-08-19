@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3381">
+    <name>
+      <nameForm>
+        <fullText>Floyd Jerome</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_183"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>6 Jan 1924</original>
+      </date>
+      <source description="#s_183"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>8 Jan 1924 (aged 2 days)</original>
+      </date>
+      <source description="#s_183"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_183">
+    <about resource="ReedAllenDescendants.htm"/>
+    <title>Record: ReedAllenDescendants.htm</title>
+  </sourceDescription>
+</gedcomx>

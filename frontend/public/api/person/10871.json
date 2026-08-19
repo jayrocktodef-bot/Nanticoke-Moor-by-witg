@@ -13,6 +13,65 @@
     "notes": "Mentioned in obituary | Verified via FindAGrave: https://www.findagrave.com/memorial/138133634/maggie-valentine",
     "dataset_source": "mitsawokett_obituaries"
   },
+  "facts": [
+    {
+      "fact_id": 10298,
+      "person_id": 10871,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Maggie Valentine",
+      "citations": [
+        {
+          "citation_id": 10292,
+          "fact_id": 10298,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    },
+    {
+      "fact_id": 10299,
+      "person_id": 10871,
+      "fact_type": "Birth",
+      "date_string": "12 Sep 1877",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10293,
+          "fact_id": 10299,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    },
+    {
+      "fact_id": 10300,
+      "person_id": 10871,
+      "fact_type": "Death",
+      "date_string": "1 Jan 1941 (aged 63)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10294,
+          "fact_id": 10300,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "invalid_mass_parent",
@@ -75,7 +134,7 @@
       "evidence_text": "Obituary parentage for Carney Milton &quot;Nick&quot;",
       "certainty": "confirmed",
       "rel_id": 10914,
-      "rel_name": "Milton \"Nick\" Carney"
+      "rel_name": "Milton Nick Carney"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -117,7 +176,7 @@
       "evidence_text": "Obituary parentage for Coombs Ellsworth &quot;Buddy&quot;",
       "certainty": "confirmed",
       "rel_id": 10919,
-      "rel_name": "Coombs Ellsworth \"Buddy\""
+      "rel_name": "Coombs Ellsworth Buddy"
     },
     {
       "relationship_type": "child_of",
@@ -160,13 +219,6 @@
       "certainty": "confirmed",
       "rel_id": 10925,
       "rel_name": "Cuff Florence"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Cuff Francis M.",
-      "certainty": "confirmed",
-      "rel_id": 4402,
-      "rel_name": "Margaret M. Cuff"
     },
     {
       "relationship_type": "child_of",
@@ -229,7 +281,7 @@
       "evidence_text": "Obituary parentage for Durham Buena &quot;Boni&quot;",
       "certainty": "confirmed",
       "rel_id": 10934,
-      "rel_name": "Buena \"Boni\" Durham"
+      "rel_name": "Buena Boni Durham"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -345,80 +397,10 @@
     },
     {
       "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Green Rachel M. Hughes",
-      "certainty": "confirmed",
-      "rel_id": 5567,
-      "rel_name": "Hughes Green"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage Benjamin",
-      "certainty": "confirmed",
-      "rel_id": 10949,
-      "rel_name": "Greenage Benjamin"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage Janet Marie Henry",
-      "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage John Wallace",
-      "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage John Reggs",
-      "certainty": "confirmed",
-      "rel_id": 10952,
-      "rel_name": "Greenage John Reggs"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage Mary C. Van Dusen",
-      "certainty": "confirmed",
-      "rel_id": 10953,
-      "rel_name": "Greenage Mary C. Van Dusen"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage Paul Joseph",
-      "certainty": "confirmed",
-      "rel_id": 10954,
-      "rel_name": "Greenage Paul Joseph"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage Sr. Robert",
-      "certainty": "confirmed",
-      "rel_id": 10956,
-      "rel_name": "Greenage Sr. Robert"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Grinage Clarence Mark",
-      "certainty": "confirmed",
-      "rel_id": 10957,
-      "rel_name": "Grinage Clarence Mark"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Grinage Wilma R. Coffinger",
-      "certainty": "confirmed",
-      "rel_id": 10958,
-      "rel_name": "Grinage Wilma R. Coffinger"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Harmon Leonard &quot;Dunk&quot;",
       "certainty": "confirmed",
       "rel_id": 10959,
-      "rel_name": "Leonard \"Dunk\" Harmon"
+      "rel_name": "Leonard Dunk Harmon"
     },
     {
       "relationship_type": "child_of",
@@ -460,7 +442,7 @@
       "evidence_text": "Obituary parentage for Hughes Adella Naomi",
       "certainty": "confirmed",
       "rel_id": 10964,
-      "rel_name": "Hughes Adella Naomi"
+      "rel_name": "Adella Naomi Hughes"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -579,14 +561,7 @@
       "evidence_text": "Obituary parentage for Morris Charles",
       "certainty": "confirmed",
       "rel_id": 8676,
-      "rel_name": "Charles \"Charlie\" Morris Davis"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Morris Elva E. Street",
-      "certainty": "confirmed",
-      "rel_id": 6149,
-      "rel_name": "and Frances \"Fannie\" Street Morris"
+      "rel_name": "Charles Charlie Morris Davis"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -604,13 +579,6 @@
     },
     {
       "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Mosley Elisha M.",
-      "certainty": "confirmed",
-      "rel_id": 358,
-      "rel_name": "Lillie M. Mosley"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Mosley Elsie H.",
       "certainty": "confirmed",
       "rel_id": 477,
@@ -621,7 +589,7 @@
       "evidence_text": "Obituary parentage for Murray/ Mury Isaac Nichols 1881/1882-1937",
       "certainty": "confirmed",
       "rel_id": 10979,
-      "rel_name": "Murray/ Mury Isaac Nichols 1881/1882-1937"
+      "rel_name": "Murray Mury Isaac Nichols"
     },
     {
       "relationship_type": "child_of",
@@ -684,7 +652,7 @@
       "evidence_text": "Obituary parentage for Pierce Caleb ~1858/1864-1938",
       "certainty": "confirmed",
       "rel_id": 10988,
-      "rel_name": "Caleb ~1858/1864-1938 Pierce"
+      "rel_name": "Caleb ~ Pierce"
     },
     {
       "relationship_type": "child_of",
@@ -729,20 +697,6 @@
       "rel_name": "Laura A. Richmond Pierce"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Pierce Lucetta Pierce",
-      "certainty": "confirmed",
-      "rel_id": 8138,
-      "rel_name": "\"Butch\" & Susie Webster Pierce"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Pierce Marietta Pierce",
-      "certainty": "confirmed",
-      "rel_id": 8138,
-      "rel_name": "\"Butch\" & Susie Webster Pierce"
-    },
-    {
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Pierce Martha Irene",
       "certainty": "confirmed",
@@ -779,13 +733,6 @@
     },
     {
       "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Sammons Alfred Oscar",
-      "certainty": "confirmed",
-      "rel_id": 4129,
-      "rel_name": "Oscar & Ethel L. Sammons"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Satterfield Angeline",
       "certainty": "confirmed",
       "rel_id": 10873,
@@ -797,13 +744,6 @@
       "certainty": "confirmed",
       "rel_id": 10998,
       "rel_name": "Scott Ella Mae Bailey"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Seeney Laura E. Ridgeway",
-      "certainty": "confirmed",
-      "rel_id": 7457,
-      "rel_name": "Forrest Seeney Ridgeway and Marietta"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -873,7 +813,7 @@
       "evidence_text": "Obituary parentage for Ward Helen Harmon",
       "certainty": "confirmed",
       "rel_id": 8913,
-      "rel_name": "Amos Edward Harmon Sr."
+      "rel_name": "Amos Edward Harmon Sr"
     },
     {
       "relationship_type": "child_of",
@@ -940,13 +880,6 @@
     },
     {
       "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for 1972-1975, receiving many commendations for his excellent work. At the V.A.,",
-      "certainty": "confirmed",
-      "rel_id": 11018,
-      "rel_name": "1972-1975, receiving many commendations for his excellent work. At the V.A.,"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Adele Marie Massey Wright",
       "certainty": "confirmed",
       "rel_id": 11014,
@@ -999,7 +932,7 @@
       "evidence_text": "Obituary parentage for Milton &quot;Nick&quot; Carney",
       "certainty": "confirmed",
       "rel_id": 10914,
-      "rel_name": "Milton \"Nick\" Carney"
+      "rel_name": "Milton Nick Carney"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1020,14 +953,14 @@
       "evidence_text": "Obituary parentage for Charles Glendon Coker Sr.",
       "certainty": "confirmed",
       "rel_id": 10513,
-      "rel_name": "Charles Harold hanzer Sr."
+      "rel_name": "Charles Harold hanzer Sr"
     },
     {
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Ellsworth &quot;Buddy&quot; Coombs",
       "certainty": "confirmed",
       "rel_id": 10919,
-      "rel_name": "Coombs Ellsworth \"Buddy\""
+      "rel_name": "Coombs Ellsworth Buddy"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1055,7 +988,7 @@
       "evidence_text": "Obituary parentage for Charles Willis Coursey",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1063,13 +996,6 @@
       "certainty": "confirmed",
       "rel_id": 10925,
       "rel_name": "Cuff Florence"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Francis M. &quot;Frank&quot; Cuff",
-      "certainty": "confirmed",
-      "rel_id": 11020,
-      "rel_name": "Francis M. \"Frank\" Cuff"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1153,7 +1079,7 @@
       "evidence_text": "Obituary parentage for Edward E. Ford Jr.",
       "certainty": "confirmed",
       "rel_id": 10694,
-      "rel_name": "Donald Edward Johnson Jr."
+      "rel_name": "Donald Edward Johnson Jr"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1199,13 +1125,6 @@
     },
     {
       "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Ella M. Williams Gould",
-      "certainty": "confirmed",
-      "rel_id": 11021,
-      "rel_name": "Ella M. Williams Gould"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Christina Mae Norwood-Green",
       "certainty": "confirmed",
       "rel_id": 10983,
@@ -1217,20 +1136,6 @@
       "certainty": "confirmed",
       "rel_id": 2561,
       "rel_name": "Bedell Elsie Rachel Green"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Clarence Mark &quot;Mark&quot; Grinage",
-      "certainty": "confirmed",
-      "rel_id": 10957,
-      "rel_name": "Grinage Clarence Mark"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Wilma R. Coffinger Grinage",
-      "certainty": "confirmed",
-      "rel_id": 10958,
-      "rel_name": "Grinage Wilma R. Coffinger"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1258,7 +1163,7 @@
       "evidence_text": "Obituary parentage for Adella Naomi Hughes",
       "certainty": "confirmed",
       "rel_id": 10964,
-      "rel_name": "Hughes Adella Naomi"
+      "rel_name": "Adella Naomi Hughes"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1266,13 +1171,6 @@
       "certainty": "confirmed",
       "rel_id": 10966,
       "rel_name": "Huntsinger Luella Durham"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Elsie L. Pierce James",
-      "certainty": "confirmed",
-      "rel_id": 5487,
-      "rel_name": "Elsie & James."
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1294,13 +1192,6 @@
       "certainty": "confirmed",
       "rel_id": 9696,
       "rel_name": "Dallas Robert Johnson"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Sandra Z. Bailey Johnson",
-      "certainty": "confirmed",
-      "rel_id": 3945,
-      "rel_name": "Joan Johnson ) Sandra Johnson?"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1349,7 +1240,7 @@
       "evidence_text": "Obituary parentage for Raymond H. Lively Jr.",
       "certainty": "confirmed",
       "rel_id": 6815,
-      "rel_name": "Aubrey Raymond Newlin Jr."
+      "rel_name": "Aubrey Raymond Newlin Jr"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1363,21 +1254,14 @@
       "evidence_text": "Obituary parentage for Charles Morris",
       "certainty": "confirmed",
       "rel_id": 8676,
-      "rel_name": "Charles \"Charlie\" Morris Davis"
+      "rel_name": "Charles Charlie Morris Davis"
     },
     {
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Sanford G. Morris Sr.",
       "certainty": "confirmed",
       "rel_id": 11025,
-      "rel_name": "Sanford G. Morris Sr."
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Elisha M. Mosley",
-      "certainty": "confirmed",
-      "rel_id": 11026,
-      "rel_name": "Elisha M. Mosley"
+      "rel_name": "Sanford G. Morris Sr"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1391,7 +1275,7 @@
       "evidence_text": "Obituary parentage for Isaac Nichols Murray or Mury 1881/1882-1937",
       "certainty": "confirmed",
       "rel_id": 10979,
-      "rel_name": "Murray/ Mury Isaac Nichols 1881/1882-1937"
+      "rel_name": "Murray Mury Isaac Nichols"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1433,7 +1317,7 @@
       "evidence_text": "Obituary parentage for Caleb Pierce ~1858/1864-1938",
       "certainty": "confirmed",
       "rel_id": 10988,
-      "rel_name": "Caleb ~1858/1864-1938 Pierce"
+      "rel_name": "Caleb ~ Pierce"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1448,13 +1332,6 @@
       "certainty": "confirmed",
       "rel_id": 11029,
       "rel_name": "Carrie V. Cuff Pierce"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Frances E Cuff Pierce",
-      "certainty": "confirmed",
-      "rel_id": 11030,
-      "rel_name": "Frances E Cuff Pierce"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1482,14 +1359,14 @@
       "evidence_text": "Obituary parentage for Lucetta Pierce Pierce",
       "certainty": "confirmed",
       "rel_id": 11031,
-      "rel_name": "Lucetta Pierce Pierce"
+      "rel_name": "Lucetta Pierce"
     },
     {
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Marietta Pierce Pierce",
       "certainty": "confirmed",
       "rel_id": 11032,
-      "rel_name": "Marietta Pierce Pierce"
+      "rel_name": "Marietta Pierce"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1559,7 +1436,7 @@
       "evidence_text": "Obituary parentage for James Howard Street, Sr.",
       "certainty": "confirmed",
       "rel_id": 613,
-      "rel_name": "James Dean Sr."
+      "rel_name": "James Dean Sr"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1634,2318 +1511,7 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 4017,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10839,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4018,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10905,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4019,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10906,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4020,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10908,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4021,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10911,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4022,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3337,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4023,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10912,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4024,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10913,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4025,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10914,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4026,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 2330,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4027,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10915,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4028,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10917,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4029,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4030,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10918,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4031,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10919,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4032,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10921,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4033,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10922,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4034,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4370,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4035,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4036,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10924,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4037,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10925,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4038,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4402,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4039,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10927,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4040,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10928,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4041,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10929,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4042,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10930,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4043,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4609,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4044,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10931,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4045,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10932,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4046,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10933,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4047,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10934,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4048,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10935,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4049,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 2569,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4050,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6474,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4051,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4134,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4052,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10936,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4053,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10937,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4054,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10938,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4055,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10940,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4056,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10941,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4057,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10943,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4058,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10944,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4059,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10945,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4060,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 2884,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4061,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10947,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4062,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6795,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4063,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10948,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4064,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5567,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4065,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10949,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4066,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10950,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4067,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10951,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4068,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10952,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4069,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10953,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4070,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10954,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4071,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10956,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4072,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10957,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4073,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10958,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4074,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10959,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4075,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10960,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4076,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10961,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4077,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7089,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4078,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10962,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4079,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10963,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4080,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10964,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4081,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4082,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10966,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4083,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8202,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4084,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4085,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4086,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10968,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4087,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10932,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4088,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10969,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4089,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10970,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4090,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10971,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4091,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10972,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4092,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10973,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4093,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4094,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10975,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4095,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4096,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10977,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4097,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8676,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4098,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6149,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4099,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10978,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4100,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6427,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4101,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 358,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4102,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 477,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4103,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10979,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4104,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10980,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4105,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10981,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4106,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10982,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4107,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10983,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4108,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10984,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4109,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4110,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10986,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4111,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10987,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4112,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10988,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4113,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4114,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10989,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4115,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4116,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8200,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4117,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8206,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4118,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10990,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4119,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8138,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4120,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8138,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4121,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10991,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4122,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4123,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10993,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4124,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10994,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4125,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10996,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4126,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4129,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4127,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10873,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4128,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10998,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4129,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7457,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4130,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10999,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4131,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11000,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4132,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11001,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4133,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11002,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4134,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11004,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4135,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4136,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11005,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4137,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11007,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4138,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11008,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4139,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8913,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4140,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11009,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4141,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11010,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4142,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11011,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4143,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11012,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4144,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10963,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4145,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11013,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4146,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11014,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4147,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4148,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11015,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4149,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11018,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4150,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11014,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4151,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10918,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4152,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10905,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4153,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10906,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4154,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10908,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4155,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10911,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4156,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10913,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4157,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10914,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4158,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10915,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4159,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10917,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4160,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10513,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4161,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10919,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4162,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10921,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4163,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10922,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4164,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4370,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4165,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7448,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4166,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10925,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4167,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11020,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4168,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10928,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4169,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10927,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4170,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10929,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4171,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10930,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4172,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 364,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4173,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10933,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4174,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 2569,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4175,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6474,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4176,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10936,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4177,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10937,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4178,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10938,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4179,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10694,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4180,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10940,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4181,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10941,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4182,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10943,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4183,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10947,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4184,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10944,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4185,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10945,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4186,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11021,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4187,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10983,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4188,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 2561,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4189,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10957,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4190,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10958,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4191,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10960,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4192,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11022,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4193,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10963,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4194,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10964,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4195,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10966,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4196,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5487,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4197,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10969,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4198,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11023,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4199,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4200,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3945,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4201,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11024,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4202,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10970,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4203,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10971,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4204,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10972,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4205,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10973,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4206,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4207,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6815,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4208,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10977,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4209,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8676,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4210,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11025,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4211,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11026,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4212,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11027,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4213,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10979,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4214,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10980,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4215,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10984,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4216,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4217,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10986,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4218,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10987,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4219,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10988,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4220,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11028,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4221,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11029,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4222,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11030,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4223,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8202,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4224,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 1771,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4225,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10990,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4226,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11031,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4227,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11032,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4228,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8832,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4229,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4230,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11034,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4231,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10996,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4232,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11035,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4233,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10998,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4234,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11000,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4235,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11001,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4236,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11004,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4237,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 613,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4238,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11007,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4239,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11008,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4240,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11009,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4241,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11010,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4242,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11011,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4243,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11036,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4244,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11013,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4245,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11037,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4246,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11015,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4247,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11038,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 10871,
     "name": "Maggie Valentine",

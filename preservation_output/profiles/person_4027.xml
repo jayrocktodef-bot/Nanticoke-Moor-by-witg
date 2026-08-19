@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4027">
+    <name>
+      <nameForm>
+        <fullText>Mamie Davis</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_225"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>10 Oct 1905</original>
+      </date>
+      <source description="#s_225"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>9 Jul 1969 (aged 63)</original>
+      </date>
+      <source description="#s_225"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_225">
+    <about resource="VanceRonaldJrFamily.htm"/>
+    <title>Record: VanceRonaldJrFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

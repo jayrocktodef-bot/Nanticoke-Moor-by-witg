@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_786">
+    <name>
+      <nameForm>
+        <fullText>Maria Sockum</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_117"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>20 May 1950</original>
+      </date>
+      <source description="#s_117"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>11 Mar 1969 (aged 18)</original>
+      </date>
+      <source description="#s_117"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_117">
+    <about resource="wrightw1.htm"/>
+    <title>Record: wrightw1.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6204">
+    <name>
+      <nameForm>
+        <fullText>Orville Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_398"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>7 Dec 1906</original>
+      </date>
+      <source description="#s_398"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>3 Jul 1990 (aged 83)</original>
+      </date>
+      <source description="#s_398"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_398">
+    <about resource="JacksonOrville.htm"/>
+    <title>Record: JacksonOrville.htm</title>
+  </sourceDescription>
+</gedcomx>

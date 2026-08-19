@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4683">
+    <name>
+      <nameForm>
+        <fullText>Anna Elizabeth</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_278"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1949</original>
+      </date>
+      <source description="#s_278"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_278"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_278">
+    <about resource="DeanRobert&amp;Family.htm"/>
+    <title>Record: DeanRobert&amp;Family.htm</title>
+  </sourceDescription>
+</gedcomx>

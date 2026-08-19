@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_5311">
+    <name>
+      <nameForm>
+        <fullText>five of us together.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_314"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>31 Aug 1916</original>
+      </date>
+      <source description="#s_314"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>11 Aug 1988 (aged 71)</original>
+      </date>
+      <source description="#s_314"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_314">
+    <about resource="DavisWilson&amp;Family.htm"/>
+    <title>Record: DavisWilson&amp;Family.htm</title>
+  </sourceDescription>
+</gedcomx>

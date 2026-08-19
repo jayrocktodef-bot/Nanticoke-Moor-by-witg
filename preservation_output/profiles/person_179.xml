@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_179">
+    <name>
+      <nameForm>
+        <fullText>Mary Durham</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_30"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1849</original>
+      </date>
+      <source description="#s_30"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1917 (aged 67&amp;ndash;68)</original>
+      </date>
+      <source description="#s_30"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_179"/>
+    <person2 resource="#p_180"/>
+    <note>
+      <text>Evidence: Mary Durham who married George Clark</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_179"/>
+    <person2 resource="#p_987"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_179"/>
+    <person2 resource="#p_992"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_179"/>
+    <person2 resource="#p_1009"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (83.3% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_179"/>
+    <person2 resource="#p_1042"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_179"/>
+    <person2 resource="#p_1336"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_30">
+    <about resource="concl-h1.htm"/>
+    <title>Record: concl-h1.htm</title>
+  </sourceDescription>
+</gedcomx>

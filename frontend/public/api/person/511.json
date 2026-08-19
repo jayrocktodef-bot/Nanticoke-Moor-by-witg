@@ -13,6 +13,27 @@
     "notes": " | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
+  "facts": [
+    {
+      "fact_id": 885,
+      "person_id": 511,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Carol Ann Mosley",
+      "citations": [
+        {
+          "citation_id": 885,
+          "fact_id": 885,
+          "source_id": 85,
+          "evidence_text": null,
+          "source_title": "Record: morgan-m.htm",
+          "source_url": "morgan-m.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -22,34 +43,7 @@
       "rel_name": "John Davies"
     }
   ],
-  "photos": [
-    {
-      "person_id": 511,
-      "photo_id": 4941,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Kyongsuk Han Mosley, Richard & Kyongsuk, Han Mosley, daughter of Mark Mosley, brother of Richard Mosley, Heather Sessomes, of Carol Mosley Sessomes, sister of Richard Mosley, of father, Elmer L. Mosley Jr., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Han",
-      "married_surname": "Mosley",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "2007",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MosleyElmerJrAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyMark.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 511,
-      "photo_id": 5075,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Kyongsuk Han Mosley, Richard & Kyongsuk, Han Mosley, daughter of Mark Mosley, brother of Richard Mosley, Heather Sessomes, of Carol Mosley Sessomes, sister of Richard Mosley, of father, Elmer L. Mosley Jr., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Han",
-      "married_surname": "Mosley",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_SessomsHeather.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyRichard&family.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

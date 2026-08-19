@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11122">
+    <name>
+      <nameForm>
+        <fullText>Elizabeth A Ingram</fullText>
+      </nameForm>
+    </name>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>26 Oct 1858 Dagsboro Hundred, Sussex County, Delaware, USA</original>
+      </date>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>3 Sep 1895</original>
+      </date>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11136"/>
+    <person2 resource="#p_11122"/>
+    <note>
+      <text>Evidence: Restored GEDCOM parent-child record</text>
+    </note>
+  </relationship>
+</gedcomx>

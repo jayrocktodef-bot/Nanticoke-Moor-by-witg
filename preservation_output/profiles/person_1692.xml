@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1692">
+    <name>
+      <nameForm>
+        <fullText>Ebenezer Davis</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_126"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1855</original>
+      </date>
+      <source description="#s_126"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>26 Sep 1933 (aged 77&amp;ndash;78)</original>
+      </date>
+      <source description="#s_126"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_126">
+    <about resource="NMAI.AC.001.008"/>
+    <title>Record: NMAI.AC.001.008</title>
+  </sourceDescription>
+</gedcomx>

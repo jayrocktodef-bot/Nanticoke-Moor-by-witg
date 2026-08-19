@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_383">
+    <name>
+      <nameForm>
+        <fullText>Sarah Ann Hanzer</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_63"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>26 Dec 1771</original>
+      </date>
+      <source description="#s_63"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>28 Aug 1848 (aged 76)</original>
+      </date>
+      <source description="#s_63"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_63">
+    <about resource="hansr-c2.htm"/>
+    <title>Record: hansr-c2.htm</title>
+  </sourceDescription>
+</gedcomx>

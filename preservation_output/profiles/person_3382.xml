@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3382">
+    <name>
+      <nameForm>
+        <fullText>Donald Winston</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_183"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_183"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>23 Feb 2010</original>
+      </date>
+      <source description="#s_183"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_183">
+    <about resource="ReedAllenDescendants.htm"/>
+    <title>Record: ReedAllenDescendants.htm</title>
+  </sourceDescription>
+</gedcomx>

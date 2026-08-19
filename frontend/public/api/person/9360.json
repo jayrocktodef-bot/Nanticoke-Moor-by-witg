@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/197605687/james-green",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8735,
+      "person_id": 9360,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "James H Green",
+      "citations": [
+        {
+          "citation_id": 8729,
+          "fact_id": 8735,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8736,
+      "person_id": 9360,
+      "fact_type": "Birth",
+      "date_string": "1861",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8730,
+          "fact_id": 8736,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8737,
+      "person_id": 9360,
+      "fact_type": "Death",
+      "date_string": "10 Aug 1922 (aged 60&ndash;61)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8731,
+          "fact_id": 8737,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -29,34 +88,7 @@
       "rel_name": "Roberta Green"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9360,
-      "photo_id": 2076,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Annie Durham Green, wife of Isaac Green, \"Annie\" Durham Green, married Isaac Green, Issac Jr., Elsie & James., Elsie Green Carney Stewart, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Green",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1885",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_GreenRosaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/GreenMargaretADurham.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9360,
-      "photo_id": 2858,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Harriet Cork Family, James Green, son of Benjamin Grin, Rachel Miller, and his wife Harriet Cork, Harriet Annie Grin, Mary Elizabeth Grin, married Peter Theberge, Harriet Annie Green, Harvey Lightcap Theberge, and George Washington Theberge, son of Mary, and Peter., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Family",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1838",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_GreewichMaryAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/GrinageJames&Harriet.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

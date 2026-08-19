@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1681">
+    <name>
+      <nameForm>
+        <fullText>John Asbury Thompson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_122"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>28 Sep 1881</original>
+      </date>
+      <source description="#s_122"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>9 Feb 1968 (aged 86)</original>
+      </date>
+      <source description="#s_122"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_1681"/>
+    <person2 resource="#p_8185"/>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_8185"/>
+    <person2 resource="#p_1681"/>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8679"/>
+    <person2 resource="#p_1681"/>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11248"/>
+    <person2 resource="#p_1681"/>
+  </relationship>
+  <sourceDescription id="s_122">
+    <about resource="ThompsonAsbury.htm"/>
+    <title>Record: ThompsonAsbury.htm</title>
+  </sourceDescription>
+</gedcomx>

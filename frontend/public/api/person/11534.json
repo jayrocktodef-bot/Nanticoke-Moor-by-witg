@@ -1,0 +1,60 @@
+{
+  "person": {
+    "person_id": 11534,
+    "name": "Mary Ann Coker was the",
+    "first_name": null,
+    "middle_name": null,
+    "maiden_name": null,
+    "married_last_name": null,
+    "evidence_level": 1,
+    "source_page": "coker-m3.htm",
+    "birth_info": null,
+    "death_info": null,
+    "notes": "",
+    "dataset_source": "lynncjackson"
+  },
+  "facts": [
+    {
+      "fact_id": 11289,
+      "person_id": 11534,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Mary Ann Coker was the",
+      "citations": [
+        {
+          "citation_id": 10882,
+          "fact_id": 11289,
+          "source_id": 26,
+          "evidence_text": null,
+          "source_title": "Record: coker-m3.htm",
+          "source_url": "coker-m3.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "Mary Ann Coker was the daughter of James Coker  and Eliza JACKSON. She was born in Kent Co., DE on 9 September,",
+      "certainty": "confirmed",
+      "rel_id": 11535,
+      "rel_name": "James Coker  and Eliza JACKSON"
+    }
+  ],
+  "photos": [],
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11534,
+    "name": "Mary Ann Coker was the",
+    "children": [
+      {
+        "id": 11535,
+        "name": "James Coker  and Eliza JACKSON",
+        "children": []
+      }
+    ]
+  }
+}

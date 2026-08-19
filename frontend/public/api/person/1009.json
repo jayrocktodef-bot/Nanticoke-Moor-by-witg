@@ -13,7 +13,101 @@
     "notes": "Moor/Nanticoke lineage record - Durham cluster | Verified via FindAGrave: https://www.findagrave.com/memorial/30659014/marvel-durham",
     "dataset_source": "moors_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 1193,
+      "person_id": 1009,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Marvel Durham",
+      "citations": [
+        {
+          "citation_id": 1193,
+          "fact_id": 1193,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1194,
+      "person_id": 1009,
+      "fact_type": "Birth",
+      "date_string": "31 Jul 1889",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1194,
+          "fact_id": 1194,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1195,
+      "person_id": 1009,
+      "fact_type": "Death",
+      "date_string": "Mar 1969 (aged 79)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1195,
+          "fact_id": 1195,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 194,
+      "rel_name": "Daniel Durham"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 314,
+      "rel_name": "Mamie Durham"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 316,
+      "rel_name": "Maggie Durham"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 514,
+      "rel_name": "Marion Durham"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (83.3% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 179,
+      "rel_name": "Mary Durham"
+    },
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
@@ -43,99 +137,7 @@
       "rel_name": "Marion Durham"
     }
   ],
-  "photos": [
-    {
-      "person_id": 1009,
-      "photo_id": 3415,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Rhoda Seeney Durham, Rhoda Seeney Durham and children, L to R: Richard, Marvel Jr., Dolly & Frances, Rhoda Seeney Durham, Rhoda Seeney Durham, left to right: Children, Rhoda Seeney Durham, Marvel Durham Jr., Allen Durham, Jerry Durham, Joe Durham, Edward Durham, and Ralph Durham., Thanks to Meghan, Trimmer for photo identification, Son Edward Enoch \"Nicky\" Durham, of son, Marvel Durham Jr., | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Seeney",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1940",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamMarvelJr2Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMarvel&Rhoda.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 1009,
-      "photo_id": 3416,
-      "title_or_caption": "Marvel & Rhoda (Seeney) Durham Family Rhoda Seeney Durham and children, L...",
-      "subject_names": "Marvel & Rhoda (Seeney) Durham Family Rhoda Seeney Durham and children, L...",
-      "maiden_name": "Durham",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1940",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamRhodaSeeney.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMarvel&Rhoda.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 1009,
-      "photo_id": 3417,
-      "title_or_caption": "Marvel & Rhoda (Seeney) Durham Family Rhoda Seeney Durham and children, L...",
-      "subject_names": "Marvel & Rhoda (Seeney) Durham Family Rhoda Seeney Durham and children, L...",
-      "maiden_name": "Durham",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1940",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamRhodaSeeney&AnnaCLoatman.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMarvel&Rhoda.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 1009,
-      "photo_id": 3418,
-      "title_or_caption": "Marvel & Rhoda (Seeney) Durham Family Rhoda Seeney Durham and children, L...",
-      "subject_names": "Marvel & Rhoda (Seeney) Durham Family Rhoda Seeney Durham and children, L...",
-      "maiden_name": "Durham",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1940",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_SeeneyRhoda&Joyce&Joan.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMarvel&Rhoda.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 1009,
-      "photo_id": 3419,
-      "title_or_caption": "Marvel & Rhoda (Seeney) Durham Family Rhoda Seeney Durham and children, L...",
-      "subject_names": "Marvel & Rhoda (Seeney) Durham Family Rhoda Seeney Durham and children, L...",
-      "maiden_name": "Durham",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1940",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamBrothers.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMarvel&Rhoda.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 1009,
-      "photo_id": 3420,
-      "title_or_caption": "Durham Marvel & Rhoda",
-      "subject_names": "Durham Marvel & Rhoda",
-      "maiden_name": "Durham",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1940",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamEdwardEnoch1940s.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMarvel&Rhoda.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 1009,
-      "photo_id": 3421,
-      "title_or_caption": "Marvel & Rhoda (Seeney) Durham Family Rhoda Seeney Durham and children, L...",
-      "subject_names": "Marvel & Rhoda (Seeney) Durham Family Rhoda Seeney Durham and children, L...",
-      "maiden_name": "Durham",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1940",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamMarvelJr2Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMarvel&Rhoda.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 10652,
-    "name": "Anne \"Ann\" \"Annie\" Norwood",
+    "name": "Anne Ann Annie Norwood",
     "first_name": "Anne",
-    "middle_name": "\"Ann\" \"Annie\"",
+    "middle_name": "Ann Annie",
     "maiden_name": "",
     "married_last_name": "Norwood",
     "evidence_level": 1,
@@ -13,6 +13,65 @@
     "notes": "WikiTree: https://www.wikitree.com/wiki/Norwood-3012 (Norwood-3012)",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 10031,
+      "person_id": 10652,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Anne Ann Annie Norwood",
+      "citations": [
+        {
+          "citation_id": 10025,
+          "fact_id": 10031,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 10032,
+      "person_id": 10652,
+      "fact_type": "Birth",
+      "date_string": "6 Apr 1815",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10026,
+          "fact_id": 10032,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 10033,
+      "person_id": 10652,
+      "fact_type": "Death",
+      "date_string": "24 Jan 1901 Indian River Hundred, Sussex, Delaware, United States",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10027,
+          "fact_id": 10033,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -27,7 +86,7 @@
   "audit_flags": [],
   "ancestry": {
     "id": 10652,
-    "name": "Anne \"Ann\" \"Annie\" Norwood",
+    "name": "Anne Ann Annie Norwood",
     "children": [
       {
         "id": 10457,
@@ -35,7 +94,7 @@
         "children": [
           {
             "id": 10542,
-            "name": "Nathaniel \"Nathan\" Norwood",
+            "name": "Nathaniel Nathan Norwood",
             "children": []
           },
           {

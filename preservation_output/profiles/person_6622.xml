@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6622">
+    <name>
+      <nameForm>
+        <fullText>this Teens family?</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_469"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_469"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_469"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_469">
+    <about resource="MosleyTeen.htm"/>
+    <title>Record: MosleyTeen.htm</title>
+  </sourceDescription>
+</gedcomx>

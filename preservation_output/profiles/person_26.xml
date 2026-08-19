@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_26">
+    <name>
+      <nameForm>
+        <fullText>Cornelius Ridgeway</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_3"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>28 Mar 1842</original>
+      </date>
+      <source description="#s_3"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>31 Mar 1918 (aged 76)</original>
+      </date>
+      <source description="#s_3"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_25"/>
+    <person2 resource="#p_26"/>
+    <note>
+      <text>Evidence: Laura Ridgeway daughter of Cornelius and Rebecca Ridgeway was borned Oct. 30 (1st), 1866</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_26"/>
+    <person2 resource="#p_1044"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_3">
+    <about resource="bible-r.htm"/>
+    <title>Record: bible-r.htm</title>
+  </sourceDescription>
+</gedcomx>

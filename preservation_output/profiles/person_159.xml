@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_159">
+    <name>
+      <nameForm>
+        <fullText>William Consela</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_28"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>18 Oct 1905</original>
+      </date>
+      <source description="#s_28"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>20 Apr 1980 (aged 74)</original>
+      </date>
+      <source description="#s_28"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_28">
+    <about resource="concilor.htm"/>
+    <title>Record: concilor.htm</title>
+  </sourceDescription>
+</gedcomx>

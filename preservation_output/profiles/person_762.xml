@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_762">
+    <name>
+      <nameForm>
+        <fullText>Ida Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_115"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1882</original>
+      </date>
+      <source description="#s_115"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1900 (aged 17&amp;ndash;18)</original>
+      </date>
+      <source description="#s_115"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_762"/>
+    <person2 resource="#p_1016"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_762"/>
+    <person2 resource="#p_1024"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_115">
+    <about resource="wrightp3.htm"/>
+    <title>Record: wrightp3.htm</title>
+  </sourceDescription>
+</gedcomx>

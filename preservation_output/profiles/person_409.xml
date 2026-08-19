@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_409">
+    <name>
+      <nameForm>
+        <fullText>Robert B. Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_67"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>Nov 1883</original>
+      </date>
+      <source description="#s_67"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>23 Aug 1886 (aged 2)</original>
+      </date>
+      <source description="#s_67"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_409"/>
+    <person2 resource="#p_7978"/>
+    <note>
+      <text>Evidence: GEDCOM Family @F70@ marriage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8791"/>
+    <person2 resource="#p_409"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_67">
+    <about resource="jacksnja.htm"/>
+    <title>Record: jacksnja.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_17">
+    <name>
+      <nameForm>
+        <fullText>Martha A. Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_2"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>30 Oct 1900</original>
+      </date>
+      <source description="#s_2"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>22 Aug 1937 (aged 36)</original>
+      </date>
+      <source description="#s_2"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_17"/>
+    <person2 resource="#p_5971"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_2">
+    <about resource="bible-j.htm"/>
+    <title>Record: bible-j.htm</title>
+  </sourceDescription>
+</gedcomx>

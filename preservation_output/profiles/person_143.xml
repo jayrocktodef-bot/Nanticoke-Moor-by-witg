@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_143">
+    <name>
+      <nameForm>
+        <fullText>Angie Bell Coker</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_25"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>18 Dec 1875</original>
+      </date>
+      <source description="#s_25"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>8 Apr 1955 (aged 79)</original>
+      </date>
+      <source description="#s_25"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_25">
+    <about resource="coker-m2.htm"/>
+    <title>Record: coker-m2.htm</title>
+  </sourceDescription>
+</gedcomx>

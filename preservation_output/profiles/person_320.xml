@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_320">
+    <name>
+      <nameForm>
+        <fullText>Nora Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_51"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1867</original>
+      </date>
+      <source description="#s_51"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>3 Mar 1944 (aged 76&amp;ndash;77)</original>
+      </date>
+      <source description="#s_51"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_51">
+    <about resource="durhm-h2.htm"/>
+    <title>Record: durhm-h2.htm</title>
+  </sourceDescription>
+</gedcomx>

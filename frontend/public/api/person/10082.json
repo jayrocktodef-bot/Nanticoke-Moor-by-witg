@@ -13,41 +13,72 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/20214576/james-wright",
     "dataset_source": "davis_family_gedcom"
   },
-  "relationships": [
+  "facts": [
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 10083,
-      "rel_name": "Wright Thomas Sr."
-    }
-  ],
-  "photos": [
-    {
+      "fact_id": 9470,
       "person_id": 10082,
-      "photo_id": 3949,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "of Israel Jack/Jackson (b, & perhaps Polly Hansor, Jack/Jackson's line, the son of:, born 's, to John Jackson and possibly, Jane Harmon. William, baptised June, the son of:, Ann Shephard, the son of:, Henry Jackson, b abt, Delaware Public Archives, compiled by F. Edward Wright., Indian River and Cool Spring, including gravestone inscriptions after index., (Salt Lake City, Utah: Genealogical Society of, Jane Ingram Price Family, a descendant of Israel Jack/Jackson, Eliza Jane Ingram Price, Mt. Zion AME Church, the marri, as \"free mulattoes\") as August, Eliza Jane's father, James H. Ingram, was born abt, her th birthday in ., Church in Ellendale, DE. The current Church building, other healthcare products. One day, the elder McNeil, Through George Whaley's leadership, the congregation, raised a considerable sum, which the McNeil family generously, the new building., Eliza Jane Ingram Price, daughter of Eliza Jane Price, and Annie Whaley, and Annie Whaley, and Annie Whaley, Retirement Celebration, Mid 's, and Annie Whaley, Retirement Celebration, Mid 's, best friends and, C. Marie, granddaughter of Annie, Eliza Jane Ingram Price, Dee Ellis, great-granddaughter of Annie Price, Dee Ellis, and Mary, Annie Price holding the baby, Annie is standing, with the McNeill family, James Price;, flowered top, E. Price Whaley, black checkered top, Jane Price, light-colored top & glasses, E. Price Oney, C. Price Pettyjohn, right lady, not identified, ancestry of Dee Ellis, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "(b",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1800",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DeeEllisAncestry.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Price%20Eliza%20Jane%20Ingram%20Family.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "James Wright",
+      "citations": [
+        {
+          "citation_id": 9464,
+          "fact_id": 9470,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9471,
+      "person_id": 10082,
+      "fact_type": "Birth",
+      "date_string": "29 May 1839",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9465,
+          "fact_id": 9471,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9472,
+      "person_id": 10082,
+      "fact_type": "Death",
+      "date_string": "29 Nov 1927 (aged 88)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9466,
+          "fact_id": 9472,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 10082,
     "name": "James Wright",
-    "children": [
-      {
-        "id": 10083,
-        "name": "Wright Thomas Sr.",
-        "children": []
-      }
-    ]
+    "children": []
   }
 }

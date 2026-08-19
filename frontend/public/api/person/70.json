@@ -13,15 +13,66 @@
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/7533815/roberta-towns",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [
+  "facts": [
     {
-      "relationship_type": "spouse",
-      "evidence_text": "Elmira later married into the Kent Co. community when she married",
-      "certainty": "confirmed",
-      "rel_id": 71,
-      "rel_name": "into the Kent Co"
+      "fact_id": 130,
+      "person_id": 70,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Elmira later",
+      "citations": [
+        {
+          "citation_id": 130,
+          "fact_id": 130,
+          "source_id": 11,
+          "evidence_text": null,
+          "source_title": "Record: carty-r.htm",
+          "source_url": "carty-r.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 131,
+      "person_id": 70,
+      "fact_type": "Birth",
+      "date_string": "13 Feb 1911",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 131,
+          "fact_id": 131,
+          "source_id": 11,
+          "evidence_text": null,
+          "source_title": "Record: carty-r.htm",
+          "source_url": "carty-r.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 132,
+      "person_id": 70,
+      "fact_type": "Death",
+      "date_string": "31 May 2003 (aged 92)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 132,
+          "fact_id": 132,
+          "source_id": 11,
+          "evidence_text": null,
+          "source_title": "Record: carty-r.htm",
+          "source_url": "carty-r.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],

@@ -1,37 +1,65 @@
 {
   "person": {
     "person_id": 11230,
-    "name": "Mrs. Bertha M. Streett",
-    "first_name": "Mrs.",
-    "middle_name": "Bertha M.",
+    "name": "Bertha M. Streett",
+    "first_name": "Bertha",
+    "middle_name": "M.",
     "maiden_name": "",
     "married_last_name": "Streett",
     "evidence_level": 2,
     "source_page": "Obituary Archive",
-    "birth_info": "",
+    "birth_info": null,
     "death_info": "d. 1959",
     "notes": "Obituary Record: Delmarva Burial | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 11139,
       "person_id": 11230,
-      "id": 57,
-      "deceased_name": "Mrs. Bertha M. Streett",
-      "age": null,
-      "birth_date": null,
-      "death_date": "1959",
-      "cemetery_location": null,
-      "full_text": "LEWES: Mrs. Bertha M. Streett, 80, widow of William E. Streett, died Sunday in the Delaware Hospital, Wilmington\n\nBurton C. Street\n\n1959",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Bertha M. Streett",
+      "citations": [
+        {
+          "citation_id": 10757,
+          "fact_id": 11139,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11140,
+      "person_id": 11230,
+      "fact_type": "Death",
+      "date_string": "d. 1959",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10758,
+          "fact_id": 11140,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11230,
-    "name": "Mrs. Bertha M. Streett",
+    "name": "Bertha M. Streett",
     "children": []
   }
 }

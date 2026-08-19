@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3212">
+    <name>
+      <nameForm>
+        <fullText>Cousin Sarah Seeney</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_173"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>11 Dec 1878</original>
+      </date>
+      <source description="#s_173"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>4 Apr 1952 (aged 73)</original>
+      </date>
+      <source description="#s_173"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_173">
+    <about resource="BloomsburyMeeting9May98.htm"/>
+    <title>Record: BloomsburyMeeting9May98.htm</title>
+  </sourceDescription>
+</gedcomx>

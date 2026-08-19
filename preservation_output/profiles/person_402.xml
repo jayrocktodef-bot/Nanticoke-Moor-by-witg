@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_402">
+    <name>
+      <nameForm>
+        <fullText>Mary E. Davis</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_65"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1825</original>
+      </date>
+      <source description="#s_65"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>6 Jun 1866 (aged 40&amp;ndash;41)</original>
+      </date>
+      <source description="#s_65"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_402"/>
+    <person2 resource="#p_8613"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_65">
+    <about resource="harmony1.htm"/>
+    <title>Record: harmony1.htm</title>
+  </sourceDescription>
+</gedcomx>

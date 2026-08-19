@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_508">
+    <name>
+      <nameForm>
+        <fullText>John Davies</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_83"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_507"/>
+    <person2 resource="#p_508"/>
+    <note>
+      <text>Evidence: Carol Mosley who married John Davies</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_511"/>
+    <person2 resource="#p_508"/>
+    <note>
+      <text>Evidence: Carol Ann Mosley who married John Davies</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_83">
+    <about resource="morgan-e.htm"/>
+    <title>Record: morgan-e.htm</title>
+  </sourceDescription>
+</gedcomx>

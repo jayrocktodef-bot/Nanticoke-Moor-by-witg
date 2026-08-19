@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9132,
+      "person_id": 9837,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Dorsey E. Johnson",
+      "citations": [
+        {
+          "citation_id": 9126,
+          "fact_id": 9132,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9133,
+      "person_id": 9837,
+      "fact_type": "Birth",
+      "date_string": "25 June 1892 Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9127,
+          "fact_id": 9133,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9134,
+      "person_id": 9837,
+      "fact_type": "Death",
+      "date_string": "7 September 1969 Sussex County, De",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9128,
+          "fact_id": 9134,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -25,25 +84,11 @@
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
-      "rel_id": 9835,
-      "rel_name": "Mary A Street"
+      "rel_id": 7504,
+      "rel_name": "Mary A. Street"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9837,
-      "photo_id": 2630,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Wright Clark, Louise Clark & daughter, Anna Johnson, Dorsey Johnson, Anna Clark Johnson, | N-R | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Clark",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ClarkEdnaWrightAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ClarkLouiseWright&dauAnna.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -56,8 +101,8 @@
         "children": []
       },
       {
-        "id": 9835,
-        "name": "Mary A Street",
+        "id": 7504,
+        "name": "Mary A. Street",
         "children": []
       }
     ]

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_5764">
+    <name>
+      <nameForm>
+        <fullText>Alexander Hanzer</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_348"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>16 Oct 1878</original>
+      </date>
+      <source description="#s_348"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>3 Jul 1966 (aged 87)</original>
+      </date>
+      <source description="#s_348"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_5764"/>
+    <person2 resource="#p_9096"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_5764"/>
+    <person2 resource="#p_9940"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_348">
+    <about resource="Hanzers&amp;PerkinsAnn.htm"/>
+    <title>Record: Hanzers&amp;PerkinsAnn.htm</title>
+  </sourceDescription>
+</gedcomx>

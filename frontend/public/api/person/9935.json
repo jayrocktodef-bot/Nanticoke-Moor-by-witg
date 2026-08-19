@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9247,
+      "person_id": 9935,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Nancy Priscilla Hanzer",
+      "citations": [
+        {
+          "citation_id": 9241,
+          "fact_id": 9247,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9248,
+      "person_id": 9935,
+      "fact_type": "Birth",
+      "date_string": "10 Sep 1865 Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9242,
+          "fact_id": 9248,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9249,
+      "person_id": 9935,
+      "fact_type": "Death",
+      "date_string": "29 Aug 1927 Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9243,
+          "fact_id": 9249,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -85,7 +144,7 @@
         "children": [
           {
             "id": 10122,
-            "name": "John R (H) or Jonathan Harmon",
+            "name": "John R or Jonathan Harmon",
             "children": [
               {
                 "id": 9982,
@@ -103,7 +162,7 @@
                   },
                   {
                     "id": 9985,
-                    "name": "Jemima WARD Johnson (MD)",
+                    "name": "Jemima WARD Johnson",
                     "children": [
                       {
                         "id": 10401,

@@ -9,10 +9,50 @@
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "4 Dec 1853",
-    "death_info": "",
+    "death_info": null,
     "notes": " | FindAGrave: no match",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7683,
+      "person_id": 8203,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "William Augustus Pierce",
+      "citations": [
+        {
+          "citation_id": 7677,
+          "fact_id": 7683,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7684,
+      "person_id": 8203,
+      "fact_type": "Birth",
+      "date_string": "4 Dec 1853",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7678,
+          "fact_id": 7684,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -75,7 +115,7 @@
       "evidence_text": "Obituary text evidence for Carney Milton &quot;Nick&quot;",
       "certainty": "confirmed",
       "rel_id": 10914,
-      "rel_name": "Milton \"Nick\" Carney"
+      "rel_name": "Milton Nick Carney"
     },
     {
       "relationship_type": "spouse",
@@ -117,7 +157,7 @@
       "evidence_text": "Obituary text evidence for Coombs Ellsworth &quot;Buddy&quot;",
       "certainty": "confirmed",
       "rel_id": 10919,
-      "rel_name": "Coombs Ellsworth \"Buddy\""
+      "rel_name": "Coombs Ellsworth Buddy"
     },
     {
       "relationship_type": "spouse",
@@ -160,13 +200,6 @@
       "certainty": "confirmed",
       "rel_id": 10925,
       "rel_name": "Cuff Florence"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Cuff Francis M.",
-      "certainty": "confirmed",
-      "rel_id": 4402,
-      "rel_name": "Margaret M. Cuff"
     },
     {
       "relationship_type": "spouse",
@@ -229,7 +262,7 @@
       "evidence_text": "Obituary text evidence for Durham Buena &quot;Boni&quot;",
       "certainty": "confirmed",
       "rel_id": 10934,
-      "rel_name": "Buena \"Boni\" Durham"
+      "rel_name": "Buena Boni Durham"
     },
     {
       "relationship_type": "spouse",
@@ -345,80 +378,10 @@
     },
     {
       "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Green Rachel M. Hughes",
-      "certainty": "confirmed",
-      "rel_id": 5567,
-      "rel_name": "Hughes Green"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Greenage Benjamin",
-      "certainty": "confirmed",
-      "rel_id": 10949,
-      "rel_name": "Greenage Benjamin"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Greenage Janet Marie Henry",
-      "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Greenage John Wallace",
-      "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Greenage John Reggs",
-      "certainty": "confirmed",
-      "rel_id": 10952,
-      "rel_name": "Greenage John Reggs"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Greenage Mary C. Van Dusen",
-      "certainty": "confirmed",
-      "rel_id": 10953,
-      "rel_name": "Greenage Mary C. Van Dusen"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Greenage Paul Joseph",
-      "certainty": "confirmed",
-      "rel_id": 10954,
-      "rel_name": "Greenage Paul Joseph"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Greenage Sr. Robert",
-      "certainty": "confirmed",
-      "rel_id": 10956,
-      "rel_name": "Greenage Sr. Robert"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Grinage Clarence Mark",
-      "certainty": "confirmed",
-      "rel_id": 10957,
-      "rel_name": "Grinage Clarence Mark"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Grinage Wilma R. Coffinger",
-      "certainty": "confirmed",
-      "rel_id": 10958,
-      "rel_name": "Grinage Wilma R. Coffinger"
-    },
-    {
-      "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Harmon Leonard &quot;Dunk&quot;",
       "certainty": "confirmed",
       "rel_id": 10959,
-      "rel_name": "Leonard \"Dunk\" Harmon"
+      "rel_name": "Leonard Dunk Harmon"
     },
     {
       "relationship_type": "spouse",
@@ -460,7 +423,7 @@
       "evidence_text": "Obituary text evidence for Hughes Adella Naomi",
       "certainty": "confirmed",
       "rel_id": 10964,
-      "rel_name": "Hughes Adella Naomi"
+      "rel_name": "Adella Naomi Hughes"
     },
     {
       "relationship_type": "spouse",
@@ -579,14 +542,7 @@
       "evidence_text": "Obituary text evidence for Morris Charles",
       "certainty": "confirmed",
       "rel_id": 8676,
-      "rel_name": "Charles \"Charlie\" Morris Davis"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Morris Elva E. Street",
-      "certainty": "confirmed",
-      "rel_id": 6149,
-      "rel_name": "and Frances \"Fannie\" Street Morris"
+      "rel_name": "Charles Charlie Morris Davis"
     },
     {
       "relationship_type": "spouse",
@@ -604,13 +560,6 @@
     },
     {
       "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Mosley Elisha M.",
-      "certainty": "confirmed",
-      "rel_id": 358,
-      "rel_name": "Lillie M. Mosley"
-    },
-    {
-      "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Mosley Elsie H.",
       "certainty": "confirmed",
       "rel_id": 477,
@@ -621,7 +570,7 @@
       "evidence_text": "Obituary text evidence for Murray/ Mury Isaac Nichols 1881/1882-1937",
       "certainty": "confirmed",
       "rel_id": 10979,
-      "rel_name": "Murray/ Mury Isaac Nichols 1881/1882-1937"
+      "rel_name": "Murray Mury Isaac Nichols"
     },
     {
       "relationship_type": "spouse",
@@ -684,7 +633,7 @@
       "evidence_text": "Obituary text evidence for Pierce Caleb ~1858/1864-1938",
       "certainty": "confirmed",
       "rel_id": 10988,
-      "rel_name": "Caleb ~1858/1864-1938 Pierce"
+      "rel_name": "Caleb ~ Pierce"
     },
     {
       "relationship_type": "spouse",
@@ -730,20 +679,6 @@
     },
     {
       "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Pierce Lucetta Pierce",
-      "certainty": "confirmed",
-      "rel_id": 8138,
-      "rel_name": "\"Butch\" & Susie Webster Pierce"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Pierce Marietta Pierce",
-      "certainty": "confirmed",
-      "rel_id": 8138,
-      "rel_name": "\"Butch\" & Susie Webster Pierce"
-    },
-    {
-      "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Pierce Martha Irene",
       "certainty": "confirmed",
       "rel_id": 10991,
@@ -779,13 +714,6 @@
     },
     {
       "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Sammons Alfred Oscar",
-      "certainty": "confirmed",
-      "rel_id": 4129,
-      "rel_name": "Oscar & Ethel L. Sammons"
-    },
-    {
-      "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Satterfield Angeline",
       "certainty": "confirmed",
       "rel_id": 10873,
@@ -797,13 +725,6 @@
       "certainty": "confirmed",
       "rel_id": 10998,
       "rel_name": "Scott Ella Mae Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Seeney Laura E. Ridgeway",
-      "certainty": "confirmed",
-      "rel_id": 7457,
-      "rel_name": "Forrest Seeney Ridgeway and Marietta"
     },
     {
       "relationship_type": "spouse",
@@ -873,7 +794,7 @@
       "evidence_text": "Obituary text evidence for Ward Helen Harmon",
       "certainty": "confirmed",
       "rel_id": 8913,
-      "rel_name": "Amos Edward Harmon Sr."
+      "rel_name": "Amos Edward Harmon Sr"
     },
     {
       "relationship_type": "spouse",
@@ -940,13 +861,6 @@
     },
     {
       "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for 1972-1975, receiving many commendations for his excellent work. At the V.A.,",
-      "certainty": "confirmed",
-      "rel_id": 11018,
-      "rel_name": "1972-1975, receiving many commendations for his excellent work. At the V.A.,"
-    },
-    {
-      "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Adele Marie Massey Wright",
       "certainty": "confirmed",
       "rel_id": 11014,
@@ -999,7 +913,7 @@
       "evidence_text": "Obituary text evidence for Milton &quot;Nick&quot; Carney",
       "certainty": "confirmed",
       "rel_id": 10914,
-      "rel_name": "Milton \"Nick\" Carney"
+      "rel_name": "Milton Nick Carney"
     },
     {
       "relationship_type": "spouse",
@@ -1020,14 +934,14 @@
       "evidence_text": "Obituary text evidence for Charles Glendon Coker Sr.",
       "certainty": "confirmed",
       "rel_id": 10513,
-      "rel_name": "Charles Harold hanzer Sr."
+      "rel_name": "Charles Harold hanzer Sr"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Ellsworth &quot;Buddy&quot; Coombs",
       "certainty": "confirmed",
       "rel_id": 10919,
-      "rel_name": "Coombs Ellsworth \"Buddy\""
+      "rel_name": "Coombs Ellsworth Buddy"
     },
     {
       "relationship_type": "spouse",
@@ -1055,7 +969,7 @@
       "evidence_text": "Obituary text evidence for Charles Willis Coursey",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "spouse",
@@ -1063,13 +977,6 @@
       "certainty": "confirmed",
       "rel_id": 10925,
       "rel_name": "Cuff Florence"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Francis M. &quot;Frank&quot; Cuff",
-      "certainty": "confirmed",
-      "rel_id": 11020,
-      "rel_name": "Francis M. \"Frank\" Cuff"
     },
     {
       "relationship_type": "spouse",
@@ -1153,7 +1060,7 @@
       "evidence_text": "Obituary text evidence for Edward E. Ford Jr.",
       "certainty": "confirmed",
       "rel_id": 10694,
-      "rel_name": "Donald Edward Johnson Jr."
+      "rel_name": "Donald Edward Johnson Jr"
     },
     {
       "relationship_type": "spouse",
@@ -1199,13 +1106,6 @@
     },
     {
       "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Ella M. Williams Gould",
-      "certainty": "confirmed",
-      "rel_id": 11021,
-      "rel_name": "Ella M. Williams Gould"
-    },
-    {
-      "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Christina Mae Norwood-Green",
       "certainty": "confirmed",
       "rel_id": 10983,
@@ -1217,20 +1117,6 @@
       "certainty": "confirmed",
       "rel_id": 2561,
       "rel_name": "Bedell Elsie Rachel Green"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Clarence Mark &quot;Mark&quot; Grinage",
-      "certainty": "confirmed",
-      "rel_id": 10957,
-      "rel_name": "Grinage Clarence Mark"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Wilma R. Coffinger Grinage",
-      "certainty": "confirmed",
-      "rel_id": 10958,
-      "rel_name": "Grinage Wilma R. Coffinger"
     },
     {
       "relationship_type": "spouse",
@@ -1258,7 +1144,7 @@
       "evidence_text": "Obituary text evidence for Adella Naomi Hughes",
       "certainty": "confirmed",
       "rel_id": 10964,
-      "rel_name": "Hughes Adella Naomi"
+      "rel_name": "Adella Naomi Hughes"
     },
     {
       "relationship_type": "spouse",
@@ -1266,13 +1152,6 @@
       "certainty": "confirmed",
       "rel_id": 10966,
       "rel_name": "Huntsinger Luella Durham"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Elsie L. Pierce James",
-      "certainty": "confirmed",
-      "rel_id": 5487,
-      "rel_name": "Elsie & James."
     },
     {
       "relationship_type": "spouse",
@@ -1294,13 +1173,6 @@
       "certainty": "confirmed",
       "rel_id": 9696,
       "rel_name": "Dallas Robert Johnson"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Sandra Z. Bailey Johnson",
-      "certainty": "confirmed",
-      "rel_id": 3945,
-      "rel_name": "Joan Johnson ) Sandra Johnson?"
     },
     {
       "relationship_type": "spouse",
@@ -1349,7 +1221,7 @@
       "evidence_text": "Obituary text evidence for Raymond H. Lively Jr.",
       "certainty": "confirmed",
       "rel_id": 6815,
-      "rel_name": "Aubrey Raymond Newlin Jr."
+      "rel_name": "Aubrey Raymond Newlin Jr"
     },
     {
       "relationship_type": "spouse",
@@ -1363,21 +1235,14 @@
       "evidence_text": "Obituary text evidence for Charles Morris",
       "certainty": "confirmed",
       "rel_id": 8676,
-      "rel_name": "Charles \"Charlie\" Morris Davis"
+      "rel_name": "Charles Charlie Morris Davis"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Sanford G. Morris Sr.",
       "certainty": "confirmed",
       "rel_id": 11025,
-      "rel_name": "Sanford G. Morris Sr."
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Elisha M. Mosley",
-      "certainty": "confirmed",
-      "rel_id": 11026,
-      "rel_name": "Elisha M. Mosley"
+      "rel_name": "Sanford G. Morris Sr"
     },
     {
       "relationship_type": "spouse",
@@ -1391,7 +1256,7 @@
       "evidence_text": "Obituary text evidence for Isaac Nichols Murray or Mury 1881/1882-1937",
       "certainty": "confirmed",
       "rel_id": 10979,
-      "rel_name": "Murray/ Mury Isaac Nichols 1881/1882-1937"
+      "rel_name": "Murray Mury Isaac Nichols"
     },
     {
       "relationship_type": "spouse",
@@ -1433,7 +1298,7 @@
       "evidence_text": "Obituary text evidence for Caleb Pierce ~1858/1864-1938",
       "certainty": "confirmed",
       "rel_id": 10988,
-      "rel_name": "Caleb ~1858/1864-1938 Pierce"
+      "rel_name": "Caleb ~ Pierce"
     },
     {
       "relationship_type": "spouse",
@@ -1448,13 +1313,6 @@
       "certainty": "confirmed",
       "rel_id": 11029,
       "rel_name": "Carrie V. Cuff Pierce"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Frances E Cuff Pierce",
-      "certainty": "confirmed",
-      "rel_id": 11030,
-      "rel_name": "Frances E Cuff Pierce"
     },
     {
       "relationship_type": "spouse",
@@ -1482,14 +1340,14 @@
       "evidence_text": "Obituary text evidence for Lucetta Pierce Pierce",
       "certainty": "confirmed",
       "rel_id": 11031,
-      "rel_name": "Lucetta Pierce Pierce"
+      "rel_name": "Lucetta Pierce"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Marietta Pierce Pierce",
       "certainty": "confirmed",
       "rel_id": 11032,
-      "rel_name": "Marietta Pierce Pierce"
+      "rel_name": "Marietta Pierce"
     },
     {
       "relationship_type": "spouse",
@@ -1559,7 +1417,7 @@
       "evidence_text": "Obituary text evidence for James Howard Street, Sr.",
       "certainty": "confirmed",
       "rel_id": 613,
-      "rel_name": "James Dean Sr."
+      "rel_name": "James Dean Sr"
     },
     {
       "relationship_type": "spouse",
@@ -1632,138 +1490,7 @@
       "rel_name": "Ronald J. Wright"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8203,
-      "photo_id": 2134,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "meeting at Cheswold Firehouse, in Duck Creek Hundred, of Delaware Archaeology Week., and Dr., remnants at Bloomsbury., Invisible Indians.\", Kent County, on a property known historically, in itself, material and institutional identification symbols., least two Bloomsbury tenants, John Sisco and Thomas Conselor, and have been recognized, Ned Heite, and Counselor descendants, the tribal chairman, area descendants., Get-together\" --, Ned Heite for his excellent, for her archaelogical expertise., Friday evening May, fourteen cousins and friends attended, States represented were CA, NJ & OH. From my, \"After very brief introductions, we talked and shared our, I met Rose Marie Ridgeway, Lorraine Gregg and Michelle, Bloomsbury presentation by Ken Cunningham, Cara Blume and Ned, our fellowship., \"Cousin Sarah Seeney, a very gracious lady, some of which didn't, the motel, for the Saturday evening get-together, for it was, fast approaching pm., for Betty, Marie and myself, morning for Salem Co, I now know that, ---- Chuck & Marie Martin, Sueden Dr Beavercreek, - .@compuserve.com, Fire House Photos, by Karen Councilor, Chuck Counceller, Joyce Counsellor, Lorraine Johnson-Gregg, Karen Councilor, Michelle Pierce, John Lacko, L to R: Joanne Sammons, John Fisher, Alfred \"Nookie\" Sammons, Bruce Morris, Loretta Sammons Gourley, Chuck Counceller, Anna Coker, Kenneth Ridgway, Rose \"Sweetsie\" Ridgeway, Greensbury Ridgeway, Seeney Sullivan, Kevin Cunningham, L to R: Janice Durham, Delores Harmon, William Tony Durham, Joyce Counsellor Berenyi, Joseph Berenyi, Kevin Cunningham, DELDOT &, Dennis Coker, Counsellor's  homestead, I pointed out, from the road, to the caravaning, L to R: Chuck Counceller, Joseph Berenyi, John Lacko, Betty Parker, Joyce Counsellor, Chuck Martin, Sarah Seeney Sullivan, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\", Copyright -",
-      "maiden_name": null,
-      "married_surname": "Firehouse",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1998",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_Img23.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/BloomsburyMeeting9May98.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8203,
-      "photo_id": 2657,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Angelica Songo Durham Durham, Left to right: Cora, E. Clark Durham, wife of, John W. Durham, Priscilla Durham Coward Miller, b. ca. Apr, wife of William H. Coward, Sr. and John Miller, wife of John Leitenberger, Left to right: Catherine, \"Kate\" Durham Pierce, b. ca. Mar, wife of Enos Pierce, Durham Durham, b. May, wife of Enoch Durham, Mary Elizabeth Durham Green, wife of Orsen Green, Ella Durham Sammons, b. ca. Sep, wife of William Garfield Sammons., being a daughter of, Hewitt/Hugh by an earlier marri, row L to R: sisters, Anna Mae, Mary Durham, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Durham",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1885",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamSarahVAncestry2.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamDauOfHewitt&Ann.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8203,
-      "photo_id": 2658,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Mary Virginia Sammons Reed, Allen Thomas Reed, late 's, of Amy Reed Moore, Mary Virginia Reed, and daughter Nina Reed O'Bryan, of Amy Reed Moore, William Thomas, Reed and son Allen, Mother of Allen, Mary E. Mosley Reed, of Amy Reed Moore, Mother of Mary, V. Sammons Reed, Ella Durham Sammons, of Amy Reed Moore, Nina Reed, of Amy Reed Moore, Lower right, Ella Durham Sammons, front L to, R: Harriett Durham's sisters, back row L, to R: sisters, Anna Mae, Mary Durham, of Debbie Pierce Unger, Allen Reed &, daughter Amy Moore, at Manship Church near Cheswold, Photo by Terry, & Terry, Mary Virginia Reed, & grandson Jay Reed Moore, of Amy Reed Moore, L to R: Amy, Carleton Coker Jr., of Amy Reed Moore, Jay Reed Moore, of Amy Reed Moore, Ancestry of daughter, Amy Reed Moore, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Sammons",
-      "married_surname": "Reed",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1885",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamLauraGertAnnaMary.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamDauOfHewitt&Ann.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8203,
-      "photo_id": 2959,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Edward H. \"Porter\" Durham, & wife Harriett Durham, girl unknown, row L to R: Daughters, Laura Durham Jackson, wife of John Jackson, Gertrude Durham Durham, wife of Alfred Nort Durham, Anna Mae Durham Durham, d.  Sep, wife of Benjamin Durham, Mary Durham Pierce, wife of Roy K. Pierce, Catherine \"Kate\" Durham Pierce, b. ca. Mar, wife of Enos Pierce, Priscilla Durham Coward Miller, b. ca. Apr, wife of William H. Coward, Sr. and John Miller, Ella Durham Sammons, b. ca. Sep, wife of William Garfield Sammons, Left to right: Gladys, daughter of Mary Durham Pierce, below her., Eleanor Pierce, daughter of Mary Durham Pierce, below her., Wife of Roy K. Pierce, Durham Pierce, Left to right: Essie, Buddy Loatman, Gene Cuff, Sadie Durham Pierce, daughter of, to right: Terrence, C. Pierce, husband of Pauline Cuff, and son of, Gene Cuff, Sadie Durham Pierce, to right, back row-- Anna, Mae Durham Durham, Gertrude \"Gertie\" Durham Durham, Mary Durham Pierce, to right, Roy Durham, Ancestry of daughter, Gertrude Durham Durham, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1867",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamGertrudeAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamJEH&Harriett.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8203,
-      "photo_id": 4715,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Margaret Durham Leitenberger, Left to right: Cora, E. Clark Durham, wife of, John W. Durham, Priscilla Durham Coward Miller, b. ca. Apr, wife of William H. Coward, Sr. and John Miller, Margaret Durham, wife of John Leitenberger, b. ca. Mar, wife of Enos Pierce, Martha Durham Durham, b. May, wife of Enoch Durham, Mary Elizabeth Durham Green, wife of Orsen Green, Ella Durham Sammons, b. ca. Sep, wife of William Garfield Sammons., being a daughter of, Hewitt/Hugh by an earlier marri, of wife, Margaret Durham Leitenberger, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Durham",
-      "married_surname": "Leitenberger",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1885",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamMargaretAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/LeitenbergerJohn.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8203,
-      "photo_id": 5089,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Mary Virginia Sammons Reed, Allen Thomas Reed, late 's, of Amy Reed Moore, Mary Virginia Reed, and daughter Nina Reed O'Bryan, of Amy Reed Moore, William Thomas, Reed and son Allen, Mother of Allen, Mary E. Mosley Reed, of Amy Reed Moore, Mother of Mary, V. Sammons Reed, Ella Durham Sammons, of Amy Reed Moore, Nina Reed, of Amy Reed Moore, Lower right, Ella Durham Sammons, front L to, R: Harriett Durham's sisters, back row L, to R: sisters, Anna Mae, Mary Durham, of Debbie Pierce Unger, Allen Reed &, daughter Amy Moore, at Manship Church near Cheswold, Photo by Terry, & Terry, Mary Virginia Reed, & grandson Jay Reed Moore, of Amy Reed Moore, L to R: Amy, Carleton Coker Jr., of Amy Reed Moore, Jay Reed Moore, of Amy Reed Moore, Ancestry of daughter, Amy Reed Moore, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Sammons",
-      "married_surname": "Reed",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1921",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ReedMosleyMary3.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8203,
-      "photo_id": 5290,
-      "title_or_caption": "William Lamar Pierce Courtesy of Alfred H....",
-      "subject_names": "William Lamar Pierce Courtesy of Alfred H....",
-      "maiden_name": "Pierce",
-      "married_surname": "Pierce",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_PierceWilliamSojournerArticle1.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/PierceWilliam-UToledo.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8203,
-      "photo_id": 5292,
-      "title_or_caption": "Pierce William-UToledo",
-      "subject_names": "Pierce William-UToledo",
-      "maiden_name": "Pierce",
-      "married_surname": "Pierce",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_PierceAlfredHSrAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/PierceWilliam-UToledo.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8203,
-      "photo_id": 5300,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Mary Virginia Sammons Reed, Allen Thomas Reed, late 's, of Amy Reed Moore, Mary Virginia Reed, and daughter Nina Reed O'Bryan, of Amy Reed Moore, William Thomas, Reed and son Allen, Mother of Allen, Mary E. Mosley Reed, of Amy Reed Moore, Mother of Mary, V. Sammons Reed, Ella Durham Sammons, of Amy Reed Moore, Nina Reed, of Amy Reed Moore, Lower right, Ella Durham Sammons, front L to, R: Harriett Durham's sisters, back row L, to R: sisters, Anna Mae, Mary Durham, of Debbie Pierce Unger, Allen Reed &, daughter Amy Moore, at Manship Church near Cheswold, Photo by Terry, & Terry, Mary Virginia Reed, & grandson Jay Reed Moore, of Amy Reed Moore, L to R: Amy, Carleton Coker Jr., of Amy Reed Moore, Jay Reed Moore, of Amy Reed Moore, Ancestry of daughter, Amy Reed Moore, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Sammons",
-      "married_surname": "Reed",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1940",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ReedAmyAncestry2.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedAllen&MaryVirginia.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8203,
-      "photo_id": 5929,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Angelica Songo Durham Durham, Left to right: Cora, E. Clark Durham, wife of, John W. Durham, Priscilla Durham Coward Miller, b. ca. Apr, wife of William H. Coward, Sr. and John Miller, wife of John Leitenberger, Left to right: Catherine, \"Kate\" Durham Pierce, b. ca. Mar, wife of Enos Pierce, Durham Durham, b. May, wife of Enoch Durham, Mary Elizabeth Durham Green, wife of Orsen Green, Ella Durham Sammons, b. ca. Sep, wife of William Garfield Sammons., being a daughter of, Hewitt/Hugh by an earlier marri, row L to R: sisters, Anna Mae, Mary Durham, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Durham",
-      "married_surname": "Durham",
-      "location": null,
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamSisters.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamDauOfHewitt&Ann.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

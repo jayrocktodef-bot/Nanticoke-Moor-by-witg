@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2949">
+    <name>
+      <nameForm>
+        <fullText>Helen Alexander</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_166"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>8 May 1919</original>
+      </date>
+      <source description="#s_166"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>12 Sep 1973 (aged 54)</original>
+      </date>
+      <source description="#s_166"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_166">
+    <about resource="AlexanderHelenStreet.htm"/>
+    <title>Record: AlexanderHelenStreet.htm</title>
+  </sourceDescription>
+</gedcomx>

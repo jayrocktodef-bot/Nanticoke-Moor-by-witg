@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7654,
+      "person_id": 8192,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Ethel Gwendolyn Clark",
+      "citations": [
+        {
+          "citation_id": 7648,
+          "fact_id": 7654,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7655,
+      "person_id": 8192,
+      "fact_type": "Birth",
+      "date_string": "15 Nov 1918 Milton, Sussex, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7649,
+          "fact_id": 7655,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7656,
+      "person_id": 8192,
+      "fact_type": "Death",
+      "date_string": "25 Feb 1997 Beebe Medical Center, Lewes, Sussex, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7650,
+          "fact_id": 7656,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -43,60 +102,7 @@
       "rel_name": "Lulu Rae Clark"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8192,
-      "photo_id": 3130,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "E. & Ethel G. Davis, Harry Edward, Ethel Gwendolyn Clark Harmon, thanks to Henrietta Carey Johnson, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Davis",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1916",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHarrysChildAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisHarryE&EthelGClark.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8192,
-      "photo_id": 3131,
-      "title_or_caption": "Harry E. & Ethel G. (Clark) Davis Harry Edward Davis ...",
-      "subject_names": "Harry E. & Ethel G. (Clark) Davis Harry Edward Davis ...",
-      "maiden_name": "Davis",
-      "married_surname": "Clark",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1916",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisEthelGwendolyn.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisHarryE&EthelGClark.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8192,
-      "photo_id": 3132,
-      "title_or_caption": "Harry E. & Ethel G. (Clark) Davis Harry Edward Davis ...",
-      "subject_names": "Harry E. & Ethel G. (Clark) Davis Harry Edward Davis ...",
-      "maiden_name": "Davis",
-      "married_surname": "Clark",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1916",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHarrysChildAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisHarryE&EthelGClark.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8192,
-      "photo_id": 5438,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Rebecca Clark Sammons, L. Sammons Sr., of Isaac L. Sammons, Mary Elizabeth, Munce Sammons, Isaac L. Sammons, & daughter, & Ethel L. Sammons, Ancestry of grandson, Alfred Perkins Sammons, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Clark",
-      "married_surname": "Sammons",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1867",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_SammonsAlfredPAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsIsaacLSr.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/118152429/joshua-thompson",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8339,
+      "person_id": 8851,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Joshua Shepard Thompson",
+      "citations": [
+        {
+          "citation_id": 8333,
+          "fact_id": 8339,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8340,
+      "person_id": 8851,
+      "fact_type": "Birth",
+      "date_string": "14 Aug 1882",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8334,
+          "fact_id": 8340,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8341,
+      "person_id": 8851,
+      "fact_type": "Death",
+      "date_string": "31 May 1976 (aged 93)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8335,
+          "fact_id": 8341,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -86,24 +145,7 @@
               {
                 "id": 8606,
                 "name": "Richard Dickerson",
-                "children": [
-                  {
-                    "id": 9073,
-                    "name": "Charles Dickerson",
-                    "children": [
-                      {
-                        "id": 8606,
-                        "name": "Richard Dickerson",
-                        "children": []
-                      },
-                      {
-                        "id": 9071,
-                        "name": "Minnie Dickerson",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
+                "children": []
               },
               {
                 "id": 9071,

@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/144928460/s-augusta-harmon",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9030,
+      "person_id": 9715,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Stellar Harmon",
+      "citations": [
+        {
+          "citation_id": 9024,
+          "fact_id": 9030,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9031,
+      "person_id": 9715,
+      "fact_type": "Birth",
+      "date_string": "10 Aug 1827",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9025,
+          "fact_id": 9031,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9032,
+      "person_id": 9715,
+      "fact_type": "Death",
+      "date_string": "15 Sep 1863 (aged 36)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9026,
+          "fact_id": 9032,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -64,7 +123,7 @@
                       },
                       {
                         "id": 9985,
-                        "name": "Jemima WARD Johnson (MD)",
+                        "name": "Jemima WARD Johnson",
                         "children": []
                       }
                     ]
@@ -79,9 +138,48 @@
             ]
           },
           {
-            "id": 10532,
-            "name": "Lydia J. Harmon",
-            "children": []
+            "id": 9928,
+            "name": "Lydia J Harmon",
+            "children": [
+              {
+                "id": 9931,
+                "name": "Raymond Harmon",
+                "children": [
+                  {
+                    "id": 8860,
+                    "name": "Hattie Miller",
+                    "children": [
+                      {
+                        "id": 8857,
+                        "name": "John E Miller",
+                        "children": []
+                      },
+                      {
+                        "id": 8857,
+                        "name": "John E Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8860,
+                "name": "Hattie Miller",
+                "children": [
+                  {
+                    "id": 8857,
+                    "name": "John E Miller",
+                    "children": []
+                  },
+                  {
+                    "id": 8857,
+                    "name": "John E Miller",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           }
         ]
       }

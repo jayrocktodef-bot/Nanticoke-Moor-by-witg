@@ -13,6 +13,65 @@
     "notes": "Ingested from HarmanTheodore&Anna.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/104632090/annie-harmon",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 5126,
+      "person_id": 5904,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Annie Patience Johnson Harmon",
+      "citations": [
+        {
+          "citation_id": 5120,
+          "fact_id": 5126,
+          "source_id": 357,
+          "evidence_text": null,
+          "source_title": "Record: HarmanTheodore&Anna.htm",
+          "source_url": "HarmanTheodore&Anna.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 5127,
+      "person_id": 5904,
+      "fact_type": "Birth",
+      "date_string": "1907",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 5121,
+          "fact_id": 5127,
+          "source_id": 357,
+          "evidence_text": null,
+          "source_title": "Record: HarmanTheodore&Anna.htm",
+          "source_url": "HarmanTheodore&Anna.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 5128,
+      "person_id": 5904,
+      "fact_type": "Death",
+      "date_string": "1992 (aged 84&ndash;85)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 5122,
+          "fact_id": 5128,
+          "source_id": 357,
+          "evidence_text": null,
+          "source_title": "Record: HarmanTheodore&Anna.htm",
+          "source_url": "HarmanTheodore&Anna.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -67,15 +126,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Johnson Bernice Harmon",
       "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Johnson Bernice Harmon",
-      "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -97,13 +149,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Johnson Bernice Harmon",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -151,29 +196,8 @@
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Johnson Bernice Harmon",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Johnson Bernice Harmon",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Johnson Bernice Harmon",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Johnson Bernice Harmon",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -195,13 +219,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Johnson Bernice Harmon",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -291,20 +308,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Johnson Bernice Harmon",
       "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Johnson Bernice Harmon",
-      "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Johnson Bernice Harmon",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -334,7 +337,7 @@
       "evidence_text": "Obituary child link for Johnson Bernice Harmon",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -411,7 +414,7 @@
       "evidence_text": "Obituary child link for Johnson Bernice Harmon",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -519,448 +522,9 @@
       "rel_name": "Niquita Harris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 5904,
-      "photo_id": 4227,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "P. & Anna P. Harmon, Anna & Theodore, Annie P. Johnson, L to R: Rachael, Annie Patience Johnson Harmon, Son Rohneer Harmon, son Kenneth Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonReeseAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanTheodore&Anna.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 4227,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "P. & Anna P. Harmon, Anna & Theodore, Annie P. Johnson, L to R: Rachael, Annie Patience Johnson Harmon, Son Rohneer Harmon, son Kenneth Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonReeseAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanTheodore&Anna.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 4227,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "P. & Anna P. Harmon, Anna & Theodore, Annie P. Johnson, L to R: Rachael, Annie Patience Johnson Harmon, Son Rohneer Harmon, son Kenneth Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonReeseAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanTheodore&Anna.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 4227,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "P. & Anna P. Harmon, Anna & Theodore, Annie P. Johnson, L to R: Rachael, Annie Patience Johnson Harmon, Son Rohneer Harmon, son Kenneth Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonReeseAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanTheodore&Anna.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 2045,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Are These People, -- p, to Unknowns P, Go to Unknowns P, Go to Unknowns P, your choice., BRIDGETON OR MILLSBORO, Bibles or obituaries, are pictures #A, pictures #A, picture #., Cora E. Clark Durham, picture #, to R: \u00a0\u00a0Unknown, Mary Elizabeth Durham Green, (wife of Orsen, Durham and Angelica \"Annie\", Orsen Green, Left to right: Unknown, Mary Elizabeth Durham Green, (wife of Orsen Green, Orsen Green, E. Mosley Reed, of Cheswold owned this photo., picture #, to Right:, . Don Edwards, . possibly Elizabeth Durham, . unknown, . Romaine Cuff, picture #, C. Carter, picture #, Reed Harmon of Bridgeton, owns this photo., picture #, Reed Harmon of Bridgeton, owns this photo., picture #, Date: //, From: bmadbear@comcast.net, To: mitsawoket@mitsawoket.com, CC: lightningfawn@com.net, about the same, picture #, Reed Harmon of Bridgeton, owns this photo., picture #, Reed Harmon of Bridgeton, owns this photo., Date: Sat, Subject: photo#, To: BettyandRayTerry@earthlink.net, looks like my, on the Boardwalk. My, mother's name, Esther Pierce Cuff, picture #, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "People",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1868",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_LindaHarmonUnk5.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WhoAreThesePeople3.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 3051,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHarmonWrightLadies.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 3052,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WrightAnnaCatherineDavis2.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 3053,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WrightAnnaCDavis.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 3121,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "H. & Lillian M. Davis, to R: Lillie, son Wiliam H., Robert Davis, Johnson Davis, Sylvia Davis Pinkett, \"Sisters at DSC ', Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Davis",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisDorisColleenAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisDoris.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 3183,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "H. & Lillian M. Davis, to R: Lillie, son Wiliam H., Robert Davis, Johnson Davis, Sylvia Davis Pinkett, \"Sisters at DSC ', Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Davis",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_PinkettSylviaDavis.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisRobert&Lillie&son.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 3184,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "H. & Lillian M. Davis, to R: Lillie, son Wiliam H., Robert Davis, Johnson Davis, Sylvia Davis Pinkett, \"Sisters at DSC ', Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Davis",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisLillieJohnson.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisRobert&Lillie&son.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 3949,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "of Israel Jack/Jackson (b, & perhaps Polly Hansor, Jack/Jackson's line, the son of:, born 's, to John Jackson and possibly, Jane Harmon. William, baptised June, the son of:, Ann Shephard, the son of:, Henry Jackson, b abt, Delaware Public Archives, compiled by F. Edward Wright., Indian River and Cool Spring, including gravestone inscriptions after index., (Salt Lake City, Utah: Genealogical Society of, Jane Ingram Price Family, a descendant of Israel Jack/Jackson, Eliza Jane Ingram Price, Mt. Zion AME Church, the marri, as \"free mulattoes\") as August, Eliza Jane's father, James H. Ingram, was born abt, her th birthday in ., Church in Ellendale, DE. The current Church building, other healthcare products. One day, the elder McNeil, Through George Whaley's leadership, the congregation, raised a considerable sum, which the McNeil family generously, the new building., Eliza Jane Ingram Price, daughter of Eliza Jane Price, and Annie Whaley, and Annie Whaley, and Annie Whaley, Retirement Celebration, Mid 's, and Annie Whaley, Retirement Celebration, Mid 's, best friends and, C. Marie, granddaughter of Annie, Eliza Jane Ingram Price, Dee Ellis, great-granddaughter of Annie Price, Dee Ellis, and Mary, Annie Price holding the baby, Annie is standing, with the McNeill family, James Price;, flowered top, E. Price Whaley, black checkered top, Jane Price, light-colored top & glasses, E. Price Oney, C. Price Pettyjohn, right lady, not identified, ancestry of Dee Ellis, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "(b",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1800",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DeeEllisAncestry.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Price%20Eliza%20Jane%20Ingram%20Family.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 4229,
-      "title_or_caption": "Theodore P. & Anna P. (Johnson) Harmon Anna & Theodore Annie P. Johnson...",
-      "subject_names": "Theodore P",
-      "maiden_name": "Harmon",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonAnniePJohnson.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanTheodore&Anna.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 4231,
-      "title_or_caption": "Theodore P. & Anna P. (Johnson) Harmon Anna & Theodore Annie P. Johnson...",
-      "subject_names": "Theodore P",
-      "maiden_name": "Harmon",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonAnnieP&bigkids.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanTheodore&Anna.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 4233,
-      "title_or_caption": "Theodore P. & Anna P. (Johnson) Harmon Anna & Theodore Annie P. Johnson...",
-      "subject_names": "Theodore P",
-      "maiden_name": "Harmon",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonReeseAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanTheodore&Anna.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 4293,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Wilson Harman, Vina Harmon Harman, Isaac \"Willie\", Vina Harmon Harman, Willie Ann, Vina Ann, Ralph B. Harman, Theodore Parker Harman, Anna Johnson Harman, Lincoln Harman, born abt, . Anna Harmon, born abt ., Isaac  Harmon, Ephraim Charles Harmon, Nancy Harmon, Isaac  Harmon, Jane Sockume, born abt  in Sussex County, daughter of, Thomas W. Harmon, born abt ., Levin T. Harmon, Sarah Jane Harmon, Isaac Wilson \"Willie\" Harman, in Indian Mission Church Cemetery, near Millsboro, He married Vina Ann Harmon., Ephraim or Abraham Lincoln Harmon, born abt ., Noah Harmon, born abt  in Millsboro, Delaware. He married, Eunice E.., Lillie Mae Harmon, born abt ., Eliza Anne Harmon, Robert M. Harmon, died Infant ., Eunice W. Harmon, died Infant ., Nancy Harmon, died Child ., Ralph B. Harmon, Isaac Wilson \"Willie\" Harman (Isaac, born abt ;, near Millsboro, born ; died ;, near Millsboro, Eunice Harman, Mission Church Cemetery, near Millsboro, Theodore Parker Harman, in Indian Mission Church Cemetery, near Millsboro, He married Annie Patience Johnson., Ephraim Lincoln Harman, born  Jan  in Millsboro, William C. Harman, Mission Church Cemetery, near Millsboro, Levin T. S. Harman, Indian Mission Church Cemetery, near Millsboro, Isaac Wilson Harman, Church Cemetery, near Millsboro, Delaware. He married Myrtle, Noah C. Harman, Mission Church Cemetery, near Millsboro, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Harman",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1962",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmanELincolnTent.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanELincoln&Eliz.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 4307,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Wilson Harman, Vina Harmon Harman, Isaac \"Willie\", Vina Harmon Harman, Willie Ann, Vina Ann, Ralph B. Harman, Theodore Parker Harman, Anna Johnson Harman, Lincoln Harman, born abt, . Anna Harmon, born abt ., Isaac  Harmon, Ephraim Charles Harmon, Nancy Harmon, Isaac  Harmon, Jane Sockume, born abt  in Sussex County, daughter of, Thomas W. Harmon, born abt ., Levin T. Harmon, Sarah Jane Harmon, Isaac Wilson \"Willie\" Harman, in Indian Mission Church Cemetery, near Millsboro, He married Vina Ann Harmon., Ephraim or Abraham Lincoln Harmon, born abt ., Noah Harmon, born abt  in Millsboro, Delaware. He married, Eunice E.., Lillie Mae Harmon, born abt ., Eliza Anne Harmon, Robert M. Harmon, died Infant ., Eunice W. Harmon, died Infant ., Nancy Harmon, died Child ., Ralph B. Harmon, Isaac Wilson \"Willie\" Harman (Isaac, born abt ;, near Millsboro, born ; died ;, near Millsboro, Eunice Harman, Mission Church Cemetery, near Millsboro, Theodore Parker Harman, in Indian Mission Church Cemetery, near Millsboro, He married Annie Patience Johnson., Ephraim Lincoln Harman, born  Jan  in Millsboro, William C. Harman, Mission Church Cemetery, near Millsboro, Levin T. S. Harman, Indian Mission Church Cemetery, near Millsboro, Isaac Wilson Harman, Church Cemetery, near Millsboro, Delaware. He married Myrtle, Noah C. Harman, Mission Church Cemetery, near Millsboro, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Harman",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1804",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonELincolnAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanIsaacWillie.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 5927,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "H. & Lillian M. Davis, to R: Lillie, son Wiliam H., Robert Davis, Johnson Davis, Sylvia Davis Pinkett, \"Sisters at DSC ', Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Davis",
-      "location": null,
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisRobert_Lillie_son.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisRobert&Lillie2.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5904,
-      "photo_id": 5943,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": null,
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WrightWalterB_Anna_Barrent.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 621,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 852,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1083,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1314,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1545,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1776,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2007,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2238,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2469,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2700,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2931,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3162,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3393,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3622,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3853,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4084,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4315,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4546,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4776,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 5904,
     "name": "Annie Patience Johnson Harmon",

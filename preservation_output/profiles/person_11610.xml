@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11610">
+    <name>
+      <nameForm>
+        <fullText>that Benjamin</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_46"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11610"/>
+    <person2 resource="#p_11611"/>
+    <note>
+      <text>Evidence: that Benjamin married  Elizabeth Hansor , daughter of William and Bridget Hansor. With this marriage to Elizabeth, Benjamin acquired what was left of Jolly's Neck Farm, the Hansor family homestead fou</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11610"/>
+    <person2 resource="#p_11611"/>
+    <note>
+      <text>Evidence: that Benjamin married  Elizabeth Hansor , daughter of William and Bridget Hansor. With this marriage to Elizabeth, Benjamin acquired what was left of Jolly's Neck Farm, the Hansor family homestead fou</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_46">
+    <about resource="durhm-b1.htm"/>
+    <title>Record: durhm-b1.htm</title>
+  </sourceDescription>
+</gedcomx>

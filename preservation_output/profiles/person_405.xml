@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_405">
+    <name>
+      <nameForm>
+        <fullText>Derham Thomas</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_66"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_66"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1887</original>
+      </date>
+      <source description="#s_66"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_66">
+    <about resource="hewes.htm"/>
+    <title>Record: hewes.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1051">
+    <name>
+      <nameForm>
+        <fullText>Sylvester B Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_119"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>Nov 1850</original>
+      </date>
+      <source description="#s_119"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>16 Jun 1919 (aged 68)</original>
+      </date>
+      <source description="#s_119"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_119">
+    <about resource="moors_moors.aspx"/>
+    <title>Record: moors_moors.aspx</title>
+  </sourceDescription>
+</gedcomx>

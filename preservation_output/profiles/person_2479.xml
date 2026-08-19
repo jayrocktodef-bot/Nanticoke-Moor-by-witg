@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2479">
+    <name>
+      <nameForm>
+        <fullText>Jacob Ashbey</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_660"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>2 Sep 1881</original>
+      </date>
+      <source description="#s_660"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>30 Jun 1964 (aged 82)</original>
+      </date>
+      <source description="#s_660"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_660">
+    <about resource="Jonathan%20Pierce.htm"/>
+    <title>Record: Jonathan%20Pierce.htm</title>
+  </sourceDescription>
+</gedcomx>

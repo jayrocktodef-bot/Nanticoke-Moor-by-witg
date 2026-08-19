@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1804">
+    <name>
+      <nameForm>
+        <fullText>Coroners Inquests</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_132"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>16 Jan 1883</original>
+      </date>
+      <source description="#s_132"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>28 Mar 1973 (aged 90)</original>
+      </date>
+      <source description="#s_132"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_132">
+    <about resource="MainMenu.html"/>
+    <title>Record: MainMenu.html</title>
+  </sourceDescription>
+</gedcomx>

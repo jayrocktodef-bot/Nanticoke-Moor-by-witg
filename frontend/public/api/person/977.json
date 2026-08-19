@@ -13,6 +13,65 @@
     "notes": "Moor/Nanticoke lineage record - Harmon cluster | Verified via FindAGrave: https://www.findagrave.com/memorial/17206578/nathaniel-harmon",
     "dataset_source": "moors_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 1157,
+      "person_id": 977,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Nathaniel Harmon",
+      "citations": [
+        {
+          "citation_id": 1157,
+          "fact_id": 1157,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1158,
+      "person_id": 977,
+      "fact_type": "Birth",
+      "date_string": "16 Jun 1806",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1158,
+          "fact_id": 1158,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1159,
+      "person_id": 977,
+      "fact_type": "Death",
+      "date_string": "14 Jan 1886 (aged 79)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1159,
+          "fact_id": 1159,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "cross_dataset_match",
@@ -48,6 +107,20 @@
       "certainty": "confirmed",
       "rel_id": 9983,
       "rel_name": "Rachel Anne Johnson"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (78.8% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 428,
+      "rel_name": "Nathaniel Jackson"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 768,
+      "rel_name": "Thelma Harmon"
     }
   ],
   "photos": [],
@@ -77,7 +150,7 @@
               },
               {
                 "id": 9985,
-                "name": "Jemima WARD Johnson (MD)",
+                "name": "Jemima WARD Johnson",
                 "children": [
                   {
                     "id": 10401,

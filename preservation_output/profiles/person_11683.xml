@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11683">
+    <name>
+      <nameForm>
+        <fullText>Rebecca Jackson was the</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_644"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11683"/>
+    <person2 resource="#p_11655"/>
+    <note>
+      <text>Evidence: Rebecca Jackson was the daughter of  Wesley Jackson  and his wife, Elizabeth. She 	was 	born in</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11683"/>
+    <person2 resource="#p_11655"/>
+    <note>
+      <text>Evidence: Rebecca Jackson was the daughter of  Wesley Jackson  and his wife, Elizabeth. She 	was 	born in</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_644">
+    <about resource="jacksonr.htm"/>
+    <title>Record: jacksonr.htm</title>
+  </sourceDescription>
+</gedcomx>

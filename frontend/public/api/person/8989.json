@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/52650374/warner-johnson",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8471,
+      "person_id": 8989,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Warner Johnson",
+      "citations": [
+        {
+          "citation_id": 8465,
+          "fact_id": 8471,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8472,
+      "person_id": 8989,
+      "fact_type": "Birth",
+      "date_string": "18 Sep 1919",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8466,
+          "fact_id": 8472,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8473,
+      "person_id": 8989,
+      "fact_type": "Death",
+      "date_string": "19 Jul 1993 (aged 73)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8467,
+          "fact_id": 8473,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -48,28 +107,6 @@
                 "id": 10420,
                 "name": "Ann W. Johnson",
                 "children": []
-              },
-              {
-                "id": 10408,
-                "name": "Richard Johnson",
-                "children": [
-                  {
-                    "id": 10409,
-                    "name": "Johnson Thomas",
-                    "children": [
-                      {
-                        "id": 2366,
-                        "name": "William Johnson",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 10407,
-                    "name": "John Johnson",
-                    "children": []
-                  }
-                ]
               }
             ]
           }

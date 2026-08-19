@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 11219,
-    "name": "Mrs. Mae Mosley",
-    "first_name": "Mrs.",
-    "middle_name": "Mae",
+    "name": "Mae Mosley",
+    "first_name": "Mae",
+    "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
     "evidence_level": 1,
@@ -13,25 +13,72 @@
     "notes": "Obituary Record: burial in the church cemetery",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 11111,
       "person_id": 11219,
-      "id": 46,
-      "deceased_name": "Mrs. Mae Mosley",
-      "age": null,
-      "birth_date": "1960",
-      "death_date": "1968",
-      "cemetery_location": "burial in the church cemetery",
-      "full_text": "DOVER: Mrs. Mae Mosley, 71, widow of Milton Mosley, a retired Dover farmer, died at her home Monday after suffering a stroke.\n\nSurvivors include a brother and sister, Leon Gould and Mrs. Hannah Sammons, both of Bridgeton, N.J. and a neice, Mrs. Mae Carter who came to live with Mrs. Mosley after her husband died in \n1960\n.\n\nFuneral services will be held at 1 o'clock tomorrow afternoon at Immanuel Union Methodist Church, Cheswold, with burial in the church cemetery. Friends may call at the church tonight.\n\nMorris (Mike) Mosley  \nFeb. 24, \n1968",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Mae Mosley",
+      "citations": [
+        {
+          "citation_id": 10729,
+          "fact_id": 11111,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11112,
+      "person_id": 11219,
+      "fact_type": "Birth",
+      "date_string": "b. 1960",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10730,
+          "fact_id": 11112,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11113,
+      "person_id": 11219,
+      "fact_type": "Death",
+      "date_string": "d. 1968",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10731,
+          "fact_id": 11113,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11219,
-    "name": "Mrs. Mae Mosley",
+    "name": "Mae Mosley",
     "children": []
   }
 }

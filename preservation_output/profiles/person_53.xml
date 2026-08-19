@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_53">
+    <name>
+      <nameForm>
+        <fullText>Hopewell Carter</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_7"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>18 Apr 1908</original>
+      </date>
+      <source description="#s_7"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>30 Oct 1967 (aged 59)</original>
+      </date>
+      <source description="#s_7"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_7">
+    <about resource="carty-h.htm"/>
+    <title>Record: carty-h.htm</title>
+  </sourceDescription>
+</gedcomx>

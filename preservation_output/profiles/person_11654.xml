@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11654">
+    <name>
+      <nameForm>
+        <fullText>Jackson was the</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_69"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11654"/>
+    <person2 resource="#p_11655"/>
+    <note>
+      <text>Evidence: Robert B. Jackson was the son of  Wesley Jackson  and his wife, Elizabeth.</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_69">
+    <about resource="jacksnr2.htm"/>
+    <title>Record: jacksnr2.htm</title>
+  </sourceDescription>
+</gedcomx>

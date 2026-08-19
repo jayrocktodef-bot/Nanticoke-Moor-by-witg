@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7015">
+    <name>
+      <nameForm>
+        <fullText>Billy hails from Toronto</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_523"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>12 May 1954</original>
+      </date>
+      <source description="#s_523"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>28 Sep 1994 (aged 40)</original>
+      </date>
+      <source description="#s_523"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_523">
+    <about resource="RichardsonBill.htm"/>
+    <title>Record: RichardsonBill.htm</title>
+  </sourceDescription>
+</gedcomx>

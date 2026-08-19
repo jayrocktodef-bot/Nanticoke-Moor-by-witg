@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4948">
+    <name>
+      <nameForm>
+        <fullText>Ned Davis</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_296"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1900</original>
+      </date>
+      <source description="#s_296"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1986 (aged 85&amp;ndash;86)</original>
+      </date>
+      <source description="#s_296"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_296">
+    <about resource="DeanRobertBurton.htm"/>
+    <title>Record: DeanRobertBurton.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -13,23 +13,100 @@
     "notes": "Ingested from MosleyAddie.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/71744110/addie-mosley",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 5788,
       "person_id": 6488,
-      "photo_id": 4955,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Addie Mosley, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Mosley",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MosleyAddie.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyAddie.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Addie Mosley",
+      "citations": [
+        {
+          "citation_id": 5782,
+          "fact_id": 5788,
+          "source_id": 451,
+          "evidence_text": null,
+          "source_title": "Record: MosleyAddie.htm",
+          "source_url": "MosleyAddie.htm",
+          "source_dataset": "mitsawokett_delaware"
+        },
+        {
+          "citation_id": 11218,
+          "fact_id": 5788,
+          "source_id": 667,
+          "evidence_text": "Detected in Obituary of Catherine Watson",
+          "source_title": "Obituary: Marguerite J. Brown ~1928-2016",
+          "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm",
+          "source_dataset": "mitsawokett_obits"
+        }
+      ]
+    },
+    {
+      "fact_id": 5789,
+      "person_id": 6488,
+      "fact_type": "Birth",
+      "date_string": "5 Feb 1882",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 5783,
+          "fact_id": 5789,
+          "source_id": 451,
+          "evidence_text": null,
+          "source_title": "Record: MosleyAddie.htm",
+          "source_url": "MosleyAddie.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 5790,
+      "person_id": 6488,
+      "fact_type": "Death",
+      "date_string": "24 Dec 1968 (aged 86)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 5784,
+          "fact_id": 5790,
+          "source_id": 451,
+          "evidence_text": null,
+          "source_title": "Record: MosleyAddie.htm",
+          "source_url": "MosleyAddie.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
-  "obituaries": [],
+  "relationships": [],
+  "photos": [],
+  "obituaries": [
+    {
+      "person_id": 6488,
+      "id": 6,
+      "deceased_name": "Catherine Watson",
+      "age": "",
+      "birth_date": "2013",
+      "death_date": "1921",
+      "cemetery_location": "",
+      "full_text": "Catherine Watson passed away with her family at her side on Saturday, January \n  26, 2013 at Brandywine Senior Living at Princeton. Born in Greenwich, NJ in \n  1921 to John and Addie Mosley, she formerly resided in Camden, NJ for many years. \n  She was a member of the Mt. Olivet Seventh-Day Adventist Church in Camden.",
+      "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
+    },
+    {
+      "person_id": 6488,
+      "id": 353,
+      "deceased_name": "Catherine Watson",
+      "age": "",
+      "birth_date": "2013",
+      "death_date": "1921",
+      "cemetery_location": "",
+      "full_text": "Catherine Watson passed away with her family at her side on Saturday, January \n  26, 2013 at Brandywine Senior Living at Princeton. Born in Greenwich, NJ in \n  1921 to John and Addie Mosley, she formerly resided in Camden, NJ for many years. \n  She was a member of the Mt. Olivet Seventh-Day Adventist Church in Camden.",
+      "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
+    }
+  ],
   "audit_flags": [],
   "ancestry": {
     "id": 6488,

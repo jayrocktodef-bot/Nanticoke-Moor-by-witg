@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7877">
+    <name>
+      <nameForm>
+        <fullText>John &amp; Sarah</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_602"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>Jan 1834</original>
+      </date>
+      <source description="#s_602"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>8 May 1902 (aged 68)</original>
+      </date>
+      <source description="#s_602"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_602">
+    <about resource="ThompsonJohn&amp;Sarah.htm"/>
+    <title>Record: ThompsonJohn&amp;Sarah.htm</title>
+  </sourceDescription>
+</gedcomx>

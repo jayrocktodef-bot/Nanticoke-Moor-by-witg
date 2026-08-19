@@ -13,35 +13,67 @@
     "notes": "Ingested from preserved Probate.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/228664536/mary-perkins",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 1953,
       "person_id": 2411,
-      "photo_id": 5189,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Rebecca Durham Munson, L. B. Munson, Hannah Munson Hansley, Carrie Munson Northern, Francis Leslie Benjamin Munson, Hannah Munson Hansley, Bill Northern, Carrie Munson Northern, Henry Muncy or Munson, born abt / in Pennsylvania, son of Thomas, Delaware Rebecca Durham, born Dec  in Delaware, Sally Munson, born abt ., . Hannah Munson, unknown; Hariam Hansley., Ida Munson, New Jersey. She, Margaret Durham \"Maggie\" Munson, born Aug  in Delaware., Mary \"Mamie\" Munson, law) Horace Perkins., Carrie Durham Munson, Thomas Henry Munson, Carolyn Gould., Francis Leslie Benjamin \"Frank\" Munson, born  Mar / in Cheswold, Delaware; died  May  in Bridgeton, New Jersey;, buried in Fordville Memorial Park, New Jersey., He married Minnie Florence Johnson., Rebecca Munson, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Durham",
-      "married_surname": "Munson",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1848",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MunsonCharlesAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MunsonFrancisLB.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Mary Perkins",
+      "citations": [
+        {
+          "citation_id": 1953,
+          "fact_id": 1953,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     },
     {
+      "fact_id": 1954,
       "person_id": 2411,
-      "photo_id": 5438,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Rebecca Clark Sammons, L. Sammons Sr., of Isaac L. Sammons, Mary Elizabeth, Munce Sammons, Isaac L. Sammons, & daughter, & Ethel L. Sammons, Ancestry of grandson, Alfred Perkins Sammons, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Clark",
-      "married_surname": "Sammons",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1867",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_SammonsAlfredPAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsIsaacLSr.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1954,
+          "fact_id": 1954,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1955,
+      "person_id": 2411,
+      "fact_type": "Death",
+      "date_string": "1899",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1955,
+          "fact_id": 1955,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

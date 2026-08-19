@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_301">
+    <name>
+      <nameForm>
+        <fullText>Sally Ann Hanzer</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_47"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1867</original>
+      </date>
+      <source description="#s_47"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>12 Nov 1911 (aged 43&amp;ndash;44)</original>
+      </date>
+      <source description="#s_47"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_396"/>
+    <person2 resource="#p_301"/>
+    <note>
+      <text>Evidence: Much of Jolly's Neck Farm had been sold off before reaching Elizabeth, but she and Benjamin lived on the remaining portion until Benjamin died in 1810 and Elizabeth followed c. 1815. Jolly's Neck farm</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_47">
+    <about resource="durhm-b2.htm"/>
+    <title>Record: durhm-b2.htm</title>
+  </sourceDescription>
+</gedcomx>

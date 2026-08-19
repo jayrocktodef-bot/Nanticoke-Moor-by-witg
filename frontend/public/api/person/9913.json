@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9197,
+      "person_id": 9913,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Elena V. Morris",
+      "citations": [
+        {
+          "citation_id": 9191,
+          "fact_id": 9197,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9198,
+      "person_id": 9913,
+      "fact_type": "Birth",
+      "date_string": "1936",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9192,
+          "fact_id": 9198,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9199,
+      "person_id": 9913,
+      "fact_type": "Death",
+      "date_string": "1962",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9193,
+          "fact_id": 9199,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -22,21 +81,7 @@
       "rel_name": "Uscar Morris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9913,
-      "photo_id": 4577,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Mary Jackson Morris, & Elena, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Morris",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MorrisMaryJackson_Elena.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisMaryJackson&Elena.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

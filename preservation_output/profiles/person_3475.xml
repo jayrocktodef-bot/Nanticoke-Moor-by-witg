@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3475">
+    <name>
+      <nameForm>
+        <fullText>Kasturis grandfather</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_189"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>30 Jan 1880</original>
+      </date>
+      <source description="#s_189"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>11 Jun 1958 (aged 78)</original>
+      </date>
+      <source description="#s_189"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_189">
+    <about resource="Carney-WhittinghamFamily.htm"/>
+    <title>Record: Carney-WhittinghamFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

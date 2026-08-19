@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 10085,
-    "name": "Elizabeth \"Betsy\" Morris",
+    "name": "Elizabeth Betsy Morris",
     "first_name": "Elizabeth",
-    "middle_name": "\"Betsy\"",
+    "middle_name": "Betsy",
     "maiden_name": "",
     "married_last_name": "Morris",
     "evidence_level": 1,
@@ -13,14 +13,66 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
-  "relationships": [
+  "facts": [
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8505,
-      "rel_name": "Morris Thomas"
+      "fact_id": 9476,
+      "person_id": 10085,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Elizabeth Betsy Morris",
+      "citations": [
+        {
+          "citation_id": 9470,
+          "fact_id": 9476,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     },
+    {
+      "fact_id": 9477,
+      "person_id": 10085,
+      "fact_type": "Birth",
+      "date_string": "1806",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9471,
+          "fact_id": 9477,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9478,
+      "person_id": 10085,
+      "fact_type": "Death",
+      "date_string": "30 Jun 1847 Louisa County, Virginia, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9472,
+          "fact_id": 9478,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
+  "relationships": [
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
@@ -29,93 +81,17 @@
       "rel_name": "Sally Wright"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10085,
-      "photo_id": 2677,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "of Mary Elizabeth, Munce Sammons, wife of, Nehemiah Morris Sammons, Mary Elizabeth, Munce Sammons, of Corinne Sammons Christiansen, Mary Elizabeth's, Hester Ann Cork Munce, James' sister Angelica Munce, of Harry Muncey, Cork Munce, of James H. Munce, Tombstone of Hester, Elizabeth Munce Sammons' son, \"Doc\" Sammons & wife, Mary Elizabeth Clark, Elizabeth Munce Sammons' son, Thomas Sammons & wife, Bertha D. Dean, of grandson, Perry William Sammons Sr., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Elizabeth",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1841",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_SammonsMaryMunceAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsMaryElizabethMunce.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 10085,
-    "name": "Elizabeth \"Betsy\" Morris",
+    "name": "Elizabeth Betsy Morris",
     "children": [
-      {
-        "id": 8505,
-        "name": "Morris Thomas",
-        "children": [
-          {
-            "id": 8910,
-            "name": "Leticia Morris",
-            "children": [
-              {
-                "id": 8616,
-                "name": "Stephen Wright",
-                "children": [
-                  {
-                    "id": 8687,
-                    "name": "Benjamin Wright",
-                    "children": [
-                      {
-                        "id": 8684,
-                        "name": "Priscilla Miller",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": 8684,
-                "name": "Priscilla Miller",
-                "children": [
-                  {
-                    "id": 8618,
-                    "name": "Ebenezar Miller",
-                    "children": []
-                  },
-                  {
-                    "id": 9188,
-                    "name": "Ebenezer Miller",
-                    "children": [
-                      {
-                        "id": 9190,
-                        "name": "Ebenezer Miller Sr",
-                        "children": []
-                      },
-                      {
-                        "id": 9191,
-                        "name": "Sarah Collier (Collyer) Miller",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
       {
         "id": 9992,
         "name": "Sally Wright",
-        "children": [
-          {
-            "id": 10083,
-            "name": "Wright Thomas Sr.",
-            "children": []
-          }
-        ]
+        "children": []
       }
     ]
   }

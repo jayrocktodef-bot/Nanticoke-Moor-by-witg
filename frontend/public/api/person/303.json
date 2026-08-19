@@ -13,21 +13,69 @@
     "notes": "Linked to durhm-m1.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/6966798/mariah-durham",
     "dataset_source": "lynncjackson"
   },
+  "facts": [
+    {
+      "fact_id": 463,
+      "person_id": 303,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Mariah Minnie Durham",
+      "citations": [
+        {
+          "citation_id": 463,
+          "fact_id": 463,
+          "source_id": 47,
+          "evidence_text": null,
+          "source_title": "Record: durhm-b2.htm",
+          "source_url": "durhm-b2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 464,
+      "person_id": 303,
+      "fact_type": "Birth",
+      "date_string": "14 Apr 1867",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 464,
+          "fact_id": 464,
+          "source_id": 47,
+          "evidence_text": null,
+          "source_title": "Record: durhm-b2.htm",
+          "source_url": "durhm-b2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 465,
+      "person_id": 303,
+      "fact_type": "Death",
+      "date_string": "9 Apr 1900 (aged 32)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 465,
+          "fact_id": 465,
+          "source_id": 47,
+          "evidence_text": null,
+          "source_title": "Record: durhm-b2.htm",
+          "source_url": "durhm-b2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 454,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 3753,
-      "person_id_secondary": 303,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: mariah|durham|1867",
-      "created_at": "2026-08-14 03:42:34"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 303,
     "name": "Mariah Minnie Durham",

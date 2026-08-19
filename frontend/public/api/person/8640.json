@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/107209594/elizabeth-thompson",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8140,
+      "person_id": 8640,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Elizabeth Thompson",
+      "citations": [
+        {
+          "citation_id": 8134,
+          "fact_id": 8140,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8141,
+      "person_id": 8640,
+      "fact_type": "Birth",
+      "date_string": "1870",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8135,
+          "fact_id": 8141,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8142,
+      "person_id": 8640,
+      "fact_type": "Death",
+      "date_string": "1962 (aged 91&ndash;92)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8136,
+          "fact_id": 8142,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "invalid_cycle_child_of",
@@ -115,18 +174,7 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 4943,
-      "category": "Structural Integrity",
-      "severity": "critical",
-      "person_id": 8640,
-      "person_id_secondary": 8381,
-      "description": "Removed topological loop (back-edge) in descent graph.",
-      "evidence": "Edge creates a cycle where a person becomes their own ancestor.",
-      "created_at": "2026-08-15 01:27:02"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 8640,
     "name": "Elizabeth Thompson",
@@ -138,24 +186,7 @@
           {
             "id": 8606,
             "name": "Richard Dickerson",
-            "children": [
-              {
-                "id": 9073,
-                "name": "Charles Dickerson",
-                "children": [
-                  {
-                    "id": 8606,
-                    "name": "Richard Dickerson",
-                    "children": []
-                  },
-                  {
-                    "id": 9071,
-                    "name": "Minnie Dickerson",
-                    "children": []
-                  }
-                ]
-              }
-            ]
+            "children": []
           },
           {
             "id": 9071,

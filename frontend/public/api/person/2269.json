@@ -13,22 +13,67 @@
     "notes": "Ingested from preserved Probate.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/137854739/nathan-davis (Buried at Waldheim Cemetery Co.)",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 1707,
       "person_id": 2269,
-      "photo_id": 3155,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Arbana Birdella Ridgway Ridgeway, Arbana Birdella, coutesy of Birdella Newhard, Ben & Birdella, coutesy of Birdella Newhard, James Edward \"Ned\" Davis, from Wilson Davis, Margaret Ridgway, Arbana Birdella Ridgeway, coutesy of Birdella Newhard, Alan Ridgeway, coutesy of Birdella Newhard, Birdella Ridgeway, coutesy of Birdella Newhard, & grandchildren, coutesy of Birdella Newhard, F. Ridgeway III, coutesy of Birdella Newhard, Jody Pophan Ridgeway, & daughter Kala, coutesy of Birdella Newhard, Anita Ridgeway Sammons, & sons Aaron, Luther & Kyle, coutesy of Birdella Newhard, Lisa Stinson Ridgeway, & their son Nathan, is the son of, Jackie Johnson Ridgeway, Debra Ridgeway, coutesy of Birdella Newhard, Michelle Ridgeway, coutesy of Birdella Newhard, & baby, James Ridgeway, of Christopher & Wanda Ridgeway, coutesy of Birdella Newhard, Lee Sammons, Grandson of Luther Sammons, & Anita Ridgeway, coutesy of Birdella Newhard, at Manship Church, Ancestry of the children, of Benjamin & Birdella Ridgeway, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Ridgway",
-      "married_surname": "Ridgeway",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1914",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_RidgewayBen_BirdAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NewhardArbanaBirdellaRidgway.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Nathan Davis",
+      "citations": [
+        {
+          "citation_id": 1707,
+          "fact_id": 1707,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1708,
+      "person_id": 2269,
+      "fact_type": "Birth",
+      "date_string": "1 Sep 1851",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1708,
+          "fact_id": 1708,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1709,
+      "person_id": 2269,
+      "fact_type": "Death",
+      "date_string": "19 Feb 1921 (aged 69)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1709,
+          "fact_id": 1709,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

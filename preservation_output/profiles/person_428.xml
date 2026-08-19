@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_428">
+    <name>
+      <nameForm>
+        <fullText>Nathaniel Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_70"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>5 Jan 1868</original>
+      </date>
+      <source description="#s_70"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>3 Aug 1947 (aged 79)</original>
+      </date>
+      <source description="#s_70"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_428"/>
+    <person2 resource="#p_977"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (78.8% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_428"/>
+    <person2 resource="#p_977"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (78.8% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_70">
+    <about resource="jacksnw1.htm"/>
+    <title>Record: jacksnw1.htm</title>
+  </sourceDescription>
+</gedcomx>

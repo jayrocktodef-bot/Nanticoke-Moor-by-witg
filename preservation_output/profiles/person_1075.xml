@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1075">
+    <name>
+      <nameForm>
+        <fullText>Coard Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_119"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1805</original>
+      </date>
+      <source description="#s_119"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>8 Feb 1869 (aged 63&amp;ndash;64)</original>
+      </date>
+      <source description="#s_119"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_5971"/>
+    <person2 resource="#p_1075"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (78.3% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_5971"/>
+    <person2 resource="#p_1075"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (78.3% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_11192"/>
+    <person2 resource="#p_1075"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (78.3% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_119">
+    <about resource="moors_moors.aspx"/>
+    <title>Record: moors_moors.aspx</title>
+  </sourceDescription>
+</gedcomx>

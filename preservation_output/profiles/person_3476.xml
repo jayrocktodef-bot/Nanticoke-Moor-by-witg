@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3476">
+    <name>
+      <nameForm>
+        <fullText>Mary A. Carney Whittingham</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_189"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_189"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1775</original>
+      </date>
+      <source description="#s_189"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_189">
+    <about resource="Carney-WhittinghamFamily.htm"/>
+    <title>Record: Carney-WhittinghamFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_34">
+    <name>
+      <nameForm>
+        <fullText>Barsheba Dean</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_4"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_4"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>21 Sep 1918</original>
+      </date>
+      <source description="#s_4"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_4">
+    <about resource="carter.htm"/>
+    <title>Record: carter.htm</title>
+  </sourceDescription>
+</gedcomx>

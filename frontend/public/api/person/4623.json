@@ -13,14 +13,66 @@
     "notes": "Ingested from DayHelenJohnson.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/21316742/rosa-morris",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [
+  "facts": [
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 10017,
-      "rel_name": "grover cleaveland johnson"
+      "fact_id": 4004,
+      "person_id": 4623,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Rosa Mae Morris",
+      "citations": [
+        {
+          "citation_id": 3998,
+          "fact_id": 4004,
+          "source_id": 270,
+          "evidence_text": null,
+          "source_title": "Record: DayHelenJohnson.htm",
+          "source_url": "DayHelenJohnson.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
+    {
+      "fact_id": 4005,
+      "person_id": 4623,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 3999,
+          "fact_id": 4005,
+          "source_id": 270,
+          "evidence_text": null,
+          "source_title": "Record: DayHelenJohnson.htm",
+          "source_url": "DayHelenJohnson.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4006,
+      "person_id": 4623,
+      "fact_type": "Death",
+      "date_string": "15 May 1858",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 4000,
+          "fact_id": 4006,
+          "source_id": 270,
+          "evidence_text": null,
+          "source_title": "Record: DayHelenJohnson.htm",
+          "source_url": "DayHelenJohnson.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    }
+  ],
+  "relationships": [
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
@@ -43,45 +95,13 @@
       "rel_name": "Sarah Johnson"
     }
   ],
-  "photos": [
-    {
-      "person_id": 4623,
-      "photo_id": 3263,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Juanita Johnson Day, by Stacie Ricketts, of Helen Juanita Johnson Day, from Stacie Ricketts  Oct, I talked, citing 'George B' --, Indian River, Christ Church Cemetery, Beaverdam Rd -- JOHNSON, d //, Rosa Mae Morris, Edward Morris, Emma Dell Morris, Helen Juanita Johnson Day, of Lewes died Friday, in Christiana Hospital of Christiana, in the, Lewes area, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Day",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "2006",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DayHelenJohnsonAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DayHelenJohnson.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 4623,
-      "photo_id": 3263,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Juanita Johnson Day, by Stacie Ricketts, of Helen Juanita Johnson Day, from Stacie Ricketts  Oct, I talked, citing 'George B' --, Indian River, Christ Church Cemetery, Beaverdam Rd -- JOHNSON, d //, Rosa Mae Morris, Edward Morris, Emma Dell Morris, Helen Juanita Johnson Day, of Lewes died Friday, in Christiana Hospital of Christiana, in the, Lewes area, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Day",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "2006",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DayHelenJohnsonAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DayHelenJohnson.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 4623,
     "name": "Rosa Mae Morris",
     "children": [
-      {
-        "id": 10017,
-        "name": "grover cleaveland johnson",
-        "children": []
-      },
       {
         "id": 8710,
         "name": "JAMES EDWARD Morris",
@@ -95,26 +115,9 @@
                 "name": "Negro Morris Thomas",
                 "children": [
                   {
-                    "id": 8505,
-                    "name": "Morris Thomas",
-                    "children": [
-                      {
-                        "id": 8910,
-                        "name": "Leticia Morris",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
                     "id": 9992,
                     "name": "Sally Wright",
-                    "children": [
-                      {
-                        "id": 10083,
-                        "name": "Wright Thomas Sr.",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   }
                 ]
               },

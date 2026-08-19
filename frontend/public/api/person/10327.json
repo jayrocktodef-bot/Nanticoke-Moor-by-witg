@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9626,
+      "person_id": 10327,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Annie E. Dickerson",
+      "citations": [
+        {
+          "citation_id": 9620,
+          "fact_id": 9626,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9627,
+      "person_id": 10327,
+      "fact_type": "Birth",
+      "date_string": "Apr 1854 Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9621,
+          "fact_id": 9627,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9628,
+      "person_id": 10327,
+      "fact_type": "Death",
+      "date_string": "19 Feb 1921 Sussex, Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9622,
+          "fact_id": 9628,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -32,24 +91,7 @@
       {
         "id": 8606,
         "name": "Richard Dickerson",
-        "children": [
-          {
-            "id": 9073,
-            "name": "Charles Dickerson",
-            "children": [
-              {
-                "id": 8606,
-                "name": "Richard Dickerson",
-                "children": []
-              },
-              {
-                "id": 9071,
-                "name": "Minnie Dickerson",
-                "children": []
-              }
-            ]
-          }
-        ]
+        "children": []
       }
     ]
   }

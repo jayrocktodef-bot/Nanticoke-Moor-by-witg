@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_125">
+    <name>
+      <nameForm>
+        <fullText>James Coker</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_21"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_21"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1882</original>
+      </date>
+      <source description="#s_21"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_21">
+    <about resource="coker-d1.htm"/>
+    <title>Record: coker-d1.htm</title>
+  </sourceDescription>
+</gedcomx>

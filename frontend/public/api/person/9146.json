@@ -13,13 +13,72 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/288212353/reginald-davis (Buried at Forest Park Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8588,
+      "person_id": 9146,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Reginald Leon Davis",
+      "citations": [
+        {
+          "citation_id": 8582,
+          "fact_id": 8588,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8589,
+      "person_id": 9146,
+      "fact_type": "Birth",
+      "date_string": "7 Feb 1910",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8583,
+          "fact_id": 8589,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8590,
+      "person_id": 9146,
+      "fact_type": "Death",
+      "date_string": "31 Aug 2001 (aged 91)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8584,
+          "fact_id": 8590,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8676,
-      "rel_name": "Charles \"Charlie\" Morris Davis"
+      "rel_name": "Charles Charlie Morris Davis"
     },
     {
       "relationship_type": "child_of",
@@ -33,7 +92,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10815,
-      "rel_name": "Charles Morris \"Charlie\" Davis"
+      "rel_name": "Charles Morris Charlie Davis"
     },
     {
       "relationship_type": "child_of",
@@ -43,73 +102,7 @@
       "rel_name": "Minnie Mae Street"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9146,
-      "photo_id": 3113,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Reginald Leon &, Jean Morris Davis, AT HARMONY, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "&",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisOliviaAncestry.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisReginaldL&JeanMorris.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9146,
-      "photo_id": 3114,
-      "title_or_caption": "Davis Reginald L & Jean Morris",
-      "subject_names": "Davis Reginald L & Jean Morris",
-      "maiden_name": "Davis",
-      "married_surname": "Thomas",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisOliviaAncestry.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisReginaldL&JeanMorris.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9146,
-      "photo_id": 3198,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Leon Davis, Cornell Harmon, Reginald Davis Harmon, Macklin Harmon, of Macklin Harmon, of Reginald Davis, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Davis",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisReginaldAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisReg&MackHarmon.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9146,
-      "photo_id": 3199,
-      "title_or_caption": "Reginald Leon Davis & Macklin Cornell Harmon Reginald Davis & Macklin ...",
-      "subject_names": "Reginald Leon Davis & Macklin Cornell Harmon Reginald Davis & Macklin ...",
-      "maiden_name": "Davis",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonMacklinAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisReg&MackHarmon.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9146,
-      "photo_id": 3200,
-      "title_or_caption": "Reginald Leon Davis & Macklin Cornell Harmon Reginald Davis & Macklin ...",
-      "subject_names": "Reginald Leon Davis & Macklin Cornell Harmon Reginald Davis & Macklin ...",
-      "maiden_name": "Davis",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisReginaldAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisReg&MackHarmon.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -118,41 +111,20 @@
     "children": [
       {
         "id": 8676,
-        "name": "Charles \"Charlie\" Morris Davis",
+        "name": "Charles Charlie Morris Davis",
         "children": [
-          {
-            "id": 8610,
-            "name": "Davis Morris",
-            "children": [
-              {
-                "id": 4643,
-                "name": "Henry Davis",
-                "children": []
-              },
-              {
-                "id": 10618,
-                "name": "William H Davis",
-                "children": []
-              }
-            ]
-          },
           {
             "id": 8185,
             "name": "Hester A. Morris Davis",
             "children": [
               {
                 "id": 8571,
-                "name": "Francis E. \"Frank\" Morris",
+                "name": "Francis E. Frank Morris",
                 "children": [
                   {
                     "id": 8617,
                     "name": "Negro Morris Thomas",
                     "children": [
-                      {
-                        "id": 8505,
-                        "name": "Morris Thomas",
-                        "children": []
-                      },
                       {
                         "id": 9992,
                         "name": "Sally Wright",
@@ -179,6 +151,11 @@
                 ]
               }
             ]
+          },
+          {
+            "id": 10858,
+            "name": "Gwendolyn Durham",
+            "children": []
           }
         ]
       },
@@ -193,7 +170,7 @@
           },
           {
             "id": 9144,
-            "name": "(Mary) Anne Harmon",
+            "name": "Anne Harmon",
             "children": [
               {
                 "id": 10514,

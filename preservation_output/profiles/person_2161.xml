@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2161">
+    <name>
+      <nameForm>
+        <fullText>Jas. L. Heverin</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_658"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>27 Jan 1835</original>
+      </date>
+      <source description="#s_658"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>6 Dec 1921 (aged 86)</original>
+      </date>
+      <source description="#s_658"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_658">
+    <about resource="Probate.htm"/>
+    <title>Record: Probate.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3221">
+    <name>
+      <nameForm>
+        <fullText>morning for Salem Co</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_173"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>13 Jan 1858</original>
+      </date>
+      <source description="#s_173"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>29 Sep 1939 (aged 81)</original>
+      </date>
+      <source description="#s_173"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_173">
+    <about resource="BloomsburyMeeting9May98.htm"/>
+    <title>Record: BloomsburyMeeting9May98.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2516">
+    <name>
+      <nameForm>
+        <fullText>Stephen Morris</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_661"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_661"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Sep 1780</original>
+      </date>
+      <source description="#s_661"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_2516"/>
+    <person2 resource="#p_8571"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_661">
+    <about resource="IdentifiedIndians.htm"/>
+    <title>Record: IdentifiedIndians.htm</title>
+  </sourceDescription>
+</gedcomx>

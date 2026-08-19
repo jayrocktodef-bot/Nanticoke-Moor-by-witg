@@ -9,10 +9,50 @@
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1920 Pennsylvania",
-    "death_info": "",
+    "death_info": null,
     "notes": " | FindAGrave: no match",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9557,
+      "person_id": 10200,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Richard Street",
+      "citations": [
+        {
+          "citation_id": 9551,
+          "fact_id": 9557,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9558,
+      "person_id": 10200,
+      "fact_type": "Birth",
+      "date_string": "abt 1920 Pennsylvania",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9552,
+          "fact_id": 9558,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -29,21 +69,7 @@
       "rel_name": "Richard Street Jr"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10200,
-      "photo_id": 5546,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Elmer R. Street &, L to R: Benjamin, Elmer R. Street, Harold & Richard, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "&",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_StreetElmerR_Sons.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetElmerR&Sons.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

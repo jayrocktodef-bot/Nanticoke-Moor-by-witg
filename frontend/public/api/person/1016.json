@@ -13,32 +13,38 @@
     "notes": "Moor/Nanticoke lineage record - Harmon cluster | FindAGrave: no match",
     "dataset_source": "moors_delaware"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 1202,
       "person_id": 1016,
-      "id": 25,
-      "deceased_name": "Wingate Harmon",
-      "age": null,
-      "birth_date": null,
-      "death_date": "1867",
-      "cemetery_location": null,
-      "full_text": "FELTON: Wingate Harmon, 54, died in Delaware Hospital, Wilmington, yesterday from burns received last Thursday.\n\nMr. Harmon was burned at Delaware State Hospital where he was a patient. He sustained burns covering 90 per cent of his body when his clothing caught fire as he sat in the courtyard of the Biggs Building at the state hospital. A hospital spokesman said he had been smoking.\n\nDr. Ali Z. Hameli, state medical examiner, attributed death to bronchial pneumonia and complications resulting from the burns.\n\nFuneral arrangements are pending.\n\nE. Lincoln Harmon  \nNovember 18, \n1867",
-      "source_url": null
-    },
-    {
-      "person_id": 1016,
-      "id": 25,
-      "deceased_name": "Wingate Harmon",
-      "age": null,
-      "birth_date": null,
-      "death_date": "1867",
-      "cemetery_location": null,
-      "full_text": "FELTON: Wingate Harmon, 54, died in Delaware Hospital, Wilmington, yesterday from burns received last Thursday.\n\nMr. Harmon was burned at Delaware State Hospital where he was a patient. He sustained burns covering 90 per cent of his body when his clothing caught fire as he sat in the courtyard of the Biggs Building at the state hospital. A hospital spokesman said he had been smoking.\n\nDr. Ali Z. Hameli, state medical examiner, attributed death to bronchial pneumonia and complications resulting from the burns.\n\nFuneral arrangements are pending.\n\nE. Lincoln Harmon  \nNovember 18, \n1867",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Wingate Harmon",
+      "citations": [
+        {
+          "citation_id": 1202,
+          "fact_id": 1202,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
     }
   ],
+  "relationships": [
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 762,
+      "rel_name": "Ida Harmon"
+    }
+  ],
+  "photos": [],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 1016,

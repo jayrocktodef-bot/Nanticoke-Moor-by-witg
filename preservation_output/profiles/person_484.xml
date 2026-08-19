@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_484">
+    <name>
+      <nameForm>
+        <fullText>Rebecca ColtCott</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_78"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>28 Nov 1985</original>
+      </date>
+      <source description="#s_78"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>4 Jan 2013 (aged 27)</original>
+      </date>
+      <source description="#s_78"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_78">
+    <about resource="marry.htm"/>
+    <title>Record: marry.htm</title>
+  </sourceDescription>
+</gedcomx>

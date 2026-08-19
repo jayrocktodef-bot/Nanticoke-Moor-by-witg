@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_270">
+    <name>
+      <nameForm>
+        <fullText>Susan Sammons</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_42"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1903</original>
+      </date>
+      <source description="#s_42"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>15 Sep 1943 (aged 39&amp;ndash;40)</original>
+      </date>
+      <source description="#s_42"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_42">
+    <about resource="dean-j4.htm"/>
+    <title>Record: dean-j4.htm</title>
+  </sourceDescription>
+</gedcomx>

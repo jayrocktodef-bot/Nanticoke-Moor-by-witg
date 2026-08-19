@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3679">
+    <name>
+      <nameForm>
+        <fullText>Napoleon Bonaparte Morgan</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_201"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>17 Sep 1945</original>
+      </date>
+      <source description="#s_201"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>25 Sep 2019 (aged 74)</original>
+      </date>
+      <source description="#s_201"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_201">
+    <about resource="MorganNapoleonBonaparte.htm"/>
+    <title>Record: MorganNapoleonBonaparte.htm</title>
+  </sourceDescription>
+</gedcomx>

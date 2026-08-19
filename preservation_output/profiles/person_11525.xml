@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11525">
+    <name>
+      <nameForm>
+        <fullText>Angie Bell Coker was the</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_19"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11525"/>
+    <person2 resource="#p_11522"/>
+    <note>
+      <text>Evidence: Angie Bell Coker was the daughter of  Moses Coker  and  Mary Ann Dean . She was born in Kent Co., DE on 29 September,</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_19">
+    <about resource="coker-a5.htm"/>
+    <title>Record: coker-a5.htm</title>
+  </sourceDescription>
+</gedcomx>

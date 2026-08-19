@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1682">
+    <name>
+      <nameForm>
+        <fullText>Snowden Asher Thompson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_591"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1682"/>
+    <person2 resource="#p_8679"/>
+    <note>
+      <text>Evidence: Son of John W. Thompson</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1682"/>
+    <person2 resource="#p_1685"/>
+    <note>
+      <text>Evidence: Son of Sarah Ann (Harmon) Thompson</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1682"/>
+    <person2 resource="#p_8679"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1682"/>
+    <person2 resource="#p_9165"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_591">
+    <about resource="ThompsonAsher.htm"/>
+    <title>Record: ThompsonAsher.htm</title>
+  </sourceDescription>
+</gedcomx>

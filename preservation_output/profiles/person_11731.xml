@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11731">
+    <name>
+      <nameForm>
+        <fullText>do have some SAMMONS who have</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_655"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11731"/>
+    <person2 resource="#p_11732"/>
+    <note>
+      <text>Evidence: I haven't had time to organize my notes about the SAMMONS Family because, so far, I have not yet found any SAMMONS in my direct line. However I do have some SAMMONS who have married into my family.</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_655">
+    <about resource="sammons.htm"/>
+    <title>Record: sammons.htm</title>
+  </sourceDescription>
+</gedcomx>

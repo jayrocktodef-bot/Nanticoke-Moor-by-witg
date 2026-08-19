@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2319">
+    <name>
+      <nameForm>
+        <fullText>Benson Thomas</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_658"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>31 Oct 1828</original>
+      </date>
+      <source description="#s_658"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>6 Jun 1892 (aged 63)</original>
+      </date>
+      <source description="#s_658"/>
+    </fact>
+    <name>
+      <nameForm>
+        <fullText>Thomas Benson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_662"/>
+  </person>
+  <sourceDescription id="s_658">
+    <about resource="Probate.htm"/>
+    <title>Record: Probate.htm</title>
+  </sourceDescription>
+  <sourceDescription id="s_662">
+    <about resource="LegislativeActs.htm"/>
+    <title>Record: LegislativeActs.htm</title>
+  </sourceDescription>
+</gedcomx>

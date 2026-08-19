@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4812">
+    <name>
+      <nameForm>
+        <fullText>Aaron Cain</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_282"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>6 Jan 1888</original>
+      </date>
+      <source description="#s_282"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>29 Apr 1968 (aged 80)</original>
+      </date>
+      <source description="#s_282"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_282">
+    <about resource="DownsDorothyGreenage.htm"/>
+    <title>Record: DownsDorothyGreenage.htm</title>
+  </sourceDescription>
+</gedcomx>

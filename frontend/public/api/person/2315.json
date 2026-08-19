@@ -13,22 +13,67 @@
     "notes": "Ingested from preserved Probate.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/77761595/phebe-dean",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 1795,
       "person_id": 2315,
-      "photo_id": 2774,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Clayton and Phebe COKER, John Clayton Coker, Apr  -  Feb, Son of, Moses Coker, and Mary Ann Dean, taken about, Phebe Carney Coker Reed, Dec  -  May, James Perry Carney, and Harriett Durham, - )., of John Clayton Coker, & Isaac Luther Reed, Clayton Coker, Carney Coker Reed, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "COKER",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1884",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_CarterLethiaCokerAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerJohnClayton.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Phebe Dean",
+      "citations": [
+        {
+          "citation_id": 1795,
+          "fact_id": 1795,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1796,
+      "person_id": 2315,
+      "fact_type": "Birth",
+      "date_string": "1795",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1796,
+          "fact_id": 1796,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1797,
+      "person_id": 2315,
+      "fact_type": "Death",
+      "date_string": "11 Sep 1876 (aged 80&ndash;81)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1797,
+          "fact_id": 1797,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

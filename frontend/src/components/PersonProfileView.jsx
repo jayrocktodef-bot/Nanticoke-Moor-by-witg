@@ -244,7 +244,78 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
                 )}
               </section>
 
-              {/* Photo & Document Archive */}
+              {/* FACTS & EVIDENCE CITATIONS SECTION */}
+              <section className="mb-12">
+                <h2 className="font-serif-header text-2xl text-[#F3EBE3] mb-6 flex items-center justify-between border-b border-[#26221E] pb-3">
+                  Documented Facts & Source Citations
+                  <span className="text-sm font-sans font-bold text-[#A8A096] bg-[#1C1A17] px-3 py-1 rounded-full border border-[#332D27]">
+                    {profile.facts ? profile.facts.length : 0} Facts
+                  </span>
+                </h2>
+
+                {(!profile.facts || profile.facts.length === 0) ? (
+                  <div className="bg-[#1C1A17] border border-[#332D27] rounded-2xl p-6 text-center">
+                    <FileText className="w-8 h-8 text-[#332D27] mx-auto mb-2" />
+                    <p className="text-[#A8A096] italic text-sm">No discrete evidence facts indexed for this profile.</p>
+                  </div>
+                ) : (
+                  <div className="space-y-4">
+                    {profile.facts.map((fact, idx) => (
+                      <div key={idx} className="bg-[#1C1A17] border border-[#26221E] rounded-xl p-5 shadow-sm hover:border-[#332D27] transition-all">
+                        <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+                          <span className="text-xs font-mono font-bold uppercase tracking-widest text-[#D4A373] bg-[#C68B59]/10 px-2.5 py-0.5 rounded-md border border-[#C68B59]/20">
+                            {fact.fact_type}
+                          </span>
+                          {(fact.date_string || fact.place_string) && (
+                            <span className="text-xs text-[#A8A096] flex items-center gap-1 font-mono">
+                              <Calendar className="w-3.5 h-3.5" />
+                              {fact.date_string || 'Unspecified Date'} {fact.place_string ? `• ${fact.place_string}` : ''}
+                            </span>
+                          )}
+                        </div>
+                        {fact.value_string && (
+                          <p className="text-[#F3EBE3] font-medium text-base mb-3">{fact.value_string}</p>
+                        )}
+                        {/* Citations list for this fact */}
+                        {fact.citations && fact.citations.length > 0 && (
+                          <div className="mt-3 pt-3 border-t border-[#26221E]/80 space-y-2">
+                            <span className="text-[10px] font-mono uppercase tracking-widest text-[#8C8275] font-bold block">
+                              Source Citations ({fact.citations.length})
+                            </span>
+                            {fact.citations.map((cit, cIdx) => (
+                              <div key={cIdx} className="bg-[#141210] rounded-lg p-3 border border-[#26221E] text-xs flex flex-col gap-1">
+                                <div className="flex items-center justify-between">
+                                  <span className="font-semibold text-[#E5E1DB] flex items-center gap-1.5">
+                                    <FileText className="w-3.5 h-3.5 text-[#C68B59]" />
+                                    {cit.source_title || 'Archival Record'}
+                                  </span>
+                                  {cit.source_url && (
+                                    <a 
+                                      href={cit.source_url} 
+                                      target="_blank" 
+                                      rel="noreferrer" 
+                                      className="text-[#C68B59] hover:underline flex items-center gap-1 text-[11px]"
+                                    >
+                                      View Document <ExternalLink className="w-3 h-3" />
+                                    </a>
+                                  )}
+                                </div>
+                                {cit.evidence_text && (
+                                  <p className="text-[#A8A096] italic text-[11px] mt-1 bg-[#1C1A17] p-2 rounded border border-[#26221E]">
+                                    "{cit.evidence_text}"
+                                  </p>
+                                )}
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </section>
+
+              {/* Media Archive */}
               <section>
                 <h2 className="font-serif-header text-3xl text-[#F3EBE3] border-b border-[#26221E] pb-4 mb-6 flex items-center gap-3">
                   Media Archive

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11242">
+    <name>
+      <nameForm>
+        <fullText>Leon Turner</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_625"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1873</original>
+      </date>
+      <source description="#s_625"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Mar 1897 (aged 23&amp;ndash;24)</original>
+      </date>
+      <source description="#s_625"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_625">
+    <about resource="GEDCOM Import"/>
+    <title>Record: GEDCOM Import</title>
+  </sourceDescription>
+</gedcomx>

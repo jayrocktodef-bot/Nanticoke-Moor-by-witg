@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11575">
+    <name>
+      <nameForm>
+        <fullText>Dean was the</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_38"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11575"/>
+    <person2 resource="#p_11576"/>
+    <note>
+      <text>Evidence: Enoch M. Dean was the son of  Jesse Dean Jr.and  Hester Ann Carney . He was born on the family farm along the Dover to Smyrna Rd. in Little Creek Hundred, Kent Co.,DE on 19 December,</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_38">
+    <about resource="dean-e.htm"/>
+    <title>Record: dean-e.htm</title>
+  </sourceDescription>
+</gedcomx>

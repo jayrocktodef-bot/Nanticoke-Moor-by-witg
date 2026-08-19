@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_486">
+    <name>
+      <nameForm>
+        <fullText>Lizzie Muncey</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_78"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>Jul 1854</original>
+      </date>
+      <source description="#s_78"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>29 Jan 1924 (aged 69)</original>
+      </date>
+      <source description="#s_78"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_78">
+    <about resource="marry.htm"/>
+    <title>Record: marry.htm</title>
+  </sourceDescription>
+</gedcomx>

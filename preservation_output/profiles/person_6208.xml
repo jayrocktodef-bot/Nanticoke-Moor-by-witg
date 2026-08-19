@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6208">
+    <name>
+      <nameForm>
+        <fullText>Jane Street Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_402"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_402"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>18 Jan 1830</original>
+      </date>
+      <source description="#s_402"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_402">
+    <about resource="JacksonJanie&amp;Kids.htm"/>
+    <title>Record: JacksonJanie&amp;Kids.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_60">
+    <name>
+      <nameForm>
+        <fullText>Sarah Ann Hansor Durham</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_8"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_8"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Jan 1909</original>
+      </date>
+      <source description="#s_8"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_8">
+    <about resource="carty-h2.htm"/>
+    <title>Record: carty-h2.htm</title>
+  </sourceDescription>
+</gedcomx>

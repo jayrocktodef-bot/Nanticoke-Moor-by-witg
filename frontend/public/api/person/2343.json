@@ -1,7 +1,7 @@
 {
   "person": {
     "person_id": 2343,
-    "name": "William -----",
+    "name": "William",
     "first_name": "William",
     "middle_name": "",
     "maiden_name": "",
@@ -13,13 +13,43 @@
     "notes": "Ingested from preserved Probate.htm record | FindAGrave: no match (invalid name)",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 1838,
+      "person_id": 2343,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "William -----",
+      "citations": [
+        {
+          "citation_id": 1838,
+          "fact_id": 1838,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        },
+        {
+          "citation_id": 11235,
+          "fact_id": 1838,
+          "source_id": 667,
+          "evidence_text": "Detected in Obituary of Survivors: He was survived",
+          "source_title": "Obituary: Marguerite J. Brown ~1928-2016",
+          "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm",
+          "source_dataset": "mitsawokett_obits"
+        }
+      ]
+    }
+  ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 2343,
-    "name": "William -----",
+    "name": "William",
     "children": []
   }
 }

@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_305">
+    <name>
+      <nameForm>
+        <fullText>William Hanzer</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_48"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>May 1856</original>
+      </date>
+      <source description="#s_48"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>26 Jul 1904 (aged 48)</original>
+      </date>
+      <source description="#s_48"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_305"/>
+    <person2 resource="#p_368"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_305"/>
+    <person2 resource="#p_368"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_305"/>
+    <person2 resource="#p_5763"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_305"/>
+    <person2 resource="#p_10290"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_48">
+    <about resource="durhm-d1.htm"/>
+    <title>Record: durhm-d1.htm</title>
+  </sourceDescription>
+</gedcomx>

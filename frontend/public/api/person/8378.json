@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7872,
+      "person_id": 8378,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Robert James Conaway",
+      "citations": [
+        {
+          "citation_id": 7866,
+          "fact_id": 7872,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7873,
+      "person_id": 8378,
+      "fact_type": "Birth",
+      "date_string": "29 apr 1872 Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7867,
+          "fact_id": 7873,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7874,
+      "person_id": 8378,
+      "fact_type": "Death",
+      "date_string": "03 Feb 1961 Millsboro, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7868,
+          "fact_id": 7874,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -43,21 +102,7 @@
       "rel_name": "Annie Conaway"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8378,
-      "photo_id": 5185,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Henry Munson, Anna Wynder Munson, Henry Munson, Wynder Munson, Wynder Munson, Contributed by Paul Johnson  Aug, Anna W. Munson, of RD, Shoemaker Lane died Wednesday in, she was, graduate of Virginia State College, Munson was employed as, member of the NJEA., are two sons, Charles Davis of West Chester, Pa. And Robert J., of Baltimore, Md.; two daughters, Madeline Munson of Toms River, Mary Conaway, Wright and Abbie Goldsborough, all of Bridgeton; three grandchildren, Edward L. Wynder., E. Commerce, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Munson",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1924",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MunsonAnnaW.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MunsonCharlesHenry.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

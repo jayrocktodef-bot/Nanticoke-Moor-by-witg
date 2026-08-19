@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7420">
+    <name>
+      <nameForm>
+        <fullText>John Albert Sterrett</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_572"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1865</original>
+      </date>
+      <source description="#s_572"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1897 (aged 31&amp;ndash;32)</original>
+      </date>
+      <source description="#s_572"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_572">
+    <about resource="SterrettJohnAlbert.htm"/>
+    <title>Record: SterrettJohnAlbert.htm</title>
+  </sourceDescription>
+</gedcomx>

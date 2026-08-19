@@ -1,37 +1,46 @@
 {
   "person": {
     "person_id": 11238,
-    "name": "Mrs. Caroline Wright",
-    "first_name": "Mrs.",
-    "middle_name": "Caroline",
+    "name": "Caroline Wright",
+    "first_name": "Caroline",
+    "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Wright",
     "evidence_level": 2,
     "source_page": "Obituary Archive",
-    "birth_info": "",
-    "death_info": "",
+    "birth_info": null,
+    "death_info": null,
     "notes": "Obituary Record: Interment will be in the adjoining cemetary | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 11154,
       "person_id": 11238,
-      "id": 65,
-      "deceased_name": "Mrs. Caroline Wright",
-      "age": null,
-      "birth_date": null,
-      "death_date": null,
-      "cemetery_location": "Interment will be in the adjoining cemetary",
-      "full_text": "MILLSBORO: Mrs. Caroline Wright, 84, widow of Arthur Wright, died yesterday at her home.  Her sister, Mrs. Alice Webb died Tuesday.\n\nShe is survived by her three daughters, Mrs. Alberta Harmon, Milton; Miss Reba Wright, here; Mrs. Agnes Hughes, Bridgeton, NJ; four sons;  Robert, Arthur, Herschel and Charles Wright, all of Millsboro; five grandchildren; 10 great grandchildren and three great-great- grandchildren. She also leaves a brother, Levin Jackson, Wilmington.\n\nThe funeral will be Monday at 2 p.m. at the Indian Mission Church where she was a member of the WSCS. The Rev. John Taylor will officiate. Interment will be in the adjoining cemetary. Friends may call at the James Funeral Home tomorrow night.\n\nMrs. Laura E. Wright  \n(no date listed)",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Caroline Wright",
+      "citations": [
+        {
+          "citation_id": 10772,
+          "fact_id": 11154,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11238,
-    "name": "Mrs. Caroline Wright",
+    "name": "Caroline Wright",
     "children": []
   }
 }

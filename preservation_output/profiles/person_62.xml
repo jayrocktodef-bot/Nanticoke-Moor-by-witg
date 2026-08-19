@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_62">
+    <name>
+      <nameForm>
+        <fullText>John Clayton Coker</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_9"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_9"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1550</original>
+      </date>
+      <source description="#s_9"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_9">
+    <about resource="carty-h3.htm"/>
+    <title>Record: carty-h3.htm</title>
+  </sourceDescription>
+</gedcomx>

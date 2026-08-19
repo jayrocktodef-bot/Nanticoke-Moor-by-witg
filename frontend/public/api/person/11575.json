@@ -1,0 +1,60 @@
+{
+  "person": {
+    "person_id": 11575,
+    "name": "Dean was the",
+    "first_name": null,
+    "middle_name": null,
+    "maiden_name": null,
+    "married_last_name": null,
+    "evidence_level": 1,
+    "source_page": "dean-e.htm",
+    "birth_info": null,
+    "death_info": null,
+    "notes": "",
+    "dataset_source": "lynncjackson"
+  },
+  "facts": [
+    {
+      "fact_id": 11330,
+      "person_id": 11575,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Dean was the",
+      "citations": [
+        {
+          "citation_id": 10923,
+          "fact_id": 11330,
+          "source_id": 38,
+          "evidence_text": null,
+          "source_title": "Record: dean-e.htm",
+          "source_url": "dean-e.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "Enoch M. Dean was the son of  Jesse Dean Jr.and  Hester Ann Carney . He was born on the family farm along the Dover to Smyrna Rd. in Little Creek Hundred, Kent Co.,DE on 19 December,",
+      "certainty": "confirmed",
+      "rel_id": 11576,
+      "rel_name": "Jesse Dean Jr"
+    }
+  ],
+  "photos": [],
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11575,
+    "name": "Dean was the",
+    "children": [
+      {
+        "id": 11576,
+        "name": "Jesse Dean Jr",
+        "children": []
+      }
+    ]
+  }
+}

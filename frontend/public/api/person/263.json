@@ -13,46 +13,78 @@
     "notes": "Linked to dean-e.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/212707700/enoch-dean",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 403,
       "person_id": 263,
-      "photo_id": 3266,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Munce Dean, of Enoch Dean, of son, William Dean, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Dean",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1843",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DeanWilliamAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DeanAngelinaMunce2.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Enoch M. Dean",
+      "citations": [
+        {
+          "citation_id": 403,
+          "fact_id": 403,
+          "source_id": 41,
+          "evidence_text": null,
+          "source_title": "Record: dean-j3.htm",
+          "source_url": "dean-j3.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     },
     {
+      "fact_id": 404,
       "person_id": 263,
-      "photo_id": 3267,
-      "title_or_caption": "Angelina Munce Dean 1843-1917 Wife of Enoch Dean Photo co...",
-      "subject_names": "Dean Angelina Munce2",
-      "maiden_name": "Dean",
-      "married_surname": "Dean",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1843",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DeanWilliamAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DeanAngelinaMunce2.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Birth",
+      "date_string": "10 Mar 1824",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 404,
+          "fact_id": 404,
+          "source_id": 41,
+          "evidence_text": null,
+          "source_title": "Record: dean-j3.htm",
+          "source_url": "dean-j3.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 405,
+      "person_id": 263,
+      "fact_type": "Death",
+      "date_string": "25 Nov 1899 (aged 75)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 405,
+          "fact_id": 405,
+          "source_id": 41,
+          "evidence_text": null,
+          "source_title": "Record: dean-j3.htm",
+          "source_url": "dean-j3.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [
     {
-      "id": 426,
+      "id": 4965,
       "category": "Duplicate Candidate",
       "severity": "warning",
       "person_id": 483,
       "person_id_secondary": 263,
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: enoch|dean|1824",
-      "created_at": "2026-08-14 03:42:34"
+      "created_at": "2026-08-17 01:39:03"
     }
   ],
   "ancestry": {

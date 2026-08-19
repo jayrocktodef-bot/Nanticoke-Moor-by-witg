@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11524">
+    <name>
+      <nameForm>
+        <fullText>first to Cassius MOSLEY and then to Calvin CLARK</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_18"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11523"/>
+    <person2 resource="#p_11524"/>
+    <note>
+      <text>Evidence: She was married first to Cassius MOSLEY and then to Calvin CLARK.  Calvin was born in Millsboro, Sussex Co., DE on 22 October,</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11523"/>
+    <person2 resource="#p_11524"/>
+    <note>
+      <text>Evidence: She was married first to Cassius MOSLEY and then to Calvin CLARK.  Calvin was born in Millsboro, Sussex Co., DE on 22 October,</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_18">
+    <about resource="coker-a4.htm"/>
+    <title>Record: coker-a4.htm</title>
+  </sourceDescription>
+</gedcomx>

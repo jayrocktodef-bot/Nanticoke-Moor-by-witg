@@ -9,10 +9,50 @@
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1937 New Jersey",
-    "death_info": "",
+    "death_info": null,
     "notes": " | FindAGrave: no match",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8296,
+      "person_id": 8835,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Alice Thompson",
+      "citations": [
+        {
+          "citation_id": 8290,
+          "fact_id": 8296,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8297,
+      "person_id": 8835,
+      "fact_type": "Birth",
+      "date_string": "abt 1937 New Jersey",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8291,
+          "fact_id": 8297,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -98,7 +138,7 @@
                     "children": [
                       {
                         "id": 10122,
-                        "name": "John R (H) or Jonathan Harmon",
+                        "name": "John R or Jonathan Harmon",
                         "children": []
                       },
                       {

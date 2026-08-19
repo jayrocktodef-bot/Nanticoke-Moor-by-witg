@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2470">
+    <name>
+      <nameForm>
+        <fullText>Mary Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_139"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1792</original>
+      </date>
+      <source description="#s_139"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1888 (aged 95&amp;ndash;96)</original>
+      </date>
+      <source description="#s_139"/>
+    </fact>
+    <name>
+      <nameForm>
+        <fullText>. Mary Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_139"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1792</original>
+      </date>
+      <source description="#s_139"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1888 (aged 95&amp;ndash;96)</original>
+      </date>
+      <source description="#s_139"/>
+    </fact>
+    <name>
+      <nameForm>
+        <fullText>Mary Wright.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_610"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>12 Feb 1950</original>
+      </date>
+      <source description="#s_610"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>21 Apr 2000 (aged 50)</original>
+      </date>
+      <source description="#s_610"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_2470"/>
+    <person2 resource="#p_8603"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_2470"/>
+    <person2 resource="#p_8941"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_610">
+    <about resource="Wright%20Brothers%20Ontario.htm"/>
+    <title>Record: Wright%20Brothers%20Ontario.htm</title>
+  </sourceDescription>
+  <sourceDescription id="s_139">
+    <about resource="Apprentice%20Indentures%20-%20Warren%20Wright%20family%201843.htm"/>
+    <title>Record: Apprentice%20Indentures%20-%20Warren%20Wright%20family%201843.htm</title>
+  </sourceDescription>
+</gedcomx>

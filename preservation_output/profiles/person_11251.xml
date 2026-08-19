@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11251">
+    <name>
+      <nameForm>
+        <fullText>Lydia Nau-Gwa-Ok-Wa Norwood Clark</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_628"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1780</original>
+      </date>
+      <source description="#s_628"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1860</original>
+      </date>
+      <source description="#s_628"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11251"/>
+    <person2 resource="#p_11249"/>
+  </relationship>
+  <sourceDescription id="s_628">
+    <about resource="FindAGrave Memorial 55667866"/>
+    <title>Record: FindAGrave Memorial 55667866</title>
+  </sourceDescription>
+</gedcomx>

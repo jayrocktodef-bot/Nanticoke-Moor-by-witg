@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_467">
+    <name>
+      <nameForm>
+        <fullText>Minous Durham Sr.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_77"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_77"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>4 Jan 1984</original>
+      </date>
+      <source description="#s_77"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_77">
+    <about resource="manship.htm"/>
+    <title>Record: manship.htm</title>
+  </sourceDescription>
+</gedcomx>

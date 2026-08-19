@@ -13,22 +13,29 @@
     "notes": "Ingested from MosleyAlbertaC.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 5831,
       "person_id": 6519,
-      "photo_id": 4958,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Alberta C. Mosley, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Mosley",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MosleyAlbertaC.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyAlbertaC.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Alberta C. Mosley",
+      "citations": [
+        {
+          "citation_id": 5825,
+          "fact_id": 5831,
+          "source_id": 457,
+          "evidence_text": null,
+          "source_title": "Record: MosleyAlbertaC.htm",
+          "source_url": "MosleyAlbertaC.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

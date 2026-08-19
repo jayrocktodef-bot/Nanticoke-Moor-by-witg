@@ -13,35 +13,29 @@
     "notes": "Ingested from preserved Probate.htm record | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 1657,
       "person_id": 2242,
-      "photo_id": 2858,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Harriet Cork Family, James Green, son of Benjamin Grin, Rachel Miller, and his wife Harriet Cork, Harriet Annie Grin, Mary Elizabeth Grin, married Peter Theberge, Harriet Annie Green, Harvey Lightcap Theberge, and George Washington Theberge, son of Mary, and Peter., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Family",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1838",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_GreewichMaryAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/GrinageJames&Harriet.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 2242,
-      "photo_id": 3520,
-      "title_or_caption": "Benjamin Franklin & Sallie (Green) Durham Ben & Sallie Durham Phot...",
-      "subject_names": "Benjamin Franklin & Sallie (Green) Durham Ben & Sallie Durham Phot...",
-      "maiden_name": "Durham",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamErnestWinfieldAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamBen&Sally.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Benjamin Green",
+      "citations": [
+        {
+          "citation_id": 1657,
+          "fact_id": 1657,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

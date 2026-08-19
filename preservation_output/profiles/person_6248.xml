@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6248">
+    <name>
+      <nameForm>
+        <fullText>am Saturday</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_403"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>8 May 1920</original>
+      </date>
+      <source description="#s_403"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>31 Jan 1958 (aged 37)</original>
+      </date>
+      <source description="#s_403"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_403">
+    <about resource="JacksonCharlotteFamily.htm"/>
+    <title>Record: JacksonCharlotteFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

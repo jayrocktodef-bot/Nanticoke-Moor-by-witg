@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_790">
+    <name>
+      <nameForm>
+        <fullText>Ephraim Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_117"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>about 16 Jan 1891 — Millsboro, Sussex, Delaware, United States</original>
+      </date>
+      <source description="#s_117"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_789"/>
+    <person2 resource="#p_790"/>
+    <note>
+      <text>Evidence: Nicey Wright who married Ephraim Harmon</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_790"/>
+    <person2 resource="#p_1024"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_1686"/>
+    <person2 resource="#p_790"/>
+    <note>
+      <text>Evidence: Spouse of Ephraim Harmon documented in Smithsonian NMAI Speck collection</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_790"/>
+    <person2 resource="#p_1024"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_117">
+    <about resource="wrightw1.htm"/>
+    <title>Record: wrightw1.htm</title>
+  </sourceDescription>
+</gedcomx>

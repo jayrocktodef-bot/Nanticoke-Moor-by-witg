@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3506">
+    <name>
+      <nameForm>
+        <fullText>handed down</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_193"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_193"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_193"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_193">
+    <about resource="DurhamEnochMiller&amp;GenevaCuff.htm"/>
+    <title>Record: DurhamEnochMiller&amp;GenevaCuff.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_50">
+    <name>
+      <nameForm>
+        <fullText>Leslie Muncey</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_6"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>4 Nov 2005</original>
+      </date>
+      <source description="#s_6"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>14 Dec 2012 (aged 7)</original>
+      </date>
+      <source description="#s_6"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_6">
+    <about resource="carty-e2.htm"/>
+    <title>Record: carty-e2.htm</title>
+  </sourceDescription>
+</gedcomx>

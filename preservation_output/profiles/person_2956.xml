@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2956">
+    <name>
+      <nameForm>
+        <fullText>Elsie Green</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_167"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_167"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>4 Jun 1913</original>
+      </date>
+      <source description="#s_167"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_167">
+    <about resource="BedellJohn&amp;ElsieGreenage.htm"/>
+    <title>Record: BedellJohn&amp;ElsieGreenage.htm</title>
+  </sourceDescription>
+</gedcomx>

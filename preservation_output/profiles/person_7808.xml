@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7808">
+    <name>
+      <nameForm>
+        <fullText>Below are siblings: Chuck</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_590"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>28 Dec 1912</original>
+      </date>
+      <source description="#s_590"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>19 Mar 1959 (aged 46)</original>
+      </date>
+      <source description="#s_590"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_590">
+    <about resource="SeeneyChuck&amp;Ann.htm"/>
+    <title>Record: SeeneyChuck&amp;Ann.htm</title>
+  </sourceDescription>
+</gedcomx>

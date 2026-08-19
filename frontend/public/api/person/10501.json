@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9851,
+      "person_id": 10501,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Carl Hanzer",
+      "citations": [
+        {
+          "citation_id": 9845,
+          "fact_id": 9851,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9852,
+      "person_id": 10501,
+      "fact_type": "Birth",
+      "date_string": "abt 1932 Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9846,
+          "fact_id": 9852,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9853,
+      "person_id": 10501,
+      "fact_type": "Death",
+      "date_string": "15 Feb 1994",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9847,
+          "fact_id": 9853,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -22,7 +81,47 @@
       "rel_name": "James Walter Hanzer"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 10501,
+      "photo_id": 7197,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Ann \n    Perkins & Hanzer family L to \n    R: Ann Perkins, Harriet Harmon Ha...",
+      "subject_names": "Alec Hanzer",
+      "maiden_name": "Hanzer",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_Hanzers&PerkinsAnn.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Hanzers&PerkinsAnn.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 10501,
+      "photo_id": 7198,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Ann \n    Perkins & Hanzer family L to \n    R: Ann Perkins, Harriet Harmon Ha...",
+      "subject_names": "Alec Hanzer",
+      "maiden_name": "Hanzer",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HanzerMarshallEAncestry.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Hanzers&PerkinsAnn.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 10501,
+      "photo_id": 7199,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Cora Hanzer Harmon GO \n                                TO PHOTO INDEX A-C | ...",
+      "subject_names": "Cora Hanzer",
+      "maiden_name": "Hanzer",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonCoraHanzer.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonCoraHanzer.htm",
+      "dataset_source": "mitsawokett"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -36,7 +135,52 @@
           {
             "id": 10503,
             "name": "William E Hanzer",
-            "children": []
+            "children": [
+              {
+                "id": 9096,
+                "name": "John C Hanzer",
+                "children": [
+                  {
+                    "id": 9969,
+                    "name": "Jacob Hanzer Jr",
+                    "children": [
+                      {
+                        "id": 9974,
+                        "name": "Jacob Hanzer Sr",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9940,
+                "name": "Sophia J. Hanzer",
+                "children": [
+                  {
+                    "id": 10122,
+                    "name": "John R or Jonathan Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10123,
+                    "name": "Lavinia Lovinia Sammons",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 9721,
@@ -50,11 +194,6 @@
                     "id": 8617,
                     "name": "Negro Morris Thomas",
                     "children": [
-                      {
-                        "id": 8505,
-                        "name": "Morris Thomas",
-                        "children": []
-                      },
                       {
                         "id": 9992,
                         "name": "Sally Wright",

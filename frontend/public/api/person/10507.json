@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9863,
+      "person_id": 10507,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Louis Hanzer",
+      "citations": [
+        {
+          "citation_id": 9857,
+          "fact_id": 9863,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9864,
+      "person_id": 10507,
+      "fact_type": "Birth",
+      "date_string": "2 November 1895 Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9858,
+          "fact_id": 9864,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9865,
+      "person_id": 10507,
+      "fact_type": "Death",
+      "date_string": "27 November 1977 Milton, Sussex, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9859,
+          "fact_id": 9865,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -53,7 +112,69 @@
       {
         "id": 10503,
         "name": "William E Hanzer",
-        "children": []
+        "children": [
+          {
+            "id": 9096,
+            "name": "John C Hanzer",
+            "children": [
+              {
+                "id": 9969,
+                "name": "Jacob Hanzer Jr",
+                "children": [
+                  {
+                    "id": 9974,
+                    "name": "Jacob Hanzer Sr",
+                    "children": [
+                      {
+                        "id": 9978,
+                        "name": "Jonathan Hanzer",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 9940,
+            "name": "Sophia J. Hanzer",
+            "children": [
+              {
+                "id": 10122,
+                "name": "John R or Jonathan Harmon",
+                "children": [
+                  {
+                    "id": 9982,
+                    "name": "Robert Emanuel Harmon",
+                    "children": []
+                  },
+                  {
+                    "id": 9983,
+                    "name": "Rachel Anne Johnson",
+                    "children": [
+                      {
+                        "id": 9984,
+                        "name": "Isaac Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 9985,
+                        "name": "Jemima WARD Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10123,
+                "name": "Lavinia Lovinia Sammons",
+                "children": []
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 9721,
@@ -68,26 +189,9 @@
                 "name": "Negro Morris Thomas",
                 "children": [
                   {
-                    "id": 8505,
-                    "name": "Morris Thomas",
-                    "children": [
-                      {
-                        "id": 8910,
-                        "name": "Leticia Morris",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
                     "id": 9992,
                     "name": "Sally Wright",
-                    "children": [
-                      {
-                        "id": 10083,
-                        "name": "Wright Thomas Sr.",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   }
                 ]
               },

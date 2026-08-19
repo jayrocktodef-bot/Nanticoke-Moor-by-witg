@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_286">
+    <name>
+      <nameForm>
+        <fullText>Peregrine Cork</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_44"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_44"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>7 Aug 1916</original>
+      </date>
+      <source description="#s_44"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9851"/>
+    <person2 resource="#p_286"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_44">
+    <about resource="dean-w.htm"/>
+    <title>Record: dean-w.htm</title>
+  </sourceDescription>
+</gedcomx>

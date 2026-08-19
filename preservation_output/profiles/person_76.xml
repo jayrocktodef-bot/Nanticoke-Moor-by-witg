@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_76">
+    <name>
+      <nameForm>
+        <fullText>Hall Thomas</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_12"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1817</original>
+      </date>
+      <source description="#s_12"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>17 May 1874 (aged 56&amp;ndash;57)</original>
+      </date>
+      <source description="#s_12"/>
+    </fact>
+    <name>
+      <nameForm>
+        <fullText>HALL Thomas</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_12"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_75"/>
+    <person2 resource="#p_76"/>
+    <note>
+      <text>Evidence: Sarah Carter who married Thomas HALL</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_12">
+    <about resource="carty-w2.htm"/>
+    <title>Record: carty-w2.htm</title>
+  </sourceDescription>
+</gedcomx>

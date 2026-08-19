@@ -13,13 +13,72 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/9984606/nathan-thompson",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9021,
+      "person_id": 9686,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Nathan Thompson",
+      "citations": [
+        {
+          "citation_id": 9015,
+          "fact_id": 9021,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9022,
+      "person_id": 9686,
+      "fact_type": "Birth",
+      "date_string": "22 Sep 1932",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9016,
+          "fact_id": 9022,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9023,
+      "person_id": 9686,
+      "fact_type": "Death",
+      "date_string": "17 Oct 1999 (aged 67)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9017,
+          "fact_id": 9023,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8782,
-      "rel_name": "Julia Lee (Ray) (Thompson)"
+      "rel_name": "Julia Lee"
     }
   ],
   "photos": [],
@@ -31,7 +90,7 @@
     "children": [
       {
         "id": 8782,
-        "name": "Julia Lee (Ray) (Thompson)",
+        "name": "Julia Lee",
         "children": []
       }
     ]

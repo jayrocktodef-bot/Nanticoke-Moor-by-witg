@@ -8,26 +8,54 @@
     "married_last_name": "Obituary",
     "evidence_level": 2,
     "source_page": "Obituary Archive",
-    "birth_info": "",
+    "birth_info": null,
     "death_info": "d. 1966",
     "notes": "Obituary Record: Delmarva Burial | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 11021,
       "person_id": 11179,
-      "id": 2,
-      "deceased_name": "Cheswold Obituary",
-      "age": null,
-      "birth_date": null,
-      "death_date": "1966",
-      "cemetery_location": null,
-      "full_text": "CHESWOLD:  Clement (Ted) Carney, Jr. 66, of Cheswold died Saturday at his home after a short illness.\n\nHe was the owner and operator of Ted's Amusement Service here.\n\nHe is survived by his widow, Mrs. Henrietta Carney, and a daughter Henrietta C. Jeffries of Greensboro, NC.\n\nServices will be Wednesday afternoon at 2 at the Matthews Funeral Homes in Smyrna.\n\nFriends may call at the late residence tomorrow night from 7 to 9.\n\nClement Carney Jr. \nApril 23, \n1966",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Cheswold Obituary",
+      "citations": [
+        {
+          "citation_id": 10639,
+          "fact_id": 11021,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11022,
+      "person_id": 11179,
+      "fact_type": "Death",
+      "date_string": "d. 1966",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10640,
+          "fact_id": 11022,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11179,

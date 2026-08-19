@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4484">
+    <name>
+      <nameForm>
+        <fullText>Elizabeth Carney Durham</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_261"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_261"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>18 Jun 1866</original>
+      </date>
+      <source description="#s_261"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_261">
+    <about resource="Chambers.htm"/>
+    <title>Record: Chambers.htm</title>
+  </sourceDescription>
+</gedcomx>

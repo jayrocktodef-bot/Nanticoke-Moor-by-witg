@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2630">
+    <name>
+      <nameForm>
+        <fullText>Enos Pierce Sr.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_147"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1 Sep 1822</original>
+      </date>
+      <source description="#s_147"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>3 Jul 1857 (aged 34)</original>
+      </date>
+      <source description="#s_147"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_147">
+    <about resource="SocialSecurityApplications.htm"/>
+    <title>Record: SocialSecurityApplications.htm</title>
+  </sourceDescription>
+</gedcomx>

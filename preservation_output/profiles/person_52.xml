@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_52">
+    <name>
+      <nameForm>
+        <fullText>Elizabeth Carty</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_7"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>27 Jul 1929</original>
+      </date>
+      <source description="#s_7"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>8 Apr 2019 (aged 89)</original>
+      </date>
+      <source description="#s_7"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_7">
+    <about resource="carty-h.htm"/>
+    <title>Record: carty-h.htm</title>
+  </sourceDescription>
+</gedcomx>

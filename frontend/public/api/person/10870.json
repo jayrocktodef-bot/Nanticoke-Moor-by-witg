@@ -13,6 +13,65 @@
     "notes": "Mentioned in obituary | Verified via FindAGrave: https://www.findagrave.com/memorial/176679126/phyllis-morris",
     "dataset_source": "mitsawokett_obituaries"
   },
+  "facts": [
+    {
+      "fact_id": 10295,
+      "person_id": 10870,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Phyllis Ridgeway Morris",
+      "citations": [
+        {
+          "citation_id": 10289,
+          "fact_id": 10295,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    },
+    {
+      "fact_id": 10296,
+      "person_id": 10870,
+      "fact_type": "Birth",
+      "date_string": "18 Jan 1919",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10290,
+          "fact_id": 10296,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    },
+    {
+      "fact_id": 10297,
+      "person_id": 10870,
+      "fact_type": "Death",
+      "date_string": "1 Aug 1990 (aged 71)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10291,
+          "fact_id": 10297,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "invalid_mass_parent",
@@ -75,7 +134,7 @@
       "evidence_text": "Obituary parentage for Carney Milton &quot;Nick&quot;",
       "certainty": "confirmed",
       "rel_id": 10914,
-      "rel_name": "Milton \"Nick\" Carney"
+      "rel_name": "Milton Nick Carney"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -117,7 +176,7 @@
       "evidence_text": "Obituary parentage for Coombs Ellsworth &quot;Buddy&quot;",
       "certainty": "confirmed",
       "rel_id": 10919,
-      "rel_name": "Coombs Ellsworth \"Buddy\""
+      "rel_name": "Coombs Ellsworth Buddy"
     },
     {
       "relationship_type": "child_of",
@@ -160,13 +219,6 @@
       "certainty": "confirmed",
       "rel_id": 10925,
       "rel_name": "Cuff Florence"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Cuff Francis M.",
-      "certainty": "confirmed",
-      "rel_id": 4402,
-      "rel_name": "Margaret M. Cuff"
     },
     {
       "relationship_type": "child_of",
@@ -229,7 +281,7 @@
       "evidence_text": "Obituary parentage for Durham Buena &quot;Boni&quot;",
       "certainty": "confirmed",
       "rel_id": 10934,
-      "rel_name": "Buena \"Boni\" Durham"
+      "rel_name": "Buena Boni Durham"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -345,80 +397,10 @@
     },
     {
       "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Green Rachel M. Hughes",
-      "certainty": "confirmed",
-      "rel_id": 5567,
-      "rel_name": "Hughes Green"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage Benjamin",
-      "certainty": "confirmed",
-      "rel_id": 10949,
-      "rel_name": "Greenage Benjamin"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage Janet Marie Henry",
-      "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage John Wallace",
-      "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage John Reggs",
-      "certainty": "confirmed",
-      "rel_id": 10952,
-      "rel_name": "Greenage John Reggs"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage Mary C. Van Dusen",
-      "certainty": "confirmed",
-      "rel_id": 10953,
-      "rel_name": "Greenage Mary C. Van Dusen"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage Paul Joseph",
-      "certainty": "confirmed",
-      "rel_id": 10954,
-      "rel_name": "Greenage Paul Joseph"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Greenage Sr. Robert",
-      "certainty": "confirmed",
-      "rel_id": 10956,
-      "rel_name": "Greenage Sr. Robert"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Grinage Clarence Mark",
-      "certainty": "confirmed",
-      "rel_id": 10957,
-      "rel_name": "Grinage Clarence Mark"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Grinage Wilma R. Coffinger",
-      "certainty": "confirmed",
-      "rel_id": 10958,
-      "rel_name": "Grinage Wilma R. Coffinger"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Harmon Leonard &quot;Dunk&quot;",
       "certainty": "confirmed",
       "rel_id": 10959,
-      "rel_name": "Leonard \"Dunk\" Harmon"
+      "rel_name": "Leonard Dunk Harmon"
     },
     {
       "relationship_type": "child_of",
@@ -460,7 +442,7 @@
       "evidence_text": "Obituary parentage for Hughes Adella Naomi",
       "certainty": "confirmed",
       "rel_id": 10964,
-      "rel_name": "Hughes Adella Naomi"
+      "rel_name": "Adella Naomi Hughes"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -579,14 +561,7 @@
       "evidence_text": "Obituary parentage for Morris Charles",
       "certainty": "confirmed",
       "rel_id": 8676,
-      "rel_name": "Charles \"Charlie\" Morris Davis"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Morris Elva E. Street",
-      "certainty": "confirmed",
-      "rel_id": 6149,
-      "rel_name": "and Frances \"Fannie\" Street Morris"
+      "rel_name": "Charles Charlie Morris Davis"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -604,13 +579,6 @@
     },
     {
       "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Mosley Elisha M.",
-      "certainty": "confirmed",
-      "rel_id": 358,
-      "rel_name": "Lillie M. Mosley"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Mosley Elsie H.",
       "certainty": "confirmed",
       "rel_id": 477,
@@ -621,7 +589,7 @@
       "evidence_text": "Obituary parentage for Murray/ Mury Isaac Nichols 1881/1882-1937",
       "certainty": "confirmed",
       "rel_id": 10979,
-      "rel_name": "Murray/ Mury Isaac Nichols 1881/1882-1937"
+      "rel_name": "Murray Mury Isaac Nichols"
     },
     {
       "relationship_type": "child_of",
@@ -684,7 +652,7 @@
       "evidence_text": "Obituary parentage for Pierce Caleb ~1858/1864-1938",
       "certainty": "confirmed",
       "rel_id": 10988,
-      "rel_name": "Caleb ~1858/1864-1938 Pierce"
+      "rel_name": "Caleb ~ Pierce"
     },
     {
       "relationship_type": "child_of",
@@ -729,20 +697,6 @@
       "rel_name": "Laura A. Richmond Pierce"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Pierce Lucetta Pierce",
-      "certainty": "confirmed",
-      "rel_id": 8138,
-      "rel_name": "\"Butch\" & Susie Webster Pierce"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Pierce Marietta Pierce",
-      "certainty": "confirmed",
-      "rel_id": 8138,
-      "rel_name": "\"Butch\" & Susie Webster Pierce"
-    },
-    {
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Pierce Martha Irene",
       "certainty": "confirmed",
@@ -779,13 +733,6 @@
     },
     {
       "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Sammons Alfred Oscar",
-      "certainty": "confirmed",
-      "rel_id": 4129,
-      "rel_name": "Oscar & Ethel L. Sammons"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Satterfield Angeline",
       "certainty": "confirmed",
       "rel_id": 10873,
@@ -797,13 +744,6 @@
       "certainty": "confirmed",
       "rel_id": 10998,
       "rel_name": "Scott Ella Mae Bailey"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Seeney Laura E. Ridgeway",
-      "certainty": "confirmed",
-      "rel_id": 7457,
-      "rel_name": "Forrest Seeney Ridgeway and Marietta"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -873,7 +813,7 @@
       "evidence_text": "Obituary parentage for Ward Helen Harmon",
       "certainty": "confirmed",
       "rel_id": 8913,
-      "rel_name": "Amos Edward Harmon Sr."
+      "rel_name": "Amos Edward Harmon Sr"
     },
     {
       "relationship_type": "child_of",
@@ -940,13 +880,6 @@
     },
     {
       "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for 1972-1975, receiving many commendations for his excellent work. At the V.A.,",
-      "certainty": "confirmed",
-      "rel_id": 11018,
-      "rel_name": "1972-1975, receiving many commendations for his excellent work. At the V.A.,"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Adele Marie Massey Wright",
       "certainty": "confirmed",
       "rel_id": 11014,
@@ -999,7 +932,7 @@
       "evidence_text": "Obituary parentage for Milton &quot;Nick&quot; Carney",
       "certainty": "confirmed",
       "rel_id": 10914,
-      "rel_name": "Milton \"Nick\" Carney"
+      "rel_name": "Milton Nick Carney"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1020,14 +953,14 @@
       "evidence_text": "Obituary parentage for Charles Glendon Coker Sr.",
       "certainty": "confirmed",
       "rel_id": 10513,
-      "rel_name": "Charles Harold hanzer Sr."
+      "rel_name": "Charles Harold hanzer Sr"
     },
     {
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Ellsworth &quot;Buddy&quot; Coombs",
       "certainty": "confirmed",
       "rel_id": 10919,
-      "rel_name": "Coombs Ellsworth \"Buddy\""
+      "rel_name": "Coombs Ellsworth Buddy"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1055,7 +988,7 @@
       "evidence_text": "Obituary parentage for Charles Willis Coursey",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1063,13 +996,6 @@
       "certainty": "confirmed",
       "rel_id": 10925,
       "rel_name": "Cuff Florence"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Francis M. &quot;Frank&quot; Cuff",
-      "certainty": "confirmed",
-      "rel_id": 11020,
-      "rel_name": "Francis M. \"Frank\" Cuff"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1153,7 +1079,7 @@
       "evidence_text": "Obituary parentage for Edward E. Ford Jr.",
       "certainty": "confirmed",
       "rel_id": 10694,
-      "rel_name": "Donald Edward Johnson Jr."
+      "rel_name": "Donald Edward Johnson Jr"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1199,13 +1125,6 @@
     },
     {
       "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Ella M. Williams Gould",
-      "certainty": "confirmed",
-      "rel_id": 11021,
-      "rel_name": "Ella M. Williams Gould"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Christina Mae Norwood-Green",
       "certainty": "confirmed",
       "rel_id": 10983,
@@ -1217,20 +1136,6 @@
       "certainty": "confirmed",
       "rel_id": 2561,
       "rel_name": "Bedell Elsie Rachel Green"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Clarence Mark &quot;Mark&quot; Grinage",
-      "certainty": "confirmed",
-      "rel_id": 10957,
-      "rel_name": "Grinage Clarence Mark"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Wilma R. Coffinger Grinage",
-      "certainty": "confirmed",
-      "rel_id": 10958,
-      "rel_name": "Grinage Wilma R. Coffinger"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1258,7 +1163,7 @@
       "evidence_text": "Obituary parentage for Adella Naomi Hughes",
       "certainty": "confirmed",
       "rel_id": 10964,
-      "rel_name": "Hughes Adella Naomi"
+      "rel_name": "Adella Naomi Hughes"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1266,13 +1171,6 @@
       "certainty": "confirmed",
       "rel_id": 10966,
       "rel_name": "Huntsinger Luella Durham"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Elsie L. Pierce James",
-      "certainty": "confirmed",
-      "rel_id": 5487,
-      "rel_name": "Elsie & James."
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1294,13 +1192,6 @@
       "certainty": "confirmed",
       "rel_id": 9696,
       "rel_name": "Dallas Robert Johnson"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Sandra Z. Bailey Johnson",
-      "certainty": "confirmed",
-      "rel_id": 3945,
-      "rel_name": "Joan Johnson ) Sandra Johnson?"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1349,7 +1240,7 @@
       "evidence_text": "Obituary parentage for Raymond H. Lively Jr.",
       "certainty": "confirmed",
       "rel_id": 6815,
-      "rel_name": "Aubrey Raymond Newlin Jr."
+      "rel_name": "Aubrey Raymond Newlin Jr"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1363,21 +1254,14 @@
       "evidence_text": "Obituary parentage for Charles Morris",
       "certainty": "confirmed",
       "rel_id": 8676,
-      "rel_name": "Charles \"Charlie\" Morris Davis"
+      "rel_name": "Charles Charlie Morris Davis"
     },
     {
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Sanford G. Morris Sr.",
       "certainty": "confirmed",
       "rel_id": 11025,
-      "rel_name": "Sanford G. Morris Sr."
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Elisha M. Mosley",
-      "certainty": "confirmed",
-      "rel_id": 11026,
-      "rel_name": "Elisha M. Mosley"
+      "rel_name": "Sanford G. Morris Sr"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1391,7 +1275,7 @@
       "evidence_text": "Obituary parentage for Isaac Nichols Murray or Mury 1881/1882-1937",
       "certainty": "confirmed",
       "rel_id": 10979,
-      "rel_name": "Murray/ Mury Isaac Nichols 1881/1882-1937"
+      "rel_name": "Murray Mury Isaac Nichols"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1433,7 +1317,7 @@
       "evidence_text": "Obituary parentage for Caleb Pierce ~1858/1864-1938",
       "certainty": "confirmed",
       "rel_id": 10988,
-      "rel_name": "Caleb ~1858/1864-1938 Pierce"
+      "rel_name": "Caleb ~ Pierce"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1448,13 +1332,6 @@
       "certainty": "confirmed",
       "rel_id": 11029,
       "rel_name": "Carrie V. Cuff Pierce"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Frances E Cuff Pierce",
-      "certainty": "confirmed",
-      "rel_id": 11030,
-      "rel_name": "Frances E Cuff Pierce"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1482,14 +1359,14 @@
       "evidence_text": "Obituary parentage for Lucetta Pierce Pierce",
       "certainty": "confirmed",
       "rel_id": 11031,
-      "rel_name": "Lucetta Pierce Pierce"
+      "rel_name": "Lucetta Pierce"
     },
     {
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Marietta Pierce Pierce",
       "certainty": "confirmed",
       "rel_id": 11032,
-      "rel_name": "Marietta Pierce Pierce"
+      "rel_name": "Marietta Pierce"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1559,7 +1436,7 @@
       "evidence_text": "Obituary parentage for James Howard Street, Sr.",
       "certainty": "confirmed",
       "rel_id": 613,
-      "rel_name": "James Dean Sr."
+      "rel_name": "James Dean Sr"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1634,2318 +1511,7 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 3786,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10839,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3787,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10905,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3788,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10906,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3789,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10908,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3790,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10911,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3791,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3337,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3792,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10912,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3793,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10913,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3794,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10914,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3795,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 2330,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3796,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10915,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3797,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10917,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3798,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3799,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10918,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3800,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10919,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3801,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10921,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3802,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10922,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3803,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4370,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3804,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3805,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10924,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3806,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10925,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3807,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4402,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3808,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10927,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3809,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10928,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3810,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10929,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3811,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10930,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3812,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4609,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3813,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10931,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3814,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10932,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3815,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10933,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3816,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10934,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3817,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10935,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3818,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 2569,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3819,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6474,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3820,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4134,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3821,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10936,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3822,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10937,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3823,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10938,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3824,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10940,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3825,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10941,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3826,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10943,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3827,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10944,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3828,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10945,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3829,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 2884,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3830,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10947,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3831,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6795,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3832,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10948,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3833,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5567,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3834,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10949,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3835,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10950,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3836,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10951,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3837,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10952,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3838,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10953,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3839,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10954,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3840,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10956,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3841,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10957,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3842,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10958,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3843,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10959,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3844,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10960,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3845,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10961,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3846,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7089,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3847,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10962,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3848,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10963,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3849,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10964,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3850,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10965,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3851,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10966,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3852,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8202,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3853,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5904,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3854,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3855,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10968,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3856,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10932,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3857,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10969,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3858,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10970,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3859,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10971,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3860,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10972,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3861,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10973,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3862,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3863,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10975,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3864,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3865,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10977,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3866,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8676,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3867,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6149,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3868,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10978,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3869,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6427,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3870,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 358,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3871,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 477,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3872,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10979,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3873,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10980,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3874,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10981,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3875,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10982,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3876,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10983,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3877,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10984,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3878,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3879,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10986,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3880,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10987,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3881,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10988,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3882,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3883,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10989,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3884,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3885,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8200,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3886,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8206,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3887,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10990,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3888,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8138,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3889,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8138,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3890,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10991,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3891,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3892,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10993,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3893,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10994,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3894,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10996,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3895,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4129,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3896,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10873,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3897,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10998,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3898,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7457,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3899,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10999,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3900,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11000,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3901,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11001,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3902,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11002,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3903,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11004,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3904,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3905,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11005,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3906,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11007,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3907,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11008,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3908,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8913,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3909,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11009,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3910,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11010,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3911,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11011,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3912,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11012,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3913,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10963,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3914,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11013,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3915,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11014,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3916,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3175,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3917,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11015,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3918,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11018,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3919,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11014,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3920,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10918,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3921,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10905,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3922,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10906,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3923,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10908,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3924,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10911,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3925,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10913,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3926,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10914,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3927,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10915,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3928,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10917,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3929,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10513,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3930,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10919,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3931,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10921,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3932,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10922,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3933,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 4370,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3934,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7448,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3935,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10925,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3936,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11020,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3937,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10928,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3938,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10927,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3939,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10929,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3940,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10930,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3941,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 364,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3942,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10933,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3943,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 2569,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3944,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6474,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3945,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10936,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3946,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10937,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3947,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10938,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3948,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10694,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3949,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10940,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3950,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10941,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3951,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10943,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3952,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10947,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3953,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10944,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3954,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10945,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3955,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11021,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3956,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10983,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3957,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 2561,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3958,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10957,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3959,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10958,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3960,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10960,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3961,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11022,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3962,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10963,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3963,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10964,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3964,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10966,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3965,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 5487,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3966,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10969,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3967,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11023,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3968,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9696,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3969,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 3945,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3970,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11024,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3971,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10970,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3972,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10971,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3973,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10972,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3974,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10973,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3975,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10868,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3976,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 6815,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3977,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10977,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3978,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8676,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3979,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11025,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3980,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11026,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3981,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11027,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3982,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10979,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3983,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10980,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3984,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10984,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3985,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10985,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3986,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10986,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3987,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10987,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3988,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10988,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3989,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11028,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3990,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11029,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3991,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11030,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3992,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8202,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3993,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 1771,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3994,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10990,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3995,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11031,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3996,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11032,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3997,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8832,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3998,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3999,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11034,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4000,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10996,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4001,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11035,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4002,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10998,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4003,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11000,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4004,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11001,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4005,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11004,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4006,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 613,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4007,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11007,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4008,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11008,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4009,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11009,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4010,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11010,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4011,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11011,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4012,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11036,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4013,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11013,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4014,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11037,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4015,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11015,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4016,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11038,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 10870,
     "name": "Phyllis Ridgeway Morris",

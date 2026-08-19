@@ -12,14 +12,18 @@ const EDGE_STYLES = {
   default: { color: '#38bdf8', highlight: '#60a5fa', dashes: false, width: 1.5, label: 'Related' }
 };
 
-export default function NetworkGraph({ graphData, onSelectNode }) {
+export default function NetworkGraph({ graphData, onSelectNode, defaultViewFormat = 'focus' }) {
   const containerRef = useRef(null);
   const networkRef = useRef(null);
-  const [viewFormat, setViewFormat] = useState('focus'); // 'focus' | 'tree' | 'roster'
+  const [viewFormat, setViewFormat] = useState(defaultViewFormat); // 'focus' | 'tree' | 'roster' | 'network'
   const [searchFilter, setSearchFilter] = useState('');
   const [showSearchDropdown, setShowSearchDropdown] = useState(false);
   const [focalNodeId, setFocalNodeId] = useState(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
+
+  useEffect(() => {
+    setViewFormat(defaultViewFormat);
+  }, [defaultViewFormat]);
 
   // Reset focal node if graphData changes and previous focal is no longer in dataset
   useEffect(() => {
@@ -61,6 +65,10 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
         displayNodes = graphData.nodes.filter(n => neighborIds.has(n.id));
         displayEdges = graphData.edges.filter(e => neighborIds.has(e.from) && neighborIds.has(e.to));
       }
+    } else if (viewFormat === 'network') {
+      // Show all nodes in the dataset (useful for surname filtering where dataset is pre-filtered)
+      displayNodes = graphData.nodes;
+      displayEdges = graphData.edges || [];
     }
 
     // Filter by Search Query if active
@@ -164,7 +172,7 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
     networkRef.current = new Network(containerRef.current, { nodes: visNodes, edges: visEdges }, options);
 
     // Freeze physics once stabilized to ensure static readable layout
-    if (viewFormat === 'focus') {
+    if (viewFormat === 'focus' || viewFormat === 'network') {
       networkRef.current.once('stabilized', () => {
         if (networkRef.current) {
           networkRef.current.setOptions({ physics: { enabled: false } });
@@ -250,8 +258,20 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
+              <Target className="w-3.5 h-3.5" />
+              Focus View
+            </button>
+
+            <button
+              onClick={() => setViewFormat('network')}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md font-semibold transition-all ${
+                viewFormat === 'network'
+                  ? 'bg-amber-500 text-slate-950 font-bold shadow'
+                  : 'text-slate-400 hover:text-slate-200'
+              }`}
+            >
               <NetworkIcon className="w-3.5 h-3.5" />
-              Focus Network (Ego View)
+              Full Network
             </button>
 
             <button
@@ -362,6 +382,7 @@ export default function NetworkGraph({ graphData, onSelectNode }) {
             {viewFormat === 'tree' && '🌲 Top-Down Generational Tree — Hierarchical structure from ancestors to descendants.'}
             {viewFormat === 'roster' && '🗂️ Organized Family Cards — Lineages grouped into clean rosters.'}
             {viewFormat === 'focus' && '🎯 Ego-Centric Focus View — Showing immediate family network. Click nodes to pivot focus.'}
+            {viewFormat === 'network' && '🕸️ Full Network View — Showing all connections in the current dataset.'}
           </span>
         </div>
 

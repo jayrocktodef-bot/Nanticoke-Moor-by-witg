@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2812">
+    <name>
+      <nameForm>
+        <fullText>Lizzie Ridgeway Sammons</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_160"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_160"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>21 May 1886</original>
+      </date>
+      <source description="#s_160"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_160">
+    <about resource="WhoAreThesePeople2.htm"/>
+    <title>Record: WhoAreThesePeople2.htm</title>
+  </sourceDescription>
+</gedcomx>

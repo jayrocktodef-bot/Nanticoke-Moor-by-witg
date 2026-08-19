@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7931">
+    <name>
+      <nameForm>
+        <fullText>John Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_610"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_610"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>16 Jul 1875</original>
+      </date>
+      <source description="#s_610"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_610">
+    <about resource="Wright%20Brothers%20Ontario.htm"/>
+    <title>Record: Wright%20Brothers%20Ontario.htm</title>
+  </sourceDescription>
+</gedcomx>

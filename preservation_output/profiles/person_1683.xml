@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1683">
+    <name>
+      <nameForm>
+        <fullText>Bartholomew Thompson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_124"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1683"/>
+    <person2 resource="#p_8679"/>
+    <note>
+      <text>Evidence: Son of John W. Thompson</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1683"/>
+    <person2 resource="#p_1685"/>
+    <note>
+      <text>Evidence: Son of Sarah Ann (Harmon) Thompson</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_124">
+    <about resource="ThompsonBartholomew.htm"/>
+    <title>Record: ThompsonBartholomew.htm</title>
+  </sourceDescription>
+</gedcomx>

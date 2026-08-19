@@ -13,6 +13,74 @@
     "notes": "Ingested from SammonsWill&Edith&son.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/138235454/kenneth-clark",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 6901,
+      "person_id": 7471,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Kenneth S. Clark",
+      "citations": [
+        {
+          "citation_id": 6895,
+          "fact_id": 6901,
+          "source_id": 578,
+          "evidence_text": null,
+          "source_title": "Record: SammonsWill&Edith&son.htm",
+          "source_url": "SammonsWill&Edith&son.htm",
+          "source_dataset": "mitsawokett_delaware"
+        },
+        {
+          "citation_id": 11221,
+          "fact_id": 6901,
+          "source_id": 667,
+          "evidence_text": "Detected in Obituary of Chief Red Deer, Kenneth",
+          "source_title": "Obituary: Marguerite J. Brown ~1928-2016",
+          "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm",
+          "source_dataset": "mitsawokett_obits"
+        }
+      ]
+    },
+    {
+      "fact_id": 6902,
+      "person_id": 7471,
+      "fact_type": "Birth",
+      "date_string": "1910",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 6896,
+          "fact_id": 6902,
+          "source_id": 578,
+          "evidence_text": null,
+          "source_title": "Record: SammonsWill&Edith&son.htm",
+          "source_url": "SammonsWill&Edith&son.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 6903,
+      "person_id": 7471,
+      "fact_type": "Death",
+      "date_string": "1918 (aged 7&ndash;8)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 6897,
+          "fact_id": 6903,
+          "source_id": 578,
+          "evidence_text": null,
+          "source_title": "Record: SammonsWill&Edith&son.htm",
+          "source_url": "SammonsWill&Edith&son.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -68,14 +136,14 @@
       "evidence_text": "Obituary text evidence for Clark Sr. Kenneth S.",
       "certainty": "confirmed",
       "rel_id": 10847,
-      "rel_name": "Janet Greenage"
+      "rel_name": "Janet Green"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Clark Sr. Kenneth S.",
       "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -97,13 +165,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Clark Sr. Kenneth S.",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -151,29 +212,8 @@
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Clark Sr. Kenneth S.",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Clark Sr. Kenneth S.",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Clark Sr. Kenneth S.",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Clark Sr. Kenneth S.",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -195,13 +235,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Clark Sr. Kenneth S.",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -298,13 +331,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Clark Sr. Kenneth S.",
       "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Clark Sr. Kenneth S.",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -334,7 +360,7 @@
       "evidence_text": "Obituary child link for Clark Sr. Kenneth S.",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -411,7 +437,7 @@
       "evidence_text": "Obituary child link for Clark Sr. Kenneth S.",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -519,227 +545,32 @@
       "rel_name": "Niquita Harris"
     }
   ],
-  "photos": [
+  "photos": [],
+  "obituaries": [
     {
       "person_id": 7471,
-      "photo_id": 5446,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Will & Edith, Sammons & son, of grandson, Kenneth S. Clark, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Edith",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ClarkWilliamRussellAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsWill&Edith&son.htm",
-      "dataset_source": "mitsawokett"
+      "id": 23,
+      "deceased_name": "Chief Red Deer, Kenneth",
+      "age": "",
+      "birth_date": "",
+      "death_date": "2015",
+      "cemetery_location": "",
+      "full_text": "Chief Red Deer, Kenneth S. Clark Sr., Chief of the Nanticoke Indian Tribe for \n  over 30 years, son and grandson of Nanticoke Chiefs, passed away at home on \n  his ancestral lands on October 9, 2015, a month before his 85th birthday.",
+      "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     },
     {
       "person_id": 7471,
-      "photo_id": 5446,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Will & Edith, Sammons & son, of grandson, Kenneth S. Clark, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Edith",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ClarkWilliamRussellAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsWill&Edith&son.htm",
-      "dataset_source": "mitsawokett"
+      "id": 25,
+      "deceased_name": "Ken is survived by",
+      "age": "",
+      "birth_date": "",
+      "death_date": "",
+      "cemetery_location": "",
+      "full_text": "Ken is survived by his wife of 62 years, Ella Katherine Greenage Clark, as \n  well as his four children, Kenneth S. Clark, Jr. (wife Lisa), Kathy Stella Clark, \n  Charles C. Clark IV, and Mary Lisa Clark (husband Edward); nine grand-children, \n  John Robert Clark, whom he raised (wife Amber), Rachel Clark, Catherine Clark \n  Goodall (husband Jack), Sarah Clark, Hannah Clark, Victoria Clark, Hunter Clark \n  Boccinfusco, Lydia Clark, and Ella Clark; and three great-grandchildren, Jacqueline, \n  Jensen and Jace.",
+      "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 566,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 797,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1028,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1259,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1490,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1721,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1952,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2183,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2414,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2645,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2876,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3107,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3338,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3567,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3798,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4029,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4260,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4491,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4721,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 7471,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 7471,
     "name": "Kenneth S. Clark",

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_426">
+    <name>
+      <nameForm>
+        <fullText>James M Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_70"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>3 Mar 1882</original>
+      </date>
+      <source description="#s_70"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>17 Jun 1948 (aged 66)</original>
+      </date>
+      <source description="#s_70"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_70">
+    <about resource="jacksnw1.htm"/>
+    <title>Record: jacksnw1.htm</title>
+  </sourceDescription>
+</gedcomx>

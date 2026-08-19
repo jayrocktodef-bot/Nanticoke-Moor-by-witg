@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11629">
+    <name>
+      <nameForm>
+        <fullText>the executor of Thomas</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_56"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_351"/>
+    <person2 resource="#p_11629"/>
+    <note>
+      <text>Evidence: indicated that his widow, MARY, had subsequently married the executor of Thomas' estate, Thomas Hughes.</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_351"/>
+    <person2 resource="#p_11629"/>
+    <note>
+      <text>Evidence: indicated that his widow, MARY, had subsequently married the executor of Thomas' estate, Thomas Hughes.</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_56">
+    <about resource="durhm-t1.htm"/>
+    <title>Record: durhm-t1.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_5585">
+    <name>
+      <nameForm>
+        <fullText>Larry Faulkner</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_334"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>22 Sep 1953</original>
+      </date>
+      <source description="#s_334"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>8 Mar 1995 (aged 41)</original>
+      </date>
+      <source description="#s_334"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_334">
+    <about resource="FaulknerLawrenceDean.htm"/>
+    <title>Record: FaulknerLawrenceDean.htm</title>
+  </sourceDescription>
+</gedcomx>

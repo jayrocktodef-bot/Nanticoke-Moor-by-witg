@@ -1,7 +1,7 @@
 {
   "person": {
     "person_id": 2704,
-    "name": ". Betty Gould",
+    "name": "Betty Gould",
     "first_name": ".",
     "middle_name": "Betty",
     "maiden_name": "",
@@ -13,13 +13,34 @@
     "notes": "Ingested from WhoAreThesePeople4.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 2197,
+      "person_id": 2704,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": ". Betty Gould",
+      "citations": [
+        {
+          "citation_id": 2191,
+          "fact_id": 2197,
+          "source_id": 153,
+          "evidence_text": null,
+          "source_title": "Record: WhoAreThesePeople4.htm",
+          "source_url": "WhoAreThesePeople4.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 2704,
-    "name": ". Betty Gould",
+    "name": "Betty Gould",
     "children": []
   }
 }

@@ -13,14 +13,66 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/107146690/stephen-davis (Buried at Saint Joseph Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
-  "relationships": [
+  "facts": [
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8610,
-      "rel_name": "Davis Morris"
+      "fact_id": 7597,
+      "person_id": 8160,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Stephen Davis",
+      "citations": [
+        {
+          "citation_id": 7591,
+          "fact_id": 7597,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     },
+    {
+      "fact_id": 7598,
+      "person_id": 8160,
+      "fact_type": "Birth",
+      "date_string": "1878",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7592,
+          "fact_id": 7598,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7599,
+      "person_id": 8160,
+      "fact_type": "Death",
+      "date_string": "Dec 1943 (aged 64&ndash;65)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7593,
+          "fact_id": 7599,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
+  "relationships": [
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
@@ -37,54 +89,21 @@
     "name": "Stephen Davis",
     "children": [
       {
-        "id": 8610,
-        "name": "Davis Morris",
-        "children": [
-          {
-            "id": 4643,
-            "name": "Henry Davis",
-            "children": []
-          },
-          {
-            "id": 10618,
-            "name": "William H Davis",
-            "children": []
-          }
-        ]
-      },
-      {
         "id": 8185,
         "name": "Hester A. Morris Davis",
         "children": [
           {
             "id": 8571,
-            "name": "Francis E. \"Frank\" Morris",
+            "name": "Francis E. Frank Morris",
             "children": [
               {
                 "id": 8617,
                 "name": "Negro Morris Thomas",
                 "children": [
                   {
-                    "id": 8505,
-                    "name": "Morris Thomas",
-                    "children": [
-                      {
-                        "id": 8910,
-                        "name": "Leticia Morris",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
                     "id": 9992,
                     "name": "Sally Wright",
-                    "children": [
-                      {
-                        "id": 10083,
-                        "name": "Wright Thomas Sr.",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   }
                 ]
               },

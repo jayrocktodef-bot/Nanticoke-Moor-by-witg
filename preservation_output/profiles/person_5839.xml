@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_5839">
+    <name>
+      <nameForm>
+        <fullText>Isaac Wilson Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_351"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>7 Jan 1847</original>
+      </date>
+      <source description="#s_351"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>8 Mar 1923 (aged 76)</original>
+      </date>
+      <source description="#s_351"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_5839"/>
+    <person2 resource="#p_5921"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_5839"/>
+    <person2 resource="#p_10214"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_351">
+    <about resource="HarmanIsaacWillie.htm"/>
+    <title>Record: HarmanIsaacWillie.htm</title>
+  </sourceDescription>
+</gedcomx>

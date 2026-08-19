@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/107339684/margaret-davis (Buried at Deerfield Presbyterian Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8032,
+      "person_id": 8542,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Margaret Davis",
+      "citations": [
+        {
+          "citation_id": 8026,
+          "fact_id": 8032,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8033,
+      "person_id": 8542,
+      "fact_type": "Birth",
+      "date_string": "29 Jun 1823",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8027,
+          "fact_id": 8033,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8034,
+      "person_id": 8542,
+      "fact_type": "Death",
+      "date_string": "11 Jul 1867 (aged 44)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8028,
+          "fact_id": 8034,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -32,15 +91,28 @@
   "photos": [
     {
       "person_id": 8542,
-      "photo_id": 3155,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Arbana Birdella Ridgway Ridgeway, Arbana Birdella, coutesy of Birdella Newhard, Ben & Birdella, coutesy of Birdella Newhard, James Edward \"Ned\" Davis, from Wilson Davis, Margaret Ridgway, Arbana Birdella Ridgeway, coutesy of Birdella Newhard, Alan Ridgeway, coutesy of Birdella Newhard, Birdella Ridgeway, coutesy of Birdella Newhard, & grandchildren, coutesy of Birdella Newhard, F. Ridgeway III, coutesy of Birdella Newhard, Jody Pophan Ridgeway, & daughter Kala, coutesy of Birdella Newhard, Anita Ridgeway Sammons, & sons Aaron, Luther & Kyle, coutesy of Birdella Newhard, Lisa Stinson Ridgeway, & their son Nathan, is the son of, Jackie Johnson Ridgeway, Debra Ridgeway, coutesy of Birdella Newhard, Michelle Ridgeway, coutesy of Birdella Newhard, & baby, James Ridgeway, of Christopher & Wanda Ridgeway, coutesy of Birdella Newhard, Lee Sammons, Grandson of Luther Sammons, & Anita Ridgeway, coutesy of Birdella Newhard, at Manship Church, Ancestry of the children, of Benjamin & Birdella Ridgeway, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Ridgway",
-      "married_surname": "Ridgeway",
+      "photo_id": 7457,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware John & Margaret (Durham) Leitenberger John Photo \n    courtesy of Debbie Pie...",
+      "subject_names": "Margaret 2",
+      "maiden_name": "Margaret",
+      "married_surname": "",
       "location": "Delaware / Delmarva",
-      "approximate_year": "1914",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_RidgewayBen_BirdAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NewhardArbanaBirdellaRidgway.htm",
+      "approximate_year": "1885",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_LitenburgJohn.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/LeitenbergerJohn.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 8542,
+      "photo_id": 7458,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware John & Margaret (Durham) Leitenberger John Photo \n    courtesy of Debbie Pie...",
+      "subject_names": "Margaret 2",
+      "maiden_name": "Margaret",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "1885",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamMargaretAncestry.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/LeitenbergerJohn.htm",
       "dataset_source": "mitsawokett"
     }
   ],

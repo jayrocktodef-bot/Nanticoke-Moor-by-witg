@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 3755,
-    "name": "Ann Handsor/Hansley.",
+    "name": "Ann Handsor Hansley",
     "first_name": "Ann",
-    "middle_name": "",
+    "middle_name": "Handsor",
     "maiden_name": "",
     "married_last_name": "Handsor/Hansley.",
     "evidence_level": 2,
@@ -13,13 +13,72 @@
     "notes": "Ingested from CarneyShade.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/276152166/ann-hansley",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 3097,
+      "person_id": 3755,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Ann Handsor Hansley.",
+      "citations": [
+        {
+          "citation_id": 3091,
+          "fact_id": 3097,
+          "source_id": 206,
+          "evidence_text": null,
+          "source_title": "Record: CarneyShade.htm",
+          "source_url": "CarneyShade.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 3098,
+      "person_id": 3755,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 3092,
+          "fact_id": 3098,
+          "source_id": 206,
+          "evidence_text": null,
+          "source_title": "Record: CarneyShade.htm",
+          "source_url": "CarneyShade.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 3099,
+      "person_id": 3755,
+      "fact_type": "Death",
+      "date_string": "Jun 1782",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 3093,
+          "fact_id": 3099,
+          "source_id": 206,
+          "evidence_text": null,
+          "source_title": "Record: CarneyShade.htm",
+          "source_url": "CarneyShade.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 3755,
-    "name": "Ann Handsor/Hansley.",
+    "name": "Ann Handsor Hansley",
     "children": []
   }
 }

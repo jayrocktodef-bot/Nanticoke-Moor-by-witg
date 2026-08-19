@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8648,
+      "person_id": 9196,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Josiah William Miller",
+      "citations": [
+        {
+          "citation_id": 8642,
+          "fact_id": 8648,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8649,
+      "person_id": 9196,
+      "fact_type": "Birth",
+      "date_string": "01 May 1731 Greenwich, Cumberland, New Jersey, United States",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8643,
+          "fact_id": 8649,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8650,
+      "person_id": 9196,
+      "fact_type": "Death",
+      "date_string": "02 Sep 1774 Philadelphia, Delaware, Pennsylvania, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8644,
+          "fact_id": 8650,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -26,7 +85,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9191,
-      "rel_name": "Sarah Collier (Collyer) Miller"
+      "rel_name": "Sarah Collier Miller"
     }
   ],
   "photos": [],
@@ -54,7 +113,7 @@
       },
       {
         "id": 9191,
-        "name": "Sarah Collier (Collyer) Miller",
+        "name": "Sarah Collier Miller",
         "children": []
       }
     ]

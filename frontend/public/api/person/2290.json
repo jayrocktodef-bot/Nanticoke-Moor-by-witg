@@ -13,22 +13,67 @@
     "notes": "Ingested from preserved Probate.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/288473824/william-butler",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 1742,
       "person_id": 2290,
-      "photo_id": 2648,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Mabins Parrish, Carolyn Durham Parrish, William Mabins Parrish, Lisa Parrish-Kurecz Fredricks, Durham Parrish, nd William Mabins Parrish, Lisa Parrish-Kurecz Fredricks, William M. Parrish, & nd wife, Lucy A. Butler, Durham Parrish, son William Mabins Parrish Jr., and William's daughter Marian., Marion Louise, Grandfather William Mabins Parrish, Lisa Fredericks, as well as maybe Irish, Spanish & Negro. All, that he had, or visited. (Although, Parrish; born January, in Rougemont, NC. Lived in Baltimore, and he, Btry A  FA, Hon disch //, Overseas // to //, Marbache Sector., my grandfather was witness to, NJ just prior to marrying, just outside of Philia, to Dunellun/Piscataway, foundry worker, knew of, please contact, Lisa \u00a0\u00a0\u00a0KURECZ@aol.com, Nancy wcranden@earthlink.net, | N-R | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Parrish",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1894",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamCarolynAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ParrishWilliamMabins.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "William Butler",
+      "citations": [
+        {
+          "citation_id": 1742,
+          "fact_id": 1742,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1743,
+      "person_id": 2290,
+      "fact_type": "Birth",
+      "date_string": "27 Jan 1920",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1743,
+          "fact_id": 1743,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1744,
+      "person_id": 2290,
+      "fact_type": "Death",
+      "date_string": "27 Apr 1921 (aged 1)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1744,
+          "fact_id": 1744,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

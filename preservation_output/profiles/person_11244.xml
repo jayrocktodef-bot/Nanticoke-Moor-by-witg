@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11244">
+    <name>
+      <nameForm>
+        <fullText>Mary Ann Turner</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_625"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_625"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>3 Dec 1947</original>
+      </date>
+      <source description="#s_625"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_625">
+    <about resource="GEDCOM Import"/>
+    <title>Record: GEDCOM Import</title>
+  </sourceDescription>
+</gedcomx>

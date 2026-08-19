@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6748">
+    <name>
+      <nameForm>
+        <fullText>Mabel Mosley</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_314"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>16 Dec 1902</original>
+      </date>
+      <source description="#s_314"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>2 Apr 1968 (aged 65)</original>
+      </date>
+      <source description="#s_314"/>
+    </fact>
+    <name>
+      <nameForm>
+        <fullText>. Mabel Mosley</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_481"/>
+  </person>
+  <sourceDescription id="s_481">
+    <about resource="MosleyCharlesHenryFamily.htm"/>
+    <title>Record: MosleyCharlesHenryFamily.htm</title>
+  </sourceDescription>
+  <sourceDescription id="s_314">
+    <about resource="DavisWilson&amp;Family.htm"/>
+    <title>Record: DavisWilson&amp;Family.htm</title>
+  </sourceDescription>
+</gedcomx>

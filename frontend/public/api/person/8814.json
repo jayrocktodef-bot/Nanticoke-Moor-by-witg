@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/151667820/adela-davis (Buried at Beth Abraham Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8269,
+      "person_id": 8814,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Adela Davis",
+      "citations": [
+        {
+          "citation_id": 8263,
+          "fact_id": 8269,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8270,
+      "person_id": 8814,
+      "fact_type": "Birth",
+      "date_string": "1882",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8264,
+          "fact_id": 8270,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8271,
+      "person_id": 8814,
+      "fact_type": "Death",
+      "date_string": "7 Jul 1962 (aged 79&ndash;80)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8265,
+          "fact_id": 8271,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -39,7 +98,7 @@
             "children": [
               {
                 "id": 8809,
-                "name": "Ludwig (Lewis) Davis",
+                "name": "Ludwig Davis",
                 "children": []
               }
             ]

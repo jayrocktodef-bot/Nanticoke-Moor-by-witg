@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7410">
+    <name>
+      <nameForm>
+        <fullText>Sarah Virginia Archer Seeney</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_568"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_568"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Mar 1961</original>
+      </date>
+      <source description="#s_568"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_568">
+    <about resource="SeeneySarahArcher.htm"/>
+    <title>Record: SeeneySarahArcher.htm</title>
+  </sourceDescription>
+</gedcomx>

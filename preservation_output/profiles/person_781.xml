@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_781">
+    <name>
+      <nameForm>
+        <fullText>Nicholas Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_117"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_117"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Oct 1603</original>
+      </date>
+      <source description="#s_117"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_117">
+    <about resource="wrightw1.htm"/>
+    <title>Record: wrightw1.htm</title>
+  </sourceDescription>
+</gedcomx>

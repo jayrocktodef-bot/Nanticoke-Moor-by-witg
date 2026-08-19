@@ -9,17 +9,57 @@
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "4 Mar 1874 Millsboro Su, Delaware",
-    "death_info": "",
+    "death_info": null,
     "notes": " | FindAGrave: no match",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9144,
+      "person_id": 9841,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Howard Delando Street",
+      "citations": [
+        {
+          "citation_id": 9138,
+          "fact_id": 9144,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9145,
+      "person_id": 9841,
+      "fact_type": "Birth",
+      "date_string": "4 Mar 1874 Millsboro Su, Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9139,
+          "fact_id": 9145,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
-      "rel_id": 9835,
-      "rel_name": "Mary A Street"
+      "rel_id": 7504,
+      "rel_name": "Mary A. Street"
     },
     {
       "relationship_type": "spouse",
@@ -74,15 +114,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Street Sr. James Howard",
       "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Street Sr. James Howard",
-      "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -104,13 +137,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Street Sr. James Howard",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -158,29 +184,8 @@
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Street Sr. James Howard",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Street Sr. James Howard",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Street Sr. James Howard",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Street Sr. James Howard",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -202,13 +207,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Street Sr. James Howard",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -298,20 +296,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Street Sr. James Howard",
       "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Street Sr. James Howard",
-      "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Street Sr. James Howard",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -341,7 +325,7 @@
       "evidence_text": "Obituary child link for Street Sr. James Howard",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -418,7 +402,7 @@
       "evidence_text": "Obituary child link for Street Sr. James Howard",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -526,234 +510,16 @@
       "rel_name": "Niquita Harris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9841,
-      "photo_id": 4359,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Sarah Jane Sockum Harmon, Isaac W. Harmon, Sarah Jane Sockum Harmon, Isaac Harman, Sylvia Davis Pinkett, Ephraim Charles married Eunice Wright, of Warren & Marie Wright, moved to Phila., Pa. & operated, Ann Wright;, As a young boy, became a seaman, an obsession with owning land, Indian river, soft-shelled crabs, three saw mills., dau of, married Amelia Street, one child John Wesley, who married Lillie Clark, dau. of, had one, Isaac who lived in Phila., who married Vina Ann Harmon, children Were: Ralph B., Theodore Parker, Ephraim Lincoln. Fanny, William Augustus, Eunice E., Noah Chester, Anna Janie, Isaac Wilson, Jr.; Sarah Jane, who married Ralph Bumbray, Jr.; Noah, who married Eunice Johnson, dau. Of Wesley Sylvester, Sarah Jane, and Noah, Jr.; Lillie Mae, children were: Isaac, Mable and Leon., Isaac\u2019s wife, Sarah Jane, each to granddaughter, Bertha and grandson John Wesley, and to each living child:, Sarah Jane, Isaac Wilson, Eliza Ann, and Noah, Jane Sockume, born abt  in Sussex County, . \u00a0\u00a0Thomas W. Harmon, born abt ., . \u00a0\u00a0Levin T. Harmon, . \u00a0\u00a0Sarah Jane Harmon, born abt . She married, Ralph Bumbray., Isaac Wilson  Harman, Millsboro. He, married Vina Ann Harmon., born abt ., . \u00a0\u00a0Noah Harmon, born abt  in Millsboro, Delaware. He married Eunice E.., . \u00a0\u00a0Lillie Mae Harmon, born abt ., . \u00a0\u00a0Eliza Anne Harmon, born abt . She married, William Howard Johnson, Patience Wright., . Robert M. Harmon, died Infant ., . Eunice W. Harmon, died Infant ., . Nancy Harmon, died Child ., . Ralph B. Harmon, of son John Wesley Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Sockum",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1829",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonJohnWesleyAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonIsaacW&SarahSockum.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9841,
-      "photo_id": 5554,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "P. Street Family, husband of Anna, Harmon Johnson, Matilda Johnson, David P. Street, Photo coutesy, of Sterling Street, David P. Street & family, David R. Street, Anna Harmon Street, Photo coutesy of Sterling Street, William Edward Streett, Lydia Wright Street, Bertha Mae Sockum Street, Photo coutesy, of Sterling Street, David P. STREET, Sussex County, he married Matilda JOHNSON., . David R., . John Street, born about ., . Catharine, . Jeremiah Street, born about ., . Isaac STREET, . Mary A. STREET, . Sophia Isabelle, Street. She married Charlie Morris., . Robert P., married Matilda Jackson., . Carrie J., . Howard D., . Gardiner, R. STREET, Mission Church Cemetery, Delaware. He married, Clara Miller, Della Hester Norwood., . Burton C., Clara Carney, of grandson William Edward Streett, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Family",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1822",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_StreettWilliamEAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetDavidP.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 672,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 903,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1134,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1365,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1596,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1827,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2058,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2289,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2520,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2751,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2982,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3213,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3443,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3673,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3904,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4135,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4366,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4596,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4827,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 9841,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 9841,
     "name": "Howard Delando Street",
     "children": [
       {
-        "id": 9835,
-        "name": "Mary A Street",
+        "id": 7504,
+        "name": "Mary A. Street",
         "children": []
       }
     ]

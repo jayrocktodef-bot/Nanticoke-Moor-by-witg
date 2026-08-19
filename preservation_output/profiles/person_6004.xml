@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6004">
+    <name>
+      <nameForm>
+        <fullText>remain one long</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_363"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_363"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Jan 1851</original>
+      </date>
+      <source description="#s_363"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_363">
+    <about resource="GreenageGeoWashFamily.htm"/>
+    <title>Record: GreenageGeoWashFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

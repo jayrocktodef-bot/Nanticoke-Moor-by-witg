@@ -13,14 +13,66 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/287893560/sally-wright",
     "dataset_source": "davis_family_gedcom"
   },
-  "relationships": [
+  "facts": [
     {
-      "relationship_type": "spouse",
-      "evidence_text": "GEDCOM Family @F142@ marriage 14 Dec 1807 Orange, Virginia, United States",
-      "certainty": "confirmed",
-      "rel_id": 8505,
-      "rel_name": "Morris Thomas"
+      "fact_id": 9391,
+      "person_id": 9992,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Sally Wright",
+      "citations": [
+        {
+          "citation_id": 9385,
+          "fact_id": 9391,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     },
+    {
+      "fact_id": 9392,
+      "person_id": 9992,
+      "fact_type": "Birth",
+      "date_string": "4 Jun 1935",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9386,
+          "fact_id": 9392,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9393,
+      "person_id": 9992,
+      "fact_type": "Death",
+      "date_string": "15 Jan 1998 (aged 62)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9387,
+          "fact_id": 9393,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
+  "relationships": [
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
@@ -29,25 +81,11 @@
       "rel_name": "Negro Morris Thomas"
     },
     {
-      "relationship_type": "spouse",
-      "evidence_text": "GEDCOM Family @F143@ marriage 14 Dec 1807 Orange, Virginia",
-      "certainty": "confirmed",
-      "rel_id": 8505,
-      "rel_name": "Morris Thomas"
-    },
-    {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10085,
-      "rel_name": "Elizabeth \"Betsy\" Morris"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 10083,
-      "rel_name": "Wright Thomas Sr."
+      "rel_name": "Elizabeth Betsy Morris"
     },
     {
       "relationship_type": "spouse",
@@ -63,12 +101,6 @@
   "ancestry": {
     "id": 9992,
     "name": "Sally Wright",
-    "children": [
-      {
-        "id": 10083,
-        "name": "Wright Thomas Sr.",
-        "children": []
-      }
-    ]
+    "children": []
   }
 }

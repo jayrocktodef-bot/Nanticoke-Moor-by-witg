@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9310,
+      "person_id": 9960,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Maryann Wright",
+      "citations": [
+        {
+          "citation_id": 9304,
+          "fact_id": 9310,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9311,
+      "person_id": 9960,
+      "fact_type": "Birth",
+      "date_string": "18 July 1914 Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9305,
+          "fact_id": 9311,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9312,
+      "person_id": 9960,
+      "fact_type": "Death",
+      "date_string": "24 December 1991",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9306,
+          "fact_id": 9312,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -74,7 +133,7 @@
                 "children": [
                   {
                     "id": 10122,
-                    "name": "John R (H) or Jonathan Harmon",
+                    "name": "John R or Jonathan Harmon",
                     "children": [
                       {
                         "id": 9982,

@@ -1,7 +1,7 @@
 {
   "person": {
     "person_id": 6938,
-    "name": "Lewis Pierce Jr.",
+    "name": "Lewis Pierce Jr",
     "first_name": "Lewis",
     "middle_name": "Pierce",
     "maiden_name": "",
@@ -13,27 +13,34 @@
     "notes": "Ingested from PierceLewisJr.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 6311,
       "person_id": 6938,
-      "photo_id": 5266,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Lewis Pierce Jr., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Jr.",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_PierceLewisJr.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/PierceLewisJr.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Lewis Pierce Jr.",
+      "citations": [
+        {
+          "citation_id": 6305,
+          "fact_id": 6311,
+          "source_id": 512,
+          "evidence_text": null,
+          "source_title": "Record: PierceLewisJr.htm",
+          "source_url": "PierceLewisJr.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 6938,
-    "name": "Lewis Pierce Jr.",
+    "name": "Lewis Pierce Jr",
     "children": []
   }
 }

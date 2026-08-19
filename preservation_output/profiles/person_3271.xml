@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3271">
+    <name>
+      <nameForm>
+        <fullText>Marianna Sissy</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_175"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>6 Feb 1945</original>
+      </date>
+      <source description="#s_175"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>9 Mar 1974 (aged 29)</original>
+      </date>
+      <source description="#s_175"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_175">
+    <about resource="BardsOfNewJersey.htm"/>
+    <title>Record: BardsOfNewJersey.htm</title>
+  </sourceDescription>
+</gedcomx>

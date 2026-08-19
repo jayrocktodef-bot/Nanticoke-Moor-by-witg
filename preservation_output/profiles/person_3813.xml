@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3813">
+    <name>
+      <nameForm>
+        <fullText>Anna Loatman Coker</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_210"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_210"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>10 Aug 1889</original>
+      </date>
+      <source description="#s_210"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_210">
+    <about resource="CarneyWilhelminaDurham.htm"/>
+    <title>Record: CarneyWilhelminaDurham.htm</title>
+  </sourceDescription>
+</gedcomx>

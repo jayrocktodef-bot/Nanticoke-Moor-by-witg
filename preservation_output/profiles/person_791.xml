@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_791">
+    <name>
+      <nameForm>
+        <fullText>Gertrude Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_118"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_118"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Mar 1898</original>
+      </date>
+      <source description="#s_118"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_791"/>
+    <person2 resource="#p_5971"/>
+    <note>
+      <text>Evidence: Gertrude Wright who married Noah Harmon, Jr.</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_118">
+    <about resource="wrightw2.htm"/>
+    <title>Record: wrightw2.htm</title>
+  </sourceDescription>
+</gedcomx>

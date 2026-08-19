@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11188">
+    <name>
+      <nameForm>
+        <fullText>Hansley Obituary</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_624"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>24 Jul 1921</original>
+      </date>
+      <source description="#s_624"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>19 Feb 1991 (aged 69)</original>
+      </date>
+      <source description="#s_624"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_624">
+    <about resource="Obituary Archive"/>
+    <title>Record: Obituary Archive</title>
+  </sourceDescription>
+</gedcomx>

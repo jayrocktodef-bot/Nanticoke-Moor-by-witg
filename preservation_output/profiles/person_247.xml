@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_247">
+    <name>
+      <nameForm>
+        <fullText>William Dean</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_40"/>
+    <source description="#s_667"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>3 Mar 1837</original>
+      </date>
+      <source description="#s_40"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>10 Feb 1877 (aged 39)</original>
+      </date>
+      <source description="#s_40"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_247"/>
+    <person2 resource="#p_976"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_247"/>
+    <person2 resource="#p_368"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_247"/>
+    <person2 resource="#p_976"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_40">
+    <about resource="dean-j2.htm"/>
+    <title>Record: dean-j2.htm</title>
+  </sourceDescription>
+  <sourceDescription id="s_667">
+    <about resource="https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"/>
+    <title>Obituary: Marguerite J. Brown ~1928-2016</title>
+  </sourceDescription>
+</gedcomx>

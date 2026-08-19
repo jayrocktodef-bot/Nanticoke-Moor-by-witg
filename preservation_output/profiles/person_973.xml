@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_973">
+    <name>
+      <nameForm>
+        <fullText>Theodore Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_119"/>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_24"/>
+    <person2 resource="#p_973"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_24"/>
+    <person2 resource="#p_973"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_119">
+    <about resource="moors_moors.aspx"/>
+    <title>Record: moors_moors.aspx</title>
+  </sourceDescription>
+</gedcomx>

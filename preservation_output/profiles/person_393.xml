@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_393">
+    <name>
+      <nameForm>
+        <fullText>although that seems unlikely</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_64"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>28 Feb 1927</original>
+      </date>
+      <source description="#s_64"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>6 Mar 2007 (aged 80)</original>
+      </date>
+      <source description="#s_64"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_64">
+    <about resource="hansr-e1.htm"/>
+    <title>Record: hansr-e1.htm</title>
+  </sourceDescription>
+</gedcomx>

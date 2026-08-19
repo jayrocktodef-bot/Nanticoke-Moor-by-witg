@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9798,
+      "person_id": 10457,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Eli Norwood",
+      "citations": [
+        {
+          "citation_id": 9792,
+          "fact_id": 9798,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9799,
+      "person_id": 10457,
+      "fact_type": "Birth",
+      "date_string": "1770 Indian River Hundred, Sussex, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9793,
+          "fact_id": 9799,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9800,
+      "person_id": 10457,
+      "fact_type": "Death",
+      "date_string": "1838 Indian River Hundred, Sussex, Delaware, United States",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9794,
+          "fact_id": 9800,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -26,7 +85,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10652,
-      "rel_name": "Anne \"Ann\" \"Annie\" Norwood"
+      "rel_name": "Anne Ann Annie Norwood"
     },
     {
       "relationship_type": "child_of",
@@ -40,7 +99,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10542,
-      "rel_name": "Nathaniel \"Nathan\" Norwood"
+      "rel_name": "Nathaniel Nathan Norwood"
     },
     {
       "relationship_type": "child_of",
@@ -48,13 +107,6 @@
       "certainty": "confirmed",
       "rel_id": 10374,
       "rel_name": "Jemima Harmon"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "GEDCOM Family @F190@ marriage 12 Oct 1824 Indian River Hundred, Sussex, Delaware, United States",
-      "certainty": "confirmed",
-      "rel_id": 10649,
-      "rel_name": "Ellen J \"Elon\" \"Eleana\" Cornish Norwood"
     },
     {
       "relationship_type": "child_of",
@@ -71,7 +123,177 @@
       "rel_name": "Samuel B Norwood"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 10457,
+      "photo_id": 7704,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Clarence Norwood & \n    Children Clarence Norwood From Celeste \n        Mars...",
+      "subject_names": "Norwood",
+      "maiden_name": "Norwood",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_NorwoodClarence.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodC&LKids.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 10457,
+      "photo_id": 7705,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Clarence Norwood & \n    Children Clarence Norwood From Celeste \n        Mars...",
+      "subject_names": "Norwood",
+      "maiden_name": "Norwood",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_NorwoodC&LKids.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodC&LKids.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 10457,
+      "photo_id": 7706,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Arthur Hill Norwood Son \n        of George Norwood GO \n            TO PHOTO ...",
+      "subject_names": "Norwood",
+      "maiden_name": "Norwood",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_NorwoodArthurHill.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodArthurHill.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 10457,
+      "photo_id": 7707,
+      "title_or_caption": "Footer | Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Arthur Hill Norwood Son \n        of George Norwood GO \n            TO PHOTO ...",
+      "subject_names": "Norwood",
+      "maiden_name": "Norwood",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_NorwoodCharlesAAncestry.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodArthurHill.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 10457,
+      "photo_id": 7708,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Luther Barnes Norwood Husband of Alice May \n    Jackson GO \n        TO PHOTO...",
+      "subject_names": "Norwood",
+      "maiden_name": "Norwood",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_NorwoodLuther.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodLuther.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 10457,
+      "photo_id": 7709,
+      "title_or_caption": "Footer | Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Luther Barnes Norwood Husband of Alice May \n    Jackson GO \n        TO PHOTO...",
+      "subject_names": "Norwood",
+      "maiden_name": "Norwood",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_NorwoodSamuelBAncestry.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodLuther.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 10457,
+      "photo_id": 7710,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Robert Norwood GO \n            TO PHOTO INDEX A-C | D | E-L | M | N-R | S-Z ...",
+      "subject_names": "Norwood",
+      "maiden_name": "Norwood",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_NorwoodRobert.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodRobert.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 10457,
+      "photo_id": 7711,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Robert Sylvester Norwood GO \n            TO PHOTO INDEX A-C | D | E-L | M | ...",
+      "subject_names": "Norwood",
+      "maiden_name": "Norwood",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_NorwoodRobertSylvester.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodRobertSylvester.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 10457,
+      "photo_id": 7712,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Gertrude \n    & Annie Wright; Sarah Norwood L to \n    R: Gertrude Wright, Sa...",
+      "subject_names": "Norwood",
+      "maiden_name": "Norwood",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WrightGertrude&Annie&SarahNorwood.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightGertrude&Annie&SarahNorwood.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 10457,
+      "photo_id": 7713,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Sarah \n    E. Norwood GO \n              TO PHOTO INDEX A-C | D | E-L | M | N...",
+      "subject_names": "Norwood",
+      "maiden_name": "Norwood",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_NorwoodSarah.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodSarah.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 10457,
+      "photo_id": 7714,
+      "title_or_caption": "Footer | Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Sarah \n    E. Norwood GO \n              TO PHOTO INDEX A-C | D | E-L | M | N...",
+      "subject_names": "Norwood",
+      "maiden_name": "Norwood",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_NorwoodSarahAncestry.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodSarah.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 10457,
+      "photo_id": 7715,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Thomas Norwood GO \n            TO PHOTO INDEX A-C | D | E-L | M | N-R | S-Z ...",
+      "subject_names": "Norwood",
+      "maiden_name": "Norwood",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_NorwoodThomas.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodThomas.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 10457,
+      "photo_id": 7716,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Vincent \n    Norwood GO \n            TO PHOTO INDEX A-C | D | E-L | M | N-R ...",
+      "subject_names": "Norwood",
+      "maiden_name": "Norwood",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_NorwoodVincent.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodVincent.htm",
+      "dataset_source": "mitsawokett"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -80,7 +302,7 @@
     "children": [
       {
         "id": 10542,
-        "name": "Nathaniel \"Nathan\" Norwood",
+        "name": "Nathaniel Nathan Norwood",
         "children": []
       },
       {

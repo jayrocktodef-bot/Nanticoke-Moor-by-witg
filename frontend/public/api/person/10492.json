@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9827,
+      "person_id": 10492,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Daniel Durham Jr",
+      "citations": [
+        {
+          "citation_id": 9821,
+          "fact_id": 9827,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9828,
+      "person_id": 10492,
+      "fact_type": "Birth",
+      "date_string": "1718 Little Creek Hundred, Kent County, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9822,
+          "fact_id": 9828,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9829,
+      "person_id": 10492,
+      "fact_type": "Death",
+      "date_string": "13 May 1786 Little Creek Hundred, Kent County, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9823,
+          "fact_id": 9829,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -29,99 +88,7 @@
       "rel_name": "Daniel David Durham"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10492,
-      "photo_id": 2430,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Shimmy Carter, holding photo of father, William James Carter, William James Carter, Nov -- Jan, Shimmy Carter, & James Carney, Wedding of James H., Italics denotes, to R:, Lillian Grace Durham Coker, Bertha Emma Durham Durham, Nellie Mae Durham Pritchett, Mary Elizabeth \u201cElizabeth\u201d Coker, Marian Delores Durham Carter, James \u201cShimmy\u201d H. Carter, John Daniel Durham, Naomi V. Durham, Benjamin Robert Durham Jr., Lawrence Sargent \u201cBuss\u201d Durham, Edith Pearl \u201cPearl\u201d Durham, Elizabeth \u201cElizabeth\u201d Durham Coker)., of daughter Suzette Carter, | D | E-L |, M | N-R | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Carter",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1889",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_CarterSuzetteAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterJamesHShimmy.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10492,
-      "photo_id": 3470,
-      "title_or_caption": "Benjamin R. & Anna Mae Durham Benjamin Durham son of Daniel Du...",
-      "subject_names": "Benjamin R",
-      "maiden_name": "Durham",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1892",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamBen&Anna&kids.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamBenjaminR&AnnaFamily.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10492,
-      "photo_id": 3471,
-      "title_or_caption": "Benjamin R. & Anna Mae Durham Benjamin Durham son of Daniel Du...",
-      "subject_names": "Benjamin R",
-      "maiden_name": "Durham",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1892",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamAnnaM.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamBenjaminR&AnnaFamily.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10492,
-      "photo_id": 3479,
-      "title_or_caption": "Benjamin R. & Anna Mae Durham Benjamin Durham son of Daniel Du...",
-      "subject_names": "Benjamin R",
-      "maiden_name": "Durham",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1892",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamBenjaminRAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamBenjaminR&AnnaFamily.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10492,
-      "photo_id": 3572,
-      "title_or_caption": "Daniel M. & Joan (Durham) Durham Jr. Daniel, Joan & K. Marella About...",
-      "subject_names": "Daniel M",
-      "maiden_name": "Jr.",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1970",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamKMarellaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamDaniel&June.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10492,
-      "photo_id": 3577,
-      "title_or_caption": "Daniel M. & Joan (Durham) Durham Jr. Daniel, Joan & K. Marella About...",
-      "subject_names": "Daniel M",
-      "maiden_name": "Jr.",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1970",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_GoToPhotoIndex.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamDaniel&June.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10492,
-      "photo_id": 3578,
-      "title_or_caption": "Durham Daniel & June",
-      "subject_names": "Durham Daniel & June",
-      "maiden_name": "Jr.",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1970",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_d-mainmenu.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamDaniel&June.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

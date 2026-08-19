@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11740">
+    <name>
+      <nameForm>
+        <fullText>William Durham and Mahala Songo Durham</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_656"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11739"/>
+    <person2 resource="#p_11740"/>
+    <note>
+      <text>Evidence: Isabella married Isaiah Durham in Smyrna DE. The minister was William R. McFarlane. Isaiah is believed to have been the son of William Durham and Mahala Songo Durham. Mahala married William H. Morgan </text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11739"/>
+    <person2 resource="#p_11740"/>
+    <note>
+      <text>Evidence: Isabella married Isaiah Durham in Smyrna DE. The minister was William R. McFarlane. Isaiah is believed to have been the son of William Durham and Mahala Songo Durham. Mahala married William H. Morgan </text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_656">
+    <about resource="sisco-i1.htm"/>
+    <title>Record: sisco-i1.htm</title>
+  </sourceDescription>
+</gedcomx>

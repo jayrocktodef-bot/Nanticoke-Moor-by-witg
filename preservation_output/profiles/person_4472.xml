@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4472">
+    <name>
+      <nameForm>
+        <fullText>Elizabeth Jackson Davis</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_260"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1876</original>
+      </date>
+      <source description="#s_260"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_260"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_260">
+    <about resource="DavisMaryElizJackson.htm"/>
+    <title>Record: DavisMaryElizJackson.htm</title>
+  </sourceDescription>
+</gedcomx>

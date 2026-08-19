@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_454">
+    <name>
+      <nameForm>
+        <fullText>Margaret Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_76"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_76"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_76"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_454"/>
+    <person2 resource="#p_958"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_454"/>
+    <person2 resource="#p_1020"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (77.4% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_454"/>
+    <person2 resource="#p_1336"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_454"/>
+    <person2 resource="#p_958"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_454"/>
+    <person2 resource="#p_1020"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (77.4% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_454"/>
+    <person2 resource="#p_1336"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_76">
+    <about resource="jwesley.htm"/>
+    <title>Record: jwesley.htm</title>
+  </sourceDescription>
+</gedcomx>

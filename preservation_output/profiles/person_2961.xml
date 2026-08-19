@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2961">
+    <name>
+      <nameForm>
+        <fullText>Donald Gloria Attix</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_168"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>3 Nov 1926</original>
+      </date>
+      <source description="#s_168"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>3 Nov 1929 (aged 3)</original>
+      </date>
+      <source description="#s_168"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_168">
+    <about resource="AttixDonaldFamily.htm"/>
+    <title>Record: AttixDonaldFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

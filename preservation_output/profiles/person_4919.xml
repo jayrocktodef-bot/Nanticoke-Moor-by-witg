@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4919">
+    <name>
+      <nameForm>
+        <fullText>Emma Eliza Durham</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_293"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>10 Nov 1880</original>
+      </date>
+      <source description="#s_293"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1 Dec 1908 (aged 28)</original>
+      </date>
+      <source description="#s_293"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_293">
+    <about resource="DurhamCarlton.htm"/>
+    <title>Record: DurhamCarlton.htm</title>
+  </sourceDescription>
+</gedcomx>

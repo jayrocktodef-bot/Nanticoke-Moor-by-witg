@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_327">
+    <name>
+      <nameForm>
+        <fullText>Whittenton Durham</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_53"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_53"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>2 Nov 1870</original>
+      </date>
+      <source description="#s_53"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_53">
+    <about resource="durhm-j1.htm"/>
+    <title>Record: durhm-j1.htm</title>
+  </sourceDescription>
+</gedcomx>

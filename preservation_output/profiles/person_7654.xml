@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7654">
+    <name>
+      <nameForm>
+        <fullText>Dear Mrs. Ridgeway:</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_589"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>11 Nov 1980</original>
+      </date>
+      <source description="#s_589"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>4 May 2003 (aged 22)</original>
+      </date>
+      <source description="#s_589"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_589">
+    <about resource="SockumeLevin&amp;Eunice.htm"/>
+    <title>Record: SockumeLevin&amp;Eunice.htm</title>
+  </sourceDescription>
+</gedcomx>

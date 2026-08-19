@@ -13,6 +13,65 @@
     "notes": "Moor/Nanticoke lineage record - Harmon cluster | Verified via FindAGrave: https://www.findagrave.com/memorial/57617284/m-harmon",
     "dataset_source": "moors_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 1124,
+      "person_id": 958,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Mr Harmon",
+      "citations": [
+        {
+          "citation_id": 1124,
+          "fact_id": 1124,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1125,
+      "person_id": 958,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1125,
+          "fact_id": 1125,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1126,
+      "person_id": 958,
+      "fact_type": "Death",
+      "date_string": "Oct",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1126,
+          "fact_id": 1126,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "cross_dataset_match",
@@ -20,6 +79,27 @@
       "certainty": "confirmed",
       "rel_id": 454,
       "rel_name": "Margaret Harmon"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 454,
+      "rel_name": "Margaret Harmon"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 11192,
+      "rel_name": "Fred Harmon"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 11256,
+      "rel_name": "Marietta Harmon"
     }
   ],
   "photos": [],

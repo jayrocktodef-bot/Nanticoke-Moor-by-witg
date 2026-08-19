@@ -13,13 +13,72 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/157188046/c-davis (Buried at Noxubee Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 10200,
+      "person_id": 10812,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Cherita Davis",
+      "citations": [
+        {
+          "citation_id": 10194,
+          "fact_id": 10200,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 10201,
+      "person_id": 10812,
+      "fact_type": "Birth",
+      "date_string": "18 May 1880",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10195,
+          "fact_id": 10201,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 10202,
+      "person_id": 10812,
+      "fact_type": "Death",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10196,
+          "fact_id": 10202,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10815,
-      "rel_name": "Charles Morris \"Charlie\" Davis"
+      "rel_name": "Charles Morris Charlie Davis"
     },
     {
       "relationship_type": "child_of",
@@ -38,7 +97,7 @@
     "children": [
       {
         "id": 10815,
-        "name": "Charles Morris \"Charlie\" Davis",
+        "name": "Charles Morris Charlie Davis",
         "children": []
       },
       {
@@ -52,7 +111,7 @@
           },
           {
             "id": 9144,
-            "name": "(Mary) Anne Harmon",
+            "name": "Anne Harmon",
             "children": [
               {
                 "id": 10514,

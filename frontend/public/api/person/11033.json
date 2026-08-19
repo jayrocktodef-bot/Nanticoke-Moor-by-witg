@@ -13,6 +13,74 @@
     "notes": "Mentioned in obituary | Verified via FindAGrave: https://www.findagrave.com/memorial/189798463/pauline-pierce",
     "dataset_source": "mitsawokett_obituaries"
   },
+  "facts": [
+    {
+      "fact_id": 10624,
+      "person_id": 11033,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Pauline Cuff Pierce",
+      "citations": [
+        {
+          "citation_id": 10618,
+          "fact_id": 10624,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        },
+        {
+          "citation_id": 11312,
+          "fact_id": 10624,
+          "source_id": 667,
+          "evidence_text": "Detected in Obituary of 1. Pauline C. Pierce",
+          "source_title": "Obituary: Marguerite J. Brown ~1928-2016",
+          "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm",
+          "source_dataset": "mitsawokett_obits"
+        }
+      ]
+    },
+    {
+      "fact_id": 10625,
+      "person_id": 11033,
+      "fact_type": "Birth",
+      "date_string": "24 Mar 1934",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10619,
+          "fact_id": 10625,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    },
+    {
+      "fact_id": 10626,
+      "person_id": 11033,
+      "fact_type": "Death",
+      "date_string": "9 Jun 1973 (aged 39)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10620,
+          "fact_id": 10626,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -67,15 +135,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Pauline Cuff Pierce",
       "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Pauline Cuff Pierce",
-      "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -97,13 +158,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Pauline Cuff Pierce",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -151,29 +205,8 @@
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Pauline Cuff Pierce",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Pauline Cuff Pierce",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Pauline Cuff Pierce",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Pauline Cuff Pierce",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -195,13 +228,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Pauline Cuff Pierce",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -291,20 +317,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Pauline Cuff Pierce",
       "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Pauline Cuff Pierce",
-      "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Pauline Cuff Pierce",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -334,7 +346,7 @@
       "evidence_text": "Obituary child link for Pauline Cuff Pierce",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -411,7 +423,7 @@
       "evidence_text": "Obituary child link for Pauline Cuff Pierce",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -519,305 +531,9 @@
       "rel_name": "Niquita Harris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 11033,
-      "photo_id": 1992,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Are These People, -- p, to Unknowns P, Go to Unknowns P, Go to Unknowns P, your choice., BRIDGETON OR MILLSBORO, Bibles or obituaries, Durham Heard presents the following, photos to be identified., Pierce collection, Pierce replies below:, Helen Pierce [mailto:pierceh@gmail.com], Sent: June, The people, Magnolia Street in Salem NJ, I believe, one with headband is Pauline, The boy, the mother of the kids, but they are not sure., left. Who are the others?, Priscilla Durham & boy, Durham Heard says:, photo D Joseph Carney and, his children with Alma Mosley, Durham Heard says:, Lottie Bowles, not related to group, Durham Heard says:, to be identified., Pierce collection, This is, Ricketts says, \"this is an unknown JOHNSON.\", Please ID this gentleman., Virginia Sammons Reed, of Cheswold owned this photo., \"Lily and Angie Mosley\", are their parents?, Virginia Sammons Reed, of Cheswold owned this photo., \"Mosley family\", Virginia Sammons Reed, of Cheswold owned this photo., \"Morgan and Reed families\", Sammons Mosley, of Cheswold owned this photo., Nemar Mar Durham, I say #, be #'s, husband of Mae Sammons, Sent: February, Subject: Picture &, Photo  # Lawrence also, Sammons Mosley, of Cheswold owned this photo., Carney is #, back is Charles E. Pritchett, Jr. The big, Mildred nee Mosley Durham, Person # Charles E. Pritchett, Elva nee Miller Pritchett, are brothers in picture #., Sallie Durham Muntz., Marshall adds:, like my grandmother, Anna Hughes Wright from Cheswold, De.. I don't, Sent: February, Subject: Picture &, Photo  # Lawrence also, Sammons Mosley, of Cheswold owned this photo., Sammons Mosley, of Cheswold owned this photo., Sammons Mosley, of Cheswold owned this photo., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "People",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "2015",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_Who2.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WhoAreThesePeople.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 11033,
-      "photo_id": 2230,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Viola Reed Ridgeway, Custis Family, All photos courtesy, of Paul Thomas Johnson, Winfield Ridgeway Sr., Son of Greensbury Ridgeway, Sr & Sarah V. Durham, Married to Ola Reed., Lorraine Custis Ridgeway, Ola Reed Ridgeway, Lorraine Custis -, Daughter Of Peter Custis, th & Doris Ridgeway., Married to Garry Johnson, Ola Reed Ridgeway, Married to Winfield Ridgeway. Sr., Date:  - Gouldtown, Son-in-law Peter Parker Custis, Date: Cira 's, During World War, Daughter\u00a0\u00a0Doris Ridgeway Custis, Hazel Pierce Custis, Married to Peter Parker Custis, Date: Cira 's, & Parker \"Skip\" Custis, Children of Parker Custis, th & Doris Ridgeway., Pauline Custis Bard, Daughter of Peter Parker Custis, rd & Hazel Pierce., Married to Gilbert Bard, Date:  - Bridgeton, L to R: Winfield Ridgeway, Floyd Reed, Parker Custis, husband of Winfield's daughter, Doris Ridgeway, Ancestry of Parker, A. Custis, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Reed",
-      "married_surname": "Ridgeway",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1901",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_CustisParkerAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayWinfield.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 11033,
-      "photo_id": 2232,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Viola Reed Ridgeway, Custis Family, Winfield Ridgeway Sr., Son of Greensbury Ridgeway, Sr & Sarah V. Durham, Married to Ola Reed., Lorraine Custis Ridgeway, Ola Reed Ridgeway, Lorraine Custis, - Daughter Of Peter Custis, th & Doris Ridgeway., Married to Garry Johnson, Ola Reed Ridgeway, Married to Winfield Ridgeway. Sr., Date:  - Gouldtown, Son-in-law Peter Parker Custis, Date: Cira 's, During World War, Daughter\u00a0\u00a0Doris Ridgeway Custis, Hazel Pierce Custis, Married to Peter Parker Custis, Date: Cira 's, & Parker \"Skip\" Custis, Children of Parker Custis, th & Doris Ridgeway., Pauline Custis Bard, Daughter of Peter Parker Custis, rd & Hazel Pierce., Married to Gilbert Bard, Date:  - Bridgeton, L to R: Winfield, Floyd Reed, Parker Custis, husband of Winfield's daughter, Doris Ridgeway, of son, Winfield Allen Ridgeway Jr., Ancestry of Parker, A. Custis, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Reed",
-      "married_surname": "Ridgeway",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1901",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_CustisPeterParker-WW2.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayWinfield.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 11033,
-      "photo_id": 2233,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Viola Reed Ridgeway, Custis Family, Winfield Ridgeway Sr., Son of Greensbury Ridgeway, Sr & Sarah V. Durham, Married to Ola Reed., Lorraine Custis Ridgeway, Ola Reed Ridgeway, Lorraine Custis, - Daughter Of Peter Custis, th & Doris Ridgeway., Married to Garry Johnson, Ola Reed Ridgeway, Married to Winfield Ridgeway. Sr., Date:  - Gouldtown, Son-in-law Peter Parker Custis, Date: Cira 's, During World War, Daughter\u00a0\u00a0Doris Ridgeway Custis, Hazel Pierce Custis, Married to Peter Parker Custis, Date: Cira 's, & Parker \"Skip\" Custis, Children of Parker Custis, th & Doris Ridgeway., Pauline Custis Bard, Daughter of Peter Parker Custis, rd & Hazel Pierce., Married to Gilbert Bard, Date:  - Bridgeton, L to R: Winfield, Floyd Reed, Parker Custis, husband of Winfield's daughter, Doris Ridgeway, of son, Winfield Allen Ridgeway Jr., Ancestry of Parker, A. Custis, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Reed",
-      "married_surname": "Ridgeway",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1901",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_RidgewayDoris-1.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayWinfield.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 11033,
-      "photo_id": 2235,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Viola Reed Ridgeway, Custis Family, Winfield Ridgeway Sr., Son of Greensbury Ridgeway, Sr & Sarah V. Durham, Married to Ola Reed., Lorraine Custis Ridgeway, Ola Reed Ridgeway, Lorraine Custis, - Daughter Of Peter Custis, th & Doris Ridgeway., Married to Garry Johnson, Ola Reed Ridgeway, Married to Winfield Ridgeway. Sr., Date:  - Gouldtown, Son-in-law Peter Parker Custis, Date: Cira 's, During World War, Daughter\u00a0\u00a0Doris Ridgeway Custis, Hazel Pierce Custis, Married to Peter Parker Custis, Date: Cira 's, & Parker \"Skip\" Custis, Children of Parker Custis, th & Doris Ridgeway., Pauline Custis Bard, Daughter of Peter Parker Custis, rd & Hazel Pierce., Married to Gilbert Bard, Date:  - Bridgeton, L to R: Winfield, Floyd Reed, Parker Custis, husband of Winfield's daughter, Doris Ridgeway, of son, Winfield Allen Ridgeway Jr., Ancestry of Parker, A. Custis, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Reed",
-      "married_surname": "Ridgeway",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1901",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_PierceHazelPierceCustis.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayWinfield.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 11033,
-      "photo_id": 2238,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Viola Reed Ridgeway, Custis Family, Winfield Ridgeway Sr., Son of Greensbury Ridgeway, Sr & Sarah V. Durham, Married to Ola Reed., Lorraine Custis Ridgeway, Ola Reed Ridgeway, Lorraine Custis, - Daughter Of Peter Custis, th & Doris Ridgeway., Married to Garry Johnson, Ola Reed Ridgeway, Married to Winfield Ridgeway. Sr., Date:  - Gouldtown, Son-in-law Peter Parker Custis, Date: Cira 's, During World War, Daughter\u00a0\u00a0Doris Ridgeway Custis, Hazel Pierce Custis, Married to Peter Parker Custis, Date: Cira 's, & Parker \"Skip\" Custis, Children of Parker Custis, th & Doris Ridgeway., Pauline Custis Bard, Daughter of Peter Parker Custis, rd & Hazel Pierce., Married to Gilbert Bard, Date:  - Bridgeton, L to R: Winfield, Floyd Reed, Parker Custis, husband of Winfield's daughter, Doris Ridgeway, of son, Winfield Allen Ridgeway Jr., Ancestry of Parker, A. Custis, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Reed",
-      "married_surname": "Ridgeway",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1901",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_CustisParkerAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayWinfield.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 11033,
-      "photo_id": 2959,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Edward H. \"Porter\" Durham, & wife Harriett Durham, girl unknown, row L to R: Daughters, Laura Durham Jackson, wife of John Jackson, Gertrude Durham Durham, wife of Alfred Nort Durham, Anna Mae Durham Durham, d.  Sep, wife of Benjamin Durham, Mary Durham Pierce, wife of Roy K. Pierce, Catherine \"Kate\" Durham Pierce, b. ca. Mar, wife of Enos Pierce, Priscilla Durham Coward Miller, b. ca. Apr, wife of William H. Coward, Sr. and John Miller, Ella Durham Sammons, b. ca. Sep, wife of William Garfield Sammons, Left to right: Gladys, daughter of Mary Durham Pierce, below her., Eleanor Pierce, daughter of Mary Durham Pierce, below her., Wife of Roy K. Pierce, Durham Pierce, Left to right: Essie, Buddy Loatman, Gene Cuff, Sadie Durham Pierce, daughter of, to right: Terrence, C. Pierce, husband of Pauline Cuff, and son of, Gene Cuff, Sadie Durham Pierce, to right, back row-- Anna, Mae Durham Durham, Gertrude \"Gertie\" Durham Durham, Mary Durham Pierce, to right, Roy Durham, Ancestry of daughter, Gertrude Durham Durham, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1867",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamGertrudeAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamJEH&Harriett.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 11033,
-      "photo_id": 2987,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Viola Reed Ridgeway, Custis Family, Winfield Ridgeway Sr., Son of Greensbury Ridgeway, Sr & Sarah V. Durham, Married to Ola Reed., Lorraine Custis Ridgeway, Ola Reed Ridgeway, Lorraine Custis, - Daughter Of Peter Custis, th & Doris Ridgeway., Married to Garry Johnson, Ola Reed Ridgeway, Married to Winfield Ridgeway. Sr., Date:  - Gouldtown, Son-in-law Peter Parker Custis, Date: Cira 's, During World War, Daughter\u00a0\u00a0Doris Ridgeway Custis, Hazel Pierce Custis, Married to Peter Parker Custis, Date: Cira 's, & Parker \"Skip\" Custis, Children of Parker Custis, th & Doris Ridgeway., Pauline Custis Bard, Daughter of Peter Parker Custis, rd & Hazel Pierce., Married to Gilbert Bard, Date:  - Bridgeton, L to R: Winfield, Floyd Reed, Parker Custis, husband of Winfield's daughter, Doris Ridgeway, of son, Winfield Allen Ridgeway Jr., Ancestry of Parker, A. Custis, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Reed",
-      "married_surname": "Ridgeway",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1901",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_RidgewayWinfieldJrAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CustisCarol&Lorraine&Parker.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 766,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 997,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1228,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1459,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1690,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1921,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2152,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2383,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2614,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2845,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3076,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3307,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3536,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3767,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3998,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4229,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4460,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4690,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4921,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 11033,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 11033,
     "name": "Pauline Cuff Pierce",

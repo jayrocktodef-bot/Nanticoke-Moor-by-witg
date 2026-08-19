@@ -13,6 +13,36 @@
     "notes": " | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
+  "facts": [
+    {
+      "fact_id": 1043,
+      "person_id": 741,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Edith Wright",
+      "citations": [
+        {
+          "citation_id": 1043,
+          "fact_id": 1043,
+          "source_id": 112,
+          "evidence_text": null,
+          "source_title": "Record: wright-d.htm",
+          "source_url": "wright-d.htm",
+          "source_dataset": "lynncjackson"
+        },
+        {
+          "citation_id": 11319,
+          "fact_id": 1043,
+          "source_id": 667,
+          "evidence_text": "Detected in Obituary of Gerald Henry Wright passed",
+          "source_title": "Obituary: Marguerite J. Brown ~1928-2016",
+          "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm",
+          "source_dataset": "mitsawokett_obits"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -22,35 +52,20 @@
       "rel_name": "George Hitchens"
     }
   ],
-  "photos": [
+  "photos": [],
+  "obituaries": [
     {
       "person_id": 741,
-      "photo_id": 4415,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Wright Hitchens, of George Hitchens, Edith & daughter Madeline, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Hitchens",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HitchensMadelineAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HitchensEdithWright&dau.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 741,
-      "photo_id": 4407,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Donald Hitchens, Edith Wright Hitchens & daughter, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Hitchens",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HitchensDonaldJrAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HitchensDonald1.htm",
-      "dataset_source": "mitsawokett"
+      "id": 360,
+      "deceased_name": "Gerald Henry Wright passed",
+      "age": "",
+      "birth_date": "2015",
+      "death_date": "1947",
+      "cemetery_location": "Cemetery",
+      "full_text": "Gerald Henry Wright passed away Jan. 31, 2015. Gerald was born Nov. 20, 1947 \n  to the late Arthur and Edith Wright. A committal service was held 1 p.m., Friday, \n  Mar. 6, 2015 at the Bennie Smith Funeral Home, Dover, DE. Burial will be in \n  the Sharon Hill Memorial Cemetery, 1:00 p.m., Monday, Mar. 9, 2015. A memorial \n  service will be held 10:00 a.m., Saturday, Mar. 28 2015 at Union Baptist Church, \n  Lincoln St., Dover. Letter of condolence may be sent and guest book may be signed \n  at www.benniesmithfuneralhome.com. Arrangements have been entrusted to Bennie \n  Smith Funeral Home, Dover. DE-Gerald-Wright.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 741,

@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9792,
+      "person_id": 10455,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Lillie M Jackson",
+      "citations": [
+        {
+          "citation_id": 9786,
+          "fact_id": 9792,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9793,
+      "person_id": 10455,
+      "fact_type": "Birth",
+      "date_string": "14 October 1912",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9787,
+          "fact_id": 9793,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9794,
+      "person_id": 10455,
+      "fact_type": "Death",
+      "date_string": "23 December 1984",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9788,
+          "fact_id": 9794,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -29,60 +88,7 @@
       "rel_name": "Elizabeth Jackson"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10455,
-      "photo_id": 3051,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisHarmonWrightLadies.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10455,
-      "photo_id": 3052,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WrightAnnaCatherineDavis2.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10455,
-      "photo_id": 3053,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WrightAnnaCDavis.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10455,
-      "photo_id": 5943,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Anna Catherine Davis Wright, Survey of Indian River Community, B. Wright, C. Davis Wright, Mary Elizabeth Jackson Davis, wife of Walter B. Wright, B. Wright, Anna C. Davis Wright, Glenn W. Barrentine Jr., Sylvia Davis Pinkett, L-R : Annie C., Mabel Johnson Harmon, Lillie's husband, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Wright",
-      "location": null,
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WrightWalterB_Anna_Barrent.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

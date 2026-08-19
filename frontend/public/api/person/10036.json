@@ -8,14 +8,56 @@
     "married_last_name": "Johnson",
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
-    "birth_info": "",
-    "death_info": "",
+    "birth_info": null,
+    "death_info": null,
     "notes": " | FindAGrave: no match",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9419,
+      "person_id": 10036,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Jessica Johnson",
+      "citations": [
+        {
+          "citation_id": 9413,
+          "fact_id": 9419,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        },
+        {
+          "citation_id": 11229,
+          "fact_id": 9419,
+          "source_id": 667,
+          "evidence_text": "Detected in Obituary of In addition to her",
+          "source_title": "Obituary: Marguerite J. Brown ~1928-2016",
+          "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm",
+          "source_dataset": "mitsawokett_obits"
+        }
+      ]
+    }
+  ],
   "relationships": [],
   "photos": [],
-  "obituaries": [],
+  "obituaries": [
+    {
+      "person_id": 10036,
+      "id": 43,
+      "deceased_name": "In addition to her",
+      "age": "",
+      "birth_date": "",
+      "death_date": "",
+      "cemetery_location": "",
+      "full_text": "In addition to her father she was preceded in death by her brother, Simm Johnson, \n  Jr. She is survived by her husband of 30 years, Ronal Doddato, Sr. of Kenton; \n  children, Jacqueline Games and her husband Mark of Middletown, Jessica Johnson \n  of Smyrna, Catherine Doddato and Ronal Doddato, Jr. both of Kenton; siblings, \n  Sharon Rattray of Dover, Carol Beachy and her husband Benjamin of Mifflinburg, \n  PA, Robin Startt and her husband James of Smyrna, and Terri Witmer and her husband \n  Donald of Magnolia; eight grandchildren, Ashley, Ana, Allie, Mark Jr, Justin, \n  Autumn, Jonathan and Salvatore; nine nieces and nephews and nine great nieces \n  and nephews.",
+      "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
+    }
+  ],
   "audit_flags": [],
   "ancestry": {
     "id": 10036,

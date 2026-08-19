@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_248">
+    <name>
+      <nameForm>
+        <fullText>Hester Concilor Dean</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_40"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>30 Nov 1890</original>
+      </date>
+      <source description="#s_40"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>May 1975 (aged 84)</original>
+      </date>
+      <source description="#s_40"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_40">
+    <about resource="dean-j2.htm"/>
+    <title>Record: dean-j2.htm</title>
+  </sourceDescription>
+</gedcomx>

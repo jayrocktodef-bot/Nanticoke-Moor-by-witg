@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_725">
+    <name>
+      <nameForm>
+        <fullText>John Francisco</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_110"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_110"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>30 Dec 1935</original>
+      </date>
+      <source description="#s_110"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_110">
+    <about resource="sisco.htm"/>
+    <title>Record: sisco.htm</title>
+  </sourceDescription>
+</gedcomx>

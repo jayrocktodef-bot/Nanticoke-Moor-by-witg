@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7962">
+    <name>
+      <nameForm>
+        <fullText>William Elwood</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_612"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>26 Sep 1853</original>
+      </date>
+      <source description="#s_612"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>11 Feb 1920 (aged 66)</original>
+      </date>
+      <source description="#s_612"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_612">
+    <about resource="StricklandAnnaWilson.htm"/>
+    <title>Record: StricklandAnnaWilson.htm</title>
+  </sourceDescription>
+</gedcomx>

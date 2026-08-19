@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6644">
+    <name>
+      <nameForm>
+        <fullText>Charles &amp; Lorraine</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_472"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>12 Jun 1853</original>
+      </date>
+      <source description="#s_472"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>14 Jul 1939 (aged 86)</original>
+      </date>
+      <source description="#s_472"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_472">
+    <about resource="Meeting20Aug2001.htm"/>
+    <title>Record: Meeting20Aug2001.htm</title>
+  </sourceDescription>
+</gedcomx>

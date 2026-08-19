@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3003">
+    <name>
+      <nameForm>
+        <fullText>came with the job</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_170"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>9 Mar 1907</original>
+      </date>
+      <source description="#s_170"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>20 Jan 1992 (aged 84)</original>
+      </date>
+      <source description="#s_170"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_170">
+    <about resource="BassKLorraine.htm"/>
+    <title>Record: BassKLorraine.htm</title>
+  </sourceDescription>
+</gedcomx>

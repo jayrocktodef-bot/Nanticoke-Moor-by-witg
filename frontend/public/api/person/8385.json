@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7892,
+      "person_id": 8385,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Leroy Harris Thompson",
+      "citations": [
+        {
+          "citation_id": 7886,
+          "fact_id": 7892,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7893,
+      "person_id": 8385,
+      "fact_type": "Birth",
+      "date_string": "12 February 1906 Painesville, Lake County, Ohio, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7887,
+          "fact_id": 7893,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7894,
+      "person_id": 8385,
+      "fact_type": "Death",
+      "date_string": "7 Apr 1963 McKeesport, Allegheny County, Pennsylvania",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7888,
+          "fact_id": 7894,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -50,24 +109,7 @@
           {
             "id": 8606,
             "name": "Richard Dickerson",
-            "children": [
-              {
-                "id": 9073,
-                "name": "Charles Dickerson",
-                "children": [
-                  {
-                    "id": 8606,
-                    "name": "Richard Dickerson",
-                    "children": []
-                  },
-                  {
-                    "id": 9071,
-                    "name": "Minnie Dickerson",
-                    "children": []
-                  }
-                ]
-              }
-            ]
+            "children": []
           },
           {
             "id": 9071,

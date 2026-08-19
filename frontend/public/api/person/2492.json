@@ -13,6 +13,27 @@
     "notes": "Ingested from preserved IdentifiedIndians.htm record | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 2035,
+      "person_id": 2492,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Nathaniel Clark",
+      "citations": [
+        {
+          "citation_id": 2035,
+          "fact_id": 2035,
+          "source_id": 661,
+          "evidence_text": null,
+          "source_title": "Record: IdentifiedIndians.htm",
+          "source_url": "IdentifiedIndians.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -20,13 +41,6 @@
       "certainty": "confirmed",
       "rel_id": 9350,
       "rel_name": "Levin Clark"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 2097,
-      "rel_name": "Clark Thomas"
     },
     {
       "relationship_type": "child_of",
@@ -63,15 +77,15 @@
         "children": [
           {
             "id": 10334,
-            "name": "Chief William Russell \"Wyniaco\" Clark",
+            "name": "William Russell Wyniaco Clark",
             "children": [
               {
                 "id": 10336,
-                "name": "William Vine Clark Jr.",
+                "name": "William Vine Clark Jr",
                 "children": [
                   {
                     "id": 10337,
-                    "name": "William CLARKE (Clark) Esq.",
+                    "name": "William CLARKE Esq",
                     "children": []
                   }
                 ]
@@ -86,15 +100,9 @@
         ]
       },
       {
-        "id": 2097,
-        "name": "Clark Thomas",
-        "children": [
-          {
-            "id": 9988,
-            "name": "Martha Clark",
-            "children": []
-          }
-        ]
+        "id": 8514,
+        "name": "Elizabeth Morris",
+        "children": []
       }
     ]
   }

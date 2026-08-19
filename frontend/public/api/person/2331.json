@@ -13,6 +13,36 @@
     "notes": "Ingested from preserved Probate.htm record | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 1819,
+      "person_id": 2331,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "John Jones",
+      "citations": [
+        {
+          "citation_id": 1819,
+          "fact_id": 1819,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        },
+        {
+          "citation_id": 11232,
+          "fact_id": 1819,
+          "source_id": 667,
+          "evidence_text": "Detected in Obituary of GREENAGE.-Died in Cheswold, Del",
+          "source_title": "Obituary: Marguerite J. Brown ~1928-2016",
+          "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm",
+          "source_dataset": "mitsawokett_obits"
+        }
+      ]
+    }
+  ],
   "relationships": [],
   "photos": [],
   "obituaries": [],

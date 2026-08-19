@@ -13,15 +13,66 @@
     "notes": "Linked to durhm-t1.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/216203816/d-thomas",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [
+  "facts": [
     {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 1074,
-      "rel_name": "Harmon Thomas"
+      "fact_id": 652,
+      "person_id": 405,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Derham Thomas",
+      "citations": [
+        {
+          "citation_id": 652,
+          "fact_id": 652,
+          "source_id": 66,
+          "evidence_text": null,
+          "source_title": "Record: hewes.htm",
+          "source_url": "hewes.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 653,
+      "person_id": 405,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 653,
+          "fact_id": 653,
+          "source_id": 66,
+          "evidence_text": null,
+          "source_title": "Record: hewes.htm",
+          "source_url": "hewes.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 654,
+      "person_id": 405,
+      "fact_type": "Death",
+      "date_string": "1887",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 654,
+          "fact_id": 654,
+          "source_id": 66,
+          "evidence_text": null,
+          "source_title": "Record: hewes.htm",
+          "source_url": "hewes.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],

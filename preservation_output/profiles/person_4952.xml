@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4952">
+    <name>
+      <nameForm>
+        <fullText>William Henry Davis</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_297"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1900</original>
+      </date>
+      <source description="#s_297"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1973 (aged 72&amp;ndash;73)</original>
+      </date>
+      <source description="#s_297"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_4952"/>
+    <person2 resource="#p_8613"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10619"/>
+    <person2 resource="#p_4952"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8610"/>
+    <person2 resource="#p_4952"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8891"/>
+    <person2 resource="#p_4952"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8892"/>
+    <person2 resource="#p_4952"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8788"/>
+    <person2 resource="#p_4952"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8893"/>
+    <person2 resource="#p_4952"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8894"/>
+    <person2 resource="#p_4952"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8222"/>
+    <person2 resource="#p_4952"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_297">
+    <about resource="DavisWilliamHenry.htm"/>
+    <title>Record: DavisWilliamHenry.htm</title>
+  </sourceDescription>
+</gedcomx>

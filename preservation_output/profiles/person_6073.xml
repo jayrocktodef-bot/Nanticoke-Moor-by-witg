@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6073">
+    <name>
+      <nameForm>
+        <fullText>Fedora Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_370"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>4 Sep 1920</original>
+      </date>
+      <source description="#s_370"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>14 Aug 2004 (aged 83)</original>
+      </date>
+      <source description="#s_370"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_370">
+    <about resource="HarmonFedora&amp;Children.htm"/>
+    <title>Record: HarmonFedora&amp;Children.htm</title>
+  </sourceDescription>
+</gedcomx>

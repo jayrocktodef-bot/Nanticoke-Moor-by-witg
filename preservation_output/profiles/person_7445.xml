@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7445">
+    <name>
+      <nameForm>
+        <fullText>Gloria Morely.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_573"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>24 Jul 1955</original>
+      </date>
+      <source description="#s_573"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>25 Jul 2015 (aged 60)</original>
+      </date>
+      <source description="#s_573"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_573">
+    <about resource="SterrettParisFamily.htm"/>
+    <title>Record: SterrettParisFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

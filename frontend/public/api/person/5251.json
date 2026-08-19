@@ -1,7 +1,7 @@
 {
   "person": {
     "person_id": 5251,
-    "name": ". Elizabeth Durham",
+    "name": "Elizabeth Durham",
     "first_name": ".",
     "middle_name": "Elizabeth",
     "maiden_name": "",
@@ -13,66 +13,443 @@
     "notes": "Ingested from DurhamWilliamMcKinley.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/277669760/elizabeth-durham",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
+  "facts": [
+    {
+      "fact_id": 535,
+      "person_id": 5251,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Elizabeth Durham",
+      "citations": [
+        {
+          "citation_id": 535,
+          "fact_id": 535,
+          "source_id": 53,
+          "evidence_text": null,
+          "source_title": "Record: durhm-j1.htm",
+          "source_url": "durhm-j1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 536,
+      "person_id": 5251,
+      "fact_type": "Birth",
+      "date_string": "1779",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 536,
+          "fact_id": 536,
+          "source_id": 53,
+          "evidence_text": null,
+          "source_title": "Record: durhm-j1.htm",
+          "source_url": "durhm-j1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 537,
+      "person_id": 5251,
+      "fact_type": "Death",
+      "date_string": "30 Nov 1827 (aged 47&ndash;48)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 537,
+          "fact_id": 537,
+          "source_id": 53,
+          "evidence_text": null,
+          "source_title": "Record: durhm-j1.htm",
+          "source_url": "durhm-j1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 4552,
+      "person_id": 5251,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": ". Elizabeth Durham",
+      "citations": [
+        {
+          "citation_id": 4546,
+          "fact_id": 4552,
+          "source_id": 310,
+          "evidence_text": null,
+          "source_title": "Record: DurhamWilliamMcKinley.htm",
+          "source_url": "DurhamWilliamMcKinley.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4553,
+      "person_id": 5251,
+      "fact_type": "Birth",
+      "date_string": "1779",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 4547,
+          "fact_id": 4553,
+          "source_id": 310,
+          "evidence_text": null,
+          "source_title": "Record: DurhamWilliamMcKinley.htm",
+          "source_url": "DurhamWilliamMcKinley.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4554,
+      "person_id": 5251,
+      "fact_type": "Death",
+      "date_string": "30 Nov 1827 (aged 47&ndash;48)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 4548,
+          "fact_id": 4554,
+          "source_id": 310,
+          "evidence_text": null,
+          "source_title": "Record: DurhamWilliamMcKinley.htm",
+          "source_url": "DurhamWilliamMcKinley.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham who married Bayman Williams",
+      "certainty": "confirmed",
+      "rel_id": 178,
+      "rel_name": "Bayman Williams"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married Jesse Dean",
+      "certainty": "confirmed",
+      "rel_id": 93,
+      "rel_name": "Jesse Dean"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 1042,
+      "rel_name": "Albert Durham"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 1042,
+      "rel_name": "Albert Durham"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married Jesse Dean",
+      "certainty": "confirmed",
+      "rel_id": 93,
+      "rel_name": "Jesse Dean"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married Jesse Dean",
+      "certainty": "confirmed",
+      "rel_id": 93,
+      "rel_name": "Jesse Dean"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married Jesse Dean",
+      "certainty": "confirmed",
+      "rel_id": 93,
+      "rel_name": "Jesse Dean"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married Jesse Dean",
+      "certainty": "confirmed",
+      "rel_id": 93,
+      "rel_name": "Jesse Dean"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married Jesse Dean",
+      "certainty": "confirmed",
+      "rel_id": 93,
+      "rel_name": "Jesse Dean"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Elizabeth Durham married to Thomas Concilor",
+      "certainty": "confirmed",
+      "rel_id": 193,
+      "rel_name": "Concilor Thomas"
+    }
+  ],
   "photos": [
     {
       "person_id": 5251,
-      "photo_id": 3658,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Emma Snyder Durham, William McKinley Durham, William's second wife, Emma Snyder Durham, William McKinley Durham, McKinley Durham, born  Jun  in Clayton, Delaware; died, married on  Jun  in Camden, New Jersey Pearl F., born  in Greensboro, Maryland; died  Oct, in Pennsylvania Emma Snyder., Colanthe Durham, . Elizabeth Durham, died abt  Jan ., of William McKinley Durham, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Snyder",
-      "married_surname": "Durham",
+      "photo_id": 6965,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Elizabeth \n      Mae Durham Blair Elizabeth \n    Durham Blair, daughter of W...",
+      "subject_names": "Elizabeth Durham",
+      "maiden_name": "Durham",
+      "married_surname": "Blair",
       "location": "Delaware / Delmarva",
-      "approximate_year": "1898",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamWilliamMcKAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWilliamMcKinley.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5251,
-      "photo_id": 3658,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Emma Snyder Durham, William McKinley Durham, William's second wife, Emma Snyder Durham, William McKinley Durham, McKinley Durham, born  Jun  in Clayton, Delaware; died, married on  Jun  in Camden, New Jersey Pearl F., born  in Greensboro, Maryland; died  Oct, in Pennsylvania Emma Snyder., Colanthe Durham, . Elizabeth Durham, died abt  Jan ., of William McKinley Durham, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Snyder",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1898",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamWilliamMcKAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWilliamMcKinley.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5251,
-      "photo_id": 3658,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Emma Snyder Durham, William McKinley Durham, William's second wife, Emma Snyder Durham, William McKinley Durham, McKinley Durham, born  Jun  in Clayton, Delaware; died, married on  Jun  in Camden, New Jersey Pearl F., born  in Greensboro, Maryland; died  Oct, in Pennsylvania Emma Snyder., Colanthe Durham, . Elizabeth Durham, died abt  Jan ., of William McKinley Durham, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Snyder",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1898",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamWilliamMcKAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWilliamMcKinley.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5251,
-      "photo_id": 3658,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Emma Snyder Durham, William McKinley Durham, William's second wife, Emma Snyder Durham, William McKinley Durham, McKinley Durham, born  Jun  in Clayton, Delaware; died, married on  Jun  in Camden, New Jersey Pearl F., born  in Greensboro, Maryland; died  Oct, in Pennsylvania Emma Snyder., Colanthe Durham, . Elizabeth Durham, died abt  Jan ., of William McKinley Durham, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Snyder",
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1898",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamWilliamMcKAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWilliamMcKinley.htm",
+      "approximate_year": "1997",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_Blair Elizabeth Durham and unk.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Blair%20Elizabeth%20Durham.htm",
       "dataset_source": "mitsawokett"
     }
   ],
-  "obituaries": [],
+  "obituaries": [
+    {
+      "person_id": 5251,
+      "id": 185,
+      "deceased_name": "Charles G. Coker Sr",
+      "age": "79",
+      "birth_date": "2009",
+      "death_date": "1930",
+      "cemetery_location": "",
+      "full_text": "Charles G. Coker Sr., 79, of Dover, passed away Tuesday, Sept. 29, 2009, at \n  the VA Hospital, Wilmington. He was born on April 23, 1930, in Dover, to the \n  late James and Elizabeth Durham Coker.",
+      "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
+    }
+  ],
   "audit_flags": [],
   "ancestry": {
     "id": 5251,
-    "name": ". Elizabeth Durham",
+    "name": "Elizabeth Durham",
     "children": []
   }
 }

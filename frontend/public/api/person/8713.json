@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8212,
+      "person_id": 8713,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Edward Sylvester Morris",
+      "citations": [
+        {
+          "citation_id": 8206,
+          "fact_id": 8212,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8213,
+      "person_id": 8713,
+      "fact_type": "Birth",
+      "date_string": "17July 1943 Millsboro, Sussex, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8207,
+          "fact_id": 8213,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8214,
+      "person_id": 8713,
+      "fact_type": "Death",
+      "date_string": "07/16/2017 Millsboro, Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8208,
+          "fact_id": 8214,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -36,34 +95,7 @@
       "rel_name": "Alan Fulton Morris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8713,
-      "photo_id": 3263,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Juanita Johnson Day, by Stacie Ricketts, of Helen Juanita Johnson Day, from Stacie Ricketts  Oct, I talked, citing 'George B' --, Indian River, Christ Church Cemetery, Beaverdam Rd -- JOHNSON, d //, Rosa Mae Morris, Edward Morris, Emma Dell Morris, Helen Juanita Johnson Day, of Lewes died Friday, in Christiana Hospital of Christiana, in the, Lewes area, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Day",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "2006",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DayHelenJohnsonAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DayHelenJohnson.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8713,
-      "photo_id": 5554,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "P. Street Family, husband of Anna, Harmon Johnson, Matilda Johnson, David P. Street, Photo coutesy, of Sterling Street, David P. Street & family, David R. Street, Anna Harmon Street, Photo coutesy of Sterling Street, William Edward Streett, Lydia Wright Street, Bertha Mae Sockum Street, Photo coutesy, of Sterling Street, David P. STREET, Sussex County, he married Matilda JOHNSON., . David R., . John Street, born about ., . Catharine, . Jeremiah Street, born about ., . Isaac STREET, . Mary A. STREET, . Sophia Isabelle, Street. She married Charlie Morris., . Robert P., married Matilda Jackson., . Carrie J., . Howard D., . Gardiner, R. STREET, Mission Church Cemetery, Delaware. He married, Clara Miller, Della Hester Norwood., . Burton C., Clara Carney, of grandson William Edward Streett, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Family",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1822",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_StreettWilliamEAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetDavidP.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -99,7 +131,7 @@
                     "children": [
                       {
                         "id": 10122,
-                        "name": "John R (H) or Jonathan Harmon",
+                        "name": "John R or Jonathan Harmon",
                         "children": []
                       },
                       {
@@ -136,11 +168,6 @@
                     "id": 8617,
                     "name": "Negro Morris Thomas",
                     "children": [
-                      {
-                        "id": 8505,
-                        "name": "Morris Thomas",
-                        "children": []
-                      },
                       {
                         "id": 9992,
                         "name": "Sally Wright",

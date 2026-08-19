@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11558">
+    <name>
+      <nameForm>
+        <fullText>Elijah Concilor  and his wife</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_31"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11519"/>
+    <person2 resource="#p_11558"/>
+    <note>
+      <text>Evidence: Jeremiah Concilor was born in Kent County DE. He was the son of  Elijah Concilor  and his wife, Hannah Durham, daughter of  John Durham .</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_31">
+    <about resource="concl-j1.htm"/>
+    <title>Record: concl-j1.htm</title>
+  </sourceDescription>
+</gedcomx>

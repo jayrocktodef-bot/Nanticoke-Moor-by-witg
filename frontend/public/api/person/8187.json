@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/107531186/a-davis (Buried at Mount Zion AME Church Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7642,
+      "person_id": 8187,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Alsup Davis",
+      "citations": [
+        {
+          "citation_id": 7636,
+          "fact_id": 7642,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7643,
+      "person_id": 8187,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7637,
+          "fact_id": 7643,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7644,
+      "person_id": 8187,
+      "fact_type": "Death",
+      "date_string": "4 Jun 1928",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7638,
+          "fact_id": 7644,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -57,7 +116,7 @@
                 "children": [
                   {
                     "id": 8809,
-                    "name": "Ludwig (Lewis) Davis",
+                    "name": "Ludwig Davis",
                     "children": []
                   }
                 ]
@@ -113,13 +172,7 @@
                   {
                     "id": 8606,
                     "name": "Richard Dickerson",
-                    "children": [
-                      {
-                        "id": 9073,
-                        "name": "Charles Dickerson",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 9071,

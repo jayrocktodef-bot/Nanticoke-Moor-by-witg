@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 11182,
-    "name": "Mrs. Effie L. Carney",
-    "first_name": "Mrs.",
-    "middle_name": "Effie L.",
+    "name": "Effie L. Carney",
+    "first_name": "Effie",
+    "middle_name": "L.",
     "maiden_name": "",
     "married_last_name": "Carney",
     "evidence_level": 1,
@@ -13,25 +13,72 @@
     "notes": "Obituary Record: Delmarva Burial",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 11028,
       "person_id": 11182,
-      "id": 5,
-      "deceased_name": "Mrs. Effie L. Carney",
-      "age": null,
-      "birth_date": "1966",
-      "death_date": "1968",
-      "cemetery_location": null,
-      "full_text": "CHESWOLD: Mrs. Effie L. Carney, 89, widow of James Carney, died Sunday at her home following an apparent heart attack.\n\nShe is survived by her two daughters, Mrs. Rebecca Coker, Dover and Mrs. Mary Johnson, Cheswold; two sons, Norace Carney and Clarence Carney, both of Dover; two brothers, William H.Reed, Dover and James Leslie Reed, Cheswold; 19 grandchildren; 43 great-grandchildren and 3 great-great grandchildren.\n\nServices will be Thursday afternoon at 1 at the Torbert Funeral Chapel, Bradford and Reed Streets, Dover, where friends may call tomorrow night from 7 to 9. Internment will be in the Immanuel Union Methodist Cemetary, near Cheswold.\n\nReturn Carney \nOct. 3, \n1968\n\nDOVER- Return Carney, 69, a retired farmer of the Dover-Kenton Road, died yesterday in the Kent General Hospital after a long illness.\n\nHe is survived by his widow, Mrs. Ola E. Carney, four sons, James H., Garland R., Leroy B. and Willis J., all of the Dover area; six daughters, Mrs. Ruth L. Sowell of Jersey City, Mrs. Mary E. Carter, Mrs. Cordelia Rockford, Mrs. Betty J. Seeney, Mrs. Shirley Ann Seeney and Mrs. Gloria S. Attix, all of the Dover area; 30 grandchildren, seven great grandchildren; four brothers, James Jr., Lincoln and Roland, all of Dover and Leroy of Bridgeton, NJ and five sisters, Mrs. Nellie Carney, Mrs. Harriett Pierce, Mrs. Martha Durham, Mrs. Emma Muntz, all of Dover and Mrs. Ola Beckett of near Bridgeton.\n\nServices will be Sunday afternoon at 1 at Immanuel Union Methodist Church near Cheswold where friends may call tomorrow night. Internment will be in the church cemetary.\n\nRobert A, Carney  \n(no date noted)\n\nDOVER- Robert A. Carney, 75, of Salisbury Road, Dover, died at home yesterday after a long illness.\n\nMr. Carney was a retired farmer who had lived in the Dover area all his life.\n\nSurvivors include his widow, Mrs. Mary E. Carney; two brothers, Dawson Carney of Dover and Birdjie Carney of Ohio and a sister Mrs. Ella Clark of Leipsic.\n\nServices will be Sunday afternoon at 1 at Immanuel Union Methodist Church, Cheswold, where friends mall call from noon. Internment will be in the adjoining cemetary.\n\nHe was the owner and operator of Ted's Amusement Service here.\n\nHe is survived by his widow, Mrs. Henrietta Carney, and a daughter Henrietta C. Jeffries of Greensboro, NC.\n\nServices will be Wednesday afternoon at 2 at the Matthews Funeral Homes in Smyrna.\n\nFriends may call at the late residence tomorrow night from 7 to 9.\n\nClement Carney Jr. \nApril 23, \n1966",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Effie L. Carney",
+      "citations": [
+        {
+          "citation_id": 10646,
+          "fact_id": 11028,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11029,
+      "person_id": 11182,
+      "fact_type": "Birth",
+      "date_string": "b. 1966",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10647,
+          "fact_id": 11029,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11030,
+      "person_id": 11182,
+      "fact_type": "Death",
+      "date_string": "d. 1968",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10648,
+          "fact_id": 11030,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11182,
-    "name": "Mrs. Effie L. Carney",
+    "name": "Effie L. Carney",
     "children": []
   }
 }

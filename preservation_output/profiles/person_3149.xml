@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3149">
+    <name>
+      <nameForm>
+        <fullText>after that year.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_171"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_171"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>28 Apr 1917</original>
+      </date>
+      <source description="#s_171"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_171">
+    <about resource="MunceRobert.htm"/>
+    <title>Record: MunceRobert.htm</title>
+  </sourceDescription>
+</gedcomx>

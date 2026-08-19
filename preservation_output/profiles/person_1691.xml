@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1691">
+    <name>
+      <nameForm>
+        <fullText>William H. Clark</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_126"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>8 Sep 1899</original>
+      </date>
+      <source description="#s_126"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>29 Aug 1966 (aged 66)</original>
+      </date>
+      <source description="#s_126"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_126">
+    <about resource="NMAI.AC.001.008"/>
+    <title>Record: NMAI.AC.001.008</title>
+  </sourceDescription>
+</gedcomx>

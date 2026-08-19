@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6238">
+    <name>
+      <nameForm>
+        <fullText>Sherman Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_403"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_403"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>12 Dec 1975</original>
+      </date>
+      <source description="#s_403"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_403">
+    <about resource="JacksonCharlotteFamily.htm"/>
+    <title>Record: JacksonCharlotteFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

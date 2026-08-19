@@ -1,7 +1,7 @@
 {
   "person": {
     "person_id": 11248,
-    "name": "Sara (Sarah) Ann Thompson",
+    "name": "Sara Ann Thompson",
     "first_name": "Sara",
     "middle_name": "Ann",
     "maiden_name": "Sarah",
@@ -13,6 +13,65 @@
     "notes": "Mother of John Asbury Thompson",
     "dataset_source": "findagrave"
   },
+  "facts": [
+    {
+      "fact_id": 11176,
+      "person_id": 11248,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Sara Ann Thompson",
+      "citations": [
+        {
+          "citation_id": 10794,
+          "fact_id": 11176,
+          "source_id": 627,
+          "evidence_text": null,
+          "source_title": "Record: FindAGrave Memorial 5207278",
+          "source_url": "FindAGrave Memorial 5207278",
+          "source_dataset": "findagrave"
+        }
+      ]
+    },
+    {
+      "fact_id": 11177,
+      "person_id": 11248,
+      "fact_type": "Birth",
+      "date_string": "1844",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10795,
+          "fact_id": 11177,
+          "source_id": 627,
+          "evidence_text": null,
+          "source_title": "Record: FindAGrave Memorial 5207278",
+          "source_url": "FindAGrave Memorial 5207278",
+          "source_dataset": "findagrave"
+        }
+      ]
+    },
+    {
+      "fact_id": 11178,
+      "person_id": 11248,
+      "fact_type": "Death",
+      "date_string": "1929",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10796,
+          "fact_id": 11178,
+          "source_id": 627,
+          "evidence_text": null,
+          "source_title": "Record: FindAGrave Memorial 5207278",
+          "source_url": "FindAGrave Memorial 5207278",
+          "source_dataset": "findagrave"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "parent_of",
@@ -22,26 +81,12 @@
       "rel_name": "John Asbury Thompson"
     }
   ],
-  "photos": [
-    {
-      "person_id": 11248,
-      "photo_id": 4416,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Addie Thompson &, May Hitchens Family, L to R: Addie Thompson, May Thompson Hitchens, Reginald Hitchens, Layton Hitchens, Layton Hitchens, Thelma Hitchens, Sara Hitchens, Susie Hitchens, Ancestry of Addie, Thompson Hitchens, Reginald Hitchens, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "&",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HitchensReginaldAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThompsonAddie&HitchensKids.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11248,
-    "name": "Sara (Sarah) Ann Thompson",
+    "name": "Sara Ann Thompson",
     "children": []
   }
 }

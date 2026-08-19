@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4044">
+    <name>
+      <nameForm>
+        <fullText>Ron Vance Sr.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_225"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>27 Jan 1959</original>
+      </date>
+      <source description="#s_225"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>29 Jun 2025 (aged 66)</original>
+      </date>
+      <source description="#s_225"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_225">
+    <about resource="VanceRonaldJrFamily.htm"/>
+    <title>Record: VanceRonaldJrFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

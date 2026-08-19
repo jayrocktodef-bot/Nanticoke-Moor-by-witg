@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_127">
+    <name>
+      <nameForm>
+        <fullText>Alonzo Coker</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_22"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>28 May 1890</original>
+      </date>
+      <source description="#s_22"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>6 May 1957 (aged 66)</original>
+      </date>
+      <source description="#s_22"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_22">
+    <about resource="coker-d2.htm"/>
+    <title>Record: coker-d2.htm</title>
+  </sourceDescription>
+</gedcomx>

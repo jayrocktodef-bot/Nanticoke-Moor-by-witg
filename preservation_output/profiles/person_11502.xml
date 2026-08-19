@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11502">
+    <name>
+      <nameForm>
+        <fullText>Isaiah Munce in the home of Isaiah</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_6"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11501"/>
+    <person2 resource="#p_11502"/>
+    <note>
+      <text>Evidence: Elmira married into the Kent Co. mixed blood community when she married  Isaiah Munce in the home of Isaiah's uncle, Joel Durham. The minister was Piner Mansfield.</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11501"/>
+    <person2 resource="#p_11502"/>
+    <note>
+      <text>Evidence: Elmira married into the Kent Co. mixed blood community when she married  Isaiah Munce in the home of Isaiah's uncle, Joel Durham. The minister was Piner Mansfield.</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_6">
+    <about resource="carty-e2.htm"/>
+    <title>Record: carty-e2.htm</title>
+  </sourceDescription>
+</gedcomx>

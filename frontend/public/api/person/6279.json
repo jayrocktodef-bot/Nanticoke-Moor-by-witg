@@ -13,22 +13,67 @@
     "notes": "Ingested from JohnsonLaura&Florence.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/41241030/laura-florence",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 5530,
       "person_id": 6279,
-      "photo_id": 4641,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Laura & Florence, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Florence",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_JohnsonLaura_Florence.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonLaura&Florence.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Laura & Florence",
+      "citations": [
+        {
+          "citation_id": 5524,
+          "fact_id": 5530,
+          "source_id": 411,
+          "evidence_text": null,
+          "source_title": "Record: JohnsonLaura&Florence.htm",
+          "source_url": "JohnsonLaura&Florence.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 5531,
+      "person_id": 6279,
+      "fact_type": "Birth",
+      "date_string": "1855",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 5525,
+          "fact_id": 5531,
+          "source_id": 411,
+          "evidence_text": null,
+          "source_title": "Record: JohnsonLaura&Florence.htm",
+          "source_url": "JohnsonLaura&Florence.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 5532,
+      "person_id": 6279,
+      "fact_type": "Death",
+      "date_string": "1930 (aged 74&ndash;75)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 5526,
+          "fact_id": 5532,
+          "source_id": 411,
+          "evidence_text": null,
+          "source_title": "Record: JohnsonLaura&Florence.htm",
+          "source_url": "JohnsonLaura&Florence.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

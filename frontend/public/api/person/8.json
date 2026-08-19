@@ -13,6 +13,74 @@
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/107679684/john-wesley",
     "dataset_source": "lynncjackson"
   },
+  "facts": [
+    {
+      "fact_id": 7,
+      "person_id": 8,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "John Wesley",
+      "citations": [
+        {
+          "citation_id": 7,
+          "fact_id": 7,
+          "source_id": 1,
+          "evidence_text": null,
+          "source_title": "Record: bible-c1.htm",
+          "source_url": "bible-c1.htm",
+          "source_dataset": "lynncjackson"
+        },
+        {
+          "citation_id": 11219,
+          "fact_id": 7,
+          "source_id": 667,
+          "evidence_text": "Detected in Obituary of http://www.legacy.com/obituaries/delawareonline/obituary.aspx?n=Evelyn-Mosley-Burton&pid=175877567 Evelyn Mosley Burton",
+          "source_title": "Obituary: Marguerite J. Brown ~1928-2016",
+          "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm",
+          "source_dataset": "mitsawokett_obits"
+        }
+      ]
+    },
+    {
+      "fact_id": 8,
+      "person_id": 8,
+      "fact_type": "Birth",
+      "date_string": "27 Nov 1903",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8,
+          "fact_id": 8,
+          "source_id": 1,
+          "evidence_text": null,
+          "source_title": "Record: bible-c1.htm",
+          "source_url": "bible-c1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 9,
+      "person_id": 8,
+      "fact_type": "Death",
+      "date_string": "19 Mar 1981 (aged 77)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9,
+          "fact_id": 9,
+          "source_id": 1,
+          "evidence_text": null,
+          "source_title": "Record: bible-c1.htm",
+          "source_url": "bible-c1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -27,89 +95,83 @@
       "certainty": "confirmed",
       "rel_id": 1039,
       "rel_name": "John Wesley Harmon"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (81.8% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 961,
+      "rel_name": "John Mosley"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 985,
+      "rel_name": "John M Mosley"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 1039,
+      "rel_name": "John Wesley Harmon"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 1046,
+      "rel_name": "John H Mosley"
     }
   ],
-  "photos": [
+  "photos": [],
+  "obituaries": [
     {
       "person_id": 8,
-      "photo_id": 4359,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Sarah Jane Sockum Harmon, Isaac W. Harmon, Sarah Jane Sockum Harmon, Isaac Harman, Sylvia Davis Pinkett, Ephraim Charles married Eunice Wright, of Warren & Marie Wright, moved to Phila., Pa. & operated, Ann Wright;, As a young boy, became a seaman, an obsession with owning land, Indian river, soft-shelled crabs, three saw mills., dau of, married Amelia Street, one child John Wesley, who married Lillie Clark, dau. of, had one, Isaac who lived in Phila., who married Vina Ann Harmon, children Were: Ralph B., Theodore Parker, Ephraim Lincoln. Fanny, William Augustus, Eunice E., Noah Chester, Anna Janie, Isaac Wilson, Jr.; Sarah Jane, who married Ralph Bumbray, Jr.; Noah, who married Eunice Johnson, dau. Of Wesley Sylvester, Sarah Jane, and Noah, Jr.; Lillie Mae, children were: Isaac, Mable and Leon., Isaac\u2019s wife, Sarah Jane, each to granddaughter, Bertha and grandson John Wesley, and to each living child:, Sarah Jane, Isaac Wilson, Eliza Ann, and Noah, Jane Sockume, born abt  in Sussex County, . \u00a0\u00a0Thomas W. Harmon, born abt ., . \u00a0\u00a0Levin T. Harmon, . \u00a0\u00a0Sarah Jane Harmon, born abt . She married, Ralph Bumbray., Isaac Wilson  Harman, Millsboro. He, married Vina Ann Harmon., born abt ., . \u00a0\u00a0Noah Harmon, born abt  in Millsboro, Delaware. He married Eunice E.., . \u00a0\u00a0Lillie Mae Harmon, born abt ., . \u00a0\u00a0Eliza Anne Harmon, born abt . She married, William Howard Johnson, Patience Wright., . Robert M. Harmon, died Infant ., . Eunice W. Harmon, died Infant ., . Nancy Harmon, died Child ., . Ralph B. Harmon, of son John Wesley Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Sockum",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1829",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonJohnWesleyAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonIsaacW&SarahSockum.htm",
-      "dataset_source": "mitsawokett"
+      "id": 15,
+      "deceased_name": "http://www.legacy.com/obituaries/delawareonline/obituary.aspx?n=Evelyn-Mosley-Burton&pid=175877567 Evelyn Mosley Burton",
+      "age": "",
+      "birth_date": "2015",
+      "death_date": "2015",
+      "cemetery_location": "Cemetery Milford",
+      "full_text": "http://www.legacy.com/obituaries/delawareonline/obituary.aspx?n=Evelyn-Mosley-Burton&pid=175877567 Evelyn Mosley Burton transitioned to Eternal Rest on Tuesday, September 15, \n  2015 at Westminster Village Health Center in Dover, DE. She was the first child \n  born to the late Charles and Gertrude Elliott of Felton, DE. Evelyn was preceded in death by her son, Marvin Carney, Husbands, Calvin Mosley \n  and Courtland Burton, sisters, Ruth Pinkett and Dorothy Mosley, brothers, Everett \n  and Delbert Elliott, and son- in-law, James Bryan. Evelyn is survived by her \n  son, Milton (Charlotte) Carney, daughters, Charlotte (Warren) Pinkett and Joyce \n  Bryan, brothers, Nutter (Tom) and Russell Elliott, a daughter-in-law, two sisters-in-law, \n  1 brother-in-law, nine grandchildren,23 great grandchildren, five great great \n  grandchildren, and a host of nieces and nephews. Service will be held at 1:00pm on Tuesday, September 22, 2015 at John Wesley \n  United Church in Milford, DE. A viewing will be held 2 hours prior to service. \n  Interment will follow the service at the John Wesley United Cemetery Milford, \n  DE. Arrangements are by Bennie Smith Funeral Home, Dover.",
+      "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     },
     {
       "person_id": 8,
-      "photo_id": 4381,
-      "title_or_caption": "Lillie Clark Harmon wife of John Wesley Harmon Jr. Ancestry of dau...",
-      "subject_names": "Lillie Clark Harmon wife of John Wesley Harmon Jr",
-      "maiden_name": "Harmon",
-      "married_surname": "Clark",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonSarahPAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonLillieClark.htm",
-      "dataset_source": "mitsawokett"
+      "id": 205,
+      "deceased_name": "Relatives and friends are",
+      "age": "",
+      "birth_date": "",
+      "death_date": "",
+      "cemetery_location": "Cemetery",
+      "full_text": "Relatives and friends are invited to the service on Thursday afternoon, Nov. \n  21, at 1:30 o'clock from John Wesley M. E. Church, South Ave. and Eagle St., \n  Bridgeton. Interment in GouldtownCemetery. Friends may call Wednesday evening, \n  7 to 9 at the parlor of Cornelius J. Mack, Jr., 22 Academy St.",
+      "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     },
     {
       "person_id": 8,
-      "photo_id": 4395,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Wesley HARMON, born  Jan  in Millsboro, died  Oct  in Millsboro, son of John Wesley HARMON, born  Jul  in Millsboro, Delaware; died  Aug  in New, York City, New York, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "HARMON",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1881",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonSacajaweaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonSacajawea.htm",
-      "dataset_source": "mitsawokett"
+      "id": 333,
+      "deceased_name": "Relatives and friends are",
+      "age": "",
+      "birth_date": "",
+      "death_date": "",
+      "cemetery_location": "Cemetery",
+      "full_text": "Relatives and friends are invited to attend the funeral from her late residence, \n  22 Eagle street, on Wednesday afternoon, March 18, at 1:30 o'clock. Service \n  in John Wesley M. E. Church, South avenue, at 2 o'clock. Interment at Mt. Pleasant \n  Cemetery, Othello. Friends may may [sic] call Tuesday evening from 7 to 8 o'clock.",
+      "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     },
     {
       "person_id": 8,
-      "photo_id": 4397,
-      "title_or_caption": "Sacajawea Harmon John Wesley HARMON (Jr.), born 17 Jan 1881 in M...",
-      "subject_names": "Sacajawea Harmon John Wesley HARMON (Jr.), born 17 Jan 1881 in M...",
-      "maiden_name": "Harmon",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1881",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonSacajaweaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonSacajawea.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8,
-      "photo_id": 5536,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Street Harmon, of John Wesley Harmon Sr., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonJohnWAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetAmelia.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8,
-      "photo_id": 5538,
-      "title_or_caption": "Amelia Street Harmon Wife of John Wesley Harmon Sr. Ancestry ...",
-      "subject_names": "Amelia Street Harmon Wife of John Wesley Harmon Sr",
-      "maiden_name": "Street",
-      "married_surname": "Street",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonJohnWAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetAmelia.htm",
-      "dataset_source": "mitsawokett"
+      "id": 334,
+      "deceased_name": "Relatives and friends are",
+      "age": "",
+      "birth_date": "",
+      "death_date": "",
+      "cemetery_location": "Cemetery",
+      "full_text": "Relatives and friends are invited to attend the funeral from the John Wesley \n  M. E. Church, Bridgeton, on Thursday, June 30, at 1 o'clock. Interment in Gouldtown \n  Cemetery.",
+      "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 8,

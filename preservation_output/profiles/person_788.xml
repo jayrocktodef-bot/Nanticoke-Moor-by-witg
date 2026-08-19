@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_788">
+    <name>
+      <nameForm>
+        <fullText>Paynter Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_117"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1820</original>
+      </date>
+      <source description="#s_117"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>4 Nov 1887 (aged 66&amp;ndash;67)</original>
+      </date>
+      <source description="#s_117"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_787"/>
+    <person2 resource="#p_788"/>
+    <note>
+      <text>Evidence: Ann Wright who married Paynter Harmon</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_788"/>
+    <person2 resource="#p_9982"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_788"/>
+    <person2 resource="#p_9983"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_117">
+    <about resource="wrightw1.htm"/>
+    <title>Record: wrightw1.htm</title>
+  </sourceDescription>
+</gedcomx>

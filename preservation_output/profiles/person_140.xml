@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_140">
+    <name>
+      <nameForm>
+        <fullText>Catherine Morgan</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_25"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1860</original>
+      </date>
+      <source description="#s_25"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1952 (aged 91&amp;ndash;92)</original>
+      </date>
+      <source description="#s_25"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_25">
+    <about resource="coker-m2.htm"/>
+    <title>Record: coker-m2.htm</title>
+  </sourceDescription>
+</gedcomx>

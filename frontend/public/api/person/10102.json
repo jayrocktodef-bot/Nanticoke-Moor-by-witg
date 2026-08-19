@@ -13,14 +13,66 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
-  "relationships": [
+  "facts": [
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 2097,
-      "rel_name": "Clark Thomas"
+      "fact_id": 9497,
+      "person_id": 10102,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Whittinton Clark",
+      "citations": [
+        {
+          "citation_id": 9491,
+          "fact_id": 9497,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     },
+    {
+      "fact_id": 9498,
+      "person_id": 10102,
+      "fact_type": "Birth",
+      "date_string": "1785 Sussex County, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9492,
+          "fact_id": 9498,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9499,
+      "person_id": 10102,
+      "fact_type": "Death",
+      "date_string": "1836 Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9493,
+          "fact_id": 9499,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
+  "relationships": [
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
@@ -37,60 +89,9 @@
     "name": "Whittinton Clark",
     "children": [
       {
-        "id": 2097,
-        "name": "Clark Thomas",
-        "children": [
-          {
-            "id": 9988,
-            "name": "Martha Clark",
-            "children": []
-          }
-        ]
-      },
-      {
         "id": 8514,
         "name": "Elizabeth Morris",
-        "children": [
-          {
-            "id": 8505,
-            "name": "Morris Thomas",
-            "children": [
-              {
-                "id": 8910,
-                "name": "Leticia Morris",
-                "children": [
-                  {
-                    "id": 8616,
-                    "name": "Stephen Wright",
-                    "children": [
-                      {
-                        "id": 8687,
-                        "name": "Benjamin Wright",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 8684,
-                    "name": "Priscilla Miller",
-                    "children": [
-                      {
-                        "id": 8618,
-                        "name": "Ebenezar Miller",
-                        "children": []
-                      },
-                      {
-                        "id": 9188,
-                        "name": "Ebenezer Miller",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+        "children": []
       }
     ]
   }

@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8639,
+      "person_id": 9193,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Rebekah Johnson",
+      "citations": [
+        {
+          "citation_id": 8633,
+          "fact_id": 8639,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8640,
+      "person_id": 9193,
+      "fact_type": "Birth",
+      "date_string": "27 Jun 1680 Roxbury, Suffolk, Massachusetts, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8634,
+          "fact_id": 8640,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8641,
+      "person_id": 9193,
+      "fact_type": "Death",
+      "date_string": "10 Mar 1756 Middletown, Middlesex, Connecticut, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8635,
+          "fact_id": 8641,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -29,47 +88,7 @@
       "rel_name": "Ebenezer Miller Sr"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9193,
-      "photo_id": 1972,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Paula Renee Johnson Wimmer, All photos from the, Joseph Daniel Wimmer, Renee Johnson Wimmer, Christopher Joseph Daniel Wimmer, and Paula Renee Johnson, Marian Christine Meyer, Return Johnson, Willis Return Johnson and, Marian Christine Meyer, Wilfred Wimmer, Naomi Ruth Wimmer, Rebekah Ann Wimmer, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Johnson",
-      "married_surname": "Wimmer",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1996",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_JohnsonPaulaRenee.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWillis&Henrietta.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9193,
-      "photo_id": 1973,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Paula Renee Johnson Wimmer, All photos from the, Joseph Daniel Wimmer, Renee Johnson Wimmer, Christopher Joseph Daniel Wimmer, and Paula Renee Johnson, Marian Christine Meyer, Return Johnson, Willis Return Johnson and, Marian Christine Meyer, Wilfred Wimmer, Naomi Ruth Wimmer, Rebekah Ann Wimmer, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Johnson",
-      "married_surname": "Wimmer",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1996",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WimmerChristopherJoseph.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWillis&Henrietta.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9193,
-      "photo_id": 5650,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Paula Renee Johnson Wimmer, All photos from the, Joseph Daniel Wimmer, Renee Johnson Wimmer, Christopher Joseph Daniel Wimmer, and Paula Renee Johnson, Marian Christine Meyer, Return Johnson, Willis Return Johnson and, Marian Christine Meyer, Wilfred Wimmer, Naomi Ruth Wimmer, Rebekah Ann Wimmer, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Johnson",
-      "married_surname": "Wimmer",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1973",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WimmerRebekahAnn.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WimmerChris&Paula.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

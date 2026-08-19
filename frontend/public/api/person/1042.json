@@ -13,6 +13,27 @@
     "notes": "Moor/Nanticoke lineage record - Durham cluster | FindAGrave: no match",
     "dataset_source": "moors_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 1233,
+      "person_id": 1042,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Albert Durham",
+      "citations": [
+        {
+          "citation_id": 1233,
+          "fact_id": 1233,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "cross_dataset_match",
@@ -25,7 +46,28 @@
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
       "certainty": "confirmed",
-      "rel_id": 336,
+      "rel_id": 5251,
+      "rel_name": "Elizabeth Durham"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 179,
+      "rel_name": "Mary Durham"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 318,
+      "rel_name": "Leroy Durham"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 5251,
       "rel_name": "Elizabeth Durham"
     }
   ],

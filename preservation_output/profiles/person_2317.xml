@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2317">
+    <name>
+      <nameForm>
+        <fullText>Rebecca Durham</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_658"/>
+    <source description="#s_667"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1888</original>
+      </date>
+      <source description="#s_658"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>7 Oct 1936 (aged 47&amp;ndash;48)</original>
+      </date>
+      <source description="#s_658"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10934"/>
+    <person2 resource="#p_2317"/>
+    <note>
+      <text>Evidence: NLP Extracted from Obituary: 'onard durham and her daughters, lynell durham and rebecca durham.'</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_658">
+    <about resource="Probate.htm"/>
+    <title>Record: Probate.htm</title>
+  </sourceDescription>
+  <sourceDescription id="s_667">
+    <about resource="https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"/>
+    <title>Obituary: Marguerite J. Brown ~1928-2016</title>
+  </sourceDescription>
+</gedcomx>

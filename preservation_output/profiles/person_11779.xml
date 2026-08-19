@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11779">
+    <name>
+      <nameForm>
+        <fullText>and living in Indian River Hundred</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_657"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11570"/>
+    <person2 resource="#p_11779"/>
+    <note>
+      <text>Evidence: he was married and living in Indian River Hundred, Sussex Co., DE. His wife's name was Anna and they were living on the farm of Robert and Mary JOHNSON in</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_657">
+    <about resource="wright-p.htm"/>
+    <title>Record: wright-p.htm</title>
+  </sourceDescription>
+</gedcomx>

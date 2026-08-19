@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_31">
+    <name>
+      <nameForm>
+        <fullText>James McCarty</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_4"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1857</original>
+      </date>
+      <source description="#s_4"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>19 Feb 1867 (aged 9&amp;ndash;10)</original>
+      </date>
+      <source description="#s_4"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_31"/>
+    <person2 resource="#p_346"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_4">
+    <about resource="carter.htm"/>
+    <title>Record: carter.htm</title>
+  </sourceDescription>
+</gedcomx>

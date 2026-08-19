@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11729">
+    <name>
+      <nameForm>
+        <fullText>do hereby Give and Bequeath all my part of My Fathers Estate with the Residue of my own Estate unto  Elizabeth Fransisco  the</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_654"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11729"/>
+    <person2 resource="#p_11730"/>
+    <note>
+      <text>Evidence: Be it Remembered that I Charles Fransisco of Little Creek Neck, Kent County and State of Delaware being weak in Body But perfectly sound in mind and Memory do make and ordain this my Last Will and Tes</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_654">
+    <about resource="probt-sa.htm"/>
+    <title>Record: probt-sa.htm</title>
+  </sourceDescription>
+</gedcomx>

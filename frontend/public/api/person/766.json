@@ -13,6 +13,36 @@
     "notes": " | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
+  "facts": [
+    {
+      "fact_id": 1077,
+      "person_id": 766,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Clinton Harmon",
+      "citations": [
+        {
+          "citation_id": 1077,
+          "fact_id": 1077,
+          "source_id": 115,
+          "evidence_text": null,
+          "source_title": "Record: wrightp3.htm",
+          "source_url": "wrightp3.htm",
+          "source_dataset": "lynncjackson"
+        },
+        {
+          "citation_id": 11239,
+          "fact_id": 1077,
+          "source_id": 667,
+          "evidence_text": "Detected in Obituary of He is the brother",
+          "source_title": "Obituary: Marguerite J. Brown ~1928-2016",
+          "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm",
+          "source_dataset": "mitsawokett_obits"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -20,23 +50,16 @@
       "certainty": "confirmed",
       "rel_id": 767,
       "rel_name": "Patience Galloway"
-    }
-  ],
-  "photos": [
+    },
     {
-      "person_id": 766,
-      "photo_id": 4289,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "All photos, W. PorterIII, E. Lincoln, & Elizabeth, E. Lincoln Harmon, Lincoln Harmon, of son Isaac Clinton Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "photos",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1962",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonIsaacAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanELincoln&Eliz.htm",
-      "dataset_source": "mitsawokett"
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 1024,
+      "rel_name": "Eli Harmon"
     }
   ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

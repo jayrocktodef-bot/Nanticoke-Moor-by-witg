@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_774">
+    <name>
+      <nameForm>
+        <fullText>Elizabeth Patience Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_116"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>29 May 1895</original>
+      </date>
+      <source description="#s_116"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_584"/>
+    <person2 resource="#p_774"/>
+    <note>
+      <text>Evidence: GEDCOM Family @F57@ marriage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_754"/>
+    <person2 resource="#p_774"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_116">
+    <about resource="wrightw.htm"/>
+    <title>Record: wrightw.htm</title>
+  </sourceDescription>
+</gedcomx>

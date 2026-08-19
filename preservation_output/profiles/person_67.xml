@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_67">
+    <name>
+      <nameForm>
+        <fullText>Elmira Carty</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_11"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1812</original>
+      </date>
+      <source description="#s_11"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>22 Dec 1900 (aged 87&amp;ndash;88)</original>
+      </date>
+      <source description="#s_11"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_11">
+    <about resource="carty-r.htm"/>
+    <title>Record: carty-r.htm</title>
+  </sourceDescription>
+</gedcomx>

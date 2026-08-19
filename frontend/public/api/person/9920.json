@@ -13,12 +13,71 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9215,
+      "person_id": 9920,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Wilbur Sylvester Harmon Sr",
+      "citations": [
+        {
+          "citation_id": 9209,
+          "fact_id": 9215,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9216,
+      "person_id": 9920,
+      "fact_type": "Birth",
+      "date_string": "27 May 1897 Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9210,
+          "fact_id": 9216,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9217,
+      "person_id": 9920,
+      "fact_type": "Death",
+      "date_string": "17 December 1966 Millsboro, Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9211,
+          "fact_id": 9217,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
-      "rel_id": 792,
+      "rel_id": 5971,
       "rel_name": "Noah Harmon"
     },
     {
@@ -29,21 +88,7 @@
       "rel_name": "Nicy E. Johnson"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9920,
-      "photo_id": 2343,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Madge Street Harman, L to, R: James Harman, Madgie & husband Wilbur, Jeanette Harmon, Wanda Harmon Radish, Francis Harmon Norwood, Faye Harmon Blanks, Jeanette and Frances are sisters., Faye is a niece, daughter of Pete Austin Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Street",
-      "married_surname": "Harman",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonWilburAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanWilbur&Madgie&JHarman.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -51,7 +96,7 @@
     "name": "Wilbur Sylvester Harmon Sr",
     "children": [
       {
-        "id": 792,
+        "id": 5971,
         "name": "Noah Harmon",
         "children": [
           {
@@ -84,7 +129,7 @@
                     "children": [
                       {
                         "id": 10122,
-                        "name": "John R (H) or Jonathan Harmon",
+                        "name": "John R or Jonathan Harmon",
                         "children": []
                       },
                       {
@@ -137,8 +182,8 @@
             "children": []
           },
           {
-            "id": 9835,
-            "name": "Mary A Street",
+            "id": 7504,
+            "name": "Mary A. Street",
             "children": []
           }
         ]

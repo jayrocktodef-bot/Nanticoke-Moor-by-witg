@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6028">
+    <name>
+      <nameForm>
+        <fullText>this Philadelphia</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_363"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>19 Aug 1913</original>
+      </date>
+      <source description="#s_363"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>3 Apr 1999 (aged 85)</original>
+      </date>
+      <source description="#s_363"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_363">
+    <about resource="GreenageGeoWashFamily.htm"/>
+    <title>Record: GreenageGeoWashFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

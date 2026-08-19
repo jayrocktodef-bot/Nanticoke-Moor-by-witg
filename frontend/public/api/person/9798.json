@@ -9,10 +9,50 @@
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1935 Delaware",
-    "death_info": "",
+    "death_info": null,
     "notes": " | FindAGrave: no match",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9085,
+      "person_id": 9798,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Francise Harmon",
+      "citations": [
+        {
+          "citation_id": 9079,
+          "fact_id": 9085,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9086,
+      "person_id": 9798,
+      "fact_type": "Birth",
+      "date_string": "abt 1935 Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9080,
+          "fact_id": 9086,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -33,7 +73,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9724,
-      "rel_name": "Coley Gray Harmon Sr."
+      "rel_name": "Coley Gray Harmon Sr"
     }
   ],
   "photos": [],
@@ -57,8 +97,8 @@
                 "children": []
               },
               {
-                "id": 9797,
-                "name": "John E. Miller",
+                "id": 8857,
+                "name": "John E Miller",
                 "children": []
               }
             ]
@@ -75,8 +115,8 @@
             "children": []
           },
           {
-            "id": 9797,
-            "name": "John E. Miller",
+            "id": 8857,
+            "name": "John E Miller",
             "children": []
           }
         ]

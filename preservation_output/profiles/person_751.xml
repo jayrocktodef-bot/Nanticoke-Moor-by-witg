@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_751">
+    <name>
+      <nameForm>
+        <fullText>Lydia Johnson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_113"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_113"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>30 May 1885</original>
+      </date>
+      <source description="#s_113"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_113">
+    <about resource="wright-e.htm"/>
+    <title>Record: wright-e.htm</title>
+  </sourceDescription>
+</gedcomx>

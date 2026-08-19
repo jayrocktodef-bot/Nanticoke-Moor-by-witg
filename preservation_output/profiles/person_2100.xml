@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2100">
+    <name>
+      <nameForm>
+        <fullText>Social Security Applications</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_132"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>2 Sep 1912</original>
+      </date>
+      <source description="#s_132"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>2 Jun 1999 (aged 86)</original>
+      </date>
+      <source description="#s_132"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_132">
+    <about resource="MainMenu.html"/>
+    <title>Record: MainMenu.html</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1922">
+    <name>
+      <nameForm>
+        <fullText>DE-to-MI Migration</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_132"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1829</original>
+      </date>
+      <source description="#s_132"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1900 (aged 70&amp;ndash;71)</original>
+      </date>
+      <source description="#s_132"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_132">
+    <about resource="MainMenu.html"/>
+    <title>Record: MainMenu.html</title>
+  </sourceDescription>
+</gedcomx>

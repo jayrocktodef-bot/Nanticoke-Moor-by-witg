@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_18">
+    <name>
+      <nameForm>
+        <fullText>John Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_2"/>
+    <source description="#s_667"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1864</original>
+      </date>
+      <source description="#s_2"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>29 Apr 1914 (aged 49&amp;ndash;50)</original>
+      </date>
+      <source description="#s_2"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_18"/>
+    <person2 resource="#p_9555"/>
+    <note>
+      <text>Evidence: GEDCOM Family @F67@ marriage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_500"/>
+    <person2 resource="#p_18"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9557"/>
+    <person2 resource="#p_18"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8718"/>
+    <person2 resource="#p_18"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_2">
+    <about resource="bible-j.htm"/>
+    <title>Record: bible-j.htm</title>
+  </sourceDescription>
+  <sourceDescription id="s_667">
+    <about resource="https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"/>
+    <title>Obituary: Marguerite J. Brown ~1928-2016</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_201">
+    <name>
+      <nameForm>
+        <fullText>Check it out</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_33"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_33"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>10 Nov 1916</original>
+      </date>
+      <source description="#s_33"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_33">
+    <about resource="contentq.htm"/>
+    <title>Record: contentq.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -13,7 +13,36 @@
     "notes": " | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
+  "facts": [
+    {
+      "fact_id": 918,
+      "person_id": 547,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "two of Enoch",
+      "citations": [
+        {
+          "citation_id": 918,
+          "fact_id": 918,
+          "source_id": 93,
+          "evidence_text": null,
+          "source_title": "Record: munce-m2.htm",
+          "source_url": "munce-m2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "she married  Enoch Durham , the son of Benjamin Durham and Sally Ann Hansor. Two of her sisters married two of Enoch's brothers.",
+      "certainty": "confirmed",
+      "rel_id": 11713,
+      "rel_name": "Two of her sisters"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],

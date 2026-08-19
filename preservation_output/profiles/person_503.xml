@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_503">
+    <name>
+      <nameForm>
+        <fullText>Araminta Sisco</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_83"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>14 Feb 1881</original>
+      </date>
+      <source description="#s_83"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>22 Mar 1969 (aged 88)</original>
+      </date>
+      <source description="#s_83"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_83">
+    <about resource="morgan-e.htm"/>
+    <title>Record: morgan-e.htm</title>
+  </sourceDescription>
+</gedcomx>

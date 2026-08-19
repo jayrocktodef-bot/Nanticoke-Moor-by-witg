@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/228981688/joseph-thompson",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7849,
+      "person_id": 8370,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Joseph Thompson",
+      "citations": [
+        {
+          "citation_id": 7843,
+          "fact_id": 7849,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7850,
+      "person_id": 8370,
+      "fact_type": "Birth",
+      "date_string": "1 Sep 1908",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7844,
+          "fact_id": 7850,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7851,
+      "person_id": 8370,
+      "fact_type": "Death",
+      "date_string": "21 Jun 1978 (aged 69)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7845,
+          "fact_id": 7851,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -43,32 +102,18 @@
       "rel_name": "Mary C Thompson"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8370,
-      "photo_id": 4143,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Howard Hall, Laura Katherine Thompson Hall, Amos Hall, Laura Hall, Doris Hall Johnson, of Eldridge Rynear Johnson, Radia Hall, Wife of Joseph Morris, Edna Hall Harmon, Everett Hall, Husband of Betty Jackson, Joseph Hall, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Hall",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HallRadiaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HallAmos&Laura.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [
     {
-      "id": 540,
+      "id": 5204,
       "category": "Duplicate Candidate",
       "severity": "warning",
       "person_id": 9509,
       "person_id_secondary": 8370,
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: joseph|thompson|1908",
-      "created_at": "2026-08-14 03:42:34"
+      "created_at": "2026-08-19 00:14:46"
     }
   ],
   "ancestry": {
@@ -149,24 +194,7 @@
           {
             "id": 8606,
             "name": "Richard Dickerson",
-            "children": [
-              {
-                "id": 9073,
-                "name": "Charles Dickerson",
-                "children": [
-                  {
-                    "id": 8606,
-                    "name": "Richard Dickerson",
-                    "children": []
-                  },
-                  {
-                    "id": 9071,
-                    "name": "Minnie Dickerson",
-                    "children": []
-                  }
-                ]
-              }
-            ]
+            "children": []
           },
           {
             "id": 9071,

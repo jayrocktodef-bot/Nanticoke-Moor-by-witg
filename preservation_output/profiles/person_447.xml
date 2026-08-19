@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_447">
+    <name>
+      <nameForm>
+        <fullText>Lydia Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_74"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1827</original>
+      </date>
+      <source description="#s_74"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1902 (aged 74&amp;ndash;75)</original>
+      </date>
+      <source description="#s_74"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_74">
+    <about resource="jacksonl.htm"/>
+    <title>Record: jacksonl.htm</title>
+  </sourceDescription>
+</gedcomx>

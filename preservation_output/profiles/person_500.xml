@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_500">
+    <name>
+      <nameForm>
+        <fullText>Francis Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_81"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1865</original>
+      </date>
+      <source description="#s_81"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>13 Nov 1944 (aged 78&amp;ndash;79)</original>
+      </date>
+      <source description="#s_81"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_500"/>
+    <person2 resource="#p_18"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_500"/>
+    <person2 resource="#p_9555"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_81">
+    <about resource="morgan-a.htm"/>
+    <title>Record: morgan-a.htm</title>
+  </sourceDescription>
+</gedcomx>

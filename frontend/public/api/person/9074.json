@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/288785669/william-dickerson",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8519,
+      "person_id": 9074,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "William Dickerson",
+      "citations": [
+        {
+          "citation_id": 8513,
+          "fact_id": 8519,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8520,
+      "person_id": 9074,
+      "fact_type": "Birth",
+      "date_string": "20 Nov 1887",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8514,
+          "fact_id": 8520,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8521,
+      "person_id": 9074,
+      "fact_type": "Death",
+      "date_string": "6 Jan 1888 (aged 1 month)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8515,
+          "fact_id": 8521,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -39,24 +98,7 @@
       {
         "id": 8606,
         "name": "Richard Dickerson",
-        "children": [
-          {
-            "id": 9073,
-            "name": "Charles Dickerson",
-            "children": [
-              {
-                "id": 8606,
-                "name": "Richard Dickerson",
-                "children": []
-              },
-              {
-                "id": 9071,
-                "name": "Minnie Dickerson",
-                "children": []
-              }
-            ]
-          }
-        ]
+        "children": []
       },
       {
         "id": 9071,

@@ -1,7 +1,7 @@
 {
   "person": {
     "person_id": 1871,
-    "name": "Robert Goldsborough Sr.",
+    "name": "Robert Goldsborough Sr",
     "first_name": "Robert",
     "middle_name": "Goldsborough",
     "maiden_name": "",
@@ -13,38 +13,83 @@
     "notes": "Ingested from preserved MainMenu.html record | Verified via FindAGrave: https://www.findagrave.com/memorial/181294809/robert-nerses-srabian",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 1399,
       "person_id": 1871,
-      "photo_id": 5185,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Henry Munson, Anna Wynder Munson, Henry Munson, Wynder Munson, Wynder Munson, Contributed by Paul Johnson  Aug, Anna W. Munson, of RD, Shoemaker Lane died Wednesday in, she was, graduate of Virginia State College, Munson was employed as, member of the NJEA., are two sons, Charles Davis of West Chester, Pa. And Robert J., of Baltimore, Md.; two daughters, Madeline Munson of Toms River, Mary Conaway, Wright and Abbie Goldsborough, all of Bridgeton; three grandchildren, Edward L. Wynder., E. Commerce, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Munson",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1924",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MunsonAnnaW.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MunsonCharlesHenry.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Robert Goldsborough Sr.",
+      "citations": [
+        {
+          "citation_id": 1399,
+          "fact_id": 1399,
+          "source_id": 132,
+          "evidence_text": null,
+          "source_title": "Record: MainMenu.html",
+          "source_url": "MainMenu.html",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1400,
+      "person_id": 1871,
+      "fact_type": "Birth",
+      "date_string": "30 Jul 1939",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1400,
+          "fact_id": 1400,
+          "source_id": 132,
+          "evidence_text": null,
+          "source_title": "Record: MainMenu.html",
+          "source_url": "MainMenu.html",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1401,
+      "person_id": 1871,
+      "fact_type": "Death",
+      "date_string": "12 Jul 2017 (aged 77)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1401,
+          "fact_id": 1401,
+          "source_id": 132,
+          "evidence_text": null,
+          "source_title": "Record: MainMenu.html",
+          "source_url": "MainMenu.html",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [
     {
-      "id": 432,
+      "id": 5103,
       "category": "Duplicate Candidate",
       "severity": "warning",
       "person_id": 1871,
       "person_id_secondary": 545,
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: robert|sr.|1939",
-      "created_at": "2026-08-14 03:42:34"
+      "created_at": "2026-08-19 00:14:46"
     }
   ],
   "ancestry": {
     "id": 1871,
-    "name": "Robert Goldsborough Sr.",
+    "name": "Robert Goldsborough Sr",
     "children": []
   }
 }

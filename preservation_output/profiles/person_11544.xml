@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11544">
+    <name>
+      <nameForm>
+        <fullText>We cannot say for sure who his parents were but it is possible he was the</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_29"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11544"/>
+    <person2 resource="#p_11545"/>
+    <note>
+      <text>Evidence: . We cannot say for sure who his parents were but it is possible he was the son of  William and Mary Concilor .</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_29">
+    <about resource="concl-e1.htm"/>
+    <title>Record: concl-e1.htm</title>
+  </sourceDescription>
+</gedcomx>

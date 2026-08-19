@@ -13,46 +13,78 @@
     "notes": "Moor/Nanticoke lineage record - Jackson cluster | Verified via FindAGrave: https://www.findagrave.com/memorial/20485725/daniel-jackson",
     "dataset_source": "moors_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 1139,
       "person_id": 967,
-      "photo_id": 2785,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Mary Ann Dean Coker, of Moses Coker, Ann Dean Coker, daughter of Robert B. Dean, and Catherine Morgan, of Moses Coker, Morgan Dean, Ann DEAN, born  May  in, Delaware; died  Nov ; buried, in Manship Cemetery, De. She married Moses COKER, . Selenar COKER, born  Aug  in Delaware., . Mary Eliza COKER, Cassius? MOSLEY., . Robert James COKER, born  Sep  in Delaware., . Andrew COKER, born  Mar  in Delaware., . Lucinda COKER, born  Sep  in Delaware., . Albeda COKER, in Fork Branch Cem, De. She married on  Feb, . Sarah J. COKER, Mosley's memories //., . Angea COKER, born  Sep  in Delaware., . John C. COKER, born  Apr  in Delaware., . Moses Elwood COKER, born  Feb  in Delaware., . Catherine COKER, born  Feb  in Delaware., . William COKER, . Amanda E. COKER, . Daniel COKER, born  May  in Delaware., . Nathan L. COKER, in Manship Cemetery, . Caroline DEAN, Cheswold Charge, Methodist Episcopal Church, Bulletin No., . Manship: : p.m., of Mrs. Mary A. Coker., W.C. Jason, Died Nov, of toil, ones lose hope. Even so, and seemed e, sixteen children were born, H. and Nathan L. Coker, Albeda Clark, Sadie J. Washington, Angie Mosley, death claimed, U.S. Grant and, of Caroline Coker Jackson, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Dean",
-      "married_surname": "Coker",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1852",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_JacksonCarolineCokerAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerMaryAnnDean.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Daniel Robert Jackson",
+      "citations": [
+        {
+          "citation_id": 1139,
+          "fact_id": 1139,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
     },
     {
+      "fact_id": 1140,
       "person_id": 967,
-      "photo_id": 4476,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ann Wright, wife of Robert B. Jackson, & children, Lydia A. Wright Jackson, Children of Robert, B. & Lydia A. Jackson, Sarah Jackson Hughes, Alice Jackson Webb, Rebecca Jackson Reed, L to R: Perry Hughes, Daniel Jackson, Levin Jackson, Arthur Jackson, Ancestry of daughter, Mary Elizabeth Jackson Davis, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_JacksonMaryElizAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Jackson7&PerryHughes.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Birth",
+      "date_string": "24 Apr 1918",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1140,
+          "fact_id": 1140,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1141,
+      "person_id": 967,
+      "fact_type": "Death",
+      "date_string": "6 Jun 1974 (aged 56)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1141,
+          "fact_id": 1141,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [
     {
-      "id": 495,
+      "id": 5161,
       "category": "Duplicate Candidate",
       "severity": "warning",
       "person_id": 6127,
       "person_id_secondary": 967,
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: daniel|jackson|1918",
-      "created_at": "2026-08-14 03:42:34"
+      "created_at": "2026-08-19 00:14:46"
     }
   ],
   "ancestry": {

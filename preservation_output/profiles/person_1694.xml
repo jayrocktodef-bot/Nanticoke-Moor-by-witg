@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1694">
+    <name>
+      <nameForm>
+        <fullText>Howard Counselor</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_126"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>24 Jul 1946</original>
+      </date>
+      <source description="#s_126"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>17 Apr 2005 (aged 58)</original>
+      </date>
+      <source description="#s_126"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_126">
+    <about resource="NMAI.AC.001.008"/>
+    <title>Record: NMAI.AC.001.008</title>
+  </sourceDescription>
+</gedcomx>

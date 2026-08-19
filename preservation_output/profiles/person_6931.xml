@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6931">
+    <name>
+      <nameForm>
+        <fullText>Sarah Jane Harmon Ridgeway.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_510"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_510"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1781</original>
+      </date>
+      <source description="#s_510"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_510">
+    <about resource="PerkinsRoosevelt.htm"/>
+    <title>Record: PerkinsRoosevelt.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11129">
+    <name>
+      <nameForm>
+        <fullText>Vivian Turner</fullText>
+      </nameForm>
+    </name>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_11040"/>
+    <person2 resource="#p_11129"/>
+    <note>
+      <text>Evidence: Restored GEDCOM family marriage record</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11129"/>
+    <person2 resource="#p_11130"/>
+    <note>
+      <text>Evidence: Restored GEDCOM parent-child record</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11129"/>
+    <person2 resource="#p_11131"/>
+    <note>
+      <text>Evidence: Restored GEDCOM parent-child record</text>
+    </note>
+  </relationship>
+</gedcomx>

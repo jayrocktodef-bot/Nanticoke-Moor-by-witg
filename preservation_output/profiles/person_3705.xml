@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3705">
+    <name>
+      <nameForm>
+        <fullText>Judtih Cuyet</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_201"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>17 Dec 1965</original>
+      </date>
+      <source description="#s_201"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>17 Jan 2004 (aged 38)</original>
+      </date>
+      <source description="#s_201"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_201">
+    <about resource="MorganNapoleonBonaparte.htm"/>
+    <title>Record: MorganNapoleonBonaparte.htm</title>
+  </sourceDescription>
+</gedcomx>

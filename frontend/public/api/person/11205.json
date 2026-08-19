@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 11205,
-    "name": "Mrs. Maymie R. Johnson",
-    "first_name": "Mrs.",
-    "middle_name": "Maymie R.",
+    "name": "Maymie R. Johnson",
+    "first_name": "Maymie",
+    "middle_name": "R.",
     "maiden_name": "",
     "married_last_name": "Johnson",
     "evidence_level": 2,
@@ -13,25 +13,72 @@
     "notes": "Obituary Record: Interment will be in the Harmony Cemetary near Millsboro | Verified via FindAGrave: https://www.findagrave.com/memorial/298893249/mrs-johnson",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 11081,
       "person_id": 11205,
-      "id": 32,
-      "deceased_name": "Mrs. Maymie R. Johnson",
-      "age": null,
-      "birth_date": null,
-      "death_date": "1965",
-      "cemetery_location": "Interment will be in the Harmony Cemetary near Millsboro",
-      "full_text": "MILLSBORO: Mrs. Maymie R. Johnson, 66, of near Millsboro died Friday at her home after a long illness. She was a native of Sussex County.\n\nShe is survived by her husband, Barnard Johnson; a daughter, Mrs. Edith Norwood of Artesia, Calif; three sisters, Mrs. Nora Carter, Mrs. Ella Burton and Mrs. Myrtle Davis, all of Millsboro; a brother, Raymond Mosley of Millsboro; five grandchildren and nine great-grandchildren.\n\nServices will be tomorrow night at 8 at the James Funeral Home, Millsboro, where friends may call two hours before the service. Interment will be in the Harmony Cemetary near Millsboro.\n\nMrs. Dorsey Johnson  \nApril 14, \n1965",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Maymie R. Johnson",
+      "citations": [
+        {
+          "citation_id": 10699,
+          "fact_id": 11081,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11082,
+      "person_id": 11205,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10700,
+          "fact_id": 11082,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11083,
+      "person_id": 11205,
+      "fact_type": "Death",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10701,
+          "fact_id": 11083,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11205,
-    "name": "Mrs. Maymie R. Johnson",
+    "name": "Maymie R. Johnson",
     "children": []
   }
 }

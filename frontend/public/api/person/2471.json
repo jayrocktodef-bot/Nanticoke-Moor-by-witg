@@ -1,7 +1,7 @@
 {
   "person": {
     "person_id": 2471,
-    "name": ". Walter Wright",
+    "name": "Walter Wright",
     "first_name": ".",
     "middle_name": "Walter",
     "maiden_name": "",
@@ -13,13 +13,91 @@
     "notes": "Ingested from preserved Apprentice%20Indentures%20-%20Warren%20Wright%20family%201843.htm record | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 1963,
+      "person_id": 2471,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Walter Wright",
+      "citations": [
+        {
+          "citation_id": 1963,
+          "fact_id": 1963,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1964,
+      "person_id": 2471,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1964,
+          "fact_id": 1964,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1965,
+      "person_id": 2471,
+      "fact_type": "Death",
+      "date_string": "19 Oct 1927",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1965,
+          "fact_id": 1965,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 2014,
+      "person_id": 2471,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": ". Walter Wright",
+      "citations": [
+        {
+          "citation_id": 2014,
+          "fact_id": 2014,
+          "source_id": 139,
+          "evidence_text": null,
+          "source_title": "Record: Apprentice%20Indentures%20-%20Warren%20Wright%20family%201843.htm",
+          "source_url": "Apprentice%20Indentures%20-%20Warren%20Wright%20family%201843.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 2471,
-    "name": ". Walter Wright",
+    "name": "Walter Wright",
     "children": []
   }
 }

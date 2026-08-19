@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9037,
+      "person_id": 9721,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Maria Elizabeth Morris",
+      "citations": [
+        {
+          "citation_id": 9031,
+          "fact_id": 9037,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9038,
+      "person_id": 9721,
+      "fact_type": "Birth",
+      "date_string": "13 Oct 1877 Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9032,
+          "fact_id": 9038,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9039,
+      "person_id": 9721,
+      "fact_type": "Death",
+      "date_string": "04 Aug 1949 Milton, Sussex, Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9033,
+          "fact_id": 9039,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -68,14 +127,14 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10513,
-      "rel_name": "Charles Harold hanzer Sr."
+      "rel_name": "Charles Harold hanzer Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10513,
-      "rel_name": "Charles Harold hanzer Sr."
+      "rel_name": "Charles Harold hanzer Sr"
     },
     {
       "relationship_type": "spouse",
@@ -131,14 +190,14 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10513,
-      "rel_name": "Charles Harold hanzer Sr."
+      "rel_name": "Charles Harold hanzer Sr"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10513,
-      "rel_name": "Charles Harold hanzer Sr."
+      "rel_name": "Charles Harold hanzer Sr"
     },
     {
       "relationship_type": "child_of",
@@ -171,37 +230,9 @@
             "name": "Negro Morris Thomas",
             "children": [
               {
-                "id": 8505,
-                "name": "Morris Thomas",
-                "children": [
-                  {
-                    "id": 8910,
-                    "name": "Leticia Morris",
-                    "children": [
-                      {
-                        "id": 8616,
-                        "name": "Stephen Wright",
-                        "children": []
-                      },
-                      {
-                        "id": 8684,
-                        "name": "Priscilla Miller",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": 9992,
                 "name": "Sally Wright",
-                "children": [
-                  {
-                    "id": 10083,
-                    "name": "Wright Thomas Sr.",
-                    "children": []
-                  }
-                ]
+                "children": []
               }
             ]
           },
@@ -246,7 +277,7 @@
                       },
                       {
                         "id": 9191,
-                        "name": "Sarah Collier (Collyer) Miller",
+                        "name": "Sarah Collier Miller",
                         "children": []
                       }
                     ]

@@ -544,6 +544,7 @@ export default function HomeScreen() {
                 <NetworkGraph
                   graphData={graphData}
                   onSelectNode={(node) => setSelectedPersonId(node.id)}
+                  defaultViewFormat={selectedSurname ? 'network' : 'focus'}
                 />
               </div>
             </div>

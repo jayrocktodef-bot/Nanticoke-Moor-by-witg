@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_5543">
+    <name>
+      <nameForm>
+        <fullText>Jazz &amp; Sally</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_327"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_327"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Sep 1867</original>
+      </date>
+      <source description="#s_327"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_327">
+    <about resource="DurhamSamuel&amp;Sarah.htm"/>
+    <title>Record: DurhamSamuel&amp;Sarah.htm</title>
+  </sourceDescription>
+</gedcomx>

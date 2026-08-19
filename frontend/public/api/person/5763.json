@@ -13,6 +13,65 @@
     "notes": "Ingested from Hanzers&PerkinsAnn.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/178988540/robert-hanzer",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 4970,
+      "person_id": 5763,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Robert Marshall Hanzer",
+      "citations": [
+        {
+          "citation_id": 4964,
+          "fact_id": 4970,
+          "source_id": 348,
+          "evidence_text": null,
+          "source_title": "Record: Hanzers&PerkinsAnn.htm",
+          "source_url": "Hanzers&PerkinsAnn.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4971,
+      "person_id": 5763,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 4965,
+          "fact_id": 4971,
+          "source_id": 348,
+          "evidence_text": null,
+          "source_title": "Record: Hanzers&PerkinsAnn.htm",
+          "source_url": "Hanzers&PerkinsAnn.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4972,
+      "person_id": 5763,
+      "fact_type": "Death",
+      "date_string": "20 Jan 1904",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 4966,
+          "fact_id": 4972,
+          "source_id": 348,
+          "evidence_text": null,
+          "source_title": "Record: Hanzers&PerkinsAnn.htm",
+          "source_url": "Hanzers&PerkinsAnn.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -64,34 +123,7 @@
       "rel_name": "Marshall Edward Hanzer"
     }
   ],
-  "photos": [
-    {
-      "person_id": 5763,
-      "photo_id": 4193,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Perkins & Hanzer family, L to, R: Ann Perkins, Harriet Harmon Hanzer, & Robert M.), Robert Marshall Hanzer, Alexander Hanzer, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "family",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HanzerMarshallEAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Hanzers&PerkinsAnn.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 5763,
-      "photo_id": 4193,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Perkins & Hanzer family, L to, R: Ann Perkins, Harriet Harmon Hanzer, & Robert M.), Robert Marshall Hanzer, Alexander Hanzer, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "family",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HanzerMarshallEAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Hanzers&PerkinsAnn.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -133,7 +165,7 @@
         "children": [
           {
             "id": 10122,
-            "name": "John R (H) or Jonathan Harmon",
+            "name": "John R or Jonathan Harmon",
             "children": [
               {
                 "id": 9982,
@@ -151,7 +183,7 @@
                   },
                   {
                     "id": 9985,
-                    "name": "Jemima WARD Johnson (MD)",
+                    "name": "Jemima WARD Johnson",
                     "children": [
                       {
                         "id": 10401,

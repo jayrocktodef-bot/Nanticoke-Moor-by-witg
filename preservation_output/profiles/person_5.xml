@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_5">
+    <name>
+      <nameForm>
+        <fullText>Ann Cott</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_1"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_1"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>30 Aug 1864</original>
+      </date>
+      <source description="#s_1"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_1">
+    <about resource="bible-c1.htm"/>
+    <title>Record: bible-c1.htm</title>
+  </sourceDescription>
+</gedcomx>

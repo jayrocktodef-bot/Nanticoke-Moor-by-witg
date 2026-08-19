@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11526">
+    <name>
+      <nameForm>
+        <fullText>Caroline and Levin spent their</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_20"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11526"/>
+    <person2 resource="#p_11527"/>
+    <note>
+      <text>Evidence: Caroline and Levin spent their married life in Wilmington, at 508 East 9th Street, where they raised four children:</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11526"/>
+    <person2 resource="#p_11527"/>
+    <note>
+      <text>Evidence: Caroline and Levin spent their married life in Wilmington, at 508 East 9th Street, where they raised four children:</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_20">
+    <about resource="coker-c1.htm"/>
+    <title>Record: coker-c1.htm</title>
+  </sourceDescription>
+</gedcomx>

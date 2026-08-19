@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_527">
+    <name>
+      <nameForm>
+        <fullText>Mosley Thomas</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_87"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1843</original>
+      </date>
+      <source description="#s_87"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1925 (aged 81&amp;ndash;82)</original>
+      </date>
+      <source description="#s_87"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_527"/>
+    <person2 resource="#p_528"/>
+    <note>
+      <text>Evidence: Thomas Mosley married Leticia Hughes</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_527"/>
+    <person2 resource="#p_993"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_527"/>
+    <person2 resource="#p_10624"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_87">
+    <about resource="morganj4.htm"/>
+    <title>Record: morganj4.htm</title>
+  </sourceDescription>
+</gedcomx>

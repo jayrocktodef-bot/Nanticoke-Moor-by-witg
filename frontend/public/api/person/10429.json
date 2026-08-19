@@ -13,20 +13,79 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9727,
+      "person_id": 10429,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Sina Mosley",
+      "citations": [
+        {
+          "citation_id": 9721,
+          "fact_id": 9727,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9728,
+      "person_id": 10429,
+      "fact_type": "Birth",
+      "date_string": "abt 1815 Kent County, Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9722,
+          "fact_id": 9728,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9729,
+      "person_id": 10429,
+      "fact_type": "Death",
+      "date_string": "20 Apr 1895 Cheswold, Kent, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9723,
+          "fact_id": 9729,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F387@ marriage 1840 Kent County, Delaware, USA",
       "certainty": "confirmed",
-      "rel_id": 10424,
-      "rel_name": "Tilghman (Jack) Ridgeway"
+      "rel_id": 1019,
+      "rel_name": "Tilghman Ridgeway"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10430,
-      "rel_name": "Letisha \"Letty\" Jack Ridgeway"
+      "rel_name": "Letisha Letty Jack Ridgeway"
     },
     {
       "relationship_type": "child_of",
@@ -54,7 +113,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10434,
-      "rel_name": "Franklin \"Francis\" \"Frank\" Jack Ridgeway"
+      "rel_name": "Franklin Francis Frank Jack Ridgeway"
     },
     {
       "relationship_type": "child_of",
@@ -110,7 +169,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10442,
-      "rel_name": "Jeremiah \"Jack\" Ridgeway"
+      "rel_name": "Jeremiah Jack Ridgeway"
     },
     {
       "relationship_type": "child_of",
@@ -134,34 +193,7 @@
       "rel_name": "John Mosley"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10429,
-      "photo_id": 2237,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "& Sarah V. Ridgeway, Greensbury Ridgeway, Sina Mosley Ridgeway, Sarah Durham, Angelica Songo Durham Durham, Winfield Ridgeway Sr., Son of Greensbury Ridgeway, Sr & Sarah V. Durham, Married to Ola Reed, L to R: Winfield Ridgeway, Floyd Reed, Parker Custis, husband of Winfield's daughter, Doris Ridgeway, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Ridgeway",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1901",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_RidgewayWinfield-FloydReed-ParkerCustis.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayWinfield.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10429,
-      "photo_id": 3939,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "& Sarah V. Ridgeway, Greensbury Ridgeway, Sina Mosley Ridgeway, Sarah Durham, Angelica Songo Durham Durham, Winfield Ridgeway Sr., Son of Greensbury Ridgeway, Sr & Sarah V. Durham, Married to Ola Reed, L to R: Winfield Ridgeway, Floyd Reed, Parker Custis, husband of Winfield's daughter, Doris Ridgeway, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Ridgeway",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1867",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_RidgewayGreensbury-SarahDurham.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayGreensbury.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

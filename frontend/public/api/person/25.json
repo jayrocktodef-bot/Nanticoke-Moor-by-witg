@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/71308499/laura-ridgeway",
     "dataset_source": "lynncjackson"
   },
+  "facts": [
+    {
+      "fact_id": 40,
+      "person_id": 25,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Laura Ridgeway",
+      "citations": [
+        {
+          "citation_id": 40,
+          "fact_id": 40,
+          "source_id": 3,
+          "evidence_text": null,
+          "source_title": "Record: bible-r.htm",
+          "source_url": "bible-r.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 41,
+      "person_id": 25,
+      "fact_type": "Birth",
+      "date_string": "1838",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 41,
+          "fact_id": 41,
+          "source_id": 3,
+          "evidence_text": null,
+          "source_title": "Record: bible-r.htm",
+          "source_url": "bible-r.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 42,
+      "person_id": 25,
+      "fact_type": "Death",
+      "date_string": "25 Dec 1915 (aged 76&ndash;77)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 42,
+          "fact_id": 42,
+          "source_id": 3,
+          "evidence_text": null,
+          "source_title": "Record: bible-r.htm",
+          "source_url": "bible-r.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -20,6 +79,13 @@
       "certainty": "confirmed",
       "rel_id": 26,
       "rel_name": "Cornelius Ridgeway"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 1064,
+      "rel_name": "Frank Ridgeway"
     },
     {
       "relationship_type": "cross_dataset_match",

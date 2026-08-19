@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3111">
+    <name>
+      <nameForm>
+        <fullText>consulted for private industry.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_170"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>20 Jan 1849</original>
+      </date>
+      <source description="#s_170"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>13 Feb 1924 (aged 75)</original>
+      </date>
+      <source description="#s_170"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_170">
+    <about resource="BassKLorraine.htm"/>
+    <title>Record: BassKLorraine.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 8181,
-    "name": "Sylvester E. \"Spark\" Thompson",
+    "name": "Sylvester E. Spark Thompson",
     "first_name": "Sylvester",
-    "middle_name": "E. \"Spark\"",
+    "middle_name": "E. Spark",
     "maiden_name": "",
     "married_last_name": "Thompson",
     "evidence_level": 1,
@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7624,
+      "person_id": 8181,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Sylvester E. Spark Thompson",
+      "citations": [
+        {
+          "citation_id": 7618,
+          "fact_id": 7624,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7625,
+      "person_id": 8181,
+      "fact_type": "Birth",
+      "date_string": "1/13/1945",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7619,
+          "fact_id": 7625,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7626,
+      "person_id": 8181,
+      "fact_type": "Death",
+      "date_string": "15 September 2006 Seaford, Sussex, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7620,
+          "fact_id": 7626,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -34,7 +93,7 @@
   "audit_flags": [],
   "ancestry": {
     "id": 8181,
-    "name": "Sylvester E. \"Spark\" Thompson",
+    "name": "Sylvester E. Spark Thompson",
     "children": [
       {
         "id": 8171,
@@ -90,13 +149,7 @@
                   {
                     "id": 8606,
                     "name": "Richard Dickerson",
-                    "children": [
-                      {
-                        "id": 9073,
-                        "name": "Charles Dickerson",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 9071,
@@ -145,28 +198,12 @@
             "name": "Elsie Davis",
             "children": [
               {
-                "id": 8610,
-                "name": "Davis Morris",
-                "children": [
-                  {
-                    "id": 4643,
-                    "name": "Henry Davis",
-                    "children": []
-                  },
-                  {
-                    "id": 10618,
-                    "name": "William H Davis",
-                    "children": []
-                  }
-                ]
-              },
-              {
                 "id": 8185,
                 "name": "Hester A. Morris Davis",
                 "children": [
                   {
                     "id": 8571,
-                    "name": "Francis E. \"Frank\" Morris",
+                    "name": "Francis E. Frank Morris",
                     "children": [
                       {
                         "id": 8617,

@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/46607103/daniel-davis (Buried at Glenwood Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8035,
+      "person_id": 8543,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Daniel Davis",
+      "citations": [
+        {
+          "citation_id": 8029,
+          "fact_id": 8035,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8036,
+      "person_id": 8543,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8030,
+          "fact_id": 8036,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8037,
+      "person_id": 8543,
+      "fact_type": "Death",
+      "date_string": "Feb 1851",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8031,
+          "fact_id": 8037,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -29,21 +88,7 @@
       "rel_name": "Martha Peggy Davis"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8543,
-      "photo_id": 4476,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ann Wright, wife of Robert B. Jackson, & children, Lydia A. Wright Jackson, Children of Robert, B. & Lydia A. Jackson, Sarah Jackson Hughes, Alice Jackson Webb, Rebecca Jackson Reed, L to R: Perry Hughes, Daniel Jackson, Levin Jackson, Arthur Jackson, Ancestry of daughter, Mary Elizabeth Jackson Davis, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Wright",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_JacksonMaryElizAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Jackson7&PerryHughes.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

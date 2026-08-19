@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11249">
+    <name>
+      <nameForm>
+        <fullText>Boen Clark</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_628"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1805</original>
+      </date>
+      <source description="#s_628"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1880</original>
+      </date>
+      <source description="#s_628"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11249"/>
+    <person2 resource="#p_10421"/>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9336"/>
+    <person2 resource="#p_11249"/>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11251"/>
+    <person2 resource="#p_11249"/>
+  </relationship>
+  <sourceDescription id="s_628">
+    <about resource="FindAGrave Memorial 55667866"/>
+    <title>Record: FindAGrave Memorial 55667866</title>
+  </sourceDescription>
+</gedcomx>

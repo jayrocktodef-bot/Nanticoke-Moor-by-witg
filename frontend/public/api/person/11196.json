@@ -1,37 +1,65 @@
 {
   "person": {
     "person_id": 11196,
-    "name": "Mrs. Arzelia Harmon",
-    "first_name": "Mrs.",
-    "middle_name": "Arzelia",
+    "name": "Arzelia Harmon",
+    "first_name": "Arzelia",
+    "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
     "evidence_level": 2,
     "source_page": "Obituary Archive",
-    "birth_info": "",
+    "birth_info": null,
     "death_info": "d. 1963",
     "notes": "Obituary Record: Interment will be in Bethel AME Cemetary | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 11062,
       "person_id": 11196,
-      "id": 21,
-      "deceased_name": "Mrs. Arzelia Harmon",
-      "age": null,
-      "birth_date": null,
-      "death_date": "1963",
-      "cemetery_location": "Interment will be in Bethel AME Cemetary",
-      "full_text": "MILTON: Mrs. Arzelia Harmon, 68 of here died yesterday at Milford Memorial Hospital after a long illness.  She was a member of the Congregational Church in Milton. Her husband, Levi W. Harmon died in \n1963\n.\n\nSurviving are a son: William of Washington, DC; two sisters, Mrs. Helen Johnson of Millsboro and Mrs. Virginia Harmon of Milton; and three brothers, Harvey Wright ofDelair, NJ, Marshall Wright of Millsboro and the Rev.  W. B. Wright of Camden, NJ.\n\nServices will be Sunday afternoon at 1 at  Short Funeral Home, Milton, where friends may call tomorrow night. Interment will be in Bethel AME Cemetary.\n\nMrs. Matilda J. Harmon  \n(no date listed)",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Arzelia Harmon",
+      "citations": [
+        {
+          "citation_id": 10680,
+          "fact_id": 11062,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11063,
+      "person_id": 11196,
+      "fact_type": "Death",
+      "date_string": "d. 1963",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10681,
+          "fact_id": 11063,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11196,
-    "name": "Mrs. Arzelia Harmon",
+    "name": "Arzelia Harmon",
     "children": []
   }
 }

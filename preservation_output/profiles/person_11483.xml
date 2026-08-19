@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11483">
+    <name>
+      <nameForm>
+        <fullText>Sample was</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_2"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11483"/>
+    <person2 resource="#p_11484"/>
+    <note>
+      <text>Evidence: :Levin T. Sample was married to Miss Maria Reed by Mr. Rev. A. Allen</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11483"/>
+    <person2 resource="#p_11484"/>
+    <note>
+      <text>Evidence: :Levin T. Sample was married to Miss Maria Reed by Mr. Rev. A. Allen</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11483"/>
+    <person2 resource="#p_11484"/>
+    <note>
+      <text>Evidence: :Levin T. Sample was married to Miss Maria Reed by Mr. Rev. A. Allen</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_2">
+    <about resource="bible-j.htm"/>
+    <title>Record: bible-j.htm</title>
+  </sourceDescription>
+</gedcomx>

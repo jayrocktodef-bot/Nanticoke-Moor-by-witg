@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11795">
+    <name>
+      <nameForm>
+        <fullText>Warren was</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_116"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11795"/>
+    <person2 resource="#p_11796"/>
+    <note>
+      <text>Evidence: Warren was married to Ida Patience Johnson and/or  Bertha Ida Johnson  Bertha was born on 30 October,</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11795"/>
+    <person2 resource="#p_11796"/>
+    <note>
+      <text>Evidence: Warren was married to Ida Patience Johnson and/or  Bertha Ida Johnson  Bertha was born on 30 October,</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_116">
+    <about resource="wrightw.htm"/>
+    <title>Record: wrightw.htm</title>
+  </sourceDescription>
+</gedcomx>

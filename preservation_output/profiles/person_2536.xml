@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2536">
+    <name>
+      <nameForm>
+        <fullText>Ancestry.com link</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_661"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_661"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>28 Apr 1920</original>
+      </date>
+      <source description="#s_661"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_661">
+    <about resource="IdentifiedIndians.htm"/>
+    <title>Record: IdentifiedIndians.htm</title>
+  </sourceDescription>
+</gedcomx>

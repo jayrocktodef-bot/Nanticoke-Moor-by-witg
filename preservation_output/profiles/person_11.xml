@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11">
+    <name>
+      <nameForm>
+        <fullText>Carney Thomas</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_1"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1910</original>
+      </date>
+      <source description="#s_1"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>18 Mar 1986 (aged 75&amp;ndash;76)</original>
+      </date>
+      <source description="#s_1"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_13"/>
+    <person2 resource="#p_11"/>
+    <note>
+      <text>Evidence: Sarah Cott the daughter of Thomas Carney and Sarah his wife was born Marth (4th?) 		A.D. 1839</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_11"/>
+    <person2 resource="#p_1074"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_1">
+    <about resource="bible-c1.htm"/>
+    <title>Record: bible-c1.htm</title>
+  </sourceDescription>
+</gedcomx>

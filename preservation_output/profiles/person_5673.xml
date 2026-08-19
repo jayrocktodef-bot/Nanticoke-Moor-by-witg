@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_5673">
+    <name>
+      <nameForm>
+        <fullText>Charlotte Hughes Gaines</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_341"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_341"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1933</original>
+      </date>
+      <source description="#s_341"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_341">
+    <about resource="GainesJohn&amp;Family.htm"/>
+    <title>Record: GainesJohn&amp;Family.htm</title>
+  </sourceDescription>
+</gedcomx>

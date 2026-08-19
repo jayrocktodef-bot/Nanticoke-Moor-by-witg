@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6880">
+    <name>
+      <nameForm>
+        <fullText>William Herbert Murray</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_500"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1894</original>
+      </date>
+      <source description="#s_500"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>14 Aug 1943 (aged 48&amp;ndash;49)</original>
+      </date>
+      <source description="#s_500"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_500">
+    <about resource="MurrayWilliam.htm"/>
+    <title>Record: MurrayWilliam.htm</title>
+  </sourceDescription>
+</gedcomx>

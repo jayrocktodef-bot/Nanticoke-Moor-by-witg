@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8537,
+      "person_id": 9085,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Mason J Wright",
+      "citations": [
+        {
+          "citation_id": 8531,
+          "fact_id": 8537,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8538,
+      "person_id": 9085,
+      "fact_type": "Birth",
+      "date_string": "1816 Georgia, United States",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8532,
+          "fact_id": 8538,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8539,
+      "person_id": 9085,
+      "fact_type": "Death",
+      "date_string": "29 Aug 1895 RAndolph, Randolph, Alabama, United States",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8533,
+          "fact_id": 8539,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -39,19 +98,7 @@
       {
         "id": 8603,
         "name": "William M Wright",
-        "children": [
-          {
-            "id": 9355,
-            "name": "Frances Wright",
-            "children": [
-              {
-                "id": 9356,
-                "name": "Joseph H Wright",
-                "children": []
-              }
-            ]
-          }
-        ]
+        "children": []
       },
       {
         "id": 8941,

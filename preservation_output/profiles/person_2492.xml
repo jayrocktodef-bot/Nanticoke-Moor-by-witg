@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2492">
+    <name>
+      <nameForm>
+        <fullText>Nathaniel Clark</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_661"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_2492"/>
+    <person2 resource="#p_9350"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_2492"/>
+    <person2 resource="#p_8514"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_2492"/>
+    <person2 resource="#p_9986"/>
+    <note>
+      <text>Evidence: GEDCOM Family @F444@ marriage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9943"/>
+    <person2 resource="#p_2492"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_661">
+    <about resource="IdentifiedIndians.htm"/>
+    <title>Record: IdentifiedIndians.htm</title>
+  </sourceDescription>
+</gedcomx>

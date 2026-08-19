@@ -1,7 +1,7 @@
 {
   "person": {
     "person_id": 9985,
-    "name": "Jemima WARD Johnson (MD)",
+    "name": "Jemima WARD Johnson",
     "first_name": "Jemima",
     "middle_name": "WARD",
     "maiden_name": "MD",
@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9373,
+      "person_id": 9985,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Jemima WARD Johnson",
+      "citations": [
+        {
+          "citation_id": 9367,
+          "fact_id": 9373,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9374,
+      "person_id": 9985,
+      "fact_type": "Birth",
+      "date_string": "1753 Somerset Co, , Maryland, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9368,
+          "fact_id": 9374,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9375,
+      "person_id": 9985,
+      "fact_type": "Death",
+      "date_string": "17 apr 1827 Somerset Co, , Maryland, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9369,
+          "fact_id": 9375,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -48,7 +107,7 @@
   "audit_flags": [],
   "ancestry": {
     "id": 9985,
-    "name": "Jemima WARD Johnson (MD)",
+    "name": "Jemima WARD Johnson",
     "children": [
       {
         "id": 10401,

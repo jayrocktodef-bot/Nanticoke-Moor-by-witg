@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11245">
+    <name>
+      <nameForm>
+        <fullText>Junior Turner</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_625"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1931</original>
+      </date>
+      <source description="#s_625"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>2005 (aged 73&amp;ndash;74)</original>
+      </date>
+      <source description="#s_625"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_625">
+    <about resource="GEDCOM Import"/>
+    <title>Record: GEDCOM Import</title>
+  </sourceDescription>
+</gedcomx>

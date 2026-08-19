@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_61">
+    <name>
+      <nameForm>
+        <fullText>Benjamin Durham</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_8"/>
+    <source description="#s_667"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1924</original>
+      </date>
+      <source description="#s_8"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1928 (aged 3&amp;ndash;4)</original>
+      </date>
+      <source description="#s_8"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_61"/>
+    <person2 resource="#p_10394"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_61"/>
+    <person2 resource="#p_10395"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_10934"/>
+    <person2 resource="#p_61"/>
+    <note>
+      <text>Evidence: NLP Extracted from Obituary: ', honolulu. she is also survived by six children, benjamin 
+  durham, manteca, katharine durham, los angeles, margaret'</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_8">
+    <about resource="carty-h2.htm"/>
+    <title>Record: carty-h2.htm</title>
+  </sourceDescription>
+  <sourceDescription id="s_667">
+    <about resource="https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"/>
+    <title>Obituary: Marguerite J. Brown ~1928-2016</title>
+  </sourceDescription>
+</gedcomx>

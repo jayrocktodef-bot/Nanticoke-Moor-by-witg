@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 11225,
-    "name": "Mrs. Georgianna Ridgeway",
-    "first_name": "Mrs.",
-    "middle_name": "Georgianna",
+    "name": "Georgianna Ridgeway",
+    "first_name": "Georgianna",
+    "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
     "evidence_level": 2,
@@ -13,25 +13,72 @@
     "notes": "Obituary Record: Interment will be in Immanuel Union Cemetery, Cheswold | Verified via FindAGrave: https://www.findagrave.com/memorial/170430790/m-earl-ridgeway",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 11129,
       "person_id": 11225,
-      "id": 52,
-      "deceased_name": "Mrs. Georgianna Ridgeway",
-      "age": null,
-      "birth_date": null,
-      "death_date": null,
-      "cemetery_location": "Interment will be in Immanuel Union Cemetery, Cheswold",
-      "full_text": "DOVER: Mrs. Georgianna  Ridgeway, 62, wife of Raymond Ridgeway of Dover died at Kent General Hospital after a brief illness. She was a member of the First Baptist Church at Cheswold.\n\nMrs. Ridgeway is survived in addition to her husband by three daughters, Mrs. Sadie Carney, Mrs. Virginia Durham and Mrs. Beatrice Seeney, all of Dover; three sons, Raymond Ridgeway Jr., Greensbury Ridgeway, both of Dover and Spec. 4 Albert Ridgeway stationed at Ft. Bragg, NC;  two sisters, Mrs. Sophia Gould, Bridgeton, NJ and Mrs. Earl Rdigeway, Cheswold; one brother, Albert Mosley, Dover; and 15 grandchildren.\n\nServices will be Thursday afternoon at 1 at the First Baptist Church, Cheswold where friends may call Wednesday night. Interment will be in Immanuel Union Cemetery, Cheswold.\n\nMike C. Ridgeway",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Georgianna Ridgeway",
+      "citations": [
+        {
+          "citation_id": 10747,
+          "fact_id": 11129,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11130,
+      "person_id": 11225,
+      "fact_type": "Birth",
+      "date_string": "21 Jun 1915",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10748,
+          "fact_id": 11130,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11131,
+      "person_id": 11225,
+      "fact_type": "Death",
+      "date_string": "16 Sep 2002 (aged 87)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10749,
+          "fact_id": 11131,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11225,
-    "name": "Mrs. Georgianna Ridgeway",
+    "name": "Georgianna Ridgeway",
     "children": []
   }
 }

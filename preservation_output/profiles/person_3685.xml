@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3685">
+    <name>
+      <nameForm>
+        <fullText>Alonzo Durham</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_201"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>4 Nov 1883</original>
+      </date>
+      <source description="#s_201"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>21 Dec 1951 (aged 68)</original>
+      </date>
+      <source description="#s_201"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_201">
+    <about resource="MorganNapoleonBonaparte.htm"/>
+    <title>Record: MorganNapoleonBonaparte.htm</title>
+  </sourceDescription>
+</gedcomx>

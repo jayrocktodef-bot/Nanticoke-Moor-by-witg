@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4179">
+    <name>
+      <nameForm>
+        <fullText>Caroline Dean</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_94"/>
+    <name>
+      <nameForm>
+        <fullText>. Caroline Dean</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_238"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_238"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>6 Sep 1830</original>
+      </date>
+      <source description="#s_238"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_94">
+    <about resource="munce-r2.htm"/>
+    <title>Record: munce-r2.htm</title>
+  </sourceDescription>
+  <sourceDescription id="s_238">
+    <about resource="CokerMaryAnnDean.htm"/>
+    <title>Record: CokerMaryAnnDean.htm</title>
+  </sourceDescription>
+</gedcomx>

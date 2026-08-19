@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_742">
+    <name>
+      <nameForm>
+        <fullText>George Hitchens</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_112"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_741"/>
+    <person2 resource="#p_742"/>
+    <note>
+      <text>Evidence: Edith Wright who married George Hitchens</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_112">
+    <about resource="wright-d.htm"/>
+    <title>Record: wright-d.htm</title>
+  </sourceDescription>
+</gedcomx>

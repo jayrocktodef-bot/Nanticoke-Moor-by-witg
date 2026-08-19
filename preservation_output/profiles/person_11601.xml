@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11601">
+    <name>
+      <nameForm>
+        <fullText>Jesse Dean  and his wife</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_44"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11519"/>
+    <person2 resource="#p_11601"/>
+    <note>
+      <text>Evidence: . He was the son of  Jesse Dean  and his wife, Rebecca. According to Jesse's will, William and his brother, Jesse Dean Jr.,  were born before their father and mother married. Consequently it is unlike</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_44">
+    <about resource="dean-w.htm"/>
+    <title>Record: dean-w.htm</title>
+  </sourceDescription>
+</gedcomx>

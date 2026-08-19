@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_9290">
+    <name>
+      <nameForm>
+        <fullText>far right) Ruth Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_165"/>
+    <name>
+      <nameForm>
+        <fullText>Ruth Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_622"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1 Jun 1793 Salem, New Jersey</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>7 Sep 1795 Salem, Salem,  New Jersey, USA</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9290"/>
+    <person2 resource="#p_8616"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9290"/>
+    <person2 resource="#p_8684"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_165">
+    <about resource="Carter_Lynn_Family.htm"/>
+    <title>Record: Carter_Lynn_Family.htm</title>
+  </sourceDescription>
+  <sourceDescription id="s_622">
+    <about resource="Davis Family Tree.ged"/>
+    <title>Record: Davis Family Tree.ged</title>
+  </sourceDescription>
+</gedcomx>

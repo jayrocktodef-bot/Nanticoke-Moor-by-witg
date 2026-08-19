@@ -152,6 +152,21 @@ def export_all():
     for r in c.fetchall():
         obits_map.setdefault(r['person_id'], []).append(dict(r))
 
+    # Pre-fetch evidence model: facts, citations, sources
+    c.execute("SELECT fact_id, person_id, fact_type, date_string, place_string, value_string FROM facts")
+    facts_map = {}
+    for r in c.fetchall():
+        facts_map.setdefault(r['person_id'], []).append(dict(r))
+
+    c.execute("""
+        SELECT cit.citation_id, cit.fact_id, cit.source_id, cit.evidence_text, s.title as source_title, s.url as source_url, s.dataset as source_dataset
+        FROM citations cit
+        LEFT JOIN sources s ON cit.source_id = s.source_id
+    """)
+    citations_map = {}
+    for r in c.fetchall():
+        citations_map.setdefault(r['fact_id'], []).append(dict(r))
+
     # Pre-fetch all audit flags
     c.execute("SELECT flag_id as id, category, severity, person_id, person_id_secondary, description, evidence, created_at FROM audit_flags")
     audit_map = {}
@@ -159,6 +174,11 @@ def export_all():
         audit_map.setdefault(r['person_id'], []).append(dict(r))
         if r['person_id_secondary']:
             audit_map.setdefault(r['person_id_secondary'], []).append(dict(r))
+
+    c.execute("SELECT source_id, title, url, dataset FROM sources")
+    sources_all = [dict(r) for r in c.fetchall()]
+    with open(os.path.join(API_DIR, 'sources.json'), 'w') as f:
+        json.dump(sources_all, f, indent=2)
 
     def build_ancestry_tree(person_id, person_name, current_depth, max_depth=5, visited=None):
         if visited is None:
@@ -178,8 +198,13 @@ def export_all():
 
     for p in all_persons:
         pid = p['person_id']
+        p_facts = facts_map.get(pid, [])
+        for f in p_facts:
+            f['citations'] = citations_map.get(f['fact_id'], [])
+
         p_data = {
             "person": p,
+            "facts": p_facts,
             "relationships": rels_map.get(pid, []),
             "photos": photos_map.get(pid, []),
             "obituaries": obits_map.get(pid, []),

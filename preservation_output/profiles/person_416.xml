@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_416">
+    <name>
+      <nameForm>
+        <fullText>Wesley Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_69"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>12 Jun 1813</original>
+      </date>
+      <source description="#s_69"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>10 Sep 1870 (aged 57)</original>
+      </date>
+      <source description="#s_69"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_69">
+    <about resource="jacksnr2.htm"/>
+    <title>Record: jacksnr2.htm</title>
+  </sourceDescription>
+</gedcomx>

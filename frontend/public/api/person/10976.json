@@ -13,6 +13,65 @@
     "notes": "Mentioned in obituary | Verified via FindAGrave: https://www.findagrave.com/memorial/46843234/harry-miller",
     "dataset_source": "mitsawokett_obituaries"
   },
+  "facts": [
+    {
+      "fact_id": 10500,
+      "person_id": 10976,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Harry Miller",
+      "citations": [
+        {
+          "citation_id": 10494,
+          "fact_id": 10500,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    },
+    {
+      "fact_id": 10501,
+      "person_id": 10976,
+      "fact_type": "Birth",
+      "date_string": "1916",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10495,
+          "fact_id": 10501,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    },
+    {
+      "fact_id": 10502,
+      "person_id": 10976,
+      "fact_type": "Death",
+      "date_string": "13 Jul 1921 (aged 4&ndash;5)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10496,
+          "fact_id": 10502,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -67,15 +126,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Miller Harry",
       "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Miller Harry",
-      "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -97,13 +149,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Miller Harry",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -151,29 +196,8 @@
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Miller Harry",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Miller Harry",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Miller Harry",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Miller Harry",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -195,13 +219,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Miller Harry",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -291,20 +308,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Miller Harry",
       "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Miller Harry",
-      "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Miller Harry",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -334,7 +337,7 @@
       "evidence_text": "Obituary child link for Miller Harry",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -411,7 +414,7 @@
       "evidence_text": "Obituary child link for Miller Harry",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -519,279 +522,9 @@
       "rel_name": "Niquita Harris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10976,
-      "photo_id": 3423,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "M. & Geneva M. Durham, who died in ., married second Enoch Miller Durham., Their children: David, Paul and Raymond, H. Durham, Durham says: \"Bridal book from, handed down, of Wilbur Durham, his grandmother's maiden name.\", I better photograph it., Alvin Harry Durham, Mae Cuff, and Alvin's wife Verna., Arthur Foster, Ada Durham Foster, D. Durham., Marie McMacken Durham, Regina F. Bell, Daughter of Enoch M. &, Geneva M. Durham, of Enoch & Geneva, E. Durham & Carolyn Hart, 'Duke' Durham, E. Durham, of son Raymond H. Durham, TO ENOCH, D. & MARTHA DURHAM P, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1914",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamRaymondHAncestry.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamEnochMiller&GenevaCuff.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10976,
-      "photo_id": 3431,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "M. & Geneva M. Durham, who died in ., married second Enoch Miller Durham., Their children: David, Paul and Raymond, H. Durham, Durham says: \"Bridal book from, handed down, of Wilbur Durham, his grandmother's maiden name.\", I better photograph it., Alvin Harry Durham, Mae Cuff, and Alvin's wife Verna., Arthur Foster, Ada Durham Foster, D. Durham., Marie McMacken Durham, Regina F. Bell, Daughter of Enoch M. &, Geneva M. Durham, of Enoch & Geneva, E. Durham & Carolyn Hart, 'Duke' Durham, E. Durham, of son Raymond H. Durham, TO ENOCH, D. & MARTHA DURHAM P, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1914",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_Bell_Regina_F_Durham.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamEnochMiller&GenevaCuff.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10976,
-      "photo_id": 3433,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "M. & Geneva M. Durham, who died in ., married second Enoch Miller Durham., Their children: David, Paul and Raymond, H. Durham, Durham says: \"Bridal book from, handed down, of Wilbur Durham, his grandmother's maiden name.\", I better photograph it., Alvin Harry Durham, Mae Cuff, and Alvin's wife Verna., Arthur Foster, Ada Durham Foster, D. Durham., Marie McMacken Durham, Regina F. Bell, Daughter of Enoch M. &, Geneva M. Durham, of Enoch & Geneva, E. Durham & Carolyn Hart, 'Duke' Durham, E. Durham, of son Raymond H. Durham, TO ENOCH, D. & MARTHA DURHAM P, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1914",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamPaulE.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamEnochMiller&GenevaCuff.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10976,
-      "photo_id": 3435,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "M. & Geneva M. Durham, who died in ., married second Enoch Miller Durham., Their children: David, Paul and Raymond, H. Durham, Durham says: \"Bridal book from, handed down, of Wilbur Durham, his grandmother's maiden name.\", I better photograph it., Alvin Harry Durham, Mae Cuff, and Alvin's wife Verna., Arthur Foster, Ada Durham Foster, D. Durham., Marie McMacken Durham, Regina F. Bell, Daughter of Enoch M. &, Geneva M. Durham, of Enoch & Geneva, E. Durham & Carolyn Hart, 'Duke' Durham, E. Durham, of son Raymond H. Durham, TO ENOCH, D. & MARTHA DURHAM P, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1914",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_EnochMDurham_family2.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamEnochMiller&GenevaCuff.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10976,
-      "photo_id": 5920,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "M. & Geneva M. Durham, who died in ., married second Enoch Miller Durham., Their children: David, Paul and Raymond, H. Durham, Durham says: \"Bridal book from, handed down, of Wilbur Durham, his grandmother's maiden name.\", I better photograph it., Alvin Harry Durham, Mae Cuff, and Alvin's wife Verna., Arthur Foster, Ada Durham Foster, D. Durham., Marie McMacken Durham, Regina F. Bell, Daughter of Enoch M. &, Geneva M. Durham, of Enoch & Geneva, E. Durham & Carolyn Hart, 'Duke' Durham, E. Durham, of son Raymond H. Durham, TO ENOCH, D. & MARTHA DURHAM P, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Durham",
-      "location": null,
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamEnoch_Geneva.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/Durham_EnochD&Martha.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10976,
-      "photo_id": 5924,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "M. & Geneva M. Durham, who died in ., married second Enoch Miller Durham., Their children: David, Paul and Raymond, H. Durham, Durham says: \"Bridal book from, handed down, of Wilbur Durham, his grandmother's maiden name.\", I better photograph it., Alvin Harry Durham, Mae Cuff, and Alvin's wife Verna., Arthur Foster, Ada Durham Foster, D. Durham., Marie McMacken Durham, Regina F. Bell, Daughter of Enoch M. &, Geneva M. Durham, of Enoch & Geneva, E. Durham & Carolyn Hart, 'Duke' Durham, E. Durham, of son Raymond H. Durham, TO ENOCH, D. & MARTHA DURHAM P, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Durham",
-      "location": null,
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamOtis_27Duke_27.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DurhamEnochMiller&GenevaCuff.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 632,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 863,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1094,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1325,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1556,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1787,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2018,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2249,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2480,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2711,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2942,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3173,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3403,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3633,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3864,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4095,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4326,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4557,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4787,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10976,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 10976,
     "name": "Harry Miller",

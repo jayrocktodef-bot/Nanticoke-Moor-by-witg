@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_255">
+    <name>
+      <nameForm>
+        <fullText>Jesse Sr</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_40"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>Aug 1895</original>
+      </date>
+      <source description="#s_40"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>12 May 1934 (aged 38)</original>
+      </date>
+      <source description="#s_40"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_40">
+    <about resource="dean-j2.htm"/>
+    <title>Record: dean-j2.htm</title>
+  </sourceDescription>
+</gedcomx>

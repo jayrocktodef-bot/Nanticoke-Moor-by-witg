@@ -9,10 +9,50 @@
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1896 Delaware",
-    "death_info": "",
+    "death_info": null,
     "notes": " | FindAGrave: no match",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9975,
+      "person_id": 10581,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Oscar Harmon",
+      "citations": [
+        {
+          "citation_id": 9969,
+          "fact_id": 9975,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9976,
+      "person_id": 10581,
+      "fact_type": "Birth",
+      "date_string": "1896 Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9970,
+          "fact_id": 9976,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -29,47 +69,7 @@
       "rel_name": "Eliza Jane Harmon"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10581,
-      "photo_id": 4235,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Lillian Davis Harmon, L to R: Carrie, Oscar Jr. \"Sport, \" Connie, Children of Oscar &, Lillian Davis Harmon, and Shirley, Lillian Davis Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Davis",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1987",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonConstanceAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonLillianDavisChildren.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10581,
-      "photo_id": 4237,
-      "title_or_caption": "Children of Oscar & Lillian (Davis) Harmon L to R: Carrie, Shirley, Os...",
-      "subject_names": "Children of Oscar & Lillian (Davis) Harmon L to R: Carrie, Shirley, Os...",
-      "maiden_name": "Harmon",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1987",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_Davis&HarmonKids.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonLillianDavisChildren.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10581,
-      "photo_id": 4239,
-      "title_or_caption": "Children of Oscar & Lillian (Davis) Harmon L to R: Carrie, Shirley, Os...",
-      "subject_names": "Children of Oscar & Lillian (Davis) Harmon L to R: Carrie, Shirley, Os...",
-      "maiden_name": "Harmon",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1987",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonConstanceAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonLillianDavisChildren.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -112,7 +112,7 @@
                 "children": [
                   {
                     "id": 10122,
-                    "name": "John R (H) or Jonathan Harmon",
+                    "name": "John R or Jonathan Harmon",
                     "children": [
                       {
                         "id": 9982,

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3072">
+    <name>
+      <nameForm>
+        <fullText>when the conflict occurred.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_170"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>21 Oct 1959</original>
+      </date>
+      <source description="#s_170"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>28 Jul 2004 (aged 44)</original>
+      </date>
+      <source description="#s_170"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_170">
+    <about resource="BassKLorraine.htm"/>
+    <title>Record: BassKLorraine.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,7 +1,7 @@
 {
   "person": {
     "person_id": 2311,
-    "name": "Selah Okie (Okey Oakley)",
+    "name": "Selah Okie",
     "first_name": "Selah",
     "middle_name": "",
     "maiden_name": "Okey Oakley",
@@ -13,13 +13,72 @@
     "notes": "Ingested from preserved Probate.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/182270870/selah-oakley",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 1785,
+      "person_id": 2311,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Selah Okie",
+      "citations": [
+        {
+          "citation_id": 1785,
+          "fact_id": 1785,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1786,
+      "person_id": 2311,
+      "fact_type": "Birth",
+      "date_string": "22 Jan 1784",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1786,
+          "fact_id": 1786,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1787,
+      "person_id": 2311,
+      "fact_type": "Death",
+      "date_string": "17 Mar 1827 (aged 43)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1787,
+          "fact_id": 1787,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 2311,
-    "name": "Selah Okie (Okey Oakley)",
+    "name": "Selah Okie",
     "children": []
   }
 }

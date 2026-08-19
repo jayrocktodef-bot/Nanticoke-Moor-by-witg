@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_429">
+    <name>
+      <nameForm>
+        <fullText>Rebecca Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_70"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1856</original>
+      </date>
+      <source description="#s_70"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1940 (aged 83&amp;ndash;84)</original>
+      </date>
+      <source description="#s_70"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_70">
+    <about resource="jacksnw1.htm"/>
+    <title>Record: jacksnw1.htm</title>
+  </sourceDescription>
+</gedcomx>

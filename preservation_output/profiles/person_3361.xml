@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3361">
+    <name>
+      <nameForm>
+        <fullText>Lyn Hettinger</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_180"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>13 Apr 1905</original>
+      </date>
+      <source description="#s_180"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>23 Dec 1991 (aged 86)</original>
+      </date>
+      <source description="#s_180"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_180">
+    <about resource="BlanchfieldJoanJohnsonfamily.htm"/>
+    <title>Record: BlanchfieldJoanJohnsonfamily.htm</title>
+  </sourceDescription>
+</gedcomx>

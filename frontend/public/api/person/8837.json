@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/18244548/mary-thompson",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8300,
+      "person_id": 8837,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Mary Thompson",
+      "citations": [
+        {
+          "citation_id": 8294,
+          "fact_id": 8300,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8301,
+      "person_id": 8837,
+      "fact_type": "Birth",
+      "date_string": "10 Mar 1878",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8295,
+          "fact_id": 8301,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8302,
+      "person_id": 8837,
+      "fact_type": "Death",
+      "date_string": "21 Jul 1943 (aged 65)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8296,
+          "fact_id": 8302,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -43,34 +102,7 @@
       "rel_name": "Leah Thompson"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8837,
-      "photo_id": 5542,
-      "title_or_caption": "Harry T. and Mary E. (Thompson) Street Mary & daughter Beatrice El...",
-      "subject_names": "Harry T",
-      "maiden_name": "Street",
-      "married_surname": "Street",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_StreetHarry&Mary.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetMary&Beatrice.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8837,
-      "photo_id": 5544,
-      "title_or_caption": "Harry T. and Mary E. (Thompson) Street Mary & daughter Beatrice El...",
-      "subject_names": "Harry T",
-      "maiden_name": "Street",
-      "married_surname": "Street",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_StreetGertrudeAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetMary&Beatrice.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -139,7 +171,7 @@
                     "children": [
                       {
                         "id": 10122,
-                        "name": "John R (H) or Jonathan Harmon",
+                        "name": "John R or Jonathan Harmon",
                         "children": []
                       },
                       {

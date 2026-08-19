@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_330">
+    <name>
+      <nameForm>
+        <fullText>This child</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_53"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>16 Jan 1869</original>
+      </date>
+      <source description="#s_53"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>6 Feb 1869 (aged 21 days)</original>
+      </date>
+      <source description="#s_53"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_330"/>
+    <person2 resource="#p_331"/>
+    <note>
+      <text>Evidence: In 1783 Rebecca Durham (later mentioned in John's will as the guardian of his 2 grandchildren - children of his deceased son, John ) appeared in Kent Co. Orphans Court records petitioning for guardian</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_53">
+    <about resource="durhm-j1.htm"/>
+    <title>Record: durhm-j1.htm</title>
+  </sourceDescription>
+</gedcomx>

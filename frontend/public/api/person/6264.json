@@ -13,32 +13,40 @@
     "notes": "Ingested from JohnsonClifford.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 5515,
+      "person_id": 6264,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Clifford Johnson",
+      "citations": [
+        {
+          "citation_id": 5509,
+          "fact_id": 5515,
+          "source_id": 404,
+          "evidence_text": null,
+          "source_title": "Record: JohnsonClifford.htm",
+          "source_url": "JohnsonClifford.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [],
   "photos": [
     {
       "person_id": 6264,
-      "photo_id": 4621,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Clifford Johnson, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Johnson",
+      "photo_id": 7410,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Clifford Johnson GO \n                            TO PHOTO INDEX A-C | D | E-...",
+      "subject_names": "Clifford Johnson",
+      "maiden_name": "Johnson",
+      "married_surname": "",
       "location": "Delaware / Delmarva",
       "approximate_year": "",
       "local_image_path": "assets/mitsawokett_photos/mitsawokett_JohnsonClifford.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonClifford.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 6264,
-      "photo_id": 4498,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Clifford Johnson, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Johnson",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_JohnsonCliffordAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonDorsey&Anna&CWright.htm",
       "dataset_source": "mitsawokett"
     }
   ],

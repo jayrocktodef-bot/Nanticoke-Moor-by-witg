@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9996,
+      "person_id": 10625,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Levi Mosley",
+      "citations": [
+        {
+          "citation_id": 9990,
+          "fact_id": 9996,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9997,
+      "person_id": 10625,
+      "fact_type": "Birth",
+      "date_string": "Oct 1889 Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9991,
+          "fact_id": 9997,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9998,
+      "person_id": 10625,
+      "fact_type": "Death",
+      "date_string": "Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9992,
+          "fact_id": 9998,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -22,21 +81,7 @@
       "rel_name": "Eliza Mosley"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10625,
-      "photo_id": 5067,
-      "title_or_caption": "Levi Mosley husband of Sadie Mae Mosley Ancestry of son Albert...",
-      "subject_names": "Levi Mosley husband of Sadie Mae Mosley Ancestry of son Albert...",
-      "maiden_name": "Mosley",
-      "married_surname": "Mosley",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MosleyAlbertPAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyLevi.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

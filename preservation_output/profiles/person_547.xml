@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_547">
+    <name>
+      <nameForm>
+        <fullText>two of Enoch</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_93"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11713"/>
+    <person2 resource="#p_547"/>
+    <note>
+      <text>Evidence: she married  Enoch Durham , the son of Benjamin Durham and Sally Ann Hansor. Two of her sisters married two of Enoch's brothers.</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_93">
+    <about resource="munce-m2.htm"/>
+    <title>Record: munce-m2.htm</title>
+  </sourceDescription>
+</gedcomx>

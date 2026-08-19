@@ -13,22 +13,67 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 9179,
       "person_id": 9889,
-      "photo_id": 4289,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "All photos, W. PorterIII, E. Lincoln, & Elizabeth, E. Lincoln Harmon, Lincoln Harmon, of son Isaac Clinton Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "photos",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1962",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonIsaacAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanELincoln&Eliz.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Clinton Long Harmon",
+      "citations": [
+        {
+          "citation_id": 9173,
+          "fact_id": 9179,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9180,
+      "person_id": 9889,
+      "fact_type": "Birth",
+      "date_string": "17 April 1887 Rehoboth Beach, Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9174,
+          "fact_id": 9180,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9181,
+      "person_id": 9889,
+      "fact_type": "Death",
+      "date_string": "15 May 1967 Rehoboth Beach, Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9175,
+          "fact_id": 9181,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

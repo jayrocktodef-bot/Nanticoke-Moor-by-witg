@@ -13,12 +13,71 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/135430735/mitchel-davis (Buried at Elk Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8393,
+      "person_id": 8894,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Mitchel Davis",
+      "citations": [
+        {
+          "citation_id": 8387,
+          "fact_id": 8393,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8394,
+      "person_id": 8894,
+      "fact_type": "Birth",
+      "date_string": "29 Jun 1914",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8388,
+          "fact_id": 8394,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8395,
+      "person_id": 8894,
+      "fact_type": "Death",
+      "date_string": "1945 (aged 30&ndash;31)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8389,
+          "fact_id": 8395,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
-      "rel_id": 4952,
+      "rel_id": 4997,
       "rel_name": "William Henry Davis"
     }
   ],
@@ -30,7 +89,7 @@
     "name": "Mitchel Davis",
     "children": [
       {
-        "id": 4952,
+        "id": 4997,
         "name": "William Henry Davis",
         "children": [
           {
@@ -43,7 +102,7 @@
                 "children": [
                   {
                     "id": 8809,
-                    "name": "Ludwig (Lewis) Davis",
+                    "name": "Ludwig Davis",
                     "children": []
                   }
                 ]

@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8435,
+      "person_id": 8921,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Eliza Jane Morris",
+      "citations": [
+        {
+          "citation_id": 8429,
+          "fact_id": 8435,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8436,
+      "person_id": 8921,
+      "fact_type": "Birth",
+      "date_string": "Abt. 1829 Murderkill Hundred, Kent County, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8430,
+          "fact_id": 8436,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8437,
+      "person_id": 8921,
+      "fact_type": "Death",
+      "date_string": "Abt. 1890 Indian River Hundred, Sussex County, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8431,
+          "fact_id": 8437,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -89,7 +148,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9107,
-      "rel_name": "Charles \"Charley\" Harmon"
+      "rel_name": "Charles Charley Harmon"
     },
     {
       "relationship_type": "child_of",
@@ -97,13 +156,6 @@
       "certainty": "confirmed",
       "rel_id": 8930,
       "rel_name": "David W. Harmon"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9566,
-      "rel_name": "Lemuel M. Harmon"
     },
     {
       "relationship_type": "child_of",
@@ -118,30 +170,9 @@
       "certainty": "confirmed",
       "rel_id": 8930,
       "rel_name": "David W. Harmon"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9566,
-      "rel_name": "Lemuel M. Harmon"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8921,
-      "photo_id": 4927,
-      "title_or_caption": "David Morris Husband of Eliza Jane Johnson Ancestry of da...",
-      "subject_names": "David Morris Husband of Eliza Jane Johnson Ancestry of da...",
-      "maiden_name": "Morris",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MorrisDavid&ElizaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisDavid2.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -179,7 +210,7 @@
                 "children": [
                   {
                     "id": 10122,
-                    "name": "John R (H) or Jonathan Harmon",
+                    "name": "John R or Jonathan Harmon",
                     "children": [
                       {
                         "id": 9982,

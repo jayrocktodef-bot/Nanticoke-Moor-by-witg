@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_14">
+    <name>
+      <nameForm>
+        <fullText>Obediah Cott</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_1"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>10 Mar 1845</original>
+      </date>
+      <source description="#s_1"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>5 Dec 1915 (aged 70)</original>
+      </date>
+      <source description="#s_1"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_14"/>
+    <person2 resource="#p_15"/>
+    <note>
+      <text>Evidence: Obediah Cott the son of John Cott &amp; Sallie Cott died July 25, 1848</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_1">
+    <about resource="bible-c1.htm"/>
+    <title>Record: bible-c1.htm</title>
+  </sourceDescription>
+</gedcomx>

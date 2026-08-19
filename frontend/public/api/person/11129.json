@@ -8,11 +8,22 @@
     "married_last_name": "Turner",
     "evidence_level": 2,
     "source_page": null,
-    "birth_info": "",
-    "death_info": "",
+    "birth_info": null,
+    "death_info": null,
     "notes": "Restored connected Delmarva lineage from GEDCOM | FindAGrave: no match",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 10891,
+      "person_id": 11129,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Vivian Turner",
+      "citations": []
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouses",
@@ -26,7 +37,7 @@
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11130,
-      "rel_name": "Dale Turner Jr."
+      "rel_name": "Dale Turner Jr"
     },
     {
       "relationship_type": "parent_of",

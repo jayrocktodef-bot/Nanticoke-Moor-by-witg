@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7932">
+    <name>
+      <nameForm>
+        <fullText>Robert Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_610"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>20 Mar 1845</original>
+      </date>
+      <source description="#s_610"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>26 Aug 1930 (aged 85)</original>
+      </date>
+      <source description="#s_610"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_7932"/>
+    <person2 resource="#p_8711"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_610">
+    <about resource="Wright%20Brothers%20Ontario.htm"/>
+    <title>Record: Wright%20Brothers%20Ontario.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,7 +1,7 @@
 {
   "person": {
     "person_id": 11130,
-    "name": "Dale Turner Jr.",
+    "name": "Dale Turner Jr",
     "first_name": "Dale",
     "middle_name": "Turner",
     "maiden_name": "",
@@ -13,6 +13,35 @@
     "notes": "Restored connected Delmarva lineage from GEDCOM | Verified via FindAGrave: https://www.findagrave.com/memorial/29777817/florence-waller",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 10892,
+      "person_id": 11130,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Dale Turner Jr.",
+      "citations": []
+    },
+    {
+      "fact_id": 10893,
+      "person_id": 11130,
+      "fact_type": "Birth",
+      "date_string": "30 Mar 1926",
+      "place_string": null,
+      "value_string": null,
+      "citations": []
+    },
+    {
+      "fact_id": 10894,
+      "person_id": 11130,
+      "fact_type": "Death",
+      "date_string": "15 Jan 2004 (aged 77)",
+      "place_string": null,
+      "value_string": null,
+      "citations": []
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "parent_of",
@@ -34,7 +63,7 @@
   "audit_flags": [],
   "ancestry": {
     "id": 11130,
-    "name": "Dale Turner Jr.",
+    "name": "Dale Turner Jr",
     "children": []
   }
 }

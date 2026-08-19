@@ -13,6 +13,84 @@
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/216561278/hall-thomas",
     "dataset_source": "lynncjackson"
   },
+  "facts": [
+    {
+      "fact_id": 145,
+      "person_id": 76,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Hall Thomas",
+      "citations": [
+        {
+          "citation_id": 145,
+          "fact_id": 145,
+          "source_id": 12,
+          "evidence_text": null,
+          "source_title": "Record: carty-w2.htm",
+          "source_url": "carty-w2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 146,
+      "person_id": 76,
+      "fact_type": "Birth",
+      "date_string": "1817",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 146,
+          "fact_id": 146,
+          "source_id": 12,
+          "evidence_text": null,
+          "source_title": "Record: carty-w2.htm",
+          "source_url": "carty-w2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 147,
+      "person_id": 76,
+      "fact_type": "Death",
+      "date_string": "17 May 1874 (aged 56&ndash;57)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 147,
+          "fact_id": 147,
+          "source_id": 12,
+          "evidence_text": null,
+          "source_title": "Record: carty-w2.htm",
+          "source_url": "carty-w2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11268,
+      "person_id": 76,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "HALL Thomas",
+      "citations": [
+        {
+          "citation_id": 10861,
+          "fact_id": 11268,
+          "source_id": 12,
+          "evidence_text": null,
+          "source_title": "Record: carty-w2.htm",
+          "source_url": "carty-w2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -20,13 +98,6 @@
       "certainty": "confirmed",
       "rel_id": 75,
       "rel_name": "Sarah Carter"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 1074,
-      "rel_name": "Harmon Thomas"
     }
   ],
   "photos": [],

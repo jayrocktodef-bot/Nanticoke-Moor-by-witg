@@ -9,10 +9,50 @@
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1928 Pennsylvania",
-    "death_info": "",
+    "death_info": null,
     "notes": " | FindAGrave: no match",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 10116,
+      "person_id": 10719,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Howard Thompson",
+      "citations": [
+        {
+          "citation_id": 10110,
+          "fact_id": 10116,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 10117,
+      "person_id": 10719,
+      "fact_type": "Birth",
+      "date_string": "abt 1928 Pennsylvania",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10111,
+          "fact_id": 10117,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -29,60 +69,7 @@
       "rel_name": "Sarah E Thompson"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10719,
-      "photo_id": 4143,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Howard Hall, Laura Katherine Thompson Hall, Amos Hall, Laura Hall, Doris Hall Johnson, of Eldridge Rynear Johnson, Radia Hall, Wife of Joseph Morris, Edna Hall Harmon, Everett Hall, Husband of Betty Jackson, Joseph Hall, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Hall",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HallRadiaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HallAmos&Laura.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10719,
-      "photo_id": 4145,
-      "title_or_caption": "Amos Howard & Laura Katherine (Thompson) Hall Amos & Laura Hall Daughter ...",
-      "subject_names": "Amos Howard & Laura Katherine (Thompson) Hall Amos & Laura Hall Daughter ...",
-      "maiden_name": "Hall",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_JohnsonDorisHall.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HallAmos&Laura.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10719,
-      "photo_id": 4151,
-      "title_or_caption": "Amos Howard & Laura Katherine (Thompson) Hall Amos & Laura Hall Daughter ...",
-      "subject_names": "Amos Howard & Laura Katherine (Thompson) Hall Amos & Laura Hall Daughter ...",
-      "maiden_name": "Hall",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HallEverett&Betty.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HallAmos&Laura.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10719,
-      "photo_id": 4153,
-      "title_or_caption": "Amos Howard & Laura Katherine (Thompson) Hall Amos & Laura Hall Daughter ...",
-      "subject_names": "Amos Howard & Laura Katherine (Thompson) Hall Amos & Laura Hall Daughter ...",
-      "maiden_name": "Hall",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HallJosephGrad.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HallAmos&Laura.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -181,7 +168,7 @@
                 "children": [
                   {
                     "id": 10122,
-                    "name": "John R (H) or Jonathan Harmon",
+                    "name": "John R or Jonathan Harmon",
                     "children": [
                       {
                         "id": 9982,

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4548">
+    <name>
+      <nameForm>
+        <fullText>Bertha Sammons</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_265"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>3 Dec 1884</original>
+      </date>
+      <source description="#s_265"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>17 Oct 1978 (aged 93)</original>
+      </date>
+      <source description="#s_265"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_265">
+    <about resource="CarterMaeWilsonfamily.htm"/>
+    <title>Record: CarterMaeWilsonfamily.htm</title>
+  </sourceDescription>
+</gedcomx>

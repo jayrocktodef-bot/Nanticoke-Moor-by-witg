@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1710">
+    <name>
+      <nameForm>
+        <fullText>Phillip Jackson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_131"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1935</original>
+      </date>
+      <source description="#s_131"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1988 (aged 52&amp;ndash;53)</original>
+      </date>
+      <source description="#s_131"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_131">
+    <about resource="Change_of_Race.htm"/>
+    <title>Record: Change_of_Race.htm</title>
+  </sourceDescription>
+</gedcomx>

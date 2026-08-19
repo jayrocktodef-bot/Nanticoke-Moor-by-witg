@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4623">
+    <name>
+      <nameForm>
+        <fullText>Rosa Mae Morris</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_270"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_270"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>15 May 1858</original>
+      </date>
+      <source description="#s_270"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_4623"/>
+    <person2 resource="#p_8710"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8565"/>
+    <person2 resource="#p_4623"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8565"/>
+    <person2 resource="#p_4623"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_270">
+    <about resource="DayHelenJohnson.htm"/>
+    <title>Record: DayHelenJohnson.htm</title>
+  </sourceDescription>
+</gedcomx>

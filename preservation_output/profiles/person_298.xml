@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_298">
+    <name>
+      <nameForm>
+        <fullText>Letters of Administration</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_46"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>5 Feb 1875</original>
+      </date>
+      <source description="#s_46"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>23 Jun 1933 (aged 58)</original>
+      </date>
+      <source description="#s_46"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_46">
+    <about resource="durhm-b1.htm"/>
+    <title>Record: durhm-b1.htm</title>
+  </sourceDescription>
+</gedcomx>

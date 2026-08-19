@@ -13,6 +13,27 @@
     "notes": "Ingested from HarmonElmer.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 5122,
+      "person_id": 5898,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Elmer Harmon",
+      "citations": [
+        {
+          "citation_id": 5116,
+          "fact_id": 5122,
+          "source_id": 355,
+          "evidence_text": null,
+          "source_title": "Record: HarmonElmer.htm",
+          "source_url": "HarmonElmer.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -32,11 +53,11 @@
   "photos": [
     {
       "person_id": 5898,
-      "photo_id": 4299,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Elmer Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Harmon",
+      "photo_id": 7250,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Elmer Harmon GO \n                            TO PHOTO INDEX A-C | D | E-L | ...",
+      "subject_names": "Elmer Harmon",
+      "maiden_name": "Harmon",
+      "married_surname": "",
       "location": "Delaware / Delmarva",
       "approximate_year": "",
       "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonElmer.jpg",
@@ -83,7 +104,7 @@
             "children": [
               {
                 "id": 10122,
-                "name": "John R (H) or Jonathan Harmon",
+                "name": "John R or Jonathan Harmon",
                 "children": [
                   {
                     "id": 9982,
@@ -101,7 +122,7 @@
                       },
                       {
                         "id": 9985,
-                        "name": "Jemima WARD Johnson (MD)",
+                        "name": "Jemima WARD Johnson",
                         "children": []
                       }
                     ]
@@ -145,7 +166,7 @@
                       },
                       {
                         "id": 9985,
-                        "name": "Jemima WARD Johnson (MD)",
+                        "name": "Jemima WARD Johnson",
                         "children": []
                       }
                     ]

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4090">
+    <name>
+      <nameForm>
+        <fullText>Crofton Clark Drain</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_232"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>5 May 1884</original>
+      </date>
+      <source description="#s_232"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1884 (aged less&amp;ndash;than 1 year)</original>
+      </date>
+      <source description="#s_232"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_232">
+    <about resource="ClarkAgnes.htm"/>
+    <title>Record: ClarkAgnes.htm</title>
+  </sourceDescription>
+</gedcomx>

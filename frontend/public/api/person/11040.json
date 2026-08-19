@@ -13,6 +13,35 @@
     "notes": "Restored connected Delmarva lineage from GEDCOM",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 10645,
+      "person_id": 11040,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Dale D Turner",
+      "citations": []
+    },
+    {
+      "fact_id": 10646,
+      "person_id": 11040,
+      "fact_type": "Birth",
+      "date_string": "6 Apr 1936 Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": []
+    },
+    {
+      "fact_id": 10647,
+      "person_id": 11040,
+      "fact_type": "Death",
+      "date_string": "2 Mar 2001",
+      "place_string": null,
+      "value_string": null,
+      "citations": []
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "parent_of",
@@ -33,7 +62,7 @@
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11130,
-      "rel_name": "Dale Turner Jr."
+      "rel_name": "Dale Turner Jr"
     },
     {
       "relationship_type": "parent_of",

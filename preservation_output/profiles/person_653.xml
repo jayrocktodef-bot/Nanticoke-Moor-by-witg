@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_653">
+    <name>
+      <nameForm>
+        <fullText>DanielDavid Francisco</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_99"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>14 May 1938</original>
+      </date>
+      <source description="#s_99"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>21 Oct 2015 (aged 77)</original>
+      </date>
+      <source description="#s_99"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_99">
+    <about resource="probate.htm"/>
+    <title>Record: probate.htm</title>
+  </sourceDescription>
+</gedcomx>

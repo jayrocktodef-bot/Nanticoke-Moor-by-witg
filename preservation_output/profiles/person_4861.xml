@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4861">
+    <name>
+      <nameForm>
+        <fullText>Hunter Davis</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_286"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>10 Sep 1900</original>
+      </date>
+      <source description="#s_286"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>3 Apr 1914 (aged 13)</original>
+      </date>
+      <source description="#s_286"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_286">
+    <about resource="DavisMichael.htm"/>
+    <title>Record: DavisMichael.htm</title>
+  </sourceDescription>
+</gedcomx>

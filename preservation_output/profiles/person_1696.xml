@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1696">
+    <name>
+      <nameForm>
+        <fullText>John Puckham</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_128"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>18 Feb 1991</original>
+      </date>
+      <source description="#s_128"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>31 Jul 2005 (aged 14)</original>
+      </date>
+      <source description="#s_128"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_1696"/>
+    <person2 resource="#p_1697"/>
+    <note>
+      <text>Evidence: Married 25 Feb 1682/3 in Somerset Co, MD; minister John Huett</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1698"/>
+    <person2 resource="#p_1696"/>
+    <note>
+      <text>Evidence: Grandson of John Puckham (b.1660); Nanticoke Chief 1742</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_128">
+    <about resource="Puckham.htm"/>
+    <title>Record: Puckham.htm</title>
+  </sourceDescription>
+</gedcomx>

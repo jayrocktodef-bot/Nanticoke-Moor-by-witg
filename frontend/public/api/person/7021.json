@@ -13,22 +13,67 @@
     "notes": "Ingested from PrettymanJames&Priscilla.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/116759263/eli-kellam",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 6408,
       "person_id": 7021,
-      "photo_id": 5294,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "James & Priscilla, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Priscilla",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_PrettymanJames_Priscilla.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/PrettymanJames&Priscilla.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "James & Priscilla",
+      "citations": [
+        {
+          "citation_id": 6402,
+          "fact_id": 6408,
+          "source_id": 526,
+          "evidence_text": null,
+          "source_title": "Record: PrettymanJames&Priscilla.htm",
+          "source_url": "PrettymanJames&Priscilla.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 6409,
+      "person_id": 7021,
+      "fact_type": "Birth",
+      "date_string": "2 Sep 1869",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 6403,
+          "fact_id": 6409,
+          "source_id": 526,
+          "evidence_text": null,
+          "source_title": "Record: PrettymanJames&Priscilla.htm",
+          "source_url": "PrettymanJames&Priscilla.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 6410,
+      "person_id": 7021,
+      "fact_type": "Death",
+      "date_string": "14 Dec 1931 (aged 62)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 6404,
+          "fact_id": 6410,
+          "source_id": 526,
+          "evidence_text": null,
+          "source_title": "Record: PrettymanJames&Priscilla.htm",
+          "source_url": "PrettymanJames&Priscilla.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

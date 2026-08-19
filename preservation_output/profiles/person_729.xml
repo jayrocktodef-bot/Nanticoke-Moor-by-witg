@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_729">
+    <name>
+      <nameForm>
+        <fullText>Elizabeth Francisco</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_110"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_729"/>
+    <person2 resource="#p_2061"/>
+    <note>
+      <text>Evidence: Elizabeth Francisco was probably the daughter of Thomas Conselah, mentioned in his will in 1739 and called the mother of Thomas in the 1738 Little Creek Hundred taxables. It is possible that John and </text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_110">
+    <about resource="sisco.htm"/>
+    <title>Record: sisco.htm</title>
+  </sourceDescription>
+</gedcomx>

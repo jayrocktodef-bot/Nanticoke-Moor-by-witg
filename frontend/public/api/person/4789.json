@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 4789,
-    "name": "Bea Davis' Memorial Service",
+    "name": "Bea Davis Memorial Service",
     "first_name": "Bea",
-    "middle_name": "Davis' Memorial",
+    "middle_name": "Davis Memorial",
     "maiden_name": "",
     "married_last_name": "Service",
     "evidence_level": 2,
@@ -13,40 +13,72 @@
     "notes": "Ingested from DavisRock&Sabrina&son.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/154979528/bea-davis (Buried at Ione Public Cemetery)",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 4133,
       "person_id": 4789,
-      "photo_id": 2300,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Sabrina Berkley Davis, to R: Rock, Carly & Sabrina, at Manship Church, Bishop's Corner, Bea Davis' Memorial Service, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Berkley",
-      "married_surname": "Davis",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "2001",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisRockAnthonyAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisRock&Sabrina&son.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Bea Davis Memorial Service",
+      "citations": [
+        {
+          "citation_id": 4127,
+          "fact_id": 4133,
+          "source_id": 279,
+          "evidence_text": null,
+          "source_title": "Record: DavisRock&Sabrina&son.htm",
+          "source_url": "DavisRock&Sabrina&son.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
+      "fact_id": 4134,
       "person_id": 4789,
-      "photo_id": 2300,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Sabrina Berkley Davis, to R: Rock, Carly & Sabrina, at Manship Church, Bishop's Corner, Bea Davis' Memorial Service, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Berkley",
-      "married_surname": "Davis",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "2001",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DavisRockAnthonyAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisRock&Sabrina&son.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Birth",
+      "date_string": "1878",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 4128,
+          "fact_id": 4134,
+          "source_id": 279,
+          "evidence_text": null,
+          "source_title": "Record: DavisRock&Sabrina&son.htm",
+          "source_url": "DavisRock&Sabrina&son.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4135,
+      "person_id": 4789,
+      "fact_type": "Death",
+      "date_string": "1965 (aged 86&ndash;87)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 4129,
+          "fact_id": 4135,
+          "source_id": 279,
+          "evidence_text": null,
+          "source_title": "Record: DavisRock&Sabrina&son.htm",
+          "source_url": "DavisRock&Sabrina&son.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 4789,
-    "name": "Bea Davis' Memorial Service",
+    "name": "Bea Davis Memorial Service",
     "children": []
   }
 }

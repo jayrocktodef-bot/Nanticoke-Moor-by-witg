@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7765,
+      "person_id": 8274,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Edgar Coil Morris Sr",
+      "citations": [
+        {
+          "citation_id": 7759,
+          "fact_id": 7765,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7766,
+      "person_id": 8274,
+      "fact_type": "Birth",
+      "date_string": "26 September 1890 Kent County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7760,
+          "fact_id": 7766,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7767,
+      "person_id": 8274,
+      "fact_type": "Death",
+      "date_string": "6 September 1960 Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7761,
+          "fact_id": 7767,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -90,56 +149,9 @@
       "certainty": "confirmed",
       "rel_id": 4624,
       "rel_name": "Edward Morris"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9979,
-      "rel_name": "Frances F. Morris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8274,
-      "photo_id": 2911,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Jane Harmon Morris, of Edgar C. Morris, of son Noah O. Morris, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Morris",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MorrisNoahOAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisSarahJaneHarmon.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8274,
-      "photo_id": 2912,
-      "title_or_caption": "Sarah Jane Harmon Morris Wife of Edgar C. ...",
-      "subject_names": "Sarah Jane Harmon Morris Wife of Edgar C. ...",
-      "maiden_name": "Coursey",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MorrisNoahOAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisSarahJaneHarmon.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8274,
-      "photo_id": 4575,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Edgar Morris &, Mary Jackson, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "&",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MorrisEdgar_JacksonMary.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisEdgar&JacksonMary.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -155,37 +167,9 @@
             "name": "Negro Morris Thomas",
             "children": [
               {
-                "id": 8505,
-                "name": "Morris Thomas",
-                "children": [
-                  {
-                    "id": 8910,
-                    "name": "Leticia Morris",
-                    "children": [
-                      {
-                        "id": 8616,
-                        "name": "Stephen Wright",
-                        "children": []
-                      },
-                      {
-                        "id": 8684,
-                        "name": "Priscilla Miller",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": 9992,
                 "name": "Sally Wright",
-                "children": [
-                  {
-                    "id": 10083,
-                    "name": "Wright Thomas Sr.",
-                    "children": []
-                  }
-                ]
+                "children": []
               }
             ]
           },
@@ -230,7 +214,7 @@
                       },
                       {
                         "id": 9191,
-                        "name": "Sarah Collier (Collyer) Miller",
+                        "name": "Sarah Collier Miller",
                         "children": []
                       }
                     ]
@@ -238,50 +222,6 @@
                 ]
               }
             ]
-          }
-        ]
-      },
-      {
-        "id": 9979,
-        "name": "Frances F. Morris",
-        "children": [
-          {
-            "id": 9981,
-            "name": "William Coard Harmon",
-            "children": [
-              {
-                "id": 9982,
-                "name": "Robert Emanuel Harmon",
-                "children": []
-              },
-              {
-                "id": 9983,
-                "name": "Rachel Anne Johnson",
-                "children": [
-                  {
-                    "id": 9984,
-                    "name": "Isaac Johnson",
-                    "children": []
-                  },
-                  {
-                    "id": 9985,
-                    "name": "Jemima WARD Johnson (MD)",
-                    "children": [
-                      {
-                        "id": 10401,
-                        "name": "Rachel Johnson",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": 9980,
-            "name": "Sarah Ann Handsor",
-            "children": []
           }
         ]
       }

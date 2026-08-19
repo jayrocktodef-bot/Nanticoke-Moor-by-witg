@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4858">
+    <name>
+      <nameForm>
+        <fullText>Robert N. Davis</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_286"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1874</original>
+      </date>
+      <source description="#s_286"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_286"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_286">
+    <about resource="DavisMichael.htm"/>
+    <title>Record: DavisMichael.htm</title>
+  </sourceDescription>
+</gedcomx>

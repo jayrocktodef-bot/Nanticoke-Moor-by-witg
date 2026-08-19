@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 8209,
-    "name": "Corlezia \"Flower Keeper\" Cobb Clark",
+    "name": "Corlezia Flower Keeper Cobb Clark",
     "first_name": "Corlezia",
-    "middle_name": "\"Flower Keeper\" Cobb",
+    "middle_name": "Flower Keeper Cobb",
     "maiden_name": "",
     "married_last_name": "Clark",
     "evidence_level": 1,
@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7700,
+      "person_id": 8209,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Corlezia Flower Keeper Cobb Clark",
+      "citations": [
+        {
+          "citation_id": 7694,
+          "fact_id": 7700,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7701,
+      "person_id": 8209,
+      "fact_type": "Birth",
+      "date_string": "11 Nov 1919 Milton, Sussex,  Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7695,
+          "fact_id": 7701,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7702,
+      "person_id": 8209,
+      "fact_type": "Death",
+      "date_string": "07 May 1995 Milford Memorial Hospital, Milford, Sussex, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7696,
+          "fact_id": 7702,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -34,7 +93,7 @@
   "audit_flags": [],
   "ancestry": {
     "id": 8209,
-    "name": "Corlezia \"Flower Keeper\" Cobb Clark",
+    "name": "Corlezia Flower Keeper Cobb Clark",
     "children": [
       {
         "id": 8193,

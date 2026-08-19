@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11534">
+    <name>
+      <nameForm>
+        <fullText>Mary Ann Coker was the</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_26"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11534"/>
+    <person2 resource="#p_11535"/>
+    <note>
+      <text>Evidence: Mary Ann Coker was the daughter of James Coker  and Eliza JACKSON. She was born in Kent Co., DE on 9 September,</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_26">
+    <about resource="coker-m3.htm"/>
+    <title>Record: coker-m3.htm</title>
+  </sourceDescription>
+</gedcomx>

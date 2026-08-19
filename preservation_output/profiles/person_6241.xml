@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6241">
+    <name>
+      <nameForm>
+        <fullText>Gladys Rivera</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_403"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_403"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>9 Feb 2010</original>
+      </date>
+      <source description="#s_403"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_403">
+    <about resource="JacksonCharlotteFamily.htm"/>
+    <title>Record: JacksonCharlotteFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

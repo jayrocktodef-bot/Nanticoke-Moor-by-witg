@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_5584">
+    <name>
+      <nameForm>
+        <fullText>Jim Faulkner</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_334"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>10 Jan 1941</original>
+      </date>
+      <source description="#s_334"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>28 Aug 2001 (aged 60)</original>
+      </date>
+      <source description="#s_334"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_334">
+    <about resource="FaulknerLawrenceDean.htm"/>
+    <title>Record: FaulknerLawrenceDean.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_5660">
+    <name>
+      <nameForm>
+        <fullText>Gould Steward</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_339"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_339"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>20 Jan 1879</original>
+      </date>
+      <source description="#s_339"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_339">
+    <about resource="Gouldtown%20Old%20Folks.htm"/>
+    <title>Record: Gouldtown%20Old%20Folks.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8251,
+      "person_id": 8790,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Ardith P Harmon",
+      "citations": [
+        {
+          "citation_id": 8245,
+          "fact_id": 8251,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8252,
+      "person_id": 8790,
+      "fact_type": "Birth",
+      "date_string": "7/27/1934 Millsboro, Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8246,
+          "fact_id": 8252,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8253,
+      "person_id": 8790,
+      "fact_type": "Death",
+      "date_string": "12Feb2021  Millsboro, Sussex County, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8247,
+          "fact_id": 8253,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -36,7 +95,47 @@
       "rel_name": "Lillian Eleanor Davis"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 8790,
+      "photo_id": 7218,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Children \n  of Oscar & Lillian (Davis) Harmon L to R: Carrie, Shirley, \n  Os...",
+      "subject_names": "Ardith Harmon",
+      "maiden_name": "Harmon",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "1987",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonLillianDavisChildren.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonLillianDavisChildren.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 8790,
+      "photo_id": 7219,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Children \n  of Oscar & Lillian (Davis) Harmon L to R: Carrie, Shirley, \n  Os...",
+      "subject_names": "Ardith Harmon",
+      "maiden_name": "Harmon",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "1987",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_Davis&HarmonKids.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonLillianDavisChildren.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 8790,
+      "photo_id": 7220,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Children \n  of Oscar & Lillian (Davis) Harmon L to R: Carrie, Shirley, \n  Os...",
+      "subject_names": "Ardith Harmon",
+      "maiden_name": "Harmon",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "1987",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonConstanceAncestry.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonLillianDavisChildren.htm",
+      "dataset_source": "mitsawokett"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -74,22 +173,6 @@
             "name": "Robert Henry Davis",
             "children": [
               {
-                "id": 8788,
-                "name": "John M. Davis",
-                "children": [
-                  {
-                    "id": 4643,
-                    "name": "Henry Davis",
-                    "children": []
-                  },
-                  {
-                    "id": 10618,
-                    "name": "William H Davis",
-                    "children": []
-                  }
-                ]
-              },
-              {
                 "id": 8791,
                 "name": "Mary E Jackson",
                 "children": [
@@ -102,50 +185,6 @@
                     "id": 7978,
                     "name": "Lydia Ann Wright Jackson",
                     "children": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": 8704,
-            "name": "Lillie M. Davis",
-            "children": [
-              {
-                "id": 754,
-                "name": "William Howard Johnson",
-                "children": [
-                  {
-                    "id": 584,
-                    "name": "William Arthur Johnson",
-                    "children": []
-                  },
-                  {
-                    "id": 774,
-                    "name": "Elizabeth Patience Wright",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 9270,
-                "name": "Elizabeth Anne Harmon",
-                "children": [
-                  {
-                    "id": 5921,
-                    "name": "Isaac W. Harmon",
-                    "children": []
-                  },
-                  {
-                    "id": 10214,
-                    "name": "Sarah Jane Sockum",
-                    "children": [
-                      {
-                        "id": 9666,
-                        "name": "Eunice White Ridgeway",
-                        "children": []
-                      }
-                    ]
                   }
                 ]
               }

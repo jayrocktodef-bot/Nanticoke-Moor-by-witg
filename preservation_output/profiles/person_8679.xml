@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_8679">
+    <name>
+      <nameForm>
+        <fullText>John W. Thompson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_602"/>
+    <name>
+      <nameForm>
+        <fullText>John W Thompson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_622"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>18 Dec 1837 Millsboro, DE</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>24 Jul 1921 Millsboro, Sussex, Delaware, USA</original>
+      </date>
+      <source description="#s_622"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_8679"/>
+    <person2 resource="#p_1685"/>
+    <note>
+      <text>Evidence: Spouse of Sarah Ann Harmon in Thompson family records</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1682"/>
+    <person2 resource="#p_8679"/>
+    <note>
+      <text>Evidence: Son of John W. Thompson</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1683"/>
+    <person2 resource="#p_8679"/>
+    <note>
+      <text>Evidence: Son of John W. Thompson</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8679"/>
+    <person2 resource="#p_8639"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8679"/>
+    <person2 resource="#p_8638"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8679"/>
+    <person2 resource="#p_8639"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8679"/>
+    <person2 resource="#p_9166"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_8679"/>
+    <person2 resource="#p_9165"/>
+    <note>
+      <text>Evidence: GEDCOM Family @F361@ marriage 1867</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1682"/>
+    <person2 resource="#p_8679"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9508"/>
+    <person2 resource="#p_8679"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9509"/>
+    <person2 resource="#p_8679"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9167"/>
+    <person2 resource="#p_8679"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9067"/>
+    <person2 resource="#p_8679"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9168"/>
+    <person2 resource="#p_8679"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9169"/>
+    <person2 resource="#p_8679"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_8679"/>
+    <person2 resource="#p_1681"/>
+  </relationship>
+  <sourceDescription id="s_602">
+    <about resource="ThompsonJohn&amp;Sarah.htm"/>
+    <title>Record: ThompsonJohn&amp;Sarah.htm</title>
+  </sourceDescription>
+  <sourceDescription id="s_622">
+    <about resource="Davis Family Tree.ged"/>
+    <title>Record: Davis Family Tree.ged</title>
+  </sourceDescription>
+</gedcomx>

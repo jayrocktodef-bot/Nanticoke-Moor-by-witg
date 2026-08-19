@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4610">
+    <name>
+      <nameForm>
+        <fullText>Ronald Dean</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_268"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_268"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>12 Oct 1926</original>
+      </date>
+      <source description="#s_268"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_268">
+    <about resource="DeanBill.htm"/>
+    <title>Record: DeanBill.htm</title>
+  </sourceDescription>
+</gedcomx>

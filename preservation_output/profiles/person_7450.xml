@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7450">
+    <name>
+      <nameForm>
+        <fullText>Susan Sterrett</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_574"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>2 Oct 1859</original>
+      </date>
+      <source description="#s_574"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>4 Sep 1921 (aged 61)</original>
+      </date>
+      <source description="#s_574"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_574">
+    <about resource="SterrettSusan.htm"/>
+    <title>Record: SterrettSusan.htm</title>
+  </sourceDescription>
+</gedcomx>

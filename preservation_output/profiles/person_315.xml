@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_315">
+    <name>
+      <nameForm>
+        <fullText>Edward Morgan</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_50"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1739</original>
+      </date>
+      <source description="#s_50"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1816 (aged 76&amp;ndash;77)</original>
+      </date>
+      <source description="#s_50"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_50">
+    <about resource="durhm-e1.htm"/>
+    <title>Record: durhm-e1.htm</title>
+  </sourceDescription>
+</gedcomx>

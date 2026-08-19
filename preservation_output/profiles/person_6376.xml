@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6376">
+    <name>
+      <nameForm>
+        <fullText>Rosie Miller</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_429"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>27 Apr</original>
+      </date>
+      <source description="#s_429"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Nov</original>
+      </date>
+      <source description="#s_429"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_429">
+    <about resource="MillerRosie.htm"/>
+    <title>Record: MillerRosie.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_230">
+    <name>
+      <nameForm>
+        <fullText>Jesse Dean Jr.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_35"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>Jun 1855</original>
+      </date>
+      <source description="#s_35"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Jun 1855 (aged less than 1 month)</original>
+      </date>
+      <source description="#s_35"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_35">
+    <about resource="cott-j1.htm"/>
+    <title>Record: cott-j1.htm</title>
+  </sourceDescription>
+</gedcomx>

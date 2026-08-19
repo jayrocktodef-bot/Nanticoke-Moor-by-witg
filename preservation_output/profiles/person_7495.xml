@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7495">
+    <name>
+      <nameForm>
+        <fullText>Lydia Wright Street</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_581"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>20 Jun 1737</original>
+      </date>
+      <source description="#s_581"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>15 Feb 1817 (aged 79)</original>
+      </date>
+      <source description="#s_581"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_581">
+    <about resource="StreetDavidP.htm"/>
+    <title>Record: StreetDavidP.htm</title>
+  </sourceDescription>
+</gedcomx>

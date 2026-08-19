@@ -13,7 +13,106 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 1306,
+      "person_id": 8679,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "John W. Thompson",
+      "citations": [
+        {
+          "citation_id": 1306,
+          "fact_id": 1306,
+          "source_id": 602,
+          "evidence_text": null,
+          "source_title": "Record: ThompsonJohn&Sarah.htm",
+          "source_url": "ThompsonJohn&Sarah.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 8164,
+      "person_id": 8679,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "John W Thompson",
+      "citations": [
+        {
+          "citation_id": 8158,
+          "fact_id": 8164,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8165,
+      "person_id": 8679,
+      "fact_type": "Birth",
+      "date_string": "18 Dec 1837 Millsboro, DE",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8159,
+          "fact_id": 8165,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8166,
+      "person_id": 8679,
+      "fact_type": "Death",
+      "date_string": "24 Jul 1921 Millsboro, Sussex, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8160,
+          "fact_id": 8166,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Spouse of Sarah Ann Harmon in Thompson family records",
+      "certainty": "confirmed",
+      "rel_id": 1685,
+      "rel_name": "Sarah Ann Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "Son of John W. Thompson",
+      "certainty": "confirmed",
+      "rel_id": 1682,
+      "rel_name": "Snowden Asher Thompson"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "Son of John W. Thompson",
+      "certainty": "confirmed",
+      "rel_id": 1683,
+      "rel_name": "Bartholomew Thompson"
+    },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
@@ -97,88 +196,16 @@
       "certainty": "confirmed",
       "rel_id": 9169,
       "rel_name": "Bartholamew Thompson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "evidence_text": null,
+      "certainty": "confirmed",
+      "rel_id": 1681,
+      "rel_name": "John Asbury Thompson"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8679,
-      "photo_id": 5598,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "John Asbury Thompson, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Thompson",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ThompsonAsburyAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThompsonAsbury.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8679,
-      "photo_id": 5600,
-      "title_or_caption": "John Asbury Thompson GO TO PHOTO INDEX A-C | D | E-L | M ...",
-      "subject_names": "John Asbury Thompson GO TO PHOTO INDEX A-C | D | E-L | M ...",
-      "maiden_name": "Thompson",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ThompsonAsburyAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThompsonAsbury.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8679,
-      "photo_id": 5602,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Asher Thompson, son of John, Sarah Ann Harmon Thompson, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Thompson",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ThompsonJohnFamily.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThompsonAsher.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8679,
-      "photo_id": 5604,
-      "title_or_caption": "Snowden Asher Thompson Asher, son of John W. & Sarah Ann (Harm...",
-      "subject_names": "Snowden Asher Thompson Asher, son of John W",
-      "maiden_name": "Thompson",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ThompsonJohnFamily.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThompsonAsher.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8679,
-      "photo_id": 5606,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "John & Sarah, of son, Bart Thompson, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Sarah",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ThompsonBartAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThompsonBartholomew.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8679,
-      "photo_id": 5610,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "John & Sarah, of son, Bart Thompson, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Sarah",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_ThompsonJohn_Sarah.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThompsonJohn&Sarah.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

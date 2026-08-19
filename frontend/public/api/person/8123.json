@@ -13,6 +13,65 @@
     "notes": "Ingested from WebsterElmer&Ida.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/8046367/marjorie-johnson",
     "dataset_source": "mitsawokett_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 7546,
+      "person_id": 8123,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Billye Pierce Cuff",
+      "citations": [
+        {
+          "citation_id": 7540,
+          "fact_id": 7546,
+          "source_id": 621,
+          "evidence_text": null,
+          "source_title": "Record: WebsterElmer&Ida.htm",
+          "source_url": "WebsterElmer&Ida.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 7547,
+      "person_id": 8123,
+      "fact_type": "Birth",
+      "date_string": "2 Sep 1912",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7541,
+          "fact_id": 7547,
+          "source_id": 621,
+          "evidence_text": null,
+          "source_title": "Record: WebsterElmer&Ida.htm",
+          "source_url": "WebsterElmer&Ida.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 7548,
+      "person_id": 8123,
+      "fact_type": "Death",
+      "date_string": "2 Jun 1999 (aged 86)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7542,
+          "fact_id": 7548,
+          "source_id": 621,
+          "evidence_text": null,
+          "source_title": "Record: WebsterElmer&Ida.htm",
+          "source_url": "WebsterElmer&Ida.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -67,15 +126,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Pierce Carrie V. Cuff",
       "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Pierce Carrie V. Cuff",
-      "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -97,13 +149,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Pierce Carrie V. Cuff",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -151,29 +196,8 @@
       "relationship_type": "child_of",
       "evidence_text": "Obituary parentage for Pierce Carrie V. Cuff",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Pierce Carrie V. Cuff",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Pierce Carrie V. Cuff",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Pierce Carrie V. Cuff",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "child_of",
@@ -195,13 +219,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Pierce Carrie V. Cuff",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "child_of",
@@ -291,20 +308,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Pierce Carrie V. Cuff",
       "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Pierce Carrie V. Cuff",
-      "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Pierce Carrie V. Cuff",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -334,7 +337,7 @@
       "evidence_text": "Obituary child link for Pierce Carrie V. Cuff",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -411,7 +414,7 @@
       "evidence_text": "Obituary child link for Pierce Carrie V. Cuff",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -571,15 +574,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Pierce Frances E. Cuff",
       "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Pierce Frances E. Cuff",
-      "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -601,13 +597,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Pierce Frances E. Cuff",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -655,29 +644,8 @@
       "relationship_type": "child_of",
       "evidence_text": "Obituary parentage for Pierce Frances E. Cuff",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Pierce Frances E. Cuff",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Pierce Frances E. Cuff",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Pierce Frances E. Cuff",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "child_of",
@@ -699,13 +667,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "Obituary parentage for Pierce Frances E. Cuff",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "child_of",
@@ -795,20 +756,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Pierce Frances E. Cuff",
       "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Pierce Frances E. Cuff",
-      "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Pierce Frances E. Cuff",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -838,7 +785,7 @@
       "evidence_text": "Obituary child link for Pierce Frances E. Cuff",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -915,7 +862,7 @@
       "evidence_text": "Obituary child link for Pierce Frances E. Cuff",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -1075,15 +1022,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Pierce Pauline Cuff",
       "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Pierce Pauline Cuff",
-      "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -1105,13 +1045,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Pierce Pauline Cuff",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -1159,29 +1092,8 @@
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Pierce Pauline Cuff",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Pierce Pauline Cuff",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Pierce Pauline Cuff",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Pierce Pauline Cuff",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1203,13 +1115,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Pierce Pauline Cuff",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -1299,20 +1204,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Pierce Pauline Cuff",
       "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Pierce Pauline Cuff",
-      "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Pierce Pauline Cuff",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -1342,7 +1233,7 @@
       "evidence_text": "Obituary child link for Pierce Pauline Cuff",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -1419,7 +1310,7 @@
       "evidence_text": "Obituary child link for Pierce Pauline Cuff",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -1527,1100 +1418,21 @@
       "rel_name": "Niquita Harris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8123,
-      "photo_id": 2405,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Ida Carter Webster, Elmer & Ida, Ida Carter Webster, Ida's Mother, Rheba Dean Mosley Carter, of Ida Webster, daughter Libby & Alvin Pierce, & daughter Stella Webster, Ida Carter Webster, & Ida Webster's children, L to R: Joel, Susie & Phillip, Ida Carter Webster, Back L to R:, Jeremiah Loatman II, Libby Webster Pierce, Billye Pierce Cuff, Deano Cuff, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Alvin Pierce, Rufus Cuff, Ida Carter Webster, Back L to, R: Kevin Pierce, Elmer Webster, Billye Pierce Cuff, Rufus Cuff, Jamie Adkins, Front L to, R: Melody Pierce Cuff, Jeremiah Loatman III, Joanne Webster, Bobby Adkins, Ida Carter Webster, Phillip Webster, Elizabeth Cuff, Billye Pierce Cuff, & Melody Pierce Loatman, Ida Carter Webster, \"Butch\" & Susie Webster Pierce, Ida Carter Webster, & Emma Pritchett Webster, Ida Carter Webster, & Ida celebrate, Ida Carter Webster, of Ida Rheba Carter Webster, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Carter",
-      "married_surname": "Webster",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1961",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WebsterIdaCarterAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 650,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 652,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 659,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 881,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 883,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 890,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1112,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1114,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1121,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1343,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1345,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1352,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1574,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1576,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1583,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1805,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1807,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1814,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2036,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2038,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2045,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2267,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2269,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2276,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2498,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2500,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2507,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2729,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2731,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2738,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2960,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2962,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2969,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3191,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3193,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3200,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3421,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3423,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3430,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3651,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3653,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3660,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3882,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3884,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3891,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4113,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4115,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4122,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4344,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4346,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4353,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4575,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4577,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4584,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4805,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4807,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4814,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 8123,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 8123,
     "name": "Billye Pierce Cuff",
     "children": [
       {
-        "id": 10857,
-        "name": "Nanticoke Chiefs",
+        "id": 10858,
+        "name": "Gwendolyn Durham",
         "children": []
       },
       {
-        "id": 10858,
-        "name": "Gwendolyn Durham",
+        "id": 6088,
+        "name": "Myrtle Sammons Harmon",
         "children": []
       }
     ]

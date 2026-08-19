@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7791,
+      "person_id": 8343,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Uscar Morris",
+      "citations": [
+        {
+          "citation_id": 7785,
+          "fact_id": 7791,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7792,
+      "person_id": 8343,
+      "fact_type": "Birth",
+      "date_string": "19 February 1914 Millsboro, Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7786,
+          "fact_id": 7792,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7793,
+      "person_id": 8343,
+      "fact_type": "Death",
+      "date_string": "December 1965 Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7787,
+          "fact_id": 7793,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -56,26 +115,9 @@
                 "name": "Negro Morris Thomas",
                 "children": [
                   {
-                    "id": 8505,
-                    "name": "Morris Thomas",
-                    "children": [
-                      {
-                        "id": 8910,
-                        "name": "Leticia Morris",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
                     "id": 9992,
                     "name": "Sally Wright",
-                    "children": [
-                      {
-                        "id": 10083,
-                        "name": "Wright Thomas Sr.",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   }
                 ]
               },
@@ -113,44 +155,6 @@
                 ]
               }
             ]
-          },
-          {
-            "id": 9979,
-            "name": "Frances F. Morris",
-            "children": [
-              {
-                "id": 9981,
-                "name": "William Coard Harmon",
-                "children": [
-                  {
-                    "id": 9982,
-                    "name": "Robert Emanuel Harmon",
-                    "children": []
-                  },
-                  {
-                    "id": 9983,
-                    "name": "Rachel Anne Johnson",
-                    "children": [
-                      {
-                        "id": 9984,
-                        "name": "Isaac Johnson",
-                        "children": []
-                      },
-                      {
-                        "id": 9985,
-                        "name": "Jemima WARD Johnson (MD)",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": 9980,
-                "name": "Sarah Ann Handsor",
-                "children": []
-              }
-            ]
           }
         ]
       },
@@ -159,7 +163,7 @@
         "name": "Sarah Jane Morris",
         "children": [
           {
-            "id": 792,
+            "id": 5971,
             "name": "Noah Harmon",
             "children": [
               {
@@ -217,8 +221,8 @@
                 "children": []
               },
               {
-                "id": 9835,
-                "name": "Mary A Street",
+                "id": 7504,
+                "name": "Mary A. Street",
                 "children": []
               }
             ]

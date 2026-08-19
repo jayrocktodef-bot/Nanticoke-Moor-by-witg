@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7529">
+    <name>
+      <nameForm>
+        <fullText>Harold &amp; Richard</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_586"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>20 Jan 1929</original>
+      </date>
+      <source description="#s_586"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>2 Nov 2020 (aged 91)</original>
+      </date>
+      <source description="#s_586"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_586">
+    <about resource="StreetElmerR&amp;Sons.htm"/>
+    <title>Record: StreetElmerR&amp;Sons.htm</title>
+  </sourceDescription>
+</gedcomx>

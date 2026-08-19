@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7975">
+    <name>
+      <nameForm>
+        <fullText>Frank Porter III</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_613"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>14 Sep 1943</original>
+      </date>
+      <source description="#s_613"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>7 Dec 1973 (aged 30)</original>
+      </date>
+      <source description="#s_613"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_613">
+    <about resource="WrightElwood.htm"/>
+    <title>Record: WrightElwood.htm</title>
+  </sourceDescription>
+</gedcomx>

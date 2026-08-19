@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_70">
+    <name>
+      <nameForm>
+        <fullText>Elmira later</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_11"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>13 Feb 1911</original>
+      </date>
+      <source description="#s_11"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>31 May 2003 (aged 92)</original>
+      </date>
+      <source description="#s_11"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_11">
+    <about resource="carty-r.htm"/>
+    <title>Record: carty-r.htm</title>
+  </sourceDescription>
+</gedcomx>

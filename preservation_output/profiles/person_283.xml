@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_283">
+    <name>
+      <nameForm>
+        <fullText>Mary Elizabeth Dean</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_44"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>2 Jun 1928</original>
+      </date>
+      <source description="#s_44"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>28 May 2008 (aged 79)</original>
+      </date>
+      <source description="#s_44"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_44">
+    <about resource="dean-w.htm"/>
+    <title>Record: dean-w.htm</title>
+  </sourceDescription>
+</gedcomx>

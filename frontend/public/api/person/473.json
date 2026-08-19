@@ -1,7 +1,7 @@
 {
   "person": {
     "person_id": 473,
-    "name": "Harvey Morgan Sr.",
+    "name": "Harvey Morgan Sr",
     "first_name": "Harvey",
     "middle_name": "Morgan",
     "maiden_name": "",
@@ -13,27 +13,72 @@
     "notes": "Linked to morgan-h.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/262803748/harvey-james-sraper",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 799,
       "person_id": 473,
-      "photo_id": 2619,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "wife of James Kenneth Morgan, of son Harvey W. Morgan, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Morgan",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1859",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MorganHarveyAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CiscoMinnie.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Harvey Morgan Sr.",
+      "citations": [
+        {
+          "citation_id": 799,
+          "fact_id": 799,
+          "source_id": 77,
+          "evidence_text": null,
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 800,
+      "person_id": 473,
+      "fact_type": "Birth",
+      "date_string": "29 Aug 1960",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 800,
+          "fact_id": 800,
+          "source_id": 77,
+          "evidence_text": null,
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 801,
+      "person_id": 473,
+      "fact_type": "Death",
+      "date_string": "3 Jan 2024 (aged 63)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 801,
+          "fact_id": 801,
+          "source_id": 77,
+          "evidence_text": null,
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 473,
-    "name": "Harvey Morgan Sr.",
+    "name": "Harvey Morgan Sr",
     "children": []
   }
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4000">
+    <name>
+      <nameForm>
+        <fullText>Harriett Coker Carter</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_223"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_223"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>28 Jul 1903</original>
+      </date>
+      <source description="#s_223"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_223">
+    <about resource="CarterHopewellFamily.htm"/>
+    <title>Record: CarterHopewellFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

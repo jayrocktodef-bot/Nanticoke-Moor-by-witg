@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11798">
+    <name>
+      <nameForm>
+        <fullText>the son of  Nicholas and Mary Wright who were</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_117"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11798"/>
+    <person2 resource="#p_11799"/>
+    <note>
+      <text>Evidence: , the son of  Nicholas and Mary Wright who were married in St. George's Chapel, Sussex Co., DE on November 21,</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_117">
+    <about resource="wrightw1.htm"/>
+    <title>Record: wrightw1.htm</title>
+  </sourceDescription>
+</gedcomx>

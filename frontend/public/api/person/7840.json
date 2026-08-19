@@ -13,22 +13,67 @@
     "notes": "Ingested from WardMitzieAlexander.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/288320237/m-ward",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 7224,
       "person_id": 7840,
-      "photo_id": 2182,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Mitzie Alexander Ward, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Ward",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_WardMitzieAlexander.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/AlexanderHelenStreet.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Mitzie Alexander Ward",
+      "citations": [
+        {
+          "citation_id": 7218,
+          "fact_id": 7224,
+          "source_id": 598,
+          "evidence_text": null,
+          "source_title": "Record: WardMitzieAlexander.htm",
+          "source_url": "WardMitzieAlexander.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 7225,
+      "person_id": 7840,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7219,
+          "fact_id": 7225,
+          "source_id": 598,
+          "evidence_text": null,
+          "source_title": "Record: WardMitzieAlexander.htm",
+          "source_url": "WardMitzieAlexander.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 7226,
+      "person_id": 7840,
+      "fact_type": "Death",
+      "date_string": "27 Aug 1932",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7220,
+          "fact_id": 7226,
+          "source_id": 598,
+          "evidence_text": null,
+          "source_title": "Record: WardMitzieAlexander.htm",
+          "source_url": "WardMitzieAlexander.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

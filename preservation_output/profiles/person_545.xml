@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_545">
+    <name>
+      <nameForm>
+        <fullText>Robert Muncey Sr.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_92"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>30 Jul 1939</original>
+      </date>
+      <source description="#s_92"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>12 Jul 2017 (aged 77)</original>
+      </date>
+      <source description="#s_92"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_92">
+    <about resource="munce-m1.htm"/>
+    <title>Record: munce-m1.htm</title>
+  </sourceDescription>
+</gedcomx>

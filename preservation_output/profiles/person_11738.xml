@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11738">
+    <name>
+      <nameForm>
+        <fullText>William Sisco  and his wife</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_656"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11737"/>
+    <person2 resource="#p_11738"/>
+    <note>
+      <text>Evidence: Isabella Sisco was the daughter of  William Sisco  and his wife, Araminta. She was born in Kent Co., DE. probably in Dover Hundred in</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_656">
+    <about resource="sisco-i1.htm"/>
+    <title>Record: sisco-i1.htm</title>
+  </sourceDescription>
+</gedcomx>

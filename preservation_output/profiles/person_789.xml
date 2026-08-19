@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_789">
+    <name>
+      <nameForm>
+        <fullText>Nicey Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_117"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>19 Feb 1817</original>
+      </date>
+      <source description="#s_117"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>18 Jul 1891 (aged 74)</original>
+      </date>
+      <source description="#s_117"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_789"/>
+    <person2 resource="#p_790"/>
+    <note>
+      <text>Evidence: Nicey Wright who married Ephraim Harmon</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_117">
+    <about resource="wrightw1.htm"/>
+    <title>Record: wrightw1.htm</title>
+  </sourceDescription>
+</gedcomx>

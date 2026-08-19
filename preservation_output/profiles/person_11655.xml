@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11655">
+    <name>
+      <nameForm>
+        <fullText>Wesley Jackson  and his wife</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_69"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11654"/>
+    <person2 resource="#p_11655"/>
+    <note>
+      <text>Evidence: Robert B. Jackson was the son of  Wesley Jackson  and his wife, Elizabeth.</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11676"/>
+    <person2 resource="#p_11655"/>
+    <note>
+      <text>Evidence: James Jackson was the son of Wesley Jackson  and his wife, Elizabeth.</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11678"/>
+    <person2 resource="#p_11655"/>
+    <note>
+      <text>Evidence: Nathaniel Jackson was the son of  Wesley Jackson  and his wife, Elizabeth. He was born probably  in Northwest Fork Hundred, Sussex Co., DE in c.</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11683"/>
+    <person2 resource="#p_11655"/>
+    <note>
+      <text>Evidence: Rebecca Jackson was the daughter of  Wesley Jackson  and his wife, Elizabeth. She 	was 	born in</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11683"/>
+    <person2 resource="#p_11655"/>
+    <note>
+      <text>Evidence: Rebecca Jackson was the daughter of  Wesley Jackson  and his wife, Elizabeth. She 	was 	born in</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_69">
+    <about resource="jacksnr2.htm"/>
+    <title>Record: jacksnr2.htm</title>
+  </sourceDescription>
+</gedcomx>

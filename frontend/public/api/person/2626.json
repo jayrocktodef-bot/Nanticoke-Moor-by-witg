@@ -13,22 +13,67 @@
     "notes": "Ingested from preserved SocialSecurityApplications.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/165894497/wilbert-dean",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 2139,
       "person_id": 2626,
-      "photo_id": 3836,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Lulu Durham Mosley, Ree Mosley, Lulu Mosley, with sons Wilbert and Willard, County Marri, Mosley Green, Jennie Green, wife of Raymond Green, Lulu's nephew., Charles Henry Mosley, Anna Elizabeth Dean Mosley, A. Mosley, somewhere in Delaware, middle row -- Felix, Annie E., Geoffrey & wife, Lulu Durham Mosley, back -- Milton, Mary E., shortly after, Sarah Catharine Mosley Durham, &  October., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Durham",
-      "married_surname": "Mosley",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1861",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MosleyAnnieDeanClan.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyGeoffrey&Lulu.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Wilbert Dean",
+      "citations": [
+        {
+          "citation_id": 2139,
+          "fact_id": 2139,
+          "source_id": 147,
+          "evidence_text": null,
+          "source_title": "Record: SocialSecurityApplications.htm",
+          "source_url": "SocialSecurityApplications.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 2140,
+      "person_id": 2626,
+      "fact_type": "Birth",
+      "date_string": "9 Oct 1877",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 2140,
+          "fact_id": 2140,
+          "source_id": 147,
+          "evidence_text": null,
+          "source_title": "Record: SocialSecurityApplications.htm",
+          "source_url": "SocialSecurityApplications.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 2141,
+      "person_id": 2626,
+      "fact_type": "Death",
+      "date_string": "2 Nov 1952 (aged 75)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 2141,
+          "fact_id": 2141,
+          "source_id": 147,
+          "evidence_text": null,
+          "source_title": "Record: SocialSecurityApplications.htm",
+          "source_url": "SocialSecurityApplications.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

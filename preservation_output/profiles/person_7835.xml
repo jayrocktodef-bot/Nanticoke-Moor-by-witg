@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7835">
+    <name>
+      <nameForm>
+        <fullText>Thelma Hitchens</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_597"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_597"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>27 May 1983</original>
+      </date>
+      <source description="#s_597"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_7835"/>
+    <person2 resource="#p_9812"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_7835"/>
+    <person2 resource="#p_10050"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_597">
+    <about resource="ThompsonAddie&amp;HitchensKids.htm"/>
+    <title>Record: ThompsonAddie&amp;HitchensKids.htm</title>
+  </sourceDescription>
+</gedcomx>

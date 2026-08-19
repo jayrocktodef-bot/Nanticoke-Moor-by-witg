@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/5085904/lowell-brennan",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9854,
+      "person_id": 10502,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Margaruett Hanzer",
+      "citations": [
+        {
+          "citation_id": 9848,
+          "fact_id": 9854,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9855,
+      "person_id": 10502,
+      "fact_type": "Birth",
+      "date_string": "29 Jan 1923",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9849,
+          "fact_id": 9855,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9856,
+      "person_id": 10502,
+      "fact_type": "Death",
+      "date_string": "23 Oct 1995 (aged 72)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9850,
+          "fact_id": 9856,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -36,7 +95,52 @@
           {
             "id": 10503,
             "name": "William E Hanzer",
-            "children": []
+            "children": [
+              {
+                "id": 9096,
+                "name": "John C Hanzer",
+                "children": [
+                  {
+                    "id": 9969,
+                    "name": "Jacob Hanzer Jr",
+                    "children": [
+                      {
+                        "id": 9974,
+                        "name": "Jacob Hanzer Sr",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9940,
+                "name": "Sophia J. Hanzer",
+                "children": [
+                  {
+                    "id": 10122,
+                    "name": "John R or Jonathan Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10123,
+                    "name": "Lavinia Lovinia Sammons",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": 9721,
@@ -50,11 +154,6 @@
                     "id": 8617,
                     "name": "Negro Morris Thomas",
                     "children": [
-                      {
-                        "id": 8505,
-                        "name": "Morris Thomas",
-                        "children": []
-                      },
                       {
                         "id": 9992,
                         "name": "Sally Wright",

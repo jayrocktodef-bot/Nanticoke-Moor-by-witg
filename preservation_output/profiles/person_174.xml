@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_174">
+    <name>
+      <nameForm>
+        <fullText>Sarah Concilor</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_29"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>26 Feb 1837</original>
+      </date>
+      <source description="#s_29"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>17 Apr 1916 (aged 79)</original>
+      </date>
+      <source description="#s_29"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_174"/>
+    <person2 resource="#p_175"/>
+    <note>
+      <text>Evidence: Sarah Concilor who married Debrix Miller(died before 1845)</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_29">
+    <about resource="concl-e1.htm"/>
+    <title>Record: concl-e1.htm</title>
+  </sourceDescription>
+</gedcomx>

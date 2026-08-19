@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_1685">
+    <name>
+      <nameForm>
+        <fullText>Sarah Ann Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_602"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1 Aug 1790</original>
+      </date>
+      <source description="#s_602"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>24 Sep 1867 (aged 77)</original>
+      </date>
+      <source description="#s_602"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_8679"/>
+    <person2 resource="#p_1685"/>
+    <note>
+      <text>Evidence: Spouse of Sarah Ann Harmon in Thompson family records</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1682"/>
+    <person2 resource="#p_1685"/>
+    <note>
+      <text>Evidence: Son of Sarah Ann (Harmon) Thompson</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_1683"/>
+    <person2 resource="#p_1685"/>
+    <note>
+      <text>Evidence: Son of Sarah Ann (Harmon) Thompson</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_602">
+    <about resource="ThompsonJohn&amp;Sarah.htm"/>
+    <title>Record: ThompsonJohn&amp;Sarah.htm</title>
+  </sourceDescription>
+</gedcomx>

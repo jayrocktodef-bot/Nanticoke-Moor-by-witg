@@ -1,7 +1,7 @@
 {
   "person": {
     "person_id": 9724,
-    "name": "Coley Gray Harmon Sr.",
+    "name": "Coley Gray Harmon Sr",
     "first_name": "Coley",
     "middle_name": "Gray Harmon",
     "maiden_name": "",
@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9043,
+      "person_id": 9724,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Coley Gray Harmon Sr.",
+      "citations": [
+        {
+          "citation_id": 9037,
+          "fact_id": 9043,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9044,
+      "person_id": 9724,
+      "fact_type": "Birth",
+      "date_string": "20 Feb 1948 Accomack County, Virginia, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9038,
+          "fact_id": 9044,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9045,
+      "person_id": 9724,
+      "fact_type": "Death",
+      "date_string": "15 May 2023 Felton, Kent, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9039,
+          "fact_id": 9045,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -27,7 +86,7 @@
   "audit_flags": [],
   "ancestry": {
     "id": 9724,
-    "name": "Coley Gray Harmon Sr.",
+    "name": "Coley Gray Harmon Sr",
     "children": [
       {
         "id": 9798,
@@ -47,8 +106,8 @@
                     "children": []
                   },
                   {
-                    "id": 9797,
-                    "name": "John E. Miller",
+                    "id": 8857,
+                    "name": "John E Miller",
                     "children": []
                   }
                 ]
@@ -65,8 +124,8 @@
                 "children": []
               },
               {
-                "id": 9797,
-                "name": "John E. Miller",
+                "id": 8857,
+                "name": "John E Miller",
                 "children": []
               }
             ]

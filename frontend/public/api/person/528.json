@@ -13,15 +13,28 @@
     "notes": " | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [
+  "facts": [
     {
-      "relationship_type": "spouse",
-      "evidence_text": "Thomas Mosley married Leticia Hughes",
-      "certainty": "confirmed",
-      "rel_id": 527,
-      "rel_name": "Mosley Thomas"
+      "fact_id": 905,
+      "person_id": 528,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Leticia Hughes",
+      "citations": [
+        {
+          "citation_id": 905,
+          "fact_id": 905,
+          "source_id": 87,
+          "evidence_text": null,
+          "source_title": "Record: morganj4.htm",
+          "source_url": "morganj4.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],

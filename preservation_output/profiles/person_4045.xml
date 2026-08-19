@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4045">
+    <name>
+      <nameForm>
+        <fullText>Ron Jr.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_225"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>2 Oct 1956</original>
+      </date>
+      <source description="#s_225"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>20 May 1984 (aged 27)</original>
+      </date>
+      <source description="#s_225"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_225">
+    <about resource="VanceRonaldJrFamily.htm"/>
+    <title>Record: VanceRonaldJrFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

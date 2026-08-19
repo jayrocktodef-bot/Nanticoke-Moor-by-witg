@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 11200,
-    "name": "Mrs. Bertha Mabel Jackson",
-    "first_name": "Mrs.",
-    "middle_name": "Bertha Mabel",
+    "name": "Bertha Mabel Jackson",
+    "first_name": "Bertha",
+    "middle_name": "Mabel",
     "maiden_name": "",
     "married_last_name": "Jackson",
     "evidence_level": 2,
@@ -13,25 +13,72 @@
     "notes": "Obituary Record: Delmarva Burial | Verified via FindAGrave: https://www.findagrave.com/memorial/157321909/m-jackson",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 11069,
       "person_id": 11200,
-      "id": 27,
-      "deceased_name": "Mrs. Bertha Mabel Jackson",
-      "age": null,
-      "birth_date": null,
-      "death_date": null,
-      "cemetery_location": null,
-      "full_text": "Mrs. Bertha Mabel Jackson, 70, widow of Philip H. Jackson, died Tuesday at her home near Seaford after an apparent heart attack.\n\nShe is survived by her four sons: Herman R. Sr., Seaford; Clifford R. and Norman H., both of Wilmington and Harland I, Lewes; two daughters, Mrs. Hazel Wright and Mrs.  Louise Wright, both of Wilmington; a brother Howard Carey, Cheswold; four sisters, Mrs. Lulu Clark, Milton; Mrs. Susie Clark, Seaford; Mrs. Henrietta Johnson and Mrs. Grace Sammons, both of Cheswold; a grandson, Herman R.Jackson, Jr. whom she raised at home; 30 other grandchildren and six great-grandchildren.\n\nServices will be  Saturday afternoon at 2 at the Watson Funeral Home, Seaford, where friends may call tomorrow night.\n\nPhilip A. Jackson  \n(no date listed)",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Bertha Mabel Jackson",
+      "citations": [
+        {
+          "citation_id": 10687,
+          "fact_id": 11069,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11070,
+      "person_id": 11200,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10688,
+          "fact_id": 11070,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11071,
+      "person_id": 11200,
+      "fact_type": "Death",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10689,
+          "fact_id": 11071,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11200,
-    "name": "Mrs. Bertha Mabel Jackson",
+    "name": "Bertha Mabel Jackson",
     "children": []
   }
 }

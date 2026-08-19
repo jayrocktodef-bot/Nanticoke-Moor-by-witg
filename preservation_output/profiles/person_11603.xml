@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11603">
+    <name>
+      <nameForm>
+        <fullText>It is believed that Ann was the</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_44"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11603"/>
+    <person2 resource="#p_286"/>
+    <note>
+      <text>Evidence: William Dean married Ann Cork in Duck Creek Hundred. {DE Marriage Bond: Vol 21, pg 344}. It is believed that Ann was the daughter of Peregrine Cork (d.</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11603"/>
+    <person2 resource="#p_286"/>
+    <note>
+      <text>Evidence: William Dean married Ann Cork in Duck Creek Hundred. {DE Marriage Bond: Vol 21, pg 344}. It is believed that Ann was the daughter of Peregrine Cork (d.</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_44">
+    <about resource="dean-w.htm"/>
+    <title>Record: dean-w.htm</title>
+  </sourceDescription>
+</gedcomx>

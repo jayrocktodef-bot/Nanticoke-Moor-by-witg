@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4305">
+    <name>
+      <nameForm>
+        <fullText>but they are not sure.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_246"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>10 Mar 1973</original>
+      </date>
+      <source description="#s_246"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>13 Jun 2020 (aged 47)</original>
+      </date>
+      <source description="#s_246"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_246">
+    <about resource="WhoAreThesePeople.htm"/>
+    <title>Record: WhoAreThesePeople.htm</title>
+  </sourceDescription>
+</gedcomx>

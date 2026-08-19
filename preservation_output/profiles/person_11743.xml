@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11743">
+    <name>
+      <nameForm>
+        <fullText>It is also possible that she was the</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_106"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11743"/>
+    <person2 resource="#p_11744"/>
+    <note>
+      <text>Evidence: . His will mentions a daughter, Elizabeth Francisco. It is also possible that she was the mother of both John and Thomas.</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_106">
+    <about resource="sisco-j1.htm"/>
+    <title>Record: sisco-j1.htm</title>
+  </sourceDescription>
+</gedcomx>

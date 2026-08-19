@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3010">
+    <name>
+      <nameForm>
+        <fullText>hear anything.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_170"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1 Aug 1946</original>
+      </date>
+      <source description="#s_170"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>5 Jun 2007 (aged 60)</original>
+      </date>
+      <source description="#s_170"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_170">
+    <about resource="BassKLorraine.htm"/>
+    <title>Record: BassKLorraine.htm</title>
+  </sourceDescription>
+</gedcomx>

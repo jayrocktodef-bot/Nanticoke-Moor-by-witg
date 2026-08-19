@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9955,
+      "person_id": 10557,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Manuel Harmon",
+      "citations": [
+        {
+          "citation_id": 9949,
+          "fact_id": 9955,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9956,
+      "person_id": 10557,
+      "fact_type": "Birth",
+      "date_string": "1670 Northampton, Virginia",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9950,
+          "fact_id": 9956,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9957,
+      "person_id": 10557,
+      "fact_type": "Death",
+      "date_string": "1739",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9951,
+          "fact_id": 9957,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -22,73 +81,7 @@
       "rel_name": "William Harmon"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10557,
-      "photo_id": 4053,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Sarah Isabelle Street Harmon, Joseph Weldon Harmon, Sarah Isabelle Street Harmon, Mary Games/Gaines Harmon, wife of Robert Emanuel Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Street",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonFedoraAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonMaryGames.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10557,
-      "photo_id": 4345,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Emanuel Harmon, Husband of Sarah Jane, Identification thanks to Linda Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonPhilenaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonHarvey.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10557,
-      "photo_id": 4347,
-      "title_or_caption": "Harvey Emanuel Harmon Husband of Sarah Jane Mosley Harvey Har...",
-      "subject_names": "Harvey Emanuel Harmon Husband of Sarah Jane Mosley Harvey Har...",
-      "maiden_name": "Harmon",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonPhilenaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonHarvey.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10557,
-      "photo_id": 4365,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Sarah Isabelle Street Harmon, Joseph Weldon Harmon, Sarah Isabelle Street Harmon, Mary Games/Gaines Harmon, wife of Robert Emanuel Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Street",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonIsabelleStreet.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonIsabelleStreet.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 10557,
-      "photo_id": 4371,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Sarah Isabelle Street Harmon, Joseph Weldon Harmon, Sarah Isabelle Street Harmon, Mary Games/Gaines Harmon, wife of Robert Emanuel Harmon, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Street",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonJosephW.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonJosephW.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -129,7 +122,7 @@
                     "children": [
                       {
                         "id": 10122,
-                        "name": "John R (H) or Jonathan Harmon",
+                        "name": "John R or Jonathan Harmon",
                         "children": []
                       },
                       {

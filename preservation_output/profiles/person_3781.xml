@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3781">
+    <name>
+      <nameForm>
+        <fullText>Herbert &amp; Sarah</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_207"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_207"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>23 Aug 1974</original>
+      </date>
+      <source description="#s_207"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_207">
+    <about resource="CarneyHerbert&amp;SarahPierce.htm"/>
+    <title>Record: CarneyHerbert&amp;SarahPierce.htm</title>
+  </sourceDescription>
+</gedcomx>

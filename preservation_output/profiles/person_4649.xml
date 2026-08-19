@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4649">
+    <name>
+      <nameForm>
+        <fullText>Robert Davis</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_273"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1874</original>
+      </date>
+      <source description="#s_273"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_273"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_4649"/>
+    <person2 resource="#p_8629"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_273">
+    <about resource="DavisRobert&amp;Lillie&amp;son.htm"/>
+    <title>Record: DavisRobert&amp;Lillie&amp;son.htm</title>
+  </sourceDescription>
+</gedcomx>

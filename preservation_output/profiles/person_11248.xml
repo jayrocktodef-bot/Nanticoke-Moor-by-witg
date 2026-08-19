@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11248">
+    <name>
+      <nameForm>
+        <fullText>Sara Ann Thompson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_627"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1844</original>
+      </date>
+      <source description="#s_627"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1929</original>
+      </date>
+      <source description="#s_627"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11248"/>
+    <person2 resource="#p_1681"/>
+  </relationship>
+  <sourceDescription id="s_627">
+    <about resource="FindAGrave Memorial 5207278"/>
+    <title>Record: FindAGrave Memorial 5207278</title>
+  </sourceDescription>
+</gedcomx>

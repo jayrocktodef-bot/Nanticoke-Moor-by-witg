@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/259506553/james-morris",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8843,
+      "person_id": 9512,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "James E Morris",
+      "citations": [
+        {
+          "citation_id": 8837,
+          "fact_id": 8843,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8844,
+      "person_id": 9512,
+      "fact_type": "Birth",
+      "date_string": "1878",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8838,
+          "fact_id": 8844,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8845,
+      "person_id": 9512,
+      "fact_type": "Death",
+      "date_string": "29 Oct 1947 (aged 68&ndash;69)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8839,
+          "fact_id": 8845,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -29,34 +88,7 @@
       "rel_name": "Leticia Morris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9512,
-      "photo_id": 2677,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "of Mary Elizabeth, Munce Sammons, wife of, Nehemiah Morris Sammons, Mary Elizabeth, Munce Sammons, of Corinne Sammons Christiansen, Mary Elizabeth's, Hester Ann Cork Munce, James' sister Angelica Munce, of Harry Muncey, Cork Munce, of James H. Munce, Tombstone of Hester, Elizabeth Munce Sammons' son, \"Doc\" Sammons & wife, Mary Elizabeth Clark, Elizabeth Munce Sammons' son, Thomas Sammons & wife, Bertha D. Dean, of grandson, Perry William Sammons Sr., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Elizabeth",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1841",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_SammonsMaryMunceAncestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsMaryElizabethMunce.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9512,
-      "photo_id": 4851,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Harlan Leroy Durham, Doris Morgan Durham, Doris Morgan Durham, & Mrs. Floyd, Muriel  Country Club Apt. Dover, . . . . -, Thomas Durham, United Methodist Manship Cemetery, Delaware Maymie Caroline Coxey Beckett, born  May ;, Bishop's Corner, daughter of Peter H. Beckett, and Mary E. \"Molly\" Reed., Dorothy Winona Durham, Immanuel Union Manship Cemetery, Delaware. She married Norace Carney., Corrine Naomi Durham, born  Feb ;, Bishop's Corner, daughter of Homer Anthony, Morgan and Emma Caroline Morris., Brenda Cleo Durham, United Methodist Manship Cemetery, She married James B. Coker., . Iona Phillena \"Ikey\" Durham, born  Jun  in Wilmington, New Castle, Delaware; died  Jan  in Wilmington, New Castle, Delaware; buried, Immanuel Union Manship Cemetery, . Donald Marvin Durham, Immanuel Union Manship Cemetery, He married on  Mar, and later divorced, Patricia Pospichal., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Durham",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1970",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DurhamFloydsChildAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMrsFloyd.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -68,54 +100,9 @@
         "name": "Negro Morris Thomas",
         "children": [
           {
-            "id": 8505,
-            "name": "Morris Thomas",
-            "children": [
-              {
-                "id": 8910,
-                "name": "Leticia Morris",
-                "children": [
-                  {
-                    "id": 8616,
-                    "name": "Stephen Wright",
-                    "children": [
-                      {
-                        "id": 8687,
-                        "name": "Benjamin Wright",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 8684,
-                    "name": "Priscilla Miller",
-                    "children": [
-                      {
-                        "id": 8618,
-                        "name": "Ebenezar Miller",
-                        "children": []
-                      },
-                      {
-                        "id": 9188,
-                        "name": "Ebenezer Miller",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "id": 9992,
             "name": "Sally Wright",
-            "children": [
-              {
-                "id": 10083,
-                "name": "Wright Thomas Sr.",
-                "children": []
-              }
-            ]
+            "children": []
           }
         ]
       },
@@ -182,7 +169,7 @@
                   },
                   {
                     "id": 9191,
-                    "name": "Sarah Collier (Collyer) Miller",
+                    "name": "Sarah Collier Miller",
                     "children": []
                   }
                 ]

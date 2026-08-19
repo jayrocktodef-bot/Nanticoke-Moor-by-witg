@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_406">
+    <name>
+      <nameForm>
+        <fullText>Hughes later Thomas</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_66"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>31 Jul 1899</original>
+      </date>
+      <source description="#s_66"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>31 Dec 1988 (aged 89)</original>
+      </date>
+      <source description="#s_66"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_66">
+    <about resource="hewes.htm"/>
+    <title>Record: hewes.htm</title>
+  </sourceDescription>
+</gedcomx>

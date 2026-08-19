@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11508">
+    <name>
+      <nameForm>
+        <fullText>sister  Henrietta Carty Morgan  who was living with her husband in Kent Co</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_11"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_11507"/>
+    <person2 resource="#p_11508"/>
+    <note>
+      <text>Evidence: After the birth of her daughter, Rebecca continued to live in Caroline Co. MD with her parents but she sent her daughter to live with her married sister  Henrietta Carty Morgan  who was living with he</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_11">
+    <about resource="carty-r.htm"/>
+    <title>Record: carty-r.htm</title>
+  </sourceDescription>
+</gedcomx>

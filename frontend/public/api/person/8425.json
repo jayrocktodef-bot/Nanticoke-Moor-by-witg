@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7901,
+      "person_id": 8425,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "James Errol Thompson",
+      "citations": [
+        {
+          "citation_id": 7895,
+          "fact_id": 7901,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7902,
+      "person_id": 8425,
+      "fact_type": "Birth",
+      "date_string": "12/04/1938 Leechburg, Armstrong, Pennsylvania, United States",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7896,
+          "fact_id": 7902,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7903,
+      "person_id": 8425,
+      "fact_type": "Death",
+      "date_string": "02/10/1998 Leechburg, Armstrong, Pennsylvania, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7897,
+          "fact_id": 7903,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -40,24 +99,7 @@
               {
                 "id": 8606,
                 "name": "Richard Dickerson",
-                "children": [
-                  {
-                    "id": 9073,
-                    "name": "Charles Dickerson",
-                    "children": [
-                      {
-                        "id": 8606,
-                        "name": "Richard Dickerson",
-                        "children": []
-                      },
-                      {
-                        "id": 9071,
-                        "name": "Minnie Dickerson",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
+                "children": []
               },
               {
                 "id": 9071,

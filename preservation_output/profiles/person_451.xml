@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_451">
+    <name>
+      <nameForm>
+        <fullText>Wingate Perkins</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_75"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1822</original>
+      </date>
+      <source description="#s_75"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>7 Sep 1903 (aged 80&amp;ndash;81)</original>
+      </date>
+      <source description="#s_75"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_75">
+    <about resource="jacksonn.htm"/>
+    <title>Record: jacksonn.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_502">
+    <name>
+      <nameForm>
+        <fullText>John Morgan</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_82"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_82"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1912</original>
+      </date>
+      <source description="#s_82"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_82">
+    <about resource="morgan-c.htm"/>
+    <title>Record: morgan-c.htm</title>
+  </sourceDescription>
+</gedcomx>

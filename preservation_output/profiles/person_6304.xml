@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6304">
+    <name>
+      <nameForm>
+        <fullText>Widow of James E. Johnson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_416"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_416"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>27 Jul 1828</original>
+      </date>
+      <source description="#s_416"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_416">
+    <about resource="JohnsonLucy.htm"/>
+    <title>Record: JohnsonLucy.htm</title>
+  </sourceDescription>
+</gedcomx>

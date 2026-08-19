@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2863">
+    <name>
+      <nameForm>
+        <fullText>parents of Jon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_162"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_162"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>4 Oct 1919</original>
+      </date>
+      <source description="#s_162"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_162">
+    <about resource="MillerJonLloydFamily.htm"/>
+    <title>Record: MillerJonLloydFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

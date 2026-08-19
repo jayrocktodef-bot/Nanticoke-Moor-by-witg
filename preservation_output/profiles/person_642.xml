@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_642">
+    <name>
+      <nameForm>
+        <fullText>William Handzer</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_99"/>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>d. 1784</original>
+      </date>
+      <source description="#s_99"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_99">
+    <about resource="probate.htm"/>
+    <title>Record: probate.htm</title>
+  </sourceDescription>
+</gedcomx>

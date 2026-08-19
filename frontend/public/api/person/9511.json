@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/228663458/rebecca-morris",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8840,
+      "person_id": 9511,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Rebecca Morris",
+      "citations": [
+        {
+          "citation_id": 8834,
+          "fact_id": 8840,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8841,
+      "person_id": 9511,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8835,
+          "fact_id": 8841,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8842,
+      "person_id": 9511,
+      "fact_type": "Death",
+      "date_string": "1907",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8836,
+          "fact_id": 8842,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -41,54 +100,9 @@
         "name": "Negro Morris Thomas",
         "children": [
           {
-            "id": 8505,
-            "name": "Morris Thomas",
-            "children": [
-              {
-                "id": 8910,
-                "name": "Leticia Morris",
-                "children": [
-                  {
-                    "id": 8616,
-                    "name": "Stephen Wright",
-                    "children": [
-                      {
-                        "id": 8687,
-                        "name": "Benjamin Wright",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 8684,
-                    "name": "Priscilla Miller",
-                    "children": [
-                      {
-                        "id": 8618,
-                        "name": "Ebenezar Miller",
-                        "children": []
-                      },
-                      {
-                        "id": 9188,
-                        "name": "Ebenezer Miller",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "id": 9992,
             "name": "Sally Wright",
-            "children": [
-              {
-                "id": 10083,
-                "name": "Wright Thomas Sr.",
-                "children": []
-              }
-            ]
+            "children": []
           }
         ]
       },
@@ -155,7 +169,7 @@
                   },
                   {
                     "id": 9191,
-                    "name": "Sarah Collier (Collyer) Miller",
+                    "name": "Sarah Collier Miller",
                     "children": []
                   }
                 ]

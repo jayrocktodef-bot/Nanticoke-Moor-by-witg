@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6179">
+    <name>
+      <nameForm>
+        <fullText>Some of William Henry</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_395"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>2 Feb 1887</original>
+      </date>
+      <source description="#s_395"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>7 Jun 1969 (aged 82)</original>
+      </date>
+      <source description="#s_395"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_395">
+    <about resource="Indiana13Oct2000.htm"/>
+    <title>Record: Indiana13Oct2000.htm</title>
+  </sourceDescription>
+</gedcomx>

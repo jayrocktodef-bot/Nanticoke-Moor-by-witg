@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8707,
+      "person_id": 9335,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Bowen Clark",
+      "citations": [
+        {
+          "citation_id": 8701,
+          "fact_id": 8707,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8708,
+      "person_id": 9335,
+      "fact_type": "Birth",
+      "date_string": "abt 1850 Sussex",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8702,
+          "fact_id": 8708,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8709,
+      "person_id": 9335,
+      "fact_type": "Death",
+      "date_string": "Sussex County, De",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8703,
+          "fact_id": 8709,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -67,7 +126,7 @@
             "children": [
               {
                 "id": 10542,
-                "name": "Nathaniel \"Nathan\" Norwood",
+                "name": "Nathaniel Nathan Norwood",
                 "children": []
               },
               {
@@ -100,15 +159,15 @@
             "children": [
               {
                 "id": 10334,
-                "name": "Chief William Russell \"Wyniaco\" Clark",
+                "name": "William Russell Wyniaco Clark",
                 "children": [
                   {
                     "id": 10336,
-                    "name": "William Vine Clark Jr.",
+                    "name": "William Vine Clark Jr",
                     "children": [
                       {
                         "id": 10337,
-                        "name": "William CLARKE (Clark) Esq.",
+                        "name": "William CLARKE Esq",
                         "children": []
                       }
                     ]
@@ -130,7 +189,7 @@
         "children": [
           {
             "id": 10542,
-            "name": "Nathaniel \"Nathan\" Norwood",
+            "name": "Nathaniel Nathan Norwood",
             "children": []
           },
           {

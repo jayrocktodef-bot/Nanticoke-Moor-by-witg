@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2926">
+    <name>
+      <nameForm>
+        <fullText>Charles E. Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_165"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>28 Nov 1906</original>
+      </date>
+      <source description="#s_165"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>8 Jul 1935 (aged 28)</original>
+      </date>
+      <source description="#s_165"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_165">
+    <about resource="Carter_Lynn_Family.htm"/>
+    <title>Record: Carter_Lynn_Family.htm</title>
+  </sourceDescription>
+</gedcomx>

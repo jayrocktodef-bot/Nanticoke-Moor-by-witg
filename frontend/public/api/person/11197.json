@@ -8,26 +8,54 @@
     "married_last_name": "Millsboro",
     "evidence_level": 2,
     "source_page": "Obituary Archive",
-    "birth_info": "",
+    "birth_info": null,
     "death_info": "d. 1965",
     "notes": "Obituary Record: Delmarva Burial | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 11064,
       "person_id": 11197,
-      "id": 22,
-      "deceased_name": "Matilda J. Harmon Millsboro",
-      "age": null,
-      "birth_date": null,
-      "death_date": "1965",
-      "cemetery_location": null,
-      "full_text": "MILLSBORO: Nov. 19 - (Special)- Mrs. Matilda J. Harmon, 86, widow of Thomas Harmon of Millsboro, died at her home yesterday. She had been in failing health for several months.\n\nTheodore Harmon  \nJuly 30, \n1965",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Matilda J. Harmon Millsboro",
+      "citations": [
+        {
+          "citation_id": 10682,
+          "fact_id": 11064,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11065,
+      "person_id": 11197,
+      "fact_type": "Death",
+      "date_string": "d. 1965",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10683,
+          "fact_id": 11065,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11197,

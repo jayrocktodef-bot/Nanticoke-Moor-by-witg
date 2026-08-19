@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_4630">
+    <name>
+      <nameForm>
+        <fullText>Lewes area</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_270"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>18 Mar 1837</original>
+      </date>
+      <source description="#s_270"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>25 Feb 1907 (aged 69)</original>
+      </date>
+      <source description="#s_270"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_270">
+    <about resource="DayHelenJohnson.htm"/>
+    <title>Record: DayHelenJohnson.htm</title>
+  </sourceDescription>
+</gedcomx>

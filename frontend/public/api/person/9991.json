@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9388,
+      "person_id": 9991,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Madge Helena Morris",
+      "citations": [
+        {
+          "citation_id": 9382,
+          "fact_id": 9388,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9389,
+      "person_id": 9991,
+      "fact_type": "Birth",
+      "date_string": "22 January 1936 Dagsboro, Sussex, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9383,
+          "fact_id": 9389,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9390,
+      "person_id": 9991,
+      "fact_type": "Death",
+      "date_string": "4 November 2017 Mount Holly, Burlington, New Jersey, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9384,
+          "fact_id": 9390,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -46,11 +105,6 @@
                     "name": "Negro Morris Thomas",
                     "children": [
                       {
-                        "id": 8505,
-                        "name": "Morris Thomas",
-                        "children": []
-                      },
-                      {
                         "id": 9992,
                         "name": "Sally Wright",
                         "children": []
@@ -74,33 +128,6 @@
                     ]
                   }
                 ]
-              },
-              {
-                "id": 9979,
-                "name": "Frances F. Morris",
-                "children": [
-                  {
-                    "id": 9981,
-                    "name": "William Coard Harmon",
-                    "children": [
-                      {
-                        "id": 9982,
-                        "name": "Robert Emanuel Harmon",
-                        "children": []
-                      },
-                      {
-                        "id": 9983,
-                        "name": "Rachel Anne Johnson",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 9980,
-                    "name": "Sarah Ann Handsor",
-                    "children": []
-                  }
-                ]
               }
             ]
           },
@@ -109,7 +136,7 @@
             "name": "Sarah Jane Morris",
             "children": [
               {
-                "id": 792,
+                "id": 5971,
                 "name": "Noah Harmon",
                 "children": [
                   {
@@ -145,8 +172,8 @@
                     "children": []
                   },
                   {
-                    "id": 9835,
-                    "name": "Mary A Street",
+                    "id": 7504,
+                    "name": "Mary A. Street",
                     "children": []
                   }
                 ]

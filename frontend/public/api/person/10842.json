@@ -13,6 +13,27 @@
     "notes": "Mentioned in obituary | FindAGrave: no match",
     "dataset_source": "mitsawokett_obituaries"
   },
+  "facts": [
+    {
+      "fact_id": 10230,
+      "person_id": 10842,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "William Best",
+      "citations": [
+        {
+          "citation_id": 10224,
+          "fact_id": 10230,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -75,7 +96,7 @@
       "evidence_text": "Obituary text evidence for Carney Milton &quot;Nick&quot;",
       "certainty": "confirmed",
       "rel_id": 10914,
-      "rel_name": "Milton \"Nick\" Carney"
+      "rel_name": "Milton Nick Carney"
     },
     {
       "relationship_type": "spouse",
@@ -117,7 +138,7 @@
       "evidence_text": "Obituary text evidence for Coombs Ellsworth &quot;Buddy&quot;",
       "certainty": "confirmed",
       "rel_id": 10919,
-      "rel_name": "Coombs Ellsworth \"Buddy\""
+      "rel_name": "Coombs Ellsworth Buddy"
     },
     {
       "relationship_type": "spouse",
@@ -160,13 +181,6 @@
       "certainty": "confirmed",
       "rel_id": 10925,
       "rel_name": "Cuff Florence"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Cuff Francis M.",
-      "certainty": "confirmed",
-      "rel_id": 4402,
-      "rel_name": "Margaret M. Cuff"
     },
     {
       "relationship_type": "spouse",
@@ -229,7 +243,7 @@
       "evidence_text": "Obituary text evidence for Durham Buena &quot;Boni&quot;",
       "certainty": "confirmed",
       "rel_id": 10934,
-      "rel_name": "Buena \"Boni\" Durham"
+      "rel_name": "Buena Boni Durham"
     },
     {
       "relationship_type": "spouse",
@@ -345,80 +359,10 @@
     },
     {
       "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Green Rachel M. Hughes",
-      "certainty": "confirmed",
-      "rel_id": 5567,
-      "rel_name": "Hughes Green"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Greenage Benjamin",
-      "certainty": "confirmed",
-      "rel_id": 10949,
-      "rel_name": "Greenage Benjamin"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Greenage Janet Marie Henry",
-      "certainty": "confirmed",
-      "rel_id": 10950,
-      "rel_name": "Greenage Janet Marie Henry"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Greenage John Wallace",
-      "certainty": "confirmed",
-      "rel_id": 10951,
-      "rel_name": "Greenage John Wallace"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Greenage John Reggs",
-      "certainty": "confirmed",
-      "rel_id": 10952,
-      "rel_name": "Greenage John Reggs"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Greenage Mary C. Van Dusen",
-      "certainty": "confirmed",
-      "rel_id": 10953,
-      "rel_name": "Greenage Mary C. Van Dusen"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Greenage Paul Joseph",
-      "certainty": "confirmed",
-      "rel_id": 10954,
-      "rel_name": "Greenage Paul Joseph"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Greenage Sr. Robert",
-      "certainty": "confirmed",
-      "rel_id": 10956,
-      "rel_name": "Greenage Sr. Robert"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Grinage Clarence Mark",
-      "certainty": "confirmed",
-      "rel_id": 10957,
-      "rel_name": "Grinage Clarence Mark"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Grinage Wilma R. Coffinger",
-      "certainty": "confirmed",
-      "rel_id": 10958,
-      "rel_name": "Grinage Wilma R. Coffinger"
-    },
-    {
-      "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Harmon Leonard &quot;Dunk&quot;",
       "certainty": "confirmed",
       "rel_id": 10959,
-      "rel_name": "Leonard \"Dunk\" Harmon"
+      "rel_name": "Leonard Dunk Harmon"
     },
     {
       "relationship_type": "spouse",
@@ -460,7 +404,7 @@
       "evidence_text": "Obituary text evidence for Hughes Adella Naomi",
       "certainty": "confirmed",
       "rel_id": 10964,
-      "rel_name": "Hughes Adella Naomi"
+      "rel_name": "Adella Naomi Hughes"
     },
     {
       "relationship_type": "spouse",
@@ -579,14 +523,7 @@
       "evidence_text": "Obituary text evidence for Morris Charles",
       "certainty": "confirmed",
       "rel_id": 8676,
-      "rel_name": "Charles \"Charlie\" Morris Davis"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Morris Elva E. Street",
-      "certainty": "confirmed",
-      "rel_id": 6149,
-      "rel_name": "and Frances \"Fannie\" Street Morris"
+      "rel_name": "Charles Charlie Morris Davis"
     },
     {
       "relationship_type": "spouse",
@@ -604,13 +541,6 @@
     },
     {
       "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Mosley Elisha M.",
-      "certainty": "confirmed",
-      "rel_id": 358,
-      "rel_name": "Lillie M. Mosley"
-    },
-    {
-      "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Mosley Elsie H.",
       "certainty": "confirmed",
       "rel_id": 477,
@@ -621,7 +551,7 @@
       "evidence_text": "Obituary text evidence for Murray/ Mury Isaac Nichols 1881/1882-1937",
       "certainty": "confirmed",
       "rel_id": 10979,
-      "rel_name": "Murray/ Mury Isaac Nichols 1881/1882-1937"
+      "rel_name": "Murray Mury Isaac Nichols"
     },
     {
       "relationship_type": "spouse",
@@ -684,7 +614,7 @@
       "evidence_text": "Obituary text evidence for Pierce Caleb ~1858/1864-1938",
       "certainty": "confirmed",
       "rel_id": 10988,
-      "rel_name": "Caleb ~1858/1864-1938 Pierce"
+      "rel_name": "Caleb ~ Pierce"
     },
     {
       "relationship_type": "spouse",
@@ -730,20 +660,6 @@
     },
     {
       "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Pierce Lucetta Pierce",
-      "certainty": "confirmed",
-      "rel_id": 8138,
-      "rel_name": "\"Butch\" & Susie Webster Pierce"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Pierce Marietta Pierce",
-      "certainty": "confirmed",
-      "rel_id": 8138,
-      "rel_name": "\"Butch\" & Susie Webster Pierce"
-    },
-    {
-      "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Pierce Martha Irene",
       "certainty": "confirmed",
       "rel_id": 10991,
@@ -779,13 +695,6 @@
     },
     {
       "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Sammons Alfred Oscar",
-      "certainty": "confirmed",
-      "rel_id": 4129,
-      "rel_name": "Oscar & Ethel L. Sammons"
-    },
-    {
-      "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Satterfield Angeline",
       "certainty": "confirmed",
       "rel_id": 10873,
@@ -797,13 +706,6 @@
       "certainty": "confirmed",
       "rel_id": 10998,
       "rel_name": "Scott Ella Mae Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Seeney Laura E. Ridgeway",
-      "certainty": "confirmed",
-      "rel_id": 7457,
-      "rel_name": "Forrest Seeney Ridgeway and Marietta"
     },
     {
       "relationship_type": "spouse",
@@ -873,7 +775,7 @@
       "evidence_text": "Obituary text evidence for Ward Helen Harmon",
       "certainty": "confirmed",
       "rel_id": 8913,
-      "rel_name": "Amos Edward Harmon Sr."
+      "rel_name": "Amos Edward Harmon Sr"
     },
     {
       "relationship_type": "spouse",
@@ -940,13 +842,6 @@
     },
     {
       "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for 1972-1975, receiving many commendations for his excellent work. At the V.A.,",
-      "certainty": "confirmed",
-      "rel_id": 11018,
-      "rel_name": "1972-1975, receiving many commendations for his excellent work. At the V.A.,"
-    },
-    {
-      "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Adele Marie Massey Wright",
       "certainty": "confirmed",
       "rel_id": 11014,
@@ -999,7 +894,7 @@
       "evidence_text": "Obituary text evidence for Milton &quot;Nick&quot; Carney",
       "certainty": "confirmed",
       "rel_id": 10914,
-      "rel_name": "Milton \"Nick\" Carney"
+      "rel_name": "Milton Nick Carney"
     },
     {
       "relationship_type": "spouse",
@@ -1020,14 +915,14 @@
       "evidence_text": "Obituary text evidence for Charles Glendon Coker Sr.",
       "certainty": "confirmed",
       "rel_id": 10513,
-      "rel_name": "Charles Harold hanzer Sr."
+      "rel_name": "Charles Harold hanzer Sr"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Ellsworth &quot;Buddy&quot; Coombs",
       "certainty": "confirmed",
       "rel_id": 10919,
-      "rel_name": "Coombs Ellsworth \"Buddy\""
+      "rel_name": "Coombs Ellsworth Buddy"
     },
     {
       "relationship_type": "spouse",
@@ -1055,7 +950,7 @@
       "evidence_text": "Obituary text evidence for Charles Willis Coursey",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "spouse",
@@ -1063,13 +958,6 @@
       "certainty": "confirmed",
       "rel_id": 10925,
       "rel_name": "Cuff Florence"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Francis M. &quot;Frank&quot; Cuff",
-      "certainty": "confirmed",
-      "rel_id": 11020,
-      "rel_name": "Francis M. \"Frank\" Cuff"
     },
     {
       "relationship_type": "spouse",
@@ -1153,7 +1041,7 @@
       "evidence_text": "Obituary text evidence for Edward E. Ford Jr.",
       "certainty": "confirmed",
       "rel_id": 10694,
-      "rel_name": "Donald Edward Johnson Jr."
+      "rel_name": "Donald Edward Johnson Jr"
     },
     {
       "relationship_type": "spouse",
@@ -1199,13 +1087,6 @@
     },
     {
       "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Ella M. Williams Gould",
-      "certainty": "confirmed",
-      "rel_id": 11021,
-      "rel_name": "Ella M. Williams Gould"
-    },
-    {
-      "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Christina Mae Norwood-Green",
       "certainty": "confirmed",
       "rel_id": 10983,
@@ -1217,20 +1098,6 @@
       "certainty": "confirmed",
       "rel_id": 2561,
       "rel_name": "Bedell Elsie Rachel Green"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Clarence Mark &quot;Mark&quot; Grinage",
-      "certainty": "confirmed",
-      "rel_id": 10957,
-      "rel_name": "Grinage Clarence Mark"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Wilma R. Coffinger Grinage",
-      "certainty": "confirmed",
-      "rel_id": 10958,
-      "rel_name": "Grinage Wilma R. Coffinger"
     },
     {
       "relationship_type": "spouse",
@@ -1258,7 +1125,7 @@
       "evidence_text": "Obituary text evidence for Adella Naomi Hughes",
       "certainty": "confirmed",
       "rel_id": 10964,
-      "rel_name": "Hughes Adella Naomi"
+      "rel_name": "Adella Naomi Hughes"
     },
     {
       "relationship_type": "spouse",
@@ -1266,13 +1133,6 @@
       "certainty": "confirmed",
       "rel_id": 10966,
       "rel_name": "Huntsinger Luella Durham"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Elsie L. Pierce James",
-      "certainty": "confirmed",
-      "rel_id": 5487,
-      "rel_name": "Elsie & James."
     },
     {
       "relationship_type": "spouse",
@@ -1294,13 +1154,6 @@
       "certainty": "confirmed",
       "rel_id": 9696,
       "rel_name": "Dallas Robert Johnson"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Sandra Z. Bailey Johnson",
-      "certainty": "confirmed",
-      "rel_id": 3945,
-      "rel_name": "Joan Johnson ) Sandra Johnson?"
     },
     {
       "relationship_type": "spouse",
@@ -1349,7 +1202,7 @@
       "evidence_text": "Obituary text evidence for Raymond H. Lively Jr.",
       "certainty": "confirmed",
       "rel_id": 6815,
-      "rel_name": "Aubrey Raymond Newlin Jr."
+      "rel_name": "Aubrey Raymond Newlin Jr"
     },
     {
       "relationship_type": "spouse",
@@ -1363,21 +1216,14 @@
       "evidence_text": "Obituary text evidence for Charles Morris",
       "certainty": "confirmed",
       "rel_id": 8676,
-      "rel_name": "Charles \"Charlie\" Morris Davis"
+      "rel_name": "Charles Charlie Morris Davis"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Sanford G. Morris Sr.",
       "certainty": "confirmed",
       "rel_id": 11025,
-      "rel_name": "Sanford G. Morris Sr."
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Elisha M. Mosley",
-      "certainty": "confirmed",
-      "rel_id": 11026,
-      "rel_name": "Elisha M. Mosley"
+      "rel_name": "Sanford G. Morris Sr"
     },
     {
       "relationship_type": "spouse",
@@ -1391,7 +1237,7 @@
       "evidence_text": "Obituary text evidence for Isaac Nichols Murray or Mury 1881/1882-1937",
       "certainty": "confirmed",
       "rel_id": 10979,
-      "rel_name": "Murray/ Mury Isaac Nichols 1881/1882-1937"
+      "rel_name": "Murray Mury Isaac Nichols"
     },
     {
       "relationship_type": "spouse",
@@ -1433,7 +1279,7 @@
       "evidence_text": "Obituary text evidence for Caleb Pierce ~1858/1864-1938",
       "certainty": "confirmed",
       "rel_id": 10988,
-      "rel_name": "Caleb ~1858/1864-1938 Pierce"
+      "rel_name": "Caleb ~ Pierce"
     },
     {
       "relationship_type": "spouse",
@@ -1448,13 +1294,6 @@
       "certainty": "confirmed",
       "rel_id": 11029,
       "rel_name": "Carrie V. Cuff Pierce"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Frances E Cuff Pierce",
-      "certainty": "confirmed",
-      "rel_id": 11030,
-      "rel_name": "Frances E Cuff Pierce"
     },
     {
       "relationship_type": "spouse",
@@ -1482,14 +1321,14 @@
       "evidence_text": "Obituary text evidence for Lucetta Pierce Pierce",
       "certainty": "confirmed",
       "rel_id": 11031,
-      "rel_name": "Lucetta Pierce Pierce"
+      "rel_name": "Lucetta Pierce"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Marietta Pierce Pierce",
       "certainty": "confirmed",
       "rel_id": 11032,
-      "rel_name": "Marietta Pierce Pierce"
+      "rel_name": "Marietta Pierce"
     },
     {
       "relationship_type": "spouse",
@@ -1559,7 +1398,7 @@
       "evidence_text": "Obituary text evidence for James Howard Street, Sr.",
       "certainty": "confirmed",
       "rel_id": 613,
-      "rel_name": "James Dean Sr."
+      "rel_name": "James Dean Sr"
     },
     {
       "relationship_type": "spouse",
@@ -1632,21 +1471,7 @@
       "rel_name": "Ronald J. Wright"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10842,
-      "photo_id": 3949,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "of Israel Jack/Jackson (b, & perhaps Polly Hansor, Jack/Jackson's line, the son of:, born 's, to John Jackson and possibly, Jane Harmon. William, baptised June, the son of:, Ann Shephard, the son of:, Henry Jackson, b abt, Delaware Public Archives, compiled by F. Edward Wright., Indian River and Cool Spring, including gravestone inscriptions after index., (Salt Lake City, Utah: Genealogical Society of, Jane Ingram Price Family, a descendant of Israel Jack/Jackson, Eliza Jane Ingram Price, Mt. Zion AME Church, the marri, as \"free mulattoes\") as August, Eliza Jane's father, James H. Ingram, was born abt, her th birthday in ., Church in Ellendale, DE. The current Church building, other healthcare products. One day, the elder McNeil, Through George Whaley's leadership, the congregation, raised a considerable sum, which the McNeil family generously, the new building., Eliza Jane Ingram Price, daughter of Eliza Jane Price, and Annie Whaley, and Annie Whaley, and Annie Whaley, Retirement Celebration, Mid 's, and Annie Whaley, Retirement Celebration, Mid 's, best friends and, C. Marie, granddaughter of Annie, Eliza Jane Ingram Price, Dee Ellis, great-granddaughter of Annie Price, Dee Ellis, and Mary, Annie Price holding the baby, Annie is standing, with the McNeill family, James Price;, flowered top, E. Price Whaley, black checkered top, Jane Price, light-colored top & glasses, E. Price Oney, C. Price Pettyjohn, right lady, not identified, ancestry of Dee Ellis, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "(b",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1800",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_DeeEllisAncestry.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Price%20Eliza%20Jane%20Ingram%20Family.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

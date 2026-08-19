@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_7890">
+    <name>
+      <nameForm>
+        <fullText>Elizabeth Pritchett</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_604"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_604"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>29 Jun 1918</original>
+      </date>
+      <source description="#s_604"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_604">
+    <about resource="TurnerElizPritchett&amp;family.htm"/>
+    <title>Record: TurnerElizPritchett&amp;family.htm</title>
+  </sourceDescription>
+</gedcomx>

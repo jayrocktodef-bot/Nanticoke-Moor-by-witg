@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_379">
+    <name>
+      <nameForm>
+        <fullText>sd Thomas</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_61"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1846</original>
+      </date>
+      <source description="#s_61"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>1917 (aged 70&amp;ndash;71)</original>
+      </date>
+      <source description="#s_61"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_61">
+    <about resource="hansor.htm"/>
+    <title>Record: hansor.htm</title>
+  </sourceDescription>
+</gedcomx>

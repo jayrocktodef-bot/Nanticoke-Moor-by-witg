@@ -13,12 +13,78 @@
     "notes": "Moor/Nanticoke lineage record - Harmon cluster | Verified via FindAGrave: https://www.findagrave.com/memorial/277311684/joshua-harmon",
     "dataset_source": "moors_delaware"
   },
+  "facts": [
+    {
+      "fact_id": 1160,
+      "person_id": 980,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Joshua H Harmon",
+      "citations": [
+        {
+          "citation_id": 1160,
+          "fact_id": 1160,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1161,
+      "person_id": 980,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1161,
+          "fact_id": 1161,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1162,
+      "person_id": 980,
+      "fact_type": "Death",
+      "date_string": "21 Aug 1914",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1162,
+          "fact_id": 1162,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
       "certainty": "confirmed",
-      "rel_id": 792,
+      "rel_id": 5971,
+      "rel_name": "Noah Harmon"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 5971,
       "rel_name": "Noah Harmon"
     }
   ],

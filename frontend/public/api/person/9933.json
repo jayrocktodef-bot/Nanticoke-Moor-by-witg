@@ -1,9 +1,9 @@
 {
   "person": {
     "person_id": 9933,
-    "name": "Eunice J. \"Nicy\" Hanzer",
+    "name": "Eunice J. Nicy Hanzer",
     "first_name": "Eunice",
-    "middle_name": "J. \"Nicy\"",
+    "middle_name": "J. Nicy",
     "maiden_name": "",
     "married_last_name": "Hanzer",
     "evidence_level": 1,
@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9244,
+      "person_id": 9933,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Eunice J. Nicy Hanzer",
+      "citations": [
+        {
+          "citation_id": 9238,
+          "fact_id": 9244,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9245,
+      "person_id": 9933,
+      "fact_type": "Birth",
+      "date_string": "Abt 1870 Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9239,
+          "fact_id": 9245,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9246,
+      "person_id": 9933,
+      "fact_type": "Death",
+      "date_string": "18 Nov 1953 Millsboro, Sussex County, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9240,
+          "fact_id": 9246,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -48,7 +107,7 @@
   "audit_flags": [],
   "ancestry": {
     "id": 9933,
-    "name": "Eunice J. \"Nicy\" Hanzer",
+    "name": "Eunice J. Nicy Hanzer",
     "children": [
       {
         "id": 9096,
@@ -85,7 +144,7 @@
         "children": [
           {
             "id": 10122,
-            "name": "John R (H) or Jonathan Harmon",
+            "name": "John R or Jonathan Harmon",
             "children": [
               {
                 "id": 9982,
@@ -103,7 +162,7 @@
                   },
                   {
                     "id": 9985,
-                    "name": "Jemima WARD Johnson (MD)",
+                    "name": "Jemima WARD Johnson",
                     "children": [
                       {
                         "id": 10401,

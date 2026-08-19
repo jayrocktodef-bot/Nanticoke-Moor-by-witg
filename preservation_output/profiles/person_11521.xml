@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11521">
+    <name>
+      <nameForm>
+        <fullText>Albeda Coker was the</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_18"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11521"/>
+    <person2 resource="#p_11522"/>
+    <note>
+      <text>Evidence: Albeda Coker was the daughter of  Moses Coker  and  Mary Ann Dean . She was born in Kent Co., DE on 1 April,</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_18">
+    <about resource="coker-a4.htm"/>
+    <title>Record: coker-a4.htm</title>
+  </sourceDescription>
+</gedcomx>

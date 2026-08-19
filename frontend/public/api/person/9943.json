@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 9268,
+      "person_id": 9943,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Jane Morris",
+      "citations": [
+        {
+          "citation_id": 9262,
+          "fact_id": 9268,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9269,
+      "person_id": 9943,
+      "fact_type": "Birth",
+      "date_string": "1819 Sussex County, Delaware, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9263,
+          "fact_id": 9269,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9270,
+      "person_id": 9943,
+      "fact_type": "Death",
+      "date_string": "3 January 1902 Philadelphia, Philadelphia County, Pennsylvania, United States of America",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9264,
+          "fact_id": 9270,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -43,47 +102,7 @@
       "rel_name": "Edward Morris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9943,
-      "photo_id": 2911,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Jane Harmon Morris, of Edgar C. Morris, of son Noah O. Morris, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Morris",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MorrisNoahOAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisSarahJaneHarmon.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9943,
-      "photo_id": 2912,
-      "title_or_caption": "Sarah Jane Harmon Morris Wife of Edgar C. ...",
-      "subject_names": "Sarah Jane Harmon Morris Wife of Edgar C. ...",
-      "maiden_name": "Coursey",
-      "married_surname": "Harmon",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MorrisNoahOAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisSarahJaneHarmon.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 9943,
-      "photo_id": 4927,
-      "title_or_caption": "David Morris Husband of Eliza Jane Johnson Ancestry of da...",
-      "subject_names": "David Morris Husband of Eliza Jane Johnson Ancestry of da...",
-      "maiden_name": "Morris",
-      "married_surname": null,
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_MorrisDavid&ElizaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisDavid2.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -100,15 +119,15 @@
             "children": [
               {
                 "id": 10334,
-                "name": "Chief William Russell \"Wyniaco\" Clark",
+                "name": "William Russell Wyniaco Clark",
                 "children": [
                   {
                     "id": 10336,
-                    "name": "William Vine Clark Jr.",
+                    "name": "William Vine Clark Jr",
                     "children": [
                       {
                         "id": 10337,
-                        "name": "William CLARKE (Clark) Esq.",
+                        "name": "William CLARKE Esq",
                         "children": []
                       }
                     ]
@@ -123,15 +142,9 @@
             ]
           },
           {
-            "id": 2097,
-            "name": "Clark Thomas",
-            "children": [
-              {
-                "id": 9988,
-                "name": "Martha Clark",
-                "children": []
-              }
-            ]
+            "id": 8514,
+            "name": "Elizabeth Morris",
+            "children": []
           }
         ]
       },

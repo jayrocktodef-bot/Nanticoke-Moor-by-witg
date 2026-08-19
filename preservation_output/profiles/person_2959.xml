@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_2959">
+    <name>
+      <nameForm>
+        <fullText>Donald &amp; Tammy Lynn</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_168"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>29 Aug 1930</original>
+      </date>
+      <source description="#s_168"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>30 May 2011 (aged 80)</original>
+      </date>
+      <source description="#s_168"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_168">
+    <about resource="AttixDonaldFamily.htm"/>
+    <title>Record: AttixDonaldFamily.htm</title>
+  </sourceDescription>
+</gedcomx>

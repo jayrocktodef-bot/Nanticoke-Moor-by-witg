@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_128">
+    <name>
+      <nameForm>
+        <fullText>Mary Ann Coker</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_23"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_23"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Dec 2020</original>
+      </date>
+      <source description="#s_23"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_23">
+    <about resource="coker-j1.htm"/>
+    <title>Record: coker-j1.htm</title>
+  </sourceDescription>
+</gedcomx>

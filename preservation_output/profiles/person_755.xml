@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_755">
+    <name>
+      <nameForm>
+        <fullText>Eliza Ann Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_114"/>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_754"/>
+    <person2 resource="#p_755"/>
+    <note>
+      <text>Evidence: William Howard Johnson who married Eliza Ann Harmon,</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_755"/>
+    <person2 resource="#p_1024"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_755"/>
+    <person2 resource="#p_1686"/>
+    <note>
+      <text>Evidence: Daughter of Jane Harmon &amp; Ephraim Harmon</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_755"/>
+    <person2 resource="#p_1024"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_114">
+    <about resource="wrightp2.htm"/>
+    <title>Record: wrightp2.htm</title>
+  </sourceDescription>
+</gedcomx>

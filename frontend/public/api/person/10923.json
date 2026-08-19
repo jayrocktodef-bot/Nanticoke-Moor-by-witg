@@ -13,6 +13,74 @@
     "notes": "Mentioned in obituary | Verified via FindAGrave: https://www.findagrave.com/memorial/75818963/c-willis",
     "dataset_source": "mitsawokett_obituaries"
   },
+  "facts": [
+    {
+      "fact_id": 10411,
+      "person_id": 10923,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Coursey Charles Willis",
+      "citations": [
+        {
+          "citation_id": 10405,
+          "fact_id": 10411,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        },
+        {
+          "citation_id": 11277,
+          "fact_id": 10411,
+          "source_id": 667,
+          "evidence_text": "Detected in Obituary of Charles Willis Coursey 1946-2015",
+          "source_title": "Obituary: Marguerite J. Brown ~1928-2016",
+          "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm",
+          "source_dataset": "mitsawokett_obits"
+        }
+      ]
+    },
+    {
+      "fact_id": 10412,
+      "person_id": 10923,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10406,
+          "fact_id": 10412,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    },
+    {
+      "fact_id": 10413,
+      "person_id": 10923,
+      "fact_type": "Death",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10407,
+          "fact_id": 10413,
+          "source_id": 623,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Ingest",
+          "source_url": "Obituary Ingest",
+          "source_dataset": "mitsawokett_obituaries"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -68,14 +136,14 @@
       "evidence_text": "Obituary text evidence for Coursey Charles Willis",
       "certainty": "confirmed",
       "rel_id": 10847,
-      "rel_name": "Janet Greenage"
+      "rel_name": "Janet Green"
     },
     {
       "relationship_type": "spouse",
       "evidence_text": "Obituary text evidence for Coursey Charles Willis",
       "certainty": "confirmed",
       "rel_id": 10848,
-      "rel_name": "Gaynor Waters Greenage"
+      "rel_name": "Gaynor Waters Green"
     },
     {
       "relationship_type": "spouse",
@@ -97,13 +165,6 @@
       "certainty": "confirmed",
       "rel_id": 10852,
       "rel_name": "Amos Bailey"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": "Obituary text evidence for Coursey Charles Willis",
-      "certainty": "confirmed",
-      "rel_id": 4422,
-      "rel_name": "Cuff married Mary Murray"
     },
     {
       "relationship_type": "spouse",
@@ -151,29 +212,8 @@
       "relationship_type": "invalid_mass_parent",
       "evidence_text": "Obituary parentage for Coursey Charles Willis",
       "certainty": "confirmed",
-      "rel_id": 10857,
-      "rel_name": "Nanticoke Chiefs"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Coursey Charles Willis",
-      "certainty": "confirmed",
       "rel_id": 10858,
       "rel_name": "Gwendolyn Durham"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Coursey Charles Willis",
-      "certainty": "confirmed",
-      "rel_id": 10859,
-      "rel_name": "Woodrow Wilson"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Coursey Charles Willis",
-      "certainty": "confirmed",
-      "rel_id": 10860,
-      "rel_name": "Greenage Thomas"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -195,13 +235,6 @@
       "certainty": "confirmed",
       "rel_id": 10862,
       "rel_name": "Hazel Coombs Bailey"
-    },
-    {
-      "relationship_type": "invalid_mass_parent",
-      "evidence_text": "Obituary parentage for Coursey Charles Willis",
-      "certainty": "confirmed",
-      "rel_id": 10863,
-      "rel_name": "Jesus Christ"
     },
     {
       "relationship_type": "invalid_mass_parent",
@@ -298,13 +331,6 @@
       "relationship_type": "parent_of",
       "evidence_text": "Obituary child link for Coursey Charles Willis",
       "certainty": "confirmed",
-      "rel_id": 10876,
-      "rel_name": "Greenage Jr"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": "Obituary child link for Coursey Charles Willis",
-      "certainty": "confirmed",
       "rel_id": 10877,
       "rel_name": "Natosha Thorpe"
     },
@@ -334,7 +360,7 @@
       "evidence_text": "Obituary child link for Coursey Charles Willis",
       "certainty": "confirmed",
       "rel_id": 4110,
-      "rel_name": "Benjamin Robert Durham Jr."
+      "rel_name": "Benjamin Robert Durham Jr"
     },
     {
       "relationship_type": "parent_of",
@@ -411,7 +437,7 @@
       "evidence_text": "Obituary child link for Coursey Charles Willis",
       "certainty": "confirmed",
       "rel_id": 7448,
-      "rel_name": ". Charles Coursey"
+      "rel_name": "Charles Coursey"
     },
     {
       "relationship_type": "parent_of",
@@ -519,214 +545,9 @@
       "rel_name": "Niquita Harris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 10923,
-      "photo_id": 5942,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Hope Smith Sterrett, Charles M., Front L to, R: Cecilia Sterrett Coursey, Charles Coursey, Marshall Coursey, John Sterrett, Hope Smith Sterrett, Paris Sterrett Jr., Butch Coursey, L to R: Cecilia, Sterrett Coursey Batty, Lillian Sterrett Batty, A. Sterrett, Sussex County, Susan Johnson or Brown., . Willis Alexander Sterrett, . Cecilia Eugenia Sterrett, Mar  in Millsboro, Delaware. She married Charles Marshall, . Lillian Mae Sterrett, . Paris Vaughn Sterrett, Hope Smith., Vaughn Sterrett, Hope Smith., . Paris Sterrett., . John Sterrett., Eugenia Sterrett, Mar  in Millsboro, Delaware. She married Charles Marshall, . Helen Cecelia Coursey, born in Millsboro, Delaware; died, Sep  in Millsboro, . Marshall Lee Coursey, . Melvin Coursey, born in Millsboro, Delaware. He married, Gloria Morely., . John Street Coursey, born in Millsboro, Delaware. He married, Alberta Morris; Joyce., . Charles Coursey, born in Millsboro, Delaware. He married, Geraldine Jackson., | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": "Smith",
-      "married_surname": "Sterrett",
-      "location": null,
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_CourseyCecilia_LBatty.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SterrettParisFamily.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 572,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10857,
-      "description": "Removed anomalous mass-parent link to Nanticoke Chiefs",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 803,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10858,
-      "description": "Removed anomalous mass-parent link to Gwendolyn Durham",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1034,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10859,
-      "description": "Removed anomalous mass-parent link to Woodrow Wilson",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1265,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10860,
-      "description": "Removed anomalous mass-parent link to Greenage Thomas",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1496,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 6088,
-      "description": "Removed anomalous mass-parent link to Myrtle Sammons Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1727,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10861,
-      "description": "Removed anomalous mass-parent link to Rinels Clifford Sr",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 1958,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10862,
-      "description": "Removed anomalous mass-parent link to Hazel Coombs Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2189,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10863,
-      "description": "Removed anomalous mass-parent link to Jesus Christ",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2420,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10864,
-      "description": "Removed anomalous mass-parent link to Vincent Davis",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2651,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10865,
-      "description": "Removed anomalous mass-parent link to Jane Downes Stevens",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 2882,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10866,
-      "description": "Removed anomalous mass-parent link to John Romaine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3113,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10867,
-      "description": "Removed anomalous mass-parent link to Roy King Bailey",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3344,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10868,
-      "description": "Removed anomalous mass-parent link to Elizabeth Lively",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3573,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10869,
-      "description": "Removed anomalous mass-parent link to Teresa Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 3804,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10870,
-      "description": "Removed anomalous mass-parent link to Phyllis Ridgeway Morris",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4035,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10871,
-      "description": "Removed anomalous mass-parent link to Maggie Valentine",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4266,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10872,
-      "description": "Removed anomalous mass-parent link to Alverna Cuff",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4497,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10873,
-      "description": "Removed anomalous mass-parent link to Angeline Satterfield",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    },
-    {
-      "id": 4727,
-      "category": "Data Quality",
-      "severity": "warning",
-      "person_id": 10923,
-      "person_id_secondary": 10874,
-      "description": "Removed anomalous mass-parent link to Fannie Harmon",
-      "evidence": "Parent has >10 children and is a known junk/anomalous entity.",
-      "created_at": "2026-08-15 01:27:02"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 10923,
     "name": "Coursey Charles Willis",

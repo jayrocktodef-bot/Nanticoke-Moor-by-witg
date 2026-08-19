@@ -13,22 +13,67 @@
     "notes": "Ingested from StreetElmerR&Sons.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/111264215/elmer-street",
     "dataset_source": "mitsawokett_delaware"
   },
-  "relationships": [],
-  "photos": [
+  "facts": [
     {
+      "fact_id": 6977,
       "person_id": 7528,
-      "photo_id": 5546,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Elmer R. Street &, L to R: Benjamin, Elmer R. Street, Harold & Richard, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "&",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_StreetElmerR_Sons.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetElmerR&Sons.htm",
-      "dataset_source": "mitsawokett"
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Elmer R. Street",
+      "citations": [
+        {
+          "citation_id": 6971,
+          "fact_id": 6977,
+          "source_id": 586,
+          "evidence_text": null,
+          "source_title": "Record: StreetElmerR&Sons.htm",
+          "source_url": "StreetElmerR&Sons.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 6978,
+      "person_id": 7528,
+      "fact_type": "Birth",
+      "date_string": "10 Mar 1938",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 6972,
+          "fact_id": 6978,
+          "source_id": 586,
+          "evidence_text": null,
+          "source_title": "Record: StreetElmerR&Sons.htm",
+          "source_url": "StreetElmerR&Sons.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 6979,
+      "person_id": 7528,
+      "fact_type": "Death",
+      "date_string": "2 Jun 2010 (aged 72)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 6973,
+          "fact_id": 6979,
+          "source_id": 586,
+          "evidence_text": null,
+          "source_title": "Record: StreetElmerR&Sons.htm",
+          "source_url": "StreetElmerR&Sons.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

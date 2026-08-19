@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_349">
+    <name>
+      <nameForm>
+        <fullText>Diana Pierce</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_55"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>12 Jun 1969</original>
+      </date>
+      <source description="#s_55"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>19 Sep 2014 (aged 45)</original>
+      </date>
+      <source description="#s_55"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_349"/>
+    <person2 resource="#p_350"/>
+    <note>
+      <text>Evidence: Diana Pierce married Donald Coombs</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_349"/>
+    <person2 resource="#p_350"/>
+    <note>
+      <text>Evidence: Diana Pierce married Donald Coombs</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_349"/>
+    <person2 resource="#p_350"/>
+    <note>
+      <text>Evidence: Diana Pierce married Donald Coombs</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_55">
+    <about resource="durhm-m2.htm"/>
+    <title>Record: durhm-m2.htm</title>
+  </sourceDescription>
+</gedcomx>

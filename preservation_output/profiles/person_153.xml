@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_153">
+    <name>
+      <nameForm>
+        <fullText>Stanley Coker</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_27"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>6 Mar 1945</original>
+      </date>
+      <source description="#s_27"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_27"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_153"/>
+    <person2 resource="#p_154"/>
+    <note>
+      <text>Evidence: Stanley Coker married Ida May Mosley</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_153"/>
+    <person2 resource="#p_154"/>
+    <note>
+      <text>Evidence: Stanley Coker married Ida May Mosley</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_153"/>
+    <person2 resource="#p_154"/>
+    <note>
+      <text>Evidence: Stanley Coker married Ida May Mosley</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_153"/>
+    <person2 resource="#p_154"/>
+    <note>
+      <text>Evidence: Stanley Coker married Ida May Mosley</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_27">
+    <about resource="coker-w1.htm"/>
+    <title>Record: coker-w1.htm</title>
+  </sourceDescription>
+</gedcomx>

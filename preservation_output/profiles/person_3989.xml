@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3989">
+    <name>
+      <nameForm>
+        <fullText>Raymond Ridgeway Jr.</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_222"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>18 Feb 1843</original>
+      </date>
+      <source description="#s_222"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>30 Mar 1898 (aged 55)</original>
+      </date>
+      <source description="#s_222"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_222">
+    <about resource="CheswoldSchool.htm"/>
+    <title>Record: CheswoldSchool.htm</title>
+  </sourceDescription>
+</gedcomx>

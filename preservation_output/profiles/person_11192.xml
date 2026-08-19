@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11192">
+    <name>
+      <nameForm>
+        <fullText>Fred Harmon</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_624"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>b. 1966</original>
+      </date>
+      <source description="#s_624"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>d. 1967</original>
+      </date>
+      <source description="#s_624"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_11192"/>
+    <person2 resource="#p_958"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_11192"/>
+    <person2 resource="#p_1024"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (76.2% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_11192"/>
+    <person2 resource="#p_1056"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_11192"/>
+    <person2 resource="#p_1075"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (78.3% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_624">
+    <about resource="Obituary Archive"/>
+    <title>Record: Obituary Archive</title>
+  </sourceDescription>
+</gedcomx>

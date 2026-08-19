@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3722">
+    <name>
+      <nameForm>
+        <fullText>Franklin Johnson</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_204"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>14 Nov 1863</original>
+      </date>
+      <source description="#s_204"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>17 May 1864 (aged 6 months)</original>
+      </date>
+      <source description="#s_204"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_3722"/>
+    <person2 resource="#p_9490"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_9491"/>
+    <person2 resource="#p_3722"/>
+    <note>
+      <text>Evidence: GEDCOM Family tree linkage</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_204">
+    <about resource="CarneyJamesR&amp;EffieReed.htm"/>
+    <title>Record: CarneyJamesR&amp;EffieReed.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_245">
+    <name>
+      <nameForm>
+        <fullText>William Durham</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_40"/>
+    <source description="#s_667"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1836</original>
+      </date>
+      <source description="#s_40"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>14 Feb 1876 (aged 39&amp;ndash;40)</original>
+      </date>
+      <source description="#s_40"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_340"/>
+    <person2 resource="#p_245"/>
+    <note>
+      <text>Evidence: Helen Carney married William Durham</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_245"/>
+    <person2 resource="#p_1030"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (77.8% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_245"/>
+    <person2 resource="#p_368"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Unknown">
+    <person1 resource="#p_245"/>
+    <person2 resource="#p_1030"/>
+    <note>
+      <text>Evidence: Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_340"/>
+    <person2 resource="#p_245"/>
+    <note>
+      <text>Evidence: Helen Carney married William Durham</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_340"/>
+    <person2 resource="#p_245"/>
+    <note>
+      <text>Evidence: Helen Carney married William Durham</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_340"/>
+    <person2 resource="#p_245"/>
+    <note>
+      <text>Evidence: Helen Carney married William Durham</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_340"/>
+    <person2 resource="#p_245"/>
+    <note>
+      <text>Evidence: Helen Carney married William Durham</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_40">
+    <about resource="dean-j2.htm"/>
+    <title>Record: dean-j2.htm</title>
+  </sourceDescription>
+  <sourceDescription id="s_667">
+    <about resource="https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"/>
+    <title>Obituary: Marguerite J. Brown ~1928-2016</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,37 +1,79 @@
 {
   "person": {
     "person_id": 11194,
-    "name": "Mrs. Helen R. Harmon",
-    "first_name": "Mrs.",
-    "middle_name": "Helen R.",
+    "name": "Helen R. Harmon",
+    "first_name": "Helen",
+    "middle_name": "R.",
     "maiden_name": "",
     "married_last_name": "Harmon",
     "evidence_level": 2,
     "source_page": "Obituary Archive",
-    "birth_info": "",
+    "birth_info": null,
     "death_info": "d. 1965",
     "notes": "Obituary Record: Delmarva Burial | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
-  "photos": [],
-  "obituaries": [
+  "facts": [
     {
+      "fact_id": 11058,
       "person_id": 11194,
-      "id": 19,
-      "deceased_name": "Mrs. Helen R. Harmon",
-      "age": null,
-      "birth_date": null,
-      "death_date": "1965",
-      "cemetery_location": null,
-      "full_text": "MILLSBORO: Mrs. Helen R. Harmon, 54, died Saturday in Delaware Division in Wilmington after a short illness.\n\nMrs. Harmon was a member of the Indian Mission Church here and was formerly a Sunday school teacher.\n\nShe is survived by her husband, Leon Harmon; two daughters, Mrs. Anita Carney of Dover and Mrs. Beverly Ann Norwood of Millsboro; two sons, Ralph of Dover and Wilson of Kansas City, Mo.; six grandchildren and a sister, Mrs. Gladys Jackson of Millsboro.\n\nServices will be held Wednesday afternoon at 1 at the Indian Mission Church.  Friends may call at the James Funeral Home tomorrow night from 7 to 9.\n\nLevi Harmon  \nJuly 5, \n1965",
-      "source_url": null
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Helen R. Harmon",
+      "citations": [
+        {
+          "citation_id": 10676,
+          "fact_id": 11058,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11059,
+      "person_id": 11194,
+      "fact_type": "Death",
+      "date_string": "d. 1965",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10677,
+          "fact_id": 11059,
+          "source_id": 624,
+          "evidence_text": null,
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
+  "relationships": [],
+  "photos": [
+    {
+      "person_id": 11194,
+      "photo_id": 7275,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Helen R. Harmon & \n    kids Helen Rebecca Johnson? GO \n                     ...",
+      "subject_names": "Helen R. Harmon",
+      "maiden_name": "Harmon",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonHelenR&kids.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonHelenR&kids.htm",
+      "dataset_source": "mitsawokett"
+    }
+  ],
+  "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11194,
-    "name": "Mrs. Helen R. Harmon",
+    "name": "Helen R. Harmon",
     "children": []
   }
 }

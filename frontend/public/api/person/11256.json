@@ -13,7 +13,44 @@
     "notes": "Category: Nanticoke | WikiTree: https://www.wikitree.com/wiki/Harmon-11596 (Harmon-11596) | Verified via FindAGrave: https://www.findagrave.com/memorial/59126814/marietta-harmon",
     "dataset_source": "lynncjackson"
   },
-  "relationships": [],
+  "facts": [
+    {
+      "fact_id": 11200,
+      "person_id": 11256,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Marietta Harmon",
+      "citations": []
+    },
+    {
+      "fact_id": 11201,
+      "person_id": 11256,
+      "fact_type": "Birth",
+      "date_string": "10 Feb 1843",
+      "place_string": null,
+      "value_string": null,
+      "citations": []
+    },
+    {
+      "fact_id": 11202,
+      "person_id": 11256,
+      "fact_type": "Death",
+      "date_string": "4 Mar 1931 (aged 88)",
+      "place_string": null,
+      "value_string": null,
+      "citations": []
+    }
+  ],
+  "relationships": [
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 958,
+      "rel_name": "Mr Harmon"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],

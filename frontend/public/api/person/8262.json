@@ -13,6 +13,65 @@
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/288813322/joseph-morris",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 7750,
+      "person_id": 8262,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Joseph Morris",
+      "citations": [
+        {
+          "citation_id": 7744,
+          "fact_id": 7750,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7751,
+      "person_id": 8262,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7745,
+          "fact_id": 7751,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 7752,
+      "person_id": 8262,
+      "fact_type": "Death",
+      "date_string": "16 Apr 1858",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7746,
+          "fact_id": 7752,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -25,45 +84,11 @@
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
-      "rel_id": 8505,
-      "rel_name": "Morris Thomas"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
       "rel_id": 8175,
       "rel_name": "Edgar Coil Morris"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8262,
-      "photo_id": 2134,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "meeting at Cheswold Firehouse, in Duck Creek Hundred, of Delaware Archaeology Week., and Dr., remnants at Bloomsbury., Invisible Indians.\", Kent County, on a property known historically, in itself, material and institutional identification symbols., least two Bloomsbury tenants, John Sisco and Thomas Conselor, and have been recognized, Ned Heite, and Counselor descendants, the tribal chairman, area descendants., Get-together\" --, Ned Heite for his excellent, for her archaelogical expertise., Friday evening May, fourteen cousins and friends attended, States represented were CA, NJ & OH. From my, \"After very brief introductions, we talked and shared our, I met Rose Marie Ridgeway, Lorraine Gregg and Michelle, Bloomsbury presentation by Ken Cunningham, Cara Blume and Ned, our fellowship., \"Cousin Sarah Seeney, a very gracious lady, some of which didn't, the motel, for the Saturday evening get-together, for it was, fast approaching pm., for Betty, Marie and myself, morning for Salem Co, I now know that, ---- Chuck & Marie Martin, Sueden Dr Beavercreek, - .@compuserve.com, Fire House Photos, by Karen Councilor, Chuck Counceller, Joyce Counsellor, Lorraine Johnson-Gregg, Karen Councilor, Michelle Pierce, John Lacko, L to R: Joanne Sammons, John Fisher, Alfred \"Nookie\" Sammons, Bruce Morris, Loretta Sammons Gourley, Chuck Counceller, Anna Coker, Kenneth Ridgway, Rose \"Sweetsie\" Ridgeway, Greensbury Ridgeway, Seeney Sullivan, Kevin Cunningham, L to R: Janice Durham, Delores Harmon, William Tony Durham, Joyce Counsellor Berenyi, Joseph Berenyi, Kevin Cunningham, DELDOT &, Dennis Coker, Counsellor's  homestead, I pointed out, from the road, to the caravaning, L to R: Chuck Counceller, Joseph Berenyi, John Lacko, Betty Parker, Joyce Counsellor, Chuck Martin, Sarah Seeney Sullivan, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\", Copyright -",
-      "maiden_name": null,
-      "married_surname": "Firehouse",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1998",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_Img23.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/BloomsburyMeeting9May98.htm",
-      "dataset_source": "mitsawokett"
-    },
-    {
-      "person_id": 8262,
-      "photo_id": 4143,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Howard Hall, Laura Katherine Thompson Hall, Amos Hall, Laura Hall, Doris Hall Johnson, of Eldridge Rynear Johnson, Radia Hall, Wife of Joseph Morris, Edna Hall Harmon, Everett Hall, Husband of Betty Jackson, Joseph Hall, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Hall",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HallRadiaAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HallAmos&Laura.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -107,13 +132,7 @@
                   {
                     "id": 8606,
                     "name": "Richard Dickerson",
-                    "children": [
-                      {
-                        "id": 9073,
-                        "name": "Charles Dickerson",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 9071,
@@ -155,21 +174,37 @@
         ]
       },
       {
-        "id": 8505,
-        "name": "Morris Thomas",
+        "id": 8175,
+        "name": "Edgar Coil Morris",
         "children": [
           {
-            "id": 8910,
-            "name": "Leticia Morris",
+            "id": 8274,
+            "name": "Edgar Coil Morris Sr",
             "children": [
               {
-                "id": 8616,
-                "name": "Stephen Wright",
+                "id": 4624,
+                "name": "Edward Morris",
                 "children": [
                   {
-                    "id": 8687,
-                    "name": "Benjamin Wright",
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
                     "children": [
+                      {
+                        "id": 9992,
+                        "name": "Sally Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
                       {
                         "id": 8684,
                         "name": "Priscilla Miller",
@@ -178,31 +213,53 @@
                     ]
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "id": 8339,
+            "name": "Sarah Jane Morris",
+            "children": [
               {
-                "id": 8684,
-                "name": "Priscilla Miller",
+                "id": 5971,
+                "name": "Noah Harmon",
                 "children": [
                   {
-                    "id": 8618,
-                    "name": "Ebenezar Miller",
+                    "id": 9407,
+                    "name": "David Roland Harmon Sr",
                     "children": []
                   },
                   {
-                    "id": 9188,
-                    "name": "Ebenezer Miller",
+                    "id": 8927,
+                    "name": "Eliza Jane Harmon",
                     "children": [
                       {
-                        "id": 9190,
-                        "name": "Ebenezer Miller Sr",
+                        "id": 5763,
+                        "name": "Robert Marshall Hanzer",
                         "children": []
                       },
                       {
-                        "id": 9191,
-                        "name": "Sarah Collier (Collyer) Miller",
+                        "id": 10290,
+                        "name": "Harriet Ann Harmon",
                         "children": []
                       }
                     ]
+                  }
+                ]
+              },
+              {
+                "id": 9831,
+                "name": "Nicy E. Johnson",
+                "children": [
+                  {
+                    "id": 9834,
+                    "name": "Sylvester H. Johnson",
+                    "children": []
+                  },
+                  {
+                    "id": 7504,
+                    "name": "Mary A. Street",
+                    "children": []
                   }
                 ]
               }

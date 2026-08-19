@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8719,
+      "person_id": 9353,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Esther Aydelott Clark",
+      "citations": [
+        {
+          "citation_id": 8713,
+          "fact_id": 8719,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8720,
+      "person_id": 9353,
+      "fact_type": "Birth",
+      "date_string": "ABT 1780 Sussex Co., DE",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8714,
+          "fact_id": 8720,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8721,
+      "person_id": 9353,
+      "fact_type": "Death",
+      "date_string": "35 , Sussex, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8715,
+          "fact_id": 8721,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
@@ -22,21 +81,7 @@
       "rel_name": "Levin Clark"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9353,
-      "photo_id": 2045,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "Are These People, -- p, to Unknowns P, Go to Unknowns P, Go to Unknowns P, your choice., BRIDGETON OR MILLSBORO, Bibles or obituaries, are pictures #A, pictures #A, picture #., Cora E. Clark Durham, picture #, to R: \u00a0\u00a0Unknown, Mary Elizabeth Durham Green, (wife of Orsen, Durham and Angelica \"Annie\", Orsen Green, Left to right: Unknown, Mary Elizabeth Durham Green, (wife of Orsen Green, Orsen Green, E. Mosley Reed, of Cheswold owned this photo., picture #, to Right:, . Don Edwards, . possibly Elizabeth Durham, . unknown, . Romaine Cuff, picture #, C. Carter, picture #, Reed Harmon of Bridgeton, owns this photo., picture #, Reed Harmon of Bridgeton, owns this photo., picture #, Date: //, From: bmadbear@comcast.net, To: mitsawoket@mitsawoket.com, CC: lightningfawn@com.net, about the same, picture #, Reed Harmon of Bridgeton, owns this photo., picture #, Reed Harmon of Bridgeton, owns this photo., Date: Sat, Subject: photo#, To: BettyandRayTerry@earthlink.net, looks like my, on the Boardwalk. My, mother's name, Esther Pierce Cuff, picture #, | D, | E-L, | M, | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "People",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1868",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_LindaHarmonUnk5.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WhoAreThesePeople3.htm",
-      "dataset_source": "mitsawokett"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -49,15 +94,15 @@
         "children": [
           {
             "id": 10334,
-            "name": "Chief William Russell \"Wyniaco\" Clark",
+            "name": "William Russell Wyniaco Clark",
             "children": [
               {
                 "id": 10336,
-                "name": "William Vine Clark Jr.",
+                "name": "William Vine Clark Jr",
                 "children": [
                   {
                     "id": 10337,
-                    "name": "William CLARKE (Clark) Esq.",
+                    "name": "William CLARKE Esq",
                     "children": []
                   }
                 ]

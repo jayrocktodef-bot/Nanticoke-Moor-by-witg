@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_3295">
+    <name>
+      <nameForm>
+        <fullText>students and staff</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_176"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_176"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>10 Nov 1863</original>
+      </date>
+      <source description="#s_176"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_176">
+    <about resource="BlakeyKatusR.htm"/>
+    <title>Record: BlakeyKatusR.htm</title>
+  </sourceDescription>
+</gedcomx>

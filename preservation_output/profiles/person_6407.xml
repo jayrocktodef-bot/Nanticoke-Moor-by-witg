@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_6407">
+    <name>
+      <nameForm>
+        <fullText>John Small</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_436"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>22 Nov 1895</original>
+      </date>
+      <source description="#s_436"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>2 Nov 1981 (aged 85)</original>
+      </date>
+      <source description="#s_436"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_436">
+    <about resource="ManshipService-abt1993.htm"/>
+    <title>Record: ManshipService-abt1993.htm</title>
+  </sourceDescription>
+</gedcomx>

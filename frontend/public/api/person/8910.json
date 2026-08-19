@@ -13,6 +13,65 @@
     "notes": "",
     "dataset_source": "davis_family_gedcom"
   },
+  "facts": [
+    {
+      "fact_id": 8405,
+      "person_id": 8910,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Leticia Morris",
+      "citations": [
+        {
+          "citation_id": 8399,
+          "fact_id": 8405,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8406,
+      "person_id": 8910,
+      "fact_type": "Birth",
+      "date_string": "25 Jul 1800 Salem, Salem, New Jersey, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8400,
+          "fact_id": 8406,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8407,
+      "person_id": 8910,
+      "fact_type": "Death",
+      "date_string": "28 Oct 1887 Lewes, Sussex, DE, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8401,
+          "fact_id": 8407,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -26,7 +85,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9419,
-      "rel_name": "Elizabeth (Morris) Mosley Harmon"
+      "rel_name": "Elizabeth Mosley Harmon"
     },
     {
       "relationship_type": "child_of",
@@ -34,13 +93,6 @@
       "certainty": "confirmed",
       "rel_id": 7250,
       "rel_name": "Alfred Morris"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8505,
-      "rel_name": "Morris Thomas"
     },
     {
       "relationship_type": "child_of",
@@ -54,7 +106,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8571,
-      "rel_name": "Francis E. \"Frank\" Morris"
+      "rel_name": "Francis E. Frank Morris"
     },
     {
       "relationship_type": "child_of",
@@ -141,7 +193,7 @@
                       },
                       {
                         "id": 9191,
-                        "name": "Sarah Collier (Collyer) Miller",
+                        "name": "Sarah Collier Miller",
                         "children": []
                       }
                     ]
@@ -183,7 +235,7 @@
               },
               {
                 "id": 9191,
-                "name": "Sarah Collier (Collyer) Miller",
+                "name": "Sarah Collier Miller",
                 "children": []
               }
             ]

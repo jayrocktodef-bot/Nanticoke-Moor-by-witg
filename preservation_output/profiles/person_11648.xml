@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_11648">
+    <name>
+      <nameForm>
+        <fullText>It is possible he was the</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_642"/>
+  </person>
+  <relationship type="http://gedcomx.org/ParentChild">
+    <person1 resource="#p_11648"/>
+    <person2 resource="#p_11649"/>
+    <note>
+      <text>Evidence: . It is possible he was the son of Daniel Durham Senior but that has not yet been confirmed.</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_642">
+    <about resource="hewes-e1.htm"/>
+    <title>Record: hewes-e1.htm</title>
+  </sourceDescription>
+</gedcomx>

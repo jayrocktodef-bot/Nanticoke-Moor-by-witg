@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_351">
+    <name>
+      <nameForm>
+        <fullText>had subsequently</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_56"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>16 Jan 1967</original>
+      </date>
+      <source description="#s_56"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>14 Apr 2006 (aged 39)</original>
+      </date>
+      <source description="#s_56"/>
+    </fact>
+  </person>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_351"/>
+    <person2 resource="#p_11629"/>
+    <note>
+      <text>Evidence: indicated that his widow, MARY, had subsequently married the executor of Thomas' estate, Thomas Hughes.</text>
+    </note>
+  </relationship>
+  <relationship type="http://gedcomx.org/Couple">
+    <person1 resource="#p_351"/>
+    <person2 resource="#p_11629"/>
+    <note>
+      <text>Evidence: indicated that his widow, MARY, had subsequently married the executor of Thomas' estate, Thomas Hughes.</text>
+    </note>
+  </relationship>
+  <sourceDescription id="s_56">
+    <about resource="durhm-t1.htm"/>
+    <title>Record: durhm-t1.htm</title>
+  </sourceDescription>
+</gedcomx>

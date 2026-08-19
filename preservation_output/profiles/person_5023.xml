@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_5023">
+    <name>
+      <nameForm>
+        <fullText>Harold &amp; Betty</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_301"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>unknown</original>
+      </date>
+      <source description="#s_301"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>Feb 1972</original>
+      </date>
+      <source description="#s_301"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_301">
+    <about resource="DurhamDavidLivid&amp;LenoraGavin.htm"/>
+    <title>Record: DurhamDavidLivid&amp;LenoraGavin.htm</title>
+  </sourceDescription>
+</gedcomx>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_94">
+    <name>
+      <nameForm>
+        <fullText>Warren Wright</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_14"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>1931</original>
+      </date>
+      <source description="#s_14"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>30 Jun 1993 (aged 61&amp;ndash;62)</original>
+      </date>
+      <source description="#s_14"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_14">
+    <about resource="census11.htm"/>
+    <title>Record: census11.htm</title>
+  </sourceDescription>
+</gedcomx>

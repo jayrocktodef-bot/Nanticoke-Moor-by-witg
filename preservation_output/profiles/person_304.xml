@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<gedcomx xmlns="http://gedcomx.org/v1/">
+  <person id="p_304">
+    <name>
+      <nameForm>
+        <fullText>Elizabeth Hewes</fullText>
+      </nameForm>
+    </name>
+    <source description="#s_48"/>
+    <fact type="http://gedcomx.org/Birth">
+      <date>
+        <original>16 May 1866</original>
+      </date>
+      <source description="#s_48"/>
+    </fact>
+    <fact type="http://gedcomx.org/Death">
+      <date>
+        <original>13 Mar 1958 (aged 91)</original>
+      </date>
+      <source description="#s_48"/>
+    </fact>
+  </person>
+  <sourceDescription id="s_48">
+    <about resource="durhm-d1.htm"/>
+    <title>Record: durhm-d1.htm</title>
+  </sourceDescription>
+</gedcomx>

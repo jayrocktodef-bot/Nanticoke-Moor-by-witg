@@ -13,6 +13,27 @@
     "notes": " | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
+  "facts": [
+    {
+      "fact_id": 898,
+      "person_id": 523,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Edna Mosley",
+      "citations": [
+        {
+          "citation_id": 898,
+          "fact_id": 898,
+          "source_id": 87,
+          "evidence_text": null,
+          "source_title": "Record: morganj4.htm",
+          "source_url": "morganj4.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse",
@@ -34,23 +55,58 @@
       "certainty": "confirmed",
       "rel_id": 993,
       "rel_name": "Nathan Mosley"
-    }
-  ],
-  "photos": [
+    },
     {
-      "person_id": 523,
-      "photo_id": 1993,
-      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware",
-      "subject_names": "W. & Doris V. Carney, Lawrence Sr., Doris Victoria, Doris Victoria, daughter of, Clifton Mosley, Bertha Edna Sammons Mosley, Lawrence Carney, Barbara Lee, | D | E-L, | M | N-R, | S-Z, Native American Communities of, and Southern New Jersey\"",
-      "maiden_name": null,
-      "married_surname": "Carney",
-      "location": "Delaware / Delmarva",
-      "approximate_year": "1912",
-      "local_image_path": "assets/mitsawokett_photos/mitsawokett_CarneyLawrenceAncestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyLawrence&Doris.htm",
-      "dataset_source": "mitsawokett"
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 962,
+      "rel_name": "Benjamin Mosley"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 993,
+      "rel_name": "Nathan Mosley"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Edna Mosley married Charles Edward Marriott",
+      "certainty": "confirmed",
+      "rel_id": 524,
+      "rel_name": "Charles Edward Marriott"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Edna Mosley married Charles Edward Marriott",
+      "certainty": "confirmed",
+      "rel_id": 524,
+      "rel_name": "Charles Edward Marriott"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Edna Mosley married Charles Edward Marriott",
+      "certainty": "confirmed",
+      "rel_id": 524,
+      "rel_name": "Charles Edward Marriott"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Edna Mosley married Charles Edward Marriott",
+      "certainty": "confirmed",
+      "rel_id": 524,
+      "rel_name": "Charles Edward Marriott"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Edna Mosley married Charles Edward Marriott",
+      "certainty": "confirmed",
+      "rel_id": 524,
+      "rel_name": "Charles Edward Marriott"
     }
   ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
