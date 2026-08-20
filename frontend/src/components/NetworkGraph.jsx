@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Network } from 'vis-network';
 import { DataSet } from 'vis-data';
-import { ZoomIn, ZoomOut, RotateCcw, GitBranch, Search, Users, LayoutGrid, Network as NetworkIcon, ChevronRight, User, Maximize2, Minimize2, Sparkles, X, Target } from 'lucide-react';
+import { ZoomIn, ZoomOut, RotateCcw, GitBranch, Search, Users, LayoutGrid, Network as NetworkIcon, ChevronRight, User, Maximize2, Minimize2, Sparkles, X, Target, Lock } from 'lucide-react';
 import GenerationalTreeView from './GenerationalTreeView';
 
 const EDGE_STYLES = {
@@ -20,6 +20,15 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
   const [showSearchDropdown, setShowSearchDropdown] = useState(false);
   const [focalNodeId, setFocalNodeId] = useState(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const [staticLayout, setStaticLayout] = useState({});
+
+  // Fetch precomputed static generational & clan layout coordinates
+  useEffect(() => {
+    fetch('/api/layout.json')
+      .then(res => res.json())
+      .then(setStaticLayout)
+      .catch(console.error);
+  }, []);
 
   useEffect(() => {
     setViewFormat(defaultViewFormat);
@@ -66,7 +75,6 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
         displayEdges = graphData.edges.filter(e => neighborIds.has(e.from) && neighborIds.has(e.to));
       }
     } else if (viewFormat === 'network') {
-      // Show all nodes in the dataset (useful for surname filtering where dataset is pre-filtered)
       displayNodes = graphData.nodes;
       displayEdges = graphData.edges || [];
     }
@@ -79,29 +87,33 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
       displayEdges = displayEdges.filter(e => nodeIds.has(e.from) && nodeIds.has(e.to));
     }
 
-    // Format Nodes
+    // Format Nodes with Static Layout Coordinates
     const visNodes = new DataSet(
       displayNodes.map(n => {
         const isFocal = n.id === activeFocalId;
+        const coords = staticLayout[n.id];
         return {
           id: n.id,
           label: n.label,
           shape: 'box',
+          x: coords ? coords.x : undefined,
+          y: coords ? coords.y : undefined,
+          physics: !coords, // Disable physics if static coordinates are present
           color: {
-            background: isFocal ? '#c68b59' : '#0f172a',
-            border: isFocal ? '#f59e0b' : '#334155',
-            highlight: { background: '#1e293b', border: '#f59e0b' },
-            hover: { background: '#1e293b', border: '#38bdf8' }
+            background: isFocal ? '#C87D53' : '#171E27',
+            border: isFocal ? '#D4A373' : '#2A3644',
+            highlight: { background: '#212B37', border: '#D4A373' },
+            hover: { background: '#212B37', border: '#C87D53' }
           },
           font: { 
-            color: isFocal ? '#ffffff' : '#f8fafc', 
-            face: 'ui-sans-serif, system-ui', 
+            color: isFocal ? '#0F141A' : '#F3EBE3', 
+            face: 'Plus Jakarta Sans, sans-serif', 
             size: isFocal ? 14 : 12, 
             bold: isFocal 
           },
           margin: { top: 10, bottom: 10, left: 14, right: 14 },
           borderWidth: isFocal ? 3 : 1.5,
-          title: `Person: ${n.label}\nSource: ${n.source_page || 'Preserved Record'}`
+          title: `Person: ${n.label}\nClan: ${coords?.clan || 'Nanticoke Lineage'}\nSource: ${n.source_page || 'Preserved Record'}`
         };
       })
     );
@@ -116,7 +128,7 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
           from: e.from,
           to: e.to,
           label: isUncertain ? `? ${style.label}` : style.label,
-          font: { color: isUncertain ? '#f87171' : style.color, size: 10, align: 'middle', background: '#090d16' },
+          font: { color: isUncertain ? '#f87171' : style.color, size: 10, align: 'middle', background: '#0F141A' },
           color: { color: isUncertain ? '#f87171' : style.color, highlight: style.highlight, hover: style.highlight, opacity: isUncertain ? 0.7 : 1.0 },
           dashes: isUncertain ? [4, 4] : style.dashes,
           width: style.width,
@@ -126,7 +138,8 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
       })
     );
 
-    // Network Config
+    // Network Config (Static Precomputed vs Physics)
+    const hasStaticCoords = Object.keys(staticLayout).length > 0;
     const options = {
       nodes: { shadow: { enabled: true, color: 'rgba(0,0,0,0.5)', size: 6 } },
       edges: { shadow: false },
@@ -145,7 +158,7 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
       } : {
         hierarchical: { enabled: false }
       },
-      physics: viewFormat === 'tree' ? false : {
+      physics: (viewFormat === 'tree' || (viewFormat === 'network' && hasStaticCoords)) ? false : {
         enabled: true,
         barnesHut: {
           gravitationalConstant: -3500,
@@ -171,15 +184,6 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
 
     networkRef.current = new Network(containerRef.current, { nodes: visNodes, edges: visEdges }, options);
 
-    // Freeze physics once stabilized to ensure static readable layout
-    if (viewFormat === 'focus' || viewFormat === 'network') {
-      networkRef.current.once('stabilized', () => {
-        if (networkRef.current) {
-          networkRef.current.setOptions({ physics: { enabled: false } });
-        }
-      });
-    }
-
     // Node Selection Event
     networkRef.current.on('selectNode', (params) => {
       if (params.nodes.length > 0) {
@@ -197,267 +201,195 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
         networkRef.current.destroy();
       }
     };
-  }, [graphData, viewFormat, searchFilter, activeFocalId]);
+  }, [graphData, viewFormat, searchFilter, activeFocalId, staticLayout]);
 
-  // Controls Handlers
-  const handleZoomIn = () => networkRef.current && networkRef.current.zoomIn();
-  const handleZoomOut = () => networkRef.current && networkRef.current.zoomOut();
-  const handleReset = () => {
-    if (networkRef.current) {
-      networkRef.current.fit({ animation: { duration: 400, easingFunction: 'easeInOutQuad' } });
-    }
-  };
+  const handleZoomIn = () => networkRef.current?.moveTo({ scale: (networkRef.current.getScale() || 1) * 1.3 });
+  const handleZoomOut = () => networkRef.current?.moveTo({ scale: (networkRef.current.getScale() || 1) / 1.3 });
+  const handleResetZoom = () => networkRef.current?.fit({ animation: { duration: 500, easingFunction: 'easeInOutQuad' } });
 
-  // Search Results Matching
-  const searchResults = searchFilter.trim() && graphData?.nodes
-    ? graphData.nodes.filter(n => n.label.toLowerCase().includes(searchFilter.toLowerCase())).slice(0, 8)
-    : [];
-
-  const handleSelectSearchResult = (node) => {
-    setFocalNodeId(node.id);
-    setSearchFilter('');
-    setShowSearchDropdown(false);
-    if (onSelectNode) onSelectNode(node);
-  };
-
-  // Group nodes by surname for Roster View
-  const familyGroups = {};
-  if (graphData && graphData.nodes) {
-    graphData.nodes.forEach(n => {
-      const surname = n.group || (n.label.split(' ').pop()) || 'Other';
-      if (!familyGroups[surname]) familyGroups[surname] = [];
-      familyGroups[surname].push(n);
-    });
-  }
-
-  // Active focal person details
-  const currentFocalPerson = graphData?.nodes?.find(n => n.id === activeFocalId);
+  const activeFocalNode = graphData?.nodes?.find(n => n.id === activeFocalId);
 
   return (
-    <div 
-      className={`bg-slate-950 transition-all duration-300 flex flex-col ${
-        isFullscreen 
-          ? 'fixed inset-0 z-50 w-screen h-screen p-4' 
-          : 'w-full h-[680px] rounded-xl border border-slate-800 relative overflow-hidden'
-      }`}
-    >
-      {/* Top Controls Toolbar */}
-      <div className="bg-slate-900 px-4 py-3 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3 z-20">
+    <div className={`flex flex-col bg-[#0F141A] rounded-2xl border border-[#2A3644] overflow-hidden shadow-2xl transition-all ${isFullscreen ? 'fixed inset-0 z-50 rounded-none' : 'w-full h-[750px]'}`}>
+      
+      {/* GRAPH TOOLBAR & VIEW MODE SWITCHER */}
+      <div className="bg-[#171E27] border-b border-[#2A3644] p-3 sm:p-4 flex flex-wrap items-center justify-between gap-3 shrink-0">
         
-        {/* View Format Switcher */}
-        <div className="flex items-center gap-2">
-          <span className="text-xs font-bold text-slate-300 uppercase tracking-wider hidden sm:inline">
-            Format:
-          </span>
-          <div className="flex bg-slate-950 p-1 rounded-lg border border-slate-800 text-xs gap-1">
-            <button
-              onClick={() => setViewFormat('focus')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md font-semibold transition-all ${
-                viewFormat === 'focus'
-                  ? 'bg-amber-500 text-slate-950 font-bold shadow'
-                  : 'text-slate-400 hover:text-slate-200'
-              }`}
-            >
-              <Target className="w-3.5 h-3.5" />
-              Focus View
-            </button>
+        {/* Format Selector */}
+        <div className="flex items-center gap-1 bg-[#0F141A] p-1 rounded-xl border border-[#2A3644]">
+          <button
+            onClick={() => setViewFormat('focus')}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+              viewFormat === 'focus' ? 'bg-[#C87D53] text-[#0F141A] font-bold shadow' : 'text-[#9EA9B6] hover:text-[#F3EBE3]'
+            }`}
+          >
+            <Target className="w-3.5 h-3.5" />
+            Focus View
+          </button>
+          
+          <button
+            onClick={() => setViewFormat('network')}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+              viewFormat === 'network' ? 'bg-[#C87D53] text-[#0F141A] font-bold shadow' : 'text-[#9EA9B6] hover:text-[#F3EBE3]'
+            }`}
+          >
+            <Lock className="w-3.5 h-3.5" />
+            Static Full Network
+          </button>
 
-            <button
-              onClick={() => setViewFormat('network')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md font-semibold transition-all ${
-                viewFormat === 'network'
-                  ? 'bg-amber-500 text-slate-950 font-bold shadow'
-                  : 'text-slate-400 hover:text-slate-200'
-              }`}
-            >
-              <NetworkIcon className="w-3.5 h-3.5" />
-              Full Network
-            </button>
+          <button
+            onClick={() => setViewFormat('tree')}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+              viewFormat === 'tree' ? 'bg-[#C87D53] text-[#0F141A] font-bold shadow' : 'text-[#9EA9B6] hover:text-[#F3EBE3]'
+            }`}
+          >
+            <GitBranch className="w-3.5 h-3.5" />
+            Family Tree View
+          </button>
 
-            <button
-              onClick={() => setViewFormat('tree')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md font-semibold transition-all ${
-                viewFormat === 'tree'
-                  ? 'bg-amber-500 text-slate-950 font-bold shadow'
-                  : 'text-slate-400 hover:text-slate-200'
-              }`}
-            >
-              <GitBranch className="w-3.5 h-3.5" />
-              Family Tree View
-            </button>
-
-            <button
-              onClick={() => setViewFormat('roster')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md font-semibold transition-all ${
-                viewFormat === 'roster'
-                  ? 'bg-amber-500 text-slate-950 font-bold shadow'
-                  : 'text-slate-400 hover:text-slate-200'
-              }`}
-            >
-              <LayoutGrid className="w-3.5 h-3.5" />
-              Organized Family Cards
-            </button>
-          </div>
+          <button
+            onClick={() => setViewFormat('roster')}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+              viewFormat === 'roster' ? 'bg-[#C87D53] text-[#0F141A] font-bold shadow' : 'text-[#9EA9B6] hover:text-[#F3EBE3]'
+            }`}
+          >
+            <LayoutGrid className="w-3.5 h-3.5" />
+            Organized Family Cards
+          </button>
         </div>
 
-        {/* Search & Canvas Tools */}
+        {/* Search & Actions */}
         <div className="flex items-center gap-2">
-          
-          {/* Instant Search to Focus */}
-          <div className="relative w-48 sm:w-64">
-            <Search className="w-3.5 h-3.5 absolute left-3 top-2.5 text-slate-400" />
-            <input
-              type="text"
-              placeholder="Search person to focus..."
-              value={searchFilter}
-              onFocus={() => setShowSearchDropdown(true)}
-              onChange={e => {
-                setSearchFilter(e.target.value);
-                setShowSearchDropdown(true);
-              }}
-              className="w-full pl-8 pr-8 py-1.5 bg-slate-950 border border-slate-800 rounded-lg text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-amber-500/50"
-            />
-            {searchFilter && (
-              <button 
-                onClick={() => setSearchFilter('')}
-                className="absolute right-2.5 top-2 text-slate-500 hover:text-slate-300"
-              >
-                <X className="w-3.5 h-3.5" />
-              </button>
-            )}
+          {/* Quick Person Search */}
+          <div className="relative">
+            <div className="flex items-center bg-[#0F141A] border border-[#2A3644] rounded-xl px-2.5 py-1 text-xs">
+              <Search className="w-3.5 h-3.5 text-[#9EA9B6] mr-2" />
+              <input
+                type="text"
+                placeholder="Search person to focus..."
+                value={searchFilter}
+                onChange={(e) => {
+                  setSearchFilter(e.target.value);
+                  setShowSearchDropdown(true);
+                }}
+                onFocus={() => setShowSearchDropdown(true)}
+                className="bg-transparent text-[#F3EBE3] placeholder-[#64748B] text-xs focus:outline-none w-36 sm:w-48"
+              />
+              {searchFilter && (
+                <button onClick={() => { setSearchFilter(''); setShowSearchDropdown(false); }} className="text-[#9EA9B6] hover:text-[#F3EBE3]">
+                  <X className="w-3 h-3" />
+                </button>
+              )}
+            </div>
 
-            {/* Dropdown Results */}
-            {showSearchDropdown && searchResults.length > 0 && (
-              <div className="absolute top-full left-0 right-0 mt-1 bg-slate-900 border border-slate-700 rounded-xl shadow-2xl z-50 overflow-hidden max-h-60 overflow-y-auto">
-                {searchResults.map(n => (
-                  <button
-                    key={n.id}
-                    onClick={() => handleSelectSearchResult(n)}
-                    className="w-full px-3 py-2 text-left hover:bg-slate-800 flex items-center justify-between border-b border-slate-800/50 last:border-0"
-                  >
-                    <span className="text-xs font-semibold text-slate-200">{n.label}</span>
-                    <span className="text-[10px] text-amber-400 font-mono">Focus</span>
-                  </button>
-                ))}
+            {/* Dropdown Suggestions */}
+            {showSearchDropdown && searchFilter.trim() && (
+              <div className="absolute top-full right-0 mt-1.5 w-64 bg-[#171E27] border border-[#2A3644] rounded-xl shadow-2xl z-50 max-h-60 overflow-y-auto custom-scrollbar">
+                {graphData.nodes
+                  .filter(n => n.label.toLowerCase().includes(searchFilter.toLowerCase()))
+                  .slice(0, 15)
+                  .map(node => (
+                    <button
+                      key={node.id}
+                      onClick={() => {
+                        setFocalNodeId(node.id);
+                        setSearchFilter('');
+                        setShowSearchDropdown(false);
+                        if (onSelectNode) onSelectNode(node);
+                      }}
+                      className="w-full text-left px-3 py-2 text-xs hover:bg-[#212B37] text-[#F3EBE3] border-b border-[#2A3644]/50 flex items-center justify-between"
+                    >
+                      <span className="font-semibold truncate">{node.label}</span>
+                      <span className="text-[10px] font-mono text-[#D4A373]">#{node.id}</span>
+                    </button>
+                  ))}
               </div>
             )}
           </div>
 
-          {/* Zoom / Reset / Fullscreen Controls */}
+          {/* Canvas Controls */}
           {viewFormat !== 'roster' && (
-            <div className="flex items-center gap-1">
-              <button onClick={handleZoomIn} className="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg" title="Zoom In">
-                <ZoomIn className="w-3.5 h-3.5" />
+            <div className="flex items-center gap-1 bg-[#0F141A] p-1 rounded-xl border border-[#2A3644]">
+              <button onClick={handleZoomIn} className="p-1.5 text-[#9EA9B6] hover:text-[#F3EBE3] rounded-lg" title="Zoom In">
+                <ZoomIn className="w-4 h-4" />
               </button>
-              <button onClick={handleZoomOut} className="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg" title="Zoom Out">
-                <ZoomOut className="w-3.5 h-3.5" />
+              <button onClick={handleZoomOut} className="p-1.5 text-[#9EA9B6] hover:text-[#F3EBE3] rounded-lg" title="Zoom Out">
+                <ZoomOut className="w-4 h-4" />
               </button>
-              <button onClick={handleReset} className="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg" title="Reset View & Center">
-                <RotateCcw className="w-3.5 h-3.5" />
-              </button>
-
-              {/* Fullscreen Toggle */}
-              <button 
-                onClick={() => setIsFullscreen(!isFullscreen)} 
-                className="p-1.5 bg-amber-500/20 text-amber-400 hover:bg-amber-500/30 border border-amber-500/40 rounded-lg transition-colors ml-1"
-                title={isFullscreen ? "Exit Fullscreen" : "Fullscreen Expanded View"}
-              >
-                {isFullscreen ? <Minimize2 className="w-3.5 h-3.5" /> : <Maximize2 className="w-3.5 h-3.5" />}
+              <button onClick={handleResetZoom} className="p-1.5 text-[#9EA9B6] hover:text-[#F3EBE3] rounded-lg" title="Reset View">
+                <RotateCcw className="w-4 h-4" />
               </button>
             </div>
           )}
+
+          {/* Fullscreen Toggle */}
+          <button
+            onClick={() => setIsFullscreen(!isFullscreen)}
+            className="p-2 bg-[#0F141A] border border-[#2A3644] hover:border-[#C87D53] text-[#9EA9B6] hover:text-[#F3EBE3] rounded-xl transition-all"
+            title={isFullscreen ? "Exit Fullscreen" : "Fullscreen View"}
+          >
+            {isFullscreen ? <Minimize2 className="w-4 h-4" /> : <Maximize2 className="w-4 h-4" />}
+          </button>
         </div>
       </div>
 
-      {/* Sub-Header Status & Focal Information */}
-      <div className="px-4 py-2 bg-slate-900/80 border-b border-slate-800/80 flex flex-wrap items-center justify-between text-xs text-slate-400 gap-2 z-10">
-        <div className="flex items-center gap-2">
-          {viewFormat === 'focus' && currentFocalPerson && (
-            <span className="flex items-center gap-1.5 text-xs text-amber-300 font-semibold bg-amber-500/10 border border-amber-500/30 px-2.5 py-0.5 rounded-md">
-              <Target className="w-3.5 h-3.5 text-amber-400" />
-              Focused Node: {currentFocalPerson.label}
+      {/* GRAPH CANVAS OR ALTERNATE VIEWS */}
+      <div className="flex-1 relative bg-[#0F141A] min-h-0">
+        
+        {/* Banner Legend */}
+        {viewFormat !== 'roster' && (
+          <div className="absolute top-3 left-3 z-10 bg-[#171E27]/90 backdrop-blur-md border border-[#2A3644] px-3 py-1.5 rounded-xl flex items-center gap-4 text-[11px] font-mono text-[#9EA9B6] shadow-lg">
+            <span className="flex items-center gap-1.5">
+              <span className="w-2.5 h-2.5 rounded-full bg-[#f59e0b]" />
+              Parent-Child
             </span>
-          )}
-          <span className="text-[11px] italic text-slate-400 hidden md:inline">
-            {viewFormat === 'tree' && '🌲 Top-Down Generational Tree — Hierarchical structure from ancestors to descendants.'}
-            {viewFormat === 'roster' && '🗂️ Organized Family Cards — Lineages grouped into clean rosters.'}
-            {viewFormat === 'focus' && '🎯 Ego-Centric Focus View — Showing immediate family network. Click nodes to pivot focus.'}
-            {viewFormat === 'network' && '🕸️ Full Network View — Showing all connections in the current dataset.'}
-          </span>
-        </div>
+            <span className="flex items-center gap-1.5">
+              <span className="w-2.5 h-2.5 rounded-full bg-[#f43f5e]" />
+              Spouse
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="w-2.5 h-2.5 rounded-full bg-[#10b981]" />
+              Matched Record
+            </span>
+          </div>
+        )}
 
-        <div className="flex items-center gap-3 font-medium text-[11px]">
-          <span className="flex items-center gap-1 text-amber-400">
-            <span className="w-2.5 h-1 bg-amber-400 rounded" /> Parent-Child
-          </span>
-          <span className="flex items-center gap-1 text-rose-400">
-            <span className="w-2.5 h-1 bg-rose-400 rounded" /> Spouse
-          </span>
-          <span className="flex items-center gap-1 text-emerald-400">
-            <span className="w-2.5 h-1 bg-emerald-400 rounded" /> Matched Record
-          </span>
-        </div>
+        {/* View Mode 1: Vis-Network Canvas */}
+        {(viewFormat === 'focus' || viewFormat === 'network') && (
+          <div ref={containerRef} className="w-full h-full" />
+        )}
+
+        {/* View Mode 2: Generational Tree View */}
+        {viewFormat === 'tree' && (
+          <GenerationalTreeView graphData={graphData} onSelectNode={onSelectNode} focalId={activeFocalId} />
+        )}
+
+        {/* View Mode 3: Roster Family Cards */}
+        {viewFormat === 'roster' && (
+          <div className="w-full h-full p-6 overflow-y-auto space-y-6 custom-scrollbar">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {graphData.nodes.map(n => (
+                <div
+                  key={n.id}
+                  onClick={() => {
+                    setFocalNodeId(n.id);
+                    if (onSelectNode) onSelectNode(n);
+                  }}
+                  className="glass-panel glass-card-hover rounded-2xl p-4 cursor-pointer flex items-center gap-3 border border-[#2A3644]"
+                >
+                  <div className="w-10 h-10 rounded-xl bg-[#0F141A] border border-[#2A3644] flex items-center justify-center shrink-0">
+                    <User className="w-5 h-5 text-[#C87D53]" />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <h4 className="font-bold text-sm text-[#F3EBE3] truncate font-serif-header">{n.label}</h4>
+                    <p className="text-[10px] font-mono text-[#9EA9B6] truncate mt-0.5">ID #{n.id}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
-
-      {/* Main Content Display */}
-      {viewFormat === 'tree' ? (
-        <GenerationalTreeView 
-          graphData={graphData} 
-          onSelectNode={onSelectNode}
-          focalId={activeFocalId}
-        />
-      ) : viewFormat === 'roster' ? (
-        /* Organized Family Cards View */
-        <div className="flex-1 p-6 overflow-y-auto bg-slate-950 space-y-6">
-          {Object.keys(familyGroups).sort().map(surname => {
-            const members = familyGroups[surname].filter(n =>
-              !searchFilter || n.label.toLowerCase().includes(searchFilter.toLowerCase())
-            );
-            if (members.length === 0) return null;
-
-            return (
-              <div key={surname} className="bg-slate-900 border border-slate-800 rounded-xl p-5 shadow-lg">
-                <div className="flex items-center justify-between mb-3 border-b border-slate-800 pb-2">
-                  <h3 className="text-base font-bold text-amber-400 flex items-center gap-2">
-                    <Users className="w-4 h-4 text-amber-400" />
-                    The {surname} Lineage ({members.length} members)
-                  </h3>
-                </div>
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
-                  {members.map(member => (
-                    <div
-                      key={member.id}
-                      onClick={() => onSelectNode && onSelectNode(member)}
-                      className="p-3 bg-slate-950 border border-slate-800 rounded-lg hover:border-amber-500/50 cursor-pointer flex items-center justify-between transition-all group"
-                    >
-                      <div className="flex items-center gap-2.5">
-                        <div className="p-2 bg-slate-800 text-slate-300 rounded-lg group-hover:bg-amber-500/20 group-hover:text-amber-400 transition-colors">
-                          <User className="w-4 h-4" />
-                        </div>
-                        <div>
-                          <span className="font-semibold text-xs text-slate-200 group-hover:text-amber-300 block">
-                            {member.label}
-                          </span>
-                          <span className="text-[10px] text-slate-500 block truncate max-w-[160px]">
-                            {member.source_page}
-                          </span>
-                        </div>
-                      </div>
-                      <ChevronRight className="w-4 h-4 text-slate-600 group-hover:text-amber-400 transition-colors" />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      ) : (
-        /* Vis-Network Canvas */
-        <div className="flex-1 relative w-full h-full min-h-[450px] bg-slate-950">
-          <div ref={containerRef} className="w-full h-full min-h-[450px]" />
-        </div>
-      )}
     </div>
   );
 }
