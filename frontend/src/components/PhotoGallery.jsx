@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Camera, Users, ChevronRight, ArrowLeft, Calendar, ExternalLink } from 'lucide-react';
+import { Camera, Users, ChevronRight, ArrowLeft, Calendar, ExternalLink, Play, Square, Sparkles } from 'lucide-react';
 
 export default function PhotoGallery() {
   const [surnameCounts, setSurnameCounts] = useState([]);
@@ -7,7 +7,9 @@ export default function PhotoGallery() {
   const [photos, setPhotos] = useState([]);
   const [lightboxPhoto, setLightboxPhoto] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [categoryTab, setCategoryTab] = useState('portraits'); // 'portraits', 'trees', 'all'
+  const [categoryTab, setCategoryTab] = useState('portraits'); // 'portraits', 'vitals', 'trees'
+  const [isStoryMode, setIsStoryMode] = useState(false);
+  const [storyIndex, setStoryIndex] = useState(0);
 
   const isTreeItem = (p) => {
     if (p.media_type === 'lineage_tree') return true;
@@ -96,14 +98,21 @@ export default function PhotoGallery() {
       .catch(() => setLoading(false));
   };
 
-  // Color palette for surname portal cards
+  // Automatic Story Mode Interval
+  useEffect(() => {
+    let timer;
+    if (isStoryMode && photos.length > 0) {
+      timer = setInterval(() => {
+        setStoryIndex(prev => (prev + 1) % photos.length);
+      }, 5000);
+    }
+    return () => clearInterval(timer);
+  }, [isStoryMode, photos]);
+
   const PORTAL_COLORS = [
-    { from: 'from-amber-600/20', to: 'to-orange-700/10', border: 'border-amber-500/30', accent: 'text-amber-400', ring: 'ring-amber-500/20' },
-    { from: 'from-sky-600/20', to: 'to-blue-700/10', border: 'border-sky-500/30', accent: 'text-sky-400', ring: 'ring-sky-500/20' },
-    { from: 'from-emerald-600/20', to: 'to-teal-700/10', border: 'border-emerald-500/30', accent: 'text-emerald-400', ring: 'ring-emerald-500/20' },
-    { from: 'from-purple-600/20', to: 'to-violet-700/10', border: 'border-purple-500/30', accent: 'text-purple-400', ring: 'ring-purple-500/20' },
-    { from: 'from-rose-600/20', to: 'to-pink-700/10', border: 'border-rose-500/30', accent: 'text-rose-400', ring: 'ring-rose-500/20' },
-    { from: 'from-cyan-600/20', to: 'to-teal-700/10', border: 'border-cyan-500/30', accent: 'text-cyan-400', ring: 'ring-cyan-500/20' },
+    { from: 'from-[#C87D53]/20', to: 'to-[#171E27]/40', border: 'border-[#C87D53]/40', accent: 'text-[#D4A373]' },
+    { from: 'from-[#1B3B2B]/40', to: 'to-[#171E27]/40', border: 'border-[#1B3B2B]', accent: 'text-[#E5B269]' },
+    { from: 'from-[#2A3644]/40', to: 'to-[#171E27]/40', border: 'border-[#2A3644]', accent: 'text-[#F3EBE3]' }
   ];
 
   // Surname Portal Grid View
@@ -112,250 +121,247 @@ export default function PhotoGallery() {
     const otherSurnames = surnameCounts.filter(s => s.photo_count === 1);
 
     return (
-      <div>
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+      <div className="space-y-6">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-[#2A3644] pb-4">
           <div>
-            <h2 className="text-xl font-bold text-white mb-1">Photo Archive — Surname Portals</h2>
-            <p className="text-xs text-slate-400">
-              {surnameCounts.length} surname groups • {surnameCounts.reduce((a, s) => a + s.photo_count, 0)} historical portrait photos cataloged
+            <h2 className="text-2xl font-bold font-serif-header text-[#F3EBE3] tracking-tight mb-1">
+              Historical Photo & Document Archive
+            </h2>
+            <p className="text-xs text-[#9EA9B6]">
+              {surnameCounts.length} surname groups • {surnameCounts.reduce((a, s) => a + s.photo_count, 0)} historical photographs cataloged
             </p>
           </div>
 
-          {/* Media Category Tab Selector */}
-          <div className="flex flex-wrap items-center gap-1.5 bg-slate-900 border border-slate-800 p-1 rounded-xl text-xs">
+          <div className="flex flex-wrap items-center gap-2 bg-[#171E27] border border-[#2A3644] p-1.5 rounded-2xl text-xs">
             <button
               onClick={() => {
                 setCategoryTab('portraits');
                 setSelectedSurname(null);
                 setPhotos([]);
               }}
-              className={`px-3 py-1.5 rounded-lg font-semibold transition-all ${
+              className={`px-3.5 py-1.5 rounded-xl font-semibold transition-all ${
                 categoryTab === 'portraits'
-                  ? 'bg-amber-500 text-slate-950 shadow-md font-bold'
-                  : 'text-slate-400 hover:text-white'
+                  ? 'bg-[#C87D53] text-[#0F141A] font-bold shadow-md'
+                  : 'text-[#9EA9B6] hover:text-[#F3EBE3]'
               }`}
             >
-              📷 People Portraits
+              📷 Portraits
             </button>
             <button
               onClick={() => {
                 setCategoryTab('vitals');
                 handleShowAll('vitals');
               }}
-              className={`px-3 py-1.5 rounded-lg font-semibold transition-all ${
+              className={`px-3.5 py-1.5 rounded-xl font-semibold transition-all ${
                 categoryTab === 'vitals'
-                  ? 'bg-amber-500 text-slate-950 shadow-md font-bold'
-                  : 'text-slate-400 hover:text-white'
+                  ? 'bg-[#C87D53] text-[#0F141A] font-bold shadow-md'
+                  : 'text-[#9EA9B6] hover:text-[#F3EBE3]'
               }`}
             >
-              📜 Vital Records & Headstones
+              📜 Vital Records
             </button>
             <button
               onClick={() => {
                 setCategoryTab('trees');
                 handleShowAll('trees');
               }}
-              className={`px-3 py-1.5 rounded-lg font-semibold transition-all ${
+              className={`px-3.5 py-1.5 rounded-xl font-semibold transition-all ${
                 categoryTab === 'trees'
-                  ? 'bg-amber-500 text-slate-950 shadow-md font-bold'
-                  : 'text-slate-400 hover:text-white'
+                  ? 'bg-[#C87D53] text-[#0F141A] font-bold shadow-md'
+                  : 'text-[#9EA9B6] hover:text-[#F3EBE3]'
               }`}
             >
-              🌳 Lineage Trees & Charts
+              🌳 Trees & Charts
             </button>
           </div>
 
           <button
             onClick={handleShowAll}
-            className="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-4 py-2 rounded-lg transition-all flex items-center gap-1.5"
+            className="text-xs bg-[#171E27] border border-[#2A3644] hover:border-[#C87D53] text-[#D4A373] px-4 py-2 rounded-xl transition-all flex items-center gap-2 font-mono"
           >
-            <Camera className="w-3.5 h-3.5" />
+            <Camera className="w-3.5 h-3.5 text-[#C87D53]" />
             Browse All Photos
           </button>
         </div>
 
         {/* Featured Surname Portals */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {topSurnames.map((s, idx) => {
             const color = PORTAL_COLORS[idx % PORTAL_COLORS.length];
             return (
               <button
                 key={s.surname}
                 onClick={() => handleSelectSurname(s.surname)}
-                className={`group relative bg-gradient-to-br ${color.from} ${color.to} border ${color.border} rounded-xl p-5 text-left transition-all hover:scale-[1.02] hover:shadow-lg hover:shadow-black/20 active:scale-[0.98]`}
+                className={`group relative glass-panel glass-card-hover rounded-2xl p-5 text-left transition-all active:scale-[0.98] overflow-hidden`}
               >
                 <div className="flex items-start justify-between">
                   <div>
-                    <h3 className="text-lg font-bold text-white tracking-tight">{s.surname}</h3>
-                    <div className="flex items-center gap-2 mt-1.5">
+                    <h3 className="text-xl font-bold font-serif-header text-[#F3EBE3] tracking-tight">{s.surname}</h3>
+                    <div className="flex items-center gap-2 mt-2 font-mono">
                       <Camera className={`w-3.5 h-3.5 ${color.accent}`} />
-                      <span className="text-xs text-slate-400">
-                        <strong className="text-slate-200">{s.photo_count}</strong> photo{s.photo_count !== 1 ? 's' : ''}
+                      <span className="text-xs text-[#9EA9B6]">
+                        <strong className="text-[#F3EBE3]">{s.photo_count}</strong> cataloged
                       </span>
                     </div>
                   </div>
-                  <ChevronRight className={`w-5 h-5 ${color.accent} opacity-0 group-hover:opacity-100 transition-opacity`} />
+                  <ChevronRight className={`w-5 h-5 ${color.accent} opacity-40 group-hover:opacity-100 transition-opacity`} />
                 </div>
-                {/* Decorative ring */}
-                <div className={`absolute -top-1 -right-1 w-8 h-8 rounded-full ring-2 ${color.ring} opacity-30`} />
               </button>
             );
           })}
         </div>
-
-        {/* Single-photo surnames listed compactly */}
-        {otherSurnames.length > 0 && (
-          <div>
-            <h3 className="text-sm font-semibold text-slate-400 mb-3 uppercase tracking-wider">
-              Additional Surnames ({otherSurnames.length})
-            </h3>
-            <div className="flex flex-wrap gap-2">
-              {otherSurnames.map(s => (
-                <button
-                  key={s.surname}
-                  onClick={() => handleSelectSurname(s.surname)}
-                  className="text-xs bg-slate-800/60 border border-slate-700/50 text-slate-300 px-3 py-1.5 rounded-lg hover:bg-slate-700 hover:text-white transition-all"
-                >
-                  {s.surname}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
       </div>
     );
   }
 
-  // Photo Grid View (filtered or all)
+  // Photo Grid View with Ken Burns Story Mode Slideshow
   return (
-    <div>
-      {/* Header with Back */}
-      <div className="flex items-center justify-between mb-6">
+    <div className="space-y-6">
+      <div className="flex items-center justify-between border-b border-[#2A3644] pb-4">
         <div className="flex items-center gap-3">
           <button
-            onClick={() => { setSelectedSurname(null); setPhotos([]); }}
-            className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-slate-400 hover:text-white transition-all"
+            onClick={() => { setSelectedSurname(null); setPhotos([]); setIsStoryMode(false); }}
+            className="p-2 bg-[#171E27] border border-[#2A3644] hover:border-[#C87D53] rounded-xl text-[#9EA9B6] hover:text-[#F3EBE3] transition-all"
           >
             <ArrowLeft className="w-4 h-4" />
           </button>
           <div>
-            <h2 className="text-xl font-bold text-white">
-              {selectedSurname ? `${selectedSurname} Family Photos` : 'All Photos'}
+            <h2 className="text-xl font-bold font-serif-header text-[#F3EBE3]">
+              {selectedSurname ? `${selectedSurname} Family Photos` : 'All Photo Holdings'}
             </h2>
-            <p className="text-xs text-slate-400">{photos.length} photos</p>
+            <p className="text-xs font-mono text-[#9EA9B6]">{photos.length} historical image assets</p>
           </div>
         </div>
+
+        {/* Ken Burns Story Mode Button */}
+        {photos.length > 0 && (
+          <button
+            onClick={() => {
+              setIsStoryMode(!isStoryMode);
+              setStoryIndex(0);
+            }}
+            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-mono font-bold transition-all border ${
+              isStoryMode
+                ? 'bg-[#C87D53] text-[#0F141A] border-[#C87D53] shadow-lg shadow-[#C87D53]/20'
+                : 'bg-[#171E27] border-[#2A3644] text-[#D4A373] hover:border-[#C87D53]'
+            }`}
+          >
+            {isStoryMode ? <Square className="w-3.5 h-3.5 fill-current" /> : <Play className="w-3.5 h-3.5 fill-current" />}
+            <span>{isStoryMode ? 'Exit Story Mode' : 'Ken Burns Story Mode'}</span>
+          </button>
+        )}
       </div>
 
-      {loading ? (
-        <div className="text-center py-16 text-slate-500">
-          <div className="inline-block w-6 h-6 border-2 border-amber-500/30 border-t-amber-400 rounded-full animate-spin mb-3" />
-          <p className="text-sm">Loading photos…</p>
+      {/* Story Mode Featured Banner */}
+      {isStoryMode && photos.length > 0 && (
+        <div className="relative rounded-3xl overflow-hidden bg-[#0F141A] border border-[#C87D53]/40 aspect-video max-h-[60vh] flex items-center justify-center shadow-2xl">
+          <img
+            key={photos[storyIndex]?.photo_id}
+            src={photos[storyIndex]?.local_image_path.startsWith('/') ? photos[storyIndex]?.local_image_path : '/' + photos[storyIndex]?.local_image_path}
+            alt={photos[storyIndex]?.subject_names}
+            className="w-full h-full object-contain animate-ken-burns"
+          />
+          <div className="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-[#0F141A] via-[#0F141A]/80 to-transparent flex items-end justify-between">
+            <div>
+              <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-[#C87D53] bg-[#C87D53]/10 border border-[#C87D53]/30 px-2.5 py-1 rounded-md mb-2 inline-block">
+                Story Mode ({storyIndex + 1} / {photos.length})
+              </span>
+              <h3 className="font-serif-header text-2xl font-bold text-[#F3EBE3]">
+                {photos[storyIndex]?.subject_names || 'Historical Photo'}
+              </h3>
+              {photos[storyIndex]?.title_or_caption && (
+                <p className="text-xs text-[#9EA9B6] mt-1 max-w-xl truncate">{photos[storyIndex]?.title_or_caption}</p>
+              )}
+            </div>
+            <div className="flex gap-2">
+              <button onClick={() => setStoryIndex(prev => (prev - 1 + photos.length) % photos.length)} className="px-3 py-1.5 bg-[#171E27] border border-[#2A3644] text-[#F3EBE3] rounded-lg text-xs font-mono">Prev</button>
+              <button onClick={() => setStoryIndex(prev => (prev + 1) % photos.length)} className="px-3 py-1.5 bg-[#C87D53] text-[#0F141A] font-bold rounded-lg text-xs font-mono">Next</button>
+            </div>
+          </div>
         </div>
-      ) : (
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
-          {photos.map(photo => (
-            <div
-              key={photo.photo_id}
-              onClick={() => setLightboxPhoto(photo)}
-              className="group bg-slate-900 border border-slate-800 rounded-xl overflow-hidden cursor-pointer hover:border-amber-500/40 hover:shadow-lg hover:shadow-amber-500/5 transition-all"
-            >
-              <div className="aspect-square overflow-hidden bg-slate-800">
-                <img
-                  src={photo.local_image_path.startsWith('/') ? photo.local_image_path : '/' + photo.local_image_path}
-                  alt={photo.subject_names || photo.title_or_caption}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                  onError={e => { e.target.style.display = 'none'; }}
-                />
-              </div>
-              <div className="p-2.5">
-                <p className="text-xs font-medium text-slate-200 truncate">
-                  {photo.subject_names || 'Unknown'}
-                </p>
-                <div className="flex items-center justify-between mt-1">
-                  {photo.maiden_name && (
-                    <span className="text-[10px] text-amber-400 bg-amber-500/10 px-1.5 py-0.5 rounded font-mono">
-                      {photo.maiden_name}
-                    </span>
-                  )}
-                  {photo.approximate_year && (
-                    <span className="text-[10px] text-slate-500 flex items-center gap-0.5">
-                      <Calendar className="w-2.5 h-2.5" />
-                      {photo.approximate_year}
-                    </span>
-                  )}
-                </div>
-                {photo.married_surname && (
-                  <span className="text-[10px] text-slate-500 block mt-0.5">
-                    née {photo.married_surname}
+      )}
+
+      {/* Grid */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+        {photos.map(photo => (
+          <div
+            key={photo.photo_id}
+            onClick={() => setLightboxPhoto(photo)}
+            className="group glass-panel glass-card-hover rounded-2xl overflow-hidden cursor-pointer flex flex-col justify-between"
+          >
+            <div className="aspect-square overflow-hidden bg-[#0F141A] relative">
+              <img
+                src={photo.local_image_path.startsWith('/') ? photo.local_image_path : '/' + photo.local_image_path}
+                alt={photo.subject_names || photo.title_or_caption}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+                onError={e => { e.target.style.display = 'none'; }}
+              />
+              {/* Face Tag Pulse Indicator */}
+              {photo.subject_names && (
+                <div className="absolute top-2 right-2 w-3 h-3 rounded-full bg-[#C87D53] face-tag-pulse" title="Tagged Face Profile" />
+              )}
+            </div>
+            <div className="p-3">
+              <p className="text-xs font-semibold text-[#F3EBE3] truncate font-serif-header">
+                {photo.subject_names || 'Unknown'}
+              </p>
+              <div className="flex items-center justify-between mt-1">
+                {photo.maiden_name && (
+                  <span className="text-[10px] text-[#D4A373] font-mono">
+                    {photo.maiden_name}
+                  </span>
+                )}
+                {photo.approximate_year && (
+                  <span className="text-[10px] text-[#9EA9B6] font-mono">
+                    c. {photo.approximate_year}
                   </span>
                 )}
               </div>
             </div>
-          ))}
-        </div>
-      )}
+          </div>
+        ))}
+      </div>
 
       {/* Lightbox Modal */}
       {lightboxPhoto && (
         <div
-          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
+          className="fixed inset-0 z-50 bg-[#0F141A]/95 backdrop-blur-md flex items-center justify-center p-4 animate-fade-in"
           onClick={() => setLightboxPhoto(null)}
         >
           <div
-            className="max-w-4xl w-full bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-700"
+            className="max-w-4xl w-full bg-[#171E27] rounded-3xl overflow-hidden shadow-2xl border border-[#C87D53]/40"
             onClick={e => e.stopPropagation()}
           >
             <div className="relative">
               <img
                 src={lightboxPhoto.local_image_path.startsWith('/') ? lightboxPhoto.local_image_path : '/' + lightboxPhoto.local_image_path}
                 alt={lightboxPhoto.subject_names}
-                className="w-full max-h-[70vh] object-contain bg-black"
+                className="w-full max-h-[70vh] object-contain bg-[#0F141A]"
               />
               <button
                 onClick={() => setLightboxPhoto(null)}
-                className="absolute top-3 right-3 p-2 bg-black/60 hover:bg-black/80 rounded-full text-white transition-all"
+                className="absolute top-4 right-4 p-2 bg-[#0F141A]/80 hover:bg-[#0F141A] rounded-full text-[#F3EBE3] transition-all"
               >
                 ✕
               </button>
             </div>
             <div className="p-6">
-              <h3 className="text-lg font-bold text-white mb-2">
+              <h3 className="text-2xl font-bold font-serif-header text-[#F3EBE3] mb-2">
                 {lightboxPhoto.subject_names || 'Unknown Individual'}
               </h3>
-              <div className="flex flex-wrap gap-3 text-xs text-slate-400">
+              <div className="flex flex-wrap gap-4 text-xs font-mono text-[#9EA9B6] mb-3">
                 {lightboxPhoto.maiden_name && (
-                  <span className="flex items-center gap-1">
-                    <Users className="w-3.5 h-3.5 text-amber-400" />
-                    Surname: <strong className="text-slate-200">{lightboxPhoto.maiden_name}</strong>
-                  </span>
-                )}
-                {lightboxPhoto.married_surname && (
-                  <span>Married: <strong className="text-slate-200">{lightboxPhoto.married_surname}</strong></span>
+                  <span>Surname: <strong className="text-[#D4A373]">{lightboxPhoto.maiden_name}</strong></span>
                 )}
                 {lightboxPhoto.approximate_year && (
-                  <span className="flex items-center gap-1">
-                    <Calendar className="w-3.5 h-3.5 text-sky-400" />
-                    <strong className="text-slate-200">c. {lightboxPhoto.approximate_year}</strong>
-                  </span>
+                  <span>Approximate Year: <strong className="text-[#F3EBE3]">{lightboxPhoto.approximate_year}</strong></span>
                 )}
               </div>
               {lightboxPhoto.title_or_caption && (
-                <p className="mt-3 text-xs text-slate-400 leading-relaxed line-clamp-3">
+                <p className="text-xs text-[#9EA9B6] leading-relaxed">
                   {lightboxPhoto.title_or_caption}
                 </p>
-              )}
-              {lightboxPhoto.source_url && (
-                <a
-                  href={lightboxPhoto.source_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-3 inline-flex items-center gap-1 text-[11px] text-sky-400 hover:text-sky-300"
-                >
-                  <ExternalLink className="w-3 h-3" />
-                  Original Source
-                </a>
               )}
             </div>
           </div>
