@@ -41,11 +41,10 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
     }
   }, [graphData]);
 
-  // Default focal node to first valid node in current dataset if none selected or valid
   const isFocalValid = focalNodeId && graphData?.nodes?.some(n => n.id === focalNodeId);
   const activeFocalId = isFocalValid ? focalNodeId : (graphData?.nodes?.[0]?.id ?? null);
 
-  // 1. Render vis-network canvas
+  // Render vis-network canvas
   useEffect(() => {
     if (viewFormat === 'roster' || !containerRef.current || !graphData || !graphData.nodes || graphData.nodes.length === 0) return;
 
@@ -62,7 +61,6 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
           if (e.to === centerId) degree1.add(e.from);
         });
 
-        // Add 2nd degree if 1st degree is very small (< 4 nodes)
         const neighborIds = new Set(degree1);
         if (degree1.size < 4) {
           displayEdges.forEach(e => {
@@ -79,7 +77,6 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
       displayEdges = graphData.edges || [];
     }
 
-    // Filter by Search Query if active
     if (searchFilter && !showSearchDropdown) {
       const q = searchFilter.toLowerCase();
       displayNodes = displayNodes.filter(n => n.label.toLowerCase().includes(q) || (n.group && n.group.toLowerCase().includes(q)));
@@ -87,7 +84,7 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
       displayEdges = displayEdges.filter(e => nodeIds.has(e.from) && nodeIds.has(e.to));
     }
 
-    // Format Nodes with Static Layout Coordinates
+    // Format Nodes with Compact Static Layout Coordinates
     const visNodes = new DataSet(
       displayNodes.map(n => {
         const isFocal = n.id === activeFocalId;
@@ -98,7 +95,7 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
           shape: 'box',
           x: coords ? coords.x : undefined,
           y: coords ? coords.y : undefined,
-          physics: !coords, // Disable physics if static coordinates are present
+          physics: !coords,
           color: {
             background: isFocal ? '#C87D53' : '#171E27',
             border: isFocal ? '#D4A373' : '#2A3644',
@@ -118,7 +115,6 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
       })
     );
 
-    // Format Edges
     const visEdges = new DataSet(
       displayEdges.map((e, idx) => {
         const style = EDGE_STYLES[e.type] || EDGE_STYLES.default;
@@ -138,7 +134,6 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
       })
     );
 
-    // Network Config (Static Precomputed vs Physics)
     const hasStaticCoords = Object.keys(staticLayout).length > 0;
     const options = {
       nodes: { shadow: { enabled: true, color: 'rgba(0,0,0,0.5)', size: 6 } },
@@ -184,7 +179,19 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
 
     networkRef.current = new Network(containerRef.current, { nodes: visNodes, edges: visEdges }, options);
 
-    // Node Selection Event
+    // Initial Zoom & Position Setup: Focus nicely on central columns
+    if (viewFormat === 'network' && hasStaticCoords) {
+      setTimeout(() => {
+        if (networkRef.current) {
+          networkRef.current.moveTo({
+            position: { x: 1200, y: 350 },
+            scale: 0.65,
+            animation: { duration: 600, easingFunction: 'easeInOutQuad' }
+          });
+        }
+      }, 100);
+    }
+
     networkRef.current.on('selectNode', (params) => {
       if (params.nodes.length > 0) {
         const selectedId = params.nodes[0];
@@ -205,17 +212,14 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
 
   const handleZoomIn = () => networkRef.current?.moveTo({ scale: (networkRef.current.getScale() || 1) * 1.3 });
   const handleZoomOut = () => networkRef.current?.moveTo({ scale: (networkRef.current.getScale() || 1) / 1.3 });
-  const handleResetZoom = () => networkRef.current?.fit({ animation: { duration: 500, easingFunction: 'easeInOutQuad' } });
-
-  const activeFocalNode = graphData?.nodes?.find(n => n.id === activeFocalId);
+  const handleResetZoom = () => networkRef.current?.moveTo({ position: { x: 1200, y: 350 }, scale: 0.65, animation: { duration: 500 } });
 
   return (
     <div className={`flex flex-col bg-[#0F141A] rounded-2xl border border-[#2A3644] overflow-hidden shadow-2xl transition-all ${isFullscreen ? 'fixed inset-0 z-50 rounded-none' : 'w-full h-[750px]'}`}>
       
-      {/* GRAPH TOOLBAR & VIEW MODE SWITCHER */}
+      {/* GRAPH TOOLBAR */}
       <div className="bg-[#171E27] border-b border-[#2A3644] p-3 sm:p-4 flex flex-wrap items-center justify-between gap-3 shrink-0">
         
-        {/* Format Selector */}
         <div className="flex items-center gap-1 bg-[#0F141A] p-1 rounded-xl border border-[#2A3644]">
           <button
             onClick={() => setViewFormat('focus')}
@@ -258,9 +262,7 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
           </button>
         </div>
 
-        {/* Search & Actions */}
         <div className="flex items-center gap-2">
-          {/* Quick Person Search */}
           <div className="relative">
             <div className="flex items-center bg-[#0F141A] border border-[#2A3644] rounded-xl px-2.5 py-1 text-xs">
               <Search className="w-3.5 h-3.5 text-[#9EA9B6] mr-2" />
@@ -282,7 +284,6 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
               )}
             </div>
 
-            {/* Dropdown Suggestions */}
             {showSearchDropdown && searchFilter.trim() && (
               <div className="absolute top-full right-0 mt-1.5 w-64 bg-[#171E27] border border-[#2A3644] rounded-xl shadow-2xl z-50 max-h-60 overflow-y-auto custom-scrollbar">
                 {graphData.nodes
@@ -307,7 +308,6 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
             )}
           </div>
 
-          {/* Canvas Controls */}
           {viewFormat !== 'roster' && (
             <div className="flex items-center gap-1 bg-[#0F141A] p-1 rounded-xl border border-[#2A3644]">
               <button onClick={handleZoomIn} className="p-1.5 text-[#9EA9B6] hover:text-[#F3EBE3] rounded-lg" title="Zoom In">
@@ -322,7 +322,6 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
             </div>
           )}
 
-          {/* Fullscreen Toggle */}
           <button
             onClick={() => setIsFullscreen(!isFullscreen)}
             className="p-2 bg-[#0F141A] border border-[#2A3644] hover:border-[#C87D53] text-[#9EA9B6] hover:text-[#F3EBE3] rounded-xl transition-all"
@@ -336,7 +335,6 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
       {/* GRAPH CANVAS OR ALTERNATE VIEWS */}
       <div className="flex-1 relative bg-[#0F141A] min-h-0">
         
-        {/* Banner Legend */}
         {viewFormat !== 'roster' && (
           <div className="absolute top-3 left-3 z-10 bg-[#171E27]/90 backdrop-blur-md border border-[#2A3644] px-3 py-1.5 rounded-xl flex items-center gap-4 text-[11px] font-mono text-[#9EA9B6] shadow-lg">
             <span className="flex items-center gap-1.5">
@@ -354,17 +352,14 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
           </div>
         )}
 
-        {/* View Mode 1: Vis-Network Canvas */}
         {(viewFormat === 'focus' || viewFormat === 'network') && (
           <div ref={containerRef} className="w-full h-full" />
         )}
 
-        {/* View Mode 2: Generational Tree View */}
         {viewFormat === 'tree' && (
           <GenerationalTreeView graphData={graphData} onSelectNode={onSelectNode} focalId={activeFocalId} />
         )}
 
-        {/* View Mode 3: Roster Family Cards */}
         {viewFormat === 'roster' && (
           <div className="w-full h-full p-6 overflow-y-auto space-y-6 custom-scrollbar">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

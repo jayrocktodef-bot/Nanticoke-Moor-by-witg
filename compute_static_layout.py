@@ -57,29 +57,28 @@ def generate_static_layout():
 
     # Sort surnames by size
     sorted_surnames = sorted(surname_groups.keys(), key=lambda s: len(surname_groups[s]), reverse=True)
-    surname_x_center = {}
     
-    # Assign horizontal X columns per surname family cluster
-    col_x = 0
-    for s in sorted_surnames:
-        surname_x_center[s] = col_x
-        col_x += max(350, len(surname_groups[s]) * 25)
+    # Compact layout: Map surnames to tightly spaced columns
+    surname_col_index = {s: idx for idx, s in enumerate(sorted_surnames)}
 
-    # Assign static (x, y) coordinates
     layout_nodes = {}
     gen_counts = collections.defaultdict(int)
 
     for pid, name, m, ml in persons:
         gen = gen_depth[pid]
         s = (m or ml or (name.split()[-1] if name else 'Unknown')).upper()
-        base_x = surname_x_center.get(s, 0)
+        col_idx = surname_col_index.get(s, 0)
         
         idx_in_gen = gen_counts[(s, gen)]
         gen_counts[(s, gen)] += 1
 
-        # Grid spread
-        x = base_x + (idx_in_gen % 8) * 160
-        y = gen * 220 + math.floor(idx_in_gen / 8) * 60
+        # Compact grid coordinates (120px column step, 140px row step)
+        # Limit max columns to 12 main family trunks
+        effective_col = col_idx % 12
+        row_offset = math.floor(col_idx / 12) * 50
+
+        x = effective_col * 240 + (idx_in_gen % 3) * 70
+        y = gen * 180 + row_offset + math.floor(idx_in_gen / 3) * 50
 
         layout_nodes[pid] = {
             "x": round(x, 1),
@@ -93,7 +92,7 @@ def generate_static_layout():
     with open(out_file, 'w') as f:
         json.dump(layout_nodes, f, indent=2)
 
-    print(f"Precomputed static graph layout saved for {len(layout_nodes)} nodes to {out_file}")
+    print(f"Compact precomputed graph layout saved for {len(layout_nodes)} nodes to {out_file}")
     conn.close()
 
 if __name__ == '__main__':
