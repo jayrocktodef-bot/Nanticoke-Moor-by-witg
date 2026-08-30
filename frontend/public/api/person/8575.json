@@ -3,14 +3,14 @@
     "person_id": 8575,
     "name": "Charles Davis Jr",
     "first_name": "Charles",
-    "middle_name": "Davis",
+    "middle_name": null,
     "maiden_name": "",
-    "married_last_name": "Jr.",
+    "married_last_name": "Davis",
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "25 Sep 1841",
     "death_info": "15 Jan 1915 (aged 73)",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/138127262/charles-davis (Buried at Bolckow Cemetery)",
+    "notes": "| Verified via FindAGrave: https://www.findagrave.com/memorial/138127262/charles-davis (Buried at Bolckow Cemetery) [Suffix 'Jr' realigned from surname field]",
     "dataset_source": "davis_family_gedcom"
   },
   "facts": [
@@ -90,7 +90,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5681,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 8676,
+      "person_id_secondary": 8575,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: charles|davis|1841",
+      "created_at": "2026-08-30 23:12:37"
+    }
+  ],
   "ancestry": {
     "id": 8575,
     "name": "Charles Davis Jr",
@@ -137,11 +148,6 @@
                 ]
               }
             ]
-          },
-          {
-            "id": 10858,
-            "name": "Gwendolyn Durham",
-            "children": []
           }
         ]
       },

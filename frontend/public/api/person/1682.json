@@ -37,13 +37,6 @@
   "relationships": [
     {
       "relationship_type": "child_of",
-      "evidence_text": "Son of John W. Thompson",
-      "certainty": "confirmed",
-      "rel_id": 8679,
-      "rel_name": "John W Thompson"
-    },
-    {
-      "relationship_type": "child_of",
       "evidence_text": "Son of Sarah Ann (Harmon) Thompson",
       "certainty": "confirmed",
       "rel_id": 1685,
@@ -51,7 +44,7 @@
     },
     {
       "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
+      "evidence_text": "GEDCOM Family tree linkage | Son of John W. Thompson",
       "certainty": "confirmed",
       "rel_id": 8679,
       "rel_name": "John W Thompson"
@@ -71,6 +64,11 @@
     "id": 1682,
     "name": "Snowden Asher Thompson",
     "children": [
+      {
+        "id": 1685,
+        "name": "Sarah Ann Harmon",
+        "children": []
+      },
       {
         "id": 8679,
         "name": "John W Thompson",
@@ -109,11 +107,6 @@
             ]
           }
         ]
-      },
-      {
-        "id": 1685,
-        "name": "Sarah Ann Harmon",
-        "children": []
       }
     ]
   }

@@ -32,6 +32,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 4140,
+      "person_id": 4768,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Elizabeth Mosley (Millard",
+      "citations": [
+        {
+          "citation_id": 4134,
+          "fact_id": 4140,
+          "source_id": 281,
+          "evidence_text": null,
+          "source_title": "Record: DixonKathrynE.htm",
+          "source_url": "DixonKathrynE.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -48,13 +67,6 @@
       "certainty": "confirmed",
       "rel_id": 9940,
       "rel_name": "Sophia J. Hanzer"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9096,
-      "rel_name": "John C Hanzer"
     },
     {
       "relationship_type": "child_of",
@@ -120,7 +132,7 @@
         "children": [
           {
             "id": 10122,
-            "name": "John R or Jonathan Harmon",
+            "name": "John R. Harmon",
             "children": [
               {
                 "id": 9982,

@@ -90,7 +90,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5697,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 10714,
+      "person_id_secondary": 10513,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: charles|hanzer|1925",
+      "created_at": "2026-08-30 23:12:37"
+    }
+  ],
   "ancestry": {
     "id": 10714,
     "name": "Charles Harold Hanzer",
@@ -128,7 +139,7 @@
             "children": [
               {
                 "id": 10122,
-                "name": "John R or Jonathan Harmon",
+                "name": "John R. Harmon",
                 "children": [
                   {
                     "id": 9982,

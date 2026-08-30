@@ -3,14 +3,14 @@
     "person_id": 1871,
     "name": "Robert Goldsborough Sr",
     "first_name": "Robert",
-    "middle_name": "Goldsborough",
+    "middle_name": null,
     "maiden_name": "",
-    "married_last_name": "Sr.",
+    "married_last_name": "Goldsborough",
     "evidence_level": 2,
     "source_page": "MainMenu.html",
     "birth_info": "30 Jul 1939",
     "death_info": "12 Jul 2017 (aged 77)",
-    "notes": "Ingested from preserved MainMenu.html record | Verified via FindAGrave: https://www.findagrave.com/memorial/181294809/robert-nerses-srabian",
+    "notes": "Ingested from preserved MainMenu.html record | Verified via FindAGrave: https://www.findagrave.com/memorial/181294809/robert-nerses-srabian [Suffix 'Sr' realigned from surname field]",
     "dataset_source": "mitsawokett_delaware"
   },
   "facts": [
@@ -75,18 +75,7 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5103,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 1871,
-      "person_id_secondary": 545,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: robert|sr.|1939",
-      "created_at": "2026-08-19 00:14:46"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 1871,
     "name": "Robert Goldsborough Sr",

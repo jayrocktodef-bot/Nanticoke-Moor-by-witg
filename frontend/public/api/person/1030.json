@@ -9,7 +9,7 @@
     "evidence_level": 2,
     "source_page": "moors_moors.aspx",
     "birth_info": "1836",
-    "death_info": "14 Feb 1876 (aged 39&ndash;40)",
+    "death_info": "14 Feb 1876 (aged 39\u201340)",
     "notes": "Moor/Nanticoke lineage record - Durham cluster | Verified via FindAGrave: https://www.findagrave.com/memorial/259485327/william-durham",
     "dataset_source": "moors_delaware"
   },
@@ -56,7 +56,7 @@
       "fact_id": 1218,
       "person_id": 1030,
       "fact_type": "Death",
-      "date_string": "14 Feb 1876 (aged 39&ndash;40)",
+      "date_string": "14 Feb 1876 (aged 39\u201340)",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -75,14 +75,7 @@
   "relationships": [
     {
       "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (77.8% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 245,
-      "rel_name": "William Durham"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "evidence_text": "Cross-dataset entity match (77.8% confidence) between Lynn C. Jackson archive and Moors of Delaware | Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
       "certainty": "confirmed",
       "rel_id": 245,
       "rel_name": "William Durham"
@@ -92,14 +85,14 @@
   "obituaries": [],
   "audit_flags": [
     {
-      "id": 5101,
+      "id": 5594,
       "category": "Duplicate Candidate",
       "severity": "warning",
       "person_id": 1030,
       "person_id_secondary": 245,
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: william|durham|1836",
-      "created_at": "2026-08-19 00:14:46"
+      "created_at": "2026-08-30 23:12:37"
     }
   ],
   "ancestry": {

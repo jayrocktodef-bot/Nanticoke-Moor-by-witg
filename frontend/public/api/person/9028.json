@@ -3,14 +3,14 @@
     "person_id": 9028,
     "name": "Joseph L. Davis Jr",
     "first_name": "Joseph",
-    "middle_name": "L. Davis",
+    "middle_name": "L.",
     "maiden_name": "",
-    "married_last_name": "Jr.",
+    "married_last_name": "Davis",
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1899",
-    "death_info": "3 May 1900 (aged 0&ndash;1)",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/77372434/joseph-davis (Buried at Shawnee Cemetery)",
+    "death_info": "3 May 1900 (aged 0\u20131)",
+    "notes": "| Verified via FindAGrave: https://www.findagrave.com/memorial/77372434/joseph-davis (Buried at Shawnee Cemetery) [Suffix 'Jr' realigned from surname field]",
     "dataset_source": "davis_family_gedcom"
   },
   "facts": [
@@ -56,7 +56,7 @@
       "fact_id": 8500,
       "person_id": 9028,
       "fact_type": "Death",
-      "date_string": "3 May 1900 (aged 0&ndash;1)",
+      "date_string": "3 May 1900 (aged 0\u20131)",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -83,7 +83,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5685,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 9028,
+      "person_id_secondary": 8613,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: joseph|davis|1899",
+      "created_at": "2026-08-30 23:12:37"
+    }
+  ],
   "ancestry": {
     "id": 9028,
     "name": "Joseph L. Davis Jr",

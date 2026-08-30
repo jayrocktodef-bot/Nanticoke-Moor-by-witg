@@ -3,14 +3,14 @@
     "person_id": 10336,
     "name": "William Vine Clark Jr",
     "first_name": "William",
-    "middle_name": "Vine Clark",
+    "middle_name": "Vine",
     "maiden_name": "",
-    "married_last_name": "Jr.",
+    "married_last_name": "Clark",
     "evidence_level": 1,
     "source_page": "Davis Family Tree.ged",
-    "birth_info": "30 Nov 1855",
-    "death_info": null,
-    "notes": "WikiTree: https://www.wikitree.com/wiki/Clark-93421 (Clark-93421)",
+    "birth_info": null,
+    "death_info": "1743 Sussex, Delaware, USA",
+    "notes": "WikiTree: https://www.wikitree.com/wiki/Clark-93421 (Clark-93421) [Suffix 'Jr' realigned from surname field]",
     "dataset_source": "davis_family_gedcom"
   },
   "facts": [
@@ -25,25 +25,6 @@
         {
           "citation_id": 9629,
           "fact_id": 9635,
-          "source_id": 622,
-          "evidence_text": null,
-          "source_title": "Record: Davis Family Tree.ged",
-          "source_url": "Davis Family Tree.ged",
-          "source_dataset": "davis_family_gedcom"
-        }
-      ]
-    },
-    {
-      "fact_id": 9636,
-      "person_id": 10336,
-      "fact_type": "Birth",
-      "date_string": "30 Nov 1855",
-      "place_string": null,
-      "value_string": null,
-      "citations": [
-        {
-          "citation_id": 9630,
-          "fact_id": 9636,
           "source_id": 622,
           "evidence_text": null,
           "source_title": "Record: Davis Family Tree.ged",
@@ -90,18 +71,7 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5086,
-      "category": "Logic Error",
-      "severity": "critical",
-      "person_id": 10336,
-      "person_id_secondary": null,
-      "description": "Death year before birth year",
-      "evidence": "Born: 1855, Died: 1743",
-      "created_at": "2026-08-19 00:14:46"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 10336,
     "name": "William Vine Clark Jr",

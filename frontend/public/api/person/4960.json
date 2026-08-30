@@ -3,14 +3,14 @@
     "person_id": 4960,
     "name": "Robert Nehemiah Davis Sr",
     "first_name": "Robert",
-    "middle_name": "Nehemiah Davis",
+    "middle_name": "Nehemiah",
     "maiden_name": "",
-    "married_last_name": "Sr.",
+    "married_last_name": "Davis",
     "evidence_level": 2,
     "source_page": "DavisWilliamHenry.htm",
     "birth_info": "1874",
     "death_info": "unknown",
-    "notes": "Ingested from DavisWilliamHenry.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/287947066/robert-davis",
+    "notes": "Ingested from DavisWilliamHenry.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/287947066/robert-davis [Suffix 'Sr' realigned from surname field]",
     "dataset_source": "mitsawokett_delaware"
   },
   "facts": [
@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5628,
+      "category": "Duplicate Candidate",
+      "severity": "warning",
+      "person_id": 4960,
+      "person_id_secondary": 4649,
+      "description": "Potential duplicate profile (matching name and birth year)",
+      "evidence": "Key: robert|davis|1874",
+      "created_at": "2026-08-30 23:12:37"
+    }
+  ],
   "ancestry": {
     "id": 4960,
     "name": "Robert Nehemiah Davis Sr",
