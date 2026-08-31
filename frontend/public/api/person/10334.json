@@ -10,10 +10,48 @@
     "source_page": "Davis Family Tree.ged",
     "birth_info": "30 Nov 1855",
     "death_info": "8 Oct 1928 (aged 72, Washington, D.C.)",
-    "notes": "Nanticoke Tribal Chief. Inscription: CHIEF WYNIACO. Buried at Indian Mission Cemetery, Millsboro, Sussex County, DE. Son of James H. Clark (#10421) & Nancy Harmon Clark (#11252). | WikiTree: https://www.wikitree.com/wiki/Clark-93421 (Clark-93421)",
+    "notes": "Nanticoke Tribal Chief. Inscription: CHIEF WYNIACO. Buried at Indian Mission Cemetery, Millsboro, Sussex County, DE. Son of James H. Clark (#10421) & Nancy Harmon Clark (#11252). | WikiTree: https://www.wikitree.com/wiki/Clark-93421 (Clark-93421) | WikiTree: https://www.wikitree.com/wiki/Clark-93421 (Clark-93421) | FindAGrave: no match",
     "dataset_source": "davis_family_gedcom"
   },
   "facts": [
+    {
+      "fact_id": 1049,
+      "person_id": 10334,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "William Clark",
+      "citations": [
+        {
+          "citation_id": 1049,
+          "fact_id": 1049,
+          "source_id": 112,
+          "evidence_text": null,
+          "source_title": "Record: wright-d.htm",
+          "source_url": "wright-d.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1050,
+      "person_id": 10334,
+      "fact_type": "Birth",
+      "date_string": "30 Nov 1855",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1050,
+          "fact_id": 1050,
+          "source_id": 112,
+          "evidence_text": null,
+          "source_title": "Record: wright-d.htm",
+          "source_url": "wright-d.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
     {
       "fact_id": 9629,
       "person_id": 10334,
@@ -75,6 +113,20 @@
   "relationships": [
     {
       "relationship_type": "spouse",
+      "evidence_text": "Louise Wright who married William Clark",
+      "certainty": "confirmed",
+      "rel_id": 747,
+      "rel_name": "Louise Wright"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 278,
+      "rel_name": "William H. Carney"
+    },
+    {
+      "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F428@ marriage",
       "certainty": "confirmed",
       "rel_id": 10335,
@@ -118,18 +170,7 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5692,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 10334,
-      "person_id_secondary": 748,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: william|clark|1855",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 10334,
     "name": "William Russell Wyniaco Clark",

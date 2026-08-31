@@ -1,16 +1,16 @@
 {
   "person": {
     "person_id": 164,
-    "name": "John Durham",
+    "name": "John W. Durham",
     "first_name": "John",
-    "middle_name": "",
+    "middle_name": "W.",
     "maiden_name": "",
     "married_last_name": "Durham",
     "evidence_level": 2,
     "source_page": "concl-e1.htm",
     "birth_info": "1871",
     "death_info": "1933 (aged 61\u201362)",
-    "notes": "Linked to durhm-j1.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/228714183/john-durham",
+    "notes": "Linked to durhm-j1.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/228714183/john-durham | Ingested from DurhamDauOfHewitt&Ann.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/228714183/john-durham",
     "dataset_source": "lynncjackson"
   },
   "facts": [
@@ -79,6 +79,63 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 2170,
+      "person_id": 164,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "John W. Durham",
+      "citations": [
+        {
+          "citation_id": 2164,
+          "fact_id": 2170,
+          "source_id": 150,
+          "evidence_text": null,
+          "source_title": "Record: DurhamDauOfHewitt&Ann.htm",
+          "source_url": "DurhamDauOfHewitt&Ann.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 2171,
+      "person_id": 164,
+      "fact_type": "Birth",
+      "date_string": "1871",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 2165,
+          "fact_id": 2171,
+          "source_id": 150,
+          "evidence_text": null,
+          "source_title": "Record: DurhamDauOfHewitt&Ann.htm",
+          "source_url": "DurhamDauOfHewitt&Ann.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 2172,
+      "person_id": 164,
+      "fact_type": "Death",
+      "date_string": "1933 (aged 61\u201362)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 2166,
+          "fact_id": 2172,
+          "source_id": 150,
+          "evidence_text": null,
+          "source_title": "Record: DurhamDauOfHewitt&Ann.htm",
+          "source_url": "DurhamDauOfHewitt&Ann.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -86,8 +143,8 @@
       "relationship_type": "spouse",
       "evidence_text": "Sarah Durham married John Durham",
       "certainty": "confirmed",
-      "rel_id": 353,
-      "rel_name": "Sarah Durham"
+      "rel_id": 5542,
+      "rel_name": "Sarah Beatrice Morris Durham"
     },
     {
       "relationship_type": "cross_dataset_match",
@@ -139,21 +196,10 @@
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "audit_flags": [
-    {
-      "id": 5603,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 2660,
-      "person_id_secondary": 164,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: john|durham|1871",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 164,
-    "name": "John Durham",
+    "name": "John W. Durham",
     "children": [
       {
         "id": 10394,

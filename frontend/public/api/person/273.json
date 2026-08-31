@@ -10,7 +10,7 @@
     "source_page": "dean-r.htm",
     "birth_info": "1899",
     "death_info": "9 Oct 1902 (aged 2\u20133)",
-    "notes": "Linked to morgan-w.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/288432936/william-morgan",
+    "notes": "Linked to morgan-w.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/288432936/william-morgan | Linked to morgan-n.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/288432936/william-morgan",
     "dataset_source": "lynncjackson"
   },
   "facts": [
@@ -70,6 +70,63 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 736,
+      "person_id": 273,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "William Morgan",
+      "citations": [
+        {
+          "citation_id": 736,
+          "fact_id": 736,
+          "source_id": 75,
+          "evidence_text": null,
+          "source_title": "Record: jacksonn.htm",
+          "source_url": "jacksonn.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 737,
+      "person_id": 273,
+      "fact_type": "Birth",
+      "date_string": "1899",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 737,
+          "fact_id": 737,
+          "source_id": 75,
+          "evidence_text": null,
+          "source_title": "Record: jacksonn.htm",
+          "source_url": "jacksonn.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 738,
+      "person_id": 273,
+      "fact_type": "Death",
+      "date_string": "9 Oct 1902 (aged 2\u20133)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 738,
+          "fact_id": 738,
+          "source_id": 75,
+          "evidence_text": null,
+          "source_title": "Record: jacksonn.htm",
+          "source_url": "jacksonn.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -83,18 +140,7 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5588,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 449,
-      "person_id_secondary": 273,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: william|morgan|1899",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 273,
     "name": "William H. Morgan",

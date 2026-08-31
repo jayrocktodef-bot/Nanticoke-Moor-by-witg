@@ -70,6 +70,63 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 10101,
+      "person_id": 9722,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "James W Hanzer",
+      "citations": [
+        {
+          "citation_id": 10095,
+          "fact_id": 10101,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 10102,
+      "person_id": 9722,
+      "fact_type": "Birth",
+      "date_string": "1899 Delaware",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10096,
+          "fact_id": 10102,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 10103,
+      "person_id": 9722,
+      "fact_type": "Death",
+      "date_string": "26 Jun 1967 Milton, Sussex, Delaware, USA",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10097,
+          "fact_id": 10103,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -77,15 +134,22 @@
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
-      "rel_id": 10501,
-      "rel_name": "Carl Hanzer"
+      "rel_id": 10503,
+      "rel_name": "William E Hanzer"
     },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
-      "rel_id": 10503,
-      "rel_name": "William E Hanzer"
+      "rel_id": 10709,
+      "rel_name": "Maria E Hanzer"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 10501,
+      "rel_name": "Carl Hanzer"
     },
     {
       "relationship_type": "child_of",
@@ -132,18 +196,7 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5696,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 10711,
-      "person_id_secondary": 9722,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: james|hanzer|1899",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 9722,
     "name": "James Walter Hanzer",
@@ -216,76 +269,9 @@
         ]
       },
       {
-        "id": 9721,
-        "name": "Maria Elizabeth Morris",
-        "children": [
-          {
-            "id": 8683,
-            "name": "Josiah Joseph Morris",
-            "children": [
-              {
-                "id": 8617,
-                "name": "Negro Morris Thomas",
-                "children": [
-                  {
-                    "id": 9992,
-                    "name": "Sally Wright",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 8910,
-                "name": "Leticia Morris",
-                "children": [
-                  {
-                    "id": 8616,
-                    "name": "Stephen Wright",
-                    "children": [
-                      {
-                        "id": 8687,
-                        "name": "Benjamin Wright",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 8684,
-                    "name": "Priscilla Miller",
-                    "children": [
-                      {
-                        "id": 8618,
-                        "name": "Ebenezar Miller",
-                        "children": []
-                      },
-                      {
-                        "id": 9188,
-                        "name": "Ebenezer Miller",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": 8718,
-            "name": "Hester A Jackson",
-            "children": [
-              {
-                "id": 18,
-                "name": "John Jackson",
-                "children": []
-              },
-              {
-                "id": 9555,
-                "name": "Eliza Parker Jackson",
-                "children": []
-              }
-            ]
-          }
-        ]
+        "id": 10709,
+        "name": "Maria E Hanzer",
+        "children": []
       }
     ]
   }

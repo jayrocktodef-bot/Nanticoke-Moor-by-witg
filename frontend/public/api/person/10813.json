@@ -1,19 +1,76 @@
 {
   "person": {
     "person_id": 10813,
-    "name": "Clarence Davis",
+    "name": "Clarence Drexel Davis",
     "first_name": "Clarence",
-    "middle_name": "",
+    "middle_name": "Drexel",
     "maiden_name": "",
     "married_last_name": "Davis",
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "19 May 1900",
     "death_info": "2 Mar 1987 (aged 86)",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/20689030/clarence-davis (Buried at Memorial Park Cemetery)",
+    "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/20689030/clarence-davis (Buried at Memorial Park Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
   "facts": [
+    {
+      "fact_id": 8573,
+      "person_id": 10813,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Clarence Drexel Davis",
+      "citations": [
+        {
+          "citation_id": 8567,
+          "fact_id": 8573,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8574,
+      "person_id": 10813,
+      "fact_type": "Birth",
+      "date_string": "19 May 1900",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8568,
+          "fact_id": 8574,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8575,
+      "person_id": 10813,
+      "fact_type": "Death",
+      "date_string": "2 Mar 1987 (aged 86)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8569,
+          "fact_id": 8575,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
     {
       "fact_id": 10203,
       "person_id": 10813,
@@ -77,8 +134,8 @@
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
-      "rel_id": 10815,
-      "rel_name": "Charles Morris Charlie Davis"
+      "rel_id": 8676,
+      "rel_name": "Charles Charlie Morris Davis"
     },
     {
       "relationship_type": "child_of",
@@ -86,6 +143,13 @@
       "certainty": "confirmed",
       "rel_id": 9140,
       "rel_name": "Minnie Mae Street"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 10815,
+      "rel_name": "Charles Morris Charlie Davis"
     }
   ],
   "photos": [
@@ -143,26 +207,55 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5700,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 10813,
-      "person_id_secondary": 9141,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: clarence|davis|1900",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 10813,
-    "name": "Clarence Davis",
+    "name": "Clarence Drexel Davis",
     "children": [
       {
-        "id": 10815,
-        "name": "Charles Morris Charlie Davis",
-        "children": []
+        "id": 8676,
+        "name": "Charles Charlie Morris Davis",
+        "children": [
+          {
+            "id": 8185,
+            "name": "Hester A. Morris Davis",
+            "children": [
+              {
+                "id": 8571,
+                "name": "Francis E. Frank Morris",
+                "children": [
+                  {
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": [
+                      {
+                        "id": 9992,
+                        "name": "Sally Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 9140,

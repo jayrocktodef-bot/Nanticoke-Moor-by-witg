@@ -10,7 +10,7 @@
     "source_page": "ReedCharlesBuck&Family.htm",
     "birth_info": "7 Sep 1961",
     "death_info": "21 Nov 2005 (aged 44)",
-    "notes": "Ingested from ReedCharlesBuck&Family.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/107951521/charles-reed",
+    "notes": "Ingested from ReedCharlesBuck&Family.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/107951521/charles-reed | Ingested from ReedThomas&MaryMosley.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/107951521/charles-reed",
     "dataset_source": "mitsawokett_delaware"
   },
   "facts": [
@@ -70,23 +70,69 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 6775,
+      "person_id": 7064,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Charles Buck Reed",
+      "citations": [
+        {
+          "citation_id": 6769,
+          "fact_id": 6775,
+          "source_id": 563,
+          "evidence_text": null,
+          "source_title": "Record: ReedThomas&MaryMosley.htm",
+          "source_url": "ReedThomas&MaryMosley.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 6776,
+      "person_id": 7064,
+      "fact_type": "Birth",
+      "date_string": "7 Sep 1961",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 6770,
+          "fact_id": 6776,
+          "source_id": 563,
+          "evidence_text": null,
+          "source_title": "Record: ReedThomas&MaryMosley.htm",
+          "source_url": "ReedThomas&MaryMosley.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 6777,
+      "person_id": 7064,
+      "fact_type": "Death",
+      "date_string": "21 Nov 2005 (aged 44)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 6771,
+          "fact_id": 6777,
+          "source_id": 563,
+          "evidence_text": null,
+          "source_title": "Record: ReedThomas&MaryMosley.htm",
+          "source_url": "ReedThomas&MaryMosley.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5667,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 7365,
-      "person_id_secondary": 7064,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: charles|reed|1961",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 7064,
     "name": "Charles William Buck Reed",

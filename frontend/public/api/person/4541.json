@@ -10,7 +10,7 @@
     "source_page": "CarterMaeWilsonfamily.htm",
     "birth_info": "1915",
     "death_info": "20 Jan 1916 (aged 0\u20131)",
-    "notes": "Ingested from CarterMaeWilsonfamily.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/136978045/howard-jrous [Suffix 'Jr' realigned from surname field]",
+    "notes": "Ingested from CarterMaeWilsonfamily.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/136978045/howard-jrous [Suffix 'Jr' realigned from surname field] | Ingested from WilsonHowardCliftonJr.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/136978045/howard-jrous [Suffix 'Jr' realigned from surname field]",
     "dataset_source": "mitsawokett_delaware"
   },
   "facts": [
@@ -70,23 +70,69 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 7403,
+      "person_id": 4541,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Howard C. Wilson Jr.",
+      "citations": [
+        {
+          "citation_id": 7397,
+          "fact_id": 7403,
+          "source_id": 616,
+          "evidence_text": null,
+          "source_title": "Record: WilsonHowardCliftonJr.htm",
+          "source_url": "WilsonHowardCliftonJr.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 7404,
+      "person_id": 4541,
+      "fact_type": "Birth",
+      "date_string": "1915",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7398,
+          "fact_id": 7404,
+          "source_id": 616,
+          "evidence_text": null,
+          "source_title": "Record: WilsonHowardCliftonJr.htm",
+          "source_url": "WilsonHowardCliftonJr.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 7405,
+      "person_id": 4541,
+      "fact_type": "Death",
+      "date_string": "20 Jan 1916 (aged 0\u20131)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 7399,
+          "fact_id": 7405,
+          "source_id": 616,
+          "evidence_text": null,
+          "source_title": "Record: WilsonHowardCliftonJr.htm",
+          "source_url": "WilsonHowardCliftonJr.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5673,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 7994,
-      "person_id_secondary": 4541,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: howard|wilson|1915",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 4541,
     "name": "Howard Clifton Wilson Jr",

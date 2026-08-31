@@ -10,10 +10,67 @@
     "source_page": "MosleyCharlesHenryFamily.htm",
     "birth_info": "1920",
     "death_info": "4 May 1982 (aged 61\u201362)",
-    "notes": "Ingested from MosleyCharlesHenryFamily.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/283033569/charles-mosley",
+    "notes": "Ingested from MosleyCharlesHenryFamily.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/283033569/charles-mosley | Verified via FindAGrave: https://www.findagrave.com/memorial/283033569/charles-mosley",
     "dataset_source": "mitsawokett_delaware"
   },
   "facts": [
+    {
+      "fact_id": 1089,
+      "person_id": 6736,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Charles Mosley",
+      "citations": [
+        {
+          "citation_id": 1089,
+          "fact_id": 1089,
+          "source_id": 116,
+          "evidence_text": null,
+          "source_title": "Record: wrightw.htm",
+          "source_url": "wrightw.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1090,
+      "person_id": 6736,
+      "fact_type": "Birth",
+      "date_string": "1920",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1090,
+          "fact_id": 1090,
+          "source_id": 116,
+          "evidence_text": null,
+          "source_title": "Record: wrightw.htm",
+          "source_url": "wrightw.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1091,
+      "person_id": 6736,
+      "fact_type": "Death",
+      "date_string": "4 May 1982 (aged 61\u201362)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1091,
+          "fact_id": 1091,
+          "source_id": 116,
+          "evidence_text": null,
+          "source_title": "Record: wrightw.htm",
+          "source_url": "wrightw.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
     {
       "fact_id": 2314,
       "person_id": 6736,
@@ -91,7 +148,22 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Bertha Wright married Charles Mosley",
+      "certainty": "confirmed",
+      "rel_id": 7990,
+      "rel_name": "Bertha Ida Johnson Wright"
+    },
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 757,
+      "rel_name": "Mamie Mosley"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],

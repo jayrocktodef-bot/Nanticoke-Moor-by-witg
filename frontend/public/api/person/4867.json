@@ -10,7 +10,7 @@
     "source_page": "DavisMichael.htm",
     "birth_info": "1900",
     "death_info": "1973 (aged 72\u201373)",
-    "notes": "Ingested from DavisMichael.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/197637421/william-davis (Buried at Lake View Memorial Gardens) [Suffix 'Jr' realigned from surname field]",
+    "notes": "Ingested from DavisMichael.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/197637421/william-davis (Buried at Lake View Memorial Gardens) [Suffix 'Jr' realigned from surname field] | Ingested from DavisWilliamHenry.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/197637421/william-davis (Buried at Lake View Memorial Gardens) [Suffix 'Jr' realigned from surname field]",
     "dataset_source": "mitsawokett_delaware"
   },
   "facts": [
@@ -70,6 +70,63 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 4288,
+      "person_id": 4867,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "William H. Davis Jr.",
+      "citations": [
+        {
+          "citation_id": 4282,
+          "fact_id": 4288,
+          "source_id": 297,
+          "evidence_text": null,
+          "source_title": "Record: DavisWilliamHenry.htm",
+          "source_url": "DavisWilliamHenry.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4289,
+      "person_id": 4867,
+      "fact_type": "Birth",
+      "date_string": "1900",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 4283,
+          "fact_id": 4289,
+          "source_id": 297,
+          "evidence_text": null,
+          "source_title": "Record: DavisWilliamHenry.htm",
+          "source_url": "DavisWilliamHenry.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4290,
+      "person_id": 4867,
+      "fact_type": "Death",
+      "date_string": "1973 (aged 72\u201373)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 4284,
+          "fact_id": 4290,
+          "source_id": 297,
+          "evidence_text": null,
+          "source_title": "Record: DavisWilliamHenry.htm",
+          "source_url": "DavisWilliamHenry.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -77,44 +134,24 @@
   "obituaries": [],
   "audit_flags": [
     {
-      "id": 5626,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 4955,
-      "person_id_secondary": 4867,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: william|davis|1900",
-      "created_at": "2026-08-30 23:12:37"
-    },
-    {
-      "id": 5679,
+      "id": 5736,
       "category": "Duplicate Candidate",
       "severity": "warning",
       "person_id": 8609,
       "person_id_secondary": 4867,
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: william|davis|1900",
-      "created_at": "2026-08-30 23:12:37"
+      "created_at": "2026-08-31 00:17:14"
     },
     {
-      "id": 5687,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 9147,
-      "person_id_secondary": 4867,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: william|davis|1900",
-      "created_at": "2026-08-30 23:12:37"
-    },
-    {
-      "id": 5694,
+      "id": 5740,
       "category": "Duplicate Candidate",
       "severity": "warning",
       "person_id": 10618,
       "person_id_secondary": 4867,
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: william|davis|1900",
-      "created_at": "2026-08-30 23:12:37"
+      "created_at": "2026-08-31 00:17:14"
     }
   ],
   "ancestry": {

@@ -10,10 +10,67 @@
     "source_page": "Durham_EnochD&Martha.htm",
     "birth_info": "1816",
     "death_info": "16 Jul 1883 (aged 66\u201367)",
-    "notes": "Ingested from Durham_EnochD&Martha.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/238509963/enoch-durham",
+    "notes": "Ingested from Durham_EnochD&Martha.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/238509963/enoch-durham | Ingested from PierceEnosW&Emelyn.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/238509963/enoch-durham | Linked to durhm-e1.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/238509963/enoch-durham",
     "dataset_source": "mitsawokett_delaware"
   },
   "facts": [
+    {
+      "fact_id": 73,
+      "person_id": 2742,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Enoch Durham",
+      "citations": [
+        {
+          "citation_id": 73,
+          "fact_id": 73,
+          "source_id": 6,
+          "evidence_text": null,
+          "source_title": "Record: carty-e2.htm",
+          "source_url": "carty-e2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 74,
+      "person_id": 2742,
+      "fact_type": "Birth",
+      "date_string": "1816",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 74,
+          "fact_id": 74,
+          "source_id": 6,
+          "evidence_text": null,
+          "source_title": "Record: carty-e2.htm",
+          "source_url": "carty-e2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 75,
+      "person_id": 2742,
+      "fact_type": "Death",
+      "date_string": "16 Jul 1883 (aged 66\u201367)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 75,
+          "fact_id": 75,
+          "source_id": 6,
+          "evidence_text": null,
+          "source_title": "Record: carty-e2.htm",
+          "source_url": "carty-e2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
     {
       "fact_id": 2225,
       "person_id": 2742,
@@ -70,23 +127,77 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 6491,
+      "person_id": 2742,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Enoch Pierce Durham",
+      "citations": [
+        {
+          "citation_id": 6485,
+          "fact_id": 6491,
+          "source_id": 537,
+          "evidence_text": null,
+          "source_title": "Record: PierceEnosW&Emelyn.htm",
+          "source_url": "PierceEnosW&Emelyn.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 6492,
+      "person_id": 2742,
+      "fact_type": "Birth",
+      "date_string": "1816",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 6486,
+          "fact_id": 6492,
+          "source_id": 537,
+          "evidence_text": null,
+          "source_title": "Record: PierceEnosW&Emelyn.htm",
+          "source_url": "PierceEnosW&Emelyn.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 6493,
+      "person_id": 2742,
+      "fact_type": "Death",
+      "date_string": "16 Jul 1883 (aged 66\u201367)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 6487,
+          "fact_id": 6493,
+          "source_id": 537,
+          "evidence_text": null,
+          "source_title": "Record: PierceEnosW&Emelyn.htm",
+          "source_url": "PierceEnosW&Emelyn.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 481,
+      "rel_name": "Unice Durham"
+    }
+  ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5605,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 2742,
-      "person_id_secondary": 47,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: enoch|durham|1816",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 2742,
     "name": "Enoch Miller Durham",

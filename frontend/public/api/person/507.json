@@ -1,16 +1,16 @@
 {
   "person": {
     "person_id": 507,
-    "name": "Carol Mosley",
+    "name": "Carol Ann Mosley",
     "first_name": "Carol",
-    "middle_name": "",
+    "middle_name": "Ann",
     "maiden_name": "",
     "married_last_name": "Mosley",
     "evidence_level": 2,
     "source_page": "morgan-e.htm",
     "birth_info": "10 Mar 1932",
     "death_info": "27 Dec 2009 (aged 77)",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/46400495/carol-mosley",
+    "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/46400495/carol-mosley | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
   "facts": [
@@ -70,12 +70,31 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 885,
+      "person_id": 507,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Carol Ann Mosley",
+      "citations": [
+        {
+          "citation_id": 885,
+          "fact_id": 885,
+          "source_id": 85,
+          "evidence_text": null,
+          "source_title": "Record: morgan-m.htm",
+          "source_url": "morgan-m.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
     {
       "relationship_type": "spouse",
-      "evidence_text": "Carol Mosley who married John Davies",
+      "evidence_text": "Carol Ann Mosley who married John Davies",
       "certainty": "confirmed",
       "rel_id": 508,
       "rel_name": "John Davies"
@@ -86,7 +105,7 @@
   "audit_flags": [],
   "ancestry": {
     "id": 507,
-    "name": "Carol Mosley",
+    "name": "Carol Ann Mosley",
     "children": []
   }
 }

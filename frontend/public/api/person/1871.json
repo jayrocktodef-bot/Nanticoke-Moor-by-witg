@@ -3,17 +3,74 @@
     "person_id": 1871,
     "name": "Robert Goldsborough Sr",
     "first_name": "Robert",
-    "middle_name": null,
+    "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Goldsborough",
     "evidence_level": 2,
     "source_page": "MainMenu.html",
     "birth_info": "30 Jul 1939",
     "death_info": "12 Jul 2017 (aged 77)",
-    "notes": "Ingested from preserved MainMenu.html record | Verified via FindAGrave: https://www.findagrave.com/memorial/181294809/robert-nerses-srabian [Suffix 'Sr' realigned from surname field]",
+    "notes": "Ingested from preserved MainMenu.html record | Verified via FindAGrave: https://www.findagrave.com/memorial/181294809/robert-nerses-srabian [Suffix 'Sr' realigned from surname field] | Linked to munce.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/181294809/robert-nerses-srabian [Suffix 'Sr' realigned from surname field]",
     "dataset_source": "mitsawokett_delaware"
   },
   "facts": [
+    {
+      "fact_id": 915,
+      "person_id": 1871,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Robert Muncey Sr.",
+      "citations": [
+        {
+          "citation_id": 915,
+          "fact_id": 915,
+          "source_id": 92,
+          "evidence_text": null,
+          "source_title": "Record: munce-m1.htm",
+          "source_url": "munce-m1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 916,
+      "person_id": 1871,
+      "fact_type": "Birth",
+      "date_string": "30 Jul 1939",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 916,
+          "fact_id": 916,
+          "source_id": 92,
+          "evidence_text": null,
+          "source_title": "Record: munce-m1.htm",
+          "source_url": "munce-m1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 917,
+      "person_id": 1871,
+      "fact_type": "Death",
+      "date_string": "12 Jul 2017 (aged 77)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 917,
+          "fact_id": 917,
+          "source_id": 92,
+          "evidence_text": null,
+          "source_title": "Record: munce-m1.htm",
+          "source_url": "munce-m1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
     {
       "fact_id": 1399,
       "person_id": 1871,

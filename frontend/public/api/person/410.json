@@ -70,23 +70,69 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 733,
+      "person_id": 410,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Lydia Wright",
+      "citations": [
+        {
+          "citation_id": 733,
+          "fact_id": 733,
+          "source_id": 74,
+          "evidence_text": null,
+          "source_title": "Record: jacksonl.htm",
+          "source_url": "jacksonl.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 734,
+      "person_id": 410,
+      "fact_type": "Birth",
+      "date_string": "1827",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 734,
+          "fact_id": 734,
+          "source_id": 74,
+          "evidence_text": null,
+          "source_title": "Record: jacksonl.htm",
+          "source_url": "jacksonl.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 735,
+      "person_id": 410,
+      "fact_type": "Death",
+      "date_string": "1902 (aged 74\u201375)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 735,
+          "fact_id": 735,
+          "source_id": 74,
+          "evidence_text": null,
+          "source_title": "Record: jacksonl.htm",
+          "source_url": "jacksonl.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5587,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 447,
-      "person_id_secondary": 410,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: lydia|wright|1827",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 410,
     "name": "Lydia Ann Wright",

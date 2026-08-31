@@ -4,13 +4,13 @@
     "name": "William H Davis",
     "first_name": "William",
     "middle_name": "H",
-    "maiden_name": "",
+    "maiden_name": "Gusie",
     "married_last_name": "Davis",
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1900",
     "death_info": "1973 (aged 72\u201373)",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/197637421/william-davis (Buried at Lake View Memorial Gardens)",
+    "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/197637421/william-davis (Buried at Lake View Memorial Gardens)",
     "dataset_source": "davis_family_gedcom"
   },
   "facts": [
@@ -63,6 +63,63 @@
         {
           "citation_id": 8196,
           "fact_id": 8202,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8591,
+      "person_id": 10618,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "William A Davis",
+      "citations": [
+        {
+          "citation_id": 8585,
+          "fact_id": 8591,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8592,
+      "person_id": 10618,
+      "fact_type": "Birth",
+      "date_string": "1900",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8586,
+          "fact_id": 8592,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 8593,
+      "person_id": 10618,
+      "fact_type": "Death",
+      "date_string": "1973 (aged 72\u201373)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 8587,
+          "fact_id": 8593,
           "source_id": 622,
           "evidence_text": null,
           "source_title": "Record: Davis Family Tree.ged",
@@ -141,8 +198,36 @@
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
+      "rel_id": 8676,
+      "rel_name": "Charles Charlie Morris Davis"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 9140,
+      "rel_name": "Minnie Mae Street"
+    },
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "GEDCOM Family @F448@ marriage",
+      "certainty": "confirmed",
+      "rel_id": 10136,
+      "rel_name": "Lillie Roma Wright"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 10815,
+      "rel_name": "Charles Morris Charlie Davis"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 10619,
-      "rel_name": "James H Davis"
+      "rel_name": "James Edward Ned Davis"
     },
     {
       "relationship_type": "child_of",
@@ -155,15 +240,8 @@
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
-      "rel_id": 10372,
-      "rel_name": "Sarah J Davis"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
       "rel_id": 8892,
-      "rel_name": "Sarah Davis"
+      "rel_name": "Sarah J Davis"
     },
     {
       "relationship_type": "child_of",
@@ -184,14 +262,14 @@
   "obituaries": [],
   "audit_flags": [
     {
-      "id": 5694,
+      "id": 5740,
       "category": "Duplicate Candidate",
       "severity": "warning",
       "person_id": 10618,
       "person_id_secondary": 4867,
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: william|davis|1900",
-      "created_at": "2026-08-30 23:12:37"
+      "created_at": "2026-08-31 00:17:14"
     }
   ],
   "ancestry": {
@@ -215,6 +293,51 @@
                 "id": 7978,
                 "name": "Lydia Ann Wright Jackson",
                 "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8676,
+        "name": "Charles Charlie Morris Davis",
+        "children": [
+          {
+            "id": 8185,
+            "name": "Hester A. Morris Davis",
+            "children": [
+              {
+                "id": 8571,
+                "name": "Francis E. Frank Morris",
+                "children": [
+                  {
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": [
+                      {
+                        "id": 9992,
+                        "name": "Sally Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }

@@ -10,10 +10,67 @@
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1825",
     "death_info": "6 Jun 1866 (aged 40\u201341)",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/226181028/mary-davis (Buried at Leeds General Cemetery)",
+    "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/226181028/mary-davis (Buried at Leeds General Cemetery) | Linked to jacksnme.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/226181028/mary-davis (Buried at Leeds General Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
   "facts": [
+    {
+      "fact_id": 649,
+      "person_id": 8893,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Mary E. Davis",
+      "citations": [
+        {
+          "citation_id": 649,
+          "fact_id": 649,
+          "source_id": 65,
+          "evidence_text": null,
+          "source_title": "Record: harmony1.htm",
+          "source_url": "harmony1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 650,
+      "person_id": 8893,
+      "fact_type": "Birth",
+      "date_string": "1825",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 650,
+          "fact_id": 650,
+          "source_id": 65,
+          "evidence_text": null,
+          "source_title": "Record: harmony1.htm",
+          "source_url": "harmony1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 651,
+      "person_id": 8893,
+      "fact_type": "Death",
+      "date_string": "6 Jun 1866 (aged 40\u201341)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 651,
+          "fact_id": 651,
+          "source_id": 65,
+          "evidence_text": null,
+          "source_title": "Record: harmony1.htm",
+          "source_url": "harmony1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
     {
       "fact_id": 8390,
       "person_id": 8893,
@@ -84,8 +141,15 @@
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
+      "rel_id": 8613,
+      "rel_name": "Joseph Henry Davis"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
       "rel_id": 4643,
-      "rel_name": "Henry Davis"
+      "rel_name": "Henry Lovell Rees Davis"
     },
     {
       "relationship_type": "child_of",
@@ -104,52 +168,41 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5683,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 8893,
-      "person_id_secondary": 402,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: mary|davis|1825",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 8893,
     "name": "Mary Catherine Davis",
     "children": [
       {
-        "id": 4643,
-        "name": "Henry Davis",
-        "children": []
-      },
-      {
-        "id": 10618,
-        "name": "William H Davis",
+        "id": 8613,
+        "name": "Joseph Henry Davis",
         "children": [
           {
-            "id": 8632,
-            "name": "Robert Henry Davis",
+            "id": 8629,
+            "name": "Jost Henry Davis",
             "children": [
               {
-                "id": 8791,
-                "name": "Mary E Jackson",
-                "children": [
-                  {
-                    "id": 409,
-                    "name": "Robert B. Jackson",
-                    "children": []
-                  },
-                  {
-                    "id": 7978,
-                    "name": "Lydia Ann Wright Jackson",
-                    "children": []
-                  }
-                ]
+                "id": 8809,
+                "name": "Ludwig Davis",
+                "children": []
               }
             ]
+          },
+          {
+            "id": 8614,
+            "name": "Katherina Davis",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 4643,
+        "name": "Henry Lovell Rees Davis",
+        "children": [
+          {
+            "id": 8538,
+            "name": "Martha Peggy Davis",
+            "children": []
           }
         ]
       }

@@ -1,7 +1,7 @@
 {
   "person": {
     "person_id": 10619,
-    "name": "James H Davis",
+    "name": "James Edward Ned Davis",
     "first_name": "James",
     "middle_name": "H",
     "maiden_name": "",
@@ -10,10 +10,67 @@
     "source_page": "Davis Family Tree.ged",
     "birth_info": "6 Nov 1935",
     "death_info": "12 Mar 2019 (aged 83)",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/197519175/james-davis (Buried at Wheatland Cemetery)",
+    "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/197519175/james-davis (Buried at Wheatland Cemetery) | Ingested from NewhardArbanaBirdellaRidgway.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/197519175/james-davis (Buried at Wheatland Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
   "facts": [
+    {
+      "fact_id": 6712,
+      "person_id": 10619,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "James Edward Ned Davis",
+      "citations": [
+        {
+          "citation_id": 6706,
+          "fact_id": 6712,
+          "source_id": 562,
+          "evidence_text": null,
+          "source_title": "Record: NewhardArbanaBirdellaRidgway.htm",
+          "source_url": "NewhardArbanaBirdellaRidgway.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 6713,
+      "person_id": 10619,
+      "fact_type": "Birth",
+      "date_string": "6 Nov 1935",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 6707,
+          "fact_id": 6713,
+          "source_id": 562,
+          "evidence_text": null,
+          "source_title": "Record: NewhardArbanaBirdellaRidgway.htm",
+          "source_url": "NewhardArbanaBirdellaRidgway.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 6714,
+      "person_id": 10619,
+      "fact_type": "Death",
+      "date_string": "12 Mar 2019 (aged 83)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 6708,
+          "fact_id": 6714,
+          "source_id": 562,
+          "evidence_text": null,
+          "source_title": "Record: NewhardArbanaBirdellaRidgway.htm",
+          "source_url": "NewhardArbanaBirdellaRidgway.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
     {
       "fact_id": 9987,
       "person_id": 10619,
@@ -78,7 +135,7 @@
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 4643,
-      "rel_name": "Henry Davis"
+      "rel_name": "Henry Lovell Rees Davis"
     },
     {
       "relationship_type": "child_of",
@@ -97,26 +154,21 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5695,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 10619,
-      "person_id_secondary": 7321,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: james|davis|1935",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 10619,
-    "name": "James H Davis",
+    "name": "James Edward Ned Davis",
     "children": [
       {
         "id": 4643,
-        "name": "Henry Davis",
-        "children": []
+        "name": "Henry Lovell Rees Davis",
+        "children": [
+          {
+            "id": 8538,
+            "name": "Martha Peggy Davis",
+            "children": []
+          }
+        ]
       },
       {
         "id": 10618,
@@ -139,6 +191,34 @@
                     "id": 7978,
                     "name": "Lydia Ann Wright Jackson",
                     "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8676,
+            "name": "Charles Charlie Morris Davis",
+            "children": [
+              {
+                "id": 8185,
+                "name": "Hester A. Morris Davis",
+                "children": [
+                  {
+                    "id": 8571,
+                    "name": "Francis E. Frank Morris",
+                    "children": [
+                      {
+                        "id": 8617,
+                        "name": "Negro Morris Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 8910,
+                        "name": "Leticia Morris",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               }

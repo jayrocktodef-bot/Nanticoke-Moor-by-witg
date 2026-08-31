@@ -1,16 +1,16 @@
 {
   "person": {
     "person_id": 8892,
-    "name": "Sarah Davis",
+    "name": "Sarah J Davis",
     "first_name": "Sarah",
-    "middle_name": "",
+    "middle_name": "J",
     "maiden_name": "",
     "married_last_name": "Davis",
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
     "death_info": "24 Nov 1988",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/77472595/sarah-davis (Buried at Mount Hebron Cemetery)",
+    "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/77472595/sarah-davis (Buried at Mount Hebron Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
   "facts": [
@@ -70,9 +70,73 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 9653,
+      "person_id": 8892,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Sarah J Davis",
+      "citations": [
+        {
+          "citation_id": 9647,
+          "fact_id": 9653,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9654,
+      "person_id": 8892,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9648,
+          "fact_id": 9654,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 9655,
+      "person_id": 8892,
+      "fact_type": "Death",
+      "date_string": "24 Nov 1988",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 9649,
+          "fact_id": 9655,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     }
   ],
   "relationships": [
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 4643,
+      "rel_name": "Henry Lovell Rees Davis"
+    },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
@@ -107,8 +171,19 @@
   "audit_flags": [],
   "ancestry": {
     "id": 8892,
-    "name": "Sarah Davis",
+    "name": "Sarah J Davis",
     "children": [
+      {
+        "id": 4643,
+        "name": "Henry Lovell Rees Davis",
+        "children": [
+          {
+            "id": 8538,
+            "name": "Martha Peggy Davis",
+            "children": []
+          }
+        ]
+      },
       {
         "id": 9190,
         "name": "Ebenezer Miller Sr",
@@ -124,11 +199,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "id": 9191,
-        "name": "Sarah Collier Miller",
-        "children": []
       }
     ]
   }

@@ -1,16 +1,16 @@
 {
   "person": {
     "person_id": 61,
-    "name": "Benjamin Durham",
+    "name": "Benjamin R. Durham",
     "first_name": "Benjamin",
-    "middle_name": "",
+    "middle_name": "R.",
     "maiden_name": "",
     "married_last_name": "Durham",
     "evidence_level": 2,
     "source_page": "carty-h2.htm",
     "birth_info": "1924",
     "death_info": "1928 (aged 3\u20134)",
-    "notes": "Linked to durhm-b2.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/52989631/benjamin-durham",
+    "notes": "Linked to durhm-b2.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/52989631/benjamin-durham | Linked to durhm-d4.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/52989631/benjamin-durham",
     "dataset_source": "lynncjackson"
   },
   "facts": [
@@ -79,6 +79,63 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 781,
+      "person_id": 61,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Benjamin R. Durham",
+      "citations": [
+        {
+          "citation_id": 781,
+          "fact_id": 781,
+          "source_id": 77,
+          "evidence_text": null,
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 782,
+      "person_id": 61,
+      "fact_type": "Birth",
+      "date_string": "1924",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 782,
+          "fact_id": 782,
+          "source_id": 77,
+          "evidence_text": null,
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 783,
+      "person_id": 61,
+      "fact_type": "Death",
+      "date_string": "1928 (aged 3\u20134)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 783,
+          "fact_id": 783,
+          "source_id": 77,
+          "evidence_text": null,
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -106,21 +163,10 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5590,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 465,
-      "person_id_secondary": 61,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: benjamin|durham|1924",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 61,
-    "name": "Benjamin Durham",
+    "name": "Benjamin R. Durham",
     "children": [
       {
         "id": 10394,

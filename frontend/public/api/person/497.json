@@ -15,6 +15,63 @@
   },
   "facts": [
     {
+      "fact_id": 727,
+      "person_id": 497,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "David Wright",
+      "citations": [
+        {
+          "citation_id": 727,
+          "fact_id": 727,
+          "source_id": 72,
+          "evidence_text": null,
+          "source_title": "Record: jacksonc.htm",
+          "source_url": "jacksonc.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 728,
+      "person_id": 497,
+      "fact_type": "Birth",
+      "date_string": "4 Apr 1928",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 728,
+          "fact_id": 728,
+          "source_id": 72,
+          "evidence_text": null,
+          "source_title": "Record: jacksonc.htm",
+          "source_url": "jacksonc.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 729,
+      "person_id": 497,
+      "fact_type": "Death",
+      "date_string": "12 Sep 1992 (aged 64)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 729,
+          "fact_id": 729,
+          "source_id": 72,
+          "evidence_text": null,
+          "source_title": "Record: jacksonc.htm",
+          "source_url": "jacksonc.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
       "fact_id": 865,
       "person_id": 497,
       "fact_type": "Name",
@@ -75,18 +132,7 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5593,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 497,
-      "person_id_secondary": 444,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: david|wright|1928",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 497,
     "name": "David W. Wright",

@@ -1,16 +1,16 @@
 {
   "person": {
     "person_id": 341,
-    "name": "Dorothy Carney",
+    "name": "Dorothy Durham Carney",
     "first_name": "Dorothy",
-    "middle_name": "",
+    "middle_name": "Durham",
     "maiden_name": "",
     "married_last_name": "Carney",
     "evidence_level": 2,
     "source_page": "durhm-m1.htm",
     "birth_info": "unknown",
     "death_info": "4 Mar 1992",
-    "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/168763784/dorothy-carney",
+    "notes": "Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/168763784/dorothy-carney | Ingested from CarneyNorace&Dot.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/168763784/dorothy-carney",
     "dataset_source": "lynncjackson"
   },
   "facts": [
@@ -70,6 +70,63 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 3117,
+      "person_id": 341,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Dorothy Durham Carney",
+      "citations": [
+        {
+          "citation_id": 3111,
+          "fact_id": 3117,
+          "source_id": 208,
+          "evidence_text": null,
+          "source_title": "Record: CarneyNorace&Dot.htm",
+          "source_url": "CarneyNorace&Dot.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 3118,
+      "person_id": 341,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 3112,
+          "fact_id": 3118,
+          "source_id": 208,
+          "evidence_text": null,
+          "source_title": "Record: CarneyNorace&Dot.htm",
+          "source_url": "CarneyNorace&Dot.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 3119,
+      "person_id": 341,
+      "fact_type": "Death",
+      "date_string": "4 Mar 1992",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 3113,
+          "fact_id": 3119,
+          "source_id": 208,
+          "evidence_text": null,
+          "source_title": "Record: CarneyNorace&Dot.htm",
+          "source_url": "CarneyNorace&Dot.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -127,7 +184,7 @@
   "audit_flags": [],
   "ancestry": {
     "id": 341,
-    "name": "Dorothy Carney",
+    "name": "Dorothy Durham Carney",
     "children": [
       {
         "id": 10128,

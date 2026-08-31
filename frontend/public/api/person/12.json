@@ -10,7 +10,7 @@
     "source_page": "bible-c1.htm",
     "birth_info": "unknown",
     "death_info": "9 Jul 1964",
-    "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/281999754/john-cott",
+    "notes": "Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/281999754/john-cott | Linked to cott.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/281999754/john-cott",
     "dataset_source": "lynncjackson"
   },
   "facts": [
@@ -70,9 +70,130 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 22,
+      "person_id": 12,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "John Cott",
+      "citations": [
+        {
+          "citation_id": 22,
+          "fact_id": 22,
+          "source_id": 1,
+          "evidence_text": null,
+          "source_title": "Record: bible-c1.htm",
+          "source_url": "bible-c1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 23,
+      "person_id": 12,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 23,
+          "fact_id": 23,
+          "source_id": 1,
+          "evidence_text": null,
+          "source_title": "Record: bible-c1.htm",
+          "source_url": "bible-c1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 24,
+      "person_id": 12,
+      "fact_type": "Death",
+      "date_string": "9 Jul 1964",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 24,
+          "fact_id": 24,
+          "source_id": 1,
+          "evidence_text": null,
+          "source_title": "Record: bible-c1.htm",
+          "source_url": "bible-c1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 358,
+      "person_id": 12,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "John D. Cott",
+      "citations": [
+        {
+          "citation_id": 358,
+          "fact_id": 358,
+          "source_id": 35,
+          "evidence_text": null,
+          "source_title": "Record: cott-j1.htm",
+          "source_url": "cott-j1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 359,
+      "person_id": 12,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 359,
+          "fact_id": 359,
+          "source_id": 35,
+          "evidence_text": null,
+          "source_title": "Record: cott-j1.htm",
+          "source_url": "cott-j1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 360,
+      "person_id": 12,
+      "fact_type": "Death",
+      "date_string": "9 Jul 1964",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 360,
+          "fact_id": 360,
+          "source_id": 35,
+          "evidence_text": null,
+          "source_title": "Record: cott-j1.htm",
+          "source_url": "cott-j1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "John Wesley the son of John Cott and Sarah his wife was born May the 27 A.D. 1838. \t\tDied Aug. 23, 1920",
+      "certainty": "confirmed",
+      "rel_id": 8,
+      "rel_name": "John Wesley"
+    },
     {
       "relationship_type": "spouse",
       "evidence_text": "John Wesley Cott and Sarah Cott were married January 28 A.D. 1862",
@@ -81,11 +202,25 @@
       "rel_name": "Sarah Cott"
     },
     {
+      "relationship_type": "child_of",
+      "evidence_text": "Obediah Cott the son of John Cott & Sallie Cott died July 25, 1848",
+      "certainty": "confirmed",
+      "rel_id": 14,
+      "rel_name": "Obediah Cott"
+    },
+    {
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (76.5% confidence) between Lynn C. Jackson archive and Moors of Delaware",
       "certainty": "confirmed",
       "rel_id": 1039,
       "rel_name": "John Wesley Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "Obediah Cott the son of John Cott & Sallie Cott died July 25,",
+      "certainty": "confirmed",
+      "rel_id": 11482,
+      "rel_name": "Obediah Cott the"
     }
   ],
   "photos": [],

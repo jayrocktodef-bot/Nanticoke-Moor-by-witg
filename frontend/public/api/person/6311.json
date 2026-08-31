@@ -10,10 +10,67 @@
     "source_page": "JohnsonWilliam&Patience.htm",
     "birth_info": "1882",
     "death_info": "15 Apr 1909 (aged 26\u201327)",
-    "notes": "Ingested from JohnsonWilliam&Patience.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/20331629/lillie-davis (Buried at Hickory Creek Cemetery)",
+    "notes": "Ingested from JohnsonWilliam&Patience.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/20331629/lillie-davis (Buried at Hickory Creek Cemetery) | Ingested from DavisDoris.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/20331629/lillie-davis (Buried at Hickory Creek Cemetery)",
     "dataset_source": "mitsawokett_delaware"
   },
   "facts": [
+    {
+      "fact_id": 3813,
+      "person_id": 6311,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Lillie Johnson Davis",
+      "citations": [
+        {
+          "citation_id": 3807,
+          "fact_id": 3813,
+          "source_id": 259,
+          "evidence_text": null,
+          "source_title": "Record: DavisDoris.htm",
+          "source_url": "DavisDoris.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 3814,
+      "person_id": 6311,
+      "fact_type": "Birth",
+      "date_string": "1882",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 3808,
+          "fact_id": 3814,
+          "source_id": 259,
+          "evidence_text": null,
+          "source_title": "Record: DavisDoris.htm",
+          "source_url": "DavisDoris.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 3815,
+      "person_id": 6311,
+      "fact_type": "Death",
+      "date_string": "15 Apr 1909 (aged 26\u201327)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 3809,
+          "fact_id": 3815,
+          "source_id": 259,
+          "evidence_text": null,
+          "source_title": "Record: DavisDoris.htm",
+          "source_url": "DavisDoris.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
     {
       "fact_id": 5566,
       "person_id": 6311,
@@ -75,18 +132,7 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5651,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 6311,
-      "person_id_secondary": 4470,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: lillie|davis|1882",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 6311,
     "name": "Lillie Mae Johnson Davis",

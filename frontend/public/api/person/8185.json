@@ -10,10 +10,67 @@
     "source_page": "Davis Family Tree.ged",
     "birth_info": "16 Aug 1853",
     "death_info": "4 Oct 1916 (aged 63)",
-    "notes": "Buried at Harmony Cemetery, Millsboro, Sussex County, Delaware. Daughter of Francis E. Morris & Hester J. Hettie Carmean Morris. | Verified via FindAGrave: https://www.findagrave.com/memorial/168454091/hester-davis (Buried at Jerusalem AME Church Cemetery)",
+    "notes": "Buried at Harmony Cemetery, Millsboro, Sussex County, Delaware. Daughter of Francis E. Morris & Hester J. Hettie Carmean Morris. | Verified via FindAGrave: https://www.findagrave.com/memorial/168454091/hester-davis (Buried at Jerusalem AME Church Cemetery) | Daughter of Hattie Morris of Sussex County, DE; married Morris Davis | Verified via FindAGrave: https://www.findagrave.com/memorial/168454091/hester-davis (Buried at Jerusalem AME Church Cemetery)",
     "dataset_source": "davis_family_gedcom"
   },
   "facts": [
+    {
+      "fact_id": 2162,
+      "person_id": 8185,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Hester Morris Davis",
+      "citations": [
+        {
+          "citation_id": 2156,
+          "fact_id": 2162,
+          "source_id": 148,
+          "evidence_text": null,
+          "source_title": "Record: DavisHesterMorris.htm",
+          "source_url": "DavisHesterMorris.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 2163,
+      "person_id": 8185,
+      "fact_type": "Birth",
+      "date_string": "16 Aug 1853",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 2157,
+          "fact_id": 2163,
+          "source_id": 148,
+          "evidence_text": null,
+          "source_title": "Record: DavisHesterMorris.htm",
+          "source_url": "DavisHesterMorris.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 2164,
+      "person_id": 8185,
+      "fact_type": "Death",
+      "date_string": "4 Oct 1916 (aged 63)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 2158,
+          "fact_id": 2164,
+          "source_id": 148,
+          "evidence_text": null,
+          "source_title": "Record: DavisHesterMorris.htm",
+          "source_url": "DavisHesterMorris.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
     {
       "fact_id": 7636,
       "person_id": 8185,
@@ -73,6 +130,13 @@
     }
   ],
   "relationships": [
+    {
+      "relationship_type": "parent_of",
+      "evidence_text": "Hester Morris Davis mother of Hershel (Hersel) Davis (DavisHesterMorris.htm)",
+      "certainty": "confirmed",
+      "rel_id": 2646,
+      "rel_name": "Hershel Davis"
+    },
     {
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
@@ -140,8 +204,8 @@
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F225@ marriage 29 Dec 1920 Millsboro, Sussex, Delaware, USA",
       "certainty": "confirmed",
-      "rel_id": 9067,
-      "rel_name": "John A Thompson"
+      "rel_id": 1681,
+      "rel_name": "John Asbury Thompson"
     },
     {
       "relationship_type": "child_of",
@@ -163,29 +227,11 @@
       "certainty": "confirmed",
       "rel_id": 11247,
       "rel_name": "Hester J. Hettie Carmean Morris"
-    },
-    {
-      "relationship_type": "spouse",
-      "evidence_text": null,
-      "certainty": "confirmed",
-      "rel_id": 1681,
-      "rel_name": "John Asbury Thompson"
     }
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5676,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 8185,
-      "person_id_secondary": 2645,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: hester|davis|1853",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 8185,
     "name": "Hester A. Morris Davis",
@@ -230,11 +276,6 @@
                 "id": 8684,
                 "name": "Priscilla Miller",
                 "children": [
-                  {
-                    "id": 8618,
-                    "name": "Ebenezar Miller",
-                    "children": []
-                  },
                   {
                     "id": 9188,
                     "name": "Ebenezer Miller",

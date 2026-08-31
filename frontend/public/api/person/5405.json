@@ -70,6 +70,72 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 4747,
+      "person_id": 5405,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Gertrude Durham Durham",
+      "citations": [
+        {
+          "citation_id": 4741,
+          "fact_id": 4747,
+          "source_id": 325,
+          "evidence_text": null,
+          "source_title": "Record: DurhamJEH&Harriett.htm",
+          "source_url": "DurhamJEH&Harriett.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4748,
+      "person_id": 5405,
+      "fact_type": "Birth",
+      "date_string": "8 Mar 1911",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 4742,
+          "fact_id": 4748,
+          "source_id": 325,
+          "evidence_text": null,
+          "source_title": "Record: DurhamJEH&Harriett.htm",
+          "source_url": "DurhamJEH&Harriett.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4749,
+      "person_id": 5405,
+      "fact_type": "Death",
+      "date_string": "14 Nov 2000 (aged 89)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 4743,
+          "fact_id": 4749,
+          "source_id": 325,
+          "evidence_text": null,
+          "source_title": "Record: DurhamJEH&Harriett.htm",
+          "source_url": "DurhamJEH&Harriett.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 11224,
+      "person_id": 5405,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Gertrude Durham",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -180,18 +246,7 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5702,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 11469,
-      "person_id_secondary": 5405,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: gertrude|durham|1911",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 5405,
     "name": "Gertrude Ridgeway Durham",

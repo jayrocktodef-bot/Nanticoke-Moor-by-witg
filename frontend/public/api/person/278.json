@@ -1,16 +1,16 @@
 {
   "person": {
     "person_id": 278,
-    "name": "William Carney",
+    "name": "William H. Carney",
     "first_name": "William",
-    "middle_name": "",
+    "middle_name": "H.",
     "maiden_name": "",
     "married_last_name": "Carney",
     "evidence_level": 2,
     "source_page": "dean-r.htm",
     "birth_info": "1898",
     "death_info": "18 Oct 1898 (aged less\u2013than 1 year)",
-    "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/107936608/william-carney",
+    "notes": "Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/107936608/william-carney | Ingested from preserved Probate.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/107936608/william-carney",
     "dataset_source": "lynncjackson"
   },
   "facts": [
@@ -70,6 +70,63 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 1600,
+      "person_id": 278,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "William H. Carney",
+      "citations": [
+        {
+          "citation_id": 1600,
+          "fact_id": 1600,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1601,
+      "person_id": 278,
+      "fact_type": "Birth",
+      "date_string": "1898",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1601,
+          "fact_id": 1601,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1602,
+      "person_id": 278,
+      "fact_type": "Death",
+      "date_string": "18 Oct 1898 (aged less\u2013than 1 year)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1602,
+          "fact_id": 1602,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -91,8 +148,8 @@
       "relationship_type": "cross_dataset_match",
       "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
       "certainty": "confirmed",
-      "rel_id": 748,
-      "rel_name": "William Clark"
+      "rel_id": 10334,
+      "rel_name": "William Russell Wyniaco Clark"
     }
   ],
   "photos": [],
@@ -109,21 +166,10 @@
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "audit_flags": [
-    {
-      "id": 5596,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 2201,
-      "person_id_secondary": 278,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: william|carney|1898",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 278,
-    "name": "William Carney",
+    "name": "William H. Carney",
     "children": []
   }
 }

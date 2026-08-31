@@ -10,10 +10,143 @@
     "source_page": "HarmonSisters&Brothers&Jackson2.htm",
     "birth_info": "1 Aug 1790",
     "death_info": "24 Sep 1867 (aged 77)",
-    "notes": "Ingested from HarmonSisters&Brothers&Jackson2.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/77789464/sarah-harmon",
+    "notes": "Ingested from HarmonSisters&Brothers&Jackson2.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/77789464/sarah-harmon | Ingested from HarmonIsaacW&SarahSockum.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/77789464/sarah-harmon | Spouse of John W. Thompson; Mother of Snowden Asher & Bartholomew Thompson | Verified via FindAGrave: https://www.findagrave.com/memorial/77789464/sarah-harmon",
     "dataset_source": "mitsawokett_delaware"
   },
   "facts": [
+    {
+      "fact_id": 1307,
+      "person_id": 6102,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Sarah Ann Harmon",
+      "citations": [
+        {
+          "citation_id": 1307,
+          "fact_id": 1307,
+          "source_id": 602,
+          "evidence_text": null,
+          "source_title": "Record: ThompsonJohn&Sarah.htm",
+          "source_url": "ThompsonJohn&Sarah.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1308,
+      "person_id": 6102,
+      "fact_type": "Birth",
+      "date_string": "1 Aug 1790",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1308,
+          "fact_id": 1308,
+          "source_id": 602,
+          "evidence_text": null,
+          "source_title": "Record: ThompsonJohn&Sarah.htm",
+          "source_url": "ThompsonJohn&Sarah.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1309,
+      "person_id": 6102,
+      "fact_type": "Death",
+      "date_string": "24 Sep 1867 (aged 77)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1309,
+          "fact_id": 1309,
+          "source_id": 602,
+          "evidence_text": null,
+          "source_title": "Record: ThompsonJohn&Sarah.htm",
+          "source_url": "ThompsonJohn&Sarah.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 5033,
+      "person_id": 6102,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Sarah Jane Harmon",
+      "citations": [
+        {
+          "citation_id": 5027,
+          "fact_id": 5033,
+          "source_id": 351,
+          "evidence_text": null,
+          "source_title": "Record: HarmanIsaacWillie.htm",
+          "source_url": "HarmanIsaacWillie.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 5202,
+      "person_id": 6102,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": ". Sarah Jane Harmon",
+      "citations": [
+        {
+          "citation_id": 5196,
+          "fact_id": 5202,
+          "source_id": 360,
+          "evidence_text": null,
+          "source_title": "Record: HarmonIsaacW&SarahSockum.htm",
+          "source_url": "HarmonIsaacW&SarahSockum.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 5203,
+      "person_id": 6102,
+      "fact_type": "Birth",
+      "date_string": "1 Aug 1790",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 5197,
+          "fact_id": 5203,
+          "source_id": 360,
+          "evidence_text": null,
+          "source_title": "Record: HarmonIsaacW&SarahSockum.htm",
+          "source_url": "HarmonIsaacW&SarahSockum.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 5204,
+      "person_id": 6102,
+      "fact_type": "Death",
+      "date_string": "24 Sep 1867 (aged 77)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 5198,
+          "fact_id": 5204,
+          "source_id": 360,
+          "evidence_text": null,
+          "source_title": "Record: HarmonIsaacW&SarahSockum.htm",
+          "source_url": "HarmonIsaacW&SarahSockum.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
     {
       "fact_id": 5346,
       "person_id": 6102,
@@ -72,7 +205,29 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse",
+      "evidence_text": "Spouse of Sarah Ann Harmon in Thompson family records",
+      "certainty": "confirmed",
+      "rel_id": 8679,
+      "rel_name": "John W Thompson"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "Son of Sarah Ann (Harmon) Thompson",
+      "certainty": "confirmed",
+      "rel_id": 1682,
+      "rel_name": "Snowden Asher Thompson"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "Son of Sarah Ann (Harmon) Thompson",
+      "certainty": "confirmed",
+      "rel_id": 1683,
+      "rel_name": "Bartholomew Thompson"
+    }
+  ],
   "photos": [
     {
       "person_id": 6102,
@@ -164,21 +319,36 @@
       "local_image_path": "assets/mitsawokett_photos/mitsawokett_MosleyJamesParisAncestry.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJamesParis.htm",
       "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 6102,
+      "photo_id": 7298,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Sacajawea \n  Harmon John \n        Wesley HARMON (Jr.), born 17 Jan 1881 in M...",
+      "subject_names": "Sacajawea Harmon",
+      "maiden_name": "Harmon",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "1881",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonSacajawea.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonSacajawea.htm",
+      "dataset_source": "mitsawokett"
+    },
+    {
+      "person_id": 6102,
+      "photo_id": 7299,
+      "title_or_caption": "Mitsawokett: A 17th Century Native American Community in Central Delaware | Mitsawokett: A 17th Century Native American Community in Central Delaware Sacajawea \n  Harmon John \n        Wesley HARMON (Jr.), born 17 Jan 1881 in M...",
+      "subject_names": "Sacajawea Harmon",
+      "maiden_name": "Harmon",
+      "married_surname": "",
+      "location": "Delaware / Delmarva",
+      "approximate_year": "1881",
+      "local_image_path": "assets/mitsawokett_photos/mitsawokett_HarmonSacajaweaAncestry.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonSacajawea.htm",
+      "dataset_source": "mitsawokett"
     }
   ],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5649,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 6102,
-      "person_id_secondary": 1685,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: sarah|harmon|1790",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 6102,
     "name": "Sarah Elizabeth Mosley Harmon",

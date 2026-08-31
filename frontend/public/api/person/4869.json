@@ -10,7 +10,7 @@
     "source_page": "DavisMichael.htm",
     "birth_info": "4 Feb 1907",
     "death_info": "5 Jan 2001 (aged 93)",
-    "notes": "Ingested from DavisMichael.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/36139401/janet-davis (Buried at Logans Ferry UP Church Cemetery)",
+    "notes": "Ingested from DavisMichael.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/36139401/janet-davis (Buried at Logans Ferry UP Church Cemetery) | Ingested from DavisWHenry&Janet.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/36139401/janet-davis (Buried at Logans Ferry UP Church Cemetery)",
     "dataset_source": "mitsawokett_delaware"
   },
   "facts": [
@@ -70,23 +70,69 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 4564,
+      "person_id": 4869,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Janet Davis",
+      "citations": [
+        {
+          "citation_id": 4558,
+          "fact_id": 4564,
+          "source_id": 311,
+          "evidence_text": null,
+          "source_title": "Record: DavisWHenry&Janet.htm",
+          "source_url": "DavisWHenry&Janet.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4565,
+      "person_id": 4869,
+      "fact_type": "Birth",
+      "date_string": "4 Feb 1907",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 4559,
+          "fact_id": 4565,
+          "source_id": 311,
+          "evidence_text": null,
+          "source_title": "Record: DavisWHenry&Janet.htm",
+          "source_url": "DavisWHenry&Janet.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4566,
+      "person_id": 4869,
+      "fact_type": "Death",
+      "date_string": "5 Jan 2001 (aged 93)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 4560,
+          "fact_id": 4566,
+          "source_id": 311,
+          "evidence_text": null,
+          "source_title": "Record: DavisWHenry&Janet.htm",
+          "source_url": "DavisWHenry&Janet.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5641,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 5260,
-      "person_id_secondary": 4869,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: janet|davis|1907",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 4869,
     "name": "Janet Grigsby Davis",

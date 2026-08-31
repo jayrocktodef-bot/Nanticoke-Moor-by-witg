@@ -1,16 +1,16 @@
 {
   "person": {
     "person_id": 2366,
-    "name": "William Johnson",
+    "name": "William H. Johnson",
     "first_name": "William",
-    "middle_name": "",
+    "middle_name": "H.",
     "maiden_name": "",
     "married_last_name": "Johnson",
     "evidence_level": 3,
     "source_page": "Probate.htm",
     "birth_info": "unknown",
     "death_info": "30 Jul 1911",
-    "notes": "Ingested from preserved Probate.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/135517333/william-johnson",
+    "notes": "Ingested from preserved Probate.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/135517333/william-johnson | Verified via FindAGrave: https://www.findagrave.com/memorial/135517333/william-johnson",
     "dataset_source": "mitsawokett_delaware"
   },
   "facts": [
@@ -70,9 +70,130 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 1947,
+      "person_id": 2366,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "William A. Johnson",
+      "citations": [
+        {
+          "citation_id": 1947,
+          "fact_id": 1947,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1948,
+      "person_id": 2366,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1948,
+          "fact_id": 1948,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1949,
+      "person_id": 2366,
+      "fact_type": "Death",
+      "date_string": "30 Jul 1911",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1949,
+          "fact_id": 1949,
+          "source_id": 658,
+          "evidence_text": null,
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 10161,
+      "person_id": 2366,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "William H. Johnson",
+      "citations": [
+        {
+          "citation_id": 10155,
+          "fact_id": 10161,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 10162,
+      "person_id": 2366,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10156,
+          "fact_id": 10162,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 10163,
+      "person_id": 2366,
+      "fact_type": "Death",
+      "date_string": "30 Jul 1911",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 10157,
+          "fact_id": 10163,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     }
   ],
   "relationships": [
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 10420,
+      "rel_name": "Ann W. Johnson"
+    },
     {
       "relationship_type": "spouse",
       "evidence_text": "GEDCOM Family @F393@ marriage",
@@ -112,8 +233,8 @@
       "relationship_type": "child_of",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
-      "rel_id": 9171,
-      "rel_name": "James Johnson"
+      "rel_id": 6911,
+      "rel_name": "James Franklin Johnson"
     },
     {
       "relationship_type": "child_of",
@@ -128,8 +249,13 @@
   "audit_flags": [],
   "ancestry": {
     "id": 2366,
-    "name": "William Johnson",
+    "name": "William H. Johnson",
     "children": [
+      {
+        "id": 10420,
+        "name": "Ann W. Johnson",
+        "children": []
+      },
       {
         "id": 10407,
         "name": "John Johnson",

@@ -15,6 +15,63 @@
   },
   "facts": [
     {
+      "fact_id": 1148,
+      "person_id": 1029,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Elsey Mosley",
+      "citations": [
+        {
+          "citation_id": 1148,
+          "fact_id": 1148,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1149,
+      "person_id": 1029,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1149,
+          "fact_id": 1149,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 1150,
+      "person_id": 1029,
+      "fact_type": "Death",
+      "date_string": "1948",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1150,
+          "fact_id": 1150,
+          "source_id": 119,
+          "evidence_text": null,
+          "source_title": "Record: moors_moors.aspx",
+          "source_url": "moors_moors.aspx",
+          "source_dataset": "moors_delaware"
+        }
+      ]
+    },
+    {
       "fact_id": 1213,
       "person_id": 1029,
       "fact_type": "Name",
@@ -72,7 +129,15 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "cross_dataset_match",
+      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
+      "certainty": "confirmed",
+      "rel_id": 114,
+      "rel_name": "Pearl Mosley"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],

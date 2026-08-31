@@ -10,10 +10,67 @@
     "source_page": "Probate.htm",
     "birth_info": "1820",
     "death_info": "4 Nov 1887 (aged 66\u201367)",
-    "notes": "Ingested from preserved Probate.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/5549191/paynter-harmon",
+    "notes": "Ingested from preserved Probate.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/5549191/paynter-harmon | Verified via FindAGrave: https://www.findagrave.com/memorial/5549191/paynter-harmon",
     "dataset_source": "mitsawokett_delaware"
   },
   "facts": [
+    {
+      "fact_id": 1107,
+      "person_id": 2420,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Paynter Harmon",
+      "citations": [
+        {
+          "citation_id": 1107,
+          "fact_id": 1107,
+          "source_id": 117,
+          "evidence_text": null,
+          "source_title": "Record: wrightw1.htm",
+          "source_url": "wrightw1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1108,
+      "person_id": 2420,
+      "fact_type": "Birth",
+      "date_string": "1820",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1108,
+          "fact_id": 1108,
+          "source_id": 117,
+          "evidence_text": null,
+          "source_title": "Record: wrightw1.htm",
+          "source_url": "wrightw1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 1109,
+      "person_id": 2420,
+      "fact_type": "Death",
+      "date_string": "4 Nov 1887 (aged 66\u201367)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 1109,
+          "fact_id": 1109,
+          "source_id": 117,
+          "evidence_text": null,
+          "source_title": "Record: wrightw1.htm",
+          "source_url": "wrightw1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
     {
       "fact_id": 1978,
       "person_id": 2420,
@@ -72,24 +129,63 @@
       ]
     }
   ],
-  "relationships": [],
-  "photos": [],
-  "obituaries": [],
-  "audit_flags": [
+  "relationships": [
     {
-      "id": 5600,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 2420,
-      "person_id_secondary": 788,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: paynter|harmon|1820",
-      "created_at": "2026-08-30 23:12:37"
+      "relationship_type": "spouse",
+      "evidence_text": "Ann Wright who married Paynter Harmon",
+      "certainty": "confirmed",
+      "rel_id": 787,
+      "rel_name": "Ann Wright"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 9982,
+      "rel_name": "Robert Emanuel Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 9983,
+      "rel_name": "Rachel Anne Johnson"
     }
   ],
+  "photos": [],
+  "obituaries": [],
+  "audit_flags": [],
   "ancestry": {
     "id": 2420,
     "name": "Paynter Harman Nicey Harmon",
-    "children": []
+    "children": [
+      {
+        "id": 9982,
+        "name": "Robert Emanuel Harmon",
+        "children": []
+      },
+      {
+        "id": 9983,
+        "name": "Rachel Anne Johnson",
+        "children": [
+          {
+            "id": 9984,
+            "name": "Isaac Johnson",
+            "children": []
+          },
+          {
+            "id": 9985,
+            "name": "Jemima WARD Johnson",
+            "children": [
+              {
+                "id": 10401,
+                "name": "Rachel Johnson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

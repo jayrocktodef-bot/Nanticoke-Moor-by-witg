@@ -10,7 +10,7 @@
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
     "death_info": "14 May 1890",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/107415050/frank-thompson",
+    "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/107415050/frank-thompson | FindAGrave: no match",
     "dataset_source": "davis_family_gedcom"
   },
   "facts": [
@@ -75,10 +75,24 @@
   "relationships": [
     {
       "relationship_type": "spouse",
-      "evidence_text": "GEDCOM Family @F80@ marriage",
+      "evidence_text": "GEDCOM Family @F79@ marriage",
       "certainty": "confirmed",
       "rel_id": 8260,
       "rel_name": "Ren A Thompson"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 8381,
+      "rel_name": "James W Thompson"
+    },
+    {
+      "relationship_type": "child_of",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 8382,
+      "rel_name": "Mary C Thompson"
     }
   ],
   "photos": [],
@@ -87,6 +101,90 @@
   "ancestry": {
     "id": 8294,
     "name": "Frank W Thompson",
-    "children": []
+    "children": [
+      {
+        "id": 8381,
+        "name": "James W Thompson",
+        "children": [
+          {
+            "id": 9109,
+            "name": "Robert Thompson",
+            "children": [
+              {
+                "id": 8604,
+                "name": "Wallace B Thompson",
+                "children": [
+                  {
+                    "id": 8639,
+                    "name": "Clemmon Thompson",
+                    "children": [
+                      {
+                        "id": 8840,
+                        "name": "Levin Game Thompson",
+                        "children": []
+                      },
+                      {
+                        "id": 8841,
+                        "name": "Leah Thompson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8638,
+                    "name": "Melisa Molly Street",
+                    "children": [
+                      {
+                        "id": 8680,
+                        "name": "Jerry Street",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8640,
+                "name": "Elizabeth Thompson",
+                "children": [
+                  {
+                    "id": 8382,
+                    "name": "Mary C Thompson",
+                    "children": [
+                      {
+                        "id": 8606,
+                        "name": "Richard Dickerson",
+                        "children": []
+                      },
+                      {
+                        "id": 9071,
+                        "name": "Minnie Dickerson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8382,
+        "name": "Mary C Thompson",
+        "children": [
+          {
+            "id": 8606,
+            "name": "Richard Dickerson",
+            "children": []
+          },
+          {
+            "id": 9071,
+            "name": "Minnie Dickerson",
+            "children": []
+          }
+        ]
+      }
+    ]
   }
 }

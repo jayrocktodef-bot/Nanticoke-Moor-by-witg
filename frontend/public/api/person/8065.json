@@ -10,10 +10,67 @@
     "source_page": "WilsonHowardC&BessieMosley.htm",
     "birth_info": "30 Jul 1786",
     "death_info": "23 Jun 1877 (aged 90)",
-    "notes": "Ingested from WilsonHowardC&BessieMosley.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/107431155/anna-wilson",
+    "notes": "Ingested from WilsonHowardC&BessieMosley.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/107431155/anna-wilson | Ingested from FraimJeanetteMosley.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/107431155/anna-wilson",
     "dataset_source": "mitsawokett_delaware"
   },
   "facts": [
+    {
+      "fact_id": 4900,
+      "person_id": 8065,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Anna Jeanette Wilson",
+      "citations": [
+        {
+          "citation_id": 4894,
+          "fact_id": 4900,
+          "source_id": 340,
+          "evidence_text": null,
+          "source_title": "Record: FraimJeanetteMosley.htm",
+          "source_url": "FraimJeanetteMosley.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4901,
+      "person_id": 8065,
+      "fact_type": "Birth",
+      "date_string": "30 Jul 1786",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 4895,
+          "fact_id": 4901,
+          "source_id": 340,
+          "evidence_text": null,
+          "source_title": "Record: FraimJeanetteMosley.htm",
+          "source_url": "FraimJeanetteMosley.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4902,
+      "person_id": 8065,
+      "fact_type": "Death",
+      "date_string": "23 Jun 1877 (aged 90)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 4896,
+          "fact_id": 4902,
+          "source_id": 340,
+          "evidence_text": null,
+          "source_title": "Record: FraimJeanetteMosley.htm",
+          "source_url": "FraimJeanetteMosley.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
     {
       "fact_id": 7479,
       "person_id": 8065,
@@ -75,18 +132,7 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5674,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 8065,
-      "person_id_secondary": 5666,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: anna|wilson|1786",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 8065,
     "name": "Anna Elizabeth Wilson",

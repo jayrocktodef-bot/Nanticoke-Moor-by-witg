@@ -10,7 +10,7 @@
     "source_page": "ChappelleJohn&Pearl.htm",
     "birth_info": "25 Jun 1882",
     "death_info": "12 Jun 1946 (aged 63)",
-    "notes": "Ingested from ChappelleJohn&Pearl.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/93577009/pearl-chappelle",
+    "notes": "Ingested from ChappelleJohn&Pearl.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/93577009/pearl-chappelle | Ingested from CarterMaeWilsonfamily.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/93577009/pearl-chappelle",
     "dataset_source": "mitsawokett_delaware"
   },
   "facts": [
@@ -70,23 +70,69 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 3914,
+      "person_id": 4490,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Pearl Mosley Chappelle",
+      "citations": [
+        {
+          "citation_id": 3908,
+          "fact_id": 3914,
+          "source_id": 265,
+          "evidence_text": null,
+          "source_title": "Record: CarterMaeWilsonfamily.htm",
+          "source_url": "CarterMaeWilsonfamily.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 3915,
+      "person_id": 4490,
+      "fact_type": "Birth",
+      "date_string": "25 Jun 1882",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 3909,
+          "fact_id": 3915,
+          "source_id": 265,
+          "evidence_text": null,
+          "source_title": "Record: CarterMaeWilsonfamily.htm",
+          "source_url": "CarterMaeWilsonfamily.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 3916,
+      "person_id": 4490,
+      "fact_type": "Death",
+      "date_string": "12 Jun 1946 (aged 63)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 3910,
+          "fact_id": 3916,
+          "source_id": 265,
+          "evidence_text": null,
+          "source_title": "Record: CarterMaeWilsonfamily.htm",
+          "source_url": "CarterMaeWilsonfamily.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [
-    {
-      "id": 5619,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 4552,
-      "person_id_secondary": 4490,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: pearl|chappelle|1882",
-      "created_at": "2026-08-30 23:12:37"
-    }
-  ],
+  "audit_flags": [],
   "ancestry": {
     "id": 4490,
     "name": "Pearl Mosley Whiteman Chappelle",
