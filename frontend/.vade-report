@@ -1,0 +1,39 @@
+## Vercel Web Analytics Installation
+
+Successfully installed and configured Vercel Web Analytics for this React + Vite project.
+
+### Changes Made
+
+**1. Installed Package**
+- Added `@vercel/analytics` v2.0.1 to dependencies
+- Used npm to install the package, updating both package.json and package-lock.json
+
+**2. Modified Files**
+- `src/App.jsx`: Added Analytics component integration
+  - Imported `Analytics` from `@vercel/analytics/react`
+  - Added `<Analytics />` component to both render paths (splash screen and home screen)
+  - Used React fragments to maintain clean component structure
+
+**3. Implementation Details**
+- Followed official Vercel documentation for React/Vite projects
+- The Analytics component is placed at the root level of the app, ensuring it tracks all page views
+- Component is included in both conditional render paths to ensure tracking works on all screens
+
+**4. Verification**
+- Build completed successfully (vite build)
+- Linter ran without errors (only pre-existing warnings remain)
+- No tests available in the project to run
+
+### Framework-Specific Details
+This project uses:
+- React 19.2.8
+- Vite 8.2.0
+- Package manager: npm
+
+The implementation follows the official Vercel Analytics quickstart guide for React/Vite applications, using the `@vercel/analytics/react` import path as specified in the documentation.
+
+### Next Steps
+To enable analytics tracking:
+1. Deploy the application to Vercel
+2. Enable Web Analytics in the Vercel dashboard (Analytics section)
+3. Verify tracking by checking the Network tab for requests to `/<unique-path>/view` after deployment
