@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import HomeScreen from './components/HomeScreen';
 import SplashScreen from './components/SplashScreen';
 
@@ -19,8 +20,18 @@ export default function App() {
   };
 
   if (showSplash) {
-    return <SplashScreen onEnter={handleEnterArchive} />;
+    return (
+      <>
+        <SplashScreen onEnter={handleEnterArchive} />
+        <Analytics />
+      </>
+    );
   }
 
-  return <HomeScreen />;
+  return (
+    <>
+      <HomeScreen />
+      <Analytics />
+    </>
+  );
 }
