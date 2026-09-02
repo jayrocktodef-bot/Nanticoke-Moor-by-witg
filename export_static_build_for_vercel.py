@@ -9,8 +9,8 @@ BASE_DIR = '/home/jequan/Desktop/Antigravity Projects/lynncjackson-genealogy-scr
 DB_PATH = os.path.join(BASE_DIR, 'preservation_output', 'genealogy_preservation.db')
 API_DIR = os.path.join(BASE_DIR, 'frontend', 'public', 'api')
 PUBLIC_DIR = os.path.join(BASE_DIR, 'frontend', 'public')
-ASSETS_SRC = os.path.join(BASE_DIR, 'preservation_output', 'assets', 'mitsawokett_photos')
-ASSETS_DEST = os.path.join(BASE_DIR, 'frontend', 'public', 'assets', 'mitsawokett_photos')
+ASSETS_SRC = os.path.join(BASE_DIR, 'preservation_output', 'assets', 'archive_media')
+ASSETS_DEST = os.path.join(BASE_DIR, 'frontend', 'public', 'assets', 'archive_media')
 
 import sys
 sys.path.insert(0, BASE_DIR)
@@ -63,29 +63,88 @@ def export_all():
     ]
     
     surnames_data = []
+    os.makedirs(os.path.join(API_DIR, 'surnames'), exist_ok=True)
+
     for s in sorted(key_surnames):
         c.execute("SELECT COUNT(*) FROM persons WHERE name LIKE ?", (f"%{s}%",))
         p_cnt = c.fetchone()[0]
-        c.execute("SELECT COUNT(*) FROM photo_catalog WHERE subject_names LIKE ?", (f"%{s}%",))
+        
+        c.execute("""
+            SELECT COUNT(DISTINCT ps.photo_id) 
+            FROM photo_surnames ps 
+            WHERE LOWER(ps.surname) = LOWER(?)
+        """, (s,))
         ph_cnt = c.fetchone()[0]
+
+        # Category breakdown of photos for this surname
+        c.execute("""
+            SELECT upc.category, COUNT(DISTINCT upc.photo_id)
+            FROM photo_surnames ps
+            JOIN unified_photo_catalog upc ON ps.photo_id = upc.photo_id
+            WHERE LOWER(ps.surname) = LOWER(?)
+            GROUP BY upc.category
+        """, (s,))
+        cat_counts = dict(c.fetchall())
+
         c.execute("SELECT COUNT(*) FROM obituaries WHERE deceased_name LIKE ? OR full_text LIKE ?", (f"%{s}%", f"%{s}%"))
         ob_cnt = c.fetchone()[0]
         
         variants = f"{s}s, {s}e"
         if s == "Sammons":
             variants = "Salmons, Samons, Sammon, Sammons"
-            # Count Salmons as well in the aggregate count for Sammons portal
-            c.execute("SELECT COUNT(*) FROM persons WHERE name LIKE '%Sammons%' OR name LIKE '%Salmons%'")
-            p_cnt = c.fetchone()[0]
-            c.execute("SELECT COUNT(*) FROM photo_catalog WHERE subject_names LIKE '%Sammons%' OR subject_names LIKE '%Salmons%'")
-            ph_cnt = c.fetchone()[0]
-            c.execute("SELECT COUNT(*) FROM obituaries WHERE deceased_name LIKE '%Sammons%' OR deceased_name LIKE '%Salmons%' OR full_text LIKE '%Sammons%' OR full_text LIKE '%Salmons%'")
-            ob_cnt = c.fetchone()[0]
+
+        # Fetch detailed photos for this surname
+        c.execute("""
+            SELECT upc.photo_id, upc.category, upc.normalized_filename, upc.local_image_path,
+                   upc.subject_names, upc.approximate_year, upc.document_type
+            FROM photo_surnames ps
+            JOIN unified_photo_catalog upc ON ps.photo_id = upc.photo_id
+            WHERE LOWER(ps.surname) = LOWER(?)
+            ORDER BY upc.category ASC, upc.approximate_year DESC
+        """, (s,))
+        sn_photos = [dict(r) for r in c.fetchall()]
+
+        # Fetch individuals belonging to this surname
+        c.execute("""
+            SELECT p.person_id, p.name, p.first_name, p.middle_name, p.maiden_name,
+                   p.married_last_name, p.birth_info, p.death_info, p.notes,
+                   (SELECT COUNT(*) FROM person_photos pp WHERE pp.person_id = p.person_id) as photo_count
+            FROM persons p
+            WHERE p.name LIKE ? OR p.maiden_name LIKE ? OR p.married_last_name LIKE ?
+            ORDER BY p.name ASC
+        """, (f"%{s}%", f"%{s}%", f"%{s}%"))
+        sn_individuals = [dict(r) for r in c.fetchall()]
+
+        # Fetch obituaries for this surname
+        c.execute("""
+            SELECT o.id, o.deceased_name, o.age, o.birth_date, o.death_date, o.cemetery_location, o.full_text, o.source_url
+            FROM obituaries o
+            WHERE o.deceased_name LIKE ? OR o.full_text LIKE ?
+            ORDER BY o.deceased_name ASC
+        """, (f"%{s}%", f"%{s}%"))
+        sn_obits = [dict(r) for r in c.fetchall()]
+
+        surname_detail = {
+            "surname": s,
+            "individual_count": p_cnt,
+            "photo_count": ph_cnt,
+            "category_counts": cat_counts,
+            "obituary_count": ob_cnt,
+            "variants": variants,
+            "photos": sn_photos,
+            "individuals": sn_individuals,
+            "obituaries": sn_obits
+        }
+
+        # Save individual surname JSON file: /api/surnames/{s}.json
+        with open(os.path.join(API_DIR, 'surnames', f"{s}.json"), 'w') as f:
+            json.dump(surname_detail, f, indent=2)
 
         surnames_data.append({
             "surname": s,
             "individual_count": p_cnt,
             "photo_count": ph_cnt,
+            "category_counts": cat_counts,
             "obituary_count": ob_cnt,
             "associated_pages": 12,
             "variants": variants
@@ -106,7 +165,13 @@ def export_all():
         json.dump(obits, f, indent=2)
 
     print("Step 4: Exporting /api/photos.json...")
-    c.execute("SELECT photo_id, title_or_caption, subject_names, maiden_name, married_surname, approximate_year, local_image_path, source_url, media_type FROM photo_catalog ORDER BY photo_id DESC")
+    c.execute("""
+        SELECT photo_id, category, normalized_filename as title_or_caption,
+               subject_names, surname as married_surname, approximate_year,
+               local_image_path, source_url, dataset_source, document_type
+        FROM unified_photo_catalog
+        ORDER BY photo_id DESC
+    """)
     photos = [dict(r) for r in c.fetchall()]
     with open(os.path.join(API_DIR, 'photos.json'), 'w') as f:
         json.dump(photos, f, indent=2)
@@ -134,9 +199,11 @@ def export_all():
 
     # Pre-fetch all photos
     c.execute("""
-        SELECT pp.person_id, pc.photo_id, pc.title_or_caption, pc.subject_names, pc.maiden_name, pc.married_surname, pc.location, pc.approximate_year, pc.local_image_path, pc.source_url, pc.dataset_source
+        SELECT pp.person_id, upc.photo_id, upc.category, upc.normalized_filename as title_or_caption,
+               upc.subject_names, upc.surname as married_surname, upc.approximate_year,
+               upc.local_image_path, upc.source_url, upc.dataset_source, upc.document_type
         FROM person_photos pp
-        JOIN photo_catalog pc ON pp.photo_id = pc.photo_id
+        JOIN unified_photo_catalog upc ON pp.photo_id = upc.photo_id
     """)
     photos_map = {}
     for r in c.fetchall():
@@ -304,13 +371,47 @@ def export_all():
     with open(os.path.join(API_DIR, 'family-interconnections.json'), 'w') as f:
         json.dump(interconnections, f, indent=2)
 
-    print("Step 9: Copying photo assets to frontend/public/assets/mitsawokett_photos/...")
+    print("Step 8b: Exporting /api/cemeteries.json & /api/search_index.json...")
+    c.execute("""
+        SELECT c.*, COUNT(tcl.photo_id) as tombstone_count
+        FROM cemeteries c
+        LEFT JOIN tombstone_cemetery_links tcl ON c.cemetery_id = tcl.cemetery_id
+        GROUP BY c.cemetery_id
+        ORDER BY tombstone_count DESC, c.name ASC
+    """)
+    cem_list = [dict(r) for r in c.fetchall()]
+    with open(os.path.join(API_DIR, 'cemeteries.json'), 'w') as f:
+        json.dump({"total": len(cem_list), "cemeteries": cem_list}, f, indent=2)
+
+    c.execute("""
+        SELECT doc_type, source_id, title,
+               substr(full_text, 1, 150) as snippet, metadata
+        FROM fts_genealogy_corpus
+    """)
+    search_entries = [dict(r) for r in c.fetchall()]
+    with open(os.path.join(API_DIR, 'search_index.json'), 'w') as f:
+        json.dump({"total": len(search_entries), "index": search_entries}, f, indent=2)
+
+    print("Step 9: Copying photo assets to frontend/public/assets/archive_media/...")
     if os.path.exists(ASSETS_SRC):
-        for f_name in os.listdir(ASSETS_SRC):
-            s_path = os.path.join(ASSETS_SRC, f_name)
-            d_path = os.path.join(ASSETS_DEST, f_name)
-            if os.path.isfile(s_path):
-                shutil.copy2(s_path, d_path)
+        os.makedirs(ASSETS_DEST, exist_ok=True)
+        for root, dirs, files in os.walk(ASSETS_SRC, followlinks=False):
+            rel_dir = os.path.relpath(root, ASSETS_SRC)
+            target_dir = os.path.join(ASSETS_DEST, rel_dir) if rel_dir != "." else ASSETS_DEST
+            os.makedirs(target_dir, exist_ok=True)
+            for f_name in files:
+                s_path = os.path.join(root, f_name)
+                d_path = os.path.join(target_dir, f_name)
+                if os.path.islink(s_path):
+                    try:
+                        link_target = os.readlink(s_path)
+                        if os.path.exists(d_path) or os.path.islink(d_path):
+                            os.remove(d_path)
+                        os.symlink(link_target, d_path)
+                    except OSError:
+                        shutil.copy2(s_path, d_path)
+                elif os.path.isfile(s_path):
+                    shutil.copy2(s_path, d_path)
 
     print("Step 10: Automated Integrity & Dangling Reference Verification...")
     c.execute("""

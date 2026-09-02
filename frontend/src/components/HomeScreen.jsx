@@ -1,8 +1,9 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react';
-import { Search, Database, Users, FileText, Image as ImageIcon, GitFork, BookOpen, ShieldCheck, HeartHandshake, GitCommit, Bookmark, LayoutGrid, List, Sparkles, Filter } from 'lucide-react';
+import { Search, Database, Users, FileText, Image as ImageIcon, GitFork, BookOpen, ShieldCheck, HeartHandshake, GitCommit, Bookmark, LayoutGrid, List, Sparkles, Filter, Sun, Moon, Printer } from 'lucide-react';
 import SurnameCard from './SurnameCard';
 import RecordDrawer from './RecordDrawer';
 import PersonProfileView from './PersonProfileView';
+import SurnamePortalView from './SurnamePortalView';
 import CommandPalette from './CommandPalette';
 import { trackPageView, trackEvent } from '../utils/analytics';
 
@@ -22,11 +23,25 @@ export default function HomeScreen() {
   const [selectedRecord, setSelectedRecord] = useState(null);
   const [selectedPersonId, setSelectedPersonId] = useState(null);
   const [selectedSurname, setSelectedSurname] = useState(null);
+  const [activeSurnamePortal, setActiveSurnamePortal] = useState(null);
   const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false);
   const [viewMode, setViewMode] = useState('grid'); // 'grid' or 'list'
   const [selectedLetter, setSelectedLetter] = useState('ALL');
   const [currentPage, setCurrentPage] = useState(1);
+  const [isParchmentMode, setIsParchmentMode] = useState(() => {
+    return localStorage.getItem('archive_theme') === 'parchment';
+  });
   const pageSize = 24;
+
+  useEffect(() => {
+    if (isParchmentMode) {
+      document.documentElement.classList.add('theme-parchment');
+      localStorage.setItem('archive_theme', 'parchment');
+    } else {
+      document.documentElement.classList.remove('theme-parchment');
+      localStorage.setItem('archive_theme', 'dark');
+    }
+  }, [isParchmentMode]);
 
   // Track tab changes in Google Analytics
   const handleTabChange = (tabId) => {
@@ -39,7 +54,19 @@ export default function HomeScreen() {
     fetch('/api/stats.json').then(res => res.json()).then(setStats).catch(console.error);
     fetch('/api/surnames.json').then(res => res.json()).then(setSurnames).catch(console.error);
     fetch('/api/graph.json').then(res => res.json()).then(setGraphData).catch(console.error);
+
+    // Deep link support for surname portals: ?portal=Davis or ?surname=Davis
+    const params = new URLSearchParams(window.location.search);
+    const portalParam = params.get('portal') || params.get('surname');
+    if (portalParam) {
+      setActiveSurnamePortal(portalParam);
+    }
   }, []);
+
+  const handleOpenSurnamePortal = (surname) => {
+    setActiveSurnamePortal(surname);
+    trackEvent('open_portal', 'surname_portal', surname);
+  };
 
   const handleSelectSurname = (surname) => {
     setSelectedSurname(surname);
@@ -143,12 +170,12 @@ export default function HomeScreen() {
             </span>
             <nav className="space-y-1">
               {[
-                { id: 'surnames', label: 'Surname Portals', icon: Users },
-                { id: 'graph', label: 'Interactive Lineage Tree', icon: GitFork },
-                { id: 'interconnections', label: 'Family Interconnections', icon: GitCommit },
-                { id: 'gallery', label: 'Photo & Document Archive', icon: ImageIcon },
-                { id: 'obituaries', label: 'Obituary Vault', icon: HeartHandshake },
-                { id: 'records', label: 'Family Bible & Records', icon: FileText },
+                { id: 'surnames', label: 'Family Portals', icon: Users },
+                { id: 'graph', label: 'Family Tree & Map', icon: GitFork },
+                { id: 'interconnections', label: 'Clan Interconnections', icon: GitCommit },
+                { id: 'gallery', label: 'Photographs & Media', icon: ImageIcon },
+                { id: 'obituaries', label: 'Memorials & Obituaries', icon: HeartHandshake },
+                { id: 'records', label: 'Historical Records', icon: FileText },
               ].map(tab => {
                 const Icon = tab.icon;
                 const isActive = activeTab === tab.id;
@@ -250,8 +277,26 @@ export default function HomeScreen() {
 
           <div className="flex items-center gap-3">
             <button
+              onClick={() => setIsParchmentMode(prev => !prev)}
+              className="bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] text-[#A8A096] hover:text-[#F3EBE3] px-3.5 py-1.5 rounded-xl transition-all text-xs font-semibold flex items-center gap-2 shadow-sm"
+              title="Toggle Parchment Historical Paper / Archive Night theme"
+            >
+              {isParchmentMode ? (
+                <>
+                  <Moon className="w-3.5 h-3.5 text-[#C68B59]" />
+                  <span>Archive Night</span>
+                </>
+              ) : (
+                <>
+                  <Sun className="w-3.5 h-3.5 text-[#C68B59]" />
+                  <span>Parchment Paper</span>
+                </>
+              )}
+            </button>
+
+            <button
               onClick={() => setIsCommandPaletteOpen(true)}
-              className="bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] text-[#A8A096] hover:text-[#F3EBE3] px-3 py-1.5 rounded-xl transition-all text-xs font-semibold flex items-center gap-2"
+              className="bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] text-[#A8A096] hover:text-[#F3EBE3] px-3.5 py-1.5 rounded-xl transition-all text-xs font-semibold flex items-center gap-2 shadow-sm"
             >
               <Search className="w-3.5 h-3.5 text-[#C68B59]" />
               <span>Search Database...</span>
@@ -350,6 +395,73 @@ export default function HomeScreen() {
           </div>
         </div>
 
+        {/* Guided Pathways: Start Here for Elders, Families & Visitors */}
+        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 pt-1">
+          <button
+            onClick={() => setActiveTab('surnames')}
+            className={`group text-left bg-[#1C1A17] border rounded-2xl p-5 shadow-lg transition-all hover:-translate-y-0.5 active:scale-[0.99] flex flex-col justify-between ${
+              activeTab === 'surnames' ? 'border-[#C68B59] ring-1 ring-[#C68B59]/40' : 'border-[#332D27] hover:border-[#C68B59]/60'
+            }`}
+          >
+            <div>
+              <div className="w-10 h-10 rounded-xl bg-[#C68B59]/15 border border-[#C68B59]/30 flex items-center justify-center text-xl mb-3">
+                🌳
+              </div>
+              <h3 className="font-serif-header text-base font-bold text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors">
+                1. Explore Family Lines
+              </h3>
+              <p className="text-xs text-[#A8A096] mt-1.5 leading-relaxed">
+                Browse preserved family portals (Davis, Harmon, Durham, Mosley, Carney...) with portraits & pedigree trees.
+              </p>
+            </div>
+            <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#D4A373] mt-4 font-mono">
+              Browse 50+ Portals →
+            </span>
+          </button>
+
+          <button
+            onClick={() => setActiveTab('gallery')}
+            className={`group text-left bg-[#1C1A17] border rounded-2xl p-5 shadow-lg transition-all hover:-translate-y-0.5 active:scale-[0.99] flex flex-col justify-between ${
+              activeTab === 'gallery' ? 'border-[#C68B59] ring-1 ring-[#C68B59]/40' : 'border-[#332D27] hover:border-[#C68B59]/60'
+            }`}
+          >
+            <div>
+              <div className="w-10 h-10 rounded-xl bg-[#C68B59]/15 border border-[#C68B59]/30 flex items-center justify-center text-xl mb-3">
+                📸
+              </div>
+              <h3 className="font-serif-header text-base font-bold text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors">
+                2. See Historic Photos
+              </h3>
+              <p className="text-xs text-[#A8A096] mt-1.5 leading-relaxed">
+                Over 2,600 restored ancestor portraits, reunion photos, 5-generation pedigree charts, and cemetery tombstones.
+              </p>
+            </div>
+            <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#D4A373] mt-4 font-mono">
+              Open Media Archive →
+            </span>
+          </button>
+
+          <button
+            onClick={() => setIsCommandPaletteOpen(true)}
+            className="group text-left bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59]/60 rounded-2xl p-5 shadow-lg transition-all hover:-translate-y-0.5 active:scale-[0.99] flex flex-col justify-between"
+          >
+            <div>
+              <div className="w-10 h-10 rounded-xl bg-[#C68B59]/15 border border-[#C68B59]/30 flex items-center justify-center text-xl mb-3">
+                🔍
+              </div>
+              <h3 className="font-serif-header text-base font-bold text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors">
+                3. Find a Relative
+              </h3>
+              <p className="text-xs text-[#A8A096] mt-1.5 leading-relaxed">
+                Type any name, birth year, or Delmarva cemetery to search through 3,820 ancestor records instantly.
+              </p>
+            </div>
+            <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#D4A373] mt-4 font-mono">
+              Search Database (⌘K) →
+            </span>
+          </button>
+        </div>
+
         {/* Tab 1: Surname Portals */}
         {activeTab === 'surnames' && (
           <div className="space-y-6">
@@ -395,6 +507,41 @@ export default function HomeScreen() {
               </div>
             </div>
 
+            {/* Featured Lineage Portals Quick Strip */}
+            <div className="flex items-center gap-2 overflow-x-auto pb-2 custom-scrollbar bg-[#161412] p-2.5 rounded-xl border border-[#2B2621]">
+              <span className="text-[11px] font-mono text-[#D4A373] px-2 font-bold uppercase shrink-0 flex items-center gap-1.5">
+                <Sparkles className="w-3.5 h-3.5 text-[#C87D53]" />
+                Featured Portals:
+              </span>
+              {[
+                { name: 'Davis', count: 161, photos: 94, highlight: true },
+                { name: 'Harmon', count: 274, photos: 121 },
+                { name: 'Durham', count: 272, photos: 222 },
+                { name: 'Mosley', count: 191, photos: 174 },
+                { name: 'Carney', count: 106, photos: 114 },
+                { name: 'Clark', count: 145, photos: 58 },
+                { name: 'Pierce', count: 77, photos: 80 },
+                { name: 'Sammons', count: 97, photos: 91 },
+                { name: 'Wright', count: 115, photos: 87 },
+                { name: 'Jackson', count: 122, photos: 85 }
+              ].map(item => (
+                <button
+                  key={item.name}
+                  onClick={() => handleOpenSurnamePortal(item.name)}
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-mono transition-all shrink-0 ${
+                    item.highlight
+                      ? 'bg-[#C68B59] text-[#121110] font-bold shadow-md shadow-[#C68B59]/25 hover:brightness-110'
+                      : 'bg-[#1F1B17] hover:bg-[#2A241F] border border-[#332D27] hover:border-[#C68B59]/40 text-[#E5E1DB]'
+                  }`}
+                >
+                  <span>{item.name}</span>
+                  <span className={`text-[10px] px-1.5 py-0.5 rounded ${item.highlight ? 'bg-black/25 text-white font-bold' : 'bg-[#141210] text-[#A8A096]'}`}>
+                    {item.photos} 📸
+                  </span>
+                </button>
+              ))}
+            </div>
+
             {/* A–Z Alphabetical Quick-Jump Ribbon */}
             <div className="flex items-center gap-1 overflow-x-auto pb-2 custom-scrollbar bg-[#161412] p-2 rounded-xl border border-[#2B2621]">
               <span className="text-[11px] font-mono text-[#8C8275] px-2 font-semibold uppercase">Jump:</span>
@@ -429,7 +576,7 @@ export default function HomeScreen() {
                     pages={s.associated_pages}
                     photos={s.photo_count}
                     obituaries={s.obituary_count}
-                    onSelect={handleSelectSurname}
+                    onSelect={handleOpenSurnamePortal}
                   />
                 ))}
               </div>
@@ -451,7 +598,7 @@ export default function HomeScreen() {
                     {paginatedSurnames.map(s => (
                       <tr
                         key={s.surname}
-                        onClick={() => handleSelectSurname(s.surname)}
+                        onClick={() => handleOpenSurnamePortal(s.surname)}
                         className="hover:bg-[#24201C] cursor-pointer transition-colors group"
                       >
                         <td className="py-3 px-4 font-serif-header font-bold text-[#F3EBE3] group-hover:text-[#D4A373] text-sm">
@@ -704,6 +851,16 @@ export default function HomeScreen() {
         </div>
       </footer>
     </main>
+
+      {/* Surname Portal View Modal */}
+      {activeSurnamePortal && (
+        <SurnamePortalView
+          surname={activeSurnamePortal}
+          onClose={() => setActiveSurnamePortal(null)}
+          onSelectPerson={(pid) => setSelectedPersonId(pid)}
+          onOpenGraph={(sn) => handleSelectSurname(sn)}
+        />
+      )}
 
       {/* Person Profile Drawer Modal */}
       {/* Selected Person Overlay */}

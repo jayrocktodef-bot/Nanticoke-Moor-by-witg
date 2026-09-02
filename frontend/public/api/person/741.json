@@ -41,6 +41,15 @@
           "source_dataset": "mitsawokett_obits"
         }
       ]
+    },
+    {
+      "fact_id": 11667,
+      "person_id": 741,
+      "fact_type": "Burial",
+      "date_string": "1947",
+      "place_string": "Cemetery",
+      "value_string": "Interred per Obituary Notice",
+      "citations": []
     }
   ],
   "relationships": [
@@ -52,7 +61,21 @@
       "rel_name": "George Hitchens"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 741,
+      "photo_id": 1263,
+      "category": "people",
+      "title_or_caption": "Hitchens_Edith_Wright_And_Dau.jpg",
+      "subject_names": "Donald Hitchens",
+      "married_surname": "Hitchens",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Hitchens_Edith_Wright_And_Dau.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HitchensDonald1.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo"
+    }
+  ],
   "obituaries": [
     {
       "person_id": 741,

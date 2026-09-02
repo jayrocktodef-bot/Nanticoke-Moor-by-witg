@@ -14,6 +14,7 @@ Provides REST API endpoints for:
 
 import os
 import sqlite3
+import re
 from fastapi import FastAPI, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -21,7 +22,9 @@ from fastapi.staticfiles import StaticFiles
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "preservation_output")
 DB_PATH = os.path.join(OUTPUT_DIR, "genealogy_preservation.db")
-IMAGES_DIR = os.path.join(OUTPUT_DIR, "assets", "images")
+ARCHIVE_MEDIA_DIR = os.path.join(OUTPUT_DIR, "assets", "archive_media")
+IMAGES_DIR = ARCHIVE_MEDIA_DIR
+MITSAWOKETT_PHOTOS_DIR = ARCHIVE_MEDIA_DIR
 
 app = FastAPI(title="Genealogy Preservation API")
 
@@ -34,9 +37,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Serve raw media assets
-os.makedirs(IMAGES_DIR, exist_ok=True)
-app.mount("/assets/images", StaticFiles(directory=IMAGES_DIR), name="images")
+# Serve canonical media assets
+os.makedirs(ARCHIVE_MEDIA_DIR, exist_ok=True)
+app.mount("/assets/archive_media", StaticFiles(directory=ARCHIVE_MEDIA_DIR), name="archive_media")
+app.mount("/assets/images", StaticFiles(directory=ARCHIVE_MEDIA_DIR), name="images")
+app.mount("/assets/mitsawokett_photos", StaticFiles(directory=ARCHIVE_MEDIA_DIR), name="mitsawokett_photos")
 
 def get_db():
     conn = sqlite3.connect(DB_PATH)
@@ -170,6 +175,69 @@ def get_surnames():
 
     conn.close()
     return results
+
+
+@app.get("/api/surnames/{surname}")
+@app.get("/api/surnames/{surname}.json")
+def get_surname_portal(surname: str):
+    clean_surname = surname.replace(".json", "")
+    conn = get_db()
+    c = conn.cursor()
+
+    # Individual count & members
+    c.execute("""
+        SELECT p.person_id, p.name, p.first_name, p.middle_name, p.maiden_name,
+               p.married_last_name, p.birth_info, p.death_info, p.notes,
+               (SELECT COUNT(*) FROM person_photos pp WHERE pp.person_id = p.person_id) as photo_count
+        FROM persons p
+        WHERE p.name LIKE ? OR p.maiden_name LIKE ? OR p.married_last_name LIKE ?
+        ORDER BY p.name ASC
+    """, (f"%{clean_surname}%", f"%{clean_surname}%", f"%{clean_surname}%"))
+    individuals = [dict(r) for r in c.fetchall()]
+
+    # Photos & breakdown
+    c.execute("""
+        SELECT upc.photo_id, upc.category, upc.normalized_filename, upc.local_image_path,
+               upc.subject_names, upc.approximate_year, upc.document_type
+        FROM photo_surnames ps
+        JOIN unified_photo_catalog upc ON ps.photo_id = upc.photo_id
+        WHERE LOWER(ps.surname) = LOWER(?)
+        ORDER BY upc.category ASC, upc.approximate_year DESC
+    """, (clean_surname,))
+    photos = [dict(r) for r in c.fetchall()]
+
+    # Category counts
+    c.execute("""
+        SELECT upc.category, COUNT(DISTINCT upc.photo_id)
+        FROM photo_surnames ps
+        JOIN unified_photo_catalog upc ON ps.photo_id = upc.photo_id
+        WHERE LOWER(ps.surname) = LOWER(?)
+        GROUP BY upc.category
+    """, (clean_surname,))
+    cat_counts = dict(c.fetchall())
+
+    # Obituaries
+    c.execute("""
+        SELECT o.id, o.deceased_name, o.age, o.birth_date, o.death_date, o.cemetery_location, o.full_text, o.source_url
+        FROM obituaries o
+        WHERE o.deceased_name LIKE ? OR o.full_text LIKE ?
+        ORDER BY o.deceased_name ASC
+    """, (f"%{clean_surname}%", f"%{clean_surname}%"))
+    obits = [dict(r) for r in c.fetchall()]
+
+    conn.close()
+
+    return {
+        "surname": clean_surname,
+        "individual_count": len(individuals),
+        "photo_count": len(photos),
+        "category_counts": cat_counts,
+        "obituary_count": len(obits),
+        "variants": f"{clean_surname}s, {clean_surname}e",
+        "photos": photos,
+        "individuals": individuals,
+        "obituaries": obits
+    }
 
 
 @app.get("/api/persons")
@@ -713,9 +781,103 @@ def get_person_profile(person_id: int):
         "photos": photos,
         "obituaries": obits
     }
-MITSAWOKETT_PHOTOS_DIR = os.path.join(OUTPUT_DIR, "assets", "mitsawokett_photos")
-os.makedirs(MITSAWOKETT_PHOTOS_DIR, exist_ok=True)
-app.mount("/assets/mitsawokett_photos", StaticFiles(directory=MITSAWOKETT_PHOTOS_DIR), name="mitsawokett_photos")
+
+@app.get("/api/search")
+def search_archive(q: str = Query(..., min_length=2, description="Search query")):
+    """Full-text search across obituaries, historical articles, and documents using SQLite FTS5."""
+    conn = get_db()
+    c = conn.cursor()
+    
+    # Sanitize FTS query for safe matching
+    safe_q = re.sub(r'[^\w\s]', ' ', q).strip()
+    if not safe_q:
+        return {"query": q, "total_results": 0, "results": []}
+    
+    match_terms = " ".join([f'"{term}"*' for term in safe_q.split()])
+    
+    try:
+        c.execute("""
+            SELECT doc_type, source_id, title,
+                   snippet(fts_genealogy_corpus, 3, '<mark>', '</mark>', '...', 12) as text_snippet,
+                   metadata
+            FROM fts_genealogy_corpus
+            WHERE fts_genealogy_corpus MATCH ?
+            ORDER BY rank
+            LIMIT 50
+        """, (match_terms,))
+        results = [dict(r) for r in c.fetchall()]
+    except Exception:
+        results = []
+        
+    conn.close()
+    return {
+        "query": q,
+        "total_results": len(results),
+        "results": results
+    }
+
+@app.get("/api/cemeteries")
+def get_cemeteries():
+    """Returns all historical Nanticoke & Moor cemeteries with geocoordinates and tombstone counts."""
+    conn = get_db()
+    c = conn.cursor()
+    c.execute("""
+        SELECT c.*, COUNT(tcl.photo_id) as tombstone_count
+        FROM cemeteries c
+        LEFT JOIN tombstone_cemetery_links tcl ON c.cemetery_id = tcl.cemetery_id
+        GROUP BY c.cemetery_id
+        ORDER BY tombstone_count DESC, c.name ASC
+    """)
+    cemeteries = [dict(r) for r in c.fetchall()]
+    conn.close()
+    return {"total": len(cemeteries), "cemeteries": cemeteries}
+
+@app.get("/api/cemeteries/{cemetery_id}")
+def get_cemetery_detail(cemetery_id: int):
+    """Returns cemetery details and associated tombstone photos."""
+    conn = get_db()
+    c = conn.cursor()
+    c.execute("SELECT * FROM cemeteries WHERE cemetery_id = ?", (cemetery_id,))
+    cem = c.fetchone()
+    if not cem:
+        conn.close()
+        raise HTTPException(status_code=404, detail="Cemetery not found")
+        
+    c.execute("""
+        SELECT upc.photo_id, upc.normalized_filename, upc.local_image_path, upc.subject_names
+        FROM tombstone_cemetery_links tcl
+        JOIN unified_photo_catalog upc ON tcl.photo_id = upc.photo_id
+        WHERE tcl.cemetery_id = ?
+    """, (cemetery_id,))
+    tombstones = [dict(r) for r in c.fetchall()]
+    conn.close()
+    return {
+        "cemetery": dict(cem),
+        "tombstones": tombstones
+    }
+
+@app.get("/api/person/{person_id}/timeline")
+def get_person_timeline(person_id: int):
+    """Returns an ordered chronological timeline of life facts and events with citations."""
+    conn = get_db()
+    c = conn.cursor()
+    c.execute("""
+        SELECT f.fact_id, f.fact_type, f.date_string, f.place_string, f.value_string,
+               s.title as source_title, c.evidence_text
+        FROM facts f
+        LEFT JOIN citations c ON f.fact_id = c.fact_id
+        LEFT JOIN sources s ON c.source_id = s.source_id
+        WHERE f.person_id = ?
+        ORDER BY f.date_string ASC, f.fact_id ASC
+    """, (person_id,))
+    timeline = [dict(r) for r in c.fetchall()]
+    conn.close()
+    return {
+        "person_id": person_id,
+        "timeline_events_count": len(timeline),
+        "events": timeline
+    }
+
 
 
 if __name__ == "__main__":

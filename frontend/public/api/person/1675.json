@@ -32,10 +32,59 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11627,
+      "person_id": 1675,
+      "fact_type": "Social Security Application",
+      "date_string": "Mid 20th Century",
+      "place_string": "Delaware/Sussex/Kent",
+      "value_string": "Applicant: Garfield Mosley, Maiden/Full: Mosley, Garfield",
+      "citations": []
     }
   ],
   "relationships": [],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 1675,
+      "photo_id": 1650,
+      "category": "people",
+      "title_or_caption": "Mosley_Garfield.jpg",
+      "subject_names": "Mosley Garfield SSA",
+      "married_surname": "Mosley",
+      "approximate_year": "1997",
+      "local_image_path": "assets/archive_media/people/Mosley_Garfield.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/SocialSecurityApplications.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait"
+    },
+    {
+      "person_id": 1675,
+      "photo_id": 3339,
+      "category": "documents",
+      "title_or_caption": "Mosley_Garfield_SocialSecurity_Application.jpg",
+      "subject_names": "Mosley Garfield SocialSecurity Application",
+      "married_surname": "",
+      "approximate_year": null,
+      "local_image_path": "assets/archive_media/documents/Mosley_Garfield_SocialSecurity_Application.jpg",
+      "source_url": null,
+      "dataset_source": "images",
+      "document_type": "ss_application"
+    },
+    {
+      "person_id": 1675,
+      "photo_id": 1721,
+      "category": "people",
+      "title_or_caption": "Mosley_Garfield_And_Lulu.jpg",
+      "subject_names": "Lulu Durham",
+      "married_surname": "Mosley",
+      "approximate_year": "1861",
+      "local_image_path": "assets/archive_media/people/Mosley_Garfield_And_Lulu.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyGeoffrey&Lulu.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

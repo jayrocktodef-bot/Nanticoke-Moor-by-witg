@@ -7,90 +7,107 @@ export default function PhotoGallery() {
   const [photos, setPhotos] = useState([]);
   const [lightboxPhoto, setLightboxPhoto] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [categoryTab, setCategoryTab] = useState('portraits'); // 'portraits', 'vitals', 'trees'
+  const [categoryTab, setCategoryTab] = useState('all'); // 'all', 'people', 'documents', 'family_trees', 'tombstones'
   const [isStoryMode, setIsStoryMode] = useState(false);
   const [storyIndex, setStoryIndex] = useState(0);
 
-  const isTreeItem = (p) => {
-    if (p.media_type === 'lineage_tree') return true;
-    const path = (p.local_image_path || '').toLowerCase();
-    const title = (p.title_or_caption || '').toLowerCase();
-    return (
-      path.includes('ancestry') || path.includes('tree') || path.includes('diagram') || path.includes('chart') ||
-      title.includes('ancestry') || title.includes('tree') || title.includes('diagram') || title.includes('chart') ||
-      title.includes('go to') || title.includes('| d |') || title.includes('| e-l |') || title.includes('| m |') || title.includes('| n-r')
-    );
-  };
-
-  const isVitalItem = (p) => {
-    if (p.media_type === 'vital_record' || p.media_type === 'headstone') return true;
-    const path = (p.local_image_path || '').toLowerCase();
-    const title = (p.title_or_caption || '').toLowerCase();
-    return (
-      path.includes('certificate') || path.includes('death') || path.includes('birth') || path.includes('marriage') || path.includes('grave') || path.includes('tombstone') || path.includes('diploma') ||
-      title.includes('certificate') || title.includes('record of death') || title.includes('marriage') || title.includes('tombstone') || title.includes('headstone')
-    ) && !isTreeItem(p);
+  const matchCategory = (p, tab) => {
+    if (!tab || tab === 'all') return true;
+    if (p.category) return p.category === tab;
+    // Fallbacks
+    if (tab === 'family_trees') {
+      const path = (p.local_image_path || '').toLowerCase();
+      const title = (p.title_or_caption || '').toLowerCase();
+      return path.includes('ancestry') || path.includes('tree') || title.includes('ancestry') || title.includes('tree');
+    }
+    if (tab === 'tombstones') {
+      const path = (p.local_image_path || '').toLowerCase();
+      return path.includes('tombstone') || path.includes('cemetery') || p.document_type === 'tombstone';
+    }
+    if (tab === 'documents') {
+      const path = (p.local_image_path || '').toLowerCase();
+      return path.includes('certificate') || path.includes('census') || path.includes('will') || path.includes('deed');
+    }
+    if (tab === 'people') {
+      return !matchCategory(p, 'family_trees') && !matchCategory(p, 'tombstones') && !matchCategory(p, 'documents');
+    }
+    return true;
   };
 
   useEffect(() => {
-    fetch('/api/photos.json')
+    fetch('/api/surnames.json')
       .then(r => r.json())
       .then(data => {
-        const countsMap = {};
-        data.forEach(p => {
-          if (!isTreeItem(p) && !isVitalItem(p)) {
-            const s = p.maiden_name;
-            if (s && s.length > 1) {
-              countsMap[s] = (countsMap[s] || 0) + 1;
-            }
-          }
-        });
-        const countsArr = Object.entries(countsMap).map(([surname, photo_count]) => ({ surname, photo_count }));
-        countsArr.sort((a, b) => a.surname.localeCompare(b.surname, undefined, { sensitivity: 'base' }));
+        const countsArr = data
+          .filter(s => s.photo_count > 0)
+          .map(s => ({
+            surname: s.surname,
+            photo_count: s.photo_count,
+            category_counts: s.category_counts
+          }));
         setSurnameCounts(countsArr);
       })
-      .catch(console.error);
+      .catch(() => {
+        fetch('/api/photos.json')
+          .then(r => r.json())
+          .then(data => {
+            const countsMap = {};
+            data.forEach(p => {
+              const s = p.married_surname || p.maiden_name;
+              if (s && s.length > 1) {
+                countsMap[s] = (countsMap[s] || 0) + 1;
+              }
+            });
+            const countsArr = Object.entries(countsMap).map(([surname, photo_count]) => ({ surname, photo_count }));
+            countsArr.sort((a, b) => a.surname.localeCompare(b.surname));
+            setSurnameCounts(countsArr);
+          });
+      });
   }, []);
 
   const handleSelectSurname = (surname) => {
     setSelectedSurname(surname);
     setLoading(true);
-    fetch('/api/photos.json')
+    fetch(`/api/surnames/${surname}.json`)
       .then(r => r.json())
       .then(data => {
-        const lowerS = surname.toLowerCase();
-        let filtered = data.filter(p => 
-          p.maiden_name?.toLowerCase().includes(lowerS) ||
-          p.married_surname?.toLowerCase().includes(lowerS) ||
-          p.subject_names?.toLowerCase().includes(lowerS)
-        );
-        if (categoryTab === 'portraits') {
-          filtered = filtered.filter(p => !isTreeItem(p) && !isVitalItem(p));
-        } else if (categoryTab === 'vitals') {
-          filtered = filtered.filter(p => isVitalItem(p));
-        } else if (categoryTab === 'trees') {
-          filtered = filtered.filter(p => isTreeItem(p));
+        let list = data.photos || [];
+        if (categoryTab !== 'all') {
+          list = list.filter(p => matchCategory(p, categoryTab));
         }
-        setPhotos(filtered);
+        setPhotos(list);
         setLoading(false);
       })
-      .catch(() => setLoading(false));
+      .catch(() => {
+        fetch('/api/photos.json')
+          .then(r => r.json())
+          .then(data => {
+            const lowerS = surname.toLowerCase();
+            let filtered = data.filter(p => 
+              p.maiden_name?.toLowerCase().includes(lowerS) ||
+              p.married_surname?.toLowerCase().includes(lowerS) ||
+              p.subject_names?.toLowerCase().includes(lowerS) ||
+              p.title_or_caption?.toLowerCase().includes(lowerS)
+            );
+            if (categoryTab !== 'all') {
+              filtered = filtered.filter(p => matchCategory(p, categoryTab));
+            }
+            setPhotos(filtered);
+            setLoading(false);
+          });
+      });
   };
 
   const handleShowAll = (tabOverride) => {
-    const tab = tabOverride || categoryTab;
+    const tab = tabOverride !== undefined ? tabOverride : categoryTab;
     setSelectedSurname(null);
     setLoading(true);
     fetch('/api/photos.json')
       .then(r => r.json())
       .then(data => {
         let filtered = data;
-        if (tab === 'portraits') {
-          filtered = data.filter(p => !isTreeItem(p) && !isVitalItem(p));
-        } else if (tab === 'vitals') {
-          filtered = data.filter(p => isVitalItem(p));
-        } else if (tab === 'trees') {
-          filtered = data.filter(p => isTreeItem(p));
+        if (tab !== 'all') {
+          filtered = data.filter(p => matchCategory(p, tab));
         }
         setPhotos(filtered);
         setLoading(false);
@@ -135,43 +152,68 @@ export default function PhotoGallery() {
           <div className="flex flex-wrap items-center gap-2 bg-[#171E27] border border-[#2A3644] p-1.5 rounded-2xl text-xs">
             <button
               onClick={() => {
-                setCategoryTab('portraits');
-                setSelectedSurname(null);
-                setPhotos([]);
+                setCategoryTab('all');
+                handleShowAll('all');
               }}
               className={`px-3.5 py-1.5 rounded-xl font-semibold transition-all ${
-                categoryTab === 'portraits'
+                categoryTab === 'all'
                   ? 'bg-[#C87D53] text-[#0F141A] font-bold shadow-md'
                   : 'text-[#9EA9B6] hover:text-[#F3EBE3]'
               }`}
             >
-              📷 Portraits
+              All Media
             </button>
             <button
               onClick={() => {
-                setCategoryTab('vitals');
-                handleShowAll('vitals');
+                setCategoryTab('people');
+                handleShowAll('people');
               }}
               className={`px-3.5 py-1.5 rounded-xl font-semibold transition-all ${
-                categoryTab === 'vitals'
+                categoryTab === 'people'
                   ? 'bg-[#C87D53] text-[#0F141A] font-bold shadow-md'
                   : 'text-[#9EA9B6] hover:text-[#F3EBE3]'
               }`}
             >
-              📜 Vital Records
+              👥 People
             </button>
             <button
               onClick={() => {
-                setCategoryTab('trees');
-                handleShowAll('trees');
+                setCategoryTab('documents');
+                handleShowAll('documents');
               }}
               className={`px-3.5 py-1.5 rounded-xl font-semibold transition-all ${
-                categoryTab === 'trees'
+                categoryTab === 'documents'
                   ? 'bg-[#C87D53] text-[#0F141A] font-bold shadow-md'
                   : 'text-[#9EA9B6] hover:text-[#F3EBE3]'
               }`}
             >
-              🌳 Trees & Charts
+              📜 Documents
+            </button>
+            <button
+              onClick={() => {
+                setCategoryTab('family_trees');
+                handleShowAll('family_trees');
+              }}
+              className={`px-3.5 py-1.5 rounded-xl font-semibold transition-all ${
+                categoryTab === 'family_trees'
+                  ? 'bg-[#C87D53] text-[#0F141A] font-bold shadow-md'
+                  : 'text-[#9EA9B6] hover:text-[#F3EBE3]'
+              }`}
+            >
+              🌳 Trees
+            </button>
+            <button
+              onClick={() => {
+                setCategoryTab('tombstones');
+                handleShowAll('tombstones');
+              }}
+              className={`px-3.5 py-1.5 rounded-xl font-semibold transition-all ${
+                categoryTab === 'tombstones'
+                  ? 'bg-[#C87D53] text-[#0F141A] font-bold shadow-md'
+                  : 'text-[#9EA9B6] hover:text-[#F3EBE3]'
+              }`}
+            >
+              🪦 Tombstones
             </button>
           </div>
 
