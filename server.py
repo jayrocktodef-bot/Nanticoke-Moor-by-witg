@@ -390,6 +390,11 @@ def get_pdf_route(identifier: str):
 
 @app.get("/api/transcriptions/{identifier:path}")
 def get_transcription_endpoint(identifier: str):
+    if identifier.endswith(".json"):
+        identifier = identifier[:-5]
+    elif identifier.endswith(".pdf"):
+        identifier = identifier[:-4]
+
     import urllib.parse
     conn = get_db()
     c = conn.cursor()
