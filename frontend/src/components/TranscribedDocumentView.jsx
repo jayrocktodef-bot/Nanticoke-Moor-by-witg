@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { createPortal } from 'react-dom';
 import { 
   X, Copy, Check, Printer, Volume2, VolumeX, Search, 
@@ -24,7 +24,108 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
 
   const speechRef = useRef(null);
 
-  const pdfUrl = `/api/pdf/${encodeURIComponent(identifier || data?.identifier || '')}`;
+  const pdfBlobUrl = useMemo(() => {
+    if (!data) return null;
+    try {
+      const doc = new jsPDF({ orientation: 'p', unit: 'mm', format: 'a4' });
+      const pageWidth = doc.internal.pageSize.getWidth();
+      const margin = 15;
+      const contentWidth = pageWidth - (margin * 2);
+
+      // Header Banner
+      doc.setFillColor(26, 23, 20);
+      doc.rect(margin, 10, contentWidth, 7, 'F');
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(8.5);
+      doc.setTextColor(198, 139, 89);
+      doc.text('DELAWARE NATIVE AMERICAN ARCHIVES - PRESERVED MANUSCRIPT', pageWidth / 2, 14.5, { align: 'center' });
+
+      // Title
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(13);
+      doc.setTextColor(24, 20, 16);
+      const titleLines = doc.splitTextToSize(data.title || 'Historical Document', contentWidth);
+      doc.text(titleLines, pageWidth / 2, 24, { align: 'center' });
+
+      let yPos = 24 + (titleLines.length * 5.5) + 2;
+
+      // Meta Subtitle
+      doc.setFont('helvetica', 'italic');
+      doc.setFontSize(8);
+      doc.setTextColor(110, 100, 90);
+      const metaText = `Classification: ${data.document_type || 'Primary Record'} | Year: ${data.approximate_year || 'Historical'} | Length: ${data.line_count || data.lines?.length || 0} Lines`;
+      doc.text(metaText, pageWidth / 2, yPos, { align: 'center' });
+      yPos += 4;
+
+      // Divider
+      doc.setDrawColor(198, 139, 89);
+      doc.setLineWidth(0.4);
+      doc.line(margin, yPos, pageWidth - margin, yPos);
+      yPos += 6;
+
+      // Body lines
+      doc.setFontSize(9);
+      doc.setLineWidth(0.2);
+
+      const linesToRender = data.lines || (data.full_text ? data.full_text.split('\n') : []);
+      linesToRender.forEach((line, idx) => {
+        if (yPos > 270) {
+          doc.addPage();
+          yPos = 15;
+        }
+
+        if (line.startsWith('---') || line.startsWith('===')) {
+          doc.setDrawColor(210, 200, 190);
+          doc.line(margin, yPos, pageWidth - margin, yPos);
+          yPos += 4;
+          return;
+        }
+
+        doc.setFont('courier', 'normal');
+        doc.setFontSize(7.5);
+        doc.setTextColor(150, 140, 130);
+        doc.text(String(idx + 1).padStart(3, ' '), margin, yPos);
+
+        doc.setFont('helvetica', 'normal');
+        doc.setFontSize(9);
+        doc.setTextColor(30, 30, 30);
+
+        const cleanLine = line.replace(/[^\x00-\x7F]/g, ' ');
+        const wrapped = doc.splitTextToSize(cleanLine, contentWidth - 10);
+        doc.text(wrapped, margin + 8, yPos);
+        yPos += (wrapped.length * 4.2) + 1;
+      });
+
+      if (data.citation) {
+        if (yPos > 250) {
+          doc.addPage();
+          yPos = 15;
+        }
+        yPos += 4;
+        doc.setFillColor(245, 243, 240);
+        doc.setDrawColor(200, 190, 180);
+        doc.rect(margin, yPos, contentWidth, 5, 'FD');
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(7.5);
+        doc.setTextColor(198, 139, 89);
+        doc.text('ARCHIVAL CITATION', margin + 3, yPos + 3.5);
+
+        yPos += 7;
+        doc.setFont('helvetica', 'normal');
+        doc.setFontSize(7.5);
+        doc.setTextColor(60, 60, 60);
+        const cleanCite = data.citation.replace(/[^\x00-\x7F]/g, ' ');
+        const citeWrapped = doc.splitTextToSize(cleanCite, contentWidth - 6);
+        doc.text(citeWrapped, margin + 3, yPos);
+      }
+
+      const blob = doc.output('blob');
+      return URL.createObjectURL(blob);
+    } catch (err) {
+      console.error('Failed client PDF blob generation:', err);
+      return `/api/pdf/${encodeURIComponent(identifier || data?.identifier || '')}`;
+    }
+  }, [data, identifier]);
 
   const handleDownloadPdf = () => {
     if (!data) return;
@@ -520,7 +621,7 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
                 </button>
               </div>
               <iframe
-                src={pdfUrl}
+                src={pdfBlobUrl}
                 title={`PDF Reader - ${data?.title}`}
                 className="w-full flex-1 min-h-[72vh] rounded-2xl border border-[#3A322B] bg-[#1A1714] shadow-2xl"
               />
