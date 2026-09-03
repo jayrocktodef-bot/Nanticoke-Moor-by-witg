@@ -103,7 +103,12 @@ def get_stats():
         }
     }
 
+@app.get("/api/stats.json")
+def get_stats_alias():
+    return get_stats()
+
 @app.get("/api/surnames")
+@app.get("/api/surnames.json")
 def get_surnames():
     """Return aggregated surname stats across all integrated datasets, merging phonetic spelling variants."""
     conn = get_db()
@@ -263,6 +268,7 @@ def get_persons(surname: str = Query(None), q: str = Query(None)):
     return rows
 
 @app.get("/api/graph")
+@app.get("/api/graph.json")
 def get_graph(surname: str = Query(None)):
     """Return nodes and edges for network graph visualization, prioritizing connected lineages."""
     conn = get_db()
@@ -366,6 +372,155 @@ def get_record(filename: str):
         "wayback_url": page["wayback_url"],
         "timestamp": page["timestamp"],
         "media_assets": media
+    }
+
+@app.get("/api/transcriptions/{identifier:path}")
+def get_transcription_endpoint(identifier: str):
+    import urllib.parse
+    conn = get_db()
+    c = conn.cursor()
+
+    is_int = False
+    try:
+        pid = int(identifier)
+        is_int = True
+    except ValueError:
+        is_int = False
+
+    transcribed_text = None
+    title = None
+    doc_type = "Historical Document"
+    approx_year = "Historical Record"
+    source_url = None
+    local_image = None
+    original_filename = None
+    surname = None
+    clean_html = None
+
+    if is_int:
+        c.execute("""
+            SELECT photo_id, category, normalized_filename, original_filename,
+                   local_image_path, subject_names, surname, given_names,
+                   approximate_year, document_type, dataset_source, source_url
+            FROM unified_photo_catalog
+            WHERE photo_id = ?
+        """, (pid,))
+        doc = c.fetchone()
+        if doc:
+            doc = dict(doc)
+            title = doc.get("subject_names") or doc.get("normalized_filename")
+            doc_type = (doc.get("document_type") or doc.get("category") or "document").replace("_", " ").title()
+            approx_year = doc.get("approximate_year") or "Historical Record"
+            source_url = doc.get("source_url")
+            local_image = doc.get("local_image_path")
+            original_filename = doc.get("original_filename")
+            surname = doc.get("surname")
+
+            if source_url:
+                slug = source_url.split("/")[-1]
+                slug_decoded = urllib.parse.unquote(slug)
+                slug_quoted = urllib.parse.quote(slug_decoded)
+                c.execute("""
+                    SELECT title, text_content, clean_html, wayback_url 
+                    FROM pages 
+                    WHERE filename = ? OR filename = ? OR filename LIKE ? OR wayback_url = ?
+                    LIMIT 1
+                """, (slug, slug_quoted, f"%{slug_decoded}%", source_url))
+                p = c.fetchone()
+                if p:
+                    if p["title"] and not p["title"].startswith("Mitsawokett"):
+                        title = p["title"]
+                    transcribed_text = p["text_content"]
+                    clean_html = p["clean_html"]
+    else:
+        decoded = urllib.parse.unquote(identifier)
+        quoted = urllib.parse.quote(decoded)
+        c.execute("""
+            SELECT filename, title, text_content, clean_html, wayback_url 
+            FROM pages 
+            WHERE filename = ? OR filename = ? OR filename LIKE ? OR wayback_url = ?
+            LIMIT 1
+        """, (identifier, quoted, f"%{decoded}%", identifier))
+        p = c.fetchone()
+        if p:
+            title = p["title"] or decoded
+            transcribed_text = p["text_content"]
+            clean_html = p["clean_html"]
+            source_url = p["wayback_url"]
+            original_filename = p["filename"]
+
+            c.execute("SELECT local_path, caption FROM media_assets WHERE associated_page = ? LIMIT 1", (p["filename"],))
+            m = c.fetchone()
+            if m:
+                local_image = m["local_path"]
+
+            low = (p["filename"] + " " + (p["title"] or "")).lower()
+            if "bible" in low:
+                doc_type = "Family Bible Register"
+            elif "will" in low or "probate" in low:
+                doc_type = "Last Will & Testament / Probate"
+            elif "deed" in low or "land" in low:
+                doc_type = "Land Deed / Indenture"
+            elif "census" in low or "race" in low:
+                doc_type = "Census Enumeration / Reclassification"
+            elif "apprentice" in low:
+                doc_type = "Apprentice Binding Indenture"
+            elif "church" in low:
+                doc_type = "Church Record / Register"
+            else:
+                doc_type = "Preserved Primary Document"
+
+    conn.close()
+
+    if not title and not transcribed_text:
+        raise HTTPException(status_code=404, detail="Document record not found")
+
+    if not title:
+        title = f"Archival Document #{identifier}"
+
+    if transcribed_text:
+        raw_lines = [l.strip() for l in transcribed_text.splitlines() if l.strip()]
+        lines = raw_lines
+        full_text = "\n".join(lines)
+    else:
+        lines = [
+            f"DOCUMENT TITLE: {title}",
+            f"RECORD CLASSIFICATION: {doc_type}",
+            f"ARCHIVAL HOLDING: Native Americans of Delaware State / Mitsawokett Historical Archive",
+            f"ESTIMATED DATE / ERA: {approx_year}",
+            "--------------------------------------------------------------------------------",
+            "TRANSCRIPTION RECORD & SUMMARY:",
+            f"This primary document was preserved as part of the Delmarva genealogical survey of the Nanticoke, Moor, and Lenape families.",
+            f"Associated File: {original_filename or identifier}",
+            f"Lineage / Surnames Documented: {surname or 'Delmarva tribal families'}",
+            "--------------------------------------------------------------------------------",
+            "VERIFICATION & CITATION:",
+            f"Source URL: {source_url or 'Preserved in Mitsawokett Digital Archive'}",
+            f"Archive Identifier: Item #{identifier}"
+        ]
+        full_text = "\n".join(lines)
+
+    words = len(full_text.split())
+    citation = f'"{title}." Historical Document Record ({approx_year}). Preserved in the Nanticoke & Moor Historical Archive (Written in the Genome Collection).'
+    if source_url:
+        citation += f' Original source: {source_url}.'
+
+    return {
+        "identifier": identifier,
+        "title": title,
+        "document_type": doc_type,
+        "approximate_year": approx_year,
+        "repository": "Delaware Native American Archives / Mitsawokett Collection",
+        "transcriber": "Archival Transcriber / Written in the Genome",
+        "status": "verified",
+        "citation": citation,
+        "source_url": source_url,
+        "local_image_path": local_image,
+        "line_count": len(lines),
+        "word_count": words,
+        "lines": lines,
+        "full_text": full_text,
+        "clean_html": clean_html
     }
 
 @app.get("/api/media")

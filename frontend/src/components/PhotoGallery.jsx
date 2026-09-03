@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
-import { Camera, Users, ChevronRight, ArrowLeft, Calendar, ExternalLink, Play, Square, Sparkles, X } from 'lucide-react';
+import { Camera, Users, ChevronRight, ArrowLeft, Calendar, ExternalLink, Play, Square, Sparkles, X, FileText } from 'lucide-react';
+import TranscribedDocumentView from './TranscribedDocumentView';
 
 export default function PhotoGallery() {
   const [surnameCounts, setSurnameCounts] = useState([]);
   const [selectedSurname, setSelectedSurname] = useState(null);
   const [photos, setPhotos] = useState([]);
   const [lightboxPhoto, setLightboxPhoto] = useState(null);
+  const [transcribedDocId, setTranscribedDocId] = useState(null);
   const [loading, setLoading] = useState(false);
   const [categoryTab, setCategoryTab] = useState('all'); // 'all', 'people', 'documents', 'family_trees', 'tombstones'
   const [isStoryMode, setIsStoryMode] = useState(false);
@@ -341,44 +343,64 @@ export default function PhotoGallery() {
 
       {/* Grid */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-        {photos.map(photo => (
-          <div
-            key={photo.photo_id}
-            onClick={() => setLightboxPhoto(photo)}
-            className="group glass-panel glass-card-hover rounded-2xl overflow-hidden cursor-pointer flex flex-col justify-between"
-          >
-            <div className="aspect-square overflow-hidden bg-[#0F141A] relative">
-              <img
-                src={photo.local_image_path.startsWith('/') ? photo.local_image_path : '/' + photo.local_image_path}
-                alt={photo.subject_names || photo.title_or_caption}
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                loading="lazy"
-                onError={e => { e.target.style.display = 'none'; }}
-              />
-              {/* Face Tag Pulse Indicator */}
-              {photo.subject_names && (
-                <div className="absolute top-2 right-2 w-3 h-3 rounded-full bg-[#C87D53] face-tag-pulse" title="Tagged Face Profile" />
-              )}
-            </div>
-            <div className="p-3">
-              <p className="text-xs font-semibold text-[#F3EBE3] truncate font-serif-header">
-                {photo.subject_names || 'Unknown'}
-              </p>
-              <div className="flex items-center justify-between mt-1">
-                {photo.maiden_name && (
-                  <span className="text-[10px] text-[#D4A373] font-mono">
-                    {photo.maiden_name}
-                  </span>
-                )}
-                {photo.approximate_year && (
-                  <span className="text-[10px] text-[#9EA9B6] font-mono">
-                    c. {photo.approximate_year}
-                  </span>
-                )}
+        {photos.map(photo => {
+          const isDoc = photo.category === 'documents' || 
+            matchCategory(photo, 'documents') || 
+            (photo.local_image_path && photo.local_image_path.includes('/documents/')) ||
+            (photo.document_type && photo.document_type !== 'portrait') ||
+            (photo.title_or_caption && /bible|will|deed|census|record|indenture|probate|document/i.test(photo.title_or_caption)) ||
+            (photo.subject_names && /bible|will|deed|census|record|indenture|probate|document/i.test(photo.subject_names));
+
+          return (
+            <div
+              key={photo.photo_id}
+              onClick={() => {
+                if (isDoc) {
+                  setTranscribedDocId(photo.photo_id);
+                } else {
+                  setLightboxPhoto(photo);
+                }
+              }}
+              className="group glass-panel glass-card-hover rounded-2xl overflow-hidden cursor-pointer flex flex-col justify-between"
+            >
+              <div className="aspect-square overflow-hidden bg-[#0F141A] relative">
+                <img
+                  src={photo.local_image_path.startsWith('/') ? photo.local_image_path : '/' + photo.local_image_path}
+                  alt={photo.subject_names || photo.title_or_caption}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                  onError={e => { e.target.style.display = 'none'; }}
+                />
+                {/* Document Transcribed Badge */}
+                {isDoc ? (
+                  <div className="absolute top-2 left-2 px-2 py-0.5 rounded bg-black/80 border border-[#C68B59]/60 text-[#D4A373] text-[10px] font-mono flex items-center gap-1 shadow-lg">
+                    <FileText className="w-3 h-3 text-[#C68B59]" />
+                    <span>Transcribed</span>
+                  </div>
+                ) : photo.subject_names ? (
+                  <div className="absolute top-2 right-2 w-3 h-3 rounded-full bg-[#C87D53] face-tag-pulse" title="Tagged Face Profile" />
+                ) : null}
+              </div>
+              <div className="p-3">
+                <p className="text-xs font-semibold text-[#F3EBE3] truncate font-serif-header">
+                  {photo.subject_names || 'Unknown'}
+                </p>
+                <div className="flex items-center justify-between mt-1">
+                  {photo.maiden_name && (
+                    <span className="text-[10px] text-[#D4A373] font-mono">
+                      {photo.maiden_name}
+                    </span>
+                  )}
+                  {photo.approximate_year && (
+                    <span className="text-[10px] text-[#9EA9B6] font-mono">
+                      c. {photo.approximate_year}
+                    </span>
+                  )}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
 
       {/* Lightbox Modal rendered via Portal in document.body */}
@@ -408,20 +430,37 @@ export default function PhotoGallery() {
               </button>
             </div>
             <div className="p-6 bg-[#171E27] border-t border-[#2A3644]">
-              <h3 className="text-xl sm:text-2xl font-bold font-serif-header text-[#F3EBE3] mb-2">
-                {lightboxPhoto.subject_names || 'Unknown Individual'}
-              </h3>
-              <div className="flex flex-wrap gap-4 text-xs font-mono text-[#9EA9B6] mb-3">
-                {lightboxPhoto.maiden_name && (
-                  <span>Surname: <strong className="text-[#D4A373]">{lightboxPhoto.maiden_name}</strong></span>
-                )}
-                {lightboxPhoto.approximate_year && (
-                  <span>Approximate Year: <strong className="text-[#F3EBE3]">{lightboxPhoto.approximate_year}</strong></span>
-                )}
-                {lightboxPhoto.category && (
-                  <span>Category: <strong className="text-[#C87D53] uppercase">{lightboxPhoto.category}</strong></span>
-                )}
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <h3 className="text-xl sm:text-2xl font-bold font-serif-header text-[#F3EBE3] mb-2">
+                    {lightboxPhoto.subject_names || 'Unknown Individual'}
+                  </h3>
+                  <div className="flex flex-wrap gap-4 text-xs font-mono text-[#9EA9B6] mb-3">
+                    {lightboxPhoto.maiden_name && (
+                      <span>Surname: <strong className="text-[#D4A373]">{lightboxPhoto.maiden_name}</strong></span>
+                    )}
+                    {lightboxPhoto.approximate_year && (
+                      <span>Approximate Year: <strong className="text-[#F3EBE3]">{lightboxPhoto.approximate_year}</strong></span>
+                    )}
+                    {lightboxPhoto.category && (
+                      <span>Category: <strong className="text-[#C87D53] uppercase">{lightboxPhoto.category}</strong></span>
+                    )}
+                  </div>
+                </div>
+
+                <button
+                  onClick={() => {
+                    const pid = lightboxPhoto.photo_id;
+                    setLightboxPhoto(null);
+                    setTranscribedDocId(pid);
+                  }}
+                  className="px-3 py-1.5 rounded-xl bg-[#C68B59] hover:bg-[#D4A373] text-[#121110] font-mono font-bold text-xs transition-all flex items-center gap-1.5 shrink-0 shadow-lg"
+                >
+                  <FileText className="w-3.5 h-3.5" />
+                  <span>Transcribed Version</span>
+                </button>
               </div>
+
               {lightboxPhoto.title_or_caption && (
                 <p className="text-xs text-[#9EA9B6] leading-relaxed">
                   {lightboxPhoto.title_or_caption}
@@ -431,6 +470,14 @@ export default function PhotoGallery() {
           </div>
         </div>,
         document.body
+      )}
+
+      {/* Text-Only Transcribed Document View Modal */}
+      {transcribedDocId && (
+        <TranscribedDocumentView
+          identifier={transcribedDocId}
+          onClose={() => setTranscribedDocId(null)}
+        />
       )}
     </div>
   );

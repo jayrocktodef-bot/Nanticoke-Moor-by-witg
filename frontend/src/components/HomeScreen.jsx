@@ -5,6 +5,7 @@ import RecordDrawer from './RecordDrawer';
 import PersonProfileView from './PersonProfileView';
 import SurnamePortalView from './SurnamePortalView';
 import CommandPalette from './CommandPalette';
+import TranscribedDocumentView from './TranscribedDocumentView';
 import { trackPageView, trackEvent } from '../utils/analytics';
 
 // Lazy load heavy components for instant initial page loading & reduced JS bundle size
@@ -103,18 +104,16 @@ export default function HomeScreen() {
   };
 
   const handleOpenRecord = (filename) => {
-    fetch(`/api/records/${encodeURIComponent(filename)}.json`)
-      .then(res => res.json())
-      .then(setSelectedRecord)
-      .catch(console.error);
+    setSelectedRecord(filename);
   };
 
   // Filter surnames by A-Z letter ribbon & apply windowed pagination
   const alphabet = ['ALL', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')];
-  const filteredSurnames = surnames
+  const safeSurnames = Array.isArray(surnames) ? surnames : [];
+  const filteredSurnames = safeSurnames
     .filter(s => {
       if (selectedLetter === 'ALL') return true;
-      return s.surname.toUpperCase().startsWith(selectedLetter);
+      return s.surname && s.surname.toUpperCase().startsWith(selectedLetter);
     })
     .sort((a, b) => a.surname.localeCompare(b.surname, undefined, { sensitivity: 'base' }));
 
@@ -980,10 +979,11 @@ export default function HomeScreen() {
         />
       )}
 
-      {/* Record Side Drawer Modal */}
+      {/* Text-Only Transcribed Document Reader Modal */}
       {selectedRecord && (
-        <RecordDrawer
-          record={selectedRecord}
+        <TranscribedDocumentView
+          identifier={typeof selectedRecord === 'string' ? selectedRecord : selectedRecord.filename}
+          initialData={typeof selectedRecord === 'object' && selectedRecord.lines ? selectedRecord : null}
           onClose={() => setSelectedRecord(null)}
         />
       )}

@@ -4,6 +4,7 @@ import {
   Users, Camera, GitFork, ArrowLeft, Search, HeartHandshake, 
   FileText, ExternalLink, Calendar, MapPin, ChevronRight, X, Sparkles, Filter, Printer
 } from 'lucide-react';
+import TranscribedDocumentView from './TranscribedDocumentView';
 
 export default function SurnamePortalView({ surname, onClose, onSelectPerson, onOpenGraph }) {
   const [data, setData] = useState(null);
@@ -12,6 +13,7 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
   const [photoFilter, setPhotoFilter] = useState('all'); // 'all', 'people', 'family_trees', 'documents', 'tombstones'
   const [memberSearch, setMemberSearch] = useState('');
   const [lightboxPhoto, setLightboxPhoto] = useState(null);
+  const [transcribedDocId, setTranscribedDocId] = useState(null);
   const [expandedNotes, setExpandedNotes] = useState({});
 
   const toggleNote = (id) => {
@@ -305,39 +307,58 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
                 </div>
               ) : (
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-                  {filteredPhotos.map(photo => (
-                    <div
-                      key={photo.photo_id}
-                      onClick={() => setLightboxPhoto(photo)}
-                      className="group relative aspect-square bg-[#12161E] border border-[#24303F] rounded-2xl overflow-hidden cursor-pointer shadow-md hover:shadow-2xl hover:border-[#C87D53]/60 transition-all"
-                    >
-                      <img
-                        src={photo.local_image_path.startsWith('/') ? photo.local_image_path : '/' + photo.local_image_path}
-                        alt={photo.subject_names || photo.normalized_filename}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                        loading="lazy"
-                      />
-                      
-                      {/* Top Category Badge */}
-                      <div className="absolute top-2 left-2 z-10">
-                        <span className="text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-black/75 backdrop-blur-md text-[#D4A373] border border-[#C87D53]/30">
-                          {photo.category}
-                        </span>
-                      </div>
+                  {filteredPhotos.map(photo => {
+                    const isDoc = photo.category === 'documents' || photoFilter === 'documents' ||
+                      (photo.document_type && photo.document_type !== 'portrait') ||
+                      (photo.local_image_path && photo.local_image_path.includes('/documents/')) ||
+                      (photo.subject_names && /bible|will|deed|census|record|indenture|probate|document/i.test(photo.subject_names));
 
-                      {/* Hover Info Overlay */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4">
-                        <p className="text-xs font-semibold text-white line-clamp-2 leading-tight">
-                          {photo.subject_names || photo.normalized_filename.replace(/_/g, ' ').replace(/\.jpg|\.png|\.gif/g, '')}
-                        </p>
-                        {photo.approximate_year && (
-                          <p className="text-[10px] font-mono text-[#D4A373] mt-1">
-                            Year: {photo.approximate_year}
+                    return (
+                      <div
+                        key={photo.photo_id}
+                        onClick={() => {
+                          if (isDoc) {
+                            setTranscribedDocId(photo.photo_id);
+                          } else {
+                            setLightboxPhoto(photo);
+                          }
+                        }}
+                        className="group relative aspect-square bg-[#12161E] border border-[#24303F] rounded-2xl overflow-hidden cursor-pointer shadow-md hover:shadow-2xl hover:border-[#C87D53]/60 transition-all"
+                      >
+                        <img
+                          src={photo.local_image_path.startsWith('/') ? photo.local_image_path : '/' + photo.local_image_path}
+                          alt={photo.subject_names || photo.normalized_filename}
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          loading="lazy"
+                        />
+                        
+                        {/* Top Category Badge */}
+                        <div className="absolute top-2 left-2 z-10 flex items-center gap-1">
+                          <span className="text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 rounded bg-black/80 backdrop-blur-md text-[#D4A373] border border-[#C87D53]/30 flex items-center gap-1">
+                            {isDoc ? <FileText className="w-2.5 h-2.5 text-[#C87D53]" /> : null}
+                            <span>{isDoc ? 'Transcribed' : photo.category}</span>
+                          </span>
+                        </div>
+
+                        {/* Hover Info Overlay */}
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4">
+                          <p className="text-xs font-semibold text-white line-clamp-2 leading-tight">
+                            {photo.subject_names || photo.normalized_filename.replace(/_/g, ' ').replace(/\.jpg|\.png|\.gif/g, '')}
                           </p>
-                        )}
+                          {photo.approximate_year && (
+                            <p className="text-[10px] font-mono text-[#D4A373] mt-1">
+                              Year: {photo.approximate_year}
+                            </p>
+                          )}
+                          {isDoc && (
+                            <span className="text-[10px] font-mono text-emerald-400 mt-0.5">
+                              Click to view Text Transcription →
+                            </span>
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               )}
             </div>
@@ -553,21 +574,42 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
                       {lightboxPhoto.approximate_year ? ` • Year: ${lightboxPhoto.approximate_year}` : ''}
                     </p>
                   </div>
-                  <a
-                    href={lightboxPhoto.local_image_path.startsWith('/') ? lightboxPhoto.local_image_path : '/' + lightboxPhoto.local_image_path}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#1B2430] border border-[#2E3C4E] text-[#D4A373] hover:text-white text-xs font-mono transition-all"
-                  >
-                    <span>Full File</span>
-                    <ExternalLink className="w-3.5 h-3.5" />
-                  </a>
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={() => {
+                        const pid = lightboxPhoto.photo_id;
+                        setLightboxPhoto(null);
+                        setTranscribedDocId(pid);
+                      }}
+                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#C87D53] hover:bg-[#D4A373] text-[#0A0D11] text-xs font-mono font-bold transition-all shadow-md"
+                    >
+                      <FileText className="w-3.5 h-3.5" />
+                      <span>Transcribed Version</span>
+                    </button>
+                    <a
+                      href={lightboxPhoto.local_image_path.startsWith('/') ? lightboxPhoto.local_image_path : '/' + lightboxPhoto.local_image_path}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#1B2430] border border-[#2E3C4E] text-[#D4A373] hover:text-white text-xs font-mono transition-all"
+                    >
+                      <span>Full File</span>
+                      <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>,
         document.body
+      )}
+
+      {/* Text-Only Transcribed Document View */}
+      {transcribedDocId && (
+        <TranscribedDocumentView
+          identifier={transcribedDocId}
+          onClose={() => setTranscribedDocId(null)}
+        />
       )}
     </div>
   );
