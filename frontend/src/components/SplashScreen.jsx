@@ -13,7 +13,7 @@ export default function SplashScreen({ onEnter }) {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto overflow-x-hidden transition-opacity duration-300 ease-out"
+      className="fixed inset-0 z-50 overflow-y-auto overflow-x-hidden transition-opacity duration-300 ease-out custom-scrollbar"
       style={{
         background: '#0F0E0D',
         color: '#E5E1DB',
@@ -21,7 +21,7 @@ export default function SplashScreen({ onEnter }) {
       }}
     >
       {/* Background warm glow orbs */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div style={{
           position: 'absolute', top: '-15%', left: '-10%',
           width: '55%', height: '55%',
@@ -48,7 +48,9 @@ export default function SplashScreen({ onEnter }) {
         }} />
       </div>
 
-      <div className="relative z-10 max-w-4xl w-full mx-auto px-6 py-12 md:py-20 flex flex-col items-center">
+      {/* Centering container that preserves top margin on smaller viewports */}
+      <div className="min-h-full w-full flex flex-col items-center justify-center py-10 sm:py-14 md:py-16 px-4 sm:px-6">
+        <div className="relative z-10 max-w-4xl w-full mx-auto my-auto flex flex-col items-center">
 
         {/* Header */}
         <div className="text-center mb-12 splash-fade-up" style={{ animationDelay: '0.1s' }}>
@@ -234,6 +236,7 @@ export default function SplashScreen({ onEnter }) {
           }}>
             Permanent Digital Preservation
           </p>
+        </div>
         </div>
       </div>
 
