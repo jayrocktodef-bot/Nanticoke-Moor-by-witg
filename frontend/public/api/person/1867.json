@@ -124,7 +124,18 @@
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6371,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 1867,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'David Durham' \u2014 requires human review",
+      "evidence": "source: MainMenu.html, matches: 3",
+      "created_at": "2026-09-03T12:54:35.191034"
+    }
+  ],
   "ancestry": {
     "id": 1867,
     "name": "David Durham",

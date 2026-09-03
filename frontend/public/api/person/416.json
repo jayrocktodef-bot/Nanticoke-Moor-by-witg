@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 4,
     "source_page": "jacksnr2.htm",
     "birth_info": "12 Jun 1813",
     "death_info": "10 Sep 1870 (aged 57)",
@@ -70,12 +70,100 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11747,
+      "person_id": 416,
+      "fact_type": "Birth",
+      "date_string": "15 February, 1842",
+      "place_string": "Northwest Fork Hundred, Sussex Co",
+      "value_string": "was born on 15 February, 1842 in Northwest Fork Hundred, Sussex Co.",
+      "citations": []
+    },
+    {
+      "fact_id": 11748,
+      "person_id": 416,
+      "fact_type": "Death",
+      "date_string": "29 December, 1915",
+      "place_string": null,
+      "value_string": "died on 29 December, 1915",
+      "citations": []
+    },
+    {
+      "fact_id": 11749,
+      "person_id": 416,
+      "fact_type": "Death",
+      "date_string": "29 December, 1915",
+      "place_string": null,
+      "value_string": "died on 29 December, 1915",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5998,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 416,
+      "person_id_secondary": null,
+      "description": "Birth conflict: existing='12 Jun 1813' vs found='15 February, 1842'",
+      "evidence": "source: jacksnr2.htm | context: Robert B Jackson Preserved Primary Document \u2022 jacksnr2.htm     Robert B. Jackson was the son of  Wesley Jackson  and his wife, Elizabeth.  He was born on 15 February, 1842 in Northwest Fork Hundred, S",
+      "created_at": "2026-09-03T12:54:24.629069"
+    },
+    {
+      "id": 5999,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 416,
+      "person_id_secondary": null,
+      "description": "Added Birth: date='15 February, 1842', place='Northwest Fork Hundred, Sussex Co' [confidence=HIGH]",
+      "evidence": "source: jacksnr2.htm | verbatim: was born on 15 February, 1842 in Northwest Fork Hundred, Sussex Co.",
+      "created_at": "2026-09-03T12:54:24.629127"
+    },
+    {
+      "id": 6000,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 416,
+      "person_id_secondary": null,
+      "description": "Death conflict: existing='10 Sep 1870 (aged 57)' vs found='29 December, 1915'",
+      "evidence": "source: jacksnr2.htm | context: Robert B Jackson Preserved Primary Document \u2022 jacksnr2.htm     Robert B. Jackson was the son of  Wesley Jackson  and his wife, Elizabeth.  He was born on 15 February, 1842 in Northwest Fork Hundred, S",
+      "created_at": "2026-09-03T12:54:24.629151"
+    },
+    {
+      "id": 6001,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 416,
+      "person_id_secondary": null,
+      "description": "Added Death: date='29 December, 1915', place='None' [confidence=MEDIUM]",
+      "evidence": "source: jacksnr2.htm | verbatim: died on 29 December, 1915",
+      "created_at": "2026-09-03T12:54:24.629172"
+    },
+    {
+      "id": 6002,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 416,
+      "person_id_secondary": null,
+      "description": "Death conflict: existing='10 Sep 1870 (aged 57)' vs found='29 December, 1915'",
+      "evidence": "source: jacksnr2.htm | context: Robert B Jackson Preserved Primary Document \u2022 jacksnr2.htm     Robert B. Jackson was the son of  Wesley Jackson  and his wife, Elizabeth.  He was born on 15 February, 1842 in Northwest Fork Hundred, S",
+      "created_at": "2026-09-03T12:54:24.629190"
+    },
+    {
+      "id": 6003,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 416,
+      "person_id_secondary": null,
+      "description": "Added Death: date='29 December, 1915', place='None' [confidence=MEDIUM]",
+      "evidence": "source: jacksnr2.htm | verbatim: died on 29 December, 1915",
+      "created_at": "2026-09-03T12:54:24.629206"
+    }
+  ],
   "ancestry": {
     "id": 416,
     "name": "Wesley Jackson",

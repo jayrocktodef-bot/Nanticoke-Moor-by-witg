@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "moors_moors.aspx",
     "birth_info": "1815",
     "death_info": "Oct 1897 (aged 81\u201382)",
@@ -70,6 +70,15 @@
           "source_dataset": "moors_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11836,
+      "person_id": 1003,
+      "fact_type": "Marriage",
+      "date_string": "2 June, 1905",
+      "place_string": null,
+      "value_string": "married Sarah Durham    Isaiah died on 2 June, 1905",
+      "citations": []
     }
   ],
   "relationships": [
@@ -117,7 +126,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6281,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 1003,
+      "person_id_secondary": null,
+      "description": "'Samuel Durham' not found in source document",
+      "evidence": "source: moors_moors.aspx",
+      "created_at": "2026-09-03T12:54:32.568769"
+    },
+    {
+      "id": 6282,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 1003,
+      "person_id_secondary": null,
+      "description": "[XPAGE:munce-iz.htm] Marriage: date='2 June, 1905'",
+      "evidence": "verbatim: married Sarah Durham    Isaiah died on 2 June, 1905",
+      "created_at": "2026-09-03T12:54:32.629222"
+    }
+  ],
   "ancestry": {
     "id": 1003,
     "name": "Samuel Durham",

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamMarvel&Rhoda.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12156,
+      "person_id": 5536,
+      "fact_type": "Death",
+      "date_string": "Jan. 9, 1931",
+      "place_string": null,
+      "value_string": "died Jan. 9, 1931",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6971,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5536,
+      "person_id_secondary": null,
+      "description": "[XPAGE:manship.htm] Death: date='Jan. 9, 1931'",
+      "evidence": "verbatim: died Jan. 9, 1931",
+      "created_at": "2026-09-03T12:55:14.088912"
+    }
+  ],
   "ancestry": {
     "id": 5536,
     "name": "Joe Durham",

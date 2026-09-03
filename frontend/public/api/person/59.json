@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5784,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 59,
+      "person_id_secondary": null,
+      "description": "'Cornelius Hanzer' not found in source document",
+      "evidence": "source: carty-h2.htm",
+      "created_at": "2026-09-03T12:54:16.758765"
+    }
+  ],
   "ancestry": {
     "id": 59,
     "name": "Cornelius Hanzer",

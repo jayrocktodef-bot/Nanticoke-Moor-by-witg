@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6041,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 469,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Wilbur Durham Sr' \u2014 requires human review",
+      "evidence": "source: manship.htm, matches: 119",
+      "created_at": "2026-09-03T12:54:26.516400"
+    }
+  ],
   "ancestry": {
     "id": 469,
     "name": "Wilbur Durham Sr",

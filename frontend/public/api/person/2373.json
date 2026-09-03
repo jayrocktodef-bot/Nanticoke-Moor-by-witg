@@ -37,7 +37,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6642,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2373,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Lottie A. Durham' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 69",
+      "created_at": "2026-09-03T12:54:55.107237"
+    }
+  ],
   "ancestry": {
     "id": 2373,
     "name": "Lottie A. Durham",

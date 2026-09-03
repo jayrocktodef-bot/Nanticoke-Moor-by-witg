@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Carty",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "IdentifiedIndians.htm",
     "birth_info": "1 Dec 1826",
     "death_info": "10 Apr 1854 (aged 27)",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11935,
+      "person_id": 2523,
+      "fact_type": "Marriage",
+      "date_string": "27 March, 1848",
+      "place_string": null,
+      "value_string": "married  Henrietta Carty on 27 March, 1848",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6726,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2523,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'William Carty' \u2014 requires human review",
+      "evidence": "source: IdentifiedIndians.htm, matches: 21",
+      "created_at": "2026-09-03T12:55:00.121685"
+    },
+    {
+      "id": 6727,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2523,
+      "person_id_secondary": null,
+      "description": "[XPAGE:morgan-j.htm] Marriage: date='27 March, 1848'",
+      "evidence": "verbatim: married  Henrietta Carty on 27 March, 1848",
+      "created_at": "2026-09-03T12:55:00.188513"
+    }
+  ],
   "ancestry": {
     "id": 2523,
     "name": "William Carty",

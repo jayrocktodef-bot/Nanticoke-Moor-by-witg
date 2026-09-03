@@ -6,7 +6,7 @@
     "middle_name": null,
     "maiden_name": null,
     "married_last_name": "Bridgeton",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "carty-h3.htm",
     "birth_info": null,
     "death_info": null,
@@ -41,12 +41,42 @@
           "source_dataset": "mitsawokett_obits"
         }
       ]
+    },
+    {
+      "fact_id": 12503,
+      "person_id": 11506,
+      "fact_type": "Birth",
+      "date_string": "April 13, 1882",
+      "place_string": null,
+      "value_string": "borned April 13, 1882",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7360,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 11506,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'in Bridgeton' \u2014 requires human review",
+      "evidence": "source: carty-h3.htm, matches: 10",
+      "created_at": "2026-09-03T12:56:04.802664"
+    },
+    {
+      "id": 7361,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11506,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-r.htm] Birth: date='April 13, 1882'",
+      "evidence": "verbatim: borned April 13, 1882",
+      "created_at": "2026-09-03T12:56:04.803650"
+    }
+  ],
   "ancestry": {
     "id": 11506,
     "name": "in Bridgeton",

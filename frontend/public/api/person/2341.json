@@ -37,7 +37,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6608,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2341,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Catharine Dean' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 65",
+      "created_at": "2026-09-03T12:54:51.405630"
+    }
+  ],
   "ancestry": {
     "id": 2341,
     "name": "Catharine Dean",

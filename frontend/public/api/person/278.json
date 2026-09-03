@@ -6,7 +6,7 @@
     "middle_name": "H.",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "dean-r.htm",
     "birth_info": "1898",
     "death_info": "18 Oct 1898 (aged less\u2013than 1 year)",
@@ -127,6 +127,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11720,
+      "person_id": 278,
+      "fact_type": "Marriage",
+      "date_string": "1827",
+      "place_string": null,
+      "value_string": "married sometime prior to 1827",
+      "citations": []
     }
   ],
   "relationships": [
@@ -193,7 +202,28 @@
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5900,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 278,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'William H. Carney' \u2014 requires human review",
+      "evidence": "source: dean-r.htm, matches: 5",
+      "created_at": "2026-09-03T12:54:20.671845"
+    },
+    {
+      "id": 5901,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 278,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-j3.htm] Marriage: date='1827'",
+      "evidence": "verbatim: married sometime prior to 1827",
+      "created_at": "2026-09-03T12:54:20.791738"
+    }
+  ],
   "ancestry": {
     "id": 278,
     "name": "William H. Carney",

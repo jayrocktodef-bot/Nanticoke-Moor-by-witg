@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6499,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2223,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'William Knotts' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 8",
+      "created_at": "2026-09-03T12:54:40.531538"
+    }
+  ],
   "ancestry": {
     "id": 2223,
     "name": "William Knotts",

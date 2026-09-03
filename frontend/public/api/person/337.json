@@ -83,7 +83,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5942,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 337,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Hannah Durham' \u2014 requires human review",
+      "evidence": "source: durhm-j1.htm, matches: 19",
+      "created_at": "2026-09-03T12:54:23.360997"
+    }
+  ],
   "ancestry": {
     "id": 337,
     "name": "Hannah Durham",

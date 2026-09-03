@@ -6,7 +6,7 @@
     "middle_name": "Caroline",
     "maiden_name": "",
     "married_last_name": "Sammons",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "22 September 1928 United States of America",
     "death_info": "19 August 1987 United States of America",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12381,
+      "person_id": 8919,
+      "fact_type": "Marriage",
+      "date_string": "October 28, 1896",
+      "place_string": null,
+      "value_string": "married Mary Elizabeth Clark on October 28, 1896",
+      "citations": []
     }
   ],
   "relationships": [
@@ -117,7 +126,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7213,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8919,
+      "person_id_secondary": null,
+      "description": "[XPAGE:munce-m4.htm] Marriage: date='October 28, 1896'",
+      "evidence": "verbatim: married Mary Elizabeth Clark on October 28, 1896",
+      "created_at": "2026-09-03T12:55:33.122875"
+    }
+  ],
   "ancestry": {
     "id": 8919,
     "name": "Bertha Caroline Sammons",

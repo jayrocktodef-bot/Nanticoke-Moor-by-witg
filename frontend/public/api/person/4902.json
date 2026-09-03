@@ -6,7 +6,7 @@
     "middle_name": "Iona Phillena Ikey",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamDonald.htm",
     "birth_info": "22 Mar 1915",
     "death_info": "24 Jun 2002 (aged 87)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12111,
+      "person_id": 4902,
+      "fact_type": "Marriage",
+      "date_string": "18 January, 1922",
+      "place_string": "Cheswold DE on 18 January, 1922",
+      "value_string": "married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -115,7 +124,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6908,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4902,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-e2.htm] Marriage: date='18 January, 1922'",
+      "evidence": "verbatim: married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
+      "created_at": "2026-09-03T12:55:10.479704"
+    }
+  ],
   "ancestry": {
     "id": 4902,
     "name": "Iona Phillena Ikey Durham",

@@ -6,7 +6,7 @@
     "middle_name": "Street",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "JacksonJanie&Kids.htm",
     "birth_info": "unknown",
     "death_info": "18 Jan 1830",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12210,
+      "person_id": 6208,
+      "fact_type": "Birth",
+      "date_string": "April 22 1784",
+      "place_string": null,
+      "value_string": "Born April 22 1784 .",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7028,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6208,
+      "person_id_secondary": null,
+      "description": "[XPAGE:george.htm] Birth: date='April 22 1784'",
+      "evidence": "verbatim: Born April 22 1784 .",
+      "created_at": "2026-09-03T12:55:18.358570"
+    }
+  ],
   "ancestry": {
     "id": 6208,
     "name": "Jane Street Jackson",

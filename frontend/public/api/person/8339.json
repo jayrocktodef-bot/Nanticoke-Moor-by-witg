@@ -6,7 +6,7 @@
     "middle_name": "Jane",
     "maiden_name": "",
     "married_last_name": "Morris",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1 April 1895 Sussex County, Delaware, United States of America",
     "death_info": "October 1972 Sussex County, Delaware, United States of America",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12364,
+      "person_id": 8339,
+      "fact_type": "Burial",
+      "date_string": "1 Aug 1931",
+      "place_string": "1 Aug 1931 in Bethel Cemetery",
+      "value_string": "buried 1 Aug 1931 in Bethel Cemetery",
+      "citations": []
     }
   ],
   "relationships": [
@@ -208,7 +217,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7186,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8339,
+      "person_id_secondary": null,
+      "description": "[XPAGE:HarmonEmmanuelProbate.htm] Burial: date='1 Aug 1931'",
+      "evidence": "verbatim: buried 1 Aug 1931 in Bethel Cemetery",
+      "created_at": "2026-09-03T12:55:29.644749"
+    }
+  ],
   "ancestry": {
     "id": 8339,
     "name": "Sarah Jane Morris",

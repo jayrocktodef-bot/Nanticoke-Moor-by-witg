@@ -6,7 +6,7 @@
     "middle_name": "Morgan",
     "maiden_name": "",
     "married_last_name": "Coker",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CokerDonald&HarrietMorgan.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12068,
+      "person_id": 4217,
+      "fact_type": "Birth",
+      "date_string": "14 December, 1889",
+      "place_string": null,
+      "value_string": "was born 14 December, 1889 .",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -64,7 +73,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6865,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4217,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-j2.htm] Birth: date='14 December, 1889'",
+      "evidence": "verbatim: was born 14 December, 1889 .",
+      "created_at": "2026-09-03T12:55:08.401052"
+    }
+  ],
   "ancestry": {
     "id": 4217,
     "name": "Harriet Morgan Coker",

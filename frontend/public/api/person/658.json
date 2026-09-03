@@ -56,7 +56,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6158,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 658,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Lydia Francisco' \u2014 requires human review",
+      "evidence": "source: probate.htm, matches: 6",
+      "created_at": "2026-09-03T12:54:29.797015"
+    }
+  ],
   "ancestry": {
     "id": 658,
     "name": "Lydia Francisco",

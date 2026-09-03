@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Edward",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "GouldWilliamBFamily.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11963,
+      "person_id": 2883,
+      "fact_type": "Birth",
+      "date_string": "6 September, 1894",
+      "place_string": "Cheswold DE \ton 6 September, 1894",
+      "value_string": "was born in Cheswold DE \ton 6 September, 1894 .",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6760,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2883,
+      "person_id_secondary": null,
+      "description": "[XPAGE:morgan-e.htm] Birth: date='6 September, 1894'",
+      "evidence": "verbatim: was born in Cheswold DE \ton 6 September, 1894 .",
+      "created_at": "2026-09-03T12:55:03.677226"
+    }
+  ],
   "ancestry": {
     "id": 2883,
     "name": "James Edward",

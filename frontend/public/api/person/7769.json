@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Elizabeth",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "SockumeLevin&Eunice.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12331,
+      "person_id": 7769,
+      "fact_type": "Birth",
+      "date_string": "1861",
+      "place_string": "1861 probably in Northwest Fork Hundred, Sussex Co",
+      "value_string": "was \tborn in 1861 probably in Northwest Fork Hundred, Sussex Co.",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7153,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7769,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksonr.htm] Birth: date='1861'",
+      "evidence": "verbatim: was \tborn in 1861 probably in Northwest Fork Hundred, Sussex Co.",
+      "created_at": "2026-09-03T12:55:26.664336"
+    }
+  ],
   "ancestry": {
     "id": 7769,
     "name": "Isaac Course",

@@ -90,7 +90,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5841,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 137,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Edward Coker' \u2014 requires human review",
+      "evidence": "source: coker-j2.htm, matches: 18",
+      "created_at": "2026-09-03T12:54:17.701900"
+    }
+  ],
   "ancestry": {
     "id": 137,
     "name": "Edward Coker",

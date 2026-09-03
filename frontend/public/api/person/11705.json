@@ -6,7 +6,7 @@
     "middle_name": null,
     "maiden_name": null,
     "married_last_name": "Munce",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "munce-iz.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 12514,
+      "person_id": 11705,
+      "fact_type": "Death",
+      "date_string": "8 Nov. 1924",
+      "place_string": null,
+      "value_string": "d. 8 Nov. 1924",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7394,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 11705,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Robert Munce' \u2014 requires human review",
+      "evidence": "source: munce-iz.htm, matches: 27",
+      "created_at": "2026-09-03T12:56:05.163098"
+    },
+    {
+      "id": 7395,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11705,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-e2.htm] Death: date='8 Nov. 1924'",
+      "evidence": "verbatim: d. 8 Nov. 1924",
+      "created_at": "2026-09-03T12:56:05.166171"
+    }
+  ],
   "ancestry": {
     "id": 11705,
     "name": "Robert Munce",

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Clark",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": "unknown",
     "death_info": "29 Jun 1927",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11924,
+      "person_id": 2412,
+      "fact_type": "Birth",
+      "date_string": "1812",
+      "place_string": "Delaware grandson of Thomas Clark & Elizabeth Morris See http://nativeamericansofdelawarestate",
+      "value_string": "born 1812 in Delaware grandson of Thomas Clark & Elizabeth Morris See http://nativeamericansofdelawarestate.",
+      "citations": []
     }
   ],
   "relationships": [
@@ -90,7 +99,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6677,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2412,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Whittington Clark' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 166",
+      "created_at": "2026-09-03T12:54:58.373734"
+    },
+    {
+      "id": 6678,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2412,
+      "person_id_secondary": null,
+      "description": "[XPAGE:mitsawokett_report.htm] Birth: date='1812'",
+      "evidence": "verbatim: born 1812 in Delaware grandson of Thomas Clark & Elizabeth Morris See http://nativeamericansofdelawarestate.",
+      "created_at": "2026-09-03T12:54:58.439553"
+    }
+  ],
   "ancestry": {
     "id": 2412,
     "name": "Whittington Clark",

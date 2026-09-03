@@ -6,7 +6,7 @@
     "middle_name": "Nehemiah",
     "maiden_name": "Davis",
     "married_last_name": "Davis",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DavisWilliamHenry.htm",
     "birth_info": "1874",
     "death_info": "unknown",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12120,
+      "person_id": 4960,
+      "fact_type": "Death",
+      "date_string": "19 December, 1940",
+      "place_string": "Wilmington on 19 December, 1940",
+      "value_string": "died in Wilmington on 19 December, 1940",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -229,6 +238,16 @@
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: robert|davis|1874",
       "created_at": "2026-08-31 00:17:14"
+    },
+    {
+      "id": 6920,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4960,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-r2.htm] Death: date='19 December, 1940'",
+      "evidence": "verbatim: died in Wilmington on 19 December, 1940",
+      "created_at": "2026-09-03T12:55:10.929425"
     }
   ],
   "ancestry": {

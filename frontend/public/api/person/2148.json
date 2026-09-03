@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Carty",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11881,
+      "person_id": 2148,
+      "fact_type": "Birth",
+      "date_string": "1792",
+      "place_string": "Maryland, either in Dorchester or Caroline counties, sometime around 1792",
+      "value_string": "was born in Maryland, either in Dorchester or Caroline counties, sometime around 1792 .",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6441,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2148,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Mc Carty' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 4",
+      "created_at": "2026-09-03T12:54:36.372358"
+    },
+    {
+      "id": 6442,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2148,
+      "person_id_secondary": null,
+      "description": "[XPAGE:IdentifiedIndians.htm] Birth: date='1792'",
+      "evidence": "verbatim: was born in Maryland, either in Dorchester or Caroline counties, sometime around 1792 .",
+      "created_at": "2026-09-03T12:54:36.376280"
+    }
+  ],
   "ancestry": {
     "id": 2148,
     "name": "Mc Carty",

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Morris",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1855 Delaware",
     "death_info": null,
@@ -51,6 +51,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12456,
+      "person_id": 10449,
+      "fact_type": "Death",
+      "date_string": "1905",
+      "place_string": "1905  Nehemiah Morris Sammons who married  Mary Elizabeth Munce Nehemiah was born in DE in 1840 and died March 11, 1924",
+      "value_string": "died in 1905  Nehemiah Morris Sammons who married  Mary Elizabeth Munce Nehemiah was born in DE in 1840 and died March 11, 1924",
+      "citations": []
     }
   ],
   "relationships": [
@@ -111,7 +120,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7304,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 10449,
+      "person_id_secondary": null,
+      "description": "[XPAGE:sammons.htm] Death: date='1905'",
+      "evidence": "verbatim: died in 1905  Nehemiah Morris Sammons who married  Mary Elizabeth Munce Nehemiah was born in DE in 1840 and died March 11, 1924",
+      "created_at": "2026-09-03T12:55:55.159507"
+    }
+  ],
   "ancestry": {
     "id": 10449,
     "name": "Mary Morris",

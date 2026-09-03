@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "RidgewayRhoda.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12300,
+      "person_id": 7146,
+      "fact_type": "Death",
+      "date_string": "October 16th 1876",
+      "place_string": null,
+      "value_string": "departed this life October 16th 1876",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7121,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7146,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-c1.htm] Death: date='October 16th 1876'",
+      "evidence": "verbatim: departed this life October 16th 1876",
+      "created_at": "2026-09-03T12:55:23.449076"
+    }
+  ],
   "ancestry": {
     "id": 7146,
     "name": "Elsie Ridgeway",

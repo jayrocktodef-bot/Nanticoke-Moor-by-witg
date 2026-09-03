@@ -90,7 +90,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6089,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 520,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Dorthy Mosley' \u2014 requires human review",
+      "evidence": "source: morganj4.htm, matches: 9",
+      "created_at": "2026-09-03T12:54:28.777404"
+    }
+  ],
   "ancestry": {
     "id": 520,
     "name": "Dorthy Mosley",

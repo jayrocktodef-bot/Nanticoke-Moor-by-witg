@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6385,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 1884,
+      "person_id_secondary": null,
+      "description": "'Isaiah Zeddick Muncey' not found in source document",
+      "evidence": "source: MainMenu.html",
+      "created_at": "2026-09-03T12:54:35.534912"
+    }
+  ],
   "ancestry": {
     "id": 1884,
     "name": "Isaiah Zeddick Muncey",

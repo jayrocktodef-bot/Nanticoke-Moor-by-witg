@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "moors_moors.aspx",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "moors_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11859,
+      "person_id": 1076,
+      "fact_type": "Death",
+      "date_string": "6 June, 1933",
+      "place_string": null,
+      "value_string": "died on 6 June, 1933",
+      "citations": []
     }
   ],
   "relationships": [
@@ -85,7 +94,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6348,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 1076,
+      "person_id_secondary": null,
+      "description": "'Albert Mosley' not found in source document",
+      "evidence": "source: moors_moors.aspx",
+      "created_at": "2026-09-03T12:54:34.175488"
+    },
+    {
+      "id": 6349,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 1076,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-m1.htm] Death: date='6 June, 1933'",
+      "evidence": "verbatim: died on 6 June, 1933",
+      "created_at": "2026-09-03T12:54:34.183211"
+    }
+  ],
   "ancestry": {
     "id": 1076,
     "name": "Albert Mosley",

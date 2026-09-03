@@ -6,7 +6,7 @@
     "middle_name": "Morgan",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarneyLeroy&Millie.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12020,
+      "person_id": 3920,
+      "fact_type": "Death",
+      "date_string": "1 Sept. 1888",
+      "place_string": null,
+      "value_string": "died 1 Sept. 1888",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6817,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3920,
+      "person_id_secondary": null,
+      "description": "[XPAGE:fbranch.htm] Death: date='1 Sept. 1888'",
+      "evidence": "verbatim: died 1 Sept. 1888",
+      "created_at": "2026-09-03T12:55:06.421673"
+    }
+  ],
   "ancestry": {
     "id": 3920,
     "name": "Elmirah Morgan Durham",

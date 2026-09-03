@@ -83,7 +83,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5968,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 365,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Caleb Dean' \u2014 requires human review",
+      "evidence": "source: george.htm, matches: 62",
+      "created_at": "2026-09-03T12:54:24.060639"
+    }
+  ],
   "ancestry": {
     "id": 365,
     "name": "Caleb Dean",

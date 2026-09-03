@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Hughes",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11894,
+      "person_id": 2243,
+      "fact_type": "Death",
+      "date_string": "1826",
+      "place_string": null,
+      "value_string": "d. 1826",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6522,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2243,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Benjamin Hughes' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 25",
+      "created_at": "2026-09-03T12:54:42.044616"
+    },
+    {
+      "id": 6523,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2243,
+      "person_id_secondary": null,
+      "description": "[XPAGE:concl-e1.htm] Death: date='1826'",
+      "evidence": "verbatim: d. 1826",
+      "created_at": "2026-09-03T12:54:42.045665"
+    }
+  ],
   "ancestry": {
     "id": 2243,
     "name": "Benjamin Hughes",

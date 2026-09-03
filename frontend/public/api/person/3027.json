@@ -6,7 +6,7 @@
     "middle_name": "C.",
     "maiden_name": "Smith",
     "married_last_name": "Smith",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "BassKLorraine.htm",
     "birth_info": "Jun 1855",
     "death_info": "Jun 1855 (aged less than 1 month)",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11971,
+      "person_id": 3027,
+      "fact_type": "Marriage",
+      "date_string": "15 November, 1917",
+      "place_string": null,
+      "value_string": "married Mae SAMMONS on 15 November, 1917",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6768,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3027,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='15 November, 1917'",
+      "evidence": "verbatim: married Mae SAMMONS on 15 November, 1917",
+      "created_at": "2026-09-03T12:55:03.908968"
+    }
+  ],
   "ancestry": {
     "id": 3027,
     "name": "Joel C. Smith Jr",

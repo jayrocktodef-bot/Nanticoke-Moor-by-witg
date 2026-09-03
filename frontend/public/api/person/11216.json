@@ -6,7 +6,7 @@
     "middle_name": "Milford",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Obituary Archive",
     "birth_info": "1888",
     "death_info": "1927 (aged 38\u201339)",
@@ -70,12 +70,32 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 12494,
+      "person_id": 11216,
+      "fact_type": "Marriage",
+      "date_string": "20 January, 1865",
+      "place_string": null,
+      "value_string": "married Isaac Mosley   On 20 January, 1865",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7349,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11216,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-h2.htm] Marriage: date='20 January, 1865'",
+      "evidence": "verbatim: married Isaac Mosley   On 20 January, 1865",
+      "created_at": "2026-09-03T12:56:03.024033"
+    }
+  ],
   "ancestry": {
     "id": 11216,
     "name": "In Milford Mosley",

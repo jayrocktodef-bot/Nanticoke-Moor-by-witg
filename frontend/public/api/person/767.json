@@ -45,7 +45,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6221,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 767,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Patience Galloway' \u2014 requires human review",
+      "evidence": "source: wrightp3.htm, matches: 9",
+      "created_at": "2026-09-03T12:54:31.590371"
+    }
+  ],
   "ancestry": {
     "id": 767,
     "name": "Patience Galloway",

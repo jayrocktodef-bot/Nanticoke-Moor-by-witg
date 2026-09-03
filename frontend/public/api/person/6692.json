@@ -6,7 +6,7 @@
     "middle_name": "Mosley",
     "maiden_name": "",
     "married_last_name": "Whiteman",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MosleyCharlesHenryFamily.htm",
     "birth_info": "18 Jan 1880",
     "death_info": "9 Oct 1889 (aged 9)",
@@ -127,6 +127,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12244,
+      "person_id": 6692,
+      "fact_type": "Marriage",
+      "date_string": "15 November, 1917",
+      "place_string": null,
+      "value_string": "married Mae SAMMONS on 15 November, 1917",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -159,7 +168,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7064,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6692,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='15 November, 1917'",
+      "evidence": "verbatim: married Mae SAMMONS on 15 November, 1917",
+      "created_at": "2026-09-03T12:55:21.878809"
+    }
+  ],
   "ancestry": {
     "id": 6692,
     "name": "Pearl Mosley Whiteman",

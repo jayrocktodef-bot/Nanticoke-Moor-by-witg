@@ -6,7 +6,7 @@
     "middle_name": "Isaac",
     "maiden_name": "",
     "married_last_name": "Street",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "StreetDavidP.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12329,
+      "person_id": 7503,
+      "fact_type": "Birth",
+      "date_string": "December 3, 1875",
+      "place_string": null,
+      "value_string": "borned December 3, 1875",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7151,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7503,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-j.htm] Birth: date='December 3, 1875'",
+      "evidence": "verbatim: borned December 3, 1875",
+      "created_at": "2026-09-03T12:55:25.924501"
+    }
+  ],
   "ancestry": {
     "id": 7503,
     "name": "Isaac Street",

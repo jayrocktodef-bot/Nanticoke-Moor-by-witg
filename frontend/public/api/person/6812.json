@@ -6,7 +6,7 @@
     "middle_name": "Letitia",
     "maiden_name": "",
     "married_last_name": "Carter",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "NewlinAubrey&Letitia.htm",
     "birth_info": "unknown",
     "death_info": "26 Mar 1970",
@@ -127,6 +127,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12267,
+      "person_id": 6812,
+      "fact_type": "Birth",
+      "date_string": "28 \t\tJanuary, 1857",
+      "place_string": "Maryland on 28 \t\tJanuary, 1857",
+      "value_string": "was born in Maryland on 28 \t\tJanuary, 1857 .",
+      "citations": []
     }
   ],
   "relationships": [
@@ -154,7 +163,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7088,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6812,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-h.htm] Birth: date='28 \t\tJanuary, 1857'",
+      "evidence": "verbatim: was born in Maryland on 28 \t\tJanuary, 1857 .",
+      "created_at": "2026-09-03T12:55:22.196241"
+    }
+  ],
   "ancestry": {
     "id": 6812,
     "name": "Agnes Letitia Carter",

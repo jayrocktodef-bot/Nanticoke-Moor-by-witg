@@ -6,7 +6,7 @@
     "middle_name": "Henry",
     "maiden_name": "Ridgeway",
     "married_last_name": "Ridgeway",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1 March 1861 Kent, Delaware",
     "death_info": "20 Jan 1919 Little Creek, Kent, Delaware",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12453,
+      "person_id": 10443,
+      "fact_type": "Marriage",
+      "date_string": "30 October 1967",
+      "place_string": null,
+      "value_string": "married Burt Schroeder   Hopewell died on 30 October 1967",
+      "citations": []
     }
   ],
   "relationships": [
@@ -104,7 +113,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7301,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 10443,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-h3.htm] Marriage: date='30 October 1967'",
+      "evidence": "verbatim: married Burt Schroeder   Hopewell died on 30 October 1967",
+      "created_at": "2026-09-03T12:55:53.926002"
+    }
+  ],
   "ancestry": {
     "id": 10443,
     "name": "John Henry Ridgeway Sr",

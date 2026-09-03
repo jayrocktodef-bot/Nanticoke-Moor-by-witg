@@ -6,7 +6,7 @@
     "middle_name": "Seeney",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamMarvel&Rhoda.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12152,
+      "person_id": 5527,
+      "fact_type": "Death",
+      "date_string": "Oct. 11, 1979",
+      "place_string": null,
+      "value_string": "d. Oct. 11, 1979",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -77,7 +86,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6967,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5527,
+      "person_id_secondary": null,
+      "description": "[XPAGE:morgan-n.htm] Death: date='Oct. 11, 1979'",
+      "evidence": "verbatim: d. Oct. 11, 1979",
+      "created_at": "2026-09-03T12:55:13.892303"
+    }
+  ],
   "ancestry": {
     "id": 5527,
     "name": "Rhoda Seeney Durham",

@@ -6,7 +6,7 @@
     "middle_name": "W.",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "concl-e1.htm",
     "birth_info": "1871",
     "death_info": "1933 (aged 61\u201362)",
@@ -136,6 +136,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11706,
+      "person_id": 164,
+      "fact_type": "Marriage",
+      "date_string": "1788",
+      "place_string": "the time of his death in 1788",
+      "value_string": "married children and some grandchildren at the time of his death in 1788",
+      "citations": []
     }
   ],
   "relationships": [
@@ -249,7 +258,28 @@
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5856,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 164,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'John W. Durham' \u2014 requires human review",
+      "evidence": "source: concl-e1.htm, matches: 56",
+      "created_at": "2026-09-03T12:54:18.895985"
+    },
+    {
+      "id": 5857,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 164,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durham.htm] Marriage: date='1788'",
+      "evidence": "verbatim: married children and some grandchildren at the time of his death in 1788",
+      "created_at": "2026-09-03T12:54:19.032821"
+    }
+  ],
   "ancestry": {
     "id": 164,
     "name": "John W. Durham",

@@ -6,7 +6,7 @@
     "middle_name": "Henson",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "10 Feb 1910 Delaware",
     "death_info": "Jan 1971 Lewes, Sussex County, Delaware, United States of America",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12385,
+      "person_id": 8931,
+      "fact_type": "Marriage",
+      "date_string": "1918",
+      "place_string": null,
+      "value_string": "married Lillie White in 1918",
+      "citations": []
     }
   ],
   "relationships": [
@@ -138,7 +147,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7217,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8931,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c2.htm] Marriage: date='1918'",
+      "evidence": "verbatim: married Lillie White in 1918",
+      "created_at": "2026-09-03T12:55:33.961901"
+    }
+  ],
   "ancestry": {
     "id": 8931,
     "name": "John Henson Harmon",

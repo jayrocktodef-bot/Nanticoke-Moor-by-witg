@@ -6,7 +6,7 @@
     "middle_name": "Virginia Archer",
     "maiden_name": "",
     "married_last_name": "Seeney",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "SeeneySarahArcher.htm",
     "birth_info": "unknown",
     "death_info": "Mar 1961",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12325,
+      "person_id": 7410,
+      "fact_type": "Birth",
+      "date_string": "March 28th 1843",
+      "place_string": null,
+      "value_string": "borned March 28th 1843",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -89,7 +98,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7146,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7410,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-r.htm] Birth: date='March 28th 1843'",
+      "evidence": "verbatim: borned March 28th 1843",
+      "created_at": "2026-09-03T12:55:25.661033"
+    }
+  ],
   "ancestry": {
     "id": 7410,
     "name": "Sarah Virginia Archer Seeney",

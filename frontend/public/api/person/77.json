@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5799,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 77,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Mabel Carter' \u2014 requires human review",
+      "evidence": "source: carty-w2.htm, matches: 9",
+      "created_at": "2026-09-03T12:54:17.224962"
+    }
+  ],
   "ancestry": {
     "id": 77,
     "name": "Mabel Carter",

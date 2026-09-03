@@ -6,7 +6,7 @@
     "middle_name": null,
     "maiden_name": null,
     "married_last_name": "Mrs",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "bible-j.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 12502,
+      "person_id": 11486,
+      "fact_type": "Death",
+      "date_string": "March 31 1918",
+      "place_string": null,
+      "value_string": "departed this life March 31 1918",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7358,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 11486,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'to Mrs' \u2014 requires human review",
+      "evidence": "source: bible-j.htm, matches: 6",
+      "created_at": "2026-09-03T12:56:04.800219"
+    },
+    {
+      "id": 7359,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11486,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-r.htm] Death: date='March 31 1918'",
+      "evidence": "verbatim: departed this life March 31 1918",
+      "created_at": "2026-09-03T12:56:04.801755"
+    }
+  ],
   "ancestry": {
     "id": 11486,
     "name": "to Mrs",

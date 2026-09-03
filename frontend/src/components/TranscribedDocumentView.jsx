@@ -2,8 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { 
   X, Copy, Check, Printer, Volume2, VolumeX, Search, 
-  FileText, ExternalLink, Bookmark, Sliders, Eye, ArrowLeft
+  FileText, ExternalLink, Bookmark, Sliders, Eye, ArrowLeft,
+  FileDown, Download
 } from 'lucide-react';
+import { jsPDF } from 'jspdf';
 
 export default function TranscribedDocumentView({ identifier, initialData, onClose }) {
   const [data, setData] = useState(initialData || null);
@@ -18,8 +20,116 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
   const [copiedCitation, setCopiedCitation] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [showFacsimile, setShowFacsimile] = useState(false);
+  const [showPdfMode, setShowPdfMode] = useState(false);
 
   const speechRef = useRef(null);
+
+  const pdfUrl = `/api/pdf/${encodeURIComponent(identifier || data?.identifier || '')}`;
+
+  const handleDownloadPdf = () => {
+    if (!data) return;
+
+    const pdfFileName = `${(data.title || 'transcription').replace(/[^a-zA-Z0-9_-]/g, '_')}_transcription.pdf`;
+
+    try {
+      const doc = new jsPDF({ orientation: 'p', unit: 'mm', format: 'a4' });
+      const pageWidth = doc.internal.pageSize.getWidth();
+      const margin = 15;
+      const contentWidth = pageWidth - (margin * 2);
+
+      // Header Banner
+      doc.setFillColor(26, 23, 20);
+      doc.rect(margin, 10, contentWidth, 7, 'F');
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(8.5);
+      doc.setTextColor(198, 139, 89);
+      doc.text('DELAWARE NATIVE AMERICAN ARCHIVES - PRESERVED MANUSCRIPT', pageWidth / 2, 14.5, { align: 'center' });
+
+      // Title
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(13);
+      doc.setTextColor(24, 20, 16);
+      const titleLines = doc.splitTextToSize(data.title || 'Historical Document', contentWidth);
+      doc.text(titleLines, pageWidth / 2, 24, { align: 'center' });
+
+      let yPos = 24 + (titleLines.length * 5.5) + 2;
+
+      // Meta Subtitle
+      doc.setFont('helvetica', 'italic');
+      doc.setFontSize(8);
+      doc.setTextColor(110, 100, 90);
+      const metaText = `Classification: ${data.document_type || 'Primary Record'} | Year: ${data.approximate_year || 'Historical'} | Length: ${data.line_count || 0} Lines`;
+      doc.text(metaText, pageWidth / 2, yPos, { align: 'center' });
+      yPos += 4;
+
+      // Divider
+      doc.setDrawColor(198, 139, 89);
+      doc.setLineWidth(0.4);
+      doc.line(margin, yPos, pageWidth - margin, yPos);
+      yPos += 6;
+
+      // Body lines
+      doc.setFontSize(9);
+      doc.setLineWidth(0.2);
+
+      const linesToRender = data.lines || (data.full_text ? data.full_text.split('\n') : []);
+      linesToRender.forEach((line, idx) => {
+        if (yPos > 270) {
+          doc.addPage();
+          yPos = 15;
+        }
+
+        if (line.startsWith('---') || line.startsWith('===')) {
+          doc.setDrawColor(210, 200, 190);
+          doc.line(margin, yPos, pageWidth - margin, yPos);
+          yPos += 4;
+          return;
+        }
+
+        doc.setFont('courier', 'normal');
+        doc.setFontSize(7.5);
+        doc.setTextColor(150, 140, 130);
+        doc.text(String(idx + 1).padStart(3, ' '), margin, yPos);
+
+        doc.setFont('helvetica', 'normal');
+        doc.setFontSize(9);
+        doc.setTextColor(30, 30, 30);
+
+        const cleanLine = line.replace(/[^\x00-\x7F]/g, ' ');
+        const wrapped = doc.splitTextToSize(cleanLine, contentWidth - 10);
+        doc.text(wrapped, margin + 8, yPos);
+        yPos += (wrapped.length * 4.2) + 1;
+      });
+
+      if (data.citation) {
+        if (yPos > 250) {
+          doc.addPage();
+          yPos = 15;
+        }
+        yPos += 4;
+        doc.setFillColor(245, 243, 240);
+        doc.setDrawColor(200, 190, 180);
+        doc.rect(margin, yPos, contentWidth, 5, 'FD');
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(7.5);
+        doc.setTextColor(198, 139, 89);
+        doc.text('ARCHIVAL CITATION', margin + 3, yPos + 3.5);
+
+        yPos += 7;
+        doc.setFont('helvetica', 'normal');
+        doc.setFontSize(7.5);
+        doc.setTextColor(60, 60, 60);
+        const cleanCite = data.citation.replace(/[^\x00-\x7F]/g, ' ');
+        const citeWrapped = doc.splitTextToSize(cleanCite, contentWidth - 6);
+        doc.text(citeWrapped, margin + 3, yPos);
+      }
+
+      doc.save(pdfFileName);
+    } catch (err) {
+      console.error('Failed client PDF generation, using window.open:', err);
+      window.open(pdfUrl, '_blank');
+    }
+  };
 
   // Fetch transcription data if not provided directly
   useEffect(() => {
@@ -178,9 +288,28 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
 
           {/* Close and View Mode Switches */}
           <div className="flex items-center gap-2">
+            <button
+              onClick={() => {
+                setShowPdfMode(!showPdfMode);
+                if (showFacsimile) setShowFacsimile(false);
+              }}
+              className={`px-3 py-1.5 rounded-lg text-xs font-mono font-medium border transition-all flex items-center gap-1.5 ${
+                showPdfMode 
+                  ? 'bg-[#C68B59] text-[#0F0E0D] font-bold border-[#C68B59]' 
+                  : 'bg-[#121110] border-[#332D27] text-[#D4A373] hover:text-[#F3EBE3] hover:border-[#C68B59]'
+              }`}
+              title={showPdfMode ? 'Switch back to text view' : 'Read transcription formatted as a PDF document'}
+            >
+              {showPdfMode ? <ArrowLeft className="w-3.5 h-3.5" /> : <FileText className="w-3.5 h-3.5" />}
+              <span>{showPdfMode ? 'Text View' : 'Read as PDF'}</span>
+            </button>
+
             {data?.local_image_path && (
               <button
-                onClick={() => setShowFacsimile(!showFacsimile)}
+                onClick={() => {
+                  setShowFacsimile(!showFacsimile);
+                  if (showPdfMode) setShowPdfMode(false);
+                }}
                 className="px-3 py-1.5 rounded-lg text-xs font-mono font-medium border border-[#332D27] bg-[#121110] text-[#D4A373] hover:text-[#F3EBE3] hover:border-[#C68B59] transition-all flex items-center gap-1.5"
                 title={showFacsimile ? 'Switch to text transcription' : 'View original scanned document image'}
               >
@@ -271,6 +400,16 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
               <span>{copied ? 'Copied' : 'Copy'}</span>
             </button>
 
+            {/* Read / Download as PDF */}
+            <button
+              onClick={handleDownloadPdf}
+              className="px-2.5 py-1.5 rounded-lg border border-[#C68B59]/40 bg-[#C68B59]/10 text-[#D4A373] hover:bg-[#C68B59] hover:text-[#0F0E0D] hover:font-bold transition-all flex items-center gap-1 text-[11px]"
+              title="Download transcribed document as PDF file"
+            >
+              <FileDown className="w-3.5 h-3.5" />
+              <span>Export PDF</span>
+            </button>
+
             {/* Print Record */}
             <button
               onClick={handlePrint}
@@ -306,7 +445,27 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
             </div>
           )}
 
-          {!loading && !error && showFacsimile && data?.local_image_path && (
+          {!loading && !error && showPdfMode && (
+            <div className="w-full h-full flex flex-col items-center animate-fade-in space-y-4">
+              <div className="w-full flex items-center justify-between px-2 text-xs font-mono text-[#8C8275]">
+                <span>Archival Document PDF Viewer</span>
+                <button
+                  onClick={handleDownloadPdf}
+                  className="px-3 py-1.5 bg-[#C68B59] text-[#0F0E0D] font-bold rounded-lg flex items-center gap-1.5 hover:bg-[#D4A373] transition-all text-xs"
+                >
+                  <Download className="w-3.5 h-3.5" />
+                  <span>Download PDF Document</span>
+                </button>
+              </div>
+              <iframe
+                src={pdfUrl}
+                title={`PDF Reader - ${data?.title}`}
+                className="w-full flex-1 min-h-[72vh] rounded-2xl border border-[#3A322B] bg-[#1A1714] shadow-2xl"
+              />
+            </div>
+          )}
+
+          {!loading && !error && !showPdfMode && showFacsimile && data?.local_image_path && (
             <div className="flex flex-col items-center justify-center space-y-4 animate-fade-in py-4">
               <img 
                 src={data.local_image_path.startsWith('/') ? data.local_image_path : '/' + data.local_image_path}
@@ -322,7 +481,7 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
             </div>
           )}
 
-          {!loading && !error && !showFacsimile && (
+          {!loading && !error && !showPdfMode && !showFacsimile && (
             <div className="max-w-3xl mx-auto space-y-8 print:p-0 print:max-w-none">
               {/* Document Broadsheet Header */}
               <div className="border-b border-[#2A241F] pb-6">

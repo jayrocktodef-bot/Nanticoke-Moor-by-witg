@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Coker",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1 Jul 1897",
     "death_info": "6 Aug 1967 (aged 70)",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12475,
+      "person_id": 10797,
+      "fact_type": "Marriage",
+      "date_string": "25 April, 1995",
+      "place_string": null,
+      "value_string": "married Michelle Bosligo   Roland died on 25 April, 1995",
+      "citations": []
     }
   ],
   "relationships": [
@@ -90,7 +99,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7330,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 10797,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-r2.htm] Marriage: date='25 April, 1995'",
+      "evidence": "verbatim: married Michelle Bosligo   Roland died on 25 April, 1995",
+      "created_at": "2026-09-03T12:56:00.959118"
+    }
+  ],
   "ancestry": {
     "id": 10797,
     "name": "Clarence Coker",

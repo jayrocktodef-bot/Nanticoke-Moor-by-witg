@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6154,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 651,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Amelia Sisco' \u2014 requires human review",
+      "evidence": "source: probate.htm, matches: 6",
+      "created_at": "2026-09-03T12:54:29.654799"
+    }
+  ],
   "ancestry": {
     "id": 651,
     "name": "Amelia Sisco",

@@ -6,7 +6,7 @@
     "middle_name": "Cuff",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Durham_EnochD&Martha.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11956,
+      "person_id": 2739,
+      "fact_type": "Death",
+      "date_string": "1982",
+      "place_string": null,
+      "value_string": "d. 1982",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6753,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2739,
+      "person_id_secondary": null,
+      "description": "[XPAGE:morgan-n.htm] Death: date='1982'",
+      "evidence": "verbatim: d. 1982",
+      "created_at": "2026-09-03T12:55:02.741695"
+    }
+  ],
   "ancestry": {
     "id": 2739,
     "name": "Mae Cuff Durham",

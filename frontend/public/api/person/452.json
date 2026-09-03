@@ -84,7 +84,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6025,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 452,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Mary E. Draine' \u2014 requires human review",
+      "evidence": "source: jwesley.htm, matches: 2",
+      "created_at": "2026-09-03T12:54:26.187889"
+    }
+  ],
   "ancestry": {
     "id": 452,
     "name": "Mary E. Draine",

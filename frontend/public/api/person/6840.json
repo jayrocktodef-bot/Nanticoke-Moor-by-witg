@@ -6,7 +6,7 @@
     "middle_name": "Hannah",
     "maiden_name": "",
     "married_last_name": "Munson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MunsonFrancisLB.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12269,
+      "person_id": 6840,
+      "fact_type": "Death",
+      "date_string": "April 6, 1829",
+      "place_string": "Appoquinimink Hundred, New Castle Co",
+      "value_string": "died on April 6, 1829 in Appoquinimink Hundred, New Castle Co",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7090,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6840,
+      "person_id_secondary": null,
+      "description": "[XPAGE:sisco-w.htm] Death: date='April 6, 1829'",
+      "evidence": "verbatim: died on April 6, 1829 in Appoquinimink Hundred, New Castle Co",
+      "created_at": "2026-09-03T12:55:22.295594"
+    }
+  ],
   "ancestry": {
     "id": 6840,
     "name": "Hannah Munson",

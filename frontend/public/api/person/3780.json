@@ -6,7 +6,7 @@
     "middle_name": "Pierce",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarneyHerbert&SarahPierce.htm",
     "birth_info": "1892",
     "death_info": "3 Aug 1893 (aged 0\u20131)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12006,
+      "person_id": 3780,
+      "fact_type": "Marriage",
+      "date_string": "1827",
+      "place_string": null,
+      "value_string": "married sometime prior to 1827",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -115,7 +124,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6803,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3780,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-j3.htm] Marriage: date='1827'",
+      "evidence": "verbatim: married sometime prior to 1827",
+      "created_at": "2026-09-03T12:55:05.886393"
+    }
+  ],
   "ancestry": {
     "id": 3780,
     "name": "Sarah Pierce Carney",

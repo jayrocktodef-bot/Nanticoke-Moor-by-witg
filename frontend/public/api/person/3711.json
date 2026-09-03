@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarneySaraJMH.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11995,
+      "person_id": 3711,
+      "fact_type": "Death",
+      "date_string": "1937",
+      "place_string": "1937 and is buried, with her \t\thusband, at the Fork Branch cemetary in Kent Co",
+      "value_string": "died in 1937 and is buried, with her \t\thusband, at the Fork Branch cemetary in Kent Co",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6792,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3711,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksnr2.htm] Death: date='1937'",
+      "evidence": "verbatim: died in 1937 and is buried, with her \t\thusband, at the Fork Branch cemetary in Kent Co",
+      "created_at": "2026-09-03T12:55:05.627375"
+    }
+  ],
   "ancestry": {
     "id": 3711,
     "name": "Jane Mosley",

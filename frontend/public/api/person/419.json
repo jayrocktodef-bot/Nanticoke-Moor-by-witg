@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "jacksnr2.htm",
     "birth_info": "1876",
     "death_info": "30 Apr 1928 (aged 51\u201352)",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11752,
+      "person_id": 419,
+      "fact_type": "Marriage",
+      "date_string": "23 September, 1900",
+      "place_string": null,
+      "value_string": "married Cassius MOSLEY on 23 September, 1900",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -102,7 +111,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6008,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 419,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Caroline Jackson' \u2014 requires human review",
+      "evidence": "source: jacksnr2.htm, matches: 47",
+      "created_at": "2026-09-03T12:54:25.110458"
+    },
+    {
+      "id": 6009,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 419,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-m2.htm] Marriage: date='23 September, 1900'",
+      "evidence": "verbatim: married Cassius MOSLEY on 23 September, 1900",
+      "created_at": "2026-09-03T12:54:25.164865"
+    }
+  ],
   "ancestry": {
     "id": 419,
     "name": "Caroline Jackson",

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "concl-w1.htm",
     "birth_info": "18 Sep 1885",
     "death_info": "20 Nov 1953 (aged 68)",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11711,
+      "person_id": 194,
+      "fact_type": "Marriage",
+      "date_string": "1788",
+      "place_string": "the time of his death in 1788",
+      "value_string": "married children and some grandchildren at the time of his death in 1788",
+      "citations": []
     }
   ],
   "relationships": [
@@ -104,7 +113,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5877,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 194,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Daniel Durham' \u2014 requires human review",
+      "evidence": "source: concl-w1.htm, matches: 3",
+      "created_at": "2026-09-03T12:54:20.175528"
+    },
+    {
+      "id": 5878,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 194,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durham.htm] Marriage: date='1788'",
+      "evidence": "verbatim: married children and some grandchildren at the time of his death in 1788",
+      "created_at": "2026-09-03T12:54:20.182144"
+    }
+  ],
   "ancestry": {
     "id": 194,
     "name": "Daniel Durham",

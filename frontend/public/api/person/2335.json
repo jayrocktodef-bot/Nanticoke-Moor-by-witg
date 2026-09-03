@@ -45,7 +45,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6603,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2335,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'William Jones' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 378",
+      "created_at": "2026-09-03T12:54:51.068672"
+    }
+  ],
   "ancestry": {
     "id": 2335,
     "name": "William Jones",

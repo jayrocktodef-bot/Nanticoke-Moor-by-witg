@@ -6,7 +6,7 @@
     "middle_name": "Irving",
     "maiden_name": "",
     "married_last_name": "Edward",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Obituary Ingest",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_obituaries"
         }
       ]
+    },
+    {
+      "fact_id": 12477,
+      "person_id": 10915,
+      "fact_type": "Death",
+      "date_string": "12 August, 1931",
+      "place_string": null,
+      "value_string": "died 12 August, 1931",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7332,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 10915,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-j4.htm] Death: date='12 August, 1931'",
+      "evidence": "verbatim: died 12 August, 1931",
+      "created_at": "2026-09-03T12:56:01.445075"
+    }
+  ],
   "ancestry": {
     "id": 10915,
     "name": "Carter Irving Edward",

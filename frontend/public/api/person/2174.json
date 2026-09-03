@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6460,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 2174,
+      "person_id_secondary": null,
+      "description": "'Perry Beckett' not found in source document",
+      "evidence": "source: Probate.htm",
+      "created_at": "2026-09-03T12:54:37.779790"
+    }
+  ],
   "ancestry": {
     "id": 2174,
     "name": "Perry Beckett",

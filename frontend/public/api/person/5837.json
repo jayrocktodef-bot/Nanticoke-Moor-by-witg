@@ -6,7 +6,7 @@
     "middle_name": "T. S.",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HarmanIsaacWillie.htm",
     "birth_info": "unknown",
     "death_info": "1940",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12178,
+      "person_id": 5837,
+      "fact_type": "Birth",
+      "date_string": "14 May, 1854",
+      "place_string": "Gloucester City on 14 May, 1854 and died on 6 Sept",
+      "value_string": "was born in Gloucester City on 14 May, 1854 and died on 6 Sept.",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -89,7 +98,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6993,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5837,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-w2.htm] Birth: date='14 May, 1854'",
+      "evidence": "verbatim: was born in Gloucester City on 14 May, 1854 and died on 6 Sept.",
+      "created_at": "2026-09-03T12:55:15.299789"
+    }
+  ],
   "ancestry": {
     "id": 5837,
     "name": "Levin T. S. Harmon",

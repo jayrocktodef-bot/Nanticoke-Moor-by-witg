@@ -6,7 +6,7 @@
     "middle_name": "A. Carney",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MosleyThomasAlvin.htm",
     "birth_info": "1854",
     "death_info": "11 May 1877 (aged 22\u201323)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12240,
+      "person_id": 6681,
+      "fact_type": "Burial",
+      "date_string": "1851",
+      "place_string": "John Wesley  Church is a SELLEYSTEAN HANSLEY ( 1851 - 1882 )",
+      "value_string": "buried at John Wesley  Church is a SELLEYSTEAN HANSLEY ( 1851 - 1882 )",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -89,7 +98,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7060,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6681,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c3.htm] Burial: date='1851'",
+      "evidence": "verbatim: buried at John Wesley  Church is a SELLEYSTEAN HANSLEY ( 1851 - 1882 )",
+      "created_at": "2026-09-03T12:55:21.818906"
+    }
+  ],
   "ancestry": {
     "id": 6681,
     "name": "Margaret A. Carney Mosley",

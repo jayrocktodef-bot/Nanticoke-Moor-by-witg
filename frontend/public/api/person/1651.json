@@ -6,7 +6,7 @@
     "middle_name": "Perry",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "SocialSecurityApplications.htm",
     "birth_info": "unknown",
     "death_info": "11 Sep 1914",
@@ -136,6 +136,15 @@
       "place_string": "Delaware/Sussex/Kent",
       "value_string": "Applicant: Joseph Perry Carney, Maiden/Full: Carney, Joseph Perry",
       "citations": []
+    },
+    {
+      "fact_id": 11863,
+      "person_id": 1651,
+      "fact_type": "Birth",
+      "date_string": "May 04, 1927",
+      "place_string": "Fairton, NJ on May 04, 1927",
+      "value_string": "was born in Fairton, NJ on May 04, 1927 .",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -181,7 +190,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6355,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 1651,
+      "person_id_secondary": null,
+      "description": "[XPAGE:morgan-m.htm] Birth: date='May 04, 1927'",
+      "evidence": "verbatim: was born in Fairton, NJ on May 04, 1927 .",
+      "created_at": "2026-09-03T12:54:34.706074"
+    }
+  ],
   "ancestry": {
     "id": 1651,
     "name": "Joseph Perry Carney",

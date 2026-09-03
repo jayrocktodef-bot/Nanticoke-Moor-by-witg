@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Robert",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "SocialSecurityApplications.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11940,
+      "person_id": 2595,
+      "fact_type": "Birth",
+      "date_string": "6 Aug. 1872",
+      "place_string": null,
+      "value_string": "born 6 Aug. 1872",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -129,7 +138,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6737,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2595,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-m2.htm] Birth: date='6 Aug. 1872'",
+      "evidence": "verbatim: born 6 Aug. 1872",
+      "created_at": "2026-09-03T12:55:01.677661"
+    }
+  ],
   "ancestry": {
     "id": 2595,
     "name": "James Robert",

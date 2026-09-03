@@ -83,7 +83,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5913,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 301,
+      "person_id_secondary": null,
+      "description": "'Sally Ann Hanzer' not found in source document",
+      "evidence": "source: durhm-b2.htm",
+      "created_at": "2026-09-03T12:54:21.435607"
+    }
+  ],
   "ancestry": {
     "id": 301,
     "name": "Sally Ann Hanzer",

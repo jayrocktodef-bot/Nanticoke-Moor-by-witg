@@ -83,7 +83,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5819,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 117,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Janet Street' \u2014 requires human review",
+      "evidence": "source: coker-a5.htm, matches: 12",
+      "created_at": "2026-09-03T12:54:17.441935"
+    }
+  ],
   "ancestry": {
     "id": 117,
     "name": "Janet Street",

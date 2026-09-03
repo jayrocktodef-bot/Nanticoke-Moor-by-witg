@@ -6,7 +6,7 @@
     "middle_name": "Cheswold",
     "maiden_name": "",
     "married_last_name": "Morris",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Obituary Archive",
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -70,12 +70,32 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 12493,
+      "person_id": 11215,
+      "fact_type": "Marriage",
+      "date_string": "4 August 1909",
+      "place_string": null,
+      "value_string": "married Alonzo DURHAM on 4 August 1909",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7348,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11215,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-h2.htm] Marriage: date='4 August 1909'",
+      "evidence": "verbatim: married Alonzo DURHAM on 4 August 1909",
+      "created_at": "2026-09-03T12:56:03.012586"
+    }
+  ],
   "ancestry": {
     "id": 11215,
     "name": "In Cheswold Morris",

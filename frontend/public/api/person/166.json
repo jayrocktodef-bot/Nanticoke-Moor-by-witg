@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5860,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 166,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Jeremiah Concilor' \u2014 requires human review",
+      "evidence": "source: concl-e1.htm, matches: 31",
+      "created_at": "2026-09-03T12:54:19.063711"
+    }
+  ],
   "ancestry": {
     "id": 166,
     "name": "Jeremiah Concilor",

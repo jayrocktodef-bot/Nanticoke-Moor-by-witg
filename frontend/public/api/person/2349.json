@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": "unknown",
     "death_info": "7 Nov 1914",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11906,
+      "person_id": 2349,
+      "fact_type": "Birth",
+      "date_string": "14 May, 1854",
+      "place_string": "Gloucester City on 14 May, 1854 and died on 6 Sept",
+      "value_string": "was born in Gloucester City on 14 May, 1854 and died on 6 Sept.",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6616,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2349,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Ellen Dean' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 65",
+      "created_at": "2026-09-03T12:54:52.238242"
+    },
+    {
+      "id": 6617,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2349,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-w2.htm] Birth: date='14 May, 1854'",
+      "evidence": "verbatim: was born in Gloucester City on 14 May, 1854 and died on 6 Sept.",
+      "created_at": "2026-09-03T12:54:52.272678"
+    }
+  ],
   "ancestry": {
     "id": 2349,
     "name": "Ellen Dean",

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "moors_moors.aspx",
     "birth_info": "17 Apr 1728",
     "death_info": "1806 (aged 77\u201378)",
@@ -70,6 +70,15 @@
           "source_dataset": "moors_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11846,
+      "person_id": 1038,
+      "fact_type": "Marriage",
+      "date_string": "1918",
+      "place_string": null,
+      "value_string": "married Lillie White in 1918",
+      "citations": []
     }
   ],
   "relationships": [
@@ -97,7 +106,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6311,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 1038,
+      "person_id_secondary": null,
+      "description": "'Nehemiah Harmon' not found in source document",
+      "evidence": "source: moors_moors.aspx",
+      "created_at": "2026-09-03T12:54:32.976283"
+    },
+    {
+      "id": 6312,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 1038,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c2.htm] Marriage: date='1918'",
+      "evidence": "verbatim: married Lillie White in 1918",
+      "created_at": "2026-09-03T12:54:32.993467"
+    }
+  ],
   "ancestry": {
     "id": 1038,
     "name": "Nehemiah Harmon",

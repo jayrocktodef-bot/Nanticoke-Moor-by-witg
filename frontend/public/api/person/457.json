@@ -6,7 +6,7 @@
     "middle_name": "E.",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "manship.htm",
     "birth_info": "Oct 1872",
     "death_info": "8 Mar 1922 (aged 49)",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11758,
+      "person_id": 457,
+      "fact_type": "Marriage",
+      "date_string": "10 April, 1913",
+      "place_string": null,
+      "value_string": "married Clem Carney on 10 April, 1913",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6032,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 457,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Amanda E. Carney' \u2014 requires human review",
+      "evidence": "source: manship.htm, matches: 8",
+      "created_at": "2026-09-03T12:54:26.257711"
+    },
+    {
+      "id": 6033,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 457,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-a6.htm] Marriage: date='10 April, 1913'",
+      "evidence": "verbatim: married Clem Carney on 10 April, 1913",
+      "created_at": "2026-09-03T12:54:26.261335"
+    }
+  ],
   "ancestry": {
     "id": 457,
     "name": "Amanda E. Carney",

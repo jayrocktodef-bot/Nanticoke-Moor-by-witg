@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "moors_moors.aspx",
     "birth_info": "14 May 1809",
     "death_info": "1837 (aged 27\u201328)",
@@ -70,12 +70,42 @@
           "source_dataset": "moors_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11835,
+      "person_id": 1001,
+      "fact_type": "Marriage",
+      "date_string": "1918",
+      "place_string": null,
+      "value_string": "married Lillie White in 1918",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6279,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 1001,
+      "person_id_secondary": null,
+      "description": "'Henry Harmon' not found in source document",
+      "evidence": "source: moors_moors.aspx",
+      "created_at": "2026-09-03T12:54:32.563192"
+    },
+    {
+      "id": 6280,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 1001,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c2.htm] Marriage: date='1918'",
+      "evidence": "verbatim: married Lillie White in 1918",
+      "created_at": "2026-09-03T12:54:32.567607"
+    }
+  ],
   "ancestry": {
     "id": 1001,
     "name": "Henry Harmon",

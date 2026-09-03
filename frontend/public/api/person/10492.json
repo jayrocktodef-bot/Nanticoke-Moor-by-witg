@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "Durham",
     "married_last_name": "Durham",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1718 Little Creek Hundred, Kent County, Delaware, USA",
     "death_info": "13 May 1786 Little Creek Hundred, Kent County, Delaware, USA",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12458,
+      "person_id": 10492,
+      "fact_type": "Marriage",
+      "date_string": "1788",
+      "place_string": "the time of his death in 1788",
+      "value_string": "married children and some grandchildren at the time of his death in 1788",
+      "citations": []
     }
   ],
   "relationships": [
@@ -104,7 +113,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7306,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 10492,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durham.htm] Marriage: date='1788'",
+      "evidence": "verbatim: married children and some grandchildren at the time of his death in 1788",
+      "created_at": "2026-09-03T12:55:55.754709"
+    }
+  ],
   "ancestry": {
     "id": 10492,
     "name": "Daniel Durham Jr",

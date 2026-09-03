@@ -6,7 +6,7 @@
     "middle_name": "C",
     "maiden_name": "",
     "married_last_name": "Hanzer",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "10 March 1838 Millsboro, Sussex County, Delaware, United States of America",
     "death_info": "08 Nov 1911 Sussex County, Delaware, USA",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12389,
+      "person_id": 9096,
+      "fact_type": "Marriage",
+      "date_string": "1 April 1747",
+      "place_string": null,
+      "value_string": "was married to Nancy before 1 April 1747",
+      "citations": []
     }
   ],
   "relationships": [
@@ -167,7 +176,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7221,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 9096,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansor.htm] Marriage: date='1 April 1747'",
+      "evidence": "verbatim: was married to Nancy before 1 April 1747",
+      "created_at": "2026-09-03T12:55:34.562233"
+    }
+  ],
   "ancestry": {
     "id": 9096,
     "name": "John C Hanzer",

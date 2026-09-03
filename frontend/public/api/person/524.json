@@ -6,7 +6,7 @@
     "middle_name": "Edward",
     "maiden_name": "",
     "married_last_name": "Marriott",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "morganj4.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11781,
+      "person_id": 524,
+      "fact_type": "Birth",
+      "date_string": "1 September, 1882",
+      "place_string": null,
+      "value_string": "was born 1 September, 1882 and died",
+      "citations": []
     }
   ],
   "relationships": [
@@ -45,7 +54,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6094,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 524,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Charles Edward Marriott' \u2014 requires human review",
+      "evidence": "source: morganj4.htm, matches: 5",
+      "created_at": "2026-09-03T12:54:28.800516"
+    },
+    {
+      "id": 6095,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 524,
+      "person_id_secondary": null,
+      "description": "[XPAGE:morgan-l.htm] Birth: date='1 September, 1882'",
+      "evidence": "verbatim: was born 1 September, 1882 and died",
+      "created_at": "2026-09-03T12:54:28.801821"
+    }
+  ],
   "ancestry": {
     "id": 524,
     "name": "Charles Edward Marriott",

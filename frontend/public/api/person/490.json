@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "mission2.htm",
     "birth_info": "1819",
     "death_info": "23 Dec 1871 (aged 51\u201352)",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11766,
+      "person_id": 490,
+      "fact_type": "Marriage",
+      "date_string": "1840",
+      "place_string": null,
+      "value_string": "married sometime before 1840",
+      "citations": []
     }
   ],
   "relationships": [
@@ -192,7 +201,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6061,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 490,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksnw1.htm] Marriage: date='1840'",
+      "evidence": "verbatim: married sometime before 1840",
+      "created_at": "2026-09-03T12:54:27.978461"
+    }
+  ],
   "ancestry": {
     "id": 490,
     "name": "Elizabeth Jackson",

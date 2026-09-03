@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Ann",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "census18.htm",
     "birth_info": "unknown",
     "death_info": "1980",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11690,
+      "person_id": 96,
+      "fact_type": "Burial",
+      "date_string": "1873",
+      "place_string": "behind church            Elmirah Durham   1873 - 1953   wife of John M",
+      "value_string": "buried behind church            Elmirah Durham   1873 - 1953   wife of John M",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5808,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 96,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Sally Ann' \u2014 requires human review",
+      "evidence": "source: census18.htm, matches: 4",
+      "created_at": "2026-09-03T12:54:17.339654"
+    },
+    {
+      "id": 5809,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 96,
+      "person_id_secondary": null,
+      "description": "[XPAGE:fbranch.htm] Burial: date='1873'",
+      "evidence": "verbatim: buried behind church            Elmirah Durham   1873 - 1953   wife of John M",
+      "created_at": "2026-09-03T12:54:17.368821"
+    }
+  ],
   "ancestry": {
     "id": 96,
     "name": "Sally Ann",

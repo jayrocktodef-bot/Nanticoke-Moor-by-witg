@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Sammons",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": "1 Dec 1866",
     "death_info": "5 Sep 1953 (aged 86)",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11917,
+      "person_id": 2383,
+      "fact_type": "Marriage",
+      "date_string": "June 12, 1904",
+      "place_string": null,
+      "value_string": "married June 12, 1904",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -89,7 +98,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6650,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2383,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'John Sammons' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 83",
+      "created_at": "2026-09-03T12:54:55.741627"
+    },
+    {
+      "id": 6651,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2383,
+      "person_id_secondary": null,
+      "description": "[XPAGE:EmilyCJohnsonWrightBible.htm] Marriage: date='June 12, 1904'",
+      "evidence": "verbatim: married June 12, 1904",
+      "created_at": "2026-09-03T12:54:55.833694"
+    }
+  ],
   "ancestry": {
     "id": 2383,
     "name": "John Sammons",

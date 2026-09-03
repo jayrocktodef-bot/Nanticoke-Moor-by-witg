@@ -6,9 +6,9 @@
     "middle_name": "Aydelott",
     "maiden_name": "",
     "married_last_name": "Clark",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
-    "birth_info": null,
+    "birth_info": "30 Nov 1855",
     "death_info": "1837 Knox Co IN",
     "notes": "WikiTree: https://www.wikitree.com/wiki/Clark-93421 (Clark-93421)",
     "dataset_source": "davis_family_gedcom"
@@ -51,6 +51,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12399,
+      "person_id": 9352,
+      "fact_type": "Birth",
+      "date_string": "30 Nov 1855",
+      "place_string": null,
+      "value_string": "30 Nov 1855 None",
+      "citations": []
     }
   ],
   "relationships": [
@@ -78,7 +87,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7235,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 9352,
+      "person_id_secondary": null,
+      "description": "[XML] Added Birth: date='30 Nov 1855', place='None'",
+      "evidence": "source: preservation_output/profiles/person_9352.xml",
+      "created_at": "2026-09-03T12:55:36.435565"
+    }
+  ],
   "ancestry": {
     "id": 9352,
     "name": "William Aydelott Clark",

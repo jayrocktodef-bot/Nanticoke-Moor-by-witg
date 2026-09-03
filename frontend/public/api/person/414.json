@@ -97,7 +97,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5997,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 414,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Eldridge Johnson' \u2014 requires human review",
+      "evidence": "source: jacksnja.htm, matches: 5",
+      "created_at": "2026-09-03T12:54:24.603607"
+    }
+  ],
   "ancestry": {
     "id": 414,
     "name": "Eldridge Johnson",

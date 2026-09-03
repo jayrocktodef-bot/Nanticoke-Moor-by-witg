@@ -6,7 +6,7 @@
     "middle_name": "C",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1911",
     "death_info": "1990 (aged 78\u201379)",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12473,
+      "person_id": 10795,
+      "fact_type": "Marriage",
+      "date_string": "23 September, 1900",
+      "place_string": null,
+      "value_string": "married Cassius MOSLEY on 23 September, 1900",
+      "citations": []
     }
   ],
   "relationships": [
@@ -114,6 +123,16 @@
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: william|mosley|1911",
       "created_at": "2026-08-31 00:17:14"
+    },
+    {
+      "id": 7328,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 10795,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-m2.htm] Marriage: date='23 September, 1900'",
+      "evidence": "verbatim: married Cassius MOSLEY on 23 September, 1900",
+      "created_at": "2026-09-03T12:56:00.920179"
     }
   ],
   "ancestry": {

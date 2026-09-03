@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Morgan",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "morganj4.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11779,
+      "person_id": 521,
+      "fact_type": "Death",
+      "date_string": "18 November, 1981",
+      "place_string": null,
+      "value_string": "died on 18 November, 1981",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6090,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 521,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Beatrice Morgan' \u2014 requires human review",
+      "evidence": "source: morganj4.htm, matches: 10",
+      "created_at": "2026-09-03T12:54:28.788379"
+    },
+    {
+      "id": 6091,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 521,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-c1.htm] Death: date='18 November, 1981'",
+      "evidence": "verbatim: died on 18 November, 1981",
+      "created_at": "2026-09-03T12:54:28.792214"
+    }
+  ],
   "ancestry": {
     "id": 521,
     "name": "Beatrice Morgan",

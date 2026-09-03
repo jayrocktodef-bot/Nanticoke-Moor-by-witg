@@ -6,7 +6,7 @@
     "middle_name": "Beatrice Morris",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamSamuel&Sarah.htm",
     "birth_info": "1872",
     "death_info": "1965 (aged 92\u201393)",
@@ -127,6 +127,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12158,
+      "person_id": 5542,
+      "fact_type": "Marriage",
+      "date_string": "18 January, 1922",
+      "place_string": "Cheswold DE on 18 January, 1922",
+      "value_string": "married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
+      "citations": []
     }
   ],
   "relationships": [
@@ -200,7 +209,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6973,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5542,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-e2.htm] Marriage: date='18 January, 1922'",
+      "evidence": "verbatim: married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
+      "created_at": "2026-09-03T12:55:14.203587"
+    }
+  ],
   "ancestry": {
     "id": 5542,
     "name": "Sarah Beatrice Morris Durham",

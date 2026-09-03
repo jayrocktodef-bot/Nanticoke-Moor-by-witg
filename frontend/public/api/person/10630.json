@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "3 Dec 1922",
     "death_info": "28 Jun 1980 (aged 57)",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12466,
+      "person_id": 10630,
+      "fact_type": "Marriage",
+      "date_string": "15 November, 1917",
+      "place_string": null,
+      "value_string": "married Mae SAMMONS on 15 November, 1917",
+      "citations": []
     }
   ],
   "relationships": [
@@ -90,7 +99,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7321,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 10630,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='15 November, 1917'",
+      "evidence": "verbatim: married Mae SAMMONS on 15 November, 1917",
+      "created_at": "2026-09-03T12:55:59.083673"
+    }
+  ],
   "ancestry": {
     "id": 10630,
     "name": "Howard Mosley",

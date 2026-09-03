@@ -6,7 +6,7 @@
     "middle_name": "Elizabeth \u201cElizabeth\u201d",
     "maiden_name": "",
     "married_last_name": "Coker",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarterJamesHShimmy.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12037,
+      "person_id": 4105,
+      "fact_type": "Death",
+      "date_string": "13 February, 1933",
+      "place_string": null,
+      "value_string": "died on 13 February, 1933",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -77,7 +86,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6834,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4105,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-h.htm] Death: date='13 February, 1933'",
+      "evidence": "verbatim: died on 13 February, 1933",
+      "created_at": "2026-09-03T12:55:07.321288"
+    }
+  ],
   "ancestry": {
     "id": 4105,
     "name": "Mary Elizabeth Elizabeth Coker",

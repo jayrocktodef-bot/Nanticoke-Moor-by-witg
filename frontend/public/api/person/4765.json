@@ -6,7 +6,7 @@
     "middle_name": "F.",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DeanRobert&Family.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12102,
+      "person_id": 4765,
+      "fact_type": "Birth",
+      "date_string": "August 24, 1843",
+      "place_string": "Kent County DE on August 24, 1843 , the daughter of  John D",
+      "value_string": "was born in Kent County DE on August 24, 1843 , the daughter of  John D.",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -77,7 +86,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6899,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4765,
+      "person_id_secondary": null,
+      "description": "[XPAGE:cott-r.htm] Birth: date='August 24, 1843'",
+      "evidence": "verbatim: was born in Kent County DE on August 24, 1843 , the daughter of  John D.",
+      "created_at": "2026-09-03T12:55:09.857719"
+    }
+  ],
   "ancestry": {
     "id": 4765,
     "name": "William F. Dean",

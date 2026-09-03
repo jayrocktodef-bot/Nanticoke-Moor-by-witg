@@ -97,7 +97,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6011,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 423,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Agnes Hansley' \u2014 requires human review",
+      "evidence": "source: jacksnr2.htm, matches: 28",
+      "created_at": "2026-09-03T12:54:25.258757"
+    }
+  ],
   "ancestry": {
     "id": 423,
     "name": "Agnes Hansley",

@@ -6,7 +6,7 @@
     "middle_name": "R.",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "carty-h2.htm",
     "birth_info": "1924",
     "death_info": "1928 (aged 3\u20134)",
@@ -136,6 +136,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11683,
+      "person_id": 61,
+      "fact_type": "Marriage",
+      "date_string": "1 September, 1888",
+      "place_string": null,
+      "value_string": "married Lola Durham    On 1 September, 1888",
+      "citations": []
     }
   ],
   "relationships": [
@@ -255,7 +264,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5785,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 61,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Benjamin R. Durham' \u2014 requires human review",
+      "evidence": "source: carty-h2.htm, matches: 2",
+      "created_at": "2026-09-03T12:54:16.760571"
+    },
+    {
+      "id": 5786,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 61,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-b2.htm] Marriage: date='1 September, 1888'",
+      "evidence": "verbatim: married Lola Durham    On 1 September, 1888",
+      "created_at": "2026-09-03T12:54:16.870823"
+    }
+  ],
   "ancestry": {
     "id": 61,
     "name": "Benjamin R. Durham",

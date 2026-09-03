@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Morris",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1763",
     "death_info": null,
@@ -51,6 +51,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12367,
+      "person_id": 8513,
+      "fact_type": "Death",
+      "date_string": "1978",
+      "place_string": null,
+      "value_string": "d. 1978",
+      "citations": []
     }
   ],
   "relationships": [
@@ -105,7 +114,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7191,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8513,
+      "person_id_secondary": null,
+      "description": "[XPAGE:morgan-n.htm] Death: date='1978'",
+      "evidence": "verbatim: d. 1978",
+      "created_at": "2026-09-03T12:55:29.789835"
+    }
+  ],
   "ancestry": {
     "id": 8513,
     "name": "Sarah Morris",

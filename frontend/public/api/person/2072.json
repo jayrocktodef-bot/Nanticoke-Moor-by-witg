@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Loatman",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MainMenu.html",
     "birth_info": "c. 1903",
     "death_info": null,
@@ -51,6 +51,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11877,
+      "person_id": 2072,
+      "fact_type": "Death",
+      "date_string": "1978",
+      "place_string": "1978",
+      "value_string": "died in 1978",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -96,7 +105,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6426,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2072,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Samuel Loatman' \u2014 requires human review",
+      "evidence": "source: MainMenu.html, matches: 3",
+      "created_at": "2026-09-03T12:54:35.791298"
+    },
+    {
+      "id": 6427,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2072,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-a7.htm] Death: date='1978'",
+      "evidence": "verbatim: died in 1978",
+      "created_at": "2026-09-03T12:54:35.793469"
+    }
+  ],
   "ancestry": {
     "id": 2072,
     "name": "Samuel Loatman",

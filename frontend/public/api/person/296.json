@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5911,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 296,
+      "person_id_secondary": null,
+      "description": "'Elizabeth Hanzer' not found in source document",
+      "evidence": "source: durhm-b1.htm",
+      "created_at": "2026-09-03T12:54:21.383752"
+    }
+  ],
   "ancestry": {
     "id": 296,
     "name": "Elizabeth Hanzer",

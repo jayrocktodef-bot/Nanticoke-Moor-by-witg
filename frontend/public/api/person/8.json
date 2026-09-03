@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Wesley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "bible-c1.htm",
     "birth_info": "27 Nov 1903",
     "death_info": "19 Mar 1981 (aged 77)",
@@ -114,6 +114,15 @@
       "date_string": "",
       "place_string": "Cemetery",
       "value_string": "Interred per Obituary Notice",
+      "citations": []
+    },
+    {
+      "fact_id": 11671,
+      "person_id": 8,
+      "fact_type": "Marriage",
+      "date_string": "1918",
+      "place_string": null,
+      "value_string": "married Lillie White in 1918",
       "citations": []
     }
   ],
@@ -254,7 +263,28 @@
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5747,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 8,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'John Wesley' \u2014 requires human review",
+      "evidence": "source: bible-c1.htm, matches: 18",
+      "created_at": "2026-09-03T12:54:15.612902"
+    },
+    {
+      "id": 5748,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c2.htm] Marriage: date='1918'",
+      "evidence": "verbatim: married Lillie White in 1918",
+      "created_at": "2026-09-03T12:54:15.676512"
+    }
+  ],
   "ancestry": {
     "id": 8,
     "name": "John Wesley",

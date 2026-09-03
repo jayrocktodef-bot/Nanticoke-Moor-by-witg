@@ -6,7 +6,7 @@
     "middle_name": "Lena",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamReunion1996HiRes.htm",
     "birth_info": "1 Oct 1827",
     "death_info": "3 Mar 1900 (aged 72)",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12134,
+      "person_id": 5181,
+      "fact_type": "Marriage",
+      "date_string": "23 September, 1900",
+      "place_string": null,
+      "value_string": "married Cassius MOSLEY on 23 September, 1900",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6945,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5181,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-m2.htm] Marriage: date='23 September, 1900'",
+      "evidence": "verbatim: married Cassius MOSLEY on 23 September, 1900",
+      "created_at": "2026-09-03T12:55:12.491626"
+    }
+  ],
   "ancestry": {
     "id": 5181,
     "name": "Lena Jackson",

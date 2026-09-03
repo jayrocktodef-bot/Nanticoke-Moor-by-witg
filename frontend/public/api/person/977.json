@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "moors_moors.aspx",
     "birth_info": "16 Jun 1806",
     "death_info": "14 Jan 1886 (aged 79)",
@@ -70,6 +70,15 @@
           "source_dataset": "moors_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11829,
+      "person_id": 977,
+      "fact_type": "Burial",
+      "date_string": "28 Aug 1913",
+      "place_string": "28 Aug 1913 in Harmony cemetery",
+      "value_string": "buried 28 Aug 1913 in Harmony cemetery",
+      "citations": []
     }
   ],
   "relationships": [
@@ -118,7 +127,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6261,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 977,
+      "person_id_secondary": null,
+      "description": "'Nathaniel Harmon' not found in source document",
+      "evidence": "source: moors_moors.aspx",
+      "created_at": "2026-09-03T12:54:32.404468"
+    },
+    {
+      "id": 6262,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 977,
+      "person_id_secondary": null,
+      "description": "[XPAGE:HarmonEmmanuelProbate.htm] Burial: date='28 Aug 1913'",
+      "evidence": "verbatim: buried 28 Aug 1913 in Harmony cemetery",
+      "created_at": "2026-09-03T12:54:32.421497"
+    }
+  ],
   "ancestry": {
     "id": 977,
     "name": "Nathaniel Harmon",

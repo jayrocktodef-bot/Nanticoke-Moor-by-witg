@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1914 Delaware",
     "death_info": null,
@@ -51,6 +51,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12421,
+      "person_id": 9804,
+      "fact_type": "Death",
+      "date_string": "1958",
+      "place_string": null,
+      "value_string": "died 1958",
+      "citations": []
     }
   ],
   "relationships": [
@@ -71,7 +80,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7261,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 9804,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c2.htm] Death: date='1958'",
+      "evidence": "verbatim: died 1958",
+      "created_at": "2026-09-03T12:55:41.410246"
+    }
+  ],
   "ancestry": {
     "id": 9804,
     "name": "Jennie Harmon",

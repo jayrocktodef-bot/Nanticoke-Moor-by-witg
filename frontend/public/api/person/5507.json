@@ -6,7 +6,7 @@
     "middle_name": "Durham",
     "maiden_name": "",
     "married_last_name": "Pierce",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamJEH&Harriett.htm",
     "birth_info": "4 Jul 1891",
     "death_info": "19 Dec 1969 (aged 78)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12151,
+      "person_id": 5507,
+      "fact_type": "Marriage",
+      "date_string": "9 January, 1931",
+      "place_string": null,
+      "value_string": "married James Hughes    Daniel died on 9 January, 1931",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -89,7 +98,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6966,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5507,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-d4.htm] Marriage: date='9 January, 1931'",
+      "evidence": "verbatim: married James Hughes    Daniel died on 9 January, 1931",
+      "created_at": "2026-09-03T12:55:13.661342"
+    }
+  ],
   "ancestry": {
     "id": 5507,
     "name": "Mary Durham Pierce",

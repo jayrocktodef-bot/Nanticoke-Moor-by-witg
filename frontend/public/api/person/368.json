@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Sammons",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "george.htm",
     "birth_info": "unknown",
     "death_info": "24 Sep 1930",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11739,
+      "person_id": 368,
+      "fact_type": "Birth",
+      "date_string": "27 Feb. 1888",
+      "place_string": null,
+      "value_string": "born 27 Feb. 1888",
+      "citations": []
     }
   ],
   "relationships": [
@@ -125,7 +134,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5970,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 368,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'William Sammons' \u2014 requires human review",
+      "evidence": "source: george.htm, matches: 41",
+      "created_at": "2026-09-03T12:54:24.114324"
+    },
+    {
+      "id": 5971,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 368,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-m2.htm] Birth: date='27 Feb. 1888'",
+      "evidence": "verbatim: born 27 Feb. 1888",
+      "created_at": "2026-09-03T12:54:24.117141"
+    }
+  ],
   "ancestry": {
     "id": 368,
     "name": "William Sammons",

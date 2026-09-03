@@ -6,7 +6,7 @@
     "middle_name": "North",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "moors_moors.aspx",
     "birth_info": "11 Sep 1862",
     "death_info": "7 Oct 1940 (aged 78)",
@@ -70,12 +70,32 @@
           "source_dataset": "moors_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11861,
+      "person_id": 1345,
+      "fact_type": "Marriage",
+      "date_string": "1858",
+      "place_string": null,
+      "value_string": "married  Araminta Sisco     Sometime before 1858",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6352,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 1345,
+      "person_id_secondary": null,
+      "description": "[XPAGE:morgan-w.htm] Marriage: date='1858'",
+      "evidence": "verbatim: married  Araminta Sisco     Sometime before 1858",
+      "created_at": "2026-09-03T12:54:34.647169"
+    }
+  ],
   "ancestry": {
     "id": 1345,
     "name": "Rebecca North Durham",

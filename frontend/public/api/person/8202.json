@@ -6,7 +6,7 @@
     "middle_name": "Primrose",
     "maiden_name": "",
     "married_last_name": "Pierce",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "7 Mar 1851 Delaware, United States",
     "death_info": "Oct 1917 Milford, New Haven, Connecticut, United States",
@@ -70,12 +70,32 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12360,
+      "person_id": 8202,
+      "fact_type": "Marriage",
+      "date_string": "9 January, 1931",
+      "place_string": null,
+      "value_string": "married James Hughes    Daniel died on 9 January, 1931",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7182,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8202,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-d4.htm] Marriage: date='9 January, 1931'",
+      "evidence": "verbatim: married James Hughes    Daniel died on 9 January, 1931",
+      "created_at": "2026-09-03T12:55:29.323526"
+    }
+  ],
   "ancestry": {
     "id": 8202,
     "name": "James Primrose Pierce",

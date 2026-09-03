@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "bible-r.htm",
     "birth_info": "1838",
     "death_info": "25 Dec 1915 (aged 76\u201377)",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11677,
+      "person_id": 25,
+      "fact_type": "Marriage",
+      "date_string": "Oct. 4, 1928",
+      "place_string": "Gratiot Co",
+      "value_string": "were married Oct. 4, 1928 in Gratiot Co",
+      "citations": []
     }
   ],
   "relationships": [
@@ -90,7 +99,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5762,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 25,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Laura Ridgeway' \u2014 requires human review",
+      "evidence": "source: bible-r.htm, matches: 9",
+      "created_at": "2026-09-03T12:54:16.430729"
+    },
+    {
+      "id": 5763,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 25,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-c1.htm] Marriage: date='Oct. 4, 1928'",
+      "evidence": "verbatim: were married Oct. 4, 1928 in Gratiot Co",
+      "created_at": "2026-09-03T12:54:16.432578"
+    }
+  ],
   "ancestry": {
     "id": 25,
     "name": "Laura Ridgeway",

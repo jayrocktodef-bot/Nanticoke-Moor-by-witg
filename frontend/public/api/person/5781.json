@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Sammons",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HandsorSarahSammons.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12172,
+      "person_id": 5781,
+      "fact_type": "Birth",
+      "date_string": "1823",
+      "place_string": "DE about 1823",
+      "value_string": "was born in DE about 1823 .",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6987,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5781,
+      "person_id_secondary": null,
+      "description": "[XPAGE:sammons.htm] Birth: date='1823'",
+      "evidence": "verbatim: was born in DE about 1823 .",
+      "created_at": "2026-09-03T12:55:14.770861"
+    }
+  ],
   "ancestry": {
     "id": 5781,
     "name": "Richardson Sammons",

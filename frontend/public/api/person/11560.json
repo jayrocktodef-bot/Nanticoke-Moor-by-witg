@@ -6,7 +6,7 @@
     "middle_name": null,
     "maiden_name": null,
     "married_last_name": "Concilor",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "concl-j1.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 12504,
+      "person_id": 11560,
+      "fact_type": "Death",
+      "date_string": "1826",
+      "place_string": null,
+      "value_string": "d. 1826",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7363,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 11560,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Elizabeth Concilor' \u2014 requires human review",
+      "evidence": "source: concl-j1.htm, matches: 26",
+      "created_at": "2026-09-03T12:56:04.807748"
+    },
+    {
+      "id": 7364,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11560,
+      "person_id_secondary": null,
+      "description": "[XPAGE:concl-e1.htm] Death: date='1826'",
+      "evidence": "verbatim: d. 1826",
+      "created_at": "2026-09-03T12:56:04.811126"
+    }
+  ],
   "ancestry": {
     "id": 11560,
     "name": "Elizabeth Concilor",

@@ -6,7 +6,7 @@
     "middle_name": "F.",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "fbranch.htm",
     "birth_info": "22 Jul 1892",
     "death_info": "11 Sep 1961 (aged 69)",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11737,
+      "person_id": 359,
+      "fact_type": "Marriage",
+      "date_string": "1918",
+      "place_string": null,
+      "value_string": "married Lillie White in 1918",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -89,7 +98,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5961,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 359,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Clara F. Mosley' \u2014 requires human review",
+      "evidence": "source: fbranch.htm, matches: 8",
+      "created_at": "2026-09-03T12:54:23.945127"
+    },
+    {
+      "id": 5962,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 359,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c2.htm] Marriage: date='1918'",
+      "evidence": "verbatim: married Lillie White in 1918",
+      "created_at": "2026-09-03T12:54:24.005065"
+    }
+  ],
   "ancestry": {
     "id": 359,
     "name": "Clara F. Mosley",

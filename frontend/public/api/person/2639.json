@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": null,
     "death_info": null,
@@ -21,6 +21,15 @@
       "date_string": null,
       "place_string": null,
       "value_string": "Rebecca Ridgeway",
+      "citations": []
+    },
+    {
+      "fact_id": 11945,
+      "person_id": 2639,
+      "fact_type": "Death",
+      "date_string": "March 31 1918",
+      "place_string": null,
+      "value_string": "departed this life March 31 1918",
       "citations": []
     }
   ],
@@ -54,7 +63,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6742,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2639,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-r.htm] Death: date='March 31 1918'",
+      "evidence": "verbatim: departed this life March 31 1918",
+      "created_at": "2026-09-03T12:55:01.965466"
+    }
+  ],
   "ancestry": {
     "id": 2639,
     "name": "Rebecca Ridgeway",

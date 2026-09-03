@@ -45,7 +45,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6096,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 525,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Jeanette Mosely' \u2014 requires human review",
+      "evidence": "source: morganj4.htm, matches: 7",
+      "created_at": "2026-09-03T12:54:28.803166"
+    }
+  ],
   "ancestry": {
     "id": 525,
     "name": "Jeanette Mosely",

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Wright",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Wright%20Brothers%20Ontario.htm",
     "birth_info": "unknown",
     "death_info": "16 Jul 1875",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12337,
+      "person_id": 7931,
+      "fact_type": "Birth",
+      "date_string": "30 October, 1872",
+      "place_string": null,
+      "value_string": "was born on 30 October, 1872 and died",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -89,7 +98,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7159,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7931,
+      "person_id_secondary": null,
+      "description": "[XPAGE:wrightw.htm] Birth: date='30 October, 1872'",
+      "evidence": "verbatim: was born on 30 October, 1872 and died",
+      "created_at": "2026-09-03T12:55:27.384215"
+    }
+  ],
   "ancestry": {
     "id": 7931,
     "name": "John Wright",

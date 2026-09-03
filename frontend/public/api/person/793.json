@@ -79,7 +79,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6236,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 793,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Gloria Harmon' \u2014 requires human review",
+      "evidence": "source: wrightw2.htm, matches: 7",
+      "created_at": "2026-09-03T12:54:31.927806"
+    }
+  ],
   "ancestry": {
     "id": 793,
     "name": "Gloria Harmon",

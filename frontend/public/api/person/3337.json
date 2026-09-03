@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "BurtonEllaMosley.htm",
     "birth_info": "unknown",
     "death_info": "29 Mar 1896",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11975,
+      "person_id": 3337,
+      "fact_type": "Birth",
+      "date_string": "30 Jun 1882",
+      "place_string": null,
+      "value_string": "born 30 Jun 1882",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6772,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3337,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksnr2.htm] Birth: date='30 Jun 1882'",
+      "evidence": "verbatim: born 30 Jun 1882",
+      "created_at": "2026-09-03T12:55:04.249520"
+    }
+  ],
   "ancestry": {
     "id": 3337,
     "name": "Burton Mosley",

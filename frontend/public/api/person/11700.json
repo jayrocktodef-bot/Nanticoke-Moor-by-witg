@@ -6,10 +6,10 @@
     "middle_name": null,
     "maiden_name": null,
     "married_last_name": "then",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "morganl2.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "1949",
     "notes": "",
     "dataset_source": "lynncjackson"
   },
@@ -32,6 +32,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 12513,
+      "person_id": 11700,
+      "fact_type": "Death",
+      "date_string": "1949",
+      "place_string": "1949",
+      "value_string": "died in 1949",
+      "citations": []
     }
   ],
   "relationships": [
@@ -45,7 +54,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7393,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11700,
+      "person_id_secondary": null,
+      "description": "Added Death: date='1949', place='1949' [confidence=MEDIUM]",
+      "evidence": "source: morganl2.htm | verbatim: died in 1949",
+      "created_at": "2026-09-03T12:56:05.161599"
+    }
+  ],
   "ancestry": {
     "id": 11700,
     "name": "He then",

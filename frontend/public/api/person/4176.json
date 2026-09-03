@@ -6,7 +6,7 @@
     "middle_name": "Daniel",
     "maiden_name": "",
     "married_last_name": "Coker",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CokerMaryAnnDean.htm",
     "birth_info": "22 Jun 1957",
     "death_info": "16 Jan 1976 (aged 18)",
@@ -127,6 +127,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12061,
+      "person_id": 4176,
+      "fact_type": "Marriage",
+      "date_string": "30 October 1967",
+      "place_string": null,
+      "value_string": "married Burt Schroeder   Hopewell died on 30 October 1967",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -172,7 +181,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6858,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4176,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-h3.htm] Marriage: date='30 October 1967'",
+      "evidence": "verbatim: married Burt Schroeder   Hopewell died on 30 October 1967",
+      "created_at": "2026-09-03T12:55:08.282540"
+    }
+  ],
   "ancestry": {
     "id": 4176,
     "name": "Daniel Coker",

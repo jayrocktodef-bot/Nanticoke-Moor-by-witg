@@ -349,6 +349,36 @@
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: william|davis|1900",
       "created_at": "2026-08-31 00:17:14"
+    },
+    {
+      "id": 7315,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 10618,
+      "person_id_secondary": null,
+      "description": "Death conflict: existing='1973 (aged 72\u201373)' vs XML='20 Oct 1933'",
+      "evidence": "source: preservation_output/profiles/person_10618.xml",
+      "created_at": "2026-09-03T12:55:58.618250"
+    },
+    {
+      "id": 7316,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 10618,
+      "person_id_secondary": null,
+      "description": "Death conflict: existing='1973 (aged 72\u201373)' vs XML='20 Oct 1933'",
+      "evidence": "source: preservation_output/profiles/person_10618.xml",
+      "created_at": "2026-09-03T12:55:58.618327"
+    },
+    {
+      "id": 7317,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 10618,
+      "person_id_secondary": null,
+      "description": "Death conflict: existing='20 Oct 1933' vs XML='1973 (aged 72\u201373)'",
+      "evidence": "source: preservation_output/profiles/person_10618.xml",
+      "created_at": "2026-09-03T12:55:58.618412"
     }
   ],
   "ancestry": {

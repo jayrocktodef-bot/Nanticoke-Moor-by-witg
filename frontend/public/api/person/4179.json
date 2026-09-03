@@ -6,7 +6,7 @@
     "middle_name": "Caroline",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CokerMaryAnnDean.htm",
     "birth_info": "unknown",
     "death_info": "6 Sep 1830",
@@ -89,12 +89,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12063,
+      "person_id": 4179,
+      "fact_type": "Marriage",
+      "date_string": "10 April, 1913",
+      "place_string": null,
+      "value_string": "married Clem Carney on 10 April, 1913",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6860,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4179,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-a6.htm] Marriage: date='10 April, 1913'",
+      "evidence": "verbatim: married Clem Carney on 10 April, 1913",
+      "created_at": "2026-09-03T12:55:08.333736"
+    }
+  ],
   "ancestry": {
     "id": 4179,
     "name": "Caroline Dean",

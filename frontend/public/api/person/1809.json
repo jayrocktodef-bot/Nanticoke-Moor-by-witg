@@ -37,7 +37,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6367,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 1809,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Some PA Deaths' \u2014 requires human review",
+      "evidence": "source: MainMenu.html, matches: 3",
+      "created_at": "2026-09-03T12:54:35.181348"
+    }
+  ],
   "ancestry": {
     "id": 1809,
     "name": "Some PA Deaths",

@@ -6,7 +6,7 @@
     "middle_name": "Ida Johnson",
     "maiden_name": "",
     "married_last_name": "Wright",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "WrightWarrenTalbertFamily.htm",
     "birth_info": "1903",
     "death_info": null,
@@ -89,6 +89,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12346,
+      "person_id": 7990,
+      "fact_type": "Marriage",
+      "date_string": "October 28, 1896",
+      "place_string": null,
+      "value_string": "married Mary Elizabeth Clark on October 28, 1896",
+      "citations": []
     }
   ],
   "relationships": [
@@ -102,7 +111,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7168,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7990,
+      "person_id_secondary": null,
+      "description": "[XPAGE:munce-m4.htm] Marriage: date='October 28, 1896'",
+      "evidence": "verbatim: married Mary Elizabeth Clark on October 28, 1896",
+      "created_at": "2026-09-03T12:55:28.213875"
+    }
+  ],
   "ancestry": {
     "id": 7990,
     "name": "Bertha Ida Johnson Wright",

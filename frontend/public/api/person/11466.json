@@ -6,7 +6,7 @@
     "middle_name": null,
     "maiden_name": null,
     "married_last_name": "Whiteman",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": null,
     "death_info": null,
@@ -22,12 +22,32 @@
       "place_string": null,
       "value_string": "William Whiteman",
       "citations": []
+    },
+    {
+      "fact_id": 12500,
+      "person_id": 11466,
+      "fact_type": "Marriage",
+      "date_string": "15 November, 1917",
+      "place_string": null,
+      "value_string": "married Mae SAMMONS on 15 November, 1917",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7356,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11466,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='15 November, 1917'",
+      "evidence": "verbatim: married Mae SAMMONS on 15 November, 1917",
+      "created_at": "2026-09-03T12:56:04.795459"
+    }
+  ],
   "ancestry": {
     "id": 11466,
     "name": "William Whiteman",

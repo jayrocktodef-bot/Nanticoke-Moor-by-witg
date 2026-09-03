@@ -6,7 +6,7 @@
     "middle_name": "Morgan",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "dean-r.htm",
     "birth_info": "unknown",
     "death_info": "13 Aug 1870",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11719,
+      "person_id": 277,
+      "fact_type": "Marriage",
+      "date_string": "30 April 1921",
+      "place_string": null,
+      "value_string": "married William Thomas Reed on 30 April 1921",
+      "citations": []
     }
   ],
   "relationships": [
@@ -83,7 +92,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5898,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 277,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Catherine Morgan Dean' \u2014 requires human review",
+      "evidence": "source: dean-r.htm, matches: 12",
+      "created_at": "2026-09-03T12:54:20.660731"
+    },
+    {
+      "id": 5899,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 277,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='30 April 1921'",
+      "evidence": "verbatim: married William Thomas Reed on 30 April 1921",
+      "created_at": "2026-09-03T12:54:20.669115"
+    }
+  ],
   "ancestry": {
     "id": 277,
     "name": "Catherine Morgan Dean",

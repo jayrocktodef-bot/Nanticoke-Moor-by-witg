@@ -6,7 +6,7 @@
     "middle_name": "Wilson Willie",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HarmanIsaacWillie.htm",
     "birth_info": "about 1862 \u2014 Millsboro, Sussex, Delaware, United States",
     "death_info": null,
@@ -51,6 +51,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12177,
+      "person_id": 5814,
+      "fact_type": "Death",
+      "date_string": "6 Sept. 1889",
+      "place_string": null,
+      "value_string": "died on 6 Sept. 1889",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -119,6 +128,16 @@
       "description": "Potential duplicate profile (matching name and birth year)",
       "evidence": "Key: isaac|harmon|1862",
       "created_at": "2026-08-31 00:17:14"
+    },
+    {
+      "id": 6992,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5814,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-w2.htm] Death: date='6 Sept. 1889'",
+      "evidence": "verbatim: died on 6 Sept. 1889",
+      "created_at": "2026-09-03T12:55:15.028576"
     }
   ],
   "ancestry": {

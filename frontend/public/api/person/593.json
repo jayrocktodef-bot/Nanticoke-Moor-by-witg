@@ -37,7 +37,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6138,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 593,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Levin Sockum Eunice Ridgeway' \u2014 requires human review",
+      "evidence": "source: photo.htm, matches: 37",
+      "created_at": "2026-09-03T12:54:29.409891"
+    }
+  ],
   "ancestry": {
     "id": 593,
     "name": "Levin Sockum Eunice Ridgeway",

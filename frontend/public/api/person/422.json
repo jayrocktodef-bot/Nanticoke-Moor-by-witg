@@ -97,7 +97,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6010,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 422,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Robert Street' \u2014 requires human review",
+      "evidence": "source: jacksnr2.htm, matches: 28",
+      "created_at": "2026-09-03T12:54:25.170210"
+    }
+  ],
   "ancestry": {
     "id": 422,
     "name": "Robert Street",

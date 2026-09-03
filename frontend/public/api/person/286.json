@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Cork",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "dean-w.htm",
     "birth_info": "unknown",
     "death_info": "7 Aug 1916",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11723,
+      "person_id": 286,
+      "fact_type": "Birth",
+      "date_string": "January 4, 1837",
+      "place_string": "Kent County DE on January 4, 1837",
+      "value_string": "was born in Kent County DE on January 4, 1837 .",
+      "citations": []
     }
   ],
   "relationships": [
@@ -83,7 +92,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5906,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 286,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Peregrine Cork' \u2014 requires human review",
+      "evidence": "source: dean-w.htm, matches: 2",
+      "created_at": "2026-09-03T12:54:20.830628"
+    },
+    {
+      "id": 5907,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 286,
+      "person_id_secondary": null,
+      "description": "[XPAGE:munce-j1.htm] Birth: date='January 4, 1837'",
+      "evidence": "verbatim: was born in Kent County DE on January 4, 1837 .",
+      "created_at": "2026-09-03T12:54:20.832574"
+    }
+  ],
   "ancestry": {
     "id": 286,
     "name": "Peregrine Cork",

@@ -6,7 +6,7 @@
     "middle_name": "Noah",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HarmonIsaacW&SarahSockum.htm",
     "birth_info": "8 May 1882",
     "death_info": "2 Jan 1949 (aged 66)",
@@ -165,6 +165,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12189,
+      "person_id": 5971,
+      "fact_type": "Marriage",
+      "date_string": "1918",
+      "place_string": null,
+      "value_string": "married Lillie White in 1918",
+      "citations": []
     }
   ],
   "relationships": [
@@ -332,7 +341,48 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7004,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 5971,
+      "person_id_secondary": null,
+      "description": "Birth conflict: existing='8 May 1882' vs XML='about 1871 \u2014 Delaware, United States'",
+      "evidence": "source: preservation_output/profiles/person_5971.xml",
+      "created_at": "2026-09-03T12:55:15.988731"
+    },
+    {
+      "id": 7005,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 5971,
+      "person_id_secondary": null,
+      "description": "Birth conflict: existing='8 May 1882' vs XML='about 1871 \u2014 Delaware, United States'",
+      "evidence": "source: preservation_output/profiles/person_5971.xml",
+      "created_at": "2026-09-03T12:55:15.988775"
+    },
+    {
+      "id": 7006,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 5971,
+      "person_id_secondary": null,
+      "description": "Birth conflict: existing='about 1871 \u2014 Delaware, United States' vs XML='8 May 1882'",
+      "evidence": "source: preservation_output/profiles/person_5971.xml",
+      "created_at": "2026-09-03T12:55:15.988809"
+    },
+    {
+      "id": 7007,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5971,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c2.htm] Marriage: date='1918'",
+      "evidence": "verbatim: married Lillie White in 1918",
+      "created_at": "2026-09-03T12:55:16.052276"
+    }
+  ],
   "ancestry": {
     "id": 5971,
     "name": "Noah C. Harmon",

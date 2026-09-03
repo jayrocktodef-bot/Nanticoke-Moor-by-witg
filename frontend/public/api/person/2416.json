@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6681,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2416,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Matilda Waters' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 83",
+      "created_at": "2026-09-03T12:54:58.678630"
+    }
+  ],
   "ancestry": {
     "id": 2416,
     "name": "Matilda Waters",

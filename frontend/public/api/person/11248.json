@@ -6,7 +6,7 @@
     "middle_name": "Ann",
     "maiden_name": "Sarah",
     "married_last_name": "Thompson",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "FindAGrave Memorial 5207278",
     "birth_info": "1844",
     "death_info": "1929",
@@ -70,6 +70,15 @@
           "source_dataset": "findagrave"
         }
       ]
+    },
+    {
+      "fact_id": 12499,
+      "person_id": 11248,
+      "fact_type": "Marriage",
+      "date_string": "18 January, 1922",
+      "place_string": "Cheswold DE on 18 January, 1922",
+      "value_string": "married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
+      "citations": []
     }
   ],
   "relationships": [
@@ -83,7 +92,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7354,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11248,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-e2.htm] Marriage: date='18 January, 1922'",
+      "evidence": "verbatim: married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
+      "created_at": "2026-09-03T12:56:04.540524"
+    }
+  ],
   "ancestry": {
     "id": 11248,
     "name": "Sara Ann Thompson",

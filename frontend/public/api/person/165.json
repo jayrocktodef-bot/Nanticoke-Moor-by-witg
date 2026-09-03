@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "concl-e1.htm",
     "birth_info": "1842",
     "death_info": "1844 (aged 1\u20132)",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11707,
+      "person_id": 165,
+      "fact_type": "Marriage",
+      "date_string": "30 April 1921",
+      "place_string": null,
+      "value_string": "married William Thomas Reed on 30 April 1921",
+      "citations": []
     }
   ],
   "relationships": [
@@ -97,7 +106,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5858,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 165,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'James Dean' \u2014 requires human review",
+      "evidence": "source: concl-e1.htm, matches: 21",
+      "created_at": "2026-09-03T12:54:19.036091"
+    },
+    {
+      "id": 5859,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 165,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='30 April 1921'",
+      "evidence": "verbatim: married William Thomas Reed on 30 April 1921",
+      "created_at": "2026-09-03T12:54:19.061478"
+    }
+  ],
   "ancestry": {
     "id": 165,
     "name": "James Dean",

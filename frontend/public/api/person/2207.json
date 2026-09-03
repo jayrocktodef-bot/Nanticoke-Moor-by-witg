@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11885,
+      "person_id": 2207,
+      "fact_type": "Death",
+      "date_string": "1839",
+      "place_string": null,
+      "value_string": "D. 1839",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6486,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2207,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Levi Carney' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 4",
+      "created_at": "2026-09-03T12:54:39.484900"
+    },
+    {
+      "id": 6487,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2207,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-c1.htm] Death: date='1839'",
+      "evidence": "verbatim: D. 1839",
+      "created_at": "2026-09-03T12:54:39.487655"
+    }
+  ],
   "ancestry": {
     "id": 2207,
     "name": "Levi Carney",

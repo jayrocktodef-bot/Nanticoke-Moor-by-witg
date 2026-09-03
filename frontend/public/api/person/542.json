@@ -45,7 +45,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6103,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 542,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Ulysses Owens' \u2014 requires human review",
+      "evidence": "source: munce-l2.htm, matches: 11",
+      "created_at": "2026-09-03T12:54:28.860236"
+    }
+  ],
   "ancestry": {
     "id": 542,
     "name": "Ulysses Owens",

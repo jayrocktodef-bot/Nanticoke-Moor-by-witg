@@ -15,7 +15,7 @@ Provides REST API endpoints for:
 import os
 import sqlite3
 import re
-from fastapi import FastAPI, Query, HTTPException
+from fastapi import FastAPI, Query, HTTPException, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
@@ -374,6 +374,20 @@ def get_record(filename: str):
         "media_assets": media
     }
 
+@app.get("/api/pdf/{identifier:path}")
+@app.get("/api/transcriptions-pdf/{identifier:path}")
+def get_pdf_route(identifier: str):
+    clean_id = identifier.replace(".pdf", "")
+    data = get_transcription_endpoint(clean_id)
+    pdf_bytes = generate_transcription_pdf(data)
+    filename_slug = re.sub(r'[^a-zA-Z0-9_-]', '_', data.get("title", clean_id))
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={"Content-Disposition": f"inline; filename=\"{filename_slug}_transcription.pdf\""}
+    )
+
+
 @app.get("/api/transcriptions/{identifier:path}")
 def get_transcription_endpoint(identifier: str):
     import urllib.parse
@@ -522,6 +536,124 @@ def get_transcription_endpoint(identifier: str):
         "full_text": full_text,
         "clean_html": clean_html
     }
+
+
+def to_pdf_safe_text(text: str) -> str:
+    if not text:
+        return ""
+    replacements = {
+        "—": " - ",
+        "–": "-",
+        "“": '"',
+        "”": '"',
+        "‘": "'",
+        "’": "'",
+        "…": "...",
+        "\u00a0": " ",
+    }
+    for orig, repl in replacements.items():
+        text = text.replace(orig, repl)
+    return text.encode("latin-1", "replace").decode("latin-1")
+
+
+def generate_transcription_pdf(data: dict) -> bytes:
+    from fpdf import FPDF
+
+    pdf = FPDF(orientation="P", unit="mm", format="A4")
+    pdf.set_margins(15, 15, 15)
+    pdf.set_auto_page_break(auto=True, margin=15)
+    pdf.add_page()
+
+    # Top Header Banner
+    pdf.set_fill_color(26, 23, 20)
+    pdf.set_text_color(198, 139, 89)
+    pdf.set_font("Helvetica", "B", 10)
+    pdf.cell(pdf.epw, 8, to_pdf_safe_text("DELAWARE NATIVE AMERICAN ARCHIVES — PRESERVED MANUSCRIPT"), new_x="LMARGIN", new_y="NEXT", align="C", fill=True)
+
+    pdf.ln(4)
+
+    # Document Title
+    pdf.set_text_color(24, 20, 16)
+    pdf.set_font("Helvetica", "B", 15)
+    title = data.get("title") or "Historical Document Transcription"
+    pdf.multi_cell(pdf.epw, 7, to_pdf_safe_text(title), align="C")
+
+    # Document Metadata Header
+    pdf.set_font("Helvetica", "I", 9)
+    pdf.set_text_color(110, 100, 90)
+    meta_parts = [
+        f"Classification: {data.get('document_type', 'Primary Record')}",
+        f"Year: {data.get('approximate_year', 'Historical Record')}",
+        f"Length: {data.get('line_count', len(data.get('lines', [])))} Lines ({data.get('word_count', 0)} Words)"
+    ]
+    pdf.multi_cell(pdf.epw, 5, to_pdf_safe_text(" | ".join(meta_parts)), align="C")
+
+    pdf.ln(3)
+    pdf.set_draw_color(198, 139, 89)
+    pdf.set_line_width(0.4)
+    pdf.line(15, pdf.get_y(), 195, pdf.get_y())
+    pdf.ln(5)
+
+    # Transcription Lines Body
+    lines = data.get("lines") or []
+    pdf.set_font("Helvetica", "", 9.5)
+
+    for idx, line in enumerate(lines, 1):
+        if line.startswith("---") or line.startswith("==="):
+            pdf.ln(2)
+            pdf.set_draw_color(210, 200, 190)
+            pdf.line(15, pdf.get_y(), 195, pdf.get_y())
+            pdf.ln(2)
+            continue
+
+        if line.startswith("DOCUMENT TITLE:") or line.startswith("RECORD CLASSIFICATION:") or line.startswith("TRANSCRIPTION") or line.startswith("ARCHIVAL CITATION:"):
+            pdf.ln(3)
+            pdf.set_font("Helvetica", "B", 9)
+            pdf.set_text_color(198, 139, 89)
+            pdf.multi_cell(pdf.epw, 5, to_pdf_safe_text(line))
+            pdf.set_font("Helvetica", "", 9.5)
+            pdf.set_text_color(30, 30, 30)
+            continue
+
+        line_num = f"{idx:3d}  "
+        safe_line = to_pdf_safe_text(line)
+
+        pdf.set_font("Courier", "", 8)
+        pdf.set_text_color(150, 140, 130)
+        pdf.cell(10, 5, line_num)
+
+        pdf.set_font("Helvetica", "", 9.5)
+        pdf.set_text_color(30, 30, 30)
+        pdf.multi_cell(pdf.epw - 10, 5, safe_line)
+
+    if data.get("citation"):
+        pdf.ln(6)
+        pdf.set_fill_color(245, 243, 240)
+        pdf.set_draw_color(200, 190, 180)
+        pdf.set_font("Helvetica", "B", 8)
+        pdf.set_text_color(198, 139, 89)
+        pdf.cell(pdf.epw, 6, "ARCHIVAL CITATION", new_x="LMARGIN", new_y="NEXT", fill=True)
+
+        pdf.set_font("Helvetica", "", 8)
+        pdf.set_text_color(60, 60, 60)
+        safe_citation = to_pdf_safe_text(data["citation"])
+        pdf.multi_cell(pdf.epw, 5, safe_citation, fill=True)
+
+    return bytes(pdf.output())
+
+
+@app.get("/api/transcriptions/{identifier:path}/pdf")
+def get_transcription_pdf_endpoint(identifier: str):
+    clean_id = identifier.replace(".pdf", "")
+    data = get_transcription_endpoint(clean_id)
+    pdf_bytes = generate_transcription_pdf(data)
+    filename_slug = re.sub(r'[^a-zA-Z0-9_-]', '_', data.get("title", clean_id))
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={"Content-Disposition": f"inline; filename=\"{filename_slug}_transcription.pdf\""}
+    )
+
 
 @app.get("/api/media")
 def get_media_gallery():

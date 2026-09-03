@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "York",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HarmonSacajawea.htm",
     "birth_info": null,
     "death_info": null,
@@ -51,12 +51,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12198,
+      "person_id": 6063,
+      "fact_type": "Death",
+      "date_string": "11 September, 1937",
+      "place_string": null,
+      "value_string": "died on 11 September, 1937",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7016,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6063,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-a5.htm] Death: date='11 September, 1937'",
+      "evidence": "verbatim: died on 11 September, 1937",
+      "created_at": "2026-09-03T12:55:16.454011"
+    }
+  ],
   "ancestry": {
     "id": 6063,
     "name": "New York",

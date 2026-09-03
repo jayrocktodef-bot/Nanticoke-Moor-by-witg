@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "moors_moors.aspx",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,42 @@
           "source_dataset": "moors_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11828,
+      "person_id": 975,
+      "fact_type": "Death",
+      "date_string": "1936",
+      "place_string": "Bridgeton, NJ in 1936",
+      "value_string": "died in Bridgeton, NJ in 1936",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6259,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 975,
+      "person_id_secondary": null,
+      "description": "'Augustus Durham' not found in source document",
+      "evidence": "source: moors_moors.aspx",
+      "created_at": "2026-09-03T12:54:32.390967"
+    },
+    {
+      "id": 6260,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 975,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-j2.htm] Death: date='1936'",
+      "evidence": "verbatim: died in Bridgeton, NJ in 1936",
+      "created_at": "2026-09-03T12:54:32.403382"
+    }
+  ],
   "ancestry": {
     "id": 975,
     "name": "Augustus Durham",

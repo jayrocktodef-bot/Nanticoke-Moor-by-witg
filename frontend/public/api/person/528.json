@@ -37,7 +37,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6099,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 528,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Leticia Hughes' \u2014 requires human review",
+      "evidence": "source: morganj4.htm, matches: 12",
+      "created_at": "2026-09-03T12:54:28.806537"
+    }
+  ],
   "ancestry": {
     "id": 528,
     "name": "Leticia Hughes",

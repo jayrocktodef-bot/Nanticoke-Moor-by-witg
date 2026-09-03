@@ -6,7 +6,7 @@
     "middle_name": "Thomas",
     "maiden_name": "",
     "married_last_name": "Reed",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "ReedCharlesBuck&Family.htm",
     "birth_info": "unknown",
     "death_info": "19 Feb 1861",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12289,
+      "person_id": 7062,
+      "fact_type": "Marriage",
+      "date_string": "18 October 1916",
+      "place_string": null,
+      "value_string": "married Joel Clemons Smith on 18 October 1916",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -102,7 +111,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7110,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7062,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='18 October 1916'",
+      "evidence": "verbatim: married Joel Clemons Smith on 18 October 1916",
+      "created_at": "2026-09-03T12:55:23.291157"
+    }
+  ],
   "ancestry": {
     "id": 7062,
     "name": "William Thomas Reed",

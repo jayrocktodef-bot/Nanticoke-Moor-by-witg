@@ -6,7 +6,7 @@
     "middle_name": "Dean",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DeanRobertBurton.htm",
     "birth_info": "6 Sep 1893",
     "death_info": "20 Aug 1980 (aged 86)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12118,
+      "person_id": 4943,
+      "fact_type": "Marriage",
+      "date_string": "1945",
+      "place_string": null,
+      "value_string": "wed him in 1945",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -89,7 +98,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6918,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4943,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-j2.htm] Marriage: date='1945'",
+      "evidence": "verbatim: wed him in 1945",
+      "created_at": "2026-09-03T12:55:10.901132"
+    }
+  ],
   "ancestry": {
     "id": 4943,
     "name": "Elsie Dean Durham",

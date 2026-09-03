@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Wright",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "wrightw1.htm",
     "birth_info": "unknown",
     "death_info": "Dec 1807",
@@ -89,6 +89,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11818,
+      "person_id": 787,
+      "fact_type": "Birth",
+      "date_string": "15 February, 1842",
+      "place_string": "Northwest Fork Hundred, Sussex Co",
+      "value_string": "was born on 15 February, 1842 in Northwest Fork Hundred, Sussex Co.",
+      "citations": []
     }
   ],
   "relationships": [
@@ -142,7 +151,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6231,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 787,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Ann Wright' \u2014 requires human review",
+      "evidence": "source: wrightw1.htm, matches: 18",
+      "created_at": "2026-09-03T12:54:31.828171"
+    },
+    {
+      "id": 6232,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 787,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksnr2.htm] Birth: date='15 February, 1842'",
+      "evidence": "verbatim: was born on 15 February, 1842 in Northwest Fork Hundred, Sussex Co.",
+      "created_at": "2026-09-03T12:54:31.838504"
+    }
+  ],
   "ancestry": {
     "id": 787,
     "name": "Ann Wright",

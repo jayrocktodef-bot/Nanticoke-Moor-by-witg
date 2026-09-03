@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "carty-w2.htm",
     "birth_info": "22 Jan 1831",
     "death_info": "1907 (aged 75\u201376)",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11688,
+      "person_id": 81,
+      "fact_type": "Burial",
+      "date_string": "1873",
+      "place_string": "behind church            Elmirah Durham   1873 - 1953   wife of John M",
+      "value_string": "buried behind church            Elmirah Durham   1873 - 1953   wife of John M",
+      "citations": []
     }
   ],
   "relationships": [
@@ -90,7 +99,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5801,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 81,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Elmira Mosley' \u2014 requires human review",
+      "evidence": "source: carty-w2.htm, matches: 10",
+      "created_at": "2026-09-03T12:54:17.258625"
+    },
+    {
+      "id": 5802,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 81,
+      "person_id_secondary": null,
+      "description": "[XPAGE:fbranch.htm] Burial: date='1873'",
+      "evidence": "verbatim: buried behind church            Elmirah Durham   1873 - 1953   wife of John M",
+      "created_at": "2026-09-03T12:54:17.292699"
+    }
+  ],
   "ancestry": {
     "id": 81,
     "name": "Elmira Mosley",

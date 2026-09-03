@@ -6,7 +6,7 @@
     "middle_name": "Raymond",
     "maiden_name": "",
     "married_last_name": "Terry",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamReunion1996HiRes.htm",
     "birth_info": null,
     "death_info": null,
@@ -41,12 +41,32 @@
       "place_string": null,
       "value_string": "Raymond Terry",
       "citations": []
+    },
+    {
+      "fact_id": 12133,
+      "person_id": 5178,
+      "fact_type": "Death",
+      "date_string": "19 December, 1940",
+      "place_string": "Wilmington on 19 December, 1940",
+      "value_string": "died in Wilmington on 19 December, 1940",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6944,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5178,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-r2.htm] Death: date='19 December, 1940'",
+      "evidence": "verbatim: died in Wilmington on 19 December, 1940",
+      "created_at": "2026-09-03T12:55:12.379856"
+    }
+  ],
   "ancestry": {
     "id": 5178,
     "name": "Raymond Terry",

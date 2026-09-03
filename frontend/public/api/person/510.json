@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Morgan",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "morgan-m.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11776,
+      "person_id": 510,
+      "fact_type": "Death",
+      "date_string": "7 November, 1929",
+      "place_string": "the Children's Seashore House in Atlantic City on \t\t7 November, 1929",
+      "value_string": "died at the Children's Seashore House in Atlantic City on \t\t7 November, 1929",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6080,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 510,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Leomond Morgan' \u2014 requires human review",
+      "evidence": "source: morgan-m.htm, matches: 2",
+      "created_at": "2026-09-03T12:54:28.694980"
+    },
+    {
+      "id": 6081,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 510,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-m2.htm] Death: date='7 November, 1929'",
+      "evidence": "verbatim: died at the Children's Seashore House in Atlantic City on \t\t7 November, 1929",
+      "created_at": "2026-09-03T12:54:28.697635"
+    }
+  ],
   "ancestry": {
     "id": 510,
     "name": "Leomond Morgan",

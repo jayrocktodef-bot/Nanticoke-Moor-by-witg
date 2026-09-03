@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5976,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 377,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Edward Norman' \u2014 requires human review",
+      "evidence": "source: hansor.htm, matches: 29",
+      "created_at": "2026-09-03T12:54:24.249885"
+    }
+  ],
   "ancestry": {
     "id": 377,
     "name": "Edward Norman",

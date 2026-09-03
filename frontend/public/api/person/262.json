@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5892,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 262,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Martha Dean' \u2014 requires human review",
+      "evidence": "source: dean-j3.htm, matches: 12",
+      "created_at": "2026-09-03T12:54:20.507667"
+    }
+  ],
   "ancestry": {
     "id": 262,
     "name": "Martha Dean",

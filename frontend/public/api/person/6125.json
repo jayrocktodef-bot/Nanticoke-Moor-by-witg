@@ -6,7 +6,7 @@
     "middle_name": "Jackson",
     "maiden_name": "",
     "married_last_name": "Reed",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Jackson7&PerryHughes.htm",
     "birth_info": "15 Nov 1816",
     "death_info": "22 Aug 1887 (aged 70)",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12206,
+      "person_id": 6125,
+      "fact_type": "Marriage",
+      "date_string": "March 6\u00a0  1870",
+      "place_string": null,
+      "value_string": "was married to Rebecca Jemson\u00a0 his wife March 6\u00a0  1870",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7024,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6125,
+      "person_id_secondary": null,
+      "description": "[XPAGE:Reed_Effie_Bible.htm] Marriage: date='March 6\u00a0  1870'",
+      "evidence": "verbatim: was married to Rebecca Jemson\u00a0 his wife March 6\u00a0  1870",
+      "created_at": "2026-09-03T12:55:17.474460"
+    }
+  ],
   "ancestry": {
     "id": 6125,
     "name": "Rebecca Jackson Reed",

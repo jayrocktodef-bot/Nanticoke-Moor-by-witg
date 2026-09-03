@@ -6,7 +6,7 @@
     "middle_name": "Concilor",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "dean-j2.htm",
     "birth_info": "30 Nov 1890",
     "death_info": "May 1975 (aged 84)",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11717,
+      "person_id": 248,
+      "fact_type": "Marriage",
+      "date_string": "1827",
+      "place_string": null,
+      "value_string": "married sometime prior to 1827",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -89,7 +98,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5890,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 248,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Hester Concilor Dean' \u2014 requires human review",
+      "evidence": "source: dean-j2.htm, matches: 35",
+      "created_at": "2026-09-03T12:54:20.462416"
+    },
+    {
+      "id": 5891,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 248,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-j3.htm] Marriage: date='1827'",
+      "evidence": "verbatim: married sometime prior to 1827",
+      "created_at": "2026-09-03T12:54:20.506066"
+    }
+  ],
   "ancestry": {
     "id": 248,
     "name": "Hester Concilor Dean",

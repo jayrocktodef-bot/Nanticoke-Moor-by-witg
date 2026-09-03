@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6531,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 2253,
+      "person_id_secondary": null,
+      "description": "'Hannah Counselor' not found in source document",
+      "evidence": "source: Probate.htm",
+      "created_at": "2026-09-03T12:54:42.938198"
+    }
+  ],
   "ancestry": {
     "id": 2253,
     "name": "Hannah Counselor",

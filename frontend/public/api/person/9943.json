@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Morris",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1819 Sussex County, Delaware, United States of America",
     "death_info": "3 January 1902 Philadelphia, Philadelphia County, Pennsylvania, United States of America",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12429,
+      "person_id": 9943,
+      "fact_type": "Burial",
+      "date_string": "1 Aug 1931",
+      "place_string": "1 Aug 1931 in Bethel Cemetery",
+      "value_string": "buried 1 Aug 1931 in Bethel Cemetery",
+      "citations": []
     }
   ],
   "relationships": [
@@ -118,7 +127,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7273,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 9943,
+      "person_id_secondary": null,
+      "description": "[XPAGE:HarmonEmmanuelProbate.htm] Burial: date='1 Aug 1931'",
+      "evidence": "verbatim: buried 1 Aug 1931 in Bethel Cemetery",
+      "created_at": "2026-09-03T12:55:43.413372"
+    }
+  ],
   "ancestry": {
     "id": 9943,
     "name": "Jane Morris",

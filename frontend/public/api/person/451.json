@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6024,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 451,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Wingate Perkins' \u2014 requires human review",
+      "evidence": "source: jacksonn.htm, matches: 3",
+      "created_at": "2026-09-03T12:54:26.181035"
+    }
+  ],
   "ancestry": {
     "id": 451,
     "name": "Wingate Perkins",

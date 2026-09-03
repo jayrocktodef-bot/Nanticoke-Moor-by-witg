@@ -6,7 +6,7 @@
     "middle_name": "A",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "moors_moors.aspx",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,42 @@
           "source_dataset": "moors_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11838,
+      "person_id": 1013,
+      "fact_type": "Death",
+      "date_string": "1982",
+      "place_string": null,
+      "value_string": "d. 1982",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6288,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 1013,
+      "person_id_secondary": null,
+      "description": "'Stephen A Durham' not found in source document",
+      "evidence": "source: moors_moors.aspx",
+      "created_at": "2026-09-03T12:54:32.689769"
+    },
+    {
+      "id": 6289,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 1013,
+      "person_id_secondary": null,
+      "description": "[XPAGE:morgan-n.htm] Death: date='1982'",
+      "evidence": "verbatim: d. 1982",
+      "created_at": "2026-09-03T12:54:32.734563"
+    }
+  ],
   "ancestry": {
     "id": 1013,
     "name": "Stephen A Durham",

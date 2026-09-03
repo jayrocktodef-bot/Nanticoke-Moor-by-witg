@@ -6,7 +6,7 @@
     "middle_name": "Robert",
     "maiden_name": "Durham",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarterJamesHShimmy.htm",
     "birth_info": "13 Dec 1872",
     "death_info": "25 Jun 1924 (aged 51)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12039,
+      "person_id": 4110,
+      "fact_type": "Marriage",
+      "date_string": "1 September, 1888",
+      "place_string": null,
+      "value_string": "married Lola Durham    On 1 September, 1888",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -167,7 +176,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6836,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4110,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-b2.htm] Marriage: date='1 September, 1888'",
+      "evidence": "verbatim: married Lola Durham    On 1 September, 1888",
+      "created_at": "2026-09-03T12:55:07.825669"
+    }
+  ],
   "ancestry": {
     "id": 4110,
     "name": "Benjamin Robert Durham Jr",

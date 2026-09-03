@@ -6,7 +6,7 @@
     "middle_name": null,
     "maiden_name": null,
     "married_last_name": "Hansor",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "durhm-b1.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 12508,
+      "person_id": 11611,
+      "fact_type": "Death",
+      "date_string": "1810",
+      "place_string": "1810 and Elizabeth followed c",
+      "value_string": "died in 1810 and Elizabeth followed c",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7370,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 11611,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Elizabeth Hansor' \u2014 requires human review",
+      "evidence": "source: durhm-b1.htm, matches: 13",
+      "created_at": "2026-09-03T12:56:05.077370"
+    },
+    {
+      "id": 7371,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11611,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-e1.htm] Death: date='1810'",
+      "evidence": "verbatim: died in 1810 and Elizabeth followed c",
+      "created_at": "2026-09-03T12:56:05.087053"
+    }
+  ],
   "ancestry": {
     "id": 11611,
     "name": "Elizabeth Hansor",

@@ -6,7 +6,7 @@
     "middle_name": "Arthur",
     "maiden_name": "",
     "married_last_name": "Johnson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "photo.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11794,
+      "person_id": 584,
+      "fact_type": "Death",
+      "date_string": "6 \t\t\tFebruary, 1876",
+      "place_string": null,
+      "value_string": "died 6 \t\t\tFebruary, 1876",
+      "citations": []
     }
   ],
   "relationships": [
@@ -79,7 +88,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6130,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 584,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'William Arthur Johnson' \u2014 requires human review",
+      "evidence": "source: photo.htm, matches: 25",
+      "created_at": "2026-09-03T12:54:29.264841"
+    },
+    {
+      "id": 6131,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 584,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-l.htm] Death: date='6 \t\t\tFebruary, 1876'",
+      "evidence": "verbatim: died 6 \t\t\tFebruary, 1876",
+      "created_at": "2026-09-03T12:54:29.285016"
+    }
+  ],
   "ancestry": {
     "id": 584,
     "name": "William Arthur Johnson",

@@ -6,7 +6,7 @@
     "middle_name": "M",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "9 March 1922 Delaware, United States of America",
     "death_info": "2 February 1980 Lewes, Sussex County, Delaware, United States of America",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12426,
+      "person_id": 9932,
+      "fact_type": "Marriage",
+      "date_string": "30 April 1921",
+      "place_string": null,
+      "value_string": "married William Thomas Reed on 30 April 1921",
+      "citations": []
     }
   ],
   "relationships": [
@@ -90,7 +99,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7270,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 9932,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='30 April 1921'",
+      "evidence": "verbatim: married William Thomas Reed on 30 April 1921",
+      "created_at": "2026-09-03T12:55:43.355031"
+    }
+  ],
   "ancestry": {
     "id": 9932,
     "name": "Beulah M Dean",

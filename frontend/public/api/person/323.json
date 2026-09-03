@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5934,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 323,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'William Concilor' \u2014 requires human review",
+      "evidence": "source: durhm-j1.htm, matches: 10",
+      "created_at": "2026-09-03T12:54:22.356119"
+    }
+  ],
   "ancestry": {
     "id": 323,
     "name": "William Concilor",

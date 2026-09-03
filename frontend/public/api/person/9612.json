@@ -6,7 +6,7 @@
     "middle_name": "Bessie",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "8 May 1897 Broadkill Hundred, Sussex County, Delaware, USA",
     "death_info": "3 May 1920 Millsboro, Sussex County, Delaware, USA",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12418,
+      "person_id": 9612,
+      "fact_type": "Marriage",
+      "date_string": "1918",
+      "place_string": null,
+      "value_string": "married Lillie White in 1918",
+      "citations": []
     }
   ],
   "relationships": [
@@ -90,7 +99,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7256,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 9612,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c2.htm] Marriage: date='1918'",
+      "evidence": "verbatim: married Lillie White in 1918",
+      "created_at": "2026-09-03T12:55:40.122206"
+    }
+  ],
   "ancestry": {
     "id": 9612,
     "name": "Clara Bessie Harmon",

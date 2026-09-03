@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "moors_moors.aspx",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "moors_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11842,
+      "person_id": 1022,
+      "fact_type": "Death",
+      "date_string": "July 6, 1911",
+      "place_string": null,
+      "value_string": "died July 6, 1911",
+      "citations": []
     }
   ],
   "relationships": [
@@ -108,7 +117,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6299,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 1022,
+      "person_id_secondary": null,
+      "description": "'Bowen Harmon' not found in source document",
+      "evidence": "source: moors_moors.aspx",
+      "created_at": "2026-09-03T12:54:32.777627"
+    },
+    {
+      "id": 6300,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 1022,
+      "person_id_secondary": null,
+      "description": "[XPAGE:manship.htm] Death: date='July 6, 1911'",
+      "evidence": "verbatim: died July 6, 1911",
+      "created_at": "2026-09-03T12:54:32.781887"
+    }
+  ],
   "ancestry": {
     "id": 1022,
     "name": "Bowen Harmon",

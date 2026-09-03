@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Wright",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "wrightp2.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11816,
+      "person_id": 761,
+      "fact_type": "Birth",
+      "date_string": "30 October, 1872",
+      "place_string": null,
+      "value_string": "was born on 30 October, 1872 and died",
+      "citations": []
     }
   ],
   "relationships": [
@@ -72,7 +81,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6215,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 761,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Lottie Wright' \u2014 requires human review",
+      "evidence": "source: wrightp2.htm, matches: 6",
+      "created_at": "2026-09-03T12:54:31.331710"
+    },
+    {
+      "id": 6216,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 761,
+      "person_id_secondary": null,
+      "description": "[XPAGE:wrightw.htm] Birth: date='30 October, 1872'",
+      "evidence": "verbatim: was born on 30 October, 1872 and died",
+      "created_at": "2026-09-03T12:54:31.413997"
+    }
+  ],
   "ancestry": {
     "id": 761,
     "name": "Lottie Wright",

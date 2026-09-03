@@ -6,7 +6,7 @@
     "middle_name": "Jane Carter Mosley",
     "maiden_name": "",
     "married_last_name": "Beckett",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "BeckettWKenny.htm",
     "birth_info": "1896",
     "death_info": "1981 (aged 84\u201385)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11969,
+      "person_id": 2967,
+      "fact_type": "Marriage",
+      "date_string": "9 January, 1931",
+      "place_string": null,
+      "value_string": "married James Hughes    Daniel died on 9 January, 1931",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -89,7 +98,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6766,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2967,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-d4.htm] Marriage: date='9 January, 1931'",
+      "evidence": "verbatim: married James Hughes    Daniel died on 9 January, 1931",
+      "created_at": "2026-09-03T12:55:03.901422"
+    }
+  ],
   "ancestry": {
     "id": 2967,
     "name": "Mary Jane Carter Mosley Beckett",

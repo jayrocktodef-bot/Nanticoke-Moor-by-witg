@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6437,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 2131,
+      "person_id_secondary": null,
+      "description": "'Elijah Counselor' not found in source document",
+      "evidence": "source: Probate.htm",
+      "created_at": "2026-09-03T12:54:36.153547"
+    }
+  ],
   "ancestry": {
     "id": 2131,
     "name": "Elijah Counselor",

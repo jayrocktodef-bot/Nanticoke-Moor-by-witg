@@ -6,7 +6,7 @@
     "middle_name": "Cyrus",
     "maiden_name": "",
     "married_last_name": "Carter",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Carter%20JohnClayton.htm",
     "birth_info": "1889",
     "death_info": "1958 (aged 68\u201369)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12011,
+      "person_id": 3822,
+      "fact_type": "Marriage",
+      "date_string": "30 October 1967",
+      "place_string": null,
+      "value_string": "married Burt Schroeder   Hopewell died on 30 October 1967",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -206,7 +215,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6808,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3822,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-h3.htm] Marriage: date='30 October 1967'",
+      "evidence": "verbatim: married Burt Schroeder   Hopewell died on 30 October 1967",
+      "created_at": "2026-09-03T12:55:06.073868"
+    }
+  ],
   "ancestry": {
     "id": 3822,
     "name": "John Cyrus Carter",

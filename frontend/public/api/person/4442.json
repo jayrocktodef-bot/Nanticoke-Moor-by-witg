@@ -6,7 +6,7 @@
     "middle_name": "Flossie",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CokerRevRoland&Hazella.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12080,
+      "person_id": 4442,
+      "fact_type": "Birth",
+      "date_string": "1837",
+      "place_string": "DE in February 1837 and died in 1905  Nehemiah Morris Sammons who married  Mary Elizabeth Munce Nehemiah was born in DE in 1840 and died March 11, 1924",
+      "value_string": "was born in DE in February 1837 and died in 1905  Nehemiah Morris Sammons who married  Mary Elizabeth Munce Nehemiah was born in DE in 1840 and died March 11, 1924 .",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -142,7 +151,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6877,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4442,
+      "person_id_secondary": null,
+      "description": "[XPAGE:sammons.htm] Birth: date='1837'",
+      "evidence": "verbatim: was born in DE in February 1837 and died in 1905  Nehemiah Morris Sammons who married  Mary Elizabeth Munce Nehemiah was born in DE in 1840 and died March 11, 1924 .",
+      "created_at": "2026-09-03T12:55:09.047246"
+    }
+  ],
   "ancestry": {
     "id": 4442,
     "name": "Elizabeth Flossie Ridgeway",

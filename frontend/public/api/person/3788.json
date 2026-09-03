@@ -6,7 +6,7 @@
     "middle_name": "Sammons",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarneyWanda.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12008,
+      "person_id": 3788,
+      "fact_type": "Marriage",
+      "date_string": "April 5, 1893",
+      "place_string": "the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
+      "value_string": "married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -77,7 +86,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6805,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3788,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksonn.htm] Marriage: date='April 5, 1893'",
+      "evidence": "verbatim: married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
+      "created_at": "2026-09-03T12:55:05.904225"
+    }
+  ],
   "ancestry": {
     "id": 3788,
     "name": "Ethel Sammons Carney",

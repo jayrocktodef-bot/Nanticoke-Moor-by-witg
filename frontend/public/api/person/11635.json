@@ -45,7 +45,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7375,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 11635,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'the illegitimate' \u2014 requires human review",
+      "evidence": "source: hansor.htm, matches: 9",
+      "created_at": "2026-09-03T12:56:05.104447"
+    }
+  ],
   "ancestry": {
     "id": 11635,
     "name": "the illegitimate",

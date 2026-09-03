@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "Michelle",
     "married_last_name": "Michelle",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "SammonsMatthewW&Family.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12334,
+      "person_id": 7869,
+      "fact_type": "Marriage",
+      "date_string": "25 April, 1995",
+      "place_string": null,
+      "value_string": "married Michelle Bosligo   Roland died on 25 April, 1995",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7156,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7869,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-r2.htm] Marriage: date='25 April, 1995'",
+      "evidence": "verbatim: married Michelle Bosligo   Roland died on 25 April, 1995",
+      "created_at": "2026-09-03T12:55:26.829944"
+    }
+  ],
   "ancestry": {
     "id": 7869,
     "name": "Michelle Jr",

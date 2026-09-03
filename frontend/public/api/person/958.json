@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "moors_moors.aspx",
     "birth_info": "unknown",
     "death_info": "Oct",
@@ -70,6 +70,15 @@
           "source_dataset": "moors_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11820,
+      "person_id": 958,
+      "fact_type": "Birth",
+      "date_string": "1820",
+      "place_string": "the year 1820",
+      "value_string": "Born in the year 1820 .",
+      "citations": []
     }
   ],
   "relationships": [
@@ -97,7 +106,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6241,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 958,
+      "person_id_secondary": null,
+      "description": "'Mr Harmon' not found in source document",
+      "evidence": "source: moors_moors.aspx",
+      "created_at": "2026-09-03T12:54:31.949834"
+    },
+    {
+      "id": 6242,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 958,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-j.htm] Birth: date='1820'",
+      "evidence": "verbatim: Born in the year 1820 .",
+      "created_at": "2026-09-03T12:54:31.954208"
+    }
+  ],
   "ancestry": {
     "id": 958,
     "name": "Mr Harmon",

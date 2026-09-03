@@ -6,7 +6,7 @@
     "middle_name": "Jane Norwood",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "wright-e.htm",
     "birth_info": "unknown",
     "death_info": "1946",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11812,
+      "person_id": 752,
+      "fact_type": "Birth",
+      "date_string": "5 Dec. 1894",
+      "place_string": null,
+      "value_string": "born 5 Dec. 1894",
+      "citations": []
     }
   ],
   "relationships": [
@@ -136,7 +145,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6204,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 752,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Mary Jane Norwood Jackson' \u2014 requires human review",
+      "evidence": "source: wright-e.htm, matches: 3",
+      "created_at": "2026-09-03T12:54:31.200183"
+    },
+    {
+      "id": 6205,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 752,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-m2.htm] Birth: date='5 Dec. 1894'",
+      "evidence": "verbatim: born 5 Dec. 1894",
+      "created_at": "2026-09-03T12:54:31.205211"
+    }
+  ],
   "ancestry": {
     "id": 752,
     "name": "Mary Jane Norwood Jackson",

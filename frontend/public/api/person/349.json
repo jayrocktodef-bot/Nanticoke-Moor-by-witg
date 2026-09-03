@@ -83,7 +83,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5953,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 349,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Diana Pierce' \u2014 requires human review",
+      "evidence": "source: durhm-m2.htm, matches: 2",
+      "created_at": "2026-09-03T12:54:23.803906"
+    }
+  ],
   "ancestry": {
     "id": 349,
     "name": "Diana Pierce",

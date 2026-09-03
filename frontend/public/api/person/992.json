@@ -45,7 +45,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6273,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 992,
+      "person_id_secondary": null,
+      "description": "'Alfred Durham' not found in source document",
+      "evidence": "source: moors_moors.aspx",
+      "created_at": "2026-09-03T12:54:32.488651"
+    }
+  ],
   "ancestry": {
     "id": 992,
     "name": "Alfred Durham",

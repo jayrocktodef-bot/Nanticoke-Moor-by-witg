@@ -6,7 +6,7 @@
     "middle_name": "Norma",
     "maiden_name": "",
     "married_last_name": "Paul",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "GreenagePaul&Family2.htm",
     "birth_info": "21 Jun 1900",
     "death_info": "27 May 1969 (aged 68)",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12159,
+      "person_id": 5574,
+      "fact_type": "Marriage",
+      "date_string": "Oct. 4, 1928",
+      "place_string": "Gratiot Co",
+      "value_string": "were married Oct. 4, 1928 in Gratiot Co",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6974,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5574,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-c1.htm] Marriage: date='Oct. 4, 1928'",
+      "evidence": "verbatim: were married Oct. 4, 1928 in Gratiot Co",
+      "created_at": "2026-09-03T12:55:14.215928"
+    }
+  ],
   "ancestry": {
     "id": 5574,
     "name": "Paul Norma Paul",

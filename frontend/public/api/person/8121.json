@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "Loatman",
     "married_last_name": "Loatman",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "WebsterElmer&Ida.htm",
     "birth_info": "unknown",
     "death_info": "28 Jan 1810",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12357,
+      "person_id": 8121,
+      "fact_type": "Marriage",
+      "date_string": "1945",
+      "place_string": null,
+      "value_string": "wed him in 1945",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7179,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8121,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-j2.htm] Marriage: date='1945'",
+      "evidence": "verbatim: wed him in 1945",
+      "created_at": "2026-09-03T12:55:28.599209"
+    }
+  ],
   "ancestry": {
     "id": 8121,
     "name": "Jeremiah Loatman II",

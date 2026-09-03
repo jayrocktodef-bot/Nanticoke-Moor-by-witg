@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Thomas",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "5 Sep 1882 Maryland, USA",
     "death_info": "1957",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12410,
+      "person_id": 9523,
+      "fact_type": "Marriage",
+      "date_string": "18 October 1916",
+      "place_string": null,
+      "value_string": "married Joel Clemons Smith on 18 October 1916",
+      "citations": []
     }
   ],
   "relationships": [
@@ -113,7 +122,18 @@
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7246,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 9523,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='18 October 1916'",
+      "evidence": "verbatim: married Joel Clemons Smith on 18 October 1916",
+      "created_at": "2026-09-03T12:55:38.429120"
+    }
+  ],
   "ancestry": {
     "id": 9523,
     "name": "George Thomas",

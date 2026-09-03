@@ -6,7 +6,7 @@
     "middle_name": "B.",
     "maiden_name": "",
     "married_last_name": "Morris",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "mitsawokett_index.htm",
     "birth_info": null,
     "death_info": null,
@@ -41,6 +41,15 @@
           "source_dataset": "mitsawokett_obits"
         }
       ]
+    },
+    {
+      "fact_id": 11862,
+      "person_id": 1479,
+      "fact_type": "Death",
+      "date_string": "9 Nov 1935",
+      "place_string": "Magnolia, Kent, Delaware",
+      "value_string": "died  9 Nov 1935 in Magnolia, Kent, Delaware",
+      "citations": []
     }
   ],
   "relationships": [
@@ -75,7 +84,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6353,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 1479,
+      "person_id_secondary": null,
+      "description": "'Robert B. Morris' not found in source document",
+      "evidence": "source: mitsawokett_index.htm",
+      "created_at": "2026-09-03T12:54:34.648134"
+    },
+    {
+      "id": 6354,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 1479,
+      "person_id_secondary": null,
+      "description": "[XPAGE:HarmonEmmanuelProbate.htm] Death: date='9 Nov 1935'",
+      "evidence": "verbatim: died  9 Nov 1935 in Magnolia, Kent, Delaware",
+      "created_at": "2026-09-03T12:54:34.669369"
+    }
+  ],
   "ancestry": {
     "id": 1479,
     "name": "Robert B. Morris",

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Francisco",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "sisco.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11807,
+      "person_id": 729,
+      "fact_type": "Death",
+      "date_string": "1798",
+      "place_string": "1798 , Adm of both estates passed to Charles' sister, Lidia",
+      "value_string": "died in 1798 , Adm of both estates passed to Charles' sister, Lidia",
+      "citations": []
     }
   ],
   "relationships": [
@@ -45,7 +54,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6189,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 729,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Elizabeth Francisco' \u2014 requires human review",
+      "evidence": "source: sisco.htm, matches: 133",
+      "created_at": "2026-09-03T12:54:31.040309"
+    },
+    {
+      "id": 6190,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 729,
+      "person_id_secondary": null,
+      "description": "[XPAGE:probt-s1.htm] Death: date='1798'",
+      "evidence": "verbatim: died in 1798 , Adm of both estates passed to Charles' sister, Lidia",
+      "created_at": "2026-09-03T12:54:31.042517"
+    }
+  ],
   "ancestry": {
     "id": 729,
     "name": "Elizabeth Francisco",

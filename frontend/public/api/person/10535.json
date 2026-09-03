@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1853 Delaware",
     "death_info": "28 Dec 1920 Sussex, Delaware, USA",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12461,
+      "person_id": 10535,
+      "fact_type": "Burial",
+      "date_string": "28 Aug 1913",
+      "place_string": "28 Aug 1913 in Harmony cemetery",
+      "value_string": "buried 28 Aug 1913 in Harmony cemetery",
+      "citations": []
     }
   ],
   "relationships": [
@@ -90,7 +99,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7313,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 10535,
+      "person_id_secondary": null,
+      "description": "[XPAGE:HarmonEmmanuelProbate.htm] Burial: date='28 Aug 1913'",
+      "evidence": "verbatim: buried 28 Aug 1913 in Harmony cemetery",
+      "created_at": "2026-09-03T12:55:57.483820"
+    }
+  ],
   "ancestry": {
     "id": 10535,
     "name": "Daniel Harmon",

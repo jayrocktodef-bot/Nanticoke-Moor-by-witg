@@ -83,7 +83,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5922,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 313,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'James Hughes' \u2014 requires human review",
+      "evidence": "source: durhm-d4.htm, matches: 9",
+      "created_at": "2026-09-03T12:54:21.779418"
+    }
+  ],
   "ancestry": {
     "id": 313,
     "name": "James Hughes",

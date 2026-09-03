@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "Sisco",
     "married_last_name": "Sisco",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "sisco-j1.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11802,
+      "person_id": 695,
+      "fact_type": "Death",
+      "date_string": "1844",
+      "place_string": null,
+      "value_string": "d. 1844",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6168,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 695,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'John Sisco Jr' \u2014 requires human review",
+      "evidence": "source: sisco-j1.htm, matches: 31",
+      "created_at": "2026-09-03T12:54:30.226949"
+    },
+    {
+      "id": 6169,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 695,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-i1.htm] Death: date='1844'",
+      "evidence": "verbatim: d. 1844",
+      "created_at": "2026-09-03T12:54:30.232770"
+    }
+  ],
   "ancestry": {
     "id": 695,
     "name": "John Sisco Jr",

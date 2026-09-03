@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MainMenu.html",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11868,
+      "person_id": 1892,
+      "fact_type": "Death",
+      "date_string": "5 March, 1898",
+      "place_string": null,
+      "value_string": "died on 5 March, 1898",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6393,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 1892,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Alfred Ridgeway' \u2014 requires human review",
+      "evidence": "source: MainMenu.html, matches: 3",
+      "created_at": "2026-09-03T12:54:35.568545"
+    },
+    {
+      "id": 6394,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 1892,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-d2.htm] Death: date='5 March, 1898'",
+      "evidence": "verbatim: died on 5 March, 1898",
+      "created_at": "2026-09-03T12:54:35.572785"
+    }
+  ],
   "ancestry": {
     "id": 1892,
     "name": "Alfred Ridgeway",

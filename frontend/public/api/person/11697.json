@@ -37,7 +37,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7392,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 11697,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Isaiah Songo' \u2014 requires human review",
+      "evidence": "source: morgan-w.htm, matches: 2",
+      "created_at": "2026-09-03T12:56:05.159347"
+    }
+  ],
   "ancestry": {
     "id": 11697,
     "name": "Isaiah Songo",

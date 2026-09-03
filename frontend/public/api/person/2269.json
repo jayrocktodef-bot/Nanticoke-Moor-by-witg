@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6543,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2269,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Nathan Davis' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 30",
+      "created_at": "2026-09-03T12:54:44.171918"
+    }
+  ],
   "ancestry": {
     "id": 2269,
     "name": "Nathan Davis",

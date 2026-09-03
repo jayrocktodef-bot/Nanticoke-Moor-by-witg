@@ -6,7 +6,7 @@
     "middle_name": "L.",
     "maiden_name": "",
     "married_last_name": "Reed",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Obituary Archive",
     "birth_info": "b. 1958",
     "death_info": "d. 1967",
@@ -70,12 +70,32 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 12496,
+      "person_id": 11222,
+      "fact_type": "Marriage",
+      "date_string": "18 October 1916",
+      "place_string": null,
+      "value_string": "married Joel Clemons Smith on 18 October 1916",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7351,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11222,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='18 October 1916'",
+      "evidence": "verbatim: married Joel Clemons Smith on 18 October 1916",
+      "created_at": "2026-09-03T12:56:03.064938"
+    }
+  ],
   "ancestry": {
     "id": 11222,
     "name": "James L. Reed",

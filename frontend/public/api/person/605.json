@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Carty",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "probate.htm",
     "birth_info": null,
     "death_info": "d. 1823",
@@ -51,12 +51,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11797,
+      "person_id": 605,
+      "fact_type": "Marriage",
+      "date_string": "27 March, 1848",
+      "place_string": null,
+      "value_string": "married  Henrietta Carty on 27 March, 1848",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6143,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 605,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'James Carty' \u2014 requires human review",
+      "evidence": "source: probate.htm, matches: 3",
+      "created_at": "2026-09-03T12:54:29.512655"
+    },
+    {
+      "id": 6144,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 605,
+      "person_id_secondary": null,
+      "description": "[XPAGE:morgan-j.htm] Marriage: date='27 March, 1848'",
+      "evidence": "verbatim: married  Henrietta Carty on 27 March, 1848",
+      "created_at": "2026-09-03T12:54:29.540250"
+    }
+  ],
   "ancestry": {
     "id": 605,
     "name": "James Carty",

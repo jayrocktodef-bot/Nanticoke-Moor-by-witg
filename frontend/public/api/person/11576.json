@@ -6,7 +6,7 @@
     "middle_name": "Dean",
     "maiden_name": "Dean",
     "married_last_name": "Dean",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "dean-e.htm",
     "birth_info": "Jun 1855",
     "death_info": "Jun 1855 (aged less than 1 month)",
@@ -89,6 +89,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 12505,
+      "person_id": 11576,
+      "fact_type": "Marriage",
+      "date_string": "1827",
+      "place_string": null,
+      "value_string": "married sometime prior to 1827",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -108,7 +117,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7365,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11576,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-j3.htm] Marriage: date='1827'",
+      "evidence": "verbatim: married sometime prior to 1827",
+      "created_at": "2026-09-03T12:56:05.050985"
+    }
+  ],
   "ancestry": {
     "id": 11576,
     "name": "Jesse Dean Jr",

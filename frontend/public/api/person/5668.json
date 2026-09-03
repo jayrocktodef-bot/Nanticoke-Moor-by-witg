@@ -6,7 +6,7 @@
     "middle_name": "Jeanette Mosley",
     "maiden_name": "",
     "married_last_name": "Wilson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "FraimJeanetteMosley.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12168,
+      "person_id": 5668,
+      "fact_type": "Marriage",
+      "date_string": "18 October 1916",
+      "place_string": null,
+      "value_string": "married Joel Clemons Smith on 18 October 1916",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -77,7 +86,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6983,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5668,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='18 October 1916'",
+      "evidence": "verbatim: married Joel Clemons Smith on 18 October 1916",
+      "created_at": "2026-09-03T12:55:14.348815"
+    }
+  ],
   "ancestry": {
     "id": 5668,
     "name": "Anna Jeanette Mosley Wilson",

@@ -6,7 +6,7 @@
     "middle_name": "Sammons",
     "maiden_name": "",
     "married_last_name": "Coker",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CokerRevRoland&Hazella.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12079,
+      "person_id": 4439,
+      "fact_type": "Death",
+      "date_string": "1995",
+      "place_string": null,
+      "value_string": "d. 1995",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -64,7 +73,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6876,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4439,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-a3.htm] Death: date='1995'",
+      "evidence": "verbatim: d. 1995",
+      "created_at": "2026-09-03T12:55:09.027377"
+    }
+  ],
   "ancestry": {
     "id": 4439,
     "name": "Hazella Sammons Coker",

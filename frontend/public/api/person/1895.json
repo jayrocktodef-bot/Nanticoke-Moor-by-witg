@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Sammons",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MainMenu.html",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11870,
+      "person_id": 1895,
+      "fact_type": "Birth",
+      "date_string": "12 May, 1893",
+      "place_string": null,
+      "value_string": "born 12 May, 1893",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6397,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 1895,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'James Sammons' \u2014 requires human review",
+      "evidence": "source: MainMenu.html, matches: 6",
+      "created_at": "2026-09-03T12:54:35.597971"
+    },
+    {
+      "id": 6398,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 1895,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-m2.htm] Birth: date='12 May, 1893'",
+      "evidence": "verbatim: born 12 May, 1893",
+      "created_at": "2026-09-03T12:54:35.602931"
+    }
+  ],
   "ancestry": {
     "id": 1895,
     "name": "James Sammons",

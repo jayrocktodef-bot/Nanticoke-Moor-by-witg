@@ -6,7 +6,7 @@
     "middle_name": "E.",
     "maiden_name": "",
     "married_last_name": "Sammons",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "manship.htm",
     "birth_info": "1887",
     "death_info": "1963 (aged 75\u201376)",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11765,
+      "person_id": 479,
+      "fact_type": "Marriage",
+      "date_string": "October 28, 1896",
+      "place_string": null,
+      "value_string": "married Mary Elizabeth Clark on October 28, 1896",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -128,7 +137,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6052,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 479,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Mary E. Sammons' \u2014 requires human review",
+      "evidence": "source: manship.htm, matches: 12",
+      "created_at": "2026-09-03T12:54:27.261150"
+    },
+    {
+      "id": 6053,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 479,
+      "person_id_secondary": null,
+      "description": "[XPAGE:munce-m4.htm] Marriage: date='October 28, 1896'",
+      "evidence": "verbatim: married Mary Elizabeth Clark on October 28, 1896",
+      "created_at": "2026-09-03T12:54:27.301495"
+    }
+  ],
   "ancestry": {
     "id": 479,
     "name": "Mary E. Sammons",

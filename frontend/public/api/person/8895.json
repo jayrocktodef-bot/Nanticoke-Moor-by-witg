@@ -6,7 +6,7 @@
     "middle_name": "HESTER",
     "maiden_name": "",
     "married_last_name": "Morris",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "01/11/1904 Delaware",
     "death_info": "03/13/1963",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12377,
+      "person_id": 8895,
+      "fact_type": "Burial",
+      "date_string": "1 Aug 1931",
+      "place_string": "1 Aug 1931 in Bethel Cemetery",
+      "value_string": "buried 1 Aug 1931 in Bethel Cemetery",
+      "citations": []
     }
   ],
   "relationships": [
@@ -117,7 +126,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7209,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8895,
+      "person_id_secondary": null,
+      "description": "[XPAGE:HarmonEmmanuelProbate.htm] Burial: date='1 Aug 1931'",
+      "evidence": "verbatim: buried 1 Aug 1931 in Bethel Cemetery",
+      "created_at": "2026-09-03T12:55:32.931342"
+    }
+  ],
   "ancestry": {
     "id": 8895,
     "name": "SARAH HESTER Morris",

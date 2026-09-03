@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6249,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 966,
+      "person_id_secondary": null,
+      "description": "'Sylvester Ridgeway' not found in source document",
+      "evidence": "source: moors_moors.aspx",
+      "created_at": "2026-09-03T12:54:31.992134"
+    }
+  ],
   "ancestry": {
     "id": 966,
     "name": "Sylvester Ridgeway",

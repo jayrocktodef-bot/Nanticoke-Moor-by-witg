@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Norwood",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "george.htm",
     "birth_info": "unknown",
     "death_info": "26 Feb 1966",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11740,
+      "person_id": 370,
+      "fact_type": "Birth",
+      "date_string": "22 February, 1877",
+      "place_string": null,
+      "value_string": "was born on 22 February, 1877 and died",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5972,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 370,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'John Norwood' \u2014 requires human review",
+      "evidence": "source: george.htm, matches: 42",
+      "created_at": "2026-09-03T12:54:24.127180"
+    },
+    {
+      "id": 5973,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 370,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksnja.htm] Birth: date='22 February, 1877'",
+      "evidence": "verbatim: was born on 22 February, 1877 and died",
+      "created_at": "2026-09-03T12:54:24.134182"
+    }
+  ],
   "ancestry": {
     "id": 370,
     "name": "John Norwood",

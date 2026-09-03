@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5977,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 379,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'sd Thomas' \u2014 requires human review",
+      "evidence": "source: hansor.htm, matches: 26",
+      "created_at": "2026-09-03T12:54:24.260570"
+    }
+  ],
   "ancestry": {
     "id": 379,
     "name": "sd Thomas",

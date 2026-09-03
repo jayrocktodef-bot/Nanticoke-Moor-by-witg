@@ -6,7 +6,7 @@
     "middle_name": "Sarah J.",
     "maiden_name": "",
     "married_last_name": "Coker",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CokerMaryAnnDean.htm",
     "birth_info": "1839",
     "death_info": "24 Apr 1913 (aged 73\u201374)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12054,
+      "person_id": 4166,
+      "fact_type": "Marriage",
+      "date_string": "30 October 1967",
+      "place_string": null,
+      "value_string": "married Burt Schroeder   Hopewell died on 30 October 1967",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -102,7 +111,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6851,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4166,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-h3.htm] Marriage: date='30 October 1967'",
+      "evidence": "verbatim: married Burt Schroeder   Hopewell died on 30 October 1967",
+      "created_at": "2026-09-03T12:55:08.186692"
+    }
+  ],
   "ancestry": {
     "id": 4166,
     "name": "Sarah J. Coker",

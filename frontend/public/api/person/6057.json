@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HarmonSacajawea.htm",
     "birth_info": "21 Dec 1906",
     "death_info": "18 May 1970 (aged 63)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12197,
+      "person_id": 6057,
+      "fact_type": "Marriage",
+      "date_string": "1918",
+      "place_string": null,
+      "value_string": "married Lillie White in 1918",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -102,7 +111,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7015,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6057,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c2.htm] Marriage: date='1918'",
+      "evidence": "verbatim: married Lillie White in 1918",
+      "created_at": "2026-09-03T12:55:16.452359"
+    }
+  ],
   "ancestry": {
     "id": 6057,
     "name": "Wesley Harmon",

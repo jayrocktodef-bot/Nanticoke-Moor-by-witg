@@ -6,7 +6,7 @@
     "middle_name": "Carter",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamReunion1996HiRes.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12131,
+      "person_id": 5163,
+      "fact_type": "Death",
+      "date_string": "1978",
+      "place_string": "1978",
+      "value_string": "died in 1978",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -116,7 +125,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6939,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5163,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-a7.htm] Death: date='1978'",
+      "evidence": "verbatim: died in 1978",
+      "created_at": "2026-09-03T12:55:12.278281"
+    }
+  ],
   "ancestry": {
     "id": 5163,
     "name": "Anna Carter Durham",

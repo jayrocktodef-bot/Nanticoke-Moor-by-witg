@@ -51,7 +51,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6659,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2389,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Jane Sammons' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 83",
+      "created_at": "2026-09-03T12:54:56.706179"
+    }
+  ],
   "ancestry": {
     "id": 2389,
     "name": "Jane Sammons",

@@ -37,7 +37,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7402,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 11764,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Whittington Durham' \u2014 requires human review",
+      "evidence": "source: sisco.htm, matches: 45",
+      "created_at": "2026-09-03T12:56:05.241217"
+    }
+  ],
   "ancestry": {
     "id": 11764,
     "name": "Whittington Durham",

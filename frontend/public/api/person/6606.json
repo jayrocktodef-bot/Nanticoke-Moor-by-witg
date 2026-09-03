@@ -6,7 +6,7 @@
     "middle_name": "Perry",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MosleyKermit&ElvaFamily.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12232,
+      "person_id": 6606,
+      "fact_type": "Death",
+      "date_string": "1918",
+      "place_string": null,
+      "value_string": "d. 1918",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7052,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6606,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-a5.htm] Death: date='1918'",
+      "evidence": "verbatim: d. 1918",
+      "created_at": "2026-09-03T12:55:21.005211"
+    }
+  ],
   "ancestry": {
     "id": 6606,
     "name": "Elva Perry Mosley",

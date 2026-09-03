@@ -6,7 +6,7 @@
     "middle_name": "Anthony Janice",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamAnthony.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12108,
+      "person_id": 4885,
+      "fact_type": "Death",
+      "date_string": "11 Jan. 1871",
+      "place_string": null,
+      "value_string": "d. 11 Jan. 1871",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -103,7 +112,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6905,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4885,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-e2.htm] Death: date='11 Jan. 1871'",
+      "evidence": "verbatim: d. 11 Jan. 1871",
+      "created_at": "2026-09-03T12:55:10.271770"
+    }
+  ],
   "ancestry": {
     "id": 4885,
     "name": "William Anthony Janice Durham",

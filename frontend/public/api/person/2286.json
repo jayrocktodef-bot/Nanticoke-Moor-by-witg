@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Morris",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11897,
+      "person_id": 2286,
+      "fact_type": "Marriage",
+      "date_string": "4 August 1909",
+      "place_string": null,
+      "value_string": "married Alonzo DURHAM on 4 August 1909",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -77,7 +86,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6558,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2286,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'William Morris' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 116",
+      "created_at": "2026-09-03T12:54:46.039581"
+    },
+    {
+      "id": 6559,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2286,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-h2.htm] Marriage: date='4 August 1909'",
+      "evidence": "verbatim: married Alonzo DURHAM on 4 August 1909",
+      "created_at": "2026-09-03T12:54:46.041442"
+    }
+  ],
   "ancestry": {
     "id": 2286,
     "name": "William Morris",

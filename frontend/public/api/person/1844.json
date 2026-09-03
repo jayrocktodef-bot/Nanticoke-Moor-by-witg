@@ -37,7 +37,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6368,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 1844,
+      "person_id_secondary": null,
+      "description": "'Berrys Chapel Burying Ground' not found in source document",
+      "evidence": "source: MainMenu.html",
+      "created_at": "2026-09-03T12:54:35.185470"
+    }
+  ],
   "ancestry": {
     "id": 1844,
     "name": "Berrys Chapel Burying Ground",

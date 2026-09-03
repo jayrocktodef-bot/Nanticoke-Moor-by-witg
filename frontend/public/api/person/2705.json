@@ -6,7 +6,7 @@
     "middle_name": "Clarece",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "WhoAreThesePeople4.htm",
     "birth_info": "1885",
     "death_info": "15 Jun 1896 (aged 10\u201311)",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11952,
+      "person_id": 2705,
+      "fact_type": "Marriage",
+      "date_string": "20 January, 1865",
+      "place_string": null,
+      "value_string": "married Isaac Mosley   On 20 January, 1865",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6749,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2705,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-h2.htm] Marriage: date='20 January, 1865'",
+      "evidence": "verbatim: married Isaac Mosley   On 20 January, 1865",
+      "created_at": "2026-09-03T12:55:02.437916"
+    }
+  ],
   "ancestry": {
     "id": 2705,
     "name": "Clarece Mosley",

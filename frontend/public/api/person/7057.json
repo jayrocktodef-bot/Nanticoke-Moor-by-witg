@@ -6,7 +6,7 @@
     "middle_name": "Benjamin",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "RidgewayRobert.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12288,
+      "person_id": 7057,
+      "fact_type": "Marriage",
+      "date_string": "Oct. 4, 1928",
+      "place_string": "Gratiot Co",
+      "value_string": "were married Oct. 4, 1928 in Gratiot Co",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7109,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7057,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-c1.htm] Marriage: date='Oct. 4, 1928'",
+      "evidence": "verbatim: were married Oct. 4, 1928 in Gratiot Co",
+      "created_at": "2026-09-03T12:55:23.285537"
+    }
+  ],
   "ancestry": {
     "id": 7057,
     "name": "Robert Benjamin Ridgeway",

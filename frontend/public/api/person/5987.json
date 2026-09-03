@@ -6,7 +6,7 @@
     "middle_name": "Jackson",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HarmonLevin&Rebecca.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12196,
+      "person_id": 5987,
+      "fact_type": "Birth",
+      "date_string": "8 January, 1859",
+      "place_string": "Northwest Fork Hundred, Sussex Co",
+      "value_string": "was born 8 January, 1859 in Northwest Fork Hundred, Sussex Co.",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7014,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5987,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksnw1.htm] Birth: date='8 January, 1859'",
+      "evidence": "verbatim: was born 8 January, 1859 in Northwest Fork Hundred, Sussex Co.",
+      "created_at": "2026-09-03T12:55:16.288105"
+    }
+  ],
   "ancestry": {
     "id": 5987,
     "name": "Rebecca Jackson Harmon",

@@ -83,7 +83,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5794,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 73,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Gene Carty' \u2014 requires human review",
+      "evidence": "source: carty-w2.htm, matches: 12",
+      "created_at": "2026-09-03T12:54:17.090315"
+    }
+  ],
   "ancestry": {
     "id": 73,
     "name": "Gene Carty",

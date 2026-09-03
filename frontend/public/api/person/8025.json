@@ -6,7 +6,7 @@
     "middle_name": "C.",
     "maiden_name": "Wilson",
     "married_last_name": "Wilson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "WilsonHowardC&BessieMosley.htm",
     "birth_info": "1937",
     "death_info": "1942 (aged 4\u20135)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12350,
+      "person_id": 8025,
+      "fact_type": "Marriage",
+      "date_string": "18 October 1916",
+      "place_string": null,
+      "value_string": "married Joel Clemons Smith on 18 October 1916",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -167,7 +176,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7172,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8025,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='18 October 1916'",
+      "evidence": "verbatim: married Joel Clemons Smith on 18 October 1916",
+      "created_at": "2026-09-03T12:55:28.481892"
+    }
+  ],
   "ancestry": {
     "id": 8025,
     "name": "Howard C. Wilson Sr",

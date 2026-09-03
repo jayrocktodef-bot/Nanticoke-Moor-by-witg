@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "durhm-h2.htm",
     "birth_info": "1867",
     "death_info": "3 Mar 1944 (aged 76\u201377)",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11728,
+      "person_id": 320,
+      "fact_type": "Marriage",
+      "date_string": "April 5, 1893",
+      "place_string": "the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
+      "value_string": "married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5930,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 320,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Nora Jackson' \u2014 requires human review",
+      "evidence": "source: durhm-h2.htm, matches: 2",
+      "created_at": "2026-09-03T12:54:22.238586"
+    },
+    {
+      "id": 5931,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 320,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksonn.htm] Marriage: date='April 5, 1893'",
+      "evidence": "verbatim: married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
+      "created_at": "2026-09-03T12:54:22.286784"
+    }
+  ],
   "ancestry": {
     "id": 320,
     "name": "Nora Jackson",

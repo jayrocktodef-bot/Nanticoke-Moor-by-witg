@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Perkins",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": "unknown",
     "death_info": "1899",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11923,
+      "person_id": 2411,
+      "fact_type": "Birth",
+      "date_string": "8 January, 1835",
+      "place_string": "Delaware",
+      "value_string": "was born on 8 January, 1835 in Delaware.",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6675,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2411,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Mary Perkins' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 249",
+      "created_at": "2026-09-03T12:54:58.311844"
+    },
+    {
+      "id": 6676,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2411,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-m3.htm] Birth: date='8 January, 1835'",
+      "evidence": "verbatim: was born on 8 January, 1835 in Delaware.",
+      "created_at": "2026-09-03T12:54:58.314519"
+    }
+  ],
   "ancestry": {
     "id": 2411,
     "name": "Mary Perkins",

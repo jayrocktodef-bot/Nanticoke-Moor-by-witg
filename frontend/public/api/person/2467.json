@@ -70,7 +70,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6700,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2467,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Captain Ephraim Charles Harmon' \u2014 requires human review",
+      "evidence": "source: Apprentice%20Indentures%20-%20Warren%20Wright%20family%201843.htm, matches: 4",
+      "created_at": "2026-09-03T12:54:59.832418"
+    }
+  ],
   "ancestry": {
     "id": 2467,
     "name": "Captain Ephraim Charles Harmon",

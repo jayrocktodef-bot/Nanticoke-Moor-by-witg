@@ -6,7 +6,7 @@
     "middle_name": "Jane",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "15 Apr 1847 Sussex, Delaware, United States",
     "death_info": "22 Apr 1919 Dover, Kent, Delaware, United States",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12452,
+      "person_id": 10436,
+      "fact_type": "Marriage",
+      "date_string": "30 October 1967",
+      "place_string": null,
+      "value_string": "married Burt Schroeder   Hopewell died on 30 October 1967",
+      "citations": []
     }
   ],
   "relationships": [
@@ -117,7 +126,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7300,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 10436,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-h3.htm] Marriage: date='30 October 1967'",
+      "evidence": "verbatim: married Burt Schroeder   Hopewell died on 30 October 1967",
+      "created_at": "2026-09-03T12:55:49.986606"
+    }
+  ],
   "ancestry": {
     "id": 10436,
     "name": "Sarah Jane Ridgeway",

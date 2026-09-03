@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Handzer",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "probate.htm",
     "birth_info": null,
     "death_info": "d. 1784",
@@ -51,12 +51,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11799,
+      "person_id": 642,
+      "fact_type": "Birth",
+      "date_string": "Nov 23, 1777",
+      "place_string": null,
+      "value_string": "Born Nov 23, 1777 .",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6152,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 642,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'William Handzer' \u2014 requires human review",
+      "evidence": "source: probate.htm, matches: 9",
+      "created_at": "2026-09-03T12:54:29.651930"
+    },
+    {
+      "id": 6153,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 642,
+      "person_id_secondary": null,
+      "description": "[XPAGE:george.htm] Birth: date='Nov 23, 1777'",
+      "evidence": "verbatim: Born Nov 23, 1777 .",
+      "created_at": "2026-09-03T12:54:29.653347"
+    }
+  ],
   "ancestry": {
     "id": 642,
     "name": "William Handzer",

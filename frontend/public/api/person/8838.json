@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Pierce",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
     "death_info": "10 May 1896",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12374,
+      "person_id": 8838,
+      "fact_type": "Birth",
+      "date_string": "1867",
+      "place_string": "September 1867",
+      "value_string": "was born in September 1867 .",
+      "citations": []
     }
   ],
   "relationships": [
@@ -83,7 +92,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7198,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8838,
+      "person_id_secondary": null,
+      "description": "[XPAGE:munce-l3.htm] Birth: date='1867'",
+      "evidence": "verbatim: was born in September 1867 .",
+      "created_at": "2026-09-03T12:55:31.988344"
+    }
+  ],
   "ancestry": {
     "id": 8838,
     "name": "Leslie Pierce",

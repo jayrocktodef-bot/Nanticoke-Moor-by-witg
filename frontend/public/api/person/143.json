@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5845,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 143,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Angie Bell Coker' \u2014 requires human review",
+      "evidence": "source: coker-m2.htm, matches: 11",
+      "created_at": "2026-09-03T12:54:17.719345"
+    }
+  ],
   "ancestry": {
     "id": 143,
     "name": "Angie Bell Coker",

@@ -6,7 +6,7 @@
     "middle_name": "Cheswold",
     "maiden_name": "",
     "married_last_name": "Hughes",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Obituary Archive",
     "birth_info": "1918",
     "death_info": "4 Sep 1990 (aged 71\u201372)",
@@ -70,12 +70,32 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 12489,
+      "person_id": 11199,
+      "fact_type": "Marriage",
+      "date_string": "9 January, 1931",
+      "place_string": null,
+      "value_string": "married James Hughes    Daniel died on 9 January, 1931",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7344,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11199,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-d4.htm] Marriage: date='9 January, 1931'",
+      "evidence": "verbatim: married James Hughes    Daniel died on 9 January, 1931",
+      "created_at": "2026-09-03T12:56:02.791006"
+    }
+  ],
   "ancestry": {
     "id": 11199,
     "name": "In Cheswold Hughes",

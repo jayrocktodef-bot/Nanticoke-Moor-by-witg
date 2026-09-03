@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "Luther",
     "married_last_name": "Luther",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "SammonsLuther.htm",
     "birth_info": "4 Apr 1918",
     "death_info": "3 May 1985 (aged 67)",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12308,
+      "person_id": 7245,
+      "fact_type": "Marriage",
+      "date_string": "1945",
+      "place_string": null,
+      "value_string": "wed him in 1945",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7129,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7245,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-j2.htm] Marriage: date='1945'",
+      "evidence": "verbatim: wed him in 1945",
+      "created_at": "2026-09-03T12:55:25.229340"
+    }
+  ],
   "ancestry": {
     "id": 7245,
     "name": "Luther Jr",

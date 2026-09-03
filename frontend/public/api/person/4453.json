@@ -6,7 +6,7 @@
     "middle_name": "Gwendolyn Clark",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DavisHarryE&EthelGClark.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12082,
+      "person_id": 4453,
+      "fact_type": "Death",
+      "date_string": "1925",
+      "place_string": null,
+      "value_string": "d. 1925",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6879,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4453,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c2.htm] Death: date='1925'",
+      "evidence": "verbatim: d. 1925",
+      "created_at": "2026-09-03T12:55:09.063449"
+    }
+  ],
   "ancestry": {
     "id": 4453,
     "name": "Ethel Gwendolyn Clark Harmon",

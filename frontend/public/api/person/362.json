@@ -83,7 +83,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5964,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 362,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Jacob Hander' \u2014 requires human review",
+      "evidence": "source: george.htm, matches: 22",
+      "created_at": "2026-09-03T12:54:24.010784"
+    }
+  ],
   "ancestry": {
     "id": 362,
     "name": "Jacob Hander",

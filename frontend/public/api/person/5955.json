@@ -6,7 +6,7 @@
     "middle_name": "Lillie",
     "maiden_name": "",
     "married_last_name": "Mae",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HarmonIsaacW&SarahSockum.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12185,
+      "person_id": 5955,
+      "fact_type": "Birth",
+      "date_string": "27 Feb. 1888",
+      "place_string": null,
+      "value_string": "born 27 Feb. 1888",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7000,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5955,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-m2.htm] Birth: date='27 Feb. 1888'",
+      "evidence": "verbatim: born 27 Feb. 1888",
+      "created_at": "2026-09-03T12:55:15.974008"
+    }
+  ],
   "ancestry": {
     "id": 5955,
     "name": "Lillie Mae",

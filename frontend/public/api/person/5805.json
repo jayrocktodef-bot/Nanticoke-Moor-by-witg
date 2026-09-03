@@ -6,7 +6,7 @@
     "middle_name": "Anna",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HarmanIsaacWillie.htm",
     "birth_info": "25 Jan 1973",
     "death_info": "28 Aug 2016 (aged 43)",
@@ -184,6 +184,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12175,
+      "person_id": 5805,
+      "fact_type": "Marriage",
+      "date_string": "1918",
+      "place_string": null,
+      "value_string": "married Lillie White in 1918",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -216,7 +225,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6990,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5805,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c2.htm] Marriage: date='1918'",
+      "evidence": "verbatim: married Lillie White in 1918",
+      "created_at": "2026-09-03T12:55:14.980323"
+    }
+  ],
   "ancestry": {
     "id": 5805,
     "name": "Anna Johnson Harmon",

@@ -6,7 +6,7 @@
     "middle_name": "Enoch",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "8 September 1938 Dover, Kent County, Delaware, United States of America",
     "death_info": "27 December 2022 Dover, Kent County, Delaware, United States of America",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12467,
+      "person_id": 10685,
+      "fact_type": "Marriage",
+      "date_string": "9 January, 1931",
+      "place_string": null,
+      "value_string": "married James Hughes    Daniel died on 9 January, 1931",
+      "citations": []
     }
   ],
   "relationships": [
@@ -130,7 +139,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7322,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 10685,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-d4.htm] Marriage: date='9 January, 1931'",
+      "evidence": "verbatim: married James Hughes    Daniel died on 9 January, 1931",
+      "created_at": "2026-09-03T12:55:59.561619"
+    }
+  ],
   "ancestry": {
     "id": 10685,
     "name": "James Enoch Durham",

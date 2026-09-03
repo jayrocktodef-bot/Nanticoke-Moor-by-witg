@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5925,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 315,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Edward Morgan' \u2014 requires human review",
+      "evidence": "source: durhm-e1.htm, matches: 10",
+      "created_at": "2026-09-03T12:54:21.805956"
+    }
+  ],
   "ancestry": {
     "id": 315,
     "name": "Edward Morgan",

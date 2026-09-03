@@ -6,7 +6,7 @@
     "middle_name": "Mosley",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarneySaraJMH.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11996,
+      "person_id": 3712,
+      "fact_type": "Birth",
+      "date_string": "6 Aug. 1872",
+      "place_string": null,
+      "value_string": "born 6 Aug. 1872",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6793,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3712,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-m2.htm] Birth: date='6 Aug. 1872'",
+      "evidence": "verbatim: born 6 Aug. 1872",
+      "created_at": "2026-09-03T12:55:05.633851"
+    }
+  ],
   "ancestry": {
     "id": 3712,
     "name": "Lucinda Mosley",

@@ -6,7 +6,7 @@
     "middle_name": "H.",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Obituary Ingest",
     "birth_info": "9 Aug 1904",
     "death_info": "7 Aug 1964 (aged 59)",
@@ -79,6 +79,15 @@
           "source_dataset": "mitsawokett_obituaries"
         }
       ]
+    },
+    {
+      "fact_id": 12483,
+      "person_id": 11027,
+      "fact_type": "Marriage",
+      "date_string": "1945",
+      "place_string": null,
+      "value_string": "wed him in 1945",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -96,7 +105,18 @@
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7338,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11027,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-j2.htm] Marriage: date='1945'",
+      "evidence": "verbatim: wed him in 1945",
+      "created_at": "2026-09-03T12:56:02.331553"
+    }
+  ],
   "ancestry": {
     "id": 11027,
     "name": "Elsie H. Mosley",

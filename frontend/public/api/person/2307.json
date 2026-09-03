@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6575,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2307,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'James Richardson' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 89",
+      "created_at": "2026-09-03T12:54:47.893761"
+    }
+  ],
   "ancestry": {
     "id": 2307,
     "name": "James Richardson",

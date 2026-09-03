@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Annie",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MosleyCharlesHenryFamily.htm",
     "birth_info": "unknown",
     "death_info": "19 Oct 1926",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12247,
+      "person_id": 6706,
+      "fact_type": "Marriage",
+      "date_string": "1 September, 1888",
+      "place_string": null,
+      "value_string": "married Lola Durham    On 1 September, 1888",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7067,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6706,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-s1.htm] Marriage: date='1 September, 1888'",
+      "evidence": "verbatim: married Lola Durham    On 1 September, 1888",
+      "created_at": "2026-09-03T12:55:21.913534"
+    }
+  ],
   "ancestry": {
     "id": 6706,
     "name": "Both Annie",

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Coker",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "fbranch.htm",
     "birth_info": "unknown",
     "death_info": "26 Nov 1850",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11735,
+      "person_id": 355,
+      "fact_type": "Birth",
+      "date_string": "18 April, 1908",
+      "place_string": null,
+      "value_string": "was born 18 April, 1908 .",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -102,7 +111,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5957,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 355,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Sarah Coker' \u2014 requires human review",
+      "evidence": "source: fbranch.htm, matches: 5",
+      "created_at": "2026-09-03T12:54:23.851423"
+    },
+    {
+      "id": 5958,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 355,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-h3.htm] Birth: date='18 April, 1908'",
+      "evidence": "verbatim: was born 18 April, 1908 .",
+      "created_at": "2026-09-03T12:54:23.872064"
+    }
+  ],
   "ancestry": {
     "id": 355,
     "name": "Sarah Coker",

@@ -6,7 +6,7 @@
     "middle_name": "Lawrence",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "coker-c1.htm",
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11695,
+      "person_id": 119,
+      "fact_type": "Death",
+      "date_string": "14 December, 1992",
+      "place_string": "Philadelphia on 14 December, 1992",
+      "value_string": "died in Philadelphia on 14 December, 1992",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -102,7 +111,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5821,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 119,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Francis Lawrence Jackson' \u2014 requires human review",
+      "evidence": "source: coker-c1.htm, matches: 5",
+      "created_at": "2026-09-03T12:54:17.482695"
+    },
+    {
+      "id": 5822,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 119,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-m2.htm] Death: date='14 December, 1992'",
+      "evidence": "verbatim: died in Philadelphia on 14 December, 1992",
+      "created_at": "2026-09-03T12:54:17.488249"
+    }
+  ],
   "ancestry": {
     "id": 119,
     "name": "Francis Lawrence Jackson",

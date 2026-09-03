@@ -6,7 +6,7 @@
     "middle_name": "E",
     "maiden_name": "",
     "married_last_name": "Miller",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1856",
     "death_info": "4 Jun 1927 (aged 70\u201371)",
@@ -127,6 +127,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12375,
+      "person_id": 8857,
+      "fact_type": "Marriage",
+      "date_string": "11 Mar 1875",
+      "place_string": null,
+      "value_string": "were married 11 Mar 1875",
+      "citations": []
     }
   ],
   "relationships": [
@@ -147,7 +156,58 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7199,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 8857,
+      "person_id_secondary": null,
+      "description": "Birth conflict: existing='Mar 1873 Delaware' vs XML='1856'",
+      "evidence": "source: preservation_output/profiles/person_8857.xml",
+      "created_at": "2026-09-03T12:55:31.998613"
+    },
+    {
+      "id": 7200,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 8857,
+      "person_id_secondary": null,
+      "description": "Death conflict: existing='24 Feb 1950 Lewes' vs XML='4 Jun 1927 (aged 70\u201371)'",
+      "evidence": "source: preservation_output/profiles/person_8857.xml",
+      "created_at": "2026-09-03T12:55:31.998701"
+    },
+    {
+      "id": 7201,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 8857,
+      "person_id_secondary": null,
+      "description": "Birth conflict: existing='1856' vs XML='Mar 1873 Delaware'",
+      "evidence": "source: preservation_output/profiles/person_8857.xml",
+      "created_at": "2026-09-03T12:55:31.998735"
+    },
+    {
+      "id": 7202,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 8857,
+      "person_id_secondary": null,
+      "description": "Death conflict: existing='4 Jun 1927 (aged 70\u201371)' vs XML='24 Feb 1950 Lewes'",
+      "evidence": "source: preservation_output/profiles/person_8857.xml",
+      "created_at": "2026-09-03T12:55:31.998776"
+    },
+    {
+      "id": 7203,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8857,
+      "person_id_secondary": null,
+      "description": "[XPAGE:IdentifiedIndians.htm] Marriage: date='11 Mar 1875'",
+      "evidence": "verbatim: were married 11 Mar 1875",
+      "created_at": "2026-09-03T12:55:32.329967"
+    }
+  ],
   "ancestry": {
     "id": 8857,
     "name": "John E Miller",

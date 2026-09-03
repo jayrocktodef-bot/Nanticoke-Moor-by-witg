@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Johnson",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1722 Angola, Sussex County, Delaware, USA",
     "death_info": "1796 Angola, Sussex County, Delaware, USA",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12450,
+      "person_id": 10407,
+      "fact_type": "Marriage",
+      "date_string": "11 Mar 1875",
+      "place_string": null,
+      "value_string": "were married 11 Mar 1875",
+      "citations": []
     }
   ],
   "relationships": [
@@ -131,7 +140,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7298,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 10407,
+      "person_id_secondary": null,
+      "description": "[XPAGE:IdentifiedIndians.htm] Marriage: date='11 Mar 1875'",
+      "evidence": "verbatim: were married 11 Mar 1875",
+      "created_at": "2026-09-03T12:55:49.028298"
+    }
+  ],
   "ancestry": {
     "id": 10407,
     "name": "John Johnson",

@@ -6,7 +6,7 @@
     "middle_name": "H.",
     "maiden_name": "",
     "married_last_name": "Morgan",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "dean-r.htm",
     "birth_info": "1899",
     "death_info": "9 Oct 1902 (aged 2\u20133)",
@@ -127,6 +127,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11718,
+      "person_id": 273,
+      "fact_type": "Marriage",
+      "date_string": "30 April 1921",
+      "place_string": null,
+      "value_string": "married William Thomas Reed on 30 April 1921",
+      "citations": []
     }
   ],
   "relationships": [
@@ -140,7 +149,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5895,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 273,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'William H. Morgan' \u2014 requires human review",
+      "evidence": "source: dean-r.htm, matches: 4",
+      "created_at": "2026-09-03T12:54:20.605914"
+    },
+    {
+      "id": 5896,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 273,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='30 April 1921'",
+      "evidence": "verbatim: married William Thomas Reed on 30 April 1921",
+      "created_at": "2026-09-03T12:54:20.619143"
+    }
+  ],
   "ancestry": {
     "id": 273,
     "name": "William H. Morgan",

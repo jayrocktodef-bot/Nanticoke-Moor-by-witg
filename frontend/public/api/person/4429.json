@@ -6,7 +6,7 @@
     "middle_name": "Cuff",
     "maiden_name": "",
     "married_last_name": "Thomas",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CuffLeonard&Margaret&TheodoreG.htm",
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12078,
+      "person_id": 4429,
+      "fact_type": "Death",
+      "date_string": "Apr. 9, 1887",
+      "place_string": null,
+      "value_string": "died Apr. 9, 1887",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6875,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4429,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-c1.htm] Death: date='Apr. 9, 1887'",
+      "evidence": "verbatim: died Apr. 9, 1887",
+      "created_at": "2026-09-03T12:55:08.996760"
+    }
+  ],
   "ancestry": {
     "id": 4429,
     "name": "R. Cuff Thomas",

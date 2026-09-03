@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Susann",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MuntzClarence&Elaine.htm",
     "birth_info": "19 May 1842",
     "death_info": "19 Jan 1908 (aged 65)",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12266,
+      "person_id": 6790,
+      "fact_type": "Marriage",
+      "date_string": "25 April, 1995",
+      "place_string": null,
+      "value_string": "married Michelle Bosligo   Roland died on 25 April, 1995",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7087,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6790,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-r2.htm] Marriage: date='25 April, 1995'",
+      "evidence": "verbatim: married Michelle Bosligo   Roland died on 25 April, 1995",
+      "created_at": "2026-09-03T12:55:22.125984"
+    }
+  ],
   "ancestry": {
     "id": 6790,
     "name": "Valerie Susann",

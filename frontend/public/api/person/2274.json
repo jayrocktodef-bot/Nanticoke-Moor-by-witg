@@ -69,7 +69,18 @@
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6547,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2274,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'John Green' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 112",
+      "created_at": "2026-09-03T12:54:44.608165"
+    }
+  ],
   "ancestry": {
     "id": 2274,
     "name": "John Green",

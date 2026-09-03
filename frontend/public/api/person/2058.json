@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Elijah",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MainMenu.html",
     "birth_info": "c. 1811",
     "death_info": null,
@@ -51,12 +51,42 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11874,
+      "person_id": 2058,
+      "fact_type": "Death",
+      "date_string": "1780",
+      "place_string": null,
+      "value_string": "died  1780",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6418,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2058,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Consellor Elijah' \u2014 requires human review",
+      "evidence": "source: MainMenu.html, matches: 3",
+      "created_at": "2026-09-03T12:54:35.748884"
+    },
+    {
+      "id": 6419,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2058,
+      "person_id_secondary": null,
+      "description": "[XPAGE:Probate.htm] Death: date='1780'",
+      "evidence": "verbatim: died  1780",
+      "created_at": "2026-09-03T12:54:35.754038"
+    }
+  ],
   "ancestry": {
     "id": 2058,
     "name": "Consellor Elijah",

@@ -6,7 +6,7 @@
     "middle_name": "Joseph",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "16 Nov 1889 Rehoboth Beach, Sussex County, Delaware, USA",
     "death_info": "14 Feb 1965 Rehoboth Beach, Sussex County, Delaware, USA",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12414,
+      "person_id": 9570,
+      "fact_type": "Marriage",
+      "date_string": "April 5, 1893",
+      "place_string": "the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
+      "value_string": "married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
+      "citations": []
     }
   ],
   "relationships": [
@@ -90,7 +99,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7252,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 9570,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksonn.htm] Marriage: date='April 5, 1893'",
+      "evidence": "verbatim: married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
+      "created_at": "2026-09-03T12:55:39.848801"
+    }
+  ],
   "ancestry": {
     "id": 9570,
     "name": "William Joseph Jackson",

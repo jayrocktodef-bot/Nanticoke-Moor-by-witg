@@ -110,7 +110,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5781,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 56,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Aubrey Newlin' \u2014 requires human review",
+      "evidence": "source: carty-h.htm, matches: 8",
+      "created_at": "2026-09-03T12:54:16.742113"
+    }
+  ],
   "ancestry": {
     "id": 56,
     "name": "Aubrey Newlin",

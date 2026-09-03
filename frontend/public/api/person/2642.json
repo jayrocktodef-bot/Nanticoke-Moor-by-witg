@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Hanzer",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": null,
     "death_info": null,
@@ -22,12 +22,32 @@
       "place_string": null,
       "value_string": "Mary Hanzer",
       "citations": []
+    },
+    {
+      "fact_id": 11948,
+      "person_id": 2642,
+      "fact_type": "Death",
+      "date_string": "1717",
+      "place_string": null,
+      "value_string": "d.   On 1717",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6745,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2642,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansor.htm] Death: date='1717'",
+      "evidence": "verbatim: d.   On 1717",
+      "created_at": "2026-09-03T12:55:02.030371"
+    }
+  ],
   "ancestry": {
     "id": 2642,
     "name": "Mary Hanzer",

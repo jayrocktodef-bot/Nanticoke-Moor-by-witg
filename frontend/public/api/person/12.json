@@ -6,7 +6,7 @@
     "middle_name": "Wesley",
     "maiden_name": "",
     "married_last_name": "Cott",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "bible-c1.htm",
     "birth_info": "unknown",
     "death_info": "9 Jul 1964",
@@ -184,6 +184,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11672,
+      "person_id": 12,
+      "fact_type": "Birth",
+      "date_string": "Jan. 16, 1878",
+      "place_string": null,
+      "value_string": "born Jan. 16, 1878",
+      "citations": []
     }
   ],
   "relationships": [
@@ -278,7 +287,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5749,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 12,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'John Wesley Cott' \u2014 requires human review",
+      "evidence": "source: bible-c1.htm, matches: 157",
+      "created_at": "2026-09-03T12:54:15.683608"
+    },
+    {
+      "id": 5750,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 12,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-r.htm] Birth: date='Jan. 16, 1878'",
+      "evidence": "verbatim: born Jan. 16, 1878",
+      "created_at": "2026-09-03T12:54:15.685979"
+    }
+  ],
   "ancestry": {
     "id": 12,
     "name": "John Wesley Cott",

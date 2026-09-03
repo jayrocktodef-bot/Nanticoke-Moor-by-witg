@@ -111,7 +111,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5949,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 346,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Agnes Carney' \u2014 requires human review",
+      "evidence": "source: durhm-m1.htm, matches: 7",
+      "created_at": "2026-09-03T12:54:23.722289"
+    }
+  ],
   "ancestry": {
     "id": 346,
     "name": "Agnes Carney",

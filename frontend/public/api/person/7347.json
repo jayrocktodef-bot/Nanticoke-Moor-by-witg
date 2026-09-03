@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Thomas",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "ReedThomas&MaryMosley.htm",
     "birth_info": "1781",
     "death_info": "1846 (aged 64\u201365)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12320,
+      "person_id": 7347,
+      "fact_type": "Marriage",
+      "date_string": "18 October 1916",
+      "place_string": null,
+      "value_string": "married Joel Clemons Smith on 18 October 1916",
+      "citations": []
     }
   ],
   "relationships": [
@@ -97,7 +106,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7141,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7347,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='18 October 1916'",
+      "evidence": "verbatim: married Joel Clemons Smith on 18 October 1916",
+      "created_at": "2026-09-03T12:55:25.502112"
+    }
+  ],
   "ancestry": {
     "id": 7347,
     "name": "William Thomas",

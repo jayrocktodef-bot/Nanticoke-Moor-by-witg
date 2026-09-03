@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Morgan",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "ReedAllenDescendants.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11978,
+      "person_id": 3385,
+      "fact_type": "Birth",
+      "date_string": "1921",
+      "place_string": "Fairton, NJ in 1921",
+      "value_string": "was born in Fairton, NJ in 1921 .",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6775,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3385,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-m2.htm] Birth: date='1921'",
+      "evidence": "verbatim: was born in Fairton, NJ in 1921 .",
+      "created_at": "2026-09-03T12:55:04.519647"
+    }
+  ],
   "ancestry": {
     "id": 3385,
     "name": "Mamie Morgan",

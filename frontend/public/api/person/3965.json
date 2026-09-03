@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CheswoldSchool.htm",
     "birth_info": null,
     "death_info": null,
@@ -41,6 +41,15 @@
           "source_dataset": "mitsawokett_obits"
         }
       ]
+    },
+    {
+      "fact_id": 12024,
+      "person_id": 3965,
+      "fact_type": "Marriage",
+      "date_string": "10 April, 1913",
+      "place_string": null,
+      "value_string": "married Clem Carney on 10 April, 1913",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -60,7 +69,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6821,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3965,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-a6.htm] Marriage: date='10 April, 1913'",
+      "evidence": "verbatim: married Clem Carney on 10 April, 1913",
+      "created_at": "2026-09-03T12:55:06.653440"
+    }
+  ],
   "ancestry": {
     "id": 3965,
     "name": "Ann Carney",

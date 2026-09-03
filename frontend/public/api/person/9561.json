@@ -174,7 +174,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7248,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 9561,
+      "person_id_secondary": null,
+      "description": "Birth conflict: existing='abt 1927 Delaware' vs XML='9 February 1928 Stockley, Sussex County, Delaware, United States of America'",
+      "evidence": "source: preservation_output/profiles/person_9561.xml",
+      "created_at": "2026-09-03T12:55:39.401858"
+    },
+    {
+      "id": 7249,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 9561,
+      "person_id_secondary": null,
+      "description": "Death conflict: existing='12 Jul 1930 Georgetown, Sussex, Delaware, USA' vs XML='12 July 1930 Georgetown, Sussex County, Delaware, United States of America'",
+      "evidence": "source: preservation_output/profiles/person_9561.xml",
+      "created_at": "2026-09-03T12:55:39.401918"
+    }
+  ],
   "ancestry": {
     "id": 9561,
     "name": "John S Thompson",

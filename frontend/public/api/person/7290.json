@@ -6,7 +6,7 @@
     "middle_name": "D.",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "SammonsMaryElizabethMunce.htm",
     "birth_info": "1899",
     "death_info": "8 Sep 1967 (aged 67\u201368)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12313,
+      "person_id": 7290,
+      "fact_type": "Marriage",
+      "date_string": "30 April 1921",
+      "place_string": null,
+      "value_string": "married William Thomas Reed on 30 April 1921",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -89,7 +98,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7134,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7290,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='30 April 1921'",
+      "evidence": "verbatim: married William Thomas Reed on 30 April 1921",
+      "created_at": "2026-09-03T12:55:25.351297"
+    }
+  ],
   "ancestry": {
     "id": 7290,
     "name": "Bertha D. Dean",

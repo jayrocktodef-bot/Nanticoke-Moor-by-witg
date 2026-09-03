@@ -6,7 +6,7 @@
     "middle_name": "M",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "jacksnw1.htm",
     "birth_info": "3 Mar 1882",
     "death_info": "17 Jun 1948 (aged 66)",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11753,
+      "person_id": 426,
+      "fact_type": "Marriage",
+      "date_string": "23 September, 1900",
+      "place_string": null,
+      "value_string": "married Cassius MOSLEY on 23 September, 1900",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -102,7 +111,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6014,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 426,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'James M Jackson' \u2014 requires human review",
+      "evidence": "source: jacksnw1.htm, matches: 11",
+      "created_at": "2026-09-03T12:54:25.413910"
+    },
+    {
+      "id": 6015,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 426,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-m2.htm] Marriage: date='23 September, 1900'",
+      "evidence": "verbatim: married Cassius MOSLEY on 23 September, 1900",
+      "created_at": "2026-09-03T12:54:25.447626"
+    }
+  ],
   "ancestry": {
     "id": 426,
     "name": "James M Jackson",

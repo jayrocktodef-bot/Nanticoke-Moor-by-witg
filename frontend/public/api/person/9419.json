@@ -6,7 +6,7 @@
     "middle_name": "Mosley",
     "maiden_name": "Morris",
     "married_last_name": "Harmon",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1824 Sussex Co, De, USA",
     "death_info": "7 Nov 1892 Kent Co, De, USA",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12403,
+      "person_id": 9419,
+      "fact_type": "Marriage",
+      "date_string": "4 August 1909",
+      "place_string": null,
+      "value_string": "married Alonzo DURHAM on 4 August 1909",
+      "citations": []
     }
   ],
   "relationships": [
@@ -104,7 +113,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7239,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 9419,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-h2.htm] Marriage: date='4 August 1909'",
+      "evidence": "verbatim: married Alonzo DURHAM on 4 August 1909",
+      "created_at": "2026-09-03T12:55:37.872188"
+    }
+  ],
   "ancestry": {
     "id": 9419,
     "name": "Elizabeth Mosley Harmon",

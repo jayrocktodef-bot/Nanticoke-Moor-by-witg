@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11891,
+      "person_id": 2232,
+      "fact_type": "Death",
+      "date_string": "11 November, 1905",
+      "place_string": null,
+      "value_string": "died on 11 November, 1905",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6510,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2232,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Isaac Durham' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 13",
+      "created_at": "2026-09-03T12:54:41.361563"
+    },
+    {
+      "id": 6511,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2232,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-b2.htm] Death: date='11 November, 1905'",
+      "evidence": "verbatim: died on 11 November, 1905",
+      "created_at": "2026-09-03T12:54:41.404622"
+    }
+  ],
   "ancestry": {
     "id": 2232,
     "name": "Isaac Durham",

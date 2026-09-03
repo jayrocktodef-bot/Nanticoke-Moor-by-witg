@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Sammons",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": "4 Sep 1848",
     "death_info": "15 May 1930 (aged 81)",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11919,
+      "person_id": 2388,
+      "fact_type": "Marriage",
+      "date_string": "October 28, 1896",
+      "place_string": null,
+      "value_string": "married Mary Elizabeth Clark on October 28, 1896",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -128,7 +137,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6657,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2388,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Mary Sammons' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 166",
+      "created_at": "2026-09-03T12:54:56.517939"
+    },
+    {
+      "id": 6658,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2388,
+      "person_id_secondary": null,
+      "description": "[XPAGE:munce-m4.htm] Marriage: date='October 28, 1896'",
+      "evidence": "verbatim: married Mary Elizabeth Clark on October 28, 1896",
+      "created_at": "2026-09-03T12:54:56.652346"
+    }
+  ],
   "ancestry": {
     "id": 2388,
     "name": "Mary Sammons",

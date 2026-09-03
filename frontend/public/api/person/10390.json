@@ -6,7 +6,7 @@
     "middle_name": "Carlton Carlton",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "29 Aug 1909 or 1910 Millsboro, Sussex, Delaware, USA",
     "death_info": "18 Jan 1942",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12447,
+      "person_id": 10390,
+      "fact_type": "Marriage",
+      "date_string": "20 January, 1865",
+      "place_string": null,
+      "value_string": "married Isaac Mosley   On 20 January, 1865",
+      "citations": []
     }
   ],
   "relationships": [
@@ -162,7 +171,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7295,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 10390,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-h2.htm] Marriage: date='20 January, 1865'",
+      "evidence": "verbatim: married Isaac Mosley   On 20 January, 1865",
+      "created_at": "2026-09-03T12:55:47.816223"
+    }
+  ],
   "ancestry": {
     "id": 10390,
     "name": "James Carlton Mosley",

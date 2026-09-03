@@ -6,7 +6,7 @@
     "middle_name": "Mae Durham",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamJEH&Harriett.htm",
     "birth_info": "1889",
     "death_info": "1970 (aged 80\u201381)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12150,
+      "person_id": 5504,
+      "fact_type": "Marriage",
+      "date_string": "9 January, 1931",
+      "place_string": null,
+      "value_string": "married James Hughes    Daniel died on 9 January, 1931",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -154,7 +163,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6965,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5504,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-d4.htm] Marriage: date='9 January, 1931'",
+      "evidence": "verbatim: married James Hughes    Daniel died on 9 January, 1931",
+      "created_at": "2026-09-03T12:55:13.658821"
+    }
+  ],
   "ancestry": {
     "id": 5504,
     "name": "Anna Mae Durham",

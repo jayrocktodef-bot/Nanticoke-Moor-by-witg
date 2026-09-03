@@ -110,7 +110,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6012,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 424,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Mildred Street' \u2014 requires human review",
+      "evidence": "source: jacksnr2.htm, matches: 31",
+      "created_at": "2026-09-03T12:54:25.276697"
+    }
+  ],
   "ancestry": {
     "id": 424,
     "name": "Mildred Street",

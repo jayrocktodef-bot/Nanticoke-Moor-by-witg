@@ -6,7 +6,7 @@
     "middle_name": null,
     "maiden_name": null,
     "married_last_name": "Hannah",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Durham%20Joel%20Petition%201864.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 12518,
+      "person_id": 11813,
+      "fact_type": "Death",
+      "date_string": "1840",
+      "place_string": null,
+      "value_string": "d. 1840",
+      "citations": []
     }
   ],
   "relationships": [
@@ -45,7 +54,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7404,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 11813,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'daughter Hannah' \u2014 requires human review",
+      "evidence": "source: Durham%20Joel%20Petition%201864.htm, matches: 3",
+      "created_at": "2026-09-03T12:56:05.268052"
+    },
+    {
+      "id": 7405,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11813,
+      "person_id_secondary": null,
+      "description": "[XPAGE:concl-j1.htm] Death: date='1840'",
+      "evidence": "verbatim: d. 1840",
+      "created_at": "2026-09-03T12:56:05.271657"
+    }
+  ],
   "ancestry": {
     "id": 11813,
     "name": "daughter Hannah",

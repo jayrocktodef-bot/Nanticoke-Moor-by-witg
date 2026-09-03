@@ -6,7 +6,7 @@
     "middle_name": "Russell",
     "maiden_name": "",
     "married_last_name": "Coker",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "coker-j2.htm",
     "birth_info": "unknown",
     "death_info": "Apr 1950",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11699,
+      "person_id": 133,
+      "fact_type": "Marriage",
+      "date_string": "1943",
+      "place_string": "1943 and Margaret in 1973",
+      "value_string": "married Cleo DURHAM    Alfred died in 1943 and Margaret in 1973",
+      "citations": []
     }
   ],
   "relationships": [
@@ -110,7 +119,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5833,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 133,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'James Russell Coker' \u2014 requires human review",
+      "evidence": "source: coker-j2.htm, matches: 19",
+      "created_at": "2026-09-03T12:54:17.645436"
+    },
+    {
+      "id": 5834,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 133,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-a3.htm] Marriage: date='1943'",
+      "evidence": "verbatim: married Cleo DURHAM    Alfred died in 1943 and Margaret in 1973",
+      "created_at": "2026-09-03T12:54:17.654502"
+    }
+  ],
   "ancestry": {
     "id": 133,
     "name": "James Russell Coker",

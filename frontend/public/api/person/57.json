@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Morgan",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "carty-h2.htm",
     "birth_info": "unknown",
     "death_info": "6 Jan 1938",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11682,
+      "person_id": 57,
+      "fact_type": "Birth",
+      "date_string": "6 Aug. 1872",
+      "place_string": null,
+      "value_string": "born 6 Aug. 1872",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -115,7 +124,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5782,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 57,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'James Morgan' \u2014 requires human review",
+      "evidence": "source: carty-h2.htm, matches: 9",
+      "created_at": "2026-09-03T12:54:16.743146"
+    },
+    {
+      "id": 5783,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 57,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ma.htm] Birth: date='6 Aug. 1872'",
+      "evidence": "verbatim: born 6 Aug. 1872",
+      "created_at": "2026-09-03T12:54:16.757910"
+    }
+  ],
   "ancestry": {
     "id": 57,
     "name": "James Morgan",

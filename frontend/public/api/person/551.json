@@ -6,7 +6,7 @@
     "middle_name": "H.",
     "maiden_name": "",
     "married_last_name": "Muncey",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "munce-r2.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11785,
+      "person_id": 551,
+      "fact_type": "Birth",
+      "date_string": "January 4, 1837",
+      "place_string": "Kent County DE on January 4, 1837",
+      "value_string": "was born in Kent County DE on January 4, 1837 .",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -77,7 +86,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6106,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 551,
+      "person_id_secondary": null,
+      "description": "'James H. Muncey' not found in source document",
+      "evidence": "source: munce-r2.htm",
+      "created_at": "2026-09-03T12:54:28.870660"
+    },
+    {
+      "id": 6107,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 551,
+      "person_id_secondary": null,
+      "description": "[XPAGE:munce-j1.htm] Birth: date='January 4, 1837'",
+      "evidence": "verbatim: was born in Kent County DE on January 4, 1837 .",
+      "created_at": "2026-09-03T12:54:28.872041"
+    }
+  ],
   "ancestry": {
     "id": 551,
     "name": "James H. Muncey",

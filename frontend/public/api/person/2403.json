@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6670,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2403,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Prudy Copeland' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 166",
+      "created_at": "2026-09-03T12:54:57.424245"
+    }
+  ],
   "ancestry": {
     "id": 2403,
     "name": "Prudy Copeland",

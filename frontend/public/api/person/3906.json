@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarneyRobertJamesSr&Family.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12017,
+      "person_id": 3906,
+      "fact_type": "Death",
+      "date_string": "1969",
+      "place_string": null,
+      "value_string": "d. 1969",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -60,7 +69,18 @@
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6814,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3906,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-e1.htm] Death: date='1969'",
+      "evidence": "verbatim: d. 1969",
+      "created_at": "2026-09-03T12:55:06.375400"
+    }
+  ],
   "ancestry": {
     "id": 3906,
     "name": "Roy Carney",

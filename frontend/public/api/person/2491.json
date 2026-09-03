@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6715,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2491,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Physical description' \u2014 requires human review",
+      "evidence": "source: IdentifiedIndians.htm, matches: 9",
+      "created_at": "2026-09-03T12:55:00.012611"
+    }
+  ],
   "ancestry": {
     "id": 2491,
     "name": "Physical description",

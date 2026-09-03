@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Clark",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "fbranch.htm",
     "birth_info": "1 Apr 1878",
     "death_info": "24 Mar 1953 (aged 74)",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11734,
+      "person_id": 354,
+      "fact_type": "Marriage",
+      "date_string": "23 September, 1900",
+      "place_string": null,
+      "value_string": "married Cassius MOSLEY on 23 September, 1900",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5955,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 354,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Albeda Clark' \u2014 requires human review",
+      "evidence": "source: fbranch.htm, matches: 4",
+      "created_at": "2026-09-03T12:54:23.831550"
+    },
+    {
+      "id": 5956,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 354,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-m2.htm] Marriage: date='23 September, 1900'",
+      "evidence": "verbatim: married Cassius MOSLEY on 23 September, 1900",
+      "created_at": "2026-09-03T12:54:23.849027"
+    }
+  ],
   "ancestry": {
     "id": 354,
     "name": "Albeda Clark",

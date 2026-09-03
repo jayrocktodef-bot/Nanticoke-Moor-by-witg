@@ -37,7 +37,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6495,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2218,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Risdon Bishop' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 14",
+      "created_at": "2026-09-03T12:54:40.202087"
+    }
+  ],
   "ancestry": {
     "id": 2218,
     "name": "Risdon Bishop",

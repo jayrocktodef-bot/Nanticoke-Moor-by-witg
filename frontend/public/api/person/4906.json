@@ -6,7 +6,7 @@
     "middle_name": "Donald Marvin",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamDonald.htm",
     "birth_info": "28 Jul 1933",
     "death_info": "26 Mar 2006 (aged 72)",
@@ -127,6 +127,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12112,
+      "person_id": 4906,
+      "fact_type": "Marriage",
+      "date_string": "18 January, 1922",
+      "place_string": "Cheswold DE on 18 January, 1922",
+      "value_string": "married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -159,7 +168,48 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6909,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 4906,
+      "person_id_secondary": null,
+      "description": "Birth conflict: existing='1914' vs XML='28 Jul 1933'",
+      "evidence": "source: preservation_output/profiles/person_4906.xml",
+      "created_at": "2026-09-03T12:55:10.480926"
+    },
+    {
+      "id": 6910,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 4906,
+      "person_id_secondary": null,
+      "description": "Birth conflict: existing='28 Jul 1933' vs XML='1914'",
+      "evidence": "source: preservation_output/profiles/person_4906.xml",
+      "created_at": "2026-09-03T12:55:10.480997"
+    },
+    {
+      "id": 6911,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 4906,
+      "person_id_secondary": null,
+      "description": "Death conflict: existing='26 Mar 2006 (aged 72)' vs XML='1987 (aged 72\u201373)'",
+      "evidence": "source: preservation_output/profiles/person_4906.xml",
+      "created_at": "2026-09-03T12:55:10.481045"
+    },
+    {
+      "id": 6912,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4906,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-e2.htm] Marriage: date='18 January, 1922'",
+      "evidence": "verbatim: married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
+      "created_at": "2026-09-03T12:55:10.518818"
+    }
+  ],
   "ancestry": {
     "id": 4906,
     "name": "Donald Marvin Durham",

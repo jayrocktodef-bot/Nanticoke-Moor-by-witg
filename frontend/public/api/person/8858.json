@@ -6,7 +6,7 @@
     "middle_name": "ALONZO Miller",
     "maiden_name": "Miller",
     "married_last_name": "Miller",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "04/23/1903 Lewes, Sussex, Delaware, USA",
     "death_info": "08/12/1992 Lewes, Sussex, Delaware, USA",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12376,
+      "person_id": 8858,
+      "fact_type": "Marriage",
+      "date_string": "23 September, 1900",
+      "place_string": null,
+      "value_string": "married Cassius MOSLEY on 23 September, 1900",
+      "citations": []
     }
   ],
   "relationships": [
@@ -273,7 +282,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7204,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8858,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-m2.htm] Marriage: date='23 September, 1900'",
+      "evidence": "verbatim: married Cassius MOSLEY on 23 September, 1900",
+      "created_at": "2026-09-03T12:55:32.332685"
+    }
+  ],
   "ancestry": {
     "id": 8858,
     "name": "WILLIAM ALONZO Miller SR",

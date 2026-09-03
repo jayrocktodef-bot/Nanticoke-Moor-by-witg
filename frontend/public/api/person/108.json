@@ -6,7 +6,7 @@
     "middle_name": "B.",
     "maiden_name": "",
     "married_last_name": "Coker",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "coker-a3.htm",
     "birth_info": "unknown",
     "death_info": "1882",
@@ -127,6 +127,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11692,
+      "person_id": 108,
+      "fact_type": "Birth",
+      "date_string": "14 December, 1889",
+      "place_string": null,
+      "value_string": "was born 14 December, 1889 .",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -159,7 +168,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5813,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 108,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'James B. Coker' \u2014 requires human review",
+      "evidence": "source: coker-a3.htm, matches: 2",
+      "created_at": "2026-09-03T12:54:17.401534"
+    },
+    {
+      "id": 5814,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 108,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-j2.htm] Birth: date='14 December, 1889'",
+      "evidence": "verbatim: was born 14 December, 1889 .",
+      "created_at": "2026-09-03T12:54:17.409546"
+    }
+  ],
   "ancestry": {
     "id": 108,
     "name": "James B. Coker",

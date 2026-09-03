@@ -6,7 +6,7 @@
     "middle_name": "Sammons",
     "maiden_name": "",
     "married_last_name": "Morgan",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarneyLeroy&Millie.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12019,
+      "person_id": 3918,
+      "fact_type": "Marriage",
+      "date_string": "1827",
+      "place_string": null,
+      "value_string": "married sometime prior to 1827",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6816,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3918,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-j3.htm] Marriage: date='1827'",
+      "evidence": "verbatim: married sometime prior to 1827",
+      "created_at": "2026-09-03T12:55:06.409741"
+    }
+  ],
   "ancestry": {
     "id": 3918,
     "name": "Hester Sammons Morgan",

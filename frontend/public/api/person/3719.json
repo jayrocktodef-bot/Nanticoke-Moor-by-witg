@@ -6,7 +6,7 @@
     "middle_name": "R.",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarneyJamesR&EffieReed.htm",
     "birth_info": "1845",
     "death_info": "22 Jan 1917 (aged 71\u201372)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11998,
+      "person_id": 3719,
+      "fact_type": "Marriage",
+      "date_string": "9 January, 1931",
+      "place_string": null,
+      "value_string": "married James Hughes    Daniel died on 9 January, 1931",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -193,7 +202,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6795,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3719,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-d4.htm] Marriage: date='9 January, 1931'",
+      "evidence": "verbatim: married James Hughes    Daniel died on 9 January, 1931",
+      "created_at": "2026-09-03T12:55:05.733301"
+    }
+  ],
   "ancestry": {
     "id": 3719,
     "name": "James R. Carney",

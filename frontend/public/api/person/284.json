@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "dean-w.htm",
     "birth_info": "unknown",
     "death_info": "13 May 1861",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11722,
+      "person_id": 284,
+      "fact_type": "Birth",
+      "date_string": "May 27, 1838",
+      "place_string": "Kent County DE on May 27, 1838 , the son of  John D",
+      "value_string": "was born in Kent County DE on May 27, 1838 , the son of  John D.",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5904,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 284,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Sarah Dean' \u2014 requires human review",
+      "evidence": "source: dean-w.htm, matches: 26",
+      "created_at": "2026-09-03T12:54:20.803267"
+    },
+    {
+      "id": 5905,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 284,
+      "person_id_secondary": null,
+      "description": "[XPAGE:cott-j1.htm] Birth: date='May 27, 1838'",
+      "evidence": "verbatim: was born in Kent County DE on May 27, 1838 , the son of  John D.",
+      "created_at": "2026-09-03T12:54:20.828944"
+    }
+  ],
   "ancestry": {
     "id": 284,
     "name": "Sarah Dean",

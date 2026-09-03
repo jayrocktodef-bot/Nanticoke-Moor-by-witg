@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Cott",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "cott.htm",
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11713,
+      "person_id": 234,
+      "fact_type": "Death",
+      "date_string": "March 31 1918",
+      "place_string": null,
+      "value_string": "departed this life March 31 1918",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -115,7 +124,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5882,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 234,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Rebecca Cott' \u2014 requires human review",
+      "evidence": "source: cott.htm, matches: 22",
+      "created_at": "2026-09-03T12:54:20.351694"
+    },
+    {
+      "id": 5883,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 234,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-r.htm] Death: date='March 31 1918'",
+      "evidence": "verbatim: departed this life March 31 1918",
+      "created_at": "2026-09-03T12:54:20.357939"
+    }
+  ],
   "ancestry": {
     "id": 234,
     "name": "Rebecca Cott",

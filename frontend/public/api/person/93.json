@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "census10.htm",
     "birth_info": "unknown",
     "death_info": "11 Apr 1844",
@@ -89,6 +89,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11689,
+      "person_id": 93,
+      "fact_type": "Birth",
+      "date_string": "1804",
+      "place_string": "Kent County Delaware sometime around 1804 according to the Delaware census records",
+      "value_string": "was born in Kent County Delaware sometime around 1804 according to the Delaware census records.",
+      "citations": []
     }
   ],
   "relationships": [
@@ -116,7 +125,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5806,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 93,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Jesse Dean' \u2014 requires human review",
+      "evidence": "source: census10.htm, matches: 3",
+      "created_at": "2026-09-03T12:54:17.313698"
+    },
+    {
+      "id": 5807,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 93,
+      "person_id_secondary": null,
+      "description": "[XPAGE:cott.htm] Birth: date='1804'",
+      "evidence": "verbatim: was born in Kent County Delaware sometime around 1804 according to the Delaware census records.",
+      "created_at": "2026-09-03T12:54:17.337351"
+    }
+  ],
   "ancestry": {
     "id": 93,
     "name": "Jesse Dean",

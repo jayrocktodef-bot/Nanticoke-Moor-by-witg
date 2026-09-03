@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Wilson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "WilsonHowardC&BessieMosley.htm",
     "birth_info": "26 Jan 1906",
     "death_info": "21 Feb 1995 (aged 89)",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12353,
+      "person_id": 8046,
+      "fact_type": "Marriage",
+      "date_string": "18 October 1916",
+      "place_string": null,
+      "value_string": "married Joel Clemons Smith on 18 October 1916",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7175,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8046,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='18 October 1916'",
+      "evidence": "verbatim: married Joel Clemons Smith on 18 October 1916",
+      "created_at": "2026-09-03T12:55:28.520669"
+    }
+  ],
   "ancestry": {
     "id": 8046,
     "name": "Clifton Wilson",

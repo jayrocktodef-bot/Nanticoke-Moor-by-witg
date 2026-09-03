@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Beckett",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11879,
+      "person_id": 2129,
+      "fact_type": "Marriage",
+      "date_string": "9 January, 1931",
+      "place_string": null,
+      "value_string": "married James Hughes    Daniel died on 9 January, 1931",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6435,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2129,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'William Beckett' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 12",
+      "created_at": "2026-09-03T12:54:36.097199"
+    },
+    {
+      "id": 6436,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2129,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-d4.htm] Marriage: date='9 January, 1931'",
+      "evidence": "verbatim: married James Hughes    Daniel died on 9 January, 1931",
+      "created_at": "2026-09-03T12:54:36.098628"
+    }
+  ],
   "ancestry": {
     "id": 2129,
     "name": "William Beckett",

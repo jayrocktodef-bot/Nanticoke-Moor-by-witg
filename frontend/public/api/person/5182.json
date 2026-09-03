@@ -6,7 +6,7 @@
     "middle_name": "Leah",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamReunion1996HiRes.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12135,
+      "person_id": 5182,
+      "fact_type": "Death",
+      "date_string": "January 6th, 1896",
+      "place_string": null,
+      "value_string": "d.  January 6th, 1896",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6946,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5182,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-j.htm] Death: date='January 6th, 1896'",
+      "evidence": "verbatim: d.  January 6th, 1896",
+      "created_at": "2026-09-03T12:55:12.498270"
+    }
+  ],
   "ancestry": {
     "id": 5182,
     "name": "Leah Jackson",

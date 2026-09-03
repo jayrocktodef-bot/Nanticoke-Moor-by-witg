@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "morganj4.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11780,
+      "person_id": 523,
+      "fact_type": "Marriage",
+      "date_string": "15 November, 1917",
+      "place_string": null,
+      "value_string": "married Mae SAMMONS on 15 November, 1917",
+      "citations": []
     }
   ],
   "relationships": [
@@ -59,7 +68,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6092,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 523,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Edna Mosley' \u2014 requires human review",
+      "evidence": "source: morganj4.htm, matches: 5",
+      "created_at": "2026-09-03T12:54:28.793490"
+    },
+    {
+      "id": 6093,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 523,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='15 November, 1917'",
+      "evidence": "verbatim: married Mae SAMMONS on 15 November, 1917",
+      "created_at": "2026-09-03T12:54:28.798323"
+    }
+  ],
   "ancestry": {
     "id": 523,
     "name": "Edna Mosley",

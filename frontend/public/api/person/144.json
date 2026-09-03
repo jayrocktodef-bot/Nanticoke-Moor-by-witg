@@ -6,7 +6,7 @@
     "middle_name": "H.",
     "maiden_name": "",
     "married_last_name": "Coker",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "coker-m2.htm",
     "birth_info": "4 Jul 1909",
     "death_info": "3 Sep 1994 (aged 85)",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11702,
+      "person_id": 144,
+      "fact_type": "Marriage",
+      "date_string": "1858",
+      "place_string": null,
+      "value_string": "married  Araminta Sisco     Sometime before 1858",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5846,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 144,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'William H. Coker' \u2014 requires human review",
+      "evidence": "source: coker-m2.htm, matches: 26",
+      "created_at": "2026-09-03T12:54:18.106527"
+    },
+    {
+      "id": 5847,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 144,
+      "person_id_secondary": null,
+      "description": "[XPAGE:morgan-w.htm] Marriage: date='1858'",
+      "evidence": "verbatim: married  Araminta Sisco     Sometime before 1858",
+      "created_at": "2026-09-03T12:54:18.849521"
+    }
+  ],
   "ancestry": {
     "id": 144,
     "name": "William H. Coker",

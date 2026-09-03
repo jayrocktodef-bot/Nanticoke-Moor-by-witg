@@ -45,7 +45,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6213,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 758,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Lilly Johnson' \u2014 requires human review",
+      "evidence": "source: wrightp2.htm, matches: 7",
+      "created_at": "2026-09-03T12:54:31.323691"
+    }
+  ],
   "ancestry": {
     "id": 758,
     "name": "Lilly Johnson",

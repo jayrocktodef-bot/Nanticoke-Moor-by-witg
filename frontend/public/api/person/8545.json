@@ -6,7 +6,7 @@
     "middle_name": "Davis",
     "maiden_name": "",
     "married_last_name": "Thomas",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12369,
+      "person_id": 8545,
+      "fact_type": "Death",
+      "date_string": "Apr. 9, 1887",
+      "place_string": null,
+      "value_string": "died Apr. 9, 1887",
+      "citations": []
     }
   ],
   "relationships": [
@@ -90,7 +99,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7193,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8545,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-c1.htm] Death: date='Apr. 9, 1887'",
+      "evidence": "verbatim: died Apr. 9, 1887",
+      "created_at": "2026-09-03T12:55:30.107922"
+    }
+  ],
   "ancestry": {
     "id": 8545,
     "name": "N Davis Thomas",

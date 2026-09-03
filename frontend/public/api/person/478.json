@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6051,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 478,
+      "person_id_secondary": null,
+      "description": "'Zaddock Muncey' not found in source document",
+      "evidence": "source: manship.htm",
+      "created_at": "2026-09-03T12:54:27.242970"
+    }
+  ],
   "ancestry": {
     "id": 478,
     "name": "Zaddock Muncey",

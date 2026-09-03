@@ -83,7 +83,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5818,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 116,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Oscar Mosley' \u2014 requires human review",
+      "evidence": "source: coker-a5.htm, matches: 13",
+      "created_at": "2026-09-03T12:54:17.429536"
+    }
+  ],
   "ancestry": {
     "id": 116,
     "name": "Oscar Mosley",

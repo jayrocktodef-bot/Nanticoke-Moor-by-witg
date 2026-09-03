@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Elizabeth",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Consellor%20Lineage.htm",
     "birth_info": "1907",
     "death_info": "8 Feb 2000 (aged 92\u201393)",
@@ -70,12 +70,42 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11930,
+      "person_id": 2456,
+      "fact_type": "Marriage",
+      "date_string": "9 January, 1931",
+      "place_string": null,
+      "value_string": "married James Hughes    Daniel died on 9 January, 1931",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6696,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2456,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Sarah Elizabeth' \u2014 requires human review",
+      "evidence": "source: Consellor%20Lineage.htm, matches: 2",
+      "created_at": "2026-09-03T12:54:59.646842"
+    },
+    {
+      "id": 6697,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2456,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-d4.htm] Marriage: date='9 January, 1931'",
+      "evidence": "verbatim: married James Hughes    Daniel died on 9 January, 1931",
+      "created_at": "2026-09-03T12:54:59.802120"
+    }
+  ],
   "ancestry": {
     "id": 2456,
     "name": "Sarah Elizabeth",

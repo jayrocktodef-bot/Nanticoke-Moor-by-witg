@@ -6,7 +6,7 @@
     "middle_name": "Loatman",
     "maiden_name": "",
     "married_last_name": "Coker",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarneyWilhelminaDurham.htm",
     "birth_info": "unknown",
     "death_info": "10 Aug 1889",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12010,
+      "person_id": 3813,
+      "fact_type": "Birth",
+      "date_string": "14 December, 1889",
+      "place_string": null,
+      "value_string": "was born 14 December, 1889 .",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -102,7 +111,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6807,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3813,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-j2.htm] Birth: date='14 December, 1889'",
+      "evidence": "verbatim: was born 14 December, 1889 .",
+      "created_at": "2026-09-03T12:55:05.934771"
+    }
+  ],
   "ancestry": {
     "id": 3813,
     "name": "Anna Loatman Coker",

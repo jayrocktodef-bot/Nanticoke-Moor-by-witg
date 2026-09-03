@@ -6,7 +6,7 @@
     "middle_name": "R.",
     "maiden_name": "",
     "married_last_name": "Carter",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Carter_Lynn_Family.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11965,
+      "person_id": 2900,
+      "fact_type": "Marriage",
+      "date_string": "22 Jul 1922",
+      "place_string": null,
+      "value_string": "married 22 Jul 1922",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -155,7 +164,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6762,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2900,
+      "person_id_secondary": null,
+      "description": "[XPAGE:Ida_Carter_Webster_Bible.htm] Marriage: date='22 Jul 1922'",
+      "evidence": "verbatim: married 22 Jul 1922",
+      "created_at": "2026-09-03T12:55:03.724586"
+    }
+  ],
   "ancestry": {
     "id": 2900,
     "name": "George R. Carter",

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Sockum",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "photo.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11796,
+      "person_id": 595,
+      "fact_type": "Birth",
+      "date_string": "14 May, 1854",
+      "place_string": "Gloucester City on 14 May, 1854 and died on 6 Sept",
+      "value_string": "was born in Gloucester City on 14 May, 1854 and died on 6 Sept.",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6140,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 595,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Sarah Sockum' \u2014 requires human review",
+      "evidence": "source: photo.htm, matches: 39",
+      "created_at": "2026-09-03T12:54:29.440124"
+    },
+    {
+      "id": 6141,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 595,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-w2.htm] Birth: date='14 May, 1854'",
+      "evidence": "verbatim: was born in Gloucester City on 14 May, 1854 and died on 6 Sept.",
+      "created_at": "2026-09-03T12:54:29.441216"
+    }
+  ],
   "ancestry": {
     "id": 595,
     "name": "Sarah Sockum",

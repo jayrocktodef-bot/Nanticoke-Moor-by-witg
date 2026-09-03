@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Carolina",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Carter_Lynn_Family.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11967,
+      "person_id": 2915,
+      "fact_type": "Birth",
+      "date_string": "03 Jun 1866",
+      "place_string": "Hatteras, Dare Co",
+      "value_string": "was born 03 Jun 1866 in Hatteras, Dare Co.",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -71,7 +80,18 @@
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6764,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2915,
+      "person_id_secondary": null,
+      "description": "[XPAGE:Jonathan%20Pierce.htm] Birth: date='03 Jun 1866'",
+      "evidence": "verbatim: was born 03 Jun 1866 in Hatteras, Dare Co.",
+      "created_at": "2026-09-03T12:55:03.741930"
+    }
+  ],
   "ancestry": {
     "id": 2915,
     "name": "North Carolina",

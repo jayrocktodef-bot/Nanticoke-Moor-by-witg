@@ -6,7 +6,7 @@
     "middle_name": "Carney",
     "maiden_name": "",
     "married_last_name": "Seeney",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CheswoldSchool.htm",
     "birth_info": "unknown",
     "death_info": "Aug 1914",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12026,
+      "person_id": 3985,
+      "fact_type": "Birth",
+      "date_string": "March 28th 1843",
+      "place_string": null,
+      "value_string": "borned March 28th 1843",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -89,7 +98,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6823,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3985,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-r.htm] Birth: date='March 28th 1843'",
+      "evidence": "verbatim: borned March 28th 1843",
+      "created_at": "2026-09-03T12:55:06.918631"
+    }
+  ],
   "ancestry": {
     "id": 3985,
     "name": "Ann Carney Seeney",

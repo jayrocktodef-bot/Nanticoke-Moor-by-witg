@@ -6,7 +6,7 @@
     "middle_name": "Sammons",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "RickettsStaceyBliss.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12284,
+      "person_id": 7029,
+      "fact_type": "Birth",
+      "date_string": "1820",
+      "place_string": "the year 1820",
+      "value_string": "Born in the year 1820 .",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -64,7 +73,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7105,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7029,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-j.htm] Birth: date='1820'",
+      "evidence": "verbatim: Born in the year 1820 .",
+      "created_at": "2026-09-03T12:55:23.184826"
+    }
+  ],
   "ancestry": {
     "id": 7029,
     "name": "John Sammons Harmon",

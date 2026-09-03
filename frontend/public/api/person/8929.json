@@ -6,7 +6,7 @@
     "middle_name": "Harrison",
     "maiden_name": "Harmon",
     "married_last_name": "Harmon",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1 Oct 1918",
     "death_info": "5 Mar 2005",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12383,
+      "person_id": 8929,
+      "fact_type": "Burial",
+      "date_string": "1851",
+      "place_string": "John Wesley  Church is a SELLEYSTEAN HANSLEY ( 1851 - 1882 )",
+      "value_string": "buried at John Wesley  Church is a SELLEYSTEAN HANSLEY ( 1851 - 1882 )",
+      "citations": []
     }
   ],
   "relationships": [
@@ -104,7 +113,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7215,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8929,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c3.htm] Burial: date='1851'",
+      "evidence": "verbatim: buried at John Wesley  Church is a SELLEYSTEAN HANSLEY ( 1851 - 1882 )",
+      "created_at": "2026-09-03T12:55:33.923196"
+    }
+  ],
   "ancestry": {
     "id": 8929,
     "name": "George Harrison Harmon Jr",

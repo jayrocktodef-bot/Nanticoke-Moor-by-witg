@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5908,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 292,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'leaving numerous' \u2014 requires human review",
+      "evidence": "source: durham.htm, matches: 4",
+      "created_at": "2026-09-03T12:54:20.833297"
+    }
+  ],
   "ancestry": {
     "id": 292,
     "name": "leaving numerous",

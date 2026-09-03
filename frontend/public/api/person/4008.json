@@ -6,7 +6,7 @@
     "middle_name": "Ridgeway",
     "maiden_name": "",
     "married_last_name": "Carter",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarterHopewellFamily.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12031,
+      "person_id": 4008,
+      "fact_type": "Birth",
+      "date_string": "28 \t\tJanuary, 1857",
+      "place_string": "Maryland on 28 \t\tJanuary, 1857",
+      "value_string": "was born in Maryland on 28 \t\tJanuary, 1857 .",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6828,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4008,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-h.htm] Birth: date='28 \t\tJanuary, 1857'",
+      "evidence": "verbatim: was born in Maryland on 28 \t\tJanuary, 1857 .",
+      "created_at": "2026-09-03T12:55:06.999846"
+    }
+  ],
   "ancestry": {
     "id": 4008,
     "name": "Catherine Ridgeway Carter",

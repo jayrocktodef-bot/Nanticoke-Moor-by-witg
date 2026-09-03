@@ -90,7 +90,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5943,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 340,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Helen Carney' \u2014 requires human review",
+      "evidence": "source: durhm-m1.htm, matches: 4",
+      "created_at": "2026-09-03T12:54:23.642544"
+    }
+  ],
   "ancestry": {
     "id": 340,
     "name": "Helen Carney",

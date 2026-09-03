@@ -6,7 +6,7 @@
     "middle_name": "Clark",
     "maiden_name": "",
     "married_last_name": "Johnson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "ClarkLouiseWright&dauAnna.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12042,
+      "person_id": 4121,
+      "fact_type": "Birth",
+      "date_string": "14 December, 1889",
+      "place_string": null,
+      "value_string": "was born 14 December, 1889 .",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -64,7 +73,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6839,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4121,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-j2.htm] Birth: date='14 December, 1889'",
+      "evidence": "verbatim: was born 14 December, 1889 .",
+      "created_at": "2026-09-03T12:55:07.902063"
+    }
+  ],
   "ancestry": {
     "id": 4121,
     "name": "Anna Clark Johnson",

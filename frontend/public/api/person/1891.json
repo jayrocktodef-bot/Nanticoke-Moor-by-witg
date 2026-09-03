@@ -51,7 +51,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6392,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 1891,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Mark Pierce' \u2014 requires human review",
+      "evidence": "source: MainMenu.html, matches: 3",
+      "created_at": "2026-09-03T12:54:35.565296"
+    }
+  ],
   "ancestry": {
     "id": 1891,
     "name": "Mark Pierce",

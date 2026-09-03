@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6612,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2346,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Maron Bailey' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 65",
+      "created_at": "2026-09-03T12:54:51.967112"
+    }
+  ],
   "ancestry": {
     "id": 2346,
     "name": "Maron Bailey",

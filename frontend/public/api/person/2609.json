@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Sammons",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "SocialSecurityApplications.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11941,
+      "person_id": 2609,
+      "fact_type": "Marriage",
+      "date_string": "June 12, 1904",
+      "place_string": null,
+      "value_string": "married June 12, 1904",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -76,7 +85,18 @@
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6738,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2609,
+      "person_id_secondary": null,
+      "description": "[XPAGE:EmilyCJohnsonWrightBible.htm] Marriage: date='June 12, 1904'",
+      "evidence": "verbatim: married June 12, 1904",
+      "created_at": "2026-09-03T12:55:01.699757"
+    }
+  ],
   "ancestry": {
     "id": 2609,
     "name": "Helen Sammons",

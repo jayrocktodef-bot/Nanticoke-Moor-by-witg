@@ -6,7 +6,7 @@
     "middle_name": "H.",
     "maiden_name": "",
     "married_last_name": "Johnson",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": "unknown",
     "death_info": "30 Jul 1911",
@@ -184,6 +184,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 11912,
+      "person_id": 2366,
+      "fact_type": "Birth",
+      "date_string": "30 October, 1872",
+      "place_string": null,
+      "value_string": "was born on 30 October, 1872 and died",
+      "citations": []
     }
   ],
   "relationships": [
@@ -273,7 +282,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6636,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2366,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'William H. Johnson' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 563",
+      "created_at": "2026-09-03T12:54:54.568345"
+    },
+    {
+      "id": 6637,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2366,
+      "person_id_secondary": null,
+      "description": "[XPAGE:wrightw.htm] Birth: date='30 October, 1872'",
+      "evidence": "verbatim: was born on 30 October, 1872 and died",
+      "created_at": "2026-09-03T12:54:54.698211"
+    }
+  ],
   "ancestry": {
     "id": 2366,
     "name": "William H. Johnson",

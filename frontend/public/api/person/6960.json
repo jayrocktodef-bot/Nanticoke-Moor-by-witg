@@ -6,7 +6,7 @@
     "middle_name": "Mabins",
     "maiden_name": "",
     "married_last_name": "Parrish",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "ParrishWilliamMabins.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12279,
+      "person_id": 6960,
+      "fact_type": "Death",
+      "date_string": "1980",
+      "place_string": null,
+      "value_string": "d. 1980",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -90,7 +99,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7100,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6960,
+      "person_id_secondary": null,
+      "description": "[XPAGE:munce-l2.htm] Death: date='1980'",
+      "evidence": "verbatim: d. 1980",
+      "created_at": "2026-09-03T12:55:23.082790"
+    }
+  ],
   "ancestry": {
     "id": 6960,
     "name": "William Mabins Parrish",

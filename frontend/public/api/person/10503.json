@@ -238,7 +238,48 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7308,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 10503,
+      "person_id_secondary": null,
+      "description": "Birth conflict: existing='1863 Milton, Sussex, Delaware, USA' vs XML='1863 Milton, Sussex County, Delaware, United States of America'",
+      "evidence": "source: preservation_output/profiles/person_10503.xml",
+      "created_at": "2026-09-03T12:55:56.741848"
+    },
+    {
+      "id": 7309,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 10503,
+      "person_id_secondary": null,
+      "description": "Death conflict: existing='20 May 1940 Milford, Sussex, Delaware, USA' vs XML='20 May 1940 Milford, Sussex County, Delaware, United States of America'",
+      "evidence": "source: preservation_output/profiles/person_10503.xml",
+      "created_at": "2026-09-03T12:55:56.741934"
+    },
+    {
+      "id": 7310,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 10503,
+      "person_id_secondary": null,
+      "description": "Birth conflict: existing='1863 Milton, Sussex County, Delaware, United States of America' vs XML='1863 Milton, Sussex, Delaware, USA'",
+      "evidence": "source: preservation_output/profiles/person_10503.xml",
+      "created_at": "2026-09-03T12:55:56.741977"
+    },
+    {
+      "id": 7311,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 10503,
+      "person_id_secondary": null,
+      "description": "Death conflict: existing='20 May 1940 Milford, Sussex County, Delaware, United States of America' vs XML='20 May 1940 Milford, Sussex, Delaware, USA'",
+      "evidence": "source: preservation_output/profiles/person_10503.xml",
+      "created_at": "2026-09-03T12:55:56.742008"
+    }
+  ],
   "ancestry": {
     "id": 10503,
     "name": "William E Hanzer",

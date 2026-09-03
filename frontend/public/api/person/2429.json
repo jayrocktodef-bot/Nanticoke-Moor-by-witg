@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Hanzer",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "George%20Durham%20Will%201844.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,42 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11928,
+      "person_id": 2429,
+      "fact_type": "Death",
+      "date_string": "1717",
+      "place_string": null,
+      "value_string": "d.   On 1717",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6692,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2429,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'John Hanzer' \u2014 requires human review",
+      "evidence": "source: George%20Durham%20Will%201844.htm, matches: 4",
+      "created_at": "2026-09-03T12:54:59.626033"
+    },
+    {
+      "id": 6693,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2429,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansor.htm] Death: date='1717'",
+      "evidence": "verbatim: d.   On 1717",
+      "created_at": "2026-09-03T12:54:59.637711"
+    }
+  ],
   "ancestry": {
     "id": 2429,
     "name": "John Hanzer",

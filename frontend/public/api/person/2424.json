@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11926,
+      "person_id": 2424,
+      "fact_type": "Birth",
+      "date_string": "27 Oct 1852",
+      "place_string": "Sussex County",
+      "value_string": "born 27 Oct 1852 in Sussex County,",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6688,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 2424,
+      "person_id_secondary": null,
+      "description": "'Nicey Harmon' not found in source document",
+      "evidence": "source: Probate.htm",
+      "created_at": "2026-09-03T12:54:59.527491"
+    },
+    {
+      "id": 6689,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2424,
+      "person_id_secondary": null,
+      "description": "[XPAGE:HarmonEmmanuelProbate.htm] Birth: date='27 Oct 1852'",
+      "evidence": "verbatim: born 27 Oct 1852 in Sussex County,",
+      "created_at": "2026-09-03T12:54:59.556178"
+    }
+  ],
   "ancestry": {
     "id": 2424,
     "name": "Nicey Harmon",

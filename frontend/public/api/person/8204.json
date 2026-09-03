@@ -6,7 +6,7 @@
     "middle_name": "Hester",
     "maiden_name": "",
     "married_last_name": "Pierce",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "15 Sep 1856",
     "death_info": "21 Feb 1902",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12362,
+      "person_id": 8204,
+      "fact_type": "Marriage",
+      "date_string": "9 January, 1931",
+      "place_string": null,
+      "value_string": "married James Hughes    Daniel died on 9 January, 1931",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -89,7 +98,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7184,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 8204,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-d4.htm] Marriage: date='9 January, 1931'",
+      "evidence": "verbatim: married James Hughes    Daniel died on 9 January, 1931",
+      "created_at": "2026-09-03T12:55:29.330425"
+    }
+  ],
   "ancestry": {
     "id": 8204,
     "name": "Mary Hester Pierce",

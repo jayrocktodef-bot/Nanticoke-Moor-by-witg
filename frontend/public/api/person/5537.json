@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamMarvel&Rhoda.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12157,
+      "person_id": 5537,
+      "fact_type": "Birth",
+      "date_string": "1922",
+      "place_string": "Fairton, NJ in 1922",
+      "value_string": "was born in Fairton, NJ in 1922 .",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6972,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5537,
+      "person_id_secondary": null,
+      "description": "[XPAGE:morgan-a.htm] Birth: date='1922'",
+      "evidence": "verbatim: was born in Fairton, NJ in 1922 .",
+      "created_at": "2026-09-03T12:55:14.192722"
+    }
+  ],
   "ancestry": {
     "id": 5537,
     "name": "Edward Durham",

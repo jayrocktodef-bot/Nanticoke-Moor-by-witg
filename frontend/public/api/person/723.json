@@ -56,7 +56,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6185,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 723,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'George Sisco' \u2014 requires human review",
+      "evidence": "source: sisco.htm, matches: 199",
+      "created_at": "2026-09-03T12:54:30.764187"
+    }
+  ],
   "ancestry": {
     "id": 723,
     "name": "George Sisco",

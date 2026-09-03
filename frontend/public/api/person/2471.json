@@ -6,7 +6,7 @@
     "middle_name": "Walter",
     "maiden_name": "",
     "married_last_name": "Wright",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Apprentice%20Indentures%20-%20Warren%20Wright%20family%201843.htm",
     "birth_info": "unknown",
     "death_info": "19 Oct 1927",
@@ -146,6 +146,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11934,
+      "person_id": 2471,
+      "fact_type": "Birth",
+      "date_string": "15 February, 1842",
+      "place_string": "Northwest Fork Hundred, Sussex Co",
+      "value_string": "was born on 15 February, 1842 in Northwest Fork Hundred, Sussex Co.",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -256,7 +265,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6710,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2471,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksnr2.htm] Birth: date='15 February, 1842'",
+      "evidence": "verbatim: was born on 15 February, 1842 in Northwest Fork Hundred, Sussex Co.",
+      "created_at": "2026-09-03T12:54:59.958646"
+    }
+  ],
   "ancestry": {
     "id": 2471,
     "name": "Walter B. Wright",

@@ -6,7 +6,7 @@
     "middle_name": "Patience",
     "maiden_name": "",
     "married_last_name": "Wright",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "wrightw.htm",
     "birth_info": "29 May 1895",
     "death_info": null,
@@ -51,6 +51,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11817,
+      "person_id": 774,
+      "fact_type": "Death",
+      "date_string": "29 December, 1915",
+      "place_string": null,
+      "value_string": "died on 29 December, 1915",
+      "citations": []
     }
   ],
   "relationships": [
@@ -85,7 +94,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6226,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 774,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Elizabeth Patience Wright' \u2014 requires human review",
+      "evidence": "source: wrightw.htm, matches: 13",
+      "created_at": "2026-09-03T12:54:31.660839"
+    },
+    {
+      "id": 6227,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 774,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksnr2.htm] Death: date='29 December, 1915'",
+      "evidence": "verbatim: died on 29 December, 1915",
+      "created_at": "2026-09-03T12:54:31.667176"
+    }
+  ],
   "ancestry": {
     "id": 774,
     "name": "Elizabeth Patience Wright",

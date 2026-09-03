@@ -6,7 +6,7 @@
     "middle_name": "Eunice",
     "maiden_name": "",
     "married_last_name": "Wright",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Apprentice%20Indentures%20-%20Warren%20Wright%20family%201843.htm",
     "birth_info": "11 Jul 1901",
     "death_info": "24 Nov 1983 (aged 82)",
@@ -89,12 +89,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11932,
+      "person_id": 2468,
+      "fact_type": "Marriage",
+      "date_string": "1840",
+      "place_string": null,
+      "value_string": "married sometime before 1840",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6701,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2468,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksnw1.htm] Marriage: date='1840'",
+      "evidence": "verbatim: married sometime before 1840",
+      "created_at": "2026-09-03T12:54:59.894506"
+    }
+  ],
   "ancestry": {
     "id": 2468,
     "name": "Eunice Wright",

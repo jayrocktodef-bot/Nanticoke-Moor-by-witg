@@ -83,7 +83,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5940,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 334,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Letitia Durham' \u2014 requires human review",
+      "evidence": "source: durhm-j1.htm, matches: 18",
+      "created_at": "2026-09-03T12:54:23.106456"
+    }
+  ],
   "ancestry": {
     "id": 334,
     "name": "Letitia Durham",

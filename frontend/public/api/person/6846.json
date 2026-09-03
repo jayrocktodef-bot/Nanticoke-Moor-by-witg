@@ -6,7 +6,7 @@
     "middle_name": "Mamie",
     "maiden_name": "",
     "married_last_name": "Munson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MunsonFrancisLB.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12270,
+      "person_id": 6846,
+      "fact_type": "Death",
+      "date_string": "1921",
+      "place_string": "MI) married Hannah Munson   Sarah died sometime after 1840",
+      "value_string": "died 1921 in MI) married Hannah Munson   Sarah died sometime after 1840",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7091,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6846,
+      "person_id_secondary": null,
+      "description": "[XPAGE:sisco-w.htm] Death: date='1921'",
+      "evidence": "verbatim: died 1921 in MI) married Hannah Munson   Sarah died sometime after 1840",
+      "created_at": "2026-09-03T12:55:22.299683"
+    }
+  ],
   "ancestry": {
     "id": 6846,
     "name": "Mary Mamie Munson",

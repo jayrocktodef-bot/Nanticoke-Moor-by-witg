@@ -45,7 +45,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6083,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 515,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Stephen Cuyjet' \u2014 requires human review",
+      "evidence": "source: morgan-n.htm, matches: 23",
+      "created_at": "2026-09-03T12:54:28.720603"
+    }
+  ],
   "ancestry": {
     "id": 515,
     "name": "Stephen Cuyjet",

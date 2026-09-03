@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Davies",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "morgan-e.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11774,
+      "person_id": 508,
+      "fact_type": "Birth",
+      "date_string": "1927",
+      "place_string": "Fairton, NJ in 1927",
+      "value_string": "was born in Fairton, NJ in 1927 .",
+      "citations": []
     }
   ],
   "relationships": [
@@ -45,7 +54,28 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6076,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 508,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'John Davies' \u2014 requires human review",
+      "evidence": "source: morgan-e.htm, matches: 10",
+      "created_at": "2026-09-03T12:54:28.687453"
+    },
+    {
+      "id": 6077,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 508,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-m2.htm] Birth: date='1927'",
+      "evidence": "verbatim: was born in Fairton, NJ in 1927 .",
+      "created_at": "2026-09-03T12:54:28.688583"
+    }
+  ],
   "ancestry": {
     "id": 508,
     "name": "John Davies",

@@ -6,7 +6,7 @@
     "middle_name": "W",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "19 Mar 1840 Murderkill Hundred, Kent County, Delaware, USA",
     "death_info": "26 Aug 1913 Ellendale, Sussex County, Delaware, USA",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12402,
+      "person_id": 9408,
+      "fact_type": "Burial",
+      "date_string": "1851",
+      "place_string": "John Wesley  Church is a SELLEYSTEAN HANSLEY ( 1851 - 1882 )",
+      "value_string": "buried at John Wesley  Church is a SELLEYSTEAN HANSLEY ( 1851 - 1882 )",
+      "citations": []
     }
   ],
   "relationships": [
@@ -83,7 +92,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7238,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 9408,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c3.htm] Burial: date='1851'",
+      "evidence": "verbatim: buried at John Wesley  Church is a SELLEYSTEAN HANSLEY ( 1851 - 1882 )",
+      "created_at": "2026-09-03T12:55:37.398520"
+    }
+  ],
   "ancestry": {
     "id": 9408,
     "name": "George W Harmon",

@@ -6,7 +6,7 @@
     "middle_name": "T.",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": "1801",
     "death_info": "20 Aug 1866 (aged 64\u201365)",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11909,
+      "person_id": 2355,
+      "fact_type": "Marriage",
+      "date_string": "30 April 1921",
+      "place_string": null,
+      "value_string": "married William Thomas Reed on 30 April 1921",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6624,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2355,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'John T. Dean' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 354",
+      "created_at": "2026-09-03T12:54:52.934171"
+    },
+    {
+      "id": 6625,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2355,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='30 April 1921'",
+      "evidence": "verbatim: married William Thomas Reed on 30 April 1921",
+      "created_at": "2026-09-03T12:54:53.026185"
+    }
+  ],
   "ancestry": {
     "id": 2355,
     "name": "John T. Dean",

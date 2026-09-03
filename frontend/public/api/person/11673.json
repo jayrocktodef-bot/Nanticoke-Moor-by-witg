@@ -6,7 +6,7 @@
     "middle_name": null,
     "maiden_name": null,
     "married_last_name": "Jane",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "jackson.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 12512,
+      "person_id": 11673,
+      "fact_type": "Birth",
+      "date_string": "January 1, 1784",
+      "place_string": null,
+      "value_string": "Born January 1, 1784",
+      "citations": []
     }
   ],
   "relationships": [
@@ -59,7 +68,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7389,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 11673,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Mary Jane' \u2014 requires human review",
+      "evidence": "source: jackson.htm, matches: 38",
+      "created_at": "2026-09-03T12:56:05.151980"
+    },
+    {
+      "id": 7390,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11673,
+      "person_id_secondary": null,
+      "description": "[XPAGE:george.htm] Birth: date='January 1, 1784'",
+      "evidence": "verbatim: Born January 1, 1784",
+      "created_at": "2026-09-03T12:56:05.154610"
+    }
+  ],
   "ancestry": {
     "id": 11673,
     "name": "Mary Jane",

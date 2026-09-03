@@ -6,7 +6,7 @@
     "middle_name": "Elizabeth",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamWilliamMcKinley.htm",
     "birth_info": "1779",
     "death_info": "30 Nov 1827 (aged 47\u201348)",
@@ -127,6 +127,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12140,
+      "person_id": 5251,
+      "fact_type": "Marriage",
+      "date_string": "18 January, 1922",
+      "place_string": "Cheswold DE on 18 January, 1922",
+      "value_string": "married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
+      "citations": []
     }
   ],
   "relationships": [
@@ -239,7 +248,18 @@
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6955,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5251,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-e2.htm] Marriage: date='18 January, 1922'",
+      "evidence": "verbatim: married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
+      "created_at": "2026-09-03T12:55:12.804055"
+    }
+  ],
   "ancestry": {
     "id": 5251,
     "name": "Elizabeth Durham",

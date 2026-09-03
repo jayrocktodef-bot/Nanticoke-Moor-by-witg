@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": "unknown",
     "death_info": "30 Dec 1893",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11887,
+      "person_id": 2212,
+      "fact_type": "Birth",
+      "date_string": "27 Feb. 1888",
+      "place_string": null,
+      "value_string": "born 27 Feb. 1888",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6492,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2212,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Eliza Carney' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 4",
+      "created_at": "2026-09-03T12:54:40.030747"
+    },
+    {
+      "id": 6493,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2212,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-m2.htm] Birth: date='27 Feb. 1888'",
+      "evidence": "verbatim: born 27 Feb. 1888",
+      "created_at": "2026-09-03T12:54:40.033179"
+    }
+  ],
   "ancestry": {
     "id": 2212,
     "name": "Eliza Carney",

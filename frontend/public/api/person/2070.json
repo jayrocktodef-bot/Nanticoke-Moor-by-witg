@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MainMenu.html",
     "birth_info": "c. 1865",
     "death_info": null,
@@ -51,6 +51,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11876,
+      "person_id": 2070,
+      "fact_type": "Death",
+      "date_string": "1862",
+      "place_string": "Delaware, son of Emmanuel Harmon and Rachel A",
+      "value_string": "died  1862 in Delaware, son of Emmanuel Harmon and Rachel A",
+      "citations": []
     }
   ],
   "relationships": [
@@ -124,7 +133,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6423,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 2070,
+      "person_id_secondary": null,
+      "description": "'Emmanuel Harmon' not found in source document",
+      "evidence": "source: MainMenu.html",
+      "created_at": "2026-09-03T12:54:35.778707"
+    },
+    {
+      "id": 6424,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2070,
+      "person_id_secondary": null,
+      "description": "[XPAGE:HarmonEmmanuelProbate.htm] Death: date='1862'",
+      "evidence": "verbatim: died  1862 in Delaware, son of Emmanuel Harmon and Rachel A",
+      "created_at": "2026-09-03T12:54:35.785649"
+    }
+  ],
   "ancestry": {
     "id": 2070,
     "name": "Emmanuel Harmon",

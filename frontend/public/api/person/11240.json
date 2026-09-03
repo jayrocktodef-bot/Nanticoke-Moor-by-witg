@@ -6,7 +6,7 @@
     "middle_name": "H. Webb",
     "maiden_name": "",
     "married_last_name": "Millsboro",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": "Obituary Archive",
     "birth_info": "b. 1961",
     "death_info": "d. 1961",
@@ -70,12 +70,32 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 12498,
+      "person_id": 11240,
+      "fact_type": "Burial",
+      "date_string": "28 Aug 1913",
+      "place_string": "28 Aug 1913 in Harmony cemetery",
+      "value_string": "buried 28 Aug 1913 in Harmony cemetery",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7353,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 11240,
+      "person_id_secondary": null,
+      "description": "[XPAGE:HarmonEmmanuelProbate.htm] Burial: date='28 Aug 1913'",
+      "evidence": "verbatim: buried 28 Aug 1913 in Harmony cemetery",
+      "created_at": "2026-09-03T12:56:03.679390"
+    }
+  ],
   "ancestry": {
     "id": 11240,
     "name": "George H. Webb Millsboro",

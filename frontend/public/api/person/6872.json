@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "Benjamin",
     "married_last_name": "Benjamin",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MosleyBenjaminCFamily.htm",
     "birth_info": "24 Sep 1934",
     "death_info": "21 Feb 2002 (aged 67)",
@@ -79,6 +79,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12272,
+      "person_id": 6872,
+      "fact_type": "Marriage",
+      "date_string": "1 September, 1888",
+      "place_string": null,
+      "value_string": "married Lola Durham    On 1 September, 1888",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -96,7 +105,18 @@
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7093,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6872,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-b2.htm] Marriage: date='1 September, 1888'",
+      "evidence": "verbatim: married Lola Durham    On 1 September, 1888",
+      "created_at": "2026-09-03T12:55:22.616944"
+    }
+  ],
   "ancestry": {
     "id": 6872,
     "name": "Benjamin Jr",

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Carty",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "morgan-j.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11775,
+      "person_id": 509,
+      "fact_type": "Death",
+      "date_string": "1925",
+      "place_string": null,
+      "value_string": "d. 1925",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6078,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 509,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Henrietta Carty' \u2014 requires human review",
+      "evidence": "source: morgan-j.htm, matches: 5",
+      "created_at": "2026-09-03T12:54:28.689579"
+    },
+    {
+      "id": 6079,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 509,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c2.htm] Death: date='1925'",
+      "evidence": "verbatim: d. 1925",
+      "created_at": "2026-09-03T12:54:28.693839"
+    }
+  ],
   "ancestry": {
     "id": 509,
     "name": "Henrietta Carty",

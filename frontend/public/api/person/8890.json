@@ -161,7 +161,48 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7205,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 8890,
+      "person_id_secondary": null,
+      "description": "Birth conflict: existing='1738' vs XML='3 Jan 1819'",
+      "evidence": "source: preservation_output/profiles/person_8890.xml",
+      "created_at": "2026-09-03T12:55:32.687130"
+    },
+    {
+      "id": 7206,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 8890,
+      "person_id_secondary": null,
+      "description": "Death conflict: existing='1840 (aged 101\u2013102)' vs XML='19 Sep 1886 (aged 67)'",
+      "evidence": "source: preservation_output/profiles/person_8890.xml",
+      "created_at": "2026-09-03T12:55:32.687354"
+    },
+    {
+      "id": 7207,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 8890,
+      "person_id_secondary": null,
+      "description": "Birth conflict: existing='3 Jan 1819' vs XML='1738'",
+      "evidence": "source: preservation_output/profiles/person_8890.xml",
+      "created_at": "2026-09-03T12:55:32.687389"
+    },
+    {
+      "id": 7208,
+      "category": "ENRICHMENT_CONFLICT",
+      "severity": "warning",
+      "person_id": 8890,
+      "person_id_secondary": null,
+      "description": "Death conflict: existing='19 Sep 1886 (aged 67)' vs XML='1840 (aged 101\u2013102)'",
+      "evidence": "source: preservation_output/profiles/person_8890.xml",
+      "created_at": "2026-09-03T12:55:32.687436"
+    }
+  ],
   "ancestry": {
     "id": 8890,
     "name": "John H Davis",

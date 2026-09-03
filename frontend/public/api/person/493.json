@@ -6,7 +6,7 @@
     "middle_name": "Wright Emily",
     "maiden_name": "",
     "married_last_name": "Johnson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "mission2.htm",
     "birth_info": "unknown",
     "death_info": "5 Jul 1963",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11767,
+      "person_id": 493,
+      "fact_type": "Marriage",
+      "date_string": "June 12, 1904",
+      "place_string": null,
+      "value_string": "married June 12, 1904",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6062,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 493,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'David Wright Emily Johnson' \u2014 requires human review",
+      "evidence": "source: mission2.htm, matches: 2",
+      "created_at": "2026-09-03T12:54:27.993638"
+    },
+    {
+      "id": 6063,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 493,
+      "person_id_secondary": null,
+      "description": "[XPAGE:EmilyCJohnsonWrightBible.htm] Marriage: date='June 12, 1904'",
+      "evidence": "verbatim: married June 12, 1904",
+      "created_at": "2026-09-03T12:54:28.031907"
+    }
+  ],
   "ancestry": {
     "id": 493,
     "name": "David Wright Emily Johnson",

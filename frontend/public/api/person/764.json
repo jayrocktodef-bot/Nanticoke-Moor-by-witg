@@ -90,7 +90,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6218,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 764,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Eloise Harmon' \u2014 requires human review",
+      "evidence": "source: wrightp3.htm, matches: 8",
+      "created_at": "2026-09-03T12:54:31.473205"
+    }
+  ],
   "ancestry": {
     "id": 764,
     "name": "Eloise Harmon",

@@ -6,7 +6,7 @@
     "middle_name": "Thomas",
     "maiden_name": "",
     "married_last_name": "Reed",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "ReedCharlesBuck&Family.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12293,
+      "person_id": 7073,
+      "fact_type": "Death",
+      "date_string": "Aug. 10, 1995",
+      "place_string": null,
+      "value_string": "d. Aug. 10, 1995",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -168,7 +177,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7114,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7073,
+      "person_id_secondary": null,
+      "description": "[XPAGE:morgan-n.htm] Death: date='Aug. 10, 1995'",
+      "evidence": "verbatim: d. Aug. 10, 1995",
+      "created_at": "2026-09-03T12:55:23.307992"
+    }
+  ],
   "ancestry": {
     "id": 7073,
     "name": "Allen Thomas Reed",

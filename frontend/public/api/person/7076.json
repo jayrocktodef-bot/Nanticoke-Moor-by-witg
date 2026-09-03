@@ -6,7 +6,7 @@
     "middle_name": "William Chatty",
     "maiden_name": "",
     "married_last_name": "Reed",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "ReedCharlesBuck&Family.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12294,
+      "person_id": 7076,
+      "fact_type": "Marriage",
+      "date_string": "18 December 1920",
+      "place_string": null,
+      "value_string": "married Howard Clifton Wilson on 18 December 1920",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -77,7 +86,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7115,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7076,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='18 December 1920'",
+      "evidence": "verbatim: married Howard Clifton Wilson on 18 December 1920",
+      "created_at": "2026-09-03T12:55:23.311529"
+    }
+  ],
   "ancestry": {
     "id": 7076,
     "name": "Charles William Chatty Reed",

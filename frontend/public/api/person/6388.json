@@ -6,7 +6,7 @@
     "middle_name": "Ridgeway",
     "maiden_name": "",
     "married_last_name": "Morris",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MorganJohnH2.htm",
     "birth_info": "1909",
     "death_info": "1966 (aged 56\u201357)",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12218,
+      "person_id": 6388,
+      "fact_type": "Marriage",
+      "date_string": "4 August 1909",
+      "place_string": null,
+      "value_string": "married Alonzo DURHAM on 4 August 1909",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7038,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6388,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-h2.htm] Marriage: date='4 August 1909'",
+      "evidence": "verbatim: married Alonzo DURHAM on 4 August 1909",
+      "created_at": "2026-09-03T12:55:19.472795"
+    }
+  ],
   "ancestry": {
     "id": 6388,
     "name": "C. Ridgeway Morris",

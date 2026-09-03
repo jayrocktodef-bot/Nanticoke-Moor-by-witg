@@ -6,7 +6,7 @@
     "middle_name": "Ann",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "cott.htm",
     "birth_info": "1844",
     "death_info": "28 May 1896 (aged 51\u201352)",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11714,
+      "person_id": 236,
+      "fact_type": "Marriage",
+      "date_string": "30 April 1921",
+      "place_string": null,
+      "value_string": "married William Thomas Reed on 30 April 1921",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5884,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 236,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Sarah Ann Dean' \u2014 requires human review",
+      "evidence": "source: cott.htm, matches: 9",
+      "created_at": "2026-09-03T12:54:20.359627"
+    },
+    {
+      "id": 5885,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 236,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='30 April 1921'",
+      "evidence": "verbatim: married William Thomas Reed on 30 April 1921",
+      "created_at": "2026-09-03T12:54:20.398765"
+    }
+  ],
   "ancestry": {
     "id": 236,
     "name": "Sarah Ann Dean",

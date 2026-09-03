@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "carter.htm",
     "birth_info": "unknown",
     "death_info": "21 Sep 1918",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11679,
+      "person_id": 34,
+      "fact_type": "Birth",
+      "date_string": "1792",
+      "place_string": "Maryland, either in Dorchester or Caroline counties, sometime around 1792",
+      "value_string": "was born in Maryland, either in Dorchester or Caroline counties, sometime around 1792 .",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5768,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 34,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Barsheba Dean' \u2014 requires human review",
+      "evidence": "source: carter.htm, matches: 2",
+      "created_at": "2026-09-03T12:54:16.447164"
+    },
+    {
+      "id": 5769,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 34,
+      "person_id_secondary": null,
+      "description": "[XPAGE:IdentifiedIndians.htm] Birth: date='1792'",
+      "evidence": "verbatim: was born in Maryland, either in Dorchester or Caroline counties, sometime around 1792 .",
+      "created_at": "2026-09-03T12:54:16.459198"
+    }
+  ],
   "ancestry": {
     "id": 34,
     "name": "Barsheba Dean",

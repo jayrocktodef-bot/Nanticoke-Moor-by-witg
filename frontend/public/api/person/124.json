@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5825,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 124,
+      "person_id_secondary": null,
+      "description": "'Philip Coker' not found in source document",
+      "evidence": "source: coker-d1.htm",
+      "created_at": "2026-09-03T12:54:17.533592"
+    }
+  ],
   "ancestry": {
     "id": 124,
     "name": "Philip Coker",

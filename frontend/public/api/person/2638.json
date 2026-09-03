@@ -6,7 +6,7 @@
     "middle_name": "M",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "SocialSecurityApplications.htm",
     "birth_info": "26 Nov 1909",
     "death_info": "15 Jan 1910 (aged 1 month)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11944,
+      "person_id": 2638,
+      "fact_type": "Marriage",
+      "date_string": "1945",
+      "place_string": null,
+      "value_string": "wed him in 1945",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -89,7 +98,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6741,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2638,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-j2.htm] Marriage: date='1945'",
+      "evidence": "verbatim: wed him in 1945",
+      "created_at": "2026-09-03T12:55:01.961417"
+    }
+  ],
   "ancestry": {
     "id": 2638,
     "name": "Elsie M Durham",

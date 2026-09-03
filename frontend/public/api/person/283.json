@@ -6,7 +6,7 @@
     "middle_name": "Elizabeth",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "dean-w.htm",
     "birth_info": "2 Jun 1928",
     "death_info": "28 May 2008 (aged 79)",
@@ -127,12 +127,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11721,
+      "person_id": 283,
+      "fact_type": "Marriage",
+      "date_string": "10 April, 1913",
+      "place_string": null,
+      "value_string": "married Clem Carney on 10 April, 1913",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5902,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 283,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Mary Elizabeth Dean' \u2014 requires human review",
+      "evidence": "source: dean-w.htm, matches: 35",
+      "created_at": "2026-09-03T12:54:20.796167"
+    },
+    {
+      "id": 5903,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 283,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-a6.htm] Marriage: date='10 April, 1913'",
+      "evidence": "verbatim: married Clem Carney on 10 April, 1913",
+      "created_at": "2026-09-03T12:54:20.801004"
+    }
+  ],
   "ancestry": {
     "id": 283,
     "name": "Mary Elizabeth Dean",

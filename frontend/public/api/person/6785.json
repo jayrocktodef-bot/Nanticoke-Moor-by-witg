@@ -6,7 +6,7 @@
     "middle_name": "Dakota",
     "maiden_name": "",
     "married_last_name": "Richard",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MuntzClarence&Elaine.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12265,
+      "person_id": 6785,
+      "fact_type": "Death",
+      "date_string": "1768",
+      "place_string": "1768 leaving a widow, Sarah, who",
+      "value_string": "died in 1768 leaving a widow, Sarah, who",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7085,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6785,
+      "person_id_secondary": null,
+      "description": "[XPAGE:oc-han.htm] Death: date='1768'",
+      "evidence": "verbatim: died in 1768 leaving a widow, Sarah, who",
+      "created_at": "2026-09-03T12:55:22.121038"
+    }
+  ],
   "ancestry": {
     "id": 6785,
     "name": "Dakota Richard",

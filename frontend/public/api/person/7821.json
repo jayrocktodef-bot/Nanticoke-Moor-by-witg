@@ -6,7 +6,7 @@
     "middle_name": "Gould",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "WhiteEllenGouldHarmon.htm",
     "birth_info": "6 Sep 1871",
     "death_info": "30 Mar 1950 (aged 78)",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12332,
+      "person_id": 7821,
+      "fact_type": "Burial",
+      "date_string": "28 Aug 1913",
+      "place_string": "28 Aug 1913 in Harmony cemetery",
+      "value_string": "buried 28 Aug 1913 in Harmony cemetery",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7154,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7821,
+      "person_id_secondary": null,
+      "description": "[XPAGE:HarmonEmmanuelProbate.htm] Burial: date='28 Aug 1913'",
+      "evidence": "verbatim: buried 28 Aug 1913 in Harmony cemetery",
+      "created_at": "2026-09-03T12:55:26.728412"
+    }
+  ],
   "ancestry": {
     "id": 7821,
     "name": "Ellen Gould Harmon",

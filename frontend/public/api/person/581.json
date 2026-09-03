@@ -6,7 +6,7 @@
     "middle_name": "Morgan",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "photo.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11792,
+      "person_id": 581,
+      "fact_type": "Death",
+      "date_string": "18 November, 1981",
+      "place_string": null,
+      "value_string": "died on 18 November, 1981",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -77,7 +86,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6125,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 581,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Araminta Morgan Jackson' \u2014 requires human review",
+      "evidence": "source: photo.htm, matches: 17",
+      "created_at": "2026-09-03T12:54:29.123038"
+    },
+    {
+      "id": 6126,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 581,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-c1.htm] Death: date='18 November, 1981'",
+      "evidence": "verbatim: died on 18 November, 1981",
+      "created_at": "2026-09-03T12:54:29.133118"
+    }
+  ],
   "ancestry": {
     "id": 581,
     "name": "Araminta Morgan Jackson",

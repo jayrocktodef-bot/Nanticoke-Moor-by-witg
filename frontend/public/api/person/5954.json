@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Jane",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HarmonIsaacW&SarahSockum.htm",
     "birth_info": "unknown",
     "death_info": "30 Aug 1950",
@@ -89,6 +89,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12184,
+      "person_id": 5954,
+      "fact_type": "Birth",
+      "date_string": "Sept. 3, 1777",
+      "place_string": null,
+      "value_string": "Born Sept. 3, 1777",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -121,7 +130,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6999,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 5954,
+      "person_id_secondary": null,
+      "description": "[XPAGE:george.htm] Birth: date='Sept. 3, 1777'",
+      "evidence": "verbatim: Born Sept. 3, 1777",
+      "created_at": "2026-09-03T12:55:15.971023"
+    }
+  ],
   "ancestry": {
     "id": 5954,
     "name": "Sarah Jane",

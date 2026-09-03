@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6714,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2489,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Edward Heite' \u2014 requires human review",
+      "evidence": "source: IdentifiedIndians.htm, matches: 8",
+      "created_at": "2026-09-03T12:55:00.008645"
+    }
+  ],
   "ancestry": {
     "id": 2489,
     "name": "Edward Heite",

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Wright",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Wright%20Brothers%20Ontario.htm",
     "birth_info": "20 Mar 1845",
     "death_info": "26 Aug 1930 (aged 85)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12338,
+      "person_id": 7932,
+      "fact_type": "Marriage",
+      "date_string": "1840",
+      "place_string": null,
+      "value_string": "married sometime before 1840",
+      "citations": []
     }
   ],
   "relationships": [
@@ -110,7 +119,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7160,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 7932,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksnw1.htm] Marriage: date='1840'",
+      "evidence": "verbatim: married sometime before 1840",
+      "created_at": "2026-09-03T12:55:27.434398"
+    }
+  ],
   "ancestry": {
     "id": 7932,
     "name": "Robert Wright",

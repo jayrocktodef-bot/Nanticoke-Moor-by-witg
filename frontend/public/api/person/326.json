@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "durhm-j1.htm",
     "birth_info": "29 May 1890",
     "death_info": "8 Jun 1976 (aged 86)",
@@ -70,6 +70,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11731,
+      "person_id": 326,
+      "fact_type": "Marriage",
+      "date_string": "1945",
+      "place_string": null,
+      "value_string": "wed him in 1945",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -128,7 +137,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5937,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 326,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Isaiah Durham' \u2014 requires human review",
+      "evidence": "source: durhm-j1.htm, matches: 15",
+      "created_at": "2026-09-03T12:54:22.823876"
+    },
+    {
+      "id": 5938,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 326,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-j2.htm] Marriage: date='1945'",
+      "evidence": "verbatim: wed him in 1945",
+      "created_at": "2026-09-03T12:54:22.899948"
+    }
+  ],
   "ancestry": {
     "id": 326,
     "name": "Isaiah Durham",

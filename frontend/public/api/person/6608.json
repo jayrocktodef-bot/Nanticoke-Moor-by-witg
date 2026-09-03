@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MosleyKermit&ElvaFamily.htm",
     "birth_info": "3 Jul 1918",
     "death_info": "30 Jun 1962 (aged 43)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12233,
+      "person_id": 6608,
+      "fact_type": "Burial",
+      "date_string": "1851",
+      "place_string": "John Wesley  Church is a SELLEYSTEAN HANSLEY ( 1851 - 1882 )",
+      "value_string": "buried at John Wesley  Church is a SELLEYSTEAN HANSLEY ( 1851 - 1882 )",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -89,7 +98,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7053,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6608,
+      "person_id_secondary": null,
+      "description": "[XPAGE:hansr-c3.htm] Burial: date='1851'",
+      "evidence": "verbatim: buried at John Wesley  Church is a SELLEYSTEAN HANSLEY ( 1851 - 1882 )",
+      "created_at": "2026-09-03T12:55:21.219689"
+    }
+  ],
   "ancestry": {
     "id": 6608,
     "name": "Elva Mosley",

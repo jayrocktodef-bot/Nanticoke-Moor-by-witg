@@ -6,7 +6,7 @@
     "middle_name": "N.",
     "maiden_name": "",
     "married_last_name": "Wright",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "EmilyCJohnsonWrightBible.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11936,
+      "person_id": 2539,
+      "fact_type": "Death",
+      "date_string": "1965",
+      "place_string": "Millsboro, DE in 1965",
+      "value_string": "died in Millsboro, DE in 1965",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -51,7 +60,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6729,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2539,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Ida N. Wright' \u2014 requires human review",
+      "evidence": "source: EmilyCJohnsonWrightBible.htm, matches: 18",
+      "created_at": "2026-09-03T12:55:00.195340"
+    },
+    {
+      "id": 6730,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2539,
+      "person_id_secondary": null,
+      "description": "[XPAGE:wrightw.htm] Death: date='1965'",
+      "evidence": "verbatim: died in Millsboro, DE in 1965",
+      "created_at": "2026-09-03T12:55:00.279025"
+    }
+  ],
   "ancestry": {
     "id": 2539,
     "name": "Ida N. Wright",

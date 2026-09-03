@@ -6,7 +6,7 @@
     "middle_name": "Maria",
     "maiden_name": "",
     "married_last_name": "Reed",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "bible-j.htm",
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11676,
+      "person_id": 20,
+      "fact_type": "Birth",
+      "date_string": "15 February, 1842",
+      "place_string": "Northwest Fork Hundred, Sussex Co",
+      "value_string": "was born on 15 February, 1842 in Northwest Fork Hundred, Sussex Co.",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5759,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 20,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Miss Maria Reed' \u2014 requires human review",
+      "evidence": "source: bible-j.htm, matches: 3",
+      "created_at": "2026-09-03T12:54:16.423170"
+    },
+    {
+      "id": 5760,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 20,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksnr2.htm] Birth: date='15 February, 1842'",
+      "evidence": "verbatim: was born on 15 February, 1842 in Northwest Fork Hundred, Sussex Co.",
+      "created_at": "2026-09-03T12:54:16.425273"
+    }
+  ],
   "ancestry": {
     "id": 20,
     "name": "Miss Maria Reed",

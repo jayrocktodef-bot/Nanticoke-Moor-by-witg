@@ -6,7 +6,7 @@
     "middle_name": "Bernard Jack",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DeanRobert&Family.htm",
     "birth_info": "May 1865",
     "death_info": "27 May 1865 (aged less than 1 month)",
@@ -241,6 +241,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12100,
+      "person_id": 4682,
+      "fact_type": "Marriage",
+      "date_string": "10 April, 1913",
+      "place_string": null,
+      "value_string": "married Clem Carney on 10 April, 1913",
+      "citations": []
     }
   ],
   "relationships": [
@@ -333,7 +342,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6897,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4682,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-a6.htm] Marriage: date='10 April, 1913'",
+      "evidence": "verbatim: married Clem Carney on 10 April, 1913",
+      "created_at": "2026-09-03T12:55:09.818841"
+    }
+  ],
   "ancestry": {
     "id": 4682,
     "name": "Robert Bernard Jack Dean",

@@ -37,7 +37,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6191,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 737,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'James is possiby' \u2014 requires human review",
+      "evidence": "source: sockum.htm, matches: 3",
+      "created_at": "2026-09-03T12:54:31.043988"
+    }
+  ],
   "ancestry": {
     "id": 737,
     "name": "James is possiby",

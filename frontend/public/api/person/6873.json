@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MosleyBenjaminCFamily.htm",
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -70,12 +70,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12273,
+      "person_id": 6873,
+      "fact_type": "Death",
+      "date_string": "May 15, 1913",
+      "place_string": null,
+      "value_string": "d. May 15, 1913",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7094,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6873,
+      "person_id_secondary": null,
+      "description": "[XPAGE:cott.htm] Death: date='May 15, 1913'",
+      "evidence": "verbatim: d. May 15, 1913",
+      "created_at": "2026-09-03T12:55:22.639488"
+    }
+  ],
   "ancestry": {
     "id": 6873,
     "name": "George Mosley",

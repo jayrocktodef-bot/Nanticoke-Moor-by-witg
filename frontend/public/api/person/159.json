@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5855,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 159,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'William Consela' \u2014 requires human review",
+      "evidence": "source: concilor.htm, matches: 4",
+      "created_at": "2026-09-03T12:54:18.889383"
+    }
+  ],
   "ancestry": {
     "id": 159,
     "name": "William Consela",

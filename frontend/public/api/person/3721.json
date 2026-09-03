@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarneyJamesR&EffieReed.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11999,
+      "person_id": 3721,
+      "fact_type": "Birth",
+      "date_string": "March 28th 1843",
+      "place_string": null,
+      "value_string": "borned March 28th 1843",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6796,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3721,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-r.htm] Birth: date='March 28th 1843'",
+      "evidence": "verbatim: borned March 28th 1843",
+      "created_at": "2026-09-03T12:55:05.736309"
+    }
+  ],
   "ancestry": {
     "id": 3721,
     "name": "Seeney Ridgeway",

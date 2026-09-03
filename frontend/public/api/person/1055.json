@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "moors_moors.aspx",
     "birth_info": "30 Jun 1882",
     "death_info": "4 Jan 1954 (aged 71)",
@@ -70,6 +70,15 @@
           "source_dataset": "moors_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11852,
+      "person_id": 1055,
+      "fact_type": "Marriage",
+      "date_string": "18 December 1920",
+      "place_string": null,
+      "value_string": "married Howard Clifton Wilson on 18 December 1920",
+      "citations": []
     }
   ],
   "relationships": [
@@ -104,7 +113,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6329,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 1055,
+      "person_id_secondary": null,
+      "description": "'Wingate Mosley' not found in source document",
+      "evidence": "source: moors_moors.aspx",
+      "created_at": "2026-09-03T12:54:33.343722"
+    },
+    {
+      "id": 6330,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 1055,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='18 December 1920'",
+      "evidence": "verbatim: married Howard Clifton Wilson on 18 December 1920",
+      "created_at": "2026-09-03T12:54:33.351084"
+    }
+  ],
   "ancestry": {
     "id": 1055,
     "name": "Wingate Mosley",

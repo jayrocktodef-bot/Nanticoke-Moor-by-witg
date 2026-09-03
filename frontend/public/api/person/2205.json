@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11884,
+      "person_id": 2205,
+      "fact_type": "Death",
+      "date_string": "Apr. 9, 1887",
+      "place_string": null,
+      "value_string": "died Apr. 9, 1887",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -77,7 +86,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6483,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2205,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Sarah Carney' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 8",
+      "created_at": "2026-09-03T12:54:39.373984"
+    },
+    {
+      "id": 6484,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2205,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-c1.htm] Death: date='Apr. 9, 1887'",
+      "evidence": "verbatim: died Apr. 9, 1887",
+      "created_at": "2026-09-03T12:54:39.376243"
+    }
+  ],
   "ancestry": {
     "id": 2205,
     "name": "Sarah Carney",

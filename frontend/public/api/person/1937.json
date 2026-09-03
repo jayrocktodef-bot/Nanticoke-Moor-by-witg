@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6406,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 1937,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Remembering Ned Heite' \u2014 requires human review",
+      "evidence": "source: MainMenu.html, matches: 3",
+      "created_at": "2026-09-03T12:54:35.679609"
+    }
+  ],
   "ancestry": {
     "id": 1937,
     "name": "Remembering Ned Heite",

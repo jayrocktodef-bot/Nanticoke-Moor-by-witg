@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Concilor",
-    "evidence_level": 1,
+    "evidence_level": 2,
     "source_page": null,
     "birth_info": null,
     "death_info": null,
@@ -22,12 +22,32 @@
       "place_string": null,
       "value_string": "Mary Concilor",
       "citations": []
+    },
+    {
+      "fact_id": 11946,
+      "person_id": 2640,
+      "fact_type": "Death",
+      "date_string": "1739",
+      "place_string": "1739",
+      "value_string": "died in 1739",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6743,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2640,
+      "person_id_secondary": null,
+      "description": "[XPAGE:concl-w1.htm] Death: date='1739'",
+      "evidence": "verbatim: died in 1739",
+      "created_at": "2026-09-03T12:55:02.008981"
+    }
+  ],
   "ancestry": {
     "id": 2640,
     "name": "Mary Concilor",

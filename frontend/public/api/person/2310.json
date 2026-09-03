@@ -75,7 +75,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6578,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2310,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Legislative Act Jesse Dean' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 47",
+      "created_at": "2026-09-03T12:54:48.182197"
+    }
+  ],
   "ancestry": {
     "id": 2310,
     "name": "Legislative Act Jesse Dean",

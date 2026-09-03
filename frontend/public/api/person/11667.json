@@ -45,7 +45,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7388,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "warning",
+      "person_id": 11667,
+      "person_id_secondary": null,
+      "description": "Could not build name patterns for 'Eli Hitchins on Sept'",
+      "evidence": "first='Eli' last=''",
+      "created_at": "2026-09-03T12:56:05.146639"
+    }
+  ],
   "ancestry": {
     "id": 11667,
     "name": "Eli Hitchins on Sept",

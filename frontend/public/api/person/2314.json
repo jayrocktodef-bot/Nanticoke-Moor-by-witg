@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 3,
+    "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": "unknown",
     "death_info": "12 Sep 1879",
@@ -70,12 +70,42 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11901,
+      "person_id": 2314,
+      "fact_type": "Birth",
+      "date_string": "May 27, 1838",
+      "place_string": "Kent County DE on May 27, 1838 , the son of  John D",
+      "value_string": "was born in Kent County DE on May 27, 1838 , the son of  John D.",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6584,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 2314,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'John Dean' \u2014 requires human review",
+      "evidence": "source: Probate.htm, matches: 354",
+      "created_at": "2026-09-03T12:54:48.798156"
+    },
+    {
+      "id": 6585,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 2314,
+      "person_id_secondary": null,
+      "description": "[XPAGE:cott-j1.htm] Birth: date='May 27, 1838'",
+      "evidence": "verbatim: was born in Kent County DE on May 27, 1838 , the son of  John D.",
+      "created_at": "2026-09-03T12:54:48.834573"
+    }
+  ],
   "ancestry": {
     "id": 2314,
     "name": "John Dean",

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Wright",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "29 May 1839",
     "death_info": "29 Nov 1927 (aged 88)",
@@ -70,12 +70,32 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12432,
+      "person_id": 10082,
+      "fact_type": "Marriage",
+      "date_string": "1840",
+      "place_string": null,
+      "value_string": "married sometime before 1840",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7280,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 10082,
+      "person_id_secondary": null,
+      "description": "[XPAGE:jacksnw1.htm] Marriage: date='1840'",
+      "evidence": "verbatim: married sometime before 1840",
+      "created_at": "2026-09-03T12:55:45.809596"
+    }
+  ],
   "ancestry": {
     "id": 10082,
     "name": "James Wright",

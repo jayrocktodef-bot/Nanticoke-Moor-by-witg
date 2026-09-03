@@ -6,7 +6,7 @@
     "middle_name": "Coker",
     "maiden_name": "",
     "married_last_name": "Carter",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarterHopewellFamily.htm",
     "birth_info": "unknown",
     "death_info": "28 Jul 1903",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12030,
+      "person_id": 4000,
+      "fact_type": "Birth",
+      "date_string": "22 August 1912",
+      "place_string": "Dover, Kent Co",
+      "value_string": "was born on 22 August 1912 in Dover, Kent Co.",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -102,7 +111,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6827,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4000,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-l1.htm] Birth: date='22 August 1912'",
+      "evidence": "verbatim: was born on 22 August 1912 in Dover, Kent Co.",
+      "created_at": "2026-09-03T12:55:06.991917"
+    }
+  ],
   "ancestry": {
     "id": 4000,
     "name": "Harriett Coker Carter",

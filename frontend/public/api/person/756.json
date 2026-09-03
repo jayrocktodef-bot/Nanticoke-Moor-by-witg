@@ -45,7 +45,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6210,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 756,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Barnard Johnson' \u2014 requires human review",
+      "evidence": "source: wrightp2.htm, matches: 6",
+      "created_at": "2026-09-03T12:54:31.304840"
+    }
+  ],
   "ancestry": {
     "id": 756,
     "name": "Barnard Johnson",

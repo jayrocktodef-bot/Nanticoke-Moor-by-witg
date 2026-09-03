@@ -6,7 +6,7 @@
     "middle_name": "Ann",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "dean-e.htm",
     "birth_info": "17 Sep 1848",
     "death_info": "3 Feb 1913 (aged 64)",
@@ -70,12 +70,32 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11715,
+      "person_id": 242,
+      "fact_type": "Marriage",
+      "date_string": "1827",
+      "place_string": null,
+      "value_string": "married sometime prior to 1827",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5886,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 242,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-j3.htm] Marriage: date='1827'",
+      "evidence": "verbatim: married sometime prior to 1827",
+      "created_at": "2026-09-03T12:54:20.410637"
+    }
+  ],
   "ancestry": {
     "id": 242,
     "name": "Hester Ann Carney",

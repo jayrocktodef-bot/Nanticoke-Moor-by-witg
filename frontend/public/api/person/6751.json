@@ -6,7 +6,7 @@
     "middle_name": "Mary E.",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MosleyCharlesHenryFamily.htm",
     "birth_info": "unknown",
     "death_info": "Jun 1711",
@@ -127,6 +127,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12259,
+      "person_id": 6751,
+      "fact_type": "Marriage",
+      "date_string": "20 January, 1865",
+      "place_string": null,
+      "value_string": "married Isaac Mosley   On 20 January, 1865",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -211,7 +220,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7079,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6751,
+      "person_id_secondary": null,
+      "description": "[XPAGE:carty-h2.htm] Marriage: date='20 January, 1865'",
+      "evidence": "verbatim: married Isaac Mosley   On 20 January, 1865",
+      "created_at": "2026-09-03T12:55:22.048009"
+    }
+  ],
   "ancestry": {
     "id": 6751,
     "name": "Mary E. Mosley",

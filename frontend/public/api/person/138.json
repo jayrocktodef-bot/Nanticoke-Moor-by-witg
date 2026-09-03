@@ -83,7 +83,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5842,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 138,
+      "person_id_secondary": null,
+      "description": "'Lorrine Green' not found in source document",
+      "evidence": "source: coker-j2.htm",
+      "created_at": "2026-09-03T12:54:17.710821"
+    }
+  ],
   "ancestry": {
     "id": 138,
     "name": "Lorrine Green",

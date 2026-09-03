@@ -6,7 +6,7 @@
     "middle_name": "J",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1943 Delaware",
     "death_info": null,
@@ -51,6 +51,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12425,
+      "person_id": 9929,
+      "fact_type": "Death",
+      "date_string": "6 Sept. 1889",
+      "place_string": null,
+      "value_string": "died on 6 Sept. 1889",
+      "citations": []
     }
   ],
   "relationships": [
@@ -71,7 +80,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7269,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 9929,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-w2.htm] Death: date='6 Sept. 1889'",
+      "evidence": "verbatim: died on 6 Sept. 1889",
+      "created_at": "2026-09-03T12:55:43.326981"
+    }
+  ],
   "ancestry": {
     "id": 9929,
     "name": "Ella J Harmon",

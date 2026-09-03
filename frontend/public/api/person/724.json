@@ -37,7 +37,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6186,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 724,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Amelia Sisco Hanser' \u2014 requires human review",
+      "evidence": "source: sisco.htm, matches: 44",
+      "created_at": "2026-09-03T12:54:30.877277"
+    }
+  ],
   "ancestry": {
     "id": 724,
     "name": "Amelia Sisco Hanser",

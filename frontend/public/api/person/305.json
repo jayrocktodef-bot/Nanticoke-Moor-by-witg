@@ -97,7 +97,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5917,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 305,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'William Hanzer' \u2014 requires human review",
+      "evidence": "source: durhm-d1.htm, matches: 4",
+      "created_at": "2026-09-03T12:54:21.469596"
+    }
+  ],
   "ancestry": {
     "id": 305,
     "name": "William Hanzer",

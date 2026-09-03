@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Johnson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "2 Mar 1915",
     "death_info": "19 Feb 2012 (aged 96)",
@@ -70,6 +70,15 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12438,
+      "person_id": 10135,
+      "fact_type": "Marriage",
+      "date_string": "June 12, 1904",
+      "place_string": null,
+      "value_string": "married June 12, 1904",
+      "citations": []
     }
   ],
   "relationships": [
@@ -144,7 +153,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7286,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 10135,
+      "person_id_secondary": null,
+      "description": "[XPAGE:EmilyCJohnsonWrightBible.htm] Marriage: date='June 12, 1904'",
+      "evidence": "verbatim: married June 12, 1904",
+      "created_at": "2026-09-03T12:55:46.329142"
+    }
+  ],
   "ancestry": {
     "id": 10135,
     "name": "Helen Johnson",

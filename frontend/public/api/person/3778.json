@@ -6,7 +6,7 @@
     "middle_name": "Minnie",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarneyShade.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,12 +32,32 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12005,
+      "person_id": 3778,
+      "fact_type": "Marriage",
+      "date_string": "Dec. 31, 1908",
+      "place_string": null,
+      "value_string": "were married \t\tDec. 31, 1908",
+      "citations": []
     }
   ],
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6802,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 3778,
+      "person_id_secondary": null,
+      "description": "[XPAGE:bible-c1.htm] Marriage: date='Dec. 31, 1908'",
+      "evidence": "verbatim: were married \t\tDec. 31, 1908",
+      "created_at": "2026-09-03T12:55:05.825860"
+    }
+  ],
   "ancestry": {
     "id": 3778,
     "name": "Minnie Carney",

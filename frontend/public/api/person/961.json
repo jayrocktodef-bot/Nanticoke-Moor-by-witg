@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "moors_moors.aspx",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "moors_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 11821,
+      "person_id": 961,
+      "fact_type": "Death",
+      "date_string": "1918",
+      "place_string": null,
+      "value_string": "d. 1918",
+      "citations": []
     }
   ],
   "relationships": [
@@ -106,7 +115,28 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6243,
+      "category": "NAME_NOT_FOUND_IN_SOURCE",
+      "severity": "info",
+      "person_id": 961,
+      "person_id_secondary": null,
+      "description": "'John Mosley' not found in source document",
+      "evidence": "source: moors_moors.aspx",
+      "created_at": "2026-09-03T12:54:31.955091"
+    },
+    {
+      "id": 6244,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 961,
+      "person_id_secondary": null,
+      "description": "[XPAGE:coker-a5.htm] Death: date='1918'",
+      "evidence": "verbatim: d. 1918",
+      "created_at": "2026-09-03T12:54:31.976863"
+    }
+  ],
   "ancestry": {
     "id": 961,
     "name": "John Mosley",

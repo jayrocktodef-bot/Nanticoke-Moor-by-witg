@@ -83,7 +83,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5994,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 412,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Lovenia Prudence Norwood' \u2014 requires human review",
+      "evidence": "source: jacksnja.htm, matches: 4",
+      "created_at": "2026-09-03T12:54:24.542696"
+    }
+  ],
   "ancestry": {
     "id": 412,
     "name": "Lovenia Prudence Norwood",

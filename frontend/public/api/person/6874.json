@@ -6,7 +6,7 @@
     "middle_name": "Mosley",
     "maiden_name": "Mosley",
     "married_last_name": "Jr..",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MosleyBenjaminCFamily.htm",
     "birth_info": "13 Sep 1921",
     "death_info": "10 Nov 1988 (aged 67)",
@@ -70,6 +70,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12274,
+      "person_id": 6874,
+      "fact_type": "Burial",
+      "date_string": "1873",
+      "place_string": "behind church            Elmirah Durham   1873 - 1953   wife of John M",
+      "value_string": "buried behind church            Elmirah Durham   1873 - 1953   wife of John M",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -115,7 +124,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7095,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 6874,
+      "person_id_secondary": null,
+      "description": "[XPAGE:fbranch.htm] Burial: date='1873'",
+      "evidence": "verbatim: buried behind church            Elmirah Durham   1873 - 1953   wife of John M",
+      "created_at": "2026-09-03T12:55:22.648135"
+    }
+  ],
   "ancestry": {
     "id": 6874,
     "name": "Benjamin Mosley Jr",

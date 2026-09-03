@@ -37,7 +37,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7374,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 11631,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Benjamin Harman' \u2014 requires human review",
+      "evidence": "source: george.htm, matches: 40",
+      "created_at": "2026-09-03T12:56:05.096383"
+    }
+  ],
   "ancestry": {
     "id": 11631,
     "name": "Benjamin Harman",

@@ -6,7 +6,7 @@
     "middle_name": "Clifton",
     "maiden_name": "Wilson",
     "married_last_name": "Wilson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarterMaeWilsonfamily.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,15 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12091,
+      "person_id": 4545,
+      "fact_type": "Marriage",
+      "date_string": "18 October 1916",
+      "place_string": null,
+      "value_string": "married Joel Clemons Smith on 18 October 1916",
+      "citations": []
     }
   ],
   "relationships": [],
@@ -129,7 +138,18 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 6888,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4545,
+      "person_id_secondary": null,
+      "description": "[XPAGE:dean-ae.htm] Marriage: date='18 October 1916'",
+      "evidence": "verbatim: married Joel Clemons Smith on 18 October 1916",
+      "created_at": "2026-09-03T12:55:09.293092"
+    }
+  ],
   "ancestry": {
     "id": 4545,
     "name": "Howard Clifton Wilson Sr",
