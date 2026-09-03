@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { 
   Users, Camera, GitFork, ArrowLeft, Search, HeartHandshake, 
   FileText, ExternalLink, Calendar, MapPin, ChevronRight, X, Sparkles, Filter, Printer
@@ -32,6 +33,21 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
       document.body.style.overflow = 'auto';
     };
   }, [surname]);
+
+  // Handle Escape key
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        if (lightboxPhoto) {
+          setLightboxPhoto(null);
+        } else if (onClose) {
+          onClose();
+        }
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [lightboxPhoto, onClose]);
 
   if (!surname) return null;
 
@@ -475,29 +491,34 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
         </div>
       )}
 
-      {/* LIGHTBOX MODAL */}
-      {lightboxPhoto && (
+      {/* LIGHTBOX MODAL rendered via Portal in document.body */}
+      {lightboxPhoto && typeof document !== 'undefined' && createPortal(
         <div
-          className="fixed inset-0 z-[70] bg-black/95 backdrop-blur-md flex items-center justify-center p-4 sm:p-8 animate-fade-in"
+          className="fixed inset-0 z-[9999] bg-black/95 backdrop-blur-md flex items-center justify-center p-4 sm:p-8"
           onClick={() => setLightboxPhoto(null)}
+          role="dialog"
+          aria-modal="true"
         >
           <div
-            className="relative max-w-5xl max-h-[90vh] flex flex-col items-center"
+            className="relative max-w-5xl max-h-[92vh] w-full flex flex-col items-center"
             onClick={e => e.stopPropagation()}
           >
             <button
               onClick={() => setLightboxPhoto(null)}
-              className="absolute -top-12 right-0 text-white/80 hover:text-white p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all"
+              className="absolute -top-12 right-0 text-white/80 hover:text-white p-2.5 rounded-full bg-white/10 hover:bg-white/20 transition-all"
+              aria-label="Close photo preview"
             >
-              <X className="w-6 h-6" />
+              <X className="w-5 h-5" />
             </button>
 
-            <div className="bg-[#12161D] border border-[#2B3848] rounded-2xl overflow-hidden shadow-2xl">
-              <img
-                src={lightboxPhoto.local_image_path.startsWith('/') ? lightboxPhoto.local_image_path : '/' + lightboxPhoto.local_image_path}
-                alt={lightboxPhoto.normalized_filename}
-                className="max-h-[75vh] w-auto object-contain mx-auto"
-              />
+            <div className="bg-[#12161D] border border-[#2B3848] rounded-2xl overflow-hidden shadow-2xl max-h-[85vh] flex flex-col">
+              <div className="flex-1 min-h-0 bg-[#0A0D11] flex items-center justify-center p-2">
+                <img
+                  src={lightboxPhoto.local_image_path.startsWith('/') ? lightboxPhoto.local_image_path : '/' + lightboxPhoto.local_image_path}
+                  alt={lightboxPhoto.normalized_filename}
+                  className="max-h-[70vh] w-auto max-w-full object-contain mx-auto"
+                />
+              </div>
               <div className="p-4 bg-[#0F131A] border-t border-[#222C3A] text-left">
                 <div className="flex items-center justify-between gap-4">
                   <div>
@@ -522,7 +543,8 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
               </div>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );

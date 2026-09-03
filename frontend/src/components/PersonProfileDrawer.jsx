@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { User, Users, Camera, HeartHandshake, FileText, ExternalLink, Calendar, GitBranch } from 'lucide-react';
+import { createPortal } from 'react-dom';
+import { User, Users, Camera, HeartHandshake, FileText, ExternalLink, Calendar, GitBranch, X } from 'lucide-react';
 import FanChart from './FanChart';
 
 export default function PersonProfileDrawer({ personId, onClose, onSelectPerson }) {
@@ -19,6 +20,21 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
       })
       .catch(() => setLoading(false));
   }, [personId]);
+
+  // Handle Escape key
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        if (lightboxPhoto) {
+          setLightboxPhoto(null);
+        } else if (onClose) {
+          onClose();
+        }
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [lightboxPhoto, onClose]);
 
   if (!personId) return null;
 
@@ -228,30 +244,33 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
         )}
       </div>
 
-      {/* Lightbox Modal */}
-      {lightboxPhoto && (
+      {/* Lightbox Modal rendered via Portal in document.body */}
+      {lightboxPhoto && typeof document !== 'undefined' && createPortal(
         <div
-          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
+          className="fixed inset-0 z-[9999] bg-black/90 backdrop-blur-md flex items-center justify-center p-4"
           onClick={e => { e.stopPropagation(); setLightboxPhoto(null); }}
+          role="dialog"
+          aria-modal="true"
         >
           <div
-            className="max-w-4xl w-full bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-700 relative"
+            className="max-w-4xl max-h-[92vh] w-full bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-700 relative flex flex-col"
             onClick={e => e.stopPropagation()}
           >
-            <div className="relative">
+            <div className="relative flex-1 min-h-0 bg-black flex items-center justify-center p-2">
               <img
                 src={lightboxPhoto.local_image_path.startsWith('/') ? lightboxPhoto.local_image_path : '/' + lightboxPhoto.local_image_path}
-                alt={lightboxPhoto.subject_names}
-                className="w-full max-h-[75vh] object-contain bg-black"
+                alt={lightboxPhoto.subject_names || 'Preserved Photograph'}
+                className="max-h-[72vh] w-auto max-w-full object-contain mx-auto"
               />
               <button
                 onClick={() => setLightboxPhoto(null)}
-                className="absolute top-3 right-3 p-2 bg-black/60 hover:bg-black/80 rounded-full text-white transition-all"
+                className="absolute top-3 right-3 p-2.5 bg-black/60 hover:bg-black/80 rounded-full text-white transition-all border border-slate-600"
+                aria-label="Close photo preview"
               >
-                ✕
+                <X className="w-5 h-5" />
               </button>
             </div>
-            <div className="p-6">
+            <div className="p-6 bg-slate-900 border-t border-slate-800">
               <h3 className="text-lg font-bold text-white mb-1">
                 {lightboxPhoto.subject_names || 'Preserved Photograph'}
               </h3>
@@ -267,7 +286,8 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
               )}
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );

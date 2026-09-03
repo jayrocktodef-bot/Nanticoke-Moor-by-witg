@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Camera, Users, ChevronRight, ArrowLeft, Calendar, ExternalLink, Play, Square, Sparkles } from 'lucide-react';
+import { createPortal } from 'react-dom';
+import { Camera, Users, ChevronRight, ArrowLeft, Calendar, ExternalLink, Play, Square, Sparkles, X } from 'lucide-react';
 
 export default function PhotoGallery() {
   const [surnameCounts, setSurnameCounts] = useState([]);
@@ -10,6 +11,21 @@ export default function PhotoGallery() {
   const [categoryTab, setCategoryTab] = useState('all'); // 'all', 'people', 'documents', 'family_trees', 'tombstones'
   const [isStoryMode, setIsStoryMode] = useState(false);
   const [storyIndex, setStoryIndex] = useState(0);
+
+  // Lock background scroll and handle Escape key when lightbox is open
+  useEffect(() => {
+    if (!lightboxPhoto) return;
+    const originalOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') setLightboxPhoto(null);
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.body.style.overflow = originalOverflow;
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [lightboxPhoto]);
 
   const matchCategory = (p, tab) => {
     if (!tab || tab === 'all') return true;
@@ -365,31 +381,34 @@ export default function PhotoGallery() {
         ))}
       </div>
 
-      {/* Lightbox Modal */}
-      {lightboxPhoto && (
+      {/* Lightbox Modal rendered via Portal in document.body */}
+      {lightboxPhoto && typeof document !== 'undefined' && createPortal(
         <div
-          className="fixed inset-0 z-50 bg-[#0F141A]/95 backdrop-blur-md flex items-center justify-center p-4 animate-fade-in"
+          className="fixed inset-0 z-[9999] bg-[#0F141A]/95 backdrop-blur-md flex items-center justify-center p-4"
           onClick={() => setLightboxPhoto(null)}
+          role="dialog"
+          aria-modal="true"
         >
           <div
-            className="max-w-4xl w-full bg-[#171E27] rounded-3xl overflow-hidden shadow-2xl border border-[#C87D53]/40"
+            className="max-w-4xl max-h-[92vh] w-full bg-[#171E27] rounded-3xl overflow-hidden shadow-2xl border border-[#C87D53]/40 flex flex-col"
             onClick={e => e.stopPropagation()}
           >
-            <div className="relative">
+            <div className="relative flex-1 min-h-0 bg-[#0F141A] flex items-center justify-center p-2">
               <img
                 src={lightboxPhoto.local_image_path.startsWith('/') ? lightboxPhoto.local_image_path : '/' + lightboxPhoto.local_image_path}
-                alt={lightboxPhoto.subject_names}
-                className="w-full max-h-[70vh] object-contain bg-[#0F141A]"
+                alt={lightboxPhoto.subject_names || 'Historical Photograph'}
+                className="max-h-[68vh] w-auto max-w-full object-contain mx-auto"
               />
               <button
                 onClick={() => setLightboxPhoto(null)}
-                className="absolute top-4 right-4 p-2 bg-[#0F141A]/80 hover:bg-[#0F141A] rounded-full text-[#F3EBE3] transition-all"
+                className="absolute top-4 right-4 p-2.5 bg-[#0F141A]/80 hover:bg-[#0F141A] rounded-full text-[#F3EBE3] transition-all border border-[#2A3644] hover:border-[#C87D53]"
+                aria-label="Close photo preview"
               >
-                ✕
+                <X className="w-5 h-5" />
               </button>
             </div>
-            <div className="p-6">
-              <h3 className="text-2xl font-bold font-serif-header text-[#F3EBE3] mb-2">
+            <div className="p-6 bg-[#171E27] border-t border-[#2A3644]">
+              <h3 className="text-xl sm:text-2xl font-bold font-serif-header text-[#F3EBE3] mb-2">
                 {lightboxPhoto.subject_names || 'Unknown Individual'}
               </h3>
               <div className="flex flex-wrap gap-4 text-xs font-mono text-[#9EA9B6] mb-3">
@@ -399,6 +418,9 @@ export default function PhotoGallery() {
                 {lightboxPhoto.approximate_year && (
                   <span>Approximate Year: <strong className="text-[#F3EBE3]">{lightboxPhoto.approximate_year}</strong></span>
                 )}
+                {lightboxPhoto.category && (
+                  <span>Category: <strong className="text-[#C87D53] uppercase">{lightboxPhoto.category}</strong></span>
+                )}
               </div>
               {lightboxPhoto.title_or_caption && (
                 <p className="text-xs text-[#9EA9B6] leading-relaxed">
@@ -407,7 +429,8 @@ export default function PhotoGallery() {
               )}
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { User, Users, Camera, HeartHandshake, FileText, ExternalLink, Calendar, GitBranch, ArrowLeft, ShieldCheck, MapPin } from 'lucide-react';
+import { createPortal } from 'react-dom';
+import { User, Users, Camera, HeartHandshake, FileText, ExternalLink, Calendar, GitBranch, ArrowLeft, ShieldCheck, MapPin, X } from 'lucide-react';
 import FanChart from './FanChart';
 
 export default function PersonProfileView({ personId, onClose, onSelectPerson }) {
@@ -24,6 +25,21 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
       document.body.style.overflow = 'auto';
     };
   }, [personId]);
+
+  // Handle Escape key
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        if (lightboxPhoto) {
+          setLightboxPhoto(null);
+        } else if (onClose) {
+          onClose();
+        }
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [lightboxPhoto, onClose]);
 
   if (!personId) return null;
 
@@ -362,21 +378,27 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
         </div>
       )}
 
-      {/* LIGHTBOX FOR PHOTOS */}
-      {lightboxPhoto && (
+      {/* LIGHTBOX FOR PHOTOS rendered via Portal in document.body */}
+      {lightboxPhoto && typeof document !== 'undefined' && createPortal(
         <div 
-          className="fixed inset-0 z-[60] bg-black/95 backdrop-blur-sm flex items-center justify-center p-4 sm:p-8 animate-fade-in"
+          className="fixed inset-0 z-[9999] bg-black/95 backdrop-blur-md flex items-center justify-center p-4 sm:p-8"
           onClick={() => setLightboxPhoto(null)}
+          role="dialog"
+          aria-modal="true"
         >
-          <button className="absolute top-6 right-6 text-white/50 hover:text-white bg-white/10 p-2 rounded-full backdrop-blur-md transition-all z-50">
-            ✕
+          <button 
+            onClick={() => setLightboxPhoto(null)}
+            className="absolute top-6 right-6 text-white/70 hover:text-white bg-white/10 hover:bg-white/20 p-2.5 rounded-full backdrop-blur-md transition-all z-[10000]"
+            aria-label="Close photo preview"
+          >
+            <X className="w-5 h-5" />
           </button>
-          <div className="relative max-w-6xl w-full max-h-full flex flex-col lg:flex-row bg-[#141210] border border-[#26221E] rounded-2xl overflow-hidden shadow-2xl" onClick={e => e.stopPropagation()}>
+          <div className="relative max-w-6xl w-full max-h-[92vh] flex flex-col lg:flex-row bg-[#141210] border border-[#26221E] rounded-2xl overflow-hidden shadow-2xl" onClick={e => e.stopPropagation()}>
             <div className="flex-1 bg-black flex items-center justify-center p-4 min-h-[40vh]">
               <img
                 src={lightboxPhoto.local_image_path.startsWith('/') ? lightboxPhoto.local_image_path : '/' + lightboxPhoto.local_image_path}
-                alt={lightboxPhoto.subject_names}
-                className="max-w-full max-h-[80vh] object-contain rounded-lg"
+                alt={lightboxPhoto.subject_names || 'Archival Photograph'}
+                className="max-w-full max-h-[75vh] object-contain rounded-lg"
               />
             </div>
             <div className="w-full lg:w-96 bg-[#1C1A17] border-l border-[#26221E] p-6 lg:p-8 flex flex-col overflow-y-auto">
@@ -413,7 +435,8 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
               </div>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   );
