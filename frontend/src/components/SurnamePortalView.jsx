@@ -12,6 +12,11 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
   const [photoFilter, setPhotoFilter] = useState('all'); // 'all', 'people', 'family_trees', 'documents', 'tombstones'
   const [memberSearch, setMemberSearch] = useState('');
   const [lightboxPhoto, setLightboxPhoto] = useState(null);
+  const [expandedNotes, setExpandedNotes] = useState({});
+
+  const toggleNote = (id) => {
+    setExpandedNotes(prev => ({ ...prev, [id]: !prev[id] }));
+  };
 
   useEffect(() => {
     if (!surname) return;
@@ -346,51 +351,69 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {filteredMembers.map(person => (
-                  <div
-                    key={person.person_id}
-                    onClick={() => onSelectPerson && onSelectPerson(person.person_id)}
-                    className="group bg-[#141A22] hover:bg-[#1C2430] border border-[#263342] hover:border-[#C87D53]/50 rounded-2xl p-5 transition-all cursor-pointer shadow-md hover:shadow-xl flex flex-col justify-between active:scale-[0.99]"
-                  >
-                    <div>
-                      <div className="flex items-start justify-between gap-2 mb-2">
-                        <h3 className="font-serif-header text-lg font-bold text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors leading-tight">
-                          {person.name}
-                        </h3>
-                        <span className="p-1.5 rounded-lg bg-[#12161D] border border-[#2B3848] text-[#7D8B9B] group-hover:text-[#D4A373] transition-colors shrink-0">
-                          <ChevronRight className="w-3.5 h-3.5" />
-                        </span>
-                      </div>
+                {filteredMembers.map(person => {
+                  const isNoteExpanded = !!expandedNotes[person.person_id];
+                  const hasLongNotes = person.notes && person.notes.length > 80;
 
-                      {(person.birth_info || person.death_info) && (
-                        <div className="flex items-center gap-1.5 text-xs text-[#9EA9B6] font-mono mb-2">
-                          <Calendar className="w-3.5 h-3.5 text-[#C87D53]" />
-                          <span>
-                            {person.birth_info ? `b. ${person.birth_info}` : ''}
-                            {person.birth_info && person.death_info ? ' • ' : ''}
-                            {person.death_info ? `d. ${person.death_info}` : ''}
+                  return (
+                    <div
+                      key={person.person_id}
+                      onClick={() => onSelectPerson && onSelectPerson(person.person_id)}
+                      className="bento-card group bg-[#141A22] hover:bg-[#1C2430] border border-[#263342] hover:border-[#C87D53]/50 rounded-2xl p-5 transition-all cursor-pointer shadow-md hover:shadow-xl flex flex-col justify-between active:scale-[0.99] min-w-0"
+                    >
+                      <div className="min-w-0 w-full">
+                        <div className="flex items-start justify-between gap-2 mb-2">
+                          <h3 className="font-serif-header text-lg font-bold text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors leading-tight break-words min-w-0">
+                            {person.name}
+                          </h3>
+                          <span className="p-1.5 rounded-lg bg-[#12161D] border border-[#2B3848] text-[#7D8B9B] group-hover:text-[#D4A373] transition-colors shrink-0">
+                            <ChevronRight className="w-3.5 h-3.5" />
                           </span>
                         </div>
-                      )}
 
-                      {person.notes && (
-                        <p className="text-xs text-[#7D8B9B] line-clamp-2 mt-1 italic">
-                          "{person.notes}"
-                        </p>
-                      )}
-                    </div>
+                        {(person.birth_info || person.death_info) && (
+                          <div className="flex items-center gap-1.5 text-xs text-[#9EA9B6] font-mono mb-2 flex-wrap">
+                            <Calendar className="w-3.5 h-3.5 text-[#C87D53] shrink-0" />
+                            <span className="break-words">
+                              {person.birth_info ? `b. ${person.birth_info}` : ''}
+                              {person.birth_info && person.death_info ? ' • ' : ''}
+                              {person.death_info ? `d. ${person.death_info}` : ''}
+                            </span>
+                          </div>
+                        )}
 
-                    <div className="mt-4 pt-3 border-t border-[#222C3A] flex items-center justify-between text-[11px] font-mono">
-                      <span className="text-[#7D8B9B]">Profile #{person.person_id}</span>
-                      {person.photo_count > 0 && (
-                        <span className="text-[#D4A373] bg-[#C87D53]/10 border border-[#C87D53]/20 px-2 py-0.5 rounded flex items-center gap-1">
-                          <Camera className="w-3 h-3 text-[#C87D53]" />
-                          {person.photo_count} {person.photo_count === 1 ? 'photo' : 'photos'}
-                        </span>
-                      )}
+                        {person.notes && (
+                          <div className="mt-2 text-xs text-[#7D8B9B]">
+                            <p className={`${isNoteExpanded ? '' : 'line-clamp-2'} italic break-words leading-relaxed`}>
+                              "{person.notes}"
+                            </p>
+                            {hasLongNotes && (
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  toggleNote(person.person_id);
+                                }}
+                                className="text-[11px] font-mono text-[#D4A373] hover:underline mt-1 block"
+                              >
+                                {isNoteExpanded ? 'Collapse note ▲' : 'Read full note ▼'}
+                              </button>
+                            )}
+                          </div>
+                        )}
+                      </div>
+
+                      <div className="mt-4 pt-3 border-t border-[#222C3A] flex items-center justify-between text-[11px] font-mono">
+                        <span className="text-[#7D8B9B]">Profile #{person.person_id}</span>
+                        {person.photo_count > 0 && (
+                          <span className="text-[#D4A373] bg-[#C87D53]/10 border border-[#C87D53]/20 px-2 py-0.5 rounded flex items-center gap-1">
+                            <Camera className="w-3 h-3 text-[#C87D53]" />
+                            {person.photo_count} {person.photo_count === 1 ? 'photo' : 'photos'}
+                          </span>
+                        )}
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           )}

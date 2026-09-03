@@ -1,20 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Users, Image as ImageIcon, HeartHandshake, ChevronRight, Bookmark } from 'lucide-react';
 
 export default function SurnameCard({ surname, variants, count, pages, photos, obituaries, onSelect }) {
+  const [expandedVariants, setExpandedVariants] = useState(false);
+
   // Parse variant spellings into clean array
   const variantList = variants ? variants.split(',').map(v => v.strip ? v.strip() : v.trim()).filter(Boolean) : [];
+  const displayedVariants = expandedVariants ? variantList : variantList.slice(0, 4);
 
   return (
     <div 
       onClick={() => onSelect(surname)}
-      className="group relative bg-[#1C1A17] hover:bg-[#24201C] border border-[#332D27] hover:border-[#C68B59]/60 rounded-xl p-5 transition-all duration-200 cursor-pointer shadow-lg hover:shadow-[0_0_25px_rgba(198,139,89,0.12)] flex flex-col justify-between active:scale-[0.98]"
+      className="bento-card group relative bg-[#1C1A17] hover:bg-[#24201C] border border-[#332D27] hover:border-[#C68B59]/60 rounded-xl p-5 transition-all duration-200 cursor-pointer shadow-lg hover:shadow-[0_0_25px_rgba(198,139,89,0.12)] flex flex-col justify-between active:scale-[0.98] min-w-0"
     >
-      <div>
+      <div className="min-w-0 w-full">
         {/* Top Header Row: Primary Surname & Action Arrow */}
         <div className="flex justify-between items-start gap-3 mb-3">
-          <div>
-            <h3 className="font-serif-header text-xl font-bold text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors tracking-tight">
+          <div className="min-w-0">
+            <h3 className="font-serif-header text-xl font-bold text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors tracking-tight truncate">
               {surname}
             </h3>
             <span className="text-[11px] font-mono text-[#8C8275] block mt-0.5">
@@ -27,22 +30,29 @@ export default function SurnameCard({ surname, variants, count, pages, photos, o
           </span>
         </div>
 
-        {/* Historical Variant Spelling Pills */}
+        {/* Historical Variant Spelling Pills (Expandable) */}
         {variantList.length > 0 && (
-          <div className="flex flex-wrap gap-1.5 mb-4">
+          <div className="flex flex-wrap gap-1.5 mb-4 items-center">
             <span className="text-[10px] text-[#8C8275] font-mono self-center mr-1">variants:</span>
-            {variantList.slice(0, 4).map((varName, idx) => (
+            {displayedVariants.map((varName, idx) => (
               <span
                 key={idx}
-                className="text-[11px] font-mono px-2 py-0.5 rounded bg-[#121110] text-[#D4A373]/90 border border-[#332D27] group-hover:border-[#C68B59]/30"
+                className="text-[11px] font-mono px-2 py-0.5 rounded bg-[#121110] text-[#D4A373]/90 border border-[#332D27] group-hover:border-[#C68B59]/30 break-words"
               >
                 {varName}
               </span>
             ))}
             {variantList.length > 4 && (
-              <span className="text-[10px] font-mono px-1.5 py-0.5 text-[#8C8275]">
-                +{variantList.length - 4} more
-              </span>
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setExpandedVariants(!expandedVariants);
+                }}
+                className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-[#121110] border border-[#C68B59]/40 text-[#D4A373] hover:text-[#F3EBE3] transition-colors"
+                title="Toggle all spelling variants"
+              >
+                {expandedVariants ? 'show less' : `+${variantList.length - 4} more`}
+              </button>
             )}
           </div>
         )}

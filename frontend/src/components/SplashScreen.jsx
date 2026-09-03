@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { Archive, Library, Shield, Users, DatabaseZap } from 'lucide-react';
+import { Archive, Library, Shield, Users, DatabaseZap, ChevronDown, ChevronUp } from 'lucide-react';
 
 export default function SplashScreen({ onEnter }) {
   const [isAnimatingOut, setIsAnimatingOut] = useState(false);
+  const [expandedAbout, setExpandedAbout] = useState(false);
+  const [expandedSources, setExpandedSources] = useState(false);
 
   const handleEnter = () => {
     setIsAnimatingOut(true);
@@ -103,96 +105,119 @@ export default function SplashScreen({ onEnter }) {
           }} />
         </div>
 
-        {/* Content Cards */}
-        <div className="grid md:grid-cols-2 gap-6 w-full mb-14">
+        {/* Content Bento Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full mb-12 items-stretch">
 
-          {/* About */}
-          <div className="splash-fade-up" style={{ animationDelay: '0.3s' }}>
-            <div style={{
-              background: '#1C1A17',
-              border: '1px solid #332D27',
-              borderRadius: 20,
-              padding: '28px 28px',
-              height: '100%',
-              transition: 'border-color 0.2s',
-            }}
-              onMouseEnter={e => e.currentTarget.style.borderColor = '#C68B59'}
-              onMouseLeave={e => e.currentTarget.style.borderColor = '#332D27'}
+          {/* Bento Card 1: About */}
+          <div className="splash-fade-up flex" style={{ animationDelay: '0.3s' }}>
+            <div 
+              className="bento-card bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] rounded-3xl p-6 sm:p-8 transition-all flex flex-col justify-between shadow-xl"
+              style={{ minHeight: '100%' }}
             >
-              <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 14 }}>
-                <Library style={{ width: 20, height: 20, color: '#C68B59', flexShrink: 0 }} />
-                <h3 style={{
-                  fontFamily: "'Cormorant Garamond', Georgia, serif",
-                  fontSize: '1.2rem', fontWeight: 700, color: '#F3EBE3',
-                }}>About the Project</h3>
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-9 h-9 rounded-xl bg-[#C68B59]/15 border border-[#C68B59]/30 flex items-center justify-center shrink-0">
+                    <Library className="w-4 h-4 text-[#C68B59]" />
+                  </div>
+                  <h3 style={{
+                    fontFamily: "'Cormorant Garamond', Georgia, serif",
+                    fontSize: '1.35rem', fontWeight: 700, color: '#F3EBE3',
+                  }}>About the Project</h3>
+                </div>
+                <p className="text-[#A8A096] text-sm leading-relaxed mb-3">
+                  A comprehensive digital preservation effort documenting the rich history,
+                  lineage, and interconnected families of the Nanticoke Indians.
+                  This archive permanently safeguards obituaries, photos, relationships,
+                  and historical records for future generations.
+                </p>
+
+                {expandedAbout && (
+                  <div className="mt-3 pt-3 border-t border-[#2D2722] text-xs text-[#C5BCB2] space-y-2 animate-fade-in">
+                    <p className="leading-relaxed">
+                      Focuses on the historic Native American and tri-racial isolate communities centered in Kent and Sussex Counties (Delaware) and Cumberland and Salem Counties (Southern New Jersey).
+                    </p>
+                    <p className="leading-relaxed">
+                      Features 3,820 individual records, 2,609 verified photographs and descent charts, 522 historical obituaries, and 357 primary documentation sources.
+                    </p>
+                  </div>
+                )}
               </div>
-              <p style={{ color: '#A8A096', lineHeight: 1.75, fontSize: '0.9rem' }}>
-                A comprehensive digital preservation effort documenting the rich history,
-                lineage, and interconnected families of the Nanticoke Indians.
-                This archive permanently safeguards obituaries, photos, relationships,
-                and historical records for future generations.
-              </p>
+
+              <button
+                onClick={() => setExpandedAbout(!expandedAbout)}
+                className="mt-4 inline-flex items-center gap-1.5 text-xs font-mono font-semibold text-[#D4A373] hover:text-[#F3EBE3] transition-colors py-1 self-start"
+              >
+                <span>{expandedAbout ? 'Show Less' : 'Learn More Details'}</span>
+                {expandedAbout ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
+              </button>
             </div>
           </div>
 
-          {/* Credits & Sources */}
-          <div className="splash-fade-up" style={{ animationDelay: '0.5s' }}>
-            <div style={{
-              background: '#1C1A17',
-              border: '1px solid #332D27',
-              borderRadius: 20,
-              padding: '28px 28px',
-              display: 'flex', flexDirection: 'column', gap: 20,
-              height: '100%',
-              transition: 'border-color 0.2s',
-            }}
-              onMouseEnter={e => e.currentTarget.style.borderColor = '#C68B59'}
-              onMouseLeave={e => e.currentTarget.style.borderColor = '#332D27'}
+          {/* Bento Card 2: Credits & Sources */}
+          <div className="splash-fade-up flex" style={{ animationDelay: '0.5s' }}>
+            <div 
+              className="bento-card bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] rounded-3xl p-6 sm:p-8 transition-all flex flex-col justify-between shadow-xl"
+              style={{ minHeight: '100%' }}
             >
-              {/* Curated by */}
-              <div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
-                  <Users style={{ width: 18, height: 18, color: '#D4A373', flexShrink: 0 }} />
-                  <h3 style={{
-                    fontFamily: "'Cormorant Garamond', Georgia, serif",
-                    fontSize: '1.1rem', fontWeight: 700, color: '#F3EBE3',
-                  }}>Curated By</h3>
+              <div className="space-y-5">
+                {/* Curated by */}
+                <div>
+                  <div className="flex items-center gap-2.5 mb-2">
+                    <Users className="w-4 h-4 text-[#D4A373] shrink-0" />
+                    <h3 style={{
+                      fontFamily: "'Cormorant Garamond', Georgia, serif",
+                      fontSize: '1.2rem', fontWeight: 700, color: '#F3EBE3',
+                    }}>Curated By</h3>
+                  </div>
+                  <p className="text-[#A8A096] text-xs sm:text-sm">
+                    Developed and curated by{' '}
+                    <span className="text-[#D4A373] font-semibold">Jequan</span>
+                    {' '}/{' '}
+                    <span className="text-[#D4A373] font-semibold">Written in the Genome</span>.
+                  </p>
                 </div>
-                <p style={{ color: '#A8A096', fontSize: '0.875rem' }}>
-                  Developed and curated by{' '}
-                  <span style={{ color: '#D4A373', fontWeight: 600 }}>Jequan</span>
-                  {' '}/{' '}
-                  <span style={{ color: '#D4A373', fontWeight: 600 }}>Written in the Genome</span>.
-                </p>
+
+                <div className="h-px bg-[#26221E] w-full" />
+
+                {/* Sources */}
+                <div>
+                  <div className="flex items-center gap-2.5 mb-3">
+                    <DatabaseZap className="w-4 h-4 text-[#C68B59] shrink-0" />
+                    <h3 style={{
+                      fontFamily: "'Cormorant Garamond', Georgia, serif",
+                      fontSize: '1.2rem', fontWeight: 700, color: '#F3EBE3',
+                    }}>Sources & Acknowledgments</h3>
+                  </div>
+                  <ul className="text-[#A8A096] text-xs sm:text-sm space-y-2.5">
+                    {[
+                      ['Mitsawokett Archives', 'Foundational historical records and lineage data.'],
+                      ['Find A Grave', 'Cemetery records, dates, and memorial verification.'],
+                      ['Community Contributions', 'Preserved obituaries and family photographs.'],
+                    ].map(([title, desc]) => (
+                      <li key={title} className="flex items-start gap-2.5">
+                        <div className="w-1.5 h-1.5 rounded-full bg-[#C68B59] mt-1.5 shrink-0" />
+                        <span><strong className="text-[#D4A373] font-semibold">{title}:</strong> {desc}</span>
+                      </li>
+                    ))}
+                  </ul>
+
+                  {expandedSources && (
+                    <div className="mt-3 pt-3 border-t border-[#2D2722] text-xs text-[#C5BCB2] space-y-2 animate-fade-in">
+                      <p className="leading-relaxed">
+                        <strong className="text-[#D4A373]">Institutional Repositories:</strong> Smithsonian National Museum of the American Indian (NMAI) Frank G. Speck Collections, Delaware Public Archives, and Salem County Historical Society.
+                      </p>
+                    </div>
+                  )}
+                </div>
               </div>
 
-              <div style={{ height: 1, background: '#26221E' }} />
-
-              {/* Sources */}
-              <div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 12 }}>
-                  <DatabaseZap style={{ width: 18, height: 18, color: '#C68B59', flexShrink: 0 }} />
-                  <h3 style={{
-                    fontFamily: "'Cormorant Garamond', Georgia, serif",
-                    fontSize: '1.1rem', fontWeight: 700, color: '#F3EBE3',
-                  }}>Sources & Acknowledgments</h3>
-                </div>
-                <ul style={{ color: '#A8A096', fontSize: '0.875rem', display: 'flex', flexDirection: 'column', gap: 10 }}>
-                  {[
-                    ['Mitsawokett Archives', 'Foundational historical records and lineage data.'],
-                    ['Find A Grave', 'Cemetery records, dates, and memorial verification.'],
-                    ['Community Contributions', 'Preserved obituaries and family photographs.'],
-                  ].map(([title, desc]) => (
-                    <li key={title} style={{ display: 'flex', alignItems: 'flex-start', gap: 10 }}>
-                      <div style={{
-                        width: 6, height: 6, borderRadius: '50%',
-                        background: '#C68B59', marginTop: 5, flexShrink: 0,
-                      }} />
-                      <span><strong style={{ color: '#D4A373', fontWeight: 600 }}>{title}:</strong> {desc}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <button
+                onClick={() => setExpandedSources(!expandedSources)}
+                className="mt-4 inline-flex items-center gap-1.5 text-xs font-mono font-semibold text-[#D4A373] hover:text-[#F3EBE3] transition-colors py-1 self-start"
+              >
+                <span>{expandedSources ? 'Show Less' : 'View Full Archive Sources'}</span>
+                {expandedSources ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
+              </button>
             </div>
           </div>
         </div>

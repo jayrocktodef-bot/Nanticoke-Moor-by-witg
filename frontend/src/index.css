@@ -135,6 +135,21 @@
   }
 }
 
+/* Bento Container Responsiveness & Anti-Clipping System */
+.bento-card,
+.bento-container {
+  min-width: 0;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+.bento-card *,
+.bento-container * {
+  min-width: 0;
+}
+
 /* Glassmorphism Design Tokens */
 .glass-panel {
   background: rgba(23, 30, 39, 0.75);
