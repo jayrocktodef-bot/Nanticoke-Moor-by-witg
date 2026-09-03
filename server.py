@@ -661,6 +661,7 @@ def get_transcription_pdf_endpoint(identifier: str):
 
 
 @app.get("/api/media")
+@app.get("/api/media.json")
 def get_media_gallery():
     conn = get_db()
     c = conn.cursor()
@@ -702,6 +703,7 @@ def get_surname_variants(surname: str):
 
 # ─── Photo Catalog: Surname-grouped photo gallery ────────────────────────
 @app.get("/api/photos")
+@app.get("/api/photos.json")
 def get_photos(surname: str = Query(None), limit: int = Query(300)):
     """Return cataloged photos, automatically matching all phonetic surname variants."""
     conn = get_db()
@@ -928,7 +930,8 @@ def resolve_audit_flag(flag_id: int, body: dict = Body(...)):
 
 # ─── Obituaries API: Browse & Search Preserved Obituaries ────────────────
 @app.get("/api/obituaries")
-def get_obituaries(q: str = Query(None), limit: int = Query(100)):
+@app.get("/api/obituaries.json")
+def get_obituaries(q: str = Query(None), limit: int = Query(1000)):
     """Return preserved obituaries with optional search."""
     conn = get_db()
     c = conn.cursor()

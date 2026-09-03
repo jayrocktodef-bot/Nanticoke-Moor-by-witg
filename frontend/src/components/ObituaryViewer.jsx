@@ -9,26 +9,48 @@ export default function ObituaryViewer({ onSelectPerson }) {
   const [loading, setLoading] = useState(false);
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
 
-  const fetchObits = (q = '') => {
+  const fetchObits = async (q = '') => {
     setLoading(true);
-    fetch('/api/obituaries.json')
-      .then(r => r.json())
-      .then(data => {
-          data.sort((a, b) => (a.deceased_name || '').localeCompare(b.deceased_name || '', undefined, { sensitivity: 'base' }));
-          if (q.trim()) {
-            const lowerQ = q.toLowerCase();
-            const filtered = data.filter(o => 
-              o.deceased_name?.toLowerCase().includes(lowerQ) ||
-              o.full_text?.toLowerCase().includes(lowerQ) ||
-              o.cemetery_location?.toLowerCase().includes(lowerQ)
-            );
-            setObituaries(filtered);
-          } else {
-            setObituaries(data);
-          }
-          setLoading(false);
-      })
-      .catch(() => setLoading(false));
+    try {
+      let data = null;
+      // 1. Try static /api/obituaries.json
+      try {
+        const res = await fetch('/api/obituaries.json');
+        if (res.ok && (res.headers.get('content-type') || '').includes('application/json')) {
+          data = await res.json();
+        }
+      } catch (e) {
+        // Fallback to server endpoint
+      }
+
+      // 2. Try dynamic /api/obituaries
+      if (!data) {
+        const res = await fetch('/api/obituaries');
+        if (res.ok) {
+          data = await res.json();
+        }
+      }
+
+      const list = Array.isArray(data) ? data : data?.obituaries || [];
+      list.sort((a, b) => (a.deceased_name || '').localeCompare(b.deceased_name || '', undefined, { sensitivity: 'base' }));
+
+      if (q.trim()) {
+        const lowerQ = q.toLowerCase();
+        const filtered = list.filter(o => 
+          o.deceased_name?.toLowerCase().includes(lowerQ) ||
+          o.full_text?.toLowerCase().includes(lowerQ) ||
+          o.cemetery_location?.toLowerCase().includes(lowerQ)
+        );
+        setObituaries(filtered);
+      } else {
+        setObituaries(list);
+      }
+    } catch (err) {
+      console.error('Failed to load obituaries:', err);
+      setObituaries([]);
+    } finally {
+      setLoading(false);
+    }
   };
 
   useEffect(() => {
