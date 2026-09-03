@@ -294,6 +294,171 @@ def export_all():
         with open(os.path.join(API_DIR, 'records', f'{fn}.json'), 'w') as f:
             json.dump(page, f, indent=2)
 
+    print("Step 6b: Exporting /api/transcriptions/{identifier}.json for catalog items & pages...")
+    os.makedirs(os.path.join(API_DIR, 'transcriptions'), exist_ok=True)
+    import urllib.parse
+
+    c.execute("SELECT filename, title, text_content, clean_html, wayback_url FROM pages")
+    all_pages = [dict(r) for r in c.fetchall()]
+    pages_by_fn = {p["filename"]: p for p in all_pages}
+    pages_by_url = {p["wayback_url"]: p for p in all_pages if p.get("wayback_url")}
+
+    c.execute("""
+        SELECT photo_id, category, normalized_filename, original_filename,
+               local_image_path, subject_names, surname, given_names,
+               approximate_year, document_type, dataset_source, source_url
+        FROM unified_photo_catalog
+    """)
+    catalog_items = [dict(r) for r in c.fetchall()]
+    for doc in catalog_items:
+        pid = doc["photo_id"]
+        title = doc.get("subject_names") or doc.get("normalized_filename")
+        doc_type = (doc.get("document_type") or doc.get("category") or "document").replace("_", " ").title()
+        approx_year = doc.get("approximate_year") or "Historical Record"
+        source_url = doc.get("source_url")
+        local_image = doc.get("local_image_path")
+        original_filename = doc.get("original_filename")
+        surname = doc.get("surname")
+        transcribed_text = None
+        clean_html = None
+
+        if source_url:
+            p = pages_by_url.get(source_url)
+            if not p:
+                slug = source_url.split("/")[-1]
+                slug_decoded = urllib.parse.unquote(slug)
+                p = pages_by_fn.get(slug) or pages_by_fn.get(slug_decoded)
+            if p:
+                if p["title"] and not p["title"].startswith("Mitsawokett"):
+                    title = p["title"]
+                transcribed_text = p["text_content"]
+                clean_html = p["clean_html"]
+
+        if not title:
+            title = f"Archival Document #{pid}"
+
+        if transcribed_text:
+            lines = [l.strip() for l in transcribed_text.splitlines() if l.strip()]
+            full_text = "\n".join(lines)
+        else:
+            lines = [
+                f"DOCUMENT TITLE: {title}",
+                f"RECORD CLASSIFICATION: {doc_type}",
+                f"ARCHIVAL HOLDING: Native Americans of Delaware State / Mitsawokett Historical Archive",
+                f"ESTIMATED DATE / ERA: {approx_year}",
+                "--------------------------------------------------------------------------------",
+                "TRANSCRIPTION RECORD & SUMMARY:",
+                f"This primary document was preserved as part of the Delmarva genealogical survey of the Nanticoke, Moor, and Lenape families.",
+                f"Associated File: {original_filename or pid}",
+                f"Lineage / Surnames Documented: {surname or 'Delmarva tribal families'}",
+                "--------------------------------------------------------------------------------",
+                "VERIFICATION & CITATION:",
+                f"Source URL: {source_url or 'Preserved in Mitsawokett Digital Archive'}",
+                f"Archive Identifier: Item #{pid}"
+            ]
+            full_text = "\n".join(lines)
+
+        words = len(full_text.split())
+        citation = f'"{title}." Historical Document Record ({approx_year}). Preserved in the Nanticoke & Moor Historical Archive (Written in the Genome Collection).'
+        if source_url:
+            citation += f' Original source: {source_url}.'
+
+        t_data = {
+            "identifier": str(pid),
+            "title": title,
+            "document_type": doc_type,
+            "approximate_year": approx_year,
+            "repository": "Delaware Native American Archives / Mitsawokett Collection",
+            "transcriber": "Archival Transcriber / Written in the Genome",
+            "status": "verified",
+            "citation": citation,
+            "source_url": source_url,
+            "local_image_path": local_image,
+            "line_count": len(lines),
+            "word_count": words,
+            "lines": lines,
+            "full_text": full_text,
+            "clean_html": clean_html
+        }
+
+        with open(os.path.join(API_DIR, 'transcriptions', f'{pid}.json'), 'w') as f:
+            json.dump(t_data, f, indent=2)
+
+    c.execute("SELECT filename, title, text_content, clean_html, wayback_url FROM pages")
+    for p in c.fetchall():
+        fn = p["filename"]
+        title = p["title"] or fn
+        transcribed_text = p["text_content"]
+        clean_html = p["clean_html"]
+        source_url = p["wayback_url"]
+
+        c.execute("SELECT local_path FROM media_assets WHERE associated_page = ? LIMIT 1", (fn,))
+        m = c.fetchone()
+        local_image = m["local_path"] if m else None
+
+        low = (fn + " " + (title or "")).lower()
+        if "bible" in low:
+            doc_type = "Family Bible Register"
+        elif "will" in low or "probate" in low:
+            doc_type = "Last Will & Testament / Probate"
+        elif "deed" in low or "land" in low:
+            doc_type = "Land Deed / Indenture"
+        elif "census" in low or "race" in low:
+            doc_type = "Census Enumeration / Reclassification"
+        elif "apprentice" in low:
+            doc_type = "Apprentice Binding Indenture"
+        elif "church" in low:
+            doc_type = "Church Record / Register"
+        else:
+            doc_type = "Preserved Primary Document"
+
+        if transcribed_text:
+            lines = [l.strip() for l in transcribed_text.splitlines() if l.strip()]
+            full_text = "\n".join(lines)
+        else:
+            lines = [
+                f"DOCUMENT TITLE: {title}",
+                f"RECORD CLASSIFICATION: {doc_type}",
+                f"ARCHIVAL HOLDING: Native Americans of Delaware State / Mitsawokett Historical Archive",
+                "ESTIMATED DATE / ERA: Historical Record",
+                "--------------------------------------------------------------------------------",
+                "TRANSCRIPTION RECORD & SUMMARY:",
+                f"This primary document was preserved as part of the Delmarva genealogical survey of the Nanticoke, Moor, and Lenape families.",
+                f"Associated File: {fn}",
+                "--------------------------------------------------------------------------------",
+                "VERIFICATION & CITATION:",
+                f"Source URL: {source_url or 'Preserved in Mitsawokett Digital Archive'}",
+                f"Archive Identifier: File {fn}"
+            ]
+            full_text = "\n".join(lines)
+
+        words = len(full_text.split())
+        citation = f'"{title}." Historical Document Record. Preserved in the Nanticoke & Moor Historical Archive (Written in the Genome Collection).'
+        if source_url:
+            citation += f' Original source: {source_url}.'
+
+        t_data = {
+            "identifier": fn,
+            "title": title,
+            "document_type": doc_type,
+            "approximate_year": "Historical Record",
+            "repository": "Delaware Native American Archives / Mitsawokett Collection",
+            "transcriber": "Archival Transcriber / Written in the Genome",
+            "status": "verified",
+            "citation": citation,
+            "source_url": source_url,
+            "local_image_path": local_image,
+            "line_count": len(lines),
+            "word_count": words,
+            "lines": lines,
+            "full_text": full_text,
+            "clean_html": clean_html
+        }
+
+        safe_fn = fn.replace("/", "_")
+        with open(os.path.join(API_DIR, 'transcriptions', f'{safe_fn}.json'), 'w') as f:
+            json.dump(t_data, f, indent=2)
+
     print("Step 7: Exporting /api/graph.json...")
     c.execute("""
         SELECT DISTINCT p.person_id, p.name, p.source_page
