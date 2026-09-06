@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "Durham",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "manship.htm",
     "birth_info": "22 Aug 1917",
     "death_info": "9 Jun 1992 (aged 74)",
@@ -26,7 +26,7 @@
           "citation_id": 790,
           "fact_id": 790,
           "source_id": 77,
-          "evidence_text": null,
+          "evidence_text": "...1895 - Nov. 26, 1910 Mary - daughter of Teressa Durham- died Aug. 9, 1890 (aged 3 months) Mary E. Durham- 12/5/ 1908 - Wilbur Durham, Jr.- 10/14/ 1912 -1/17/ 1988 Melia- daughter of Claton & Melvina Durham April 30, 1882 - Aug. 30, 1882 Melvina-wife...",
           "source_title": "Record: manship.htm",
           "source_url": "manship.htm",
           "source_dataset": "lynncjackson"
@@ -45,7 +45,7 @@
           "citation_id": 791,
           "fact_id": 791,
           "source_id": 77,
-          "evidence_text": null,
+          "evidence_text": "...1895 - Nov. 26, 1910 Mary - daughter of Teressa Durham- died Aug. 9, 1890 (aged 3 months) Mary E. Durham- 12/5/ 1908 - Wilbur Durham, Jr.- 10/14/ 1912 -1/17/ 1988 Melia- daughter of Claton & Melvina Durham April 30, 1882 - Aug. 30, 1882 Melvina-wife...",
           "source_title": "Record: manship.htm",
           "source_url": "manship.htm",
           "source_dataset": "lynncjackson"
@@ -64,10 +64,67 @@
           "citation_id": 792,
           "fact_id": 792,
           "source_id": 77,
-          "evidence_text": null,
+          "evidence_text": "...1895 - Nov. 26, 1910 Mary - daughter of Teressa Durham- died Aug. 9, 1890 (aged 3 months) Mary E. Durham- 12/5/ 1908 - Wilbur Durham, Jr.- 10/14/ 1912 -1/17/ 1988 Melia- daughter of Claton & Melvina Durham April 30, 1882 - Aug. 30, 1882 Melvina-wife...",
           "source_title": "Record: manship.htm",
           "source_url": "manship.htm",
           "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13384,
+      "person_id": 469,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Enoch  Durham",
+      "citations": [
+        {
+          "citation_id": 12186,
+          "fact_id": 13384,
+          "source_id": 50,
+          "evidence_text": "...daughters of Isaiah and Elmira. Enoch and Margaret lived their lives in Kent Co., DE and had the following children: Wilbur Durham (Feb. 1887 - ) married Mattie Durham Enoch James Durham (June 1890 -Dec. 16, 1927 ) married Cora Carney Elmer Durham...",
+          "source_title": "Record: durhm-e1.htm",
+          "source_url": "durhm-e1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14299,
+      "person_id": 469,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Margaret Munce",
+      "citations": [
+        {
+          "citation_id": 13101,
+          "fact_id": 14299,
+          "source_id": 93,
+          "evidence_text": "...married two of Enoch's brothers. Margaret and Enoch lived their lives in Kent Co., DE and had the following children: Wilbur Durham (Feb. 1897 - ) married Mattie Durham Enoch James Durham (June 1890 -Dec. 16, 1927 ) married Cora Carney Elmer Durham...",
+          "source_title": "Record: munce-m2.htm",
+          "source_url": "munce-m2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15914,
+      "person_id": 469,
+      "fact_type": "Racial Classification",
+      "date_string": "1840",
+      "place_string": "Kenton",
+      "value_string": "Enumerated as 'M' (Mulatto), age 38",
+      "citations": [
+        {
+          "citation_id": 14716,
+          "fact_id": 15914,
+          "source_id": 686,
+          "evidence_text": "1840 Census: Durham, Wilbur \u2014 DE | Wilbur | s | M | Feb | 1887",
+          "source_title": "Preserved Document: Census-1840 Sussex County",
+          "source_url": "census17.htm",
+          "source_dataset": "mitsawokett_primary"
         }
       ]
     }
@@ -85,6 +142,16 @@
       "description": "Multiple disjoint occurrences of 'Wilbur Durham Sr' \u2014 requires human review",
       "evidence": "source: manship.htm, matches: 119",
       "created_at": "2026-09-03T12:54:26.516400"
+    },
+    {
+      "id": 7506,
+      "category": "RACIAL_RECLASSIFICATION",
+      "severity": "info",
+      "person_id": 469,
+      "person_id_secondary": null,
+      "description": "Historical Racial Reclassification: Recorded under multiple distinct racial categories across federal records (1840: Mulatto \u2794 1840: Black). Exemplifies the tripartite legal classification pressures and racial boundary fluidity characteristic of Delmarva Afro-Indigenous families.",
+      "evidence": "Sources: census17.htm | Chronology: 1840: Mulatto \u2794 1840: Black",
+      "created_at": "2026-09-06T19:06:30.061451"
     }
   ],
   "ancestry": {

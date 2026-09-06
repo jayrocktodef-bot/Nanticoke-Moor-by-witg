@@ -127,10 +127,47 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 15811,
+      "person_id": 3170,
+      "fact_type": "Racial Classification",
+      "date_string": "1860",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 33",
+      "citations": [
+        {
+          "citation_id": 14613,
+          "fact_id": 15811,
+          "source_id": 687,
+          "evidence_text": "1860 Census: Wright, Anna \u2014 Anna | 33 | F | M | Lydia | 10",
+          "source_title": "Preserved Document: Census-1860",
+          "source_url": "census19.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 3170,
+      "photo_id": 616,
+      "category": "people",
+      "title_or_caption": "Davis_Harmon_Wright_Ladies.jpg",
+      "subject_names": "Anna Catherine Davis 1",
+      "married_surname": "Davis",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Davis_Harmon_Wright_Ladies.jpg",
+      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 3170,
       "photo_id": 2523,
@@ -142,7 +179,30 @@
       "local_image_path": "assets/archive_media/people/Wright_Anna_H.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightAnnaHRidgeway.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 3170,
+      "photo_id": 2176,
+      "category": "people",
+      "title_or_caption": "Russell_Anna_Catherine_Wright.jpg",
+      "subject_names": "Carter",
+      "married_surname": "Russell",
+      "approximate_year": "1930",
+      "local_image_path": "assets/archive_media/people/Russell_Anna_Catherine_Wright.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Carter_Lynn_Family.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3170,
@@ -155,7 +215,12 @@
       "local_image_path": "assets/archive_media/people/Wright_Walter_B_And_Anna_And_Barrent.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3170,
@@ -168,7 +233,48 @@
       "local_image_path": "assets/archive_media/people/Wright_Anna_Catherine_Davis_2.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 3170,
+      "photo_id": 428,
+      "category": "people",
+      "title_or_caption": "Clark_Louise_Wright_And_Dau_Anna.jpg",
+      "subject_names": "Clark",
+      "married_surname": "Clark",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Clark_Louise_Wright_And_Dau_Anna.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ClarkLouiseWright&dauAnna.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 3170,
+      "photo_id": 2567,
+      "category": "people",
+      "title_or_caption": "Wright_Walter_B.jpg",
+      "subject_names": "Anna Catherine Davis 1",
+      "married_surname": "Wright",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Wright_Walter_B.jpg",
+      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3170,
@@ -181,20 +287,12 @@
       "local_image_path": "assets/archive_media/people/Wright_Anna_Cdavis.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/WrightAnnaCatherineDavis.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 3170,
-      "photo_id": 2524,
-      "category": "family_trees",
-      "title_or_caption": "Wright_Anna_Ridgeway_Ancestry.jpg",
-      "subject_names": "Ridgeway",
-      "married_surname": "Wright",
-      "approximate_year": "1915",
-      "local_image_path": "assets/archive_media/family_trees/Wright_Anna_Ridgeway_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightAnnaHRidgeway.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

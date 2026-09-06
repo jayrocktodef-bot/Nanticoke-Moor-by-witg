@@ -193,6 +193,44 @@
       "place_string": null,
       "value_string": "married Joel Clemons Smith on 18 October 1916",
       "citations": []
+    },
+    {
+      "fact_id": 13105,
+      "person_id": 7351,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Annie Dean",
+      "citations": [
+        {
+          "citation_id": 11907,
+          "fact_id": 13105,
+          "source_id": 37,
+          "evidence_text": "...\"Aunt Annie\". She is survived by four children: Mrs. Pearl Chapelle, Philadelphia, Mrs. Beulah Smith, Wayne, PA., Mrs. Mary Reed, Dover, DE, Mrs. Jeanette Wilson, Cheswold. Funeral services will be held Sunday afternoon at 1 o'clock at the Manship...",
+          "source_title": "Record: dean-ae.htm",
+          "source_url": "dean-ae.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14612,
+      "person_id": 7351,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate",
+      "citations": [
+        {
+          "citation_id": 13414,
+          "fact_id": 14612,
+          "source_id": 658,
+          "evidence_text": "...-------------------------------------------------- ?? all men by these presents that We Elizabeth Sammons, Mary Morgan, Mary Reed, Prudy Copeland and Lydia Bristor Mitchell Sammons and Mills Sammons heirs at law of Isaac Sammons deceased...",
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -208,7 +246,12 @@
       "local_image_path": "assets/archive_media/people/Reed_William_Thomas_And_Mary.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedCharlesBuck&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     },
     {
       "person_id": 7351,
@@ -221,7 +264,12 @@
       "local_image_path": "assets/archive_media/people/Reed_Mary_And_Thomas_Older.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7351,
@@ -234,7 +282,12 @@
       "local_image_path": "assets/archive_media/people/Reed_Wthomas_And_Mary_Mosley.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7351,
@@ -247,7 +300,12 @@
       "local_image_path": "assets/archive_media/people/Reed_Mary_Emosley_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7351,
@@ -260,7 +318,30 @@
       "local_image_path": "assets/archive_media/people/Reed_Mary_V_And_Nina_1995.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedAllen&MaryVirginia.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 7351,
+      "photo_id": 1760,
+      "category": "people",
+      "title_or_caption": "Mosley_Mary_E_And_Tommy_Reed.jpg",
+      "subject_names": "Mosley",
+      "married_surname": "Mosley",
+      "approximate_year": "1921",
+      "local_image_path": "assets/archive_media/people/Mosley_Mary_E_And_Tommy_Reed.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7351,
@@ -273,7 +354,12 @@
       "local_image_path": "assets/archive_media/people/Reed_Mary_Mosley_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7351,
@@ -286,7 +372,12 @@
       "local_image_path": "assets/archive_media/people/Reed_Mosley_Mary_3.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

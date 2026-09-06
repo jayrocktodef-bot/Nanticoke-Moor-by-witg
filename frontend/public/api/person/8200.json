@@ -6,7 +6,7 @@
     "middle_name": "Henry",
     "maiden_name": "",
     "married_last_name": "Pierce",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "12 Mar 1847 Delaware, United States",
     "death_info": "3 Sep 1890",
@@ -70,24 +70,29 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 15378,
+      "person_id": 8200,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware - Main Menu",
+      "citations": [
+        {
+          "citation_id": 14180,
+          "fact_id": 15378,
+          "source_id": 132,
+          "evidence_text": "...William MURRAY Allen MURRAY/REED Charles Morgan PIERCE Ephraim PIERCE Hosea PIERCE Jeremiah/Jediah/Jedediah PIERCE Mark PIERCE Alfred RIDGEWAY Cornelius RIDGEWAY George David SALMONS James SAMMONS Wesley SEENEY James SONGO Franklin WRIGHT...",
+          "source_title": "Record: MainMenu.html",
+          "source_url": "MainMenu.html",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [],
-  "photos": [
-    {
-      "person_id": 8200,
-      "photo_id": 3050,
-      "category": "tombstones",
-      "title_or_caption": "Pierce_Mark_Tombstone.jpg",
-      "subject_names": "Pierce Mark tombstone",
-      "married_surname": "",
-      "approximate_year": "2003",
-      "local_image_path": "assets/archive_media/tombstones/Pierce_Mark_Tombstone.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/MilitaryService/Mark%20PIERCE.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "tombstone"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

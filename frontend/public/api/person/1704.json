@@ -6,7 +6,7 @@
     "middle_name": "H.",
     "maiden_name": "",
     "married_last_name": "Clark",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Change_of_Race.htm",
     "birth_info": "unknown",
     "death_info": "14 Oct 2004",
@@ -26,7 +26,7 @@
           "citation_id": 1345,
           "fact_id": 1345,
           "source_id": 131,
-          "evidence_text": null,
+          "evidence_text": "...Roll: 291 Page: 120 Augustus Wright 1930 - DELAWARE Sussex County 3-DIST (WEST PART) Series: T626 Roll: 291 Page: 143 David H. Clark 1930 - DELAWARE Sussex County 7-DIST (SOUTH PART) Series: T626 Roll: 291 Page: 114 Harmon, Thompson, Clark, Wright,...",
           "source_title": "Record: Change_of_Race.htm",
           "source_url": "Change_of_Race.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -45,7 +45,7 @@
           "citation_id": 1346,
           "fact_id": 1346,
           "source_id": 131,
-          "evidence_text": null,
+          "evidence_text": "...Roll: 291 Page: 120 Augustus Wright 1930 - DELAWARE Sussex County 3-DIST (WEST PART) Series: T626 Roll: 291 Page: 143 David H. Clark 1930 - DELAWARE Sussex County 7-DIST (SOUTH PART) Series: T626 Roll: 291 Page: 114 Harmon, Thompson, Clark, Wright,...",
           "source_title": "Record: Change_of_Race.htm",
           "source_url": "Change_of_Race.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -64,7 +64,26 @@
           "citation_id": 1347,
           "fact_id": 1347,
           "source_id": 131,
-          "evidence_text": null,
+          "evidence_text": "...Roll: 291 Page: 120 Augustus Wright 1930 - DELAWARE Sussex County 3-DIST (WEST PART) Series: T626 Roll: 291 Page: 143 David H. Clark 1930 - DELAWARE Sussex County 7-DIST (SOUTH PART) Series: T626 Roll: 291 Page: 114 Harmon, Thompson, Clark, Wright,...",
+          "source_title": "Record: Change_of_Race.htm",
+          "source_url": "Change_of_Race.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 15591,
+      "person_id": 1704,
+      "fact_type": "Racial Classification",
+      "date_string": "1930",
+      "place_string": "Sussex County, DE (District 3)",
+      "value_string": "Enumerated as 'In' (Indian); administratively altered to 'Neg' (Negro)",
+      "citations": [
+        {
+          "citation_id": 14393,
+          "fact_id": 15591,
+          "source_id": 131,
+          "evidence_text": "1930 Sussex Co Census Dist 3 Roll 291 Pg 143: David H. Clark; race enumerated as 'In' (Indian), struck through to 'Neg' (Negro).",
           "source_title": "Record: Change_of_Race.htm",
           "source_url": "Change_of_Race.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -75,7 +94,18 @@
   "relationships": [],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7461,
+      "category": "RACIAL_RECLASSIFICATION",
+      "severity": "info",
+      "person_id": 1704,
+      "person_id_secondary": null,
+      "description": "Historical Racial Reclassification: Recorded under multiple distinct racial categories across federal records (1930: Indian (Struck-through) \u2794 1930: Negro (Supervisor Alteration)). Exemplifies the tripartite legal classification pressures and racial boundary fluidity characteristic of Delmarva Afro-Indigenous families.",
+      "evidence": "Sources: Change_of_Race.htm | Chronology: 1930: Indian (Struck-through) \u2794 1930: Negro (Supervisor Alteration)",
+      "created_at": "2026-09-06T19:06:30.059786"
+    }
+  ],
   "ancestry": {
     "id": 1704,
     "name": "David H. Clark",

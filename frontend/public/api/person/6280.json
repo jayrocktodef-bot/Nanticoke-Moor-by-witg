@@ -85,19 +85,6 @@
   "photos": [
     {
       "person_id": 6280,
-      "photo_id": 1334,
-      "category": "family_trees",
-      "title_or_caption": "Jackson_Frances_And_Araminta_Ancestry.jpg",
-      "subject_names": "Araminta Morgan Jackson",
-      "married_surname": "Jackson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Jackson_Frances_And_Araminta_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonFrancis&Araminta.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 6280,
       "photo_id": 1336,
       "category": "people",
       "title_or_caption": "Jackson_Francis_And_Araminta.jpg",
@@ -107,7 +94,12 @@
       "local_image_path": "assets/archive_media/people/Jackson_Francis_And_Araminta.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonFrancis&Araminta.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6280,
@@ -120,7 +112,12 @@
       "local_image_path": "assets/archive_media/people/Jackson_Araminta_Morgan.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonFrancis&Araminta.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

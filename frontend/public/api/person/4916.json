@@ -6,7 +6,7 @@
     "middle_name": "Ridgeway",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamCarlton.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13921,
+      "person_id": 4916,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12723,
+          "fact_id": 13921,
+          "source_id": 77,
+          "evidence_text": "...- 11 Aug. 1985 Henry Durham, our father, July 11, 1815 - Feb. 26, 1882 - aged 66 years Herman Durham - 1910 - 1961 Hilda Durham - 1904 - 1990 Hughey Durham - died Dec. 9, 1902 wife- Annie Durham - died Feb. 10, 1889 Isaiah Durham - 1902 - 1987...",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -47,7 +66,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Hilda.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamHilda.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4916,
@@ -60,7 +84,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Carlton_And_Hilda_And_Emma.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamCarlton.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

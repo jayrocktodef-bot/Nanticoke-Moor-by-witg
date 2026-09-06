@@ -79,6 +79,25 @@
       "place_string": null,
       "value_string": "married sometime before 1840",
       "citations": []
+    },
+    {
+      "fact_id": 15904,
+      "person_id": 9292,
+      "fact_type": "Racial Classification",
+      "date_string": "1870",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 5",
+      "citations": [
+        {
+          "citation_id": 14706,
+          "fact_id": 15904,
+          "source_id": 688,
+          "evidence_text": "1870 Census: Wright, Sarah \u2014 Sarah | 5 | F | M | at home | Adeline",
+          "source_title": "Preserved Document: Census-1870",
+          "source_url": "census20.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -109,7 +128,12 @@
       "local_image_path": "assets/archive_media/people/Wright_Gertrude_And_Annie_And_Sarah_Norwood.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightGertrude&Annie&SarahNorwood.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 9292,
@@ -122,20 +146,12 @@
       "local_image_path": "assets/archive_media/people/Wright_Sarah_And_Lottie.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightSarah&Lottie.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 9292,
-      "photo_id": 3172,
-      "category": "tombstones",
-      "title_or_caption": "Wright_Sarah_Tombstone.jpg",
-      "subject_names": "Wright Sarah tombstone",
-      "married_surname": "",
-      "approximate_year": "2008",
-      "local_image_path": "assets/archive_media/tombstones/Wright_Sarah_Tombstone.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/MilitaryService/Franklin_WRIGHT.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "tombstone"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

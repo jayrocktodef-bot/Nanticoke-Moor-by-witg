@@ -6,7 +6,7 @@
     "middle_name": "R.",
     "maiden_name": "",
     "married_last_name": "Davis",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "14 May 1921",
     "death_info": "12 Mar 1922 (aged 9 months)",
@@ -127,6 +127,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 13668,
+      "person_id": 8158,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harmony Methodist Church",
+      "citations": [
+        {
+          "citation_id": 12470,
+          "fact_id": 13668,
+          "source_id": 720,
+          "evidence_text": "...A. Mosley 8/15/ 1934 - \"Snooty\" Maurice A. Mosley 8/15/ 1934 - \"Snooty\" Ardith Mosley 7/27/ 1934 - \"Art\" both in Hersel Davis plot Ardith Mosley 7/27/ 1934 - \"Art\" both in Hersel Davis plot Robert B. Mosley 1/5/ 1910 - 9/17/ 1918 Robert B....",
+          "source_title": "Preserved Document: Harmony Methodist Church",
+          "source_url": "harmony2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -162,19 +181,6 @@
   "photos": [
     {
       "person_id": 8158,
-      "photo_id": 626,
-      "category": "family_trees",
-      "title_or_caption": "Davis_Hersel_Ancestry.jpg",
-      "subject_names": "Hersel Davis",
-      "married_surname": "Davis",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Davis_Hersel_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisHesterMorris.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 8158,
       "photo_id": 625,
       "category": "people",
       "title_or_caption": "Davis_Hersel.jpg",
@@ -184,7 +190,30 @@
       "local_image_path": "assets/archive_media/people/Davis_Hersel.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisHesterMorris.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 8158,
+      "photo_id": 627,
+      "category": "people",
+      "title_or_caption": "Davis_Hester_Morris.jpg",
+      "subject_names": "Hersel Davis",
+      "married_surname": "Davis",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Davis_Hester_Morris.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisHesterMorris.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

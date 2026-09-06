@@ -8,7 +8,7 @@
     "married_last_name": "Handsor",
     "evidence_level": 3,
     "source_page": "BlountCatherine%20Meehan.htm",
-    "birth_info": null,
+    "birth_info": "May 27, 1838 (Kent County DE on May 27, 1838 , the son of  John D)",
     "death_info": null,
     "notes": "Ingested from BlountCatherine%20Meehan.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
@@ -41,6 +41,63 @@
       "place_string": "Kent County DE on May 27, 1838 , the son of  John D",
       "value_string": "was born in Kent County DE on May 27, 1838 , the son of  John D.",
       "citations": []
+    },
+    {
+      "fact_id": 13013,
+      "person_id": 4057,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Concilor",
+      "citations": [
+        {
+          "citation_id": 11815,
+          "fact_id": 13013,
+          "source_id": 32,
+          "evidence_text": "...family continued when, on December 16, 1767 , William signed papers along with Daniel Durham whereby John Durham and Sarah Handsor (John's sister?) were name administrators of the estate of Sarah's deceased husband William Hansor . On November 28,...",
+          "source_title": "Record: concl-w1.htm",
+          "source_url": "concl-w1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15368,
+      "person_id": 4057,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware - Main Menu",
+      "citations": [
+        {
+          "citation_id": 14170,
+          "fact_id": 15368,
+          "source_id": 132,
+          "evidence_text": "...The Bloomsbury Report Race/ Color instructions to census takers - all decades Delaware - Moving Out To Canada Sarah Handsor Ontario probate 1894 To Indiana Durhams of Central Indiana Indian settlements in Indiana Terr. c. 1810 scroll down...",
+          "source_title": "Record: MainMenu.html",
+          "source_url": "MainMenu.html",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 15658,
+      "person_id": 4057,
+      "fact_type": "Racial Classification",
+      "date_string": "1850",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'M' (Mulatto), age 27",
+      "citations": [
+        {
+          "citation_id": 14460,
+          "fact_id": 15658,
+          "source_id": 15,
+          "evidence_text": "1850 Census: Handsor, Sarah \u2014 Sarah | 27 | F | M | Sarah | 7",
+          "source_title": "Record: census18.htm",
+          "source_url": "census18.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +113,12 @@
       "local_image_path": "assets/archive_media/people/Handsor_Sarah_Sammons_3.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HandsorSarahSammons.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4057,
@@ -69,7 +131,12 @@
       "local_image_path": "assets/archive_media/people/Handsor_Sarah_Sammons_4.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsChildrenOfBenjamin&Sarah.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

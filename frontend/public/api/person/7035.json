@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "RidgewayEmma.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13933,
+      "person_id": 7035,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12735,
+          "fact_id": 13933,
+          "source_id": 77,
+          "evidence_text": "...- 1899 - 1978 Ridgeway Alfred Ridgeway (???) Alfred W. Ridgeway- 7/18/ 1910 -7/21/ 1949 Edgar Ridgeway - 1875 - 1935 Emma Ridgeway - 1870 - 1936 Greensbury Ridgway 1867 - 1944 Sarah D. Ridgway 1879 - 1944 Greensbury Ridgeway- 3/16/ 1907 -8/3/ 1964...",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -47,7 +66,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Emma.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayEmma.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7035,
@@ -60,7 +84,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_William_Edgar_Sr_And_Emma_Eliza_Durham_And_Paul_Jror_Sr.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayWilliamEdgarSr&EmmaElizaDurham&PaulJrorSr.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

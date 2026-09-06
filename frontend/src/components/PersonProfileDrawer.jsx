@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
-import { User, Users, Camera, HeartHandshake, FileText, ExternalLink, Calendar, GitBranch, X } from 'lucide-react';
+import { User, Users, Camera, HeartHandshake, FileText, ExternalLink, Calendar, GitBranch, X, BookOpen } from 'lucide-react';
 import FanChart from './FanChart';
+import CitationModal from './CitationModal';
 
 export default function PersonProfileDrawer({ personId, onClose, onSelectPerson }) {
   const [profile, setProfile] = useState(null);
   const [loading, setLoading] = useState(true);
   const [lightboxPhoto, setLightboxPhoto] = useState(null);
   const [viewMode, setViewMode] = useState('details');
+  const [isCitationOpen, setIsCitationOpen] = useState(false);
 
   useEffect(() => {
     if (!personId) return;
@@ -90,7 +92,7 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
                   {(profile.person.evidence_level === 1 || !profile.person.evidence_level) && <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-slate-400 border border-slate-700">Level 1: Unverified</span>}
                 </div>
 
-                <div className="mt-4 flex gap-2">
+                <div className="mt-4 flex flex-wrap gap-2">
                   <button 
                     onClick={() => setViewMode('details')}
                     className={`px-3 py-1 text-xs font-bold rounded-md uppercase tracking-wider ${viewMode === 'details' ? 'bg-amber-500 text-slate-900' : 'bg-slate-800 text-slate-400 hover:bg-slate-700'}`}
@@ -103,15 +105,37 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
                   >
                     Fan View
                   </button>
+                  <button 
+                    onClick={() => setIsCitationOpen(true)}
+                    className="px-3 py-1 text-xs font-bold rounded-md uppercase tracking-wider bg-slate-800 text-amber-400 hover:bg-amber-500/20 border border-amber-500/30 flex items-center gap-1.5 transition-colors"
+                  >
+                    <BookOpen className="w-3.5 h-3.5" />
+                    Cite & Export
+                  </button>
                 </div>
 
                 {profile.audit_flags && profile.audit_flags.length > 0 && (
                   <div className="mt-3 space-y-2">
-                    {profile.audit_flags.map((flag, idx) => (
-                      <div key={idx} className={`text-xs px-3 py-2 rounded-lg border ${flag.severity === 'critical' ? 'bg-red-500/10 border-red-500/30 text-red-400' : 'bg-orange-500/10 border-orange-500/30 text-orange-400'}`}>
-                        <strong>Warning:</strong> {flag.description}
-                      </div>
-                    ))}
+                    {profile.audit_flags.map((flag, idx) => {
+                      const isRaceReclass = flag.category === 'RACIAL_RECLASSIFICATION';
+                      return (
+                        <div 
+                          key={idx} 
+                          className={`text-xs px-3 py-2 rounded-lg border ${
+                            isRaceReclass
+                              ? 'bg-purple-950/40 border-purple-800/60 text-purple-200'
+                              : flag.severity === 'critical' 
+                                ? 'bg-red-500/10 border-red-500/30 text-red-400' 
+                                : 'bg-orange-500/10 border-orange-500/30 text-orange-400'
+                          }`}
+                        >
+                          <strong className="block mb-0.5 font-bold uppercase tracking-wider text-[10px]">
+                            {isRaceReclass ? '🏛️ Historical Racial Reclassification' : 'Warning'}
+                          </strong>
+                          {flag.description}
+                        </div>
+                      );
+                    })}
                   </div>
                 )}
 
@@ -289,6 +313,14 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
         </div>,
         document.body
       )}
+
+      {/* Academic Citation & GEDCOM Export Modal */}
+      <CitationModal
+        isOpen={isCitationOpen}
+        onClose={() => setIsCitationOpen(false)}
+        data={profile}
+        type="person"
+      />
     </div>
   );
 }

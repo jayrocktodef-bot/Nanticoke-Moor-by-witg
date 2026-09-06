@@ -6,7 +6,7 @@
     "middle_name": "N",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "NOV 1880 Delaware",
     "death_info": "19 AUG 1957 Fairfield Twp.NJ",
@@ -79,6 +79,25 @@
       "place_string": null,
       "value_string": "married Isaac Mosley   On 20 January, 1865",
       "citations": []
+    },
+    {
+      "fact_id": 13856,
+      "person_id": 9482,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: John Wesley Church",
+      "citations": [
+        {
+          "citation_id": 12658,
+          "fact_id": 13856,
+          "source_id": 76,
+          "evidence_text": "...12/15/ 1901 - 4/2/l974 \"Gospel Singer\" Cornelieus Mosley 8/18/ 1899 \"59 yrs 8 months \" - could not find marker 6/00 Ella Mosley 10/15/ 1878 - 5/28/ 1969 on marker with William S. White & 5 others Doris H. Mosley 2/14/ 1917 - 9/4/ 1990 Elmer L....",
+          "source_title": "Record: jwesley.htm",
+          "source_url": "jwesley.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -93,19 +112,6 @@
   "photos": [
     {
       "person_id": 9482,
-      "photo_id": 162,
-      "category": "family_trees",
-      "title_or_caption": "Burton_Ella_Mosley_Ancestry.jpg",
-      "subject_names": "Burton",
-      "married_surname": "Burton",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Burton_Ella_Mosley_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/BurtonEllaMosley.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 9482,
       "photo_id": 161,
       "category": "people",
       "title_or_caption": "Burton_Ella_Mosley.jpg",
@@ -115,7 +121,12 @@
       "local_image_path": "assets/archive_media/people/Burton_Ella_Mosley.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/BurtonEllaMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -8,7 +8,7 @@
     "married_last_name": "Dean",
     "evidence_level": 3,
     "source_page": "DeanRobertBurton.htm",
-    "birth_info": null,
+    "birth_info": "Sept. 3, 1777",
     "death_info": null,
     "notes": "Ingested from DeanRobertBurton.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
@@ -41,6 +41,25 @@
       "place_string": null,
       "value_string": "Born Sept. 3, 1777",
       "citations": []
+    },
+    {
+      "fact_id": 13568,
+      "person_id": 4936,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: St. George's",
+      "citations": [
+        {
+          "citation_id": 12370,
+          "fact_id": 13568,
+          "source_id": 60,
+          "evidence_text": "...July 31, 1785 Hester b. Mar 10 1785 dau of Annias Jackson and Hester his wife bapt. July 29, 1785 Bapt. William Burton Dean son of Caleb and Rachel Dean b. 18 Jan. 1791 Augt. 12 Bapd. Peery Hanzor son of Thos. and Priscilla Hansor Born 5 Feb....",
+          "source_title": "Record: george.htm",
+          "source_url": "george.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +75,12 @@
       "local_image_path": "assets/archive_media/people/Dean_Robert_Burton_Family_2.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DeanRobert&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4936,
@@ -69,7 +93,12 @@
       "local_image_path": "assets/archive_media/people/Dean_Robet_Burton_Post_Card.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DeanRobertBurton.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4936,
@@ -82,7 +111,12 @@
       "local_image_path": "assets/archive_media/people/Dean_Robert_Burton_Family_3.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DeanRobertBurton.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

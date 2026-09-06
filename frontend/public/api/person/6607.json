@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MosleyKermit&ElvaFamily.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,44 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12855,
+      "person_id": 6607,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Angie Bell Coker",
+      "citations": [
+        {
+          "citation_id": 11657,
+          "fact_id": 12855,
+          "source_id": 19,
+          "evidence_text": "...Pearl Mosley married Gardiner Mosley, son of Frazier Mosley and Elsie Kimmey children: Preston Mosley Gardiner Mosley Kermit Mosley ( 1916 - 1983 )married Elva Perry Calvin Mosley ( 1918 - 1979 ) Oscar Mosley married Janet Street children: Oscar...",
+          "source_title": "Record: coker-a5.htm",
+          "source_url": "coker-a5.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14434,
+      "person_id": 6607,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits- Mosley",
+      "citations": [
+        {
+          "citation_id": 13236,
+          "fact_id": 14434,
+          "source_id": 751,
+          "evidence_text": "...Oscar Mosley, Jr. and Sgt. Thomas P.Mosley, brother of Mary E. Draine, Laura Clark, Sarah Benson, Harriett McFarlan, Kermit Mosley and Calvin L. Mosley. Aged 44 years. Relatives and friends are invited to attend funeral services at the John Wesley...",
+          "source_title": "Preserved Document: Obits- Mosley",
+          "source_url": "obit-m2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -47,20 +85,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Kermit_Family.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyKermit&ElvaFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 6607,
-      "photo_id": 1737,
-      "category": "family_trees",
-      "title_or_caption": "Mosley_Kermit_Ancestry.jpg",
-      "subject_names": "Lucille Johnson",
-      "married_surname": "Mosley",
-      "approximate_year": "1916",
-      "local_image_path": "assets/archive_media/family_trees/Mosley_Kermit_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyKermit&ElvaFamily.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6607,
@@ -73,7 +103,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Kermit_And_Elva.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyKermit&ElvaFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

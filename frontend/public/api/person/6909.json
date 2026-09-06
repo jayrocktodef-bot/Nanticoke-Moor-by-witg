@@ -50,35 +50,103 @@
       "place_string": null,
       "value_string": "married Isaac Mosley   On 20 January, 1865",
       "citations": []
+    },
+    {
+      "fact_id": 12858,
+      "person_id": 6909,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Angie Bell Coker",
+      "citations": [
+        {
+          "citation_id": 11660,
+          "fact_id": 12858,
+          "source_id": 19,
+          "evidence_text": "...Mosley , married #1) Thomas Mosley and #2)Calvin Clark Nelson Mosley ( 1914 - 1969 ) married Elva Hansley children: James Mosley Gary Wayne Mosley Pearl Mosley married Gardiner Mosley, son of Frazier Mosley and Elsie Kimmey children: Preston...",
+          "source_title": "Record: coker-a5.htm",
+          "source_url": "coker-a5.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13855,
+      "person_id": 6909,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: John Wesley Church",
+      "citations": [
+        {
+          "citation_id": 12657,
+          "fact_id": 13855,
+          "source_id": 76,
+          "evidence_text": "...Mosley 9/9/ 1953 - 6/12/ 1954 Horace G. Mosley 6/4/ 1884 - 9/30/ 1965 Margaret G. Mosley 9/24/ 1885 - 11/29/ 1964 James Mosley Sr. 8/28/ 1914 - 4/4/ 1977 Elizabeth Mosley 3/20/l917 - (no date) John Mosley 7/4/ 1865 \"AB 56 yrs old \" - could not...",
+          "source_title": "Record: jwesley.htm",
+          "source_url": "jwesley.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14438,
+      "person_id": 6909,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits- Mosley",
+      "citations": [
+        {
+          "citation_id": 13240,
+          "fact_id": 14438,
+          "source_id": 751,
+          "evidence_text": "...Joseph H. Mosley MOSLEY: In Dover, Del. on March 10, 1959 , Joseph H. Mosley, father of Dorothy Morris, Louise Carney, James Mosley, Linwood Mosley, Joseph L. Mosley, all of Dover and Ernest Mosley of Elmer, N.J., aged 70 years. Relatives and friends...",
+          "source_title": "Preserved Document: Obits- Mosley",
+          "source_url": "obit-m2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14944,
+      "person_id": 6909,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate-Morgan",
+      "citations": [
+        {
+          "citation_id": 13746,
+          "fact_id": 14944,
+          "source_id": 103,
+          "evidence_text": "...list of sale covers several pages, most of them very difficult to read ---- some of the names of the purchasers were: James Mosley Henrietta Morgan (the widow) Isaac Johnson Elijah Durham Robert Dean Sherry Carney John Mosley George Drigers Levi...",
+          "source_title": "Record: probt-m5.htm",
+          "source_url": "probt-m5.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
     {
       "person_id": 6909,
-      "photo_id": 1732,
-      "category": "family_trees",
-      "title_or_caption": "Mosley_James_Paris_Ancestry.jpg",
-      "subject_names": "Sarah Elizabeth Mosley Durham",
-      "married_surname": "Mosley",
-      "approximate_year": "1949",
-      "local_image_path": "assets/archive_media/family_trees/Mosley_James_Paris_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJamesParis.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 6909,
-      "photo_id": 1724,
-      "category": "family_trees",
-      "title_or_caption": "Mosley_James_And_Sherren_Ancestry.jpg",
+      "photo_id": 1413,
+      "category": "people",
+      "title_or_caption": "Johnson_James_Franklin.jpg",
       "subject_names": "Mosley",
-      "married_surname": "Mosley",
+      "married_surname": "Johnson",
       "approximate_year": "1978",
-      "local_image_path": "assets/archive_media/family_trees/Mosley_James_And_Sherren_Ancestry.jpg",
+      "local_image_path": "assets/archive_media/people/Johnson_James_Franklin.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJames&Sherren.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6909,
@@ -91,7 +159,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_James_And_Sherren_Tammy.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJames&Sherren.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6909,
@@ -104,20 +177,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_James_E_And_Dorothy.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJames%20E.%20&%20Dorothy%20(Seeney).htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 6909,
-      "photo_id": 1730,
-      "category": "family_trees",
-      "title_or_caption": "Mosley_James_Edward_And_Dorothy_Ancestry.jpg",
-      "subject_names": "Mosley",
-      "married_surname": "Mosley",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Mosley_James_Edward_And_Dorothy_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJames%20E.%20&%20Dorothy%20(Seeney).htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6909,
@@ -130,7 +195,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Will_And_Street_James.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyWill&StreetJames.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

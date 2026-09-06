@@ -79,10 +79,103 @@
       "place_string": null,
       "value_string": "married James Hughes    Daniel died on 9 January, 1931",
       "citations": []
+    },
+    {
+      "fact_id": 12907,
+      "person_id": 5504,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: John Clayon Coker",
+      "citations": [
+        {
+          "citation_id": 11709,
+          "fact_id": 12907,
+          "source_id": 24,
+          "evidence_text": "...James Henry Coker ( Jan. 31, 1908 - Nov. 8, 1984 ) married Elizabeth Durham ( 1911 - 1967 ), daughter of Benjamin and Anna Durham. children: Glendora Coker ( 1928 - 1948 ) Charles Coker Evelyn Coker James Russell Coker married Dorothy Johnson Carl...",
+          "source_title": "Record: coker-j2.htm",
+          "source_url": "coker-j2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13377,
+      "person_id": 5504,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Daniel  Durham",
+      "citations": [
+        {
+          "citation_id": 12179,
+          "fact_id": 13377,
+          "source_id": 49,
+          "evidence_text": "...William Munce Minous Durham (April 1878 - 1942 ) married Eliza Maybell Durham ( 1879 - 1901 ) married William Carney Anna Durham ( 1882 - ) married Caleb Johnson Nora \"Eleanora\" Durham (Sept. 1882 - 10 Oct. 1918 ) married Walter Carney Benjamin R....",
+          "source_title": "Record: durhm-d4.htm",
+          "source_url": "durhm-d4.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14333,
+      "person_id": 5504,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Rebecca Munce",
+      "citations": [
+        {
+          "citation_id": 13135,
+          "fact_id": 14333,
+          "source_id": 649,
+          "evidence_text": "...Rebecca and Clement moved to Cumberland Co., NJ and had the following children: Clement Durham, married Viola Jackson Anna Durham, married Wilbert Cuff Rebecca died in 1930 ? (possibly 1945 ) in Fairfield Township, Cumberland Co., NJ. Clement died...",
+          "source_title": "Record: munce-r3.htm",
+          "source_url": "munce-r3.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 5504,
+      "photo_id": 1051,
+      "category": "people",
+      "title_or_caption": "Greenage_Evelyn_Durham_1.jpg",
+      "subject_names": "Anna Greenage",
+      "married_surname": "Greenage",
+      "approximate_year": "2005",
+      "local_image_path": "assets/archive_media/people/Greenage_Evelyn_Durham_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/GreenageGeoWashFamily.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 5504,
+      "photo_id": 899,
+      "category": "people",
+      "title_or_caption": "Durham_Reunion_1996_Hi_Res_2.jpg",
+      "subject_names": "Reunion: Descendants of Nehemiah & Anna E. (Carter) Durham",
+      "married_surname": "Durham",
+      "approximate_year": "1996",
+      "local_image_path": "assets/archive_media/people/Durham_Reunion_1996_Hi_Res_2.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamReunion1996HiRes.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 5504,
       "photo_id": 900,
@@ -94,7 +187,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Rhoda_Seeney_And_Anna_Cloatman.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMarvel&Rhoda.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 5504,
@@ -107,7 +205,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Anna_And_SV.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamAnna&SV.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 5504,
@@ -120,7 +223,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Benny_And_Anna.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamBenjaminR&AnnaFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 5504,
@@ -133,7 +241,30 @@
       "local_image_path": "assets/archive_media/people/Durham_Anna_M.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamBenjaminR&AnnaFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 5504,
+      "photo_id": 470,
+      "category": "people",
+      "title_or_caption": "Coker_Anna_And_Minnie_Durham_Bowen.jpg",
+      "subject_names": "Mitsawokett Research Group members",
+      "married_surname": "Coker",
+      "approximate_year": "2001",
+      "local_image_path": "assets/archive_media/people/Coker_Anna_And_Minnie_Durham_Bowen.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Meeting20Aug2001.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 5504,
@@ -146,7 +277,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Laura_Gert_Anna_Mary.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamJEH&Harriett.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 5504,
@@ -159,7 +295,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Ben_And_Anna_And_Kids.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamBenjaminR&AnnaFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

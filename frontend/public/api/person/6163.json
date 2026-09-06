@@ -76,19 +76,6 @@
   "photos": [
     {
       "person_id": 6163,
-      "photo_id": 1351,
-      "category": "family_trees",
-      "title_or_caption": "Jackson_Layman_Ancestry.jpg",
-      "subject_names": "James M. Jackson",
-      "married_surname": "Jackson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Jackson_Layman_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonJamesM.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 6163,
       "photo_id": 1350,
       "category": "people",
       "title_or_caption": "Jackson_Layman.jpg",
@@ -98,7 +85,12 @@
       "local_image_path": "assets/archive_media/people/Jackson_Layman.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonJanie&Kids.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

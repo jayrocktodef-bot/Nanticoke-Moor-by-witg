@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "Pierce",
     "married_last_name": "Pierce",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "SocialSecurityApplications.htm",
     "birth_info": "1 Sep 1822",
     "death_info": "3 Jul 1857 (aged 34)",
@@ -26,7 +26,7 @@
           "citation_id": 2142,
           "fact_id": 2142,
           "source_id": 147,
-          "evidence_text": null,
+          "evidence_text": "...Dean Mosley, Wilbert Dean Mosley, Wilbert Dean Pierce, Alfred Horace Pierce, Alfred Horace Pierce, Alfred Horace Pierce, Enos Sr. Pierce, Enos Sr. Pierce, Enos Sr. Sammons, Ella Durham Sammons, Ella Durham Sammons, Ella Durham Wilson, Elsie M...",
           "source_title": "Record: SocialSecurityApplications.htm",
           "source_url": "SocialSecurityApplications.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -45,7 +45,7 @@
           "citation_id": 2143,
           "fact_id": 2143,
           "source_id": 147,
-          "evidence_text": null,
+          "evidence_text": "...Dean Mosley, Wilbert Dean Mosley, Wilbert Dean Pierce, Alfred Horace Pierce, Alfred Horace Pierce, Alfred Horace Pierce, Enos Sr. Pierce, Enos Sr. Pierce, Enos Sr. Sammons, Ella Durham Sammons, Ella Durham Sammons, Ella Durham Wilson, Elsie M...",
           "source_title": "Record: SocialSecurityApplications.htm",
           "source_url": "SocialSecurityApplications.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -64,7 +64,7 @@
           "citation_id": 2144,
           "fact_id": 2144,
           "source_id": 147,
-          "evidence_text": null,
+          "evidence_text": "...Dean Mosley, Wilbert Dean Mosley, Wilbert Dean Pierce, Alfred Horace Pierce, Alfred Horace Pierce, Alfred Horace Pierce, Enos Sr. Pierce, Enos Sr. Pierce, Enos Sr. Sammons, Ella Durham Sammons, Ella Durham Sammons, Ella Durham Wilson, Elsie M...",
           "source_title": "Record: SocialSecurityApplications.htm",
           "source_url": "SocialSecurityApplications.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -76,32 +76,6 @@
   "photos": [
     {
       "person_id": 2630,
-      "photo_id": 3342,
-      "category": "documents",
-      "title_or_caption": "Pierce_Enos_Sr_SocialSecurity_Application.jpg",
-      "subject_names": "Pierce Enos Sr SocialSecurity Application",
-      "married_surname": "",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/documents/Pierce_Enos_Sr_SocialSecurity_Application.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "ss_application"
-    },
-    {
-      "person_id": 2630,
-      "photo_id": 1997,
-      "category": "family_trees",
-      "title_or_caption": "Pierce_Enos_Wancestry.jpg",
-      "subject_names": "Bowles",
-      "married_surname": "Pierce",
-      "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/family_trees/Pierce_Enos_Wancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Pierce&Bowles.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 2630,
       "photo_id": 69,
       "category": "people",
       "title_or_caption": "Alfred_Pierce_Helen_Durham_And_Enos_Pierce.jpg",
@@ -111,7 +85,12 @@
       "local_image_path": "assets/archive_media/people/Alfred_Pierce_Helen_Durham_And_Enos_Pierce.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WhoAreThesePeople.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 2630,
@@ -124,20 +103,12 @@
       "local_image_path": "assets/archive_media/people/Alfred_Pierce_Helen_Durham_And_Enos_Pierce_Collection_2.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WhoAreThesePeople.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 2630,
-      "photo_id": 1996,
-      "category": "people",
-      "title_or_caption": "Pierce_Enos_Jr.jpg",
-      "subject_names": "Bowles",
-      "married_surname": "Pierce",
-      "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/people/Pierce_Enos_Jr.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Pierce&Bowles.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

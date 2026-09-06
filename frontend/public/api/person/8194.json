@@ -6,7 +6,7 @@
     "middle_name": "Rae",
     "maiden_name": "",
     "married_last_name": "Clark",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "30 July 1897 Kent County, Delaware, USA",
     "death_info": "21 November 1988 Lewes, Sussex County, Delaware, USA",
@@ -68,6 +68,25 @@
           "source_title": "Record: Davis Family Tree.ged",
           "source_url": "Davis Family Tree.ged",
           "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 14407,
+      "person_id": 8194,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits",
+      "citations": [
+        {
+          "citation_id": 13209,
+          "fact_id": 14407,
+          "source_id": 96,
+          "evidence_text": "...Mrs. Hazel Wright and Mrs. Louise Wright, both of Wilmington; a brother Howard Carey, Cheswold; four sisters, Mrs. Lulu Clark, Milton; Mrs. Susie Clark, Seaford; Mrs. Henrietta Johnson and Mrs. Grace Sammons, both of Cheswold; a grandson,...",
+          "source_title": "Record: obit-j1.htm",
+          "source_url": "obit-j1.htm",
+          "source_dataset": "lynncjackson"
         }
       ]
     }
@@ -170,7 +189,12 @@
       "local_image_path": "assets/archive_media/people/Clark_Lulu_Rae_Carey_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CareyCharlesH&NellieVRidgeway.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 8194,
@@ -183,7 +207,12 @@
       "local_image_path": "assets/archive_media/people/Clark_Lulu_Rae_Carey_1.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CareyCharlesH&NellieVRidgeway.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

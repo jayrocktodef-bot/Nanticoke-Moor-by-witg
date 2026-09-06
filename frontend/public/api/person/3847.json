@@ -79,23 +79,48 @@
       "place_string": "the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
       "value_string": "married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
       "citations": []
+    },
+    {
+      "fact_id": 13533,
+      "person_id": 3847,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Fork Branch",
+      "citations": [
+        {
+          "citation_id": 12335,
+          "fact_id": 13533,
+          "source_id": 58,
+          "evidence_text": "...- 9/28/ 1985 Lonee G. Carney 10/25/ 1935 - 5/2/ 1981 son of Leon & Mildred Corney Margaret A. Carney 1895 - 1973 R. Frazier Carney 1883 - 1946 Norah D. Carney 1893 - (no date) Return and Ola Carneys Children (no names or dates) Robert J. Carney 1874...",
+          "source_title": "Record: fbranch.htm",
+          "source_url": "fbranch.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13831,
+      "person_id": 3847,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Nathaniel Jackson",
+      "citations": [
+        {
+          "citation_id": 12633,
+          "fact_id": 13831,
+          "source_id": 75,
+          "evidence_text": "...are buried at the Jackson/Perkins Cemetary Mattie Jackson Nora Jackson (April 5, 1893 -Nov. 1, 1980 ) who married: Frazier CARNEY, son of William Carney & Sarah Mosley Children: Ethel Carney Lucy Carney ( 1888 - ) William Morgan, son of Napoleon...",
+          "source_title": "Record: jacksonn.htm",
+          "source_url": "jacksonn.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
-    {
-      "person_id": 3847,
-      "photo_id": 275,
-      "category": "family_trees",
-      "title_or_caption": "Carney_Norman_Frazier_Ancestry.jpg",
-      "subject_names": "Carney",
-      "married_surname": "Carney",
-      "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/family_trees/Carney_Norman_Frazier_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyGeorge.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
     {
       "person_id": 3847,
       "photo_id": 278,
@@ -107,7 +132,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Ray_Frazier_And_Ethel_And_Mattie_Jackson.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyRayFrazier.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

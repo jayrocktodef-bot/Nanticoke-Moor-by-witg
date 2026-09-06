@@ -76,19 +76,6 @@
   "photos": [
     {
       "person_id": 6386,
-      "photo_id": 1502,
-      "category": "family_trees",
-      "title_or_caption": "Lockman_William_And_Sadie_Ancestry.jpg",
-      "subject_names": "Sadie May Lockman",
-      "married_surname": "Lockman",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Lockman_William_And_Sadie_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/LockmanSadieMay.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 6386,
       "photo_id": 1501,
       "category": "people",
       "title_or_caption": "Lockman_Sadie_May.jpg",
@@ -98,7 +85,12 @@
       "local_image_path": "assets/archive_media/people/Lockman_Sadie_May.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/LockmanSadieMay.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

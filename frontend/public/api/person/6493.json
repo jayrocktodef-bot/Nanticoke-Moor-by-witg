@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Morgan",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MorganWilliam&Nora.htm",
     "birth_info": "26 Apr 1891",
     "death_info": "12 Feb 1974 (aged 82)",
@@ -70,6 +70,63 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 14212,
+      "person_id": 6493,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: James K. Morgan",
+      "citations": [
+        {
+          "citation_id": 13014,
+          "fact_id": 14212,
+          "source_id": 87,
+          "evidence_text": "...(b. April 1885 ) Margaret Morgan (b.Sept. 1892 ) Edward Morgan ( 1894 - 1976 ) married Alice LOATMAN and Mamie Durham Alice Morgan (b. Aug. 1895 ) married David Payne ... they had no children Leomond Morgan ( 1898 - 1976 ) married Elva CARTER and...",
+          "source_title": "Record: morganj4.htm",
+          "source_url": "morganj4.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14955,
+      "person_id": 6493,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate-Sisco",
+      "citations": [
+        {
+          "citation_id": 13757,
+          "fact_id": 14955,
+          "source_id": 826,
+          "evidence_text": "...children, Harvey W. Morgan, Lillie Mosely, Kenny Morgan, Edna Morgan, Sadie (Jones?), Maggie Morgan, Edward Morgan, Alice Morgan, Lemon Morgan. State of Delaware, Kent County, SS On this fifth day of September in the year of our Lord one thousand...",
+          "source_title": "Preserved Document: Probate-Sisco",
+          "source_url": "probt-s8.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14979,
+      "person_id": 6493,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Araminta Sisco",
+      "citations": [
+        {
+          "citation_id": 13781,
+          "fact_id": 14979,
+          "source_id": 104,
+          "evidence_text": "...(b. April 1885 ) Margaret Morgan (b.Sept. 1892 ) Edward Morgan ( 1894 - 1976 ) married Alice LOATMAN and Mamie Durham Alice Morgan (b. Aug. 1895 ) married David Payne Leomond Morgan ( 1898 - 1976 ) married Elva CARTER and Alberta HARMON Araminta...",
+          "source_title": "Record: sisco-a.htm",
+          "source_url": "sisco-a.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +142,12 @@
       "local_image_path": "assets/archive_media/people/Conley_Alice_Morgan_And_Husband.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ConleyAliceMorgan&Husband.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6493,
@@ -98,7 +160,12 @@
       "local_image_path": "assets/archive_media/people/Conley_Alice_Morgan.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ConleyAliceMorgan&Husband.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

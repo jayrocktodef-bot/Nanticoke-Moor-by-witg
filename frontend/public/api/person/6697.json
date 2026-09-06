@@ -41,6 +41,63 @@
       "place_string": null,
       "value_string": "married Isaac Mosley   On 20 January, 1865",
       "citations": []
+    },
+    {
+      "fact_id": 14120,
+      "person_id": 6697,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Lillie Mae Morgan Mosley",
+      "citations": [
+        {
+          "citation_id": 12922,
+          "fact_id": 14120,
+          "source_id": 731,
+          "evidence_text": "Lillie Mae Morgan Mosley Preserved Primary Document \u2022 morgan-l.htm She married Wilbur MOSLEY who was born 1 September, 1882 and died 28 May,...",
+          "source_title": "Preserved Document: Lillie Mae Morgan Mosley",
+          "source_url": "morgan-l.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14129,
+      "person_id": 6697,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mary Elva Morgan Mosley",
+      "citations": [
+        {
+          "citation_id": 12931,
+          "fact_id": 14129,
+          "source_id": 85,
+          "evidence_text": "Mary Elva Morgan Mosley Preserved Primary Document \u2022 morgan-m.htm photo taken by John Carter Mary Elva was the daughter of Edward Morgan and...",
+          "source_title": "Record: morgan-m.htm",
+          "source_url": "morgan-m.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14545,
+      "person_id": 6697,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Main Page",
+      "citations": [
+        {
+          "citation_id": 13347,
+          "fact_id": 14545,
+          "source_id": 569,
+          "evidence_text": "...: ( 1897 - 1929 ) Will Morgan & Nora Jackson Morgan Charle H. Mosley & Annie Dean Mosley E. Glendon Mosley & Mary Elva Morgan Mosley Angelica Munce : ( 1848 - 11/13/ 1919 ) Angelina Munce : (11/25/ 1843 - 2/1/ 1917 ) James H. Munce/Muncey : (8/27/...",
+          "source_title": "Record: photo.htm",
+          "source_url": "photo.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +113,48 @@
       "local_image_path": "assets/archive_media/people/Mosley_Annie_And_Will_Morgan_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 6697,
+      "photo_id": 1703,
+      "category": "people",
+      "title_or_caption": "Mosley_Cora_And_Billy_Morris.jpg",
+      "subject_names": "Morgan",
+      "married_surname": "Mosley",
+      "approximate_year": "1959",
+      "local_image_path": "assets/archive_media/people/Mosley_Cora_And_Billy_Morris.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisArchie&Cora.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6697,
+      "photo_id": 1585,
+      "category": "people",
+      "title_or_caption": "Morgan_Lavenia_Mosley_2.jpg",
+      "subject_names": "Morgan",
+      "married_surname": "Morgan",
+      "approximate_year": "1883",
+      "local_image_path": "assets/archive_media/people/Morgan_Lavenia_Mosley_2.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganKenneth&wife50th.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6697,
@@ -69,7 +167,48 @@
       "local_image_path": "assets/archive_media/people/Mary_Elva_Morgan_Mosley.jpg",
       "source_url": null,
       "dataset_source": "images",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6697,
+      "photo_id": 1607,
+      "category": "people",
+      "title_or_caption": "Morris_Archie_And_Cora_Mosley.jpg",
+      "subject_names": "Morgan",
+      "married_surname": "Morris",
+      "approximate_year": "1959",
+      "local_image_path": "assets/archive_media/people/Morris_Archie_And_Cora_Mosley.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisArchie&Cora.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6697,
+      "photo_id": 1584,
+      "category": "people",
+      "title_or_caption": "Morgan_Lavenia_Mosley.jpg",
+      "subject_names": "Morgan",
+      "married_surname": "Morgan",
+      "approximate_year": "1883",
+      "local_image_path": "assets/archive_media/people/Morgan_Lavenia_Mosley.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganKenneth&wife50th.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

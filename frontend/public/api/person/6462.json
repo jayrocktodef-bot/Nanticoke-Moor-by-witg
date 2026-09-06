@@ -6,7 +6,7 @@
     "middle_name": "Victoria Carey",
     "maiden_name": "",
     "married_last_name": "Johnson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "JohnsonWillis&Henrietta.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 14405,
+      "person_id": 6462,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits",
+      "citations": [
+        {
+          "citation_id": 13207,
+          "fact_id": 14405,
+          "source_id": 96,
+          "evidence_text": "...Wilmington; a brother Howard Carey, Cheswold; four sisters, Mrs. Lulu Clark, Milton; Mrs. Susie Clark, Seaford; Mrs. Henrietta Johnson and Mrs. Grace Sammons, both of Cheswold; a grandson, Herman R.Jackson, Jr. whom she raised at home; 30 other...",
+          "source_title": "Record: obit-j1.htm",
+          "source_url": "obit-j1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -47,7 +66,12 @@
       "local_image_path": "assets/archive_media/people/Johnson_Henrietta_Carey.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CareyCharlesE&DellaRidgeway.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6462,
@@ -60,7 +84,12 @@
       "local_image_path": "assets/archive_media/people/Johnson_Willis_And_Henrietta_Vcarey.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWillis&Henrietta.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     },
     {
       "person_id": 6462,
@@ -73,7 +102,12 @@
       "local_image_path": "assets/archive_media/people/Johnson_Willis_Milton_And_Henrietta_Victoria_Johnson.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWillis&Henrietta.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

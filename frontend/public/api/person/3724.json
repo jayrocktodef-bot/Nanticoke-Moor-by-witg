@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "CarneyJamesR&EffieReed.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "1969",
     "notes": "Ingested from CarneyJamesR&EffieReed.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,6 +41,25 @@
       "place_string": null,
       "value_string": "d. 1969",
       "citations": []
+    },
+    {
+      "fact_id": 14311,
+      "person_id": 3724,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mary Ann Munce",
+      "citations": [
+        {
+          "citation_id": 13113,
+          "fact_id": 14311,
+          "source_id": 739,
+          "evidence_text": "...1859 . Sometime before 1889 she married Samuel Seeney who was born in October 1853 . They had the following children: Lola Seeney ( 1878 - 1963 ) married J. Thomas Mosley Lola is buried at John Wesley Church in Frederica, DE Sallie Seeney (Sept....",
+          "source_title": "Preserved Document: Mary Ann Munce",
+          "source_url": "munce-m3.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +75,12 @@
       "local_image_path": "assets/archive_media/people/Seeney_Lola_Mae_Ridgway.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SeeneyForrest&Lola.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

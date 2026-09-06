@@ -76,19 +76,6 @@
   "photos": [
     {
       "person_id": 7326,
-      "photo_id": 2121,
-      "category": "family_trees",
-      "title_or_caption": "Ridgeway_Ben_And_Bird_Ancestry.jpg",
-      "subject_names": "James 2",
-      "married_surname": "Ridgeway",
-      "approximate_year": "1914",
-      "local_image_path": "assets/archive_media/family_trees/Ridgeway_Ben_And_Bird_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NewhardArbanaBirdellaRidgway.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 7326,
       "photo_id": 2123,
       "category": "people",
       "title_or_caption": "Ridgeway_Ben_F_And_Birdella_1.jpg",
@@ -98,7 +85,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Ben_F_And_Birdella_1.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NewhardArbanaBirdellaRidgway.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7326,
@@ -111,7 +103,12 @@
       "local_image_path": "assets/archive_media/people/Newhard_Birdella_Ridgeway_And_Gr.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NewhardArbanaBirdellaRidgway.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

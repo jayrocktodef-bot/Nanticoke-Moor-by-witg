@@ -6,9 +6,9 @@
     "middle_name": null,
     "maiden_name": null,
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "jackson.htm",
-    "birth_info": null,
+    "birth_info": "18 Feb. 1772",
     "death_info": null,
     "notes": "",
     "dataset_source": "lynncjackson"
@@ -26,7 +26,7 @@
           "citation_id": 11011,
           "fact_id": 11418,
           "source_id": 71,
-          "evidence_text": null,
+          "evidence_text": "...Jackson\" as head of a household of 8 free colored persons in Indian River Hundred. Per the Lewes/Cool Springs records, Agnes Jackson married Edward Harmon on Nov. 27, 1788 , Isreal Jackson married Polly Handsor on Aug. 29, 1802 , Hester Jackson...",
           "source_title": "Record: jackson.htm",
           "source_url": "jackson.htm",
           "source_dataset": "lynncjackson"
@@ -41,6 +41,25 @@
       "place_string": null,
       "value_string": "born 18 Feb. 1772",
       "citations": []
+    },
+    {
+      "fact_id": 15472,
+      "person_id": 11663,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14274,
+          "fact_id": 15472,
+          "source_id": 137,
+          "evidence_text": "...War information for Edward Harmon (b abt 1758 \u2013 19 Jun 1834 ) who I believe to be Native American. He married Agnes Jackson (b abt 1770 \u2013 death unknown) on 27 Nov 1788 . On the last page of his pension file it list his children as Benjamin...",
+          "source_title": "Record: HarmonEdwardRevWar.htm",
+          "source_url": "HarmonEdwardRevWar.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -52,7 +71,26 @@
       "rel_name": "Edward Harmon on Nov"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 11663,
+      "photo_id": 157,
+      "category": "people",
+      "title_or_caption": "Bryant_Agnes_Ester_Harmon_Hurst.jpg",
+      "subject_names": "Charlotte Delores Ingram Jackson",
+      "married_surname": "Bryant",
+      "approximate_year": "1950",
+      "local_image_path": "assets/archive_media/people/Bryant_Agnes_Ester_Harmon_Hurst.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonCharlotteFamily.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [
     {

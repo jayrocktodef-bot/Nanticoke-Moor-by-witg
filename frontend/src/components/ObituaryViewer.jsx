@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Search, HeartHandshake, Calendar, MapPin, ExternalLink, User, Volume2, VolumeX, BookOpen, ShieldCheck } from 'lucide-react';
+import CitationModal from './CitationModal';
 
 export default function ObituaryViewer({ onSelectPerson }) {
   const [obituaries, setObituaries] = useState([]);
@@ -8,6 +9,7 @@ export default function ObituaryViewer({ onSelectPerson }) {
   const [expandedObitId, setExpandedObitId] = useState(null);
   const [loading, setLoading] = useState(false);
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
+  const [isCitationOpen, setIsCitationOpen] = useState(false);
 
   const fetchObits = async (q = '') => {
     setLoading(true);
@@ -83,6 +85,7 @@ export default function ObituaryViewer({ onSelectPerson }) {
   const handleCloseModal = () => {
     if (window.speechSynthesis) window.speechSynthesis.cancel();
     setIsPlayingAudio(false);
+    setIsCitationOpen(false);
     setSelectedObit(null);
   };
 
@@ -217,26 +220,37 @@ export default function ObituaryViewer({ onSelectPerson }) {
               ✕
             </button>
 
-            <div className="flex items-center justify-between gap-3 mb-4 pr-10">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4 pr-10">
               <div className="flex items-center gap-2.5">
                 <HeartHandshake className="w-6 h-6 text-[#C87D53]" />
                 <h2 className="text-2xl font-bold font-serif-header text-[#F3EBE3]">{selectedObit.deceased_name}</h2>
               </div>
 
-              {/* Text to Speech Button */}
-              {'speechSynthesis' in window && (
+              <div className="flex items-center gap-2 flex-wrap">
+                {/* Cite Record Button */}
                 <button
-                  onClick={() => handleToggleAudio(`${selectedObit.deceased_name}. ${selectedObit.full_text}`)}
-                  className={`flex items-center gap-2 px-3 py-1.5 rounded-xl border text-xs font-mono transition-all ${
-                    isPlayingAudio
-                      ? 'bg-[#C87D53] text-[#0F141A] font-bold border-[#C87D53]'
-                      : 'bg-[#0F141A] border-[#2A3644] text-[#D4A373] hover:border-[#C87D53]'
-                  }`}
+                  onClick={() => setIsCitationOpen(true)}
+                  className="flex items-center gap-2 px-3 py-1.5 rounded-xl border text-xs font-mono transition-all bg-[#0F141A] border-[#2A3644] text-[#D4A373] hover:border-[#C87D53] hover:text-[#F3EBE3]"
                 >
-                  {isPlayingAudio ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
-                  <span>{isPlayingAudio ? 'Stop Audio' : 'Audio Reader'}</span>
+                  <BookOpen className="w-4 h-4 text-[#C87D53]" />
+                  <span>Cite Record</span>
                 </button>
-              )}
+
+                {/* Text to Speech Button */}
+                {'speechSynthesis' in window && (
+                  <button
+                    onClick={() => handleToggleAudio(`${selectedObit.deceased_name}. ${selectedObit.full_text}`)}
+                    className={`flex items-center gap-2 px-3 py-1.5 rounded-xl border text-xs font-mono transition-all ${
+                      isPlayingAudio
+                        ? 'bg-[#C87D53] text-[#0F141A] font-bold border-[#C87D53]'
+                        : 'bg-[#0F141A] border-[#2A3644] text-[#D4A373] hover:border-[#C87D53]'
+                    }`}
+                  >
+                    {isPlayingAudio ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
+                    <span>{isPlayingAudio ? 'Stop Audio' : 'Audio Reader'}</span>
+                  </button>
+                )}
+              </div>
             </div>
 
             <div className="flex flex-wrap gap-4 text-xs text-[#9EA9B6] mb-6 bg-[#0F141A] p-4 rounded-2xl border border-[#2A3644]">
@@ -272,6 +286,14 @@ export default function ObituaryViewer({ onSelectPerson }) {
           </div>
         </div>
       )}
+
+      {/* Citation & Export Modal for Obituary */}
+      <CitationModal
+        isOpen={isCitationOpen}
+        onClose={() => setIsCitationOpen(false)}
+        data={selectedObit}
+        type="obituary"
+      />
     </div>
   );
 }

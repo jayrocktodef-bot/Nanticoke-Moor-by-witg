@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Oct 1889 Delaware, USA",
     "death_info": "Delaware, USA",
@@ -79,6 +79,101 @@
       "place_string": null,
       "value_string": "married Cassius MOSLEY on 23 September, 1900",
       "citations": []
+    },
+    {
+      "fact_id": 13547,
+      "person_id": 10625,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Fork Branch",
+      "citations": [
+        {
+          "citation_id": 12349,
+          "fact_id": 13547,
+          "source_id": 58,
+          "evidence_text": "...& Mary J. Mosley\" Ephraim Harrison Mosley (no dates) 1 side of the Cramer/Dickerson marker Clara V. Mosley 1888 - 1965 Levi Mosley 1878 - 1963 Sadie M. Mosley 1884 - 1911 David W. Mosley Sr. 1863 - 1949 Lucinda Mosley 1868 - 1941 \"At Rest\" Dorothy...",
+          "source_title": "Record: fbranch.htm",
+          "source_url": "fbranch.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13588,
+      "person_id": 10625,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Cornelius Hansor",
+      "citations": [
+        {
+          "citation_id": 12390,
+          "fact_id": 13588,
+          "source_id": 63,
+          "evidence_text": "...) married William Nutter Harmon Lena Hansley ( 1885 - ) married John Harmon Clara Hansley (c. 1888 - 1965 ) married Levi Mosley Clara is buried at Fork Branch Cemetery Jennie Hansley (b.c. 1890 - d. 1938 ) Hattie Hansley (Jan 9, 1891 - May 23,...",
+          "source_title": "Record: hansr-c2.htm",
+          "source_url": "hansr-c2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13776,
+      "person_id": 10625,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Wesley Jackson",
+      "citations": [
+        {
+          "citation_id": 12578,
+          "fact_id": 13776,
+          "source_id": 70,
+          "evidence_text": "...sometime before 1840 . Wesley and Elizabeth had the following children: Mary Elizabeth Jackson (c. 1840 - ) married Levi Mosley on Dec. 30, 1858 Robert B. Jackson ( 1842 - 1915 ) married Lydia Ann Wright James M Jackson ( 1845 - 1926 ) married...",
+          "source_title": "Record: jacksnw1.htm",
+          "source_url": "jacksnw1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14013,
+      "person_id": 10625,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Marriage Records",
+      "citations": [
+        {
+          "citation_id": 12815,
+          "fact_id": 14013,
+          "source_id": 78,
+          "evidence_text": "...8, 1831 Eliza Kemp Henry Jackson Dec. 22, 1838 Mary Jane Norwood Isreal Jackson --- 13, 1843 Mary Elizabeth Jackson Levi Mosley Dec. 30, 1858 New Castle Co., Delaware Mary Butcher Edward Brennen Jan. 7, 1719 Sara Atkinson John Butcher August 15,...",
+          "source_title": "Record: marry.htm",
+          "source_url": "marry.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15447,
+      "person_id": 10625,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14249,
+          "fact_id": 15447,
+          "source_id": 843,
+          "evidence_text": "...children. I think Nathaniel passed away before 1860 . I think Robert was a baby and was possibly later adopted by Levi Mosley and his wife Mary. \u00a0 1. Emmanuel Harmon Jr., born abt 1817 in Delaware; died 1862 in Delaware, son of Emmanuel Harmon...",
+          "source_title": "Preserved Document: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+          "source_url": "HarmonEmmanuelProbate.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -102,7 +197,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Levi.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyLevi.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

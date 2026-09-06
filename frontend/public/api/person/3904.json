@@ -6,7 +6,7 @@
     "middle_name": "Mosley",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarneyRobertJamesSr&Family.htm",
     "birth_info": "unknown",
     "death_info": "unknown",
@@ -70,6 +70,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13534,
+      "person_id": 3904,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Fork Branch",
+      "citations": [
+        {
+          "citation_id": 12336,
+          "fact_id": 13534,
+          "source_id": 58,
+          "evidence_text": "...D. Carney 1893 - (no date) Return and Ola Carneys Children (no names or dates) Robert J. Carney 1874 - 1943 \"Father\" Cordelia Carney 1879 - 1935 \"Mother\" Robert R. Corney 7/22/ 1842 - 3/7/ 1911 \"Husband of Amana Corney\" Amanda Corney 1849 - 1924 \"Wife...",
+          "source_title": "Record: fbranch.htm",
+          "source_url": "fbranch.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +104,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Robert_James_Sr_And_Cordelia.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyRobertJamesSr&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

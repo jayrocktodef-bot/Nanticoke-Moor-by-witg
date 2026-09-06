@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "29 Apr 1851",
     "death_info": "9 Mar 1925 (aged 73)",
@@ -70,6 +70,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 13643,
+      "person_id": 9801,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harmony Methodist Church",
+      "citations": [
+        {
+          "citation_id": 12445,
+          "fact_id": 13643,
+          "source_id": 65,
+          "evidence_text": "...F. Harmon 1908 - George Harmon (no dates) George Harmon (no dates) Willey Harmon (no dates) Willey Harmon (no dates) Mary Harmon (no dates) Mary Harmon (no dates) George Harmon 3/1/ 1908 - George Harmon 3/1/ 1908 - Freddie Harmon (no dates)...",
+          "source_title": "Record: harmony1.htm",
+          "source_url": "harmony1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -100,7 +119,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_Mary_Games.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonMaryGames.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

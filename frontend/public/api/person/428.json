@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "jacksnw1.htm",
     "birth_info": "5 Jan 1868",
     "death_info": "3 Aug 1947 (aged 79)",
@@ -26,7 +26,7 @@
           "citation_id": 706,
           "fact_id": 706,
           "source_id": 70,
-          "evidence_text": null,
+          "evidence_text": "...the 1870 census so it is possible he was married by then. I have no information on William but see the Jackson Bible . Nathaniel Jackson ( 1850 - 1934 ) married Lucy Perkins Catherine Jackson (c. 1856 - ) not in the 1860 census Jane Jackson (c. 1857 - )...",
           "source_title": "Record: jacksnw1.htm",
           "source_url": "jacksnw1.htm",
           "source_dataset": "lynncjackson"
@@ -45,7 +45,7 @@
           "citation_id": 707,
           "fact_id": 707,
           "source_id": 70,
-          "evidence_text": null,
+          "evidence_text": "...the 1870 census so it is possible he was married by then. I have no information on William but see the Jackson Bible . Nathaniel Jackson ( 1850 - 1934 ) married Lucy Perkins Catherine Jackson (c. 1856 - ) not in the 1860 census Jane Jackson (c. 1857 - )...",
           "source_title": "Record: jacksnw1.htm",
           "source_url": "jacksnw1.htm",
           "source_dataset": "lynncjackson"
@@ -64,10 +64,67 @@
           "citation_id": 708,
           "fact_id": 708,
           "source_id": 70,
-          "evidence_text": null,
+          "evidence_text": "...the 1870 census so it is possible he was married by then. I have no information on William but see the Jackson Bible . Nathaniel Jackson ( 1850 - 1934 ) married Lucy Perkins Catherine Jackson (c. 1856 - ) not in the 1860 census Jane Jackson (c. 1857 - )...",
           "source_title": "Record: jacksnw1.htm",
           "source_url": "jacksnw1.htm",
           "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13823,
+      "person_id": 428,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Nathaniel Jackson",
+      "citations": [
+        {
+          "citation_id": 12625,
+          "fact_id": 13823,
+          "source_id": 75,
+          "evidence_text": "Nathaniel Jackson Preserved Primary Document \u2022 jacksonn.htm Nathaniel Jackson was the son of Wesley Jackson and his wife, Elizabeth. He...",
+          "source_title": "Record: jacksonn.htm",
+          "source_url": "jacksonn.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15772,
+      "person_id": 428,
+      "fact_type": "Racial Classification",
+      "date_string": "1860",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 10",
+      "citations": [
+        {
+          "citation_id": 14574,
+          "fact_id": 15772,
+          "source_id": 687,
+          "evidence_text": "1860 Census: Jackson, Nathaniel \u2014 M | Nathaniel | 10 | M | M | John P.",
+          "source_title": "Preserved Document: Census-1860",
+          "source_url": "census19.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15880,
+      "person_id": 428,
+      "fact_type": "Racial Classification",
+      "date_string": "1870",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 19",
+      "citations": [
+        {
+          "citation_id": 14682,
+          "fact_id": 15880,
+          "source_id": 688,
+          "evidence_text": "1870 Census: Jackson, Nathaniel \u2014 no occ. | Nathaniel | 19 | M | M | work on farm",
+          "source_title": "Preserved Document: Census-1870",
+          "source_url": "census20.htm",
+          "source_dataset": "mitsawokett_primary"
         }
       ]
     }
@@ -93,7 +150,12 @@
       "local_image_path": "assets/archive_media/people/Nathaniel_Jackson_var1.jpg",
       "source_url": null,
       "dataset_source": "images",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 428,
@@ -106,7 +168,12 @@
       "local_image_path": "assets/archive_media/people/Nathaniel_Jackson.jpg",
       "source_url": null,
       "dataset_source": "images",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

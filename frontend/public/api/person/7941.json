@@ -79,22 +79,64 @@
       "place_string": null,
       "value_string": "married June 12, 1904",
       "citations": []
+    },
+    {
+      "fact_id": 15895,
+      "person_id": 7941,
+      "fact_type": "Racial Classification",
+      "date_string": "1870",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 24",
+      "citations": [
+        {
+          "citation_id": 14697,
+          "fact_id": 15895,
+          "source_id": 688,
+          "evidence_text": "1870 Census: Wright, Emily \u2014 Emily | 24 | F | M | keep house | Fannie",
+          "source_title": "Preserved Document: Census-1870",
+          "source_url": "census20.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
     {
       "person_id": 7941,
-      "photo_id": 2550,
-      "category": "family_trees",
-      "title_or_caption": "Wright_Oscar_And_Emily_Ancestry.jpg",
+      "photo_id": 2552,
+      "category": "people",
+      "title_or_caption": "Wright_Oscar_Whittington.jpg",
       "subject_names": "Emily 2",
       "married_surname": "Wright",
       "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Wright_Oscar_And_Emily_Ancestry.jpg",
+      "local_image_path": "assets/archive_media/people/Wright_Oscar_Whittington.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightOscarWhittington.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 7941,
+      "photo_id": 2529,
+      "category": "people",
+      "title_or_caption": "Wright_David_W.jpg",
+      "subject_names": "Emily C. Johnson",
+      "married_surname": "Wright",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Wright_David_W.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightDavid.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

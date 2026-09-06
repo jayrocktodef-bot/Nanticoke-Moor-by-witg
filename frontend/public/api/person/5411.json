@@ -41,10 +41,104 @@
       "place_string": null,
       "value_string": "married  Araminta Sisco     Sometime before 1858",
       "citations": []
+    },
+    {
+      "fact_id": 13322,
+      "person_id": 5411,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Benjamin Durham",
+      "citations": [
+        {
+          "citation_id": 12124,
+          "fact_id": 13322,
+          "source_id": 47,
+          "evidence_text": ".... Although living on Jolly's Neck Farm, Benjamin's occupation is listed as \"laborer\". Living next door are William and Mahala Durham. William's birthdate is listed as c. 1818 so it is possible that he was a brother although the 1820 census records...",
+          "source_title": "Record: durhm-b2.htm",
+          "source_url": "durhm-b2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14000,
+      "person_id": 5411,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Marriage Records",
+      "citations": [
+        {
+          "citation_id": 12802,
+          "fact_id": 14000,
+          "source_id": 78,
+          "evidence_text": "...Mary Durham George Clark 1857 Sarah Currey Elisha Durham Feb. 19, 1857 Margaret A. Moore Jeremiah Durham June 11, 1857 Mahala Durham William Morgan 1858 Ann Jack Harry Durham March 15, 1859 Margaret E. Muncy Avery A. Dodd June 6 (or7), 1860 Angelina...",
+          "source_title": "Record: marry.htm",
+          "source_url": "marry.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14172,
+      "person_id": 5411,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: William H Morgan",
+      "citations": [
+        {
+          "citation_id": 12974,
+          "fact_id": 14172,
+          "source_id": 645,
+          "evidence_text": "...1849 ) James K. Morgan ( 1851 - 1931 ) married Araminta Sisco Sometime before 1858 , Annie died and William married, Mahala DURHAM who was the widow of William Durham and the daughter of Isaiah Songo . They had the following children: William Morgan...",
+          "source_title": "Record: morgan-w.htm",
+          "source_url": "morgan-w.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15651,
+      "person_id": 5411,
+      "fact_type": "Racial Classification",
+      "date_string": "1850",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'M' (Mulatto), age 28",
+      "citations": [
+        {
+          "citation_id": 14453,
+          "fact_id": 15651,
+          "source_id": 15,
+          "evidence_text": "1850 Census: Durham, Mahala \u2014 Mahala | 28 | F | M | Sarah | 7",
+          "source_title": "Record: census18.htm",
+          "source_url": "census18.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 5411,
+      "photo_id": 881,
+      "category": "people",
+      "title_or_caption": "Durham_Nehemiah_Unretouched.jpg",
+      "subject_names": "Mahala Songo Durham",
+      "married_surname": "Durham",
+      "approximate_year": "1850",
+      "local_image_path": "assets/archive_media/people/Durham_Nehemiah_Unretouched.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamNehemiah.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 5411,
       "photo_id": 862,
@@ -56,7 +150,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Mahala_Songo.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamIsaiahZed.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -6,7 +6,7 @@
     "middle_name": "Charley",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Apr 1869 Indian River Hundred, Sussex County, Delaware, USA",
     "death_info": "USA",
@@ -70,6 +70,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 15486,
+      "person_id": 9107,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14288,
+          "fact_id": 15486,
+          "source_id": 139,
+          "evidence_text": "...24 May 1833 . She was to be taught the art, trade or mystery of housewifery. (Eunice later married Captain Ephraim Charles Harmon) Mary Wright was bound to Levin Sockum on the 23 Mar 1843 ; her age was 8 years 1 months and 15 days, which would make...",
+          "source_title": "Record: Apprentice%20Indentures%20-%20Warren%20Wright%20family%201843.htm",
+          "source_url": "Apprentice%20Indentures%20-%20Warren%20Wright%20family%201843.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -93,7 +112,30 @@
       "local_image_path": "assets/archive_media/people/Harmon_Charles.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonCharles.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9107,
+      "photo_id": 1169,
+      "category": "people",
+      "title_or_caption": "Harmon_Eunice_Nicey_Wright.jpg",
+      "subject_names": "Ephraim Charles \"Captain\" Harmon",
+      "married_surname": "Harmon",
+      "approximate_year": "1830",
+      "local_image_path": "assets/archive_media/people/Harmon_Eunice_Nicey_Wright.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonCaptainEphraimCharles.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 9107,
@@ -106,7 +148,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_B_And_Laura_Edithdausof_Laura_Hansley_And_Charles.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonCharles.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 9107,
@@ -119,7 +166,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_Captain_Ephraim_Charles.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonCaptainEphraimCharles.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

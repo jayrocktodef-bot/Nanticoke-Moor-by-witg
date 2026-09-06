@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Morgan",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MorganKenneth&wife50th.htm",
     "birth_info": "28 Oct 1905",
     "death_info": "22 Jul 1969 (aged 63)",
@@ -70,6 +70,44 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 14211,
+      "person_id": 6435,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: James K. Morgan",
+      "citations": [
+        {
+          "citation_id": 13013,
+          "fact_id": 14211,
+          "source_id": 87,
+          "evidence_text": "...Leticia Hughes Mildred Mosley ( 1908 - 1986 ) married Presley Durham James D. Mosley ( Feb 1919 - June 1, 1919 ) Kenneth Morgan ( 3 March, 1884 - 1962 ) married Lavinnia \"Veenie\" MOSLEY ( 1883 - 1969 ), daughter of John Mosley and Elizabeth...",
+          "source_title": "Record: morganj4.htm",
+          "source_url": "morganj4.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14978,
+      "person_id": 6435,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Araminta Sisco",
+      "citations": [
+        {
+          "citation_id": 13780,
+          "fact_id": 14978,
+          "source_id": 104,
+          "evidence_text": "...children: Harvey Morgan (b. 1879 ) married Sally CARNEY Lillie Mae Morgan ( 1883 - 1940 ) married Wilbur MOSLEY Kenneth Morgan (b. 1884 ) married Lavinnia MOSLEY Sadie Morgan (b. April 1885 ) Margaret Morgan (b.Sept. 1892 ) Edward Morgan ( 1894...",
+          "source_title": "Record: sisco-a.htm",
+          "source_url": "sisco-a.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,20 +123,12 @@
       "local_image_path": "assets/archive_media/people/Morgan_Kenneth_And_Wife_50_Th.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganKenneth&wife50th.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 6435,
-      "photo_id": 1581,
-      "category": "people",
-      "title_or_caption": "Morgan_Ken.jpg",
-      "subject_names": "Morgan",
-      "married_surname": "Morgan",
-      "approximate_year": "1883",
-      "local_image_path": "assets/archive_media/people/Morgan_Ken.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganKenneth&wife50th.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

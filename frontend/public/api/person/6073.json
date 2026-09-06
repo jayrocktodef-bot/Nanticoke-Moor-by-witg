@@ -76,6 +76,24 @@
   "photos": [
     {
       "person_id": 6073,
+      "photo_id": 1244,
+      "category": "people",
+      "title_or_caption": "Harmons_And_Streets.jpg",
+      "subject_names": "Fedora Harmon",
+      "married_surname": "Harmons",
+      "approximate_year": "1921",
+      "local_image_path": "assets/archive_media/people/Harmons_And_Streets.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonFedora&Children.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "lineage_chart",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 6073,
       "photo_id": 1170,
       "category": "people",
       "title_or_caption": "Harmon_Fedora_And_Kids.jpg",
@@ -85,20 +103,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_Fedora_And_Kids.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonFedora&Children.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 6073,
-      "photo_id": 1172,
-      "category": "family_trees",
-      "title_or_caption": "Harmon_Fedora_Ancestry.jpg",
-      "subject_names": "Mary Harmon Games/Gaines",
-      "married_surname": "Harmon",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Harmon_Fedora_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonMaryGames.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

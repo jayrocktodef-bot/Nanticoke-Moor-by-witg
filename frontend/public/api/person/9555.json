@@ -6,7 +6,7 @@
     "middle_name": "Parker",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1810 Sussex County, Delaware, USA",
     "death_info": "Sussex County, Delaware, USA",
@@ -79,6 +79,63 @@
       "place_string": null,
       "value_string": "married Cassius MOSLEY on 23 September, 1900",
       "citations": []
+    },
+    {
+      "fact_id": 12893,
+      "person_id": 9555,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: James Coker",
+      "citations": [
+        {
+          "citation_id": 11695,
+          "fact_id": 12893,
+          "source_id": 23,
+          "evidence_text": "...Ridgeley in Caroline Co.) sometime around 1816 but by 1818 he had moved with his family to Kent Co., DE. He married Eliza JACKSON of Delaware (born c. 1815 , possibly into the Sussex Co. JACKSON family) sometime before 1840 . James and Eliza had...",
+          "source_title": "Record: coker-j1.htm",
+          "source_url": "coker-j1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 12937,
+      "person_id": 9555,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mary Ann Coker",
+      "citations": [
+        {
+          "citation_id": 11739,
+          "fact_id": 12937,
+          "source_id": 26,
+          "evidence_text": "Mary Ann Coker Preserved Primary Document \u2022 coker-m3.htm Mary Ann Coker was the daughter of James Coker and Eliza JACKSON. She was born in Kent Co., DE on 9 September, 1844 . She married John H. Morgan , the son of William H.Morgan and...",
+          "source_title": "Record: coker-m3.htm",
+          "source_url": "coker-m3.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14192,
+      "person_id": 9555,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: John H. Morgan",
+      "citations": [
+        {
+          "citation_id": 12994,
+          "fact_id": 14192,
+          "source_id": 734,
+          "evidence_text": "...He was the son of William H. Morgan and Annie Saunders. He married Mary Ann Coker , daughter of James Coker and Eliza Jackson. While living in Kenton Hundred in 1876 , John and his father William H. Morgan purchased separate tracts of land from...",
+          "source_title": "Preserved Document: John H. Morgan",
+          "source_url": "morganj3.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -111,34 +168,7 @@
       "rel_name": "Hester A Jackson"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9555,
-      "photo_id": 1359,
-      "category": "family_trees",
-      "title_or_caption": "Jackson_Mary_Eliz_Ancestry.jpg",
-      "subject_names": "Perry Hughes 1",
-      "married_surname": "Jackson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Jackson_Mary_Eliz_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Jackson7&PerryHughes.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 9555,
-      "photo_id": 636,
-      "category": "people",
-      "title_or_caption": "Davis_Mary_Eliz_Jackson.jpg",
-      "subject_names": "Mary Elizabeth Jackson Davis",
-      "married_surname": "Davis",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Davis_Mary_Eliz_Jackson.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisMaryElizJackson.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [
     {

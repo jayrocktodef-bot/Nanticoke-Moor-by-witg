@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DavisWilliamHenry.htm",
     "birth_info": "1926",
     "death_info": "1988 (aged 61\u201362)",
@@ -70,6 +70,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13233,
+      "person_id": 4964,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Robert B. Dean",
+      "citations": [
+        {
+          "citation_id": 12035,
+          "fact_id": 13233,
+          "source_id": 702,
+          "evidence_text": "...Sept., 1893 - 25 Sept., 1979 ) married James Dean Faulkner Robert Bernard Dean (5 June, 1897 - ) married Ethel Jackson Gladys Dean ( 21 Oct., 1904 - c. 1943 ) married Ishmael Thomas and Frank Hilton Kent Co., Deeds (Liber U, vol.7) for 17 December,...",
+          "source_title": "Preserved Document: Robert B. Dean",
+          "source_url": "dean-r2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +104,12 @@
       "local_image_path": "assets/archive_media/people/Davis_Ned_And_Gladys_Dean.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisWilliamHenry.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4964,
@@ -98,20 +122,12 @@
       "local_image_path": "assets/archive_media/people/Davis_W_And_G_And_Gladys_Dean.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DeanRobertBurton.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 4964,
-      "photo_id": 1259,
-      "category": "family_trees",
-      "title_or_caption": "Hilton_Gladys_Dean_Ancestry.jpg",
-      "subject_names": "Gladys Dean",
-      "married_surname": "Hilton",
-      "approximate_year": "1914",
-      "local_image_path": "assets/archive_media/family_trees/Hilton_Gladys_Dean_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HiltonGladysDean.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4964,
@@ -124,7 +140,12 @@
       "local_image_path": "assets/archive_media/people/Hilton_Gladys_Dean.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DeanRobertBurton.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

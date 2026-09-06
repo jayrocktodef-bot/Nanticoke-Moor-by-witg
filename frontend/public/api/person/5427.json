@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamMildred&Brett.htm",
     "birth_info": "19 Sep 1882",
     "death_info": "16 Nov 1975 (aged 93)",
@@ -70,10 +70,86 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12877,
+      "person_id": 5427,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Alonzo Coker",
+      "citations": [
+        {
+          "citation_id": 11679,
+          "fact_id": 12877,
+          "source_id": 690,
+          "evidence_text": "...daughter of Samuel Loatman and Margaret Carney Vicktorine Coker, married Jeremiah Durham, son of Presley Durham and Mildred Mosley Mac Donald Coker ( 1934 - 1998 ) Clarence Coker Alonzo died in Kent Co., DE on 6 May, 1957 . Rebecca died in 1978 ....",
+          "source_title": "Preserved Document: Alonzo Coker",
+          "source_url": "coker-a7.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14116,
+      "person_id": 5427,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Lillie Mae Morgan Mosley",
+      "citations": [
+        {
+          "citation_id": 12918,
+          "fact_id": 14116,
+          "source_id": 731,
+          "evidence_text": "...Mosley , married Charles Edward Marriott Jeanette Mosley, married Harold Marriott (two sisters marrying two brothers) Mildred Mosley, married Presley DURHAM Thelma Mosley Marie Mosley Frazier Mosley Roland Mosley, married Marie SAMMONS Thomas Mosley...",
+          "source_title": "Preserved Document: Lillie Mae Morgan Mosley",
+          "source_url": "morgan-l.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14208,
+      "person_id": 5427,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: James K. Morgan",
+      "citations": [
+        {
+          "citation_id": 13010,
+          "fact_id": 14208,
+          "source_id": 87,
+          "evidence_text": "...Raymond Mosley Roland Mosley ( 1912 - 1994 ) married Marie Sammons Thelma Mosley Thomas Mosley married Leticia Hughes Mildred Mosley ( 1908 - 1986 ) married Presley Durham James D. Mosley ( Feb 1919 - June 1, 1919 ) Kenneth Morgan ( 3 March, 1884 -...",
+          "source_title": "Record: morganj4.htm",
+          "source_url": "morganj4.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 5427,
+      "photo_id": 871,
+      "category": "people",
+      "title_or_caption": "Durham_Mildred_And_Brett.jpg",
+      "subject_names": "Mildred Mosley Durham",
+      "married_surname": "Durham",
+      "approximate_year": "1970",
+      "local_image_path": "assets/archive_media/people/Durham_Mildred_And_Brett.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMildred&Brett.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

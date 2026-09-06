@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "moors_moors.aspx",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "January 6th, 1896",
     "notes": "Moor/Nanticoke lineage record - Harmon cluster | FindAGrave: no match",
     "dataset_source": "moors_delaware"
   },
@@ -41,6 +41,44 @@
       "place_string": null,
       "value_string": "d.  January 6th, 1896",
       "citations": []
+    },
+    {
+      "fact_id": 12663,
+      "person_id": 1024,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Census-Sussex County",
+      "citations": [
+        {
+          "citation_id": 11465,
+          "fact_id": 12663,
+          "source_id": 680,
+          "evidence_text": "...pg. #427 Wm. Handsor \"other free\" 3 pg. #455 A ? Harmon \"other free\" 6 pg. #427 Edward Harmon \"other free\" 8 pg. #437 Eli Harmon \"other free\" 3 pg. #404 Jethro Harmon \"other free\" 7 pg. #363 Jonathan Harman \"other free\" 7 pg. #458 Manuel Harmon...",
+          "source_title": "Preserved Document: Census-Sussex County",
+          "source_url": "census06.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15214,
+      "person_id": 1024,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Tax Lists",
+      "citations": [
+        {
+          "citation_id": 14016,
+          "fact_id": 15214,
+          "source_id": 836,
+          "evidence_text": "...Isaac Handsor Robert Okey Edgeniah Harman Burton Johnson William Okey John Handsor William Johnson Isaac Prettyman Eli Harmon William Johnson Sen. Thomas Prettyman Aminidab Handsor Edward Johnson James Prettymans Peery Handsor Slayton Johnson...",
+          "source_title": "Preserved Document: Tax Lists",
+          "source_url": "taxlist2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -143,34 +181,7 @@
       "rel_name": "Levi Harmon"
     }
   ],
-  "photos": [
-    {
-      "person_id": 1024,
-      "photo_id": 1163,
-      "category": "people",
-      "title_or_caption": "Harmon_Elincoln.jpg",
-      "subject_names": "Elizabeth P. Wright Harmon",
-      "married_surname": "Harmon",
-      "approximate_year": "1962",
-      "local_image_path": "assets/archive_media/people/Harmon_Elincoln.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanELincoln&Eliz.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 1024,
-      "photo_id": 1164,
-      "category": "family_trees",
-      "title_or_caption": "Harmon_Elincoln_Ancestry.jpg",
-      "subject_names": "Ephraim 2",
-      "married_surname": "Harmon",
-      "approximate_year": "1804",
-      "local_image_path": "assets/archive_media/family_trees/Harmon_Elincoln_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanIsaacWillie.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [
     {

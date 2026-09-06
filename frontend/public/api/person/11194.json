@@ -6,7 +6,7 @@
     "middle_name": "R.",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Obituary Archive",
     "birth_info": null,
     "death_info": "d. 1965",
@@ -51,10 +51,47 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 14042,
+      "person_id": 11194,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Indian Mission Church",
+      "citations": [
+        {
+          "citation_id": 12844,
+          "fact_id": 14042,
+          "source_id": 79,
+          "evidence_text": "...Alston Harmon 9/16/ 1912 - 5/23/ 1997 same stone as Helen Alston Harmon 9/16/ 1912 - 5/23/ 1997 same stone as Helen Helen Harmon 3/3/ 1916 - 3/12/ 1976 Helen Harmon 3/3/ 1916 - 3/12/ 1976 Theodore P. Harmon 6/10/ 1889 - 4/4/ 1962 same stone as...",
+          "source_title": "Record: mission1.htm",
+          "source_url": "mission1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 11194,
+      "photo_id": 1160,
+      "category": "people",
+      "title_or_caption": "Harmon_Delores_And_Iona_Durham_1996.jpg",
+      "subject_names": "Helen Carney Durham",
+      "married_surname": "Harmon",
+      "approximate_year": "1970",
+      "local_image_path": "assets/archive_media/people/Harmon_Delores_And_Iona_Durham_1996.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamHelen&Iona.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 11194,
       "photo_id": 1182,
@@ -66,7 +103,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_Helen_R_And_Kids.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonHelenR&kids.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -6,7 +6,7 @@
     "middle_name": "Franklin",
     "maiden_name": "",
     "married_last_name": "Johnson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MosleyJames&Sherren.htm",
     "birth_info": "1927",
     "death_info": "2017 (aged 89\u201390)",
@@ -127,6 +127,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 15223,
+      "person_id": 6911,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Tax Lists",
+      "citations": [
+        {
+          "citation_id": 14025,
+          "fact_id": 15223,
+          "source_id": 836,
+          "evidence_text": "...Nehemiah Hand...........1 Wm. Hanson..............1 Samuel Johnson..........1 Bingmun Johnson.........3 James Johnson...........2 Purnel Johnsons land....2 Wm. Kimmey..............2 Joshua Morgan...........10/ Joseph Morgan...........1...",
+          "source_title": "Preserved Document: Tax Lists",
+          "source_url": "taxlist2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -148,19 +167,6 @@
   "photos": [
     {
       "person_id": 6911,
-      "photo_id": 1411,
-      "category": "family_trees",
-      "title_or_caption": "Johnson_James_And_Lucy_Ancestry.jpg",
-      "subject_names": "Johnson James&Lucy Ancestry",
-      "married_surname": "Johnson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Johnson_James_And_Lucy_Ancestry.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonLucy.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 6911,
       "photo_id": 1413,
       "category": "people",
       "title_or_caption": "Johnson_James_Franklin.jpg",
@@ -170,7 +176,12 @@
       "local_image_path": "assets/archive_media/people/Johnson_James_Franklin.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJames&Sherren.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

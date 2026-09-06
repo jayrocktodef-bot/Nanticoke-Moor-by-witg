@@ -8,7 +8,7 @@
     "married_last_name": "Harmon",
     "evidence_level": 4,
     "source_page": "Probate.htm",
-    "birth_info": null,
+    "birth_info": "27 Oct 1852 (Sussex County)",
     "death_info": null,
     "notes": "Ingested from preserved Probate.htm record | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
@@ -41,6 +41,25 @@
       "place_string": "Sussex County",
       "value_string": "born 27 Oct 1852 in Sussex County,",
       "citations": []
+    },
+    {
+      "fact_id": 15434,
+      "person_id": 2424,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14236,
+          "fact_id": 15434,
+          "source_id": 843,
+          "evidence_text": "...Harmon, born abt 1853 in Delaware; died in (no record). He married Jane Catherine (Jackson) Harmon. ix Sarah Harmon. x Nicey Harmon. \u00a0 \u00a0 4 views of Emmanuel Harmons's land \u00a0 \u00a0 \u00a0 \u00a0 MAIN MENU \u00a0 EMAIL US \u00a0 \u00a0 MITSAWOKETT \"The History and Genealogy of the...",
+          "source_title": "Preserved Document: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+          "source_url": "HarmonEmmanuelProbate.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +75,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_Eunice_Nicey_Wright.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonCaptainEphraimCharles.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

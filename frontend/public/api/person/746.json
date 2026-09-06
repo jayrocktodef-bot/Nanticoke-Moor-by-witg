@@ -8,7 +8,7 @@
     "married_last_name": "Johnson",
     "evidence_level": 3,
     "source_page": "wright-d.htm",
-    "birth_info": null,
+    "birth_info": "30 October, 1872",
     "death_info": null,
     "notes": " | FindAGrave: no match",
     "dataset_source": "lynncjackson"
@@ -26,7 +26,7 @@
           "citation_id": 1047,
           "fact_id": 1047,
           "source_id": 112,
-          "evidence_text": null,
+          "evidence_text": "...Wright Willie Wright Nelson Wright Robert Wright Ethel Wright Maude Wright Alberta Wright Lottie Wright who married Nelson Johnson Agnes V. Wright (b. 1878 ) who married Harvey Morris The had the following children: Horace Morris Dave Morris Harvey...",
           "source_title": "Record: wright-d.htm",
           "source_url": "wright-d.htm",
           "source_dataset": "lynncjackson"
@@ -41,6 +41,63 @@
       "place_string": null,
       "value_string": "was born on 30 October, 1872 and died",
       "citations": []
+    },
+    {
+      "fact_id": 14047,
+      "person_id": 746,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Indian Mission Church",
+      "citations": [
+        {
+          "citation_id": 12849,
+          "fact_id": 14047,
+          "source_id": 80,
+          "evidence_text": "...& Anna Street Mary E. Johnson d. 3/12/ 1914 \"age 78y\" \"Resting\" Mary E. Johnson d. 3/12/ 1914 \"age 78y\" \"Resting\" Nelson Johnson 7/13/ 1888 - 2/9/ 1951 \"DE Cpl Co F 368 Inf. 92nd Div. WW II\" Nelson Johnson 7/13/ 1888 - 2/9/ 1951 \"DE Cpl Co F 368...",
+          "source_title": "Record: mission2.htm",
+          "source_url": "mission2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15313,
+      "person_id": 746,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Elizabeth Patience Wright",
+      "citations": [
+        {
+          "citation_id": 14115,
+          "fact_id": 15313,
+          "source_id": 114,
+          "evidence_text": "...Barnard Johnson who married Mamie Mosley Mabel Johnson Leon Johnson Isaac Johnson Lilly Johnson who married Bud Davis Nelson Johnson who married Lottie Wright, daughter of Sarah and William Wright Custis Johnson Annie Patience Johnson Ella Johnson...",
+          "source_title": "Record: wrightp2.htm",
+          "source_url": "wrightp2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15334,
+      "person_id": 746,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Warren Wright",
+      "citations": [
+        {
+          "citation_id": 14136,
+          "fact_id": 15334,
+          "source_id": 116,
+          "evidence_text": "...married Charles Mosley Robert C. Wright Roy Wright William A. Wright married Sarah Children: Lottie Wright who married Nelson Johnson Alden Wright Return Wright Alberta Wright who married a Miller Harry Wright Howard J. Wright Elizabeth Patience Wright...",
+          "source_title": "Record: wrightw.htm",
+          "source_url": "wrightw.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -64,7 +121,12 @@
       "local_image_path": "assets/archive_media/people/Johnson_Nelson_And_Lottie_Wright_1.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliam&Patience.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

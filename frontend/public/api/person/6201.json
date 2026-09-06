@@ -8,7 +8,7 @@
     "married_last_name": "Jackson",
     "evidence_level": 3,
     "source_page": "JacksonLydiaAnnWright.htm",
-    "birth_info": null,
+    "birth_info": "27 Feb. 1888",
     "death_info": null,
     "notes": "Ingested from JacksonLydiaAnnWright.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
@@ -41,6 +41,63 @@
       "place_string": null,
       "value_string": "born 27 Feb. 1888",
       "citations": []
+    },
+    {
+      "fact_id": 13758,
+      "person_id": 6201,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Robert B Jackson",
+      "citations": [
+        {
+          "citation_id": 12560,
+          "fact_id": 13758,
+          "source_id": 69,
+          "evidence_text": "...Mosley (Jan. 1896 - ) who married Addie Durham, daughter of Jeremiah Durham and Lydia Munce Martha J. Mosley Sarah Ann Jackson was born in Sussex Co., DE. in 1875 . She married Perry Hughes and lived in Kent Co., DE. where she died in 1957 . She...",
+          "source_title": "Record: jacksnr2.htm",
+          "source_url": "jacksnr2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13789,
+      "person_id": 6201,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Jackson",
+      "citations": [
+        {
+          "citation_id": 12591,
+          "fact_id": 13789,
+          "source_id": 71,
+          "evidence_text": "...colored\" 1820 Federal Census Nanticoke Hundred William Jackson \"free colored\" 1830 Federal Census Broadkill Hundred Ann Jackson \"widow\", \"white\" 1830 Federal Census Indian River Hundred Henry Jackson 1830 Federal Census Laurel Stephen Jackson (N)...",
+          "source_title": "Record: jackson.htm",
+          "source_url": "jackson.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15296,
+      "person_id": 6201,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Lydia Wright",
+      "citations": [
+        {
+          "citation_id": 14098,
+          "fact_id": 15296,
+          "source_id": 839,
+          "evidence_text": "...Mosley (Jan. 1896 - ) who married Addie Durham, daughter of Jeremiah Durham and Lydia Munce Martha J. Mosley Sarah Ann Jackson was born in Sussex Co., DE. in 1875 . She married Perry Hughes and lived in Kent Co., DE. where she died in 1957 . She...",
+          "source_title": "Preserved Document: Lydia Wright",
+          "source_url": "wright-l.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +113,12 @@
       "local_image_path": "assets/archive_media/people/Jackson_Lydia_Ann_Wright_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Jackson7&PerryHughes.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6201,
@@ -69,20 +131,12 @@
       "local_image_path": "assets/archive_media/people/Jackson_Lydia_Ann_Wright.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Jackson7&PerryHughes.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 6201,
-      "photo_id": 3200,
-      "category": "documents",
-      "title_or_caption": "Lawrence_Jackson_Death_Announcement.jpg",
-      "subject_names": "lawrence jackson death announcement",
-      "married_surname": "",
-      "approximate_year": "1914",
-      "local_image_path": "assets/archive_media/documents/Lawrence_Jackson_Death_Announcement.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Obituaries/obit-jackson.html",
-      "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

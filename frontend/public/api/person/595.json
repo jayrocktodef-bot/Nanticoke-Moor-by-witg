@@ -8,7 +8,7 @@
     "married_last_name": "Sockum",
     "evidence_level": 3,
     "source_page": "photo.htm",
-    "birth_info": null,
+    "birth_info": "14 May, 1854 (Gloucester City on 14 May, 1854 and died on 6 Sept)",
     "death_info": null,
     "notes": "Linked to photo12.htm | FindAGrave: no match",
     "dataset_source": "lynncjackson"
@@ -26,7 +26,7 @@
           "citation_id": 962,
           "fact_id": 962,
           "source_id": 569,
-          "evidence_text": null,
+          "evidence_text": "...1913 ) Araminta Sisco (11/ 1814 - 10/1/ 1902 ) Levin Sockum & Eunice Ridgeway : Frederick Seeney & Hester Dean Seeney Sarah Sockum Elwood Wright : married to Caroline Jackson Lydia Ann Wright : (2/2/ 1848 - 5/3/ 1901 ) Walter B. Wright : (1/21/ 1881...",
           "source_title": "Record: photo.htm",
           "source_url": "photo.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -41,6 +41,63 @@
       "place_string": "Gloucester City on 14 May, 1854 and died on 6 Sept",
       "value_string": "was born in Gloucester City on 14 May, 1854 and died on 6 Sept.",
       "citations": []
+    },
+    {
+      "fact_id": 13839,
+      "person_id": 595,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Rebecca Jackson",
+      "citations": [
+        {
+          "citation_id": 12641,
+          "fact_id": 13839,
+          "source_id": 644,
+          "evidence_text": "...Co., DE in 1944 . She died in Sussex Co., DE in 1944 . Rebecca married Levin T. HARMON , the son of Isaac Harmon and Sarah Sockum. Levin was born in Sussex Co., DE in 1860 and died there in 1940 . Rebecca married Levin T. HARMON , the son of Isaac...",
+          "source_title": "Record: jacksonr.htm",
+          "source_url": "jacksonr.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15080,
+      "person_id": 595,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Sockum",
+      "citations": [
+        {
+          "citation_id": 13882,
+          "fact_id": 15080,
+          "source_id": 111,
+          "evidence_text": "...the result of a trial in which he was accused of selling gun powder to a negro. For an account of the story, see Moors Sarah Sockum daughter of Levin Sockum and wife of Isaac Harmon In 1757 John Scokem and his wife Rachel appear in the taxables for...",
+          "source_title": "Record: sockum.htm",
+          "source_url": "sockum.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15704,
+      "person_id": 595,
+      "fact_type": "Racial Classification",
+      "date_string": "1850",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 13",
+      "citations": [
+        {
+          "citation_id": 14506,
+          "fact_id": 15704,
+          "source_id": 15,
+          "evidence_text": "1850 Census: Sockum, Sarah \u2014 Sarah | 13 | F | M | Rebecca | 11",
+          "source_title": "Record: census18.htm",
+          "source_url": "census18.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +113,30 @@
       "local_image_path": "assets/archive_media/people/Sarah_Sockum.jpg",
       "source_url": null,
       "dataset_source": "images",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 595,
+      "photo_id": 1221,
+      "category": "people",
+      "title_or_caption": "Harmon_Sarah_Jane_Sockum.jpg",
+      "subject_names": "Isaac W. Harmon",
+      "married_surname": "Harmon",
+      "approximate_year": "1829",
+      "local_image_path": "assets/archive_media/people/Harmon_Sarah_Jane_Sockum.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonIsaacW&SarahSockum.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

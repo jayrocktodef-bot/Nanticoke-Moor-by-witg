@@ -79,6 +79,120 @@
       "place_string": null,
       "value_string": "married Howard Clifton Wilson on 18 December 1920",
       "citations": []
+    },
+    {
+      "fact_id": 13102,
+      "person_id": 6682,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Annie Dean",
+      "citations": [
+        {
+          "citation_id": 11904,
+          "fact_id": 13102,
+          "source_id": 37,
+          "evidence_text": "...Dean and Catherine Morgan . She was born in Kent Co., DE on 30 January, 1870 . On 4 January, 1888 she married Charles Henry Mosley ( 1861 - 1906 ), son of Wingate MOSLEY and his wife, Nancy. Annie and Charles had 12 children: Geoffrey A. Mosley(...",
+          "source_title": "Record: dean-ae.htm",
+          "source_url": "dean-ae.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13224,
+      "person_id": 6682,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Robert Dean",
+      "citations": [
+        {
+          "citation_id": 12026,
+          "fact_id": 13224,
+          "source_id": 43,
+          "evidence_text": "...(28 January, 1868 - 31 October, 1948 ) married Frederick H. Seeney Anna Elizabeth Dean ( 1870 - 1963 ) married Charles Henry MOSLEY Ullysses Dean Hester Dean & Frederick Seeney photo curtesy of Matt Sammons After the death of her husband in 1874 ,...",
+          "source_title": "Record: dean-r.htm",
+          "source_url": "dean-r.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13762,
+      "person_id": 6682,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Robert B Jackson",
+      "citations": [
+        {
+          "citation_id": 12564,
+          "fact_id": 13762,
+          "source_id": 69,
+          "evidence_text": "...Johnson both are buried at Fork Branch Cemetery in Kent Co., DE children: Annie M. Mosley Rosetta Mosley John Henry Mosley (Jan. 1896 - ) who married Addie Durham, daughter of Jeremiah Durham and Lydia Munce Martha J. Mosley Sarah Ann...",
+          "source_title": "Record: jacksnr2.htm",
+          "source_url": "jacksnr2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14089,
+      "person_id": 6682,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Catherine Morgan",
+      "citations": [
+        {
+          "citation_id": 12891,
+          "fact_id": 14089,
+          "source_id": 82,
+          "evidence_text": "...MOSLEY Hester Dean ( 1868 - 1948 ) married Frederick Seeney Anna Elizabeth Dean ( 1870 - 1963 ) married Charles Henry MOSLEY Ullysses S. Dean After the death of her first husband, Robert Dean, on 30 September, 1874 , Catherine remarried,...",
+          "source_title": "Record: morgan-c.htm",
+          "source_url": "morgan-c.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15300,
+      "person_id": 6682,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Lydia Wright",
+      "citations": [
+        {
+          "citation_id": 14102,
+          "fact_id": 15300,
+          "source_id": 839,
+          "evidence_text": "...Johnson both are buried at Fork Branch Cemetery in Kent Co., DE children: Annie M. Mosley Rosetta Mosley John Henry Mosley (Jan. 1896 - ) who married Addie Durham, daughter of Jeremiah Durham and Lydia Munce Martha J. Mosley Sarah Ann...",
+          "source_title": "Preserved Document: Lydia Wright",
+          "source_url": "wright-l.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15790,
+      "person_id": 6682,
+      "fact_type": "Racial Classification",
+      "date_string": "1860",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'M' (Mulatto), age 21",
+      "citations": [
+        {
+          "citation_id": 14592,
+          "fact_id": 15790,
+          "source_id": 687,
+          "evidence_text": "1860 Census: Mosley, Henry \u2014 M | Henry | 21 | M | M | JOHNSON",
+          "source_title": "Preserved Document: Census-1860",
+          "source_url": "census19.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -94,7 +208,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Charles_Henry.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ChappelleJohn&Pearl.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

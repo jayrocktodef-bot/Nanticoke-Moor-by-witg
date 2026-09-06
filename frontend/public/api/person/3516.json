@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "DurhamEnochMiller&GenevaCuff.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "Dec. 22, 1958",
     "notes": "Ingested from DurhamEnochMiller&GenevaCuff.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,10 +41,47 @@
       "place_string": null,
       "value_string": "d. Dec. 22, 1958",
       "citations": []
+    },
+    {
+      "fact_id": 13986,
+      "person_id": 3516,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Marriage Records",
+      "citations": [
+        {
+          "citation_id": 12788,
+          "fact_id": 13986,
+          "source_id": 78,
+          "evidence_text": "...Dean July 30, 1863 Caroline Hansley Morris Mosley June 26, 1864 Rebecca Colt/Cott? Cornelius Ridgeway Jan. 11, 1866 Marie Durham John W. Clark 1875 Virginia L. Montgomery Thomas Muncy Feb. 12, 1875 Susan Sammons Purnell Mosley Oct. 10, 1875 Martha...",
+          "source_title": "Record: marry.htm",
+          "source_url": "marry.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 3516,
+      "photo_id": 1023,
+      "category": "people",
+      "title_or_caption": "Gould_Marie_Cdurham.jpg",
+      "subject_names": "Marie C. Durham",
+      "married_surname": "Gould",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Gould_Marie_Cdurham.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/GouldMarieCDurham.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 3516,
       "photo_id": 933,
@@ -56,20 +93,30 @@
       "local_image_path": "assets/archive_media/people/Durham_David_G_And_Marie_Mc_Macken.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DurhamEnochMiller&GenevaCuff.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3516,
-      "photo_id": 913,
-      "category": "family_trees",
-      "title_or_caption": "Durham_Shallie_Marie_Ancestry.jpg",
-      "subject_names": "Carney",
-      "married_surname": "Durham",
+      "photo_id": 1021,
+      "category": "people",
+      "title_or_caption": "Gould_Jesse_And_Mariechildren_An.jpg",
+      "subject_names": "Marie C. Durham",
+      "married_surname": "Gould",
       "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Durham_Shallie_Marie_Ancestry.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyWinter&LillianDurham.htm",
+      "local_image_path": "assets/archive_media/people/Gould_Jesse_And_Mariechildren_An.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/GouldMarieCDurham.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

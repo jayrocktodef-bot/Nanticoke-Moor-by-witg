@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Obituary Archive",
     "birth_info": null,
     "death_info": "d. 1963",
@@ -51,6 +51,25 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 14398,
+      "person_id": 11196,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits",
+      "citations": [
+        {
+          "citation_id": 13200,
+          "fact_id": 14398,
+          "source_id": 747,
+          "evidence_text": "...from the Short Funeral Home where friends may call tomorrow night. Mrs. Levi W. Harmon Jan. 17, 1968 MILTON: Mrs. Arzelia Harmon, 68 of here died yesterday at Milford Memorial Hospital after a long illness. She was a member of the Congregational...",
+          "source_title": "Preserved Document: Obits",
+          "source_url": "obit-h2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -66,7 +85,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_Arzelia_Street.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonArzeliaStreet.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "document",
+      "subtype": "lineage_chart",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

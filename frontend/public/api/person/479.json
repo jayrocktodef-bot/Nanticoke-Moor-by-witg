@@ -26,7 +26,7 @@
           "citation_id": 817,
           "fact_id": 817,
           "source_id": 77,
-          "evidence_text": null,
+          "evidence_text": "...days. Member of Co. C. 1st Rec. U. S. Colored Troops D.C. Jesse L. Sammons - 1925 - 1933 Lydia Sammons - 1833 - 1908 Mary E. Sammons, wife of Nehemiah, Sept. 8, 1841 -Nov. 8, 1914 on same stone: Nehemiah Sammons- died March 11, 1924 - aged 84 years W....",
           "source_title": "Record: manship.htm",
           "source_url": "manship.htm",
           "source_dataset": "lynncjackson"
@@ -45,7 +45,7 @@
           "citation_id": 818,
           "fact_id": 818,
           "source_id": 77,
-          "evidence_text": null,
+          "evidence_text": "...days. Member of Co. C. 1st Rec. U. S. Colored Troops D.C. Jesse L. Sammons - 1925 - 1933 Lydia Sammons - 1833 - 1908 Mary E. Sammons, wife of Nehemiah, Sept. 8, 1841 -Nov. 8, 1914 on same stone: Nehemiah Sammons- died March 11, 1924 - aged 84 years W....",
           "source_title": "Record: manship.htm",
           "source_url": "manship.htm",
           "source_dataset": "lynncjackson"
@@ -64,7 +64,7 @@
           "citation_id": 819,
           "fact_id": 819,
           "source_id": 77,
-          "evidence_text": null,
+          "evidence_text": "...days. Member of Co. C. 1st Rec. U. S. Colored Troops D.C. Jesse L. Sammons - 1925 - 1933 Lydia Sammons - 1833 - 1908 Mary E. Sammons, wife of Nehemiah, Sept. 8, 1841 -Nov. 8, 1914 on same stone: Nehemiah Sammons- died March 11, 1924 - aged 84 years W....",
           "source_title": "Record: manship.htm",
           "source_url": "manship.htm",
           "source_dataset": "lynncjackson"
@@ -79,6 +79,44 @@
       "place_string": null,
       "value_string": "married Mary Elizabeth Clark on October 28, 1896",
       "citations": []
+    },
+    {
+      "fact_id": 14576,
+      "person_id": 479,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate",
+      "citations": [
+        {
+          "citation_id": 13378,
+          "fact_id": 14576,
+          "source_id": 658,
+          "evidence_text": "...dollars, and the rest & remainder of all my estate is to be equeally divided between my children Elizabeth Sammons, Mary Sammons, Jane Sammons, Prudy Sammons, Mitchel Sammons, Mills Sammons and Lydia Sammons. Each share & share alike and I do here...",
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15692,
+      "person_id": 479,
+      "fact_type": "Racial Classification",
+      "date_string": "1850",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'M' (Mulatto), age 13",
+      "citations": [
+        {
+          "citation_id": 14494,
+          "fact_id": 15692,
+          "source_id": 15,
+          "evidence_text": "1850 Census: Sammons, Mary \u2014 DE | Mary | 13 | M | M | DE",
+          "source_title": "Record: census18.htm",
+          "source_url": "census18.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -94,7 +132,12 @@
       "local_image_path": "assets/archive_media/people/Sammons_Mary_Eliz_Munce.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsPerry&Bertha.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 479,
@@ -107,20 +150,12 @@
       "local_image_path": "assets/archive_media/people/Richardson_Mary_Sammons_2.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsChildrenOfBenjamin&Sarah.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 479,
-      "photo_id": 2222,
-      "category": "family_trees",
-      "title_or_caption": "Sammons_Mary_Munce_Ancestry.gif",
-      "subject_names": "Clark",
-      "married_surname": "Sammons",
-      "approximate_year": "1841",
-      "local_image_path": "assets/archive_media/family_trees/Sammons_Mary_Munce_Ancestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsMaryElizabethMunce.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 479,
@@ -133,7 +168,12 @@
       "local_image_path": "assets/archive_media/people/Richardson_Mary_Sammons.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsChildrenOfBenjamin&Sarah.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

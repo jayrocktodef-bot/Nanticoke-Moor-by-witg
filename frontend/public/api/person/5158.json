@@ -79,10 +79,85 @@
       "place_string": null,
       "value_string": "married  Araminta Sisco     Sometime before 1858",
       "citations": []
+    },
+    {
+      "fact_id": 14206,
+      "person_id": 5158,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: James K. Morgan",
+      "citations": [
+        {
+          "citation_id": 13008,
+          "fact_id": 14206,
+          "source_id": 87,
+          "evidence_text": "...Araminta's sister, Isabella Sisco, did marry Isaiah Durham who was James' step-brother, the son of William and Mahala Songo Durham Morgan. James (\"Jim K.\") was a carpenter. He and Araminta lived in Cheswold DE and had at least 8 children: Harvey...",
+          "source_title": "Record: morganj4.htm",
+          "source_url": "morganj4.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15012,
+      "person_id": 5158,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Isabella Sisco",
+      "citations": [
+        {
+          "citation_id": 13814,
+          "fact_id": 15012,
+          "source_id": 656,
+          "evidence_text": "...Smyrna DE. The minister was William R. McFarlane. Isaiah is believed to have been the son of William Durham and Mahala Songo Durham. Mahala married William H. Morgan after the death of her first husband. William Morgan's son, James K. Morgan, married...",
+          "source_title": "Record: sisco-i1.htm",
+          "source_url": "sisco-i1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15509,
+      "person_id": 5158,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: Identified Indians",
+      "citations": [
+        {
+          "citation_id": 14311,
+          "fact_id": 15509,
+          "source_id": 661,
+          "evidence_text": "...I knew Martha was the oldest child of Hewitt and that she was a half-sibling to all of his children by Angelica (Songo Durham). The fact that the articles refer to William C. Johnson as Martha Durham Durham's brother, and that they further...",
+          "source_title": "Record: IdentifiedIndians.htm",
+          "source_url": "IdentifiedIndians.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 5158,
+      "photo_id": 881,
+      "category": "people",
+      "title_or_caption": "Durham_Nehemiah_Unretouched.jpg",
+      "subject_names": "Mahala Songo Durham",
+      "married_surname": "Durham",
+      "approximate_year": "1850",
+      "local_image_path": "assets/archive_media/people/Durham_Nehemiah_Unretouched.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamNehemiah.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 5158,
       "photo_id": 862,
@@ -94,7 +169,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Mahala_Songo.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamIsaiahZed.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

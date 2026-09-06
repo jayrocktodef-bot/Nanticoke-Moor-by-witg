@@ -41,6 +41,25 @@
       "place_string": "behind church            Elmirah Durham   1873 - 1953   wife of John M",
       "value_string": "buried behind church            Elmirah Durham   1873 - 1953   wife of John M",
       "citations": []
+    },
+    {
+      "fact_id": 14933,
+      "person_id": 962,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate-Morgan",
+      "citations": [
+        {
+          "citation_id": 13735,
+          "fact_id": 14933,
+          "source_id": 103,
+          "evidence_text": "...(the widow) Isaac Johnson Elijah Durham Robert Dean Sherry Carney John Mosley George Drigers Levi Carney Elsey Mosley Benjamin Mosley James Morgan - 1st Admin. Acct. and final - No Balance To James L. Heverin Register of Wills in and for Kent County:...",
+          "source_title": "Record: probt-m5.htm",
+          "source_url": "probt-m5.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -64,20 +83,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Benjamin_C_And_Marcelina_C.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyBenjaminCFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 962,
-      "photo_id": 1681,
-      "category": "family_trees",
-      "title_or_caption": "Mosley_Benjamin_Ancestry.jpg",
-      "subject_names": "Sarah Johnson",
-      "married_surname": "Mosley",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Mosley_Benjamin_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleySarahJohnson.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 962,
@@ -90,7 +101,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Benjamin_Csr_And_Marcilena_1940_Or_1941.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyBenjaminCFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

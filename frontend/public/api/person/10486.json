@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "21 Mar 1905",
     "death_info": "12 Jan 1993 (aged 87)",
@@ -70,6 +70,63 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 13046,
+      "person_id": 10486,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Lewes Cool Springs",
+      "citations": [
+        {
+          "citation_id": 11848,
+          "fact_id": 13046,
+          "source_id": 698,
+          "evidence_text": "...at Mr. McIlvain's Sep 28 1773 ---Lewis Records to Mileah Jackson Feb 1 1774 ---Richard Firmin (Kirwan?) to Rachel Durham Aug 15 1774 ---Benj. Salmons to Anne Veezy- Monday after sacrament Mar 22 1775 ---Jonathan Norwood to Lydia Houston...",
+          "source_title": "Preserved Document: Lewes Cool Springs",
+          "source_url": "coolsp.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 13344,
+      "person_id": 10486,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Daniel Durham",
+      "citations": [
+        {
+          "citation_id": 12146,
+          "fact_id": 13344,
+          "source_id": 48,
+          "evidence_text": "...(d.c. 1801 ) married Unity (\"Nicey\" or \"Eunice\") Thomas Durham (d.c. 1795 ) married Mary Joanah Durham Hester Durham Rachel Durham Mary Durham Ellinor Durham Sarah Durham In 1782 Daniel appeared in the Tax & Levy Lists for Little Creek Hundred....",
+          "source_title": "Record: durhm-d1.htm",
+          "source_url": "durhm-d1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15761,
+      "person_id": 10486,
+      "fact_type": "Racial Classification",
+      "date_string": "1860",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'M' (Mulatto), age 30",
+      "citations": [
+        {
+          "citation_id": 14563,
+          "fact_id": 15761,
+          "source_id": 687,
+          "evidence_text": "1860 Census: Durham, Rachel \u2014 Rachel | 30 | F | M | DE | Frank",
+          "source_title": "Preserved Document: Census-1860",
+          "source_url": "census19.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -88,7 +145,26 @@
       "rel_name": "Daniel David Durham"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 10486,
+      "photo_id": 528,
+      "category": "people",
+      "title_or_caption": "Coombs_Rachel.jpg",
+      "subject_names": "Roland Durham",
+      "married_surname": "Coombs",
+      "approximate_year": "1898",
+      "local_image_path": "assets/archive_media/people/Coombs_Rachel.jpg",
+      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/Durham_EnochD&Martha.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

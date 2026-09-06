@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Obituary Archive",
     "birth_info": "b. 1966",
     "death_info": "d. 1967",
@@ -79,6 +79,44 @@
       "place_string": null,
       "value_string": "married Lillie White in 1918",
       "citations": []
+    },
+    {
+      "fact_id": 14041,
+      "person_id": 11192,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Indian Mission Church",
+      "citations": [
+        {
+          "citation_id": 12843,
+          "fact_id": 14041,
+          "source_id": 79,
+          "evidence_text": "...9/18/ 1893 - 9/28/ 1923 \"Gone But Not Forgotten\" Fannie G. Harmon 9/18/ 1893 - 9/28/ 1923 \"Gone But Not Forgotten\" Fred Harmon 11/20/ 1883 - 10/17/ 1964 Fred Harmon 11/20/ 1883 - 10/17/ 1964 Herman G. Harmon 4/18/ 1923 - 1/31/ 1924 \"Gone but Not...",
+          "source_title": "Record: mission1.htm",
+          "source_url": "mission1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14396,
+      "person_id": 11192,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits",
+      "citations": [
+        {
+          "citation_id": 13198,
+          "fact_id": 14396,
+          "source_id": 747,
+          "evidence_text": "...on Tuesday afternoon at 1 o'clock with the Rev. A. T. P. Hudson, pastor of Harbeson Methodist Church officiating. Fred Harmon October 18, 1964 MILLSBORO: Fred Harmon , 80, a retired farmer died Saturday at the home of a daughter, Mrs. Jane...",
+          "source_title": "Preserved Document: Obits",
+          "source_url": "obit-h2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -123,7 +161,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_Fred.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonFred.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -6,7 +6,7 @@
     "middle_name": "Jack",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DeanRobertBurton.htm",
     "birth_info": "1913",
     "death_info": "13 Mar 1979 (aged 65\u201366)",
@@ -70,6 +70,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13231,
+      "person_id": 4937,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Robert B. Dean",
+      "citations": [
+        {
+          "citation_id": 12033,
+          "fact_id": 13231,
+          "source_id": 702,
+          "evidence_text": "...- ) married Beatrice Susan Groce Theresa Dean (18 Sept., 1893 - 25 Sept., 1979 ) married James Dean Faulkner Robert Bernard Dean (5 June, 1897 - ) married Ethel Jackson Gladys Dean ( 21 Oct., 1904 - c. 1943 ) married Ishmael Thomas and Frank...",
+          "source_title": "Preserved Document: Robert B. Dean",
+          "source_url": "dean-r2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +104,12 @@
       "local_image_path": "assets/archive_media/people/Dean_Robert_Bernard.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DeanRobertBurton.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

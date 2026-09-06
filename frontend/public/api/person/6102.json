@@ -212,6 +212,44 @@
       "place_string": "1 Aug 1931 in Bethel Cemetery",
       "value_string": "buried 1 Aug 1931 in Bethel Cemetery",
       "citations": []
+    },
+    {
+      "fact_id": 14433,
+      "person_id": 6102,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits- Mosley",
+      "citations": [
+        {
+          "citation_id": 13235,
+          "fact_id": 14433,
+          "source_id": 751,
+          "evidence_text": "...illness. He was a bachelor and a retired farmer. Survivors include two sisters, Mrs. Ella White of Frederica and Mrs. Sarah Harmon of Bridgeton, N.J. Services will be Wednesday afternoon at 1 at John Wesley A.M.E. Church near Frederica. Interment...",
+          "source_title": "Preserved Document: Obits- Mosley",
+          "source_url": "obit-m2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15437,
+      "person_id": 6102,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14239,
+          "fact_id": 15437,
+          "source_id": 843,
+          "evidence_text": "...H. or K. or B. Harmon, born abt 1853 in Delaware; died in (no record). He married Jane Catherine (Jackson) Harmon. ix Sarah Harmon. x Nicey Harmon. \u00a0 \u00a0 4 views of Emmanuel Harmons's land \u00a0 \u00a0 \u00a0 \u00a0 MAIN MENU \u00a0 EMAIL US \u00a0 \u00a0 MITSAWOKETT \"The History and...",
+          "source_title": "Preserved Document: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+          "source_url": "HarmonEmmanuelProbate.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -249,20 +287,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_Sarah_Jane_Sockum.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonIsaacW&SarahSockum.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 6102,
-      "photo_id": 1222,
-      "category": "family_trees",
-      "title_or_caption": "Harmon_Sarah_Pancestry.jpg",
-      "subject_names": "Lillie Clark Harmon",
-      "married_surname": "Harmon",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Harmon_Sarah_Pancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonLillieClark.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

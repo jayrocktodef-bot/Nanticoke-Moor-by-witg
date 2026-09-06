@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "moors_moors.aspx",
     "birth_info": "1842",
     "death_info": "3 May 1872 (aged 29\u201330)",
@@ -70,6 +70,44 @@
           "source_dataset": "moors_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12722,
+      "person_id": 1058,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Census-Sussex County",
+      "citations": [
+        {
+          "citation_id": 11524,
+          "fact_id": 12722,
+          "source_id": 682,
+          "evidence_text": "...Nanticoke Hd. \"free colored\" ? ? ? ? 1 1 1 1 308 Edward Harmon Leiws & Rehoboth Hd. \"free colored\" 0 1 1 1 0 1 0 1 376 Emanuel Harmon Dagsboro Hd. \"free colored\" 2 1 0 1 0 0 0 1 392 Ephraim Harmon Dagsboro Hd. \"free colored\" 1 0 1 0 ? ? ? ? 230 John...",
+          "source_title": "Preserved Document: Census-Sussex County",
+          "source_url": "census08.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 13619,
+      "person_id": 1058,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harmony Methodist Church",
+      "citations": [
+        {
+          "citation_id": 12421,
+          "fact_id": 13619,
+          "source_id": 65,
+          "evidence_text": "...H. Harmon 12/25/ 1932 - 10/22/ 1980 Helena I. Harmon 5/28/ 1934 - 10/6/ 1992 Helena I. Harmon 5/28/ 1934 - 10/6/ 1992 Emanuel Harmon 1902 - 1979 Emanuel Harmon 1902 - 1979 Enach Harmon 1900 - 1945 Enach Harmon 1900 - 1945 Louise Harmon 1901 - 1945...",
+          "source_title": "Record: harmony1.htm",
+          "source_url": "harmony1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -93,7 +131,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_Emanuel.jpg",
       "source_url": "http://mitsawokett.com/HarmonEmmanuelProbate.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

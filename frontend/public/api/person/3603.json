@@ -41,6 +41,25 @@
       "place_string": null,
       "value_string": "married Mae SAMMONS on 15 November, 1917",
       "citations": []
+    },
+    {
+      "fact_id": 15335,
+      "person_id": 3603,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Warren Wright",
+      "citations": [
+        {
+          "citation_id": 14137,
+          "fact_id": 15335,
+          "source_id": 116,
+          "evidence_text": "...Warren is claimed as a kinsman by most of the neighborhood. He has three daughters; Lily Mae Hall, Patience Harmon and Bertha Mosley. Patience and Bertha live close by. Lily Mae is married to a Negro minister and lives in Preston, Maryland. Lily Mae...",
+          "source_title": "Record: wrightw.htm",
+          "source_url": "wrightw.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +75,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Rufus_And_Bertha_Davis.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyRufus&BerthaDavis.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

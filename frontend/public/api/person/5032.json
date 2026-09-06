@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "DurhamLeshiaKelly.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "1978",
     "notes": "Ingested from DurhamLeshiaKelly.htm | FindAGrave: no match [Suffix 'Sr' realigned from surname field]",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,10 +41,47 @@
       "place_string": "1978",
       "value_string": "died in 1978",
       "citations": []
+    },
+    {
+      "fact_id": 15925,
+      "person_id": 5032,
+      "fact_type": "Racial Classification",
+      "date_string": "1840",
+      "place_string": "Kenton Hd.",
+      "value_string": "Enumerated as 'M' (Mulatto), age 33",
+      "citations": [
+        {
+          "citation_id": 14727,
+          "fact_id": 15925,
+          "source_id": 686,
+          "evidence_text": "1840 Census: Durham, Walter \u2014 DE | Walter | s | M | July | 1887",
+          "source_title": "Preserved Document: Census-1840 Sussex County",
+          "source_url": "census17.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 5032,
+      "photo_id": 513,
+      "category": "people",
+      "title_or_caption": "Coker_Walter_And_Myrtle_Durham.jpg",
+      "subject_names": "Coker",
+      "married_surname": "Coker",
+      "approximate_year": "1912",
+      "local_image_path": "assets/archive_media/people/Coker_Walter_And_Myrtle_Durham.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganHarryN.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 5032,
       "photo_id": 921,
@@ -56,46 +93,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Walter_And_Rose.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWalter&Rose.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 5032,
-      "photo_id": 2818,
-      "category": "family_trees",
-      "title_or_caption": "Durham_Walter_Lineage_LineageChart.jpg",
-      "subject_names": "Durham Walter Lineage LineageChart",
-      "married_surname": "",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/family_trees/Durham_Walter_Lineage_LineageChart.jpg",
-      "source_url": null,
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 5032,
-      "photo_id": 3325,
-      "category": "documents",
-      "title_or_caption": "Durham_Walter_Harvey_Jr_SocialSecurity_Application.jpg",
-      "subject_names": "Durham Walter Harvey Jr SocialSecurity Application",
-      "married_surname": "",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/documents/Durham_Walter_Harvey_Jr_SocialSecurity_Application.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "ss_application"
-    },
-    {
-      "person_id": 5032,
-      "photo_id": 923,
-      "category": "family_trees",
-      "title_or_caption": "Durham_Walter_Elias_Ancestry.jpg",
-      "subject_names": "Robert John Durham 1",
-      "married_surname": "Durham",
-      "approximate_year": "1908",
-      "local_image_path": "assets/archive_media/family_trees/Durham_Walter_Elias_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamRobertJohn.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

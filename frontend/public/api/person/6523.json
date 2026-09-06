@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Morgan",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MorganRaymond&MaryVirginia.htm",
     "birth_info": "25 Jan 1937",
     "death_info": "8 Jan 2010 (aged 72)",
@@ -70,23 +70,48 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 14103,
+      "person_id": 6523,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harvey Morgan",
+      "citations": [
+        {
+          "citation_id": 12905,
+          "fact_id": 14103,
+          "source_id": 730,
+          "evidence_text": "Harvey Morgan Preserved Primary Document \u2022 morgan-h.htm Winfred Morgan Harvey Morgan Raymond Morgan Creed Morgan married Dorothy MOSLEY Gladys Morgan Beatrice Morgan married Thomas Reed Harvey Morgan Raymond Morgan...",
+          "source_title": "Preserved Document: Harvey Morgan",
+          "source_url": "morgan-h.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14213,
+      "person_id": 6523,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: James K. Morgan",
+      "citations": [
+        {
+          "citation_id": 13015,
+          "fact_id": 14213,
+          "source_id": 87,
+          "evidence_text": "...8 children: Harvey Morgan (b. 1879 ) married Sally CARNEY children: Winfred Morgan Harvey Morgan (d. July 23, 1955 ) Raymond Morgan Creed Morgan married Dorthy Mosley Gladys Morgan Beatrice Morgan married Thomas Reed Catherine V. Morgan ( 10 Feb....",
+          "source_title": "Record: morganj4.htm",
+          "source_url": "morganj4.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
-    {
-      "person_id": 6523,
-      "photo_id": 1597,
-      "category": "family_trees",
-      "title_or_caption": "Morgan_Raymond_And_Mary_Vancestry.jpg",
-      "subject_names": "Mary Virginia Johnson",
-      "married_surname": "Morgan",
-      "approximate_year": "2002",
-      "local_image_path": "assets/archive_media/family_trees/Morgan_Raymond_And_Mary_Vancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganRaymond&MaryVirginia.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
     {
       "person_id": 6523,
       "photo_id": 1599,
@@ -98,7 +123,12 @@
       "local_image_path": "assets/archive_media/people/Morgan_Raymond_And_Virginia_2002.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganRaymond&MaryVirginia.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

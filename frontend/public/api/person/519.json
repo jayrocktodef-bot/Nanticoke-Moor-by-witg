@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Morgan",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "morganj4.htm",
     "birth_info": null,
     "death_info": null,
@@ -26,10 +26,29 @@
           "citation_id": 892,
           "fact_id": 892,
           "source_id": 87,
-          "evidence_text": null,
+          "evidence_text": "...Morgan (b. 1879 ) married Sally CARNEY children: Winfred Morgan Harvey Morgan (d. July 23, 1955 ) Raymond Morgan Creed Morgan married Dorthy Mosley Gladys Morgan Beatrice Morgan married Thomas Reed Catherine V. Morgan ( 10 Feb. 1929 - 14 May...",
           "source_title": "Record: morganj4.htm",
           "source_url": "morganj4.htm",
           "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14100,
+      "person_id": 519,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harvey Morgan",
+      "citations": [
+        {
+          "citation_id": 12902,
+          "fact_id": 14100,
+          "source_id": 730,
+          "evidence_text": "Harvey Morgan Preserved Primary Document \u2022 morgan-h.htm Winfred Morgan Harvey Morgan Raymond Morgan Creed Morgan married Dorothy MOSLEY Gladys Morgan Beatrice Morgan married Thomas Reed Harvey Morgan Raymond Morgan Creed Morgan...",
+          "source_title": "Preserved Document: Harvey Morgan",
+          "source_url": "morgan-h.htm",
+          "source_dataset": "mitsawokett_primary"
         }
       ]
     }
@@ -55,7 +74,12 @@
       "local_image_path": "assets/archive_media/people/Morgan_Creed_1.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganCreed&Dot50th.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 519,
@@ -68,20 +92,12 @@
       "local_image_path": "assets/archive_media/people/Morgan_Creed_And_Dot_50_Th.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganCreed&Dot50th.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 519,
-      "photo_id": 1558,
-      "category": "family_trees",
-      "title_or_caption": "Morgan_Creed_And_Dot_Ancestry.jpg",
-      "subject_names": "Morgan",
-      "married_surname": "Morgan",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Morgan_Creed_And_Dot_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganCreed&Dot50th.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 519,
@@ -94,7 +110,12 @@
       "local_image_path": "assets/archive_media/people/Morgan_Creed_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganCreed&Dot50th.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

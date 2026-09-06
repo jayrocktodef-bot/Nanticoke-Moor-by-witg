@@ -79,6 +79,44 @@
       "place_string": null,
       "value_string": "were married \t\tDec. 31, 1908",
       "citations": []
+    },
+    {
+      "fact_id": 12525,
+      "person_id": 3748,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Bibles- Cot",
+      "citations": [
+        {
+          "citation_id": 11327,
+          "fact_id": 12525,
+          "source_id": 1,
+          "evidence_text": "...City Mich. and Elsia B. Tuttle of Malden Mass. were married Dec. 31, 1908 . Florence Lydia Cott was born Oct. 7, 1909 Mary Carney departed this life one(one) Friday 6 day of December in the year of our Lord one thousand eight hundred & thirty nine...",
+          "source_title": "Record: bible-c1.htm",
+          "source_url": "bible-c1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13467,
+      "person_id": 3748,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mariah  Durham",
+      "citations": [
+        {
+          "citation_id": 12269,
+          "fact_id": 13467,
+          "source_id": 54,
+          "evidence_text": "...married Joseph Hamilton Mosley Lizzie Carney (Oct. 1895 - ) married Calvin Seeney Helen Carney married William Durham Mary Carney ( 1905 - 1946 ) married Linwood Coombs( 1903 - 1965 ) both buried at Manship Church in Cheswold, DE Dorothy Carney...",
+          "source_title": "Record: durhm-m1.htm",
+          "source_url": "durhm-m1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -94,7 +132,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Mary_Awhittinghamabt_1895.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Carney-WhittinghamFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3748,
@@ -107,7 +150,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Shad_And_Mary_Jane_Carty_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyShadrach&MaryJ.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

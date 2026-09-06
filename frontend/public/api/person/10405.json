@@ -6,7 +6,7 @@
     "middle_name": "B",
     "maiden_name": "",
     "married_last_name": "Johnson",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1788 Indian River Hundred, Sussex County, Delaware, USA",
     "death_info": "Aft. 13 Sep 1850 Indian River Hundred, Sussex County, Delaware, USA",
@@ -68,6 +68,63 @@
           "source_title": "Record: Davis Family Tree.ged",
           "source_url": "Davis Family Tree.ged",
           "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 12745,
+      "person_id": 10405,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Census-Sussex County",
+      "citations": [
+        {
+          "citation_id": 11547,
+          "fact_id": 12745,
+          "source_id": 682,
+          "evidence_text": "...Indian River Hd. \"free colored\" 1 0 1 0 2 1 1 0 218 Return Johnson Indian River Hd. \"free colored\" 3 0 1 0 3 0 1 0 218 Robert Johnson Indian River Hd. \"free colored\" 0 0 1 0 4 0 1 0 372 Absolam Mosley Dagsboro Hd. \"free colored\" 2 0 1 0 1 0 1 0 334...",
+          "source_title": "Preserved Document: Census-Sussex County",
+          "source_url": "census08.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15239,
+      "person_id": 10405,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Tax Lists",
+      "citations": [
+        {
+          "citation_id": 14041,
+          "fact_id": 15239,
+          "source_id": 836,
+          "evidence_text": "...Cornelius Johnson...Brownbury...400 acres...survy'd 6-1-86 Cornelius Johnson......400 acres....survy'd 13-2-88 Robert Johnson...Golam...700 acres...survy'd 20-2-88 John Okey...Mulatto Hall...800 acres..survy'd 18-2-84 John Okey..White...",
+          "source_title": "Preserved Document: Tax Lists",
+          "source_url": "taxlist2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15706,
+      "person_id": 10405,
+      "fact_type": "Racial Classification",
+      "date_string": "1850",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 62",
+      "citations": [
+        {
+          "citation_id": 14508,
+          "fact_id": 15706,
+          "source_id": 15,
+          "evidence_text": "1850 Census: Johnson, Robert \u2014 JOHNSON | Robert | 62 | M | M | Farmer",
+          "source_title": "Record: census18.htm",
+          "source_url": "census18.htm",
+          "source_dataset": "lynncjackson"
         }
       ]
     }

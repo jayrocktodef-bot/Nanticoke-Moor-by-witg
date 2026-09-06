@@ -41,6 +41,25 @@
       "place_string": null,
       "value_string": "married William Thomas Reed on 30 April 1921",
       "citations": []
+    },
+    {
+      "fact_id": 14928,
+      "person_id": 6698,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate-Morgan",
+      "citations": [
+        {
+          "citation_id": 13730,
+          "fact_id": 14928,
+          "source_id": 818,
+          "evidence_text": "...of Administration on the estate of said deceased for Examination, Adjustment and Settlement. To Paid this Amt. to Annie Mosley her share in recognisance in the Orphan's Court of Kent County, entered into by William Morgan, the Decedent in his...",
+          "source_title": "Preserved Document: Probate-Morgan",
+          "source_url": "probt-m4.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -71,7 +90,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Annie_Dean_Clan.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyGeoffrey&Lulu.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6698,
@@ -84,7 +108,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Annie_And_Will_Morgan_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     },
     {
       "person_id": 6698,
@@ -97,7 +126,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Annie_1963.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6698,
@@ -110,7 +144,12 @@
       "local_image_path": "assets/archive_media/people/Carter_George_E_And_Annie_Mosley_90_Th.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterCalvin&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6698,
@@ -123,7 +162,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Annie_90_Th_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6698,
@@ -136,7 +180,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Annie_90_Edit.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6698,
@@ -149,7 +198,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Annie_90_Th_4.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6698,
@@ -162,7 +216,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Annie_Dean_2.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DeanRobert&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6698,
@@ -175,7 +234,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Annie_90_Th_5.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6698,
@@ -188,7 +252,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Annie_And_Lulu_And_Bessie_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6698,
@@ -201,7 +270,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Annie_Dean_5.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6698,
@@ -214,7 +288,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Chas_H_And_Annie_Homeplace_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6698,
@@ -227,7 +306,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Annie_Dean_3.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6698,
@@ -240,7 +324,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Annie_And_Rheba_And_Jeanette.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeoE&MosleyRheba.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6698,
@@ -253,7 +342,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Mary_Annie_And_Rheba.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeoE&MosleyRheba.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

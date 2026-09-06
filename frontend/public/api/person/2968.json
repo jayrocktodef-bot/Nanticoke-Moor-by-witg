@@ -38,19 +38,6 @@
   "photos": [
     {
       "person_id": 2968,
-      "photo_id": 98,
-      "category": "family_trees",
-      "title_or_caption": "Beckett_John_Herman_Ancestry.jpg",
-      "subject_names": "Beckett John Herman Ancestry",
-      "married_surname": "Beckett",
-      "approximate_year": "1878",
-      "local_image_path": "assets/archive_media/family_trees/Beckett_John_Herman_Ancestry.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/BeckettWKenny.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 2968,
       "photo_id": 97,
       "category": "people",
       "title_or_caption": "Beckett_Herman.jpg",
@@ -60,7 +47,12 @@
       "local_image_path": "assets/archive_media/people/Beckett_Herman.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/BeckettWKenny.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

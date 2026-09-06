@@ -41,6 +41,25 @@
       "place_string": null,
       "value_string": "married 22 Jul 1922",
       "citations": []
+    },
+    {
+      "fact_id": 15793,
+      "person_id": 2900,
+      "fact_type": "Racial Classification",
+      "date_string": "1860",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'M' (Mulatto), age 24",
+      "citations": [
+        {
+          "citation_id": 14595,
+          "fact_id": 15793,
+          "source_id": 687,
+          "evidence_text": "1860 Census: Carter, George \u2014 CARTER | George | 24 | M | M | Laborer",
+          "source_title": "Preserved Document: Census-1860",
+          "source_url": "census19.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +75,12 @@
       "local_image_path": "assets/archive_media/people/Carter_George_E_And_Annie_Mosley_90_Th.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterCalvin&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 2900,
@@ -69,7 +93,12 @@
       "local_image_path": "assets/archive_media/people/Carter_Uncle_George_Aunt_Helen_And_Pop_Pop.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Carter_Lynn_Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 2900,
@@ -82,7 +111,12 @@
       "local_image_path": "assets/archive_media/people/Carter_George_E_1960.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeorge&SallyBelleCarney.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 2900,
@@ -95,7 +129,12 @@
       "local_image_path": "assets/archive_media/people/Carter_George_Washington_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeorge&SallyBelleCarney.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 2900,
@@ -108,20 +147,12 @@
       "local_image_path": "assets/archive_media/people/Carter_George_Washington_1.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeorge&SallyBelleCarney.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 2900,
-      "photo_id": 333,
-      "category": "people",
-      "title_or_caption": "Carter_Geo_Wash_Family.jpg",
-      "subject_names": "Carney",
-      "married_surname": "Carter",
-      "approximate_year": "1873",
-      "local_image_path": "assets/archive_media/people/Carter_Geo_Wash_Family.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeorge&SallyBelleCarney.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 2900,
@@ -134,20 +165,12 @@
       "local_image_path": "assets/archive_media/people/Carter_George_Calvin_Navy.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterCalvin&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 2900,
-      "photo_id": 334,
-      "category": "family_trees",
-      "title_or_caption": "Carter_George_Calvin_Ancestry.jpg",
-      "subject_names": "Carter",
-      "married_surname": "Carter",
-      "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/family_trees/Carter_George_Calvin_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterCalvin&Family.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 2900,
@@ -160,7 +183,12 @@
       "local_image_path": "assets/archive_media/people/Carter_George_And_Charles_twins.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Carter_Lynn_Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

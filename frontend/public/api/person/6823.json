@@ -38,19 +38,6 @@
   "photos": [
     {
       "person_id": 6823,
-      "photo_id": 1888,
-      "category": "family_trees",
-      "title_or_caption": "Norwood_Delilah_Nancestry.jpg",
-      "subject_names": "Delilah Jackson",
-      "married_surname": "Norwood",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Norwood_Delilah_Nancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodDelilahJackson.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 6823,
       "photo_id": 1887,
       "category": "people",
       "title_or_caption": "Norwood_Delilah_Jackson.jpg",
@@ -60,7 +47,12 @@
       "local_image_path": "assets/archive_media/people/Norwood_Delilah_Jackson.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodDelilahJackson.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

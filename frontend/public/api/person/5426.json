@@ -6,7 +6,7 @@
     "middle_name": "Mosley",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamMildred&Brett.htm",
     "birth_info": "1934",
     "death_info": "1960 (aged 25\u201326)",
@@ -70,36 +70,48 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13928,
+      "person_id": 5426,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12730,
+          "fact_id": 13928,
+          "source_id": 77,
+          "evidence_text": "...1876 - 1967 Oliver Durham - 1888 - 1955 - \"Father\" Sarah J. - wife of Oliver- 1887 - 1944 Presley Durham- 1901 - 1985 Mildred Durham- 1908 - 1986 Retrissia Durham- daughter of Jerry & Margaret Durham - died Oct. 19, 1896 (aged 22 years) Rosie W....",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15583,
+      "person_id": 5426,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14385,
+          "fact_id": 15583,
+          "source_id": 147,
+          "evidence_text": "...Heard Example Bedell, Elsie Rachel Greenage Bedell, Elsie Rachel Greenage Bedell, Elsie Rachel Greenage Bowles, Helen Mildred Durham Bowles, Helen Mildred Durham Bowles, Helen Mildred Durham Carney, Joseph Perry Carney, Joseph Perry Carney, Joseph...",
+          "source_title": "Record: SocialSecurityApplications.htm",
+          "source_url": "SocialSecurityApplications.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
-    {
-      "person_id": 5426,
-      "photo_id": 3314,
-      "category": "documents",
-      "title_or_caption": "Bowles_Helen_Mildred_Durham_SocialSecurity_Application.jpg",
-      "subject_names": "Bowles Helen Mildred Durham SocialSecurity Application",
-      "married_surname": "",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/documents/Bowles_Helen_Mildred_Durham_SocialSecurity_Application.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "ss_application"
-    },
-    {
-      "person_id": 5426,
-      "photo_id": 892,
-      "category": "family_trees",
-      "title_or_caption": "Durham_Preston_And_Mildredschild_Ancestry.jpg",
-      "subject_names": "Mildred Mosley Durham",
-      "married_surname": "Durham",
-      "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/family_trees/Durham_Preston_And_Mildredschild_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMildred&Brett.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
     {
       "person_id": 5426,
       "photo_id": 871,
@@ -111,7 +123,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Mildred_And_Brett.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMildred&Brett.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -6,7 +6,7 @@
     "middle_name": "Roland",
     "maiden_name": "",
     "married_last_name": "Johnson",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "19 Dec 1863 or 1869 Sussex County, Delaware, USA",
     "death_info": "26 Oct 1945 Millsboro, Sussex, Delaware, USA",
@@ -70,6 +70,44 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 15243,
+      "person_id": 10539,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Tax Lists",
+      "citations": [
+        {
+          "citation_id": 14045,
+          "fact_id": 15243,
+          "source_id": 836,
+          "evidence_text": "...Tax List for Indian River Hundred, Sussex Co., DE Jesse Dean Samuel Hanzer William Johnson Caleb Dean William Jackson Samuel Johnson Thomas Hanzer Stephen Jackson Edward Johnson Aminadab Hanzer Samuel Jackson William Morgan David Hanzer Samuel Jackson...",
+          "source_title": "Preserved Document: Tax Lists",
+          "source_url": "taxlist2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15670,
+      "person_id": 10539,
+      "fact_type": "Racial Classification",
+      "date_string": "1850",
+      "place_string": "New Castle",
+      "value_string": "Enumerated as 'M' (Mulatto), age 22",
+      "citations": [
+        {
+          "citation_id": 14472,
+          "fact_id": 15670,
+          "source_id": 15,
+          "evidence_text": "1850 Census: Johnson, Samuel \u2014 DE | Samuel | 22 | M | B | DE",
+          "source_title": "Record: census18.htm",
+          "source_url": "census18.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -123,9 +161,39 @@
       "rel_name": "Sadie Johnson"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 10539,
+      "photo_id": 1444,
+      "category": "people",
+      "title_or_caption": "Johnson_Willis_And_Henny.jpg",
+      "subject_names": "Samuel Horace 'Jazz' Durham",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_Willis_And_Henny.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamSamuel&Sarah.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    }
+  ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7490,
+      "category": "RACIAL_RECLASSIFICATION",
+      "severity": "info",
+      "person_id": 10539,
+      "person_id_secondary": null,
+      "description": "Historical Racial Reclassification: Recorded under multiple distinct racial categories across federal records (1850: Mulatto \u2794 1850: Black). Exemplifies the tripartite legal classification pressures and racial boundary fluidity characteristic of Delmarva Afro-Indigenous families.",
+      "evidence": "Sources: census18.htm | Chronology: 1850: Mulatto \u2794 1850: Black",
+      "created_at": "2026-09-06T19:06:30.060912"
+    }
+  ],
   "ancestry": {
     "id": 10539,
     "name": "Samuel Roland Johnson",

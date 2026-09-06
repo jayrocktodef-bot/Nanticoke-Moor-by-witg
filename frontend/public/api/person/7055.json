@@ -38,19 +38,6 @@
   "photos": [
     {
       "person_id": 7055,
-      "photo_id": 2135,
-      "category": "people",
-      "title_or_caption": "Ridgeway_Gordon_And_Lisa_And_Nathan_2.jpg",
-      "subject_names": "James 2",
-      "married_surname": "Ridgeway",
-      "approximate_year": "1914",
-      "local_image_path": "assets/archive_media/people/Ridgeway_Gordon_And_Lisa_And_Nathan_2.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NewhardArbanaBirdellaRidgway.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 7055,
       "photo_id": 2149,
       "category": "people",
       "title_or_caption": "Ridgeway_Nathaniel.jpg",
@@ -60,7 +47,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Nathaniel.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayNathaniel.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

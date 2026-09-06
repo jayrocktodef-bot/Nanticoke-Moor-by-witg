@@ -41,23 +41,29 @@
       "place_string": null,
       "value_string": "married Howard Clifton Wilson on 18 December 1920",
       "citations": []
+    },
+    {
+      "fact_id": 15572,
+      "person_id": 7076,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14374,
+          "fact_id": 15572,
+          "source_id": 848,
+          "evidence_text": "...L. Durham & Doris Morgan July 16, 1943 B. Cleo Durham & James Coker Jan 27, 1942 Divorced Jan 2, 1972 Iona P. Durham & Charles Reed June 18, 1944 Donald M. Durham & (Mrs.) Patricia Pospichal March 8, 1975 Divorced Feb 1978 (PRIVATE) (PRIVATE) The...",
+          "source_title": "Preserved Document: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+          "source_url": "MAYMIE_DURHAM_BIBLE.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
-    {
-      "person_id": 7076,
-      "photo_id": 2049,
-      "category": "family_trees",
-      "title_or_caption": "Reed_Charles_Jr_Ancestry.jpg",
-      "subject_names": "Reed",
-      "married_surname": "Reed",
-      "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/family_trees/Reed_Charles_Jr_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedCharlesBuck&Family.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
     {
       "person_id": 7076,
       "photo_id": 2048,
@@ -69,7 +75,12 @@
       "local_image_path": "assets/archive_media/people/Reed_Charles_Family.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWilliamT&Mamie.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7076,
@@ -82,7 +93,12 @@
       "local_image_path": "assets/archive_media/people/Reed_Charles_Buckbaby.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

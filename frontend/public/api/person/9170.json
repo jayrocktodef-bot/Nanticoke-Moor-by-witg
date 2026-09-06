@@ -70,6 +70,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 15713,
+      "person_id": 9170,
+      "fact_type": "Racial Classification",
+      "date_string": "1850",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 3",
+      "citations": [
+        {
+          "citation_id": 14515,
+          "fact_id": 15713,
+          "source_id": 15,
+          "evidence_text": "1850 Census: Johnson, Alfred \u2014 JOHNSON | Alfred | 3 | M | M | WRIGHT",
+          "source_title": "Record: census18.htm",
+          "source_url": "census18.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -88,21 +107,7 @@
       "rel_name": "Sarah A Johnson"
     }
   ],
-  "photos": [
-    {
-      "person_id": 9170,
-      "photo_id": 2929,
-      "category": "tombstones",
-      "title_or_caption": "Johnson_Alfred_Tombstone.jpg",
-      "subject_names": "Johnson Alfred Tombstone",
-      "married_surname": "",
-      "approximate_year": "2001",
-      "local_image_path": "assets/archive_media/tombstones/Johnson_Alfred_Tombstone.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/MilitaryService/Alfred%20N.%20JOHNSON.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "tombstone"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

@@ -6,7 +6,7 @@
     "middle_name": "Augusta",
     "maiden_name": "",
     "married_last_name": "Carter",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "WilsonSolomon&Mary.htm",
     "birth_info": "1803",
     "death_info": "9 Dec 1883 (aged 79\u201380)",
@@ -70,10 +70,66 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12607,
+      "person_id": 7846,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: William W. Carty",
+      "citations": [
+        {
+          "citation_id": 11409,
+          "fact_id": 12607,
+          "source_id": 12,
+          "evidence_text": "...the following children: Sarah Carter who married Thomas HALL Mabel Carter who married Ashton PIERCE and William WRIGHT Mary Carter Hattie Carter Irving Carter Elenora Carter Annie Elizabeth Carty (b.c. 1867 ) married George MOSLEY from Kent Co., DE...",
+          "source_title": "Record: carty-w2.htm",
+          "source_url": "carty-w2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15799,
+      "person_id": 7846,
+      "fact_type": "Racial Classification",
+      "date_string": "1860",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'M' (Mulatto), age 30",
+      "citations": [
+        {
+          "citation_id": 14601,
+          "fact_id": 15799,
+          "source_id": 687,
+          "evidence_text": "1860 Census: Carter, Mary \u2014 Mary | 30 | F | M | Melvina | 2",
+          "source_title": "Preserved Document: Census-1860",
+          "source_url": "census19.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 7846,
+      "photo_id": 2501,
+      "category": "people",
+      "title_or_caption": "Wilson_Mary_Augusta_Carter_1.jpg",
+      "subject_names": "Carter",
+      "married_surname": "Wilson",
+      "approximate_year": "1842",
+      "local_image_path": "assets/archive_media/people/Wilson_Mary_Augusta_Carter_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WilsonSolomon&Mary.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 7846,
       "photo_id": 99,
@@ -85,20 +141,66 @@
       "local_image_path": "assets/archive_media/people/Beckett_Wkenny_And_Mary_Carter.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/BeckettWKenny.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7846,
-      "photo_id": 868,
-      "category": "family_trees",
-      "title_or_caption": "Durham_Mary_Carter_Ancestry.jpg",
+      "photo_id": 878,
+      "category": "people",
+      "title_or_caption": "Durham_Mrs_Mary.jpg",
       "subject_names": "Mary Carter Durham",
       "married_surname": "Durham",
       "approximate_year": "1908",
-      "local_image_path": "assets/archive_media/family_trees/Durham_Mary_Carter_Ancestry.jpg",
+      "local_image_path": "assets/archive_media/people/Durham_Mrs_Mary.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMrsMary.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 7846,
+      "photo_id": 1758,
+      "category": "people",
+      "title_or_caption": "Mosley_Mary_Annie_And_Rheba.jpg",
+      "subject_names": "Carter",
+      "married_surname": "Mosley",
+      "approximate_year": "1960",
+      "local_image_path": "assets/archive_media/people/Mosley_Mary_Annie_And_Rheba.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeoE&MosleyRheba.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 7846,
+      "photo_id": 2502,
+      "category": "people",
+      "title_or_caption": "Wilson_Mary_Augusta_Carter_2.jpg",
+      "subject_names": "Carter",
+      "married_surname": "Wilson",
+      "approximate_year": "1842",
+      "local_image_path": "assets/archive_media/people/Wilson_Mary_Augusta_Carter_2.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WilsonSolomon&Mary.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -6,7 +6,7 @@
     "middle_name": "Jane",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "15 Apr 1847 Sussex, Delaware, United States",
     "death_info": "22 Apr 1919 Dover, Kent, Delaware, United States",
@@ -79,6 +79,44 @@
       "place_string": null,
       "value_string": "married Burt Schroeder   Hopewell died on 30 October 1967",
       "citations": []
+    },
+    {
+      "fact_id": 12917,
+      "person_id": 10436,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Lethia Coker",
+      "citations": [
+        {
+          "citation_id": 11719,
+          "fact_id": 12917,
+          "source_id": 692,
+          "evidence_text": "...was born on 22 August 1912 in Dover, Kent Co., DE. She married Hopewell Carter Jr., son of Hopewell Umphrey Carter and Sarah Ridgeway on 27 May, 1929 . They moved to Cumberland Co., NJ. where she and Hopewell had the following children: Leroy Carter...",
+          "source_title": "Preserved Document: Lethia Coker",
+          "source_url": "coker-l1.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14549,
+      "person_id": 10436,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Main Page",
+      "citations": [
+        {
+          "citation_id": 13351,
+          "fact_id": 14549,
+          "source_id": 569,
+          "evidence_text": "...5/25/ 1826 in MD) Hopewell Umphrey Carter SR. : (1/28/ 1857 - 2/13/ 1933 ) Hopewell Umphrey Carter JR. ( 1908 - 1967 ) Sarah Ridgeway Carter Elizabeth Carty : (4/20/ 1821 - 3/26/ 1901 ) John Clayton Coker ( 1884 - 1915 ) Robert J. Coker (9/7/ 1874 -...",
+          "source_title": "Record: photo.htm",
+          "source_url": "photo.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -109,20 +147,48 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Greensbury_Sarah_Durham.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayGreensbury.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 10436,
-      "photo_id": 2160,
-      "category": "family_trees",
-      "title_or_caption": "Ridgeway_Sarah_Eancestry.jpg",
-      "subject_names": "Emma Eliza Durham",
-      "married_surname": "Ridgeway",
-      "approximate_year": "1875",
-      "local_image_path": "assets/archive_media/family_trees/Ridgeway_Sarah_Eancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayWilliamEdgarSr&EmmaElizaDurham&PaulJrorSr.htm",
+      "photo_id": 376,
+      "category": "people",
+      "title_or_caption": "Carter_Sarah_Catherine_Ridgeway.jpg",
+      "subject_names": "Carter",
+      "married_surname": "Carter",
+      "approximate_year": "1857",
+      "local_image_path": "assets/archive_media/people/Carter_Sarah_Catherine_Ridgeway.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterHopewellUmphrey.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 10436,
+      "photo_id": 199,
+      "category": "people",
+      "title_or_caption": "Carney_Carolyn_And_Sammons_Sarah_Eunice_Ridgeway_2000.jpg",
+      "subject_names": "Carney",
+      "married_surname": "Carney",
+      "approximate_year": "2000",
+      "local_image_path": "assets/archive_media/people/Carney_Carolyn_And_Sammons_Sarah_Eunice_Ridgeway_2000.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsSarahEuniceRidgeway.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "ss_application",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

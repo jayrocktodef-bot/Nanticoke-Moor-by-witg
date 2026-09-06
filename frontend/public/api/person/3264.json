@@ -85,20 +85,12 @@
       "local_image_path": "assets/archive_media/people/Bard_John_Uncle_John.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/BardsOfNewJersey.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 3264,
-      "photo_id": 87,
-      "category": "people",
-      "title_or_caption": "Bard_Louise_Johnson.jpg",
-      "subject_names": "Bard",
-      "married_surname": "Bard",
-      "approximate_year": "1931",
-      "local_image_path": "assets/archive_media/people/Bard_Louise_Johnson.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/BardsOfNewJersey.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3264,
@@ -111,7 +103,12 @@
       "local_image_path": "assets/archive_media/people/Bard_Benjamin_And_John_And_Doris_Mom_And_Robert_And_Jackie.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/BardsOfNewJersey.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

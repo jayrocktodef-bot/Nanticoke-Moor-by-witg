@@ -79,6 +79,44 @@
       "place_string": null,
       "value_string": "married sometime before 1840",
       "citations": []
+    },
+    {
+      "fact_id": 15817,
+      "person_id": 7932,
+      "fact_type": "Racial Classification",
+      "date_string": "1860",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 8",
+      "citations": [
+        {
+          "citation_id": 14619,
+          "fact_id": 15817,
+          "source_id": 687,
+          "evidence_text": "1860 Census: Wright, Robert \u2014 M | Robert | 8 | M | M | DE",
+          "source_title": "Preserved Document: Census-1860",
+          "source_url": "census19.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15900,
+      "person_id": 7932,
+      "fact_type": "Racial Classification",
+      "date_string": "1870",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 19",
+      "citations": [
+        {
+          "citation_id": 14702,
+          "fact_id": 15900,
+          "source_id": 688,
+          "evidence_text": "1870 Census: Wright, Robert \u2014 farm laborer | Robert | 19 | M | M | farm laborer",
+          "source_title": "Preserved Document: Census-1870",
+          "source_url": "census20.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -102,7 +140,12 @@
       "local_image_path": "assets/archive_media/people/Wright_Robert_Family.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightRobert&Anita.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7932,
@@ -115,7 +158,12 @@
       "local_image_path": "assets/archive_media/people/Wright_Robert_C.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightRobertC.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

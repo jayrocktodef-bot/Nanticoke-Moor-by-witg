@@ -136,23 +136,105 @@
       "place_string": null,
       "value_string": "married Isaac Mosley   On 20 January, 1865",
       "citations": []
+    },
+    {
+      "fact_id": 14145,
+      "person_id": 3678,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Napoleon Morgan",
+      "citations": [
+        {
+          "citation_id": 12947,
+          "fact_id": 14145,
+          "source_id": 86,
+          "evidence_text": "...28, 2000) William M Christianson (May 22, 1923 - April 30, 1974 ) married Josie M. ? Mabel Morgan died young Frances Henrietta Morgan (b.January 1893 - d. 1982 in Phila., PA.) She married Alonzo DURHAM, son of John & Ruth Durham, on 4 August 1909 in...",
+          "source_title": "Record: morgan-n.htm",
+          "source_url": "morgan-n.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14833,
+      "person_id": 3678,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate-Durham",
+      "citations": [
+        {
+          "citation_id": 13635,
+          "fact_id": 14833,
+          "source_id": 802,
+          "evidence_text": "......................................18.06 2/3 To Jeremiah Durham ...........................................18.06 2/3 To Henrietta Morgan ..........................................18.06 2/3 To Amanda Salmons ............................................18.06...",
+          "source_title": "Preserved Document: Probate-Durham",
+          "source_url": "probt-dh.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14939,
+      "person_id": 3678,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate-Morgan",
+      "citations": [
+        {
+          "citation_id": 13741,
+          "fact_id": 14939,
+          "source_id": 103,
+          "evidence_text": "...covers several pages, most of them very difficult to read ---- some of the names of the purchasers were: James Mosley Henrietta Morgan (the widow) Isaac Johnson Elijah Durham Robert Dean Sherry Carney John Mosley George Drigers Levi Carney Elsey Mosley...",
+          "source_title": "Record: probt-m5.htm",
+          "source_url": "probt-m5.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15680,
+      "person_id": 3678,
+      "fact_type": "Racial Classification",
+      "date_string": "1850",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'M' (Mulatto), age 24",
+      "citations": [
+        {
+          "citation_id": 14482,
+          "fact_id": 15680,
+          "source_id": 15,
+          "evidence_text": "1850 Census: Morgan, Henrietta \u2014 Henrietta | 24 | F | M | MD | Samuel",
+          "source_title": "Record: census18.htm",
+          "source_url": "census18.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15780,
+      "person_id": 3678,
+      "fact_type": "Racial Classification",
+      "date_string": "1860",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'M' (Mulatto), age 35",
+      "citations": [
+        {
+          "citation_id": 14582,
+          "fact_id": 15780,
+          "source_id": 687,
+          "evidence_text": "1860 Census: Morgan, Henrietta \u2014 Henrietta | 35 | F | M | DE | Samuel",
+          "source_title": "Preserved Document: Census-1860",
+          "source_url": "census19.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
-    {
-      "person_id": 3678,
-      "photo_id": 1564,
-      "category": "family_trees",
-      "title_or_caption": "Morgan_Frances_Henrietta_Ancestry.jpg",
-      "subject_names": "Carty",
-      "married_surname": "Morgan",
-      "approximate_year": "1862",
-      "local_image_path": "assets/archive_media/family_trees/Morgan_Frances_Henrietta_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganNapoleonBonaparte.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
     {
       "person_id": 3678,
       "photo_id": 1590,
@@ -164,7 +246,12 @@
       "local_image_path": "assets/archive_media/people/Morgan_Napoleon_And_Henrietta.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganNapoleonBonaparte.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

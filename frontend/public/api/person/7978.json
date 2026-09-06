@@ -8,7 +8,7 @@
     "married_last_name": "Jackson",
     "evidence_level": 3,
     "source_page": "WrightElwood.htm",
-    "birth_info": "unknown",
+    "birth_info": "October 28th 1747",
     "death_info": "29 Jan 1840",
     "notes": "Ingested from WrightElwood.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/198336837/lydia-jackson | Ingested from DavisMaryElizJackson.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/198336837/lydia-jackson | Linked to wright-l.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/198336837/lydia-jackson | Verified via FindAGrave: https://www.findagrave.com/memorial/198336837/lydia-jackson",
     "dataset_source": "mitsawokett_delaware"
@@ -26,7 +26,7 @@
           "citation_id": 721,
           "fact_id": 721,
           "source_id": 71,
-          "evidence_text": null,
+          "evidence_text": "...we can say that: John Jackson was the father of William Jackson & Patience Jackson William Jackson was the father of Lydia Jackson Annanias Jackson was the father of Hester Jackson James, Stephen and Annanias were POSSIBLY children of the original...",
           "source_title": "Record: jackson.htm",
           "source_url": "jackson.htm",
           "source_dataset": "lynncjackson"
@@ -45,7 +45,7 @@
           "citation_id": 722,
           "fact_id": 722,
           "source_id": 71,
-          "evidence_text": null,
+          "evidence_text": "...we can say that: John Jackson was the father of William Jackson & Patience Jackson William Jackson was the father of Lydia Jackson Annanias Jackson was the father of Hester Jackson James, Stephen and Annanias were POSSIBLY children of the original...",
           "source_title": "Record: jackson.htm",
           "source_url": "jackson.htm",
           "source_dataset": "lynncjackson"
@@ -64,7 +64,7 @@
           "citation_id": 723,
           "fact_id": 723,
           "source_id": 71,
-          "evidence_text": null,
+          "evidence_text": "...we can say that: John Jackson was the father of William Jackson & Patience Jackson William Jackson was the father of Lydia Jackson Annanias Jackson was the father of Hester Jackson James, Stephen and Annanias were POSSIBLY children of the original...",
           "source_title": "Record: jackson.htm",
           "source_url": "jackson.htm",
           "source_dataset": "lynncjackson"
@@ -250,6 +250,44 @@
       "place_string": null,
       "value_string": "Born October 28th 1747",
       "citations": []
+    },
+    {
+      "fact_id": 15257,
+      "person_id": 7978,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Tax Lists",
+      "citations": [
+        {
+          "citation_id": 14059,
+          "fact_id": 15257,
+          "source_id": 837,
+          "evidence_text": "...Francisco.........................3 Cornelius Harman.......................2 Edwd. Hichin...........................1 Lydia Jackson..........................2 Jno. Johnson...........................1 Obed: Johnson..........................3 Richd....",
+          "source_title": "Preserved Document: Tax Lists",
+          "source_url": "taxlist3.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15876,
+      "person_id": 7978,
+      "fact_type": "Racial Classification",
+      "date_string": "1870",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 22",
+      "citations": [
+        {
+          "citation_id": 14678,
+          "fact_id": 15876,
+          "source_id": 688,
+          "evidence_text": "1870 Census: Jackson, Lydia \u2014 Lydia | 22 | F | M | keep house | Mary E.",
+          "source_title": "Preserved Document: Census-1870",
+          "source_url": "census20.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -287,7 +325,12 @@
       "local_image_path": "assets/archive_media/people/Jackson_Lydia_Ann_Wright.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Jackson7&PerryHughes.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7978,
@@ -300,7 +343,12 @@
       "local_image_path": "assets/archive_media/people/Jackson_Lydia_Ann_Wright_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Jackson7&PerryHughes.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7978,
@@ -313,7 +361,12 @@
       "local_image_path": "assets/archive_media/people/Jackson_Lydia_Wright.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightElwood.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

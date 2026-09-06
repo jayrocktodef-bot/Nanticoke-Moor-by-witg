@@ -79,6 +79,25 @@
       "place_string": null,
       "value_string": "married June 12, 1904",
       "citations": []
+    },
+    {
+      "fact_id": 14391,
+      "person_id": 10135,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits",
+      "citations": [
+        {
+          "citation_id": 13193,
+          "fact_id": 14391,
+          "source_id": 747,
+          "evidence_text": "...Milton. Her husband, Levi W. Harmon died in 1963 . Surviving are a son: William of Washington, DC; two sisters, Mrs. Helen Johnson of Millsboro and Mrs. Virginia Harmon of Milton; and three brothers, Harvey Wright ofDelair, NJ, Marshall Wright of...",
+          "source_title": "Preserved Document: Obits",
+          "source_url": "obit-h2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -114,19 +133,6 @@
   "photos": [
     {
       "person_id": 10135,
-      "photo_id": 709,
-      "category": "family_trees",
-      "title_or_caption": "Day_Helen_Johnson_Ancestry.jpg",
-      "subject_names": "Day Helen Johnson Ancestry",
-      "married_surname": "Day",
-      "approximate_year": "2006",
-      "local_image_path": "assets/archive_media/family_trees/Day_Helen_Johnson_Ancestry.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DayHelenJohnson.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 10135,
       "photo_id": 708,
       "category": "people",
       "title_or_caption": "Day_Helen_Johnson.jpg",
@@ -136,7 +142,12 @@
       "local_image_path": "assets/archive_media/people/Day_Helen_Johnson.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DayHelenJohnson.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 10135,
@@ -149,7 +160,12 @@
       "local_image_path": "assets/archive_media/people/Johnson_Helen.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonHelen.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -76,19 +76,6 @@
   "photos": [
     {
       "person_id": 8127,
-      "photo_id": 3070,
-      "category": "documents",
-      "title_or_caption": "Pierce_Alvina_Obit_Obituary.jpg",
-      "subject_names": "Pierce Alvina",
-      "married_surname": "",
-      "approximate_year": "1922",
-      "local_image_path": "assets/archive_media/documents/Pierce_Alvina_Obit_Obituary.jpg",
-      "source_url": "http://www.mitsawokett.com/Obituaries/obit-pierce-a-j.html",
-      "dataset_source": "mitsawokett",
-      "document_type": "obituary_program"
-    },
-    {
-      "person_id": 8127,
       "photo_id": 1990,
       "category": "people",
       "title_or_caption": "Pierce_Alvin_And_Libby_And_Family_1961.jpg",
@@ -98,7 +85,12 @@
       "local_image_path": "assets/archive_media/people/Pierce_Alvin_And_Libby_And_Family_1961.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

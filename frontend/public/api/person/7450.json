@@ -76,19 +76,6 @@
   "photos": [
     {
       "person_id": 7450,
-      "photo_id": 2294,
-      "category": "family_trees",
-      "title_or_caption": "Sterrett_Susan_Ancestry.jpg",
-      "subject_names": "Sterrett",
-      "married_surname": "Sterrett",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Sterrett_Susan_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SterrettSusan.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 7450,
       "photo_id": 2293,
       "category": "people",
       "title_or_caption": "Sterrett_Susan.jpg",
@@ -98,7 +85,12 @@
       "local_image_path": "assets/archive_media/people/Sterrett_Susan.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SterrettSusan.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

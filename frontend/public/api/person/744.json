@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "wright-d.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "1917",
     "notes": " | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
@@ -26,7 +26,7 @@
           "citation_id": 1046,
           "fact_id": 1046,
           "source_id": 112,
-          "evidence_text": null,
+          "evidence_text": "...Pearl Hitchens Eva Hitchens Midlred Hitchens Elwood Wright who married Caroline Jackson Ida Nora Wright who married Charles Sammons They had the following children: Oscar Baker Sammons Helen Virginia Sammons Fannie Wright (b. 1863 ) who married...",
           "source_title": "Record: wright-d.htm",
           "source_url": "wright-d.htm",
           "source_dataset": "lynncjackson"
@@ -55,19 +55,6 @@
   "photos": [
     {
       "person_id": 744,
-      "photo_id": 2195,
-      "category": "family_trees",
-      "title_or_caption": "Sammons_Charles_Eancestry.jpg",
-      "subject_names": "Esther Glendora Hughes",
-      "married_surname": "Sammons",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Sammons_Charles_Eancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsCharles.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 744,
       "photo_id": 2192,
       "category": "people",
       "title_or_caption": "Sammons_Charles_And_Ida_And_Gdau_Blonnie_Sammons_And_Warren_Wrightsonof_Oscar_Ww.jpg",
@@ -77,7 +64,12 @@
       "local_image_path": "assets/archive_media/people/Sammons_Charles_And_Ida_And_Gdau_Blonnie_Sammons_And_Warren_Wrightsonof_Oscar_Ww.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsCharlie&Ida.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 744,
@@ -90,7 +82,30 @@
       "local_image_path": "assets/archive_media/people/Sammons_Charles.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsCharles.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 744,
+      "photo_id": 2196,
+      "category": "people",
+      "title_or_caption": "Sammons_Charlie_And_Ida_And_Kids.jpg",
+      "subject_names": "Sammons",
+      "married_surname": "Sammons",
+      "approximate_year": "1940",
+      "local_image_path": "assets/archive_media/people/Sammons_Charlie_And_Ida_And_Kids.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsCharlie&Ida.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

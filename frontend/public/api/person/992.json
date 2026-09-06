@@ -32,6 +32,25 @@
           "source_dataset": "moors_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 15893,
+      "person_id": 992,
+      "fact_type": "Racial Classification",
+      "date_string": "1870",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'M' (Mulatto), age 26",
+      "citations": [
+        {
+          "citation_id": 14695,
+          "fact_id": 15893,
+          "source_id": 688,
+          "evidence_text": "1870 Census: Durham, Alfred \u2014 DURHAM | Alfred | 26 | M | W | farm laborer",
+          "source_title": "Preserved Document: Census-1870",
+          "source_url": "census20.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -43,7 +62,44 @@
       "rel_name": "Mary Elizabeth Durham"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 992,
+      "photo_id": 69,
+      "category": "people",
+      "title_or_caption": "Alfred_Pierce_Helen_Durham_And_Enos_Pierce.jpg",
+      "subject_names": "Unknowns Page 1",
+      "married_surname": "Alfred",
+      "approximate_year": "2015",
+      "local_image_path": "assets/archive_media/people/Alfred_Pierce_Helen_Durham_And_Enos_Pierce.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WhoAreThesePeople.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 992,
+      "photo_id": 71,
+      "category": "people",
+      "title_or_caption": "Alfred_Pierce_Helen_Durham_And_Enos_Pierce_Collection_2.jpg",
+      "subject_names": "Unknowns Page 1",
+      "married_surname": "Alfred",
+      "approximate_year": "2015",
+      "local_image_path": "assets/archive_media/people/Alfred_Pierce_Helen_Durham_And_Enos_Pierce_Collection_2.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WhoAreThesePeople.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [
     {
@@ -55,6 +111,16 @@
       "description": "'Alfred Durham' not found in source document",
       "evidence": "source: moors_moors.aspx",
       "created_at": "2026-09-03T12:54:32.488651"
+    },
+    {
+      "id": 7505,
+      "category": "RACIAL_RECLASSIFICATION",
+      "severity": "info",
+      "person_id": 992,
+      "person_id_secondary": null,
+      "description": "Historical Racial Reclassification: Recorded under multiple distinct racial categories across federal records (1870: Mulatto \u2794 1870: White). Exemplifies the tripartite legal classification pressures and racial boundary fluidity characteristic of Delmarva Afro-Indigenous families.",
+      "evidence": "Sources: census20.htm | Chronology: 1870: Mulatto \u2794 1870: White",
+      "created_at": "2026-09-06T19:06:30.061418"
     }
   ],
   "ancestry": {

@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "DurhamLeshiaKelly.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "17 March, 1929",
     "notes": "Ingested from DurhamLeshiaKelly.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,6 +41,82 @@
       "place_string": null,
       "value_string": "died on 17 March, 1929",
       "citations": []
+    },
+    {
+      "fact_id": 13389,
+      "person_id": 5058,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Enoch  Durham",
+      "citations": [
+        {
+          "citation_id": 12191,
+          "fact_id": 13389,
+          "source_id": 50,
+          "evidence_text": "...daughters of Isaiah and Elmira. Enoch and Margaret lived their lives in Kent Co., DE and had the following children: Wilbur Durham (Feb. 1887 - ) married Mattie Durham Enoch James Durham (June 1890 -Dec. 16, 1927 ) married Cora Carney Elmer Durham...",
+          "source_title": "Record: durhm-e1.htm",
+          "source_url": "durhm-e1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13925,
+      "person_id": 5058,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12727,
+          "fact_id": 13925,
+          "source_id": 77,
+          "evidence_text": "...1895 - Nov. 26, 1910 Mary - daughter of Teressa Durham- died Aug. 9, 1890 (aged 3 months) Mary E. Durham- 12/5/ 1908 - Wilbur Durham, Jr.- 10/14/ 1912 -1/17/ 1988 Melia- daughter of Claton & Melvina Durham April 30, 1882 - Aug. 30, 1882 Melvina-wife...",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14304,
+      "person_id": 5058,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Margaret Munce",
+      "citations": [
+        {
+          "citation_id": 13106,
+          "fact_id": 14304,
+          "source_id": 93,
+          "evidence_text": "...married two of Enoch's brothers. Margaret and Enoch lived their lives in Kent Co., DE and had the following children: Wilbur Durham (Feb. 1897 - ) married Mattie Durham Enoch James Durham (June 1890 -Dec. 16, 1927 ) married Cora Carney Elmer Durham...",
+          "source_title": "Record: munce-m2.htm",
+          "source_url": "munce-m2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15915,
+      "person_id": 5058,
+      "fact_type": "Racial Classification",
+      "date_string": "1840",
+      "place_string": "Kenton",
+      "value_string": "Enumerated as 'M' (Mulatto), age 38",
+      "citations": [
+        {
+          "citation_id": 14717,
+          "fact_id": 15915,
+          "source_id": 686,
+          "evidence_text": "1840 Census: Durham, Wilbur \u2014 DE | Wilbur | s | M | Feb | 1887",
+          "source_title": "Preserved Document: Census-1840 Sussex County",
+          "source_url": "census17.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,6 +132,16 @@
       "description": "[XPAGE:durhm-e1.htm] Death: date='17 March, 1929'",
       "evidence": "verbatim: died on 17 March, 1929",
       "created_at": "2026-09-03T12:55:12.068713"
+    },
+    {
+      "id": 7507,
+      "category": "RACIAL_RECLASSIFICATION",
+      "severity": "info",
+      "person_id": 5058,
+      "person_id_secondary": null,
+      "description": "Historical Racial Reclassification: Recorded under multiple distinct racial categories across federal records (1840: Mulatto \u2794 1840: Black). Exemplifies the tripartite legal classification pressures and racial boundary fluidity characteristic of Delmarva Afro-Indigenous families.",
+      "evidence": "Sources: census17.htm | Chronology: 1840: Mulatto \u2794 1840: Black",
+      "created_at": "2026-09-06T19:06:30.061474"
     }
   ],
   "ancestry": {

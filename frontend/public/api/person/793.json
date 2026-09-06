@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "wrightw2.htm",
     "birth_info": null,
     "death_info": null,
@@ -26,7 +26,7 @@
           "citation_id": 1120,
           "fact_id": 1120,
           "source_id": 118,
-          "evidence_text": null,
+          "evidence_text": "...children: Gertrude Wright who married Noah Harmon, Jr. the son of Noah Harmon. They had the following children: Gloria Harmon who married Glenn Barrentine Walter Wright Clarence Wright Douglas Wright Curtis Wright Valerie Wright Walter B....",
           "source_title": "Record: wrightw2.htm",
           "source_url": "wrightw2.htm",
           "source_dataset": "lynncjackson"
@@ -53,16 +53,21 @@
   "photos": [
     {
       "person_id": 793,
-      "photo_id": 1178,
-      "category": "family_trees",
-      "title_or_caption": "Harmon_Gloria_Ancestry.jpg",
+      "photo_id": 1223,
+      "category": "people",
+      "title_or_caption": "Harmon_Sisters_And_Brothers_And_Jackson_3.jpg",
       "subject_names": "Gloria Harmon",
       "married_surname": "Harmon",
       "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Harmon_Gloria_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonGloria.htm",
+      "local_image_path": "assets/archive_media/people/Harmon_Sisters_And_Brothers_And_Jackson_3.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonSisters&Brothers&Jackson2.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 793,
@@ -75,7 +80,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_Gloria.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonGloria.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

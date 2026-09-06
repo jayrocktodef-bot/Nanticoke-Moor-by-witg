@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
-    "death_info": "unknown",
+    "death_info": "May 15, 1913",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/236558164/george-mosley",
     "dataset_source": "davis_family_gedcom"
   },
@@ -79,6 +79,25 @@
       "place_string": null,
       "value_string": "d. May 15, 1913",
       "citations": []
+    },
+    {
+      "fact_id": 12608,
+      "person_id": 9481,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: William W. Carty",
+      "citations": [
+        {
+          "citation_id": 11410,
+          "fact_id": 12608,
+          "source_id": 12,
+          "evidence_text": "...and William WRIGHT Mary Carter Hattie Carter Irving Carter Elenora Carter Annie Elizabeth Carty (b.c. 1867 ) married George MOSLEY from Kent Co., DE They had the following children: Lola Mosley married Elwood BROWN Elmira Mosley married Roscoe...",
+          "source_title": "Record: carty-w2.htm",
+          "source_url": "carty-w2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -97,7 +116,44 @@
       "rel_name": "Elizabeth Mosley Harmon"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 9481,
+      "photo_id": 336,
+      "category": "people",
+      "title_or_caption": "Carter_George_E_And_Annie_Mosley_90_Th.jpg",
+      "subject_names": "Carter",
+      "married_surname": "Carter",
+      "approximate_year": "1970",
+      "local_image_path": "assets/archive_media/people/Carter_George_E_And_Annie_Mosley_90_Th.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterCalvin&Family.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9481,
+      "photo_id": 1117,
+      "category": "people",
+      "title_or_caption": "Hansley_George_And_Maude_Mosley.jpg",
+      "subject_names": "George Hansley",
+      "married_surname": "Hansley",
+      "approximate_year": "1882",
+      "local_image_path": "assets/archive_media/people/Hansley_George_And_Maude_Mosley.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HansleyGeorge&MaudeMosley.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [
     {

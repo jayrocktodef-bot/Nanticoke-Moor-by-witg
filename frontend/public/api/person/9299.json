@@ -6,7 +6,7 @@
     "middle_name": "MILLER CADE",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Dec 1874 Sussex, Delaware",
     "death_info": "3 Aug 1969 Lewes, Sussex County, Delaware, United States of America",
@@ -70,6 +70,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 14035,
+      "person_id": 9299,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Indian Mission Church",
+      "citations": [
+        {
+          "citation_id": 12837,
+          "fact_id": 14035,
+          "source_id": 79,
+          "evidence_text": "...Herman G. Harmon 4/18/ 1923 - 1/31/ 1924 \"Gone but Not Forgotten\" David S. Harmon unclear \" son of (unclear) & Annie Harmon\" David S. Harmon unclear \" son of (unclear) & Annie Harmon\" Sarah M. Harmon 9/20/ 1890 \"dau. of JW & Annie Harmon\"...",
+          "source_title": "Record: mission1.htm",
+          "source_url": "mission1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -105,6 +124,24 @@
   "photos": [
     {
       "person_id": 9299,
+      "photo_id": 2407,
+      "category": "people",
+      "title_or_caption": "Whaley_Annie_Price_And_Rosa_Harmon.jpg",
+      "subject_names": "Dee EllisLisa Durham-Heard Ellsworth",
+      "married_surname": "Whaley",
+      "approximate_year": "1800",
+      "local_image_path": "assets/archive_media/people/Whaley_Annie_Price_And_Rosa_Harmon.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Price%20Eliza%20Jane%20Ingram%20Family.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9299,
       "photo_id": 1150,
       "category": "people",
       "title_or_caption": "Harmon_Annie_P_And_Bigkids.jpg",
@@ -114,7 +151,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_Annie_P_And_Bigkids.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanTheodore&Anna.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 9299,
@@ -127,7 +169,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_Annie_Pjohnson.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanTheodore&Anna.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

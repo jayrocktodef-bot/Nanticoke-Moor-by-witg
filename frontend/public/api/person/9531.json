@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1858 Delaware",
     "death_info": "10 Jun 1946 Georgetown, Sussex County, Delaware, USA",
@@ -68,6 +68,25 @@
           "source_title": "Record: Davis Family Tree.ged",
           "source_url": "Davis Family Tree.ged",
           "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 13640,
+      "person_id": 9531,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harmony Methodist Church",
+      "citations": [
+        {
+          "citation_id": 12442,
+          "fact_id": 13640,
+          "source_id": 65,
+          "evidence_text": "...John W. Harmon 8/4/ 1876 - 9/12/ 1962 Eliza J. Harmon 12/3/ 1880 - 2/28/ 1965 Eliza J. Harmon 12/3/ 1880 - 2/28/ 1965 Joseph Harmon (no dates) hand carved stone Joseph Harmon (no dates) hand carved stone John M. Harmon 1882 - 1954 John M. Harmon 1882...",
+          "source_title": "Record: harmony1.htm",
+          "source_url": "harmony1.htm",
+          "source_dataset": "lynncjackson"
         }
       ]
     }
@@ -142,7 +161,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_Joseph_W.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonJosephW.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

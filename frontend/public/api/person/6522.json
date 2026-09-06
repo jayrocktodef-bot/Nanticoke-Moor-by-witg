@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "MorganRaymond&MaryVirginia.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "20 September, 1923",
     "notes": "Ingested from MorganRaymond&MaryVirginia.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,36 +41,48 @@
       "place_string": null,
       "value_string": "died on 20 September, 1923",
       "citations": []
+    },
+    {
+      "fact_id": 14609,
+      "person_id": 6522,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate",
+      "citations": [
+        {
+          "citation_id": 13411,
+          "fact_id": 14609,
+          "source_id": 658,
+          "evidence_text": "...--------------------------------------------------------------- ?? all men by these presents that We Elizabeth Sammons, Mary Morgan, Mary Reed, Prudy Copeland and Lydia Bristor Mitchell Sammons and Mills Sammons heirs at law of Isaac Sammons deceased...",
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15949,
+      "person_id": 6522,
+      "fact_type": "Racial Classification",
+      "date_string": "1840",
+      "place_string": "Kenton Hd.",
+      "value_string": "Enumerated as 'W' (White), age 60",
+      "citations": [
+        {
+          "citation_id": 14751,
+          "fact_id": 15949,
+          "source_id": 686,
+          "evidence_text": "1840 Census: Morgan, Mary \u2014 60 | DE | Mary | w | F | Sept",
+          "source_title": "Preserved Document: Census-1840 Sussex County",
+          "source_url": "census17.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
-    {
-      "person_id": 6522,
-      "photo_id": 1597,
-      "category": "family_trees",
-      "title_or_caption": "Morgan_Raymond_And_Mary_Vancestry.jpg",
-      "subject_names": "Mary Virginia Johnson",
-      "married_surname": "Morgan",
-      "approximate_year": "2002",
-      "local_image_path": "assets/archive_media/family_trees/Morgan_Raymond_And_Mary_Vancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganRaymond&MaryVirginia.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 6522,
-      "photo_id": 1587,
-      "category": "family_trees",
-      "title_or_caption": "Morgan_Mary_Eancestry.jpg",
-      "subject_names": "Morgan",
-      "married_surname": "Morgan",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Morgan_Mary_Eancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganMary.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
     {
       "person_id": 6522,
       "photo_id": 1586,
@@ -82,7 +94,30 @@
       "local_image_path": "assets/archive_media/people/Morgan_Mary.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganMary.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6522,
+      "photo_id": 1599,
+      "category": "people",
+      "title_or_caption": "Morgan_Raymond_And_Virginia_2002.jpg",
+      "subject_names": "Mary Virginia Johnson",
+      "married_surname": "Morgan",
+      "approximate_year": "2002",
+      "local_image_path": "assets/archive_media/people/Morgan_Raymond_And_Virginia_2002.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganRaymond&MaryVirginia.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6522,
@@ -95,7 +130,30 @@
       "local_image_path": "assets/archive_media/people/Morgan_Mary_Elva_C.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganMaryElvaC.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6522,
+      "photo_id": 3260,
+      "category": "people",
+      "title_or_caption": "Mary_Elva_Morgan_Mosley.jpg",
+      "subject_names": "Mary Elva Morgan Mosley",
+      "married_surname": "Mary",
+      "approximate_year": null,
+      "local_image_path": "assets/archive_media/people/Mary_Elva_Morgan_Mosley.jpg",
+      "source_url": null,
+      "dataset_source": "images",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

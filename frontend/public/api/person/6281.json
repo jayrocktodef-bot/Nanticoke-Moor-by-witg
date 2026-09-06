@@ -79,10 +79,66 @@
       "place_string": "the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
       "value_string": "married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
       "citations": []
+    },
+    {
+      "fact_id": 14071,
+      "person_id": 6281,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Araminta Morgan Jackson",
+      "citations": [
+        {
+          "citation_id": 12873,
+          "fact_id": 14071,
+          "source_id": 81,
+          "evidence_text": "Araminta Morgan Jackson Preserved Primary Document \u2022 morgan-a.htm Araminta Morgan, daughter of Edward Morgan and Mamie Durham, was born in...",
+          "source_title": "Record: morgan-a.htm",
+          "source_url": "morgan-a.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14544,
+      "person_id": 6281,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Main Page",
+      "citations": [
+        {
+          "citation_id": 13346,
+          "fact_id": 14544,
+          "source_id": 569,
+          "evidence_text": "...Alice (Jackson) Webb, Rebecca (Jackson) Reed Perry Hughes, Daniel Jackson, Levin Jackson, Arthur Jackson Araminta Morgan Jackson : ( 1922 - 1999 ) Caroline Jackson : ( 1877 - 7/13/ 1961 ) Clarence Jackson & Ellen Perkins Jackson Francis L. Jackson...",
+          "source_title": "Record: photo.htm",
+          "source_url": "photo.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 6281,
+      "photo_id": 1603,
+      "category": "people",
+      "title_or_caption": "Morgan_Will_And_Nora.jpg",
+      "subject_names": "Nora Jackson",
+      "married_surname": "Morgan",
+      "approximate_year": "1882",
+      "local_image_path": "assets/archive_media/people/Morgan_Will_And_Nora.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganWilliam&Nora.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
     {
       "person_id": 6281,
       "photo_id": 1321,
@@ -94,7 +150,48 @@
       "local_image_path": "assets/archive_media/people/Jackson_Araminta_Morgan.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonFrancis&Araminta.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6281,
+      "photo_id": 1589,
+      "category": "people",
+      "title_or_caption": "Morgan_Mr_Will.jpg",
+      "subject_names": "Nora Jackson",
+      "married_surname": "Morgan",
+      "approximate_year": "1882",
+      "local_image_path": "assets/archive_media/people/Morgan_Mr_Will.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganWilliam&Nora.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 6281,
+      "photo_id": 1336,
+      "category": "people",
+      "title_or_caption": "Jackson_Francis_And_Araminta.jpg",
+      "subject_names": "Araminta Morgan Jackson",
+      "married_surname": "Jackson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Jackson_Francis_And_Araminta.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonFrancis&Araminta.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

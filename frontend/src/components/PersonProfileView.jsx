@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
-import { User, Users, Camera, HeartHandshake, FileText, ExternalLink, Calendar, GitBranch, ArrowLeft, ShieldCheck, MapPin, X } from 'lucide-react';
+import { User, Users, Camera, HeartHandshake, FileText, ExternalLink, Calendar, GitBranch, ArrowLeft, ShieldCheck, MapPin, X, BookOpen } from 'lucide-react';
 import FanChart from './FanChart';
+import CitationModal from './CitationModal';
 
 export default function PersonProfileView({ personId, onClose, onSelectPerson }) {
   const [profile, setProfile] = useState(null);
   const [loading, setLoading] = useState(true);
   const [lightboxPhoto, setLightboxPhoto] = useState(null);
+  const [isCitationOpen, setIsCitationOpen] = useState(false);
 
   useEffect(() => {
     if (!personId) return;
@@ -65,6 +67,14 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
           Back to Directory
         </button>
         <div className="flex items-center gap-3">
+          <button
+            onClick={() => setIsCitationOpen(true)}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#C68B59]/10 text-[#D4A373] hover:bg-[#C68B59]/20 border border-[#C68B59]/30 text-xs font-mono font-bold transition-all"
+            title="Generate academic citations and export GEDCOM"
+          >
+            <BookOpen className="w-4 h-4 text-[#C68B59]" />
+            <span>Cite & Export</span>
+          </button>
           <button onClick={onClose} className="p-2 rounded-lg bg-[#1C1A17] border border-[#332D27] text-[#A8A096] hover:text-[#F3EBE3]">✕</button>
         </div>
       </div>
@@ -153,12 +163,26 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
                     Data Quality Flags
                   </h2>
                   <div className="space-y-3">
-                    {profile.audit_flags.map((flag, idx) => (
-                      <div key={idx} className={`p-3 rounded-lg border text-xs leading-relaxed ${flag.severity === 'critical' ? 'bg-red-900/20 border-red-900/50 text-red-300' : 'bg-orange-900/20 border-orange-900/50 text-orange-300'}`}>
-                        <strong className="block mb-1 font-bold tracking-wide uppercase text-[10px]">{flag.category} Warning</strong>
-                        {flag.description}
-                      </div>
-                    ))}
+                    {profile.audit_flags.map((flag, idx) => {
+                      const isRaceReclass = flag.category === 'RACIAL_RECLASSIFICATION';
+                      return (
+                        <div 
+                          key={idx} 
+                          className={`p-3 rounded-lg border text-xs leading-relaxed ${
+                            isRaceReclass 
+                              ? 'bg-purple-950/40 border-purple-800/60 text-purple-200' 
+                              : flag.severity === 'critical' 
+                                ? 'bg-red-900/20 border-red-900/50 text-red-300' 
+                                : 'bg-orange-900/20 border-orange-900/50 text-orange-300'
+                          }`}
+                        >
+                          <strong className="block mb-1 font-bold tracking-wide uppercase text-[10px]">
+                            {isRaceReclass ? '🏛️ Historical Racial Reclassification' : `${flag.category} Warning`}
+                          </strong>
+                          {flag.description}
+                        </div>
+                      );
+                    })}
                   </div>
                 </section>
               )}
@@ -279,7 +303,13 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
                     {profile.facts.map((fact, idx) => (
                       <div key={idx} className="bg-[#1C1A17] border border-[#26221E] rounded-xl p-5 shadow-sm hover:border-[#332D27] transition-all">
                         <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
-                          <span className="text-xs font-mono font-bold uppercase tracking-widest text-[#D4A373] bg-[#C68B59]/10 px-2.5 py-0.5 rounded-md border border-[#C68B59]/20">
+                          <span className={`text-xs font-mono font-bold uppercase tracking-widest px-2.5 py-0.5 rounded-md border ${
+                            fact.fact_type === 'Racial Classification'
+                              ? 'text-purple-300 bg-purple-950/40 border-purple-800/50'
+                              : fact.fact_type === 'Document Mention'
+                                ? 'text-cyan-300 bg-cyan-950/40 border-cyan-800/50'
+                                : 'text-[#D4A373] bg-[#C68B59]/10 border-[#C68B59]/20'
+                          }`}>
                             {fact.fact_type}
                           </span>
                           {(fact.date_string || fact.place_string) && (
@@ -438,6 +468,14 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
         </div>,
         document.body
       )}
+
+      {/* Academic Citation & GEDCOM Export Modal */}
+      <CitationModal
+        isOpen={isCitationOpen}
+        onClose={() => setIsCitationOpen(false)}
+        data={profile}
+        type="person"
+      />
     </div>
   );
 }

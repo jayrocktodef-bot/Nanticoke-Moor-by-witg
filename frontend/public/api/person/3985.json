@@ -8,7 +8,7 @@
     "married_last_name": "Seeney",
     "evidence_level": 3,
     "source_page": "CheswoldSchool.htm",
-    "birth_info": "unknown",
+    "birth_info": "March 28th 1843",
     "death_info": "Aug 1914",
     "notes": "Ingested from CheswoldSchool.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/247086419/ann-seeney",
     "dataset_source": "mitsawokett_delaware"
@@ -79,24 +79,29 @@
       "place_string": null,
       "value_string": "borned March 28th 1843",
       "citations": []
+    },
+    {
+      "fact_id": 14350,
+      "person_id": 3985,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits",
+      "citations": [
+        {
+          "citation_id": 13152,
+          "fact_id": 14350,
+          "source_id": 95,
+          "evidence_text": "...Mrs. Ruth L. Sowell of Jersey City, Mrs. Mary E. Carter, Mrs. Cordelia Rockford, Mrs. Betty J. Seeney, Mrs. Shirley Ann Seeney and Mrs. Gloria S. Attix, all of the Dover area; 30 grandchildren, seven great grandchildren; four brothers, James...",
+          "source_title": "Record: obit-c2.htm",
+          "source_url": "obit-c2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
-  "photos": [
-    {
-      "person_id": 3985,
-      "photo_id": 900,
-      "category": "people",
-      "title_or_caption": "Durham_Rhoda_Seeney_And_Anna_Cloatman.jpg",
-      "subject_names": "Allen Durham",
-      "married_surname": "Durham",
-      "approximate_year": "1940",
-      "local_image_path": "assets/archive_media/people/Durham_Rhoda_Seeney_And_Anna_Cloatman.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMarvel&Rhoda.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [
     {

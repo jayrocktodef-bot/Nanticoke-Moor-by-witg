@@ -6,7 +6,7 @@
     "middle_name": "Mae",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "15 September 1909 Millsboro, Sussex County, Delaware, United States of America",
     "death_info": "4 January 2000 Millsboro, Sussex County, Delaware, United States of America",
@@ -70,6 +70,44 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 13835,
+      "person_id": 9967,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Nathaniel Jackson",
+      "citations": [
+        {
+          "citation_id": 12637,
+          "fact_id": 13835,
+          "source_id": 75,
+          "evidence_text": "...) married Ellen S. Perkins ( 1886 - 1966 ) both are buried at the Jackson/Perkins Cemetary children: Aldie Jackson Gladys Jackson ( 1906 - 1964 ) who married Lawrence Muntz Jenny Jackson ( 1922 - 1955 ) photos of Clarence and Ellen curtesy of...",
+          "source_title": "Record: jacksonn.htm",
+          "source_url": "jacksonn.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14389,
+      "person_id": 9967,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits",
+      "citations": [
+        {
+          "citation_id": 13191,
+          "fact_id": 14389,
+          "source_id": 747,
+          "evidence_text": "...Norwood of Millsboro; two sons, Ralph of Dover and Wilson of Kansas City, Mo.; six grandchildren and a sister, Mrs. Gladys Jackson of Millsboro. Services will be held Wednesday afternoon at 1 at the Indian Mission Church. Friends may call at the...",
+          "source_title": "Preserved Document: Obits",
+          "source_url": "obit-h2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -98,6 +136,24 @@
   "photos": [
     {
       "person_id": 9967,
+      "photo_id": 1324,
+      "category": "people",
+      "title_or_caption": "Jackson_Blaine_And_Geri.jpg",
+      "subject_names": "Gladys Harmon",
+      "married_surname": "Jackson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Jackson_Blaine_And_Geri.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonBlaine&Gladys.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9967,
       "photo_id": 1856,
       "category": "people",
       "title_or_caption": "Muntz_Gladys_Jackson.jpg",
@@ -107,7 +163,30 @@
       "local_image_path": "assets/archive_media/people/Muntz_Gladys_Jackson.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonClarence.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9967,
+      "photo_id": 1352,
+      "category": "people",
+      "title_or_caption": "Jackson_Layton.jpg",
+      "subject_names": "Gladys Harmon",
+      "married_surname": "Jackson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Jackson_Layton.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonBlaine&Gladys.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 9967,
@@ -120,7 +199,12 @@
       "local_image_path": "assets/archive_media/people/Jackson_Gladys_Harmon.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonBlaine&Gladys.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

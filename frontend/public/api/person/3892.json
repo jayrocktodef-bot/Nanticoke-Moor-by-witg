@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Carter",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarterJohnCyrus.htm",
     "birth_info": "unknown",
     "death_info": "1835",
@@ -70,23 +70,29 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12594,
+      "person_id": 3892,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: John Clayton Carter",
+      "citations": [
+        {
+          "citation_id": 11396,
+          "fact_id": 12594,
+          "source_id": 10,
+          "evidence_text": "...November, 1932 . He married Christine Harris on 11 January, 1958 . John and Christine had the following children: John Cyrus Carter ( 1958 - ) James Carter ( 1964 - ) John and Christine had the following children: John Cyrus Carter ( 1958 - ) James...",
+          "source_title": "Record: carty-j4.htm",
+          "source_url": "carty-j4.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
-    {
-      "person_id": 3892,
-      "photo_id": 363,
-      "category": "family_trees",
-      "title_or_caption": "Carter_John_Cyrus_Ancestry.jpg",
-      "subject_names": "Carter",
-      "married_surname": "Carter",
-      "approximate_year": "2000",
-      "local_image_path": "assets/archive_media/family_trees/Carter_John_Cyrus_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterJohnCyrus.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
     {
       "person_id": 3892,
       "photo_id": 362,
@@ -98,7 +104,12 @@
       "local_image_path": "assets/archive_media/people/Carter_John_Cyrus_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterJohnCyrus.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3892,
@@ -111,7 +122,12 @@
       "local_image_path": "assets/archive_media/people/Carter_John_Cyrus_CW.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterJohnCyrus.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

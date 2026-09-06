@@ -79,22 +79,83 @@
       "place_string": "behind church            Elmirah Durham   1873 - 1953   wife of John M",
       "value_string": "buried behind church            Elmirah Durham   1873 - 1953   wife of John M",
       "citations": []
+    },
+    {
+      "fact_id": 13537,
+      "person_id": 4919,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Fork Branch",
+      "citations": [
+        {
+          "citation_id": 12339,
+          "fact_id": 13537,
+          "source_id": 58,
+          "evidence_text": "...Elmirah Durham 1873 - 1953 wife of John M. John M. Durham 11/30/ 1852 - 4/24/ 1920 son of Benjamin & Sally Ann Durham Emma Durham 1894 - 1933 \"wife of Elisha Mosley\" Melinda Goldsboro 3/2/ 1864 - 12/27/ 1921 \"Wife Age 57 years\" - a second metal...",
+          "source_title": "Record: fbranch.htm",
+          "source_url": "fbranch.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15921,
+      "person_id": 4919,
+      "fact_type": "Racial Classification",
+      "date_string": "1840",
+      "place_string": "Kenton Hd.",
+      "value_string": "Enumerated as 'W' (White), age 39",
+      "citations": [
+        {
+          "citation_id": 14723,
+          "fact_id": 15921,
+          "source_id": 686,
+          "evidence_text": "1840 Census: Durham, Emma \u2014 39 | DE | Emma | w | F | Nov",
+          "source_title": "Preserved Document: Census-1840 Sussex County",
+          "source_url": "census17.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
     {
       "person_id": 4919,
-      "photo_id": 1708,
-      "category": "family_trees",
-      "title_or_caption": "Mosley_Elisha_And_Emma_Durham_Ancestry.jpg",
-      "subject_names": "Emma Durham",
-      "married_surname": "Mosley",
-      "approximate_year": "1893",
-      "local_image_path": "assets/archive_media/family_trees/Mosley_Elisha_And_Emma_Durham_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamEmma.htm",
+      "photo_id": 928,
+      "category": "people",
+      "title_or_caption": "Durham_William_Retirement.jpg",
+      "subject_names": "Emma Snyder Durham",
+      "married_surname": "Durham",
+      "approximate_year": "1898",
+      "local_image_path": "assets/archive_media/people/Durham_William_Retirement.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWilliamMcKinley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 4919,
+      "photo_id": 2164,
+      "category": "people",
+      "title_or_caption": "Ridgeway_William_Edgar_Sr_And_Emma_Eliza_Durham_And_Paul_Jror_Sr.jpg",
+      "subject_names": "Emma Eliza Durham",
+      "married_surname": "Ridgeway",
+      "approximate_year": "1875",
+      "local_image_path": "assets/archive_media/people/Ridgeway_William_Edgar_Sr_And_Emma_Eliza_Durham_And_Paul_Jror_Sr.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayWilliamEdgarSr&EmmaElizaDurham&PaulJrorSr.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     },
     {
       "person_id": 4919,
@@ -107,7 +168,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Carlton_And_Hilda_And_Emma.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamCarlton.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4919,
@@ -120,7 +186,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Emma_And_Milton_Mosley.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamEmma.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4919,
@@ -133,7 +204,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Emma.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamEmma.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4919,
@@ -146,7 +222,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Emma_Grad.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamEmma.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4919,
@@ -159,20 +240,48 @@
       "local_image_path": "assets/archive_media/people/Carney_Went_And_Lilly_And_Emma_Durham.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyWinter&LillianDurham.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4919,
-      "photo_id": 801,
-      "category": "family_trees",
-      "title_or_caption": "Durham_Emma_Eliza_Ancestry.jpg",
-      "subject_names": "Carlton Durham",
+      "photo_id": 925,
+      "category": "people",
+      "title_or_caption": "Durham_William_At_Mike.jpg",
+      "subject_names": "Emma Snyder Durham",
       "married_surname": "Durham",
-      "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/family_trees/Durham_Emma_Eliza_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamCarlton.htm",
+      "approximate_year": "1898",
+      "local_image_path": "assets/archive_media/people/Durham_William_At_Mike.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWilliamMcKinley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 4919,
+      "photo_id": 879,
+      "category": "people",
+      "title_or_caption": "Durham_Mrs_William_In_Fur.jpg",
+      "subject_names": "Emma Snyder Durham",
+      "married_surname": "Durham",
+      "approximate_year": "1898",
+      "local_image_path": "assets/archive_media/people/Durham_Mrs_William_In_Fur.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWilliamMcKinley.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

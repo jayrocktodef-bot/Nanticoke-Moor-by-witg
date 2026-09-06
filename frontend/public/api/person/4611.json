@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "DeanAngelinaMunce2.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "5 January, 1914 (Bridgeton, NJ on 5 January, 1914 and Angelina 3 years later on 1 February)",
     "notes": "Ingested from DeanAngelinaMunce2.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,10 +41,47 @@
       "place_string": "Bridgeton, NJ on 5 January, 1914 and Angelina 3 years later on 1 February",
       "value_string": "died in Bridgeton, NJ on 5 January, 1914 and Angelina 3 years later on 1 February",
       "citations": []
+    },
+    {
+      "fact_id": 14238,
+      "person_id": 4611,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Angelina Munce",
+      "citations": [
+        {
+          "citation_id": 13040,
+          "fact_id": 14238,
+          "source_id": 646,
+          "evidence_text": "...On 30 July 1863 she married Enoch M. Dean who was the son of Jesse Dean, Jr. and Hester Ann Carney. Photo of Angelina Munce Dean Courtesy of Harry Muncey Enoch and Angelina moved to Cumberland Co., NJ around 1870 -74 and they appear in the census...",
+          "source_title": "Record: munce-a1.htm",
+          "source_url": "munce-a1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 4611,
+      "photo_id": 2220,
+      "category": "people",
+      "title_or_caption": "Sammons_Mary_Eliz_Munce.jpg",
+      "subject_names": "Bertha Dean",
+      "married_surname": "Sammons",
+      "approximate_year": "1841",
+      "local_image_path": "assets/archive_media/people/Sammons_Mary_Eliz_Munce.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsPerry&Bertha.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 4611,
       "photo_id": 711,
@@ -56,7 +93,12 @@
       "local_image_path": "assets/archive_media/people/Dean_Angelina_Munce.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DeanAngelinaMunce2.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

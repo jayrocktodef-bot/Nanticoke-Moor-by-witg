@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "DurhamCarlton.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "1978",
     "notes": "Ingested from DurhamCarlton.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,6 +41,44 @@
       "place_string": "1978",
       "value_string": "died in 1978",
       "citations": []
+    },
+    {
+      "fact_id": 13556,
+      "person_id": 4917,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Forest Grove",
+      "citations": [
+        {
+          "citation_id": 12358,
+          "fact_id": 13556,
+          "source_id": 59,
+          "evidence_text": "...1906 - 1983 Solomon E. Draine 1905 - 1963 Augustus Durham 2/2/ 1912 - 3/13/ 1986 Martha Durham 9/15/ 1912 - (no date) Carlton Durham 6/8/ 1910 - 9/7/ 1987 \"PFC US Army- WW II\" Clarence Durham 1909 - 1968 buried next to Elmira & William R. Durham Elmer...",
+          "source_title": "Record: fgrove.htm",
+          "source_url": "fgrove.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13922,
+      "person_id": 4917,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12724,
+          "fact_id": 13922,
+          "source_id": 77,
+          "evidence_text": "...- 1869 - 1941 William A. Drain - 1865 - 1940 Durham Anna M. Durham - 1892 - 1958 Benjamin R. Durham - 1888 - 1957 Carlton Durham- 1902 - 1972 Caroline- wife of Daniel Durham- died Dec. 24, 1914 (aged 56 years-8 months-10 days) Charles Durham-...",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +94,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Carlton_And_Hilda_And_Emma.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamCarlton.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4917,
@@ -69,7 +112,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Carlton.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamCarlton.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

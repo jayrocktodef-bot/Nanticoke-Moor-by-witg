@@ -8,7 +8,7 @@
     "married_last_name": "Robert",
     "evidence_level": 3,
     "source_page": "SocialSecurityApplications.htm",
-    "birth_info": null,
+    "birth_info": "6 Aug. 1872",
     "death_info": null,
     "notes": "Ingested from preserved SocialSecurityApplications.htm record | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
@@ -26,7 +26,7 @@
           "citation_id": 2118,
           "fact_id": 2118,
           "source_id": 147,
-          "evidence_text": null,
+          "evidence_text": "...Jr Durham, Walter Harvey Jr Durham, Walter Harvey Jr Durham, Wilber Jr Durham, Wilber Jr Durham, Wilber Jr Green, James Robert Green, James Robert Green, Oliver Raymond Green, Oliver Raymond Green, Oliver Raymond Greenage, Darrell David...",
           "source_title": "Record: SocialSecurityApplications.htm",
           "source_url": "SocialSecurityApplications.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -56,7 +56,12 @@
       "local_image_path": "assets/archive_media/people/Robert_James_Coker.jpg",
       "source_url": null,
       "dataset_source": "images",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 2595,
@@ -69,7 +74,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Robert_James_And_Ethel.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyRobertJamesJr&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 2595,
@@ -82,20 +92,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Robert_James_Jr_And_Sister.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyRobertJamesJr&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 2595,
-      "photo_id": 285,
-      "category": "family_trees",
-      "title_or_caption": "Carney_Robert_James_Ancestry.jpg",
-      "subject_names": "Carney",
-      "married_surname": "Carney",
-      "approximate_year": "1851",
-      "local_image_path": "assets/archive_media/family_trees/Carney_Robert_James_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyJames&Harriett.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 2595,
@@ -108,20 +110,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Robert_James_Jr.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyRobertJamesSr&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 2595,
-      "photo_id": 3329,
-      "category": "documents",
-      "title_or_caption": "Green_James_Robert_SocialSecurity_Application.jpg",
-      "subject_names": "Green James Robert SocialSecurity Application",
-      "married_surname": "",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/documents/Green_James_Robert_SocialSecurity_Application.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "ss_application"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 2595,
@@ -134,7 +128,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Robert_James_Sr_And_Cordelia.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyRobertJamesSr&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

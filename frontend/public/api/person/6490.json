@@ -79,10 +79,47 @@
       "place_string": "the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
       "value_string": "married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
       "citations": []
+    },
+    {
+      "fact_id": 14155,
+      "person_id": 6490,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Napoleon Morgan",
+      "citations": [
+        {
+          "citation_id": 12957,
+          "fact_id": 14155,
+          "source_id": 86,
+          "evidence_text": "...Cora Lela Morgan (b. 1906 ) married Archie Cleo Morris, son of Oscar Morris and Sarah Owens child: William K. Morris Nora Morgan Homer Anthony Morgan (b. about 1894 in Cheswold, DE - d. 1978 ) married Emma C. Morris ( 1900 - 1983 ). Both are...",
+          "source_title": "Record: morgan-n.htm",
+          "source_url": "morgan-n.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 6490,
+      "photo_id": 1589,
+      "category": "people",
+      "title_or_caption": "Morgan_Mr_Will.jpg",
+      "subject_names": "Nora Jackson",
+      "married_surname": "Morgan",
+      "approximate_year": "1882",
+      "local_image_path": "assets/archive_media/people/Morgan_Mr_Will.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganWilliam&Nora.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
     {
       "person_id": 6490,
       "photo_id": 1603,
@@ -94,7 +131,12 @@
       "local_image_path": "assets/archive_media/people/Morgan_Will_And_Nora.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganWilliam&Nora.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

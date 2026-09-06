@@ -6,7 +6,7 @@
     "middle_name": "Dean",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "SocialSecurityApplications.htm",
     "birth_info": "Oct 1926",
     "death_info": "unknown",
@@ -26,7 +26,7 @@
           "citation_id": 2136,
           "fact_id": 2136,
           "source_id": 147,
-          "evidence_text": null,
+          "evidence_text": "...Morgan, Hazel Ella Sammons Morgan, Hazel Ella Sammons Mosley, Garfield Mosley, Garfield Mosley, Garfield Mosley, Wilbert Dean Mosley, Wilbert Dean Mosley, Wilbert Dean Pierce, Alfred Horace Pierce, Alfred Horace Pierce, Alfred Horace Pierce, Enos Sr....",
           "source_title": "Record: SocialSecurityApplications.htm",
           "source_url": "SocialSecurityApplications.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -45,7 +45,7 @@
           "citation_id": 2137,
           "fact_id": 2137,
           "source_id": 147,
-          "evidence_text": null,
+          "evidence_text": "...Morgan, Hazel Ella Sammons Morgan, Hazel Ella Sammons Mosley, Garfield Mosley, Garfield Mosley, Garfield Mosley, Wilbert Dean Mosley, Wilbert Dean Mosley, Wilbert Dean Pierce, Alfred Horace Pierce, Alfred Horace Pierce, Alfred Horace Pierce, Enos Sr....",
           "source_title": "Record: SocialSecurityApplications.htm",
           "source_url": "SocialSecurityApplications.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -64,7 +64,7 @@
           "citation_id": 2138,
           "fact_id": 2138,
           "source_id": 147,
-          "evidence_text": null,
+          "evidence_text": "...Morgan, Hazel Ella Sammons Morgan, Hazel Ella Sammons Mosley, Garfield Mosley, Garfield Mosley, Garfield Mosley, Wilbert Dean Mosley, Wilbert Dean Mosley, Wilbert Dean Pierce, Alfred Horace Pierce, Alfred Horace Pierce, Alfred Horace Pierce, Enos Sr....",
           "source_title": "Record: SocialSecurityApplications.htm",
           "source_url": "SocialSecurityApplications.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -76,19 +76,6 @@
   "photos": [
     {
       "person_id": 2624,
-      "photo_id": 3340,
-      "category": "documents",
-      "title_or_caption": "Mosley_Wilbert_Dean_SocialSecurity_Application.jpg",
-      "subject_names": "Mosley Wilbert Dean SocialSecurity Application",
-      "married_surname": "",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/documents/Mosley_Wilbert_Dean_SocialSecurity_Application.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "ss_application"
-    },
-    {
-      "person_id": 2624,
       "photo_id": 1821,
       "category": "people",
       "title_or_caption": "Mosley_Wilbert_And_Elaine.jpg",
@@ -98,33 +85,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Wilbert_And_Elaine.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyWilbert&Elaine.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 2624,
-      "photo_id": 1823,
-      "category": "people",
-      "title_or_caption": "Mosley_Wilbertswife_Betty.jpg",
-      "subject_names": "Mosley",
-      "married_surname": "Mosley",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Mosley_Wilbertswife_Betty.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyWilbert&Elaine.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 2624,
-      "photo_id": 1826,
-      "category": "family_trees",
-      "title_or_caption": "Mosley_Wilbert_Dancestry.jpg",
-      "subject_names": "Mosley",
-      "married_surname": "Mosley",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Mosley_Wilbert_Dancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyWilbert&Elaine.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 2624,
@@ -137,7 +103,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Wilbert_Navy.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyGeoffrey&Lulu.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

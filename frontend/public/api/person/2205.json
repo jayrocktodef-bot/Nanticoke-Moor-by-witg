@@ -9,7 +9,7 @@
     "evidence_level": 4,
     "source_page": "Probate.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "Apr. 9, 1887",
     "notes": "Ingested from preserved Probate.htm record | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -26,7 +26,7 @@
           "citation_id": 1606,
           "fact_id": 1606,
           "source_id": 658,
-          "evidence_text": null,
+          "evidence_text": "...and nine children as heirs at law who an all alive and entitled to the said unappropriated balance as follows viz: Sarah Carney the Widow 1/3 Rebecca now the Widow of Myers Miller 1/9 of 2/3 Levi Carney 1/9 of 2/3 Phoebe the wife of Enoch Miller...",
           "source_title": "Record: Probate.htm",
           "source_url": "Probate.htm",
           "source_dataset": "lynncjackson"
@@ -41,6 +41,63 @@
       "place_string": null,
       "value_string": "died Apr. 9, 1887",
       "citations": []
+    },
+    {
+      "fact_id": 12834,
+      "person_id": 2205,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Census-1860",
+      "citations": [
+        {
+          "citation_id": 11636,
+          "fact_id": 12834,
+          "source_id": 687,
+          "evidence_text": "...NORWOOD John Clerk Martha 28 F M \u00a0 DE Martha John 6 M M school PA John school Mary 3 F M \u00a0 PA Mary Sarah 1 F M \u00a0 PA Sarah CARNEY Eliza 40 F M Cook PA CARNEY Eliza Cook CARNEY John 16 M M \u00a0 PA CARNEY John PA Susquehanna Lenox Twp/ 472 \u00a0 \u00a0 SISCO A\u00a0...",
+          "source_title": "Preserved Document: Census-1860",
+          "source_url": "census19.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 13159,
+      "person_id": 2205,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Jesse Dean",
+      "citations": [
+        {
+          "citation_id": 11961,
+          "fact_id": 13159,
+          "source_id": 41,
+          "evidence_text": "...1 F M DE Jesse was married sometime prior to 1827 to Hester, who is believed to have been the daughter of Thomas and Sarah Carney. They had, at least 9 children: Robert Dean ( 1830 - 1874 ) married Catherine Morgan Mary Dean ( 1832 - ) married...",
+          "source_title": "Record: dean-j3.htm",
+          "source_url": "dean-j3.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14637,
+      "person_id": 2205,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate-Carney",
+      "citations": [
+        {
+          "citation_id": 13439,
+          "fact_id": 14637,
+          "source_id": 783,
+          "evidence_text": "...and nine children as heirs at law who an all alive and entitled to the said unappropriated balance as follows viz: Sarah Carney the Widow 1/3 Rebecca now the Widow of Myers Miller 1/9 of 2/3 Levi Carney 1/9 of 2/3 Phoebe the wife of Eroch Miller...",
+          "source_title": "Preserved Document: Probate-Carney",
+          "source_url": "probt-c6.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +113,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Carolyn_And_Sammons_Sarah_Eunice_Ridgeway_2000.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsSarahEuniceRidgeway.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "ss_application",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     },
     {
       "person_id": 2205,
@@ -69,20 +131,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Herber_And_Sarah_Pierce.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyHerbert&SarahPierce.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 2205,
-      "photo_id": 294,
-      "category": "people",
-      "title_or_caption": "Carney_Sara_JMH.jpg",
-      "subject_names": "Carney",
-      "married_surname": "Carney",
-      "approximate_year": "1893",
-      "local_image_path": "assets/archive_media/people/Carney_Sara_JMH.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneySaraJMH.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

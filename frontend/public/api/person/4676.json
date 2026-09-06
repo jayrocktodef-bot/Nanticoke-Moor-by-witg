@@ -6,7 +6,7 @@
     "middle_name": "Morgan",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DeanRobert&Family.htm",
     "birth_info": "unknown",
     "death_info": "Nov 1858",
@@ -70,10 +70,48 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 14600,
+      "person_id": 4676,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate",
+      "citations": [
+        {
+          "citation_id": 13402,
+          "fact_id": 14600,
+          "source_id": 658,
+          "evidence_text": "...of Catharine. No. 1. 30 acres Kenton Hundred adjoining lands of Eben Cloak and lands of Jacob Bryan, in tenure of Catharine Dean. \u00a0\u00a0\u00a0\u00a0\u00a0\u00a02. 30 acres Kenton Hundred adjoining lands of William Surgen and lands of Dr. William ----- and lands of the...",
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 4676,
+      "photo_id": 201,
+      "category": "people",
+      "title_or_caption": "Carney_Catharine_Morgan_Dean.jpg",
+      "subject_names": "Brown",
+      "married_surname": "Carney",
+      "approximate_year": "1830",
+      "local_image_path": "assets/archive_media/people/Carney_Catharine_Morgan_Dean.jpg",
+      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DeanRobert&Family.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

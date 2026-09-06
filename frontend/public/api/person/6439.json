@@ -76,19 +76,6 @@
   "photos": [
     {
       "person_id": 6439,
-      "photo_id": 1640,
-      "category": "family_trees",
-      "title_or_caption": "Morris_Radia_Hall_Ancestry.jpg",
-      "subject_names": "Morris",
-      "married_surname": "Morris",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Morris_Radia_Hall_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisRadiaHall.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 6439,
       "photo_id": 1639,
       "category": "people",
       "title_or_caption": "Morris_Radia_Hall.jpg",
@@ -98,7 +85,12 @@
       "local_image_path": "assets/archive_media/people/Morris_Radia_Hall.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HallAmos&Laura.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "RidgewayRhoda.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "1917",
     "notes": "Ingested from RidgewayRhoda.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,6 +41,25 @@
       "place_string": null,
       "value_string": "died  1917",
       "citations": []
+    },
+    {
+      "fact_id": 14424,
+      "person_id": 7149,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits- Morris",
+      "citations": [
+        {
+          "citation_id": 13226,
+          "fact_id": 14424,
+          "source_id": 750,
+          "evidence_text": "...Memorial Hospital after a long illness. He is survived by his widow, Mrs. Saddie Morris, Millsboro; a step-son, George Sammons, Millsboro; two step-daughters, Mrs. Merrill Harmon and Mrs. Arzie Clark, both of Millsboro; 18 grandchildren, 31...",
+          "source_title": "Preserved Document: Obits- Morris",
+          "source_url": "obit-m1.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +75,12 @@
       "local_image_path": "assets/archive_media/people/Sammons_George_1.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayRhoda.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -76,19 +76,6 @@
   "photos": [
     {
       "person_id": 5792,
-      "photo_id": 1203,
-      "category": "people",
-      "title_or_caption": "Harmon_Myrtle_Sammons_And_Kids.jpg",
-      "subject_names": "Arzie 2",
-      "married_surname": "Harmon",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Harmon_Myrtle_Sammons_And_Kids.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayRhoda.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 5792,
       "photo_id": 1147,
       "category": "people",
       "title_or_caption": "Harmon_Anna_And_Sam_Stewartwedding.jpg",
@@ -98,7 +85,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_Anna_And_Sam_Stewartwedding.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonAnna&SamStewartwedding.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

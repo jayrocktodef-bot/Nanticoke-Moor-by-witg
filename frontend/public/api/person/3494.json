@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "CarneyGarlandFamily.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "9 January, 1931",
     "notes": "Ingested from CarneyGarlandFamily.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,23 +41,29 @@
       "place_string": null,
       "value_string": "died on 9 January, 1931",
       "citations": []
+    },
+    {
+      "fact_id": 13906,
+      "person_id": 3494,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12708,
+          "fact_id": 13906,
+          "source_id": 77,
+          "evidence_text": "...- 6 Nov. Etta B. Carney -wife of John W. Miller Jan. 18, 1884 - Jan. 20, 1913 Garland R. Carney - 23 Nov. 1923 - D. Eleanor Carney- 31 July 1924 - George Carney - 4 June 1907 - 22 Dec. 1995 Goldie Carney- 9 Sept. 1902 - Nov. 1976 Agnes M. Carney-...",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
-    {
-      "person_id": 3494,
-      "photo_id": 1903,
-      "category": "family_trees",
-      "title_or_caption": "Olin_Eleanor_Carney_Ancestry.jpg",
-      "subject_names": "Olin Eleanor Carney Ancestry",
-      "married_surname": "Olin",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/family_trees/Olin_Eleanor_Carney_Ancestry.jpg",
-      "source_url": null,
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
     {
       "person_id": 3494,
       "photo_id": 1902,
@@ -69,7 +75,12 @@
       "local_image_path": "assets/archive_media/people/Olin_Eleanor_Carney.jpg",
       "source_url": null,
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3494,
@@ -82,7 +93,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Dorothy_Eleanor_2002.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyGarlandFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3494,
@@ -95,7 +111,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Garland_And_Eleanor_1996.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyGarlandFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -8,7 +8,7 @@
     "married_last_name": "Carter",
     "evidence_level": 3,
     "source_page": "photo.htm",
-    "birth_info": null,
+    "birth_info": "28 \t\tJanuary, 1857 (Maryland on 28 \t\tJanuary, 1857)",
     "death_info": null,
     "notes": "Linked to carty-h.htm | FindAGrave: no match",
     "dataset_source": "lynncjackson"
@@ -26,7 +26,7 @@
           "citation_id": 933,
           "fact_id": 933,
           "source_id": 569,
-          "evidence_text": null,
+          "evidence_text": "...5/25/ 1826 in MD) Hopewell Umphrey Carter SR. : (1/28/ 1857 - 2/13/ 1933 ) Hopewell Umphrey Carter JR. ( 1908 - 1967 ) Sarah Ridgeway Carter Elizabeth Carty : (4/20/ 1821 - 3/26/ 1901 ) John Clayton Coker ( 1884 - 1915 ) Robert J. Coker (9/7/ 1874 - died...",
           "source_title": "Record: photo.htm",
           "source_url": "photo.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -41,6 +41,25 @@
       "place_string": "Maryland on 28 \t\tJanuary, 1857",
       "value_string": "was born in Maryland on 28 \t\tJanuary, 1857 .",
       "citations": []
+    },
+    {
+      "fact_id": 12599,
+      "person_id": 574,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: William W. Carty",
+      "citations": [
+        {
+          "citation_id": 11401,
+          "fact_id": 12599,
+          "source_id": 12,
+          "evidence_text": "...Sarah Morgan , the daughter of William and Annie Sanders Morgan from Kent Co., DE. After her husband's death in 1800 , Sarah Carter returned to Kent Co., DE were some of her children were already living. William and Sarah had the following children :...",
+          "source_title": "Record: carty-w2.htm",
+          "source_url": "carty-w2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +75,12 @@
       "local_image_path": "assets/archive_media/people/Carter_Sarah_Catherine_Ridgeway.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterHopewellUmphrey.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

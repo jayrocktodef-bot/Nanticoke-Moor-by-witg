@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MosleyJamesParis.htm",
     "birth_info": "9 Jun 1915",
     "death_info": "14 May 1984 (aged 68)",
@@ -70,6 +70,44 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13761,
+      "person_id": 6563,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Robert B Jackson",
+      "citations": [
+        {
+          "citation_id": 12563,
+          "fact_id": 13761,
+          "source_id": 69,
+          "evidence_text": "...3 Mar 1913 in Kent County, Delaware. She died about 1937 in Delaware and was buried in Fork Branch Cemetery. James Paris Mosley ( 1914 - 1984 ) who married Grace Helen Simmons Jeanette Mosley ( c. 1916 - ) Walter Warren Mosley Levin Jackson (...",
+          "source_title": "Record: jacksnr2.htm",
+          "source_url": "jacksnr2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15299,
+      "person_id": 6563,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Lydia Wright",
+      "citations": [
+        {
+          "citation_id": 14101,
+          "fact_id": 15299,
+          "source_id": 839,
+          "evidence_text": "...3 Mar 1913 in Kent County, Delaware. She died about 1937 in Delaware and was buried in Fork Branch Cemetery. James Paris Mosley ( 1914 - 1984 ) who married Grace Helen Simmons Jeanette Mosley ( c. 1916 - ) Walter Warren Mosley Levin Jackson (...",
+          "source_title": "Preserved Document: Lydia Wright",
+          "source_url": "wright-l.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,20 +123,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Paris_Shoeshop_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJamesParis.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 6563,
-      "photo_id": 1732,
-      "category": "family_trees",
-      "title_or_caption": "Mosley_James_Paris_Ancestry.jpg",
-      "subject_names": "Sarah Elizabeth Mosley Durham",
-      "married_surname": "Mosley",
-      "approximate_year": "1949",
-      "local_image_path": "assets/archive_media/family_trees/Mosley_James_Paris_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJamesParis.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6563,
@@ -111,7 +141,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Paris_And_Jeanie.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJamesParis.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6563,
@@ -124,7 +159,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Paris_Shoeshop.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJamesParis.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

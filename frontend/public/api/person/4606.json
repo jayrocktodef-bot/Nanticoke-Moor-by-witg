@@ -85,7 +85,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Winfield_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayWinfield.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4606,
@@ -98,20 +103,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Winfield_Floyd_Reed_Parker_Custis.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayWinfield.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 4606,
-      "photo_id": 2168,
-      "category": "family_trees",
-      "title_or_caption": "Ridgeway_Winfield_Jr_Ancestry.jpg",
-      "subject_names": "Custis",
-      "married_surname": "Ridgeway",
-      "approximate_year": "1901",
-      "local_image_path": "assets/archive_media/family_trees/Ridgeway_Winfield_Jr_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CustisCarol&Lorraine&Parker.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -8,7 +8,7 @@
     "married_last_name": "Norwood",
     "evidence_level": 3,
     "source_page": "WrightGertrude&Annie&SarahNorwood.htm",
-    "birth_info": null,
+    "birth_info": "March 15, 1773",
     "death_info": null,
     "notes": "Ingested from WrightGertrude&Annie&SarahNorwood.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
@@ -41,23 +41,29 @@
       "place_string": null,
       "value_string": "Born March 15, 1773",
       "citations": []
+    },
+    {
+      "fact_id": 15803,
+      "person_id": 7984,
+      "fact_type": "Racial Classification",
+      "date_string": "1860",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 1",
+      "citations": [
+        {
+          "citation_id": 14605,
+          "fact_id": 15803,
+          "source_id": 687,
+          "evidence_text": "1860 Census: Norwood, Sarah \u2014 Sarah | 1 | F | M | PA | CARNEY",
+          "source_title": "Preserved Document: Census-1860",
+          "source_url": "census19.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
-    {
-      "person_id": 7984,
-      "photo_id": 1899,
-      "category": "family_trees",
-      "title_or_caption": "Norwood_Sarah_Ancestry.jpg",
-      "subject_names": "Norwood",
-      "married_surname": "Norwood",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Norwood_Sarah_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodSarah.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
     {
       "person_id": 7984,
       "photo_id": 1898,
@@ -69,7 +75,12 @@
       "local_image_path": "assets/archive_media/people/Norwood_Sarah.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NorwoodSarah.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7984,
@@ -82,7 +93,12 @@
       "local_image_path": "assets/archive_media/people/Wright_Gertrude_And_Annie_And_Sarah_Norwood.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightGertrude&Annie&SarahNorwood.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

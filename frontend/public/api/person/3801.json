@@ -8,8 +8,8 @@
     "married_last_name": "Mosley",
     "evidence_level": 3,
     "source_page": "CarneyWanda.htm",
-    "birth_info": null,
-    "death_info": null,
+    "birth_info": "2015",
+    "death_info": "6 June, 1933",
     "notes": "Ingested from CarneyWanda.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -59,6 +59,25 @@
       "place_string": null,
       "value_string": "died on 6 June, 1933",
       "citations": []
+    },
+    {
+      "fact_id": 14102,
+      "person_id": 3801,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harvey Morgan",
+      "citations": [
+        {
+          "citation_id": 12904,
+          "fact_id": 14102,
+          "source_id": 730,
+          "evidence_text": "...Morgan Preserved Primary Document \u2022 morgan-h.htm Winfred Morgan Harvey Morgan Raymond Morgan Creed Morgan married Dorothy MOSLEY Gladys Morgan Beatrice Morgan married Thomas Reed Harvey Morgan Raymond Morgan Creed Morgan married Dorothy MOSLEY...",
+          "source_title": "Preserved Document: Harvey Morgan",
+          "source_url": "morgan-h.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -74,20 +93,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_James_E_And_Dorothy.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJames%20E.%20&%20Dorothy%20(Seeney).htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 3801,
-      "photo_id": 1730,
-      "category": "family_trees",
-      "title_or_caption": "Mosley_James_Edward_And_Dorothy_Ancestry.jpg",
-      "subject_names": "Mosley",
-      "married_surname": "Mosley",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Mosley_James_Edward_And_Dorothy_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJames%20E.%20&%20Dorothy%20(Seeney).htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [

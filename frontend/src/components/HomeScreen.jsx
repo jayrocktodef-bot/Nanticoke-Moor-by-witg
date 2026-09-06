@@ -1,5 +1,5 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react';
-import { Search, Database, Users, FileText, Image as ImageIcon, GitFork, BookOpen, ShieldCheck, HeartHandshake, GitCommit, Bookmark, LayoutGrid, List, Sparkles, Filter, Sun, Moon, Printer } from 'lucide-react';
+import { Search, Database, Users, FileText, Image as ImageIcon, GitFork, BookOpen, ShieldCheck, HeartHandshake, GitCommit, Bookmark, LayoutGrid, List, Sparkles, Filter, Sun, Moon, Printer, Compass, MapPin } from 'lucide-react';
 import SurnameCard from './SurnameCard';
 import RecordDrawer from './RecordDrawer';
 import PersonProfileView from './PersonProfileView';
@@ -15,6 +15,7 @@ const ObituaryViewer = lazy(() => import('./ObituaryViewer'));
 const FamilyInterconnectionMatrix = lazy(() => import('./FamilyInterconnectionMatrix'));
 const SourcesCatalog = lazy(() => import('./SourcesCatalog'));
 const AuditResolutionPanel = lazy(() => import('./AuditResolutionPanel'));
+const HistoricalMigrationMap = lazy(() => import('./HistoricalMigrationMap'));
 
 export default function HomeScreen() {
   const [activeTab, setActiveTab] = useState('surnames');
@@ -171,7 +172,8 @@ export default function HomeScreen() {
             <nav className="space-y-1">
               {[
                 { id: 'surnames', label: 'Family Portals', icon: Users },
-                { id: 'graph', label: 'Family Tree & Map', icon: GitFork },
+                { id: 'graph', label: 'Family Tree & Network', icon: GitFork },
+                { id: 'migration_map', label: 'Migration & Cemeteries', icon: Compass },
                 { id: 'interconnections', label: 'Clan Interconnections', icon: GitCommit },
                 { id: 'gallery', label: 'Photographs & Media', icon: ImageIcon },
                 { id: 'obituaries', label: 'Memorials & Obituaries', icon: HeartHandshake },
@@ -265,6 +267,7 @@ export default function HomeScreen() {
             <h2 className="text-lg font-bold text-[#F3EBE3] font-serif-header capitalize flex items-center gap-2">
               {activeTab === 'surnames' && 'Delmarva & Nanticoke Maternal Surnames'}
               {activeTab === 'graph' && 'Interactive Lineage Tree & Network'}
+              {activeTab === 'migration_map' && 'Historical Migration Corridors & Cemetery Atlas'}
               {activeTab === 'interconnections' && 'Family Interconnections Matrix'}
               {activeTab === 'gallery' && 'Photo & Media Document Archive'}
               {activeTab === 'obituaries' && 'Historical Obituary Vault'}
@@ -770,6 +773,11 @@ export default function HomeScreen() {
           {/* Tab 2: Interconnections */}
           {activeTab === 'interconnections' && (
             <FamilyInterconnectionMatrix onSelectSurname={handleSelectSurname} />
+          )}
+
+          {/* Tab: Historical Migration Corridors & Cemetery Atlas */}
+          {activeTab === 'migration_map' && (
+            <HistoricalMigrationMap onSelectPerson={(pid) => setSelectedPersonId(pid)} />
           )}
 
           {/* Tab 3: Lineage Graph */}

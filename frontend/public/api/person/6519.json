@@ -8,7 +8,7 @@
     "married_last_name": "Mosley",
     "evidence_level": 3,
     "source_page": "MosleyAlbertaC.htm",
-    "birth_info": null,
+    "birth_info": "May 04, 1927 (Fairton, NJ on May 04, 1927)",
     "death_info": null,
     "notes": "Ingested from MosleyAlbertaC.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
@@ -41,6 +41,25 @@
       "place_string": "Fairton, NJ on May 04, 1927",
       "value_string": "was born in Fairton, NJ on May 04, 1927 .",
       "citations": []
+    },
+    {
+      "fact_id": 13539,
+      "person_id": 6519,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Fork Branch",
+      "citations": [
+        {
+          "citation_id": 12341,
+          "fact_id": 13539,
+          "source_id": 58,
+          "evidence_text": "...Garfield Mosley 1902 - 1971 Harrison Mosley 1/8/ 1902 - 3/ 1971 Joseph H. Mosley 5/15/ 1888 - 3/10/ 1959 sep. stones Alberta Mosley 1893 - 1951 sep stones Joseph L. Mosley Sr. 9/2/ 1932 - 1/20/ 1991 Rosemary Mosley 9/23/ 1932 - Josephine Mosely 3/31/...",
+          "source_title": "Record: fbranch.htm",
+          "source_url": "fbranch.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +75,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Alberta_C.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyAlbertaC.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

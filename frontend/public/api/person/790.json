@@ -6,7 +6,7 @@
     "middle_name": "Lincoln",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "wrightw1.htm",
     "birth_info": "about 16 Jan 1891 \u2014 Millsboro, Sussex, Delaware, United States",
     "death_info": null,
@@ -26,7 +26,7 @@
           "citation_id": 1113,
           "fact_id": 1113,
           "source_id": 117,
-          "evidence_text": null,
+          "evidence_text": "...1854 ) married a Perkins Rebecca Wright (b.c. 1859 ) Ann Wright who married Paynter Harmon Nicey Wright who married Ephraim Harmon According to the 1840 census, Warren and his family had moved to Broadkill Hundred, Sussex Co., DE. Their race is...",
           "source_title": "Record: wrightw1.htm",
           "source_url": "wrightw1.htm",
           "source_dataset": "lynncjackson"
@@ -45,7 +45,7 @@
           "citation_id": 1114,
           "fact_id": 1114,
           "source_id": 117,
-          "evidence_text": null,
+          "evidence_text": "...1854 ) married a Perkins Rebecca Wright (b.c. 1859 ) Ann Wright who married Paynter Harmon Nicey Wright who married Ephraim Harmon According to the 1840 census, Warren and his family had moved to Broadkill Hundred, Sussex Co., DE. Their race is...",
           "source_title": "Record: wrightw1.htm",
           "source_url": "wrightw1.htm",
           "source_dataset": "lynncjackson"
@@ -89,6 +89,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12713,
+      "person_id": 790,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Census-Sussex County",
+      "citations": [
+        {
+          "citation_id": 11515,
+          "fact_id": 12713,
+          "source_id": 682,
+          "evidence_text": "...Leiws & Rehoboth Hd. \"free colored\" 0 1 1 1 0 1 0 1 376 Emanuel Harmon Dagsboro Hd. \"free colored\" 2 1 0 1 0 0 0 1 392 Ephraim Harmon Dagsboro Hd. \"free colored\" 1 0 1 0 ? ? ? ? 230 John Harmon Nanticoke Hd. \"free colored\" 1 1 1 0 1 0 1 1 376 Jonathan...",
+          "source_title": "Preserved Document: Census-Sussex County",
+          "source_url": "census08.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -117,6 +136,24 @@
   "photos": [
     {
       "person_id": 790,
+      "photo_id": 1143,
+      "category": "people",
+      "title_or_caption": "Harman_Vina_Harmon.jpg",
+      "subject_names": "Ephraim 2",
+      "married_surname": "Harman",
+      "approximate_year": "1804",
+      "local_image_path": "assets/archive_media/people/Harman_Vina_Harmon.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanIsaacWillie.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 790,
       "photo_id": 1156,
       "category": "people",
       "title_or_caption": "Harmon_Captain_Ephraim_Charles.jpg",
@@ -126,7 +163,30 @@
       "local_image_path": "assets/archive_media/people/Harmon_Captain_Ephraim_Charles.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonCaptainEphraimCharles.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 790,
+      "photo_id": 1169,
+      "category": "people",
+      "title_or_caption": "Harmon_Eunice_Nicey_Wright.jpg",
+      "subject_names": "Ephraim Charles \"Captain\" Harmon",
+      "married_surname": "Harmon",
+      "approximate_year": "1830",
+      "local_image_path": "assets/archive_media/people/Harmon_Eunice_Nicey_Wright.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonCaptainEphraimCharles.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

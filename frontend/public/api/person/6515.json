@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Morgan",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MorganHarryN.htm",
     "birth_info": "unknown",
     "death_info": "1906",
@@ -70,6 +70,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 14159,
+      "person_id": 6515,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Napoleon Morgan",
+      "citations": [
+        {
+          "citation_id": 12961,
+          "fact_id": 14159,
+          "source_id": 86,
+          "evidence_text": "...of Marvel Durham and Rhoda Seeney and #2) Henrietta Carney children of Harry & Frances: Alice May Morgan Myrtle Morgan Harriet Morgan Nelson Morgan Cora Lela Morgan (b. 1906 ) married Archie Cleo Morris, son of Oscar Morris and Sarah Owens child:...",
+          "source_title": "Record: morgan-n.htm",
+          "source_url": "morgan-n.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +104,12 @@
       "local_image_path": "assets/archive_media/people/Morgan_Harry_And_Harry_Jr_And_Harriet.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerDonald&HarrietMorgan.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6515,
@@ -98,7 +122,12 @@
       "local_image_path": "assets/archive_media/people/Coker_Donald_And_Harriet_Morgan.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerDonald&HarrietMorgan.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6515,
@@ -111,7 +140,12 @@
       "local_image_path": "assets/archive_media/people/Coker_Harriet_Morgan_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerDonald&HarrietMorgan.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6515,
@@ -124,20 +158,12 @@
       "local_image_path": "assets/archive_media/people/Morgan_Harriet_And_Harry_Jr_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganHarryN.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 6515,
-      "photo_id": 1567,
-      "category": "family_trees",
-      "title_or_caption": "Morgan_Harriet_Ancestry.jpg",
-      "subject_names": "Coker",
-      "married_surname": "Morgan",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Morgan_Harriet_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerDonald&HarrietMorgan.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

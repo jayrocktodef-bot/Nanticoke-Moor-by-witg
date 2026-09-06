@@ -6,7 +6,7 @@
     "middle_name": "Edgar",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "RidgewayWilliamEdgarSr&EmmaElizaDurham&PaulJrorSr.htm",
     "birth_info": "1879",
     "death_info": "18 Mar 1954 (aged 74\u201375)",
@@ -127,6 +127,44 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12547,
+      "person_id": 7156,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Bible-Ridgeway",
+      "citations": [
+        {
+          "citation_id": 11349,
+          "fact_id": 12547,
+          "source_id": 3,
+          "evidence_text": "...Feb A.D. 1867 Mary E., daughter of Cornelius & Rebecca Ridgeway departed this life Dec. 30th 1874 Deborah, wife of William Ridgeway departed this life Jan 15- 1876 age 70 years John D. Cott departed this life Oct. 16- 1876 Rebecca, daughter of...",
+          "source_title": "Record: bible-r.htm",
+          "source_url": "bible-r.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13071,
+      "person_id": 7156,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Rebecca Cott",
+      "citations": [
+        {
+          "citation_id": 11873,
+          "fact_id": 13071,
+          "source_id": 699,
+          "evidence_text": "...daughter of John D. Cott and his wife, Sarah Ann Dean. On January 11, 1866 she married Cornelius Ridgeway , the son of William Ridgeway and Deborah HANZER. Cornelius was born on March 28, 1843 in DE, possibly Sussex County. See The Ridgeway Family Bible...",
+          "source_title": "Preserved Document: Rebecca Cott",
+          "source_url": "cott-r.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -150,7 +188,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_William_Edgar_Sr_And_Emma_Eliza_Durham_And_Paul_Jror_Sr.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayWilliamEdgarSr&EmmaElizaDurham&PaulJrorSr.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

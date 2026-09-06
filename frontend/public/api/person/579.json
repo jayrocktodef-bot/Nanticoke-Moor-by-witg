@@ -6,7 +6,7 @@
     "middle_name": "E.Lincoln",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "photo.htm",
     "birth_info": "17 May 1747",
     "death_info": "16 Mar 1822 (aged 74)",
@@ -70,10 +70,104 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12688,
+      "person_id": 579,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Census-Kent County",
+      "citations": [
+        {
+          "citation_id": 11490,
+          "fact_id": 12688,
+          "source_id": 681,
+          "evidence_text": "...36 Gabriel Harmon Dover Hd. \"free colored\" 0 0 0 1 ? ? ? ? 34 James Harmon Dover Hd. \"free colored\" 0 1 0 1 0 0 0 1 38 Patience Harmon Dover Hd. \"free colored\" 0 0 0 0 1 0 0 2 54 John Hughs Duck Creek Hd. \"N\" 2 2 0 1 2 1 0 1 29 John Hughs Dover Hd....",
+          "source_title": "Preserved Document: Census-Kent County",
+          "source_url": "census07.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14370,
+      "person_id": 579,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits",
+      "citations": [
+        {
+          "citation_id": 13172,
+          "fact_id": 14370,
+          "source_id": 747,
+          "evidence_text": "...a retired farmer and trustee and treasurer of the Indian Mission Church of Millsboro. Survivors include his widow, E. Patience Harmon; two sons, Clinton and Ephraim L. Harmon Jr.; five daughters, Mrs. Elloise Johnson, Mrs. Thelma Johnson, Mrs. Marietta...",
+          "source_title": "Preserved Document: Obits",
+          "source_url": "obit-h2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15326,
+      "person_id": 579,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: E. Patience Wright",
+      "citations": [
+        {
+          "citation_id": 14128,
+          "fact_id": 15326,
+          "source_id": 115,
+          "evidence_text": "...1952 Patience was listed as an informant in a study of Nanticoke Indian speech patterns; an excerpt of which follows : Patience Harmon is a handsome woman of 57, with strong features and light skin...A very good photo of Patience and Lincoln Harmon may...",
+          "source_title": "Record: wrightp3.htm",
+          "source_url": "wrightp3.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15333,
+      "person_id": 579,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Warren Wright",
+      "citations": [
+        {
+          "citation_id": 14135,
+          "fact_id": 15333,
+          "source_id": 116,
+          "evidence_text": "...Warren told me, the garret was filled with \"old truck\". A short time ago he gave the last of three spinning wheels to Patience Harmon, his daughter. The house is set back from the road under a huge willow tree. The grass is uncut and waves in the wind...",
+          "source_title": "Record: wrightw.htm",
+          "source_url": "wrightw.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 579,
+      "photo_id": 1434,
+      "category": "people",
+      "title_or_caption": "Johnson_Patience_Wright_1.jpg",
+      "subject_names": "Eliza Ann Harmon",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_Patience_Wright_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 579,
       "photo_id": 2319,
@@ -85,7 +179,12 @@
       "local_image_path": "assets/archive_media/people/Street_Melvin_And_Patience_Harmon.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetMelvin&PatienceHarmon.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "lineage_chart",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

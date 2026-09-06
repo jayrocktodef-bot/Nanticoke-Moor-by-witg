@@ -41,6 +41,25 @@
       "place_string": null,
       "value_string": "married 22 Jul 1922",
       "citations": []
+    },
+    {
+      "fact_id": 15577,
+      "person_id": 4207,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14379,
+          "fact_id": 15577,
+          "source_id": 849,
+          "evidence_text": "...4. Annie E. Mosley (Dean) 30 Jan 1870 - 27 Jul 1963 PARENTS George Elwood Carter married 22 Jul 1922 , Smyrna, Del, Rheba Mosley 12 Jun 1900 - 17 Feb 1971 10 Mar 1903 - 25 Feb 1938 buried Cheswold, Del buried Cheswold, Del BIRTHS (PRIVATE)...",
+          "source_title": "Preserved Document: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+          "source_url": "Ida_Carter_Webster_Bible.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +75,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Rheba_And_Jeanette.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeoE&MosleyRheba.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4207,
@@ -69,7 +93,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Rheba.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterCalvin&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4207,
@@ -82,7 +111,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Rheba_Dean.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeoE&MosleyRheba.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4207,
@@ -95,7 +129,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Annie_And_Rheba_And_Jeanette.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeoE&MosleyRheba.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4207,
@@ -108,7 +147,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Mable_And_Jeanette_And_Rheba.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeoE&MosleyRheba.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4207,
@@ -121,7 +165,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Rheba_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WebsterElmer&Ida.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4207,
@@ -134,7 +183,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Mary_Annie_And_Rheba.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeoE&MosleyRheba.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -6,7 +6,7 @@
     "middle_name": "\u201cShimmy\u201d H.",
     "maiden_name": "",
     "married_last_name": "Carter",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarterJamesHShimmy.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12595,
+      "person_id": 4107,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: John Clayton Carter",
+      "citations": [
+        {
+          "citation_id": 11397,
+          "fact_id": 12595,
+          "source_id": 10,
+          "evidence_text": "...Christine Harris on 11 January, 1958 . John and Christine had the following children: John Cyrus Carter ( 1958 - ) James Carter ( 1964 - ) John and Christine had the following children: John Cyrus Carter ( 1958 - ) James Carter ( 1964 - ) John...",
+          "source_title": "Record: carty-j4.htm",
+          "source_url": "carty-j4.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -47,7 +66,12 @@
       "local_image_path": "assets/archive_media/people/Carter_William_James.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterJamesHShimmy.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     },
     {
       "person_id": 4107,
@@ -60,7 +84,12 @@
       "local_image_path": "assets/archive_media/people/Carney_James_And_James_Carter.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterJamesHShimmy.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4107,
@@ -73,7 +102,30 @@
       "local_image_path": "assets/archive_media/people/Carter_James.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterJames.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 4107,
+      "photo_id": 354,
+      "category": "people",
+      "title_or_caption": "Carter_Jim_Cameron_John_2008_Near_Yosemite.jpg",
+      "subject_names": "Carter",
+      "married_surname": "Carter",
+      "approximate_year": "2000",
+      "local_image_path": "assets/archive_media/people/Carter_Jim_Cameron_John_2008_Near_Yosemite.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterJohnCyrus.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4107,
@@ -86,20 +138,48 @@
       "local_image_path": "assets/archive_media/people/Carter_James_H_1988.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterJamesHShimmy.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4107,
-      "photo_id": 2692,
-      "category": "documents",
-      "title_or_caption": "Carter_James_Obit_Obituary.jpg",
-      "subject_names": "Carter James",
-      "married_surname": "",
-      "approximate_year": "1978",
-      "local_image_path": "assets/archive_media/documents/Carter_James_Obit_Obituary.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Obituaries/obit-carter.html",
+      "photo_id": 355,
+      "category": "people",
+      "title_or_caption": "Carter_Jim_Cameron_John_2008_Near_Yosemite_2.jpg",
+      "subject_names": "Carter",
+      "married_surname": "Carter",
+      "approximate_year": "2000",
+      "local_image_path": "assets/archive_media/people/Carter_Jim_Cameron_John_2008_Near_Yosemite_2.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterJohnCyrus.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "obituary_program"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 4107,
+      "photo_id": 1459,
+      "category": "people",
+      "title_or_caption": "Kalb_Charles_And_Dora_Carter_And_Jimmy_And_Michael_King.jpg",
+      "subject_names": "Carney",
+      "married_surname": "Kalb",
+      "approximate_year": "1873",
+      "local_image_path": "assets/archive_media/people/Kalb_Charles_And_Dora_Carter_And_Jimmy_And_Michael_King.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeorge&SallyBelleCarney.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4107,
@@ -112,7 +192,12 @@
       "local_image_path": "assets/archive_media/people/Carter_James_H_And_Marian_Delores_Durham_Wedding.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterJamesHShimmy.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

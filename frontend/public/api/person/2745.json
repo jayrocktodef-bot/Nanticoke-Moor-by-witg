@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Durham_EnochD&Martha.htm",
     "birth_info": "7 Feb 1895",
     "death_info": "4 Oct 1966 (aged 71)",
@@ -70,6 +70,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13895,
+      "person_id": 2745,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12697,
+          "fact_id": 13895,
+          "source_id": 77,
+          "evidence_text": "...- 1972 Caroline- wife of Daniel Durham- died Dec. 24, 1914 (aged 56 years-8 months-10 days) Charles Durham- husband of Clara Durham Nov. 23, 1863 - Dec. 31, 1920 - aged 67 years Christina Durham - May 27, 1869 - Nov. 23, 1939 (aged 70 yrs) Daniel-...",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +104,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Clara_Cuff.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/Durham_EnochD&Martha.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

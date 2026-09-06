@@ -79,6 +79,25 @@
       "place_string": null,
       "value_string": "married Burt Schroeder   Hopewell died on 30 October 1967",
       "citations": []
+    },
+    {
+      "fact_id": 12604,
+      "person_id": 3899,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: William W. Carty",
+      "citations": [
+        {
+          "citation_id": 11406,
+          "fact_id": 12604,
+          "source_id": 12,
+          "evidence_text": "...Sarah Morgan , the daughter of William and Annie Sanders Morgan from Kent Co., DE. After her husband's death in 1800 , Sarah Carter returned to Kent Co., DE were some of her children were already living. William and Sarah had the following children :...",
+          "source_title": "Record: carty-w2.htm",
+          "source_url": "carty-w2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -94,7 +113,12 @@
       "local_image_path": "assets/archive_media/people/Carter_Sarah_Catherine_Ridgeway.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterHopewellUmphrey.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

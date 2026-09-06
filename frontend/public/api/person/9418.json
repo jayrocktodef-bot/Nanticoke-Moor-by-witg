@@ -84,19 +84,6 @@
   "photos": [
     {
       "person_id": 9418,
-      "photo_id": 1534,
-      "category": "family_trees",
-      "title_or_caption": "Miller_Eliz_Parrish_Ancestry.jpg",
-      "subject_names": "Miller",
-      "married_surname": "Miller",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Miller_Eliz_Parrish_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ParrishElizabethMiller.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 9418,
       "photo_id": 1910,
       "category": "people",
       "title_or_caption": "Parrish_Elizabeth_Miller_2.jpg",
@@ -106,7 +93,12 @@
       "local_image_path": "assets/archive_media/people/Parrish_Elizabeth_Miller_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MillerEnoch&PhoebeCarney.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

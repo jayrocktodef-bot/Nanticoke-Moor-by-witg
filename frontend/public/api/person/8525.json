@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Davis",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1884",
     "death_info": "1960 (aged 75\u201376)",
@@ -70,6 +70,44 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 14032,
+      "person_id": 8525,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Indian Mission Church",
+      "citations": [
+        {
+          "citation_id": 12834,
+          "fact_id": 14032,
+          "source_id": 79,
+          "evidence_text": "...Carrie M. Coursey 1871 - 1905 Carrie M. Coursey 1871 - 1905 Robert H. Davis 1891 - 1981 same stone as Lillie M. son of John Davis & Mary Elizabeth Jackson Robert H. Davis 1891 - 1981 same stone as Lillie M. son of John Davis & Mary Elizabeth...",
+          "source_title": "Record: mission1.htm",
+          "source_url": "mission1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15346,
+      "person_id": 8525,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Walter Wright",
+      "citations": [
+        {
+          "citation_id": 14148,
+          "fact_id": 15346,
+          "source_id": 118,
+          "evidence_text": "...was born in Sussex Co., DE on 21 January 1881 . He died there on 1 March 1983 . He married Anna C. Davis, daughter of John Davis and Mary Elizabeth Jackson and they had the following children: Gertrude Wright who married Noah Harmon, Jr. the son...",
+          "source_title": "Record: wrightw2.htm",
+          "source_url": "wrightw2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -81,21 +119,7 @@
       "rel_name": "JAMES Davis"
     }
   ],
-  "photos": [
-    {
-      "person_id": 8525,
-      "photo_id": 635,
-      "category": "people",
-      "title_or_caption": "Davis_Lillie_Johnson.jpg",
-      "subject_names": "Lillian 2",
-      "married_surname": "Davis",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Davis_Lillie_Johnson.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisRobert&Lillie&son.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "NMAI.AC.001.008",
     "birth_info": "7 May 1850",
     "death_info": "8 Sep 1892 (aged 42)",
@@ -70,6 +70,101 @@
           "source_dataset": "smithsonian_nmai_speck"
         }
       ]
+    },
+    {
+      "fact_id": 12586,
+      "person_id": 1693,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Carty",
+      "citations": [
+        {
+          "citation_id": 11388,
+          "fact_id": 12586,
+          "source_id": 9,
+          "evidence_text": "...Sarah Catherine Ridgeway. He was born 18 April, 1908 . He married Lethia Coker , daughter of John Clayton Coker and Phoebe CARNEY, who was born on 22 August, 1912 in Dover, Kent Co., DE. They were married in Bridgeton, NJ on 27 May, 1929 . Hopewell...",
+          "source_title": "Record: carty-h3.htm",
+          "source_url": "carty-h3.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 12896,
+      "person_id": 1693,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: John Clayon Coker",
+      "citations": [
+        {
+          "citation_id": 11698,
+          "fact_id": 12896,
+          "source_id": 24,
+          "evidence_text": "...Coker was the son of Moses Coker and Mary Ann Dean . He was born in Kent Co., DE on 23 April, 1884 . He married Phoebe Carney , daughter of James Perry CARNEY and Harriett DURHAM, who was born 14 December, 1889 . They had the following...",
+          "source_title": "Record: coker-j2.htm",
+          "source_url": "coker-j2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 12915,
+      "person_id": 1693,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Lethia Coker",
+      "citations": [
+        {
+          "citation_id": 11717,
+          "fact_id": 12915,
+          "source_id": 692,
+          "evidence_text": "Lethia Coker Preserved Primary Document \u2022 coker-l1.htm Lethia Harriett Coker, daughter of John Clayton Coker and Phoebe CARNEY was born on 22 August 1912 in Dover, Kent Co., DE. She married Hopewell Carter Jr., son of Hopewell Umphrey Carter and...",
+          "source_title": "Preserved Document: Lethia Coker",
+          "source_url": "coker-l1.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 12922,
+      "person_id": 1693,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Moses Coker",
+      "citations": [
+        {
+          "citation_id": 11724,
+          "fact_id": 12922,
+          "source_id": 25,
+          "evidence_text": "...William Washington Angie Bell Coker ( 1882 - 1937 ) married Andrew Mosley John Clayton Coker ( 1884 - 1915 ) married Phoebe Carney Moses Elwood Coker (b. 15 Feb. 1886 - 21 July, 1915 ) married Margaret MORGAN Catherine Coker (born 27 Feb. 1888 -...",
+          "source_title": "Record: coker-m2.htm",
+          "source_url": "coker-m2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13198,
+      "person_id": 1693,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mary Ann Dean",
+      "citations": [
+        {
+          "citation_id": 12000,
+          "fact_id": 13198,
+          "source_id": 701,
+          "evidence_text": "...William Washington Angie Bell Coker ( 1882 - 1937 ) married Andrew MOSLEY John Clayton Coker ( 1884 - 1915 ) married Phoebe CARNEY Moses Elwood Coker (b. 15 Feb. 1886 ) married Margaret MORGAN Catherine Coker (born 27 Feb. 1888 - died before 1923 )...",
+          "source_title": "Preserved Document: Mary Ann Dean",
+          "source_url": "dean-ma.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +180,12 @@
       "local_image_path": "assets/archive_media/people/Miller_Enoch_And_Phoebe_Carney.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MillerEnoch&PhoebeCarney.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

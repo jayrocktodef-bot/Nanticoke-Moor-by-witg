@@ -79,6 +79,25 @@
       "place_string": null,
       "value_string": "was married to Rebecca Jemson\u00a0 his wife March 6\u00a0  1870",
       "citations": []
+    },
+    {
+      "fact_id": 14444,
+      "person_id": 7352,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits-Reed",
+      "citations": [
+        {
+          "citation_id": 13246,
+          "fact_id": 14444,
+          "source_id": 753,
+          "evidence_text": "...husband of the late Beulah Morgan Reed who died many years ago. Survivors include two sons, Thomas Reed of Dover and Harry Reed of Wilmington; three grandchildren and five great-grandchildren. Services will be held Thursday afternoon at 1 from...",
+          "source_title": "Preserved Document: Obits-Reed",
+          "source_url": "obit-r1.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -94,7 +113,12 @@
       "local_image_path": "assets/archive_media/people/Reed_Harry.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7352,
@@ -107,7 +131,12 @@
       "local_image_path": "assets/archive_media/people/Reed_Harry_And_Tom.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -6,7 +6,7 @@
     "middle_name": "T",
     "maiden_name": "",
     "married_last_name": "Street",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1782 Indian River Hundred, Sussex County, Delaware, USA",
     "death_info": "1867 Indian River Hundred, Sussex County, Delaware, USA",
@@ -70,6 +70,44 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 13689,
+      "person_id": 9870,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harmony Methodist Church",
+      "citations": [
+        {
+          "citation_id": 12491,
+          "fact_id": 13689,
+          "source_id": 721,
+          "evidence_text": "...\"Baby\" - near marker of Wingate & Hattie Street Street (no dates) \"Baby\" - near marker of Wingate & Hattie Street Wingate Street 10/22/ 1890 - 2/11/ 1979 \"US Army WW II\" Wingate Street 10/22/ 1890 - 2/11/ 1979 \"US Army WW II\" Hattie Street 9/7/...",
+          "source_title": "Preserved Document: Harmony Methodist Church",
+          "source_url": "harmony3.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14908,
+      "person_id": 9870,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate-Hansor",
+      "citations": [
+        {
+          "citation_id": 13710,
+          "fact_id": 14908,
+          "source_id": 814,
+          "evidence_text": "...ESTATE OF THE DECEASED 1845 May 20 Paid for Letters Testamentary June 18 \" Levin Cartey- Clerk of Sale 1.00 July 12 \" Wingate Street - Proved Acct 4.94 Dec. 27 \" R. L. (?) Hastings Proved Account on farm of E. C. Dengle (?) 22.40 1846 Jany. 19 \" Sam^l...",
+          "source_title": "Preserved Document: Probate-Hansor",
+          "source_url": "probt-he.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +123,12 @@
       "local_image_path": "assets/archive_media/people/Street_Wingate_And_Sarah.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetWingate&Sarah.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "lineage_chart",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

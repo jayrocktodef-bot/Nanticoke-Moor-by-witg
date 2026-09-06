@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Clark",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "abt 1921 Georgia",
     "death_info": "1 Jan 1999 Dayton, Montgomery, Ohio, USA",
@@ -70,6 +70,44 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 13652,
+      "person_id": 10109,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harmony Methodist Church",
+      "citations": [
+        {
+          "citation_id": 12454,
+          "fact_id": 13652,
+          "source_id": 65,
+          "evidence_text": "...E. Clark 1/14/ 1914 - 12/21/ 1996 Walter L. Clark 12/28/ 1909 - 2/25/ 1979 Walter L. Clark 12/28/ 1909 - 2/25/ 1979 Louise Clark 1871 - 1947 Louise Clark 1871 - 1947 William B. Clark 1860 - 1933 William B. Clark 1860 - 1933 Robert M. Clark 1886 -...",
+          "source_title": "Record: harmony1.htm",
+          "source_url": "harmony1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13836,
+      "person_id": 10109,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Nathaniel Jackson",
+      "citations": [
+        {
+          "citation_id": 12638,
+          "fact_id": 13836,
+          "source_id": 75,
+          "evidence_text": "...Morgan, son of Napoleon Morgan & Henrietta Durham Nora Jackson & Will Morgan Ira Woodrow Jackson who married Winifred Louise Clark. They lived in Alloway, Salem Co., NJ Their children: Lucy Margaret Jackson Ethel M. Jackson John Jackson Edward...",
+          "source_title": "Record: jacksonn.htm",
+          "source_url": "jacksonn.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +123,12 @@
       "local_image_path": "assets/archive_media/people/Clark_Louise_Wright_And_Dau_Anna.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ClarkLouiseWright&dauAnna.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

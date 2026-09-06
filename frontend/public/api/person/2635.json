@@ -26,7 +26,7 @@
           "citation_id": 2147,
           "fact_id": 2147,
           "source_id": 147,
-          "evidence_text": null,
+          "evidence_text": "...Alfred Horace Pierce, Alfred Horace Pierce, Alfred Horace Pierce, Enos Sr. Pierce, Enos Sr. Pierce, Enos Sr. Sammons, Ella Durham Sammons, Ella Durham Sammons, Ella Durham Wilson, Elsie M Durham Wilson, Elsie M Durham Wilson, Elsie M Durham MAIN...",
           "source_title": "Record: SocialSecurityApplications.htm",
           "source_url": "SocialSecurityApplications.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -45,7 +45,7 @@
           "citation_id": 2148,
           "fact_id": 2148,
           "source_id": 147,
-          "evidence_text": null,
+          "evidence_text": "...Alfred Horace Pierce, Alfred Horace Pierce, Alfred Horace Pierce, Enos Sr. Pierce, Enos Sr. Pierce, Enos Sr. Sammons, Ella Durham Sammons, Ella Durham Sammons, Ella Durham Wilson, Elsie M Durham Wilson, Elsie M Durham Wilson, Elsie M Durham MAIN...",
           "source_title": "Record: SocialSecurityApplications.htm",
           "source_url": "SocialSecurityApplications.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -64,7 +64,7 @@
           "citation_id": 2149,
           "fact_id": 2149,
           "source_id": 147,
-          "evidence_text": null,
+          "evidence_text": "...Alfred Horace Pierce, Alfred Horace Pierce, Alfred Horace Pierce, Enos Sr. Pierce, Enos Sr. Pierce, Enos Sr. Sammons, Ella Durham Sammons, Ella Durham Sammons, Ella Durham Wilson, Elsie M Durham Wilson, Elsie M Durham Wilson, Elsie M Durham MAIN...",
           "source_title": "Record: SocialSecurityApplications.htm",
           "source_url": "SocialSecurityApplications.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -79,6 +79,63 @@
       "place_string": null,
       "value_string": "married Mary Elizabeth Clark on October 28, 1896",
       "citations": []
+    },
+    {
+      "fact_id": 12948,
+      "person_id": 2635,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Roland Coker",
+      "citations": [
+        {
+          "citation_id": 11750,
+          "fact_id": 12948,
+          "source_id": 695,
+          "evidence_text": "Roland Coker Preserved Primary Document \u2022 coker-r2.htm He married Hazella Sammons, the daughter of William Sammons and Ella Durham, on 26 October, 1940 . Hazella was born in Kent Co., DE on 19 July, 1915 . They had the following children: Elaine...",
+          "source_title": "Preserved Document: Roland Coker",
+          "source_url": "coker-r2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 13982,
+      "person_id": 2635,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Marriage Records",
+      "citations": [
+        {
+          "citation_id": 12784,
+          "fact_id": 13982,
+          "source_id": 78,
+          "evidence_text": "...Tillie Ridgway Harvey Driggus Jan. 8, 1903 Marie Ridgeway Clayton Durham Nov. 17, 1904 Cora Miller Enoch Durham 1905 Ella Durham Willie G. Sammons Aug. 9, 1905 Elizabeth Mosley Elisha Mosley Oct. 24, 1905 Lulu Durham Geoffrey Mosley 1907 Bertha...",
+          "source_title": "Record: marry.htm",
+          "source_url": "marry.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14316,
+      "person_id": 2635,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mary E. Munce.",
+      "citations": [
+        {
+          "citation_id": 13118,
+          "fact_id": 14316,
+          "source_id": 648,
+          "evidence_text": "...M. Sammons (Oct. 1879 - ) married Harry Wright on February 10, 1904 William Garfield Sammons (May 1882 - ) married Ella Durham Mary Elizabeth died on 8 November, 1914 . Her husband, Nehemiah, died on 11 March 1924 . Both are buried at Immanual...",
+          "source_title": "Record: munce-m4.htm",
+          "source_url": "munce-m4.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -94,20 +151,12 @@
       "local_image_path": "assets/archive_media/people/Sammons_Ella_Durham.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedAllen&MaryVirginia.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 2635,
-      "photo_id": 3343,
-      "category": "documents",
-      "title_or_caption": "Sammons_Ella_Durham_SocialSecurity_Application.jpg",
-      "subject_names": "Sammons Ella Durham SocialSecurity Application",
-      "married_surname": "",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/documents/Sammons_Ella_Durham_SocialSecurity_Application.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "ss_application"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -136,22 +136,84 @@
       "place_string": null,
       "value_string": "married Mae SAMMONS on 15 November, 1917",
       "citations": []
+    },
+    {
+      "fact_id": 14050,
+      "person_id": 4500,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Indian Mission Church",
+      "citations": [
+        {
+          "citation_id": 12852,
+          "fact_id": 14050,
+          "source_id": 80,
+          "evidence_text": "...T. Morris 1867 - 1940 same stone as Sophia Sophia Isabelle Morris 1864 - 1937 Sophia Isabelle Morris 1864 - 1937 Charles Mosley 9/29/ 1895 - 3/17/ 1984 same stone as Bertha Charles Mosley 9/29/ 1895 - 3/17/ 1984 same stone as Bertha Bertha E....",
+          "source_title": "Record: mission2.htm",
+          "source_url": "mission2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15336,
+      "person_id": 4500,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Warren Wright",
+      "citations": [
+        {
+          "citation_id": 14138,
+          "fact_id": 15336,
+          "source_id": 116,
+          "evidence_text": "...the following children: Marie Wright Lillie Mae Wright- married a HALL and lived in Preston, MD Bertha Wright married Charles Mosley Robert C. Wright Roy Wright William A. Wright married Sarah Children: Lottie Wright who married Nelson Johnson Alden...",
+          "source_title": "Record: wrightw.htm",
+          "source_url": "wrightw.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15579,
+      "person_id": 4500,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14381,
+          "fact_id": 15579,
+          "source_id": 849,
+          "evidence_text": "...Durham said he was \"Chief of Nine Bridges\" in Maryland), chief of Tanapeke Indians. 2. Sally Carney (grandmother) 3. Charles Mosley 4. Annie E. Mosley (Dean) 30 Jan 1870 - 27 Jul 1963 PARENTS George Elwood Carter married 22 Jul 1922 , Smyrna, Del,...",
+          "source_title": "Preserved Document: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+          "source_url": "Ida_Carter_Webster_Bible.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
     {
       "person_id": 4500,
-      "photo_id": 1693,
-      "category": "family_trees",
-      "title_or_caption": "Mosley_Charles_And_Adeline_Ancestry.jpg",
-      "subject_names": "Mosley Charles And Adeline Ancestry",
-      "married_surname": "Mosley",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/family_trees/Mosley_Charles_And_Adeline_Ancestry.jpg",
-      "source_url": null,
+      "photo_id": 2047,
+      "category": "people",
+      "title_or_caption": "Reed_Charles_Buckbaby.jpg",
+      "subject_names": "Mosley",
+      "married_surname": "Reed",
+      "approximate_year": "1921",
+      "local_image_path": "assets/archive_media/people/Reed_Charles_Buckbaby.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4500,
@@ -164,7 +226,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Charles_Henry.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ChappelleJohn&Pearl.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4500,
@@ -177,20 +244,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Charles.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharles.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
-    },
-    {
-      "person_id": 4500,
-      "photo_id": 1697,
-      "category": "family_trees",
-      "title_or_caption": "Mosley_Charles_Milton_And_Mae_Sammons_Ancestry.jpg",
-      "subject_names": "Mosley",
-      "married_surname": "Mosley",
-      "approximate_year": "1861",
-      "local_image_path": "assets/archive_media/family_trees/Mosley_Charles_Milton_And_Mae_Sammons_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesMilton.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4500,
@@ -203,7 +262,30 @@
       "local_image_path": "assets/archive_media/people/Mosley_Charles_Milton_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesMilton.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 4500,
+      "photo_id": 1700,
+      "category": "people",
+      "title_or_caption": "Mosley_Chas_H_And_Annie_Homeplace_2.jpg",
+      "subject_names": "Anna E. Dean",
+      "married_surname": "Mosley",
+      "approximate_year": "1861",
+      "local_image_path": "assets/archive_media/people/Mosley_Chas_H_And_Annie_Homeplace_2.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

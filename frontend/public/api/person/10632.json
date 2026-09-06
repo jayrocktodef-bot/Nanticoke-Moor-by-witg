@@ -6,7 +6,7 @@
     "middle_name": "C",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "30 Mar 1940",
     "death_info": "Jun 1976 (aged 36)",
@@ -70,6 +70,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 13683,
+      "person_id": 10632,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harmony Methodist Church",
+      "citations": [
+        {
+          "citation_id": 12485,
+          "fact_id": 13683,
+          "source_id": 720,
+          "evidence_text": "...marker no first name listed William D. Mosley 10/11/ 1911 - 6/10/ 1946 William D. Mosley 10/11/ 1911 - 6/10/ 1946 Harry Mosley 4/20/ 1873 - 3/20/ 1951 Harry Mosley 4/20/ 1873 - 3/20/ 1951 Maggie Mosley 5/6/ 1883 - 1/24/ 1961 same stone as Harry...",
+          "source_title": "Preserved Document: Harmony Methodist Church",
+          "source_url": "harmony2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -102,7 +121,44 @@
       "rel_name": "Annie Mosley"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 10632,
+      "photo_id": 2058,
+      "category": "people",
+      "title_or_caption": "Reed_Harry_And_Tom.jpg",
+      "subject_names": "Mosley",
+      "married_surname": "Reed",
+      "approximate_year": "1921",
+      "local_image_path": "assets/archive_media/people/Reed_Harry_And_Tom.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 10632,
+      "photo_id": 2060,
+      "category": "people",
+      "title_or_caption": "Reed_Harry.jpg",
+      "subject_names": "Mosley",
+      "married_surname": "Reed",
+      "approximate_year": "1921",
+      "local_image_path": "assets/archive_media/people/Reed_Harry.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

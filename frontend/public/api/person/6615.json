@@ -79,6 +79,82 @@
       "place_string": null,
       "value_string": "married Cassius MOSLEY on 23 September, 1900",
       "citations": []
+    },
+    {
+      "fact_id": 12856,
+      "person_id": 6615,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Angie Bell Coker",
+      "citations": [
+        {
+          "citation_id": 11658,
+          "fact_id": 12856,
+          "source_id": 19,
+          "evidence_text": "...was the daughter of Moses Coker and Mary Ann Dean . She was born in Kent Co., DE on 29 September, 1882 . She married Andrew MOSLEY , the son of Joseph Mosley and Margaret Carney, sometime before 1884 and they had the following children: Sadie Mosley...",
+          "source_title": "Record: coker-a5.htm",
+          "source_url": "coker-a5.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 12924,
+      "person_id": 6615,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Moses Coker",
+      "citations": [
+        {
+          "citation_id": 11726,
+          "fact_id": 12924,
+          "source_id": 25,
+          "evidence_text": "...J. Coker (born 14 Jan. 1881 - died 15 Dec. 1957 )married William Washington Angie Bell Coker ( 1882 - 1937 ) married Andrew Mosley John Clayton Coker ( 1884 - 1915 ) married Phoebe Carney Moses Elwood Coker (b. 15 Feb. 1886 - 21 July, 1915 ) married...",
+          "source_title": "Record: coker-m2.htm",
+          "source_url": "coker-m2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13205,
+      "person_id": 6615,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mary Ann Dean",
+      "citations": [
+        {
+          "citation_id": 12007,
+          "fact_id": 13205,
+          "source_id": 701,
+          "evidence_text": "...J. Coker (born 14 Jan. 1881 - died 15 Dec. 1957 ) married William Washington Angie Bell Coker ( 1882 - 1937 ) married Andrew MOSLEY John Clayton Coker ( 1884 - 1915 ) married Phoebe CARNEY Moses Elwood Coker (b. 15 Feb. 1886 ) married Margaret MORGAN...",
+          "source_title": "Preserved Document: Mary Ann Dean",
+          "source_url": "dean-ma.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 13854,
+      "person_id": 6615,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: John Wesley Church",
+      "citations": [
+        {
+          "citation_id": 12656,
+          "fact_id": 13854,
+          "source_id": 76,
+          "evidence_text": "...sep. marker with \"US Army WWII\" William W. Morris 7/29/ 1920 - 8/16/ 1984 Helen M. Morris 9/12/ 1921 - 2/5/ 1984 Andrew Mosley 6/171877 - 9/14/ 1944 Angea Mosley 9/29/ 1882 - 9/11/ 1937 Calvin L. Mosley 1918 - 1979 \"366 Infantry WW II\" Evelyn M....",
+          "source_title": "Record: jwesley.htm",
+          "source_url": "jwesley.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -94,20 +170,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Andrew_D.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyKermit&ElvaFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 6615,
-      "photo_id": 1661,
-      "category": "family_trees",
-      "title_or_caption": "Mosley_Andrew_Ancestry.jpg",
-      "subject_names": "Carney",
-      "married_surname": "Mosley",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Mosley_Andrew_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyMargaretACarney.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -6,7 +6,7 @@
     "middle_name": "James",
     "maiden_name": "",
     "married_last_name": "Carter",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarterJamesHShimmy.htm",
     "birth_info": "1864",
     "death_info": "Feb 1941 (aged 76\u201377)",
@@ -70,10 +70,47 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 15575,
+      "person_id": 4096,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14377,
+          "fact_id": 15575,
+          "source_id": 849,
+          "evidence_text": "...GRANDPARENTS 1. George (William) Carter (grandfather) Delaware's Forgotten Folks: \"George William's father was George William Carter (actually George Thomas Carter. Zed Durham said he was \"Chief of Nine Bridges\" in Maryland), chief of Tanapeke...",
+          "source_title": "Preserved Document: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+          "source_url": "Ida_Carter_Webster_Bible.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 4096,
+      "photo_id": 2508,
+      "category": "people",
+      "title_or_caption": "Wilson_William_Russell.jpg",
+      "subject_names": "Carter",
+      "married_surname": "Wilson",
+      "approximate_year": "1842",
+      "local_image_path": "assets/archive_media/people/Wilson_William_Russell.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WilsonSolomon&Mary.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
     {
       "person_id": 4096,
       "photo_id": 381,
@@ -85,7 +122,12 @@
       "local_image_path": "assets/archive_media/people/Carter_William_James.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterJamesHShimmy.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

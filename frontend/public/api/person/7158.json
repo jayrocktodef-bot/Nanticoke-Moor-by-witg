@@ -6,7 +6,7 @@
     "middle_name": "Eunice Ridgeway",
     "maiden_name": "",
     "married_last_name": "Sammons",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "RidgewayWilliamEdgarSr&EmmaElizaDurham&PaulJrorSr.htm",
     "birth_info": "26 Apr 1820",
     "death_info": "1865 (aged 44\u201345)",
@@ -70,6 +70,82 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 14004,
+      "person_id": 7158,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Marriage Records",
+      "citations": [
+        {
+          "citation_id": 12806,
+          "fact_id": 14004,
+          "source_id": 78,
+          "evidence_text": "...Dragus John Durham June 24, 1847 Phebe Dean William Sammons 1851 /52? Martha Sisco Jeremiah Durham Feb. 24, 1853 Sarah Sammons Samuel Loatman July 26, 1855 Mary Durham George Clark 1857 Sarah Currey Elisha Durham Feb. 19, 1857 Margaret A. Moore...",
+          "source_title": "Record: marry.htm",
+          "source_url": "marry.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14964,
+      "person_id": 7158,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Sammons",
+      "citations": [
+        {
+          "citation_id": 13766,
+          "fact_id": 14964,
+          "source_id": 655,
+          "evidence_text": "...Susan Sammons,(born about 1858 ), married Purnell Mosley on October 10, 1875 in Kent County, DE. There was also a Sarah Sammons who was born in DE about 1823 . She was the wife of Peregrine Handsor, also of DE. Sarah is believed to have been the...",
+          "source_title": "Record: sammons.htm",
+          "source_url": "sammons.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15555,
+      "person_id": 7158,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14357,
+          "fact_id": 15555,
+          "source_id": 847,
+          "evidence_text": "...record of James & Harriett (Cork) Greenage, Methodist Episcopal Circuit at Smyrna, Kent, DE (as well as Samuel Loatman/Sarah Sammons and James Blanchfield/Sarah Sammons) Cork is spelled Caulke in this record. \u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 James Greenage ( 1838 - 1899 ),...",
+          "source_title": "Preserved Document: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+          "source_url": "GreenageJames&HarriettBible.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15690,
+      "person_id": 7158,
+      "fact_type": "Racial Classification",
+      "date_string": "1850",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'M' (Mulatto), age 57",
+      "citations": [
+        {
+          "citation_id": 14492,
+          "fact_id": 15690,
+          "source_id": 15,
+          "evidence_text": "1850 Census: Sammons, Sarah \u2014 Sarah | 57 | F | M | DE | James",
+          "source_title": "Record: census18.htm",
+          "source_url": "census18.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +161,12 @@
       "local_image_path": "assets/archive_media/people/Handsor_Sarah_Sammons_4.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsChildrenOfBenjamin&Sarah.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7158,
@@ -98,7 +179,12 @@
       "local_image_path": "assets/archive_media/people/Handsor_Sarah_Sammons_3.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HandsorSarahSammons.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7158,
@@ -111,7 +197,12 @@
       "local_image_path": "assets/archive_media/people/Sammons_Ben_And_Sarah_Miller.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HandsorSarahSammons.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7158,
@@ -124,7 +215,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Carolyn_And_Sammons_Sarah_Eunice_Ridgeway_2000.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsSarahEuniceRidgeway.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "ss_application",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

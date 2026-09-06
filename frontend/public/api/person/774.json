@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "wrightw.htm",
     "birth_info": "29 May 1895",
-    "death_info": null,
+    "death_info": "29 December, 1915",
     "notes": "Linked to wrightp3.htm | WikiTree: https://www.wikitree.com/wiki/Wright-82169 (Wright-82169) | FindAGrave: no match",
     "dataset_source": "lynncjackson"
   },
@@ -26,7 +26,7 @@
           "citation_id": 1085,
           "fact_id": 1085,
           "source_id": 116,
-          "evidence_text": null,
+          "evidence_text": "...married Nelson Johnson Alden Wright Return Wright Alberta Wright who married a Miller Harry Wright Howard J. Wright Elizabeth Patience Wright Marie, Lillie, Bertha, Warren, Ida, Robert, Roy and William Wright photo from: \"A Photographic Survey of Indian River...",
           "source_title": "Record: wrightw.htm",
           "source_url": "wrightw.htm",
           "source_dataset": "lynncjackson"
@@ -45,7 +45,7 @@
           "citation_id": 1086,
           "fact_id": 1086,
           "source_id": 116,
-          "evidence_text": null,
+          "evidence_text": "...married Nelson Johnson Alden Wright Return Wright Alberta Wright who married a Miller Harry Wright Howard J. Wright Elizabeth Patience Wright Marie, Lillie, Bertha, Warren, Ida, Robert, Roy and William Wright photo from: \"A Photographic Survey of Indian River...",
           "source_title": "Record: wrightw.htm",
           "source_url": "wrightw.htm",
           "source_dataset": "lynncjackson"
@@ -60,6 +60,44 @@
       "place_string": null,
       "value_string": "died on 29 December, 1915",
       "citations": []
+    },
+    {
+      "fact_id": 15815,
+      "person_id": 774,
+      "fact_type": "Racial Classification",
+      "date_string": "1860",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 2",
+      "citations": [
+        {
+          "citation_id": 14617,
+          "fact_id": 15815,
+          "source_id": 687,
+          "evidence_text": "1860 Census: Wright, Elizabeth \u2014 Elizabeth | 2 | F | M | Margaret | 3/12",
+          "source_title": "Preserved Document: Census-1860",
+          "source_url": "census19.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15902,
+      "person_id": 774,
+      "fact_type": "Racial Classification",
+      "date_string": "1870",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 10",
+      "citations": [
+        {
+          "citation_id": 14704,
+          "fact_id": 15902,
+          "source_id": 688,
+          "evidence_text": "1870 Census: Wright, Elizabeth \u2014 Elizabeth | 10 | F | M | at home | Margaret",
+          "source_title": "Preserved Document: Census-1870",
+          "source_url": "census20.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -81,16 +119,111 @@
   "photos": [
     {
       "person_id": 774,
-      "photo_id": 2531,
-      "category": "family_trees",
-      "title_or_caption": "Wright_Eliz_Patience_Ancestry.jpg",
-      "subject_names": "Wright",
-      "married_surname": "Wright",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Wright_Eliz_Patience_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightWarrenTalbertFamily.htm",
+      "photo_id": 3275,
+      "category": "people",
+      "title_or_caption": "Elizabeth_Patience_Wright.jpg",
+      "subject_names": "Elizabeth Patience Wright",
+      "married_surname": "Elizabeth",
+      "approximate_year": null,
+      "local_image_path": "assets/archive_media/people/Elizabeth_Patience_Wright.jpg",
+      "source_url": null,
+      "dataset_source": "images",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 774,
+      "photo_id": 1163,
+      "category": "people",
+      "title_or_caption": "Harmon_Elincoln.jpg",
+      "subject_names": "Elizabeth P. Wright Harmon",
+      "married_surname": "Harmon",
+      "approximate_year": "1962",
+      "local_image_path": "assets/archive_media/people/Harmon_Elincoln.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanELincoln&Eliz.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 774,
+      "photo_id": 106,
+      "category": "people",
+      "title_or_caption": "Benon_Archie_Jr_And_Betty_Benon_And_Mildred_Benon_And_Ada_Wright_Benon_And_Ron_V.jpg",
+      "subject_names": "Benon",
+      "married_surname": "Benon",
+      "approximate_year": "1898",
+      "local_image_path": "assets/archive_media/people/Benon_Archie_Jr_And_Betty_Benon_And_Mildred_Benon_And_Ada_Wright_Benon_And_Ron_V.jpg",
+      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/VanceRonaldJrFamily.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 774,
+      "photo_id": 1134,
+      "category": "people",
+      "title_or_caption": "Harman_Elincoln_And_Eliz.jpg",
+      "subject_names": "Elizabeth P. Wright Harmon",
+      "married_surname": "Harman",
+      "approximate_year": "1962",
+      "local_image_path": "assets/archive_media/people/Harman_Elincoln_And_Eliz.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanELincoln&Eliz.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 774,
+      "photo_id": 3276,
+      "category": "people",
+      "title_or_caption": "Elizabeth_Patience_Wright_var1.jpg",
+      "subject_names": "Elizabeth Patience Wright",
+      "married_surname": "Elizabeth",
+      "approximate_year": null,
+      "local_image_path": "assets/archive_media/people/Elizabeth_Patience_Wright_var1.jpg",
+      "source_url": null,
+      "dataset_source": "images",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 774,
+      "photo_id": 1136,
+      "category": "people",
+      "title_or_caption": "Harman_Elincoln_Tent.jpg",
+      "subject_names": "Elizabeth P. Wright Harmon",
+      "married_surname": "Harman",
+      "approximate_year": "1962",
+      "local_image_path": "assets/archive_media/people/Harman_Elincoln_Tent.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanELincoln&Eliz.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

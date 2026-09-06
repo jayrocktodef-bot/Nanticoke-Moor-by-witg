@@ -41,6 +41,25 @@
       "place_string": "the Jackson/Perkins Cemetary   Clifford Jackson ( 1919 - 1972 ) buried at the Jackson/Perkins Cemetary Philip A",
       "value_string": "married Ruth both are buried at the Jackson/Perkins Cemetary   Clifford Jackson ( 1919 - 1972 ) buried at the Jackson/Perkins Cemetary Philip A",
       "citations": []
+    },
+    {
+      "fact_id": 13832,
+      "person_id": 6115,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Nathaniel Jackson",
+      "citations": [
+        {
+          "citation_id": 12634,
+          "fact_id": 13832,
+          "source_id": 75,
+          "evidence_text": "...( 1925 - 1985 ) Hazel Jackson Herman R. Jackson (Aug 5, 1915 -June 5, 1969 ) buried at the Jackson/Perkins Cemetary Clifford Jackson ( 1919 - 1972 ) buried at the Jackson/Perkins Cemetary Philip A. Jackson (June 27, 1920 - Aug 17, 1964 ) buried at the...",
+          "source_title": "Record: jacksonn.htm",
+          "source_url": "jacksonn.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,20 +75,12 @@
       "local_image_path": "assets/archive_media/people/Jackson_Clifford_T.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonCliffordT.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
-    },
-    {
-      "person_id": 6115,
-      "photo_id": 1331,
-      "category": "family_trees",
-      "title_or_caption": "Jackson_Clifford_Tancestry.jpg",
-      "subject_names": "Clifford T. Jackson",
-      "married_surname": "Jackson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Jackson_Clifford_Tancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonCliffordT.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

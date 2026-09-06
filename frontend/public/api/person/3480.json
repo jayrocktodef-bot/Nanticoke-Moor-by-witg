@@ -6,7 +6,7 @@
     "middle_name": "Marian",
     "maiden_name": "",
     "married_last_name": "Carney",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarneyGlendon.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13905,
+      "person_id": 3480,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12707,
+          "fact_id": 13905,
+          "source_id": 77,
+          "evidence_text": "...Doris V. Carney - June 27, 1915 - Leon G. Carney - 8 Sept. 1955 - 29 Oct. 1981 Leroy B. Carney - 27 Aug. 1925 - Leroy Glendon Carney- 13 July 1927 - 1 Sept. 1989 Lincoln A. Carney - 1909 - 15 Dec. 1994 Lloyd K. Carney - 1 Oct. 1932 - 17 Jan. 1996...",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -47,7 +66,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Glendon.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyGlendon.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -76,19 +76,6 @@
   "photos": [
     {
       "person_id": 6069,
-      "photo_id": 709,
-      "category": "family_trees",
-      "title_or_caption": "Day_Helen_Johnson_Ancestry.jpg",
-      "subject_names": "Day Helen Johnson Ancestry",
-      "married_surname": "Day",
-      "approximate_year": "2006",
-      "local_image_path": "assets/archive_media/family_trees/Day_Helen_Johnson_Ancestry.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DayHelenJohnson.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 6069,
       "photo_id": 708,
       "category": "people",
       "title_or_caption": "Day_Helen_Johnson.jpg",
@@ -98,7 +85,12 @@
       "local_image_path": "assets/archive_media/people/Day_Helen_Johnson.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DayHelenJohnson.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6069,
@@ -111,7 +103,12 @@
       "local_image_path": "assets/archive_media/people/Johnson_Helen.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonHelen.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

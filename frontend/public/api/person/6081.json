@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Street",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HarmonFedora&Children.htm",
     "birth_info": "2 Feb 1885",
     "death_info": "6 Feb 1959 (aged 74)",
@@ -70,6 +70,63 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13756,
+      "person_id": 6081,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Robert B Jackson",
+      "citations": [
+        {
+          "citation_id": 12558,
+          "fact_id": 13756,
+          "source_id": 69,
+          "evidence_text": "...Hansley Hattie Street Arnold Street Mildred Street married John Myers Catherine Street ( 1904 - 1975 ) Nora Street Burton Street Carlos Street Alice Jackson (May 1884 - 1961 ) married Luther Norwood & George Webb Children of Alice and Luther were:...",
+          "source_title": "Record: jacksnr2.htm",
+          "source_url": "jacksnr2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14453,
+      "person_id": 6081,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits",
+      "citations": [
+        {
+          "citation_id": 13255,
+          "fact_id": 14453,
+          "source_id": 755,
+          "evidence_text": "...call tonight at the James Funeral Home, Millsboro. Interment will be in the Indian Mission Church Cemetary. William Burton Street (no date listed) LEWES: A caterpillar operator died from injuries suffered in a woods west of here when a felled tree...",
+          "source_title": "Preserved Document: Obits",
+          "source_url": "obit-s1.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15294,
+      "person_id": 6081,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Lydia Wright",
+      "citations": [
+        {
+          "citation_id": 14096,
+          "fact_id": 15294,
+          "source_id": 839,
+          "evidence_text": "...Hansley Hattie Street Arnold Street Mildred Street married John Myers Catherine Street ( 1904 - 1975 ) Nora Street Burton Street Carlos Street Alice Jackson (May 1884 - 1961 ) married Luther Norwood & George Webb Children of Alice and Luther were:...",
+          "source_title": "Preserved Document: Lydia Wright",
+          "source_url": "wright-l.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +142,12 @@
       "local_image_path": "assets/archive_media/people/Street_Burton.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetBurton.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "document",
+      "subtype": "lineage_chart",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

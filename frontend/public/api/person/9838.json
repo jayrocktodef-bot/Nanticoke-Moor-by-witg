@@ -6,7 +6,7 @@
     "middle_name": "W",
     "maiden_name": "",
     "married_last_name": "Johnson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "12 May 1886 Sussex, Delaware",
     "death_info": "30 Sept 1887 Millsboro, Delaware, USA",
@@ -79,6 +79,63 @@
       "place_string": null,
       "value_string": "married June 12, 1904",
       "citations": []
+    },
+    {
+      "fact_id": 12737,
+      "person_id": 9838,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Census-Sussex County",
+      "citations": [
+        {
+          "citation_id": 11539,
+          "fact_id": 12737,
+          "source_id": 682,
+          "evidence_text": "...Indian River Hd. \"free colored\" ? ? ? ? ? ? ? ? 214 Burton Johnson Indian River Hd. \"free colored\" 0 0 1 0 3 0 1 0 302 David Johnson Lewis & Rehoboth Hd. \"N\" 2 0 0 1 3 0 1 0 314 Isaac Johnson Broadkiln Hd. \"N\" 1 0 1 0 0 0 0 1 222 John Johnson Indian...",
+          "source_title": "Preserved Document: Census-Sussex County",
+          "source_url": "census08.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14854,
+      "person_id": 9838,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate-Dean",
+      "citations": [
+        {
+          "citation_id": 13656,
+          "fact_id": 14854,
+          "source_id": 803,
+          "evidence_text": "...Shovel .20 J. H. Stroud 10 Bus. Wheat @1.18 11.89 John Moore 456 lbs Pork @ 9.10 41.50 Mrs. Dean 596 ditto @9.00 53.64 David Johnson 182 ditto @ 9.50 17.29 John Heitsher Reaper & Mower 100.00 J. S. Moor Sett Cart Harness 1.10 Jas. Burrows 2 old...",
+          "source_title": "Preserved Document: Probate-Dean",
+          "source_url": "probt-dj.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15232,
+      "person_id": 9838,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Tax Lists",
+      "citations": [
+        {
+          "citation_id": 14034,
+          "fact_id": 15232,
+          "source_id": 836,
+          "evidence_text": "...Sussex Co., DE John Corsey.............68 pounds William Coursey.........59 pounds Abraham Harmon..........59 pounds David Johnson..........360 pounds Burton Johnson.........383 pounds Cornelius Mosley........59 pounds John Miers............68...",
+          "source_title": "Preserved Document: Tax Lists",
+          "source_url": "taxlist2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -97,7 +154,26 @@
       "rel_name": "Mary A. Street"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 9838,
+      "photo_id": 2529,
+      "category": "people",
+      "title_or_caption": "Wright_David_W.jpg",
+      "subject_names": "Emily C. Johnson",
+      "married_surname": "Wright",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Wright_David_W.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightDavid.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [
     {

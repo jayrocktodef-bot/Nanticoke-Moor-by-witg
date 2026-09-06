@@ -79,6 +79,63 @@
       "place_string": null,
       "value_string": "married Mary Elizabeth Clark on October 28, 1896",
       "citations": []
+    },
+    {
+      "fact_id": 13892,
+      "person_id": 2674,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12694,
+          "fact_id": 13892,
+          "source_id": 77,
+          "evidence_text": "...Dec. 26, 1874 - Aug. 10, 1910 Benjamin Sammons- son of James & Lizzie Sammons- died Feb. 1, 1896 - aged 22 years Ella Sammons - 1888 - 1969 Isaac L. Sammons - 1867 - Nov. 15, 1940 Isaac Sammons - died Jan. 26, 1884 - 86 years Isaac Sammons TEC...",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14368,
+      "person_id": 2674,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits-Durham",
+      "citations": [
+        {
+          "citation_id": 13170,
+          "fact_id": 14368,
+          "source_id": 745,
+          "evidence_text": "...Kent General Hospital where he had been a patient about four weeks. Survivors include a son, Presley and a sister Mrs. Ella Sammons, both of Dover; two grandchildren, four great-grandchildren and one great- great- grandchild. Mr. Durham had been a...",
+          "source_title": "Preserved Document: Obits-Durham",
+          "source_url": "obit-d2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15581,
+      "person_id": 2674,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14383,
+          "fact_id": 15581,
+          "source_id": 147,
+          "evidence_text": "...Naomi Ruth Greenage, Raymond Greenage, Raymond Greenage, Thomas Greenage, Thomas Greenage, Thomas Morgan, Hazel Ella Sammons Morgan, Hazel Ella Sammons Morgan, Hazel Ella Sammons Mosley, Garfield Mosley, Garfield Mosley, Garfield Mosley,...",
+          "source_title": "Record: SocialSecurityApplications.htm",
+          "source_url": "SocialSecurityApplications.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -94,33 +151,12 @@
       "local_image_path": "assets/archive_media/people/Sammons_Ella_Durham.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedAllen&MaryVirginia.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 2674,
-      "photo_id": 3343,
-      "category": "documents",
-      "title_or_caption": "Sammons_Ella_Durham_SocialSecurity_Application.jpg",
-      "subject_names": "Sammons Ella Durham SocialSecurity Application",
-      "married_surname": "",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/documents/Sammons_Ella_Durham_SocialSecurity_Application.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "ss_application"
-    },
-    {
-      "person_id": 2674,
-      "photo_id": 3338,
-      "category": "documents",
-      "title_or_caption": "Morgan_Hazel_Ella_Sammons_SocialSecurity_Application.jpg",
-      "subject_names": "Morgan Hazel Ella Sammons SocialSecurity Application",
-      "married_surname": "",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/documents/Morgan_Hazel_Ella_Sammons_SocialSecurity_Application.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "ss_application"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

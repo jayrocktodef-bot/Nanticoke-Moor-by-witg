@@ -8,7 +8,7 @@
     "married_last_name": "Sammons",
     "evidence_level": 3,
     "source_page": "george.htm",
-    "birth_info": "unknown",
+    "birth_info": "27 Feb. 1888",
     "death_info": "24 Sep 1930",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/297272831/william-sammons",
     "dataset_source": "lynncjackson"
@@ -26,7 +26,7 @@
           "citation_id": 616,
           "fact_id": 616,
           "source_id": 60,
-          "evidence_text": null,
+          "evidence_text": "...son of Thos. and Priscilla Hansor Born 5 Feb. 92. Bapt. Benjamin Harman son of Edward and Agness b. 11 June 1792 Bapt. William Sammons son of John Sammons and Nancy his wife b. 27 June 1792 Bapt. John Norwood son of Eli Norwood and Anna his wife b. Jan....",
           "source_title": "Record: george.htm",
           "source_url": "george.htm",
           "source_dataset": "lynncjackson"
@@ -45,7 +45,7 @@
           "citation_id": 617,
           "fact_id": 617,
           "source_id": 60,
-          "evidence_text": null,
+          "evidence_text": "...son of Thos. and Priscilla Hansor Born 5 Feb. 92. Bapt. Benjamin Harman son of Edward and Agness b. 11 June 1792 Bapt. William Sammons son of John Sammons and Nancy his wife b. 27 June 1792 Bapt. John Norwood son of Eli Norwood and Anna his wife b. Jan....",
           "source_title": "Record: george.htm",
           "source_url": "george.htm",
           "source_dataset": "lynncjackson"
@@ -64,7 +64,7 @@
           "citation_id": 618,
           "fact_id": 618,
           "source_id": 60,
-          "evidence_text": null,
+          "evidence_text": "...son of Thos. and Priscilla Hansor Born 5 Feb. 92. Bapt. Benjamin Harman son of Edward and Agness b. 11 June 1792 Bapt. William Sammons son of John Sammons and Nancy his wife b. 27 June 1792 Bapt. John Norwood son of Eli Norwood and Anna his wife b. Jan....",
           "source_title": "Record: george.htm",
           "source_url": "george.htm",
           "source_dataset": "lynncjackson"
@@ -79,6 +79,63 @@
       "place_string": null,
       "value_string": "born 27 Feb. 1888",
       "citations": []
+    },
+    {
+      "fact_id": 12946,
+      "person_id": 368,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Roland Coker",
+      "citations": [
+        {
+          "citation_id": 11748,
+          "fact_id": 12946,
+          "source_id": 695,
+          "evidence_text": "Roland Coker Preserved Primary Document \u2022 coker-r2.htm He married Hazella Sammons, the daughter of William Sammons and Ella Durham, on 26 October, 1940 . Hazella was born in Kent Co., DE on 19 July, 1915 . They had the following...",
+          "source_title": "Preserved Document: Roland Coker",
+          "source_url": "coker-r2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 13964,
+      "person_id": 368,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Marriage Records",
+      "citations": [
+        {
+          "citation_id": 12766,
+          "fact_id": 13964,
+          "source_id": 78,
+          "evidence_text": "...Collins Nov. 28, 1837 Rebecca Brown Josaih Durham April 11, 1844 Harriett Dragus John Durham June 24, 1847 Phebe Dean William Sammons 1851 /52? Martha Sisco Jeremiah Durham Feb. 24, 1853 Sarah Sammons Samuel Loatman July 26, 1855 Mary Durham George...",
+          "source_title": "Record: marry.htm",
+          "source_url": "marry.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14665,
+      "person_id": 368,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate-Concilor",
+      "citations": [
+        {
+          "citation_id": 13467,
+          "fact_id": 14665,
+          "source_id": 786,
+          "evidence_text": "...Harness 22 Elisha Durham Iron fly foor (?) 14 William Williams 1 Lard Caq (?) 1 William Carney 1 Chest & riddle 22 William Sammons Spinning Wheel 52 1/2 Thomas Moore 1 Saddle 1 26 Francis Farrow a Jug of Tar 6 1/4 John Farmer 1 Half Bushel 21 Elisha...",
+          "source_title": "Preserved Document: Probate-Concilor",
+          "source_url": "probt-c9.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -132,7 +189,26 @@
       "rel_name": "Isaac Sammons"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 368,
+      "photo_id": 2254,
+      "category": "people",
+      "title_or_caption": "Sammons_Will_And_Edith_And_Son.jpg",
+      "subject_names": "Sammons",
+      "married_surname": "Sammons",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Sammons_Will_And_Edith_And_Son.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsWill&Edith&son.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [
     {

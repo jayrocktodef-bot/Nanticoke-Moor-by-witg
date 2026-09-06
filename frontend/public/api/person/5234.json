@@ -76,6 +76,24 @@
   "photos": [
     {
       "person_id": 5234,
+      "photo_id": 926,
+      "category": "people",
+      "title_or_caption": "Durham_William_Hfamily.jpg",
+      "subject_names": "William H. & Verna Durham",
+      "married_surname": "Durham",
+      "approximate_year": "1970",
+      "local_image_path": "assets/archive_media/people/Durham_William_Hfamily.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWilliamH&Verna.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 5234,
       "photo_id": 929,
       "category": "people",
       "title_or_caption": "Durham_Alvin_H_And_Verna.jpg",
@@ -85,7 +103,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Alvin_H_And_Verna.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DurhamEnochMiller&GenevaCuff.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

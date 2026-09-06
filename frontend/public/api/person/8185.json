@@ -6,7 +6,7 @@
     "middle_name": "A. Morris",
     "maiden_name": "",
     "married_last_name": "Davis",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "16 Aug 1853",
     "death_info": "4 Oct 1916 (aged 63)",
@@ -127,6 +127,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 13627,
+      "person_id": 8185,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harmony Methodist Church",
+      "citations": [
+        {
+          "citation_id": 12429,
+          "fact_id": 13627,
+          "source_id": 65,
+          "evidence_text": "...II\" Ethel G. Davis 11/15/ 1918 - 2/25/ 1997 Ethel G. Davis 11/15/ 1918 - 2/25/ 1997 Hersel R. Davis 6/3/ 1915 - son of Hester Davis Hersel R. Davis 6/3/ 1915 - son of Hester Davis Myrtle P. Davis 9/5/ 1913 - Myrtle P. Davis 9/5/ 1913 - Hester A....",
+          "source_title": "Record: harmony1.htm",
+          "source_url": "harmony1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -241,7 +260,12 @@
       "local_image_path": "assets/archive_media/people/Davis_Hester_Morris.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisHesterMorris.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

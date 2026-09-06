@@ -6,7 +6,7 @@
     "middle_name": "Mosley",
     "maiden_name": "",
     "married_last_name": "Sammons",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "5 February 1930 Dover, Kent County, Delaware, United States of America",
     "death_info": "28 December 2018 Dover, Kent County, Delaware, United States of America",
@@ -70,6 +70,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 13546,
+      "person_id": 10127,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Fork Branch",
+      "citations": [
+        {
+          "citation_id": 12348,
+          "fact_id": 13546,
+          "source_id": 58,
+          "evidence_text": "...stone Bertha C. Sammons 9/22/ 1928 - 8/19/ 1987 same marker as Luther Josephine L. Sammons 10/21/ 1922 - 3/25/ 1991 Luther Sammons 2/5/ 1920 - son of Arthur & Rosella Benjamin H. Sammons 2/28/ 1859 - 5/30/ 1909 \" He has gone to mansions of rest\"...",
+          "source_title": "Record: fbranch.htm",
+          "source_url": "fbranch.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -93,20 +112,12 @@
       "local_image_path": "assets/archive_media/people/Sammons_Luther_And_Anita_And_Kids.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NewhardArbanaBirdellaRidgway.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 10127,
-      "photo_id": 2218,
-      "category": "family_trees",
-      "title_or_caption": "Sammons_Luther_Ancestry.gif",
-      "subject_names": "Sammons",
-      "married_surname": "Sammons",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Sammons_Luther_Ancestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsLuther.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 10127,
@@ -119,7 +130,12 @@
       "local_image_path": "assets/archive_media/people/Sammons_Luther.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsLuther.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

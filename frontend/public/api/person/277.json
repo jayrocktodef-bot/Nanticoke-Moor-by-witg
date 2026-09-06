@@ -26,7 +26,7 @@
           "citation_id": 424,
           "fact_id": 424,
           "source_id": 43,
-          "evidence_text": null,
+          "evidence_text": "...Ullysses Dean Hester Dean & Frederick Seeney photo curtesy of Matt Sammons After the death of her husband in 1874 , Catherine Morgan Dean married William Carney. Catherine died on 23 May, 1891 and is buried next to her first husband, Robert, at Immanuel...",
           "source_title": "Record: dean-r.htm",
           "source_url": "dean-r.htm",
           "source_dataset": "lynncjackson"
@@ -45,7 +45,7 @@
           "citation_id": 425,
           "fact_id": 425,
           "source_id": 43,
-          "evidence_text": null,
+          "evidence_text": "...Ullysses Dean Hester Dean & Frederick Seeney photo curtesy of Matt Sammons After the death of her husband in 1874 , Catherine Morgan Dean married William Carney. Catherine died on 23 May, 1891 and is buried next to her first husband, Robert, at Immanuel...",
           "source_title": "Record: dean-r.htm",
           "source_url": "dean-r.htm",
           "source_dataset": "lynncjackson"
@@ -64,7 +64,7 @@
           "citation_id": 426,
           "fact_id": 426,
           "source_id": 43,
-          "evidence_text": null,
+          "evidence_text": "...Ullysses Dean Hester Dean & Frederick Seeney photo curtesy of Matt Sammons After the death of her husband in 1874 , Catherine Morgan Dean married William Carney. Catherine died on 23 May, 1891 and is buried next to her first husband, Robert, at Immanuel...",
           "source_title": "Record: dean-r.htm",
           "source_url": "dean-r.htm",
           "source_dataset": "lynncjackson"
@@ -79,6 +79,44 @@
       "place_string": null,
       "value_string": "married William Thomas Reed on 30 April 1921",
       "citations": []
+    },
+    {
+      "fact_id": 15735,
+      "person_id": 277,
+      "fact_type": "Racial Classification",
+      "date_string": "1860",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'M' (Mulatto), age 26",
+      "citations": [
+        {
+          "citation_id": 14537,
+          "fact_id": 15735,
+          "source_id": 687,
+          "evidence_text": "1860 Census: Dean, Catherine \u2014 Catherine | 26 | F | M | Mary A. | 7",
+          "source_title": "Preserved Document: Census-1860",
+          "source_url": "census19.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15828,
+      "person_id": 277,
+      "fact_type": "Racial Classification",
+      "date_string": "1870",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'W' (White), age 36",
+      "citations": [
+        {
+          "citation_id": 14630,
+          "fact_id": 15828,
+          "source_id": 688,
+          "evidence_text": "1870 Census: Dean, Catherine \u2014 Catherine | 36 | F | W | keep house | DE",
+          "source_title": "Preserved Document: Census-1870",
+          "source_url": "census20.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -112,6 +150,16 @@
       "description": "[XPAGE:dean-ae.htm] Marriage: date='30 April 1921'",
       "evidence": "verbatim: married William Thomas Reed on 30 April 1921",
       "created_at": "2026-09-03T12:54:20.669115"
+    },
+    {
+      "id": 7498,
+      "category": "RACIAL_RECLASSIFICATION",
+      "severity": "info",
+      "person_id": 277,
+      "person_id_secondary": null,
+      "description": "Historical Racial Reclassification: Recorded under multiple distinct racial categories across federal records (1860: Mulatto \u2794 1870: White). Exemplifies the tripartite legal classification pressures and racial boundary fluidity characteristic of Delmarva Afro-Indigenous families.",
+      "evidence": "Sources: census19.htm, census20.htm | Chronology: 1860: Mulatto \u2794 1870: White",
+      "created_at": "2026-09-06T19:06:30.061219"
     }
   ],
   "ancestry": {

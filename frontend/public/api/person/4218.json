@@ -6,7 +6,7 @@
     "middle_name": "Morgan",
     "maiden_name": "",
     "married_last_name": "Coker",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CokerDonald&HarrietMorgan.htm",
     "birth_info": "1 Mar 1936",
     "death_info": "11 Dec 2012 (aged 76)",
@@ -70,6 +70,44 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 12901,
+      "person_id": 4218,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: John Clayon Coker",
+      "citations": [
+        {
+          "citation_id": 11703,
+          "fact_id": 12901,
+          "source_id": 24,
+          "evidence_text": "...of James Perry CARNEY and Harriett DURHAM, who was born 14 December, 1889 . They had the following children: Lethia Harriett Coker ( 1912 - 1986 ) James Henry Coker ( Jan. 31, 1908 - Nov. 8, 1984 ) married Elizabeth Durham ( 1911 - 1967 ), daughter...",
+          "source_title": "Record: coker-j2.htm",
+          "source_url": "coker-j2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 12916,
+      "person_id": 4218,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Lethia Coker",
+      "citations": [
+        {
+          "citation_id": 11718,
+          "fact_id": 12916,
+          "source_id": 692,
+          "evidence_text": "Lethia Coker Preserved Primary Document \u2022 coker-l1.htm Lethia Harriett Coker, daughter of John Clayton Coker and Phoebe CARNEY was born on 22 August 1912 in Dover, Kent Co., DE. She married...",
+          "source_title": "Preserved Document: Lethia Coker",
+          "source_url": "coker-l1.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +123,12 @@
       "local_image_path": "assets/archive_media/people/Carter_Lethia_Harriett_Coker_4.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterHopewellFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4218,
@@ -98,7 +141,12 @@
       "local_image_path": "assets/archive_media/people/Carter_Lethia_Harriett_Coker_5.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterHopewellFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

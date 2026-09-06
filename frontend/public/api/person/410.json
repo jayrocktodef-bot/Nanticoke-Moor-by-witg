@@ -26,7 +26,7 @@
           "citation_id": 661,
           "fact_id": 661,
           "source_id": 67,
-          "evidence_text": null,
+          "evidence_text": "John A. Jackson Preserved Primary Document \u2022 jacksnja.htm John A. Jackson was the son of Robert B. Jackson and Lydia Ann Wright. He was born in Sussex Co., DE. on 2 April, 1869 and died 8 January, 1939 . His photo appears in the Nanticoke Indian...",
           "source_title": "Record: jacksnja.htm",
           "source_url": "jacksnja.htm",
           "source_dataset": "lynncjackson"
@@ -45,7 +45,7 @@
           "citation_id": 662,
           "fact_id": 662,
           "source_id": 67,
-          "evidence_text": null,
+          "evidence_text": "John A. Jackson Preserved Primary Document \u2022 jacksnja.htm John A. Jackson was the son of Robert B. Jackson and Lydia Ann Wright. He was born in Sussex Co., DE. on 2 April, 1869 and died 8 January, 1939 . His photo appears in the Nanticoke Indian...",
           "source_title": "Record: jacksnja.htm",
           "source_url": "jacksnja.htm",
           "source_dataset": "lynncjackson"
@@ -64,7 +64,7 @@
           "citation_id": 663,
           "fact_id": 663,
           "source_id": 67,
-          "evidence_text": null,
+          "evidence_text": "John A. Jackson Preserved Primary Document \u2022 jacksnja.htm John A. Jackson was the son of Robert B. Jackson and Lydia Ann Wright. He was born in Sussex Co., DE. on 2 April, 1869 and died 8 January, 1939 . His photo appears in the Nanticoke Indian...",
           "source_title": "Record: jacksnja.htm",
           "source_url": "jacksnja.htm",
           "source_dataset": "lynncjackson"
@@ -83,7 +83,7 @@
           "citation_id": 733,
           "fact_id": 733,
           "source_id": 74,
-          "evidence_text": null,
+          "evidence_text": "Levin Jackson Preserved Primary Document \u2022 jacksonl.htm Levin Jackson was the son of Robert B. Jackson and Lydia Wright. He was born in Sussex Co., DE on 28 October, 1893 . On 31 May, 1914 he married Caroline Coker in Cheswold, Kent Co.,...",
           "source_title": "Record: jacksonl.htm",
           "source_url": "jacksonl.htm",
           "source_dataset": "lynncjackson"
@@ -102,7 +102,7 @@
           "citation_id": 734,
           "fact_id": 734,
           "source_id": 74,
-          "evidence_text": null,
+          "evidence_text": "Levin Jackson Preserved Primary Document \u2022 jacksonl.htm Levin Jackson was the son of Robert B. Jackson and Lydia Wright. He was born in Sussex Co., DE on 28 October, 1893 . On 31 May, 1914 he married Caroline Coker in Cheswold, Kent Co.,...",
           "source_title": "Record: jacksonl.htm",
           "source_url": "jacksonl.htm",
           "source_dataset": "lynncjackson"
@@ -121,7 +121,7 @@
           "citation_id": 735,
           "fact_id": 735,
           "source_id": 74,
-          "evidence_text": null,
+          "evidence_text": "Levin Jackson Preserved Primary Document \u2022 jacksonl.htm Levin Jackson was the son of Robert B. Jackson and Lydia Wright. He was born in Sussex Co., DE on 28 October, 1893 . On 31 May, 1914 he married Caroline Coker in Cheswold, Kent Co.,...",
           "source_title": "Record: jacksonl.htm",
           "source_url": "jacksonl.htm",
           "source_dataset": "lynncjackson"
@@ -145,6 +145,25 @@
       "place_string": null,
       "value_string": "died 8 January, 1939",
       "citations": []
+    },
+    {
+      "fact_id": 15813,
+      "person_id": 410,
+      "fact_type": "Racial Classification",
+      "date_string": "1860",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 10",
+      "citations": [
+        {
+          "citation_id": 14615,
+          "fact_id": 15813,
+          "source_id": 687,
+          "evidence_text": "1860 Census: Wright, Lydia \u2014 Lydia | 10 | F | M | Return | 9",
+          "source_title": "Preserved Document: Census-1860",
+          "source_url": "census19.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -160,7 +179,30 @@
       "local_image_path": "assets/archive_media/people/Jackson_Lydia_Wright.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightElwood.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 410,
+      "photo_id": 1357,
+      "category": "people",
+      "title_or_caption": "Jackson_Lydia_Ann_Wright_2.jpg",
+      "subject_names": "Perry Hughes 1",
+      "married_surname": "Jackson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Jackson_Lydia_Ann_Wright_2.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Jackson7&PerryHughes.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 410,
@@ -173,7 +215,30 @@
       "local_image_path": "assets/archive_media/people/Lydia_Wright.jpg",
       "source_url": null,
       "dataset_source": "images",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 410,
+      "photo_id": 1356,
+      "category": "people",
+      "title_or_caption": "Jackson_Lydia_Ann_Wright.jpg",
+      "subject_names": "Perry Hughes 1",
+      "married_surname": "Jackson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Jackson_Lydia_Ann_Wright.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Jackson7&PerryHughes.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Street",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "jacksnr2.htm",
     "birth_info": "19 Nov 1907",
     "death_info": "2 Oct 1910 (aged 2)",
@@ -26,7 +26,7 @@
           "citation_id": 697,
           "fact_id": 697,
           "source_id": 69,
-          "evidence_text": null,
+          "evidence_text": "...(c. 1880 - 1897 ) married Robert P. Street children: Robert Street married Agnes Hansley Hattie Street Arnold Street Mildred Street married John Myers Catherine Street ( 1904 - 1975 ) Nora Street Burton Street Carlos Street Alice Jackson (May 1884 -...",
           "source_title": "Record: jacksnr2.htm",
           "source_url": "jacksnr2.htm",
           "source_dataset": "lynncjackson"
@@ -45,7 +45,7 @@
           "citation_id": 698,
           "fact_id": 698,
           "source_id": 69,
-          "evidence_text": null,
+          "evidence_text": "...(c. 1880 - 1897 ) married Robert P. Street children: Robert Street married Agnes Hansley Hattie Street Arnold Street Mildred Street married John Myers Catherine Street ( 1904 - 1975 ) Nora Street Burton Street Carlos Street Alice Jackson (May 1884 -...",
           "source_title": "Record: jacksnr2.htm",
           "source_url": "jacksnr2.htm",
           "source_dataset": "lynncjackson"
@@ -64,10 +64,29 @@
           "citation_id": 699,
           "fact_id": 699,
           "source_id": 69,
-          "evidence_text": null,
+          "evidence_text": "...(c. 1880 - 1897 ) married Robert P. Street children: Robert Street married Agnes Hansley Hattie Street Arnold Street Mildred Street married John Myers Catherine Street ( 1904 - 1975 ) Nora Street Burton Street Carlos Street Alice Jackson (May 1884 -...",
           "source_title": "Record: jacksnr2.htm",
           "source_url": "jacksnr2.htm",
           "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15282,
+      "person_id": 424,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Lydia Wright",
+      "citations": [
+        {
+          "citation_id": 14084,
+          "fact_id": 15282,
+          "source_id": 839,
+          "evidence_text": "...(c. 1880 - 1897 ) married Robert P. Street children: Robert Street married Agnes Hansley Hattie Street Arnold Street Mildred Street married John Myers Catherine Street ( 1904 - 1975 ) Nora Street Burton Street Carlos Street Alice Jackson (May 1884 -...",
+          "source_title": "Preserved Document: Lydia Wright",
+          "source_url": "wright-l.htm",
+          "source_dataset": "mitsawokett_primary"
         }
       ]
     }
@@ -84,19 +103,6 @@
   "photos": [
     {
       "person_id": 424,
-      "photo_id": 2322,
-      "category": "family_trees",
-      "title_or_caption": "Street_Mildred_Ancestry.gif",
-      "subject_names": "Street",
-      "married_surname": "Street",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Street_Mildred_Ancestry.gif",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetMildred.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 424,
       "photo_id": 2321,
       "category": "people",
       "title_or_caption": "Street_Mildred.jpg",
@@ -106,7 +112,12 @@
       "local_image_path": "assets/archive_media/people/Street_Mildred.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetMildred.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "document",
+      "subtype": "lineage_chart",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

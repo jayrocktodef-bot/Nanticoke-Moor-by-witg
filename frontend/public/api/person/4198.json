@@ -6,7 +6,7 @@
     "middle_name": "Hughes",
     "maiden_name": "",
     "married_last_name": "Carter",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarterGeoE&MosleyRheba.htm",
     "birth_info": "8 Aug 2009",
     "death_info": "2 Mar 2013 (aged 3)",
@@ -89,6 +89,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 15576,
+      "person_id": 4198,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14378,
+          "fact_id": 15576,
+          "source_id": 849,
+          "evidence_text": "...M. Mosley Carter 25 Feb 1938 Bertha M. Webster 30 Jan 1959 George E. Carter 17 Feb 1971 Russell Webster 27 Jul 1971 Eloise Carter Oct 1993 stepmother Elmer Webster 11 Nov 1993 Retta Webster 19 Aug 1953 aunt Earl Webster ? uncle US ARMED SERVICES:...",
+          "source_title": "Preserved Document: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+          "source_url": "Ida_Carter_Webster_Bible.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -104,7 +123,12 @@
       "local_image_path": "assets/archive_media/people/Carter_Eloise_And_Katherine.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterCalvin&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

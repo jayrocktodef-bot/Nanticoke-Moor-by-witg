@@ -6,7 +6,7 @@
     "middle_name": "Marie",
     "maiden_name": "",
     "married_last_name": "Street",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "25 Mar 1921 Ocean City A, New Jersey",
     "death_info": "Sep 1995",
@@ -70,24 +70,48 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 13688,
+      "person_id": 9657,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harmony Methodist Church",
+      "citations": [
+        {
+          "citation_id": 12490,
+          "fact_id": 13688,
+          "source_id": 721,
+          "evidence_text": "...marker as, Edith Shelton Pearl S. Stockley 10/18/ 1912 - 1/5/ 1992 next to, and same style marker as, Edith Shelton Anna Street 7/26/ 1850 \"41 years and 13 days - wife of David\" Anna Street 7/26/ 1850 \"41 years and 13 days - wife of David\"...",
+          "source_title": "Preserved Document: Harmony Methodist Church",
+          "source_url": "harmony3.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14053,
+      "person_id": 9657,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Indian Mission Church",
+      "citations": [
+        {
+          "citation_id": 12855,
+          "fact_id": 14053,
+          "source_id": 80,
+          "evidence_text": "...11/4/ 1891 - 8/28/ 1976 Mabel Marie Clark Johnson 9/6/ 1908 - 10/25/ 1999 \"Beloved Mother\" buried next to Willis & Anna Street Mabel Marie Clark Johnson 9/6/ 1908 - 10/25/ 1999 \"Beloved Mother\" buried next to Willis & Anna Street Mary E. Johnson...",
+          "source_title": "Record: mission2.htm",
+          "source_url": "mission2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
-  "photos": [
-    {
-      "person_id": 9657,
-      "photo_id": 3147,
-      "category": "documents",
-      "title_or_caption": "Street_Anna_Jane_Harmon_Obituary_1991.jpg",
-      "subject_names": "Street, Anna Jane Harmon 1991",
-      "married_surname": "",
-      "approximate_year": "1991",
-      "local_image_path": "assets/archive_media/documents/Street_Anna_Jane_Harmon_Obituary_1991.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Obituaries/obit-street.html",
-      "dataset_source": "mitsawokett",
-      "document_type": "obituary_program"
-    }
-  ],
+  "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

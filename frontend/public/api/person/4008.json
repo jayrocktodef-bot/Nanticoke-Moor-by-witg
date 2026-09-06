@@ -8,7 +8,7 @@
     "married_last_name": "Carter",
     "evidence_level": 3,
     "source_page": "CarterHopewellFamily.htm",
-    "birth_info": null,
+    "birth_info": "28 \t\tJanuary, 1857 (Maryland on 28 \t\tJanuary, 1857)",
     "death_info": null,
     "notes": "Ingested from CarterHopewellFamily.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
@@ -41,6 +41,25 @@
       "place_string": "Maryland on 28 \t\tJanuary, 1857",
       "value_string": "was born in Maryland on 28 \t\tJanuary, 1857 .",
       "citations": []
+    },
+    {
+      "fact_id": 12572,
+      "person_id": 4008,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Hopewell Carter",
+      "citations": [
+        {
+          "citation_id": 11374,
+          "fact_id": 12572,
+          "source_id": 7,
+          "evidence_text": "...following children: John W. Carter married Nora (last name unknown) Alice Carter Agnes Carter married Aubrey Newlin Catherine Carter Laura Carter Hopewell Carter married Lethia Coker Hopewell Sr. died on 13 February, 1933 . He is buried with his wife...",
+          "source_title": "Record: carty-h.htm",
+          "source_url": "carty-h.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +75,30 @@
       "local_image_path": "assets/archive_media/people/Carter_Sarah_Catherine_Ridgeway.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterHopewellUmphrey.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 4008,
+      "photo_id": 2176,
+      "category": "people",
+      "title_or_caption": "Russell_Anna_Catherine_Wright.jpg",
+      "subject_names": "Carter",
+      "married_surname": "Russell",
+      "approximate_year": "1930",
+      "local_image_path": "assets/archive_media/people/Russell_Anna_Catherine_Wright.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Carter_Lynn_Family.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

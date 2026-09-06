@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Pierce",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamJEH&Harriett.htm",
     "birth_info": "Dec 1842",
     "death_info": "11 Jan 1844 (aged 1)",
@@ -70,23 +70,29 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 15584,
+      "person_id": 5514,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14386,
+          "fact_id": 15584,
+          "source_id": 147,
+          "evidence_text": "...Addison Elisha Durham, Benjamin Robert Jr Durham, Benjamin Robert Jr Durham, Benjamin Robert Jr Durham, Catherine Eleanor Pierce Durham, Catherine Eleanor Pierce Durham, Catherine Eleanor Pierce Durham, Ernest Windfield Durham, Ernest Windfield...",
+          "source_title": "Record: SocialSecurityApplications.htm",
+          "source_url": "SocialSecurityApplications.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
-    {
-      "person_id": 5514,
-      "photo_id": 3319,
-      "category": "documents",
-      "title_or_caption": "Durham_Catherine_Eleanor_Pierce_SocialSecurity_Application.jpg",
-      "subject_names": "Durham Catherine Eleanor Pierce SocialSecurity Application",
-      "married_surname": "",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/documents/Durham_Catherine_Eleanor_Pierce_SocialSecurity_Application.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "ss_application"
-    },
     {
       "person_id": 5514,
       "photo_id": 1998,
@@ -98,7 +104,12 @@
       "local_image_path": "assets/archive_media/people/Pierce_Gladys_Eleanor_Mary_Sadie.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamJEH&Harriett.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

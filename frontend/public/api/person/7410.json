@@ -8,7 +8,7 @@
     "married_last_name": "Seeney",
     "evidence_level": 3,
     "source_page": "SeeneySarahArcher.htm",
-    "birth_info": "unknown",
+    "birth_info": "March 28th 1843",
     "death_info": "Mar 1961",
     "notes": "Ingested from SeeneySarahArcher.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/246878844/sarah-seeney",
     "dataset_source": "mitsawokett_delaware"
@@ -79,6 +79,25 @@
       "place_string": null,
       "value_string": "borned March 28th 1843",
       "citations": []
+    },
+    {
+      "fact_id": 14090,
+      "person_id": 7410,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Catherine Morgan",
+      "citations": [
+        {
+          "citation_id": 12892,
+          "fact_id": 14090,
+          "source_id": 82,
+          "evidence_text": "...John T. Dean ( 1856 - ) Lucinda Dean ( 1857 - 1876 ) married William C. Johnson Jesse Dean ( 1858 - 1931 ) married Sarah SEENEY and Susan SAMMONS Robert B. Dean ( 1861 - 1940 ) married Almira Wilson William Frank Dean ( 1864 - ) married Elizabeth...",
+          "source_title": "Record: morgan-c.htm",
+          "source_url": "morgan-c.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -94,7 +113,12 @@
       "local_image_path": "assets/archive_media/people/Seeney_Sarah_Archer.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SeeneySarahArcher.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

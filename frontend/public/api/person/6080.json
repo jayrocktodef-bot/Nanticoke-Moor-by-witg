@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Street",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HarmonFedora&Children.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,23 +32,86 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13685,
+      "person_id": 6080,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harmony Methodist Church",
+      "citations": [
+        {
+          "citation_id": 12487,
+          "fact_id": 13685,
+          "source_id": 721,
+          "evidence_text": "...Street 1865 - 1906 \"Mother\" Annie E. Street 1865 - 1906 \"Mother\" Street (no dates) \"Baby\" - near marker of Wingate & Hattie Street Street (no dates) \"Baby\" - near marker of Wingate & Hattie Street Wingate Street 10/22/ 1890 - 2/11/ 1979 \"US Army WW...",
+          "source_title": "Preserved Document: Harmony Methodist Church",
+          "source_url": "harmony3.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 13755,
+      "person_id": 6080,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Robert B Jackson",
+      "citations": [
+        {
+          "citation_id": 12557,
+          "fact_id": 13755,
+          "source_id": 69,
+          "evidence_text": "...Dave Wright Matthilde Jackson (c. 1880 - 1897 ) married Robert P. Street children: Robert Street married Agnes Hansley Hattie Street Arnold Street Mildred Street married John Myers Catherine Street ( 1904 - 1975 ) Nora Street Burton Street Carlos...",
+          "source_title": "Record: jacksnr2.htm",
+          "source_url": "jacksnr2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14452,
+      "person_id": 6080,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits",
+      "citations": [
+        {
+          "citation_id": 13254,
+          "fact_id": 14452,
+          "source_id": 755,
+          "evidence_text": "...Isaac Thornton of Los Angeles, William T. Thornton of Ardmore, Pa; Mrs. Mary Street, Mrs. Clara Abrams and Mrs. Hattie Street, all of Los Angeles; 13 grandchildren and nine great grandchildren. The funeral will be held Wednesday at 1 p.m. at...",
+          "source_title": "Preserved Document: Obits",
+          "source_url": "obit-s1.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15293,
+      "person_id": 6080,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Lydia Wright",
+      "citations": [
+        {
+          "citation_id": 14095,
+          "fact_id": 15293,
+          "source_id": 839,
+          "evidence_text": "...Dave Wright Matthilde Jackson (c. 1880 - 1897 ) married Robert P. Street children: Robert Street married Agnes Hansley Hattie Street Arnold Street Mildred Street married John Myers Catherine Street ( 1904 - 1975 ) Nora Street Burton Street Carlos...",
+          "source_title": "Preserved Document: Lydia Wright",
+          "source_url": "wright-l.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
-    {
-      "person_id": 6080,
-      "photo_id": 2323,
-      "category": "family_trees",
-      "title_or_caption": "Street_Pocahontas_Hattie_Ancestry.jpg",
-      "subject_names": "Hattie 2",
-      "married_surname": "Street",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Street_Pocahontas_Hattie_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetRobert&Hattie&Matilda.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
     {
       "person_id": 6080,
       "photo_id": 2324,
@@ -60,7 +123,12 @@
       "local_image_path": "assets/archive_media/people/Street_Robert_And_Hattie_And_Matilda.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StreetRobert&Hattie&Matilda.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "lineage_chart",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

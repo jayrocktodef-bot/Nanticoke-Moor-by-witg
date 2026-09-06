@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Johnson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "ClarkLouiseWright&dauAnna.htm",
     "birth_info": "1924",
     "death_info": "2008 (aged 83\u201384)",
@@ -70,6 +70,44 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13664,
+      "person_id": 4120,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harmony Methodist Church",
+      "citations": [
+        {
+          "citation_id": 12466,
+          "fact_id": 13664,
+          "source_id": 720,
+          "evidence_text": "...E. Johnson 12/20/ 1935 - 4/16/ 1997 Randall E. Johnson 12/20/ 1935 - 4/16/ 1997 Johnson (no dates) \"Infant of Annie & Dorsey Johnson\" Johnson (no dates) \"Infant of Annie & Dorsey Johnson\" John B. Johnson 5/25/ 1843 - 5/17/ 1926 John B. Johnson 5/25/...",
+          "source_title": "Preserved Document: Harmony Methodist Church",
+          "source_url": "harmony2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14412,
+      "person_id": 4120,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits",
+      "citations": [
+        {
+          "citation_id": 13214,
+          "fact_id": 14412,
+          "source_id": 749,
+          "evidence_text": "...where friends may call two hours before the service. Interment will be in the Harmony Cemetary near Millsboro. Mrs. Dorsey Johnson April 14, 1965 MILLSBORO: Mrs. Anna E. Johnson, 72, died Wednesday after a long illness. She was a member of Harmony...",
+          "source_title": "Preserved Document: Obits",
+          "source_url": "obit-j2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +123,12 @@
       "local_image_path": "assets/archive_media/people/Johnson_Dorsey_And_Anna_And_Cwright.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ClarkLouiseWright&dauAnna.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

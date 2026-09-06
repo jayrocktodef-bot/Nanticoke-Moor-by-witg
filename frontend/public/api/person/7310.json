@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "SammonsStanley&Daisey.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "3 May, 1965",
     "notes": "Ingested from SammonsStanley&Daisey.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -56,7 +56,12 @@
       "local_image_path": "assets/archive_media/people/Sammons_Stanley_And_Daisey_London.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsStanley&Daisey.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7310,
@@ -69,20 +74,12 @@
       "local_image_path": "assets/archive_media/people/Sammons_Stanley.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsStanley&Daisey.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 7310,
-      "photo_id": 2247,
-      "category": "family_trees",
-      "title_or_caption": "Sammons_Stanley_Ancestry.jpg",
-      "subject_names": "Sammons",
-      "married_surname": "Sammons",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Sammons_Stanley_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsStanley&Daisey.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

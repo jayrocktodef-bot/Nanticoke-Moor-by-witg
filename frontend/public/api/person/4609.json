@@ -8,8 +8,8 @@
     "married_last_name": "Dean",
     "evidence_level": 3,
     "source_page": "DeanBill.htm",
-    "birth_info": null,
-    "death_info": null,
+    "birth_info": "1920",
+    "death_info": "1945",
     "notes": "Ingested from DeanBill.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,22 +41,46 @@
       "place_string": null,
       "value_string": "d. 1945",
       "citations": []
+    },
+    {
+      "fact_id": 13277,
+      "person_id": 4609,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: William H Dean",
+      "citations": [
+        {
+          "citation_id": 12079,
+          "fact_id": 13277,
+          "source_id": 705,
+          "evidence_text": "...daughter of Abraham Farmer and Mary MILLER, who was born in Delaware in 1833 . Chidren of William and Nancy Dean were: Albert Dean (b. 1861 ) Josephine Dean (b. 1867 ) Lewis Dean (b. 1869 ) John W. Dean (b. 6 Feb. 1871 in Huron, Twp., Wayne, MI) (d....",
+          "source_title": "Preserved Document: William H Dean",
+          "source_url": "dean-w3.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
     {
       "person_id": 4609,
-      "photo_id": 729,
-      "category": "family_trees",
-      "title_or_caption": "Dean_William_Albert_Ancestry.jpg",
-      "subject_names": "Eliza Dean",
+      "photo_id": 713,
+      "category": "people",
+      "title_or_caption": "Dean_Bill.jpg",
+      "subject_names": "William Albert Dean",
       "married_surname": "Dean",
       "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Dean_William_Albert_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DeanWilliam&Eliza.htm",
+      "local_image_path": "assets/archive_media/people/Dean_Bill.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DeanBill.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [

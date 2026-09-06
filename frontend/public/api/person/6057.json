@@ -79,6 +79,25 @@
       "place_string": null,
       "value_string": "married Lillie White in 1918",
       "citations": []
+    },
+    {
+      "fact_id": 14031,
+      "person_id": 6057,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Indian Mission Church",
+      "citations": [
+        {
+          "citation_id": 12833,
+          "fact_id": 14031,
+          "source_id": 79,
+          "evidence_text": "...T. S. Harmon 6/16/ 1900 - 10/31/ 1900 \" son of Isaac & Vina Harmon\" \"The flower that smiles today tomorrow dies\" J. Wesley Harmon 1881 - 1940 \"Scholar, Educator, Businessman\" John W. Harman d. 7/13/ 1900 (?) \"age 23y, -m-, 17d\" Joseph W. Harmon...",
+          "source_title": "Record: mission1.htm",
+          "source_url": "mission1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -94,20 +113,12 @@
       "local_image_path": "assets/archive_media/people/Harmon_Wesley.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonWesley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
-    },
-    {
-      "person_id": 6057,
-      "photo_id": 1192,
-      "category": "family_trees",
-      "title_or_caption": "Harmon_John_Wesley_Ancestry.jpg",
-      "subject_names": "Isaac W. Harmon",
-      "married_surname": "Harmon",
-      "approximate_year": "1829",
-      "local_image_path": "assets/archive_media/family_trees/Harmon_John_Wesley_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonIsaacW&SarahSockum.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

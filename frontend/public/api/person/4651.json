@@ -6,9 +6,9 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Davis",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DavisRobert&Lillie&son.htm",
-    "birth_info": "unknown",
+    "birth_info": "2016",
     "death_info": "Aug 1971",
     "notes": "Ingested from DavisRobert&Lillie&son.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/138696783/sylvia-davis (Buried at Oak Hill Cemetery)",
     "dataset_source": "mitsawokett_delaware"
@@ -70,6 +70,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 15550,
+      "person_id": 4651,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14352,
+          "fact_id": 15550,
+          "source_id": 846,
+          "evidence_text": "...Preserved Primary Document \u2022 Perkins-Adams-Morris-JacksonBible.htm Family Bible Register Entries Contributed by Sylvia Davis Pinkett 1 July 2006 MAIN MENU \u00a0 EMAIL US MAIN MENU \u00a0 EMAIL US MAIN MENU EMAIL US MITSAWOKETT \"The History and...",
+          "source_title": "Preserved Document: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+          "source_url": "Perkins-Adams-Morris-JacksonBible.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +104,12 @@
       "local_image_path": "assets/archive_media/people/Pinkett_Sylvia_Davis.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisRobert&Lillie&son.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "JacksonJanie&Kids.htm",
     "birth_info": "14 Feb 1940",
     "death_info": "29 Mar 2013 (aged 73)",
@@ -70,6 +70,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13666,
+      "person_id": 6210,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harmony Methodist Church",
+      "citations": [
+        {
+          "citation_id": 12468,
+          "fact_id": 13666,
+          "source_id": 720,
+          "evidence_text": "...Mary Jackson 1936 - 1995 Funeral Home Marker William Earl Jackson 3/28/ 1915 - 12/19/ 1990 son of William & (Sarah) Janie Jackson William Earl Jackson 3/28/ 1915 - 12/19/ 1990 son of William & (Sarah) Janie Jackson Helen Jackson 1917 - 1918 Helen...",
+          "source_title": "Preserved Document: Harmony Methodist Church",
+          "source_url": "harmony2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +104,12 @@
       "local_image_path": "assets/archive_media/people/Jackson_Janie_And_Kids.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonJanie&Kids.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

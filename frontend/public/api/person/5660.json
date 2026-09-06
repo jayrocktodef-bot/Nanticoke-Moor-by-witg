@@ -76,19 +76,6 @@
   "photos": [
     {
       "person_id": 5660,
-      "photo_id": 3154,
-      "category": "documents",
-      "title_or_caption": "Theophilus_Gould_Steward.jpg",
-      "subject_names": "Theophilus Gould Steward",
-      "married_surname": "",
-      "approximate_year": "1997",
-      "local_image_path": "assets/archive_media/documents/Theophilus_Gould_Steward.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Bible%20Records/TheophilusGouldSteward/StewardTheophilusGouldBible.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
-    },
-    {
-      "person_id": 5660,
       "photo_id": 2296,
       "category": "people",
       "title_or_caption": "Steward_Rebecca_Gould.jpg",
@@ -98,7 +85,12 @@
       "local_image_path": "assets/archive_media/people/Steward_Rebecca_Gould.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Gouldtown%20Old%20Folks.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 5660,
@@ -111,7 +103,12 @@
       "local_image_path": "assets/archive_media/people/Steward_Theo_Gould.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Gouldtown%20Old%20Folks.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

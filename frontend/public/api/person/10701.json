@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Johnson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "20 Jul 1878",
     "death_info": "5 Dec 1971 (aged 93)",
@@ -70,6 +70,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 14016,
+      "person_id": 10701,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Marriage Records",
+      "citations": [
+        {
+          "citation_id": 12818,
+          "fact_id": 14016,
+          "source_id": 78,
+          "evidence_text": "...Maggie Durham Charles Saunders 1891 Annie E. Cartey Nehemiah Durham April 15, 1892 Lena Durham David Ridgeway 1893 Florence Johnson William Sammons Dec. 25, 1894 Clara Johnson John Mosley March 13, 1895 Mary L. Mosley Purnell Mosley 1895 Eveline...",
+          "source_title": "Record: marry.htm",
+          "source_url": "marry.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -100,7 +119,12 @@
       "local_image_path": "assets/archive_media/people/Johnson_Laura_And_Florence.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonLaura&Florence.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 10701,
@@ -113,7 +137,12 @@
       "local_image_path": "assets/archive_media/people/Morris_Dorothy_Johnsondauof_Florence_Johnson.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisDorothyJohnson.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

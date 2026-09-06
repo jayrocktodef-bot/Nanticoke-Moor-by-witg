@@ -8,8 +8,8 @@
     "married_last_name": "Coker",
     "evidence_level": 3,
     "source_page": "CokerJamesH&MaryEDurham.htm",
-    "birth_info": null,
-    "death_info": null,
+    "birth_info": "2009",
+    "death_info": "13 February, 1933",
     "notes": "Ingested from CokerJamesH&MaryEDurham.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -50,6 +50,44 @@
       "place_string": null,
       "value_string": "died on 13 February, 1933",
       "citations": []
+    },
+    {
+      "fact_id": 13915,
+      "person_id": 4227,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12717,
+          "fact_id": 13915,
+          "source_id": 77,
+          "evidence_text": "...1941 - 1949 Cleo Durham Coker- Oct. 1, 1920 - Aug. 12, 1994 Deborah I. Coker- 1950 - 1980 Glendora Coker - 1928 - 1948 Elizabeth Coker - 1911 - 1967 Hazella S. Coker- died. 10 January 1996 James H. Coker - 1908 - 1984 Moses Coker - July 5, 1849 - April...",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15604,
+      "person_id": 4227,
+      "fact_type": "Racial Classification",
+      "date_string": "1850",
+      "place_string": "Caroline",
+      "value_string": "Enumerated as 'M' (Mulatto), age 35",
+      "citations": [
+        {
+          "citation_id": 14406,
+          "fact_id": 15604,
+          "source_id": 15,
+          "evidence_text": "1850 Census: Coker, Elizabeth \u2014 Elizabeth | 35 | F | M | MD | Patrick",
+          "source_title": "Record: census18.htm",
+          "source_url": "census18.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -65,7 +103,12 @@
       "local_image_path": "assets/archive_media/people/Coker_Mary_Elizabeth_Durham.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerJamesH&MaryEDurham.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4227,
@@ -78,7 +121,12 @@
       "local_image_path": "assets/archive_media/people/Coker_Rev_Roland_ridgeway_Elizabeth_Flossie_ridgeway_Benjamin_F.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerRevRoland&Hazella.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [

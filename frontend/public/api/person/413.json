@@ -26,7 +26,7 @@
           "citation_id": 670,
           "fact_id": 670,
           "source_id": 67,
-          "evidence_text": null,
+          "evidence_text": "...Norwood who was born on 22 February, 1877 and died 17 October, 1928 . John and Lovenia had the following children: Mattie Jackson married Eldridge Johnson (b.c. 1889 ) Lovenia and John are also buried at Indian Mission Church. Although born in...",
           "source_title": "Record: jacksnja.htm",
           "source_url": "jacksnja.htm",
           "source_dataset": "lynncjackson"
@@ -45,7 +45,7 @@
           "citation_id": 671,
           "fact_id": 671,
           "source_id": 67,
-          "evidence_text": null,
+          "evidence_text": "...Norwood who was born on 22 February, 1877 and died 17 October, 1928 . John and Lovenia had the following children: Mattie Jackson married Eldridge Johnson (b.c. 1889 ) Lovenia and John are also buried at Indian Mission Church. Although born in...",
           "source_title": "Record: jacksnja.htm",
           "source_url": "jacksnja.htm",
           "source_dataset": "lynncjackson"
@@ -64,7 +64,7 @@
           "citation_id": 672,
           "fact_id": 672,
           "source_id": 67,
-          "evidence_text": null,
+          "evidence_text": "...Norwood who was born on 22 February, 1877 and died 17 October, 1928 . John and Lovenia had the following children: Mattie Jackson married Eldridge Johnson (b.c. 1889 ) Lovenia and John are also buried at Indian Mission Church. Although born in...",
           "source_title": "Record: jacksnja.htm",
           "source_url": "jacksnja.htm",
           "source_dataset": "lynncjackson"
@@ -79,6 +79,25 @@
       "place_string": "the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
       "value_string": "married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
       "citations": []
+    },
+    {
+      "fact_id": 13820,
+      "person_id": 413,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Nathaniel Jackson",
+      "citations": [
+        {
+          "citation_id": 12622,
+          "fact_id": 13820,
+          "source_id": 75,
+          "evidence_text": "...Cemetary Norman H. Jackson (Jan 16, 1926 - Jan 30, 1984 ) married Ruth both are buried at the Jackson/Perkins Cemetary Mattie Jackson Nora Jackson (April 5, 1893 -Nov. 1, 1980 ) who married: Frazier CARNEY, son of William Carney & Sarah Mosley...",
+          "source_title": "Record: jacksonn.htm",
+          "source_url": "jacksonn.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -102,7 +121,30 @@
       "local_image_path": "assets/archive_media/people/Johnson_Mattie_Jackson.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonEldridge.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 413,
+      "photo_id": 1397,
+      "category": "people",
+      "title_or_caption": "Johnson_Eldridge.jpg",
+      "subject_names": "Mattie Jackson",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_Eldridge.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonEldridge.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 413,
@@ -115,7 +157,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Ray_Frazier_And_Ethel_And_Mattie_Jackson.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyRayFrazier.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

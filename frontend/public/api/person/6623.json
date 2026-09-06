@@ -41,23 +41,86 @@
       "place_string": null,
       "value_string": "married Mae SAMMONS on 15 November, 1917",
       "citations": []
+    },
+    {
+      "fact_id": 13100,
+      "person_id": 6623,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Annie Dean",
+      "citations": [
+        {
+          "citation_id": 11902,
+          "fact_id": 13100,
+          "source_id": 37,
+          "evidence_text": "...(8 Jan. 1890 - 14 April 1937 ) Sarah Catherine Mosley (24 Jan. 1891 - 21 Oct. 1906 ) married Wilbur W. DURHAM Charles Milton Mosley (25 June, 1892 - 26 July, 1960 ) married Mae SAMMONS on 15 November, 1917 Clifton Mosley (22 Sept, 1893 - 5 Feb., 1918...",
+          "source_title": "Record: dean-ae.htm",
+          "source_url": "dean-ae.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13932,
+      "person_id": 6623,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12734,
+          "fact_id": 13932,
+          "source_id": 77,
+          "evidence_text": "...with Mother-Reba Carter) Lulu J. Mosley- 6/13/ 1891 -12/26/ 1960 Marie L. Mosley - June 11, 1914 - Dec. 10, 1985 C. Milton Mosley - 1892 - 1960 Mae S. Mosley - 1896 - 1968 William H. - son of George E. & Elizabeth Mosley Feb. 28, 1887 -June 16,...",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14227,
+      "person_id": 6623,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Charles H.Mosley",
+      "citations": [
+        {
+          "citation_id": 13029,
+          "fact_id": 14227,
+          "source_id": 736,
+          "evidence_text": "...(8 Jan. 1890 - 14 April 1937 ) Sarah Catherine Mosley (24 Jan. 1891 - 21 Oct. 1906 ) married Wilbur W. DURHAM Charles Milton Mosley (25 June, 1892 - 26 July, 1960 ) married Mae SAMMONS Clifton Mosley (22 Sept, 1893 - 5 Feb., 1918 ) married Bertha...",
+          "source_title": "Preserved Document: Charles H.Mosley",
+          "source_url": "mosly-c1.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14435,
+      "person_id": 6623,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits- Mosley",
+      "citations": [
+        {
+          "citation_id": 13237,
+          "fact_id": 14435,
+          "source_id": 751,
+          "evidence_text": "...Frederica; Mrs. Sally Harmon, Bridgeton, N.J. and three brothers, Morris, Frazier and Horace, all of Milford. Mrs. Milton Mosley Feb. 4, 1968 DOVER: Mrs. Mae Mosley, 71, widow of Milton Mosley, a retired Dover farmer, died at her home Monday after...",
+          "source_title": "Preserved Document: Obits- Mosley",
+          "source_url": "obit-m2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
-    {
-      "person_id": 6623,
-      "photo_id": 1697,
-      "category": "family_trees",
-      "title_or_caption": "Mosley_Charles_Milton_And_Mae_Sammons_Ancestry.jpg",
-      "subject_names": "Mosley",
-      "married_surname": "Mosley",
-      "approximate_year": "1861",
-      "local_image_path": "assets/archive_media/family_trees/Mosley_Charles_Milton_And_Mae_Sammons_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesMilton.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
     {
       "person_id": 6623,
       "photo_id": 1765,
@@ -69,7 +132,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Milton_And_Mae.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6623,
@@ -82,7 +150,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Charles_Milton_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesMilton.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6623,
@@ -95,7 +168,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Emma_And_Milton_Mosley.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamEmma.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

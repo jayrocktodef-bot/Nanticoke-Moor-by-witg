@@ -38,29 +38,21 @@
   "photos": [
     {
       "person_id": 5061,
-      "photo_id": 3324,
-      "category": "documents",
-      "title_or_caption": "Durham_Marshall_Elllis_SocialSecurity_Application.jpg",
-      "subject_names": "Durham Marshall Elllis SocialSecurity Application",
-      "married_surname": "",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/documents/Durham_Marshall_Elllis_SocialSecurity_Application.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "ss_application"
-    },
-    {
-      "person_id": 5061,
-      "photo_id": 866,
-      "category": "family_trees",
-      "title_or_caption": "Durham_Marshall_Ellis_Ancestry.jpg",
+      "photo_id": 921,
+      "category": "people",
+      "title_or_caption": "Durham_Walter_And_Rose.jpg",
       "subject_names": "Marshall Ellis Durham",
       "married_surname": "Durham",
       "approximate_year": "1940",
-      "local_image_path": "assets/archive_media/family_trees/Durham_Marshall_Ellis_Ancestry.jpg",
+      "local_image_path": "assets/archive_media/people/Durham_Walter_And_Rose.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWalter&Rose.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 5061,
@@ -73,7 +65,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Marshall_E.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWalter&Rose.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

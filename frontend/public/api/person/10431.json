@@ -6,7 +6,7 @@
     "middle_name": "Jack",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Mar 1840 Dover Hundred, Kent County, Delaware, USA",
     "death_info": "1900 Broadkiln Hundred, Sussex County, Delaware, USA",
@@ -70,6 +70,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 14966,
+      "person_id": 10431,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Sammons",
+      "citations": [
+        {
+          "citation_id": 13768,
+          "fact_id": 14966,
+          "source_id": 655,
+          "evidence_text": "...Nehemiah was born in DE in 1840 and died March 11, 1924 . There was an Isaac Sammons in Sussex County DE, married to Elizabeth Ridgeway, whose daughter Susan Sammons,(born about 1858 ), married Purnell Mosley on October 10, 1875 in Kent County, DE. There...",
+          "source_title": "Record: sammons.htm",
+          "source_url": "sammons.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -100,7 +119,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Anna_Elizabeth_1.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayAnnaElizabeth-question.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 10431,
@@ -113,7 +137,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Anna_Elizabeth_4.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayAnnaElizabeth-question.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 10431,
@@ -126,7 +155,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Anna_Elizabeth_3.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayAnnaElizabeth-question.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 10431,
@@ -139,7 +173,12 @@
       "local_image_path": "assets/archive_media/people/Coker_Rev_Roland_ridgeway_Elizabeth_Flossie_ridgeway_Benjamin_F.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerRevRoland&Hazella.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 10431,
@@ -152,7 +191,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Anna_Elizabeth_5.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayAnnaElizabeth-question.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 10431,
@@ -165,20 +209,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Anna_Elizabeth_6.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayAnnaElizabeth-question.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
-    },
-    {
-      "person_id": 10431,
-      "photo_id": 2147,
-      "category": "people",
-      "title_or_caption": "Ridgeway_Mary_Eliz_Mosley.jpg",
-      "subject_names": "Mosley",
-      "married_surname": "Ridgeway",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Ridgeway_Mary_Eliz_Mosley.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayMaryElizMosley.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 10431,
@@ -191,7 +227,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Anna_Elizabeth_2.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayAnnaElizabeth-question.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -8,7 +8,7 @@
     "married_last_name": "Wright",
     "evidence_level": 3,
     "source_page": "WrightGertrude&Annie&SarahNorwood.htm",
-    "birth_info": null,
+    "birth_info": "November 25, 1904",
     "death_info": null,
     "notes": "Ingested from WrightGertrude&Annie&SarahNorwood.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
@@ -41,6 +41,25 @@
       "place_string": null,
       "value_string": "born November 25, 1904",
       "citations": []
+    },
+    {
+      "fact_id": 15899,
+      "person_id": 7985,
+      "fact_type": "Racial Classification",
+      "date_string": "1870",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 44",
+      "citations": [
+        {
+          "citation_id": 14701,
+          "fact_id": 15899,
+          "source_id": 688,
+          "evidence_text": "1870 Census: Wright, Annie \u2014 Annie | 44 | F | M | house keeping | Return",
+          "source_title": "Preserved Document: Census-1870",
+          "source_url": "census20.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +75,12 @@
       "local_image_path": "assets/archive_media/people/Wright_Gertrude_And_Annie_And_Sarah_Norwood.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightGertrude&Annie&SarahNorwood.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

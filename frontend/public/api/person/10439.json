@@ -6,7 +6,7 @@
     "middle_name": "Jack",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1857 Kent, Delaware, United States",
     "death_info": "1 Feb 1919 Cheswold, Kent, Delaware, United States",
@@ -70,6 +70,44 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12549,
+      "person_id": 10439,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Bible-Ridgeway",
+      "citations": [
+        {
+          "citation_id": 11351,
+          "fact_id": 12549,
+          "source_id": 3,
+          "evidence_text": "...Ridgway departed this life March 31 1918 age 76 years & 3 days Births Laura Ridgeway daughter of Cornelius and Rebecca Ridgeway was borned Oct. 30 (1st), 1866 David, son of Cornelius & Rebecca Ridgeway was borned July 9th 1868 Florence Ann,...",
+          "source_title": "Record: bible-r.htm",
+          "source_url": "bible-r.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13072,
+      "person_id": 10439,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Rebecca Cott",
+      "citations": [
+        {
+          "citation_id": 11874,
+          "fact_id": 13072,
+          "source_id": 699,
+          "evidence_text": "...1877 - ) married Sarah Elizabeth MOSLEY Harvey N. Ridgeway (Dec. 29, 1879 - ) Lulu May Ridgeway (April 13, 1882 - ) Rebecca Ridgeway (Dec. 24, 1884 - ) James Blaine Ridgeway William Edgar Ridgeway Cornelious Ridgeway died in Dinah's Corner, Kent...",
+          "source_title": "Preserved Document: Rebecca Cott",
+          "source_url": "cott-r.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -100,7 +138,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Rebecca_Cott.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayRebeccaCott.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 10439,
@@ -113,7 +156,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Rebecca_Cott_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayRebeccaCott.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

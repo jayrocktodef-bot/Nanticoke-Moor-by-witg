@@ -6,7 +6,7 @@
     "middle_name": "Carey",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CareyCharlesH&NellieVRidgeway.htm",
     "birth_info": "1884",
     "death_info": "1963 (aged 78\u201379)",
@@ -70,6 +70,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 14400,
+      "person_id": 3535,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits",
+      "citations": [
+        {
+          "citation_id": 13202,
+          "fact_id": 14400,
+          "source_id": 96,
+          "evidence_text": "...illness. He was the son of the late Nathaniel C. and Lucy Perkins Jackson of Seaford. Survivors include his wife, Mrs. Bertha Jackson; five sons, Herman R., of Seaford; Clifford R. and Norman H., both of Wilmington and Philip A. and Harland, both of...",
+          "source_title": "Record: obit-j1.htm",
+          "source_url": "obit-j1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +104,12 @@
       "local_image_path": "assets/archive_media/people/Jackson_Phillipand_Bertha_Carey.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonPhillipandBerthaCarey.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3535,
@@ -98,7 +122,12 @@
       "local_image_path": "assets/archive_media/people/Jackson_Bertha_Carey.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CareyCharlesE&DellaRidgeway.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

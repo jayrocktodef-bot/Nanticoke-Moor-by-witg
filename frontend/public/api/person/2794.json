@@ -79,6 +79,25 @@
       "place_string": "the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
       "value_string": "married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
       "citations": []
+    },
+    {
+      "fact_id": 13387,
+      "person_id": 2794,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Enoch  Durham",
+      "citations": [
+        {
+          "citation_id": 12189,
+          "fact_id": 13387,
+          "source_id": 50,
+          "evidence_text": "...following children: Elmira Durham (d. 1969 ) married Ernest Pierce Maggie Durham married Ernest Seeney Herman Durham Etta Durham Leroy Durham married Thelma Carney Enoch Durham died on 17 March, 1929 . He is buried at Immanuel Union (Manship)...",
+          "source_title": "Record: durhm-e1.htm",
+          "source_url": "durhm-e1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -94,7 +113,12 @@
       "local_image_path": "assets/archive_media/people/Thorpe_Etta_Durham.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThorpeOriettaDurham.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 2794,
@@ -107,7 +131,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Orietta_Etta.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThorpeOriettaDurham.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

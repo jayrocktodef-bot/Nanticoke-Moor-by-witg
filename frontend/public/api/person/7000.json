@@ -79,6 +79,82 @@
       "place_string": null,
       "value_string": "married Cassius MOSLEY on 23 September, 1900",
       "citations": []
+    },
+    {
+      "fact_id": 13279,
+      "person_id": 7000,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: William H Dean",
+      "citations": [
+        {
+          "citation_id": 12081,
+          "fact_id": 13279,
+          "source_id": 705,
+          "evidence_text": "...son of William Dean and his wife, (Mary) Ann Cork William married Nancy FARMER , the daughter of Abraham Farmer and Mary MILLER, who was born in Delaware in 1833 . Chidren of William and Nancy Dean were: Albert Dean (b. 1861 ) Josephine Dean (b....",
+          "source_title": "Preserved Document: William H Dean",
+          "source_url": "dean-w3.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14610,
+      "person_id": 7000,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate",
+      "citations": [
+        {
+          "citation_id": 13412,
+          "fact_id": 14610,
+          "source_id": 658,
+          "evidence_text": "...\u00a0\u00a0Rachel Greenage James Roberts \u00a0\u00a0Josiah Miller Lydia Miller Enoch Miller Phoeba Miller Elijah Miller Robert Miller Mary Miller \u00a0 JEREMIAH CONSELLOR (- 1811 ) (son of Elijah and Hannah Consellor) Petition of Elizabeth Conselor, widow, for a...",
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15482,
+      "person_id": 7000,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Consellor%20Lineage.htm",
+      "citations": [
+        {
+          "citation_id": 14284,
+          "fact_id": 15482,
+          "source_id": 138,
+          "evidence_text": "...Debrix Miller \u00a0m John Durham Josiah\u00a0 Elijah\u00a0\u00a0\u00a0\u00a0\u00a0 Rachel\u00a0\u00a0\u00a0\u00a0\u00a0 Enoch\u00a0\u00a0 Robert \u00a0Maria\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Ezekiel\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0Enoch\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Mary Miller\u00a0\u00a0 Miller\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Miller\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0Miller\u00a0\u00a0\u00a0\u00a0 Miller\u00a0\u00a0 Miller\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Durham\u00a0\u00a0\u00a0 \u00a0\u00a0Durham\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Durham m...",
+          "source_title": "Record: Consellor%20Lineage.htm",
+          "source_url": "Consellor%20Lineage.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 15886,
+      "person_id": 7000,
+      "fact_type": "Racial Classification",
+      "date_string": "1870",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'W' (White), age 43",
+      "citations": [
+        {
+          "citation_id": 14688,
+          "fact_id": 15886,
+          "source_id": 688,
+          "evidence_text": "1870 Census: Miller, Mary \u2014 Mary | 43 | F | W | Keeping House | DE",
+          "source_title": "Preserved Document: Census-1870",
+          "source_url": "census20.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -94,7 +170,48 @@
       "local_image_path": "assets/archive_media/people/Drain_Mary_Miller.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DrainMaryMiller.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 7000,
+      "photo_id": 2098,
+      "category": "people",
+      "title_or_caption": "Richardson_Mary_Sammons_2.jpg",
+      "subject_names": "Miller",
+      "married_surname": "Richardson",
+      "approximate_year": "1854",
+      "local_image_path": "assets/archive_media/people/Richardson_Mary_Sammons_2.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsChildrenOfBenjamin&Sarah.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 7000,
+      "photo_id": 2097,
+      "category": "people",
+      "title_or_caption": "Richardson_Mary_Sammons.jpg",
+      "subject_names": "Miller",
+      "married_surname": "Richardson",
+      "approximate_year": "1854",
+      "local_image_path": "assets/archive_media/people/Richardson_Mary_Sammons.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsChildrenOfBenjamin&Sarah.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

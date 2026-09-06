@@ -6,7 +6,7 @@
     "middle_name": "Jane",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Jan 1864 Murderkill Hundred, Kent County, Delaware",
     "death_info": "05/12/1941 Atlantic County, New Jersey, USA",
@@ -68,6 +68,44 @@
           "source_title": "Record: Davis Family Tree.ged",
           "source_url": "Davis Family Tree.ged",
           "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
+      "fact_id": 13630,
+      "person_id": 8927,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harmony Methodist Church",
+      "citations": [
+        {
+          "citation_id": 12432,
+          "fact_id": 13630,
+          "source_id": 65,
+          "evidence_text": "...of Isaac M. & Sarah J.\" Nancy T. Harmon 3/2/ 1869 \" 3 years, 1 month, 18 days - daughter of Isaac M. & Sarah J.\" Eliza Harmon (stone half buried) \"daughter of Isaac M. & Sarah J.\" Eliza Harmon (stone half buried) \"daughter of Isaac M. & Sarah...",
+          "source_title": "Record: harmony1.htm",
+          "source_url": "harmony1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15468,
+      "person_id": 8927,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14270,
+          "fact_id": 15468,
+          "source_id": 137,
+          "evidence_text": "...1797 \u2013 death unknown), Paynter Harmon (b abt 1799 \u2013 death unknown), Woolsey Harmon (b abt 1808 \u2013 death unknown), and Eliza Harmon (b abt 1810 \u2013 death unknown). Attached are the 1800 , 1810 , 1820 , marriage listing, revolutionary war pension...",
+          "source_title": "Record: HarmonEdwardRevWar.htm",
+          "source_url": "HarmonEdwardRevWar.htm",
+          "source_dataset": "mitsawokett_delaware"
         }
       ]
     }
@@ -175,6 +213,78 @@
   "photos": [
     {
       "person_id": 8927,
+      "photo_id": 1443,
+      "category": "people",
+      "title_or_caption": "Johnson_William_Howard_1.jpg",
+      "subject_names": "Eliza Ann Harmon",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_William_Howard_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 8927,
+      "photo_id": 1427,
+      "category": "people",
+      "title_or_caption": "Johnson_Mable_And_Leon_1.jpg",
+      "subject_names": "Eliza Ann Harmon",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_Mable_And_Leon_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 8927,
+      "photo_id": 1405,
+      "category": "people",
+      "title_or_caption": "Johnson_Harley_And_Bernard_1.jpg",
+      "subject_names": "Eliza Ann Harmon",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_Harley_And_Bernard_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 8927,
+      "photo_id": 1442,
+      "category": "people",
+      "title_or_caption": "Johnson_William_Arthur_1.jpg",
+      "subject_names": "Eliza Ann Harmon",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_William_Arthur_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "probate_will",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 8927,
       "photo_id": 1167,
       "category": "people",
       "title_or_caption": "Harmon_Eliza_Jane.jpg",
@@ -184,7 +294,48 @@
       "local_image_path": "assets/archive_media/people/Harmon_Eliza_Jane.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonElizaJane.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 8927,
+      "photo_id": 1398,
+      "category": "people",
+      "title_or_caption": "Johnson_Eliza_Ann_Harmon_4.jpg",
+      "subject_names": "Eliza Ann Harmon",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_Eliza_Ann_Harmon_4.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 8927,
+      "photo_id": 1434,
+      "category": "people",
+      "title_or_caption": "Johnson_Patience_Wright_1.jpg",
+      "subject_names": "Eliza Ann Harmon",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_Patience_Wright_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

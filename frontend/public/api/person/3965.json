@@ -50,6 +50,101 @@
       "place_string": null,
       "value_string": "married Clem Carney on 10 April, 1913",
       "citations": []
+    },
+    {
+      "fact_id": 13114,
+      "person_id": 3965,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Enoch  Dean",
+      "citations": [
+        {
+          "citation_id": 11916,
+          "fact_id": 13114,
+          "source_id": 38,
+          "evidence_text": "Enoch Dean Preserved Primary Document \u2022 dean-e.htm Enoch M. Dean was the son of Jesse Dean Jr.and Hester Ann Carney . He was born on the family farm along the Dover to Smyrna Rd. in Little Creek Hundred, Kent Co.,DE on 19 December,...",
+          "source_title": "Record: dean-e.htm",
+          "source_url": "dean-e.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13272,
+      "person_id": 3965,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: William  Dean",
+      "citations": [
+        {
+          "citation_id": 12074,
+          "fact_id": 13272,
+          "source_id": 704,
+          "evidence_text": "William Dean Preserved Primary Document \u2022 dean-w2.htm William Dean, son of Jesse Dean and Hester Ann Carney, was born probably on the Dean family farm along the main Dover to Smyrna Rd. in Little Creek Hundred, Kent Co.,DE...",
+          "source_title": "Preserved Document: William  Dean",
+          "source_url": "dean-w2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14237,
+      "person_id": 3965,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Angelina Munce",
+      "citations": [
+        {
+          "citation_id": 13039,
+          "fact_id": 14237,
+          "source_id": 646,
+          "evidence_text": "...and his wife, Jemima Hansor. On 30 July 1863 she married Enoch M. Dean who was the son of Jesse Dean, Jr. and Hester Ann Carney. Photo of Angelina Munce Dean Courtesy of Harry Muncey Enoch and Angelina moved to Cumberland Co., NJ around 1870 -74...",
+          "source_title": "Record: munce-a1.htm",
+          "source_url": "munce-a1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14594,
+      "person_id": 3965,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate",
+      "citations": [
+        {
+          "citation_id": 13396,
+          "fact_id": 14594,
+          "source_id": 658,
+          "evidence_text": "...1/9 of 2/3 Gustavus Carney this accountant 1/9 of 2/3 Thomas Carney 1/9 of 2/3 Morris Carney 1/9 of 2/3 Cornelia Ann Carney 1/9 of 2/3 Sally Carney 1/9 of 2/3 Eliza Carney 1/9 of 2/3 Upon this statement the said executor presents the...",
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14643,
+      "person_id": 3965,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate-Carney",
+      "citations": [
+        {
+          "citation_id": 13445,
+          "fact_id": 14643,
+          "source_id": 783,
+          "evidence_text": "...1/9 of 2/3 Gustavus Carney this accountant 1/9 of 2/3 Thomas Carney 1/9 of 2/3 Morris Carney 1/9 of 2/3 Cornelia Ann Carney 1/9 of 2/3 Sally Carney 1/9 of 2/3 Eliza Carney 1/9 of 2/3 Upon this statement the said executor presents the...",
+          "source_title": "Preserved Document: Probate-Carney",
+          "source_url": "probt-c6.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -65,7 +160,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Joseph_And_Kelly_Ann.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyJoseph1904-1966.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

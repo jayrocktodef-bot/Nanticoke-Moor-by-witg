@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "MorganHarryN.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "1978",
     "notes": "Ingested from MorganHarryN.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,6 +41,63 @@
       "place_string": "1978",
       "value_string": "died in 1978",
       "citations": []
+    },
+    {
+      "fact_id": 12880,
+      "person_id": 6509,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Alonzo Coker",
+      "citations": [
+        {
+          "citation_id": 11682,
+          "fact_id": 12880,
+          "source_id": 690,
+          "evidence_text": "...was born in Kent Co., DE in 1897 . They had the following children: Walter Coker , married Myrtle Morgan, daughter of Harry Morgan and Frances Durham Carlton Coker , married Anna Loatman, daughter of Samuel Loatman and Margaret Carney Vicktorine...",
+          "source_title": "Preserved Document: Alonzo Coker",
+          "source_url": "coker-a7.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14158,
+      "person_id": 6509,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Napoleon Morgan",
+      "citations": [
+        {
+          "citation_id": 12960,
+          "fact_id": 14158,
+          "source_id": 86,
+          "evidence_text": "...and Nora are buried at Immanuel Union (Manship) Church in Cheswold, DE children of William Henry and Cora Carney Reed: Harry Morgan married #1) Frances Lilliam Durham, daughter of Marvel Durham and Rhoda Seeney and #2) Henrietta Carney children of...",
+          "source_title": "Record: morgan-n.htm",
+          "source_url": "morgan-n.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14423,
+      "person_id": 6509,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits- Morris",
+      "citations": [
+        {
+          "citation_id": 13225,
+          "fact_id": 14423,
+          "source_id": 750,
+          "evidence_text": "...her father and step-mother, Mr. & Mrs. William H. Morgan, Cheswold; two brothers, Nelson Morgan, New York City and Harry Morgan, Dover; a sister, Mrs. Nora Pierce, Monroeville, N.J. and three grandchildren. Funeral services will be Wednesday...",
+          "source_title": "Preserved Document: Obits- Morris",
+          "source_url": "obit-m1.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +113,12 @@
       "local_image_path": "assets/archive_media/people/Morgan_Harry_N.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganHarryN.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6509,
@@ -69,20 +131,12 @@
       "local_image_path": "assets/archive_media/people/Morgan_Harry_Jr_Buddy.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganHarryN.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 6509,
-      "photo_id": 1576,
-      "category": "family_trees",
-      "title_or_caption": "Morgan_Harry_Njr_Ancestry.jpg",
-      "subject_names": "Coker",
-      "married_surname": "Morgan",
-      "approximate_year": "1912",
-      "local_image_path": "assets/archive_media/family_trees/Morgan_Harry_Njr_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganHarryN.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6509,
@@ -95,7 +149,12 @@
       "local_image_path": "assets/archive_media/people/Morgan_Harriet_And_Harry_Jr_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganHarryN.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6509,
@@ -108,7 +167,12 @@
       "local_image_path": "assets/archive_media/people/Morgan_Harry_And_Frances_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganHarryN.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6509,
@@ -121,7 +185,12 @@
       "local_image_path": "assets/archive_media/people/Morgan_Harry_And_Harry_Jr_And_Harriet.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerDonald&HarrietMorgan.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 6509,
@@ -134,7 +203,12 @@
       "local_image_path": "assets/archive_media/people/Morgan_Harry_And_Joan.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganHarryN.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

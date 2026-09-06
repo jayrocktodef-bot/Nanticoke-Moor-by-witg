@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Davis",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "7 Dec 1860",
     "death_info": "2 Mar 1935 (aged 74)",
@@ -70,6 +70,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 13657,
+      "person_id": 10811,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harmony Methodist Church",
+      "citations": [
+        {
+          "citation_id": 12459,
+          "fact_id": 13657,
+          "source_id": 65,
+          "evidence_text": "...M. Davis 1898 - 1948 Charles M. Davis 1898 - 1948 Minnie M. Davis 1903 - 1952 Minnie M. Davis 1903 - 1952 Eliza Ann Davis 12/19/ 1869 - 7/3/ 1889 Wife of Morris Davis Eliza Ann Davis 12/19/ 1869 - 7/3/ 1889 Wife of Morris Davis George A....",
+          "source_title": "Record: harmony1.htm",
+          "source_url": "harmony1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -88,7 +107,26 @@
       "rel_name": "Minnie Mae Street"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 10811,
+      "photo_id": 1840,
+      "category": "people",
+      "title_or_caption": "Mott_Lois_And_Loretta_And_Ann_And_Mdavis.jpg",
+      "subject_names": "Beatrice Mildred Davis",
+      "married_surname": "Mott",
+      "approximate_year": "1970",
+      "local_image_path": "assets/archive_media/people/Mott_Lois_And_Loretta_And_Ann_And_Mdavis.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisMichael.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

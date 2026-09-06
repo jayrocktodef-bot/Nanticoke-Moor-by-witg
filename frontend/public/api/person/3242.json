@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "BloomsburyMeeting9May98.htm",
     "birth_info": null,
     "death_info": null,
@@ -32,6 +32,44 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13897,
+      "person_id": 3242,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12699,
+          "fact_id": 13897,
+          "source_id": 77,
+          "evidence_text": "...Edgar Ridgeway - 1875 - 1935 Emma Ridgeway - 1870 - 1936 Greensbury Ridgway 1867 - 1944 Sarah D. Ridgway 1879 - 1944 Greensbury Ridgeway- 3/16/ 1907 -8/3/ 1964 DE TEC 5 2026 Quatermaster Co.- WWII Harvey N. Ridgeway- 1879 - 1955 James B. Ridgeway- 1885 -...",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14446,
+      "person_id": 3242,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits- Ridgeway",
+      "citations": [
+        {
+          "citation_id": 13248,
+          "fact_id": 14446,
+          "source_id": 754,
+          "evidence_text": "...Mrs. Sadie Carney, Mrs. Virginia Durham and Mrs. Beatrice Seeney, all of Dover; three sons, Raymond Ridgeway Jr., Greensbury Ridgeway, both of Dover and Spec. 4 Albert Ridgeway stationed at Ft. Bragg, NC; two sisters, Mrs. Sophia Gould, Bridgeton, NJ...",
+          "source_title": "Preserved Document: Obits- Ridgeway",
+          "source_url": "obit-r2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -47,7 +85,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Greensbury_Sarah_Durham.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayGreensbury.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

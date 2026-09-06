@@ -70,6 +70,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 15696,
+      "person_id": 5783,
+      "fact_type": "Racial Classification",
+      "date_string": "1850",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'M' (Mulatto), age 22",
+      "citations": [
+        {
+          "citation_id": 14498,
+          "fact_id": 15696,
+          "source_id": 15,
+          "evidence_text": "1850 Census: Sammons, Prudence \u2014 Prudence | 22 | F | M | DE | DE",
+          "source_title": "Record: census18.htm",
+          "source_url": "census18.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +104,12 @@
       "local_image_path": "assets/archive_media/people/Concealor_Prudence_Sammons.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MillerJonLloydFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 5783,
@@ -98,7 +122,12 @@
       "local_image_path": "assets/archive_media/people/Concealler_Prudence_Sammons.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsChildrenOfBenjamin&Sarah.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MorganNapoleonBonaparte.htm",
     "birth_info": "4 Nov 1883",
     "death_info": "21 Dec 1951 (aged 68)",
@@ -70,6 +70,82 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13397,
+      "person_id": 3685,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Henrietta Durham",
+      "citations": [
+        {
+          "citation_id": 12199,
+          "fact_id": 13397,
+          "source_id": 51,
+          "evidence_text": "...(last name unknown) Elizabeth Morgan ( 1890 - 1949 ) married William Christianson Frances Morgan (b. 1893 ) married Alonzo DURHAM on 4 August 1909 Homer A. Morgan ( 1894 - 1978 ) married Emma C. Morris Elsie Morgan (b. Jan 1898 ) married Sam Trent...",
+          "source_title": "Record: durhm-h2.htm",
+          "source_url": "durhm-h2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13988,
+      "person_id": 3685,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Marriage Records",
+      "citations": [
+        {
+          "citation_id": 12790,
+          "fact_id": 13988,
+          "source_id": 78,
+          "evidence_text": "...Jan. 11, 1907 Clara Jackson Wingate Mosley June 4, 1908 Sarah V. Johnson Earl Ridgeway Dec. 8, 1908 Frances Morgan Alonzo Durham Aug. 4, 1909 Orda Durham William H. Davis Sept. 8, 1909 Mamie Becket W. Thomas Durham Nov. 6, 1912 Vivian Viloa Mosley...",
+          "source_title": "Record: marry.htm",
+          "source_url": "marry.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14148,
+      "person_id": 3685,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Napoleon Morgan",
+      "citations": [
+        {
+          "citation_id": 12950,
+          "fact_id": 14148,
+          "source_id": 86,
+          "evidence_text": "...Josie M. ? Mabel Morgan died young Frances Henrietta Morgan (b.January 1893 - d. 1982 in Phila., PA.) She married Alonzo DURHAM, son of John & Ruth Durham, on 4 August 1909 in Kent County, DE children of Frances and Alonzo Durham: Marion Durham...",
+          "source_title": "Record: morgan-n.htm",
+          "source_url": "morgan-n.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15932,
+      "person_id": 3685,
+      "fact_type": "Racial Classification",
+      "date_string": "1840",
+      "place_string": "Kenton Hd.",
+      "value_string": "Enumerated as 'M' (Mulatto), age 34",
+      "citations": [
+        {
+          "citation_id": 14734,
+          "fact_id": 15932,
+          "source_id": 686,
+          "evidence_text": "1840 Census: Durham, Alonzo \u2014 DE | Alonzo | s | M | Jan | 1889",
+          "source_title": "Preserved Document: Census-1840 Sussex County",
+          "source_url": "census17.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +161,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Alonzo_And_Frances_Morgan.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganNapoleonBonaparte.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3685,
@@ -98,7 +179,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Alonzo.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganNapoleonBonaparte.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

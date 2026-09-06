@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "11 Aug 1892",
     "death_info": "3 Feb 1965 (aged 72)",
@@ -70,6 +70,44 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 13639,
+      "person_id": 9463,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Harmony Methodist Church",
+      "citations": [
+        {
+          "citation_id": 12441,
+          "fact_id": 13639,
+          "source_id": 65,
+          "evidence_text": "...stone John M. Harmon 1882 - 1954 John M. Harmon 1882 - 1954 E. Belle Harmon 1883 - 1973 E. Belle Harmon 1883 - 1973 Leon Harmon Sr. 11/28/ 1922 - 7/28/ 1982 Military marker Leon Harmon Sr. 11/28/ 1922 - 7/28/ 1982 Military marker Sarah C. Harmon...",
+          "source_title": "Record: harmony1.htm",
+          "source_url": "harmony1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14384,
+      "person_id": 9463,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits",
+      "citations": [
+        {
+          "citation_id": 13186,
+          "fact_id": 14384,
+          "source_id": 747,
+          "evidence_text": "...afternoon at 1 in Indian Mission Methodist Church near Millsboro with interment in the adjoining cemetary. Mrs. Leon Harmon Feb. 19, 1966 MILLSBORO: Mrs. Helen R. Harmon, 54, died Saturday in Delaware Division in Wilmington after a short...",
+          "source_title": "Preserved Document: Obits",
+          "source_url": "obit-h2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -95,7 +133,26 @@
       "rel_name": "Christina Miller"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 9463,
+      "photo_id": 1427,
+      "category": "people",
+      "title_or_caption": "Johnson_Mable_And_Leon_1.jpg",
+      "subject_names": "Eliza Ann Harmon",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_Mable_And_Leon_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

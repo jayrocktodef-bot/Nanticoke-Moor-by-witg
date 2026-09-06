@@ -6,7 +6,7 @@
     "middle_name": "Burton",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "17 Jul 1904 Indian River Hundred, Sussex, Delaware, USA",
     "death_info": "7 Aug 1974 Lewes, Sussex, Delaware, USA",
@@ -70,6 +70,82 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 12859,
+      "person_id": 10388,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Angie Bell Coker",
+      "citations": [
+        {
+          "citation_id": 11661,
+          "fact_id": 12859,
+          "source_id": 19,
+          "evidence_text": "...1884 and they had the following children: Sadie Mosley ( 1884 - 1908 or 11) Purnell Mosley ( d. 1918 ) married Rebecca Raymond Mosley Mary E. Mosley ( 1910 - 1978 ), married William DRAINE ( 1894 - 1968 ) both are buried at John Wesley Church in...",
+          "source_title": "Record: coker-a5.htm",
+          "source_url": "coker-a5.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14121,
+      "person_id": 10388,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Lillie Mae Morgan Mosley",
+      "citations": [
+        {
+          "citation_id": 12923,
+          "fact_id": 14121,
+          "source_id": 731,
+          "evidence_text": "...married Presley DURHAM Thelma Mosley Marie Mosley Frazier Mosley Roland Mosley, married Marie SAMMONS Thomas Mosley Raymond Mosley Wilbur and Lillie Mae had the following children : Edna Mosley , married Charles Edward Marriott Jeanette Mosley,...",
+          "source_title": "Preserved Document: Lillie Mae Morgan Mosley",
+          "source_url": "morgan-l.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14217,
+      "person_id": 10388,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: James K. Morgan",
+      "citations": [
+        {
+          "citation_id": 13019,
+          "fact_id": 14217,
+          "source_id": 87,
+          "evidence_text": "...children Dolores Marriott Araminta Marriott Frazier Mosley Jeanette Mosely married Harold Marriott Marie Mosley Raymond Mosley Roland Mosley ( 1912 - 1994 ) married Marie Sammons Thelma Mosley Thomas Mosley married Leticia Hughes Mildred Mosley...",
+          "source_title": "Record: morganj4.htm",
+          "source_url": "morganj4.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14416,
+      "person_id": 10388,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits",
+      "citations": [
+        {
+          "citation_id": 13218,
+          "fact_id": 14416,
+          "source_id": 749,
+          "evidence_text": "...Artesia, Calif; three sisters, Mrs. Nora Carter, Mrs. Ella Burton and Mrs. Myrtle Davis, all of Millsboro; a brother, Raymond Mosley of Millsboro; five grandchildren and nine great-grandchildren. Services will be tomorrow night at 8 at the James...",
+          "source_title": "Preserved Document: Obits",
+          "source_url": "obit-j2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -93,7 +169,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Phyllis_Sharon_And_Raymond_Hunter.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyBenjaminCFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 10388,
@@ -106,7 +187,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Raymond.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyRaymond.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

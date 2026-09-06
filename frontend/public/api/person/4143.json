@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "CokerMaryAnnDean.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "13 February, 1933",
     "notes": "Ingested from CokerMaryAnnDean.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,6 +41,25 @@
       "place_string": null,
       "value_string": "died on 13 February, 1933",
       "citations": []
+    },
+    {
+      "fact_id": 15610,
+      "person_id": 4143,
+      "fact_type": "Racial Classification",
+      "date_string": "1850",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'M' (Mulatto), age 5",
+      "citations": [
+        {
+          "citation_id": 14412,
+          "fact_id": 15610,
+          "source_id": 15,
+          "evidence_text": "1850 Census: Coker, Mary \u2014 Mary | 5 | F | M | DE | Moses",
+          "source_title": "Record: census18.htm",
+          "source_url": "census18.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +75,12 @@
       "local_image_path": "assets/archive_media/people/Coker_Mary_Ann_Dean.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DeanRobert&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4143,
@@ -69,7 +93,12 @@
       "local_image_path": "assets/archive_media/people/Coker_Mary_Elizabeth_Durham.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerJamesH&MaryEDurham.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4143,
@@ -82,7 +111,12 @@
       "local_image_path": "assets/archive_media/people/Coker_Mary_Ann_Dean_4.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerMaryAnnDean.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

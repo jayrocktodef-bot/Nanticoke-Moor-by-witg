@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "Sep 1898 Delaware",
     "death_info": "Jun 1976 Philadelphia, Philadelphia, Pennsylvania, USA",
@@ -79,10 +79,65 @@
       "place_string": null,
       "value_string": "married Cassius MOSLEY on 23 September, 1900",
       "citations": []
+    },
+    {
+      "fact_id": 13545,
+      "person_id": 9497,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Fork Branch",
+      "citations": [
+        {
+          "citation_id": 12347,
+          "fact_id": 13545,
+          "source_id": 58,
+          "evidence_text": "...Mosley 1902 - 1949 these 4 listed on 1 side of the marker Carrie Mosley 1907 - (no date) Enoch Mosley 1867 - 1940 Mary Mosley 1876 - 1951 Felechia Mosley 1905 - 1973 these 4 on other side of the marker Lottie Mosley 1893 - 1972 Quentellan...",
+          "source_title": "Record: fbranch.htm",
+          "source_url": "fbranch.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 9497,
+      "photo_id": 2066,
+      "category": "people",
+      "title_or_caption": "Reed_Mary_Emosley_2.jpg",
+      "subject_names": "Mosley",
+      "married_surname": "Reed",
+      "approximate_year": "1921",
+      "local_image_path": "assets/archive_media/people/Reed_Mary_Emosley_2.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9497,
+      "photo_id": 3260,
+      "category": "people",
+      "title_or_caption": "Mary_Elva_Morgan_Mosley.jpg",
+      "subject_names": "Mary Elva Morgan Mosley",
+      "married_surname": "Mary",
+      "approximate_year": null,
+      "local_image_path": "assets/archive_media/people/Mary_Elva_Morgan_Mosley.jpg",
+      "source_url": null,
+      "dataset_source": "images",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 9497,
       "photo_id": 1758,
@@ -94,7 +149,30 @@
       "local_image_path": "assets/archive_media/people/Mosley_Mary_Annie_And_Rheba.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeoE&MosleyRheba.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9497,
+      "photo_id": 2147,
+      "category": "people",
+      "title_or_caption": "Ridgeway_Mary_Eliz_Mosley.jpg",
+      "subject_names": "Mosley",
+      "married_surname": "Ridgeway",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Ridgeway_Mary_Eliz_Mosley.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayMaryElizMosley.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 9497,
@@ -107,7 +185,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Mabel_Felix_Mary.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 9497,
@@ -120,7 +203,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Mary_E_And_Tommy_Reed.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 9497,
@@ -133,7 +221,30 @@
       "local_image_path": "assets/archive_media/people/Reed_Mosley_Mary_3.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9497,
+      "photo_id": 2064,
+      "category": "people",
+      "title_or_caption": "Reed_Mary_And_Thomas_Older.jpg",
+      "subject_names": "Mosley",
+      "married_surname": "Reed",
+      "approximate_year": "1921",
+      "local_image_path": "assets/archive_media/people/Reed_Mary_And_Thomas_Older.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 9497,
@@ -146,7 +257,12 @@
       "local_image_path": "assets/archive_media/people/Reed_Wthomas_And_Mary_Mosley.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 9497,
@@ -159,7 +275,12 @@
       "local_image_path": "assets/archive_media/people/Reed_Mary_Mosley_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

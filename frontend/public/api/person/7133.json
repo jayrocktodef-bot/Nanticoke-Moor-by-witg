@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "SammonsCharles.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "8 November, 1914",
     "notes": "Ingested from SammonsCharles.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,10 +41,48 @@
       "place_string": null,
       "value_string": "died on 8 November, 1914",
       "citations": []
+    },
+    {
+      "fact_id": 14317,
+      "person_id": 7133,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mary E. Munce.",
+      "citations": [
+        {
+          "citation_id": 13119,
+          "fact_id": 14317,
+          "source_id": 648,
+          "evidence_text": "...1861 she married Nehemiah Morris Sammons and they had, at least, the following children: Amanda Sammons ( 1864 - ) Esther Sammons ( 1865 - ) Mary Elizabeth Sammons ( 1866 - ) Isaac Sammons (Oct. 1867 - ) married Rebecca A. James Sammons ( 1873 - )...",
+          "source_title": "Record: munce-m4.htm",
+          "source_url": "munce-m4.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 7133,
+      "photo_id": 2194,
+      "category": "people",
+      "title_or_caption": "Sammons_Charles.jpg",
+      "subject_names": "Esther Glendora Hughes",
+      "married_surname": "Sammons",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Sammons_Charles.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsCharles.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [
     {

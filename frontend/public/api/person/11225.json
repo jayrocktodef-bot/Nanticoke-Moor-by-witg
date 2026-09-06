@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Obituary Archive",
     "birth_info": "21 Jun 1915",
     "death_info": "16 Sep 2002 (aged 87)",
@@ -70,6 +70,44 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 13945,
+      "person_id": 11225,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12747,
+          "fact_id": 13945,
+          "source_id": 77,
+          "evidence_text": "...1888 - 1973 Jeanetta Ridgeway - 1933 - 1934 Leroy Ridgway, Sr.- 8/22/ 1910 -12/14/ 1965 Raymond Ridgeway- 1905 - 1968 Georgianna Ridgeway- 1906 - 1968 Robin D. Ridgeway- 1959 - 1966 Viola Ridgway- 3/2/ 1914 -1/26/ 1985 Sammons Amanda D. - wife of James O....",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14451,
+      "person_id": 11225,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits- Ridgeway",
+      "citations": [
+        {
+          "citation_id": 13253,
+          "fact_id": 14451,
+          "source_id": 754,
+          "evidence_text": "...9 o'clock. Arrangements by the Stevenson Funeral Home, Dover, Del. Ms. Raymond Ridgeway (no date listed) DOVER: Mrs. Georgianna Ridgeway, 62, wife of Raymond Ridgeway of Dover died at Kent General Hospital after a brief illness. She was a member of the...",
+          "source_title": "Preserved Document: Obits- Ridgeway",
+          "source_url": "obit-r2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +123,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Raymond_And_Georgianna.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayRaymond&Georgianna.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

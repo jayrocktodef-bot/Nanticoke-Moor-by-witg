@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "JacksonBlaine&Gladys.htm",
     "birth_info": "29 May 1907",
     "death_info": "17 Jun 1991 (aged 84)",
@@ -70,6 +70,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 14051,
+      "person_id": 6129,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Indian Mission Church",
+      "citations": [
+        {
+          "citation_id": 12853,
+          "fact_id": 14051,
+          "source_id": 80,
+          "evidence_text": "...stone \"Mom-Mom Gladys\" Gladys M. Jackson 9/15/ 1909 - 1/4/2000 \"Married 4/14/ 1928 \" - foot stone \"Mom-Mom Gladys\" Blaine Jackson 5/29/ 1907 - 6/17/ 1991 foot stone \"Pop-Pop Blaine\" - same stone as Gladys M. Blaine Jackson 5/29/ 1907 - 6/17/ 1991...",
+          "source_title": "Record: mission2.htm",
+          "source_url": "mission2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -100,7 +119,12 @@
       "local_image_path": "assets/archive_media/people/Jackson_Blaine_And_Geri.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonBlaine&Gladys.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -38,19 +38,6 @@
   "photos": [
     {
       "person_id": 3546,
-      "photo_id": 2511,
-      "category": "people",
-      "title_or_caption": "Wimmer_Christian_Wilfred.jpg",
-      "subject_names": "Wimmer Christian Wilfred",
-      "married_surname": "Wimmer",
-      "approximate_year": "1973",
-      "local_image_path": "assets/archive_media/people/Wimmer_Christian_Wilfred.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WimmerChris&Paula.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 3546,
       "photo_id": 2509,
       "category": "people",
       "title_or_caption": "Wimmer_Chris_And_Paula_Johnson.jpg",
@@ -60,7 +47,12 @@
       "local_image_path": "assets/archive_media/people/Wimmer_Chris_And_Paula_Johnson.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WimmerChris&Paula.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

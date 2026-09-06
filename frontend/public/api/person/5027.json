@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "DurhamLeshiaKelly.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "8 Nov. 1924",
     "notes": "Ingested from DurhamLeshiaKelly.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,6 +41,44 @@
       "place_string": null,
       "value_string": "d. 8 Nov. 1924",
       "citations": []
+    },
+    {
+      "fact_id": 13995,
+      "person_id": 5027,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Marriage Records",
+      "citations": [
+        {
+          "citation_id": 12797,
+          "fact_id": 13995,
+          "source_id": 78,
+          "evidence_text": "...Morgan August 20, 1879 Mary Durham Sam Loatman Mar. 2, 1882 Sallie Sammons John Carney Oct. 21, 1882 Eliza Sammons Robert Durham Jan. 4, 1883 Lizzie Muncy Robert B. Sammons April 28, 1883 Emma F. Johnson James Durham Dec. 15, 1884 Harriett Durham...",
+          "source_title": "Record: marry.htm",
+          "source_url": "marry.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15933,
+      "person_id": 5027,
+      "fact_type": "Racial Classification",
+      "date_string": "1840",
+      "place_string": "Kent",
+      "value_string": "Enumerated as 'W' (White)",
+      "citations": [
+        {
+          "citation_id": 14735,
+          "fact_id": 15933,
+          "source_id": 686,
+          "evidence_text": "1840 Census: Durham, Robert \u2014 Duck Creek Hd. | DURHAM | Robert | W | M | Jan-05",
+          "source_title": "Preserved Document: Census-1840 Sussex County",
+          "source_url": "census17.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,20 +94,48 @@
       "local_image_path": "assets/archive_media/people/Durham_Robert_John.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamRobertJohn.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 5027,
-      "photo_id": 906,
-      "category": "family_trees",
-      "title_or_caption": "Durham_Robert_Elisha_Ancestry.jpg",
-      "subject_names": "Lishia Kelly Durham",
-      "married_surname": "Durham",
-      "approximate_year": "1904",
-      "local_image_path": "assets/archive_media/family_trees/Durham_Robert_Elisha_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamLeshiaKelly.htm",
+      "photo_id": 1050,
+      "category": "people",
+      "title_or_caption": "Greenage_Evelyn_Durham.jpg",
+      "subject_names": "Robert John Durham 1",
+      "married_surname": "Greenage",
+      "approximate_year": "1908",
+      "local_image_path": "assets/archive_media/people/Greenage_Evelyn_Durham.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamRobertJohn.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 5027,
+      "photo_id": 1075,
+      "category": "people",
+      "title_or_caption": "Gross_Bob_And_Lottie_And_Zed_Durham.jpg",
+      "subject_names": "Gertrude Ridgway Durham",
+      "married_surname": "Gross",
+      "approximate_year": "1940",
+      "local_image_path": "assets/archive_media/people/Gross_Bob_And_Lottie_And_Zed_Durham.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamIsaiahZed.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 5027,
@@ -82,7 +148,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Robert_Elisha_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamLeshiaKelly.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],
@@ -96,6 +167,16 @@
       "description": "[XPAGE:carty-e2.htm] Death: date='8 Nov. 1924'",
       "evidence": "verbatim: d. 8 Nov. 1924",
       "created_at": "2026-09-03T12:55:11.911491"
+    },
+    {
+      "id": 7508,
+      "category": "RACIAL_RECLASSIFICATION",
+      "severity": "info",
+      "person_id": 5027,
+      "person_id_secondary": null,
+      "description": "Historical Racial Reclassification: Recorded under multiple distinct racial categories across federal records (1840: White \u2794 1840: Mulatto). Exemplifies the tripartite legal classification pressures and racial boundary fluidity characteristic of Delmarva Afro-Indigenous families.",
+      "evidence": "Sources: census17.htm | Chronology: 1840: White \u2794 1840: Mulatto",
+      "created_at": "2026-09-06T19:06:30.061501"
     }
   ],
   "ancestry": {

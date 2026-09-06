@@ -70,6 +70,44 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 15814,
+      "person_id": 4047,
+      "fact_type": "Racial Classification",
+      "date_string": "1860",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 5",
+      "citations": [
+        {
+          "citation_id": 14616,
+          "fact_id": 15814,
+          "source_id": 687,
+          "evidence_text": "1860 Census: Wright, Nancy \u2014 Nancy | 5 | F | M | Elizabeth | 2",
+          "source_title": "Preserved Document: Census-1860",
+          "source_url": "census19.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15901,
+      "person_id": 4047,
+      "fact_type": "Racial Classification",
+      "date_string": "1870",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 15",
+      "citations": [
+        {
+          "citation_id": 14703,
+          "fact_id": 15901,
+          "source_id": 688,
+          "evidence_text": "1870 Census: Wright, Nancy \u2014 Nancy | 15 | F | M | at home | Elizabeth",
+          "source_title": "Preserved Document: Census-1870",
+          "source_url": "census20.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +123,12 @@
       "local_image_path": "assets/archive_media/people/Wright_Vera_And_Nancy_On_Left_Ada_Lowerrt_Allsisters_1.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/VanceRonaldJrFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4047,
@@ -98,7 +141,12 @@
       "local_image_path": "assets/archive_media/people/Wright_Vera_And_Nancy_On_Left_Ada_Lowerrt_Allsisters_2.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/VanceRonaldJrFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4047,
@@ -111,7 +159,12 @@
       "local_image_path": "assets/archive_media/people/Wright_Jennie_And_Ada_And_Nancy_Daus_Cornelious_Wright_And_Catherine_Seever.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/VanceRonaldJrFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

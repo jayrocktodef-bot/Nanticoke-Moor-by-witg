@@ -8,7 +8,7 @@
     "married_last_name": "Durham",
     "evidence_level": 3,
     "source_page": "DurhamMarvel&Rhoda.htm",
-    "birth_info": null,
+    "birth_info": "1922 (Fairton, NJ in 1922)",
     "death_info": null,
     "notes": "Ingested from DurhamMarvel&Rhoda.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
@@ -41,6 +41,44 @@
       "place_string": "Fairton, NJ in 1922",
       "value_string": "was born in Fairton, NJ in 1922 .",
       "citations": []
+    },
+    {
+      "fact_id": 13477,
+      "person_id": 5537,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mamie  Durham",
+      "citations": [
+        {
+          "citation_id": 12279,
+          "fact_id": 13477,
+          "source_id": 55,
+          "evidence_text": "...December, 1897 . She was the daughter of Enoch Durham and Margaret Munce. In 1918 , Mamie gave birth to a son: Norris Edward Durham ( 1918 - 1998 ). He was raised by Mamie's brother, Wilson Durham. Mamie later married Edward Morgan and moved to...",
+          "source_title": "Record: durhm-m2.htm",
+          "source_url": "durhm-m2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13481,
+      "person_id": 5537,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Norris Durham",
+      "citations": [
+        {
+          "citation_id": 12283,
+          "fact_id": 13481,
+          "source_id": 711,
+          "evidence_text": "...in 1979 . He and his wife, Dorothy, had the following children: Janet Christine Durham (died before 1998 ) Norris Edward Durham Jr. Norris died on Saturday, 3 January, 1998 of renal failure. He was buried in Sharon Hill Memorial Park in Dover,...",
+          "source_title": "Preserved Document: Norris Durham",
+          "source_url": "durhm-n1.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +94,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Edward_Enoch_1940_S.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMarvel&Rhoda.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

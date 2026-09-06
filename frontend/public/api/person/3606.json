@@ -8,7 +8,7 @@
     "married_last_name": "Carney",
     "evidence_level": 3,
     "source_page": "CarneyMargaretA.htm",
-    "birth_info": "unknown",
+    "birth_info": "14 Jan. 1881",
     "death_info": "23 Jan 1879",
     "notes": "Ingested from CarneyMargaretA.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/46744482/margaret-carney",
     "dataset_source": "mitsawokett_delaware"
@@ -79,10 +79,66 @@
       "place_string": null,
       "value_string": "born 14 Jan. 1881",
       "citations": []
+    },
+    {
+      "fact_id": 12851,
+      "person_id": 3606,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Angie Bell Coker",
+      "citations": [
+        {
+          "citation_id": 11653,
+          "fact_id": 12851,
+          "source_id": 19,
+          "evidence_text": "...Dean . She was born in Kent Co., DE on 29 September, 1882 . She married Andrew MOSLEY , the son of Joseph Mosley and Margaret Carney, sometime before 1884 and they had the following children: Sadie Mosley ( 1884 - 1908 or 11) Purnell Mosley ( d. 1918...",
+          "source_title": "Record: coker-a5.htm",
+          "source_url": "coker-a5.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 12872,
+      "person_id": 3606,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Alonzo Coker",
+      "citations": [
+        {
+          "citation_id": 11674,
+          "fact_id": 12872,
+          "source_id": 690,
+          "evidence_text": "...daughter of Harry Morgan and Frances Durham Carlton Coker , married Anna Loatman, daughter of Samuel Loatman and Margaret Carney Vicktorine Coker, married Jeremiah Durham, son of Presley Durham and Mildred Mosley Mac Donald Coker ( 1934 - 1998 )...",
+          "source_title": "Preserved Document: Alonzo Coker",
+          "source_url": "coker-a7.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 3606,
+      "photo_id": 1042,
+      "category": "people",
+      "title_or_caption": "Green_Margaret_Annie_Durham.jpg",
+      "subject_names": "Carney",
+      "married_surname": "Green",
+      "approximate_year": "1885",
+      "local_image_path": "assets/archive_media/people/Green_Margaret_Annie_Durham.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/GreenMargaretADurham.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 3606,
       "photo_id": 262,
@@ -94,7 +150,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Margaret_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyMargaretA.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3606,
@@ -107,7 +168,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Margaret_Carney_1.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyMargaretACarney.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

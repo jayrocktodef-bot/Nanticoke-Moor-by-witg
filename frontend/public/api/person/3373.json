@@ -8,8 +8,8 @@
     "married_last_name": "Reed",
     "evidence_level": 3,
     "source_page": "ReedAllenDescendants.htm",
-    "birth_info": null,
-    "death_info": null,
+    "birth_info": "1926",
+    "death_info": "Aug. 10, 1995",
     "notes": "Ingested from ReedAllenDescendants.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,6 +41,63 @@
       "place_string": null,
       "value_string": "d. Aug. 10, 1995",
       "citations": []
+    },
+    {
+      "fact_id": 13531,
+      "person_id": 3373,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Fork Branch",
+      "citations": [
+        {
+          "citation_id": 12333,
+          "fact_id": 13531,
+          "source_id": 58,
+          "evidence_text": "...Pritchett 1950 - 1968 Gregory B. Pritchett 1955 - 1958 \"Our Darling\" Margaret Pritchett 4/17/ 1906 - 8/5/ 1971 Coprl Allen Reed (no dates) \"Co F-19 USC INF\" Brady W. Ridgeway 1881 - 1960 Clara Ridgeway died 4/26/ 1975 \"Mother\" Clemy R. Ridgway...",
+          "source_title": "Record: fbranch.htm",
+          "source_url": "fbranch.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14143,
+      "person_id": 3373,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Napoleon Morgan",
+      "citations": [
+        {
+          "citation_id": 12945,
+          "fact_id": 14143,
+          "source_id": 86,
+          "evidence_text": "...1943 ) Donald Winston Reed ( 1927 - 1979 ) Floyd Jerome Reed ( 1928 - 1985 ) Thelma Marie Reed ( 1930 - 1994 ) Walter Allen Reed ( 1931 - 1980 ) Elizabeth Ann Reed ( 1932 - 1993 ) Glady's Reed (b. Oct. 1, 1906 in Dover, DE - d. Aug. 10, 1995 )...",
+          "source_title": "Record: morgan-n.htm",
+          "source_url": "morgan-n.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15557,
+      "person_id": 3373,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: EFFILINDA REED CARNEY BIBLE",
+      "citations": [
+        {
+          "citation_id": 14359,
+          "fact_id": 15557,
+          "source_id": 663,
+          "evidence_text": "...Carney Wheatley, Dover, Del.\u00a0 Bible copyrighted 1890 \u00a0 Ancestry of the children of Effie & James Carney Note -- Allen Reed's wife's surname spelling variations: Dorothy Rebecca Gimson-Jemson-Jenson-Jameson-Simpson \u00a0 \u00a0 Marriages: \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0...",
+          "source_title": "Record: Reed_Effie_Bible.htm",
+          "source_url": "Reed_Effie_Bible.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +113,12 @@
       "local_image_path": "assets/archive_media/people/Reed_Tommy_And_Allen.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3373,
@@ -69,72 +131,12 @@
       "local_image_path": "assets/archive_media/people/Reed_Allen_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedAllen&MaryVirginia.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 3373,
-      "photo_id": 3093,
-      "category": "documents",
-      "title_or_caption": "Reed_Allen_And_Mamie_Morgan.jpg",
-      "subject_names": "Reed",
-      "married_surname": "",
-      "approximate_year": "1878",
-      "local_image_path": "assets/archive_media/documents/Reed_Allen_And_Mamie_Morgan.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/ReedAllenDescendants.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
-    },
-    {
-      "person_id": 3373,
-      "photo_id": 3092,
-      "category": "documents",
-      "title_or_caption": "Reed_Allen_DC_4_DeathCertificate_1929.jpg",
-      "subject_names": "Reed Allen DC 1929",
-      "married_surname": "",
-      "approximate_year": "1929",
-      "local_image_path": "assets/archive_media/documents/Reed_Allen_DC_4_DeathCertificate_1929.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/ReedAllenPhoto&DC.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "vital_certificate"
-    },
-    {
-      "person_id": 3373,
-      "photo_id": 2045,
-      "category": "family_trees",
-      "title_or_caption": "Reed_Allen_Ancestry.jpg",
-      "subject_names": "Mosley",
-      "married_surname": "Reed",
-      "approximate_year": "1921",
-      "local_image_path": "assets/archive_media/family_trees/Reed_Allen_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 3373,
-      "photo_id": 2082,
-      "category": "family_trees",
-      "title_or_caption": "Reed_Walter_Allen_Jr_Ancestry.jpg",
-      "subject_names": "Reed",
-      "married_surname": "Reed",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Reed_Walter_Allen_Jr_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedWalterAIII&JustineLamont-Hill.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 3373,
-      "photo_id": 3096,
-      "category": "tombstones",
-      "title_or_caption": "Reed_Allen_Tombstone.jpg",
-      "subject_names": "Reed Allen Tombstone",
-      "married_surname": "",
-      "approximate_year": "1997",
-      "local_image_path": "assets/archive_media/tombstones/Reed_Allen_Tombstone.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/ReedAllenPhoto&DC.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "tombstone"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3373,
@@ -147,7 +149,12 @@
       "local_image_path": "assets/archive_media/people/Reed_Walter_Allen_Jr.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedDorcasARidgeway.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3373,
@@ -160,7 +167,12 @@
       "local_image_path": "assets/archive_media/people/Reed_John_Allen.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3373,
@@ -173,7 +185,12 @@
       "local_image_path": "assets/archive_media/people/Reed_Allen_And_Daughter.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedAllen&MaryVirginia.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [

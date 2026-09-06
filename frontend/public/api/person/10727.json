@@ -79,6 +79,63 @@
       "place_string": null,
       "value_string": "married Cassius MOSLEY on 23 September, 1900",
       "citations": []
+    },
+    {
+      "fact_id": 15666,
+      "person_id": 10727,
+      "fact_type": "Racial Classification",
+      "date_string": "1850",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 7",
+      "citations": [
+        {
+          "citation_id": 14468,
+          "fact_id": 15666,
+          "source_id": 15,
+          "evidence_text": "1850 Census: Jackson, Robert \u2014 F | Robert | 7 | M | James M. | 4",
+          "source_title": "Record: census18.htm",
+          "source_url": "census18.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15766,
+      "person_id": 10727,
+      "fact_type": "Racial Classification",
+      "date_string": "1860",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 17",
+      "citations": [
+        {
+          "citation_id": 14568,
+          "fact_id": 15766,
+          "source_id": 687,
+          "evidence_text": "1860 Census: Jackson, Robert \u2014 M | Robert | 17 | M | M | James",
+          "source_title": "Preserved Document: Census-1860",
+          "source_url": "census19.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 15874,
+      "person_id": 10727,
+      "fact_type": "Racial Classification",
+      "date_string": "1870",
+      "place_string": "Sussex",
+      "value_string": "Enumerated as 'M' (Mulatto), age 27",
+      "citations": [
+        {
+          "citation_id": 14676,
+          "fact_id": 15874,
+          "source_id": 688,
+          "evidence_text": "1870 Census: Jackson, Robert \u2014 JACKSON | Robert | 27 | M | M | seaman",
+          "source_title": "Preserved Document: Census-1870",
+          "source_url": "census20.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -100,19 +157,6 @@
   "photos": [
     {
       "person_id": 10727,
-      "photo_id": 1367,
-      "category": "people",
-      "title_or_caption": "Jackson_Rob.jpg",
-      "subject_names": "Morris",
-      "married_surname": "Jackson",
-      "approximate_year": "1867",
-      "local_image_path": "assets/archive_media/people/Jackson_Rob.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisCharles&Isabelle.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
-    },
-    {
-      "person_id": 10727,
       "photo_id": 3248,
       "category": "people",
       "title_or_caption": "Robert_B_Jackson.jpg",
@@ -122,7 +166,12 @@
       "local_image_path": "assets/archive_media/people/Robert_B_Jackson.jpg",
       "source_url": null,
       "dataset_source": "images",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

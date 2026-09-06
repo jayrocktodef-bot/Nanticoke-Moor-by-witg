@@ -6,7 +6,7 @@
     "middle_name": "Anne",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "3 Oct 1878 Millsboro, Indian, River, Hundred, Sussex County, Delaware, USA",
     "death_info": "21 Jan 1929 Georgetown, Sussex County, Delaware, USA",
@@ -70,6 +70,63 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 13766,
+      "person_id": 9270,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Robert B Jackson",
+      "citations": [
+        {
+          "citation_id": 12568,
+          "fact_id": 13766,
+          "source_id": 69,
+          "evidence_text": "...were: Mary Ellen Norwood (c. 1910 - 1998 ) married Ernest Wallace Daniel P. Jackson (Feb. 1886 - ??) who married Elizabeth Harmon There known children were: Mary Jackson, married Doug Ward children: Connie Ward Holly ward Paula Ward Fred Jackson...",
+          "source_title": "Record: jacksnr2.htm",
+          "source_url": "jacksnr2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13938,
+      "person_id": 9270,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12740,
+          "fact_id": 13938,
+          "source_id": 77,
+          "evidence_text": "...- \"son of Bowen & Elizabeth\" Mattie Rae Harman - 1891 - 1961 Harmon Bowen Harmon - died July 6, 1911 - aged 79 years Elizabeth Harmon - died July 21, 1914 - aged 74 years William L. Harmon - son of Bowen & Elizabeth Harmon- Aug. 10, 1863 - Dec. 11,...",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15304,
+      "person_id": 9270,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Lydia Wright",
+      "citations": [
+        {
+          "citation_id": 14106,
+          "fact_id": 15304,
+          "source_id": 839,
+          "evidence_text": "...were: Mary Ellen Norwood (c. 1910 - 1998 ) married Ernest Wallace Daniel P. Jackson (Feb. 1886 - ??) who married Elizabeth Harmon There known children were: Mary Jackson, married Doug Ward children: Connie Ward Holly ward Paula Ward Fred Jackson...",
+          "source_title": "Preserved Document: Lydia Wright",
+          "source_url": "wright-l.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -95,7 +152,62 @@
       "rel_name": "William Howard Johnson"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 9270,
+      "photo_id": 1134,
+      "category": "people",
+      "title_or_caption": "Harman_Elincoln_And_Eliz.jpg",
+      "subject_names": "Elizabeth P. Wright Harmon",
+      "married_surname": "Harman",
+      "approximate_year": "1962",
+      "local_image_path": "assets/archive_media/people/Harman_Elincoln_And_Eliz.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanELincoln&Eliz.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9270,
+      "photo_id": 1136,
+      "category": "people",
+      "title_or_caption": "Harman_Elincoln_Tent.jpg",
+      "subject_names": "Elizabeth P. Wright Harmon",
+      "married_surname": "Harman",
+      "approximate_year": "1962",
+      "local_image_path": "assets/archive_media/people/Harman_Elincoln_Tent.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanELincoln&Eliz.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9270,
+      "photo_id": 1163,
+      "category": "people",
+      "title_or_caption": "Harmon_Elincoln.jpg",
+      "subject_names": "Elizabeth P. Wright Harmon",
+      "married_surname": "Harmon",
+      "approximate_year": "1962",
+      "local_image_path": "assets/archive_media/people/Harmon_Elincoln.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanELincoln&Eliz.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

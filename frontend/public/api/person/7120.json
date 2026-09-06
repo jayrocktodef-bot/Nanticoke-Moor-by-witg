@@ -79,6 +79,25 @@
       "place_string": "Gratiot Co",
       "value_string": "were married Oct. 4, 1928 in Gratiot Co",
       "citations": []
+    },
+    {
+      "fact_id": 14546,
+      "person_id": 7120,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Main Page",
+      "citations": [
+        {
+          "citation_id": 13348,
+          "fact_id": 14546,
+          "source_id": 569,
+          "evidence_text": "...) James H. Munce/Muncey : (8/27/ 1837 - 3/29/ 1919 ) Mary Elizabeth \"Lizzie\" Munce : (9/8/ 1841 - 11/8/ 1914 ) Rebecca Cott Ridgeway ( 1843 - 1913 ) Araminta Sisco (11/ 1814 - 10/1/ 1902 ) Levin Sockum & Eunice Ridgeway : Frederick Seeney & Hester...",
+          "source_title": "Record: photo.htm",
+          "source_url": "photo.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -94,7 +113,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Rebecca_Cott_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayRebeccaCott.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 7120,
@@ -107,7 +131,12 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Rebecca_Cott.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayRebeccaCott.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -41,6 +41,120 @@
       "place_string": null,
       "value_string": "married Clem Carney on 10 April, 1913",
       "citations": []
+    },
+    {
+      "fact_id": 12892,
+      "person_id": 4145,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: James Coker",
+      "citations": [
+        {
+          "citation_id": 11694,
+          "fact_id": 12892,
+          "source_id": 23,
+          "evidence_text": "...JACKSON family) sometime before 1840 . James and Eliza had the following children : Daniel Coker ( 1840 - 1898 ) Mary Ann Coker ( 1844 - 1923 ) Moses Coker ( 1849 - 1898 ) James' occupation was listed as \"farmer\". He last appears in the 1870...",
+          "source_title": "Record: coker-j1.htm",
+          "source_url": "coker-j1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 12930,
+      "person_id": 4145,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mary Ann Coker",
+      "citations": [
+        {
+          "citation_id": 11732,
+          "fact_id": 12930,
+          "source_id": 26,
+          "evidence_text": "Mary Ann Coker Preserved Primary Document \u2022 coker-m3.htm Mary Ann Coker was the daughter of James Coker and Eliza JACKSON. She was...",
+          "source_title": "Record: coker-m3.htm",
+          "source_url": "coker-m3.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13216,
+      "person_id": 4145,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Robert Dean",
+      "citations": [
+        {
+          "citation_id": 12018,
+          "fact_id": 13216,
+          "source_id": 43,
+          "evidence_text": "...the sale of the Robert's lands. Portions were sold to John H. Morgan , married to Moses Coker's sister, Mary Ann Coker, and to John's father, William H. Morgan. Robert and Catherine had the following children: Mary Ann Dean ( 1852 - 1923...",
+          "source_title": "Record: dean-r.htm",
+          "source_url": "dean-r.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14166,
+      "person_id": 4145,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: William H Morgan",
+      "citations": [
+        {
+          "citation_id": 12968,
+          "fact_id": 14166,
+          "source_id": 645,
+          "evidence_text": "...{Mary?} Annie Saunders (b.c. 1819 ) and they had, at least, 6 children: John H. Morgan ( 1840 - 1925 ) married Mary Ann Coker Elizabeth Morgan (b. 1841 ) Sarah Morgan (b. 1843 ) Rebecca Morgan (b. 1845 ) Alsey Morgan (b. 1849 ) James K. Morgan...",
+          "source_title": "Record: morgan-w.htm",
+          "source_url": "morgan-w.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14185,
+      "person_id": 4145,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: John H. Morgan",
+      "citations": [
+        {
+          "citation_id": 12987,
+          "fact_id": 14185,
+          "source_id": 734,
+          "evidence_text": "...1840 according to his death certificate. He was the son of William H. Morgan and Annie Saunders. He married Mary Ann Coker , daughter of James Coker and Eliza Jackson. While living in Kenton Hundred in 1876 , John and his father William H....",
+          "source_title": "Preserved Document: John H. Morgan",
+          "source_url": "morganj3.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14598,
+      "person_id": 4145,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Probate",
+      "citations": [
+        {
+          "citation_id": 13400,
+          "fact_id": 14598,
+          "source_id": 658,
+          "evidence_text": "...A. Carney paid 24.33 for account Samuel Smith paid 5.00 P.L. Barcus paid 10.00 rent Mar 1876 Petition by Moses & Mary Ann Coker to assign dower to Catharine (now the wife of William A. Carney) out of the lands and premises and partition the...",
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +170,12 @@
       "local_image_path": "assets/archive_media/people/Coker_Mary_Ann_Dean.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DeanRobert&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 4145,
@@ -69,7 +188,12 @@
       "local_image_path": "assets/archive_media/people/Coker_Mary_Ann_Dean_4.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerMaryAnnDean.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

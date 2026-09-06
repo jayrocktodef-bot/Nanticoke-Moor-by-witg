@@ -6,7 +6,7 @@
     "middle_name": "White",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "13 October 1813 Sussex County, Delaware, United States of America",
     "death_info": "16 April 1896 Gloucester City, Camden County, New Jersey, USA",
@@ -70,6 +70,44 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 14547,
+      "person_id": 9666,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Main Page",
+      "citations": [
+        {
+          "citation_id": 13349,
+          "fact_id": 14547,
+          "source_id": 569,
+          "evidence_text": "...(9/8/ 1841 - 11/8/ 1914 ) Rebecca Cott Ridgeway ( 1843 - 1913 ) Araminta Sisco (11/ 1814 - 10/1/ 1902 ) Levin Sockum & Eunice Ridgeway : Frederick Seeney & Hester Dean Seeney Sarah Sockum Elwood Wright : married to Caroline Jackson Lydia Ann Wright :...",
+          "source_title": "Record: photo.htm",
+          "source_url": "photo.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 15085,
+      "person_id": 9666,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Sockum",
+      "citations": [
+        {
+          "citation_id": 13887,
+          "fact_id": 15085,
+          "source_id": 111,
+          "evidence_text": "...in Indian River Hundred and William Sockum appears in Broad Creek Hundred. After the trial, Levin Sockum and his wife Eunice RIDGEWAY moved with their family to Gloucester, New Jersey. A lot more work needs to be done on this family. Sarah Sockum...",
+          "source_title": "Record: sockum.htm",
+          "source_url": "sockum.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -100,7 +138,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Carolyn_And_Sammons_Sarah_Eunice_Ridgeway_2000.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsSarahEuniceRidgeway.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "document",
+      "subtype": "ss_application",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

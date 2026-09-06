@@ -6,7 +6,7 @@
     "middle_name": "Harmon",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HarmanIsaacWillie.htm",
     "birth_info": "unknown",
     "death_info": "1899",
@@ -70,6 +70,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 14028,
+      "person_id": 5796,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Indian Mission Church",
+      "citations": [
+        {
+          "citation_id": 12830,
+          "fact_id": 14028,
+          "source_id": 79,
+          "evidence_text": "...(?)- 10/11/ 1908 (?) \"son of Isaac W. & Vina A. Harmon\" Levin T. S. Harmon 6/16/ 1900 - 10/31/ 1900 \" son of Isaac & Vina Harmon\" \"The flower that smiles today tomorrow dies\" J. Wesley Harmon 1881 - 1940 \"Scholar, Educator, Businessman\" John W....",
+          "source_title": "Record: mission1.htm",
+          "source_url": "mission1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -85,7 +104,12 @@
       "local_image_path": "assets/archive_media/people/Harman_Vina_Harmon.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanIsaacWillie.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

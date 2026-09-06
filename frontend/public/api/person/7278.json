@@ -79,10 +79,67 @@
       "place_string": null,
       "value_string": "married Mary Elizabeth Clark on October 28, 1896",
       "citations": []
+    },
+    {
+      "fact_id": 13936,
+      "person_id": 7278,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12738,
+          "fact_id": 13936,
+          "source_id": 77,
+          "evidence_text": "...1925 - 1933 Lydia Sammons - 1833 - 1908 Mary E. Sammons, wife of Nehemiah, Sept. 8, 1841 -Nov. 8, 1914 on same stone: Nehemiah Sammons- died March 11, 1924 - aged 84 years W. G. Sammons - 1882 - 1946 Seeney Anna Elizabeth Seeney - Oct. 4, 1896 -July 21,...",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14326,
+      "person_id": 7278,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Robert Munce Jr.",
+      "citations": [
+        {
+          "citation_id": 13128,
+          "fact_id": 14326,
+          "source_id": 94,
+          "evidence_text": "...Munce (c. 1838 - bef. 1850 ) Margaret Munce (c. 1840 -bef. 1850 ) Mary Elizabeth Munce (8 Sept. 1841 - ) married Nehemiah Sammons Hannah Munce (c. 1843 - ) Angelina Munce ( 1843 - 1917 ) married Enoch Dean Angelica Munce ( 1848 - 1919 ) married...",
+          "source_title": "Record: munce-r2.htm",
+          "source_url": "munce-r2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 7278,
+      "photo_id": 1121,
+      "category": "people",
+      "title_or_caption": "Hansley_Nehemiah.jpg",
+      "subject_names": "Amanda Sammons Hansley",
+      "married_surname": "Hansley",
+      "approximate_year": "1880",
+      "local_image_path": "assets/archive_media/people/Hansley_Nehemiah.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HansleyNehemiah&Amanda.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [
     {

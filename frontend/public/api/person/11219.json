@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Obituary Archive",
     "birth_info": "b. 1960",
     "death_info": "d. 1968",
@@ -79,36 +79,48 @@
       "place_string": null,
       "value_string": "married Mae SAMMONS on 15 November, 1917",
       "citations": []
+    },
+    {
+      "fact_id": 13107,
+      "person_id": 11219,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Annie Dean",
+      "citations": [
+        {
+          "citation_id": 11909,
+          "fact_id": 13107,
+          "source_id": 37,
+          "evidence_text": "...Cheswold, DE who was well known in this area died Thursday at the age of 93 at the home of her daughter-in-law, Mrs. Mae Mosley. Mrs. Mosley was known by her worldwide circle of relatives and friends as \"Aunt Annie\". She is survived by four...",
+          "source_title": "Record: dean-ae.htm",
+          "source_url": "dean-ae.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 14441,
+      "person_id": 11219,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits- Mosley",
+      "citations": [
+        {
+          "citation_id": 13243,
+          "fact_id": 14441,
+          "source_id": 751,
+          "evidence_text": "...N.J. and three brothers, Morris, Frazier and Horace, all of Milford. Mrs. Milton Mosley Feb. 4, 1968 DOVER: Mrs. Mae Mosley, 71, widow of Milton Mosley, a retired Dover farmer, died at her home Monday after suffering a stroke. Survivors...",
+          "source_title": "Preserved Document: Obits- Mosley",
+          "source_url": "obit-m2.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
     }
   ],
   "relationships": [],
   "photos": [
-    {
-      "person_id": 11219,
-      "photo_id": 1697,
-      "category": "family_trees",
-      "title_or_caption": "Mosley_Charles_Milton_And_Mae_Sammons_Ancestry.jpg",
-      "subject_names": "Mosley",
-      "married_surname": "Mosley",
-      "approximate_year": "1861",
-      "local_image_path": "assets/archive_media/family_trees/Mosley_Charles_Milton_And_Mae_Sammons_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesMilton.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
-    {
-      "person_id": 11219,
-      "photo_id": 1664,
-      "category": "family_trees",
-      "title_or_caption": "Mosley_Anna_Mae_Ancestry.jpg",
-      "subject_names": "Mosley",
-      "married_surname": "Mosley",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Mosley_Anna_Mae_Ancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyAuntBabe.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
-    },
     {
       "person_id": 11219,
       "photo_id": 1754,
@@ -120,7 +132,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Mae_Sammons.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesMilton.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 11219,
@@ -133,7 +150,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Milton_And_Mae.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

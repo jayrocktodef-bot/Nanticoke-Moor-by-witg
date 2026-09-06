@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "moors_moors.aspx",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "1978",
     "notes": "Moor/Nanticoke lineage record - Durham cluster | FindAGrave: no match",
     "dataset_source": "moors_delaware"
   },
@@ -41,6 +41,25 @@
       "place_string": "1978",
       "value_string": "died in 1978",
       "citations": []
+    },
+    {
+      "fact_id": 13974,
+      "person_id": 1066,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Marriage Records",
+      "citations": [
+        {
+          "citation_id": 12776,
+          "fact_id": 13974,
+          "source_id": 78,
+          "evidence_text": "...Elisha Durham Feb. 19, 1857 Margaret A. Moore Jeremiah Durham June 11, 1857 Mahala Durham William Morgan 1858 Ann Jack Harry Durham March 15, 1859 Margaret E. Muncy Avery A. Dodd June 6 (or7), 1860 Angelina Munce Enoch Dean July 30, 1863 Caroline...",
+          "source_title": "Record: marry.htm",
+          "source_url": "marry.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +75,12 @@
       "local_image_path": "assets/archive_media/people/Durham_Harry_H_And_Geneva_Cuff_Bride_Book.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DurhamEnochMiller&GenevaCuff.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

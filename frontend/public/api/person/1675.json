@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "SocialSecurityApplications.htm",
     "birth_info": null,
     "death_info": null,
@@ -26,7 +26,7 @@
           "citation_id": 1299,
           "fact_id": 1299,
           "source_id": 147,
-          "evidence_text": null,
+          "evidence_text": "...Thomas Greenage, Thomas Morgan, Hazel Ella Sammons Morgan, Hazel Ella Sammons Morgan, Hazel Ella Sammons Mosley, Garfield Mosley, Garfield Mosley, Garfield Mosley, Wilbert Dean Mosley, Wilbert Dean Mosley, Wilbert Dean Pierce, Alfred Horace...",
           "source_title": "Record: SocialSecurityApplications.htm",
           "source_url": "SocialSecurityApplications.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -41,6 +41,25 @@
       "place_string": "Delaware/Sussex/Kent",
       "value_string": "Applicant: Garfield Mosley, Maiden/Full: Mosley, Garfield",
       "citations": []
+    },
+    {
+      "fact_id": 13524,
+      "person_id": 1675,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Fork Branch",
+      "citations": [
+        {
+          "citation_id": 12326,
+          "fact_id": 13524,
+          "source_id": 58,
+          "evidence_text": "...Rest\" Dorothy L. Mosley 1932 - 1937 could not find marker 6/00 Frankford Mosley 1906 - 1933 Ephraim Mosley no dates Garfield Mosley 1902 - 1971 Harrison Mosley 1/8/ 1902 - 3/ 1971 Joseph H. Mosley 5/15/ 1888 - 3/10/ 1959 sep. stones Alberta Mosley...",
+          "source_title": "Record: fbranch.htm",
+          "source_url": "fbranch.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,20 +75,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Garfield.jpg",
       "source_url": "http://nativeamericansofdelawarestate.com/SocialSecurityApplications.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
-    },
-    {
-      "person_id": 1675,
-      "photo_id": 3339,
-      "category": "documents",
-      "title_or_caption": "Mosley_Garfield_SocialSecurity_Application.jpg",
-      "subject_names": "Mosley Garfield SocialSecurity Application",
-      "married_surname": "",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/documents/Mosley_Garfield_SocialSecurity_Application.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "ss_application"
+      "document_type": "portrait",
+      "asset_type": "document",
+      "subtype": "ss_application",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     },
     {
       "person_id": 1675,
@@ -82,7 +93,12 @@
       "local_image_path": "assets/archive_media/people/Mosley_Garfield_And_Lulu.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyGeoffrey&Lulu.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

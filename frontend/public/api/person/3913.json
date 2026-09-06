@@ -76,16 +76,39 @@
   "photos": [
     {
       "person_id": 3913,
-      "photo_id": 256,
-      "category": "family_trees",
-      "title_or_caption": "Carney_Leroy_And_Millie_Ancestry.jpg",
+      "photo_id": 873,
+      "category": "people",
+      "title_or_caption": "Durham_Millie_And_Charles_Pritchett.jpg",
       "subject_names": "Carney",
-      "married_surname": "Carney",
+      "married_surname": "Durham",
       "approximate_year": "1918",
-      "local_image_path": "assets/archive_media/family_trees/Carney_Leroy_And_Millie_Ancestry.jpg",
+      "local_image_path": "assets/archive_media/people/Durham_Millie_And_Charles_Pritchett.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyLeroy&Millie.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "family_tree"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 3913,
+      "photo_id": 875,
+      "category": "people",
+      "title_or_caption": "Durham_Millie.jpg",
+      "subject_names": "Carney",
+      "married_surname": "Durham",
+      "approximate_year": "1918",
+      "local_image_path": "assets/archive_media/people/Durham_Millie.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyLeroy&Millie.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 3913,
@@ -98,7 +121,12 @@
       "local_image_path": "assets/archive_media/people/Carney_Leroy_And_Millie_Durham.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyRobertJamesSr&Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

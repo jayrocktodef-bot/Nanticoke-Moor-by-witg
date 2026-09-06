@@ -8,7 +8,7 @@
     "married_last_name": "Johnson",
     "evidence_level": 3,
     "source_page": "JohnsonPatienceWright.htm",
-    "birth_info": "unknown",
+    "birth_info": "30 October, 1872",
     "death_info": "7 Apr 1899",
     "notes": "Ingested from JohnsonPatienceWright.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/287771511/patience-johnson",
     "dataset_source": "mitsawokett_delaware"
@@ -79,6 +79,63 @@
       "place_string": null,
       "value_string": "was born on 30 October, 1872 and died",
       "citations": []
+    },
+    {
+      "fact_id": 15320,
+      "person_id": 6270,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Elizabeth Patience Wright",
+      "citations": [
+        {
+          "citation_id": 14122,
+          "fact_id": 15320,
+          "source_id": 114,
+          "evidence_text": "...married Bud Davis Nelson Johnson who married Lottie Wright, daughter of Sarah and William Wright Custis Johnson Annie Patience Johnson Ella Johnson Elizabeth Patience Wright was born in Sussex Co., DE around 1850 . She was the daughter of Warren Wright...",
+          "source_title": "Record: wrightp2.htm",
+          "source_url": "wrightp2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15329,
+      "person_id": 6270,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: E. Patience Wright",
+      "citations": [
+        {
+          "citation_id": 14131,
+          "fact_id": 15329,
+          "source_id": 115,
+          "evidence_text": "...extends six miles eastward between Indian River Bay and Rehoboth Bay. She was the daughter of Warren Wright and Ida Patience Johnson. Her husband was E. Lincoln Harmon. Photos of Patience & E. Lincoln Harmon from Weslager's \"Delaware's Forgotten Folk\"...",
+          "source_title": "Record: wrightp3.htm",
+          "source_url": "wrightp3.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15337,
+      "person_id": 6270,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Warren Wright",
+      "citations": [
+        {
+          "citation_id": 14139,
+          "fact_id": 15337,
+          "source_id": 116,
+          "evidence_text": "...1869 . He died in Millsboro, DE in 1965 . He was the son of David Wright and Emily Johnson. Warren was married to Ida Patience Johnson and/or Bertha Ida Johnson Bertha was born on 30 October, 1872 and died on 1 April, 1950 . Warren had the following...",
+          "source_title": "Record: wrightw.htm",
+          "source_url": "wrightw.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -94,7 +151,12 @@
       "local_image_path": "assets/archive_media/people/Johnson_Patience_Wright_1.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "historical_document"
+      "document_type": "historical_document",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

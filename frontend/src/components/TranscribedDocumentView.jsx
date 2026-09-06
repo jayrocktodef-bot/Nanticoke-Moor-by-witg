@@ -3,14 +3,16 @@ import { createPortal } from 'react-dom';
 import { 
   X, Copy, Check, Printer, Volume2, VolumeX, Search, 
   FileText, ExternalLink, Bookmark, Sliders, Eye, ArrowLeft,
-  FileDown, Download
+  FileDown, Download, BookOpen
 } from 'lucide-react';
 import { jsPDF } from 'jspdf';
+import CitationModal from './CitationModal';
 
 export default function TranscribedDocumentView({ identifier, initialData, onClose }) {
   const [data, setData] = useState(initialData || null);
   const [loading, setLoading] = useState(!initialData);
   const [error, setError] = useState(null);
+  const [isCitationOpen, setIsCitationOpen] = useState(false);
   
   // Reader controls
   const [searchQuery, setSearchQuery] = useState('');
@@ -573,6 +575,16 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
               <span>Export PDF</span>
             </button>
 
+            {/* Academic & Evidence Citation */}
+            <button
+              onClick={() => setIsCitationOpen(true)}
+              className="px-2.5 py-1.5 rounded-lg border border-[#C68B59]/40 bg-[#C68B59]/10 text-[#D4A373] hover:bg-[#C68B59] hover:text-[#0F0E0D] hover:font-bold transition-all flex items-center gap-1.5 text-[11px]"
+              title="Generate academic citations (Evidence Explained, Chicago, BibTeX)"
+            >
+              <BookOpen className="w-3.5 h-3.5" />
+              <span>Cite Document</span>
+            </button>
+
             {/* Print Record */}
             <button
               onClick={handlePrint}
@@ -754,6 +766,14 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
           )}
         </div>
       </div>
+
+      {/* Academic Citation Modal for Document */}
+      <CitationModal
+        isOpen={isCitationOpen}
+        onClose={() => setIsCitationOpen(false)}
+        data={data}
+        type="document"
+      />
     </div>,
     document.body
   );

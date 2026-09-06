@@ -168,7 +168,9 @@ def export_all():
     c.execute("""
         SELECT photo_id, category, normalized_filename as title_or_caption,
                subject_names, surname as married_surname, approximate_year,
-               local_image_path, source_url, dataset_source, document_type
+               local_image_path, source_url, dataset_source, document_type,
+               asset_type, subtype, confidence_score, contains_face,
+               face_context, routing_target, transcription, dates_mentioned, flag_for_human_review
         FROM unified_photo_catalog
         ORDER BY photo_id DESC
     """)
@@ -177,6 +179,11 @@ def export_all():
         json.dump(photos, f, indent=2)
 
     print("Step 5: Exporting /api/person/{id}.json for all persons...")
+    person_dir = os.path.join(API_DIR, 'person')
+    if os.path.exists(person_dir):
+        shutil.rmtree(person_dir)
+    os.makedirs(person_dir, exist_ok=True)
+
     c.execute("SELECT person_id, name, first_name, middle_name, maiden_name, married_last_name, evidence_level, source_page, birth_info, death_info, notes, dataset_source FROM persons")
     all_persons = [dict(r) for r in c.fetchall()]
     
@@ -201,7 +208,8 @@ def export_all():
     c.execute("""
         SELECT pp.person_id, upc.photo_id, upc.category, upc.normalized_filename as title_or_caption,
                upc.subject_names, upc.surname as married_surname, upc.approximate_year,
-               upc.local_image_path, upc.source_url, upc.dataset_source, upc.document_type
+               upc.local_image_path, upc.source_url, upc.dataset_source, upc.document_type,
+               upc.asset_type, upc.subtype, upc.contains_face, upc.face_context, upc.routing_target
         FROM person_photos pp
         JOIN unified_photo_catalog upc ON pp.photo_id = upc.photo_id
     """)
@@ -545,6 +553,16 @@ def export_all():
         ORDER BY tombstone_count DESC, c.name ASC
     """)
     cem_list = [dict(r) for r in c.fetchall()]
+    for cem in cem_list:
+        c.execute("""
+            SELECT p.photo_id, p.local_image_path, p.subject_names, p.title_or_caption
+            FROM tombstone_cemetery_links tcl
+            JOIN unified_photo_catalog p ON tcl.photo_id = p.photo_id
+            WHERE tcl.cemetery_id = ?
+            LIMIT 12
+        """, (cem['cemetery_id'],))
+        cem['tombstones'] = [dict(r) for r in c.fetchall()]
+
     with open(os.path.join(API_DIR, 'cemeteries.json'), 'w') as f:
         json.dump({"total": len(cem_list), "cemeteries": cem_list}, f, indent=2)
 

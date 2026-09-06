@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Wright",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Change_of_Race.htm",
     "birth_info": "unknown",
     "death_info": "9 Nov 1912",
@@ -26,7 +26,7 @@
           "citation_id": 1342,
           "fact_id": 1342,
           "source_id": 131,
-          "evidence_text": null,
+          "evidence_text": "...to Delware-Delaware-Delaware. 1930 - DELAWARE Sussex County 7-DIST (SOUTH PART) Series: T626 Roll: 291 Page: 120 Augustus Wright 1930 - DELAWARE Sussex County 3-DIST (WEST PART) Series: T626 Roll: 291 Page: 143 David H. Clark 1930 - DELAWARE...",
           "source_title": "Record: Change_of_Race.htm",
           "source_url": "Change_of_Race.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -45,7 +45,7 @@
           "citation_id": 1343,
           "fact_id": 1343,
           "source_id": 131,
-          "evidence_text": null,
+          "evidence_text": "...to Delware-Delaware-Delaware. 1930 - DELAWARE Sussex County 7-DIST (SOUTH PART) Series: T626 Roll: 291 Page: 120 Augustus Wright 1930 - DELAWARE Sussex County 3-DIST (WEST PART) Series: T626 Roll: 291 Page: 143 David H. Clark 1930 - DELAWARE...",
           "source_title": "Record: Change_of_Race.htm",
           "source_url": "Change_of_Race.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -64,7 +64,26 @@
           "citation_id": 1344,
           "fact_id": 1344,
           "source_id": 131,
-          "evidence_text": null,
+          "evidence_text": "...to Delware-Delaware-Delaware. 1930 - DELAWARE Sussex County 7-DIST (SOUTH PART) Series: T626 Roll: 291 Page: 120 Augustus Wright 1930 - DELAWARE Sussex County 3-DIST (WEST PART) Series: T626 Roll: 291 Page: 143 David H. Clark 1930 - DELAWARE...",
+          "source_title": "Record: Change_of_Race.htm",
+          "source_url": "Change_of_Race.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 15589,
+      "person_id": 1703,
+      "fact_type": "Racial Classification",
+      "date_string": "1930",
+      "place_string": "Sussex County, DE (District 7)",
+      "value_string": "Enumerated as 'In' (Indian); administratively altered to 'Neg' (Negro)",
+      "citations": [
+        {
+          "citation_id": 14391,
+          "fact_id": 15589,
+          "source_id": 131,
+          "evidence_text": "1930 Sussex Co Census Dist 7 Roll 291 Pg 120: Augustus Wright; race enumerated as 'In' (Indian), struck through to 'Neg' (Negro); tribal connection 'Delaware Nanticoke Tribe' altered under supervision.",
           "source_title": "Record: Change_of_Race.htm",
           "source_url": "Change_of_Race.htm",
           "source_dataset": "mitsawokett_delaware"
@@ -76,19 +95,6 @@
   "photos": [
     {
       "person_id": 1703,
-      "photo_id": 2634,
-      "category": "documents",
-      "title_or_caption": "X_Indian_Augustus_Wright_Census_1930.jpg",
-      "subject_names": "1930 census X Indian Augustus Wright",
-      "married_surname": "",
-      "approximate_year": "1881",
-      "local_image_path": "assets/archive_media/documents/X_Indian_Augustus_Wright_Census_1930.jpg",
-      "source_url": "http://mitsawokett.com/Change_of_Race.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "census_record"
-    },
-    {
-      "person_id": 1703,
       "photo_id": 2526,
       "category": "people",
       "title_or_caption": "Wright_Augustus.jpg",
@@ -98,11 +104,27 @@
       "local_image_path": "assets/archive_media/people/Wright_Augustus.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightAugustus.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait"
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7459,
+      "category": "RACIAL_RECLASSIFICATION",
+      "severity": "info",
+      "person_id": 1703,
+      "person_id_secondary": null,
+      "description": "Historical Racial Reclassification: Recorded under multiple distinct racial categories across federal records (1930: Indian (Struck-through) \u2794 1930: Negro (Supervisor Alteration)). Exemplifies the tripartite legal classification pressures and racial boundary fluidity characteristic of Delmarva Afro-Indigenous families.",
+      "evidence": "Sources: Change_of_Race.htm | Chronology: 1930: Indian (Struck-through) \u2794 1930: Negro (Supervisor Alteration)",
+      "created_at": "2026-09-06T19:06:30.059559"
+    }
+  ],
   "ancestry": {
     "id": 1703,
     "name": "Augustus Wright",

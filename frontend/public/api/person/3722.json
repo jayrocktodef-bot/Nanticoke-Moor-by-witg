@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Johnson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarneyJamesR&EffieReed.htm",
     "birth_info": "14 Nov 1863",
     "death_info": "17 May 1864 (aged 6 months)",
@@ -70,6 +70,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 13909,
+      "person_id": 3722,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12711,
+          "fact_id": 13909,
+          "source_id": 77,
+          "evidence_text": "...20 years) Mary Melisse- daughter of Wm. & Lucinda Johnson, died Feb. 6, 1876 (aged 1 month) Mary Johnson- 1902 - 1975 Franklin Johnson- 1900 - 1962 Loatman John R. Loatman - June 14, 1896 - Jan. 18, 1920 Anna Loatman - April 30, 1898 - May 24, 1919...",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -100,7 +119,12 @@
       "local_image_path": "assets/archive_media/people/Johnson_James_Franklin.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJames&Sherren.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

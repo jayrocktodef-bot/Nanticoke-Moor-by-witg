@@ -9,7 +9,7 @@
     "evidence_level": 3,
     "source_page": "CarneyGeorge.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "May 15, 1913",
     "notes": "Ingested from CarneyGeorge.htm | FindAGrave: no match",
     "dataset_source": "mitsawokett_delaware"
   },
@@ -41,6 +41,44 @@
       "place_string": null,
       "value_string": "d. May 15, 1913",
       "citations": []
+    },
+    {
+      "fact_id": 13466,
+      "person_id": 3462,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mariah  Durham",
+      "citations": [
+        {
+          "citation_id": 12268,
+          "fact_id": 13466,
+          "source_id": 54,
+          "evidence_text": "...Linwood Coombs( 1903 - 1965 ) both buried at Manship Church in Cheswold, DE Dorothy Carney married Horace Carney, Jr. George Carney married Lucy Carney Goldie Carney married Agnes Carney Wilson Carney (Aug. 1898 - ) Minnie died in Kent Co. on 7...",
+          "source_title": "Record: durhm-m1.htm",
+          "source_url": "durhm-m1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 13904,
+      "person_id": 3462,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Manship Church",
+      "citations": [
+        {
+          "citation_id": 12706,
+          "fact_id": 13904,
+          "source_id": 77,
+          "evidence_text": "...of John W. Miller Jan. 18, 1884 - Jan. 20, 1913 Garland R. Carney - 23 Nov. 1923 - D. Eleanor Carney- 31 July 1924 - George Carney - 4 June 1907 - 22 Dec. 1995 Goldie Carney- 9 Sept. 1902 - Nov. 1976 Agnes M. Carney- 1906 - 1958 I. Burton Carney -...",
+          "source_title": "Record: manship.htm",
+          "source_url": "manship.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -56,7 +94,66 @@
       "local_image_path": "assets/archive_media/people/Carney_George_Family.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyGeorge.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 3462,
+      "photo_id": 340,
+      "category": "people",
+      "title_or_caption": "Carter_George_Washington_2.jpg",
+      "subject_names": "Carney",
+      "married_surname": "Carter",
+      "approximate_year": "1873",
+      "local_image_path": "assets/archive_media/people/Carter_George_Washington_2.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeorge&SallyBelleCarney.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 3462,
+      "photo_id": 338,
+      "category": "people",
+      "title_or_caption": "Carter_George_E_1960.jpg",
+      "subject_names": "Carney",
+      "married_surname": "Carter",
+      "approximate_year": "1873",
+      "local_image_path": "assets/archive_media/people/Carter_George_E_1960.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeorge&SallyBelleCarney.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 3462,
+      "photo_id": 339,
+      "category": "people",
+      "title_or_caption": "Carter_George_Washington_1.jpg",
+      "subject_names": "Carney",
+      "married_surname": "Carter",
+      "approximate_year": "1873",
+      "local_image_path": "assets/archive_media/people/Carter_George_Washington_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterGeorge&SallyBelleCarney.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],
