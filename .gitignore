@@ -5,9 +5,10 @@ __pycache__/
 node_modules/
 dist/
 .env
-preservation_output/*.db
+preservation_output/
 *.db
 *.db-shm
 *.db-wal
 *.code-workspace
 *.png
+.vercel/
