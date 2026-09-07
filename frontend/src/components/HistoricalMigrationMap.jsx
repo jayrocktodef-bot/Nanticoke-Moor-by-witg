@@ -165,10 +165,15 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
       });
   }, []);
 
-  // Map coordinate projection to SVG viewBox (0,0 to 1000, 800)
+  // Map coordinate projection to SVG viewBox (0,0 to 1000, 800) based on authentic 1800s historical map image
   const project = (lat, lon) => {
-    const x = ((lon - MAP_BOUNDS.minLon) / (MAP_BOUNDS.maxLon - MAP_BOUNDS.minLon)) * 900 + 50;
-    const y = ((MAP_BOUNDS.maxLat - lat) / (MAP_BOUNDS.maxLat - MAP_BOUNDS.minLat)) * 700 + 50;
+    if (!lat || !lon) return { x: 0, y: 0 };
+    const imageX = 42 + (80.60 - Math.abs(lon)) * 128.36; // in 869px image width
+    const imageY = 43 + (42.25 - lat) * 156.4;             // in 1024px image height
+    
+    // Scale image coordinates to SVG viewBox (1000 x 800 with 1178.37 height fill)
+    const x = (imageX / 869.0) * 1000.0;
+    const y = (imageY / 1024.0) * 1178.37 - 189.18;
     return { x, y };
   };
 
@@ -452,8 +457,10 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
               {/* CEMETERY PINS (Plotted by exact GPS Coordinates) */}
               <g className="cemetery-markers">
                 {filteredCemeteries.map(cem => {
-                  if (!cem.latitude || !cem.longitude) return null;
-                  const pt = project(cem.latitude, cem.longitude);
+                  const lat = cem.latitude || cem.lat;
+                  const lon = cem.longitude || cem.lon;
+                  if (!lat || !lon) return null;
+                  const pt = project(lat, lon);
                   const isSelected = selectedItem?.cemetery_id === cem.cemetery_id;
 
                   return (
