@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { 
   MapPin, 
   Compass, 
@@ -14,7 +14,12 @@ import {
   X,
   ChevronRight,
   BookOpen,
-  ArrowRight
+  ArrowRight,
+  ZoomIn,
+  ZoomOut,
+  RotateCcw,
+  Maximize2,
+  Minimize2
 } from 'lucide-react';
 
 // Bounding box for Delmarva Peninsula and South Jersey
@@ -148,6 +153,38 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
   const [activeCorridorFilter, setActiveCorridorFilter] = useState('all'); // 'all', 'maritime', 'overland', 'border', 'cemeteries_only'
   const [searchQuery, setSearchQuery] = useState('');
   const [lightboxTombstone, setLightboxTombstone] = useState(null);
+  
+  // Interactive Map Zoom & Pan State
+  const [zoomLevel, setZoomLevel] = useState(1);
+  const [pan, setPan] = useState({ x: 0, y: 0 });
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
+  const [isFullscreenMap, setIsFullscreenMap] = useState(false);
+
+  const handleZoomIn = () => setZoomLevel(prev => Math.min(prev + 0.35, 4));
+  const handleZoomOut = () => setZoomLevel(prev => Math.max(prev - 0.35, 0.8));
+  const handleResetZoom = () => { setZoomLevel(1); setPan({ x: 0, y: 0 }); };
+
+  const handleMouseDown = (e) => {
+    setIsDragging(true);
+    setDragStart({ x: e.clientX - pan.x, y: e.clientY - pan.y });
+  };
+
+  const handleMouseMove = (e) => {
+    if (!isDragging) return;
+    setPan({ x: e.clientX - dragStart.x, y: e.clientY - dragStart.y });
+  };
+
+  const handleMouseUp = () => setIsDragging(false);
+
+  const handleWheel = (e) => {
+    e.preventDefault();
+    if (e.deltaY < 0) {
+      setZoomLevel(prev => Math.min(prev + 0.15, 4));
+    } else {
+      setZoomLevel(prev => Math.max(prev - 0.15, 0.8));
+    }
+  };
 
   // Load Cemeteries from API
   useEffect(() => {
@@ -274,12 +311,58 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
             </div>
           </div>
 
-          {/* SVG MAP */}
-          <div className="relative w-full aspect-[4/3] bg-[#0C1015] rounded-2xl border border-[#1F2733] overflow-hidden shadow-inner flex items-center justify-center">
+          {/* SVG MAP & CONTROLS CONTAINER */}
+          <div 
+            className="relative w-full aspect-[4/3] bg-[#0C1015] rounded-2xl border border-[#1F2733] overflow-hidden shadow-inner flex items-center justify-center cursor-grab active:cursor-grabbing select-none"
+            onMouseDown={handleMouseDown}
+            onMouseMove={handleMouseMove}
+            onMouseUp={handleMouseUp}
+            onMouseLeave={handleMouseUp}
+            onWheel={handleWheel}
+          >
+            {/* Interactive Zoom Toolbar Overlay */}
+            <div className="absolute top-3 right-3 z-30 flex items-center gap-1.5 bg-[#141210]/90 backdrop-blur-md border border-[#332D27] p-1.5 rounded-xl shadow-xl">
+              <button
+                onClick={handleZoomIn}
+                className="p-1.5 bg-[#1C1A17] hover:bg-[#C68B59] text-[#E5E1DB] hover:text-[#121110] rounded-lg transition-colors"
+                title="Zoom In (+)"
+                aria-label="Zoom In"
+              >
+                <ZoomIn className="w-4 h-4" />
+              </button>
+              <button
+                onClick={handleZoomOut}
+                className="p-1.5 bg-[#1C1A17] hover:bg-[#C68B59] text-[#E5E1DB] hover:text-[#121110] rounded-lg transition-colors"
+                title="Zoom Out (-)"
+                aria-label="Zoom Out"
+              >
+                <ZoomOut className="w-4 h-4" />
+              </button>
+              <button
+                onClick={handleResetZoom}
+                className="p-1.5 bg-[#1C1A17] hover:bg-[#C68B59] text-[#E5E1DB] hover:text-[#121110] rounded-lg transition-colors font-mono text-[10px] font-bold px-2"
+                title="Reset Zoom & Pan"
+              >
+                {Math.round(zoomLevel * 100)}%
+              </button>
+              <div className="w-[1px] h-4 bg-[#332D27] mx-0.5" />
+              <button
+                onClick={() => setIsFullscreenMap(true)}
+                className="p-1.5 bg-[#1C1A17] hover:bg-[#C68B59] text-[#D4A373] hover:text-[#121110] rounded-lg transition-colors"
+                title="Expand Map Full-Screen"
+              >
+                <Maximize2 className="w-4 h-4" />
+              </button>
+            </div>
+
             <svg 
               viewBox="0 0 1000 800" 
-              className="w-full h-full select-none"
-              style={{ filter: 'drop-shadow(0 4px 12px rgba(0,0,0,0.5))' }}
+              className="w-full h-full select-none transition-transform duration-75 ease-out"
+              style={{ 
+                transform: `scale(${zoomLevel}) translate(${pan.x / zoomLevel}px, ${pan.y / zoomLevel}px)`,
+                transformOrigin: 'center center',
+                filter: 'drop-shadow(0 4px 12px rgba(0,0,0,0.5))' 
+              }}
             >
               <defs>
                 {/* Glowing effects for corridors */}
@@ -454,7 +537,7 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
                 </g>
               )}
 
-              {/* CEMETERY PINS (Plotted by exact GPS Coordinates) */}
+              {/* PROMINENT HIGH-VISIBILITY CEMETERY PINS (Plotted by exact GPS Coordinates) */}
               <g className="cemetery-markers">
                 {filteredCemeteries.map(cem => {
                   const lat = cem.latitude || cem.lat;
@@ -468,56 +551,59 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
                       key={cem.cemetery_id}
                       transform={`translate(${pt.x}, ${pt.y})`}
                       className="cursor-pointer group"
-                      onClick={() => setSelectedItem(cem)}
+                      onClick={(e) => { e.stopPropagation(); setSelectedItem(cem); }}
                     >
-                      {/* Selection Highlight */}
-                      {isSelected && (
-                        <circle
-                          r="18"
-                          fill="#EAB308"
-                          fillOpacity="0.3"
-                          stroke="#EAB308"
-                          strokeWidth="1.5"
-                          className="animate-ping"
-                        />
-                      )}
-
-                      {/* Pin Marker */}
+                      {/* Outer Glowing Halo */}
                       <circle
-                        r={isSelected ? "7" : "5"}
-                        fill={isSelected ? "#EAB308" : "#E2E8F0"}
-                        stroke="#0F141A"
-                        strokeWidth="2"
-                        className="transition-transform group-hover:scale-125"
+                        r={isSelected ? "18" : "12"}
+                        fill="#F59E0B"
+                        fillOpacity={isSelected ? "0.45" : "0.22"}
+                        stroke="#F59E0B"
+                        strokeWidth="1.5"
+                        className={isSelected ? "animate-ping" : ""}
                       />
 
-                      {/* Label on hover or selection */}
-                      {(isSelected || filteredCemeteries.length < 8) && (
-                        <g transform="translate(0, -12)">
-                          <rect
-                            x={-cem.name.length * 3.2 - 6}
-                            y="-14"
-                            width={cem.name.length * 6.4 + 12}
-                            height="18"
-                            rx="4"
-                            fill="#0F141A"
-                            stroke="#C87D53"
-                            strokeWidth="1"
-                            opacity="0.9"
-                          />
-                          <text
-                            x="0"
-                            y="-2"
-                            textAnchor="middle"
-                            fill="#F3EBE3"
-                            fontSize="9"
-                            fontFamily="sans-serif"
-                            fontWeight="bold"
-                          >
-                            {cem.name}
-                          </text>
-                        </g>
-                      )}
+                      {/* Prominent Golden Tombstone Badge Marker */}
+                      <circle
+                        r={isSelected ? "9" : "7"}
+                        fill={isSelected ? "#F59E0B" : "#D4A373"}
+                        stroke="#141210"
+                        strokeWidth="2.5"
+                        className="transition-transform group-hover:scale-125 shadow-lg"
+                      />
+
+                      {/* Center Cross / Grave Symbol Dot */}
+                      <circle
+                        r="2.5"
+                        fill="#141210"
+                      />
+
+                      {/* Always-Visible High-Contrast Cemetery Name Pill Badge */}
+                      <g transform="translate(0, -14)">
+                        <rect
+                          x={-cem.name.length * 3.4 - 8}
+                          y="-15"
+                          width={cem.name.length * 6.8 + 16}
+                          height="19"
+                          rx="5"
+                          fill="#141210"
+                          fillOpacity="0.92"
+                          stroke={isSelected ? "#F59E0B" : "#C68B59"}
+                          strokeWidth={isSelected ? "2" : "1.2"}
+                          className="shadow-md"
+                        />
+                        <text
+                          x="0"
+                          y="-3"
+                          textAnchor="middle"
+                          fill={isSelected ? "#F3EBE3" : "#E5E1DB"}
+                          fontSize="9.5"
+                          fontFamily="sans-serif"
+                          fontWeight="bold"
+                        >
+                          🪦 {cem.name}
+                        </text>
+                      </g>
                     </g>
                   );
                 })}
@@ -709,6 +795,191 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
                 {lightboxTombstone.title_or_caption}
               </p>
             )}
+          </div>
+        </div>
+      )}
+      {/* Full-Screen Interactive Expandable Map Modal */}
+      {isFullscreenMap && (
+        <div
+          className="fixed inset-0 z-50 bg-[#0F0E0D]/95 backdrop-blur-xl flex flex-col p-4 sm:p-6 animate-fade-in"
+          onClick={() => setIsFullscreenMap(false)}
+        >
+          {/* Modal Toolbar */}
+          <div className="flex items-center justify-between border-b border-[#26221E] pb-3 mb-4" onClick={e => e.stopPropagation()}>
+            <div className="flex items-center gap-3">
+              <Compass className="w-6 h-6 text-[#C68B59]" />
+              <div>
+                <h3 className="text-lg font-bold text-[#F3EBE3] font-serif-header">
+                  Delmarva & Mid-Atlantic Historical Cartographic Model
+                </h3>
+                <p className="text-xs text-[#8C8275] font-mono">
+                  1800s Historical Regional Map • 13 Preserved Cemeteries • Interactive Pinch/Scroll & Pan
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <button
+                onClick={handleZoomIn}
+                className="p-2 bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] text-[#F3EBE3] rounded-xl font-bold transition-all text-xs"
+                title="Zoom In"
+              >
+                <ZoomIn className="w-4 h-4" />
+              </button>
+              <button
+                onClick={handleZoomOut}
+                className="p-2 bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] text-[#F3EBE3] rounded-xl font-bold transition-all text-xs"
+                title="Zoom Out"
+              >
+                <ZoomOut className="w-4 h-4" />
+              </button>
+              <button
+                onClick={handleResetZoom}
+                className="px-3 py-2 bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] text-[#D4A373] rounded-xl font-mono text-xs font-bold transition-all"
+              >
+                Reset ({Math.round(zoomLevel * 100)}%)
+              </button>
+              <button
+                onClick={() => setIsFullscreenMap(false)}
+                className="p-2 bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] text-[#F3EBE3] rounded-xl transition-all ml-2"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+          </div>
+
+          {/* Expanded Canvas Body */}
+          <div 
+            className="flex-1 relative rounded-2xl overflow-hidden border border-[#26221E] bg-[#0C1015] cursor-grab active:cursor-grabbing flex items-center justify-center"
+            onClick={e => e.stopPropagation()}
+            onMouseDown={handleMouseDown}
+            onMouseMove={handleMouseMove}
+            onMouseUp={handleMouseUp}
+            onMouseLeave={handleMouseUp}
+            onWheel={handleWheel}
+          >
+            <svg 
+              viewBox="0 0 1000 800" 
+              className="w-full h-full select-none transition-transform duration-75 ease-out"
+              style={{ 
+                transform: `scale(${zoomLevel}) translate(${pan.x / zoomLevel}px, ${pan.y / zoomLevel}px)`,
+                transformOrigin: 'center center'
+              }}
+            >
+              {/* Historical Map Backdrop */}
+              <image
+                href="/assets/historical_clan_map.jpg"
+                x="0"
+                y="0"
+                width="1000"
+                height="800"
+                preserveAspectRatio="xMidYMid slice"
+                opacity="0.8"
+                style={{
+                  filter: 'contrast(1.2) sepia(0.3) brightness(0.9)',
+                  mixBlendMode: 'luminosity'
+                }}
+              />
+
+              {/* Dark Vignette Overlay */}
+              <rect
+                x="0"
+                y="0"
+                width="1000"
+                height="800"
+                fill="url(#gradient-vignette)"
+                opacity="0.5"
+                pointerEvents="none"
+              />
+
+              {/* MIGRATION CORRIDORS */}
+              {MIGRATION_CORRIDORS.map(corridor => {
+                const fromPt = settlementCoords[corridor.from];
+                const toPt = settlementCoords[corridor.to];
+                if (!fromPt || !toPt) return null;
+                const dx = toPt.x - fromPt.x;
+                const dy = toPt.y - fromPt.y;
+                const cx = (fromPt.x + toPt.x) / 2 - dy * 0.25;
+                const cy = (fromPt.y + toPt.y) / 2 + dx * 0.25;
+
+                return (
+                  <g key={`fs-${corridor.id}`}>
+                    <path
+                      d={`M ${fromPt.x},${fromPt.y} Q ${cx},${cy} ${toPt.x},${toPt.y}`}
+                      fill="none"
+                      stroke={corridor.color}
+                      strokeWidth="6"
+                      strokeOpacity="0.35"
+                    />
+                    <path
+                      d={`M ${fromPt.x},${fromPt.y} Q ${cx},${cy} ${toPt.x},${toPt.y}`}
+                      fill="none"
+                      stroke={corridor.color}
+                      strokeWidth="2.5"
+                      strokeDasharray="6 4"
+                    />
+                  </g>
+                );
+              })}
+
+              {/* CEMETERY PINS IN FULL-SCREEN MODAL */}
+              <g className="cemetery-markers-fs">
+                {filteredCemeteries.map(cem => {
+                  const lat = cem.latitude || cem.lat;
+                  const lon = cem.longitude || cem.lon;
+                  if (!lat || !lon) return null;
+                  const pt = project(lat, lon);
+                  const isSelected = selectedItem?.cemetery_id === cem.cemetery_id;
+
+                  return (
+                    <g
+                      key={`fs-${cem.cemetery_id}`}
+                      transform={`translate(${pt.x}, ${pt.y})`}
+                      className="cursor-pointer group"
+                      onClick={() => { setSelectedItem(cem); setIsFullscreenMap(false); }}
+                    >
+                      <circle
+                        r={isSelected ? "20" : "14"}
+                        fill="#F59E0B"
+                        fillOpacity={isSelected ? "0.5" : "0.25"}
+                        stroke="#F59E0B"
+                        strokeWidth="1.5"
+                      />
+                      <circle
+                        r={isSelected ? "10" : "8"}
+                        fill={isSelected ? "#F59E0B" : "#D4A373"}
+                        stroke="#141210"
+                        strokeWidth="2.5"
+                      />
+                      <g transform="translate(0, -16)">
+                        <rect
+                          x={-cem.name.length * 3.6 - 10}
+                          y="-16"
+                          width={cem.name.length * 7.2 + 20}
+                          height="22"
+                          rx="6"
+                          fill="#141210"
+                          fillOpacity="0.95"
+                          stroke={isSelected ? "#F59E0B" : "#C68B59"}
+                          strokeWidth="1.5"
+                        />
+                        <text
+                          x="0"
+                          y="-3"
+                          textAnchor="middle"
+                          fill="#F3EBE3"
+                          fontSize="10.5"
+                          fontFamily="sans-serif"
+                          fontWeight="bold"
+                        >
+                          🪦 {cem.name}
+                        </text>
+                      </g>
+                    </g>
+                  );
+                })}
+              </g>
+            </svg>
           </div>
         </div>
       )}
