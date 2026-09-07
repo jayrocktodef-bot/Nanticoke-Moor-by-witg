@@ -19,7 +19,11 @@ import {
   ZoomOut,
   RotateCcw,
   Maximize2,
-  Minimize2
+  Minimize2,
+  Landmark,
+  FileText,
+  Calendar,
+  Shield
 } from 'lucide-react';
 
 // Bounding box for Delmarva Peninsula and South Jersey Custom Historical Map v2
@@ -30,18 +34,59 @@ const MAP_BOUNDS = {
   maxLon: -74.6
 };
 
-// Historical Settlement Centers
+// Comprehensive Historical Settlement Centers
 const HISTORICAL_SETTLEMENTS = [
   {
-    id: 'millsboro',
-    name: 'Millsboro & Indian River',
-    county: 'Sussex Co., DE',
-    lat: 38.5915,
-    lon: -75.2938,
-    type: 'tribal_seat',
-    title: 'Nanticoke Tribal Seat & Indian River Hundred',
-    description: 'Ancient homeland of the Nanticoke Indian Tribe. Site of the 1711 Maryland reservation, Indian Lands tract (1736-1743), and Nanticoke Indian Association headquarters.',
-    surnames: ['Harmon', 'Street', 'Clark', 'Davis', 'Wright', 'Norwood', 'Johnson']
+    id: 'mitsawoket',
+    name: 'Mitsawoket & Pumpkin Neck',
+    county: 'Kent Co., DE',
+    lat: 39.3005,
+    lon: -75.6080,
+    type: 'tribal_sachemdom',
+    founded: 'c. 1677',
+    cultural_affiliation: 'Mitsawokett Sachemdom & Duck Creek Isolate Community',
+    title: 'Ancient Mitsawokett Sachemdom & Pumpkin Neck Settlement',
+    description: 'Historical records from 1677–1684 document Mitsawokett as the sovereign territory of Chief Sachem Petaquam in northern Kent County. As European colonial land patents expanded across Duck Creek Neck and Pumpkin Neck, indigenous families adapted by forming tightly knit agrarian tenant homesteads. Archaeological excavations by Heite Consulting revealed continuous contact-era occupation, worked glass scraping tools, and trade bead distribution, confirming the persistence of Native community structures well into the 18th century.',
+    historical_landmarks: [
+      'Pumpkin Neck Tract (Duck Creek Basin)',
+      'Duck Creek Landing',
+      'Bishop\'s Corner Assembly Grounds',
+      'Duck Creek Friends Meeting (Historic Record Repository)'
+    ],
+    primary_records: [
+      '1677 Petaquam Sachemdom Land Grant (Kent Co. Deed Book A)',
+      '1684 Proprietor Survey of Duck Creek Neck',
+      'Heite Consulting Archaeological Survey (1985)'
+    ],
+    archaeological_notes: 'Excavation revealed knapped bottle glass scrapers, indigenous clay pipe fragments, and pit hearths co-located with 18th-century English ceramics.',
+    associated_cemeteries: ['Bethel AME Cemetery (Smyrna)'],
+    surnames: ['Conselor', 'Durham', 'Sisco', 'Sammons', 'Hansor', 'Dean', 'Puckham']
+  },
+  {
+    id: 'bloomsbury',
+    name: 'Bloomsbury & St. Jones Basin',
+    county: 'Kent Co., DE',
+    lat: 39.1550,
+    lon: -75.5350,
+    type: 'tenant_homestead',
+    founded: 'c. 1730',
+    cultural_affiliation: 'St. Jones River Afro-Indigenous Tenant Enclave',
+    title: 'Bloomsbury Tenant Farm & Afro-Indigenous Homestead Tract',
+    description: 'Situated at the confluence of St. Jones River and Mudstone Branch along Denney\'s Road, Bloomsbury was a multi-generational tenant farm occupied by Afro-Native families including the Conselor and Sisco kin groups. In 1985, state highway archaeology uncovered an extraordinarily rich artifact assemblage: hand-worked glass scraper tools, gunflints, locally made coarse earthenware, and trade items dating from 1730 to 1820. The site provides irreplaceable empirical evidence of continuous cultural preservation among non-reservation Native isolates during the early federal period.',
+    historical_landmarks: [
+      'Bloomsbury Archaeological Site (7K-C-358)',
+      'St. Jones River Navigation Basin',
+      'Mudstone Branch Crossing',
+      'Historic Denney\'s Road Corridor'
+    ],
+    primary_records: [
+      '1767 Kent County Chancery Court Land Valuation',
+      '1792 Allee Family Tenant Leases (Conselor & Sisco entries)',
+      'Heite & Heite "Bloomsbury: A Native Community on St. Jones" (1986)'
+    ],
+    archaeological_notes: 'Discovered worked dark green wine glass tools crafted using traditional lithic pressure flaking techniques, proving traditional tool preservation alongside European goods.',
+    associated_cemeteries: ['Christ\'s Church Cemetery', 'Evergreen Cemetery'],
+    surnames: ['Conselor', 'Sisco', 'Durham', 'Cutler', 'Allee', 'Morgan']
   },
   {
     id: 'cheswold',
@@ -50,9 +95,51 @@ const HISTORICAL_SETTLEMENTS = [
     lat: 39.2173,
     lon: -75.5864,
     type: 'tribal_community',
-    title: 'Lenape / Moor Settlement of Kent County',
-    description: 'Ancestral isolate settlement centering on Fork Branch and Cheswold. Site of Immanuel Union Church, Forest Grove, and the Cheswold Indian School.',
-    surnames: ['Durham', 'Carney', 'Morgan', 'Dean', 'Seeney', 'Moseley', 'Puckham']
+    founded: 'c. 1760',
+    cultural_affiliation: 'Lenape / Moor Community of Kent County',
+    title: 'Cheswold Lenape / Moor Core Settlement & School District',
+    description: 'Cheswold (originally known as Moortown or Moortown Station along the Delaware Railroad) developed as the political, social, and spiritual center of the Kent County Lenape community. Families acquired contiguous smallholdings along Fork Branch, establishing independent institutions including Immanuel Union United Methodist Church (1880), Forest Grove SDA Church, and the Cheswold Indian School (District 143c). The community maintained strict endogamous marital patterns across generations, forming a sovereign cultural haven amidst Delaware\'s rigid 19th-century racial binaries.',
+    historical_landmarks: [
+      'Immanuel Union U.M. Church & Cemetery (est. 1880)',
+      'Cheswold Indian School (District 143c)',
+      'Forest Grove Seventh-day Adventist Church',
+      'Fork Branch Burial Grounds'
+    ],
+    primary_records: [
+      'Delaware Special Indian School Fund Acts (1921–1965)',
+      '1880 Immanuel Union Church Incorporation Deed',
+      'Joann Sammons "Cheswold Origins & Kinship Networks" (1998)'
+    ],
+    archaeological_notes: 'Preserves early 19th-century timber frame meeting houses, traditional family burial plots, and ancestral homestead foundations along Fork Branch.',
+    associated_cemeteries: ['Fork Branch Cemetery', 'Immanuel Union United Methodist Cemetery', 'Forest Grove Seventh-day Adventist Cemetery'],
+    surnames: ['Durham', 'Carney', 'Morgan', 'Dean', 'Seeney', 'Moseley', 'Sammons', 'Coker', 'Ridgeway']
+  },
+  {
+    id: 'millsboro',
+    name: 'Millsboro & Indian River',
+    county: 'Sussex Co., DE',
+    lat: 38.5915,
+    lon: -75.2938,
+    type: 'tribal_seat',
+    founded: 'c. 1711',
+    cultural_affiliation: 'Nanticoke Indian Tribe of Delaware',
+    title: 'Nanticoke Tribal Seat & Indian River Hundred Homeland',
+    description: 'Indian River Hundred has served as the continuous tribal seat of the Nanticoke Indian Tribe for over three centuries. Following colonial encroachment on Maryland\'s Eastern Shore, Nanticoke families consolidated along the Indian River and Hollyville corridors. In 1743, land patents were recorded for tribal leaders, and by 1881 the community chartered the Nanticoke Indian School (District 225c). In 1922, the Nanticoke Indian Association was formally incorporated under Delaware law, continuing annual powwows, cultural education, and tribal governance to the present day.',
+    historical_landmarks: [
+      'Nanticoke Indian Tribal Center & Cultural Museum',
+      'Warwick Indian School (District 225c)',
+      'Harmony United Methodist Church',
+      'Indian River Landing & Winnesoccum Tract'
+    ],
+    primary_records: [
+      '1711 Maryland Provincial Council Reservation Act',
+      '1743 Delaware Indian Lands Patent Records',
+      '1922 Nanticoke Indian Association Delaware State Charter',
+      'Frank Speck "The Nanticoke and Lenni-Lenape Indians of Delaware" (1915)'
+    ],
+    archaeological_notes: 'Rich shell midden sites, traditional eel-trap weir locations along Indian River, and mid-19th century timber schoolhouses.',
+    associated_cemeteries: ['Israel United Methodist Cemetery', 'Millsboro Seventh-day Adventist Cemetery', 'John Wesley United Methodist Cemetery'],
+    surnames: ['Harmon', 'Street', 'Clark', 'Davis', 'Wright', 'Norwood', 'Johnson', 'Sockum']
   },
   {
     id: 'gouldtown',
@@ -61,9 +148,24 @@ const HISTORICAL_SETTLEMENTS = [
     lat: 39.4218,
     lon: -75.1874,
     type: 'triracial_settlement',
-    title: 'Historic Gouldtown Tri-Racial Settlement',
-    description: 'Historic sovereign community founded circa 1700 by Benjamin Gould and Elizabeth Adams. Deep marital and economic ties across the Delaware Bay to Cheswold.',
-    surnames: ['Gould', 'Pierce', 'Murray', 'Cuff', 'Bowles']
+    founded: 'c. 1700',
+    cultural_affiliation: 'Gouldtown Tri-Racial Free Community',
+    title: 'Historic Gouldtown Sovereign Community & Regional Hub',
+    description: 'Gouldtown is one of the oldest self-governing tri-racial free communities in the United States, established around 1700 through the union of Elizabeth Adams (granddaughter of Quaker Proprietor John Fenwick) and Benjamin Gould (a free man of color). The community expanded rapidly through intermarriage with neighboring Lenape, Nanticoke, and free Afro-descendant families (Pierce, Cuff, Murray). Gouldtown established its own schools, churches, and agricultural cooperatives, serving as a vital sanctuary for runaway slaves and inter-state kin packet boats traversing the Delaware Bay.',
+    historical_landmarks: [
+      'Gouldtown Memorial Park & Burial Grounds',
+      'Gouldtown Schoolhouse (Historic District)',
+      'Fairfield Township Civic Center',
+      'Cohansey River Navigation Landing'
+    ],
+    primary_records: [
+      '1700 Fenwick Colony Land Grant to Elizabeth Adams',
+      'William Steward "Gouldtown: A Very Remarkable Settlement" (1913)',
+      'Cumberland County Quaker Friends Deed Records (1720–1850)'
+    ],
+    archaeological_notes: '18th-century brick farmsteads, private burial vaults, and early agricultural tool forge remains.',
+    associated_cemeteries: ['Gouldtown Memorial Park & Cemetery'],
+    surnames: ['Gould', 'Pierce', 'Murray', 'Cuff', 'Bowles', 'Felts', 'Pierpont']
   },
   {
     id: 'salem',
@@ -72,9 +174,24 @@ const HISTORICAL_SETTLEMENTS = [
     lat: 39.6515,
     lon: -75.3282,
     type: 'settlement',
-    title: 'Salem County Afro-Indigenous Enclaves',
-    description: 'Historic settlement areas along the Mannington and Salem river basins with prominent Cuff, Pierce, and Murray ancestral land patents and cemeteries.',
-    surnames: ['Cuff', 'Pierce', 'Murray', 'Webster']
+    founded: 'c. 1720',
+    cultural_affiliation: 'Salem Basin Afro-Indigenous Enclaves',
+    title: 'Salem County Afro-Indigenous Enclaves & Land Patents',
+    description: 'Salem County housed multiple interconnected Afro-Indigenous enclaves along the Mannington Creek, Salem River, and Woodstown corridors. Encouraged by Quaker anti-slavery sentiments and early land sales, free people of color and Native isolates purchased acreage and developed autonomous agrarian communities. Families like the Cuffs established private family burial grounds and served in colored regiments during the Civil War, maintaining active packet boat commerce across the Delaware Bay to Smyrna and Cheswold.',
+    historical_landmarks: [
+      'Lawnside Cemetery (Woodstown)',
+      'Cuff Family Private Burial Plot (Mannington)',
+      'Salem Friends Meeting House (1700)',
+      'Alloway Creek Navigation Dock'
+    ],
+    primary_records: [
+      '1740 Salem County Friends Manumission & Deed Books',
+      'Civil War U.S. Colored Troops (USCT) Muster Rolls (Cuff, Pierce)',
+      '1850 Salem County Agricultural Census Records'
+    ],
+    archaeological_notes: 'Private family cemetery markers, early 19th-century Quaker-built brick tenant homes, and river packet wharf pilings.',
+    associated_cemeteries: ['Lawnside Cemetery', 'Cuff Family Cemetery'],
+    surnames: ['Cuff', 'Pierce', 'Murray', 'Webster', 'Loatman', 'Dean', 'Skerrett']
   },
   {
     id: 'caroline',
@@ -83,20 +200,50 @@ const HISTORICAL_SETTLEMENTS = [
     lat: 38.6948,
     lon: -75.7724,
     type: 'border_settlement',
-    title: 'Upper Choptank & Maryland Trans-Border Settlements',
-    description: 'Boundary border corridor where free families of color and Native isolates moved between Maryland and Delaware jurisdictions to preserve freedom and kinship.',
-    surnames: ['Carty', 'Carter', 'Puckham', 'Hansor', 'Jackson']
+    founded: 'c. 1780',
+    cultural_affiliation: 'Choptank & Maryland Trans-Border Refuge',
+    title: 'Upper Choptank & Maryland Trans-Border Settlement Corridor',
+    description: 'Straddling the border of Caroline County, MD, and Sussex County, DE, the Federalsburg corridor along Marshyhope Creek was a crucial refuge zone. Due to harsh Maryland laws restricting free persons of color (such as mandatory registration and prohibition of firearms), families frequently relocated across the state line into Sussex and Kent counties in Delaware. This border mobility fostered resilient kin networks linking the Choptank, Marshyhope, and Nanticoke river watersheds.',
+    historical_landmarks: [
+      'Union Memorial Cemetery (Federalsburg)',
+      'Marshyhope Creek Navigation Canal',
+      'Delaware-Maryland State Boundary Stones (Mason-Dixon Line 1765)',
+      'Old Bloomery Mill Site'
+    ],
+    primary_records: [
+      'Caroline County Certificates of Freedom (1806–1864)',
+      '1790–1860 Maryland Federal Census Free Population Schedules',
+      'Dorchester & Caroline Land Commission Records'
+    ],
+    archaeological_notes: '19th-century timber mill foundations, border crossing trail alignments, and rural churchyard headstones.',
+    associated_cemeteries: ['Union Memorial Cemetery'],
+    surnames: ['Carty', 'Carter', 'Puckham', 'Handsor', 'Jackson', 'Cook']
   },
   {
-    id: 'woodland',
-    name: 'Woodland & Seaford',
-    county: 'Sussex Co., DE',
-    lat: 38.6015,
-    lon: -75.6652,
+    id: 'vienna',
+    name: 'Vienna & Lower Nanticoke',
+    county: 'Dorchester Co., MD',
+    lat: 38.4843,
+    lon: -75.8272,
     type: 'river_corridor',
-    title: 'Nanticoke River Headwaters Corridor',
-    description: 'Historic ferry and river crossing connecting inland Nanticoke settlements across the upper tidal reaches of the Nanticoke River basin.',
-    surnames: ['Cannon', 'Ross', 'Harmon', 'Coker']
+    founded: 'c. 1698',
+    cultural_affiliation: 'Nanticoke River Fisheries & Maritime Network',
+    title: 'Lower Nanticoke River Trading Post & Maritime Corridor',
+    description: 'Vienna on the lower Nanticoke River served as a primary commercial trading post, ferry crossing, and maritime hub for Nanticoke families. Following the 1698 Maryland assembly treaties establishing Nanticoke reservations at Broad Creek and Chicacoan, local native families operated river fisheries, timber logging, and packet boat transport across the Chesapeake Bay. Even after formal reservation lands were dispossessed in 1768, many ancestral families remained in the surrounding river necks.',
+    historical_landmarks: [
+      'Handsell Historic Site (Chicacoan Reservation Site)',
+      'Vienna Nanticoke River Ferry & Waterfront Landing',
+      'Chicacoan Creek Native Settlement Tract',
+      'Vienna Customs House (Historic District)'
+    ],
+    primary_records: [
+      '1698 Maryland Colonial Assembly Treaty with Nanticoke Nation',
+      '1768 Maryland Act for Sale of Nanticoke Indian Lands',
+      'Dorchester County Maritime Custom House Register'
+    ],
+    archaeological_notes: 'Sub-surface posthole patterns of traditional Nanticoke longhouses at Handsell, shell heaps, and colonial trade pipe fragments.',
+    associated_cemeteries: ['Union Memorial Cemetery', 'Israel United Methodist Cemetery'],
+    surnames: ['Handsor', 'Puckham', 'Jackson', 'Johnson', 'Cook', 'Ross']
   }
 ];
 
@@ -649,8 +796,29 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
                 </div>
               )}
 
+              {/* Founding Era & Cultural Affiliation */}
+              {selectedItem.founded && (
+                <div className="flex items-center justify-between bg-[#0F141A] p-2.5 rounded-xl border border-[#2A3644] text-xs font-mono">
+                  <span className="text-[#9EA9B6] flex items-center gap-1.5">
+                    <Calendar className="w-3.5 h-3.5 text-[#C87D53]" /> Founding Era:
+                  </span>
+                  <span className="text-[#F3EBE3] font-bold">{selectedItem.founded}</span>
+                </div>
+              )}
+
+              {selectedItem.cultural_affiliation && (
+                <div>
+                  <label className="text-[10px] font-mono uppercase text-[#8C8275] font-bold block mb-1">
+                    Cultural & Tribal Affiliation
+                  </label>
+                  <p className="text-xs text-[#D4A373] bg-[#C87D53]/10 border border-[#C87D53]/25 p-2.5 rounded-xl font-mono">
+                    {selectedItem.cultural_affiliation}
+                  </p>
+                </div>
+              )}
+
               {/* Affiliation / Community Notes */}
-              {selectedItem.affiliation && (
+              {selectedItem.affiliation && !selectedItem.cultural_affiliation && (
                 <div>
                   <label className="text-[10px] font-mono uppercase text-[#8C8275] font-bold block mb-1">
                     Community Affiliation
@@ -670,6 +838,68 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
                   {selectedItem.historical_notes || selectedItem.description}
                 </p>
               </div>
+
+              {/* Historical Landmarks */}
+              {selectedItem.historical_landmarks && (
+                <div>
+                  <label className="text-[10px] font-mono uppercase text-[#8C8275] font-bold mb-1.5 flex items-center gap-1">
+                    <Landmark className="w-3.5 h-3.5 text-[#C87D53]" /> Key Historical Landmarks & Institutions
+                  </label>
+                  <ul className="space-y-1 text-xs text-[#E5E1DB]">
+                    {selectedItem.historical_landmarks.map((lm, idx) => (
+                      <li key={idx} className="bg-[#0F141A] p-2 rounded-lg border border-[#2A3644] flex items-center gap-2">
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#C87D53] shrink-0" />
+                        <span>{lm}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* Primary Records & Citations */}
+              {selectedItem.primary_records && (
+                <div>
+                  <label className="text-[10px] font-mono uppercase text-[#8C8275] font-bold mb-1.5 flex items-center gap-1">
+                    <FileText className="w-3.5 h-3.5 text-[#38BDF8]" /> Archival Evidence & Primary Documents
+                  </label>
+                  <ul className="space-y-1 text-xs text-[#9EA9B6] font-mono">
+                    {selectedItem.primary_records.map((rec, idx) => (
+                      <li key={idx} className="bg-[#0F141A] p-2 rounded-lg border border-[#2A3644] flex items-start gap-2">
+                        <span className="text-[#38BDF8] font-bold shrink-0">📜</span>
+                        <span>{rec}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* Archaeological Notes */}
+              {selectedItem.archaeological_notes && (
+                <div>
+                  <label className="text-[10px] font-mono uppercase text-[#8C8275] font-bold mb-1 flex items-center gap-1">
+                    <Sparkles className="w-3.5 h-3.5 text-[#F59E0B]" /> Archaeological Artifact Findings
+                  </label>
+                  <p className="text-xs text-[#D4A373] bg-[#0F141A] p-2.5 rounded-xl border border-[#F59E0B]/30 leading-relaxed font-sans">
+                    {selectedItem.archaeological_notes}
+                  </p>
+                </div>
+              )}
+
+              {/* Associated Cemeteries */}
+              {selectedItem.associated_cemeteries && (
+                <div>
+                  <label className="text-[10px] font-mono uppercase text-[#8C8275] font-bold block mb-1">
+                    Linked Historical Burial Grounds
+                  </label>
+                  <div className="flex flex-wrap gap-1.5">
+                    {selectedItem.associated_cemeteries.map((ac, idx) => (
+                      <span key={idx} className="text-xs font-mono text-[#F3EBE3] bg-[#0F141A] border border-[#C87D53]/40 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                        🪦 {ac}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Associated Lineages */}
               {selectedItem.surnames && (
