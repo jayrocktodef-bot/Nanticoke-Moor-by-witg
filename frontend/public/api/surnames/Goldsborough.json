@@ -3,7 +3,8 @@
   "individual_count": 10,
   "photo_count": 4,
   "category_counts": {
-    "documents": 3,
+    "documents": 2,
+    "people": 1,
     "tombstones": 1
   },
   "obituary_count": 1,
@@ -14,27 +15,33 @@
       "category": "documents",
       "normalized_filename": "Goldsborough_Charles_1916_New_Jersey_DeathCertificate.jpg",
       "local_image_path": "assets/archive_media/documents/Goldsborough_Charles_1916_New_Jersey_DeathCertificate.jpg",
-      "subject_names": "Goldsborough Charles DC 1916 New Jersey",
+      "subject_names": "Charles 1916 New Jersey Goldsborough (Death Certificate)",
       "approximate_year": "2001",
-      "document_type": "vital_certificate"
+      "document_type": "death_certificate",
+      "person_id": 1869,
+      "person_name": "Charles Goldsborough"
     },
     {
       "photo_id": 2859,
       "category": "documents",
       "normalized_filename": "Golsbrough_Goldsborough_Christian_Williams_MC_MarriageCertificate_1895.jpg",
       "local_image_path": "assets/archive_media/documents/Golsbrough_Goldsborough_Christian_Williams_MC_MarriageCertificate_1895.jpg",
-      "subject_names": "Golsbrough (Goldsborough) Christian (Williams) MC 1895",
+      "subject_names": "Golsbrough Goldsborough Christian Williams Mc Marriage Certificate (Marriage Certificate)",
       "approximate_year": "1895",
-      "document_type": "vital_certificate"
+      "document_type": "marriage_certificate",
+      "person_id": null,
+      "person_name": null
     },
     {
       "photo_id": 2856,
-      "category": "documents",
+      "category": "people",
       "normalized_filename": "Goldsborough_Robert.jpg",
       "local_image_path": "assets/archive_media/documents/Goldsborough_Robert.jpg",
-      "subject_names": "Goldsborough Robert",
+      "subject_names": "Robert Goldsborough",
       "approximate_year": "1885",
-      "document_type": "historical_document"
+      "document_type": "portrait",
+      "person_id": null,
+      "person_name": null
     },
     {
       "photo_id": 2857,
@@ -43,7 +50,9 @@
       "local_image_path": "assets/archive_media/tombstones/Goldsborough_Charles_Tombstone.jpg",
       "subject_names": "Goldsborough Charles Tombstone",
       "approximate_year": "2001",
-      "document_type": "tombstone"
+      "document_type": "tombstone",
+      "person_id": 1869,
+      "person_name": "Charles Goldsborough"
     }
   ],
   "individuals": [
@@ -57,7 +66,7 @@
       "birth_info": null,
       "death_info": null,
       "notes": "Ingested from preserved MainMenu.html record | FindAGrave: no match",
-      "photo_count": 0
+      "photo_count": 2
     },
     {
       "person_id": 8435,

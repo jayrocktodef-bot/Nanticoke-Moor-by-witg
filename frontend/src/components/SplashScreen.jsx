@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Archive, Library, Shield, Users, DatabaseZap, ChevronDown, ChevronUp } from 'lucide-react';
+import { Archive, Library, Shield, Users, DatabaseZap, ChevronDown, ChevronUp, ExternalLink } from 'lucide-react';
 
 export default function SplashScreen({ onEnter }) {
   const [isAnimatingOut, setIsAnimatingOut] = useState(false);
@@ -190,19 +190,52 @@ export default function SplashScreen({ onEnter }) {
                   </div>
                   <ul className="text-[#A8A096] text-xs sm:text-sm space-y-2.5">
                     {[
-                      ['Mitsawokett Archives', 'Foundational historical records and lineage data.'],
-                      ['Find A Grave', 'Cemetery records, dates, and memorial verification.'],
-                      ['Community Contributions', 'Preserved obituaries and family photographs.'],
-                    ].map(([title, desc]) => (
-                      <li key={title} className="flex items-start gap-2.5">
+                      {
+                        title: 'Lynn C. Jackson Website',
+                        desc: 'Original Delmarva family lineages, census extractions, and ancestor dossiers',
+                        url: 'https://web.archive.org/web/2018/https://lynncjackson.com',
+                        label: 'lynncjackson.com'
+                      },
+                      {
+                        title: 'Mitsawokett Archives',
+                        desc: 'Foundational historical records, survey collections, and lineage data.'
+                      },
+                      {
+                        title: 'Find A Grave',
+                        desc: 'Cemetery records, dates, and memorial verification.'
+                      },
+                      {
+                        title: 'Community Contributions',
+                        desc: 'Preserved obituaries and family photographs.'
+                      },
+                    ].map((source) => (
+                      <li key={source.title} className="flex items-start gap-2.5">
                         <div className="w-1.5 h-1.5 rounded-full bg-[#C68B59] mt-1.5 shrink-0" />
-                        <span><strong className="text-[#D4A373] font-semibold">{title}:</strong> {desc}</span>
+                        <div className="flex-1 leading-snug">
+                          <strong className="text-[#D4A373] font-semibold">{source.title}:</strong>{' '}
+                          <span>{source.desc}</span>
+                          {source.url && (
+                            <a
+                              href={source.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1 text-[#C68B59] hover:text-[#F3EBE3] ml-1.5 underline decoration-[#C68B59]/40 hover:decoration-[#F3EBE3] text-xs transition-colors"
+                              title={`Visit ${source.title}`}
+                            >
+                              <span>({source.label})</span>
+                              <ExternalLink className="w-3 h-3 shrink-0" />
+                            </a>
+                          )}
+                        </div>
                       </li>
                     ))}
                   </ul>
 
                   {expandedSources && (
                     <div className="mt-3 pt-3 border-t border-[#2D2722] text-xs text-[#C5BCB2] space-y-2 animate-fade-in">
+                      <p className="leading-relaxed">
+                        <strong className="text-[#D4A373]">Primary Lineage Repositories:</strong> Lynn C. Jackson Family Archive (lynncjackson.com), Mitsawokett Delaware Native Archive, and The Moors of Delaware Database.
+                      </p>
                       <p className="leading-relaxed">
                         <strong className="text-[#D4A373]">Institutional Repositories:</strong> Smithsonian National Museum of the American Indian (NMAI) Frank G. Speck Collections, Delaware Public Archives, and Salem County Historical Society.
                       </p>

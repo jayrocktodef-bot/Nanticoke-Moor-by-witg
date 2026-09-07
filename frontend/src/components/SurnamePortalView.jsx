@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { 
-  Users, Camera, GitFork, ArrowLeft, Search, HeartHandshake, 
+  Users, User, Camera, GitFork, ArrowLeft, Search, HeartHandshake, 
   FileText, ExternalLink, Calendar, MapPin, ChevronRight, X, Sparkles, Filter, Printer
 } from 'lucide-react';
 import TranscribedDocumentView from './TranscribedDocumentView';
@@ -341,17 +341,35 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
                         </div>
 
                         {/* Hover Info Overlay */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4">
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-3.5">
                           <p className="text-xs font-semibold text-white line-clamp-2 leading-tight">
                             {photo.subject_names || photo.normalized_filename.replace(/_/g, ' ').replace(/\.jpg|\.png|\.gif/g, '')}
                           </p>
                           {photo.approximate_year && (
-                            <p className="text-[10px] font-mono text-[#D4A373] mt-1">
+                            <p className="text-[10px] font-mono text-[#D4A373] mt-0.5">
                               Year: {photo.approximate_year}
                             </p>
                           )}
+                          {photo.person_id && (
+                            <div className="mt-2 pt-1.5 border-t border-white/10 flex items-center justify-between">
+                              <span className="text-[10px] font-mono text-cyan-300 flex items-center gap-1">
+                                <User className="w-2.5 h-2.5" />
+                                <span>Profile #{photo.person_id}</span>
+                              </span>
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  onSelectPerson && onSelectPerson(photo.person_id);
+                                }}
+                                className="px-2 py-0.5 rounded bg-[#C68B59] hover:bg-[#D4A373] text-[#0E0C0B] text-[10px] font-mono font-bold transition-all shadow cursor-pointer"
+                                title={`View profile for ${photo.person_name || 'person'}`}
+                              >
+                                View Person →
+                              </button>
+                            </div>
+                          )}
                           {isDoc && (
-                            <span className="text-[10px] font-mono text-emerald-400 mt-0.5">
+                            <span className="text-[10px] font-mono text-emerald-400 mt-1">
                               Click to view Text Transcription →
                             </span>
                           )}
@@ -575,6 +593,20 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
                     </p>
                   </div>
                   <div className="flex items-center gap-2">
+                    {lightboxPhoto.person_id && onSelectPerson && (
+                      <button
+                        onClick={() => {
+                          const personId = lightboxPhoto.person_id;
+                          setLightboxPhoto(null);
+                          onSelectPerson(personId);
+                        }}
+                        className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#223348] hover:bg-[#2C415C] border border-[#48638A] text-[#F3EBE3] text-xs font-mono font-semibold transition-all shadow-md"
+                        title="View Individual Ancestor Profile"
+                      >
+                        <User className="w-3.5 h-3.5 text-cyan-300" />
+                        <span>View Profile #{lightboxPhoto.person_id}</span>
+                      </button>
+                    )}
                     <button
                       onClick={() => {
                         const pid = lightboxPhoto.photo_id;
@@ -609,6 +641,7 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
         <TranscribedDocumentView
           identifier={transcribedDocId}
           onClose={() => setTranscribedDocId(null)}
+          onSelectPerson={onSelectPerson}
         />
       )}
     </div>

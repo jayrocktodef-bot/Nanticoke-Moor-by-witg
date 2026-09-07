@@ -993,6 +993,7 @@ export default function HomeScreen() {
           identifier={typeof selectedRecord === 'string' ? selectedRecord : selectedRecord.filename}
           initialData={typeof selectedRecord === 'object' && selectedRecord.lines ? selectedRecord : null}
           onClose={() => setSelectedRecord(null)}
+          onSelectPerson={(pid) => setSelectedPersonId(pid)}
         />
       )}
 

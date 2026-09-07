@@ -96,7 +96,8 @@ def export_all():
         # Fetch detailed photos for this surname
         c.execute("""
             SELECT upc.photo_id, upc.category, upc.normalized_filename, upc.local_image_path,
-                   upc.subject_names, upc.approximate_year, upc.document_type
+                   upc.subject_names, upc.approximate_year, upc.document_type,
+                   upc.primary_person_id as person_id, upc.primary_person_name as person_name
             FROM photo_surnames ps
             JOIN unified_photo_catalog upc ON ps.photo_id = upc.photo_id
             WHERE LOWER(ps.surname) = LOWER(?)
@@ -314,7 +315,8 @@ def export_all():
     c.execute("""
         SELECT photo_id, category, normalized_filename, original_filename,
                local_image_path, subject_names, surname, given_names,
-               approximate_year, document_type, dataset_source, source_url
+               approximate_year, document_type, dataset_source, source_url,
+               primary_person_id as person_id, primary_person_name as person_name
         FROM unified_photo_catalog
     """)
     catalog_items = [dict(r) for r in c.fetchall()]
@@ -327,6 +329,8 @@ def export_all():
         local_image = doc.get("local_image_path")
         original_filename = doc.get("original_filename")
         surname = doc.get("surname")
+        person_id = doc.get("person_id")
+        person_name = doc.get("person_name")
         transcribed_text = None
         clean_html = None
 
@@ -354,6 +358,10 @@ def export_all():
                 f"RECORD CLASSIFICATION: {doc_type}",
                 f"ARCHIVAL HOLDING: Native Americans of Delaware State / Mitsawokett Historical Archive",
                 f"ESTIMATED DATE / ERA: {approx_year}",
+            ]
+            if person_name and person_id:
+                lines.append(f"PRIMARY SUBJECT / PERSON: {person_name} (Profile #{person_id})")
+            lines.extend([
                 "--------------------------------------------------------------------------------",
                 "TRANSCRIPTION RECORD & SUMMARY:",
                 f"This primary document was preserved as part of the Delmarva genealogical survey of the Nanticoke, Moor, and Lenape families.",
@@ -363,7 +371,7 @@ def export_all():
                 "VERIFICATION & CITATION:",
                 f"Source URL: {source_url or 'Preserved in Mitsawokett Digital Archive'}",
                 f"Archive Identifier: Item #{pid}"
-            ]
+            ])
             full_text = "\n".join(lines)
 
         words = len(full_text.split())
@@ -373,6 +381,8 @@ def export_all():
 
         t_data = {
             "identifier": str(pid),
+            "person_id": person_id,
+            "person_name": person_name,
             "title": title,
             "document_type": doc_type,
             "approximate_year": approx_year,
@@ -555,7 +565,7 @@ def export_all():
     cem_list = [dict(r) for r in c.fetchall()]
     for cem in cem_list:
         c.execute("""
-            SELECT p.photo_id, p.local_image_path, p.subject_names, p.title_or_caption
+            SELECT p.photo_id, p.local_image_path, p.subject_names, p.normalized_filename as title_or_caption
             FROM tombstone_cemetery_links tcl
             JOIN unified_photo_catalog p ON tcl.photo_id = p.photo_id
             WHERE tcl.cemetery_id = ?

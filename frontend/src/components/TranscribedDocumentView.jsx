@@ -3,12 +3,12 @@ import { createPortal } from 'react-dom';
 import { 
   X, Copy, Check, Printer, Volume2, VolumeX, Search, 
   FileText, ExternalLink, Bookmark, Sliders, Eye, ArrowLeft,
-  FileDown, Download, BookOpen
+  FileDown, Download, BookOpen, User, ArrowRight
 } from 'lucide-react';
 import { jsPDF } from 'jspdf';
 import CitationModal from './CitationModal';
 
-export default function TranscribedDocumentView({ identifier, initialData, onClose }) {
+export default function TranscribedDocumentView({ identifier, initialData, onClose, onSelectPerson }) {
   const [data, setData] = useState(initialData || null);
   const [loading, setLoading] = useState(!initialData);
   const [error, setError] = useState(null);
@@ -679,6 +679,33 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
                     <span>•</span>
                     <span>Length: <strong className="text-[#E5E1DB]">{data?.word_count || 0} Words</strong></span>
                   </div>
+
+                  {data?.person_id && (
+                    <div className="mt-5 inline-flex items-center gap-4 px-4 py-2.5 rounded-xl bg-[#171412] border border-[#C68B59]/40 shadow-lg text-left">
+                      <div className="flex items-center gap-2.5">
+                        <div className="w-8 h-8 rounded-lg bg-[#C68B59]/20 border border-[#C68B59]/30 flex items-center justify-center shrink-0">
+                          <User className="w-4 h-4 text-[#C68B59]" />
+                        </div>
+                        <div>
+                          <span className="text-[10px] font-mono text-[#8C8275] uppercase tracking-wider block leading-tight">Associated Individual Profile</span>
+                          <strong className="text-sm text-[#F3EBE3]">{data.person_name}</strong>
+                          <span className="text-xs font-mono text-[#D4A373] ml-1.5">ID #{data.person_id}</span>
+                        </div>
+                      </div>
+                      {onSelectPerson && (
+                        <button
+                          onClick={() => {
+                            onClose();
+                            onSelectPerson(data.person_id);
+                          }}
+                          className="px-3 py-1.5 bg-[#C68B59] hover:bg-[#D4A373] text-[#0E0C0B] rounded-lg text-xs font-mono font-bold transition-all shadow flex items-center gap-1.5 shrink-0 cursor-pointer"
+                        >
+                          <span>View Profile</span>
+                          <ArrowRight className="w-3.5 h-3.5" />
+                        </button>
+                      )}
+                    </div>
+                  )}
                 </div>
               </div>
 
@@ -703,6 +730,27 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
                   
                   if (isDivider) {
                     return <hr key={idx} className="my-4 border-[#2A241F]" />;
+                  }
+
+                  if (line.startsWith('PRIMARY SUBJECT / PERSON:') && data?.person_id && onSelectPerson) {
+                    return (
+                      <div key={idx} className="my-3 p-3 rounded-xl bg-[#C68B59]/15 border border-[#C68B59]/40 flex items-center justify-between gap-3 text-xs font-mono">
+                        <div className="flex items-center gap-2">
+                          <User className="w-4 h-4 text-[#C68B59]" />
+                          <span className="text-[#F3EBE3] font-bold">{line}</span>
+                        </div>
+                        <button
+                          onClick={() => {
+                            onClose();
+                            onSelectPerson(data.person_id);
+                          }}
+                          className="px-3 py-1 bg-[#C68B59] hover:bg-[#D4A373] text-[#0E0C0B] rounded-lg text-xs font-bold transition-colors shrink-0 cursor-pointer flex items-center gap-1"
+                        >
+                          <span>Open Profile</span>
+                          <ArrowRight className="w-3 h-3" />
+                        </button>
+                      </div>
+                    );
                   }
 
                   if (isHeading) {

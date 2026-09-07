@@ -15,6 +15,7 @@ Provides REST API endpoints for:
 import os
 import sqlite3
 import re
+import json
 from fastapi import FastAPI, Query, HTTPException, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -39,9 +40,12 @@ app.add_middleware(
 
 # Serve canonical media assets
 os.makedirs(ARCHIVE_MEDIA_DIR, exist_ok=True)
+ANCESTRY_DOCS_DIR = os.path.join(OUTPUT_DIR, "ancestry_documents")
+os.makedirs(ANCESTRY_DOCS_DIR, exist_ok=True)
 app.mount("/assets/archive_media", StaticFiles(directory=ARCHIVE_MEDIA_DIR), name="archive_media")
 app.mount("/assets/images", StaticFiles(directory=ARCHIVE_MEDIA_DIR), name="images")
 app.mount("/assets/mitsawokett_photos", StaticFiles(directory=ARCHIVE_MEDIA_DIR), name="mitsawokett_photos")
+app.mount("/ancestry_documents", StaticFiles(directory=ANCESTRY_DOCS_DIR), name="ancestry_documents")
 
 def get_db():
     conn = sqlite3.connect(DB_PATH)
@@ -203,7 +207,8 @@ def get_surname_portal(surname: str):
     # Photos & breakdown
     c.execute("""
         SELECT upc.photo_id, upc.category, upc.normalized_filename, upc.local_image_path,
-               upc.subject_names, upc.approximate_year, upc.document_type
+               upc.subject_names, upc.approximate_year, upc.document_type,
+               upc.primary_person_id as person_id, upc.primary_person_name as person_name
         FROM photo_surnames ps
         JOIN unified_photo_catalog upc ON ps.photo_id = upc.photo_id
         WHERE LOWER(ps.surname) = LOWER(?)
@@ -390,10 +395,26 @@ def get_pdf_route(identifier: str):
 
 @app.get("/api/transcriptions/{identifier:path}")
 def get_transcription_endpoint(identifier: str):
+    raw_identifier = identifier
     if identifier.endswith(".json"):
         identifier = identifier[:-5]
     elif identifier.endswith(".pdf"):
         identifier = identifier[:-4]
+
+    # Check for direct transcription json file first
+    direct_json_paths = [
+        os.path.join(SCRIPT_DIR, "frontend", "public", "api", "transcriptions", f"{raw_identifier}"),
+        os.path.join(SCRIPT_DIR, "frontend", "public", "api", "transcriptions", f"{identifier}.json"),
+        os.path.join(SCRIPT_DIR, "frontend", "public", "api", "transcriptions", f"doc_{identifier}.json")
+    ]
+    for djp in direct_json_paths:
+        if os.path.exists(djp):
+            with open(djp, "r", encoding="utf-8") as f:
+                return json.load(f)
+
+    clean_id = identifier
+    if clean_id.startswith("doc_"):
+        clean_id = clean_id[4:]
 
     import urllib.parse
     conn = get_db()
@@ -401,7 +422,7 @@ def get_transcription_endpoint(identifier: str):
 
     is_int = False
     try:
-        pid = int(identifier)
+        pid = int(clean_id)
         is_int = True
     except ValueError:
         is_int = False
@@ -420,7 +441,8 @@ def get_transcription_endpoint(identifier: str):
         c.execute("""
             SELECT photo_id, category, normalized_filename, original_filename,
                    local_image_path, subject_names, surname, given_names,
-                   approximate_year, document_type, dataset_source, source_url
+                   approximate_year, document_type, dataset_source, source_url,
+                   transcription
             FROM unified_photo_catalog
             WHERE photo_id = ?
         """, (pid,))
@@ -434,8 +456,10 @@ def get_transcription_endpoint(identifier: str):
             local_image = doc.get("local_image_path")
             original_filename = doc.get("original_filename")
             surname = doc.get("surname")
+            if doc.get("transcription"):
+                transcribed_text = doc.get("transcription")
 
-            if source_url:
+            if source_url and not transcribed_text:
                 slug = source_url.split("/")[-1]
                 slug_decoded = urllib.parse.unquote(slug)
                 slug_quoted = urllib.parse.quote(slug_decoded)
