@@ -294,56 +294,38 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
                 </linearGradient>
               </defs>
 
-              {/* Water Background: Delaware Bay & Chesapeake outlines (Schematic Stylized Geometry) */}
-              <g className="water-features" opacity="0.35">
-                {/* Delaware Bay water polygon */}
-                <path
-                  d="M 520,180 Q 560,260 620,380 T 710,540 L 800,560 L 800,180 Z"
-                  fill="#1E293B"
-                  stroke="#334155"
-                  strokeWidth="1"
-                />
-                {/* Chesapeake Bay western waters */}
-                <path
-                  d="M 50,420 Q 140,480 180,620 T 260,780 L 50,780 Z"
-                  fill="#1E293B"
-                  stroke="#334155"
-                  strokeWidth="1"
-                />
-                <text x="640" y="320" fill="#475569" fontSize="14" fontStyle="italic" fontFamily="serif" letterSpacing="4">
-                  DELAWARE BAY
-                </text>
-                <text x="100" y="580" fill="#475569" fontSize="14" fontStyle="italic" fontFamily="serif" letterSpacing="4">
-                  CHESAPEAKE BAY
-                </text>
-                <text x="810" y="650" fill="#475569" fontSize="14" fontStyle="italic" fontFamily="serif" letterSpacing="4">
-                  ATLANTIC
-                </text>
-              </g>
+              {/* AUTHENTIC 1800S HISTORICAL DELMARVA & MID-ATLANTIC MAP BACKDROP */}
+              <image
+                href="/assets/historical_clan_map.jpg"
+                x="0"
+                y="0"
+                width="1000"
+                height="800"
+                preserveAspectRatio="xMidYMid slice"
+                opacity="0.7"
+                style={{
+                  filter: 'contrast(1.2) sepia(0.35) brightness(0.85)',
+                  mixBlendMode: 'luminosity'
+                }}
+              />
 
-              {/* State Borders (Schematic Dashed Lines) */}
-              <g className="state-boundaries" stroke="#334155" strokeDasharray="4 4" strokeWidth="1.5" opacity="0.6">
-                {/* Mason-Dixon Arc / DE-MD North line */}
-                <line x1="200" y1="180" x2="520" y2="180" />
-                {/* DE-MD North-South Tangent Line */}
-                <line x1="260" y1="180" x2="260" y2="680" />
-                {/* DE-MD Transpeninsular South line */}
-                <line x1="260" y1="680" x2="720" y2="680" />
-                
-                {/* State Labels */}
-                <text x="360" y="140" fill="#64748B" fontSize="12" fontWeight="bold" fontFamily="monospace" letterSpacing="2">
-                  PENNSYLVANIA
-                </text>
-                <text x="140" y="360" fill="#64748B" fontSize="12" fontWeight="bold" fontFamily="monospace" letterSpacing="2">
-                  MARYLAND
-                </text>
-                <text x="380" y="380" fill="#94A3B8" fontSize="15" fontWeight="bold" fontFamily="monospace" letterSpacing="3">
-                  DELAWARE
-                </text>
-                <text x="680" y="240" fill="#64748B" fontSize="12" fontWeight="bold" fontFamily="monospace" letterSpacing="2">
-                  NEW JERSEY
-                </text>
-              </g>
+              {/* Dark Vintage Vignette Overlay for App Aesthetics */}
+              <rect
+                x="0"
+                y="0"
+                width="1000"
+                height="800"
+                fill="url(#gradient-vignette)"
+                opacity="0.65"
+                pointerEvents="none"
+              />
+
+              <defs>
+                <radialGradient id="gradient-vignette" cx="50%" cy="50%" r="65%">
+                  <stop offset="60%" stopColor="#0C1015" stopOpacity="0" />
+                  <stop offset="100%" stopColor="#0C1015" stopOpacity="0.95" />
+                </radialGradient>
+              </defs>
 
               {/* MIGRATION CORRIDORS (Arcs with animated stroke) */}
               {activeCorridorFilter !== 'cemeteries_only' && (
