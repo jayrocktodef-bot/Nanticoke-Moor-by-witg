@@ -1,68 +1,64 @@
-import React, { useState, useEffect } from 'react';
-import { Search, HeartHandshake, Calendar, MapPin, ExternalLink, User, Volume2, VolumeX, BookOpen, ShieldCheck } from 'lucide-react';
+import React, { useState, useEffect, useMemo } from 'react';
+import { Search, HeartHandshake, Calendar, MapPin, ExternalLink, User, Volume2, VolumeX, BookOpen, ShieldCheck, ChevronDown } from 'lucide-react';
 import CitationModal from './CitationModal';
+import { fetchCachedJson } from '../utils/apiCache';
 
 export default function ObituaryViewer({ onSelectPerson }) {
-  const [obituaries, setObituaries] = useState([]);
+  const [allObituaries, setAllObituaries] = useState([]);
   const [search, setSearch] = useState('');
   const [selectedObit, setSelectedObit] = useState(null);
   const [expandedObitId, setExpandedObitId] = useState(null);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [visibleCount, setVisibleCount] = useState(24);
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   const [isCitationOpen, setIsCitationOpen] = useState(false);
 
-  const fetchObits = async (q = '') => {
-    setLoading(true);
-    try {
-      let data = null;
-      // 1. Try static /api/obituaries.json
-      try {
-        const res = await fetch('/api/obituaries.json');
-        if (res.ok && (res.headers.get('content-type') || '').includes('application/json')) {
-          data = await res.json();
-        }
-      } catch (e) {
-        // Fallback to server endpoint
-      }
-
-      // 2. Try dynamic /api/obituaries
-      if (!data) {
-        const res = await fetch('/api/obituaries');
-        if (res.ok) {
-          data = await res.json();
-        }
-      }
-
-      const list = Array.isArray(data) ? data : data?.obituaries || [];
-      list.sort((a, b) => (a.deceased_name || '').localeCompare(b.deceased_name || '', undefined, { sensitivity: 'base' }));
-
-      if (q.trim()) {
-        const lowerQ = q.toLowerCase();
-        const filtered = list.filter(o => 
-          o.deceased_name?.toLowerCase().includes(lowerQ) ||
-          o.full_text?.toLowerCase().includes(lowerQ) ||
-          o.cemetery_location?.toLowerCase().includes(lowerQ)
-        );
-        setObituaries(filtered);
-      } else {
-        setObituaries(list);
-      }
-    } catch (err) {
-      console.error('Failed to load obituaries:', err);
-      setObituaries([]);
-    } finally {
-      setLoading(false);
-    }
-  };
-
   useEffect(() => {
-    fetchObits();
+    let isMounted = true;
+    setLoading(true);
+
+    const loadData = async () => {
+      try {
+        let data = null;
+        try {
+          data = await fetchCachedJson('/api/obituaries.json');
+        } catch (e) {
+          data = await fetchCachedJson('/api/obituaries');
+        }
+
+        const list = Array.isArray(data) ? data : data?.obituaries || [];
+        list.sort((a, b) => (a.deceased_name || '').localeCompare(b.deceased_name || '', undefined, { sensitivity: 'base' }));
+
+        if (isMounted) {
+          setAllObituaries(list);
+          setLoading(false);
+        }
+      } catch (err) {
+        console.error('Failed to load obituaries:', err);
+        if (isMounted) {
+          setAllObituaries([]);
+          setLoading(false);
+        }
+      }
+    };
+
+    loadData();
+    return () => { isMounted = false; };
   }, []);
 
+  const filteredObituaries = useMemo(() => {
+    if (!search.trim()) return allObituaries;
+    const lowerQ = search.toLowerCase().trim();
+    return allObituaries.filter(o => 
+      o.deceased_name?.toLowerCase().includes(lowerQ) ||
+      o.full_text?.toLowerCase().includes(lowerQ) ||
+      o.cemetery_location?.toLowerCase().includes(lowerQ)
+    );
+  }, [allObituaries, search]);
+
   const handleSearch = (e) => {
-    const q = e.target.value;
-    setSearch(q);
-    fetchObits(q);
+    setSearch(e.target.value);
+    setVisibleCount(24);
   };
 
   const handleToggleAudio = (text) => {
@@ -121,86 +117,106 @@ export default function ObituaryViewer({ onSelectPerson }) {
           <p className="text-xs font-mono tracking-wider uppercase">Loading broadsheet vault…</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          {obituaries.map(obit => (
-            <div
-              key={obit.id}
-              onClick={() => setSelectedObit(obit)}
-              className="glass-panel glass-card-hover rounded-2xl p-6 cursor-pointer flex flex-col justify-between group relative overflow-hidden"
-            >
-              <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-[#C87D53]/10 to-transparent pointer-events-none" />
+        <>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            {filteredObituaries.slice(0, visibleCount).map(obit => (
+              <div
+                key={obit.id}
+                style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 220px' }}
+                onClick={() => setSelectedObit(obit)}
+                className="glass-panel glass-card-hover rounded-2xl p-6 cursor-pointer flex flex-col justify-between group relative overflow-hidden"
+              >
+                <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-[#C87D53]/10 to-transparent pointer-events-none" />
 
-              <div>
-                <div className="flex items-start justify-between gap-3 mb-3">
-                  <div className="flex items-center gap-2.5">
-                    <HeartHandshake className="w-4 h-4 text-[#C87D53] shrink-0" />
-                    <h3 className="font-bold text-lg text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors font-serif-header">
-                      {obit.deceased_name}
-                    </h3>
+                <div>
+                  <div className="flex items-start justify-between gap-3 mb-3">
+                    <div className="flex items-center gap-2.5">
+                      <HeartHandshake className="w-4 h-4 text-[#C87D53] shrink-0" />
+                      <h3 className="font-bold text-lg text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors font-serif-header">
+                        {obit.deceased_name}
+                      </h3>
+                    </div>
+                    {obit.age && (
+                      <span className="text-[11px] bg-[#1B3B2B] text-[#E5B269] border border-[#C87D53]/30 px-2.5 py-0.5 rounded-full font-mono shrink-0">
+                        Age {obit.age}
+                      </span>
+                    )}
                   </div>
-                  {obit.age && (
-                    <span className="text-[11px] bg-[#1B3B2B] text-[#E5B269] border border-[#C87D53]/30 px-2.5 py-0.5 rounded-full font-mono shrink-0">
-                      Age {obit.age}
-                    </span>
+
+                  <div className="flex flex-wrap gap-4 text-xs text-[#9EA9B6] mb-4">
+                    {(obit.birth_date || obit.death_date) && (
+                      <span className="flex items-center gap-1.5 font-mono text-[11px]">
+                        <Calendar className="w-3.5 h-3.5 text-[#D4A373]" />
+                        {obit.birth_date ? `${obit.birth_date} – ` : ''}{obit.death_date || 'Date N/A'}
+                      </span>
+                    )}
+                    {obit.cemetery_location && (
+                      <span className="flex items-center gap-1.5 truncate max-w-[220px] text-[11px]">
+                        <MapPin className="w-3.5 h-3.5 text-[#C87D53]" />
+                        {obit.cemetery_location}
+                      </span>
+                    )}
+                  </div>
+
+                  {expandedObitId === obit.id ? (
+                    <div className="text-xs text-[#F3EBE3] leading-relaxed bg-[#0F141A]/90 p-4 rounded-xl border border-[#C87D53]/30 whitespace-pre-wrap font-editorial-body drop-cap text-base">
+                      {obit.full_text}
+                    </div>
+                  ) : (
+                    <p className="text-sm text-[#9EA9B6] line-clamp-3 leading-relaxed font-editorial-body">
+                      {obit.full_text}
+                    </p>
                   )}
                 </div>
 
-                <div className="flex flex-wrap gap-4 text-xs text-[#9EA9B6] mb-4">
-                  {(obit.birth_date || obit.death_date) && (
-                    <span className="flex items-center gap-1.5 font-mono text-[11px]">
-                      <Calendar className="w-3.5 h-3.5 text-[#D4A373]" />
-                      {obit.birth_date ? `${obit.birth_date} – ` : ''}{obit.death_date || 'Date N/A'}
-                    </span>
-                  )}
-                  {obit.cemetery_location && (
-                    <span className="flex items-center gap-1.5 truncate max-w-[220px] text-[11px]">
-                      <MapPin className="w-3.5 h-3.5 text-[#C87D53]" />
-                      {obit.cemetery_location}
-                    </span>
-                  )}
-                </div>
-
-                {expandedObitId === obit.id ? (
-                  <div className="text-xs text-[#F3EBE3] leading-relaxed bg-[#0F141A]/90 p-4 rounded-xl border border-[#C87D53]/30 whitespace-pre-wrap font-editorial-body drop-cap text-base">
-                    {obit.full_text}
-                  </div>
-                ) : (
-                  <p className="text-sm text-[#9EA9B6] line-clamp-3 leading-relaxed font-editorial-body">
-                    {obit.full_text}
-                  </p>
-                )}
-              </div>
-
-              <div className="mt-5 pt-3 border-t border-[#2A3644] flex items-center justify-between text-[11px]">
-                <button
-                  type="button"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setExpandedObitId(expandedObitId === obit.id ? null : obit.id);
-                  }}
-                  className="text-[#C87D53] hover:text-[#D4A373] font-mono font-semibold underline"
-                >
-                  {expandedObitId === obit.id ? 'Collapse Text ▲' : 'Expand Broadsheet ▼'}
-                </button>
-                {obit.person_id ? (
+                <div className="mt-5 pt-3 border-t border-[#2A3644] flex items-center justify-between text-[11px]">
                   <button
                     type="button"
                     onClick={(e) => {
                       e.stopPropagation();
-                      onSelectPerson && onSelectPerson(obit.person_id);
+                      setExpandedObitId(expandedObitId === obit.id ? null : obit.id);
                     }}
-                    className="text-[#D4A373] hover:text-[#F3EBE3] font-mono font-medium hover:underline flex items-center gap-1.5"
+                    className="text-[#D4A373] hover:text-[#F3EBE3] font-mono transition-colors"
                   >
-                    <User className="w-3.5 h-3.5 text-[#C87D53]" />
-                    Profile #{obit.person_id} →
+                    {expandedObitId === obit.id ? 'Collapse text ↑' : 'Quick read ↓'}
                   </button>
-                ) : (
-                  <span className="text-[#C87D53] group-hover:underline font-mono">View Details →</span>
-                )}
+
+                  {obit.person_id && onSelectPerson ? (
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onSelectPerson(obit.person_id);
+                      }}
+                      className="px-2.5 py-1 bg-[#1B3B2B] text-[#E5B269] hover:bg-[#C87D53] hover:text-[#0F141A] rounded-lg font-mono transition-all flex items-center gap-1"
+                    >
+                      <User className="w-3.5 h-3.5 text-[#C87D53]" />
+                      Profile #{obit.person_id} →
+                    </button>
+                  ) : (
+                    <span className="text-[#C87D53] group-hover:underline font-mono">View Details →</span>
+                  )}
+                </div>
               </div>
+            ))}
+          </div>
+
+          {/* Load More Pagination */}
+          {filteredObituaries.length > visibleCount && (
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4 p-4 bg-[#141210] border border-[#26221E] rounded-2xl mt-6">
+              <span className="text-xs font-mono text-[#A8A096]">
+                Showing <strong className="text-[#F3EBE3]">{Math.min(visibleCount, filteredObituaries.length)}</strong> of <strong className="text-[#C68B59]">{filteredObituaries.length}</strong> preserved notices
+              </span>
+              <button
+                onClick={() => setVisibleCount(prev => Math.min(prev + 24, filteredObituaries.length))}
+                className="px-5 py-2.5 bg-[#C68B59] hover:bg-[#D4A373] text-[#121110] font-mono font-bold text-xs rounded-xl transition-all shadow-md active:scale-95 flex items-center gap-2"
+              >
+                <span>Load Next {Math.min(24, filteredObituaries.length - visibleCount)} Notices</span>
+                <ChevronDown className="w-4 h-4" />
+              </button>
             </div>
-          ))}
-        </div>
+          )}
+        </>
       )}
 
       {/* Editorial Broadsheet Lightbox Modal */}

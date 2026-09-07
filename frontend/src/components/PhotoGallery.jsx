@@ -1,12 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { createPortal } from 'react-dom';
-import { Camera, Users, ChevronRight, ArrowLeft, Calendar, ExternalLink, Play, Square, Sparkles, X, FileText } from 'lucide-react';
+import { Camera, Users, ChevronRight, ArrowLeft, Calendar, ExternalLink, Play, Square, Sparkles, X, FileText, ChevronDown } from 'lucide-react';
 import TranscribedDocumentView from './TranscribedDocumentView';
+import { fetchCachedJson } from '../utils/apiCache';
+
+const PAGE_CHUNK = 48;
 
 export default function PhotoGallery() {
   const [surnameCounts, setSurnameCounts] = useState([]);
   const [selectedSurname, setSelectedSurname] = useState(null);
   const [photos, setPhotos] = useState([]);
+  const [visibleCount, setVisibleCount] = useState(PAGE_CHUNK);
   const [lightboxPhoto, setLightboxPhoto] = useState(null);
   const [transcribedDocId, setTranscribedDocId] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -53,8 +57,7 @@ export default function PhotoGallery() {
   };
 
   useEffect(() => {
-    fetch('/api/surnames.json')
-      .then(r => r.json())
+    fetchCachedJson('/api/surnames.json')
       .then(data => {
         const countsArr = data
           .filter(s => s.photo_count > 0)
@@ -66,8 +69,7 @@ export default function PhotoGallery() {
         setSurnameCounts(countsArr);
       })
       .catch(() => {
-        fetch('/api/photos.json')
-          .then(r => r.json())
+        fetchCachedJson('/api/photos.json')
           .then(data => {
             const countsMap = {};
             data.forEach(p => {
@@ -79,15 +81,16 @@ export default function PhotoGallery() {
             const countsArr = Object.entries(countsMap).map(([surname, photo_count]) => ({ surname, photo_count }));
             countsArr.sort((a, b) => a.surname.localeCompare(b.surname));
             setSurnameCounts(countsArr);
-          });
+          })
+          .catch(console.error);
       });
   }, []);
 
   const handleSelectSurname = (surname) => {
     setSelectedSurname(surname);
+    setVisibleCount(PAGE_CHUNK);
     setLoading(true);
-    fetch(`/api/surnames/${surname}.json`)
-      .then(r => r.json())
+    fetchCachedJson(`/api/surnames/${surname}.json`)
       .then(data => {
         let list = data.photos || [];
         if (categoryTab !== 'all') {
@@ -97,8 +100,7 @@ export default function PhotoGallery() {
         setLoading(false);
       })
       .catch(() => {
-        fetch('/api/photos.json')
-          .then(r => r.json())
+        fetchCachedJson('/api/photos.json')
           .then(data => {
             const lowerS = surname.toLowerCase();
             let filtered = data.filter(p => 
@@ -112,16 +114,17 @@ export default function PhotoGallery() {
             }
             setPhotos(filtered);
             setLoading(false);
-          });
+          })
+          .catch(() => setLoading(false));
       });
   };
 
   const handleShowAll = (tabOverride) => {
     const tab = tabOverride !== undefined ? tabOverride : categoryTab;
     setSelectedSurname(null);
+    setVisibleCount(PAGE_CHUNK);
     setLoading(true);
-    fetch('/api/photos.json')
-      .then(r => r.json())
+    fetchCachedJson('/api/photos.json')
       .then(data => {
         let filtered = data;
         if (tab !== 'all') {
@@ -341,9 +344,9 @@ export default function PhotoGallery() {
         </div>
       )}
 
-      {/* Grid */}
+      {/* Grid with Content Visibility Optimization */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-        {photos.map(photo => {
+        {photos.slice(0, visibleCount).map(photo => {
           const isDoc = photo.category === 'documents' || 
             matchCategory(photo, 'documents') || 
             (photo.local_image_path && photo.local_image_path.includes('/documents/')) ||
@@ -354,6 +357,7 @@ export default function PhotoGallery() {
           return (
             <div
               key={photo.photo_id}
+              style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 260px' }}
               onClick={() => {
                 if (isDoc) {
                   setTranscribedDocId(photo.photo_id);
@@ -369,6 +373,7 @@ export default function PhotoGallery() {
                   alt={photo.subject_names || photo.title_or_caption}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
+                  decoding="async"
                   onError={e => { e.target.style.display = 'none'; }}
                 />
                 {/* Document Transcribed Badge */}
@@ -402,6 +407,22 @@ export default function PhotoGallery() {
           );
         })}
       </div>
+
+      {/* Load More Pagination Bar */}
+      {photos.length > visibleCount && (
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 p-4 bg-[#141210] border border-[#26221E] rounded-2xl">
+          <span className="text-xs font-mono text-[#A8A096]">
+            Showing <strong className="text-[#F3EBE3]">{Math.min(visibleCount, photos.length)}</strong> of <strong className="text-[#C68B59]">{photos.length}</strong> cataloged media items
+          </span>
+          <button
+            onClick={() => setVisibleCount(prev => Math.min(prev + PAGE_CHUNK, photos.length))}
+            className="px-5 py-2.5 bg-[#C68B59] hover:bg-[#D4A373] text-[#121110] font-mono font-bold text-xs rounded-xl transition-all shadow-md active:scale-95 flex items-center gap-2"
+          >
+            <span>Load Next {Math.min(PAGE_CHUNK, photos.length - visibleCount)} Items</span>
+            <ChevronDown className="w-4 h-4" />
+          </button>
+        </div>
+      )}
 
       {/* Lightbox Modal rendered via Portal in document.body */}
       {lightboxPhoto && typeof document !== 'undefined' && createPortal(

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { AlertTriangle, CheckCircle2, XCircle, GitMerge, Trash2, Eye, ChevronDown, Filter } from 'lucide-react';
+import { fetchCachedJson } from '../utils/apiCache';
 
 const SEVERITY_STYLES = {
   critical: { bg: 'bg-red-500/10', border: 'border-red-500/30', text: 'text-red-400', icon: '🔴', label: 'Critical' },
@@ -18,6 +19,8 @@ const CATEGORY_LABELS = {
   orphaned: 'Orphaned Reference',
   orphaned_media: 'Missing Media',
   merge_quality: 'Merge Quality',
+  living_privacy: 'Living Individual Privacy',
+  unverified_claim: 'Unverified Oral Claim'
 };
 
 export default function AuditResolutionPanel() {
@@ -28,15 +31,13 @@ export default function AuditResolutionPanel() {
   const [expandedId, setExpandedId] = useState(null);
 
   const fetchFlags = () => {
-    fetch('/api/audit/flags.json')
-      .then(r => r.json())
+    fetchCachedJson('/api/audit/flags.json')
       .then(setFlags)
       .catch(() => setFlags([]));
   };
 
   const fetchSummary = () => {
-    fetch('/api/audit/summary.json')
-      .then(r => r.json())
+    fetchCachedJson('/api/audit/summary.json')
       .then(setSummary)
       .catch(() => setSummary([]));
   };

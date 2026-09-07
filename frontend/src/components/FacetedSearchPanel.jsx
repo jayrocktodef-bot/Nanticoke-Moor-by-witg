@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Search, Filter, Calendar, MapPin, Tag, User, RotateCcw, ChevronRight, Sparkles, BookOpen, Layers } from 'lucide-react';
+import { fetchCachedJson } from '../utils/apiCache';
 
 export default function FacetedSearchPanel({ onSelectPerson }) {
   const [persons, setPersons] = useState([]);
@@ -19,8 +20,7 @@ export default function FacetedSearchPanel({ onSelectPerson }) {
   const pageSize = 20;
 
   useEffect(() => {
-    fetch('/api/graph.json')
-      .then(res => res.json())
+    fetchCachedJson('/api/graph.json')
       .then(data => {
         const nodeList = (data.nodes || []).map(n => ({
           id: n.id,

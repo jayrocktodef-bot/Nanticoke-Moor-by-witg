@@ -5,6 +5,7 @@ import {
   FileText, ExternalLink, Calendar, MapPin, ChevronRight, X, Sparkles, Filter, Printer
 } from 'lucide-react';
 import TranscribedDocumentView from './TranscribedDocumentView';
+import { fetchCachedJson } from '../utils/apiCache';
 
 export default function SurnamePortalView({ surname, onClose, onSelectPerson, onOpenGraph }) {
   const [data, setData] = useState(null);
@@ -23,8 +24,7 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
   useEffect(() => {
     if (!surname) return;
     setLoading(true);
-    fetch(`/api/surnames/${surname}.json`)
-      .then(r => r.json())
+    fetchCachedJson(`/api/surnames/${surname}.json`)
       .then(res => {
         setData(res);
         setLoading(false);

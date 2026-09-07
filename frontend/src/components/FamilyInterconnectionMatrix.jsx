@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { GitCommit, Users, HeartHandshake, Search, Sparkles, ExternalLink, ArrowRight, ShieldCheck, MapPin, Maximize2, X, Compass, Layers } from 'lucide-react';
+import { fetchCachedJson } from '../utils/apiCache';
 
 const CLAN_MAP_HOTSPOTS = [
   { id: 'millsboro', name: 'Millsboro & Indian River, DE', x: 53.5, y: 60.9, families: ['Davis', 'Harmon', 'Sockum', 'Street', 'Wright'], region: 'Delaware Peninsula', desc: 'Nanticoke Tribal seat & core maternal homesteads' },
@@ -38,8 +39,7 @@ export default function FamilyInterconnectionMatrix({ onSelectSurname }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/api/family-interconnections.json')
-      .then(r => r.json())
+    fetchCachedJson('/api/family-interconnections.json')
       .then(data => {
         setTies(data);
         setLoading(false);

@@ -350,8 +350,7 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
 
   // Load Cemeteries from API (updates with rich tombstones if available)
   useEffect(() => {
-    fetch('/api/cemeteries.json')
-      .then(res => res.json())
+    fetchCachedJson('/api/cemeteries.json')
       .then(data => {
         if (data?.cemeteries && data.cemeteries.length > 0) {
           setCemeteries(data.cemeteries);

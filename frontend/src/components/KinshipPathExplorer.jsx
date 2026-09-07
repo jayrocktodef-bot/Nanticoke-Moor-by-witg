@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { GitCommit, User, ArrowRight, Sparkles, Copy, Check, Search, Share2 } from 'lucide-react';
+import { fetchCachedJson } from '../utils/apiCache';
 
 export default function KinshipPathExplorer({ onSelectPerson }) {
   const [graphData, setGraphData] = useState({ nodes: [], edges: [] });
@@ -10,8 +11,7 @@ export default function KinshipPathExplorer({ onSelectPerson }) {
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
-    fetch('/api/graph.json')
-      .then(res => res.json())
+    fetchCachedJson('/api/graph.json')
       .then(data => {
         setGraphData(data);
         setLoading(false);

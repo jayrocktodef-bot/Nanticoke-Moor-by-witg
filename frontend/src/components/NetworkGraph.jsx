@@ -3,6 +3,7 @@ import { Network } from 'vis-network';
 import { DataSet } from 'vis-data';
 import { ZoomIn, ZoomOut, RotateCcw, GitBranch, Search, Users, LayoutGrid, Network as NetworkIcon, ChevronRight, User, Maximize2, Minimize2, Sparkles, X, Target, Lock } from 'lucide-react';
 import GenerationalTreeView from './GenerationalTreeView';
+import { fetchCachedJson } from '../utils/apiCache';
 
 const EDGE_STYLES = {
   child_of: { color: '#f59e0b', highlight: '#fbbf24', dashes: false, width: 2.5, label: 'Child of' },
@@ -24,8 +25,7 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
 
   // Fetch precomputed static generational & clan layout coordinates
   useEffect(() => {
-    fetch('/api/layout.json')
-      .then(res => res.json())
+    fetchCachedJson('/api/layout.json')
       .then(setStaticLayout)
       .catch(console.error);
   }, []);

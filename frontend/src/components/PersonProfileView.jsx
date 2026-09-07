@@ -4,6 +4,7 @@ import { User, Users, Camera, HeartHandshake, FileText, ExternalLink, Calendar, 
 import FanChart from './FanChart';
 import CitationModal from './CitationModal';
 import NarrativeBioGenerator from './NarrativeBioGenerator';
+import { fetchCachedJson } from '../utils/apiCache';
 
 export default function PersonProfileView({ personId, onClose, onSelectPerson }) {
   const [profile, setProfile] = useState(null);
@@ -14,8 +15,7 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
   useEffect(() => {
     if (!personId) return;
     setLoading(true);
-    fetch(`/api/person/${personId}.json`)
-      .then(r => r.json())
+    fetchCachedJson(`/api/person/${personId}.json`)
       .then(data => {
         setProfile(data);
         setLoading(false);

@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import { User, Users, Camera, HeartHandshake, FileText, ExternalLink, Calendar, GitBranch, X, BookOpen } from 'lucide-react';
 import FanChart from './FanChart';
 import CitationModal from './CitationModal';
+import { fetchCachedJson } from '../utils/apiCache';
 
 export default function PersonProfileDrawer({ personId, onClose, onSelectPerson }) {
   const [profile, setProfile] = useState(null);
@@ -14,8 +15,7 @@ export default function PersonProfileDrawer({ personId, onClose, onSelectPerson 
   useEffect(() => {
     if (!personId) return;
     setLoading(true);
-    fetch(`/api/person/${personId}.json`)
-      .then(r => r.json())
+    fetchCachedJson(`/api/person/${personId}.json`)
       .then(data => {
         setProfile(data);
         setLoading(false);

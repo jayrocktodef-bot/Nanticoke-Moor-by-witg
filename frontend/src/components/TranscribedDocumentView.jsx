@@ -7,6 +7,7 @@ import {
 } from 'lucide-react';
 import { jsPDF } from 'jspdf';
 import CitationModal from './CitationModal';
+import { fetchCachedJson } from '../utils/apiCache';
 
 export default function TranscribedDocumentView({ identifier, initialData, onClose, onSelectPerson }) {
   const [data, setData] = useState(initialData || null);
@@ -26,8 +27,9 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
 
   const speechRef = useRef(null);
 
+  // Defer heavy jsPDF generation so the modal opens instantaneously
   const pdfBlobUrl = useMemo(() => {
-    if (!data) return null;
+    if (!data || !showPdfMode) return null;
     try {
       const doc = new jsPDF({ orientation: 'p', unit: 'mm', format: 'a4' });
       const pageWidth = doc.internal.pageSize.getWidth();
@@ -259,11 +261,8 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
 
       for (const ep of endpoints) {
         try {
-          const r = await fetch(ep);
-          const ct = r.headers.get('content-type') || '';
-          if (r.ok && ct.includes('application/json')) {
-            const res = await r.json();
-            if (res) {
+          const res = await fetchCachedJson(ep);
+          if (res) {
               if (!res.lines && res.text_content) {
                 res.lines = res.text_content.split('\n').map(l => l.trim()).filter(Boolean);
                 res.full_text = res.text_content;
@@ -289,7 +288,6 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
               setLoading(false);
               return;
             }
-          }
         } catch (e) {
           // continue to next endpoint
         }

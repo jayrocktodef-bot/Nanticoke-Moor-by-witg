@@ -11,6 +11,7 @@ import KinshipPathExplorer from './KinshipPathExplorer';
 import DNAMatchExplorer from './DNAMatchExplorer';
 import OralHistoryPlayer from './OralHistoryPlayer';
 import { trackPageView, trackEvent } from '../utils/analytics';
+import { fetchCachedJson } from '../utils/apiCache';
 
 // Lazy load heavy components for instant initial page loading & reduced JS bundle size
 const NetworkGraph = lazy(() => import('./NetworkGraph'));
@@ -23,6 +24,7 @@ const HistoricalMigrationMap = lazy(() => import('./HistoricalMigrationMap'));
 
 export default function HomeScreen() {
   const [activeTab, setActiveTab] = useState('surnames');
+  const [visitedTabs, setVisitedTabs] = useState(() => new Set(['surnames']));
   const [stats, setStats] = useState({ pages: 0, media_assets: 0, persons: 0, relationships: 0 });
   const [surnames, setSurnames] = useState([]);
   const [graphData, setGraphData] = useState({ nodes: [], edges: [] });
@@ -53,14 +55,25 @@ export default function HomeScreen() {
   // Track tab changes in Google Analytics
   const handleTabChange = (tabId) => {
     setActiveTab(tabId);
+    setVisitedTabs(prev => new Set(prev).add(tabId));
     trackPageView(`/${tabId}`, `Tab: ${tabId}`);
     trackEvent('switch_tab', 'navigation', tabId);
   };
 
   useEffect(() => {
-    fetch('/api/stats.json').then(res => res.json()).then(setStats).catch(console.error);
-    fetch('/api/surnames.json').then(res => res.json()).then(setSurnames).catch(console.error);
-    fetch('/api/graph.json').then(res => res.json()).then(setGraphData).catch(console.error);
+    fetchCachedJson('/api/stats.json').then(setStats).catch(console.error);
+    fetchCachedJson('/api/surnames.json').then(setSurnames).catch(console.error);
+
+    // Idle-preload graph data in background so initial paint is instant
+    if (typeof window !== 'undefined' && 'requestIdleCallback' in window) {
+      window.requestIdleCallback(() => {
+        fetchCachedJson('/api/graph.json').then(setGraphData).catch(console.error);
+      });
+    } else {
+      setTimeout(() => {
+        fetchCachedJson('/api/graph.json').then(setGraphData).catch(console.error);
+      }, 1000);
+    }
 
     // Deep link support for surname portals: ?portal=Davis or ?surname=Davis
     const params = new URLSearchParams(window.location.search);
@@ -78,8 +91,8 @@ export default function HomeScreen() {
   const handleSelectSurname = (surname) => {
     setSelectedSurname(surname);
     setActiveTab('graph');
-    fetch('/api/graph.json')
-      .then(res => res.json())
+    setVisitedTabs(prev => new Set(prev).add('graph'));
+    fetchCachedJson('/api/graph.json')
       .then(data => {
         if (surname && data.nodes) {
           const lowerS = surname.toLowerCase();
@@ -780,115 +793,175 @@ export default function HomeScreen() {
           </div>
         }>
           {/* Tab 2: Interconnections */}
-          {activeTab === 'interconnections' && (
-            <FamilyInterconnectionMatrix onSelectSurname={handleSelectSurname} />
-          )}
+          <div
+            className={activeTab === 'interconnections' ? 'block' : 'hidden'}
+            style={{ contentVisibility: activeTab === 'interconnections' ? 'visible' : 'hidden' }}
+          >
+            {visitedTabs.has('interconnections') && (
+              <FamilyInterconnectionMatrix onSelectSurname={handleSelectSurname} />
+            )}
+          </div>
 
           {/* Tab: Historical Migration Corridors & Cemetery Atlas */}
-          {activeTab === 'migration_map' && (
-            <HistoricalMigrationMap onSelectPerson={(pid) => setSelectedPersonId(pid)} />
-          )}
+          <div
+            className={activeTab === 'migration_map' ? 'block' : 'hidden'}
+            style={{ contentVisibility: activeTab === 'migration_map' ? 'visible' : 'hidden' }}
+          >
+            {visitedTabs.has('migration_map') && (
+              <HistoricalMigrationMap onSelectPerson={(pid) => setSelectedPersonId(pid)} />
+            )}
+          </div>
 
           {/* Tab 3: Lineage Graph */}
-          {activeTab === 'graph' && (
-            <div className="h-[620px] flex flex-col">
-              <div className="mb-4 flex justify-between items-center">
-                <div>
-                  <h2 className="font-serif-header text-xl font-bold text-[#F3EBE3]">
-                    {selectedSurname ? `${selectedSurname} Lineage Graph` : 'Interactive Family Tree & Network'}
-                  </h2>
-                  <p className="text-xs text-[#A8A096]">Click any individual node to inspect their preserved source record.</p>
+          <div
+            className={activeTab === 'graph' ? 'block' : 'hidden'}
+            style={{ contentVisibility: activeTab === 'graph' ? 'visible' : 'hidden' }}
+          >
+            {visitedTabs.has('graph') && (
+              <div className="h-[620px] flex flex-col">
+                <div className="mb-4 flex justify-between items-center">
+                  <div>
+                    <h2 className="font-serif-header text-xl font-bold text-[#F3EBE3]">
+                      {selectedSurname ? `${selectedSurname} Lineage Graph` : 'Interactive Family Tree & Network'}
+                    </h2>
+                    <p className="text-xs text-[#A8A096]">Click any individual node to inspect their preserved source record.</p>
+                  </div>
+                  {selectedSurname && (
+                    <button
+                      onClick={() => {
+                        setSelectedSurname(null);
+                        fetchCachedJson('/api/graph.json').then(setGraphData);
+                      }}
+                      className="text-xs bg-[#1C1A17] hover:bg-[#26221E] text-[#D4A373] border border-[#332D27] px-3 py-1.5 rounded-lg"
+                    >
+                      Clear Filter
+                    </button>
+                  )}
                 </div>
-                {selectedSurname && (
-                  <button
-                    onClick={() => {
-                      setSelectedSurname(null);
-                      fetch('/api/graph.json').then(res => res.json()).then(setGraphData);
-                    }}
-                    className="text-xs bg-[#1C1A17] hover:bg-[#26221E] text-[#D4A373] border border-[#332D27] px-3 py-1.5 rounded-lg"
-                  >
-                    Clear Filter
-                  </button>
-                )}
+                <div className="flex-1">
+                  <NetworkGraph
+                    graphData={graphData}
+                    onSelectNode={(node) => setSelectedPersonId(node.id)}
+                    defaultViewFormat={selectedSurname ? 'network' : 'focus'}
+                  />
+                </div>
               </div>
-              <div className="flex-1">
-                <NetworkGraph
-                  graphData={graphData}
-                  onSelectNode={(node) => setSelectedPersonId(node.id)}
-                  defaultViewFormat={selectedSurname ? 'network' : 'focus'}
-                />
-              </div>
-            </div>
-          )}
+            )}
+          </div>
 
           {/* Tab 4: Bible & Records */}
-          {activeTab === 'records' && (
-            <div className="space-y-4">
-              <h2 className="font-serif-header text-xl font-bold text-[#F3EBE3]">Preserved Family Bibles & Historical Records</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {['Change_of_Race.htm', 'Winnesoccum.htm', 'bible-c.htm', 'bible-c1.htm', 'bible-j.htm', 'bible-r.htm', 'census.htm', 'census01.htm', 'taxlist.htm', 'probate.htm'].map((file, idx) => (
-                  <div
-                    key={idx}
-                    onClick={() => handleOpenRecord(file)}
-                    className="p-4 bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59]/60 rounded-xl cursor-pointer flex justify-between items-center transition-all group shadow-md"
-                  >
-                    <div className="flex items-center gap-3.5">
-                      <div className="p-2 bg-[#121110] border border-[#2D2722] text-[#C68B59] rounded-lg group-hover:border-[#C68B59]/40">
-                        <FileText className="w-5 h-5" />
+          <div
+            className={activeTab === 'records' ? 'block' : 'hidden'}
+            style={{ contentVisibility: activeTab === 'records' ? 'visible' : 'hidden' }}
+          >
+            {visitedTabs.has('records') && (
+              <div className="space-y-4">
+                <h2 className="font-serif-header text-xl font-bold text-[#F3EBE3]">Preserved Family Bibles & Historical Records</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {['Change_of_Race.htm', 'Winnesoccum.htm', 'bible-c.htm', 'bible-c1.htm', 'bible-j.htm', 'bible-r.htm', 'census.htm', 'census01.htm', 'taxlist.htm', 'probate.htm'].map((file, idx) => (
+                    <div
+                      key={idx}
+                      onClick={() => handleOpenRecord(file)}
+                      className="p-4 bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59]/60 rounded-xl cursor-pointer flex justify-between items-center transition-all group shadow-md"
+                    >
+                      <div className="flex items-center gap-3.5">
+                        <div className="p-2 bg-[#121110] border border-[#2D2722] text-[#C68B59] rounded-lg group-hover:border-[#C68B59]/40">
+                          <FileText className="w-5 h-5" />
+                        </div>
+                        <div>
+                          <span className="font-serif-header font-bold text-[#F3EBE3] group-hover:text-[#D4A373] text-sm block">
+                            {file}
+                          </span>
+                          <span className="text-xs text-[#8C8275] font-mono">Historical primary document record</span>
+                        </div>
                       </div>
-                      <div>
-                        <span className="font-serif-header font-bold text-[#F3EBE3] group-hover:text-[#D4A373] text-sm block">
-                          {file}
-                        </span>
-                        <span className="text-xs text-[#8C8275] font-mono">Historical primary document record</span>
-                      </div>
+                      <span className="text-xs text-[#C68B59] font-mono font-medium group-hover:underline">View Record →</span>
                     </div>
-                    <span className="text-xs text-[#C68B59] font-mono font-medium group-hover:underline">View Record →</span>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
-            </div>
-          )}
+            )}
+          </div>
 
           {/* Tab 5: Photo Gallery */}
-          {activeTab === 'gallery' && (
-            <PhotoGallery />
-          )}
+          <div
+            className={activeTab === 'gallery' ? 'block' : 'hidden'}
+            style={{ contentVisibility: activeTab === 'gallery' ? 'visible' : 'hidden' }}
+          >
+            {visitedTabs.has('gallery') && (
+              <PhotoGallery />
+            )}
+          </div>
 
           {/* Tab 6: Obituary Viewer */}
-          {activeTab === 'obituaries' && (
-            <ObituaryViewer onSelectPerson={(pid) => setSelectedPersonId(pid)} />
-          )}
+          <div
+            className={activeTab === 'obituaries' ? 'block' : 'hidden'}
+            style={{ contentVisibility: activeTab === 'obituaries' ? 'visible' : 'hidden' }}
+          >
+            {visitedTabs.has('obituaries') && (
+              <ObituaryViewer onSelectPerson={(pid) => setSelectedPersonId(pid)} />
+            )}
+          </div>
 
           {/* Tab 8: Faceted Search */}
-          {activeTab === 'faceted_search' && (
-            <FacetedSearchPanel onSelectPerson={(pid) => setSelectedPersonId(pid)} />
-          )}
+          <div
+            className={activeTab === 'faceted_search' ? 'block' : 'hidden'}
+            style={{ contentVisibility: activeTab === 'faceted_search' ? 'visible' : 'hidden' }}
+          >
+            {visitedTabs.has('faceted_search') && (
+              <FacetedSearchPanel onSelectPerson={(pid) => setSelectedPersonId(pid)} />
+            )}
+          </div>
 
           {/* Tab 9: Kinship Finder */}
-          {activeTab === 'kinship' && (
-            <KinshipPathExplorer onSelectPerson={(pid) => setSelectedPersonId(pid)} />
-          )}
+          <div
+            className={activeTab === 'kinship' ? 'block' : 'hidden'}
+            style={{ contentVisibility: activeTab === 'kinship' ? 'visible' : 'hidden' }}
+          >
+            {visitedTabs.has('kinship') && (
+              <KinshipPathExplorer onSelectPerson={(pid) => setSelectedPersonId(pid)} />
+            )}
+          </div>
 
           {/* Tab 10: DNA Cousin Browser */}
-          {activeTab === 'dna_matches' && (
-            <DNAMatchExplorer onSelectPerson={(pid) => setSelectedPersonId(pid)} />
-          )}
+          <div
+            className={activeTab === 'dna_matches' ? 'block' : 'hidden'}
+            style={{ contentVisibility: activeTab === 'dna_matches' ? 'visible' : 'hidden' }}
+          >
+            {visitedTabs.has('dna_matches') && (
+              <DNAMatchExplorer onSelectPerson={(pid) => setSelectedPersonId(pid)} />
+            )}
+          </div>
 
           {/* Tab 11: Oral History Vault */}
-          {activeTab === 'oral_history' && (
-            <OralHistoryPlayer />
-          )}
+          <div
+            className={activeTab === 'oral_history' ? 'block' : 'hidden'}
+            style={{ contentVisibility: activeTab === 'oral_history' ? 'visible' : 'hidden' }}
+          >
+            {visitedTabs.has('oral_history') && (
+              <OralHistoryPlayer />
+            )}
+          </div>
 
           {/* Tab 7: Sources Catalog */}
-          {activeTab === 'sources' && (
-            <SourcesCatalog onOpenRecord={handleOpenRecord} />
-          )}
+          <div
+            className={activeTab === 'sources' ? 'block' : 'hidden'}
+            style={{ contentVisibility: activeTab === 'sources' ? 'visible' : 'hidden' }}
+          >
+            {visitedTabs.has('sources') && (
+              <SourcesCatalog onOpenRecord={handleOpenRecord} />
+            )}
+          </div>
 
           {/* Tab 8: Audit Review */}
-          {activeTab === 'audit' && (
-            <AuditResolutionPanel />
-          )}
+          <div
+            className={activeTab === 'audit' ? 'block' : 'hidden'}
+            style={{ contentVisibility: activeTab === 'audit' ? 'visible' : 'hidden' }}
+          >
+            {visitedTabs.has('audit') && (
+              <AuditResolutionPanel />
+            )}
+          </div>
         </Suspense>
         </div>
 
