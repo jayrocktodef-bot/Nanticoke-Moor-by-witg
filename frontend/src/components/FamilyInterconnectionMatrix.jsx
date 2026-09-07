@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { GitCommit, Users, HeartHandshake, Search, Sparkles, ExternalLink, ArrowRight, ShieldCheck, MapPin, Maximize2, X, Compass, Layers } from 'lucide-react';
 
 const CLAN_MAP_HOTSPOTS = [
-  { id: 'millsboro', name: 'Millsboro & Indian River, DE', x: 80, y: 55, families: ['Davis', 'Harmon', 'Sockum', 'Street', 'Wright'], region: 'Delaware Peninsula', desc: 'Nanticoke Tribal seat & core maternal homesteads' },
-  { id: 'cheswold', name: 'Cheswold & Fork Branch, DE', x: 77, y: 46, families: ['Durham', 'Ridgeway', 'Carney', 'Sammons', 'Coker'], region: 'Central Delaware', desc: 'Moor community settlement & cemetery grounds' },
-  { id: 'gouldtown', name: 'Gouldtown & Bridgeton, NJ', x: 86, y: 38, families: ['Gould', 'Pierce', 'Cuff', 'Murray'], region: 'Southern New Jersey', desc: 'Colonial free person of color community hub' },
-  { id: 'vienna', name: 'Vienna & Nanticoke River, MD', x: 74, y: 58, families: ['Jackson', 'Handsor', 'Johnson', 'Cook'], region: 'Eastern Shore Maryland', desc: 'Nanticoke river fishery & timber trade corridors' },
-  { id: 'oak_orchard', name: 'Oak Orchard & Rehoboth, DE', x: 82, y: 56, families: ['Cook', 'Clark', 'Conselor'], region: 'Sussex Coast', desc: 'Saltmarsh farming & coastal kin networks' },
-  { id: 'salem', name: 'Salem & Cumberland, NJ', x: 84, y: 34, families: ['Loatman', 'Dean', 'Skerrett'], region: 'South Jersey', desc: 'Inter-state migration & Quaker record ties' }
+  { id: 'millsboro', name: 'Millsboro & Indian River, DE', x: 53.5, y: 60.9, families: ['Davis', 'Harmon', 'Sockum', 'Street', 'Wright'], region: 'Delaware Peninsula', desc: 'Nanticoke Tribal seat & core maternal homesteads' },
+  { id: 'cheswold', name: 'Cheswold & Fork Branch, DE', x: 43.0, y: 37.3, families: ['Durham', 'Ridgeway', 'Carney', 'Sammons', 'Coker'], region: 'Central Delaware', desc: 'Moor community settlement & cemetery grounds' },
+  { id: 'gouldtown', name: 'Gouldtown & Bridgeton, NJ', x: 57.3, y: 29.6, families: ['Gould', 'Pierce', 'Cuff', 'Murray'], region: 'Southern New Jersey', desc: 'Colonial free person of color community hub' },
+  { id: 'vienna', name: 'Vienna & Nanticoke River, MD', x: 34.4, y: 65.0, families: ['Jackson', 'Handsor', 'Johnson', 'Cook'], region: 'Eastern Shore Maryland', desc: 'Nanticoke river fishery & timber trade corridors' },
+  { id: 'oak_orchard', name: 'Oak Orchard & Rehoboth, DE', x: 58.3, y: 60.3, families: ['Cook', 'Clark', 'Conselor'], region: 'Sussex Coast', desc: 'Saltmarsh farming & coastal kin networks' },
+  { id: 'salem', name: 'Salem & Cumberland, NJ', x: 52.2, y: 20.9, families: ['Loatman', 'Dean', 'Skerrett'], region: 'South Jersey', desc: 'Inter-state migration & Quaker record ties' }
 ];
 
 export default function FamilyInterconnectionMatrix({ onSelectSurname }) {
@@ -331,7 +331,7 @@ export default function FamilyInterconnectionMatrix({ onSelectSurname }) {
 
           <div className="flex-1 relative rounded-2xl overflow-hidden border border-[#26221E] bg-[#141210]" onClick={e => e.stopPropagation()}>
             <img
-              src="/assets/historical_clan_map.jpg"
+              src="/assets/delmarva_historical_map_v2.jpg"
               alt="1800s High Resolution Historical Map"
               className="w-full h-full object-contain filter contrast-125 sepia-[0.25]"
             />

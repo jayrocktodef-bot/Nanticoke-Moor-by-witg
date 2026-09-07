@@ -200,12 +200,20 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
       });
   }, []);
 
-  // Map coordinate projection to SVG viewBox (0,0 to 1000, 800) based on new Delmarva Historical Map v2
+  // Map coordinate projection to SVG viewBox (0,0 to 1000, 800) based on calibrated Delmarva Map v2
   const project = (lat, lon) => {
     if (!lat || !lon) return { x: 0, y: 0 };
     const absLon = Math.abs(lon);
-    const x = ((absLon - Math.abs(MAP_BOUNDS.maxLon)) / (Math.abs(MAP_BOUNDS.minLon) - Math.abs(MAP_BOUNDS.maxLon))) * 860 + 70;
-    const y = ((MAP_BOUNDS.maxLat - lat) / (MAP_BOUNDS.maxLat - MAP_BOUNDS.minLat)) * 680 + 60;
+    
+    // Longitude maps -76.6 to -74.6 => image x: 80 to 940 px
+    const imgX = 80 + ((76.6 - absLon) / (76.6 - 74.6)) * (940 - 80);
+    
+    // Latitude maps 39.85 to 37.90 => image y: 120 to 780 px
+    const imgY = 120 + ((39.85 - lat) / (39.85 - 37.90)) * (780 - 120);
+    
+    // Scale 1200 x 896 image coords to 1000 x 800 SVG viewBox
+    const x = (imgX / 1200.0) * 1000.0;
+    const y = (imgY / 896.0) * 800.0;
     return { x, y };
   };
 
