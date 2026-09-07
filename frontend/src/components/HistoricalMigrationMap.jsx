@@ -208,9 +208,9 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
     const imageX = 42 + (80.60 - Math.abs(lon)) * 128.36; // in 869px image width
     const imageY = 43 + (42.25 - lat) * 156.4;             // in 1024px image height
     
-    // Scale image coordinates to SVG viewBox (1000 x 800 with 1178.37 height fill)
+    // Direct 1-to-1 mapping to 1000 x 800 SVG canvas
     const x = (imageX / 869.0) * 1000.0;
-    const y = (imageY / 1024.0) * 1178.37 - 189.18;
+    const y = (imageY / 1024.0) * 800.0;
     return { x, y };
   };
 
@@ -389,31 +389,12 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
                 y="0"
                 width="1000"
                 height="800"
-                preserveAspectRatio="xMidYMid slice"
-                opacity="0.7"
+                preserveAspectRatio="none"
+                opacity="0.88"
                 style={{
-                  filter: 'contrast(1.2) sepia(0.35) brightness(0.85)',
-                  mixBlendMode: 'luminosity'
+                  filter: 'contrast(1.15) sepia(0.25) brightness(0.92)'
                 }}
               />
-
-              {/* Dark Vintage Vignette Overlay for App Aesthetics */}
-              <rect
-                x="0"
-                y="0"
-                width="1000"
-                height="800"
-                fill="url(#gradient-vignette)"
-                opacity="0.65"
-                pointerEvents="none"
-              />
-
-              <defs>
-                <radialGradient id="gradient-vignette" cx="50%" cy="50%" r="65%">
-                  <stop offset="60%" stopColor="#0C1015" stopOpacity="0" />
-                  <stop offset="100%" stopColor="#0C1015" stopOpacity="0.95" />
-                </radialGradient>
-              </defs>
 
               {/* MIGRATION CORRIDORS (Arcs with animated stroke) */}
               {activeCorridorFilter !== 'cemeteries_only' && (
@@ -873,23 +854,11 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
                 y="0"
                 width="1000"
                 height="800"
-                preserveAspectRatio="xMidYMid slice"
-                opacity="0.8"
+                preserveAspectRatio="none"
+                opacity="0.9"
                 style={{
-                  filter: 'contrast(1.2) sepia(0.3) brightness(0.9)',
-                  mixBlendMode: 'luminosity'
+                  filter: 'contrast(1.15) sepia(0.2) brightness(0.95)'
                 }}
-              />
-
-              {/* Dark Vignette Overlay */}
-              <rect
-                x="0"
-                y="0"
-                width="1000"
-                height="800"
-                fill="url(#gradient-vignette)"
-                opacity="0.5"
-                pointerEvents="none"
               />
 
               {/* MIGRATION CORRIDORS */}
