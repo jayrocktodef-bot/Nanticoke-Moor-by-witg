@@ -27,15 +27,14 @@ export default function CommandPalette({ isOpen, onClose, onSelectPerson, onSele
   useEffect(() => {
     if (query.trim().length > 1) {
       setLoading(true);
-      fetch('/api/surnames.json')
+      fetch('/api/search_index.json')
         .then(res => res.json())
         .then(data => {
           const lowerQ = query.toLowerCase();
-          const filtered = data.map((s, idx) => ({
-            person_id: idx + 1,
-            name: `${s.surname} Family Lineage (${s.individual_count} persons)`,
-            notes: `Associated variants: ${s.variants || s.surname}`
-          })).filter(s => s.name.toLowerCase().includes(lowerQ) || s.notes.toLowerCase().includes(lowerQ));
+          const filtered = data.index.filter(item => 
+            item.title.toLowerCase().includes(lowerQ) || 
+            (item.snippet && item.snippet.toLowerCase().includes(lowerQ))
+          ).slice(0, 50); // limit to 50 results
           setResults(filtered);
           setLoading(false);
         })
@@ -108,39 +107,47 @@ export default function CommandPalette({ isOpen, onClose, onSelectPerson, onSele
             </div>
           )}
 
-          {!loading && results.map(p => (
+          {!loading && results.map((p, i) => {
+            const isPerson = p.doc_type === 'person';
+            return (
             <div
-              key={p.person_id}
+              key={`${p.doc_type}-${p.source_id}-${i}`}
               onClick={() => {
-                onSelectPerson(p.person_id);
+                if (isPerson) {
+                  onSelectPerson(p.source_id);
+                } else {
+                  let meta = {};
+                  try { meta = JSON.parse(p.metadata || '{}'); } catch(e){}
+                  if (onOpenRecord) onOpenRecord({ photo_id: p.source_id, ...meta });
+                }
                 onClose();
               }}
               className="p-3 bg-slate-900/60 hover:bg-slate-800 border border-transparent hover:border-amber-500/30 rounded-xl cursor-pointer flex items-center justify-between transition-all group active:scale-[0.98]"
             >
               <div className="flex items-center gap-3">
                 <div className="p-2 bg-amber-500/10 text-amber-400 rounded-lg group-hover:bg-amber-500/20 shrink-0">
-                  <Users className="w-4 h-4" />
+                  {isPerson ? <Users className="w-4 h-4" /> : <FileText className="w-4 h-4" />}
                 </div>
                 <div>
                   <div className="flex items-center gap-2">
                     <span className="text-[10px] font-mono font-bold bg-amber-500/10 text-amber-400 border border-amber-500/30 px-1.5 py-0.5 rounded">
-                      ID #{p.person_id}
+                      {isPerson ? 'PERSON' : 'RECORD'} #{p.source_id}
                     </span>
-                    <h4 className="text-sm font-semibold text-slate-100 group-hover:text-amber-300 transition-colors">
-                      {p.name}
+                    <h4 className="text-sm font-semibold text-slate-100 group-hover:text-amber-300 transition-colors truncate max-w-[200px] sm:max-w-sm">
+                      {p.title}
                     </h4>
                   </div>
-                  {p.notes && (
-                    <p className="text-xs text-slate-400 truncate max-w-md sm:max-w-lg mt-0.5">{p.notes}</p>
+                  {p.snippet && (
+                    <p className="text-xs text-slate-400 truncate max-w-[250px] sm:max-w-lg mt-0.5">{p.snippet}</p>
                   )}
                 </div>
               </div>
               <div className="flex items-center gap-1 text-xs text-slate-400 group-hover:text-amber-400 font-mono shrink-0">
-                <span className="hidden sm:inline">View Profile</span>
+                <span className="hidden sm:inline">{isPerson ? 'View Profile' : 'View Record'}</span>
                 <CornerDownLeft className="w-3.5 h-3.5" />
               </div>
             </div>
-          ))}
+          )})}
         </div>
 
         {/* Command Palette Footer */}

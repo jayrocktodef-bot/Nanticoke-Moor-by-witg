@@ -125,7 +125,7 @@ export default function HomeScreen() {
     <div className="min-h-screen bg-[#0F0E0D] text-[#E5E1DB] flex flex-col md:flex-row font-sans selection:bg-[#C68B59]/30 overflow-x-hidden">
       
       {/* MACFAMILYTREE-STYLE VERTICAL SIDEBAR NAVIGATION */}
-      <aside className="w-full md:w-64 bg-[#141210] border-r border-[#26221E] flex flex-col shrink-0 z-30 shadow-2xl">
+      <aside className="w-full md:w-64 bg-[#141210] border-r border-[#26221E] flex flex-col shrink-0 z-30 shadow-2xl" role="navigation" aria-label="Archive navigation">
         {/* Top App Header & Brand */}
         <div className="p-4 border-b border-[#26221E] flex items-center justify-between">
           <a
@@ -157,8 +157,9 @@ export default function HomeScreen() {
             onClick={() => setIsCommandPaletteOpen(true)}
             className="p-2 bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] text-[#D4A373] rounded-lg transition-all active:scale-[0.98]"
             title="Search Person or Record (Cmd+K)"
+            aria-label="Search persons and records (Ctrl+K)"
           >
-            <Search className="w-4 h-4" />
+            <Search className="w-4 h-4" aria-hidden="true" />
           </button>
         </div>
 
@@ -260,7 +261,7 @@ export default function HomeScreen() {
       </aside>
 
       {/* MAIN WORKSPACE CANVAS (MacFamilyTree Canvas Area) */}
-      <main className="flex-1 flex flex-col min-w-0 bg-[#0F0E0D] overflow-y-auto custom-scrollbar">
+      <main id="main-content" className="flex-1 flex flex-col min-w-0 bg-[#0F0E0D] overflow-y-auto custom-scrollbar" role="main" aria-label="Archive content">
         {/* Workspace Toolbar */}
         <div className="sticky top-0 z-20 bg-[#141210]/90 backdrop-blur-md border-b border-[#26221E] px-6 py-3.5 flex items-center justify-between gap-4">
           <div>

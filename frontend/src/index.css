@@ -228,3 +228,123 @@
 .animate-ken-burns {
   animation: kenBurns 20s infinite ease-in-out alternate;
 }
+
+/* ================================================================
+   ACCESSIBILITY: Reduced Motion
+   Respects user's OS-level preference to minimize animations.
+   ================================================================ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .animate-fade-in,
+  .animate-ken-burns,
+  .face-tag-pulse {
+    animation: none !important;
+  }
+  .glass-card-hover:hover {
+    transform: none !important;
+  }
+}
+
+/* ================================================================
+   ACCESSIBILITY: Focus Visible
+   Clear keyboard focus indicators for all interactive elements.
+   ================================================================ */
+:focus-visible {
+  outline: 2px solid #C68B59;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #C68B59;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(200, 125, 83, 0.25);
+}
+
+/* ================================================================
+   ACCESSIBILITY: Screen Reader Only
+   Visually hidden but accessible to assistive technology.
+   ================================================================ */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ================================================================
+   ACCESSIBILITY: Parchment Theme Contrast Fixes (WCAG 4.5:1)
+   Darkened muted text colors to meet minimum contrast ratios
+   against the parchment background (#FAF7F2).
+   ================================================================ */
+.theme-parchment .text-\[\#A8A096\],
+.theme-parchment .text-\[\#9EA9B6\] {
+  color: #3E3428 !important; /* was #4A3E33, now darker for 4.5:1 */
+}
+
+.theme-parchment .text-\[\#8C8275\],
+.theme-parchment .text-\[\#7D8B9B\] {
+  color: #574A3C !important; /* was #736456, now darker for 4.5:1 */
+}
+
+.theme-parchment .text-\[\#D4A373\] {
+  color: #8B5A2B !important; /* Accent copper darkened for parchment readability */
+}
+
+.theme-parchment .text-\[\#C68B59\] {
+  color: #7A4B1E !important;
+}
+
+.theme-parchment .text-\[\#E5E1DB\],
+.theme-parchment .text-\[\#D8D1C7\] {
+  color: #2C2318 !important;
+}
+
+/* ================================================================
+   MOBILE: Touch Target Minimums (44×44px per WCAG 2.5.8)
+   ================================================================ */
+@media (max-width: 768px) {
+  button, a, [role="button"], [role="tab"],
+  input[type="checkbox"], input[type="radio"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Sidebar collapses to bottom bar on mobile */
+  aside {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: 72px !important;
+    z-index: 40 !important;
+    border-right: none !important;
+    border-top: 1px solid var(--border-main) !important;
+    flex-direction: row !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+  }
+
+  /* Add bottom padding to main content so it doesn't get hidden behind bottom nav */
+  main, #main-content {
+    padding-bottom: 80px !important;
+  }
+}
+

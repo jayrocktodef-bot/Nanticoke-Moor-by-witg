@@ -3,6 +3,7 @@ import json
 import os
 import shutil
 import re
+import datetime
 from collections import defaultdict
 
 BASE_DIR = '/home/jequan/Desktop/Antigravity Projects/lynncjackson-genealogy-scraper'
@@ -15,6 +16,36 @@ ASSETS_DEST = os.path.join(BASE_DIR, 'frontend', 'public', 'assets', 'archive_me
 import sys
 sys.path.insert(0, BASE_DIR)
 from archive_naming_rules import get_clean_surname, is_valid_person_name, NOISE_WORDS
+
+CURRENT_YEAR = datetime.datetime.now().year
+
+def is_probably_living(person_row):
+    """Returns True if this person is likely still alive and should have data redacted."""
+    name = (person_row.get('name') or '').lower()
+    birth = person_row.get('birth_info') or ''
+    death = person_row.get('death_info') or ''
+    notes = (person_row.get('notes') or '').lower()
+
+    if 'living' in name or 'living' in notes:
+        return True
+    if death and death.strip():
+        return False
+    birth_years = re.findall(r'\b(1[789]\d{2}|20[012]\d)\b', birth)
+    if birth_years:
+        latest_birth = max(int(y) for y in birth_years)
+        if CURRENT_YEAR - latest_birth > 110:
+            return False
+        return True
+    return False
+
+def redact_living_person(person_data):
+    """Strips private details from a living person's exported record."""
+    p = person_data.copy()
+    p['birth_info'] = 'Private'
+    p['notes'] = ''
+    p['death_info'] = ''
+    p['is_living'] = True
+    return p
 
 def export_all():
     conn = sqlite3.connect(DB_PATH)
@@ -272,23 +303,39 @@ def export_all():
             
         return node
 
+    living_pids = set()
     for p in all_persons:
         pid = p['person_id']
         p_facts = facts_map.get(pid, [])
         for f in p_facts:
             f['citations'] = citations_map.get(f['fact_id'], [])
 
+        person_record = p
+        exported_facts = p_facts
+        exported_photos = photos_map.get(pid, [])
+        exported_obits = obits_map.get(pid, [])
+
+        if is_probably_living(p):
+            living_pids.add(pid)
+            person_record = redact_living_person(p)
+            exported_facts = []  # Don't export biographical facts for living people
+            exported_photos = []  # Don't export photos of living people
+            exported_obits = []  # Living people don't have obituaries but be safe
+
         p_data = {
-            "person": p,
-            "facts": p_facts,
+            "person": person_record,
+            "facts": exported_facts,
             "relationships": rels_map.get(pid, []),
-            "photos": photos_map.get(pid, []),
-            "obituaries": obits_map.get(pid, []),
+            "photos": exported_photos,
+            "obituaries": exported_obits,
             "audit_flags": audit_map.get(pid, []),
             "ancestry": build_ancestry_tree(pid, p['name'], 0, max_depth=5)
         }
         with open(os.path.join(API_DIR, 'person', f'{pid}.json'), 'w') as f:
             json.dump(p_data, f, indent=2)
+
+    if living_pids:
+        print(f"  [Privacy] Redacted {len(living_pids)} living persons from exported profiles.")
 
     print("Step 6: Exporting /api/records/{filename}.json for primary pages...")
     c.execute("SELECT filename, title, clean_html, text_content, wayback_url FROM pages")
