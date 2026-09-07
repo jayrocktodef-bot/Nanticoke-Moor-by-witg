@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import { User, Users, Camera, HeartHandshake, FileText, ExternalLink, Calendar, GitBranch, ArrowLeft, ShieldCheck, MapPin, X, BookOpen } from 'lucide-react';
 import FanChart from './FanChart';
 import CitationModal from './CitationModal';
+import NarrativeBioGenerator from './NarrativeBioGenerator';
 
 export default function PersonProfileView({ personId, onClose, onSelectPerson }) {
   const [profile, setProfile] = useState(null);
@@ -136,6 +137,11 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
                   {profile.person.notes}
                 </p>
               )}
+
+              {/* Narrative Bio & Citation Engine */}
+              <div className="mt-6">
+                <NarrativeBioGenerator person={profile.person} onSelectPerson={onSelectPerson} />
+              </div>
             </div>
           </div>
 

@@ -1,11 +1,15 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react';
-import { Search, Database, Users, FileText, Image as ImageIcon, GitFork, BookOpen, ShieldCheck, HeartHandshake, GitCommit, Bookmark, LayoutGrid, List, Sparkles, Filter, Sun, Moon, Printer, Compass, MapPin } from 'lucide-react';
+import { Search, Database, Users, FileText, Image as ImageIcon, GitFork, BookOpen, ShieldCheck, HeartHandshake, GitCommit, Bookmark, LayoutGrid, List, Sparkles, Filter, Sun, Moon, Printer, Compass, MapPin, Dna, Volume2 } from 'lucide-react';
 import SurnameCard from './SurnameCard';
 import RecordDrawer from './RecordDrawer';
 import PersonProfileView from './PersonProfileView';
 import SurnamePortalView from './SurnamePortalView';
 import CommandPalette from './CommandPalette';
 import TranscribedDocumentView from './TranscribedDocumentView';
+import FacetedSearchPanel from './FacetedSearchPanel';
+import KinshipPathExplorer from './KinshipPathExplorer';
+import DNAMatchExplorer from './DNAMatchExplorer';
+import OralHistoryPlayer from './OralHistoryPlayer';
 import { trackPageView, trackEvent } from '../utils/analytics';
 
 // Lazy load heavy components for instant initial page loading & reduced JS bundle size
@@ -203,10 +207,14 @@ export default function HomeScreen() {
           {/* Research & Integrity Section */}
           <div>
             <span className="text-[10px] font-bold text-[#8C8275] uppercase tracking-wider px-3 mb-2 block font-mono">
-              Research & Audit
+              Research & Advanced Tools
             </span>
             <nav className="space-y-1">
               {[
+                { id: 'faceted_search', label: 'Faceted Search', icon: Filter },
+                { id: 'kinship', label: 'Kinship Path Finder', icon: GitCommit },
+                { id: 'dna_matches', label: 'DNA Cousin Browser', icon: Dna },
+                { id: 'oral_history', label: 'Oral History Vault', icon: Volume2 },
                 { id: 'sources', label: 'Sources & Archives', icon: Bookmark },
                 { id: 'audit', label: 'Integrity Review', icon: ShieldCheck }
               ].map(tab => {
@@ -850,6 +858,26 @@ export default function HomeScreen() {
           {/* Tab 6: Obituary Viewer */}
           {activeTab === 'obituaries' && (
             <ObituaryViewer onSelectPerson={(pid) => setSelectedPersonId(pid)} />
+          )}
+
+          {/* Tab 8: Faceted Search */}
+          {activeTab === 'faceted_search' && (
+            <FacetedSearchPanel onSelectPerson={(pid) => setSelectedPersonId(pid)} />
+          )}
+
+          {/* Tab 9: Kinship Finder */}
+          {activeTab === 'kinship' && (
+            <KinshipPathExplorer onSelectPerson={(pid) => setSelectedPersonId(pid)} />
+          )}
+
+          {/* Tab 10: DNA Cousin Browser */}
+          {activeTab === 'dna_matches' && (
+            <DNAMatchExplorer onSelectPerson={(pid) => setSelectedPersonId(pid)} />
+          )}
+
+          {/* Tab 11: Oral History Vault */}
+          {activeTab === 'oral_history' && (
+            <OralHistoryPlayer />
           )}
 
           {/* Tab 7: Sources Catalog */}
