@@ -130,7 +130,7 @@ export default function FamilyInterconnectionMatrix({ onSelectSurname }) {
         <div className="relative w-full h-[360px] sm:h-[450px] rounded-2xl overflow-hidden border border-[#26221E] bg-[#0F0E0D]">
           {/* Stylized Historical Map Backdrop */}
           <img
-            src="/assets/historical_clan_map.jpg"
+            src="/assets/delmarva_historical_map_v2.jpg"
             alt="1800s Historical Map of Pennsylvania, New Jersey, Maryland, Delaware, and Virginia"
             className="w-full h-full object-cover opacity-80 mix-blend-luminosity filter contrast-125 sepia-[0.35] brightness-90 group-hover:scale-105 transition-transform duration-700"
           />

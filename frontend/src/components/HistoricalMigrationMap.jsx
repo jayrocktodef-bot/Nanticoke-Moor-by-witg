@@ -22,14 +22,12 @@ import {
   Minimize2
 } from 'lucide-react';
 
-// Bounding box for Delmarva Peninsula and South Jersey
-// Lat: 38.2 to 39.8 (South to North)
-// Lon: -76.2 to -74.8 (West to East)
+// Bounding box for Delmarva Peninsula and South Jersey Custom Historical Map v2
 const MAP_BOUNDS = {
-  minLat: 38.2,
-  maxLat: 39.85,
-  minLon: -76.3,
-  maxLon: -74.8
+  minLat: 37.8,
+  maxLat: 40.1,
+  minLon: -76.6,
+  maxLon: -74.6
 };
 
 // Historical Settlement Centers
@@ -202,15 +200,12 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
       });
   }, []);
 
-  // Map coordinate projection to SVG viewBox (0,0 to 1000, 800) based on authentic 1800s historical map image
+  // Map coordinate projection to SVG viewBox (0,0 to 1000, 800) based on new Delmarva Historical Map v2
   const project = (lat, lon) => {
     if (!lat || !lon) return { x: 0, y: 0 };
-    const imageX = 42 + (80.60 - Math.abs(lon)) * 128.36; // in 869px image width
-    const imageY = 43 + (42.25 - lat) * 156.4;             // in 1024px image height
-    
-    // Direct 1-to-1 mapping to 1000 x 800 SVG canvas
-    const x = (imageX / 869.0) * 1000.0;
-    const y = (imageY / 1024.0) * 800.0;
+    const absLon = Math.abs(lon);
+    const x = ((absLon - Math.abs(MAP_BOUNDS.maxLon)) / (Math.abs(MAP_BOUNDS.minLon) - Math.abs(MAP_BOUNDS.maxLon))) * 860 + 70;
+    const y = ((MAP_BOUNDS.maxLat - lat) / (MAP_BOUNDS.maxLat - MAP_BOUNDS.minLat)) * 680 + 60;
     return { x, y };
   };
 
@@ -382,17 +377,17 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
                 </linearGradient>
               </defs>
 
-              {/* AUTHENTIC 1800S HISTORICAL DELMARVA & MID-ATLANTIC MAP BACKDROP */}
+              {/* NEW DELMARVA HISTORICAL MAP V2 BACKDROP */}
               <image
-                href="/assets/historical_clan_map.jpg"
+                href="/assets/delmarva_historical_map_v2.jpg"
                 x="0"
                 y="0"
                 width="1000"
                 height="800"
                 preserveAspectRatio="none"
-                opacity="0.88"
+                opacity="0.9"
                 style={{
-                  filter: 'contrast(1.15) sepia(0.25) brightness(0.92)'
+                  filter: 'contrast(1.1) sepia(0.15) brightness(0.95)'
                 }}
               />
 
@@ -849,15 +844,15 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
             >
               {/* Historical Map Backdrop */}
               <image
-                href="/assets/historical_clan_map.jpg"
+                href="/assets/delmarva_historical_map_v2.jpg"
                 x="0"
                 y="0"
                 width="1000"
                 height="800"
                 preserveAspectRatio="none"
-                opacity="0.9"
+                opacity="0.95"
                 style={{
-                  filter: 'contrast(1.15) sepia(0.2) brightness(0.95)'
+                  filter: 'contrast(1.1) sepia(0.1) brightness(0.95)'
                 }}
               />
 
