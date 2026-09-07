@@ -10,11 +10,29 @@ const CLAN_MAP_HOTSPOTS = [
   { id: 'salem', name: 'Salem & Cumberland, NJ', x: 52.2, y: 20.9, families: ['Loatman', 'Dean', 'Skerrett'], region: 'South Jersey', desc: 'Inter-state migration & Quaker record ties' }
 ];
 
+export const CLAN_MAP_CEMETERIES = [
+  { id: 1, name: "Fork Branch Cemetery", locality: "Dover, DE", x: 43.6, y: 38.3, affiliation: "Nanticoke & Moor Community", count: 95 },
+  { id: 2, name: "Immanuel Union U.M. Cemetery", locality: "Cheswold, DE", x: 43.0, y: 37.3, affiliation: "Moor Community Church", count: 0 },
+  { id: 3, name: "Forest Grove SDA Cemetery", locality: "Dover, DE", x: 42.1, y: 38.6, affiliation: "Moor Community SDA", count: 0 },
+  { id: 4, name: "Millsboro SDA Cemetery", locality: "Millsboro, DE", x: 53.5, y: 61.0, affiliation: "Nanticoke Community SDA", count: 1 },
+  { id: 5, name: "Israel U.M. Cemetery", locality: "Millsboro / Indian River, DE", x: 55.8, y: 59.9, affiliation: "Nanticoke Indian Community", count: 5 },
+  { id: 6, name: "John Wesley U.M. Cemetery", locality: "Milford, DE", x: 50.2, y: 49.5, affiliation: "African American & Moor", count: 2 },
+  { id: 7, name: "Bethel AME Cemetery", locality: "Smyrna, DE", x: 42.3, y: 34.2, affiliation: "African Methodist Episcopal", count: 2 },
+  { id: 8, name: "Lawnside Cemetery", locality: "Woodstown, NJ", x: 52.2, y: 20.9, affiliation: "Historic Black Community", count: 2 },
+  { id: 9, name: "Gouldtown Memorial Park", locality: "Fairfield / Bridgeton, NJ", x: 57.3, y: 29.6, affiliation: "Gouldtown Tri-Racial Settlement", count: 1 },
+  { id: 10, name: "Union Memorial Cemetery", locality: "Federalsburg, MD", x: 36.3, y: 57.0, affiliation: "Eastern Shore Community", count: 0 },
+  { id: 11, name: "Christ's Church Cemetery", locality: "Dover, DE", x: 45.2, y: 39.5, affiliation: "Episcopal / Historic", count: 1 },
+  { id: 12, name: "Evergreen Cemetery", locality: "Camden, DE", x: 44.6, y: 41.1, affiliation: "Public / Historic", count: 1 },
+  { id: 13, name: "Cuff Family Cemetery", locality: "Salem County, NJ", x: 47.3, y: 24.1, affiliation: "Cuff Family Private Cemetery", count: 1 }
+];
+
 export default function FamilyInterconnectionMatrix({ onSelectSurname }) {
   const [ties, setTies] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedFamily, setSelectedFamily] = useState(null);
   const [selectedHotspot, setSelectedHotspot] = useState(null);
+  const [selectedCemetery, setSelectedCemetery] = useState(null);
+  const [showCemeteries, setShowCemeteries] = useState(true);
   const [selectedTie, setSelectedTie] = useState(null);
   const [isMapModalOpen, setIsMapModalOpen] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -112,18 +130,32 @@ export default function FamilyInterconnectionMatrix({ onSelectSurname }) {
 
       {/* HISTORICAL VINTAGE CLAN MAP HERO CANVAS */}
       <div className="bg-[#141210] border border-[#26221E] rounded-3xl p-4 shadow-2xl relative overflow-hidden group">
-        <div className="flex items-center justify-between px-3 py-2 border-b border-[#26221E] mb-3">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 px-3 py-2 border-b border-[#26221E] mb-3">
           <div className="flex items-center gap-2 text-xs font-semibold text-[#F3EBE3] font-mono">
             <Layers className="w-4 h-4 text-[#C68B59]" />
             <span>1800s Mid-Atlantic Historical Atlas (PA, NJ, DE, MD, VA)</span>
           </div>
-          <button
-            onClick={() => setIsMapModalOpen(true)}
-            className="text-xs bg-[#1C1A17] hover:bg-[#26221E] border border-[#332D27] text-[#D4A373] px-3 py-1.5 rounded-xl transition-all flex items-center gap-1.5 font-mono"
-          >
-            <Maximize2 className="w-3.5 h-3.5" />
-            <span>Full-Screen Map View</span>
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => setShowCemeteries(!showCemeteries)}
+              className={`text-xs px-2.5 py-1.5 rounded-xl border transition-all font-mono flex items-center gap-1.5 ${
+                showCemeteries
+                  ? 'bg-[#F59E0B]/20 text-[#F59E0B] border-[#F59E0B]/50 font-bold'
+                  : 'bg-[#1C1A17] text-[#8C8275] border-[#332D27]'
+              }`}
+              title="Toggle cemetery burial grounds on map"
+            >
+              <span>🪦</span>
+              <span>Cemeteries ({CLAN_MAP_CEMETERIES.length})</span>
+            </button>
+            <button
+              onClick={() => setIsMapModalOpen(true)}
+              className="text-xs bg-[#1C1A17] hover:bg-[#26221E] border border-[#332D27] text-[#D4A373] px-3 py-1.5 rounded-xl transition-all flex items-center gap-1.5 font-mono"
+            >
+              <Maximize2 className="w-3.5 h-3.5" />
+              <span>Full-Screen Map View</span>
+            </button>
+          </div>
         </div>
 
         {/* Map Container */}
@@ -145,7 +177,7 @@ export default function FamilyInterconnectionMatrix({ onSelectSurname }) {
               <div
                 key={spot.id}
                 style={{ left: `${spot.x}%`, top: `${spot.y}%` }}
-                onClick={() => setSelectedHotspot(isSelected ? null : spot)}
+                onClick={() => { setSelectedHotspot(isSelected ? null : spot); setSelectedCemetery(null); }}
                 className="absolute -translate-x-1/2 -translate-y-1/2 cursor-pointer z-20 group/pin"
               >
                 {/* Pulsing ring */}
@@ -174,7 +206,62 @@ export default function FamilyInterconnectionMatrix({ onSelectSurname }) {
               </div>
             );
           })}
+
+          {/* Historical Cemetery Pins on Clan Map */}
+          {showCemeteries && CLAN_MAP_CEMETERIES.map(cem => {
+            const isSelected = selectedCemetery?.id === cem.id;
+            return (
+              <div
+                key={`cem-${cem.id}`}
+                style={{ left: `${cem.x}%`, top: `${cem.y}%` }}
+                onClick={() => { setSelectedCemetery(isSelected ? null : cem); setSelectedHotspot(null); }}
+                className="absolute -translate-x-1/2 -translate-y-1/2 cursor-pointer z-25 group/cem"
+              >
+                {/* Outer Glow Halo */}
+                <div className={`w-5 h-5 rounded-full border border-[#F59E0B] absolute -inset-0 ${
+                  isSelected ? 'animate-ping bg-[#F59E0B]/40' : 'bg-[#F59E0B]/20'
+                }`} />
+
+                {/* Tombstone Marker Icon Pin */}
+                <div className={`relative w-6 h-6 rounded-full flex items-center justify-center border shadow-lg transition-all text-xs ${
+                  isSelected
+                    ? 'bg-[#F59E0B] text-[#121110] border-white scale-125'
+                    : 'bg-[#141210]/95 text-[#F59E0B] border-[#F59E0B]/80 hover:scale-125 hover:bg-[#F59E0B] hover:text-[#121110]'
+                }`}>
+                  🪦
+                </div>
+
+                {/* Tooltip Badge */}
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1.5 bg-[#141210]/95 backdrop-blur-md border border-[#F59E0B]/60 rounded-lg px-2.5 py-1 shadow-xl pointer-events-none whitespace-nowrap opacity-0 group-hover/cem:opacity-100 transition-opacity z-30">
+                  <span className="text-[10px] font-bold text-[#F3EBE3] block">🪦 {cem.name}</span>
+                  <span className="text-[9px] font-mono text-[#D4A373] block">{cem.locality} • {cem.affiliation}</span>
+                </div>
+              </div>
+            );
+          })}
         </div>
+
+        {/* Selected Cemetery Bar */}
+        {selectedCemetery && (
+          <div className="mt-3 bg-[#1C1A17] border border-[#F59E0B]/50 rounded-xl p-3.5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 animate-fade-in font-mono text-xs">
+            <div className="flex items-center gap-2 text-[#F3EBE3]">
+              <span className="text-base">🪦</span>
+              <span>Historical Cemetery: <strong className="text-[#F59E0B]">{selectedCemetery.name}</strong></span>
+              <span className="text-[10px] text-[#8C8275]">({selectedCemetery.locality})</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="px-2 py-0.5 rounded bg-[#F59E0B]/20 border border-[#F59E0B]/40 text-[#F59E0B] font-bold text-[10px]">
+                {selectedCemetery.affiliation}
+              </span>
+              <button
+                onClick={() => setSelectedCemetery(null)}
+                className="p-1 rounded bg-[#0F0E0D] border border-[#332D27] text-[#8C8275] hover:text-[#F3EBE3]"
+              >
+                <X className="w-3.5 h-3.5" />
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* Selected Hotspot Bar */}
         {selectedHotspot && (

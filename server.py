@@ -1136,8 +1136,14 @@ def search_archive(q: str = Query(..., min_length=2, description="Search query")
     }
 
 @app.get("/api/cemeteries")
+@app.get("/api/cemeteries.json")
 def get_cemeteries():
     """Returns all historical Nanticoke & Moor cemeteries with geocoordinates and tombstone counts."""
+    json_path = os.path.join(SCRIPT_DIR, "frontend", "public", "api", "cemeteries.json")
+    if os.path.exists(json_path):
+        with open(json_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+
     conn = get_db()
     c = conn.cursor()
     c.execute("""
@@ -1150,6 +1156,33 @@ def get_cemeteries():
     cemeteries = [dict(r) for r in c.fetchall()]
     conn.close()
     return {"total": len(cemeteries), "cemeteries": cemeteries}
+
+@app.get("/api/settlements")
+@app.get("/api/settlements.json")
+def get_settlements():
+    """Returns all 8 core historical Delmarva & South Jersey settlements."""
+    json_path = os.path.join(SCRIPT_DIR, "frontend", "public", "api", "settlements.json")
+    if os.path.exists(json_path):
+        with open(json_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {"total": 0, "settlements": []}
+
+@app.get("/api/family-interconnections.json")
+def get_family_interconnections():
+    """Returns family interconnections matrix data."""
+    json_path = os.path.join(SCRIPT_DIR, "frontend", "public", "api", "family-interconnections.json")
+    if os.path.exists(json_path):
+        with open(json_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return []
+
+@app.get("/api/static_data/{filename}.json")
+def get_static_json(filename: str):
+    json_path = os.path.join(SCRIPT_DIR, "frontend", "public", "api", f"{filename}.json")
+    if os.path.exists(json_path):
+        with open(json_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    raise HTTPException(status_code=404, detail="File not found")
 
 @app.get("/api/cemeteries/{cemetery_id}")
 def get_cemetery_detail(cemetery_id: int):
