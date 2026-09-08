@@ -83,14 +83,33 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 15976,
+      "person_id": 9951,
+      "fact_type": "Census",
+      "date_string": "1880",
+      "place_string": "Dagsborough, Sussex, Delaware, USA",
+      "value_string": "1880 US Federal Census: Son, age 6. Household: George W. Clark (Self (Head), age 42), Hetty A. Clark (Wife, age 40), Rufus M. Clark (Son, age 18), Geore E. Clark (Son, age 16), Ella M. Clark (Daughter, age 15), Linia L. Clark (Daughter, age 14), Sydora J. Clark (Son, age 11), Joseph L. Clark (Son, age 9), Faunse H. Clark (Son, age 7), Albert P. Clark (Son, age 6), Charles C. Clark (Son, age 3), Ruth A. Clark (Daughter, age 7/12)",
+      "citations": [
+        {
+          "citation_id": 14786,
+          "fact_id": 15976,
+          "source_id": 856,
+          "evidence_text": "1880 United States Federal Census, Delaware, Dagsborough, Sussex, Delaware, USA. Dwelling record #27033261",
+          "source_title": "1880 United States Federal Census",
+          "source_url": "4240109-00724.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
     {
       "relationship_type": "child_of",
       "role": "parent",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1880 US Federal Census as Son of household head (Dagsborough, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 9953,
       "rel_name": "George W. Clark"
     },

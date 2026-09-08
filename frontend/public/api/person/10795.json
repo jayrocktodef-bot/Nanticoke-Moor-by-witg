@@ -102,6 +102,25 @@
           "source_dataset": "mitsawokett_primary"
         }
       ]
+    },
+    {
+      "fact_id": 16081,
+      "person_id": 10795,
+      "fact_type": "Census",
+      "date_string": "1930",
+      "place_string": "Commercial, Cumberland, New Jersey, USA",
+      "value_string": "1930 US Federal Census: Son, age 7. Household: John H Mosley (Head, age 30), Anna Mosley (Wife, age 29), William C Mosley (Son, age 7), Ida M Mosley (Daughter, age 2)",
+      "citations": [
+        {
+          "citation_id": 14891,
+          "fact_id": 16081,
+          "source_id": 860,
+          "evidence_text": "1930 United States Federal Census, Delaware, Commercial, Cumberland, New Jersey, USA. Dwelling record #4240150",
+          "source_title": "1930 United States Federal Census",
+          "source_url": "4531895_00729.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -116,10 +135,18 @@
     {
       "relationship_type": "child_of",
       "role": "parent",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Son of household head (Commercial, Cumberland, New Jersey, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 10689,
       "rel_name": "Anna Mosley"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Son of household head (Commercial, Cumberland, New Jersey, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 1046,
+      "rel_name": "John H Mosley"
     }
   ],
   "photos": [

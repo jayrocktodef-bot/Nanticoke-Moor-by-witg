@@ -64,6 +64,44 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 16087,
+      "person_id": 11663,
+      "fact_type": "Census",
+      "date_string": "1940",
+      "place_string": "Sussex, Delaware",
+      "value_string": "1940 US Federal Census: Wife, age 26. Household: Samuel Jackson (Head, age 30), Agnes Jackson (Wife, age 26), William E Jackson (Son, age 9), Bettis Jackson (Daughter, age 7), Robert Jackson (Son, age 5), Benson Jackson (Son, age 4), Bendel Jackson (Son, age 2)",
+      "citations": [
+        {
+          "citation_id": 14897,
+          "fact_id": 16087,
+          "source_id": 861,
+          "evidence_text": "1940 United States Federal Census, Delaware, Sussex, Delaware. Dwelling record #254599",
+          "source_title": "1940 United States Federal Census",
+          "source_url": "m-t0627-00548-00373.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16107,
+      "person_id": 11663,
+      "fact_type": "Census",
+      "date_string": "1950",
+      "place_string": "Sussex, Delaware, USA",
+      "value_string": "1950 US Federal Census: Wife, age 36. Household: Samuel Jackson (Head, age 41), Agnes Jackson (Wife, age 36), Wm Edward Jackson (Son, age 19), Betty Jackson (Daughter, age 18), Robert W Jackson (Son, age 16), Samuel B Jackson (Son, age 14), George Jackson (Son, age 13), Blenda Jackson (Daughter, age 10), Bruce Jackson (Son, age 7)",
+      "citations": [
+        {
+          "citation_id": 14917,
+          "fact_id": 16107,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census, Delaware, Sussex, Delaware, USA. Dwelling record #1211860",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -74,6 +112,78 @@
       "certainty": "confirmed",
       "rel_id": 11664,
       "rel_name": "Edward Harmon on Nov"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Confirmed in 1950 US Federal Census household (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 10725,
+      "rel_name": "Samuel Jackson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1940 US Federal Census as Son of household head (Sussex, Delaware)",
+      "certainty": "census_confirmed",
+      "rel_id": 439,
+      "rel_name": "William Jackson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1940 US Federal Census as Son of household head (Sussex, Delaware)",
+      "certainty": "census_confirmed",
+      "rel_id": 9564,
+      "rel_name": "Robert Jackson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Daughter of household head (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 9965,
+      "rel_name": "Betty Bernice Jackson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Son of household head (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 10727,
+      "rel_name": "Robert Winston Jackson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Son of household head (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 9374,
+      "rel_name": "Samuel Benson Jackson Jr"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Son of household head (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 10728,
+      "rel_name": "George Bendell Jackson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Daughter of household head (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 10729,
+      "rel_name": "Blenda A. Jackson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Son of household head (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 10730,
+      "rel_name": "Bruce L. Jackson"
     }
   ],
   "photos": [

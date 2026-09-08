@@ -112,22 +112,41 @@
           "source_dataset": "mitsawokett_primary"
         }
       ]
+    },
+    {
+      "fact_id": 16125,
+      "person_id": 8349,
+      "fact_type": "Census",
+      "date_string": "1950",
+      "place_string": "Sussex, Delaware, USA",
+      "value_string": "1950 US Federal Census: Wife, age 24. Household: Richard Street (Head, age 30), Delema Street (Wife, age 24), Richard Street Jr (Son, age 6), Vondalyn Street (Daughter, age 0)",
+      "citations": [
+        {
+          "citation_id": 14935,
+          "fact_id": 16125,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census, Delaware, Sussex, Delaware, USA. Dwelling record #1211552",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
     {
       "relationship_type": "spouse_of",
       "role": "spouse",
-      "evidence_text": "GEDCOM Family @F228@ marriage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1950 US Federal Census household (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 10200,
       "rel_name": "Richard Street"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Son of household head (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 10201,
       "rel_name": "Richard Street Jr"
     },

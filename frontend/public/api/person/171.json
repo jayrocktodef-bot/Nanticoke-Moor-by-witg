@@ -74,9 +74,37 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 11405,
+      "person_id": 171,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Sarah Hewes  later",
+      "citations": [
+        {
+          "citation_id": 10998,
+          "fact_id": 11405,
+          "source_id": 66,
+          "evidence_text": "...will and the document mentions her (surviving) heirs: daughter Sarah (Hewes) son John (Hewes) son-in-law, John Durham Sarah Hewes later married James Dean {Arch. Vol. A23, pg. 195} and my line of DEANS descends from her. \"Son-in-law\" John Durham was a...",
+          "source_title": "Record: hewes.htm",
+          "source_url": "hewes.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Sarah Hewes  later married James Dean {Arch. Vol. A23, pg. 195} and my line of DEANS descends from her.",
+      "certainty": "confirmed",
+      "rel_id": 165,
+      "rel_name": "James Dean"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [
@@ -89,6 +117,16 @@
       "description": "Multiple disjoint occurrences of 'Sarah Hewes' \u2014 requires human review",
       "evidence": "source: concl-e1.htm, matches: 8",
       "created_at": "2026-09-03T12:54:19.197656"
+    },
+    {
+      "id": 7378,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 171,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Sarah Hewes later' \u2014 requires human review",
+      "evidence": "source: hewes.htm, matches: 6",
+      "created_at": "2026-09-03T12:56:05.110803"
     }
   ],
   "ancestry": {

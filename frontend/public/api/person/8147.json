@@ -74,6 +74,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 16132,
+      "person_id": 8147,
+      "fact_type": "Census",
+      "date_string": "1950",
+      "place_string": "Sussex, Delaware, USA",
+      "value_string": "1950 US Federal Census: Wife, age 50. Household: Samuel Thompson (Head, age 54), Martha Thompson (Wife, age 50), Samuel Thompson Jr (Son, age 18), Primrose Thompson (Daughter, age 15), Howda Thompson (Son, age 11), Nelson Thompson (Son, age 9), Phoebe Davis (Daughter, age 30), Joan Ellen Davis (Granddaughter, age 3), Maryland Davis (Granddaughter, age 9)",
+      "citations": [
+        {
+          "citation_id": 14942,
+          "fact_id": 16132,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census, Delaware, Sussex, Delaware, USA. Dwelling record #1200590",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -192,8 +211,8 @@
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Daughter of household head (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 8168,
       "rel_name": "Primrose Elizabeth Thompson"
     },
@@ -220,6 +239,22 @@
       "certainty": "confirmed",
       "rel_id": 8183,
       "rel_name": "Jack Frank Thompson"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Confirmed in 1950 US Federal Census household (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 8169,
+      "rel_name": "Samuel Thompson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Granddaughter of household head (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 11253,
+      "rel_name": "Maryland Phoebe Davis"
     }
   ],
   "photos": [],

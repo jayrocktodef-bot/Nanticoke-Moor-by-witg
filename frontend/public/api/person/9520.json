@@ -74,14 +74,33 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 15980,
+      "person_id": 9520,
+      "fact_type": "Census",
+      "date_string": "1880",
+      "place_string": "Harbeson, Sussex, Delaware, USA",
+      "value_string": "1880 US Federal Census: Self (Head), age 30. Household: Charles Jackson (Self (Head), age 30), Mary A. Jackson (Wife, age 28), Emma Jackson (Daughter, age 7), May L. Jackson (Daughter, age 1)",
+      "citations": [
+        {
+          "citation_id": 14790,
+          "fact_id": 15980,
+          "source_id": 856,
+          "evidence_text": "1880 United States Federal Census, Delaware, Harbeson, Sussex, Delaware, USA. Dwelling record #27029857",
+          "source_title": "1880 United States Federal Census",
+          "source_url": "4240109-00724.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
     {
       "relationship_type": "spouse_of",
       "role": "spouse",
-      "evidence_text": "GEDCOM Family @F81@ marriage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1880 US Federal Census household (Harbeson, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 9149,
       "rel_name": "Mary A. Jackson"
     },
@@ -144,7 +163,18 @@
       {
         "id": 9564,
         "name": "Robert Jackson",
-        "children": []
+        "children": [
+          {
+            "id": 10725,
+            "name": "Samuel Jackson",
+            "children": []
+          },
+          {
+            "id": 11663,
+            "name": "Agnes Jackson",
+            "children": []
+          }
+        ]
       },
       {
         "id": 6480,

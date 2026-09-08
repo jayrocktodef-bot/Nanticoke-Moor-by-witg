@@ -111,6 +111,25 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 16020,
+      "person_id": 9000,
+      "fact_type": "Census",
+      "date_string": "1910",
+      "place_string": "Representative District 8, Sussex, Delaware, USA",
+      "value_string": "1910 US Federal Census: Daughter, age 14. Household: George E Clark (Head, age 47), Caroline Clark (Wife, age 45), Hester Clark (Daughter, age 19), Elizabeth Clark (Daughter, age 14), Joseph L Clark (Son, age 9)",
+      "citations": [
+        {
+          "citation_id": 14830,
+          "fact_id": 16020,
+          "source_id": 858,
+          "evidence_text": "1910 United States Federal Census, Delaware, Representative District 8, Sussex, Delaware, USA. Dwelling record #157317150",
+          "source_title": "1910 United States Federal Census",
+          "source_url": "31111_4330855-01461.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -129,6 +148,22 @@
       "certainty": "confirmed",
       "rel_id": 9350,
       "rel_name": "Levin Clark"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1910 US Federal Census as Daughter of household head (Representative District 8, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 8998,
+      "rel_name": "George E Clark"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1910 US Federal Census as Daughter of household head (Representative District 8, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 8997,
+      "rel_name": "Caroline Clark"
     }
   ],
   "photos": [],
@@ -212,6 +247,22 @@
           {
             "id": 10335,
             "name": "Jane Clark",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 8998,
+        "name": "George E Clark",
+        "children": [
+          {
+            "id": 9953,
+            "name": "George W. Clark",
+            "children": []
+          },
+          {
+            "id": 9954,
+            "name": "Harriett Hettie Johnson",
             "children": []
           }
         ]

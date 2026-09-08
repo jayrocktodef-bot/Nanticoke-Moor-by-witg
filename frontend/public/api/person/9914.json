@@ -74,6 +74,63 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 16029,
+      "person_id": 9914,
+      "fact_type": "Census",
+      "date_string": "1920",
+      "place_string": "Representative District 8, Sussex, Delaware",
+      "value_string": "1920 US Federal Census: Daughter, age 12. Household: Noah Harmon (Head, age 50), Eunice I Harmon (Wife, age 48), Anna Harmon (Daughter, age 12), Noah S Harmon (Son, age 9)",
+      "citations": [
+        {
+          "citation_id": 14839,
+          "fact_id": 16029,
+          "source_id": 859,
+          "evidence_text": "1920 United States Federal Census, Delaware, Representative District 8, Sussex, Delaware. Dwelling record #95772426",
+          "source_title": "1920 United States Federal Census",
+          "source_url": "4295769-00352.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16096,
+      "person_id": 9914,
+      "fact_type": "Census",
+      "date_string": "1940",
+      "place_string": "Pleasantville, Atlantic, New Jersey",
+      "value_string": "1940 US Federal Census: Wife, age 32. Household: Albert Harmon (Head, age 30), Anna Harmon (Wife, age 32)",
+      "citations": [
+        {
+          "citation_id": 14906,
+          "fact_id": 16096,
+          "source_id": 861,
+          "evidence_text": "1940 United States Federal Census, Delaware, Pleasantville, Atlantic, New Jersey. Dwelling record #134771795",
+          "source_title": "1940 United States Federal Census",
+          "source_url": "m-t0627-00548-00373.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16115,
+      "person_id": 9914,
+      "fact_type": "Census",
+      "date_string": "1950",
+      "place_string": "Sussex, Delaware, USA",
+      "value_string": "1950 US Federal Census: Wife, age 42. Household: Albert Harmon (Head, age 40), Anna M Harmon (Wife, age 42), Eunice Harmon (Mother-In-Law, age 78)",
+      "citations": [
+        {
+          "citation_id": 14925,
+          "fact_id": 16115,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census, Delaware, Sussex, Delaware, USA. Dwelling record #1211722",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -96,10 +153,18 @@
     {
       "relationship_type": "spouse_of",
       "role": "spouse",
-      "evidence_text": "GEDCOM Family @F482@ marriage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1950 US Federal Census household (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 10745,
       "rel_name": "Albert Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1920 US Federal Census as Daughter of household head (Representative District 8, Sussex, Delaware)",
+      "certainty": "census_confirmed",
+      "rel_id": 5745,
+      "rel_name": "Eunice Wright Harmon"
     }
   ],
   "photos": [

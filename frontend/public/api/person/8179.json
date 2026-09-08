@@ -74,22 +74,41 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 16122,
+      "person_id": 8179,
+      "fact_type": "Census",
+      "date_string": "1950",
+      "place_string": "Sussex, Delaware, USA",
+      "value_string": "1950 US Federal Census: Wife, age 19. Household: George Thompson (Head, age 24), Bertha Thompson (Wife, age 19), Sylvester E Thompson (Son, age 4), Preston Davis (Nephew, age 6)",
+      "citations": [
+        {
+          "citation_id": 14932,
+          "fact_id": 16122,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census, Delaware, Sussex, Delaware, USA. Dwelling record #1200595",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
     {
       "relationship_type": "spouse_of",
       "role": "spouse",
-      "evidence_text": "GEDCOM Family @F167@ marriage 20 Jan 1945 Georgetown, Sussex, Delaware, USA",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1950 US Federal Census household (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 8171,
       "rel_name": "George Thompson"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Son of household head (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 8181,
       "rel_name": "Sylvester E. Spark Thompson"
     },

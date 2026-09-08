@@ -74,6 +74,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 16027,
+      "person_id": 8377,
+      "fact_type": "Census",
+      "date_string": "1910",
+      "place_string": "Representative District 8, Sussex, Delaware, USA",
+      "value_string": "1910 US Federal Census: Daughter, age 1. Household: John W Thompson (Head, age 32), Mary E Thompson (Wife, age 26), Charles L Thompson (Son, age 7), Sarah E Thompson (Daughter, age 1)",
+      "citations": [
+        {
+          "citation_id": 14837,
+          "fact_id": 16027,
+          "source_id": 858,
+          "evidence_text": "1910 United States Federal Census, Delaware, Representative District 8, Sussex, Delaware, USA. Dwelling record #157318044",
+          "source_title": "1910 United States Federal Census",
+          "source_url": "31111_4330855-01461.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -116,6 +135,22 @@
       "certainty": "confirmed",
       "rel_id": 10720,
       "rel_name": "Alma Thompson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1910 US Federal Census as Daughter of household head (Representative District 8, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 8679,
+      "rel_name": "John W Thompson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1910 US Federal Census as Daughter of household head (Representative District 8, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 8572,
+      "rel_name": "Mary Elizabeth Thompson"
     }
   ],
   "photos": [

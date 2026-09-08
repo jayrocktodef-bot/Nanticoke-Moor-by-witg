@@ -74,6 +74,44 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 16009,
+      "person_id": 10519,
+      "fact_type": "Census",
+      "date_string": "1910",
+      "place_string": "Philadelphia Ward 39, Philadelphia, Pennsylvania, USA",
+      "value_string": "1910 US Federal Census: Daughter, age 20. Household: Jane Harmon (Head, age 63), Sallie Harmon (Daughter, age 22), James H Harmon (Son, age 24), Bertha Harmon (Daughter, age 20), William A Wright (Grandson, age 23), Frederick Wright (Grandson, age 19), Harry Wright (Grandson, age 18)",
+      "citations": [
+        {
+          "citation_id": 14819,
+          "fact_id": 16009,
+          "source_id": 858,
+          "evidence_text": "1910 United States Federal Census, Delaware, Philadelphia Ward 39, Philadelphia, Pennsylvania, USA. Dwelling record #107016752",
+          "source_title": "1910 United States Federal Census",
+          "source_url": "31111_4330855-01461.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16066,
+      "person_id": 10519,
+      "fact_type": "Census",
+      "date_string": "1930",
+      "place_string": "Upper Deerfield, Cumberland, New Jersey, USA",
+      "value_string": "1930 US Federal Census: Wife, age 37. Household: Louis A Harmon (Head, age 36), Bertha Harmon (Wife, age 37)",
+      "citations": [
+        {
+          "citation_id": 14876,
+          "fact_id": 16066,
+          "source_id": 860,
+          "evidence_text": "1930 United States Federal Census, Delaware, Upper Deerfield, Cumberland, New Jersey, USA. Dwelling record #4243865",
+          "source_title": "1930 United States Federal Census",
+          "source_url": "4531895_00729.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -84,6 +122,22 @@
       "certainty": "confirmed",
       "rel_id": 1024,
       "rel_name": "Eli Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1910 US Federal Census as Daughter of household head (Philadelphia Ward 39, Philadelphia, Pennsylvania, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 1686,
+      "rel_name": "Jane Harmon"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Confirmed in 1930 US Federal Census household (Upper Deerfield, Cumberland, New Jersey, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 8677,
+      "rel_name": "Louis Alexander Harmon"
     }
   ],
   "photos": [],
@@ -96,6 +150,11 @@
       {
         "id": 1024,
         "name": "Eli Harmon",
+        "children": []
+      },
+      {
+        "id": 1686,
+        "name": "Jane Harmon",
         "children": []
       }
     ]

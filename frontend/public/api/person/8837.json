@@ -74,6 +74,63 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 16046,
+      "person_id": 8837,
+      "fact_type": "Census",
+      "date_string": "1920",
+      "place_string": "Representative District 8, Sussex, Delaware",
+      "value_string": "1920 US Federal Census: Wife, age 36. Household: John Thompson (Head, age 41), Mary Thompson (Wife, age 36), Sarah Thompson (Daughter, age 11), Dorothy Thompson (Daughter, age 7), Jeremiah Thompson (Son, age 5), Amanda Thompson (Daughter, age 0)",
+      "citations": [
+        {
+          "citation_id": 14856,
+          "fact_id": 16046,
+          "source_id": 859,
+          "evidence_text": "1920 United States Federal Census, Delaware, Representative District 8, Sussex, Delaware. Dwelling record #95771113",
+          "source_title": "1920 United States Federal Census",
+          "source_url": "4295769-00352.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16105,
+      "person_id": 8837,
+      "fact_type": "Census",
+      "date_string": "1940",
+      "place_string": "Philadelphia, Philadelphia, Pennsylvania",
+      "value_string": "1940 US Federal Census: Wife, age 60. Household: Mary Thompson (Wife, age 60), R Adele Thompson (Daughter, age 19), William Thompson (Head, age 63)",
+      "citations": [
+        {
+          "citation_id": 14915,
+          "fact_id": 16105,
+          "source_id": 861,
+          "evidence_text": "1940 United States Federal Census, Delaware, Philadelphia, Philadelphia, Pennsylvania. Dwelling record #22560365",
+          "source_title": "1940 United States Federal Census",
+          "source_url": "m-t0627-00548-00373.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16141,
+      "person_id": 8837,
+      "fact_type": "Census",
+      "date_string": "1950",
+      "place_string": "Philadelphia, Philadelphia, Pennsylvania, USA",
+      "value_string": "1950 US Federal Census: Mother, age 66. Household: Sarah Johnson (Head, age 41), Mary Thompson (Mother, age 66), Christine Dorman (Lodger, age 50)",
+      "citations": [
+        {
+          "citation_id": 14951,
+          "fact_id": 16141,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census, Delaware, Philadelphia, Philadelphia, Pennsylvania, USA. Dwelling record #242143666",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -84,6 +141,38 @@
       "certainty": "confirmed",
       "rel_id": 8841,
       "rel_name": "Leah Thompson"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Confirmed in 1920 US Federal Census household (Representative District 8, Sussex, Delaware)",
+      "certainty": "census_confirmed",
+      "rel_id": 8702,
+      "rel_name": "John Thompson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1920 US Federal Census as Daughter of household head (Representative District 8, Sussex, Delaware)",
+      "certainty": "census_confirmed",
+      "rel_id": 8499,
+      "rel_name": "Dorothy Thompson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1920 US Federal Census as Son of household head (Representative District 8, Sussex, Delaware)",
+      "certainty": "census_confirmed",
+      "rel_id": 8701,
+      "rel_name": "Jeremiah Thompson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1920 US Federal Census as Daughter of household head (Representative District 8, Sussex, Delaware)",
+      "certainty": "census_confirmed",
+      "rel_id": 10277,
+      "rel_name": "Amanda Thompson"
     }
   ],
   "photos": [],

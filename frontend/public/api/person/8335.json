@@ -74,15 +74,97 @@
           "source_dataset": "mitsawokett_primary"
         }
       ]
+    },
+    {
+      "fact_id": 16016,
+      "person_id": 8335,
+      "fact_type": "Census",
+      "date_string": "1910",
+      "place_string": "Representative District 10, Sussex, Delaware, USA",
+      "value_string": "1910 US Federal Census: Daughter, age 0. Household: Harry Jackson (Head, age 26), Lizzie Jackson (Wife, age 38), Bessie Jackson (Daughter, age 9), Sallie Jackson (Daughter, age 8), Manda Jackson (Daughter, age 7), Margret Jackson (Daughter, age 4), Rachel Jackson (Daughter, age 0), Rayman Clark (Son-in-law, age 11)",
+      "citations": [
+        {
+          "citation_id": 14826,
+          "fact_id": 16016,
+          "source_id": 858,
+          "evidence_text": "1910 United States Federal Census, Delaware, Representative District 10, Sussex, Delaware, USA. Dwelling record #157327580",
+          "source_title": "1910 United States Federal Census",
+          "source_url": "31111_4330855-01461.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16044,
+      "person_id": 8335,
+      "fact_type": "Census",
+      "date_string": "1920",
+      "place_string": "Rehoboth Beach, Sussex, Delaware",
+      "value_string": "1920 US Federal Census: Daughter, age 7. Household: Harry Jackson (Head, age 40), Manda Jackson (Daughter, age 14), Margret Jackson (Daughter, age 12), Rachel Jackson (Daughter, age 7), May Jackson (Daughter, age 5)",
+      "citations": [
+        {
+          "citation_id": 14854,
+          "fact_id": 16044,
+          "source_id": 859,
+          "evidence_text": "1920 United States Federal Census, Delaware, Rehoboth Beach, Sussex, Delaware. Dwelling record #95780810",
+          "source_title": "1920 United States Federal Census",
+          "source_url": "4295769-00352.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1920 US Federal Census as Daughter of household head (Rehoboth Beach, Sussex, Delaware)",
+      "certainty": "census_confirmed",
+      "rel_id": 9519,
+      "rel_name": "Harry Jackson"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 8335,
     "name": "Rachel Jackson",
-    "children": []
+    "children": [
+      {
+        "id": 9519,
+        "name": "Harry Jackson",
+        "children": [
+          {
+            "id": 9149,
+            "name": "Mary A. Jackson",
+            "children": [
+              {
+                "id": 8921,
+                "name": "Eliza Jane Morris",
+                "children": [
+                  {
+                    "id": 9958,
+                    "name": "Emma Jane Johnson",
+                    "children": [
+                      {
+                        "id": 9936,
+                        "name": "Sarah Adeline Hanzer",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10539,
+                    "name": "Samuel Roland Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

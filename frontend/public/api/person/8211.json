@@ -74,22 +74,60 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 16102,
+      "person_id": 8211,
+      "fact_type": "Census",
+      "date_string": "1940",
+      "place_string": "Milton, Sussex, Delaware",
+      "value_string": "1940 US Federal Census: Daughter, age 5. Household: John W Clark (Head, age 46), Lulu R Clark (Wife, age 43), Wilfred T Clark (Son, age 17), Arlie B Clark (Son, age 15), Ray W Clark (Son, age 9), Joan E Clark (Daughter, age 5), John W Clark (Son, age 2)",
+      "citations": [
+        {
+          "citation_id": 14912,
+          "fact_id": 16102,
+          "source_id": 861,
+          "evidence_text": "1940 United States Federal Census, Delaware, Milton, Sussex, Delaware. Dwelling record #262160",
+          "source_title": "1940 United States Federal Census",
+          "source_url": "m-t0627-00548-00373.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16138,
+      "person_id": 8211,
+      "fact_type": "Census",
+      "date_string": "1950",
+      "place_string": "Milton, Sussex, Delaware, USA",
+      "value_string": "1950 US Federal Census: Daughter, age 15. Household: John W Clark Jr (Head, age 53), Lulu R Clark (Wife, age 52), Arlie B Clark (Son, age 25), Ray W Clark (Son, age 19), Joan E Clark (Daughter, age 15), John W Clark III (Son, age 12)",
+      "citations": [
+        {
+          "citation_id": 14948,
+          "fact_id": 16138,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census, Delaware, Milton, Sussex, Delaware, USA. Dwelling record #1221531",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
     {
       "relationship_type": "child_of",
       "role": "parent",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1940 US Federal Census as Daughter of household head (Milton, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 8193,
       "rel_name": "John Wesley Clark Jr"
     },
     {
       "relationship_type": "child_of",
       "role": "parent",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Daughter of household head (Milton, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 8194,
       "rel_name": "Lulu Rae Clark"
     }

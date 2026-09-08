@@ -74,14 +74,33 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 16119,
+      "person_id": 8187,
+      "fact_type": "Census",
+      "date_string": "1950",
+      "place_string": "Sussex, Delaware, USA",
+      "value_string": "1950 US Federal Census: Son, age 13. Household: George A Davis (Head, age 35), Pearl Davis (Wife, age 28), Alsup Davis (Son, age 13), Delphine Davis (Daughter, age 10), Margariete Davis (Daughter, age 8)",
+      "citations": [
+        {
+          "citation_id": 14929,
+          "fact_id": 16119,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census, Delaware, Sussex, Delaware, USA. Dwelling record #1212125",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
     {
       "relationship_type": "child_of",
       "role": "parent",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Son of household head (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 8157,
       "rel_name": "George Davis"
     },
@@ -100,6 +119,14 @@
       "certainty": "confirmed",
       "rel_id": 8249,
       "rel_name": "Margarete Davis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Son of household head (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 4965,
+      "rel_name": "Pearl Davis"
     }
   ],
   "photos": [

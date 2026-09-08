@@ -74,9 +74,45 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 16092,
+      "person_id": 4574,
+      "fact_type": "Census",
+      "date_string": "1940",
+      "place_string": "Sussex, Delaware",
+      "value_string": "1940 US Federal Census: Son, age 3. Household: George Davis (Head, age 28), Pearl Davis (Wife, age 23), Alonzo Davis (Son, age 3), Delphina Davis (Daughter, age 5), Mildred Clark (Niece, age 13)",
+      "citations": [
+        {
+          "citation_id": 14902,
+          "fact_id": 16092,
+          "source_id": 861,
+          "evidence_text": "1940 United States Federal Census, Delaware, Sussex, Delaware. Dwelling record #254792",
+          "source_title": "1940 United States Federal Census",
+          "source_url": "m-t0627-00548-00373.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1940 US Federal Census as Son of household head (Sussex, Delaware)",
+      "certainty": "census_confirmed",
+      "rel_id": 8157,
+      "rel_name": "George Davis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1940 US Federal Census as Son of household head (Sussex, Delaware)",
+      "certainty": "census_confirmed",
+      "rel_id": 4965,
+      "rel_name": "Pearl Davis"
+    }
+  ],
   "photos": [
     {
       "person_id": 4574,
@@ -102,6 +138,61 @@
   "ancestry": {
     "id": 4574,
     "name": "Alonzo Davis",
-    "children": []
+    "children": [
+      {
+        "id": 8157,
+        "name": "George Davis",
+        "children": [
+          {
+            "id": 8519,
+            "name": "JAMES Davis",
+            "children": []
+          },
+          {
+            "id": 8185,
+            "name": "Hester A. Morris Davis",
+            "children": [
+              {
+                "id": 8571,
+                "name": "Francis E. Frank Morris",
+                "children": [
+                  {
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": []
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 11246,
+                "name": "Francis E. Morris",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4965,
+        "name": "Pearl Davis",
+        "children": []
+      }
+    ]
   }
 }

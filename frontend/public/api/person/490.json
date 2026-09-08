@@ -311,14 +311,33 @@
           "source_dataset": "mitsawokett_primary"
         }
       ]
+    },
+    {
+      "fact_id": 15999,
+      "person_id": 490,
+      "fact_type": "Census",
+      "date_string": "1900",
+      "place_string": "Lewis and Rehobeth, Sussex, Delaware",
+      "value_string": "1900 US Federal Census: Wife, age 23. Household: Harry Jackson (Head, age 20), Elizabeth Jackson (Wife, age 23), Mary Jackson (Daughter, age 7), Martha Jackson (Daughter, age 4), Raymond Jackson (Son, age 3), Bessie Jackson (Daughter, age 0), Eliza Jackson (Sister, age 17)",
+      "citations": [
+        {
+          "citation_id": 14809,
+          "fact_id": 15999,
+          "source_id": 857,
+          "evidence_text": "1900 United States Federal Census, Delaware, Lewis and Rehobeth, Sussex, Delaware. Dwelling record #33809167",
+          "source_title": "1900 United States Federal Census",
+          "source_url": "4119668_00216.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
     {
       "relationship_type": "spouse_of",
       "role": "spouse",
-      "evidence_text": "GEDCOM Family @F217@ marriage 1900 USA",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1900 US Federal Census household (Lewis and Rehobeth, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 9519,
       "rel_name": "Harry Jackson"
     },
@@ -333,24 +352,24 @@
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1900 US Federal Census as Daughter of household head (Lewis and Rehobeth, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 6480,
       "rel_name": "Mary Jackson"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1900 US Federal Census as Son of household head (Lewis and Rehobeth, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 8516,
       "rel_name": "Raymond Jackson"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1900 US Federal Census as Daughter of household head (Lewis and Rehobeth, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 8333,
       "rel_name": "Bessie Jackson"
     },

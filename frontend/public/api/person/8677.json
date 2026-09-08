@@ -74,6 +74,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 16065,
+      "person_id": 8677,
+      "fact_type": "Census",
+      "date_string": "1930",
+      "place_string": "Upper Deerfield, Cumberland, New Jersey, USA",
+      "value_string": "1930 US Federal Census: Head, age 36. Household: Louis A Harmon (Head, age 36), Bertha Harmon (Wife, age 37)",
+      "citations": [
+        {
+          "citation_id": 14875,
+          "fact_id": 16065,
+          "source_id": 860,
+          "evidence_text": "1930 United States Federal Census, Delaware, Upper Deerfield, Cumberland, New Jersey, USA. Dwelling record #4243865",
+          "source_title": "1930 United States Federal Census",
+          "source_url": "4531895_00729.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -84,6 +103,14 @@
       "certainty": "confirmed",
       "rel_id": 8675,
       "rel_name": "Bertha M Davis"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Confirmed in 1930 US Federal Census household (Upper Deerfield, Cumberland, New Jersey, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 10519,
+      "rel_name": "Bertha Harmon"
     }
   ],
   "photos": [],

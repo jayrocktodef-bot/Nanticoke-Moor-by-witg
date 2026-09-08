@@ -10,7 +10,7 @@
     "source_page": "CokerDonald&HarrietMorgan.htm",
     "birth_info": "unknown",
     "death_info": "3 Apr 1955",
-    "notes": "Ingested from CokerDonald&HarrietMorgan.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/115005662/harry-srabian [Suffix 'Sr' realigned from surname field]",
+    "notes": "Ingested from CokerDonald&HarrietMorgan.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/115005662/harry-srabian [Suffix 'Sr' realigned from surname field] | Merged duplicate #6492: Ingested from MorganWilliam&Nora.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/115005662/harry-srabian [Suffix 'Sr' realigned from surname field]",
     "dataset_source": "mitsawokett_delaware",
     "birth_date": null,
     "birth_place": null,
@@ -76,7 +76,73 @@
       ]
     },
     {
+      "fact_id": 5794,
+      "person_id": 4219,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Harry N. Morgan Sr.",
+      "citations": [
+        {
+          "citation_id": 5788,
+          "fact_id": 5794,
+          "source_id": 452,
+          "evidence_text": null,
+          "source_title": "Record: MorganWilliam&Nora.htm",
+          "source_url": "MorganWilliam&Nora.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 5795,
+      "person_id": 4219,
+      "fact_type": "Birth",
+      "date_string": "unknown",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 5789,
+          "fact_id": 5795,
+          "source_id": 452,
+          "evidence_text": null,
+          "source_title": "Record: MorganWilliam&Nora.htm",
+          "source_url": "MorganWilliam&Nora.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 5796,
+      "person_id": 4219,
+      "fact_type": "Death",
+      "date_string": "3 Apr 1955",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 5790,
+          "fact_id": 5796,
+          "source_id": 452,
+          "evidence_text": null,
+          "source_title": "Record: MorganWilliam&Nora.htm",
+          "source_url": "MorganWilliam&Nora.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
       "fact_id": 12069,
+      "person_id": 4219,
+      "fact_type": "Marriage",
+      "date_string": "4 August 1909",
+      "place_string": null,
+      "value_string": "married Alonzo DURHAM on 4 August 1909",
+      "citations": []
+    },
+    {
+      "fact_id": 12224,
       "person_id": 4219,
       "fact_type": "Marriage",
       "date_string": "4 August 1909",
@@ -95,6 +161,25 @@
         {
           "citation_id": 11677,
           "fact_id": 12875,
+          "source_id": 690,
+          "evidence_text": "...was born in Kent Co., DE in 1897 . They had the following children: Walter Coker , married Myrtle Morgan, daughter of Harry Morgan and Frances Durham Carlton Coker , married Anna Loatman, daughter of Samuel Loatman and Margaret Carney Vicktorine...",
+          "source_title": "Preserved Document: Alonzo Coker",
+          "source_url": "coker-a7.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 12879,
+      "person_id": 4219,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Alonzo Coker",
+      "citations": [
+        {
+          "citation_id": 11681,
+          "fact_id": 12879,
           "source_id": 690,
           "evidence_text": "...was born in Kent Co., DE in 1897 . They had the following children: Walter Coker , married Myrtle Morgan, daughter of Harry Morgan and Frances Durham Carlton Coker , married Anna Loatman, daughter of Samuel Loatman and Margaret Carney Vicktorine...",
           "source_title": "Preserved Document: Alonzo Coker",
@@ -123,6 +208,25 @@
       ]
     },
     {
+      "fact_id": 14156,
+      "person_id": 4219,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Napoleon Morgan",
+      "citations": [
+        {
+          "citation_id": 12958,
+          "fact_id": 14156,
+          "source_id": 86,
+          "evidence_text": "...and Nora are buried at Immanuel Union (Manship) Church in Cheswold, DE children of William Henry and Cora Carney Reed: Harry Morgan married #1) Frances Lilliam Durham, daughter of Marvel Durham and Rhoda Seeney and #2) Henrietta Carney children of...",
+          "source_title": "Record: morgan-n.htm",
+          "source_url": "morgan-n.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
       "fact_id": 14420,
       "person_id": 4219,
       "fact_type": "Document Mention",
@@ -133,6 +237,25 @@
         {
           "citation_id": 13222,
           "fact_id": 14420,
+          "source_id": 750,
+          "evidence_text": "...her father and step-mother, Mr. & Mrs. William H. Morgan, Cheswold; two brothers, Nelson Morgan, New York City and Harry Morgan, Dover; a sister, Mrs. Nora Pierce, Monroeville, N.J. and three grandchildren. Funeral services will be Wednesday...",
+          "source_title": "Preserved Document: Obits- Morris",
+          "source_url": "obit-m1.htm",
+          "source_dataset": "mitsawokett_primary"
+        }
+      ]
+    },
+    {
+      "fact_id": 14422,
+      "person_id": 4219,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Obits- Morris",
+      "citations": [
+        {
+          "citation_id": 13224,
+          "fact_id": 14422,
           "source_id": 750,
           "evidence_text": "...her father and step-mother, Mr. & Mrs. William H. Morgan, Cheswold; two brothers, Nelson Morgan, New York City and Harry Morgan, Dover; a sister, Mrs. Nora Pierce, Monroeville, N.J. and three grandchildren. Funeral services will be Wednesday...",
           "source_title": "Preserved Document: Obits- Morris",
@@ -210,6 +333,16 @@
       "description": "[XPAGE:durhm-h2.htm] Marriage: date='4 August 1909'",
       "evidence": "verbatim: married Alonzo DURHAM on 4 August 1909",
       "created_at": "2026-09-03T12:55:08.591235"
+    },
+    {
+      "id": 7044,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 4219,
+      "person_id_secondary": null,
+      "description": "[XPAGE:durhm-h2.htm] Marriage: date='4 August 1909'",
+      "evidence": "verbatim: married Alonzo DURHAM on 4 August 1909",
+      "created_at": "2026-09-03T12:55:19.965558"
     }
   ],
   "ancestry": {

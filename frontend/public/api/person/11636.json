@@ -1,23 +1,80 @@
 {
   "person": {
     "person_id": 11636,
-    "name": "Mary Vincent and",
+    "name": "Mary Vincent",
     "first_name": "Mary",
-    "middle_name": "Vincent",
+    "middle_name": "",
     "maiden_name": null,
-    "married_last_name": "and",
+    "married_last_name": "Vincent",
     "evidence_level": 3,
     "source_page": "hansor.htm",
-    "birth_info": null,
-    "death_info": null,
-    "notes": "",
+    "birth_info": "1785",
+    "death_info": "1860 (aged 74\u201375)",
+    "notes": "Merged from duplicate #372:  | Verified via FindAGrave: https://www.findagrave.com/memorial/226650820/mary-later",
     "dataset_source": "lynncjackson",
-    "birth_date": null,
+    "birth_date": "1785",
     "birth_place": null,
-    "death_date": null,
+    "death_date": "1860 (aged 74\u201375)",
     "death_place": null
   },
   "facts": [
+    {
+      "fact_id": 622,
+      "person_id": 11636,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Mary Vincent later",
+      "citations": [
+        {
+          "citation_id": 622,
+          "fact_id": 622,
+          "source_id": 61,
+          "evidence_text": "...Hansor was Aminidab, the illegitimate son of Mary Vincent and a black servant named Aminidab of Nandua Creek, VA. Mary Vincent later married John Oakey (Sr.) of Morlatto Hall and lived in Sussex Co. but this is just speculation for now. The later...",
+          "source_title": "Record: hansor.htm",
+          "source_url": "hansor.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 623,
+      "person_id": 11636,
+      "fact_type": "Birth",
+      "date_string": "1785",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 623,
+          "fact_id": 623,
+          "source_id": 61,
+          "evidence_text": "...Hansor was Aminidab, the illegitimate son of Mary Vincent and a black servant named Aminidab of Nandua Creek, VA. Mary Vincent later married John Oakey (Sr.) of Morlatto Hall and lived in Sussex Co. but this is just speculation for now. The later...",
+          "source_title": "Record: hansor.htm",
+          "source_url": "hansor.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 624,
+      "person_id": 11636,
+      "fact_type": "Death",
+      "date_string": "1860 (aged 74\u201375)",
+      "place_string": null,
+      "value_string": null,
+      "citations": [
+        {
+          "citation_id": 624,
+          "fact_id": 624,
+          "source_id": 61,
+          "evidence_text": "...Hansor was Aminidab, the illegitimate son of Mary Vincent and a black servant named Aminidab of Nandua Creek, VA. Mary Vincent later married John Oakey (Sr.) of Morlatto Hall and lived in Sussex Co. but this is just speculation for now. The later...",
+          "source_title": "Record: hansor.htm",
+          "source_url": "hansor.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
     {
       "fact_id": 11391,
       "person_id": 11636,
@@ -40,6 +97,14 @@
   ],
   "relationships": [
     {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "It was this appearance of Aminidab with the Oakeys that led Douglas Deal to believe that Aminidab Hansor was Aminidab, the illegitimate son of Mary Vincent and a black servant named Aminidab of Nandua",
+      "certainty": "confirmed",
+      "rel_id": 373,
+      "rel_name": "John Oakey"
+    },
+    {
       "relationship_type": "parent_of",
       "role": "child",
       "evidence_text": "It was this appearance of Aminidab with the Oakeys that led Douglas Deal to believe that Aminidab Hansor was Aminidab, the illegitimate son of Mary Vincent and a black servant named Aminidab of Nandua",
@@ -50,10 +115,21 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 5974,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 11636,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'Mary Vincent later' \u2014 requires human review",
+      "evidence": "source: hansor.htm, matches: 9",
+      "created_at": "2026-09-03T12:54:24.165594"
+    }
+  ],
   "ancestry": {
     "id": 11636,
-    "name": "Mary Vincent and",
+    "name": "Mary Vincent",
     "children": []
   }
 }

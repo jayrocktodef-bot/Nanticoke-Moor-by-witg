@@ -140,14 +140,33 @@
           "source_dataset": "mitsawokett_primary"
         }
       ]
+    },
+    {
+      "fact_id": 16109,
+      "person_id": 10727,
+      "fact_type": "Census",
+      "date_string": "1950",
+      "place_string": "Sussex, Delaware, USA",
+      "value_string": "1950 US Federal Census: Son, age 16. Household: Samuel Jackson (Head, age 41), Agnes Jackson (Wife, age 36), Wm Edward Jackson (Son, age 19), Betty Jackson (Daughter, age 18), Robert W Jackson (Son, age 16), Samuel B Jackson (Son, age 14), George Jackson (Son, age 13), Blenda Jackson (Daughter, age 10), Bruce Jackson (Son, age 7)",
+      "citations": [
+        {
+          "citation_id": 14919,
+          "fact_id": 16109,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census, Delaware, Sussex, Delaware, USA. Dwelling record #1211860",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
     {
       "relationship_type": "child_of",
       "role": "parent",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Son of household head (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 10725,
       "rel_name": "Samuel Jackson"
     },
@@ -158,6 +177,14 @@
       "certainty": "confirmed",
       "rel_id": 9964,
       "rel_name": "Agnes Beatrice Wright"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Son of household head (Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 11663,
+      "rel_name": "Agnes Jackson"
     }
   ],
   "photos": [

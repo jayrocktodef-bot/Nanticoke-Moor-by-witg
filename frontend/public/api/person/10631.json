@@ -74,14 +74,33 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 16075,
+      "person_id": 10631,
+      "fact_type": "Census",
+      "date_string": "1930",
+      "place_string": "District 2, Kent, Delaware, USA",
+      "value_string": "1930 US Federal Census: Son, age 10. Household: Harry C Mosley (Head, age 43), Ella Mosley (Wife, age 50), Howard Mosley (Son, age 17), Douglas Mosley (Son, age 10), Annie Mosley (Daughter, age 9), Walter Mosley (Grandson, age 4)",
+      "citations": [
+        {
+          "citation_id": 14885,
+          "fact_id": 16075,
+          "source_id": 860,
+          "evidence_text": "1930 United States Federal Census, Delaware, District 2, Kent, Delaware, USA. Dwelling record #121476948",
+          "source_title": "1930 United States Federal Census",
+          "source_url": "4531895_00729.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
     {
       "relationship_type": "child_of",
       "role": "parent",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Son of household head (District 2, Kent, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 10632,
       "rel_name": "Harry C Mosley"
     },
@@ -92,6 +111,14 @@
       "certainty": "confirmed",
       "rel_id": 10626,
       "rel_name": "Ellen Mosley"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Son of household head (District 2, Kent, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 9482,
+      "rel_name": "Ella N Mosley"
     }
   ],
   "photos": [],

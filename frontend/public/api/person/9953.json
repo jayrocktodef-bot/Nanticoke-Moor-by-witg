@@ -188,6 +188,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 15972,
+      "person_id": 9953,
+      "fact_type": "Census",
+      "date_string": "1880",
+      "place_string": "Dagsborough, Sussex, Delaware, USA",
+      "value_string": "1880 US Federal Census: Self (Head), age 42. Household: George W. Clark (Self (Head), age 42), Hetty A. Clark (Wife, age 40), Rufus M. Clark (Son, age 18), Geore E. Clark (Son, age 16), Ella M. Clark (Daughter, age 15), Linia L. Clark (Daughter, age 14), Sydora J. Clark (Son, age 11), Joseph L. Clark (Son, age 9), Faunse H. Clark (Son, age 7), Albert P. Clark (Son, age 6), Charles C. Clark (Son, age 3), Ruth A. Clark (Daughter, age 7/12)",
+      "citations": [
+        {
+          "citation_id": 14782,
+          "fact_id": 15972,
+          "source_id": 856,
+          "evidence_text": "1880 United States Federal Census, Delaware, Dagsborough, Sussex, Delaware, USA. Dwelling record #27033261",
+          "source_title": "1880 United States Federal Census",
+          "source_url": "4240109-00724.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -226,16 +245,16 @@
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1880 US Federal Census as Daughter of household head (Dagsborough, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 9948,
       "rel_name": "Linia L. Clark"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1880 US Federal Census as Son of household head (Dagsborough, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 9949,
       "rel_name": "Sydora J. Clark"
     },
@@ -258,32 +277,32 @@
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1880 US Federal Census as Son of household head (Dagsborough, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 9950,
       "rel_name": "Faunse H. Clark"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1880 US Federal Census as Son of household head (Dagsborough, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 9951,
       "rel_name": "Albert P. Clark"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1880 US Federal Census as Son of household head (Dagsborough, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 1690,
       "rel_name": "Charles C. Clark"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1880 US Federal Census as Daughter of household head (Dagsborough, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 9952,
       "rel_name": "Ruth A. Clark"
     }

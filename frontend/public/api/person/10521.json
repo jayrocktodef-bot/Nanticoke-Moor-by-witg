@@ -74,6 +74,25 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 16007,
+      "person_id": 10521,
+      "fact_type": "Census",
+      "date_string": "1910",
+      "place_string": "Philadelphia Ward 39, Philadelphia, Pennsylvania, USA",
+      "value_string": "1910 US Federal Census: Daughter, age 22. Household: Jane Harmon (Head, age 63), Sallie Harmon (Daughter, age 22), James H Harmon (Son, age 24), Bertha Harmon (Daughter, age 20), William A Wright (Grandson, age 23), Frederick Wright (Grandson, age 19), Harry Wright (Grandson, age 18)",
+      "citations": [
+        {
+          "citation_id": 14817,
+          "fact_id": 16007,
+          "source_id": 858,
+          "evidence_text": "1910 United States Federal Census, Delaware, Philadelphia Ward 39, Philadelphia, Pennsylvania, USA. Dwelling record #107016752",
+          "source_title": "1910 United States Federal Census",
+          "source_url": "31111_4330855-01461.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -116,6 +135,14 @@
       "certainty": "confirmed",
       "rel_id": 10745,
       "rel_name": "Albert Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1910 US Federal Census as Daughter of household head (Philadelphia Ward 39, Philadelphia, Pennsylvania, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 1686,
+      "rel_name": "Jane Harmon"
     }
   ],
   "photos": [],
@@ -124,6 +151,12 @@
   "ancestry": {
     "id": 10521,
     "name": "Sallie Harmon",
-    "children": []
+    "children": [
+      {
+        "id": 1686,
+        "name": "Jane Harmon",
+        "children": []
+      }
+    ]
   }
 }

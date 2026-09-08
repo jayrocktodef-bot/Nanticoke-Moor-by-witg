@@ -131,6 +131,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 16097,
+      "person_id": 8193,
+      "fact_type": "Census",
+      "date_string": "1940",
+      "place_string": "Milton, Sussex, Delaware",
+      "value_string": "1940 US Federal Census: Head, age 46. Household: John W Clark (Head, age 46), Lulu R Clark (Wife, age 43), Wilfred T Clark (Son, age 17), Arlie B Clark (Son, age 15), Ray W Clark (Son, age 9), Joan E Clark (Daughter, age 5), John W Clark (Son, age 2)",
+      "citations": [
+        {
+          "citation_id": 14907,
+          "fact_id": 16097,
+          "source_id": 861,
+          "evidence_text": "1940 United States Federal Census, Delaware, Milton, Sussex, Delaware. Dwelling record #262160",
+          "source_title": "1940 United States Federal Census",
+          "source_url": "m-t0627-00548-00373.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -145,8 +164,8 @@
     {
       "relationship_type": "spouse_of",
       "role": "spouse",
-      "evidence_text": "GEDCOM Family @F515@ marriage 1917 Delaware, United States",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1940 US Federal Census household (Milton, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 8194,
       "rel_name": "Lulu Rae Clark"
     },
@@ -177,8 +196,8 @@
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1940 US Federal Census as Son of household head (Milton, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 8196,
       "rel_name": "Wilfred Clark"
     },
@@ -193,24 +212,24 @@
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1940 US Federal Census as Son of household head (Milton, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 8207,
       "rel_name": "Arlie Benjamin Clark"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1940 US Federal Census as Son of household head (Milton, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 8208,
       "rel_name": "Ray Clark"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1940 US Federal Census as Daughter of household head (Milton, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 8211,
       "rel_name": "Joan Elaine Clark"
     },

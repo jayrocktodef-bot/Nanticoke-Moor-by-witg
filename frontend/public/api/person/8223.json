@@ -92,14 +92,71 @@
       "place_string": "Bridgeton, NJ in 1936",
       "value_string": "married Ulysses Owens    Jeremiah died in Bridgeton, NJ in 1936",
       "citations": []
+    },
+    {
+      "fact_id": 16053,
+      "person_id": 8223,
+      "fact_type": "Census",
+      "date_string": "1920",
+      "place_string": "Representative District 8, Sussex, Delaware",
+      "value_string": "1920 US Federal Census: Daughter, age 6. Household: Harry Mosley (Head, age 47), Maggie Mosley (Wife, age 36), Lillie Mosley (Daughter, age 21), Mamie Mosley (Daughter, age 17), Raymond Mosley (Son, age 15), Ella Mosley (Daughter, age 13), Carllord Mosley (Son, age 11), Duhout W Mosley (Son, age 8), Myrtle Mosley (Daughter, age 6), Jona Johnson (Granddaughter, age 5), Edith Johnson (Granddaughter, age 2)",
+      "citations": [
+        {
+          "citation_id": 14863,
+          "fact_id": 16053,
+          "source_id": 859,
+          "evidence_text": "1920 United States Federal Census, Delaware, Representative District 8, Sussex, Delaware. Dwelling record #95772125",
+          "source_title": "1920 United States Federal Census",
+          "source_url": "4295769-00352.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16085,
+      "person_id": 8223,
+      "fact_type": "Census",
+      "date_string": "1930",
+      "place_string": "District 8, Sussex, Delaware, USA",
+      "value_string": "1930 US Federal Census: Daughter, age 16. Household: Harry Mosley (Head, age 58), Margaret M Mosley (Wife, age 47), J Carlton Mosley (Son, age 20), William D Mosley (Son, age 18), Myrtle P Mosley (Daughter, age 16)",
+      "citations": [
+        {
+          "citation_id": 14895,
+          "fact_id": 16085,
+          "source_id": 860,
+          "evidence_text": "1930 United States Federal Census, Delaware, District 8, Sussex, Delaware, USA. Dwelling record #121407401",
+          "source_title": "1930 United States Federal Census",
+          "source_url": "4531895_00729.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16104,
+      "person_id": 8223,
+      "fact_type": "Census",
+      "date_string": "1940",
+      "place_string": "Sussex, Delaware",
+      "value_string": "1940 US Federal Census: Daughter, age 26. Household: Harry Mosley (Head, age 66), Maggie Mosley (Wife, age 56), Dupont W Mosley (Son, age 27), Myrtle Mosley (Daughter, age 26), Elick Hanzor (Uncle, age 65), Dolores Hooper (Granddaughter, age 12), Maurico Mosley (Grandson, age 5)",
+      "citations": [
+        {
+          "citation_id": 14914,
+          "fact_id": 16104,
+          "source_id": 861,
+          "evidence_text": "1940 United States Federal Census, Delaware, Sussex, Delaware. Dwelling record #254818",
+          "source_title": "1940 United States Federal Census",
+          "source_url": "m-t0627-00548-00373.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
     {
       "relationship_type": "child_of",
       "role": "parent",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1940 US Federal Census as Daughter of household head (Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 9239,
       "rel_name": "Harry Mosley"
     },

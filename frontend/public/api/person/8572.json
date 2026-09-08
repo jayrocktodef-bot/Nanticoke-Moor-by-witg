@@ -74,6 +74,44 @@
           "source_dataset": "davis_family_gedcom"
         }
       ]
+    },
+    {
+      "fact_id": 16025,
+      "person_id": 8572,
+      "fact_type": "Census",
+      "date_string": "1910",
+      "place_string": "Representative District 8, Sussex, Delaware, USA",
+      "value_string": "1910 US Federal Census: Wife, age 26. Household: John W Thompson (Head, age 32), Mary E Thompson (Wife, age 26), Charles L Thompson (Son, age 7), Sarah E Thompson (Daughter, age 1)",
+      "citations": [
+        {
+          "citation_id": 14835,
+          "fact_id": 16025,
+          "source_id": 858,
+          "evidence_text": "1910 United States Federal Census, Delaware, Representative District 8, Sussex, Delaware, USA. Dwelling record #157318044",
+          "source_title": "1910 United States Federal Census",
+          "source_url": "31111_4330855-01461.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16055,
+      "person_id": 8572,
+      "fact_type": "Census",
+      "date_string": "1930",
+      "place_string": "District 8, Sussex, Delaware, USA",
+      "value_string": "1930 US Federal Census: Wife, age 46. Household: John W Thompson (Head, age 52), Mary E Thompson (Wife, age 46), Dorothy M Thompson (Daughter, age 17), Jerry M Thompson (Son, age 15), Amanda A Thompson (Daughter, age 12), Mary E Thompson (Granddaughter, age 6), Stanley M Thompson (Grandson, age 0)",
+      "citations": [
+        {
+          "citation_id": 14865,
+          "fact_id": 16055,
+          "source_id": 860,
+          "evidence_text": "1930 United States Federal Census, Delaware, District 8, Sussex, Delaware, USA. Dwelling record #121408063",
+          "source_title": "1930 United States Federal Census",
+          "source_url": "4531895_00729.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -88,8 +126,8 @@
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1910 US Federal Census as Son of household head (Representative District 8, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 9255,
       "rel_name": "Charles Larence Thompson"
     },
@@ -112,8 +150,8 @@
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Daughter of household head (District 8, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 10277,
       "rel_name": "Amanda Thompson"
     },
@@ -124,6 +162,22 @@
       "certainty": "confirmed",
       "rel_id": 10278,
       "rel_name": "Adele Ruby Thompson"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Confirmed in 1930 US Federal Census household (District 8, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 8679,
+      "rel_name": "John W Thompson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1910 US Federal Census as Daughter of household head (Representative District 8, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 8377,
+      "rel_name": "Sarah E Thompson"
     }
   ],
   "photos": [],

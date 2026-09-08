@@ -93,6 +93,25 @@
           "source_dataset": "mitsawokett_primary"
         }
       ]
+    },
+    {
+      "fact_id": 16072,
+      "person_id": 10632,
+      "fact_type": "Census",
+      "date_string": "1930",
+      "place_string": "District 2, Kent, Delaware, USA",
+      "value_string": "1930 US Federal Census: Head, age 43. Household: Harry C Mosley (Head, age 43), Ella Mosley (Wife, age 50), Howard Mosley (Son, age 17), Douglas Mosley (Son, age 10), Annie Mosley (Daughter, age 9), Walter Mosley (Grandson, age 4)",
+      "citations": [
+        {
+          "citation_id": 14882,
+          "fact_id": 16072,
+          "source_id": 860,
+          "evidence_text": "1930 United States Federal Census, Delaware, District 2, Kent, Delaware, USA. Dwelling record #121476948",
+          "source_title": "1930 United States Federal Census",
+          "source_url": "4531895_00729.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -107,26 +126,34 @@
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Son of household head (District 2, Kent, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 10630,
       "rel_name": "Howard Mosley"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Son of household head (District 2, Kent, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 10631,
       "rel_name": "Douglas Mosley"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Daughter of household head (District 2, Kent, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 6698,
       "rel_name": "Annie Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Confirmed in 1930 US Federal Census household (District 2, Kent, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 9482,
+      "rel_name": "Ella N Mosley"
     }
   ],
   "photos": [

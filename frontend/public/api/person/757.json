@@ -45,6 +45,25 @@
       "place_string": null,
       "value_string": "died 1958",
       "citations": []
+    },
+    {
+      "fact_id": 16051,
+      "person_id": 757,
+      "fact_type": "Census",
+      "date_string": "1920",
+      "place_string": "Representative District 8, Sussex, Delaware",
+      "value_string": "1920 US Federal Census: Daughter, age 17. Household: Harry Mosley (Head, age 47), Maggie Mosley (Wife, age 36), Lillie Mosley (Daughter, age 21), Mamie Mosley (Daughter, age 17), Raymond Mosley (Son, age 15), Ella Mosley (Daughter, age 13), Carllord Mosley (Son, age 11), Duhout W Mosley (Son, age 8), Myrtle Mosley (Daughter, age 6), Jona Johnson (Granddaughter, age 5), Edith Johnson (Granddaughter, age 2)",
+      "citations": [
+        {
+          "citation_id": 14861,
+          "fact_id": 16051,
+          "source_id": 859,
+          "evidence_text": "1920 United States Federal Census, Delaware, Representative District 8, Sussex, Delaware. Dwelling record #95772125",
+          "source_title": "1920 United States Federal Census",
+          "source_url": "4295769-00352.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -55,6 +74,14 @@
       "certainty": "confirmed",
       "rel_id": 756,
       "rel_name": "Barnard Johnson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1920 US Federal Census as Daughter of household head (Representative District 8, Sussex, Delaware)",
+      "certainty": "census_confirmed",
+      "rel_id": 9239,
+      "rel_name": "Harry Mosley"
     }
   ],
   "photos": [],
@@ -84,6 +111,18 @@
   "ancestry": {
     "id": 757,
     "name": "Mamie Mosley",
-    "children": []
+    "children": [
+      {
+        "id": 9239,
+        "name": "Harry Mosley",
+        "children": [
+          {
+            "id": 9243,
+            "name": "Peter Mosley",
+            "children": []
+          }
+        ]
+      }
+    ]
   }
 }

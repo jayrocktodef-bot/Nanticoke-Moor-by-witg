@@ -64,14 +64,52 @@
           "source_dataset": "mitsawokett_primary"
         }
       ]
+    },
+    {
+      "fact_id": 15993,
+      "person_id": 6698,
+      "fact_type": "Census",
+      "date_string": "1900",
+      "place_string": "Kenton, Kent, Delaware",
+      "value_string": "1900 US Federal Census: Mother-in-law, age 86. Household: Purnell P Mosley (Head, age 56), Eliza Mosley (Wife, age 52), Levi Mosley (Son, age 20), Ellen Mosley (Daughter, age 19), Rebecca Mosley (Daughter, age 16), Wingate Mosley (Son, age 14), Emma Mosley (Daughter, age 12), Thomas Mosley (Son, age 9), Alfred Mosley (Son, age 8), Annie Mosley (Mother-in-law, age 86)",
+      "citations": [
+        {
+          "citation_id": 14803,
+          "fact_id": 15993,
+          "source_id": 857,
+          "evidence_text": "1900 United States Federal Census, Delaware, Kenton, Kent, Delaware. Dwelling record #33724231",
+          "source_title": "1900 United States Federal Census",
+          "source_url": "4119668_00216.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16076,
+      "person_id": 6698,
+      "fact_type": "Census",
+      "date_string": "1930",
+      "place_string": "District 2, Kent, Delaware, USA",
+      "value_string": "1930 US Federal Census: Daughter, age 9. Household: Harry C Mosley (Head, age 43), Ella Mosley (Wife, age 50), Howard Mosley (Son, age 17), Douglas Mosley (Son, age 10), Annie Mosley (Daughter, age 9), Walter Mosley (Grandson, age 4)",
+      "citations": [
+        {
+          "citation_id": 14886,
+          "fact_id": 16076,
+          "source_id": 860,
+          "evidence_text": "1930 United States Federal Census, Delaware, District 2, Kent, Delaware, USA. Dwelling record #121476948",
+          "source_title": "1930 United States Federal Census",
+          "source_url": "4531895_00729.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
     {
       "relationship_type": "child_of",
       "role": "parent",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Daughter of household head (District 2, Kent, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 10632,
       "rel_name": "Harry C Mosley"
     },
@@ -82,6 +120,14 @@
       "certainty": "confirmed",
       "rel_id": 10626,
       "rel_name": "Ellen Mosley"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Daughter of household head (District 2, Kent, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 9482,
+      "rel_name": "Ella N Mosley"
     }
   ],
   "photos": [

@@ -45,9 +45,37 @@
       "place_string": "Cemetery Milford",
       "value_string": "Interred per Obituary Notice",
       "citations": []
+    },
+    {
+      "fact_id": 16130,
+      "person_id": 4138,
+      "fact_type": "Census",
+      "date_string": "1950",
+      "place_string": "Kent, Delaware, USA",
+      "value_string": "1950 US Federal Census: Daughter, age 0. Household: John Mosley (Head, age 50), Anne Mosley (Wife, age 45), Ida Mosley (Daughter, age 25), Horace Mosley (Son, age 19), Betty Mosley (Daughter, age 16), Dorothy Mosley (Daughter, age 11), Doris Ann Mosley (Daughter, age 5), Carlton Mosley (Son, age 25), Bertha Mosley (Daughter-in-law, age 23), Evelyn Mosley (Daughter, age 0), Perry Mosley (Son, age 2)",
+      "citations": [
+        {
+          "citation_id": 14940,
+          "fact_id": 16130,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census, Delaware, Kent, Delaware, USA. Dwelling record #1142618",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Daughter of household head (Kent, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 961,
+      "rel_name": "John Mosley"
+    }
+  ],
   "photos": [
     {
       "person_id": 4138,
@@ -85,6 +113,12 @@
   "ancestry": {
     "id": 4138,
     "name": "Evelyn Mosley",
-    "children": []
+    "children": [
+      {
+        "id": 961,
+        "name": "John Mosley",
+        "children": []
+      }
+    ]
   }
 }

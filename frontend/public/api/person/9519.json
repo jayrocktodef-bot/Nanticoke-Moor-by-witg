@@ -93,6 +93,101 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 15998,
+      "person_id": 9519,
+      "fact_type": "Census",
+      "date_string": "1900",
+      "place_string": "Lewis and Rehobeth, Sussex, Delaware",
+      "value_string": "1900 US Federal Census: Head, age 20. Household: Harry Jackson (Head, age 20), Elizabeth Jackson (Wife, age 23), Mary Jackson (Daughter, age 7), Martha Jackson (Daughter, age 4), Raymond Jackson (Son, age 3), Bessie Jackson (Daughter, age 0), Eliza Jackson (Sister, age 17)",
+      "citations": [
+        {
+          "citation_id": 14808,
+          "fact_id": 15998,
+          "source_id": 857,
+          "evidence_text": "1900 United States Federal Census, Delaware, Lewis and Rehobeth, Sussex, Delaware. Dwelling record #33809167",
+          "source_title": "1900 United States Federal Census",
+          "source_url": "4119668_00216.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16012,
+      "person_id": 9519,
+      "fact_type": "Census",
+      "date_string": "1910",
+      "place_string": "Representative District 10, Sussex, Delaware, USA",
+      "value_string": "1910 US Federal Census: Head, age 26. Household: Harry Jackson (Head, age 26), Lizzie Jackson (Wife, age 38), Bessie Jackson (Daughter, age 9), Sallie Jackson (Daughter, age 8), Manda Jackson (Daughter, age 7), Margret Jackson (Daughter, age 4), Rachel Jackson (Daughter, age 0), Rayman Clark (Son-in-law, age 11)",
+      "citations": [
+        {
+          "citation_id": 14822,
+          "fact_id": 16012,
+          "source_id": 858,
+          "evidence_text": "1910 United States Federal Census, Delaware, Representative District 10, Sussex, Delaware, USA. Dwelling record #157327580",
+          "source_title": "1910 United States Federal Census",
+          "source_url": "31111_4330855-01461.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16042,
+      "person_id": 9519,
+      "fact_type": "Census",
+      "date_string": "1920",
+      "place_string": "Rehoboth Beach, Sussex, Delaware",
+      "value_string": "1920 US Federal Census: Head, age 40. Household: Harry Jackson (Head, age 40), Manda Jackson (Daughter, age 14), Margret Jackson (Daughter, age 12), Rachel Jackson (Daughter, age 7), May Jackson (Daughter, age 5)",
+      "citations": [
+        {
+          "citation_id": 14852,
+          "fact_id": 16042,
+          "source_id": 859,
+          "evidence_text": "1920 United States Federal Census, Delaware, Rehoboth Beach, Sussex, Delaware. Dwelling record #95780810",
+          "source_title": "1920 United States Federal Census",
+          "source_url": "4295769-00352.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16057,
+      "person_id": 9519,
+      "fact_type": "Census",
+      "date_string": "1930",
+      "place_string": "District 10, Sussex, Delaware, USA",
+      "value_string": "1930 US Federal Census: Head, age 50. Household: Harry Jackson (Head, age 50), Augustus Waples (Son-in-law, age 26), Amanda Waples (Daughter, age 26), Gertrude Waples (Granddaughter, age 7), Linford Waples (Grandson, age 6), Elizabeth Waples (Granddaughter, age 2)",
+      "citations": [
+        {
+          "citation_id": 14867,
+          "fact_id": 16057,
+          "source_id": 860,
+          "evidence_text": "1930 United States Federal Census, Delaware, District 10, Sussex, Delaware, USA. Dwelling record #121396649",
+          "source_title": "1930 United States Federal Census",
+          "source_url": "4531895_00729.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16094,
+      "person_id": 9519,
+      "fact_type": "Census",
+      "date_string": "1940",
+      "place_string": "Sussex, Delaware",
+      "value_string": "1940 US Federal Census: Father-in-law, age 57. Household: Augustus Waples (Head, age 38), Amanda Waples (Wife, age 36), Gertrude Waples (Daughter, age 18), Linford Waples (Son, age 16), Elizabeth Waples (Daughter, age 13), George Waples (Son, age 10), Lillie Mae Waples (Daughter, age 9), Edward Waples (Son, age 7), Harry Jackson (Father-in-law, age 57)",
+      "citations": [
+        {
+          "citation_id": 14904,
+          "fact_id": 16094,
+          "source_id": 861,
+          "evidence_text": "1940 United States Federal Census, Delaware, Sussex, Delaware. Dwelling record #266419",
+          "source_title": "1940 United States Federal Census",
+          "source_url": "m-t0627-00548-00373.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -107,8 +202,8 @@
     {
       "relationship_type": "spouse_of",
       "role": "spouse",
-      "evidence_text": "GEDCOM Family @F217@ marriage 1900 USA",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1900 US Federal Census household (Lewis and Rehobeth, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 490,
       "rel_name": "Elizabeth Jackson"
     },
@@ -123,40 +218,40 @@
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1900 US Federal Census as Daughter of household head (Lewis and Rehobeth, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 6480,
       "rel_name": "Mary Jackson"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1900 US Federal Census as Son of household head (Lewis and Rehobeth, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 8516,
       "rel_name": "Raymond Jackson"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1910 US Federal Census as Daughter of household head (Representative District 10, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 8333,
       "rel_name": "Bessie Jackson"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1910 US Federal Census as Daughter of household head (Representative District 10, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 8515,
       "rel_name": "Sallie Jackson"
     },
     {
       "relationship_type": "parent_of",
       "role": "child",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1920 US Federal Census as Daughter of household head (Rehoboth Beach, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 8334,
       "rel_name": "Margret Jackson"
     },
@@ -175,6 +270,14 @@
       "certainty": "confirmed",
       "rel_id": 8880,
       "rel_name": "Edmond M Jackson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1920 US Federal Census as Daughter of household head (Rehoboth Beach, Sussex, Delaware)",
+      "certainty": "census_confirmed",
+      "rel_id": 8335,
+      "rel_name": "Rachel Jackson"
     }
   ],
   "photos": [

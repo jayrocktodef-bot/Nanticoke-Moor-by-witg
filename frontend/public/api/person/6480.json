@@ -197,22 +197,41 @@
           "source_dataset": "mitsawokett_primary"
         }
       ]
+    },
+    {
+      "fact_id": 16000,
+      "person_id": 6480,
+      "fact_type": "Census",
+      "date_string": "1900",
+      "place_string": "Lewis and Rehobeth, Sussex, Delaware",
+      "value_string": "1900 US Federal Census: Daughter, age 7. Household: Harry Jackson (Head, age 20), Elizabeth Jackson (Wife, age 23), Mary Jackson (Daughter, age 7), Martha Jackson (Daughter, age 4), Raymond Jackson (Son, age 3), Bessie Jackson (Daughter, age 0), Eliza Jackson (Sister, age 17)",
+      "citations": [
+        {
+          "citation_id": 14810,
+          "fact_id": 16000,
+          "source_id": 857,
+          "evidence_text": "1900 United States Federal Census, Delaware, Lewis and Rehobeth, Sussex, Delaware. Dwelling record #33809167",
+          "source_title": "1900 United States Federal Census",
+          "source_url": "4119668_00216.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
     {
       "relationship_type": "child_of",
       "role": "parent",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1900 US Federal Census as Daughter of household head (Lewis and Rehobeth, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 9519,
       "rel_name": "Harry Jackson"
     },
     {
       "relationship_type": "child_of",
       "role": "parent",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1900 US Federal Census as Daughter of household head (Lewis and Rehobeth, Sussex, Delaware)",
+      "certainty": "census_confirmed",
       "rel_id": 490,
       "rel_name": "Elizabeth Jackson"
     },

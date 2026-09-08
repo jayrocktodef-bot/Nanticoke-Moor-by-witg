@@ -131,6 +131,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 16139,
+      "person_id": 10191,
+      "fact_type": "Census",
+      "date_string": "1950",
+      "place_string": "Milton, Sussex, Delaware, USA",
+      "value_string": "1950 US Federal Census: Son, age 12. Household: John W Clark Jr (Head, age 53), Lulu R Clark (Wife, age 52), Arlie B Clark (Son, age 25), Ray W Clark (Son, age 19), Joan E Clark (Daughter, age 15), John W Clark III (Son, age 12)",
+      "citations": [
+        {
+          "citation_id": 14949,
+          "fact_id": 16139,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census, Delaware, Milton, Sussex, Delaware, USA. Dwelling record #1221531",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -145,8 +164,8 @@
     {
       "relationship_type": "child_of",
       "role": "parent",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1950 US Federal Census as Son of household head (Milton, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 8194,
       "rel_name": "Lulu Rae Clark"
     }

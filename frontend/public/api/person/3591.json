@@ -102,6 +102,25 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 16058,
+      "person_id": 3591,
+      "fact_type": "Census",
+      "date_string": "1930",
+      "place_string": "Milton, Sussex, Delaware, USA",
+      "value_string": "1930 US Federal Census: Head, age 37. Household: John Clark (Head, age 37), Lulu Clark (Wife, age 35), Ethel Clark (Daughter, age 12), Carlisie Clark (Daughter, age 11), Millie Clark (Daughter, age 10), Wilfred Clark (Son, age 9), Arlie Clark (Son, age 4)",
+      "citations": [
+        {
+          "citation_id": 14868,
+          "fact_id": 16058,
+          "source_id": 860,
+          "evidence_text": "1930 United States Federal Census, Delaware, Milton, Sussex, Delaware, USA. Dwelling record #121401511",
+          "source_title": "1930 United States Federal Census",
+          "source_url": "4531895_00729.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -120,6 +139,54 @@
       "certainty": "confirmed",
       "rel_id": 8514,
       "rel_name": "Elizabeth Morris"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Confirmed in 1930 US Federal Census household (Milton, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 8194,
+      "rel_name": "Lulu Rae Clark"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Daughter of household head (Milton, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 8192,
+      "rel_name": "Ethel Gwendolyn Clark"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Daughter of household head (Milton, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 8195,
+      "rel_name": "Carlisie Clark"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Daughter of household head (Milton, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 8210,
+      "rel_name": "Millie Clark"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Son of household head (Milton, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 8196,
+      "rel_name": "Wilfred Clark"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Son of household head (Milton, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 8207,
+      "rel_name": "Arlie Benjamin Clark"
     }
   ],
   "photos": [],

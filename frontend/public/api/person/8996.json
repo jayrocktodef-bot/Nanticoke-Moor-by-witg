@@ -93,6 +93,63 @@
           "source_dataset": "mitsawokett_primary"
         }
       ]
+    },
+    {
+      "fact_id": 16021,
+      "person_id": 8996,
+      "fact_type": "Census",
+      "date_string": "1910",
+      "place_string": "Representative District 8, Sussex, Delaware, USA",
+      "value_string": "1910 US Federal Census: Son, age 9. Household: George E Clark (Head, age 47), Caroline Clark (Wife, age 45), Hester Clark (Daughter, age 19), Elizabeth Clark (Daughter, age 14), Joseph L Clark (Son, age 9)",
+      "citations": [
+        {
+          "citation_id": 14831,
+          "fact_id": 16021,
+          "source_id": 858,
+          "evidence_text": "1910 United States Federal Census, Delaware, Representative District 8, Sussex, Delaware, USA. Dwelling record #157317150",
+          "source_title": "1910 United States Federal Census",
+          "source_url": "31111_4330855-01461.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16036,
+      "person_id": 8996,
+      "fact_type": "Census",
+      "date_string": "1920",
+      "place_string": "Representative District 8, Sussex, Delaware",
+      "value_string": "1920 US Federal Census: Son, age 18. Household: George E Clark (Head, age 54), Caroline Clark (Wife, age 53), Joseph T Clark (Son, age 18), James Tingle (, age 19), George Ricketts (, age 28)",
+      "citations": [
+        {
+          "citation_id": 14846,
+          "fact_id": 16036,
+          "source_id": 859,
+          "evidence_text": "1920 United States Federal Census, Delaware, Representative District 8, Sussex, Delaware. Dwelling record #95772039",
+          "source_title": "1920 United States Federal Census",
+          "source_url": "4295769-00352.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 16070,
+      "person_id": 8996,
+      "fact_type": "Census",
+      "date_string": "1930",
+      "place_string": "District 8, Sussex, Delaware, USA",
+      "value_string": "1930 US Federal Census: Son, age 30. Household: George E Clark (Head, age 66), Caroline Clark (Wife, age 64), Joseph Clark (Son, age 30), Edward Rickets (Boarder, age 22), Eva Johnson (Niece, age 17), Alvin Johnson (Nephew, age 27)",
+      "citations": [
+        {
+          "citation_id": 14880,
+          "fact_id": 16070,
+          "source_id": 860,
+          "evidence_text": "1930 United States Federal Census, Delaware, District 8, Sussex, Delaware, USA. Dwelling record #121406798",
+          "source_title": "1930 United States Federal Census",
+          "source_url": "4531895_00729.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -131,16 +188,16 @@
     {
       "relationship_type": "child_of",
       "role": "parent",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Son of household head (District 8, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 8998,
       "rel_name": "George E Clark"
     },
     {
       "relationship_type": "child_of",
       "role": "parent",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
+      "evidence_text": "Confirmed in 1930 US Federal Census as Son of household head (District 8, Sussex, Delaware, USA)",
+      "certainty": "census_confirmed",
       "rel_id": 8997,
       "rel_name": "Caroline Clark"
     }

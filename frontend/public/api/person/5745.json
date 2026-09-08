@@ -74,9 +74,45 @@
           "source_dataset": "mitsawokett_delaware"
         }
       ]
+    },
+    {
+      "fact_id": 16028,
+      "person_id": 5745,
+      "fact_type": "Census",
+      "date_string": "1920",
+      "place_string": "Representative District 8, Sussex, Delaware",
+      "value_string": "1920 US Federal Census: Wife, age 48. Household: Noah Harmon (Head, age 50), Eunice I Harmon (Wife, age 48), Anna Harmon (Daughter, age 12), Noah S Harmon (Son, age 9)",
+      "citations": [
+        {
+          "citation_id": 14838,
+          "fact_id": 16028,
+          "source_id": 859,
+          "evidence_text": "1920 United States Federal Census, Delaware, Representative District 8, Sussex, Delaware. Dwelling record #95772426",
+          "source_title": "1920 United States Federal Census",
+          "source_url": "4295769-00352.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1920 US Federal Census as Daughter of household head (Representative District 8, Sussex, Delaware)",
+      "certainty": "census_confirmed",
+      "rel_id": 9914,
+      "rel_name": "Anna Miller Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1920 US Federal Census as Son of household head (Representative District 8, Sussex, Delaware)",
+      "certainty": "census_confirmed",
+      "rel_id": 10744,
+      "rel_name": "Noah S Harmon"
+    }
+  ],
   "photos": [
     {
       "person_id": 5745,

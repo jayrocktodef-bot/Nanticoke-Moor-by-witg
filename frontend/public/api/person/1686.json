@@ -83,6 +83,25 @@
       "place_string": "28 Aug 1913 in Harmony cemetery",
       "value_string": "buried 28 Aug 1913 in Harmony cemetery",
       "citations": []
+    },
+    {
+      "fact_id": 16006,
+      "person_id": 1686,
+      "fact_type": "Census",
+      "date_string": "1910",
+      "place_string": "Philadelphia Ward 39, Philadelphia, Pennsylvania, USA",
+      "value_string": "1910 US Federal Census: Head, age 63. Household: Jane Harmon (Head, age 63), Sallie Harmon (Daughter, age 22), James H Harmon (Son, age 24), Bertha Harmon (Daughter, age 20), William A Wright (Grandson, age 23), Frederick Wright (Grandson, age 19), Harry Wright (Grandson, age 18)",
+      "citations": [
+        {
+          "citation_id": 14816,
+          "fact_id": 16006,
+          "source_id": 858,
+          "evidence_text": "1910 United States Federal Census, Delaware, Philadelphia Ward 39, Philadelphia, Pennsylvania, USA. Dwelling record #107016752",
+          "source_title": "1910 United States Federal Census",
+          "source_url": "31111_4330855-01461.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -101,6 +120,30 @@
       "certainty": "confirmed",
       "rel_id": 755,
       "rel_name": "Eliza Ann Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1910 US Federal Census as Daughter of household head (Philadelphia Ward 39, Philadelphia, Pennsylvania, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 10521,
+      "rel_name": "Sallie Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1910 US Federal Census as Son of household head (Philadelphia Ward 39, Philadelphia, Pennsylvania, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 10520,
+      "rel_name": "James H Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Confirmed in 1910 US Federal Census as Daughter of household head (Philadelphia Ward 39, Philadelphia, Pennsylvania, USA)",
+      "certainty": "census_confirmed",
+      "rel_id": 10519,
+      "rel_name": "Bertha Harmon"
     }
   ],
   "photos": [
