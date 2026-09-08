@@ -11,7 +11,11 @@
     "birth_info": "1924",
     "death_info": "1928 (aged 3\u20134)",
     "notes": "Linked to durhm-b2.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/52989631/benjamin-durham | Linked to durhm-d4.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/52989631/benjamin-durham",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "1924",
+    "birth_place": null,
+    "death_date": "1928 (aged 3\u20134)",
+    "death_place": null
   },
   "facts": [
     {
@@ -701,6 +705,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10394,
@@ -708,13 +713,15 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10395,
       "rel_name": "Daniel David Durham"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "NLP Extracted from Obituary: ', honolulu. she is also survived by six children, benjamin \n  durham, manteca, katharine durham, los angeles, margaret'",
       "certainty": "inferred_nlp",
       "rel_id": 10934,
@@ -722,6 +729,24 @@
     }
   ],
   "photos": [
+    {
+      "person_id": 61,
+      "photo_id": 3241,
+      "category": "people",
+      "title_or_caption": "Benjamin_Durham.jpg",
+      "subject_names": "Durham Benjamin",
+      "married_surname": "Benjamin",
+      "approximate_year": null,
+      "local_image_path": "assets/archive_media/people/Benjamin_Durham.jpg",
+      "source_url": null,
+      "dataset_source": "images",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 61,
       "photo_id": 764,
@@ -772,24 +797,6 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 61,
-      "photo_id": 3241,
-      "category": "people",
-      "title_or_caption": "Benjamin_Durham.jpg",
-      "subject_names": "Durham Benjamin",
-      "married_surname": "Benjamin",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/people/Benjamin_Durham.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

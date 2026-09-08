@@ -11,7 +11,11 @@
     "birth_info": "1825",
     "death_info": "6 Jun 1866 (aged 40\u201341)",
     "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/226181028/mary-davis (Buried at Leeds General Cemetery) | Linked to jacksnme.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/226181028/mary-davis (Buried at Leeds General Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1825",
+    "birth_place": null,
+    "death_date": "6 Jun 1866 (aged 40\u201341)",
+    "death_place": null
   },
   "facts": [
     {
@@ -131,7 +135,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F89@ marriage",
       "certainty": "confirmed",
       "rel_id": 8591,
@@ -139,27 +144,7 @@
     },
     {
       "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8613,
-      "rel_name": "Joseph Henry Davis"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 4643,
-      "rel_name": "Henry Lovell Rees Davis"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 10618,
-      "rel_name": "William H Davis"
-    },
-    {
-      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 4997,
@@ -193,35 +178,30 @@
     "name": "Mary Catherine Davis",
     "children": [
       {
-        "id": 8613,
-        "name": "Joseph Henry Davis",
+        "id": 4997,
+        "name": "William Henry Davis",
         "children": [
           {
-            "id": 8629,
-            "name": "Jost Henry Davis",
+            "id": 8613,
+            "name": "Joseph Henry Davis",
             "children": [
               {
-                "id": 8809,
-                "name": "Ludwig Davis",
+                "id": 8629,
+                "name": "Jost Henry Davis",
+                "children": [
+                  {
+                    "id": 8809,
+                    "name": "Ludwig Davis",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 8614,
+                "name": "Katherina Davis",
                 "children": []
               }
             ]
-          },
-          {
-            "id": 8614,
-            "name": "Katherina Davis",
-            "children": []
-          }
-        ]
-      },
-      {
-        "id": 4643,
-        "name": "Henry Lovell Rees Davis",
-        "children": [
-          {
-            "id": 8538,
-            "name": "Martha Peggy Davis",
-            "children": []
           }
         ]
       }

@@ -11,7 +11,11 @@
     "birth_info": "22 January 1936 Dagsboro, Sussex, Delaware, USA",
     "death_info": "4 November 2017 Mount Holly, Burlington, New Jersey, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "22 January 1936 Dagsboro, Sussex, Delaware, USA",
+    "birth_place": null,
+    "death_date": "4 November 2017 Mount Holly, Burlington, New Jersey, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8175,
@@ -103,13 +108,7 @@
                   {
                     "id": 8617,
                     "name": "Negro Morris Thomas",
-                    "children": [
-                      {
-                        "id": 9992,
-                        "name": "Sally Wright",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 8910,
@@ -154,8 +153,8 @@
                         "children": []
                       },
                       {
-                        "id": 10290,
-                        "name": "Harriet Ann Harmon",
+                        "id": 8921,
+                        "name": "Eliza Jane Morris",
                         "children": []
                       }
                     ]

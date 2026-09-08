@@ -11,7 +11,11 @@
     "birth_info": "20 Feb 1696 Salem MM, Salem, New Jersey, USA",
     "death_info": "20 june 1764 Greenwich Cumberland New Jersey",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "20 Feb 1696 Salem MM, Salem, New Jersey, USA",
+    "birth_place": null,
+    "death_date": "20 june 1764 Greenwich Cumberland New Jersey",
+    "death_place": null
   },
   "facts": [
     {
@@ -131,42 +135,48 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F461@ marriage 1724 Cumberland County, NJ",
       "certainty": "confirmed",
       "rel_id": 9190,
       "rel_name": "Ebenezer Miller Sr"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9188,
       "rel_name": "Ebenezer Miller"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9194,
       "rel_name": "Hannah Miller"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9195,
       "rel_name": "Andrew Miller"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9196,
       "rel_name": "Josiah William Miller"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8892,
@@ -174,24 +184,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 9191,
-      "photo_id": 2183,
-      "category": "people",
-      "title_or_caption": "Sammons_Ben_And_Sarah_Miller.jpg",
-      "subject_names": "Sammons Ben & Sarah Miller",
-      "married_surname": "Sammons",
-      "approximate_year": "1854",
-      "local_image_path": "assets/archive_media/people/Sammons_Ben_And_Sarah_Miller.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HandsorSarahSammons.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 9191,
       "photo_id": 1106,
@@ -206,6 +198,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9191,
+      "photo_id": 2183,
+      "category": "people",
+      "title_or_caption": "Sammons_Ben_And_Sarah_Miller.jpg",
+      "subject_names": "Sammons Ben & Sarah Miller",
+      "married_surname": "Sammons",
+      "approximate_year": "1854",
+      "local_image_path": "assets/archive_media/people/Sammons_Ben_And_Sarah_Miller.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HandsorSarahSammons.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

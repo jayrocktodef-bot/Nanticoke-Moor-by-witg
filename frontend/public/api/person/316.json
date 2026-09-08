@@ -11,7 +11,11 @@
     "birth_info": "8 Aug 1874",
     "death_info": "3 Feb 1963 (aged 88)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/81808032/maggie-durham",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "8 Aug 1874",
+    "birth_place": null,
+    "death_date": "3 Feb 1963 (aged 88)",
+    "death_place": null
   },
   "facts": [
     {
@@ -112,32 +116,12 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Maggie Durham married Ernest Seeney",
       "certainty": "confirmed",
       "rel_id": 317,
       "rel_name": "Ernest Seeney"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 2577,
-      "rel_name": "George Sherman Durham"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 1009,
-      "rel_name": "Marvel Durham"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 1336,
-      "rel_name": "Margaret Durham"
     }
   ],
   "photos": [],

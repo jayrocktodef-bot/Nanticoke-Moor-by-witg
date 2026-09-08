@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "13 Aug 1870",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/138319344/catherine-dean",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "13 Aug 1870",
+    "death_place": null
   },
   "facts": [
     {
@@ -121,7 +125,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "After the death of her husband in 1874, Catherine Morgan Dean married William Carney. Catherine died on 23 May, 1891 and is buried next to her first husband, Robert, at Immanuel Union (Manship) Church",
       "certainty": "confirmed",
       "rel_id": 278,

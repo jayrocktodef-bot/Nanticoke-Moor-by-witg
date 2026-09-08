@@ -11,7 +11,11 @@
     "birth_info": "16 Apr 1916",
     "death_info": "29 Apr 1954 (aged 38)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/13201219/melva-seaman",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "16 Apr 1916",
+    "birth_place": null,
+    "death_date": "29 Apr 1954 (aged 38)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Hannah Concilor who married Perry Cork",
       "certainty": "confirmed",
       "rel_id": 186,

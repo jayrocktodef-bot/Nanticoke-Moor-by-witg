@@ -11,7 +11,11 @@
     "birth_info": "15 Jul 1930",
     "death_info": "11 Mar 2015 (aged 84)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/186895815/r-c-mosley",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "15 Jul 1930",
+    "birth_place": null,
+    "death_date": "11 Mar 2015 (aged 84)",
+    "death_place": null
   },
   "facts": [
     {
@@ -83,14 +87,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10127,
       "rel_name": "Luther Mosley Sammons"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10135,
@@ -98,6 +104,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10125,

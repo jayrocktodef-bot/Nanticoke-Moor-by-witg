@@ -11,7 +11,11 @@
     "birth_info": "5 June 1899 Lewes, Sussex County, Delaware, United States of America",
     "death_info": "11 August 1965 Lewes, Sussex County, Delaware, United States of America",
     "notes": "[Suffix 'Sr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "5 June 1899 Lewes, Sussex County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "11 August 1965 Lewes, Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,13 +88,15 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8513,
       "rel_name": "Sarah Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8915,
@@ -126,13 +132,7 @@
               {
                 "id": 8617,
                 "name": "Negro Morris Thomas",
-                "children": [
-                  {
-                    "id": 9992,
-                    "name": "Sally Wright",
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
                 "id": 8910,

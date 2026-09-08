@@ -11,7 +11,11 @@
     "birth_info": "1892",
     "death_info": "15 Jan 1893 (aged 0\u20131)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/165873934/george-johnson",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1892",
+    "birth_place": null,
+    "death_date": "15 Jan 1893 (aged 0\u20131)",
+    "death_place": null
   },
   "facts": [
     {
@@ -113,6 +117,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9958,
@@ -120,6 +125,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10539,

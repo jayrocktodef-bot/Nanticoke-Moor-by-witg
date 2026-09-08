@@ -11,7 +11,11 @@
     "birth_info": "1 April 1895 Sussex County, Delaware, United States of America",
     "death_info": "October 1972 Sussex County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1 April 1895 Sussex County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "October 1972 Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -83,70 +87,80 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F379@ marriage",
       "certainty": "confirmed",
       "rel_id": 8274,
       "rel_name": "Edgar Coil Morris Sr"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8175,
       "rel_name": "Edgar Coil Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8343,
       "rel_name": "Uscar Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8344,
       "rel_name": "Noah O Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8348,
       "rel_name": "Ella G Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8349,
       "rel_name": "Delema Street"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8340,
       "rel_name": "Preston Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8341,
       "rel_name": "Granville Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 6377,
       "rel_name": "Walter Roland Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8345,
@@ -154,6 +168,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 5971,
@@ -161,27 +176,31 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9831,
       "rel_name": "Nicy E. Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8346,
       "rel_name": "Jessie Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8347,
       "rel_name": "Albert Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9989,
@@ -189,24 +208,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 8339,
-      "photo_id": 1643,
-      "category": "people",
-      "title_or_caption": "Morris_Sarah_Jane_And_Daus.jpg",
-      "subject_names": "Morris Sarah Jane & Daus",
-      "married_surname": "Morris",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Morris_Sarah_Jane_And_Daus.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisSarahJaneHarmon.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "ss_application",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
     {
       "person_id": 8339,
       "photo_id": 1642,
@@ -221,6 +222,24 @@
       "document_type": "portrait",
       "asset_type": "document",
       "subtype": "studio_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 8339,
+      "photo_id": 1643,
+      "category": "people",
+      "title_or_caption": "Morris_Sarah_Jane_And_Daus.jpg",
+      "subject_names": "Morris Sarah Jane & Daus",
+      "married_surname": "Morris",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Morris_Sarah_Jane_And_Daus.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisSarahJaneHarmon.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "ss_application",
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"
@@ -290,28 +309,23 @@
                 ]
               },
               {
-                "id": 10290,
-                "name": "Harriet Ann Harmon",
+                "id": 8921,
+                "name": "Eliza Jane Morris",
                 "children": [
                   {
-                    "id": 10291,
-                    "name": "Charles S Harmon",
+                    "id": 9958,
+                    "name": "Emma Jane Johnson",
                     "children": [
                       {
-                        "id": 10260,
-                        "name": "Adjoniah R. Harmon",
-                        "children": []
-                      },
-                      {
-                        "id": 10293,
-                        "name": "Harriet Louisa Hansor Harmon",
+                        "id": 9936,
+                        "name": "Sarah Adeline Hanzer",
                         "children": []
                       }
                     ]
                   },
                   {
-                    "id": 10292,
-                    "name": "Ann Mariah Harmon",
+                    "id": 10539,
+                    "name": "Samuel Roland Johnson",
                     "children": []
                   }
                 ]

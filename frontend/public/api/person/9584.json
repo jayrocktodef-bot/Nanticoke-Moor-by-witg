@@ -11,7 +11,11 @@
     "birth_info": "abt 1909 Delaware",
     "death_info": null,
     "notes": " | FindAGrave: no match",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1909 Delaware",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -55,21 +59,24 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9532,
       "rel_name": "Bertha A Cottman"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9581,
       "rel_name": "Kathryn M Cottman"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9582,

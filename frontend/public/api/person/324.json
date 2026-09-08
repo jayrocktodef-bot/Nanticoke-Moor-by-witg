@@ -11,7 +11,11 @@
     "birth_info": "5 Jul 1943",
     "death_info": "24 Oct 2024 (aged 81)",
     "notes": "Linked to durhm-j3.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/304442917/john-anthony-beran_jr [Suffix 'Jr' realigned from surname field]",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "5 Jul 1943",
+    "birth_place": null,
+    "death_date": "24 Oct 2024 (aged 81)",
+    "death_place": null
   },
   "facts": [
     {
@@ -1145,44 +1149,40 @@
       ]
     }
   ],
-  "relationships": [
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (88.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 164,
-      "rel_name": "John W. Durham"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 164,
-      "rel_name": "John W. Durham"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (89.7% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 702,
-      "rel_name": "John Durham Sr"
-    }
-  ],
+  "relationships": [],
   "photos": [
     {
       "person_id": 324,
-      "photo_id": 940,
+      "photo_id": 734,
       "category": "people",
-      "title_or_caption": "Durham_John_S_And_Wife_Marlene_J_Saul.jpg",
-      "subject_names": "Durham John S & Wife Marlene J Saul",
-      "married_surname": "Durham",
-      "approximate_year": "1855",
-      "local_image_path": "assets/archive_media/people/Durham_John_S_And_Wife_Marlene_J_Saul.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMartha_b1855.htm",
+      "title_or_caption": "Desc_John_Durham_Muncey.jpg",
+      "subject_names": "Desc John Durham Muncey",
+      "married_surname": "Desc",
+      "approximate_year": "1801",
+      "local_image_path": "assets/archive_media/people/Desc_John_Durham_Muncey.jpg",
+      "source_url": "http://mitsawokett.com/Durham-AncestralResearch.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
+      "document_type": "portrait",
       "asset_type": "photograph",
-      "subtype": "group_portrait",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 324,
+      "photo_id": 847,
+      "category": "people",
+      "title_or_caption": "Durham_John_B_1737_Muncey_2.jpg",
+      "subject_names": "John Durham (b. 1737)",
+      "married_surname": "Durham",
+      "approximate_year": "1801",
+      "local_image_path": "assets/archive_media/people/Durham_John_B_1737_Muncey_2.jpg",
+      "source_url": "http://mitsawokett.com/Durham-AncestralResearch.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -1243,36 +1243,18 @@
     },
     {
       "person_id": 324,
-      "photo_id": 734,
+      "photo_id": 940,
       "category": "people",
-      "title_or_caption": "Desc_John_Durham_Muncey.jpg",
-      "subject_names": "Desc John Durham Muncey",
-      "married_surname": "Desc",
-      "approximate_year": "1801",
-      "local_image_path": "assets/archive_media/people/Desc_John_Durham_Muncey.jpg",
-      "source_url": "http://mitsawokett.com/Durham-AncestralResearch.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 324,
-      "photo_id": 847,
-      "category": "people",
-      "title_or_caption": "Durham_John_B_1737_Muncey_2.jpg",
-      "subject_names": "John Durham (b. 1737)",
+      "title_or_caption": "Durham_John_S_And_Wife_Marlene_J_Saul.jpg",
+      "subject_names": "Durham John S & Wife Marlene J Saul",
       "married_surname": "Durham",
-      "approximate_year": "1801",
-      "local_image_path": "assets/archive_media/people/Durham_John_B_1737_Muncey_2.jpg",
-      "source_url": "http://mitsawokett.com/Durham-AncestralResearch.htm",
+      "approximate_year": "1855",
+      "local_image_path": "assets/archive_media/people/Durham_John_S_And_Wife_Marlene_J_Saul.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMartha_b1855.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait",
+      "document_type": "group_photo",
       "asset_type": "photograph",
-      "subtype": "studio_portrait",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

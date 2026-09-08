@@ -11,7 +11,11 @@
     "birth_info": "8 May 1752",
     "death_info": "29 March 1834",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "8 May 1752",
+    "birth_place": null,
+    "death_date": "29 March 1834",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F403@ marriage",
       "certainty": "confirmed",
       "rel_id": 9350,

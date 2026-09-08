@@ -11,7 +11,11 @@
     "birth_info": "1813",
     "death_info": "9 Dec 1894 (aged 80\u201381)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/87150272/rebecca-mosley",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1813",
+    "birth_place": null,
+    "death_date": "9 Dec 1894 (aged 80\u201381)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,13 +79,33 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10624,
       "rel_name": "Eliza Mosley"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 10627,
+      "photo_id": 3615,
+      "category": "documents",
+      "title_or_caption": "1900_Rebecca_Mosley_33724227.json",
+      "subject_names": "1900 Federal Census - Rebecca Mosley Household",
+      "married_surname": "Davis",
+      "approximate_year": "1900",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/33724227:7602",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

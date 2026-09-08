@@ -11,7 +11,11 @@
     "birth_info": "5 May 1908",
     "death_info": "15 May 1973 (aged 65)",
     "notes": "Ingested from GreenageGeoWashFamily.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/194688810/naomi-pressley",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "5 May 1908",
+    "birth_place": null,
+    "death_date": "15 May 1973 (aged 65)",
+    "death_place": null
   },
   "facts": [
     {
@@ -76,6 +80,24 @@
   "photos": [
     {
       "person_id": 6040,
+      "photo_id": 2020,
+      "category": "people",
+      "title_or_caption": "Pressley_Naomi_Greenage.jpg",
+      "subject_names": "Naomi Greenage Pressley",
+      "married_surname": "Pressley",
+      "approximate_year": "1940",
+      "local_image_path": "assets/archive_media/people/Pressley_Naomi_Greenage.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/PressleyNaomiGreenage.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6040,
       "photo_id": 2016,
       "category": "people",
       "title_or_caption": "Pressley_Herb_And_Naomi.jpg",
@@ -106,24 +128,6 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 6040,
-      "photo_id": 2020,
-      "category": "people",
-      "title_or_caption": "Pressley_Naomi_Greenage.jpg",
-      "subject_names": "Naomi Greenage Pressley",
-      "married_surname": "Pressley",
-      "approximate_year": "1940",
-      "local_image_path": "assets/archive_media/people/Pressley_Naomi_Greenage.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/PressleyNaomiGreenage.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

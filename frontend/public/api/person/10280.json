@@ -11,7 +11,11 @@
     "birth_info": "1812 Delaware, USA",
     "death_info": "Mar 1880 Sussex County, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1812 Delaware, USA",
+    "birth_place": null,
+    "death_date": "Mar 1880 Sussex County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -151,6 +155,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10404,
@@ -158,13 +163,15 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10405,
       "rel_name": "Robert B Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9507,
@@ -187,25 +194,31 @@
             "name": "Elizabeth Clark",
             "children": [
               {
-                "id": 8998,
-                "name": "George E Clark",
+                "id": 9350,
+                "name": "Levin Clark",
                 "children": [
                   {
-                    "id": 9953,
-                    "name": "George W. Clark",
-                    "children": []
+                    "id": 10334,
+                    "name": "William Russell Wyniaco Clark",
+                    "children": [
+                      {
+                        "id": 10336,
+                        "name": "William Vine Clark Jr",
+                        "children": []
+                      },
+                      {
+                        "id": 10421,
+                        "name": "James H Clark",
+                        "children": []
+                      }
+                    ]
                   },
                   {
-                    "id": 9954,
-                    "name": "Harriett Hettie Johnson",
+                    "id": 10335,
+                    "name": "Jane Clark",
                     "children": []
                   }
                 ]
-              },
-              {
-                "id": 8997,
-                "name": "Caroline Clark",
-                "children": []
               }
             ]
           }

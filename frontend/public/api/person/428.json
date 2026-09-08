@@ -11,7 +11,11 @@
     "birth_info": "5 Jan 1868",
     "death_info": "3 Aug 1947 (aged 79)",
     "notes": "Linked to jacksonn.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/228615805/nathaniel-jackson",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "5 Jan 1868",
+    "birth_place": null,
+    "death_date": "3 Aug 1947 (aged 79)",
+    "death_place": null
   },
   "facts": [
     {
@@ -129,25 +133,17 @@
       ]
     }
   ],
-  "relationships": [
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (78.8% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 977,
-      "rel_name": "Nathaniel Harmon"
-    }
-  ],
+  "relationships": [],
   "photos": [
     {
       "person_id": 428,
-      "photo_id": 3255,
+      "photo_id": 3254,
       "category": "people",
-      "title_or_caption": "Nathaniel_Jackson_var1.jpg",
-      "subject_names": "Jackson Var1 Nathaniel",
+      "title_or_caption": "Nathaniel_Jackson.jpg",
+      "subject_names": "Jackson Nathaniel",
       "married_surname": "Nathaniel",
       "approximate_year": null,
-      "local_image_path": "assets/archive_media/people/Nathaniel_Jackson_var1.jpg",
+      "local_image_path": "assets/archive_media/people/Nathaniel_Jackson.jpg",
       "source_url": null,
       "dataset_source": "images",
       "document_type": "portrait",
@@ -159,13 +155,13 @@
     },
     {
       "person_id": 428,
-      "photo_id": 3254,
+      "photo_id": 3255,
       "category": "people",
-      "title_or_caption": "Nathaniel_Jackson.jpg",
-      "subject_names": "Jackson Nathaniel",
+      "title_or_caption": "Nathaniel_Jackson_var1.jpg",
+      "subject_names": "Jackson Var1 Nathaniel",
       "married_surname": "Nathaniel",
       "approximate_year": null,
-      "local_image_path": "assets/archive_media/people/Nathaniel_Jackson.jpg",
+      "local_image_path": "assets/archive_media/people/Nathaniel_Jackson_var1.jpg",
       "source_url": null,
       "dataset_source": "images",
       "document_type": "portrait",

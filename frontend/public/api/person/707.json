@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": "1776",
     "notes": " | FindAGrave: no match",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "1776",
+    "death_place": null
   },
   "facts": [
     {
@@ -83,7 +87,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Sarah Sisco married Elisha Concilor (1814-1864). They had 2 sons:",
       "certainty": "confirmed",
       "rel_id": 708,

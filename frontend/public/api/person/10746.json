@@ -11,7 +11,11 @@
     "birth_info": "18 Nov 1805",
     "death_info": "28 Feb 1879 (aged 73)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/21023105/harvey-harmon",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "18 Nov 1805",
+    "birth_place": null,
+    "death_date": "28 Feb 1879 (aged 73)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9981,
@@ -82,41 +87,47 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9980,
       "rel_name": "Sarah Ann Handsor"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F508@ marriage",
       "certainty": "confirmed",
       "rel_id": 10521,
       "rel_name": "Sallie Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10748,
       "rel_name": "Elsa Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10749,
       "rel_name": "Harvey Harmon Jr"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10750,
       "rel_name": "Marie Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10745,

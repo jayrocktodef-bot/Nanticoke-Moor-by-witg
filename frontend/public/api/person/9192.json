@@ -11,7 +11,11 @@
     "birth_info": "21 Aug 1670 Middletown, Middlesex, Connecticut, USA",
     "death_info": "03 Mar 1717 Middletown, Middlesex, Connecticut, USA",
     "notes": "[Suffix 'Sr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "21 Aug 1670 Middletown, Middlesex, Connecticut, USA",
+    "birth_place": null,
+    "death_date": "03 Mar 1717 Middletown, Middlesex, Connecticut, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,14 +97,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F505@ marriage 28 Oct 1701 Middletown, Middlesex, Connecticut, USA",
       "certainty": "confirmed",
       "rel_id": 9193,
       "rel_name": "Rebekah Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9190,

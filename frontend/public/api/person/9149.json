@@ -11,7 +11,11 @@
     "birth_info": "13 Oct 1848 Murderkill Hundred, Kent County, Delaware, USA",
     "death_info": "11 Feb 1954 Rehoboth Beach, Sussex County, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "13 Oct 1848 Murderkill Hundred, Kent County, Delaware, USA",
+    "birth_place": null,
+    "death_date": "11 Feb 1954 Rehoboth Beach, Sussex County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -197,42 +201,48 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F81@ marriage",
       "certainty": "confirmed",
       "rel_id": 9520,
       "rel_name": "Charles Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9519,
       "rel_name": "Harry Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9148,
       "rel_name": "Mary Emma Ella Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9569,
       "rel_name": "Nellie P Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9570,
       "rel_name": "William Joseph Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9565,
@@ -240,6 +250,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8921,
@@ -247,24 +258,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 9149,
-      "photo_id": 3246,
-      "category": "people",
-      "title_or_caption": "Mary_Elizabeth_Jackson_var1.jpg",
-      "subject_names": "Elizabeth Jackson Var1 Mary",
-      "married_surname": "Mary",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/people/Mary_Elizabeth_Jackson_var1.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 9149,
       "photo_id": 636,
@@ -276,6 +269,42 @@
       "local_image_path": "assets/archive_media/people/Davis_Mary_Eliz_Jackson.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisMaryElizJackson.htm",
       "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9149,
+      "photo_id": 3245,
+      "category": "people",
+      "title_or_caption": "Mary_Elizabeth_Jackson.jpg",
+      "subject_names": "Elizabeth Jackson Mary",
+      "married_surname": "Mary",
+      "approximate_year": null,
+      "local_image_path": "assets/archive_media/people/Mary_Elizabeth_Jackson.jpg",
+      "source_url": null,
+      "dataset_source": "images",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9149,
+      "photo_id": 3246,
+      "category": "people",
+      "title_or_caption": "Mary_Elizabeth_Jackson_var1.jpg",
+      "subject_names": "Elizabeth Jackson Var1 Mary",
+      "married_surname": "Mary",
+      "approximate_year": null,
+      "local_image_path": "assets/archive_media/people/Mary_Elizabeth_Jackson_var1.jpg",
+      "source_url": null,
+      "dataset_source": "images",
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
@@ -297,24 +326,6 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 9149,
-      "photo_id": 3245,
-      "category": "people",
-      "title_or_caption": "Mary_Elizabeth_Jackson.jpg",
-      "subject_names": "Elizabeth Jackson Mary",
-      "married_surname": "Mary",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/people/Mary_Elizabeth_Jackson.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

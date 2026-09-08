@@ -11,7 +11,11 @@
     "birth_info": "4 Jul 1867 Smyrna, Kent, Delaware, United States",
     "death_info": "10 Jan 1944 Cheswold, Kent, Delaware, United States",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "4 Jul 1867 Smyrna, Kent, Delaware, United States",
+    "birth_place": null,
+    "death_date": "10 Jan 1944 Cheswold, Kent, Delaware, United States",
+    "death_place": null
   },
   "facts": [
     {
@@ -113,6 +117,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 1019,
@@ -120,6 +125,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10429,

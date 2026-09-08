@@ -11,7 +11,11 @@
     "birth_info": "25 Sep 1841",
     "death_info": "15 Jan 1915 (aged 73)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/138127262/charles-davis (Buried at Bolckow Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "25 Sep 1841",
+    "birth_place": null,
+    "death_date": "15 Jan 1915 (aged 73)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,62 +79,63 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8185,
       "rel_name": "Hester A. Morris Davis"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F300@ marriage",
       "certainty": "confirmed",
       "rel_id": 9140,
       "rel_name": "Minnie Mae Street"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8575,
       "rel_name": "Charles Davis Jr"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10814,
       "rel_name": "Layton Sylvester Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10813,
       "rel_name": "Clarence Drexel Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8576,
       "rel_name": "Walter A Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9146,
       "rel_name": "Reginald Leon Davis"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 10618,
-      "rel_name": "William H Davis"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10087,
@@ -209,6 +214,150 @@
       "contains_face": 0,
       "face_context": "none",
       "routing_target": null
+    },
+    {
+      "person_id": 8676,
+      "photo_id": 3427,
+      "category": "documents",
+      "title_or_caption": "TH-267-12878-55694-39.jpg",
+      "subject_names": "Marriage Federal Census - Charles Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Marriage",
+      "local_image_path": "ancestry_documents/delaware_census/TH-267-12878-55694-39.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/1050104591:61368",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8676,
+      "photo_id": 3428,
+      "category": "documents",
+      "title_or_caption": "TH-266-12600-68521-75.jpg",
+      "subject_names": "Marriage Federal Census - Charles M. Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Marriage",
+      "local_image_path": "ancestry_documents/delaware_census/TH-266-12600-68521-75.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/1050112240:61368",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8676,
+      "photo_id": 3446,
+      "category": "documents",
+      "title_or_caption": "SSDI_Charles_Davis_632274394.json",
+      "subject_names": "SSDI Federal Census - Charles Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "SSDI",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/632274394:60901",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8676,
+      "photo_id": 3453,
+      "category": "documents",
+      "title_or_caption": "44003_01_00002-00584.jpg",
+      "subject_names": "WWII Federal Census - Charles Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "WWII",
+      "local_image_path": "ancestry_documents/delaware_census/44003_01_00002-00584.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/1056305458:2238",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8676,
+      "photo_id": 3463,
+      "category": "documents",
+      "title_or_caption": "1930_Charles_L_P_Davis_121407270.json",
+      "subject_names": "1930 Federal Census - Charles L P Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "1930",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/121407270:6224",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8676,
+      "photo_id": 3469,
+      "category": "documents",
+      "title_or_caption": "Marriage_Charles_L__Davis_104591.json",
+      "subject_names": "Marriage Federal Census - Charles L. Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Marriage",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/104591:61368",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8676,
+      "photo_id": 3556,
+      "category": "documents",
+      "title_or_caption": "4531895_00874.jpg",
+      "subject_names": "1930 Federal Census - Arlie Clark Household",
+      "married_surname": "Davis",
+      "approximate_year": "1930",
+      "local_image_path": "ancestry_documents/delaware_census/4531895_00874.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/121401511:6224",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8676,
+      "photo_id": 3575,
+      "category": "documents",
+      "title_or_caption": "SSDI_Arlie_Benjiman_Clark_21700933.json",
+      "subject_names": "SSDI Federal Census - Arlie Benjiman Clark Household",
+      "married_surname": "Davis",
+      "approximate_year": "SSDI",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/21700933:60901",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
     }
   ],
   "obituaries": [],
@@ -239,13 +388,7 @@
               {
                 "id": 8617,
                 "name": "Negro Morris Thomas",
-                "children": [
-                  {
-                    "id": 9992,
-                    "name": "Sally Wright",
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
                 "id": 8910,
@@ -276,6 +419,11 @@
                 ]
               }
             ]
+          },
+          {
+            "id": 11246,
+            "name": "Francis E. Morris",
+            "children": []
           }
         ]
       }

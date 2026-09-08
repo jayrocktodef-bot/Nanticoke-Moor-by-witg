@@ -11,7 +11,11 @@
     "birth_info": "Sept 1887 Delaware, USA",
     "death_info": "About 1946 Dover, Kent, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Sept 1887 Delaware, USA",
+    "birth_place": null,
+    "death_date": "About 1946 Dover, Kent, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -94,13 +98,15 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 4768,
       "rel_name": "Elizabeth Mosley"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10126,
@@ -108,24 +114,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 10125,
-      "photo_id": 2058,
-      "category": "people",
-      "title_or_caption": "Reed_Harry_And_Tom.jpg",
-      "subject_names": "Reed Harry & Tom",
-      "married_surname": "Reed",
-      "approximate_year": "1921",
-      "local_image_path": "assets/archive_media/people/Reed_Harry_And_Tom.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 10125,
       "photo_id": 2060,
@@ -140,6 +128,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 10125,
+      "photo_id": 2058,
+      "category": "people",
+      "title_or_caption": "Reed_Harry_And_Tom.jpg",
+      "subject_names": "Reed Harry & Tom",
+      "married_surname": "Reed",
+      "approximate_year": "1921",
+      "local_image_path": "assets/archive_media/people/Reed_Harry_And_Tom.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedThomas&MaryMosley.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

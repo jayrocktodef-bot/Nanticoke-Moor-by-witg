@@ -11,7 +11,11 @@
     "birth_info": "1 Sep 1792",
     "death_info": "20 Nov 1867 (aged 75)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/168424070/eunice-clark",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1 Sep 1792",
+    "birth_place": null,
+    "death_date": "20 Nov 1867 (aged 75)",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,14 +97,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F444@ marriage",
       "certainty": "confirmed",
       "rel_id": 2492,
       "rel_name": "Nathaniel Clark"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9943,
@@ -108,6 +114,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9987,

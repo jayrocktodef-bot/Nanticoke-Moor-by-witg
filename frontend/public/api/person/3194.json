@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": "1844",
     "notes": "Ingested from BloomsburyMeeting9May98.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "1844",
+    "death_place": null
   },
   "facts": [
     {
@@ -47,24 +51,6 @@
   "photos": [
     {
       "person_id": 3194,
-      "photo_id": 1255,
-      "category": "people",
-      "title_or_caption": "Heite_Ned_And_Nina_Todd_2.jpg",
-      "subject_names": "Heite Ned & Nina Todd 2",
-      "married_surname": "Heite",
-      "approximate_year": "2001",
-      "local_image_path": "assets/archive_media/people/Heite_Ned_And_Nina_Todd_2.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Meeting20Aug2001.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 3194,
       "photo_id": 1257,
       "category": "people",
       "title_or_caption": "Heite_Ned.jpg",
@@ -77,6 +63,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 3194,
+      "photo_id": 1255,
+      "category": "people",
+      "title_or_caption": "Heite_Ned_And_Nina_Todd_2.jpg",
+      "subject_names": "Heite Ned & Nina Todd 2",
+      "married_surname": "Heite",
+      "approximate_year": "2001",
+      "local_image_path": "assets/archive_media/people/Heite_Ned_And_Nina_Todd_2.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Meeting20Aug2001.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

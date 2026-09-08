@@ -11,7 +11,11 @@
     "birth_info": "1763",
     "death_info": "1978",
     "notes": " | FindAGrave: no match",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1763",
+    "birth_place": null,
+    "death_date": "1978",
+    "death_place": null
   },
   "facts": [
     {
@@ -65,6 +69,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8683,
@@ -72,13 +77,15 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8718,
       "rel_name": "Hester A Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8783,
@@ -147,13 +154,7 @@
           {
             "id": 8617,
             "name": "Negro Morris Thomas",
-            "children": [
-              {
-                "id": 9992,
-                "name": "Sally Wright",
-                "children": []
-              }
-            ]
+            "children": []
           },
           {
             "id": 8910,

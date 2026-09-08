@@ -11,7 +11,11 @@
     "birth_info": "30 Nov 1855",
     "death_info": "1743 Sussex, Delaware, USA",
     "notes": "WikiTree: https://www.wikitree.com/wiki/Clark-93421 (Clark-93421) [Suffix 'Jr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "30 Nov 1855",
+    "birth_place": null,
+    "death_date": "1743 Sussex, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -179,13 +183,15 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10337,
       "rel_name": "William CLARKE Esq"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10334,

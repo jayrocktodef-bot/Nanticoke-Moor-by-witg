@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Moor/Nanticoke lineage record - Carney cluster | FindAGrave: no match",
-    "dataset_source": "moors_delaware"
+    "dataset_source": "moors_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -157,22 +161,7 @@
       ]
     }
   ],
-  "relationships": [
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (78.3% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 340,
-      "rel_name": "Helen Carney"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (76.2% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 373,
-      "rel_name": "John Oakey"
-    }
-  ],
+  "relationships": [],
   "photos": [
     {
       "person_id": 1018,
@@ -194,60 +183,6 @@
     },
     {
       "person_id": 1018,
-      "photo_id": 243,
-      "category": "people",
-      "title_or_caption": "Carney_John_And_Mabel_Mosley_And_Others.jpg",
-      "subject_names": "Carney John & Mabel Mosley & Others",
-      "married_surname": "Carney",
-      "approximate_year": "1861",
-      "local_image_path": "assets/archive_media/people/Carney_John_And_Mabel_Mosley_And_Others.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyJohn&Sallie.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 1018,
-      "photo_id": 1479,
-      "category": "people",
-      "title_or_caption": "Loatman_John_And_Anthalinda_Lindy_Carney.jpg",
-      "subject_names": "Loatman John & Anthalinda Lindy Carney",
-      "married_surname": "Loatman",
-      "approximate_year": "1910",
-      "local_image_path": "assets/archive_media/people/Loatman_John_And_Anthalinda_Lindy_Carney.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/LoatmanJohn&Anthalinda.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 1018,
-      "photo_id": 245,
-      "category": "people",
-      "title_or_caption": "Carney_John_And_Sallie.jpg",
-      "subject_names": "Carney John & Sallie",
-      "married_surname": "Carney",
-      "approximate_year": "1861",
-      "local_image_path": "assets/archive_media/people/Carney_John_And_Sallie.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyJohn&Sallie.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 1018,
       "photo_id": 247,
       "category": "people",
       "title_or_caption": "Carney_John.jpg",
@@ -263,6 +198,24 @@
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
+    },
+    {
+      "person_id": 1018,
+      "photo_id": 2675,
+      "category": "people",
+      "title_or_caption": "Carney_John_House.jpg",
+      "subject_names": "John House Carney",
+      "married_surname": "",
+      "approximate_year": "1861",
+      "local_image_path": "assets/archive_media/documents/Carney_John_House.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyJohn&Sallie.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "document",
+      "subtype": "studio_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     },
     {
       "person_id": 1018,
@@ -320,21 +273,57 @@
     },
     {
       "person_id": 1018,
-      "photo_id": 2675,
+      "photo_id": 243,
       "category": "people",
-      "title_or_caption": "Carney_John_House.jpg",
-      "subject_names": "John House Carney",
-      "married_surname": "",
+      "title_or_caption": "Carney_John_And_Mabel_Mosley_And_Others.jpg",
+      "subject_names": "Carney John & Mabel Mosley & Others",
+      "married_surname": "Carney",
       "approximate_year": "1861",
-      "local_image_path": "assets/archive_media/documents/Carney_John_House.jpg",
+      "local_image_path": "assets/archive_media/people/Carney_John_And_Mabel_Mosley_And_Others.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyJohn&Sallie.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "document",
-      "subtype": "studio_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 1018,
+      "photo_id": 245,
+      "category": "people",
+      "title_or_caption": "Carney_John_And_Sallie.jpg",
+      "subject_names": "Carney John & Sallie",
+      "married_surname": "Carney",
+      "approximate_year": "1861",
+      "local_image_path": "assets/archive_media/people/Carney_John_And_Sallie.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyJohn&Sallie.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 1018,
+      "photo_id": 1479,
+      "category": "people",
+      "title_or_caption": "Loatman_John_And_Anthalinda_Lindy_Carney.jpg",
+      "subject_names": "Loatman John & Anthalinda Lindy Carney",
+      "married_surname": "Loatman",
+      "approximate_year": "1910",
+      "local_image_path": "assets/archive_media/people/Loatman_John_And_Anthalinda_Lindy_Carney.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/LoatmanJohn&Anthalinda.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 1018,

@@ -11,7 +11,11 @@
     "birth_info": "12 Jul 1935 Lewes Sussex, Delaware",
     "death_info": "13 Feb 2001 Millsboro, Delaware, United States",
     "notes": "[Suffix 'Jr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "12 Jul 1935 Lewes Sussex, Delaware",
+    "birth_place": null,
+    "death_date": "13 Feb 2001 Millsboro, Delaware, United States",
+    "death_place": null
   },
   "facts": [
     {
@@ -151,6 +155,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10725,
@@ -158,6 +163,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9964,

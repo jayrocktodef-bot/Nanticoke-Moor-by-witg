@@ -11,7 +11,11 @@
     "birth_info": "11 Jun 1947",
     "death_info": "24 Aug 2001 (aged 54)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/114734576/leroy-durham",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "11 Jun 1947",
+    "birth_place": null,
+    "death_date": "24 Aug 2001 (aged 54)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,35 +78,29 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Leroy Durham married Thelma Carney",
       "certainty": "confirmed",
       "rel_id": 319,
       "rel_name": "Thelma Carney"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 1042,
-      "rel_name": "Albert Durham"
     }
   ],
   "photos": [
     {
       "person_id": 318,
-      "photo_id": 808,
+      "photo_id": 810,
       "category": "people",
-      "title_or_caption": "Durham_Floyd_And_Cleo_Young.jpg",
-      "subject_names": "Durham Floyd & Cleo Young",
+      "title_or_caption": "Durham_Floyd_1996.jpg",
+      "subject_names": "Floyd Durham",
       "married_surname": "Durham",
       "approximate_year": "1996",
-      "local_image_path": "assets/archive_media/people/Durham_Floyd_And_Cleo_Young.jpg",
+      "local_image_path": "assets/archive_media/people/Durham_Floyd_1996.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamFloyd.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
+      "document_type": "portrait",
       "asset_type": "photograph",
-      "subtype": "group_portrait",
+      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -127,18 +125,18 @@
     },
     {
       "person_id": 318,
-      "photo_id": 810,
+      "photo_id": 808,
       "category": "people",
-      "title_or_caption": "Durham_Floyd_1996.jpg",
-      "subject_names": "Floyd Durham",
+      "title_or_caption": "Durham_Floyd_And_Cleo_Young.jpg",
+      "subject_names": "Durham Floyd & Cleo Young",
       "married_surname": "Durham",
       "approximate_year": "1996",
-      "local_image_path": "assets/archive_media/people/Durham_Floyd_1996.jpg",
+      "local_image_path": "assets/archive_media/people/Durham_Floyd_And_Cleo_Young.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamFloyd.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait",
+      "document_type": "group_photo",
       "asset_type": "photograph",
-      "subtype": "studio_portrait",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

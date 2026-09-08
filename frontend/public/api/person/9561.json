@@ -11,7 +11,11 @@
     "birth_info": "9 February 1928 Stockley, Sussex County, Delaware, United States of America",
     "death_info": "12 July 1930 Georgetown, Sussex County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "9 February 1928 Stockley, Sussex County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "12 July 1930 Georgetown, Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -132,6 +136,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9097,
@@ -139,6 +144,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8147,

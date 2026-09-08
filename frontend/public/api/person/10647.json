@@ -11,7 +11,11 @@
     "birth_info": "1817 Lewes, Sussex County, Delaware, United States of America",
     "death_info": "5 Jun 1887 Long Neck, Sussex, Delaware, United States",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1817 Lewes, Sussex County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "5 Jun 1887 Long Neck, Sussex, Delaware, United States",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10457,

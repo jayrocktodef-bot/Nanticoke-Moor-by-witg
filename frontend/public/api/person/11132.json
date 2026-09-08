@@ -11,7 +11,11 @@
     "birth_info": "1938",
     "death_info": "2017 (aged 78\u201379)",
     "notes": "Restored connected Delmarva lineage from GEDCOM | Verified via FindAGrave: https://www.findagrave.com/memorial/177054964/nancy-carmean",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1938",
+    "birth_place": null,
+    "death_date": "2017 (aged 78\u201379)",
+    "death_place": null
   },
   "facts": [
     {
@@ -44,7 +48,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11121,
@@ -57,6 +62,12 @@
   "ancestry": {
     "id": 11132,
     "name": "Nancy J Carmean",
-    "children": []
+    "children": [
+      {
+        "id": 11121,
+        "name": "Hettie Carmean",
+        "children": []
+      }
+    ]
   }
 }

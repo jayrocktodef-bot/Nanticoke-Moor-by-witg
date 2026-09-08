@@ -11,7 +11,11 @@
     "birth_info": "1926",
     "death_info": "1930 (aged 3\u20134)",
     "notes": "Son of Hester Morris Davis and Morris Davis | Verified via FindAGrave: https://www.findagrave.com/memorial/81218994/hershel-davis (Buried at Glenwood Cemetery)",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1926",
+    "birth_place": null,
+    "death_date": "1930 (aged 3\u20134)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Hester Morris Davis mother of Hershel (Hersel) Davis (DavisHesterMorris.htm)",
       "certainty": "confirmed",
       "rel_id": 8185,
@@ -106,6 +111,57 @@
   "ancestry": {
     "id": 2646,
     "name": "Hershel Davis",
-    "children": []
+    "children": [
+      {
+        "id": 8185,
+        "name": "Hester A. Morris Davis",
+        "children": [
+          {
+            "id": 8571,
+            "name": "Francis E. Frank Morris",
+            "children": [
+              {
+                "id": 8617,
+                "name": "Negro Morris Thomas",
+                "children": []
+              },
+              {
+                "id": 8910,
+                "name": "Leticia Morris",
+                "children": [
+                  {
+                    "id": 8616,
+                    "name": "Stephen Wright",
+                    "children": [
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8684,
+                    "name": "Priscilla Miller",
+                    "children": [
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 11246,
+            "name": "Francis E. Morris",
+            "children": []
+          }
+        ]
+      }
+    ]
   }
 }

@@ -11,7 +11,11 @@
     "birth_info": "22 Jul 1952",
     "death_info": "8 Nov 2009 (aged 57)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/95176133/douglas-mosley",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "22 Jul 1952",
+    "birth_place": null,
+    "death_date": "8 Nov 2009 (aged 57)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10632,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10626,

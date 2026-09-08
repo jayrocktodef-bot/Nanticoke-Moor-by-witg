@@ -1,5 +1,6 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react';
-import { Search, Database, Users, FileText, Image as ImageIcon, GitFork, BookOpen, ShieldCheck, HeartHandshake, GitCommit, Bookmark, LayoutGrid, List, Sparkles, Filter, Sun, Moon, Printer, Compass, MapPin, Dna, Volume2 } from 'lucide-react';
+import { createPortal } from 'react-dom';
+import { Search, Database, Users, FileText, Image as ImageIcon, GitFork, BookOpen, ShieldCheck, HeartHandshake, GitCommit, Bookmark, LayoutGrid, List, Sparkles, Filter, Sun, Moon, Printer, Compass, MapPin, Dna, Volume2, Menu, X } from 'lucide-react';
 import SurnameCard from './SurnameCard';
 import RecordDrawer from './RecordDrawer';
 import PersonProfileView from './PersonProfileView';
@@ -33,6 +34,7 @@ export default function HomeScreen() {
   const [selectedSurname, setSelectedSurname] = useState(null);
   const [activeSurnamePortal, setActiveSurnamePortal] = useState(null);
   const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [viewMode, setViewMode] = useState('grid'); // 'grid' or 'list'
   const [selectedLetter, setSelectedLetter] = useState('ALL');
   const [currentPage, setCurrentPage] = useState(1);
@@ -52,13 +54,28 @@ export default function HomeScreen() {
     }
   }, [isParchmentMode]);
 
-  // Track tab changes in Google Analytics
+  // Track tab changes in Google Analytics & close mobile drawer
   const handleTabChange = (tabId) => {
     setActiveTab(tabId);
     setVisitedTabs(prev => new Set(prev).add(tabId));
+    setIsMobileMenuOpen(false);
     trackPageView(`/${tabId}`, `Tab: ${tabId}`);
     trackEvent('switch_tab', 'navigation', tabId);
   };
+
+  // Lock body scroll when mobile drawer is active
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else if (!selectedPersonId && !activeSurnamePortal && !selectedRecord) {
+      document.body.style.overflow = 'auto';
+    }
+  }, [isMobileMenuOpen, selectedPersonId, activeSurnamePortal, selectedRecord]);
+
+  // Ensure any change to activeTab (direct click, bento pathway, quick-filter, or deep link) marks the tab visited so lazy modules mount correctly
+  useEffect(() => {
+    setVisitedTabs(prev => new Set(prev).add(activeTab));
+  }, [activeTab]);
 
   useEffect(() => {
     fetchCachedJson('/api/stats.json').then(setStats).catch(console.error);
@@ -141,8 +158,172 @@ export default function HomeScreen() {
   return (
     <div className="min-h-screen bg-[#0F0E0D] text-[#E5E1DB] flex flex-col md:flex-row font-sans selection:bg-[#C68B59]/30 overflow-x-hidden">
       
-      {/* MACFAMILYTREE-STYLE VERTICAL SIDEBAR NAVIGATION */}
-      <aside className="w-full md:w-64 bg-[#141210] border-r border-[#26221E] flex flex-col shrink-0 z-30 shadow-2xl" role="navigation" aria-label="Archive navigation">
+      {/* MOBILE TOP APP BAR (VISIBLE ON < md) */}
+      <header className="md:hidden sticky top-0 z-30 bg-[#141210]/95 backdrop-blur-md border-b border-[#26221E] px-4 py-2.5 flex items-center justify-between shadow-lg">
+        <div className="flex items-center gap-2.5">
+          <button
+            onClick={() => setIsMobileMenuOpen(true)}
+            className="p-2 -ml-1 rounded-xl bg-[#1C1A17] border border-[#332D27] text-[#D4A373] hover:text-[#F3EBE3] transition-colors active:scale-95"
+            aria-label="Open Archive Navigation Menu"
+          >
+            <Menu className="w-5 h-5" />
+          </button>
+          <a href="https://writteninthegenome.blog" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+            <img src="/logo.webp" alt="Logo" className="w-7 h-7 rounded-lg border border-[#C68B59]/40 object-cover" onError={e => { e.target.style.display = 'none'; }} />
+            <span className="font-serif-header font-bold text-sm text-[#F3EBE3]">Genetic Archive</span>
+          </a>
+        </div>
+
+        <div className="flex items-center gap-1.5">
+          <button
+            onClick={() => setIsParchmentMode(prev => !prev)}
+            className="p-2 rounded-xl bg-[#1C1A17] border border-[#332D27] text-[#D4A373] hover:text-[#F3EBE3] transition-colors"
+            title="Toggle theme"
+            aria-label="Toggle Parchment or Dark Theme"
+          >
+            {isParchmentMode ? <Moon className="w-4 h-4" /> : <Sun className="w-4 h-4" />}
+          </button>
+          <button
+            onClick={() => setIsCommandPaletteOpen(true)}
+            className="p-2 rounded-xl bg-[#1C1A17] border border-[#332D27] text-[#D4A373] hover:text-[#F3EBE3] transition-colors"
+            aria-label="Search Database (Ctrl+K)"
+          >
+            <Search className="w-4 h-4" />
+          </button>
+        </div>
+      </header>
+
+      {/* MOBILE NAVIGATION DRAWER (SLIDE-OVER FOR < md) */}
+      {isMobileMenuOpen && typeof document !== 'undefined' && createPortal(
+        <div className="fixed inset-0 z-[9999] md:hidden flex" role="dialog" aria-modal="true">
+          {/* Backdrop */}
+          <div 
+            className="fixed inset-0 bg-black/80 backdrop-blur-sm transition-opacity" 
+            onClick={() => setIsMobileMenuOpen(false)} 
+          />
+          
+          {/* Drawer Surface */}
+          <aside className="relative w-4/5 max-w-xs bg-[#141210] border-r border-[#26221E] flex flex-col h-full z-10 shadow-2xl overflow-y-auto custom-scrollbar animate-fade-in">
+            <div className="p-4 border-b border-[#26221E] flex items-center justify-between">
+              <div className="flex items-center gap-2.5">
+                <img src="/logo.webp" alt="Logo" className="w-8 h-8 rounded-lg border border-[#C68B59]/40 object-cover" onError={e => { e.target.style.display = 'none'; }} />
+                <div>
+                  <h2 className="font-serif-header font-bold text-sm text-[#F3EBE3]">Genetic Archive</h2>
+                  <p className="text-[10px] text-[#A8A096]">Written In The Genome</p>
+                </div>
+              </div>
+              <button 
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="p-2 rounded-xl bg-[#1C1A17] border border-[#332D27] text-[#A8A096] hover:text-white"
+                aria-label="Close navigation menu"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            {/* Navigation Lists in Drawer */}
+            <div className="p-3 flex-1 space-y-6 overflow-y-auto custom-scrollbar">
+              <div>
+                <span className="text-[10px] font-bold text-[#8C8275] uppercase tracking-wider px-3 mb-2 block font-mono">
+                  Views & Charts
+                </span>
+                <nav className="space-y-1">
+                  {[
+                    { id: 'surnames', label: 'Family Portals', icon: Users },
+                    { id: 'graph', label: 'Family Tree & Network', icon: GitFork },
+                    { id: 'migration_map', label: 'Migration & Cemeteries', icon: Compass },
+                    { id: 'interconnections', label: 'Clan Interconnections', icon: GitCommit },
+                    { id: 'gallery', label: 'Photographs & Media', icon: ImageIcon },
+                    { id: 'obituaries', label: 'Memorials & Obituaries', icon: HeartHandshake },
+                    { id: 'records', label: 'Historical Records', icon: FileText },
+                  ].map(tab => {
+                    const Icon = tab.icon;
+                    const isActive = activeTab === tab.id;
+                    return (
+                      <button
+                        key={tab.id}
+                        onClick={() => handleTabChange(tab.id)}
+                        className={`w-full flex items-center gap-3 px-3 py-3 rounded-xl font-medium text-xs transition-all active:scale-[0.98] ${
+                          isActive
+                            ? 'bg-[#C68B59] text-[#121110] font-bold shadow-md shadow-[#C68B59]/20'
+                            : 'text-[#A8A096] hover:bg-[#1C1A17] hover:text-[#F3EBE3]'
+                        }`}
+                      >
+                        <Icon className={`w-4 h-4 ${isActive ? 'text-[#121110]' : 'text-[#8C8275]'}`} />
+                        <span>{tab.label}</span>
+                      </button>
+                    );
+                  })}
+                </nav>
+              </div>
+
+              <div>
+                <span className="text-[10px] font-bold text-[#8C8275] uppercase tracking-wider px-3 mb-2 block font-mono">
+                  Research & Advanced Tools
+                </span>
+                <nav className="space-y-1">
+                  {[
+                    { id: 'faceted_search', label: 'Faceted Search', icon: Filter },
+                    { id: 'kinship', label: 'Kinship Path Finder', icon: GitCommit },
+                    { id: 'dna_matches', label: 'DNA Cousin Browser', icon: Dna },
+                    { id: 'oral_history', label: 'Oral History Vault', icon: Volume2 },
+                    { id: 'sources', label: 'Sources & Archives', icon: Bookmark },
+                    { id: 'audit', label: 'Integrity Review', icon: ShieldCheck }
+                  ].map(tab => {
+                    const Icon = tab.icon;
+                    const isActive = activeTab === tab.id;
+                    return (
+                      <button
+                        key={tab.id}
+                        onClick={() => handleTabChange(tab.id)}
+                        className={`w-full flex items-center gap-3 px-3 py-3 rounded-xl font-medium text-xs transition-all active:scale-[0.98] ${
+                          isActive
+                            ? 'bg-[#C68B59] text-[#121110] font-bold shadow-md shadow-[#C68B59]/20'
+                            : 'text-[#A8A096] hover:bg-[#1C1A17] hover:text-[#F3EBE3]'
+                        }`}
+                      >
+                        <Icon className={`w-4 h-4 ${isActive ? 'text-[#121110]' : 'text-[#8C8275]'}`} />
+                        <span>{tab.label}</span>
+                      </button>
+                    );
+                  })}
+                </nav>
+              </div>
+
+              {/* Repositories Quick Badge */}
+              <div className="pt-2">
+                <div className="p-3 bg-[#1C1A17] border border-[#332D27] rounded-xl space-y-2">
+                  <div className="flex items-center gap-2 text-xs font-semibold text-[#D4A373]">
+                    <Database className="w-3.5 h-3.5 text-[#C68B59]" />
+                    <span>Preserved Holdings</span>
+                  </div>
+                  <div className="text-[11px] text-[#A8A096] space-y-1 font-mono">
+                    <div className="flex justify-between"><span>Persons:</span><strong className="text-[#F3EBE3]">{stats.persons || 4887}</strong></div>
+                    <div className="flex justify-between"><span>Media Assets:</span><strong className="text-[#F3EBE3]">{stats.media_assets || 1971}</strong></div>
+                    <div className="flex justify-between"><span>Obituaries:</span><strong className="text-[#F3EBE3]">68</strong></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-3 border-t border-[#26221E] space-y-2">
+              <a
+                href="https://writteninthegenome.blog"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-[#1C1A17] hover:bg-[#26221E] border border-[#332D27] text-[#A8A096] hover:text-[#F3EBE3] px-3 py-2 rounded-xl transition-all flex items-center justify-center gap-1.5 text-xs font-medium"
+              >
+                <Sparkles className="w-3.5 h-3.5 text-[#D4A373]" />
+                <span>Written In The Genome Blog</span>
+              </a>
+            </div>
+          </aside>
+        </div>,
+        document.body
+      )}
+
+      {/* DESKTOP SIDEBAR NAVIGATION (PERSISTENT ON md: AND ABOVE) */}
+      <aside className="hidden md:flex md:w-64 bg-[#141210] border-r border-[#26221E] flex-col shrink-0 z-30 shadow-2xl h-screen sticky top-0" role="navigation" aria-label="Archive navigation">
         {/* Top App Header & Brand */}
         <div className="p-4 border-b border-[#26221E] flex items-center justify-between">
           <a
@@ -281,12 +462,58 @@ export default function HomeScreen() {
         </div>
       </aside>
 
-      {/* MAIN WORKSPACE CANVAS (MacFamilyTree Canvas Area) */}
-      <main id="main-content" className="flex-1 flex flex-col min-w-0 bg-[#0F0E0D] overflow-y-auto custom-scrollbar" role="main" aria-label="Archive content">
+      {/* MOBILE STICKY BOTTOM NAVIGATION BAR (VISIBLE ON < md) */}
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-30 bg-[#141210]/95 backdrop-blur-md border-t border-[#26221E] px-1 py-1 flex items-center justify-around shadow-2xl" aria-label="Mobile quick navigation">
+        {[
+          { id: 'surnames', label: 'Portals', icon: Users },
+          { id: 'graph', label: 'Tree', icon: GitFork },
+          { id: 'gallery', label: 'Photos', icon: ImageIcon },
+          { id: 'migration_map', label: 'Atlas', icon: Compass },
+        ].map(tab => {
+          const Icon = tab.icon;
+          const isActive = activeTab === tab.id;
+          return (
+            <button
+              key={tab.id}
+              onClick={() => {
+                handleTabChange(tab.id);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              className={`flex flex-col items-center justify-center py-1.5 px-2 rounded-xl transition-all min-w-[54px] min-h-[44px] ${
+                isActive ? 'text-[#C68B59] font-bold' : 'text-[#8C8275] hover:text-[#E5E1DB]'
+              }`}
+            >
+              <Icon className={`w-4 h-4 mb-0.5 ${isActive ? 'text-[#C68B59]' : 'text-[#8C8275]'}`} />
+              <span className="text-[10px] font-medium">{tab.label}</span>
+            </button>
+          );
+        })}
+        
+        <button
+          onClick={() => setIsCommandPaletteOpen(true)}
+          className="flex flex-col items-center justify-center py-1.5 px-2 rounded-xl text-[#8C8275] hover:text-[#E5E1DB] transition-all min-w-[54px] min-h-[44px]"
+          aria-label="Search Database"
+        >
+          <Search className="w-4 h-4 mb-0.5 text-[#C68B59]" />
+          <span className="text-[10px] font-medium">Search</span>
+        </button>
+
+        <button
+          onClick={() => setIsMobileMenuOpen(true)}
+          className="flex flex-col items-center justify-center py-1.5 px-2 rounded-xl text-[#8C8275] hover:text-[#E5E1DB] transition-all min-w-[54px] min-h-[44px]"
+          aria-label="Open Full Archive Menu"
+        >
+          <Menu className="w-4 h-4 mb-0.5" />
+          <span className="text-[10px] font-medium">All (13)</span>
+        </button>
+      </nav>
+
+      {/* MAIN WORKSPACE CANVAS */}
+      <main id="main-content" className="flex-1 flex flex-col min-w-0 bg-[#0F0E0D] overflow-y-auto custom-scrollbar pb-24 md:pb-8" role="main" aria-label="Archive content">
         {/* Workspace Toolbar */}
-        <div className="sticky top-0 z-20 bg-[#141210]/90 backdrop-blur-md border-b border-[#26221E] px-6 py-3.5 flex items-center justify-between gap-4">
-          <div>
-            <h2 className="text-lg font-bold text-[#F3EBE3] font-serif-header capitalize flex items-center gap-2">
+        <div className="sticky top-0 z-20 bg-[#141210]/90 backdrop-blur-md border-b border-[#26221E] px-4 md:px-6 py-3 flex items-center justify-between gap-3">
+          <div className="min-w-0 flex-1">
+            <h2 className="text-sm sm:text-base md:text-lg font-bold text-[#F3EBE3] font-serif-header truncate flex items-center gap-2">
               {activeTab === 'surnames' && 'Delmarva & Nanticoke Maternal Surnames'}
               {activeTab === 'graph' && 'Interactive Lineage Tree & Network'}
               {activeTab === 'migration_map' && 'Historical Migration Corridors & Cemetery Atlas'}
@@ -296,14 +523,17 @@ export default function HomeScreen() {
               {activeTab === 'records' && 'Family Bible & Primary Records'}
               {activeTab === 'sources' && 'Source Repositories & Archives'}
               {activeTab === 'audit' && 'System Integrity Review'}
+              {activeTab === 'faceted_search' && 'Faceted Search & Multi-Field Filter'}
+              {activeTab === 'kinship' && 'Kinship Path Finder & Lineage Steps'}
+              {activeTab === 'dna_matches' && 'DNA Match & Segment Explorer'}
+              {activeTab === 'oral_history' && 'Oral History Vault & Elder Recordings'}
             </h2>
-
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 shrink-0">
             <button
               onClick={() => setIsParchmentMode(prev => !prev)}
-              className="bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] text-[#A8A096] hover:text-[#F3EBE3] px-3.5 py-1.5 rounded-xl transition-all text-xs font-semibold flex items-center gap-2 shadow-sm"
+              className="hidden sm:flex bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] text-[#A8A096] hover:text-[#F3EBE3] px-3.5 py-1.5 rounded-xl transition-all text-xs font-semibold items-center gap-2 shadow-sm"
               title="Toggle Parchment Historical Paper / Archive Night theme"
             >
               {isParchmentMode ? (
@@ -321,19 +551,20 @@ export default function HomeScreen() {
 
             <button
               onClick={() => setIsCommandPaletteOpen(true)}
-              className="bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] text-[#A8A096] hover:text-[#F3EBE3] px-3.5 py-1.5 rounded-xl transition-all text-xs font-semibold flex items-center gap-2 shadow-sm"
+              className="bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59] text-[#A8A096] hover:text-[#F3EBE3] px-3 py-1.5 sm:px-3.5 sm:py-1.5 rounded-xl transition-all text-xs font-semibold flex items-center gap-2 shadow-sm"
             >
               <Search className="w-3.5 h-3.5 text-[#C68B59]" />
-              <span>Search Database...</span>
-              <kbd className="hidden sm:inline bg-[#121110] px-1.5 py-0.5 rounded text-[10px] font-mono border border-[#332D27] text-[#D4A373]">⌘K</kbd>
+              <span className="hidden sm:inline">Search Database...</span>
+              <span className="sm:hidden text-xs">Search</span>
+              <kbd className="hidden md:inline bg-[#121110] px-1.5 py-0.5 rounded text-[10px] font-mono border border-[#332D27] text-[#D4A373]">⌘K</kbd>
             </button>
           </div>
         </div>
 
         {/* Main Canvas View Body */}
-        <div className="p-6 space-y-6 flex-1">
+        <div className="p-4 sm:p-6 space-y-6 flex-1">
         {/* Integrated Record Repositories Banner */}
-        <div className="p-4 bg-[#1C1A17] border border-[#332D27] rounded-xl flex flex-wrap items-center justify-between gap-4 shadow-md">
+        <div className="p-3.5 sm:p-4 bg-[#1C1A17] border border-[#332D27] rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-md">
           <div className="flex items-center gap-2.5">
             <Database className="w-4 h-4 text-[#C68B59]" />
             <span className="text-xs font-serif-header font-bold text-[#F3EBE3] tracking-wide uppercase">Integrated Record Repositories</span>
@@ -405,9 +636,9 @@ export default function HomeScreen() {
               { label: 'Harmon Lineage', action: () => handleSelectSurname('Harmon') },
               { label: 'Jackson Lineage', action: () => handleSelectSurname('Jackson') },
               { label: 'Durham Lineage', action: () => handleSelectSurname('Durham') },
-              { label: 'Bible Records', action: () => setActiveTab('records') },
-              { label: 'Photo Archive', action: () => setActiveTab('gallery') },
-              { label: 'Obituaries', action: () => setActiveTab('obituaries') }
+              { label: 'Bible Records', action: () => handleTabChange('records') },
+              { label: 'Photo Archive', action: () => handleTabChange('gallery') },
+              { label: 'Obituaries', action: () => handleTabChange('obituaries') }
             ].map((tag, idx) => (
               <button
                 key={idx}
@@ -446,7 +677,7 @@ export default function HomeScreen() {
               </div>
 
               <h3 
-                onClick={() => setActiveTab('surnames')}
+                onClick={() => handleTabChange('surnames')}
                 className="font-serif-header text-base font-bold text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors cursor-pointer"
               >
                 1. Explore Family Lines
@@ -478,7 +709,7 @@ export default function HomeScreen() {
             </div>
 
             <button
-              onClick={() => setActiveTab('surnames')}
+              onClick={() => handleTabChange('surnames')}
               className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#D4A373] mt-4 font-mono hover:underline self-start"
             >
               Browse 50+ Portals →
@@ -509,7 +740,7 @@ export default function HomeScreen() {
               </div>
 
               <h3 
-                onClick={() => setActiveTab('gallery')}
+                onClick={() => handleTabChange('gallery')}
                 className="font-serif-header text-base font-bold text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors cursor-pointer"
               >
                 2. See Historic Photos
@@ -533,7 +764,7 @@ export default function HomeScreen() {
             </div>
 
             <button
-              onClick={() => setActiveTab('gallery')}
+              onClick={() => handleTabChange('gallery')}
               className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#D4A373] mt-4 font-mono hover:underline self-start"
             >
               Open Media Archive →
@@ -1015,6 +1246,8 @@ export default function HomeScreen() {
                 <li>
                   <a
                     href="https://familyarchive.writteninthegenome.blog"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-[#D4A373] hover:underline font-semibold flex items-center gap-1.5"
                   >
                     <span>🧬 Genetic Archive</span>

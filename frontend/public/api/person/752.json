@@ -11,7 +11,11 @@
     "birth_info": "5 Dec. 1894",
     "death_info": "1946",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/288321479/mary-jackson",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "5 Dec. 1894",
+    "birth_place": null,
+    "death_date": "1946",
+    "death_place": null
   },
   "facts": [
     {
@@ -197,7 +201,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": ". He then married Mary Jane Norwood Jackson (widow of Isreal Jackson).",
       "certainty": "confirmed",
       "rel_id": 11700,
@@ -243,6 +248,24 @@
     },
     {
       "person_id": 752,
+      "photo_id": 3246,
+      "category": "people",
+      "title_or_caption": "Mary_Elizabeth_Jackson_var1.jpg",
+      "subject_names": "Elizabeth Jackson Var1 Mary",
+      "married_surname": "Mary",
+      "approximate_year": null,
+      "local_image_path": "assets/archive_media/people/Mary_Elizabeth_Jackson_var1.jpg",
+      "source_url": null,
+      "dataset_source": "images",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 752,
       "photo_id": 1622,
       "category": "people",
       "title_or_caption": "Morris_Edgar_And_Jackson_Mary.jpg",
@@ -273,24 +296,6 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 752,
-      "photo_id": 3246,
-      "category": "people",
-      "title_or_caption": "Mary_Elizabeth_Jackson_var1.jpg",
-      "subject_names": "Elizabeth Jackson Var1 Mary",
-      "married_surname": "Mary",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/people/Mary_Elizabeth_Jackson_var1.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

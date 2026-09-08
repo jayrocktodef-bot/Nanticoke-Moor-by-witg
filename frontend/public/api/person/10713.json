@@ -11,7 +11,11 @@
     "birth_info": "29 Jul 1912 Milton, Sussex, Delaware, USA",
     "death_info": "9 Oct 1993 Philadelphia County, Pennsylvania, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "29 Jul 1912 Milton, Sussex, Delaware, USA",
+    "birth_place": null,
+    "death_date": "9 Oct 1993 Philadelphia County, Pennsylvania, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10503,
@@ -82,17 +87,11 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10709,
       "rel_name": "Maria E Hanzer"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 10712,
-      "rel_name": "Manoir Elizabeth Morris"
     }
   ],
   "photos": [],

@@ -11,7 +11,11 @@
     "birth_info": "4 May 1833",
     "death_info": "26 Nov 1919 (aged 86)",
     "notes": "Nanticoke elder & primary informant for Frank G. Speck (c.1911-1920); Spouse of Ephraim Harmon | Verified via FindAGrave: https://www.findagrave.com/memorial/104675891/jane-harmon",
-    "dataset_source": "smithsonian_nmai_speck"
+    "dataset_source": "smithsonian_nmai_speck",
+    "birth_date": "4 May 1833",
+    "birth_place": null,
+    "death_date": "26 Nov 1919 (aged 86)",
+    "death_place": null
   },
   "facts": [
     {
@@ -83,14 +87,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Spouse of Ephraim Harmon documented in Smithsonian NMAI Speck collection",
       "certainty": "confirmed",
       "rel_id": 790,
       "rel_name": "Ephraim Lincoln Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Daughter of Jane Harmon & Ephraim Harmon",
       "certainty": "confirmed",
       "rel_id": 755,
@@ -98,24 +104,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 1686,
-      "photo_id": 1221,
-      "category": "people",
-      "title_or_caption": "Harmon_Sarah_Jane_Sockum.jpg",
-      "subject_names": "Sarah Jane Sockum Harmon",
-      "married_surname": "Harmon",
-      "approximate_year": "1829",
-      "local_image_path": "assets/archive_media/people/Harmon_Sarah_Jane_Sockum.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonIsaacW&SarahSockum.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 1686,
       "photo_id": 1167,
@@ -126,6 +114,24 @@
       "approximate_year": "",
       "local_image_path": "assets/archive_media/people/Harmon_Eliza_Jane.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonElizaJane.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 1686,
+      "photo_id": 1221,
+      "category": "people",
+      "title_or_caption": "Harmon_Sarah_Jane_Sockum.jpg",
+      "subject_names": "Sarah Jane Sockum Harmon",
+      "married_surname": "Harmon",
+      "approximate_year": "1829",
+      "local_image_path": "assets/archive_media/people/Harmon_Sarah_Jane_Sockum.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonIsaacW&SarahSockum.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",

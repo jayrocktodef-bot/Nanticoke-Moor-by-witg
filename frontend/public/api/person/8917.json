@@ -11,7 +11,11 @@
     "birth_info": "5/31/1911 Kent County, Delaware, USA",
     "death_info": "26 May 1994 Dover,     Kent,     Delaware,     USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "5/31/1911 Kent County, Delaware, USA",
+    "birth_place": null,
+    "death_date": "26 May 1994 Dover,     Kent,     Delaware,     USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,6 +88,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8916,
@@ -93,13 +98,13 @@
   "photos": [
     {
       "person_id": 8917,
-      "photo_id": 1648,
+      "photo_id": 1646,
       "category": "people",
-      "title_or_caption": "Morris_William_K_And_Family_2.jpg",
-      "subject_names": "Morris William K & Family 2",
+      "title_or_caption": "Morris_William_K_And_Family.jpg",
+      "subject_names": "Morris William K & Family",
       "married_surname": "Morris",
       "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/people/Morris_William_K_And_Family_2.jpg",
+      "local_image_path": "assets/archive_media/people/Morris_William_K_And_Family.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisWilliamK&Family.htm",
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",
@@ -111,13 +116,13 @@
     },
     {
       "person_id": 8917,
-      "photo_id": 1646,
+      "photo_id": 1648,
       "category": "people",
-      "title_or_caption": "Morris_William_K_And_Family.jpg",
-      "subject_names": "Morris William K & Family",
+      "title_or_caption": "Morris_William_K_And_Family_2.jpg",
+      "subject_names": "Morris William K & Family 2",
       "married_surname": "Morris",
       "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/people/Morris_William_K_And_Family.jpg",
+      "local_image_path": "assets/archive_media/people/Morris_William_K_And_Family_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisWilliamK&Family.htm",
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",
@@ -156,13 +161,7 @@
               {
                 "id": 8617,
                 "name": "Negro Morris Thomas",
-                "children": [
-                  {
-                    "id": 9992,
-                    "name": "Sally Wright",
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
                 "id": 8910,

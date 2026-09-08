@@ -11,7 +11,11 @@
     "birth_info": "30 Nov 1928 Harbeson, Delaware",
     "death_info": "16 Dec 2007 Wilmington, New Castle County, Delaware, United States of America",
     "notes": "[Suffix 'III' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "30 Nov 1928 Harbeson, Delaware",
+    "birth_place": null,
+    "death_date": "16 Dec 2007 Wilmington, New Castle County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,6 +88,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8711,
@@ -91,24 +96,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 8896,
-      "photo_id": 2572,
-      "category": "people",
-      "title_or_caption": "Wright_Will_And_Alden.jpg",
-      "subject_names": "Wright Will & Alden",
-      "married_surname": "Wright",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Wright_Will_And_Alden.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightWill&Alden.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "group_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
     {
       "person_id": 8896,
       "photo_id": 2578,
@@ -141,6 +128,24 @@
       "document_type": "portrait",
       "asset_type": "document",
       "subtype": "studio_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 8896,
+      "photo_id": 2572,
+      "category": "people",
+      "title_or_caption": "Wright_Will_And_Alden.jpg",
+      "subject_names": "Wright Will & Alden",
+      "married_surname": "Wright",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Wright_Will_And_Alden.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightWill&Alden.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "group_portrait",
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"
@@ -178,13 +183,7 @@
                   {
                     "id": 8617,
                     "name": "Negro Morris Thomas",
-                    "children": [
-                      {
-                        "id": 9992,
-                        "name": "Sally Wright",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 8910,

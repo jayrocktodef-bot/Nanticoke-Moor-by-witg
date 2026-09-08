@@ -11,7 +11,11 @@
     "birth_info": "15 September 1909 Millsboro, Sussex County, Delaware, United States of America",
     "death_info": "4 January 2000 Millsboro, Sussex County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "15 September 1909 Millsboro, Sussex County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "4 January 2000 Millsboro, Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -112,14 +116,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F176@ marriage",
       "certainty": "confirmed",
       "rel_id": 6129,
       "rel_name": "Blaine Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9968,
@@ -127,6 +133,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8927,
@@ -136,32 +143,14 @@
   "photos": [
     {
       "person_id": 9967,
-      "photo_id": 1324,
+      "photo_id": 1341,
       "category": "people",
-      "title_or_caption": "Jackson_Blaine_And_Geri.jpg",
-      "subject_names": "Jackson Blaine & Geri",
+      "title_or_caption": "Jackson_Gladys_Harmon.jpg",
+      "subject_names": "Gladys Harmon Jackson",
       "married_surname": "Jackson",
       "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Jackson_Blaine_And_Geri.jpg",
+      "local_image_path": "assets/archive_media/people/Jackson_Gladys_Harmon.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonBlaine&Gladys.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 9967,
-      "photo_id": 1856,
-      "category": "people",
-      "title_or_caption": "Muntz_Gladys_Jackson.jpg",
-      "subject_names": "Gladys Jackson Muntz",
-      "married_surname": "Muntz",
-      "approximate_year": "1878",
-      "local_image_path": "assets/archive_media/people/Muntz_Gladys_Jackson.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonClarence.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
@@ -190,18 +179,36 @@
     },
     {
       "person_id": 9967,
-      "photo_id": 1341,
+      "photo_id": 1856,
       "category": "people",
-      "title_or_caption": "Jackson_Gladys_Harmon.jpg",
-      "subject_names": "Gladys Harmon Jackson",
-      "married_surname": "Jackson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Jackson_Gladys_Harmon.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonBlaine&Gladys.htm",
+      "title_or_caption": "Muntz_Gladys_Jackson.jpg",
+      "subject_names": "Gladys Jackson Muntz",
+      "married_surname": "Muntz",
+      "approximate_year": "1878",
+      "local_image_path": "assets/archive_media/people/Muntz_Gladys_Jackson.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonClarence.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9967,
+      "photo_id": 1324,
+      "category": "people",
+      "title_or_caption": "Jackson_Blaine_And_Geri.jpg",
+      "subject_names": "Jackson Blaine & Geri",
+      "married_surname": "Jackson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Jackson_Blaine_And_Geri.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonBlaine&Gladys.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -268,39 +275,34 @@
             ]
           },
           {
-            "id": 10290,
-            "name": "Harriet Ann Harmon",
+            "id": 8921,
+            "name": "Eliza Jane Morris",
             "children": [
               {
-                "id": 10291,
-                "name": "Charles S Harmon",
+                "id": 9958,
+                "name": "Emma Jane Johnson",
                 "children": [
                   {
-                    "id": 10260,
-                    "name": "Adjoniah R. Harmon",
+                    "id": 9936,
+                    "name": "Sarah Adeline Hanzer",
                     "children": [
                       {
-                        "id": 9982,
-                        "name": "Robert Emanuel Harmon",
+                        "id": 9096,
+                        "name": "John C Hanzer",
                         "children": []
                       },
                       {
-                        "id": 9983,
-                        "name": "Rachel Anne Johnson",
+                        "id": 9940,
+                        "name": "Sophia J. Hanzer",
                         "children": []
                       }
                     ]
-                  },
-                  {
-                    "id": 10293,
-                    "name": "Harriet Louisa Hansor Harmon",
-                    "children": []
                   }
                 ]
               },
               {
-                "id": 10292,
-                "name": "Ann Mariah Harmon",
+                "id": 10539,
+                "name": "Samuel Roland Johnson",
                 "children": []
               }
             ]

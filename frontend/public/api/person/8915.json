@@ -11,7 +11,11 @@
     "birth_info": "abt 1935 Delaware",
     "death_info": "April 14,1986 Lewes, Delaware",
     "notes": "[Suffix 'Jr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1935 Delaware",
+    "birth_place": null,
+    "death_date": "April 14,1986 Lewes, Delaware",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,6 +88,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8783,
@@ -123,13 +128,7 @@
                   {
                     "id": 8617,
                     "name": "Negro Morris Thomas",
-                    "children": [
-                      {
-                        "id": 9992,
-                        "name": "Sally Wright",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 8910,

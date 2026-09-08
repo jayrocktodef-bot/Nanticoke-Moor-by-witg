@@ -11,7 +11,11 @@
     "birth_info": "1 Sep 1908",
     "death_info": "21 Jun 1978 (aged 69)",
     "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/228981688/joseph-thompson",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1 Sep 1908",
+    "birth_place": null,
+    "death_date": "21 Jun 1978 (aged 69)",
+    "death_place": null
   },
   "facts": [
     {
@@ -132,6 +136,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8381,
@@ -139,31 +144,11 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8382,
       "rel_name": "Mary C Thompson"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9768,
-      "rel_name": "Joseph R. Thompson Sr"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8679,
-      "rel_name": "John W Thompson"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9165,
-      "rel_name": "Sarah A Thompson"
     }
   ],
   "photos": [],

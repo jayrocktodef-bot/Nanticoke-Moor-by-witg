@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Ingested from SockumeLevin&Eunice.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -121,49 +125,56 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F418@ marriage 1834 Sussex, Delaware, United States",
       "certainty": "confirmed",
       "rel_id": 1022,
       "rel_name": "Bowen Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10514,
       "rel_name": "Simon Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10515,
       "rel_name": "Minta Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10516,
       "rel_name": "Ann Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 977,
       "rel_name": "Nathaniel Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10535,
       "rel_name": "Daniel Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10533,

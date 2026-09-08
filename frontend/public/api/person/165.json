@@ -11,7 +11,11 @@
     "birth_info": "1842",
     "death_info": "1844 (aged 1\u20132)",
     "notes": "Linked to dean-j1.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/227880084/james-dean",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "1842",
+    "birth_place": null,
+    "death_date": "1844 (aged 1\u20132)",
+    "death_place": null
   },
   "facts": [
     {
@@ -615,7 +619,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Sarah Hewes  later married James Dean {Arch. Vol. A23, pg. 195} and my line of DEANS descends from her.",
       "certainty": "confirmed",
       "rel_id": 11650,

@@ -8,10 +8,14 @@
     "married_last_name": "Wright",
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
-    "birth_info": "4 Jun 1935",
-    "death_info": "15 Jan 1998 (aged 62)",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/287893560/sally-wright",
-    "dataset_source": "davis_family_gedcom"
+    "birth_info": "abt 1781",
+    "death_info": "unknown",
+    "notes": "",
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1781",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -37,7 +41,7 @@
       "fact_id": 9392,
       "person_id": 9992,
       "fact_type": "Birth",
-      "date_string": "4 Jun 1935",
+      "date_string": "abt 1781",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -56,7 +60,7 @@
       "fact_id": 9393,
       "person_id": 9992,
       "fact_type": "Death",
-      "date_string": "15 Jan 1998 (aged 62)",
+      "date_string": "unknown",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -74,21 +78,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8617,
-      "rel_name": "Negro Morris Thomas"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10085,
       "rel_name": "Elizabeth Betsy Morris"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F417@ marriage 1807 Orange, Virginia, United States",
       "certainty": "confirmed",
       "rel_id": 8617,
@@ -97,7 +96,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7534,
+      "category": "CHRONOLOGY_RECONCILED",
+      "severity": "info",
+      "person_id": 9992,
+      "person_id_secondary": null,
+      "description": "Corrected impossible modern FindAGrave dates to estimated ~1781",
+      "evidence": "Children born starting 1806",
+      "created_at": "2026-09-08 03:58:38"
+    }
+  ],
   "ancestry": {
     "id": 9992,
     "name": "Sally Wright",

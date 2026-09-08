@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Ingested from SammonsUlysses&Janet.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -38,24 +42,6 @@
   "photos": [
     {
       "person_id": 7188,
-      "photo_id": 2248,
-      "category": "people",
-      "title_or_caption": "Sammons_Ulysses_And_Delores.jpg",
-      "subject_names": "Sammons Ulysses & Delores",
-      "married_surname": "Sammons",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Sammons_Ulysses_And_Delores.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsUlysses&Delores.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 7188,
       "photo_id": 2252,
       "category": "people",
       "title_or_caption": "Sammons_Ulysses_Emery_Sr.jpg",
@@ -68,6 +54,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 7188,
+      "photo_id": 2248,
+      "category": "people",
+      "title_or_caption": "Sammons_Ulysses_And_Delores.jpg",
+      "subject_names": "Sammons Ulysses & Delores",
+      "married_surname": "Sammons",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Sammons_Ulysses_And_Delores.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsUlysses&Delores.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

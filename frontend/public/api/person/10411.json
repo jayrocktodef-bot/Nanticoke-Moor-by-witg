@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "Dec 1923",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/137781879/george-morris",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "Dec 1923",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 1729,

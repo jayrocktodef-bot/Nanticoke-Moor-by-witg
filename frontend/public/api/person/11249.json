@@ -11,7 +11,11 @@
     "birth_info": "1805",
     "death_info": "1880",
     "notes": "Father of James H. Clark; Son of James Clark & Lydia Nau-Gwa-Ok-Wa Norwood Clark",
-    "dataset_source": "findagrave"
+    "dataset_source": "findagrave",
+    "birth_date": "1805",
+    "birth_place": null,
+    "death_date": "1880",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,32 +79,110 @@
   "relationships": [
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": null,
       "certainty": "confirmed",
       "rel_id": 10421,
       "rel_name": "James H Clark"
     },
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": null,
       "certainty": "confirmed",
       "rel_id": 9336,
       "rel_name": "James Clark"
     },
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": null,
       "certainty": "confirmed",
       "rel_id": 11251,
       "rel_name": "Lydia Nau-Gwa-Ok-Wa Norwood Clark"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 11249,
+      "photo_id": 3549,
+      "category": "documents",
+      "title_or_caption": "1850_Boen_Clark_19697629.json",
+      "subject_names": "1850 Federal Census - Boen Clark Household",
+      "married_surname": "Davis",
+      "approximate_year": "1850",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/19697629:8054",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11249,
     "name": "Boen Clark",
-    "children": []
+    "children": [
+      {
+        "id": 9336,
+        "name": "James Clark",
+        "children": [
+          {
+            "id": 9350,
+            "name": "Levin Clark",
+            "children": [
+              {
+                "id": 10334,
+                "name": "William Russell Wyniaco Clark",
+                "children": [
+                  {
+                    "id": 10336,
+                    "name": "William Vine Clark Jr",
+                    "children": [
+                      {
+                        "id": 10337,
+                        "name": "William CLARKE Esq",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10421,
+                    "name": "James H Clark",
+                    "children": [
+                      {
+                        "id": 9335,
+                        "name": "Bowen Clark",
+                        "children": []
+                      },
+                      {
+                        "id": 10420,
+                        "name": "Ann W. Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10335,
+                "name": "Jane Clark",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11251,
+        "name": "Lydia Nau-Gwa-Ok-Wa Norwood Clark",
+        "children": []
+      }
+    ]
   }
 }

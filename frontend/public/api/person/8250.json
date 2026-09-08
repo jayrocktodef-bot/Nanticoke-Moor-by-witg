@@ -11,7 +11,11 @@
     "birth_info": "15 Jan 1970",
     "death_info": "26 Sep 2019 (aged 49)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/229824081/dwayne-davis (Buried at Gordon Chapel Community Church Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "15 Jan 1970",
+    "birth_place": null,
+    "death_date": "26 Sep 2019 (aged 49)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8182,
@@ -97,31 +102,36 @@
             "name": "George Davis",
             "children": [
               {
-                "id": 8613,
-                "name": "Joseph Henry Davis",
+                "id": 8519,
+                "name": "JAMES Davis",
+                "children": []
+              },
+              {
+                "id": 8185,
+                "name": "Hester A. Morris Davis",
                 "children": [
                   {
-                    "id": 8629,
-                    "name": "Jost Henry Davis",
+                    "id": 8571,
+                    "name": "Francis E. Frank Morris",
                     "children": [
                       {
-                        "id": 8809,
-                        "name": "Ludwig Davis",
+                        "id": 8617,
+                        "name": "Negro Morris Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 8910,
+                        "name": "Leticia Morris",
                         "children": []
                       }
                     ]
                   },
                   {
-                    "id": 8614,
-                    "name": "Katherina Davis",
+                    "id": 11246,
+                    "name": "Francis E. Morris",
                     "children": []
                   }
                 ]
-              },
-              {
-                "id": 8519,
-                "name": "JAMES Davis",
-                "children": []
               }
             ]
           },

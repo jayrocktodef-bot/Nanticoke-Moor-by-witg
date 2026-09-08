@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Ingested from SammonsLuther.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -37,6 +41,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8617,
@@ -44,24 +49,11 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8910,
       "rel_name": "Leticia Morris"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8683,
-      "rel_name": "Josiah Joseph Morris"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8718,
-      "rel_name": "Hester A Jackson"
     }
   ],
   "photos": [],
@@ -74,13 +66,7 @@
       {
         "id": 8617,
         "name": "Negro Morris Thomas",
-        "children": [
-          {
-            "id": 9992,
-            "name": "Sally Wright",
-            "children": []
-          }
-        ]
+        "children": []
       },
       {
         "id": 8910,

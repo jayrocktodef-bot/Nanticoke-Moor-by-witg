@@ -11,7 +11,11 @@
     "birth_info": "Aug 1894 Delaware",
     "death_info": "14 December 1926 Lewes, Sussex County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Aug 1894 Delaware",
+    "birth_place": null,
+    "death_date": "14 December 1926 Lewes, Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F170@ marriage 30 Sep 1924 Lewes, Sussex, Delaware, USA",
       "certainty": "confirmed",
       "rel_id": 9418,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9519,
@@ -89,6 +95,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 490,

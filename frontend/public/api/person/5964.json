@@ -11,7 +11,11 @@
     "birth_info": "17 Jul 1860",
     "death_info": "January 6th, 1896",
     "notes": "Ingested from HarmonIsaacW&SarahSockum.htm | WikiTree: https://www.wikitree.com/wiki/Harmon-5067 (Harmon-5067) | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "17 Jul 1860",
+    "birth_place": null,
+    "death_date": "January 6th, 1896",
+    "death_place": null
   },
   "facts": [
     {
@@ -103,6 +107,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 5921,
@@ -110,6 +115,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10214,

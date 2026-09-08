@@ -11,7 +11,11 @@
     "birth_info": "Feb 1876 Delaware",
     "death_info": "Aft. 1918 Delaware",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Feb 1876 Delaware",
+    "birth_place": null,
+    "death_date": "Aft. 1918 Delaware",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,14 +78,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F112@ marriage",
       "certainty": "confirmed",
       "rel_id": 8712,
       "rel_name": "George Harvey Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8911,

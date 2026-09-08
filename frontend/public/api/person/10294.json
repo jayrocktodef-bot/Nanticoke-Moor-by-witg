@@ -11,7 +11,11 @@
     "birth_info": "1866 Delaware",
     "death_info": "1937",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1866 Delaware",
+    "birth_place": null,
+    "death_date": "1937",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F486@ marriage 1890 Philadelphia, Philadelphia, Pennsylvania, USA",
       "certainty": "confirmed",
       "rel_id": 8623,

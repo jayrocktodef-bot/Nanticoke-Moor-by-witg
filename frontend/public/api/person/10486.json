@@ -11,7 +11,11 @@
     "birth_info": "21 Mar 1905",
     "death_info": "12 Jan 1993 (aged 87)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/127766326/rachel-durham",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "21 Mar 1905",
+    "birth_place": null,
+    "death_date": "12 Jan 1993 (aged 87)",
+    "death_place": null
   },
   "facts": [
     {
@@ -132,6 +136,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10394,
@@ -139,6 +144,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10395,

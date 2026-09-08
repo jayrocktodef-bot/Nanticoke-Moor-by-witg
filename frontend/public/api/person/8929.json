@@ -11,7 +11,11 @@
     "birth_info": "1 Oct 1918",
     "death_info": "5 Mar 2005",
     "notes": "[Suffix 'Jr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1 Oct 1918",
+    "birth_place": null,
+    "death_date": "5 Mar 2005",
+    "death_place": null
   },
   "facts": [
     {
@@ -103,13 +107,15 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8928,
       "rel_name": "Johanna Josephine Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9654,
@@ -181,28 +187,23 @@
                 ]
               },
               {
-                "id": 10290,
-                "name": "Harriet Ann Harmon",
+                "id": 8921,
+                "name": "Eliza Jane Morris",
                 "children": [
                   {
-                    "id": 10291,
-                    "name": "Charles S Harmon",
+                    "id": 9958,
+                    "name": "Emma Jane Johnson",
                     "children": [
                       {
-                        "id": 10260,
-                        "name": "Adjoniah R. Harmon",
-                        "children": []
-                      },
-                      {
-                        "id": 10293,
-                        "name": "Harriet Louisa Hansor Harmon",
+                        "id": 9936,
+                        "name": "Sarah Adeline Hanzer",
                         "children": []
                       }
                     ]
                   },
                   {
-                    "id": 10292,
-                    "name": "Ann Mariah Harmon",
+                    "id": 10539,
+                    "name": "Samuel Roland Johnson",
                     "children": []
                   }
                 ]

@@ -11,7 +11,11 @@
     "birth_info": "24 APR 1908 DE",
     "death_info": "10 FEB 1990 DE",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "24 APR 1908 DE",
+    "birth_place": null,
+    "death_date": "10 FEB 1990 DE",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9490,
@@ -82,42 +87,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 9493,
-      "photo_id": 1448,
-      "category": "people",
-      "title_or_caption": "Johnson_Willis_Milton_And_Henrietta_Victoria_Johnson.jpg",
-      "subject_names": "Johnson Willis Milton & Henrietta Victoria Johnson",
-      "married_surname": "Johnson",
-      "approximate_year": "1996",
-      "local_image_path": "assets/archive_media/people/Johnson_Willis_Milton_And_Henrietta_Victoria_Johnson.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWillis&Henrietta.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "group_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
-    {
-      "person_id": 9493,
-      "photo_id": 1451,
-      "category": "people",
-      "title_or_caption": "Johnson_Willis_Return_And_Marian_Meyer.jpg",
-      "subject_names": "Johnson Willis Return & Marian Meyer",
-      "married_surname": "Johnson",
-      "approximate_year": "1973",
-      "local_image_path": "assets/archive_media/people/Johnson_Willis_Return_And_Marian_Meyer.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WimmerChris&Paula.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "group_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
     {
       "person_id": 9493,
       "photo_id": 1452,
@@ -171,6 +140,42 @@
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"
+    },
+    {
+      "person_id": 9493,
+      "photo_id": 1448,
+      "category": "people",
+      "title_or_caption": "Johnson_Willis_Milton_And_Henrietta_Victoria_Johnson.jpg",
+      "subject_names": "Johnson Willis Milton & Henrietta Victoria Johnson",
+      "married_surname": "Johnson",
+      "approximate_year": "1996",
+      "local_image_path": "assets/archive_media/people/Johnson_Willis_Milton_And_Henrietta_Victoria_Johnson.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWillis&Henrietta.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "group_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 9493,
+      "photo_id": 1451,
+      "category": "people",
+      "title_or_caption": "Johnson_Willis_Return_And_Marian_Meyer.jpg",
+      "subject_names": "Johnson Willis Return & Marian Meyer",
+      "married_surname": "Johnson",
+      "approximate_year": "1973",
+      "local_image_path": "assets/archive_media/people/Johnson_Willis_Return_And_Marian_Meyer.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WimmerChris&Paula.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "group_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],
@@ -208,11 +213,6 @@
                     ]
                   }
                 ]
-              },
-              {
-                "id": 8766,
-                "name": "Sarah A Johnson",
-                "children": []
               }
             ]
           }

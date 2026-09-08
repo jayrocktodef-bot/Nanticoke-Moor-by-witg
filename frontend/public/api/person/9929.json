@@ -11,7 +11,11 @@
     "birth_info": "abt 1943 Delaware",
     "death_info": "6 Sept. 1889",
     "notes": " | FindAGrave: no match",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1943 Delaware",
+    "birth_place": null,
+    "death_date": "6 Sept. 1889",
+    "death_place": null
   },
   "facts": [
     {
@@ -65,6 +69,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9931,
@@ -72,6 +77,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8860,
@@ -99,19 +105,7 @@
       {
         "id": 9931,
         "name": "Raymond Harmon",
-        "children": [
-          {
-            "id": 8860,
-            "name": "Hattie Miller",
-            "children": [
-              {
-                "id": 8857,
-                "name": "John E Miller",
-                "children": []
-              }
-            ]
-          }
-        ]
+        "children": []
       },
       {
         "id": 8860,

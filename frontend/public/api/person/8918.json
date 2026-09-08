@@ -11,7 +11,11 @@
     "birth_info": "01 Jul 1907 Dover, Kent County, Delaware",
     "death_info": "03 Jun 1992 Fork Branch Cemetery, Dover, Kent, Delaware",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "01 Jul 1907 Dover, Kent County, Delaware",
+    "birth_place": null,
+    "death_date": "03 Jun 1992 Fork Branch Cemetery, Dover, Kent, Delaware",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,14 +78,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F50@ marriage",
       "certainty": "confirmed",
       "rel_id": 9417,
       "rel_name": "Edith Gertrude Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8919,
@@ -89,6 +95,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8792,
@@ -113,13 +120,7 @@
               {
                 "id": 8617,
                 "name": "Negro Morris Thomas",
-                "children": [
-                  {
-                    "id": 9992,
-                    "name": "Sally Wright",
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
                 "id": 8910,

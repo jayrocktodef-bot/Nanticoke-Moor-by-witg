@@ -11,7 +11,11 @@
     "birth_info": "Abt 1878 Delaware",
     "death_info": "28 Sep 1954 Philadelphia, Philadelphia, Pennsylvania, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Abt 1878 Delaware",
+    "birth_place": null,
+    "death_date": "28 Sep 1954 Philadelphia, Philadelphia, Pennsylvania, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10514,
@@ -82,13 +87,7 @@
     },
     {
       "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9928,
-      "rel_name": "Lydia J Harmon"
-    },
-    {
-      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 1024,
@@ -147,38 +146,9 @@
         ]
       },
       {
-        "id": 9928,
-        "name": "Lydia J Harmon",
-        "children": [
-          {
-            "id": 9931,
-            "name": "Raymond Harmon",
-            "children": [
-              {
-                "id": 8860,
-                "name": "Hattie Miller",
-                "children": [
-                  {
-                    "id": 8857,
-                    "name": "John E Miller",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": 8860,
-            "name": "Hattie Miller",
-            "children": [
-              {
-                "id": 8857,
-                "name": "John E Miller",
-                "children": []
-              }
-            ]
-          }
-        ]
+        "id": 1024,
+        "name": "Eli Harmon",
+        "children": []
       }
     ]
   }

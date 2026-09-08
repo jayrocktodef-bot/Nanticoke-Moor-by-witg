@@ -11,7 +11,11 @@
     "birth_info": "8 Feb 1875",
     "death_info": "9 Jul 1924 (aged 49)",
     "notes": "Restored connected Delmarva lineage from GEDCOM | Verified via FindAGrave: https://www.findagrave.com/memorial/127668896/harry-ingram",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "8 Feb 1875",
+    "birth_place": null,
+    "death_date": "9 Jul 1924 (aged 49)",
+    "death_place": null
   },
   "facts": [
     {
@@ -44,14 +48,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11137,
       "rel_name": "Abraham Ingram"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Restored GEDCOM family marriage record",
       "certainty": "confirmed",
       "rel_id": 11143,
@@ -59,6 +65,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11144,
@@ -66,6 +73,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11147,
@@ -78,6 +86,12 @@
   "ancestry": {
     "id": 11138,
     "name": "Harry Ingram",
-    "children": []
+    "children": [
+      {
+        "id": 11137,
+        "name": "Abraham Ingram",
+        "children": []
+      }
+    ]
   }
 }

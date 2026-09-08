@@ -11,7 +11,11 @@
     "birth_info": "1859",
     "death_info": "24 Aug 1934 (aged 74\u201375)",
     "notes": "Ingested from preserved Probate.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/74733635/mary-morgan",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1859",
+    "birth_place": null,
+    "death_date": "24 Aug 1934 (aged 74\u201375)",
+    "death_place": null
   },
   "facts": [
     {
@@ -140,24 +144,6 @@
     },
     {
       "person_id": 2401,
-      "photo_id": 1599,
-      "category": "people",
-      "title_or_caption": "Morgan_Raymond_And_Virginia_2002.jpg",
-      "subject_names": "Morgan Raymond & Virginia 2002",
-      "married_surname": "Morgan",
-      "approximate_year": "2002",
-      "local_image_path": "assets/archive_media/people/Morgan_Raymond_And_Virginia_2002.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganRaymond&MaryVirginia.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 2401,
       "photo_id": 3260,
       "category": "people",
       "title_or_caption": "Mary_Elva_Morgan_Mosley.jpg",
@@ -170,6 +156,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 2401,
+      "photo_id": 1599,
+      "category": "people",
+      "title_or_caption": "Morgan_Raymond_And_Virginia_2002.jpg",
+      "subject_names": "Morgan Raymond & Virginia 2002",
+      "married_surname": "Morgan",
+      "approximate_year": "2002",
+      "local_image_path": "assets/archive_media/people/Morgan_Raymond_And_Virginia_2002.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganRaymond&MaryVirginia.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "Aug 1854",
     "notes": "Restored connected Delmarva lineage from GEDCOM | Verified via FindAGrave: https://www.findagrave.com/memorial/246527337/abraham-ingram",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "Aug 1854",
+    "death_place": null
   },
   "facts": [
     {
@@ -45,6 +49,7 @@
   "relationships": [
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11136,
@@ -52,6 +57,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11140,
@@ -59,6 +65,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11138,
@@ -66,6 +73,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11141,
@@ -73,6 +81,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11142,

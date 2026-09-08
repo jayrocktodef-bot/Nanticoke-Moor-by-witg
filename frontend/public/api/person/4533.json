@@ -11,7 +11,11 @@
     "birth_info": "13 Sep 1871",
     "death_info": "12 Nov 1948 (aged 77)",
     "notes": "Ingested from CarterMaeWilsonfamily.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/228726872/lillian-carter",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "13 Sep 1871",
+    "birth_place": null,
+    "death_date": "12 Nov 1948 (aged 77)",
+    "death_place": null
   },
   "facts": [
     {
@@ -76,24 +80,6 @@
   "photos": [
     {
       "person_id": 4533,
-      "photo_id": 515,
-      "category": "people",
-      "title_or_caption": "Collins_Joseph_And_Lillian_2002.jpg",
-      "subject_names": "Collins Joseph & Lillian 2002",
-      "married_surname": "Collins",
-      "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/people/Collins_Joseph_And_Lillian_2002.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterMaeWilsonfamily.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 4533,
       "photo_id": 2492,
       "category": "people",
       "title_or_caption": "Wilson_Lillian_Mae_1935.jpg",
@@ -124,6 +110,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 4533,
+      "photo_id": 515,
+      "category": "people",
+      "title_or_caption": "Collins_Joseph_And_Lillian_2002.jpg",
+      "subject_names": "Collins Joseph & Lillian 2002",
+      "married_surname": "Collins",
+      "approximate_year": "1970",
+      "local_image_path": "assets/archive_media/people/Collins_Joseph_And_Lillian_2002.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterMaeWilsonfamily.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

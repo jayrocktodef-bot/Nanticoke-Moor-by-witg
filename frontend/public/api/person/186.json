@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "Apr 1824",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/138710674/perry-cork",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "Apr 1824",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,14 +78,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Hannah Concilor who married Perry Cork",
       "certainty": "confirmed",
       "rel_id": 185,
       "rel_name": "Hannah Concilor"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "daughter Hannah married Perry Cork.",
       "certainty": "confirmed",
       "rel_id": 11813,

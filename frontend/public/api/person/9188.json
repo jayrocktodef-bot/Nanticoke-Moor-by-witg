@@ -11,7 +11,11 @@
     "birth_info": "November 19, 1725 Salem, Salem, New Jersey",
     "death_info": "July 11, 1800 Salem, Salem, New Jersey",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "November 19, 1725 Salem, Salem, New Jersey",
+    "birth_place": null,
+    "death_date": "July 11, 1800 Salem, Salem, New Jersey",
+    "death_place": null
   },
   "facts": [
     {
@@ -131,7 +135,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8684,
@@ -139,6 +144,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9190,
@@ -146,27 +152,23 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9191,
       "rel_name": "Sarah Collier Miller"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9194,
-      "rel_name": "Hannah Miller"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 2246,
       "rel_name": "Sarah Miller"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9289,

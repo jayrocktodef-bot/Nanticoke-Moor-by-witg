@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": "1918",
     "notes": "Moor/Nanticoke lineage record - Mosley cluster | FindAGrave: no match",
-    "dataset_source": "moors_delaware"
+    "dataset_source": "moors_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "1918",
+    "death_place": null
   },
   "facts": [
     {
@@ -273,53 +277,15 @@
   ],
   "relationships": [
     {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (76.2% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 373,
-      "rel_name": "John Oakey"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 520,
-      "rel_name": "Dorthy Mosley"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10429,
       "rel_name": "Sina Mosley"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (81.8% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 8,
-      "rel_name": "John Wesley"
     }
   ],
   "photos": [
-    {
-      "person_id": 961,
-      "photo_id": 243,
-      "category": "people",
-      "title_or_caption": "Carney_John_And_Mabel_Mosley_And_Others.jpg",
-      "subject_names": "Carney John & Mabel Mosley & Others",
-      "married_surname": "Carney",
-      "approximate_year": "1861",
-      "local_image_path": "assets/archive_media/people/Carney_John_And_Mabel_Mosley_And_Others.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyJohn&Sallie.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 961,
       "photo_id": 2061,
@@ -334,6 +300,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 961,
+      "photo_id": 243,
+      "category": "people",
+      "title_or_caption": "Carney_John_And_Mabel_Mosley_And_Others.jpg",
+      "subject_names": "Carney John & Mabel Mosley & Others",
+      "married_surname": "Carney",
+      "approximate_year": "1861",
+      "local_image_path": "assets/archive_media/people/Carney_John_And_Mabel_Mosley_And_Others.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyJohn&Sallie.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

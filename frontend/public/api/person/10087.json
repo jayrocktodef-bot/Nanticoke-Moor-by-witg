@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "2000",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/197186036/albert-davis (Buried at Green Haven Memorial Gardens)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "2000",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8676,
@@ -82,20 +87,15 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9140,
       "rel_name": "Minnie Mae Street"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 10815,
-      "rel_name": "Charles Morris Charlie Davis"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10821,
@@ -138,6 +138,96 @@
       "contains_face": 0,
       "face_context": "none",
       "routing_target": null
+    },
+    {
+      "person_id": 10087,
+      "photo_id": 3501,
+      "category": "documents",
+      "title_or_caption": "31111_4330855-01461.jpg",
+      "subject_names": "1910 Federal Census - Albert Harman Household",
+      "married_surname": "Davis",
+      "approximate_year": "1910",
+      "local_image_path": "ancestry_documents/delaware_census/31111_4330855-01461.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/171658730:7884",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 10087,
+      "photo_id": 3510,
+      "category": "documents",
+      "title_or_caption": "43290879-Delaware-072502-0009.jpg",
+      "subject_names": "1950 Federal Census - Albert Harmon Household",
+      "married_surname": "Davis",
+      "approximate_year": "1950",
+      "local_image_path": "ancestry_documents/delaware_census/43290879-Delaware-072502-0009.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/1211722:62308",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 10087,
+      "photo_id": 3513,
+      "category": "documents",
+      "title_or_caption": "i2252918-00009.jpg",
+      "subject_names": "Record Federal Census - Albert Harmon Household",
+      "married_surname": "Davis",
+      "approximate_year": "Record",
+      "local_image_path": "ancestry_documents/delaware_census/i2252918-00009.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/6152660:61252",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 10087,
+      "photo_id": 3523,
+      "category": "documents",
+      "title_or_caption": "44025_05_00032-03291.jpg",
+      "subject_names": "WWII Federal Census - Albert Harmon Household",
+      "married_surname": "Davis",
+      "approximate_year": "WWII",
+      "local_image_path": "ancestry_documents/delaware_census/44025_05_00032-03291.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/301887266:2238",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 10087,
+      "photo_id": 3550,
+      "category": "documents",
+      "title_or_caption": "4240109-00724.jpg",
+      "subject_names": "1880 Federal Census - Albert P. Clark Household",
+      "married_surname": "Davis",
+      "approximate_year": "1880",
+      "local_image_path": "ancestry_documents/delaware_census/4240109-00724.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/27033261:6742",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
     }
   ],
   "obituaries": [],
@@ -161,13 +251,7 @@
                   {
                     "id": 8617,
                     "name": "Negro Morris Thomas",
-                    "children": [
-                      {
-                        "id": 9992,
-                        "name": "Sally Wright",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 8910,
@@ -186,6 +270,11 @@
                     ]
                   }
                 ]
+              },
+              {
+                "id": 11246,
+                "name": "Francis E. Morris",
+                "children": []
               }
             ]
           }

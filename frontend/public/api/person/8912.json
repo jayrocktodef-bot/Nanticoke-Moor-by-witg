@@ -11,7 +11,11 @@
     "birth_info": "3 Dec 1873 Cedar Creek Hundred, Sussex County, Delaware, USA",
     "death_info": "30 Apr 1955 Sussex County, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "3 Dec 1873 Cedar Creek Hundred, Sussex County, Delaware, USA",
+    "birth_place": null,
+    "death_date": "30 Apr 1955 Sussex County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8683,
@@ -82,13 +87,15 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8718,
       "rel_name": "Hester A Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8913,
@@ -109,13 +116,7 @@
           {
             "id": 8617,
             "name": "Negro Morris Thomas",
-            "children": [
-              {
-                "id": 9992,
-                "name": "Sally Wright",
-                "children": []
-              }
-            ]
+            "children": []
           },
           {
             "id": 8910,

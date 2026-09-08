@@ -8,10 +8,14 @@
     "married_last_name": "Puckham",
     "evidence_level": 2,
     "source_page": "Puckham.htm",
-    "birth_info": "18 Feb 1991",
-    "death_info": "31 Jul 2005 (aged 14)",
-    "notes": "Nanticoke Indian born c. 1660 in Somerset Co, MD (Puckamee village); Baptized Jan 25, 1682/3 | Verified via FindAGrave: https://www.findagrave.com/memorial/11460833/christopher-funt",
-    "dataset_source": "native_american_roots_speck"
+    "birth_info": "abt 1660",
+    "death_info": "aft 1683",
+    "notes": "Nanticoke Indian born c. 1660 in Somerset Co, MD (Puckamee village); Baptized Jan 25, 1682/3",
+    "dataset_source": "native_american_roots_speck",
+    "birth_date": "abt 1660",
+    "birth_place": null,
+    "death_date": "aft 1683",
+    "death_place": null
   },
   "facts": [
     {
@@ -37,9 +41,9 @@
       "fact_id": 1336,
       "person_id": 1696,
       "fact_type": "Birth",
-      "date_string": "18 Feb 1991",
+      "date_string": "abt 1660",
       "place_string": null,
-      "value_string": null,
+      "value_string": "Nanticoke Indian born c. 1660 in Somerset Co, MD (Puckamee village)",
       "citations": [
         {
           "citation_id": 1336,
@@ -56,9 +60,9 @@
       "fact_id": 1337,
       "person_id": 1696,
       "fact_type": "Death",
-      "date_string": "31 Jul 2005 (aged 14)",
+      "date_string": "aft 1683",
       "place_string": null,
-      "value_string": null,
+      "value_string": "Living after Jan 25, 1682/3 baptism",
       "citations": [
         {
           "citation_id": 1337,
@@ -74,14 +78,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Married 25 Feb 1682/3 in Somerset Co, MD; minister John Huett",
       "certainty": "confirmed",
       "rel_id": 1697,
       "rel_name": "Joan Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Grandson of John Puckham (b.1660); Nanticoke Chief 1742",
       "certainty": "confirmed",
       "rel_id": 1698,

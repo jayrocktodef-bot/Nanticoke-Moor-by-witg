@@ -11,7 +11,11 @@
     "birth_info": "abt 1917 Delaware",
     "death_info": "26 April 2008 Hartly, Kent, Delaware",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1917 Delaware",
+    "birth_place": null,
+    "death_date": "26 April 2008 Hartly, Kent, Delaware",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,28 +78,32 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F90@ marriage",
       "certainty": "confirmed",
       "rel_id": 8157,
       "rel_name": "George Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8187,
       "rel_name": "Alsup Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8182,
       "rel_name": "Delphine Mae Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8188,
@@ -103,6 +111,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9097,
@@ -110,6 +119,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8147,

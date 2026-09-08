@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -36,7 +40,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Delaware Census  which  shows a  James Socom , free colored in a household of 4, in Dagsboro Hundred. James is possiby the father of Levin and/or Maria.",
       "certainty": "confirmed",
       "rel_id": 11768,
@@ -49,6 +54,12 @@
   "ancestry": {
     "id": 11769,
     "name": "Levin and",
-    "children": []
+    "children": [
+      {
+        "id": 11768,
+        "name": "James is possiby the",
+        "children": []
+      }
+    ]
   }
 }

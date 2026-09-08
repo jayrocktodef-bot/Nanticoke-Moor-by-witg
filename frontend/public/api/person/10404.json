@@ -11,7 +11,11 @@
     "birth_info": "about 1775 Indian River Hundred Sussex, Delaware",
     "death_info": "1834 Indian River Hundred Sussex, Delaware",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "about 1775 Indian River Hundred Sussex, Delaware",
+    "birth_place": null,
+    "death_date": "1834 Indian River Hundred Sussex, Delaware",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,14 +97,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F214@ marriage",
       "certainty": "confirmed",
       "rel_id": 10405,
       "rel_name": "Robert B Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10280,
@@ -108,6 +114,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9000,
@@ -126,25 +133,48 @@
         "name": "Elizabeth Clark",
         "children": [
           {
-            "id": 8998,
-            "name": "George E Clark",
+            "id": 9350,
+            "name": "Levin Clark",
             "children": [
               {
-                "id": 9953,
-                "name": "George W. Clark",
-                "children": []
+                "id": 10334,
+                "name": "William Russell Wyniaco Clark",
+                "children": [
+                  {
+                    "id": 10336,
+                    "name": "William Vine Clark Jr",
+                    "children": [
+                      {
+                        "id": 10337,
+                        "name": "William CLARKE Esq",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10421,
+                    "name": "James H Clark",
+                    "children": [
+                      {
+                        "id": 9335,
+                        "name": "Bowen Clark",
+                        "children": []
+                      },
+                      {
+                        "id": 10420,
+                        "name": "Ann W. Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
               },
               {
-                "id": 9954,
-                "name": "Harriett Hettie Johnson",
+                "id": 10335,
+                "name": "Jane Clark",
                 "children": []
               }
             ]
-          },
-          {
-            "id": 8997,
-            "name": "Caroline Clark",
-            "children": []
           }
         ]
       }

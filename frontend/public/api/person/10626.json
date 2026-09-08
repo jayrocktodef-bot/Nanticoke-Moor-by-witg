@@ -11,7 +11,11 @@
     "birth_info": "8 Jan 1866",
     "death_info": "9 Dec 1969 (aged 103)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/107686364/ellen-mosley",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "8 Jan 1866",
+    "birth_place": null,
+    "death_date": "9 Dec 1969 (aged 103)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,41 +79,65 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10624,
       "rel_name": "Eliza Mosley"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F51@ marriage",
       "certainty": "confirmed",
       "rel_id": 10632,
       "rel_name": "Harry C Mosley"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10630,
       "rel_name": "Howard Mosley"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10631,
       "rel_name": "Douglas Mosley"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 6698,
       "rel_name": "Annie Mosley"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 10626,
+      "photo_id": 3612,
+      "category": "documents",
+      "title_or_caption": "1900_Ellen_Mosley_33724226.json",
+      "subject_names": "1900 Federal Census - Ellen Mosley Household",
+      "married_surname": "Davis",
+      "approximate_year": "1900",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/33724226:7602",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

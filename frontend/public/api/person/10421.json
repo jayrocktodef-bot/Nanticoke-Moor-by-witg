@@ -11,7 +11,11 @@
     "birth_info": "22 Jan 1831",
     "death_info": "1907 (aged 75\u201376)",
     "notes": "Buried at Indian Mission Cemetery, Millsboro, Sussex County, DE. Son of Boen/Bowen Clark & Ann Clark; Grandson of James Clark (#9336) & Lydia Nau-Gwa-Ok-Wa Norwood Clark (#11251). Married Nancy Harmon Clark. | WikiTree: https://www.wikitree.com/wiki/Clark-93419 (Clark-93419)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "22 Jan 1831",
+    "birth_place": null,
+    "death_date": "1907 (aged 75\u201376)",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,6 +88,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9335,
@@ -91,27 +96,31 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10420,
       "rel_name": "Ann W. Johnson"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F149@ marriage 1853",
       "certainty": "confirmed",
       "rel_id": 10423,
       "rel_name": "Nancy Clark"
     },
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": null,
       "certainty": "confirmed",
       "rel_id": 11249,
       "rel_name": "Boen Clark"
     },
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": null,
       "certainty": "confirmed",
       "rel_id": 11250,
@@ -119,6 +128,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": null,
       "certainty": "confirmed",
       "rel_id": 10334,
@@ -162,28 +172,6 @@
             "name": "James Clark",
             "children": [
               {
-                "id": 9334,
-                "name": "Lydia E Norwood",
-                "children": [
-                  {
-                    "id": 10542,
-                    "name": "Nathaniel Nathan Norwood",
-                    "children": []
-                  },
-                  {
-                    "id": 10374,
-                    "name": "Jemima Harmon",
-                    "children": [
-                      {
-                        "id": 10540,
-                        "name": "Job Harmon",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": 9350,
                 "name": "Levin Clark",
                 "children": [
@@ -194,6 +182,11 @@
                       {
                         "id": 10336,
                         "name": "William Vine Clark Jr",
+                        "children": []
+                      },
+                      {
+                        "id": 10421,
+                        "name": "James H Clark",
                         "children": []
                       }
                     ]

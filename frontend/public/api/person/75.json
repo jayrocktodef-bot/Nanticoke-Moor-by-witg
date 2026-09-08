@@ -11,7 +11,11 @@
     "birth_info": "1807",
     "death_info": "22 Mar 1841 (aged 33\u201334)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/17853026/sarah-carter",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "1807",
+    "birth_place": null,
+    "death_date": "22 Mar 1841 (aged 33\u201334)",
+    "death_place": null
   },
   "facts": [
     {
@@ -83,7 +87,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Sarah Carter who married Thomas HALL",
       "certainty": "confirmed",
       "rel_id": 76,

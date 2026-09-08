@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Restored connected Delmarva lineage from GEDCOM | FindAGrave: no match",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -26,7 +30,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Restored GEDCOM family marriage record",
       "certainty": "confirmed",
       "rel_id": 11040,
@@ -34,6 +39,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11130,
@@ -41,6 +47,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11131,

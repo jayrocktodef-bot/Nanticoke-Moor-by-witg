@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Ingested from PierceEnosW&Emelyn.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -38,24 +42,6 @@
   "photos": [
     {
       "person_id": 7098,
-      "photo_id": 69,
-      "category": "people",
-      "title_or_caption": "Alfred_Pierce_Helen_Durham_And_Enos_Pierce.jpg",
-      "subject_names": "Alfred Pierce Helen Durham & Enos Pierce",
-      "married_surname": "Alfred",
-      "approximate_year": "2015",
-      "local_image_path": "assets/archive_media/people/Alfred_Pierce_Helen_Durham_And_Enos_Pierce.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WhoAreThesePeople.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "family_group",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 7098,
       "photo_id": 1996,
       "category": "people",
       "title_or_caption": "Pierce_Enos_Jr.jpg",
@@ -68,6 +54,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 7098,
+      "photo_id": 69,
+      "category": "people",
+      "title_or_caption": "Alfred_Pierce_Helen_Durham_And_Enos_Pierce.jpg",
+      "subject_names": "Alfred Pierce Helen Durham & Enos Pierce",
+      "married_surname": "Alfred",
+      "approximate_year": "2015",
+      "local_image_path": "assets/archive_media/people/Alfred_Pierce_Helen_Durham_And_Enos_Pierce.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WhoAreThesePeople.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

@@ -11,7 +11,11 @@
     "birth_info": "Jan 1898",
     "death_info": "Feb 1898 (aged 0\u20131 months)",
     "notes": "Ingested from ThompsonAddie&HitchensKids.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/268618174/reginald-hitchens",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "Jan 1898",
+    "birth_place": null,
+    "death_date": "Feb 1898 (aged 0\u20131 months)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9812,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10050,

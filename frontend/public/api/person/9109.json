@@ -11,7 +11,11 @@
     "birth_info": "abt 1844 Delaware, USA",
     "death_info": "16 January 1929 Millsboro, Sussex County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1844 Delaware, USA",
+    "birth_place": null,
+    "death_date": "16 January 1929 Millsboro, Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8381,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8604,
@@ -89,17 +95,11 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8640,
       "rel_name": "Elizabeth Thompson"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9111,
-      "rel_name": "Rachel Harmon"
     }
   ],
   "photos": [],

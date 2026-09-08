@@ -11,7 +11,11 @@
     "birth_info": "8 January, 1859 (Northwest Fork Hundred, Sussex Co)",
     "death_info": "2008",
     "notes": "Moor/Nanticoke lineage record - Harmon cluster | Verified via FindAGrave: https://www.findagrave.com/memorial/47744665/robert-harmon",
-    "dataset_source": "moors_delaware"
+    "dataset_source": "moors_delaware",
+    "birth_date": "8 January, 1859",
+    "birth_place": "Northwest Fork Hundred, Sussex Co",
+    "death_date": "2008",
+    "death_place": null
   },
   "facts": [
     {
@@ -121,60 +125,12 @@
   ],
   "relationships": [
     {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 4682,
-      "rel_name": "Robert Bernard Jack Dean"
-    },
-    {
       "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9726,
-      "rel_name": "Isaac Willis Harmon"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9462,
-      "rel_name": "Christina Miller"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9931,
-      "rel_name": "Raymond Harmon"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8860,
-      "rel_name": "Hattie Miller"
-    },
-    {
-      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8862,
       "rel_name": "William Harmon"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (81.5% confidence) between Lynn C. Jackson archive and Moors of Delaware | Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 530,
-      "rel_name": "Alberta Harmon"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 11192,
-      "rel_name": "Fred Harmon"
     }
   ],
   "photos": [],
@@ -206,71 +162,9 @@
     "name": "Robert Harmon",
     "children": [
       {
-        "id": 9726,
-        "name": "Isaac Willis Harmon",
-        "children": [
-          {
-            "id": 9531,
-            "name": "Joseph Harmon",
-            "children": [
-              {
-                "id": 8921,
-                "name": "Eliza Jane Morris",
-                "children": [
-                  {
-                    "id": 9958,
-                    "name": "Emma Jane Johnson",
-                    "children": [
-                      {
-                        "id": 9936,
-                        "name": "Sarah Adeline Hanzer",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 10539,
-                    "name": "Samuel Roland Johnson",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": 9605,
-            "name": "Mary Adline Clark",
-            "children": [
-              {
-                "id": 9606,
-                "name": "Robert Clark",
-                "children": []
-              },
-              {
-                "id": 9607,
-                "name": "Ellen Johnson",
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": 9462,
-        "name": "Christina Miller",
-        "children": [
-          {
-            "id": 9728,
-            "name": "Joshua S. Hitchens",
-            "children": [
-              {
-                "id": 9732,
-                "name": "Joshua Hitchens",
-                "children": []
-              }
-            ]
-          }
-        ]
+        "id": 8862,
+        "name": "William Harmon",
+        "children": []
       }
     ]
   }

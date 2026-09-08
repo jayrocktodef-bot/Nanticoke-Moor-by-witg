@@ -11,7 +11,11 @@
     "birth_info": "1930 Millsbor, De",
     "death_info": "2009 Millsbor, De",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1930 Millsbor, De",
+    "birth_place": null,
+    "death_date": "2009 Millsbor, De",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,35 +78,40 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F167@ marriage 20 Jan 1945 Georgetown, Sussex, Delaware, USA",
       "certainty": "confirmed",
       "rel_id": 8171,
       "rel_name": "George Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8181,
       "rel_name": "Sylvester E. Spark Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8189,
       "rel_name": "George W. Thompson Jr"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8180,
       "rel_name": "Basil Ronnie Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8191,
@@ -110,6 +119,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8996,
@@ -117,20 +127,23 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8186,
       "rel_name": "Elsie Davis"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F376@ marriage",
       "certainty": "confirmed",
       "rel_id": 8170,
       "rel_name": "Dale Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8358,
@@ -186,13 +199,7 @@
                   {
                     "id": 8617,
                     "name": "Negro Morris Thomas",
-                    "children": [
-                      {
-                        "id": 9992,
-                        "name": "Sally Wright",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 8910,
@@ -211,6 +218,11 @@
                     ]
                   }
                 ]
+              },
+              {
+                "id": 11246,
+                "name": "Francis E. Morris",
+                "children": []
               }
             ]
           }

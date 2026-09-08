@@ -11,7 +11,11 @@
     "birth_info": "10 Oct 1920",
     "death_info": "2001 (aged 80\u201381)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/77035507/dorothy-johnson",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "10 Oct 1920",
+    "birth_place": null,
+    "death_date": "2001 (aged 80\u201381)",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,7 +97,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "James Russell Coker married Dorothy Johnson",
       "certainty": "confirmed",
       "rel_id": 133,
@@ -101,24 +106,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 134,
-      "photo_id": 1619,
-      "category": "people",
-      "title_or_caption": "Morris_Dorothy_Johnsondauof_Florence_Johnson.jpg",
-      "subject_names": "Dorothy Johnsondauof Florence Johnson Morris",
-      "married_surname": "Morris",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Morris_Dorothy_Johnsondauof_Florence_Johnson.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisDorothyJohnson.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 134,
       "photo_id": 1391,
@@ -129,6 +116,24 @@
       "approximate_year": "1948",
       "local_image_path": "assets/archive_media/people/Johnson_Dorothy.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonJoseph&DorothyDurham.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 134,
+      "photo_id": 1619,
+      "category": "people",
+      "title_or_caption": "Morris_Dorothy_Johnsondauof_Florence_Johnson.jpg",
+      "subject_names": "Dorothy Johnsondauof Florence Johnson Morris",
+      "married_surname": "Morris",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Morris_Dorothy_Johnsondauof_Florence_Johnson.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisDorothyJohnson.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",

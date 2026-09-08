@@ -11,7 +11,11 @@
     "birth_info": "2 Aug 1935 Delaware, USA",
     "death_info": "27 Dec 2009 Millsboro, Sussex, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "2 Aug 1935 Delaware, USA",
+    "birth_place": null,
+    "death_date": "27 Dec 2009 Millsboro, Sussex, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,21 +78,24 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F117@ marriage",
       "certainty": "confirmed",
       "rel_id": 10696,
       "rel_name": "Dorothy Lorraine Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10694,
       "rel_name": "Donald Edward Johnson Jr"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10683,
@@ -96,6 +103,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9960,

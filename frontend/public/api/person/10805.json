@@ -8,10 +8,14 @@
     "married_last_name": "Davis",
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
-    "birth_info": "1951",
-    "death_info": "25 Jul 2009 (aged 57\u201358)",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/40286260/lester-davis (Buried at West Memory Gardens Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "birth_info": "abt 1879",
+    "death_info": "unknown",
+    "notes": "",
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1879",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -37,7 +41,7 @@
       "fact_id": 10180,
       "person_id": 10805,
       "fact_type": "Birth",
-      "date_string": "1951",
+      "date_string": "abt 1879",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -56,7 +60,7 @@
       "fact_id": 10181,
       "person_id": 10805,
       "fact_type": "Death",
-      "date_string": "25 Jul 2009 (aged 57\u201358)",
+      "date_string": "unknown",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -74,28 +78,32 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F138@ marriage 3 Jun 1951 Sussex, Delaware, USA",
       "certainty": "confirmed",
       "rel_id": 10482,
       "rel_name": "Lucille Thomas"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10808,
       "rel_name": "Rosalind J Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10809,
       "rel_name": "Tyrone Evans Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10810,
@@ -103,6 +111,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10815,
@@ -110,15 +119,64 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9140,
       "rel_name": "Minnie Mae Street"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 10805,
+      "photo_id": 3478,
+      "category": "documents",
+      "title_or_caption": "Record_Lester_C_Davis_8808139.json",
+      "subject_names": "Record Federal Census - Lester C Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Record",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/8808139:2441",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 10805,
+      "photo_id": 3481,
+      "category": "documents",
+      "title_or_caption": "WWII_Lester_Charles_Davis_6305458.json",
+      "subject_names": "WWII Federal Census - Lester Charles Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "WWII",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/6305458:2238",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    }
+  ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7538,
+      "category": "CHRONOLOGY_RECONCILED",
+      "severity": "info",
+      "person_id": 10805,
+      "person_id_secondary": null,
+      "description": "Corrected impossible modern FindAGrave dates to estimated ~1879",
+      "evidence": "Children born starting 1904",
+      "created_at": "2026-09-08 03:58:38"
+    }
+  ],
   "ancestry": {
     "id": 10805,
     "name": "Lester Charles Davis",

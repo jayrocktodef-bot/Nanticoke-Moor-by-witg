@@ -11,7 +11,11 @@
     "birth_info": "14 Nov 1863",
     "death_info": "17 May 1864 (aged 6 months)",
     "notes": "Ingested from CarneyJamesR&EffieReed.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/168911546/franklin-johnson",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "14 Nov 1863",
+    "birth_place": null,
+    "death_date": "17 May 1864 (aged 6 months)",
+    "death_place": null
   },
   "facts": [
     {
@@ -94,13 +98,15 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9490,
       "rel_name": "Reburn Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9491,
@@ -162,11 +168,6 @@
                     ]
                   }
                 ]
-              },
-              {
-                "id": 8766,
-                "name": "Sarah A Johnson",
-                "children": []
               }
             ]
           }

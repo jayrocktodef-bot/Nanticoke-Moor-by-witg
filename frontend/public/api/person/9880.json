@@ -11,7 +11,11 @@
     "birth_info": "7 Aug 1953",
     "death_info": "27 Feb 2012 (aged 58)",
     "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/86319807/theodore-harmon | Moor/Nanticoke lineage record - Harmon cluster | Verified via FindAGrave: https://www.findagrave.com/memorial/86319807/theodore-harmon",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "7 Aug 1953",
+    "birth_place": null,
+    "death_date": "27 Feb 2012 (aged 58)",
+    "death_place": null
   },
   "facts": [
     {
@@ -208,6 +212,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9591,
@@ -215,6 +220,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9108,

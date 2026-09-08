@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Ingested from BloomsburyMeeting9May98.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -36,6 +40,24 @@
   ],
   "relationships": [],
   "photos": [
+    {
+      "person_id": 3246,
+      "photo_id": 157,
+      "category": "people",
+      "title_or_caption": "Bryant_Agnes_Ester_Harmon_Hurst.jpg",
+      "subject_names": "Bryant Agnes Ester Harmon Hurst",
+      "married_surname": "Bryant",
+      "approximate_year": "1950",
+      "local_image_path": "assets/archive_media/people/Bryant_Agnes_Ester_Harmon_Hurst.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonCharlotteFamily.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 3246,
       "photo_id": 1215,
@@ -63,24 +85,6 @@
       "married_surname": "Lillian",
       "approximate_year": "1950",
       "local_image_path": "assets/archive_media/people/Lillian_Irene_Warren_Harmon.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonCharlotteFamily.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 3246,
-      "photo_id": 157,
-      "category": "people",
-      "title_or_caption": "Bryant_Agnes_Ester_Harmon_Hurst.jpg",
-      "subject_names": "Bryant Agnes Ester Harmon Hurst",
-      "married_surname": "Bryant",
-      "approximate_year": "1950",
-      "local_image_path": "assets/archive_media/people/Bryant_Agnes_Ester_Harmon_Hurst.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonCharlotteFamily.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",

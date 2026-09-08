@@ -11,7 +11,11 @@
     "birth_info": "Jan. 16, 1878",
     "death_info": "29 Apr 1825",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/222760354/sarah-cott",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "Jan. 16, 1878",
+    "birth_place": null,
+    "death_date": "29 Apr 1825",
+    "death_place": null
   },
   "facts": [
     {
@@ -102,7 +106,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "John Wesley Cott and Sarah Cott were married January 28 A.D. 1862",
       "certainty": "confirmed",
       "rel_id": 12,

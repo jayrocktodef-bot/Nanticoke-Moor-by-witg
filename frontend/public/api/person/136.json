@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "10 Mar 1767",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/223032238/harriett-morgan",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "10 Mar 1767",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Donald Coker married Harriett Morgan",
       "certainty": "confirmed",
       "rel_id": 135,

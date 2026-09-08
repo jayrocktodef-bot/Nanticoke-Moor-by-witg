@@ -11,7 +11,11 @@
     "birth_info": "18 Dec 1837 Millsboro, DE",
     "death_info": "24 Jul 1921 Millsboro, Sussex, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "18 Dec 1837 Millsboro, DE",
+    "birth_place": null,
+    "death_date": "24 Jul 1921 Millsboro, Sussex, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,14 +97,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Spouse of Sarah Ann Harmon in Thompson family records",
       "certainty": "confirmed",
       "rel_id": 6102,
       "rel_name": "Sarah Elizabeth Mosley Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Son of John W. Thompson",
       "certainty": "confirmed",
       "rel_id": 1683,
@@ -108,6 +114,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8639,
@@ -115,101 +122,70 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8638,
       "rel_name": "Melisa Molly Street"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9166,
-      "rel_name": "Naomi Thompson"
-    },
-    {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F361@ marriage 1867",
       "certainty": "confirmed",
       "rel_id": 9165,
       "rel_name": "Sarah A Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage | Son of John W. Thompson",
       "certainty": "confirmed",
       "rel_id": 1682,
       "rel_name": "Snowden Asher Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9508,
       "rel_name": "Ulysses G. Thompson"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9509,
-      "rel_name": "Joseph B. S. Thompson"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9167,
       "rel_name": "Addie F. Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 1681,
       "rel_name": "John Asbury Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9168,
       "rel_name": "Irvin J Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9169,
       "rel_name": "Bartholamew Thompson"
-    },
-    {
-      "relationship_type": "parent_of",
-      "evidence_text": null,
-      "certainty": "confirmed",
-      "rel_id": 1681,
-      "rel_name": "John Asbury Thompson"
     }
   ],
   "photos": [
-    {
-      "person_id": 8679,
-      "photo_id": 2368,
-      "category": "people",
-      "title_or_caption": "Thompson_John_Family.jpg",
-      "subject_names": "Thompson John Family",
-      "married_surname": "Thompson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Thompson_John_Family.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThompsonAsher.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "family_group",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 8679,
       "photo_id": 2366,
@@ -224,6 +200,24 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 8679,
+      "photo_id": 2368,
+      "category": "people",
+      "title_or_caption": "Thompson_John_Family.jpg",
+      "subject_names": "Thompson John Family",
+      "married_surname": "Thompson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Thompson_John_Family.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ThompsonAsher.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

@@ -11,7 +11,11 @@
     "birth_info": "22 Dec 1759",
     "death_info": "1 Dec 1850 (aged 90)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/19202915/andries-davis (Buried at Andries Davis  <b class=\"icon-vet align-middle m-0 mb-1 lh-1 badge rounded-pill\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" title=\"Veteran\"><span aria-hidden=\"true\">V)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "22 Dec 1759",
+    "birth_place": null,
+    "death_date": "1 Dec 1850 (aged 90)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8825,

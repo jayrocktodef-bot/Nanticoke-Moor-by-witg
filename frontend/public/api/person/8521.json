@@ -11,7 +11,11 @@
     "birth_info": "6 Jan 1869",
     "death_info": "18 Oct 1918 (aged 49)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/46843096/johanna-davis (Buried at Forest Home Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "6 Jan 1869",
+    "birth_place": null,
+    "death_date": "18 Oct 1918 (aged 49)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8519,

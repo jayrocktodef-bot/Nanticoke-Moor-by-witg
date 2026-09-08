@@ -11,7 +11,11 @@
     "birth_info": "22 Mar 1933",
     "death_info": "19 Jan 2014 (aged 80)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/124446924/oscar-mosley",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "22 Mar 1933",
+    "birth_place": null,
+    "death_date": "19 Jan 2014 (aged 80)",
+    "death_place": null
   },
   "facts": [
     {
@@ -112,7 +116,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Oscar Mosley married Janet Street",
       "certainty": "confirmed",
       "rel_id": 117,

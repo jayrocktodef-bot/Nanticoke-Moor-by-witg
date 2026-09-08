@@ -229,7 +229,7 @@ export default function SourcesCatalog({ onOpenRecord }) {
                 <a
                   href={repo.url}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="text-amber-400 hover:text-amber-300 flex items-center gap-1 font-medium"
                 >
                   Direct Link <ExternalLink className="w-3 h-3" />
@@ -238,7 +238,7 @@ export default function SourcesCatalog({ onOpenRecord }) {
                   <a
                     href={repo.wayback}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className="text-sky-400 hover:text-sky-300 flex items-center gap-1 text-[11px]"
                   >
                     Wayback <ExternalLink className="w-3 h-3" />
@@ -306,7 +306,7 @@ export default function SourcesCatalog({ onOpenRecord }) {
                 <a
                   href={doc.url}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="text-slate-300 hover:text-amber-300 flex items-center gap-1 truncate max-w-[70%]"
                 >
                   <ExternalLink className="w-3 h-3 shrink-0" />
@@ -316,7 +316,7 @@ export default function SourcesCatalog({ onOpenRecord }) {
                   <a
                     href={doc.wayback}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className="text-sky-400 hover:text-sky-300 font-medium shrink-0 ml-2"
                   >
                     Wayback

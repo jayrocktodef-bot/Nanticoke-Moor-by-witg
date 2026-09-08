@@ -11,7 +11,11 @@
     "birth_info": "27 Nov 1917 Harrington, Delaware, USA",
     "death_info": "26 Aug 2002 Millsboro, Sussex, Delaware, USA",
     "notes": "[Suffix 'Sr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "27 Nov 1917 Harrington, Delaware, USA",
+    "birth_place": null,
+    "death_date": "26 Aug 2002 Millsboro, Sussex, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -94,13 +98,15 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10120,
       "rel_name": "Larry Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 6116,

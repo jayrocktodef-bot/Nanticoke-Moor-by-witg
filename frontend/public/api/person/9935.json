@@ -11,7 +11,11 @@
     "birth_info": "10 Sep 1865 Delaware, USA",
     "death_info": "29 Aug 1927 Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "10 Sep 1865 Delaware, USA",
+    "birth_place": null,
+    "death_date": "29 Aug 1927 Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,6 +88,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9096,
@@ -91,17 +96,11 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9940,
       "rel_name": "Sophia J. Hanzer"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9507,
-      "rel_name": "Mary Johnson"
     }
   ],
   "photos": [],

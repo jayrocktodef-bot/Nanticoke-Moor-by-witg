@@ -11,7 +11,11 @@
     "birth_info": "25 May 1894",
     "death_info": "1 Nov 1954 (aged 60)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/114197380/joshua-levin-hitchens",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "25 May 1894",
+    "birth_place": null,
+    "death_date": "1 Nov 1954 (aged 60)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9728,

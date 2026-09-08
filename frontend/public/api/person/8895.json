@@ -11,7 +11,11 @@
     "birth_info": "01/11/1904 Delaware",
     "death_info": "03/13/1963",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "01/11/1904 Delaware",
+    "birth_place": null,
+    "death_date": "03/13/1963",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,13 +88,15 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8710,
       "rel_name": "JAMES EDWARD Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8859,
@@ -98,24 +104,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 8895,
-      "photo_id": 1643,
-      "category": "people",
-      "title_or_caption": "Morris_Sarah_Jane_And_Daus.jpg",
-      "subject_names": "Morris Sarah Jane & Daus",
-      "married_surname": "Morris",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Morris_Sarah_Jane_And_Daus.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisSarahJaneHarmon.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "ss_application",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
     {
       "person_id": 8895,
       "photo_id": 1642,
@@ -130,6 +118,24 @@
       "document_type": "portrait",
       "asset_type": "document",
       "subtype": "studio_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 8895,
+      "photo_id": 1643,
+      "category": "people",
+      "title_or_caption": "Morris_Sarah_Jane_And_Daus.jpg",
+      "subject_names": "Morris Sarah Jane & Daus",
+      "married_surname": "Morris",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Morris_Sarah_Jane_And_Daus.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisSarahJaneHarmon.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "ss_application",
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"
@@ -163,13 +169,7 @@
               {
                 "id": 8617,
                 "name": "Negro Morris Thomas",
-                "children": [
-                  {
-                    "id": 9992,
-                    "name": "Sally Wright",
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
                 "id": 8910,

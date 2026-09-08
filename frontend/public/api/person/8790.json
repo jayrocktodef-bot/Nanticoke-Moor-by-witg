@@ -11,7 +11,11 @@
     "birth_info": "7/27/1934 Millsboro, Delaware",
     "death_info": "12Feb2021  Millsboro, Sussex County, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "7/27/1934 Millsboro, Delaware",
+    "birth_place": null,
+    "death_date": "12Feb2021  Millsboro, Sussex County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F410@ marriage 8 Aug 1952 Harrington, Kent, Delaware, USA",
       "certainty": "confirmed",
       "rel_id": 8589,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9298,
@@ -89,6 +95,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8789,
@@ -98,13 +105,13 @@
   "photos": [
     {
       "person_id": 8790,
-      "photo_id": 1198,
+      "photo_id": 598,
       "category": "people",
-      "title_or_caption": "Harmon_Lillian_Davis_Children.jpg",
-      "subject_names": "Harmon Lillian Davis Children",
-      "married_surname": "Harmon",
+      "title_or_caption": "Davis_And_Harmon_Kids.jpg",
+      "subject_names": "Davis & Harmon Kids",
+      "married_surname": "Davis",
       "approximate_year": "1987",
-      "local_image_path": "assets/archive_media/people/Harmon_Lillian_Davis_Children.jpg",
+      "local_image_path": "assets/archive_media/people/Davis_And_Harmon_Kids.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonLillianDavisChildren.htm",
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",
@@ -116,13 +123,13 @@
     },
     {
       "person_id": 8790,
-      "photo_id": 598,
+      "photo_id": 1198,
       "category": "people",
-      "title_or_caption": "Davis_And_Harmon_Kids.jpg",
-      "subject_names": "Davis & Harmon Kids",
-      "married_surname": "Davis",
+      "title_or_caption": "Harmon_Lillian_Davis_Children.jpg",
+      "subject_names": "Harmon Lillian Davis Children",
+      "married_surname": "Harmon",
       "approximate_year": "1987",
-      "local_image_path": "assets/archive_media/people/Davis_And_Harmon_Kids.jpg",
+      "local_image_path": "assets/archive_media/people/Harmon_Lillian_Davis_Children.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonLillianDavisChildren.htm",
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",

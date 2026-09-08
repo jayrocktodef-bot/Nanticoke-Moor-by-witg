@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "3 Dec 1946",
     "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/228740073/charles-davis (Buried at Arlington Memorial Park) | Ingested from MunsonCharlesHenry.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/228740073/charles-davis (Buried at Arlington Memorial Park)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "3 Dec 1946",
+    "death_place": null
   },
   "facts": [
     {
@@ -131,63 +135,64 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F468@ marriage",
       "certainty": "confirmed",
       "rel_id": 9140,
       "rel_name": "Minnie Mae Street"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10814,
       "rel_name": "Layton Sylvester Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10805,
       "rel_name": "Lester Charles Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10813,
       "rel_name": "Clarence Drexel Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9146,
       "rel_name": "Reginald Leon Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10618,
       "rel_name": "William H Davis"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 10087,
-      "rel_name": "Albert Davis"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10811,
       "rel_name": "Ann Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10812,

@@ -11,7 +11,11 @@
     "birth_info": "1895",
     "death_info": "1999 (aged 103\u2013104)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/256340520/louise-thompson",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1895",
+    "birth_place": null,
+    "death_date": "1999 (aged 103\u2013104)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8381,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8382,

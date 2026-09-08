@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": "1811",
     "notes": "Ingested from preserved Probate.htm record | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "1811",
+    "death_place": null
   },
   "facts": [
     {
@@ -180,6 +184,24 @@
   "photos": [
     {
       "person_id": 2350,
+      "photo_id": 521,
+      "category": "people",
+      "title_or_caption": "Coney_Island_Sammons_Reed_Seeney.jpg",
+      "subject_names": "Coney Island Sammons Reed Seeney",
+      "married_surname": "Coney",
+      "approximate_year": "1920",
+      "local_image_path": "assets/archive_media/people/Coney_Island_Sammons_Reed_Seeney.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SeeneyFrederick&HesterFamily.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 2350,
       "photo_id": 1508,
       "category": "people",
       "title_or_caption": "Luckett_Sophia_Seeney.jpg",
@@ -205,24 +227,6 @@
       "married_surname": "Seeney",
       "approximate_year": "1920",
       "local_image_path": "assets/archive_media/people/Seeney_Hester_Dean.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SeeneyFrederick&HesterFamily.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 2350,
-      "photo_id": 521,
-      "category": "people",
-      "title_or_caption": "Coney_Island_Sammons_Reed_Seeney.jpg",
-      "subject_names": "Coney Island Sammons Reed Seeney",
-      "married_surname": "Coney",
-      "approximate_year": "1920",
-      "local_image_path": "assets/archive_media/people/Coney_Island_Sammons_Reed_Seeney.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SeeneyFrederick&HesterFamily.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",

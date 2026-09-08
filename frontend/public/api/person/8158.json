@@ -11,7 +11,11 @@
     "birth_info": "14 May 1921",
     "death_info": "12 Mar 1922 (aged 9 months)",
     "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/58029453/hersel-davis (Buried at Mount Pisgah Cemetery) | Ingested from DavisHesterMorris.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/58029453/hersel-davis (Buried at Mount Pisgah Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "14 May 1921",
+    "birth_place": null,
+    "death_date": "12 Mar 1922 (aged 9 months)",
+    "death_place": null
   },
   "facts": [
     {
@@ -151,31 +155,27 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8185,
       "rel_name": "Hester A. Morris Davis"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F405@ marriage 16 Sep 1947 Milton, Sussex, Delaware, USA",
       "certainty": "confirmed",
       "rel_id": 8223,
       "rel_name": "Myrtle Mosley"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9396,
       "rel_name": "Snooty Mosley"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8589,
-      "rel_name": "Maurice Allen Mosley"
     }
   ],
   "photos": [
@@ -250,6 +250,96 @@
       "contains_face": 0,
       "face_context": "none",
       "routing_target": null
+    },
+    {
+      "person_id": 8158,
+      "photo_id": 3434,
+      "category": "documents",
+      "title_or_caption": "TH-266-12314-8855-84.jpg",
+      "subject_names": "Marriage Federal Census - Hersel Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Marriage",
+      "local_image_path": "ancestry_documents/delaware_census/TH-266-12314-8855-84.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/1050108763:61368",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8158,
+      "photo_id": 3435,
+      "category": "documents",
+      "title_or_caption": "Marriage_Hersel_Davis_715233979.json",
+      "subject_names": "Marriage Federal Census - Hersel Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Marriage",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/715233979:61843",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8158,
+      "photo_id": 3451,
+      "category": "documents",
+      "title_or_caption": "SSDI_Hersel_Rodney_Davis_25225965.json",
+      "subject_names": "SSDI Federal Census - Hersel Rodney Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "SSDI",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/25225965:60901",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8158,
+      "photo_id": 3456,
+      "category": "documents",
+      "title_or_caption": "44003_01_00002-00373.jpg",
+      "subject_names": "WWII Federal Census - Hersel Rodney Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "WWII",
+      "local_image_path": "ancestry_documents/delaware_census/44003_01_00002-00373.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/6305350:2238",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8158,
+      "photo_id": 3474,
+      "category": "documents",
+      "title_or_caption": "Record_Hersel_P__Davis_75871438.json",
+      "subject_names": "Record Federal Census - Hersel P. Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Record",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/75871438:3693",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
     }
   ],
   "obituaries": [],
@@ -269,13 +359,7 @@
               {
                 "id": 8617,
                 "name": "Negro Morris Thomas",
-                "children": [
-                  {
-                    "id": 9992,
-                    "name": "Sally Wright",
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
                 "id": 8910,
@@ -306,6 +390,11 @@
                 ]
               }
             ]
+          },
+          {
+            "id": 11246,
+            "name": "Francis E. Morris",
+            "children": []
           }
         ]
       }

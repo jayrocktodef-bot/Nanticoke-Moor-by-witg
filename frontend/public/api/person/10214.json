@@ -11,7 +11,11 @@
     "birth_info": "1837 Sussex Co, Delaware",
     "death_info": "19 February 1908 Millsboro, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1837 Sussex Co, Delaware",
+    "birth_place": null,
+    "death_date": "19 February 1908 Millsboro, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -151,97 +155,103 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9666,
       "rel_name": "Eunice White Ridgeway"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F94@ marriage",
       "certainty": "confirmed",
       "rel_id": 5921,
       "rel_name": "Isaac W. Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9667,
       "rel_name": "John Wesley Harmon Sr"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 5977,
       "rel_name": "Eunice W. Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 5964,
       "rel_name": "Levin T. Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 5839,
       "rel_name": "Isaac Wilson Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10254,
       "rel_name": "Ephram Lincoln Harman"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10251,
       "rel_name": "Nancy T. Harmon"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 5971,
-      "rel_name": "Noah C. Harmon"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9669,
       "rel_name": "Lillie Mae Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10253,
       "rel_name": "David Harman"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10252,
       "rel_name": "Daniel Harman"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9270,
       "rel_name": "Elizabeth Anne Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9668,
@@ -249,24 +259,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 10214,
-      "photo_id": 3270,
-      "category": "people",
-      "title_or_caption": "Sarah_Sockum.jpg",
-      "subject_names": "Sockum Sarah",
-      "married_surname": "Sarah",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/people/Sarah_Sockum.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 10214,
       "photo_id": 1221,
@@ -278,6 +270,24 @@
       "local_image_path": "assets/archive_media/people/Harmon_Sarah_Jane_Sockum.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonIsaacW&SarahSockum.htm",
       "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 10214,
+      "photo_id": 3270,
+      "category": "people",
+      "title_or_caption": "Sarah_Sockum.jpg",
+      "subject_names": "Sockum Sarah",
+      "married_surname": "Sarah",
+      "approximate_year": null,
+      "local_image_path": "assets/archive_media/people/Sarah_Sockum.jpg",
+      "source_url": null,
+      "dataset_source": "images",
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",

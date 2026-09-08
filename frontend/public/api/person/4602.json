@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": "April 5, 1973",
     "notes": "Ingested from CustisCarol&Lorraine&Parker.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "April 5, 1973",
+    "death_place": null
   },
   "facts": [
     {
@@ -65,24 +69,6 @@
     },
     {
       "person_id": 4602,
-      "photo_id": 2048,
-      "category": "people",
-      "title_or_caption": "Reed_Charles_Family.jpg",
-      "subject_names": "Reed Charles Family",
-      "married_surname": "Reed",
-      "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/people/Reed_Charles_Family.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWilliamT&Mamie.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 4602,
       "photo_id": 3099,
       "category": "people",
       "title_or_caption": "Reed_Floyd_Jerome.jpg",
@@ -98,6 +84,24 @@
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"
+    },
+    {
+      "person_id": 4602,
+      "photo_id": 2048,
+      "category": "people",
+      "title_or_caption": "Reed_Charles_Family.jpg",
+      "subject_names": "Reed Charles Family",
+      "married_surname": "Reed",
+      "approximate_year": "1970",
+      "local_image_path": "assets/archive_media/people/Reed_Charles_Family.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWilliamT&Mamie.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -11,7 +11,11 @@
     "birth_info": "9 Jul 1921",
     "death_info": "7 Apr 1993 (aged 71)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/244810168/lucy-carney",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "9 Jul 1921",
+    "birth_place": null,
+    "death_date": "7 Apr 1993 (aged 71)",
+    "death_place": null
   },
   "facts": [
     {
@@ -102,7 +106,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "George Carney married Lucy Carney",
       "certainty": "confirmed",
       "rel_id": 343,

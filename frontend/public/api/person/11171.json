@@ -12,19 +12,25 @@
     "death_info": "",
     "notes": "",
     "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1919 Delaware",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null,
     "is_living": true
   },
   "facts": [],
   "relationships": [
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11175,
       "rel_name": "Alfred W Ingram"
     },
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11151,
@@ -37,6 +43,17 @@
   "ancestry": {
     "id": 11171,
     "name": "John Ingram",
-    "children": []
+    "children": [
+      {
+        "id": 11175,
+        "name": "Alfred W Ingram",
+        "children": []
+      },
+      {
+        "id": 11151,
+        "name": "Eva C Ingram",
+        "children": []
+      }
+    ]
   }
 }

@@ -11,7 +11,11 @@
     "birth_info": "1847 Delaware, United States",
     "death_info": "5 Dec 1918 Record, Apurimac, Peru",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1847 Delaware, United States",
+    "birth_place": null,
+    "death_date": "5 Dec 1918 Record, Apurimac, Peru",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 1019,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10429,

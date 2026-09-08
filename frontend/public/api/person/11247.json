@@ -11,7 +11,11 @@
     "birth_info": "1835",
     "death_info": "1923",
     "notes": "Mother of Hester A. Morris Davis",
-    "dataset_source": "findagrave"
+    "dataset_source": "findagrave",
+    "birth_date": "1835",
+    "birth_place": null,
+    "death_date": "1923",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": null,
       "certainty": "confirmed",
       "rel_id": 8185,

@@ -11,7 +11,11 @@
     "birth_info": "Jan 20 1728 Greenwich Cumberland Co New Jersey",
     "death_info": "Abt 1750 Alloway Salem Co New Jersey",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Jan 20 1728 Greenwich Cumberland Co New Jersey",
+    "birth_place": null,
+    "death_date": "Abt 1750 Alloway Salem Co New Jersey",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9190,
@@ -82,17 +87,11 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9191,
       "rel_name": "Sarah Collier Miller"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9188,
-      "rel_name": "Ebenezer Miller"
     }
   ],
   "photos": [],

@@ -11,7 +11,11 @@
     "birth_info": "1888",
     "death_info": "7 Oct 1936 (aged 47\u201348)",
     "notes": "Ingested from preserved Probate.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/201665191/rebecca-durham",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1888",
+    "birth_place": null,
+    "death_date": "7 Oct 1936 (aged 47\u201348)",
+    "death_place": null
   },
   "facts": [
     {
@@ -263,7 +267,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "NLP Extracted from Obituary: 'onard durham and her daughters, lynell durham and rebecca durham.'",
       "certainty": "inferred_nlp",
       "rel_id": 10934,

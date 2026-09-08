@@ -11,7 +11,11 @@
     "birth_info": "1903",
     "death_info": null,
     "notes": "Ingested from WrightWarrenTalbertFamily.htm | WikiTree: https://www.wikitree.com/wiki/Wright-82172 (Wright-82172) | FindAGrave: no match | WikiTree: https://www.wikitree.com/wiki/Wright-82172 (Wright-82172) | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1903",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -102,7 +106,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Bertha Wright married Charles Mosley",
       "certainty": "confirmed",
       "rel_id": 6736,

@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "May 15, 1913",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/236558164/george-mosley",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "May 15, 1913",
+    "death_place": null
   },
   "facts": [
     {
@@ -102,7 +106,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9482,
@@ -110,6 +115,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9419,
@@ -178,13 +184,7 @@
           {
             "id": 8617,
             "name": "Negro Morris Thomas",
-            "children": [
-              {
-                "id": 9992,
-                "name": "Sally Wright",
-                "children": []
-              }
-            ]
+            "children": []
           },
           {
             "id": 8910,

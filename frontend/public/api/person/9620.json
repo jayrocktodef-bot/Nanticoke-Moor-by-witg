@@ -11,7 +11,11 @@
     "birth_info": "21 Jun 1848 Kent, DE, USA",
     "death_info": "30 Apr 1930 Dover Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "21 Jun 1848 Kent, DE, USA",
+    "birth_place": null,
+    "death_date": "30 Apr 1930 Dover Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,13 +79,15 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 2150,
       "rel_name": "Isaac Sammons"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9617,

@@ -8,10 +8,14 @@
     "married_last_name": "Mosley",
     "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
-    "birth_info": "11 Mar 1924",
-    "death_info": "7 Apr 1998 (aged 74)",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/217802371/eliza-mosley",
-    "dataset_source": "davis_family_gedcom"
+    "birth_info": "abt 1788",
+    "death_info": "unknown",
+    "notes": "",
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1788",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -37,7 +41,7 @@
       "fact_id": 9994,
       "person_id": 10624,
       "fact_type": "Birth",
-      "date_string": "11 Mar 1924",
+      "date_string": "abt 1788",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -56,7 +60,7 @@
       "fact_id": 9995,
       "person_id": 10624,
       "fact_type": "Death",
-      "date_string": "7 Apr 1998 (aged 74)",
+      "date_string": "unknown",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -83,42 +87,48 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10626,
       "rel_name": "Ellen Mosley"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10627,
       "rel_name": "Rebecca Mosley"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 1055,
       "rel_name": "Wingate Mosley"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10628,
       "rel_name": "Emma Mosley"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10625,
       "rel_name": "Levi Mosley"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10629,
@@ -137,6 +147,16 @@
       "description": "[XPAGE:coker-m2.htm] Marriage: date='23 September, 1900'",
       "evidence": "verbatim: married Cassius MOSLEY on 23 September, 1900",
       "created_at": "2026-09-03T12:55:58.803022"
+    },
+    {
+      "id": 7512,
+      "category": "CHRONOLOGY_RECONCILED",
+      "severity": "info",
+      "person_id": 10624,
+      "person_id_secondary": null,
+      "description": "Corrected impossible modern FindAGrave dates to estimated ~1788",
+      "evidence": "Children born starting 1813",
+      "created_at": "2026-09-08 03:58:38"
     }
   ],
   "ancestry": {

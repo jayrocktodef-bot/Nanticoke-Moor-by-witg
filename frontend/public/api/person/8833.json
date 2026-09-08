@@ -11,7 +11,11 @@
     "birth_info": "1859",
     "death_info": "1939 (aged 79\u201380)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/9334165/rosella-thompson",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1859",
+    "birth_place": null,
+    "death_date": "1939 (aged 79\u201380)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8703,
@@ -82,13 +87,15 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8832,
       "rel_name": "Martha E. Pierce"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10553,

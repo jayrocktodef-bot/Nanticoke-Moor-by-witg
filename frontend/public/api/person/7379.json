@@ -11,7 +11,11 @@
     "birth_info": "2 Oct 1897",
     "death_info": "15 Jul 1980 (aged 82)",
     "notes": "Ingested from ReedAllen&MaryVirginia.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/14825582/nina-reed",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "2 Oct 1897",
+    "birth_place": null,
+    "death_date": "15 Jul 1980 (aged 82)",
+    "death_place": null
   },
   "facts": [
     {
@@ -76,24 +80,6 @@
   "photos": [
     {
       "person_id": 7379,
-      "photo_id": 2068,
-      "category": "people",
-      "title_or_caption": "Reed_Mary_V_And_Nina_1995.jpg",
-      "subject_names": "Reed Mary V & Nina 1995",
-      "married_surname": "Reed",
-      "approximate_year": "1940",
-      "local_image_path": "assets/archive_media/people/Reed_Mary_V_And_Nina_1995.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedAllen&MaryVirginia.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 7379,
       "photo_id": 2071,
       "category": "people",
       "title_or_caption": "Reed_Nina.jpg",
@@ -106,6 +92,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 7379,
+      "photo_id": 2068,
+      "category": "people",
+      "title_or_caption": "Reed_Mary_V_And_Nina_1995.jpg",
+      "subject_names": "Reed Mary V & Nina 1995",
+      "married_surname": "Reed",
+      "approximate_year": "1940",
+      "local_image_path": "assets/archive_media/people/Reed_Mary_V_And_Nina_1995.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ReedAllen&MaryVirginia.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

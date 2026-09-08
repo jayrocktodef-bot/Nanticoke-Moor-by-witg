@@ -11,7 +11,11 @@
     "birth_info": "4 Dec 1916",
     "death_info": "1 Dec 2002 (aged 85)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/60978887/isabelle-elsie-snowden",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "4 Dec 1916",
+    "birth_place": null,
+    "death_date": "1 Dec 2002 (aged 85)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Gene Carty who married Isabelle Snowden",
       "certainty": "confirmed",
       "rel_id": 73,

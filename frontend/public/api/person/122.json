@@ -11,7 +11,11 @@
     "birth_info": "1947",
     "death_info": "27 Sep 2022 (aged 74\u201375)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/247558127/janine-jackson",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "1947",
+    "birth_place": null,
+    "death_date": "27 Sep 2022 (aged 74\u201375)",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,7 +97,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Janine Jackson married James Kearney Martin Naureckas",
       "certainty": "confirmed",
       "rel_id": 123,

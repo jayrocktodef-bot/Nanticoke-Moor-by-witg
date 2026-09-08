@@ -11,7 +11,11 @@
     "birth_info": "4 Mar 1843",
     "death_info": "1 Sep 1917 (aged 74)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/131251622/william-coker",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "4 Mar 1843",
+    "birth_place": null,
+    "death_date": "1 Sep 1917 (aged 74)",
+    "death_place": null
   },
   "facts": [
     {
@@ -83,14 +87,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F220@ marriage",
       "certainty": "confirmed",
       "rel_id": 10687,
       "rel_name": "Ida Coker"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10797,

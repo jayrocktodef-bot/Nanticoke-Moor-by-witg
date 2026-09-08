@@ -11,7 +11,11 @@
     "birth_info": "4 May 1919",
     "death_info": "7 Apr 2012 (aged 92)",
     "notes": "Mentioned in obituary | Verified via FindAGrave: https://www.findagrave.com/memorial/108243771/buena-cassita-durham",
-    "dataset_source": "mitsawokett_obituaries"
+    "dataset_source": "mitsawokett_obituaries",
+    "birth_date": "4 May 1919",
+    "birth_place": null,
+    "death_date": "7 Apr 2012 (aged 92)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "NLP Extracted from Obituary: ', honolulu. she is also survived by six children, benjamin \n  durham, manteca, katharine durham, los angeles, margaret'",
       "certainty": "inferred_nlp",
       "rel_id": 61,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "NLP Extracted from Obituary: 'onard durham and her daughters, lynell durham and rebecca durham.'",
       "certainty": "inferred_nlp",
       "rel_id": 2317,

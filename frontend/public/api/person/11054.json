@@ -11,7 +11,11 @@
     "birth_info": "Jul 1893 Laurel, Sussex, Delaware, USA",
     "death_info": "Aug 1971",
     "notes": "Restored connected Delmarva lineage from GEDCOM",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Jul 1893 Laurel, Sussex, Delaware, USA",
+    "birth_place": null,
+    "death_date": "Aug 1971",
+    "death_place": null
   },
   "facts": [
     {
@@ -44,14 +48,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11050,
       "rel_name": "Jacob B. Cordrey"
     },
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11045,
@@ -64,6 +70,17 @@
   "ancestry": {
     "id": 11054,
     "name": "Franklin Webster Cordrey",
-    "children": []
+    "children": [
+      {
+        "id": 11050,
+        "name": "Jacob B. Cordrey",
+        "children": []
+      },
+      {
+        "id": 11045,
+        "name": "Elizabeth Ella Carmean",
+        "children": []
+      }
+    ]
   }
 }

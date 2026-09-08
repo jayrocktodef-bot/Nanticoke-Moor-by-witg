@@ -11,7 +11,11 @@
     "birth_info": "4 Aug 1916",
     "death_info": "9 Jan 1990 (aged 73)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/134191572/lindsey-thomas",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "4 Aug 1916",
+    "birth_place": null,
+    "death_date": "9 Jan 1990 (aged 73)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,28 +78,32 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F137@ marriage",
       "certainty": "confirmed",
       "rel_id": 10807,
       "rel_name": "Clara Thomas"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10482,
       "rel_name": "Lucille Thomas"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10819,
       "rel_name": "Alfred Thomas"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10820,

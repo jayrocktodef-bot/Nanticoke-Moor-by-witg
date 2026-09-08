@@ -11,7 +11,11 @@
     "birth_info": "10 March 1838 Millsboro, Sussex County, Delaware, United States of America",
     "death_info": "08 Nov 1911 Sussex County, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "10 March 1838 Millsboro, Sussex County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "08 Nov 1911 Sussex County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,90 +88,103 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9969,
       "rel_name": "Jacob Hanzer Jr"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F127@ marriage 3 Mar 1875 Indian River Hundred, Sussex County, Delaware, USA",
       "certainty": "confirmed",
       "rel_id": 9940,
       "rel_name": "Sophia J. Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9936,
       "rel_name": "Sarah Adeline Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8375,
       "rel_name": "Mary A. Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10503,
       "rel_name": "William E Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9935,
       "rel_name": "Nancy Priscilla Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9938,
       "rel_name": "Matilda Jane Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9933,
       "rel_name": "Eunice J. Nicy Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 4768,
       "rel_name": "Elizabeth Mosley"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 5763,
       "rel_name": "Robert Marshall Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 5764,
       "rel_name": "Alexander Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9937,
       "rel_name": "John W. Hanzer"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F239@ marriage 20 May 1856 Sussex County, Delaware, USA",
       "certainty": "confirmed",
       "rel_id": 9507,

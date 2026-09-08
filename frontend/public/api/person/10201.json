@@ -12,12 +12,17 @@
     "death_info": "",
     "notes": "",
     "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1944 Delaware",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null,
     "is_living": true
   },
   "facts": [],
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10200,
@@ -25,6 +30,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8349,
@@ -58,13 +64,7 @@
                   {
                     "id": 8617,
                     "name": "Negro Morris Thomas",
-                    "children": [
-                      {
-                        "id": 9992,
-                        "name": "Sally Wright",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 8910,
@@ -109,8 +109,8 @@
                         "children": []
                       },
                       {
-                        "id": 10290,
-                        "name": "Harriet Ann Harmon",
+                        "id": 8921,
+                        "name": "Eliza Jane Morris",
                         "children": []
                       }
                     ]

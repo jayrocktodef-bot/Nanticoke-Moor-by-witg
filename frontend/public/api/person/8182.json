@@ -11,7 +11,11 @@
     "birth_info": "25 Oct 1918",
     "death_info": "9 Nov 1968 (aged 50)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/131722949/delphine-davis (Buried at Valhalla Gardens of Memory and Mausoleum)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "25 Oct 1918",
+    "birth_place": null,
+    "death_date": "9 Nov 1968 (aged 50)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8157,
@@ -82,13 +87,15 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8863,
       "rel_name": "Pearl Mae Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8250,
@@ -131,6 +138,42 @@
       "contains_face": 0,
       "face_context": "none",
       "routing_target": null
+    },
+    {
+      "person_id": 8182,
+      "photo_id": 3437,
+      "category": "documents",
+      "title_or_caption": "Record_Delphine_M__Davis_14297648.json",
+      "subject_names": "Record Federal Census - Delphine M. Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Record",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/14297648:3693",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8182,
+      "photo_id": 3448,
+      "category": "documents",
+      "title_or_caption": "SSDI_Delphine_Mae_Davis_23464553.json",
+      "subject_names": "SSDI Federal Census - Delphine Mae Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "SSDI",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/23464553:60901",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
     }
   ],
   "obituaries": [],
@@ -144,31 +187,47 @@
         "name": "George Davis",
         "children": [
           {
-            "id": 8613,
-            "name": "Joseph Henry Davis",
+            "id": 8519,
+            "name": "JAMES Davis",
+            "children": []
+          },
+          {
+            "id": 8185,
+            "name": "Hester A. Morris Davis",
             "children": [
               {
-                "id": 8629,
-                "name": "Jost Henry Davis",
+                "id": 8571,
+                "name": "Francis E. Frank Morris",
                 "children": [
                   {
-                    "id": 8809,
-                    "name": "Ludwig Davis",
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
                     "children": []
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "id": 8614,
-                "name": "Katherina Davis",
+                "id": 11246,
+                "name": "Francis E. Morris",
                 "children": []
               }
             ]
-          },
-          {
-            "id": 8519,
-            "name": "JAMES Davis",
-            "children": []
           }
         ]
       },

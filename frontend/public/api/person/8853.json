@@ -11,7 +11,11 @@
     "birth_info": "1860",
     "death_info": "Apr 1946 (aged 85\u201386)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/133099282/lettie-thompson",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1860",
+    "birth_place": null,
+    "death_date": "Apr 1946 (aged 85\u201386)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8604,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8640,

@@ -11,7 +11,11 @@
     "birth_info": "1744 North Carolina, United States",
     "death_info": "Oct 1780 Rutherford, North Carolina, United States",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1744 North Carolina, United States",
+    "birth_place": null,
+    "death_date": "Oct 1780 Rutherford, North Carolina, United States",
+    "death_place": null
   },
   "facts": [
     {
@@ -92,18 +96,12 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F493@ marriage",
       "certainty": "confirmed",
       "rel_id": 9943,
       "rel_name": "Jane Morris"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 4624,
-      "rel_name": "Edward Morris"
     }
   ],
   "photos": [],

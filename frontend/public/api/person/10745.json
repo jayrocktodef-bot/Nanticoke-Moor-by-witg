@@ -11,7 +11,11 @@
     "birth_info": "1855",
     "death_info": "1921 (aged 65\u201366)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/120078338/albert-harmon",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1855",
+    "birth_place": null,
+    "death_date": "1921 (aged 65\u201366)",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,7 +97,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F482@ marriage",
       "certainty": "confirmed",
       "rel_id": 9914,
@@ -101,6 +106,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10746,
@@ -108,6 +114,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10521,

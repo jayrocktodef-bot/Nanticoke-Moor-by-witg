@@ -11,7 +11,11 @@
     "birth_info": "abt 1858 Delaware",
     "death_info": "15 Aug 1925 Philadelphia, Philadelphia, Pennsylvania, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1858 Delaware",
+    "birth_place": null,
+    "death_date": "15 Aug 1925 Philadelphia, Philadelphia, Pennsylvania, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -103,6 +107,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9982,
@@ -110,6 +115,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9983,

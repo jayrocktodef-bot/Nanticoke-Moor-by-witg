@@ -8,16 +8,68 @@
     "married_last_name": "Davies",
     "evidence_level": 3,
     "source_page": "morgan-e.htm",
-    "birth_info": "Private",
-    "death_info": "",
-    "notes": "",
+    "birth_info": "1927 (Fairton, NJ in 1927)",
+    "death_info": "14 December,  1992",
+    "notes": " | FindAGrave: no match",
     "dataset_source": "lynncjackson",
-    "is_living": true
+    "birth_date": "1927",
+    "birth_place": "Fairton, NJ in 1927",
+    "death_date": "14 December,  1992",
+    "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 882,
+      "person_id": 508,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "John Davies",
+      "citations": [
+        {
+          "citation_id": 882,
+          "fact_id": 882,
+          "source_id": 83,
+          "evidence_text": "...in Elmer, NJ and both are buried at Manship Church in Cheswold, DE. They raised 2 children. Carol Mosley who married John Davies Ernest Glendon Mosley, Jr. After Mamie's death on 31 October, 1929 and the death of his daughter, Naomi, several days...",
+          "source_title": "Record: morgan-e.htm",
+          "source_url": "morgan-e.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 11774,
+      "person_id": 508,
+      "fact_type": "Birth",
+      "date_string": "1927",
+      "place_string": "Fairton, NJ in 1927",
+      "value_string": "was born in Fairton, NJ in 1927 .",
+      "citations": []
+    },
+    {
+      "fact_id": 15953,
+      "person_id": 508,
+      "fact_type": "Death",
+      "date_string": "14 December,  1992",
+      "place_string": null,
+      "value_string": "Died 14 December,  1992",
+      "citations": [
+        {
+          "citation_id": 14762,
+          "fact_id": 15953,
+          "source_id": null,
+          "evidence_text": "Documented in morgan-e.htm: DE. They raised 2 children. \n\t\t\t\t\n Carol Mosley who married John Davies\n\t\t\t\t Ernest Glendon Mosley, Jr.\n\n\nDiana Pierce \n\t\t Patricia Pierce\n\n\nPatricia Pierce\n\n\nCarl died in Philadelphia on 14 December,",
+          "source_title": null,
+          "source_url": null,
+          "source_dataset": null
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Carol Ann Mosley who married John Davies",
       "certainty": "confirmed",
       "rel_id": 507,

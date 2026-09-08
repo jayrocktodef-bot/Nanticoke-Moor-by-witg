@@ -11,7 +11,11 @@
     "birth_info": "1779",
     "death_info": "30 Nov 1827 (aged 47\u201348)",
     "notes": "Ingested from DurhamWilliamMcKinley.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/277669760/elizabeth-durham",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1779",
+    "birth_place": null,
+    "death_date": "30 Nov 1827 (aged 47\u201348)",
+    "death_place": null
   },
   "facts": [
     {
@@ -140,32 +144,28 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Elizabeth Durham who married Bayman Williams",
       "certainty": "confirmed",
       "rel_id": 178,
       "rel_name": "Bayman Williams"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Elizabeth Durham married to Thomas Concilor",
       "certainty": "confirmed",
       "rel_id": 193,
       "rel_name": "Concilor Thomas"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Elizabeth Durham married Jesse Dean",
       "certainty": "confirmed",
       "rel_id": 93,
       "rel_name": "Jesse Dean"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 1042,
-      "rel_name": "Albert Durham"
     }
   ],
   "photos": [],

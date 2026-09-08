@@ -11,7 +11,11 @@
     "birth_info": "23 Nov 1953",
     "death_info": "27 Aug 2021 (aged 67)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/261625394/sheila-davis (Buried at Sheila <I>Hill</I> Davis  <b class=\"icon-vet align-middle m-0 mb-1 lh-1 badge rounded-pill\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" title=\"Veteran\"><span aria-hidden=\"true\">V)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "23 Nov 1953",
+    "birth_place": null,
+    "death_date": "27 Aug 2021 (aged 67)",
+    "death_place": null
   },
   "facts": [
     {
@@ -94,6 +98,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8159,
@@ -101,6 +106,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8192,
@@ -129,13 +135,7 @@
                   {
                     "id": 8617,
                     "name": "Negro Morris Thomas",
-                    "children": [
-                      {
-                        "id": 9992,
-                        "name": "Sally Wright",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 8910,
@@ -154,6 +154,11 @@
                     ]
                   }
                 ]
+              },
+              {
+                "id": 11246,
+                "name": "Francis E. Morris",
+                "children": []
               }
             ]
           }

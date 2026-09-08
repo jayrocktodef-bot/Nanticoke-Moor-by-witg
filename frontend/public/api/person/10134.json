@@ -11,7 +11,11 @@
     "birth_info": "13 May 1974",
     "death_info": "26 Feb 2026 (aged 51)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/293347514/tammy-mosley",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "13 May 1974",
+    "birth_place": null,
+    "death_date": "26 Feb 2026 (aged 51)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9491,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10135,
@@ -151,11 +157,6 @@
                       {
                         "id": 2366,
                         "name": "William H. Johnson",
-                        "children": []
-                      },
-                      {
-                        "id": 8766,
-                        "name": "Sarah A Johnson",
                         "children": []
                       }
                     ]

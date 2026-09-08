@@ -11,7 +11,11 @@
     "birth_info": "27 DEC 1923 Delaware",
     "death_info": "Dec 1975 Milford, de",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "27 DEC 1923 Delaware",
+    "birth_place": null,
+    "death_date": "Dec 1975 Milford, de",
+    "death_place": null
   },
   "facts": [
     {
@@ -113,24 +117,6 @@
     },
     {
       "person_id": 10140,
-      "photo_id": 2407,
-      "category": "people",
-      "title_or_caption": "Whaley_Annie_Price_And_Rosa_Harmon.jpg",
-      "subject_names": "Whaley Annie Price & Rosa Harmon",
-      "married_surname": "Whaley",
-      "approximate_year": "1800",
-      "local_image_path": "assets/archive_media/people/Whaley_Annie_Price_And_Rosa_Harmon.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Price%20Eliza%20Jane%20Ingram%20Family.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "family_group",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 10140,
       "photo_id": 1150,
       "category": "people",
       "title_or_caption": "Harmon_Annie_P_And_Bigkids.jpg",
@@ -143,6 +129,24 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 10140,
+      "photo_id": 2407,
+      "category": "people",
+      "title_or_caption": "Whaley_Annie_Price_And_Rosa_Harmon.jpg",
+      "subject_names": "Whaley Annie Price & Rosa Harmon",
+      "married_surname": "Whaley",
+      "approximate_year": "1800",
+      "local_image_path": "assets/archive_media/people/Whaley_Annie_Price_And_Rosa_Harmon.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Price%20Eliza%20Jane%20Ingram%20Family.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

@@ -11,7 +11,11 @@
     "birth_info": "3 September 1903 Trinity, Sussex County, Delaware, United States of America",
     "death_info": "18 June 1932 Lewes, Sussex County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "3 September 1903 Trinity, Sussex County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "18 June 1932 Lewes, Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,41 +79,47 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9728,
       "rel_name": "Joshua S. Hitchens"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F279@ marriage",
       "certainty": "confirmed",
       "rel_id": 10050,
       "rel_name": "Vigire Mae Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10027,
       "rel_name": "Harvey Layton Hitchens"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10049,
       "rel_name": "Sarah Stump Hitchens"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 7835,
       "rel_name": "Thelma Hitchens"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 7833,

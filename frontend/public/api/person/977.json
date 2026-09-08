@@ -11,7 +11,11 @@
     "birth_info": "16 Jun 1806",
     "death_info": "14 Jan 1886 (aged 79)",
     "notes": "Moor/Nanticoke lineage record - Harmon cluster | Verified via FindAGrave: https://www.findagrave.com/memorial/17206578/nathaniel-harmon",
-    "dataset_source": "moors_delaware"
+    "dataset_source": "moors_delaware",
+    "birth_date": "16 Jun 1806",
+    "birth_place": null,
+    "death_date": "14 Jan 1886 (aged 79)",
+    "death_place": null
   },
   "facts": [
     {
@@ -102,14 +106,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (78.8% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 428,
-      "rel_name": "Nathaniel Jackson"
-    },
-    {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 1022,
@@ -117,31 +115,11 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 7577,
       "rel_name": "Lydia Clark"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9982,
-      "rel_name": "Robert Emanuel Harmon"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9983,
-      "rel_name": "Rachel Anne Johnson"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 768,
-      "rel_name": "Thelma Harmon"
     }
   ],
   "photos": [],

@@ -11,7 +11,11 @@
     "birth_info": "12 February 1906 Painesville, Lake County, Ohio, USA",
     "death_info": "7 Apr 1963 McKeesport, Allegheny County, Pennsylvania",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "12 February 1906 Painesville, Lake County, Ohio, USA",
+    "birth_place": null,
+    "death_date": "7 Apr 1963 McKeesport, Allegheny County, Pennsylvania",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,14 +78,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8426,
       "rel_name": "Dolores Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8425,
@@ -89,6 +95,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8382,

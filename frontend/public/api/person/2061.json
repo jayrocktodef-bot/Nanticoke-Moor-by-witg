@@ -11,7 +11,11 @@
     "birth_info": "c. 1739",
     "death_info": "1739",
     "notes": "Ingested from preserved MainMenu.html record | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "c. 1739",
+    "birth_place": null,
+    "death_date": "1739",
+    "death_place": null
   },
   "facts": [
     {
@@ -83,7 +87,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Elizabeth Francisco was probably the daughter of Thomas Conselah, mentioned in his will in 1739 and called the mother of Thomas in the 1738 Little Creek Hundred taxables. It is possible that John and ",
       "certainty": "confirmed",
       "rel_id": 729,

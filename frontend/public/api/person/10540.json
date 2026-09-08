@@ -11,7 +11,11 @@
     "birth_info": "1725 Sussex County, Delaware, USA",
     "death_info": "unknown Broadkill Hundred, Sussex County, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1725 Sussex County, Delaware, USA",
+    "birth_place": null,
+    "death_date": "unknown Broadkill Hundred, Sussex County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 2098,
@@ -82,55 +87,63 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10554,
       "rel_name": "Patience Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10374,
       "rel_name": "Jemima Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10544,
       "rel_name": "Sheppard Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10545,
       "rel_name": "Eunice Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10546,
       "rel_name": "Edward I Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 998,
       "rel_name": "Adonijah Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10547,
       "rel_name": "Shepherd Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10548,
@@ -151,51 +164,7 @@
           {
             "id": 8862,
             "name": "William Harmon",
-            "children": [
-              {
-                "id": 9407,
-                "name": "David Roland Harmon Sr",
-                "children": []
-              },
-              {
-                "id": 8927,
-                "name": "Eliza Jane Harmon",
-                "children": [
-                  {
-                    "id": 5763,
-                    "name": "Robert Marshall Hanzer",
-                    "children": [
-                      {
-                        "id": 9096,
-                        "name": "John C Hanzer",
-                        "children": []
-                      },
-                      {
-                        "id": 9940,
-                        "name": "Sophia J. Hanzer",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 10290,
-                    "name": "Harriet Ann Harmon",
-                    "children": [
-                      {
-                        "id": 10291,
-                        "name": "Charles S Harmon",
-                        "children": []
-                      },
-                      {
-                        "id": 10292,
-                        "name": "Ann Mariah Harmon",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
+            "children": []
           }
         ]
       },

@@ -11,7 +11,11 @@
     "birth_info": "Abt 1875 Delaware",
     "death_info": "17 May 1892 Millsboro, Sussex County, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Abt 1875 Delaware",
+    "birth_place": null,
+    "death_date": "17 May 1892 Millsboro, Sussex County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -94,6 +98,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9834,
@@ -101,6 +106,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 7504,

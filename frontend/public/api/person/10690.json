@@ -11,7 +11,11 @@
     "birth_info": "17 Sep 1919",
     "death_info": "24 Jun 1920 (aged 9 months)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/284308180/james-durham",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "17 Sep 1919",
+    "birth_place": null,
+    "death_date": "24 Jun 1920 (aged 9 months)",
+    "death_place": null
   },
   "facts": [
     {
@@ -179,6 +183,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10685,
@@ -186,6 +191,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10129,

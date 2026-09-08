@@ -11,7 +11,11 @@
     "birth_info": "1801",
     "death_info": "14 Sep 1854 (aged 52\u201353)",
     "notes": "Ingested from preserved Probate.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/135523877/sarah-miller",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1801",
+    "birth_place": null,
+    "death_date": "14 Sep 1854 (aged 52\u201353)",
+    "death_place": null
   },
   "facts": [
     {
@@ -113,6 +117,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9188,
@@ -120,24 +125,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 2246,
-      "photo_id": 2183,
-      "category": "people",
-      "title_or_caption": "Sammons_Ben_And_Sarah_Miller.jpg",
-      "subject_names": "Sammons Ben & Sarah Miller",
-      "married_surname": "Sammons",
-      "approximate_year": "1854",
-      "local_image_path": "assets/archive_media/people/Sammons_Ben_And_Sarah_Miller.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HandsorSarahSammons.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 2246,
       "photo_id": 1106,
@@ -152,6 +139,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 2246,
+      "photo_id": 2183,
+      "category": "people",
+      "title_or_caption": "Sammons_Ben_And_Sarah_Miller.jpg",
+      "subject_names": "Sammons Ben & Sarah Miller",
+      "married_surname": "Sammons",
+      "approximate_year": "1854",
+      "local_image_path": "assets/archive_media/people/Sammons_Ben_And_Sarah_Miller.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HandsorSarahSammons.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

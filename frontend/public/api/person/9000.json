@@ -11,7 +11,11 @@
     "birth_info": "3 Dec 1789",
     "death_info": "26 Jul 1835 (aged 45)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/21045848/elizabeth-clark",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "3 Dec 1789",
+    "birth_place": null,
+    "death_date": "26 Jul 1835 (aged 45)",
+    "death_place": null
   },
   "facts": [
     {
@@ -111,21 +115,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8998,
-      "rel_name": "George E Clark"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8997,
-      "rel_name": "Caroline Clark"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10404,
@@ -133,24 +124,11 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9350,
       "rel_name": "Levin Clark"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8514,
-      "rel_name": "Elizabeth Morris"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 1729,
-      "rel_name": "Nathaniel Morris"
     }
   ],
   "photos": [],
@@ -184,25 +162,59 @@
     "name": "Elizabeth Clark",
     "children": [
       {
-        "id": 8998,
-        "name": "George E Clark",
+        "id": 9350,
+        "name": "Levin Clark",
         "children": [
           {
-            "id": 9953,
-            "name": "George W. Clark",
-            "children": []
+            "id": 10334,
+            "name": "William Russell Wyniaco Clark",
+            "children": [
+              {
+                "id": 10336,
+                "name": "William Vine Clark Jr",
+                "children": [
+                  {
+                    "id": 10337,
+                    "name": "William CLARKE Esq",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 10421,
+                "name": "James H Clark",
+                "children": [
+                  {
+                    "id": 9335,
+                    "name": "Bowen Clark",
+                    "children": [
+                      {
+                        "id": 9336,
+                        "name": "James Clark",
+                        "children": []
+                      },
+                      {
+                        "id": 9334,
+                        "name": "Lydia E Norwood",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10420,
+                    "name": "Ann W. Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
-            "id": 9954,
-            "name": "Harriett Hettie Johnson",
+            "id": 10335,
+            "name": "Jane Clark",
             "children": []
           }
         ]
-      },
-      {
-        "id": 8997,
-        "name": "Caroline Clark",
-        "children": []
       }
     ]
   }

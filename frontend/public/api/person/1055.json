@@ -11,7 +11,11 @@
     "birth_info": "30 Jun 1882",
     "death_info": "4 Jan 1954 (aged 71)",
     "notes": "Moor/Nanticoke lineage record - Mosley cluster | Verified via FindAGrave: https://www.findagrave.com/memorial/5090608/wingate-burton-mosley",
-    "dataset_source": "moors_delaware"
+    "dataset_source": "moors_delaware",
+    "birth_date": "30 Jun 1882",
+    "birth_place": null,
+    "death_date": "4 Jan 1954 (aged 71)",
+    "death_place": null
   },
   "facts": [
     {
@@ -140,21 +144,34 @@
   ],
   "relationships": [
     {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 455,
-      "rel_name": "Angea Mosley"
-    },
-    {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10624,
       "rel_name": "Eliza Mosley"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 1055,
+      "photo_id": 3617,
+      "category": "documents",
+      "title_or_caption": "1900_Wingate_Mosley_33724228.json",
+      "subject_names": "1900 Federal Census - Wingate Mosley Household",
+      "married_surname": "Davis",
+      "approximate_year": "1900",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/33724228:7602",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    }
+  ],
   "obituaries": [],
   "audit_flags": [
     {

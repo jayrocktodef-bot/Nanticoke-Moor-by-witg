@@ -11,7 +11,11 @@
     "birth_info": "1836",
     "death_info": "14 Feb 1876 (aged 39\u201340)",
     "notes": "Ingested from BloomsburyMeeting9May98.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/259485327/william-durham | Linked to durhm-w1.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/259485327/william-durham | Moor/Nanticoke lineage record - Durham cluster | Verified via FindAGrave: https://www.findagrave.com/memorial/259485327/william-durham | Ingested from DurhamReunion1996HiRes.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/259485327/william-durham",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1836",
+    "birth_place": null,
+    "death_date": "14 Feb 1876 (aged 39\u201340)",
+    "death_place": null
   },
   "facts": [
     {
@@ -776,30 +780,24 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Helen Carney married William Durham",
       "certainty": "confirmed",
       "rel_id": 340,
       "rel_name": "Helen Carney"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 368,
-      "rel_name": "William Sammons"
     }
   ],
   "photos": [
     {
       "person_id": 3247,
-      "photo_id": 925,
+      "photo_id": 879,
       "category": "people",
-      "title_or_caption": "Durham_William_At_Mike.jpg",
-      "subject_names": "William At Mike Durham",
+      "title_or_caption": "Durham_Mrs_William_In_Fur.jpg",
+      "subject_names": "Mrs William In Fur Durham",
       "married_surname": "Durham",
       "approximate_year": "1898",
-      "local_image_path": "assets/archive_media/people/Durham_William_At_Mike.jpg",
+      "local_image_path": "assets/archive_media/people/Durham_Mrs_William_In_Fur.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWilliamMcKinley.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
@@ -811,13 +809,13 @@
     },
     {
       "person_id": 3247,
-      "photo_id": 879,
+      "photo_id": 925,
       "category": "people",
-      "title_or_caption": "Durham_Mrs_William_In_Fur.jpg",
-      "subject_names": "Mrs William In Fur Durham",
+      "title_or_caption": "Durham_William_At_Mike.jpg",
+      "subject_names": "William At Mike Durham",
       "married_surname": "Durham",
       "approximate_year": "1898",
-      "local_image_path": "assets/archive_media/people/Durham_Mrs_William_In_Fur.jpg",
+      "local_image_path": "assets/archive_media/people/Durham_William_At_Mike.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWilliamMcKinley.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
@@ -865,24 +863,6 @@
     },
     {
       "person_id": 3247,
-      "photo_id": 2164,
-      "category": "people",
-      "title_or_caption": "Ridgeway_William_Edgar_Sr_And_Emma_Eliza_Durham_And_Paul_Jror_Sr.jpg",
-      "subject_names": "Ridgeway William Edgar Sr & Emma Eliza Durham & Paul Jror Sr",
-      "married_surname": "Ridgeway",
-      "approximate_year": "1875",
-      "local_image_path": "assets/archive_media/people/Ridgeway_William_Edgar_Sr_And_Emma_Eliza_Durham_And_Paul_Jror_Sr.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayWilliamEdgarSr&EmmaElizaDurham&PaulJrorSr.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "group_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
-    {
-      "person_id": 3247,
       "photo_id": 776,
       "category": "people",
       "title_or_caption": "Durham_Carolyn_And_William_Parish_And_Dau.jpg",
@@ -909,6 +889,24 @@
       "approximate_year": "",
       "local_image_path": "assets/archive_media/people/Durham_Tony_And_Janice.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamTony&Janice.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "group_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 3247,
+      "photo_id": 2164,
+      "category": "people",
+      "title_or_caption": "Ridgeway_William_Edgar_Sr_And_Emma_Eliza_Durham_And_Paul_Jror_Sr.jpg",
+      "subject_names": "Ridgeway William Edgar Sr & Emma Eliza Durham & Paul Jror Sr",
+      "married_surname": "Ridgeway",
+      "approximate_year": "1875",
+      "local_image_path": "assets/archive_media/people/Ridgeway_William_Edgar_Sr_And_Emma_Eliza_Durham_And_Paul_Jror_Sr.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayWilliamEdgarSr&EmmaElizaDurham&PaulJrorSr.htm",
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",
       "asset_type": "document",

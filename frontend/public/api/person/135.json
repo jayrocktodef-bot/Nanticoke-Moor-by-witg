@@ -11,7 +11,11 @@
     "birth_info": "24 May 1924",
     "death_info": "15 Jul 2015 (aged 91)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/230929181/donald-coker",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "24 May 1924",
+    "birth_place": null,
+    "death_date": "15 Jul 2015 (aged 91)",
+    "death_place": null
   },
   "facts": [
     {
@@ -159,7 +163,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Donald Coker married Harriett Morgan",
       "certainty": "confirmed",
       "rel_id": 136,
@@ -167,24 +172,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 135,
-      "photo_id": 480,
-      "category": "people",
-      "title_or_caption": "Coker_Donald_And_Harriet_Morgan.jpg",
-      "subject_names": "Coker Donald & Harriet Morgan",
-      "married_surname": "Coker",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Coker_Donald_And_Harriet_Morgan.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerDonald&HarrietMorgan.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 135,
       "photo_id": 482,
@@ -199,6 +186,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 135,
+      "photo_id": 480,
+      "category": "people",
+      "title_or_caption": "Coker_Donald_And_Harriet_Morgan.jpg",
+      "subject_names": "Coker Donald & Harriet Morgan",
+      "married_surname": "Coker",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Coker_Donald_And_Harriet_Morgan.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerDonald&HarrietMorgan.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

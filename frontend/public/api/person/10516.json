@@ -11,7 +11,11 @@
     "birth_info": "abt 1844 Delaware",
     "death_info": "7 Feb 1922 Broadkiln Hundred, Sussex County, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1844 Delaware",
+    "birth_place": null,
+    "death_date": "7 Feb 1922 Broadkiln Hundred, Sussex County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -94,6 +98,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 1022,
@@ -101,6 +106,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 7577,
@@ -108,6 +114,24 @@
     }
   ],
   "photos": [
+    {
+      "person_id": 10516,
+      "photo_id": 1398,
+      "category": "people",
+      "title_or_caption": "Johnson_Eliza_Ann_Harmon_4.jpg",
+      "subject_names": "Eliza Ann Harmon Johnson",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_Eliza_Ann_Harmon_4.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 10516,
       "photo_id": 1434,
@@ -125,6 +149,42 @@
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
+    },
+    {
+      "person_id": 10516,
+      "photo_id": 1442,
+      "category": "people",
+      "title_or_caption": "Johnson_William_Arthur_1.jpg",
+      "subject_names": "William Arthur Johnson",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_William_Arthur_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "document",
+      "subtype": "studio_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 10516,
+      "photo_id": 1443,
+      "category": "people",
+      "title_or_caption": "Johnson_William_Howard_1.jpg",
+      "subject_names": "William Howard Johnson",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_William_Howard_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "document",
+      "subtype": "studio_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     },
     {
       "person_id": 10516,
@@ -161,60 +221,6 @@
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
-    },
-    {
-      "person_id": 10516,
-      "photo_id": 1442,
-      "category": "people",
-      "title_or_caption": "Johnson_William_Arthur_1.jpg",
-      "subject_names": "William Arthur Johnson",
-      "married_surname": "Johnson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_William_Arthur_1.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "document",
-      "subtype": "studio_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
-    {
-      "person_id": 10516,
-      "photo_id": 1398,
-      "category": "people",
-      "title_or_caption": "Johnson_Eliza_Ann_Harmon_4.jpg",
-      "subject_names": "Eliza Ann Harmon Johnson",
-      "married_surname": "Johnson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_Eliza_Ann_Harmon_4.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 10516,
-      "photo_id": 1443,
-      "category": "people",
-      "title_or_caption": "Johnson_William_Howard_1.jpg",
-      "subject_names": "William Howard Johnson",
-      "married_surname": "Johnson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_William_Howard_1.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "document",
-      "subtype": "studio_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
     }
   ],
   "obituaries": [],

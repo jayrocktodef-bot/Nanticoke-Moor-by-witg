@@ -11,7 +11,11 @@
     "birth_info": "1709 Dorchester, Maryland",
     "death_info": "1770 Caroline, Maryland",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1709 Dorchester, Maryland",
+    "birth_place": null,
+    "death_date": "1770 Caroline, Maryland",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,14 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8565,
-      "rel_name": "Sarah Johnson"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8566,

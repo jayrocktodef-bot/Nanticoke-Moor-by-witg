@@ -11,7 +11,11 @@
     "birth_info": "29 October 1867 Delaware, United States of America",
     "death_info": "30 March 1940 Millsboro, Sussex County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "29 October 1867 Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "30 March 1940 Millsboro, Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,13 +79,15 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8571,
       "rel_name": "Francis E. Frank Morris"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F486@ marriage 1890 Philadelphia, Philadelphia, Pennsylvania, USA",
       "certainty": "confirmed",
       "rel_id": 10294,
@@ -89,24 +95,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 8623,
-      "photo_id": 1610,
-      "category": "people",
-      "title_or_caption": "Morris_Charles_And_Isabella.jpg",
-      "subject_names": "Morris Charles & Isabella",
-      "married_surname": "Morris",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Morris_Charles_And_Isabella.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisCharles&Isabella.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "group_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
     {
       "person_id": 8623,
       "photo_id": 1614,
@@ -124,6 +112,24 @@
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
+    },
+    {
+      "person_id": 8623,
+      "photo_id": 1610,
+      "category": "people",
+      "title_or_caption": "Morris_Charles_And_Isabella.jpg",
+      "subject_names": "Morris Charles & Isabella",
+      "married_surname": "Morris",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Morris_Charles_And_Isabella.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorrisCharles&Isabella.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "group_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],
@@ -139,13 +145,7 @@
           {
             "id": 8617,
             "name": "Negro Morris Thomas",
-            "children": [
-              {
-                "id": 9992,
-                "name": "Sally Wright",
-                "children": []
-              }
-            ]
+            "children": []
           },
           {
             "id": 8910,

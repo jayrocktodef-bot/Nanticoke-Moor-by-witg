@@ -11,7 +11,11 @@
     "birth_info": "8 Sep 1885 Sussex, Delaware",
     "death_info": "5 Jun 1924",
     "notes": "Restored connected Delmarva lineage from GEDCOM",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "8 Sep 1885 Sussex, Delaware",
+    "birth_place": null,
+    "death_date": "5 Jun 1924",
+    "death_place": null
   },
   "facts": [
     {
@@ -44,7 +48,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11050,
@@ -57,6 +62,12 @@
   "ancestry": {
     "id": 11055,
     "name": "Annie E Cordrey",
-    "children": []
+    "children": [
+      {
+        "id": 11050,
+        "name": "Jacob B. Cordrey",
+        "children": []
+      }
+    ]
   }
 }

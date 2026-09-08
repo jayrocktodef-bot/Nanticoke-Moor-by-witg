@@ -11,7 +11,11 @@
     "birth_info": "23 Aug 1906 Denton, Md",
     "death_info": "31 Mar 1990 Philadelphia, PA, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "23 Aug 1906 Denton, Md",
+    "birth_place": null,
+    "death_date": "31 Mar 1990 Philadelphia, PA, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,6 +88,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9523,

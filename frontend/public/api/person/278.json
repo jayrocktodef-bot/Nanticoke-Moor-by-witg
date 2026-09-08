@@ -11,7 +11,11 @@
     "birth_info": "1898",
     "death_info": "18 Oct 1898 (aged less\u2013than 1 year)",
     "notes": "Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/107936608/william-carney | Ingested from preserved Probate.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/107936608/william-carney",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "1898",
+    "birth_place": null,
+    "death_date": "18 Oct 1898",
+    "death_place": "aged less\u2013than 1 year"
   },
   "facts": [
     {
@@ -311,25 +315,12 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "After the death of her husband in 1874, Catherine Morgan Dean married William Carney. Catherine died on 23 May, 1891 and is buried next to her first husband, Robert, at Immanuel Union (Manship) Church",
       "certainty": "confirmed",
       "rel_id": 277,
       "rel_name": "Catherine Morgan Dean"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 368,
-      "rel_name": "William Sammons"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 10334,
-      "rel_name": "William Russell Wyniaco Clark"
     }
   ],
   "photos": [],

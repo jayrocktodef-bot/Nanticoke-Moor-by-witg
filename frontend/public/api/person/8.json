@@ -11,7 +11,11 @@
     "birth_info": "27 Nov 1903",
     "death_info": "19 Mar 1981 (aged 77)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/107679684/john-wesley",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "27 Nov 1903",
+    "birth_place": null,
+    "death_date": "19 Mar 1981 (aged 77)",
+    "death_place": null
   },
   "facts": [
     {
@@ -129,41 +133,51 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "John Wesley the son of John Cott and Sarah his wife was born May the 27 A.D. 1838. \t\tDied Aug. 23, 1920",
       "certainty": "confirmed",
       "rel_id": 12,
       "rel_name": "John Wesley Cott"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (78.8% confidence) between Lynn C. Jackson archive and Moors of Delaware | Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 1039,
-      "rel_name": "John Wesley Harmon"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (81.8% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 961,
-      "rel_name": "John Mosley"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 985,
-      "rel_name": "John M Mosley"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 1046,
-      "rel_name": "John H Mosley"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 8,
+      "photo_id": 1379,
+      "category": "tombstones",
+      "title_or_caption": "John_Wesley_Cem_515.jpg",
+      "subject_names": "John Wesley Cemetery 515",
+      "married_surname": "John",
+      "approximate_year": "1981",
+      "local_image_path": "assets/archive_media/tombstones/John_Wesley_Cem_515.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Cemeteries/JohnWesley.html",
+      "dataset_source": "mitsawokett",
+      "document_type": "tombstone",
+      "asset_type": "monument",
+      "subtype": "cemetery_memorial",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "monuments"
+    },
+    {
+      "person_id": 8,
+      "photo_id": 1380,
+      "category": "tombstones",
+      "title_or_caption": "John_Wesley_Cem_516.jpg",
+      "subject_names": "John Wesley Cemetery 516",
+      "married_surname": "John",
+      "approximate_year": "1981",
+      "local_image_path": "assets/archive_media/tombstones/John_Wesley_Cem_516.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Cemeteries/JohnWesley.html",
+      "dataset_source": "mitsawokett",
+      "document_type": "tombstone",
+      "asset_type": "monument",
+      "subtype": "cemetery_memorial",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "monuments"
+    }
+  ],
   "obituaries": [
     {
       "person_id": 8,

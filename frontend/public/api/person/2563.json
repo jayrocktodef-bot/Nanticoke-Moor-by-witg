@@ -11,7 +11,11 @@
     "birth_info": "18 Mar 1929",
     "death_info": "5 Mar 1994 (aged 64)",
     "notes": "Ingested from preserved SocialSecurityApplications.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/125512069/b-ellen-durham",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "18 Mar 1929",
+    "birth_place": null,
+    "death_date": "5 Mar 1994 (aged 64)",
+    "death_place": null
   },
   "facts": [
     {
@@ -76,24 +80,6 @@
   "photos": [
     {
       "person_id": 2563,
-      "photo_id": 2000,
-      "category": "people",
-      "title_or_caption": "Pierce_Helen_Durham_And_Bowles.jpg",
-      "subject_names": "Pierce Helen Durham & Bowles",
-      "married_surname": "Pierce",
-      "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/people/Pierce_Helen_Durham_And_Bowles.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Pierce&Bowles.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "family_group",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 2563,
       "photo_id": 154,
       "category": "people",
       "title_or_caption": "Bowles_Helen_Durham_Pierce.jpg",
@@ -106,6 +92,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 2563,
+      "photo_id": 2000,
+      "category": "people",
+      "title_or_caption": "Pierce_Helen_Durham_And_Bowles.jpg",
+      "subject_names": "Pierce Helen Durham & Bowles",
+      "married_surname": "Pierce",
+      "approximate_year": "1970",
+      "local_image_path": "assets/archive_media/people/Pierce_Helen_Durham_And_Bowles.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Pierce&Bowles.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

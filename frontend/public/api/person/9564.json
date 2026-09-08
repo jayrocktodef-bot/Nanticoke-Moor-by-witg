@@ -11,7 +11,11 @@
     "birth_info": "5 Jan 1852",
     "death_info": "26 Dec 1897 (aged 45)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/228378199/robert-jackson",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "5 Jan 1852",
+    "birth_place": null,
+    "death_date": "26 Dec 1897 (aged 45)",
+    "death_place": null
   },
   "facts": [
     {
@@ -140,21 +144,24 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F440@ marriage",
       "certainty": "confirmed",
       "rel_id": 6480,
       "rel_name": "Mary Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9563,
       "rel_name": "Temperance Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9520,

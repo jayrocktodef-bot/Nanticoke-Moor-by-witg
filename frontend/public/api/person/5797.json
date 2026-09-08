@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Ingested from HarmanIsaacWillie.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -38,24 +42,6 @@
   "photos": [
     {
       "person_id": 5797,
-      "photo_id": 1137,
-      "category": "people",
-      "title_or_caption": "Harman_Isaac_Willie_And_Vina_Ann.jpg",
-      "subject_names": "Harman Isaac Willie & Vina Ann",
-      "married_surname": "Harman",
-      "approximate_year": "1804",
-      "local_image_path": "assets/archive_media/people/Harman_Isaac_Willie_And_Vina_Ann.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanIsaacWillie.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "group_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
-    {
-      "person_id": 5797,
       "photo_id": 1139,
       "category": "people",
       "title_or_caption": "Harman_Isaac_Willie.jpg",
@@ -68,6 +54,24 @@
       "document_type": "portrait",
       "asset_type": "document",
       "subtype": "studio_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 5797,
+      "photo_id": 1137,
+      "category": "people",
+      "title_or_caption": "Harman_Isaac_Willie_And_Vina_Ann.jpg",
+      "subject_names": "Harman Isaac Willie & Vina Ann",
+      "married_surname": "Harman",
+      "approximate_year": "1804",
+      "local_image_path": "assets/archive_media/people/Harman_Isaac_Willie_And_Vina_Ann.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanIsaacWillie.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "group_portrait",
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"

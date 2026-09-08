@@ -8,10 +8,14 @@
     "married_last_name": "Harmon",
     "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
-    "birth_info": "14 Feb 1907",
-    "death_info": "5 Dec 1907 (aged 9 months)",
-    "notes": " | Buried at Harmony Cemetery (Verified via FindAGrave https://www.findagrave.com/memorial/36967665/william-edward-harmon)",
-    "dataset_source": "davis_family_gedcom"
+    "birth_info": "abt 1645",
+    "death_info": "unknown",
+    "notes": "| Buried at Harmony Cemetery (",
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1645",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -37,7 +41,7 @@
       "fact_id": 8364,
       "person_id": 8862,
       "fact_type": "Birth",
-      "date_string": "14 Feb 1907",
+      "date_string": "abt 1645",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -56,7 +60,7 @@
       "fact_id": 8365,
       "person_id": 8862,
       "fact_type": "Death",
-      "date_string": "5 Dec 1907 (aged 9 months)",
+      "date_string": "unknown",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -188,81 +192,52 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9407,
-      "rel_name": "David Roland Harmon Sr"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8927,
-      "rel_name": "Eliza Jane Harmon"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10557,
       "rel_name": "Manuel Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 2098,
       "rel_name": "Edward Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 995,
       "rel_name": "John Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10560,
       "rel_name": "Mary Ann Harmon"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9982,
-      "rel_name": "Robert Emanuel Harmon"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9983,
-      "rel_name": "Rachel Anne Johnson"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 1056,
       "rel_name": "Robert Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8922,
       "rel_name": "Minnie E Harmon"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8861,
-      "rel_name": "Eunice Hester Miller"
     }
   ],
   "photos": [
@@ -322,110 +297,21 @@
     }
   ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7511,
+      "category": "CHRONOLOGY_RECONCILED",
+      "severity": "info",
+      "person_id": 8862,
+      "person_id_secondary": null,
+      "description": "Corrected impossible modern FindAGrave dates to estimated ~1645",
+      "evidence": "Children born starting 1670",
+      "created_at": "2026-09-08 03:58:38"
+    }
+  ],
   "ancestry": {
     "id": 8862,
     "name": "William Harmon",
-    "children": [
-      {
-        "id": 9407,
-        "name": "David Roland Harmon Sr",
-        "children": []
-      },
-      {
-        "id": 8927,
-        "name": "Eliza Jane Harmon",
-        "children": [
-          {
-            "id": 5763,
-            "name": "Robert Marshall Hanzer",
-            "children": [
-              {
-                "id": 9096,
-                "name": "John C Hanzer",
-                "children": [
-                  {
-                    "id": 9969,
-                    "name": "Jacob Hanzer Jr",
-                    "children": [
-                      {
-                        "id": 9974,
-                        "name": "Jacob Hanzer Sr",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": 9940,
-                "name": "Sophia J. Hanzer",
-                "children": [
-                  {
-                    "id": 10122,
-                    "name": "John R. Harmon",
-                    "children": [
-                      {
-                        "id": 9982,
-                        "name": "Robert Emanuel Harmon",
-                        "children": []
-                      },
-                      {
-                        "id": 9983,
-                        "name": "Rachel Anne Johnson",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 10123,
-                    "name": "Lavinia Lovinia Sammons",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": 10290,
-            "name": "Harriet Ann Harmon",
-            "children": [
-              {
-                "id": 10291,
-                "name": "Charles S Harmon",
-                "children": [
-                  {
-                    "id": 10260,
-                    "name": "Adjoniah R. Harmon",
-                    "children": [
-                      {
-                        "id": 9982,
-                        "name": "Robert Emanuel Harmon",
-                        "children": []
-                      },
-                      {
-                        "id": 9983,
-                        "name": "Rachel Anne Johnson",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 10293,
-                    "name": "Harriet Louisa Hansor Harmon",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 10292,
-                "name": "Ann Mariah Harmon",
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "children": []
   }
 }

@@ -11,7 +11,11 @@
     "birth_info": "3 Oct 1878 Millsboro, Indian, River, Hundred, Sussex County, Delaware, USA",
     "death_info": "21 Jan 1929 Georgetown, Sussex County, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "3 Oct 1878 Millsboro, Indian, River, Hundred, Sussex County, Delaware, USA",
+    "birth_place": null,
+    "death_date": "21 Jan 1929 Georgetown, Sussex County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -132,6 +136,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 5921,
@@ -139,13 +144,15 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10214,
       "rel_name": "Sarah Jane Sockum"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F122@ marriage",
       "certainty": "confirmed",
       "rel_id": 754,
@@ -153,24 +160,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 9270,
-      "photo_id": 1134,
-      "category": "people",
-      "title_or_caption": "Harman_Elincoln_And_Eliz.jpg",
-      "subject_names": "Harman Elincoln & Eliz",
-      "married_surname": "Harman",
-      "approximate_year": "1962",
-      "local_image_path": "assets/archive_media/people/Harman_Elincoln_And_Eliz.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanELincoln&Eliz.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 9270,
       "photo_id": 1136,
@@ -203,6 +192,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9270,
+      "photo_id": 1134,
+      "category": "people",
+      "title_or_caption": "Harman_Elincoln_And_Eliz.jpg",
+      "subject_names": "Harman Elincoln & Eliz",
+      "married_surname": "Harman",
+      "approximate_year": "1962",
+      "local_image_path": "assets/archive_media/people/Harman_Elincoln_And_Eliz.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanELincoln&Eliz.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

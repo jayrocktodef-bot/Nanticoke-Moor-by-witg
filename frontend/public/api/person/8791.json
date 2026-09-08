@@ -11,7 +11,11 @@
     "birth_info": "1868 Sussex, DE, USA",
     "death_info": "1897 Sussex, DE, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1868 Sussex, DE, USA",
+    "birth_place": null,
+    "death_date": "1897 Sussex, DE, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -198,6 +202,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 409,
@@ -205,13 +210,15 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 7978,
       "rel_name": "Lydia Ann Wright Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8632,
@@ -221,6 +228,24 @@
   "photos": [
     {
       "person_id": 8791,
+      "photo_id": 636,
+      "category": "people",
+      "title_or_caption": "Davis_Mary_Eliz_Jackson.jpg",
+      "subject_names": "Mary Eliz Jackson Davis",
+      "married_surname": "Davis",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Davis_Mary_Eliz_Jackson.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisMaryElizJackson.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 8791,
       "photo_id": 3245,
       "category": "people",
       "title_or_caption": "Mary_Elizabeth_Jackson.jpg",
@@ -228,6 +253,24 @@
       "married_surname": "Mary",
       "approximate_year": null,
       "local_image_path": "assets/archive_media/people/Mary_Elizabeth_Jackson.jpg",
+      "source_url": null,
+      "dataset_source": "images",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 8791,
+      "photo_id": 3246,
+      "category": "people",
+      "title_or_caption": "Mary_Elizabeth_Jackson_var1.jpg",
+      "subject_names": "Elizabeth Jackson Var1 Mary",
+      "married_surname": "Mary",
+      "approximate_year": null,
+      "local_image_path": "assets/archive_media/people/Mary_Elizabeth_Jackson_var1.jpg",
       "source_url": null,
       "dataset_source": "images",
       "document_type": "portrait",
@@ -269,42 +312,6 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 8791,
-      "photo_id": 3246,
-      "category": "people",
-      "title_or_caption": "Mary_Elizabeth_Jackson_var1.jpg",
-      "subject_names": "Elizabeth Jackson Var1 Mary",
-      "married_surname": "Mary",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/people/Mary_Elizabeth_Jackson_var1.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 8791,
-      "photo_id": 636,
-      "category": "people",
-      "title_or_caption": "Davis_Mary_Eliz_Jackson.jpg",
-      "subject_names": "Mary Eliz Jackson Davis",
-      "married_surname": "Davis",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Davis_Mary_Eliz_Jackson.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisMaryElizJackson.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

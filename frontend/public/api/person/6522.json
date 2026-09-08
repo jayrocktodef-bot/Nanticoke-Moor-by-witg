@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": "20 September, 1923",
     "notes": "Ingested from MorganRaymond&MaryVirginia.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "20 September, 1923",
+    "death_place": null
   },
   "facts": [
     {
@@ -103,24 +107,6 @@
     },
     {
       "person_id": 6522,
-      "photo_id": 1599,
-      "category": "people",
-      "title_or_caption": "Morgan_Raymond_And_Virginia_2002.jpg",
-      "subject_names": "Morgan Raymond & Virginia 2002",
-      "married_surname": "Morgan",
-      "approximate_year": "2002",
-      "local_image_path": "assets/archive_media/people/Morgan_Raymond_And_Virginia_2002.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganRaymond&MaryVirginia.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 6522,
       "photo_id": 1588,
       "category": "people",
       "title_or_caption": "Morgan_Mary_Elva_C.jpg",
@@ -151,6 +137,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6522,
+      "photo_id": 1599,
+      "category": "people",
+      "title_or_caption": "Morgan_Raymond_And_Virginia_2002.jpg",
+      "subject_names": "Morgan Raymond & Virginia 2002",
+      "married_surname": "Morgan",
+      "approximate_year": "2002",
+      "local_image_path": "assets/archive_media/people/Morgan_Raymond_And_Virginia_2002.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganRaymond&MaryVirginia.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

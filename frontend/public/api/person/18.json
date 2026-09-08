@@ -11,7 +11,11 @@
     "birth_info": "1864",
     "death_info": "29 Apr 1914 (aged 49\u201350)",
     "notes": "Linked to jacksnw1.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/286061339/john-jackson",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "1864",
+    "birth_place": null,
+    "death_date": "29 Apr 1914 (aged 49\u201350)",
+    "death_place": null
   },
   "facts": [
     {
@@ -263,28 +267,32 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F67@ marriage",
       "certainty": "confirmed",
       "rel_id": 9555,
       "rel_name": "Eliza Parker Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 500,
       "rel_name": "Francis Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9557,
       "rel_name": "Mary Priscilla Jackson-Jack Ridgeway"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8718,

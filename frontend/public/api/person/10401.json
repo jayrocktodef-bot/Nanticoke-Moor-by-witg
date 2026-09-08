@@ -11,7 +11,11 @@
     "birth_info": "1728 Somerset, Maryland, USA",
     "death_info": "1808 North Carolina, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1728 Somerset, Maryland, USA",
+    "birth_place": null,
+    "death_date": "1808 North Carolina, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,7 +97,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9985,

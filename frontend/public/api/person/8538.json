@@ -8,10 +8,14 @@
     "married_last_name": "Davis",
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
-    "birth_info": "25 Apr 1927",
-    "death_info": "10 Dec 1967 (aged 40)",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/46561854/martha-davis (Buried at Pine Bloom Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "birth_info": "abt 1794",
+    "death_info": "unknown",
+    "notes": "",
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1794",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -37,7 +41,7 @@
       "fact_id": 8024,
       "person_id": 8538,
       "fact_type": "Birth",
-      "date_string": "25 Apr 1927",
+      "date_string": "abt 1794",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -56,7 +60,7 @@
       "fact_id": 8025,
       "person_id": 8538,
       "fact_type": "Death",
-      "date_string": "10 Dec 1967 (aged 40)",
+      "date_string": "unknown",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -74,65 +78,95 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F216@ marriage 1784",
       "certainty": "confirmed",
       "rel_id": 4643,
       "rel_name": "Henry Lovell Rees Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8541,
       "rel_name": "Marion C Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8542,
       "rel_name": "Margaret Davis"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 4643,
-      "rel_name": "Henry Lovell Rees Davis"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8543,
       "rel_name": "Daniel Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8544,
       "rel_name": "Leona Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8545,
       "rel_name": "N Davis Thomas"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8546,
       "rel_name": "John R Davis"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 8538,
+      "photo_id": 3528,
+      "category": "documents",
+      "title_or_caption": "1900_Martha_Jackson_33809165.json",
+      "subject_names": "1900 Federal Census - Martha Jackson Household",
+      "married_surname": "Davis",
+      "approximate_year": "1900",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/33809165:7602",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    }
+  ],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7516,
+      "category": "CHRONOLOGY_RECONCILED",
+      "severity": "info",
+      "person_id": 8538,
+      "person_id_secondary": null,
+      "description": "Corrected impossible modern FindAGrave dates to estimated ~1794",
+      "evidence": "Children born starting 1819",
+      "created_at": "2026-09-08 03:58:38"
+    }
+  ],
   "ancestry": {
     "id": 8538,
     "name": "Martha Peggy Davis",

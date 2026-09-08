@@ -47,28 +47,31 @@ export default function CommandPalette({ isOpen, onClose, onSelectPerson, onSele
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-start justify-center pt-20 p-4 animate-fade-in" onClick={onClose}>
+    <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-start justify-center pt-4 sm:pt-20 p-2 sm:p-4 animate-fade-in" onClick={onClose}>
       <div 
-        className="w-full max-w-2xl bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl overflow-hidden flex flex-col"
+        className="w-full max-w-2xl bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[88vh]"
         onClick={e => e.stopPropagation()}
       >
         {/* Search Bar Header */}
-        <div className="p-4 border-b border-slate-800 flex items-center gap-3 bg-slate-900/90">
+        <div className="p-3 sm:p-4 border-b border-slate-800 flex items-center gap-3 bg-slate-900/90">
           <Search className="w-5 h-5 text-amber-400 shrink-0" />
           <input
             type="text"
             autoFocus
-            placeholder="Search individuals, surnames, Bible entries, census records... (Esc to close)"
+            placeholder="Search records, surnames, individuals..."
             value={query}
             onChange={e => setQuery(e.target.value)}
-            className="w-full bg-transparent text-slate-100 placeholder-slate-500 focus:outline-none text-base font-medium"
+            className="w-full bg-transparent text-slate-100 placeholder-slate-500 focus:outline-none text-sm sm:text-base font-medium"
           />
           {query && (
-            <button onClick={() => setQuery('')} className="p-1 text-slate-400 hover:text-white">
+            <button onClick={() => setQuery('')} className="p-1.5 text-slate-400 hover:text-white" aria-label="Clear search">
               <X className="w-4 h-4" />
             </button>
           )}
-          <span className="text-[10px] font-mono text-slate-500 bg-slate-800 px-2 py-1 rounded">ESC</span>
+          <button onClick={onClose} className="sm:hidden p-1.5 text-slate-400 hover:text-white" aria-label="Close dialog">
+            <X className="w-5 h-5" />
+          </button>
+          <span className="hidden sm:inline text-[10px] font-mono text-slate-500 bg-slate-800 px-2 py-1 rounded">ESC</span>
         </div>
 
         {/* Search Results List */}

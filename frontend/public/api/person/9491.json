@@ -11,7 +11,11 @@
     "birth_info": "8 Oct 1933 Cheswold",
     "death_info": "16 Mar 2021",
     "notes": "[Suffix 'Sr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "8 Oct 1933 Cheswold",
+    "birth_place": null,
+    "death_date": "16 Mar 2021",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,21 +78,24 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F84@ marriage",
       "certainty": "confirmed",
       "rel_id": 10135,
       "rel_name": "Helen Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9492,
       "rel_name": "Peggy Ridgeway"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10134,
@@ -96,6 +103,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 3722,
@@ -136,11 +144,6 @@
                         "children": []
                       }
                     ]
-                  },
-                  {
-                    "id": 8766,
-                    "name": "Sarah A Johnson",
-                    "children": []
                   }
                 ]
               }

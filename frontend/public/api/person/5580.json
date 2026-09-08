@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "Mar 1881",
     "notes": "Ingested from FaulknerLawrenceDean.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/161391133/lawrence-faulkner",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "Mar 1881",
+    "death_place": null
   },
   "facts": [
     {
@@ -76,24 +80,6 @@
   "photos": [
     {
       "person_id": 5580,
-      "photo_id": 989,
-      "category": "people",
-      "title_or_caption": "Faulkner_Larry_And_Greer.jpg",
-      "subject_names": "Faulkner Larry & Greer",
-      "married_surname": "Faulkner",
-      "approximate_year": "1925",
-      "local_image_path": "assets/archive_media/people/Faulkner_Larry_And_Greer.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/FaulknerLawrenceDean.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 5580,
       "photo_id": 992,
       "category": "people",
       "title_or_caption": "Faulkner_Long_Tall_Lean_Larry_Dean.jpg",
@@ -106,6 +92,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 5580,
+      "photo_id": 989,
+      "category": "people",
+      "title_or_caption": "Faulkner_Larry_And_Greer.jpg",
+      "subject_names": "Faulkner Larry & Greer",
+      "married_surname": "Faulkner",
+      "approximate_year": "1925",
+      "local_image_path": "assets/archive_media/people/Faulkner_Larry_And_Greer.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/FaulknerLawrenceDean.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

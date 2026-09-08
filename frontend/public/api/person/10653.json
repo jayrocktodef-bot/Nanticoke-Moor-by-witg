@@ -11,7 +11,11 @@
     "birth_info": "1 Jan 1791 Pennsylvania, United States",
     "death_info": "6 Feb 1831 Philadelphia, Philadelphia, Pennsylvania, United States",
     "notes": "[Suffix 'Sr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1 Jan 1791 Pennsylvania, United States",
+    "birth_place": null,
+    "death_date": "6 Feb 1831 Philadelphia, Philadelphia, Pennsylvania, United States",
+    "death_place": null
   },
   "facts": [
     {
@@ -94,6 +98,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10457,

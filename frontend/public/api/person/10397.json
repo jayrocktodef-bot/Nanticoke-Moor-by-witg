@@ -11,7 +11,11 @@
     "birth_info": "1755 Delaware, United States",
     "death_info": "Dec 1793",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1755 Delaware, United States",
+    "birth_place": null,
+    "death_date": "Dec 1793",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 4056,

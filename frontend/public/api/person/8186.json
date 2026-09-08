@@ -11,7 +11,11 @@
     "birth_info": "10 Jan 1908",
     "death_info": "19 Mar 1987 (aged 79)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/96734753/elsie-davis (Buried at Cheney Hill Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "10 Jan 1908",
+    "birth_place": null,
+    "death_date": "19 Mar 1987 (aged 79)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,34 +79,39 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8185,
       "rel_name": "Hester A. Morris Davis"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F227@ marriage",
       "certainty": "confirmed",
       "rel_id": 8996,
       "rel_name": "Joseph Thomas Clark"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9142,
       "rel_name": "Mildred Bernice Clark"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8179,
       "rel_name": "Bertha M Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9143,
@@ -163,6 +172,24 @@
       "contains_face": 0,
       "face_context": "none",
       "routing_target": null
+    },
+    {
+      "person_id": 8186,
+      "photo_id": 3431,
+      "category": "documents",
+      "title_or_caption": "TH-267-12650-87611-81.jpg",
+      "subject_names": "Marriage Federal Census - Elsie Rebecca Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Marriage",
+      "local_image_path": "ancestry_documents/delaware_census/TH-267-12650-87611-81.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/1500094280:61368",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
     }
   ],
   "obituaries": [],
@@ -182,13 +209,7 @@
               {
                 "id": 8617,
                 "name": "Negro Morris Thomas",
-                "children": [
-                  {
-                    "id": 9992,
-                    "name": "Sally Wright",
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
                 "id": 8910,
@@ -219,6 +240,11 @@
                 ]
               }
             ]
+          },
+          {
+            "id": 11246,
+            "name": "Francis E. Morris",
+            "children": []
           }
         ]
       }

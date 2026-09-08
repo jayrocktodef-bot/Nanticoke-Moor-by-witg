@@ -11,7 +11,11 @@
     "birth_info": "abt 1910 New Jersey",
     "death_info": null,
     "notes": "WikiTree: https://www.wikitree.com/wiki/Harmon-11398 (Harmon-11398) | FindAGrave: no match",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1910 New Jersey",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -56,13 +60,15 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8928,
       "rel_name": "Johanna Josephine Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9653,
@@ -123,28 +129,23 @@
                 ]
               },
               {
-                "id": 10290,
-                "name": "Harriet Ann Harmon",
+                "id": 8921,
+                "name": "Eliza Jane Morris",
                 "children": [
                   {
-                    "id": 10291,
-                    "name": "Charles S Harmon",
+                    "id": 9958,
+                    "name": "Emma Jane Johnson",
                     "children": [
                       {
-                        "id": 10260,
-                        "name": "Adjoniah R. Harmon",
-                        "children": []
-                      },
-                      {
-                        "id": 10293,
-                        "name": "Harriet Louisa Hansor Harmon",
+                        "id": 9936,
+                        "name": "Sarah Adeline Hanzer",
                         "children": []
                       }
                     ]
                   },
                   {
-                    "id": 10292,
-                    "name": "Ann Mariah Harmon",
+                    "id": 10539,
+                    "name": "Samuel Roland Johnson",
                     "children": []
                   }
                 ]

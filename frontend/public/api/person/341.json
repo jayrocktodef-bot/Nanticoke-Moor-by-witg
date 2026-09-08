@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "4 Mar 1992",
     "notes": "Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/168763784/dorothy-carney | Ingested from CarneyNorace&Dot.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/168763784/dorothy-carney",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "4 Mar 1992",
+    "death_place": null
   },
   "facts": [
     {
@@ -132,6 +136,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10128,
@@ -139,13 +144,15 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10689,
       "rel_name": "Anna Mosley"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Dorothy Carney married Horace Carney, Jr.",
       "certainty": "confirmed",
       "rel_id": 11625,
@@ -173,18 +180,18 @@
     },
     {
       "person_id": 341,
-      "photo_id": 1524,
+      "photo_id": 209,
       "category": "people",
-      "title_or_caption": "Meyers_Ella_Loatman_And_Dorothy.jpg",
-      "subject_names": "Meyers Ella Loatman & Dorothy",
-      "married_surname": "Meyers",
-      "approximate_year": "1910",
-      "local_image_path": "assets/archive_media/people/Meyers_Ella_Loatman_And_Dorothy.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/LoatmanJohn&Anthalinda.htm",
+      "title_or_caption": "Carney_Dorothy_Eleanor_2002.jpg",
+      "subject_names": "Dorothy Eleanor Carney",
+      "married_surname": "Carney",
+      "approximate_year": "1970",
+      "local_image_path": "assets/archive_media/people/Carney_Dorothy_Eleanor_2002.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyGarlandFamily.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
+      "document_type": "portrait",
       "asset_type": "photograph",
-      "subtype": "family_group",
+      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -209,18 +216,18 @@
     },
     {
       "person_id": 341,
-      "photo_id": 209,
+      "photo_id": 1524,
       "category": "people",
-      "title_or_caption": "Carney_Dorothy_Eleanor_2002.jpg",
-      "subject_names": "Dorothy Eleanor Carney",
-      "married_surname": "Carney",
-      "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/people/Carney_Dorothy_Eleanor_2002.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyGarlandFamily.htm",
+      "title_or_caption": "Meyers_Ella_Loatman_And_Dorothy.jpg",
+      "subject_names": "Meyers Ella Loatman & Dorothy",
+      "married_surname": "Meyers",
+      "approximate_year": "1910",
+      "local_image_path": "assets/archive_media/people/Meyers_Ella_Loatman_And_Dorothy.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/LoatmanJohn&Anthalinda.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait",
+      "document_type": "group_photo",
       "asset_type": "photograph",
-      "subtype": "studio_portrait",
+      "subtype": "family_group",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

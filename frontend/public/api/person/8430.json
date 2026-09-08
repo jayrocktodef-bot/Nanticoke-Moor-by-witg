@@ -8,10 +8,14 @@
     "married_last_name": "Goldsborough",
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
-    "birth_info": "28 Mar 1905",
-    "death_info": "9 Feb 1980 (aged 74)",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/106728747/john-goldsborough",
-    "dataset_source": "davis_family_gedcom"
+    "birth_info": "abt 1827",
+    "death_info": "unknown",
+    "notes": "",
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1827",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -37,7 +41,7 @@
       "fact_id": 7917,
       "person_id": 8430,
       "fact_type": "Birth",
-      "date_string": "28 Mar 1905",
+      "date_string": "abt 1827",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -56,7 +60,7 @@
       "fact_id": 7918,
       "person_id": 8430,
       "fact_type": "Death",
-      "date_string": "9 Feb 1980 (aged 74)",
+      "date_string": "unknown",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -74,35 +78,40 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F78@ marriage",
       "certainty": "confirmed",
       "rel_id": 8429,
       "rel_name": "Armenia Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8432,
       "rel_name": "Lillian B Goldsborough"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8433,
       "rel_name": "Flossie Goldsborough"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8435,
       "rel_name": "Edith G Goldsborough"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8431,
@@ -111,7 +120,18 @@
   ],
   "photos": [],
   "obituaries": [],
-  "audit_flags": [],
+  "audit_flags": [
+    {
+      "id": 7514,
+      "category": "CHRONOLOGY_RECONCILED",
+      "severity": "info",
+      "person_id": 8430,
+      "person_id_secondary": null,
+      "description": "Corrected impossible modern FindAGrave dates to estimated ~1827",
+      "evidence": "Children born starting 1852",
+      "created_at": "2026-09-08 03:58:38"
+    }
+  ],
   "ancestry": {
     "id": 8430,
     "name": "John W Goldsborough",

@@ -11,7 +11,11 @@
     "birth_info": "Aug 1843 Dagsboro Hundred, Sussex County, Delaware, USA",
     "death_info": "7 Mar 1916 Millsboro, Sussex, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Aug 1843 Dagsboro Hundred, Sussex County, Delaware, USA",
+    "birth_place": null,
+    "death_date": "7 Mar 1916 Millsboro, Sussex, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,64 +97,23 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F172@ marriage",
       "certainty": "confirmed",
       "rel_id": 10291,
       "rel_name": "Charles S Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10290,
       "rel_name": "Harriet Ann Harmon"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 10291,
-      "rel_name": "Charles S Harmon"
     }
   ],
   "photos": [
-    {
-      "person_id": 10292,
-      "photo_id": 1405,
-      "category": "people",
-      "title_or_caption": "Johnson_Harley_And_Bernard_1.jpg",
-      "subject_names": "Johnson Harley & Bernard 1",
-      "married_surname": "Johnson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_Harley_And_Bernard_1.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 10292,
-      "photo_id": 1442,
-      "category": "people",
-      "title_or_caption": "Johnson_William_Arthur_1.jpg",
-      "subject_names": "William Arthur Johnson",
-      "married_surname": "Johnson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_William_Arthur_1.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "document",
-      "subtype": "studio_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
     {
       "person_id": 10292,
       "photo_id": 1398,
@@ -189,6 +152,24 @@
     },
     {
       "person_id": 10292,
+      "photo_id": 1442,
+      "category": "people",
+      "title_or_caption": "Johnson_William_Arthur_1.jpg",
+      "subject_names": "William Arthur Johnson",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_William_Arthur_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "document",
+      "subtype": "studio_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 10292,
       "photo_id": 1443,
       "category": "people",
       "title_or_caption": "Johnson_William_Howard_1.jpg",
@@ -204,6 +185,24 @@
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"
+    },
+    {
+      "person_id": 10292,
+      "photo_id": 1405,
+      "category": "people",
+      "title_or_caption": "Johnson_Harley_And_Bernard_1.jpg",
+      "subject_names": "Johnson Harley & Bernard 1",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_Harley_And_Bernard_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 10292,

@@ -11,7 +11,11 @@
     "birth_info": "1899",
     "death_info": "8 Sep 1967 (aged 67\u201368)",
     "notes": "Ingested from SammonsMaryElizabethMunce.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/258534861/bertha-dean",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1899",
+    "birth_place": null,
+    "death_date": "8 Sep 1967 (aged 67\u201368)",
+    "death_place": null
   },
   "facts": [
     {
@@ -104,18 +108,18 @@
   "photos": [
     {
       "person_id": 7290,
-      "photo_id": 2241,
+      "photo_id": 2220,
       "category": "people",
-      "title_or_caption": "Sammons_Perry_And_Bertha_Dean.jpg",
-      "subject_names": "Sammons Perry & Bertha Dean",
+      "title_or_caption": "Sammons_Mary_Eliz_Munce.jpg",
+      "subject_names": "Mary Eliz Munce Sammons",
       "married_surname": "Sammons",
       "approximate_year": "1841",
-      "local_image_path": "assets/archive_media/people/Sammons_Perry_And_Bertha_Dean.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsMaryElizabethMunce.htm",
+      "local_image_path": "assets/archive_media/people/Sammons_Mary_Eliz_Munce.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsPerry&Bertha.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
+      "document_type": "portrait",
       "asset_type": "photograph",
-      "subtype": "group_portrait",
+      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -134,6 +138,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 7290,
+      "photo_id": 2241,
+      "category": "people",
+      "title_or_caption": "Sammons_Perry_And_Bertha_Dean.jpg",
+      "subject_names": "Sammons Perry & Bertha Dean",
+      "married_surname": "Sammons",
+      "approximate_year": "1841",
+      "local_image_path": "assets/archive_media/people/Sammons_Perry_And_Bertha_Dean.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsMaryElizabethMunce.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -155,24 +177,6 @@
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"
-    },
-    {
-      "person_id": 7290,
-      "photo_id": 2220,
-      "category": "people",
-      "title_or_caption": "Sammons_Mary_Eliz_Munce.jpg",
-      "subject_names": "Mary Eliz Munce Sammons",
-      "married_surname": "Sammons",
-      "approximate_year": "1841",
-      "local_image_path": "assets/archive_media/people/Sammons_Mary_Eliz_Munce.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsPerry&Bertha.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
     }
   ],
   "obituaries": [],

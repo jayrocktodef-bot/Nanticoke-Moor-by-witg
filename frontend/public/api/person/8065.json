@@ -11,7 +11,11 @@
     "birth_info": "30 Jul 1786",
     "death_info": "23 Jun 1877 (aged 90)",
     "notes": "Ingested from WilsonHowardC&BessieMosley.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/107431155/anna-wilson | Ingested from FraimJeanetteMosley.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/107431155/anna-wilson",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "30 Jul 1786",
+    "birth_place": null,
+    "death_date": "23 Jun 1877 (aged 90)",
+    "death_place": null
   },
   "facts": [
     {
@@ -142,24 +146,6 @@
   "photos": [
     {
       "person_id": 8065,
-      "photo_id": 2464,
-      "category": "documents",
-      "title_or_caption": "Wilson_Anna_Jeanette_Grad.jpg",
-      "subject_names": "Anna Jeanette Wilson (Historical Document)",
-      "married_surname": "Wilson",
-      "approximate_year": "1950",
-      "local_image_path": "assets/archive_media/people/Wilson_Anna_Jeanette_Grad.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StricklandAnnaWilson.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "graduation_portrait",
-      "asset_type": "photograph",
-      "subtype": "graduation_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 8065,
       "photo_id": 2465,
       "category": "people",
       "title_or_caption": "Wilson_Anna_Jteen.jpg",
@@ -172,6 +158,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 8065,
+      "photo_id": 2464,
+      "category": "documents",
+      "title_or_caption": "Wilson_Anna_Jeanette_Grad.jpg",
+      "subject_names": "Anna Jeanette Wilson (Historical Document)",
+      "married_surname": "Wilson",
+      "approximate_year": "1950",
+      "local_image_path": "assets/archive_media/people/Wilson_Anna_Jeanette_Grad.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/StricklandAnnaWilson.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "graduation_portrait",
+      "asset_type": "photograph",
+      "subtype": "graduation_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

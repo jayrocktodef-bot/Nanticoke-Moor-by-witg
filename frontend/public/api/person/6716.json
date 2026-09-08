@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "1947",
     "notes": "Ingested from MosleyCharlesHenryFamily.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/198139594/anna-jeanette",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "1947",
+    "death_place": null
   },
   "facts": [
     {
@@ -85,6 +89,24 @@
   "photos": [
     {
       "person_id": 6716,
+      "photo_id": 1663,
+      "category": "people",
+      "title_or_caption": "Mosley_Anna_Jeanette.jpg",
+      "subject_names": "Anna Jeanette Mosley",
+      "married_surname": "Mosley",
+      "approximate_year": "1861",
+      "local_image_path": "assets/archive_media/people/Mosley_Anna_Jeanette.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6716,
       "photo_id": 2340,
       "category": "people",
       "title_or_caption": "Terry_Betty_And_Anna_Jeanette.jpg",
@@ -115,24 +137,6 @@
       "document_type": "graduation_portrait",
       "asset_type": "photograph",
       "subtype": "graduation_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 6716,
-      "photo_id": 1663,
-      "category": "people",
-      "title_or_caption": "Mosley_Anna_Jeanette.jpg",
-      "subject_names": "Anna Jeanette Mosley",
-      "married_surname": "Mosley",
-      "approximate_year": "1861",
-      "local_image_path": "assets/archive_media/people/Mosley_Anna_Jeanette.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

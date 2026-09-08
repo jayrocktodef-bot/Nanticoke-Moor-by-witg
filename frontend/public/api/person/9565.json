@@ -11,7 +11,11 @@
     "birth_info": "13 Nov 1892 Rehoboth",
     "death_info": "1 July 1973 New Castle County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "13 Nov 1892 Rehoboth",
+    "birth_place": null,
+    "death_date": "1 July 1973 New Castle County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -94,6 +98,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9520,
@@ -101,6 +106,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9149,

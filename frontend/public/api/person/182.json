@@ -11,7 +11,11 @@
     "birth_info": "11 Jun 1945",
     "death_info": "21 Oct 2004 (aged 59)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/23782054/david-driggers",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "11 Jun 1945",
+    "birth_place": null,
+    "death_date": "21 Oct 2004 (aged 59)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Hester Durham who married David Driggers",
       "certainty": "confirmed",
       "rel_id": 181,

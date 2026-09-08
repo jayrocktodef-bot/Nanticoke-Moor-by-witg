@@ -11,7 +11,11 @@
     "birth_info": "1872",
     "death_info": "1955 (aged 82\u201383)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/156975791/flora-thompson",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1872",
+    "birth_place": null,
+    "death_date": "1955 (aged 82\u201383)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8703,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8832,

@@ -8,10 +8,14 @@
     "married_last_name": "PERKINS",
     "evidence_level": 3,
     "source_page": "dean-m3.htm",
-    "birth_info": null,
+    "birth_info": "8 January,  1835",
     "death_info": "1929",
     "notes": "",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "8 January,  1835",
+    "birth_place": null,
+    "death_date": "1929",
+    "death_place": null
   },
   "facts": [
     {
@@ -41,11 +45,31 @@
       "place_string": null,
       "value_string": "d. 1929",
       "citations": []
+    },
+    {
+      "fact_id": 15964,
+      "person_id": 11598,
+      "fact_type": "Birth",
+      "date_string": "8 January,  1835",
+      "place_string": null,
+      "value_string": "Born 8 January,  1835",
+      "citations": [
+        {
+          "citation_id": 14774,
+          "fact_id": 15964,
+          "source_id": null,
+          "evidence_text": "Documented in dean-m3.htm: n  and his wife, (Mary) Ann Cork. \n\nMary Elizabeth married  James PERKINS , the son of Mitchell Perkins and Sarah Becketts. James was born on 8 January, \n1835\n in Delaware. \n\nSometime between \n1850\n a",
+          "source_title": null,
+          "source_url": null,
+          "source_dataset": null
+        }
+      ]
     }
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Mary Elizabeth married  James PERKINS , the son of Mitchell Perkins and Sarah Becketts. James was born on 8 January,",
       "certainty": "confirmed",
       "rel_id": 7237,

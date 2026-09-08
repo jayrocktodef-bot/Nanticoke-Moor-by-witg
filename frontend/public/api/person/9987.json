@@ -8,10 +8,14 @@
     "married_last_name": "Ridgeway",
     "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
-    "birth_info": "1822",
-    "death_info": "1823 (aged 0\u20131)",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/221719246/john-ridgeway",
-    "dataset_source": "davis_family_gedcom"
+    "birth_info": "abt 1767",
+    "death_info": "unknown",
+    "notes": "",
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1767",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -37,7 +41,7 @@
       "fact_id": 9380,
       "person_id": 9987,
       "fact_type": "Birth",
-      "date_string": "1822",
+      "date_string": "abt 1767",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -56,7 +60,7 @@
       "fact_id": 9381,
       "person_id": 9987,
       "fact_type": "Death",
-      "date_string": "1823 (aged 0\u20131)",
+      "date_string": "unknown",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -83,7 +87,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9986,
@@ -121,6 +126,16 @@
       "description": "[XPAGE:carty-h3.htm] Marriage: date='30 October 1967'",
       "evidence": "verbatim: married Burt Schroeder   Hopewell died on 30 October 1967",
       "created_at": "2026-09-03T12:55:45.626008"
+    },
+    {
+      "id": 7531,
+      "category": "CHRONOLOGY_RECONCILED",
+      "severity": "info",
+      "person_id": 9987,
+      "person_id_secondary": null,
+      "description": "Corrected impossible modern FindAGrave dates to estimated ~1767",
+      "evidence": "Children born starting 1792",
+      "created_at": "2026-09-08 03:58:38"
     }
   ],
   "ancestry": {

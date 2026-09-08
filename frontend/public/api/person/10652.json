@@ -11,7 +11,11 @@
     "birth_info": "6 Apr 1815",
     "death_info": "24 Jan 1901 Indian River Hundred, Sussex, Delaware, United States",
     "notes": "WikiTree: https://www.wikitree.com/wiki/Norwood-3012 (Norwood-3012)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "6 Apr 1815",
+    "birth_place": null,
+    "death_date": "24 Jan 1901 Indian River Hundred, Sussex, Delaware, United States",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10457,

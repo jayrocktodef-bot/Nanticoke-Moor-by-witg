@@ -11,7 +11,11 @@
     "birth_info": "11 December 1856 Delaware, United States of America",
     "death_info": "2 August 1940 Millsboro, Sussex County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "11 December 1856 Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "2 August 1940 Millsboro, Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,14 +78,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9958,
       "rel_name": "Emma Jane Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9963,
@@ -89,6 +95,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9096,
@@ -96,17 +103,11 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9940,
       "rel_name": "Sophia J. Hanzer"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9507,
-      "rel_name": "Mary Johnson"
     }
   ],
   "photos": [],

@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": "1949",
     "notes": " | FindAGrave: no match",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "1949",
+    "death_place": null
   },
   "facts": [
     {
@@ -119,22 +123,7 @@
       ]
     }
   ],
-  "relationships": [
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 974,
-      "rel_name": "Robert K Harmon"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (81.5% confidence) between Lynn C. Jackson archive and Moors of Delaware | Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 1056,
-      "rel_name": "Robert Harmon"
-    }
-  ],
+  "relationships": [],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

@@ -11,7 +11,11 @@
     "birth_info": "1823",
     "death_info": "25 Sep 1847 (aged 23\u201324)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/107222243/nancy-thompson",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1823",
+    "birth_place": null,
+    "death_date": "25 Sep 1847 (aged 23\u201324)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8840,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8841,

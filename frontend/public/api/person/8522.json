@@ -11,7 +11,11 @@
     "birth_info": "9 Feb 2010",
     "death_info": "25 Oct 2010 (aged 8 months)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/198091296/joshua-davis (Buried at Oakhill Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "9 Feb 2010",
+    "birth_place": null,
+    "death_date": "25 Oct 2010 (aged 8 months)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8519,

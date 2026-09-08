@@ -8,10 +8,14 @@
     "married_last_name": "Cott",
     "evidence_level": 3,
     "source_page": "cott.htm",
-    "birth_info": "unknown",
+    "birth_info": "August 24,  1843",
     "death_info": "March 31 1918",
     "notes": "Linked to cott-r.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/34962998/r-s-cott",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "August 24,  1843",
+    "birth_place": null,
+    "death_date": "March 31 1918",
+    "death_place": null
   },
   "facts": [
     {
@@ -37,9 +41,9 @@
       "fact_id": 368,
       "person_id": 234,
       "fact_type": "Birth",
-      "date_string": "unknown",
+      "date_string": "August 24,  1843",
       "place_string": null,
-      "value_string": null,
+      "value_string": "Born August 24,  1843",
       "citations": [
         {
           "citation_id": 368,
@@ -49,6 +53,15 @@
           "source_title": "Record: cott.htm",
           "source_url": "cott.htm",
           "source_dataset": "lynncjackson"
+        },
+        {
+          "citation_id": 14758,
+          "fact_id": 368,
+          "source_id": null,
+          "evidence_text": "Documented in cott-r.htm: Rebecca Cott\nPreserved Primary Document \u2022 cott-r.htm\n\n\n\n\nphoto curtesy of John Carter  \n\n\n\tRebecca Cott was born in Kent County DE on August 24, \n1843\n, the daughter of  John D. Cott  and \this wife, S",
+          "source_title": null,
+          "source_url": null,
+          "source_dataset": null
         }
       ]
     },
@@ -179,24 +192,6 @@
     },
     {
       "person_id": 234,
-      "photo_id": 3235,
-      "category": "people",
-      "title_or_caption": "Rebecca_Cott.jpg",
-      "subject_names": "Rebecca Cott",
-      "married_surname": "Rebecca",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/people/Rebecca_Cott.jpg",
-      "source_url": null,
-      "dataset_source": "images",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 234,
       "photo_id": 2155,
       "category": "people",
       "title_or_caption": "Ridgeway_Rebecca_Cott_2.jpg",
@@ -206,6 +201,24 @@
       "local_image_path": "assets/archive_media/people/Ridgeway_Rebecca_Cott_2.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/RidgewayRebeccaCott.htm",
       "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 234,
+      "photo_id": 3235,
+      "category": "people",
+      "title_or_caption": "Rebecca_Cott.jpg",
+      "subject_names": "Rebecca Cott",
+      "married_surname": "Rebecca",
+      "approximate_year": null,
+      "local_image_path": "assets/archive_media/people/Rebecca_Cott.jpg",
+      "source_url": null,
+      "dataset_source": "images",
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",

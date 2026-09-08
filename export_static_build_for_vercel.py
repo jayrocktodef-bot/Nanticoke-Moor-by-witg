@@ -47,6 +47,29 @@ def redact_living_person(person_data):
     p['is_living'] = True
     return p
 
+def parse_date_and_place(info_text: str):
+    """Parse date and place components from a raw genealogical info string."""
+    if not info_text or str(info_text).lower() in ('unknown', 'none', '', 'private'):
+        return None, None
+    text = str(info_text).strip()
+    place = None
+    date_part = text
+    m_paren = re.search(r'\(([^)]+)\)', text)
+    if m_paren:
+        inside = m_paren.group(1).strip()
+        if not re.search(r'^\s*aged\s+\d+', inside, re.IGNORECASE) and not re.match(r'^\d+$', inside):
+            place = inside
+            date_part = text[:m_paren.start()].strip()
+        else:
+            date_part = text
+    
+    m_in = re.search(r'\s+in\s+([A-Z][a-zA-Z\s,]+)$', date_part)
+    if m_in and not place:
+        place = m_in.group(1).strip()
+        date_part = date_part[:m_in.start()].strip()
+        
+    return date_part.rstrip(',. ').strip() or None, place
+
 def export_all():
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
@@ -231,23 +254,44 @@ def export_all():
     parents_map = {}
     for r in rel_rows:
         pa, pb, rtype, ev, cert, n1, n2 = r['person_a_id'], r['person_b_id'], r['relationship_type'], r['evidence_text'], r['certainty'], r['p1_name'], r['p2_name']
-        rels_map.setdefault(pa, []).append({"relationship_type": rtype, "evidence_text": ev, "certainty": cert, "rel_id": pb, "rel_name": n2})
-        rels_map.setdefault(pb, []).append({"relationship_type": rtype, "evidence_text": ev, "certainty": cert, "rel_id": pa, "rel_name": n1})
         if rtype == 'child_of':
+            rels_map.setdefault(pa, []).append({"relationship_type": "child_of", "role": "parent", "evidence_text": ev, "certainty": cert, "rel_id": pb, "rel_name": n2})
+            rels_map.setdefault(pb, []).append({"relationship_type": "parent_of", "role": "child", "evidence_text": ev, "certainty": cert, "rel_id": pa, "rel_name": n1})
             parents_map.setdefault(pa, []).append({"id": pb, "name": n2})
+        elif rtype == 'parent_of':
+            rels_map.setdefault(pa, []).append({"relationship_type": "parent_of", "role": "child", "evidence_text": ev, "certainty": cert, "rel_id": pb, "rel_name": n2})
+            rels_map.setdefault(pb, []).append({"relationship_type": "child_of", "role": "parent", "evidence_text": ev, "certainty": cert, "rel_id": pa, "rel_name": n1})
+            parents_map.setdefault(pb, []).append({"id": pa, "name": n1})
+        elif rtype in ('spouse', 'spouse_of'):
+            rels_map.setdefault(pa, []).append({"relationship_type": "spouse_of", "role": "spouse", "evidence_text": ev, "certainty": cert, "rel_id": pb, "rel_name": n2})
+            rels_map.setdefault(pb, []).append({"relationship_type": "spouse_of", "role": "spouse", "evidence_text": ev, "certainty": cert, "rel_id": pa, "rel_name": n1})
+        elif rtype in ('sibling', 'sibling_of'):
+            rels_map.setdefault(pa, []).append({"relationship_type": "sibling_of", "role": "sibling", "evidence_text": ev, "certainty": cert, "rel_id": pb, "rel_name": n2})
+            rels_map.setdefault(pb, []).append({"relationship_type": "sibling_of", "role": "sibling", "evidence_text": ev, "certainty": cert, "rel_id": pa, "rel_name": n1})
 
-    # Pre-fetch all photos
+    # Pre-fetch all photos prioritizing studio portraits
     c.execute("""
-        SELECT pp.person_id, upc.photo_id, upc.category, upc.normalized_filename as title_or_caption,
+        SELECT COALESCE(pp.person_id, upc.primary_person_id) as person_id, upc.photo_id, upc.category, upc.normalized_filename as title_or_caption,
                upc.subject_names, upc.surname as married_surname, upc.approximate_year,
                upc.local_image_path, upc.source_url, upc.dataset_source, upc.document_type,
                upc.asset_type, upc.subtype, upc.contains_face, upc.face_context, upc.routing_target
-        FROM person_photos pp
-        JOIN unified_photo_catalog upc ON pp.photo_id = upc.photo_id
+        FROM unified_photo_catalog upc
+        LEFT JOIN person_photos pp ON pp.photo_id = upc.photo_id
+        WHERE pp.person_id IS NOT NULL OR upc.primary_person_id IS NOT NULL
+        ORDER BY 
+            CASE 
+                WHEN upc.subtype = 'studio_portrait' THEN 1
+                WHEN upc.asset_type = 'photograph' THEN 2
+                WHEN upc.contains_face = 1 THEN 3
+                ELSE 4 
+            END ASC,
+            upc.photo_id ASC
     """)
     photos_map = {}
     for r in c.fetchall():
-        photos_map.setdefault(r['person_id'], []).append(dict(r))
+        pid = r['person_id']
+        if pid:
+            photos_map.setdefault(pid, []).append(dict(r))
 
     # Pre-fetch all obituaries
     c.execute("""
@@ -310,14 +354,21 @@ def export_all():
         for f in p_facts:
             f['citations'] = citations_map.get(f['fact_id'], [])
 
-        person_record = p
+        person_record = dict(p)
+        b_date, b_place = parse_date_and_place(person_record.get("birth_info"))
+        d_date, d_place = parse_date_and_place(person_record.get("death_info"))
+        person_record["birth_date"] = b_date
+        person_record["birth_place"] = b_place
+        person_record["death_date"] = d_date
+        person_record["death_place"] = d_place
+
         exported_facts = p_facts
         exported_photos = photos_map.get(pid, [])
         exported_obits = obits_map.get(pid, [])
 
         if is_probably_living(p):
             living_pids.add(pid)
-            person_record = redact_living_person(p)
+            person_record = redact_living_person(person_record)
             exported_facts = []  # Don't export biographical facts for living people
             exported_photos = []  # Don't export photos of living people
             exported_obits = []  # Living people don't have obituaries but be safe

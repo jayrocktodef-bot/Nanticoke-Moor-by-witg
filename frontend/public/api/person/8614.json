@@ -11,7 +11,11 @@
     "birth_info": "1758",
     "death_info": "10 May 1839 (aged 80\u201381)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/88977442/katherina-davis (Buried at Yellow Church Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1758",
+    "birth_place": null,
+    "death_date": "10 May 1839 (aged 80\u201381)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,14 +78,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F177@ marriage 1781 prob Herkimer Co., NY",
       "certainty": "confirmed",
       "rel_id": 8629,
       "rel_name": "Jost Henry Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8613,

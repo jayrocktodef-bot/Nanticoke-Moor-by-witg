@@ -87,25 +87,27 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
   return (
     <div className="fixed inset-0 z-50 bg-[#0C0F12] text-[#E5E1DB] overflow-y-auto custom-scrollbar flex flex-col font-sans animate-fade-in">
       {/* Sticky Top Navigation Bar */}
-      <div className="sticky top-0 z-40 bg-[#12161D]/95 backdrop-blur-md border-b border-[#222B38] px-4 sm:px-8 py-3.5 flex items-center justify-between shadow-xl">
-        <div className="flex items-center gap-3">
+      <div className="sticky top-0 z-40 bg-[#12161D]/95 backdrop-blur-md border-b border-[#222B38] px-3 sm:px-8 py-3 flex items-center justify-between shadow-xl gap-2">
+        <div className="flex items-center gap-2 sm:gap-3 min-w-0">
           <button
             onClick={onClose}
-            className="flex items-center gap-2 text-[#9EA9B6] hover:text-[#C87D53] transition-colors font-medium text-sm px-3 py-1.5 rounded-xl hover:bg-[#1A222E]"
+            className="flex items-center gap-1.5 text-[#9EA9B6] hover:text-[#C87D53] transition-colors font-medium text-xs sm:text-sm px-2.5 sm:px-3 py-1.5 rounded-xl hover:bg-[#1A222E] min-h-[40px] shrink-0"
+            aria-label="Back to all surnames"
           >
             <ArrowLeft className="w-4 h-4" />
-            <span>All Surnames</span>
+            <span className="hidden xs:inline sm:inline">All Surnames</span>
+            <span className="xs:hidden sm:hidden">Back</span>
           </button>
-          <span className="text-[#3A4759]">/</span>
-          <span className="font-serif-header text-lg font-bold text-[#F3EBE3] tracking-wide">
+          <span className="text-[#3A4759] hidden sm:inline">/</span>
+          <span className="font-serif-header text-base sm:text-lg font-bold text-[#F3EBE3] tracking-wide truncate">
             {surname} Portal
           </span>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           <button
             onClick={() => window.print()}
-            className="flex items-center gap-1.5 bg-[#171E27] hover:bg-[#222C38] border border-[#2B3848] text-[#D8D1C7] text-xs font-mono px-3 py-1.5 rounded-xl transition-all"
+            className="flex items-center gap-1.5 bg-[#171E27] hover:bg-[#222C38] border border-[#2B3848] text-[#D8D1C7] text-xs font-mono px-2.5 sm:px-3 py-1.5 rounded-xl transition-all min-h-[40px]"
             title="Print Family Record"
           >
             <Printer className="w-3.5 h-3.5 text-[#C87D53]" />
@@ -118,15 +120,17 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
                 onClose();
                 onOpenGraph(surname);
               }}
-              className="flex items-center gap-2 bg-[#1B2430] hover:bg-[#253243] border border-[#2F3D50] text-[#D4A373] text-xs font-mono font-medium px-3.5 py-2 rounded-xl transition-all"
+              className="flex items-center gap-1.5 sm:gap-2 bg-[#1B2430] hover:bg-[#253243] border border-[#2F3D50] text-[#D4A373] text-xs font-mono font-medium px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-xl transition-all min-h-[40px]"
+              title="Open Interactive Lineage Tree"
             >
               <GitFork className="w-3.5 h-3.5 text-[#C87D53]" />
-              <span>Interactive Lineage Tree</span>
+              <span className="hidden md:inline">Lineage Tree</span>
             </button>
           )}
           <button
             onClick={onClose}
-            className="p-2 rounded-xl bg-[#171E27] border border-[#2B3746] text-[#9EA9B6] hover:text-[#F3EBE3] hover:border-[#C87D53]/50 transition-all"
+            className="p-2 rounded-xl bg-[#171E27] border border-[#2B3746] text-[#9EA9B6] hover:text-[#F3EBE3] hover:border-[#C87D53]/50 transition-all min-w-[40px] min-h-[40px] flex items-center justify-center"
+            aria-label="Close surname portal"
           >
             <X className="w-4 h-4" />
           </button>
@@ -206,66 +210,66 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
           </div>
 
           {/* Sub-Navigation Tabs */}
-          <div className="flex flex-wrap items-center justify-between gap-4 border-b border-[#222B38] pb-4">
-            <div className="flex flex-wrap items-center gap-2 bg-[#141A22] border border-[#263342] p-1.5 rounded-2xl">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 border-b border-[#222B38] pb-4">
+            <div className="flex items-center gap-2 bg-[#141A22] border border-[#263342] p-1.5 rounded-2xl overflow-x-auto no-scrollbar max-w-full">
               <button
                 onClick={() => setActiveTab('photos')}
-                className={`flex items-center gap-2.5 px-4 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-semibold transition-all ${
+                className={`flex items-center gap-2 px-3.5 sm:px-4 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap shrink-0 transition-all ${
                   activeTab === 'photos'
                     ? 'bg-[#C87D53] text-[#0C0F12] font-bold shadow-md'
                     : 'text-[#D8D1C7] hover:text-[#F3EBE3]'
                 }`}
               >
-                <Camera className="w-4 h-4" />
+                <Camera className="w-4 h-4 shrink-0" />
                 <span>Photographs ({photos.length})</span>
               </button>
 
               <button
                 onClick={() => setActiveTab('members')}
-                className={`flex items-center gap-2.5 px-4 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-semibold transition-all ${
+                className={`flex items-center gap-2 px-3.5 sm:px-4 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap shrink-0 transition-all ${
                   activeTab === 'members'
                     ? 'bg-[#C87D53] text-[#0C0F12] font-bold shadow-md'
                     : 'text-[#D8D1C7] hover:text-[#F3EBE3]'
                 }`}
               >
-                <Users className="w-4 h-4" />
+                <Users className="w-4 h-4 shrink-0" />
                 <span>Family Members ({individuals.length})</span>
               </button>
 
               <button
                 onClick={() => setActiveTab('trees')}
-                className={`flex items-center gap-2.5 px-4 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-semibold transition-all ${
+                className={`flex items-center gap-2 px-3.5 sm:px-4 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap shrink-0 transition-all ${
                   activeTab === 'trees'
                     ? 'bg-[#C87D53] text-[#0C0F12] font-bold shadow-md'
                     : 'text-[#D8D1C7] hover:text-[#F3EBE3]'
                 }`}
               >
-                <GitFork className="w-4 h-4" />
+                <GitFork className="w-4 h-4 shrink-0" />
                 <span>Family Trees ({familyTrees.length})</span>
               </button>
 
               <button
                 onClick={() => setActiveTab('obituaries')}
-                className={`flex items-center gap-2.5 px-4 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-semibold transition-all ${
+                className={`flex items-center gap-2 px-3.5 sm:px-4 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap shrink-0 transition-all ${
                   activeTab === 'obituaries'
                     ? 'bg-[#C87D53] text-[#0C0F12] font-bold shadow-md'
                     : 'text-[#D8D1C7] hover:text-[#F3EBE3]'
                 }`}
               >
-                <HeartHandshake className="w-4 h-4" />
+                <HeartHandshake className="w-4 h-4 shrink-0" />
                 <span>Memorials ({obituaries.length})</span>
               </button>
             </div>
 
             {activeTab === 'members' && (
-              <div className="relative w-full sm:w-72">
+              <div className="relative w-full sm:w-72 shrink-0">
                 <Search className="w-4 h-4 text-[#7D8B9B] absolute left-3 top-1/2 -translate-y-1/2" />
                 <input
                   type="text"
                   placeholder={`Search ${surname} members...`}
                   value={memberSearch}
                   onChange={e => setMemberSearch(e.target.value)}
-                  className="w-full bg-[#141A22] border border-[#263342] focus:border-[#C87D53] text-xs text-[#E5E1DB] pl-9 pr-3 py-2 rounded-xl outline-none"
+                  className="w-full bg-[#141A22] border border-[#263342] focus:border-[#C87D53] text-xs text-[#E5E1DB] pl-9 pr-3 py-2.5 rounded-xl outline-none"
                 />
               </div>
             )}
@@ -275,8 +279,8 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
           {activeTab === 'photos' && (
             <div className="space-y-6">
               {/* Photo Category Filter Pills */}
-              <div className="flex flex-wrap items-center gap-2 text-xs">
-                <span className="text-[#7D8B9B] font-mono mr-2 flex items-center gap-1">
+              <div className="flex items-center gap-2 text-xs overflow-x-auto no-scrollbar pb-1 max-w-full">
+                <span className="text-[#7D8B9B] font-mono mr-2 flex items-center gap-1 shrink-0">
                   <Filter className="w-3 h-3" /> Filter:
                 </span>
                 {[
@@ -592,7 +596,7 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
                       {lightboxPhoto.approximate_year ? ` • Year: ${lightboxPhoto.approximate_year}` : ''}
                     </p>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex flex-wrap items-center gap-2">
                     {lightboxPhoto.person_id && onSelectPerson && (
                       <button
                         onClick={() => {
@@ -600,7 +604,7 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
                           setLightboxPhoto(null);
                           onSelectPerson(personId);
                         }}
-                        className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#223348] hover:bg-[#2C415C] border border-[#48638A] text-[#F3EBE3] text-xs font-mono font-semibold transition-all shadow-md"
+                        className="flex items-center gap-1.5 px-3 py-2 min-h-[40px] rounded-xl bg-[#223348] hover:bg-[#2C415C] border border-[#48638A] text-[#F3EBE3] text-xs font-mono font-semibold transition-all shadow-md"
                         title="View Individual Ancestor Profile"
                       >
                         <User className="w-3.5 h-3.5 text-cyan-300" />
@@ -613,20 +617,22 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
                         setLightboxPhoto(null);
                         setTranscribedDocId(pid);
                       }}
-                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#C87D53] hover:bg-[#D4A373] text-[#0A0D11] text-xs font-mono font-bold transition-all shadow-md"
+                      className="flex items-center gap-1.5 px-3 py-2 min-h-[40px] rounded-xl bg-[#C87D53] hover:bg-[#D4A373] text-[#0A0D11] text-xs font-mono font-bold transition-all shadow-md"
                     >
                       <FileText className="w-3.5 h-3.5" />
                       <span>Transcribed Version</span>
                     </button>
-                    <a
-                      href={lightboxPhoto.local_image_path.startsWith('/') ? lightboxPhoto.local_image_path : '/' + lightboxPhoto.local_image_path}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#1B2430] border border-[#2E3C4E] text-[#D4A373] hover:text-white text-xs font-mono transition-all"
-                    >
-                      <span>Full File</span>
-                      <ExternalLink className="w-3.5 h-3.5" />
-                    </a>
+                    {lightboxPhoto.local_image_path && (
+                      <a
+                        href={lightboxPhoto.local_image_path.startsWith('/') ? lightboxPhoto.local_image_path : '/' + lightboxPhoto.local_image_path}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-1.5 px-3 py-2 min-h-[40px] rounded-xl bg-[#1B2430] border border-[#2E3C4E] text-[#D4A373] hover:text-white text-xs font-mono transition-all"
+                      >
+                        <span>Full File</span>
+                        <ExternalLink className="w-3.5 h-3.5" />
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

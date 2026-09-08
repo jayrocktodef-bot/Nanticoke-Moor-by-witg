@@ -11,7 +11,11 @@
     "birth_info": "7 Feb 1910",
     "death_info": "31 Aug 2001 (aged 91)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/288212353/reginald-davis (Buried at Forest Park Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "7 Feb 1910",
+    "birth_place": null,
+    "death_date": "31 Aug 2001 (aged 91)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8676,
@@ -82,13 +87,7 @@
     },
     {
       "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9140,
-      "rel_name": "Minnie Mae Street"
-    },
-    {
-      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10815,
@@ -136,13 +135,7 @@
                   {
                     "id": 8617,
                     "name": "Negro Morris Thomas",
-                    "children": [
-                      {
-                        "id": 9992,
-                        "name": "Sally Wright",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 8910,
@@ -161,54 +154,20 @@
                     ]
                   }
                 ]
+              },
+              {
+                "id": 11246,
+                "name": "Francis E. Morris",
+                "children": []
               }
             ]
           }
         ]
       },
       {
-        "id": 9140,
-        "name": "Minnie Mae Street",
-        "children": [
-          {
-            "id": 9145,
-            "name": "Benton C Street",
-            "children": []
-          },
-          {
-            "id": 9144,
-            "name": "Anne Harmon",
-            "children": [
-              {
-                "id": 10514,
-                "name": "Simon Harmon",
-                "children": [
-                  {
-                    "id": 1022,
-                    "name": "Bowen Harmon",
-                    "children": [
-                      {
-                        "id": 9982,
-                        "name": "Robert Emanuel Harmon",
-                        "children": []
-                      },
-                      {
-                        "id": 9983,
-                        "name": "Rachel Anne Johnson",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 7577,
-                    "name": "Lydia Clark",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+        "id": 10815,
+        "name": "Charles Morris Charlie Davis",
+        "children": []
       }
     ]
   }

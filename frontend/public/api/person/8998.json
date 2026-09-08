@@ -11,7 +11,11 @@
     "birth_info": "abt 1864 Delaware",
     "death_info": "1934 Delaware",
     "notes": "WikiTree: https://www.wikitree.com/wiki/Clark-93430 (Clark-93430) | WikiTree: https://www.wikitree.com/wiki/Clark-93432 (Clark-93432)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1864 Delaware",
+    "birth_place": null,
+    "death_date": "1934 Delaware",
+    "death_place": null
   },
   "facts": [
     {
@@ -189,6 +193,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9953,
@@ -196,34 +201,31 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9954,
       "rel_name": "Harriett Hettie Johnson"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F345@ marriage",
       "certainty": "confirmed",
       "rel_id": 8997,
       "rel_name": "Caroline Clark"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8999,
       "rel_name": "Hester Clark"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9000,
-      "rel_name": "Elizabeth Clark"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8996,

@@ -11,7 +11,11 @@
     "birth_info": "1893",
     "death_info": "1940 (aged 46\u201347)",
     "notes": "Ingested from FaulknerJames&Theresa.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/198244615/alma-collins",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1893",
+    "birth_place": null,
+    "death_date": "1940 (aged 46\u201347)",
+    "death_place": null
   },
   "facts": [
     {
@@ -76,24 +80,6 @@
   "photos": [
     {
       "person_id": 5630,
-      "photo_id": 982,
-      "category": "people",
-      "title_or_caption": "Faulkner_Alma_And_Larry.jpg",
-      "subject_names": "Faulkner Alma & Larry",
-      "married_surname": "Faulkner",
-      "approximate_year": "1925",
-      "local_image_path": "assets/archive_media/people/Faulkner_Alma_And_Larry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/FaulknerJames&Theresa.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 5630,
       "photo_id": 984,
       "category": "people",
       "title_or_caption": "Faulkner_Alma.jpg",
@@ -106,6 +92,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 5630,
+      "photo_id": 982,
+      "category": "people",
+      "title_or_caption": "Faulkner_Alma_And_Larry.jpg",
+      "subject_names": "Faulkner Alma & Larry",
+      "married_surname": "Faulkner",
+      "approximate_year": "1925",
+      "local_image_path": "assets/archive_media/people/Faulkner_Alma_And_Larry.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/FaulknerJames&Theresa.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

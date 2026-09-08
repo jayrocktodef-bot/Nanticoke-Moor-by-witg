@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "1 Feb 1932",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/77472415/harry-davis (Buried at Mount Hebron Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "1 Feb 1932",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,20 +79,23 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8185,
       "rel_name": "Hester A. Morris Davis"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F226@ marriage 8 April 1938 New Jersey, New Jersey, USA",
       "certainty": "confirmed",
       "rel_id": 8192,
       "rel_name": "Ethel Gwendolyn Clark"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8248,
@@ -185,6 +192,168 @@
       "contains_face": 0,
       "face_context": "none",
       "routing_target": null
+    },
+    {
+      "person_id": 8159,
+      "photo_id": 3433,
+      "category": "documents",
+      "title_or_caption": "Marriage_Harry_E__Davis_621161913.json",
+      "subject_names": "Marriage Federal Census - Harry E. Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Marriage",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/621161913:61843",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8159,
+      "photo_id": 3442,
+      "category": "documents",
+      "title_or_caption": "48649_556383-00042.jpg",
+      "subject_names": "Record Federal Census - Harry Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Record",
+      "local_image_path": "ancestry_documents/delaware_census/48649_556383-00042.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/1082553817:61253",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8159,
+      "photo_id": 3443,
+      "category": "documents",
+      "title_or_caption": "45654_B281203-00223.jpg",
+      "subject_names": "Record Federal Census - Harry E Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Record",
+      "local_image_path": "ancestry_documents/delaware_census/45654_B281203-00223.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/4526279:2378",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8159,
+      "photo_id": 3444,
+      "category": "documents",
+      "title_or_caption": "Record_Harry_E_Davis_5800566.json",
+      "subject_names": "Record Federal Census - Harry E Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Record",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/5800566:2441",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8159,
+      "photo_id": 3445,
+      "category": "documents",
+      "title_or_caption": "Record_Harry_E__Davis_14357289.json",
+      "subject_names": "Record Federal Census - Harry E. Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Record",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/14357289:3693",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8159,
+      "photo_id": 3450,
+      "category": "documents",
+      "title_or_caption": "SSDI_Harry_Edward_Davis_40915537.json",
+      "subject_names": "SSDI Federal Census - Harry Edward Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "SSDI",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/40915537:60901",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8159,
+      "photo_id": 3455,
+      "category": "documents",
+      "title_or_caption": "44003_01_00002-00337.jpg",
+      "subject_names": "WWII Federal Census - Harry Edward Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "WWII",
+      "local_image_path": "ancestry_documents/delaware_census/44003_01_00002-00337.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/6305332:2238",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8159,
+      "photo_id": 3547,
+      "category": "documents",
+      "title_or_caption": "Record_Harry_Jackson_614769324.json",
+      "subject_names": "Record Federal Census - Harry Jackson Household",
+      "married_surname": "Davis",
+      "approximate_year": "Record",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/614769324:5164",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8159,
+      "photo_id": 3620,
+      "category": "documents",
+      "title_or_caption": "1930_Harry_C_Mosley_121476945.json",
+      "subject_names": "1930 Federal Census - Harry C Mosley Household",
+      "married_surname": "Davis",
+      "approximate_year": "1930",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/121476945:6224",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
     }
   ],
   "obituaries": [],
@@ -204,13 +373,7 @@
               {
                 "id": 8617,
                 "name": "Negro Morris Thomas",
-                "children": [
-                  {
-                    "id": 9992,
-                    "name": "Sally Wright",
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
                 "id": 8910,
@@ -241,6 +404,11 @@
                 ]
               }
             ]
+          },
+          {
+            "id": 11246,
+            "name": "Francis E. Morris",
+            "children": []
           }
         ]
       }

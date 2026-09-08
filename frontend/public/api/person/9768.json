@@ -11,7 +11,11 @@
     "birth_info": "5 February 1909 Delaware",
     "death_info": "25 July 1980 Seaford, Sussex County, Delaware, United States of America",
     "notes": "[Suffix 'Sr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "5 February 1909 Delaware",
+    "birth_place": null,
+    "death_date": "25 July 1980 Seaford, Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8381,
@@ -82,17 +87,11 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8382,
       "rel_name": "Mary C Thompson"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9509,
-      "rel_name": "Joseph B. S. Thompson"
     }
   ],
   "photos": [],

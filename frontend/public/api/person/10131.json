@@ -11,7 +11,11 @@
     "birth_info": "21 Aug 1961",
     "death_info": "7 Oct 2021 (aged 60)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/233456115/christopher-ridgeway",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "21 Aug 1961",
+    "birth_place": null,
+    "death_date": "7 Oct 2021 (aged 60)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F113@ marriage Abt 2000",
       "certainty": "confirmed",
       "rel_id": 9492,

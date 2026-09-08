@@ -12,26 +12,25 @@
     "death_info": "",
     "notes": "",
     "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1768 Sussex",
+    "birth_place": null,
+    "death_date": "26 Dec 1856 Delaware, USA",
+    "death_place": null,
     "is_living": true
   },
   "facts": [],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F47@ marriage  Sussex Co, DE",
       "certainty": "confirmed",
       "rel_id": 9336,
       "rel_name": "James Clark"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9336,
-      "rel_name": "James Clark"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9335,
@@ -39,6 +38,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10542,
@@ -46,6 +46,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10374,
@@ -79,18 +80,7 @@
                   {
                     "id": 8862,
                     "name": "William Harmon",
-                    "children": [
-                      {
-                        "id": 9407,
-                        "name": "David Roland Harmon Sr",
-                        "children": []
-                      },
-                      {
-                        "id": 8927,
-                        "name": "Eliza Jane Harmon",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   }
                 ]
               },

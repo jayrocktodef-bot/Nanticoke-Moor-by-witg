@@ -11,7 +11,11 @@
     "birth_info": "16 Nov 1950",
     "death_info": "22 Aug 2023 (aged 72)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/258887155/robert-green",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "16 Nov 1950",
+    "birth_place": null,
+    "death_date": "22 Aug 2023 (aged 72)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9358,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9357,

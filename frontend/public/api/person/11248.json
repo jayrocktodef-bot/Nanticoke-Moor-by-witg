@@ -11,7 +11,11 @@
     "birth_info": "1844",
     "death_info": "1929",
     "notes": "Mother of John Asbury Thompson",
-    "dataset_source": "findagrave"
+    "dataset_source": "findagrave",
+    "birth_date": "1844",
+    "birth_place": null,
+    "death_date": "1929",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,6 +88,7 @@
   "relationships": [
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": null,
       "certainty": "confirmed",
       "rel_id": 1681,

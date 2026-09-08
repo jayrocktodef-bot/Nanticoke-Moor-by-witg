@@ -11,7 +11,11 @@
     "birth_info": "6 Sep 1843",
     "death_info": "4 Mar 1873 (aged 29)",
     "notes": "Linked to concl-e1.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/5062174/john-kigar",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "6 Sep 1843",
+    "birth_place": null,
+    "death_date": "4 Mar 1873 (aged 29)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Hannah Durham married to Elijah Concilor",
       "certainty": "confirmed",
       "rel_id": 337,

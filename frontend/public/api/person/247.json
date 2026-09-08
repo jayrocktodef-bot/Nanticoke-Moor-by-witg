@@ -11,7 +11,11 @@
     "birth_info": "3 Mar 1837",
     "death_info": "10 Feb 1877 (aged 39)",
     "notes": "Linked to dean-w.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/44619846/william-dean | Linked to dean-w3.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/44619846/william-dean",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "3 Mar 1837",
+    "birth_place": null,
+    "death_date": "10 Feb 1877 (aged 39)",
+    "death_place": null
   },
   "facts": [
     {
@@ -489,41 +493,8 @@
       ]
     }
   ],
-  "relationships": [
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 7156,
-      "rel_name": "William Edgar Ridgeway"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 368,
-      "rel_name": "William Sammons"
-    }
-  ],
+  "relationships": [],
   "photos": [
-    {
-      "person_id": 247,
-      "photo_id": 1669,
-      "category": "people",
-      "title_or_caption": "Mosley_Annie_And_Will_Morgan_2.jpg",
-      "subject_names": "Mosley Annie & Will Morgan 2",
-      "married_surname": "Mosley",
-      "approximate_year": "1861",
-      "local_image_path": "assets/archive_media/people/Mosley_Annie_And_Will_Morgan_2.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "group_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
     {
       "person_id": 247,
       "photo_id": 713,
@@ -552,6 +523,24 @@
       "approximate_year": "",
       "local_image_path": "assets/archive_media/people/Dean_William_And_Eliza.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DeanWilliam&Eliza.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "group_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 247,
+      "photo_id": 1669,
+      "category": "people",
+      "title_or_caption": "Mosley_Annie_And_Will_Morgan_2.jpg",
+      "subject_names": "Mosley Annie & Will Morgan 2",
+      "married_surname": "Mosley",
+      "approximate_year": "1861",
+      "local_image_path": "assets/archive_media/people/Mosley_Annie_And_Will_Morgan_2.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",
       "asset_type": "document",

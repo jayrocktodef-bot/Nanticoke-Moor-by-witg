@@ -11,7 +11,11 @@
     "birth_info": "10 Aug 1827",
     "death_info": "15 Sep 1863 (aged 36)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/144928460/s-augusta-harmon",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "10 Aug 1827",
+    "birth_place": null,
+    "death_date": "15 Sep 1863 (aged 36)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,13 +79,15 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9372,
       "rel_name": "Eliza J. Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9716,
@@ -100,74 +106,57 @@
         "name": "Eliza J. Harmon",
         "children": [
           {
-            "id": 10514,
-            "name": "Simon Harmon",
+            "id": 8683,
+            "name": "Josiah Joseph Morris",
             "children": [
               {
-                "id": 1022,
-                "name": "Bowen Harmon",
+                "id": 8617,
+                "name": "Negro Morris Thomas",
+                "children": []
+              },
+              {
+                "id": 8910,
+                "name": "Leticia Morris",
                 "children": [
                   {
-                    "id": 9982,
-                    "name": "Robert Emanuel Harmon",
-                    "children": []
-                  },
-                  {
-                    "id": 9983,
-                    "name": "Rachel Anne Johnson",
+                    "id": 8616,
+                    "name": "Stephen Wright",
                     "children": [
                       {
-                        "id": 9984,
-                        "name": "Isaac Johnson",
+                        "id": 8687,
+                        "name": "Benjamin Wright",
                         "children": []
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8684,
+                    "name": "Priscilla Miller",
+                    "children": [
                       {
-                        "id": 9985,
-                        "name": "Jemima WARD Johnson",
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
                         "children": []
                       }
                     ]
                   }
                 ]
-              },
-              {
-                "id": 7577,
-                "name": "Lydia Clark",
-                "children": []
               }
             ]
           },
           {
-            "id": 9928,
-            "name": "Lydia J Harmon",
+            "id": 8718,
+            "name": "Hester A Jackson",
             "children": [
               {
-                "id": 9931,
-                "name": "Raymond Harmon",
-                "children": [
-                  {
-                    "id": 8860,
-                    "name": "Hattie Miller",
-                    "children": [
-                      {
-                        "id": 8857,
-                        "name": "John E Miller",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
+                "id": 18,
+                "name": "John Jackson",
+                "children": []
               },
               {
-                "id": 8860,
-                "name": "Hattie Miller",
-                "children": [
-                  {
-                    "id": 8857,
-                    "name": "John E Miller",
-                    "children": []
-                  }
-                ]
+                "id": 9555,
+                "name": "Eliza Parker Jackson",
+                "children": []
               }
             ]
           }

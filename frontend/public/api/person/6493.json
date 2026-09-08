@@ -11,7 +11,11 @@
     "birth_info": "26 Apr 1891",
     "death_info": "12 Feb 1974 (aged 82)",
     "notes": "Ingested from MorganWilliam&Nora.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/76992109/alice-morgan",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "26 Apr 1891",
+    "birth_place": null,
+    "death_date": "12 Feb 1974 (aged 82)",
+    "death_place": null
   },
   "facts": [
     {
@@ -133,24 +137,6 @@
   "photos": [
     {
       "person_id": 6493,
-      "photo_id": 525,
-      "category": "people",
-      "title_or_caption": "Conley_Alice_Morgan_And_Husband.jpg",
-      "subject_names": "Conley Alice Morgan & Husband",
-      "married_surname": "Conley",
-      "approximate_year": "2000",
-      "local_image_path": "assets/archive_media/people/Conley_Alice_Morgan_And_Husband.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ConleyAliceMorgan&Husband.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 6493,
       "photo_id": 527,
       "category": "people",
       "title_or_caption": "Conley_Alice_Morgan.jpg",
@@ -163,6 +149,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6493,
+      "photo_id": 525,
+      "category": "people",
+      "title_or_caption": "Conley_Alice_Morgan_And_Husband.jpg",
+      "subject_names": "Conley Alice Morgan & Husband",
+      "married_surname": "Conley",
+      "approximate_year": "2000",
+      "local_image_path": "assets/archive_media/people/Conley_Alice_Morgan_And_Husband.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ConleyAliceMorgan&Husband.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

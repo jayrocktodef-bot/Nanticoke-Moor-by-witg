@@ -11,7 +11,11 @@
     "birth_info": "Mar 1891 Delaware",
     "death_info": "3 Feb 1918",
     "notes": "Restored connected Delmarva lineage from GEDCOM",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Mar 1891 Delaware",
+    "birth_place": null,
+    "death_date": "3 Feb 1918",
+    "death_place": null
   },
   "facts": [
     {
@@ -44,7 +48,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11050,
@@ -57,6 +62,12 @@
   "ancestry": {
     "id": 11052,
     "name": "Joseph B Cordrey",
-    "children": []
+    "children": [
+      {
+        "id": 11050,
+        "name": "Jacob B. Cordrey",
+        "children": []
+      }
+    ]
   }
 }

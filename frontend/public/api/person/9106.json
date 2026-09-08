@@ -11,7 +11,11 @@
     "birth_info": "Abt. 1862 Indian River Hundred, Sussex County, Delaware, USA",
     "death_info": "USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Abt. 1862 Indian River Hundred, Sussex County, Delaware, USA",
+    "birth_place": null,
+    "death_date": "USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -179,24 +183,11 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8921,
       "rel_name": "Eliza Jane Morris"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9531,
-      "rel_name": "Joseph Harmon"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9605,
-      "rel_name": "Mary Adline Clark"
     }
   ],
   "photos": [],
@@ -264,45 +255,6 @@
             "id": 10539,
             "name": "Samuel Roland Johnson",
             "children": []
-          }
-        ]
-      },
-      {
-        "id": 9531,
-        "name": "Joseph Harmon",
-        "children": [
-          {
-            "id": 8921,
-            "name": "Eliza Jane Morris",
-            "children": [
-              {
-                "id": 9958,
-                "name": "Emma Jane Johnson",
-                "children": [
-                  {
-                    "id": 9936,
-                    "name": "Sarah Adeline Hanzer",
-                    "children": [
-                      {
-                        "id": 9096,
-                        "name": "John C Hanzer",
-                        "children": []
-                      },
-                      {
-                        "id": 9940,
-                        "name": "Sophia J. Hanzer",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": 10539,
-                "name": "Samuel Roland Johnson",
-                "children": []
-              }
-            ]
           }
         ]
       }

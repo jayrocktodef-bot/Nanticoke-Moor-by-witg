@@ -11,7 +11,11 @@
     "birth_info": "1703",
     "death_info": "6 Jan 1776 (aged 72\u201373)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/288591195/isaac-thompson",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1703",
+    "birth_place": null,
+    "death_date": "6 Jan 1776 (aged 72\u201373)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8840,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8841,

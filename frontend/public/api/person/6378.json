@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Ingested from MassariSteven&Brett&Diane.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -38,24 +42,6 @@
   "photos": [
     {
       "person_id": 6378,
-      "photo_id": 1512,
-      "category": "people",
-      "title_or_caption": "Massari_Steven_And_Brett_And_Diane.jpg",
-      "subject_names": "Massari Steven & Brett & Diane",
-      "married_surname": "Massari",
-      "approximate_year": "1999",
-      "local_image_path": "assets/archive_media/people/Massari_Steven_And_Brett_And_Diane.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MassariSteven&Brett&Diane.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "group_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
-    {
-      "person_id": 6378,
       "photo_id": 1511,
       "category": "family_trees",
       "title_or_caption": "Massari_Diane_Reed_Ancestry.jpg",
@@ -68,6 +54,24 @@
       "document_type": "family_tree",
       "asset_type": "document",
       "subtype": "ancestor_pedigree_chart",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 6378,
+      "photo_id": 1512,
+      "category": "people",
+      "title_or_caption": "Massari_Steven_And_Brett_And_Diane.jpg",
+      "subject_names": "Massari Steven & Brett & Diane",
+      "married_surname": "Massari",
+      "approximate_year": "1999",
+      "local_image_path": "assets/archive_media/people/Massari_Steven_And_Brett_And_Diane.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MassariSteven&Brett&Diane.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "group_portrait",
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"

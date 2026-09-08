@@ -11,7 +11,11 @@
     "birth_info": "1733 Kent County, Delaware, USA",
     "death_info": "13 May 1788 Little Creek, Kent, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1733 Kent County, Delaware, USA",
+    "birth_place": null,
+    "death_date": "13 May 1788 Little Creek, Kent, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -1167,6 +1171,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10394,
@@ -1174,6 +1179,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10395,
@@ -1181,6 +1187,24 @@
     }
   ],
   "photos": [
+    {
+      "person_id": 10493,
+      "photo_id": 734,
+      "category": "people",
+      "title_or_caption": "Desc_John_Durham_Muncey.jpg",
+      "subject_names": "Desc John Durham Muncey",
+      "married_surname": "Desc",
+      "approximate_year": "1801",
+      "local_image_path": "assets/archive_media/people/Desc_John_Durham_Muncey.jpg",
+      "source_url": "http://mitsawokett.com/Durham-AncestralResearch.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 10493,
       "photo_id": 847,
@@ -1195,24 +1219,6 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 10493,
-      "photo_id": 940,
-      "category": "people",
-      "title_or_caption": "Durham_John_S_And_Wife_Marlene_J_Saul.jpg",
-      "subject_names": "Durham John S & Wife Marlene J Saul",
-      "married_surname": "Durham",
-      "approximate_year": "1855",
-      "local_image_path": "assets/archive_media/people/Durham_John_S_And_Wife_Marlene_J_Saul.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMartha_b1855.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -1273,18 +1279,18 @@
     },
     {
       "person_id": 10493,
-      "photo_id": 734,
+      "photo_id": 940,
       "category": "people",
-      "title_or_caption": "Desc_John_Durham_Muncey.jpg",
-      "subject_names": "Desc John Durham Muncey",
-      "married_surname": "Desc",
-      "approximate_year": "1801",
-      "local_image_path": "assets/archive_media/people/Desc_John_Durham_Muncey.jpg",
-      "source_url": "http://mitsawokett.com/Durham-AncestralResearch.htm",
+      "title_or_caption": "Durham_John_S_And_Wife_Marlene_J_Saul.jpg",
+      "subject_names": "Durham John S & Wife Marlene J Saul",
+      "married_surname": "Durham",
+      "approximate_year": "1855",
+      "local_image_path": "assets/archive_media/people/Durham_John_S_And_Wife_Marlene_J_Saul.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamMartha_b1855.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait",
+      "document_type": "group_photo",
       "asset_type": "photograph",
-      "subtype": "studio_portrait",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

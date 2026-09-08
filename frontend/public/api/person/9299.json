@@ -11,7 +11,11 @@
     "birth_info": "Dec 1874 Sussex, Delaware",
     "death_info": "3 Aug 1969 Lewes, Sussex County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Dec 1874 Sussex, Delaware",
+    "birth_place": null,
+    "death_date": "3 Aug 1969 Lewes, Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,28 +97,32 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F390@ marriage 1896",
       "certainty": "confirmed",
       "rel_id": 9300,
       "rel_name": "James Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9301,
       "rel_name": "Otis Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9302,
       "rel_name": "Enoch Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9298,
@@ -124,18 +132,18 @@
   "photos": [
     {
       "person_id": 9299,
-      "photo_id": 2407,
+      "photo_id": 1152,
       "category": "people",
-      "title_or_caption": "Whaley_Annie_Price_And_Rosa_Harmon.jpg",
-      "subject_names": "Whaley Annie Price & Rosa Harmon",
-      "married_surname": "Whaley",
-      "approximate_year": "1800",
-      "local_image_path": "assets/archive_media/people/Whaley_Annie_Price_And_Rosa_Harmon.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Price%20Eliza%20Jane%20Ingram%20Family.htm",
+      "title_or_caption": "Harmon_Annie_Pjohnson.jpg",
+      "subject_names": "Annie Pjohnson Harmon",
+      "married_surname": "Harmon",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Harmon_Annie_Pjohnson.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanTheodore&Anna.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
+      "document_type": "portrait",
       "asset_type": "photograph",
-      "subtype": "family_group",
+      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -160,18 +168,18 @@
     },
     {
       "person_id": 9299,
-      "photo_id": 1152,
+      "photo_id": 2407,
       "category": "people",
-      "title_or_caption": "Harmon_Annie_Pjohnson.jpg",
-      "subject_names": "Annie Pjohnson Harmon",
-      "married_surname": "Harmon",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Harmon_Annie_Pjohnson.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmanTheodore&Anna.htm",
+      "title_or_caption": "Whaley_Annie_Price_And_Rosa_Harmon.jpg",
+      "subject_names": "Whaley Annie Price & Rosa Harmon",
+      "married_surname": "Whaley",
+      "approximate_year": "1800",
+      "local_image_path": "assets/archive_media/people/Whaley_Annie_Price_And_Rosa_Harmon.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Price%20Eliza%20Jane%20Ingram%20Family.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait",
+      "document_type": "group_photo",
       "asset_type": "photograph",
-      "subtype": "studio_portrait",
+      "subtype": "family_group",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

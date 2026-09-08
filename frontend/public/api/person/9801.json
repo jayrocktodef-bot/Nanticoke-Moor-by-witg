@@ -11,7 +11,11 @@
     "birth_info": "29 Apr 1851",
     "death_info": "9 Mar 1925 (aged 73)",
     "notes": " | Buried at Harmony Cemetery (Verified via FindAGrave https://www.findagrave.com/memorial/41175790/mary-adline-harmon)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "29 Apr 1851",
+    "birth_place": null,
+    "death_date": "9 Mar 1925 (aged 73)",
+    "death_place": null
   },
   "facts": [
     {
@@ -94,6 +98,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9726,
@@ -101,6 +106,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9462,

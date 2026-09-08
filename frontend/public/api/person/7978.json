@@ -11,7 +11,11 @@
     "birth_info": "October 28th 1747",
     "death_info": "29 Jan 1840",
     "notes": "Ingested from WrightElwood.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/198336837/lydia-jackson | Ingested from DavisMaryElizJackson.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/198336837/lydia-jackson | Linked to wright-l.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/198336837/lydia-jackson | Verified via FindAGrave: https://www.findagrave.com/memorial/198336837/lydia-jackson",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "October 28th 1747",
+    "birth_place": null,
+    "death_date": "29 Jan 1840",
+    "death_place": null
   },
   "facts": [
     {
@@ -292,21 +296,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 439,
-      "rel_name": "William Jackson"
-    },
-    {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F70@ marriage",
       "certainty": "confirmed",
       "rel_id": 409,
       "rel_name": "Robert B. Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8791,

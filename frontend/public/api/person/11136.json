@@ -11,7 +11,11 @@
     "birth_info": "1 March 1833 Dagsboro Hundred, Sussex County, Delaware, USA",
     "death_info": "26 February 1915",
     "notes": "Restored connected Delmarva lineage from GEDCOM",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1 March 1833 Dagsboro Hundred, Sussex County, Delaware, USA",
+    "birth_place": null,
+    "death_date": "26 February 1915",
+    "death_place": null
   },
   "facts": [
     {
@@ -45,6 +49,7 @@
   "relationships": [
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11122,
@@ -52,13 +57,15 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11135,
       "rel_name": "E Ingram Thomas"
     },
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11137,
@@ -71,6 +78,12 @@
   "ancestry": {
     "id": 11136,
     "name": "R Ingram Thomas",
-    "children": []
+    "children": [
+      {
+        "id": 11137,
+        "name": "Abraham Ingram",
+        "children": []
+      }
+    ]
   }
 }

@@ -11,7 +11,11 @@
     "birth_info": "18 May 1880",
     "death_info": "unknown",
     "notes": "Mentioned in obituary | Verified via FindAGrave: https://www.findagrave.com/memorial/157188046/c-davis (Buried at Noxubee Cemetery)",
-    "dataset_source": "mitsawokett_obituaries"
+    "dataset_source": "mitsawokett_obituaries",
+    "birth_date": "18 May 1880",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -73,7 +77,44 @@
     }
   ],
   "relationships": [],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 10922,
+      "photo_id": 3552,
+      "category": "documents",
+      "title_or_caption": "1880_Ella_M__Clark_27033477.json",
+      "subject_names": "1880 Federal Census - Ella M. Clark Household",
+      "married_surname": "Davis",
+      "approximate_year": "1880",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/27033477:6742",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 10922,
+      "photo_id": 3619,
+      "category": "documents",
+      "title_or_caption": "1930_Ella_Mosley_121476946.json",
+      "subject_names": "1930 Federal Census - Ella Mosley Household",
+      "married_surname": "Davis",
+      "approximate_year": "1930",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/121476946:6224",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

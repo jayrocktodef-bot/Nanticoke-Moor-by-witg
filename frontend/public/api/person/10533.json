@@ -11,7 +11,11 @@
     "birth_info": "6 Sep 1857",
     "death_info": "30 Nov 1923 (aged 66)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/96725179/ellen-harmon",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "6 Sep 1857",
+    "birth_place": null,
+    "death_date": "30 Nov 1923 (aged 66)",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,20 +88,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 10514,
-      "rel_name": "Simon Harmon"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9928,
-      "rel_name": "Lydia J Harmon"
-    },
-    {
-      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 1022,
@@ -105,6 +96,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 7577,
@@ -149,82 +141,42 @@
     "name": "Ellen Harmon",
     "children": [
       {
-        "id": 10514,
-        "name": "Simon Harmon",
+        "id": 1022,
+        "name": "Bowen Harmon",
         "children": [
           {
-            "id": 1022,
-            "name": "Bowen Harmon",
+            "id": 9982,
+            "name": "Robert Emanuel Harmon",
+            "children": []
+          },
+          {
+            "id": 9983,
+            "name": "Rachel Anne Johnson",
             "children": [
               {
-                "id": 9982,
-                "name": "Robert Emanuel Harmon",
+                "id": 9984,
+                "name": "Isaac Johnson",
                 "children": []
               },
               {
-                "id": 9983,
-                "name": "Rachel Anne Johnson",
+                "id": 9985,
+                "name": "Jemima WARD Johnson",
                 "children": [
                   {
-                    "id": 9984,
-                    "name": "Isaac Johnson",
+                    "id": 10401,
+                    "name": "Rachel Johnson",
                     "children": []
-                  },
-                  {
-                    "id": 9985,
-                    "name": "Jemima WARD Johnson",
-                    "children": [
-                      {
-                        "id": 10401,
-                        "name": "Rachel Johnson",
-                        "children": []
-                      }
-                    ]
                   }
                 ]
               }
             ]
-          },
-          {
-            "id": 7577,
-            "name": "Lydia Clark",
-            "children": []
           }
         ]
       },
       {
-        "id": 9928,
-        "name": "Lydia J Harmon",
-        "children": [
-          {
-            "id": 9931,
-            "name": "Raymond Harmon",
-            "children": [
-              {
-                "id": 8860,
-                "name": "Hattie Miller",
-                "children": [
-                  {
-                    "id": 8857,
-                    "name": "John E Miller",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": 8860,
-            "name": "Hattie Miller",
-            "children": [
-              {
-                "id": 8857,
-                "name": "John E Miller",
-                "children": []
-              }
-            ]
-          }
-        ]
+        "id": 7577,
+        "name": "Lydia Clark",
+        "children": []
       }
     ]
   }

@@ -11,7 +11,11 @@
     "birth_info": "14 Feb 1803",
     "death_info": "17 Jun 1869 (aged 66)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/44617367/anna-gould",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "14 Feb 1803",
+    "birth_place": null,
+    "death_date": "17 Jun 1869 (aged 66)",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,7 +97,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Herbert Mosley married Anna GOULD",
       "certainty": "confirmed",
       "rel_id": 83,

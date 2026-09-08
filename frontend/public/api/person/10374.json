@@ -11,7 +11,11 @@
     "birth_info": "16 Apr 1750 Broadkill Hundred, Sussex County, Delaware, USA",
     "death_info": "1 October 1849 Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "16 Apr 1750 Broadkill Hundred, Sussex County, Delaware, USA",
+    "birth_place": null,
+    "death_date": "1 October 1849 Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,49 +78,56 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F145@ marriage",
       "certainty": "confirmed",
       "rel_id": 10542,
       "rel_name": "Nathaniel Nathan Norwood"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9334,
       "rel_name": "Lydia E Norwood"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10456,
       "rel_name": "Bowen Norwood"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10457,
       "rel_name": "Eli Norwood"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10458,
       "rel_name": "Noble Noke Norwood"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10459,
       "rel_name": "Nathan Norwood"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10543,
@@ -124,6 +135,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10540,
@@ -148,29 +160,7 @@
               {
                 "id": 8862,
                 "name": "William Harmon",
-                "children": [
-                  {
-                    "id": 9407,
-                    "name": "David Roland Harmon Sr",
-                    "children": []
-                  },
-                  {
-                    "id": 8927,
-                    "name": "Eliza Jane Harmon",
-                    "children": [
-                      {
-                        "id": 5763,
-                        "name": "Robert Marshall Hanzer",
-                        "children": []
-                      },
-                      {
-                        "id": 10290,
-                        "name": "Harriet Ann Harmon",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
+                "children": []
               }
             ]
           },

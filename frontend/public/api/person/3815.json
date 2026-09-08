@@ -11,7 +11,11 @@
     "birth_info": "28 Feb 1877",
     "death_info": "15 Feb 1946 (aged 68)",
     "notes": "Ingested from CarneyJohn&Sallie.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/117530051/sallie-carney",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "28 Feb 1877",
+    "birth_place": null,
+    "death_date": "15 Feb 1946 (aged 68)",
+    "death_place": null
   },
   "facts": [
     {
@@ -133,6 +137,24 @@
   "photos": [
     {
       "person_id": 3815,
+      "photo_id": 291,
+      "category": "people",
+      "title_or_caption": "Carney_Sallie.jpg",
+      "subject_names": "Sallie Carney",
+      "married_surname": "Carney",
+      "approximate_year": "1861",
+      "local_image_path": "assets/archive_media/people/Carney_Sallie.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyJohn&Sallie.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 3815,
       "photo_id": 245,
       "category": "people",
       "title_or_caption": "Carney_John_And_Sallie.jpg",
@@ -163,24 +185,6 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "family_group",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 3815,
-      "photo_id": 291,
-      "category": "people",
-      "title_or_caption": "Carney_Sallie.jpg",
-      "subject_names": "Sallie Carney",
-      "married_surname": "Carney",
-      "approximate_year": "1861",
-      "local_image_path": "assets/archive_media/people/Carney_Sallie.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyJohn&Sallie.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

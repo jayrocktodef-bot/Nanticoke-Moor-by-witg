@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "18 Feb 1882",
     "notes": "Restored connected Delmarva lineage from GEDCOM | Verified via FindAGrave: https://www.findagrave.com/memorial/259492571/daniel-turner",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "18 Feb 1882",
+    "death_place": null
   },
   "facts": [
     {
@@ -45,6 +49,7 @@
   "relationships": [
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11157,
@@ -52,6 +57,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11159,
@@ -59,6 +65,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11061,
@@ -66,13 +73,15 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11160,
       "rel_name": "Willard Turner"
     },
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11039,
@@ -85,6 +94,24 @@
   "ancestry": {
     "id": 11158,
     "name": "Daniel Turner",
-    "children": []
+    "children": [
+      {
+        "id": 11039,
+        "name": "Charles Ambrose Turner",
+        "children": [
+          {
+            "id": 11061,
+            "name": "Ambrose Turner",
+            "children": [
+              {
+                "id": 11158,
+                "name": "Daniel Turner",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

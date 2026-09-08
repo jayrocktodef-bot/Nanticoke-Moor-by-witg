@@ -11,7 +11,11 @@
     "birth_info": "1856",
     "death_info": "4 Jun 1927 (aged 70\u201371)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/107225416/john-miller",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1856",
+    "birth_place": null,
+    "death_date": "4 Jun 1927 (aged 70\u201371)",
+    "death_place": null
   },
   "facts": [
     {
@@ -216,14 +220,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8858,
       "rel_name": "WILLIAM ALONZO Miller SR"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8860,

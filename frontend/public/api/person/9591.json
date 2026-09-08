@@ -11,7 +11,11 @@
     "birth_info": "May 1838 Indian River Hundred, Sussex County, Delaware, USA",
     "death_info": "19 May 1904 Sussex County, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "May 1838 Indian River Hundred, Sussex County, Delaware, USA",
+    "birth_place": null,
+    "death_date": "19 May 1904 Sussex County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -112,35 +116,40 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F32@ marriage",
       "certainty": "confirmed",
       "rel_id": 9108,
       "rel_name": "Josephine Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9879,
       "rel_name": "Charles A. Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9880,
       "rel_name": "Theodore R. Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9881,
       "rel_name": "Eliza Anne Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10584,

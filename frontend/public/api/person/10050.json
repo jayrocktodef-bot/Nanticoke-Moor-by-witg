@@ -11,7 +11,11 @@
     "birth_info": "25 January 1911 Delaware, United States of America",
     "death_info": "February 1982 Sussex County, De",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "25 January 1911 Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "February 1982 Sussex County, De",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,35 +78,40 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F279@ marriage",
       "certainty": "confirmed",
       "rel_id": 9812,
       "rel_name": "Harvey Eli Hitchens"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10027,
       "rel_name": "Harvey Layton Hitchens"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10049,
       "rel_name": "Sarah Stump Hitchens"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 7835,
       "rel_name": "Thelma Hitchens"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 7833,
@@ -110,6 +119,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9167,

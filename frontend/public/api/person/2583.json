@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Ingested from preserved SocialSecurityApplications.htm record | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -38,24 +42,6 @@
   "photos": [
     {
       "person_id": 2583,
-      "photo_id": 921,
-      "category": "people",
-      "title_or_caption": "Durham_Walter_And_Rose.jpg",
-      "subject_names": "Durham Walter & Rose",
-      "married_surname": "Durham",
-      "approximate_year": "1940",
-      "local_image_path": "assets/archive_media/people/Durham_Walter_And_Rose.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWalter&Rose.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 2583,
       "photo_id": 865,
       "category": "people",
       "title_or_caption": "Durham_Marshall_E.jpg",
@@ -68,6 +54,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 2583,
+      "photo_id": 921,
+      "category": "people",
+      "title_or_caption": "Durham_Walter_And_Rose.jpg",
+      "subject_names": "Durham Walter & Rose",
+      "married_surname": "Durham",
+      "approximate_year": "1940",
+      "local_image_path": "assets/archive_media/people/Durham_Walter_And_Rose.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamWalter&Rose.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

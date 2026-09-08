@@ -11,7 +11,11 @@
     "birth_info": "1920",
     "death_info": "1985 (aged 64\u201365)",
     "notes": "Ingested from DavisWilliamHenry.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/197783628/beatrice-davis (Buried at Evergreen Cemetery)",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1920",
+    "birth_place": null,
+    "death_date": "1985 (aged 64\u201365)",
+    "death_place": null
   },
   "facts": [
     {
@@ -76,24 +80,6 @@
   "photos": [
     {
       "person_id": 4957,
-      "photo_id": 1290,
-      "category": "people",
-      "title_or_caption": "Hunter_Bea_Davis_And_Grace.jpg",
-      "subject_names": "Hunter Bea Davis & Grace",
-      "married_surname": "Hunter",
-      "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/people/Hunter_Bea_Davis_And_Grace.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisMichael.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 4957,
       "photo_id": 1292,
       "category": "people",
       "title_or_caption": "Hunter_Bea_Davis_2.jpg",
@@ -106,6 +92,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 4957,
+      "photo_id": 1290,
+      "category": "people",
+      "title_or_caption": "Hunter_Bea_Davis_And_Grace.jpg",
+      "subject_names": "Hunter Bea Davis & Grace",
+      "married_surname": "Hunter",
+      "approximate_year": "1970",
+      "local_image_path": "assets/archive_media/people/Hunter_Bea_Davis_And_Grace.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisMichael.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

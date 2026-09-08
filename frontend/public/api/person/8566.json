@@ -11,7 +11,11 @@
     "birth_info": "20 Apr 1740 Dorchester, Maryland",
     "death_info": "1808 Caroline, Maryland, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "20 Apr 1740 Dorchester, Maryland",
+    "birth_place": null,
+    "death_date": "1808 Caroline, Maryland, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -132,6 +136,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8450,

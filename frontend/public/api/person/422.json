@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "Oct 1908",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/47284218/robert-street",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "Oct 1908",
+    "death_place": null
   },
   "facts": [
     {
@@ -112,7 +116,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Robert Street married Agnes Hansley",
       "certainty": "confirmed",
       "rel_id": 423,

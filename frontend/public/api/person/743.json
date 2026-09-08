@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": "1965 (Millsboro, DE in 1965)",
     "notes": " | FindAGrave: no match",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "1965",
+    "death_place": "Millsboro, DE in 1965"
   },
   "facts": [
     {
@@ -45,7 +49,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Ida Nora Wright who married Charles Sammons",
       "certainty": "confirmed",
       "rel_id": 744,

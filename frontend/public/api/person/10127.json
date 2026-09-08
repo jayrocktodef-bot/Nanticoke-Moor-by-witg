@@ -11,7 +11,11 @@
     "birth_info": "5 February 1930 Dover, Kent County, Delaware, United States of America",
     "death_info": "28 December 2018 Dover, Kent County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "5 February 1930 Dover, Kent County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "28 December 2018 Dover, Kent County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -94,6 +98,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10126,
@@ -101,24 +106,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 10127,
-      "photo_id": 2215,
-      "category": "people",
-      "title_or_caption": "Sammons_Luther_And_Anita_And_Kids.jpg",
-      "subject_names": "Sammons Luther & Anita & Kids",
-      "married_surname": "Sammons",
-      "approximate_year": "1914",
-      "local_image_path": "assets/archive_media/people/Sammons_Luther_And_Anita_And_Kids.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NewhardArbanaBirdellaRidgway.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 10127,
       "photo_id": 2217,
@@ -133,6 +120,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 10127,
+      "photo_id": 2215,
+      "category": "people",
+      "title_or_caption": "Sammons_Luther_And_Anita_And_Kids.jpg",
+      "subject_names": "Sammons Luther & Anita & Kids",
+      "married_surname": "Sammons",
+      "approximate_year": "1914",
+      "local_image_path": "assets/archive_media/people/Sammons_Luther_And_Anita_And_Kids.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NewhardArbanaBirdellaRidgway.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

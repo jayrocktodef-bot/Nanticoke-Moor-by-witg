@@ -11,7 +11,11 @@
     "birth_info": "1804 (Kent County Delaware sometime around 1804 according to the Delaware census records)",
     "death_info": "11 Apr 1844",
     "notes": "Linked to dean-j2.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/269199595/jesse-dean",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "1804",
+    "birth_place": "Kent County Delaware sometime around 1804 according to the Delaware census records",
+    "death_date": "11 Apr 1844",
+    "death_place": null
   },
   "facts": [
     {
@@ -938,7 +942,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Elizabeth Durham married Jesse Dean",
       "certainty": "confirmed",
       "rel_id": 5251,

@@ -11,7 +11,11 @@
     "birth_info": "1819",
     "death_info": "23 Dec 1871 (aged 51\u201352)",
     "notes": "Linked to jacksnw1.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/226184085/elizabeth-jackson",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "1819",
+    "birth_place": null,
+    "death_date": "23 Dec 1871 (aged 51\u201352)",
+    "death_place": null
   },
   "facts": [
     {
@@ -311,63 +315,72 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F217@ marriage 1900 USA",
       "certainty": "confirmed",
       "rel_id": 9519,
       "rel_name": "Harry Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8147,
       "rel_name": "Martha E Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 6480,
       "rel_name": "Mary Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8516,
       "rel_name": "Raymond Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8333,
       "rel_name": "Bessie Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8515,
       "rel_name": "Sallie Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8334,
       "rel_name": "Margret Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10455,
       "rel_name": "Lillie M Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8880,
@@ -375,6 +388,24 @@
     }
   ],
   "photos": [
+    {
+      "person_id": 490,
+      "photo_id": 636,
+      "category": "people",
+      "title_or_caption": "Davis_Mary_Eliz_Jackson.jpg",
+      "subject_names": "Mary Eliz Jackson Davis",
+      "married_surname": "Davis",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Davis_Mary_Eliz_Jackson.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisMaryElizJackson.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 490,
       "photo_id": 3245,
@@ -404,24 +435,6 @@
       "local_image_path": "assets/archive_media/people/Mary_Elizabeth_Jackson_var1.jpg",
       "source_url": null,
       "dataset_source": "images",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 490,
-      "photo_id": 636,
-      "category": "people",
-      "title_or_caption": "Davis_Mary_Eliz_Jackson.jpg",
-      "subject_names": "Mary Eliz Jackson Davis",
-      "married_surname": "Davis",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Davis_Mary_Eliz_Jackson.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisMaryElizJackson.htm",
-      "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",

@@ -11,7 +11,11 @@
     "birth_info": "1753 Somerset Co, , Maryland, USA",
     "death_info": "17 apr 1827 Somerset Co, , Maryland, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1753 Somerset Co, , Maryland, USA",
+    "birth_place": null,
+    "death_date": "17 apr 1827 Somerset Co, , Maryland, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,27 +79,31 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10401,
       "rel_name": "Rachel Johnson"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F453@ marriage 28 July 1771 Somerset, Maryland, USA",
       "certainty": "confirmed",
       "rel_id": 9984,
       "rel_name": "Isaac Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9983,
       "rel_name": "Rachel Anne Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10262,

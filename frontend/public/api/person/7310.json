@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": "3 May, 1965",
     "notes": "Ingested from SammonsStanley&Daisey.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "3 May, 1965",
+    "death_place": null
   },
   "facts": [
     {
@@ -47,24 +51,6 @@
   "photos": [
     {
       "person_id": 7310,
-      "photo_id": 2244,
-      "category": "people",
-      "title_or_caption": "Sammons_Stanley_And_Daisey_London.jpg",
-      "subject_names": "Sammons Stanley & Daisey London",
-      "married_surname": "Sammons",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Sammons_Stanley_And_Daisey_London.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsStanley&Daisey.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 7310,
       "photo_id": 2246,
       "category": "people",
       "title_or_caption": "Sammons_Stanley.jpg",
@@ -77,6 +63,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 7310,
+      "photo_id": 2244,
+      "category": "people",
+      "title_or_caption": "Sammons_Stanley_And_Daisey_London.jpg",
+      "subject_names": "Sammons Stanley & Daisey London",
+      "married_surname": "Sammons",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Sammons_Stanley_And_Daisey_London.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsStanley&Daisey.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

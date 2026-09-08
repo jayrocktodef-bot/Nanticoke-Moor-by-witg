@@ -11,7 +11,11 @@
     "birth_info": "1907",
     "death_info": "1992 (aged 84\u201385)",
     "notes": "Ingested from HarmanTheodore&Anna.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/104632090/annie-harmon",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1907",
+    "birth_place": null,
+    "death_date": "1992 (aged 84\u201385)",
+    "death_place": null
   },
   "facts": [
     {
@@ -113,24 +117,6 @@
     },
     {
       "person_id": 5904,
-      "photo_id": 2407,
-      "category": "people",
-      "title_or_caption": "Whaley_Annie_Price_And_Rosa_Harmon.jpg",
-      "subject_names": "Whaley Annie Price & Rosa Harmon",
-      "married_surname": "Whaley",
-      "approximate_year": "1800",
-      "local_image_path": "assets/archive_media/people/Whaley_Annie_Price_And_Rosa_Harmon.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Price%20Eliza%20Jane%20Ingram%20Family.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "family_group",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 5904,
       "photo_id": 1150,
       "category": "people",
       "title_or_caption": "Harmon_Annie_P_And_Bigkids.jpg",
@@ -143,6 +129,24 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 5904,
+      "photo_id": 2407,
+      "category": "people",
+      "title_or_caption": "Whaley_Annie_Price_And_Rosa_Harmon.jpg",
+      "subject_names": "Whaley Annie Price & Rosa Harmon",
+      "married_surname": "Whaley",
+      "approximate_year": "1800",
+      "local_image_path": "assets/archive_media/people/Whaley_Annie_Price_And_Rosa_Harmon.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/Price%20Eliza%20Jane%20Ingram%20Family.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

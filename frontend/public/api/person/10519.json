@@ -11,7 +11,11 @@
     "birth_info": "25 May 1890 Millsboro, Delaware",
     "death_info": "30 November 1960 Philadelphia, Philadelphia County, Pennsylvania, United States of America",
     "notes": "WikiTree: https://www.wikitree.com/wiki/Harmon-11398 (Harmon-11398)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "25 May 1890 Millsboro, Delaware",
+    "birth_place": null,
+    "death_date": "30 November 1960 Philadelphia, Philadelphia County, Pennsylvania, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 1024,

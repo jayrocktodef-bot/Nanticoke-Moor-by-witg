@@ -11,7 +11,11 @@
     "birth_info": "30 Dec 1848",
     "death_info": "25 Dec 1912 (aged 63)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/98721218/l-a-pierce",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "30 Dec 1848",
+    "birth_place": null,
+    "death_date": "25 Dec 1912 (aged 63)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8214,

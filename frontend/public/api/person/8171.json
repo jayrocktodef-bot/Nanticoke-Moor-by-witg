@@ -11,7 +11,11 @@
     "birth_info": "26 Jun 1925 Delaware",
     "death_info": "1989 Lewes",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "26 Jun 1925 Delaware",
+    "birth_place": null,
+    "death_date": "1989 Lewes",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,35 +78,40 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F167@ marriage 20 Jan 1945 Georgetown, Sussex, Delaware, USA",
       "certainty": "confirmed",
       "rel_id": 8179,
       "rel_name": "Bertha M Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8181,
       "rel_name": "Sylvester E. Spark Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8189,
       "rel_name": "George W. Thompson Jr"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8180,
       "rel_name": "Basil Ronnie Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8191,
@@ -110,20 +119,7 @@
     },
     {
       "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8604,
-      "rel_name": "Wallace B Thompson"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8640,
-      "rel_name": "Elizabeth Thompson"
-    },
-    {
-      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9097,
@@ -131,6 +127,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8147,
@@ -145,48 +142,48 @@
     "name": "George Thompson",
     "children": [
       {
-        "id": 8604,
-        "name": "Wallace B Thompson",
+        "id": 9097,
+        "name": "Samuel L. Thompson",
         "children": [
           {
-            "id": 8639,
-            "name": "Clemmon Thompson",
+            "id": 8381,
+            "name": "James W Thompson",
             "children": [
               {
-                "id": 8840,
-                "name": "Levin Game Thompson",
-                "children": []
-              },
-              {
-                "id": 8841,
-                "name": "Leah Thompson",
-                "children": []
-              }
-            ]
-          },
-          {
-            "id": 8638,
-            "name": "Melisa Molly Street",
-            "children": [
-              {
-                "id": 8680,
-                "name": "Jerry Street",
+                "id": 9109,
+                "name": "Robert Thompson",
                 "children": [
                   {
-                    "id": 9510,
-                    "name": "David Street",
-                    "children": []
+                    "id": 8604,
+                    "name": "Wallace B Thompson",
+                    "children": [
+                      {
+                        "id": 8639,
+                        "name": "Clemmon Thompson",
+                        "children": []
+                      },
+                      {
+                        "id": 8638,
+                        "name": "Melisa Molly Street",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8640,
+                    "name": "Elizabeth Thompson",
+                    "children": [
+                      {
+                        "id": 8382,
+                        "name": "Mary C Thompson",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               }
             ]
-          }
-        ]
-      },
-      {
-        "id": 8640,
-        "name": "Elizabeth Thompson",
-        "children": [
+          },
           {
             "id": 8382,
             "name": "Mary C Thompson",
@@ -202,6 +199,45 @@
                 "children": []
               }
             ]
+          }
+        ]
+      },
+      {
+        "id": 8147,
+        "name": "Martha E Thompson",
+        "children": [
+          {
+            "id": 9519,
+            "name": "Harry Jackson",
+            "children": [
+              {
+                "id": 9149,
+                "name": "Mary A. Jackson",
+                "children": [
+                  {
+                    "id": 8921,
+                    "name": "Eliza Jane Morris",
+                    "children": [
+                      {
+                        "id": 9958,
+                        "name": "Emma Jane Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 10539,
+                        "name": "Samuel Roland Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 490,
+            "name": "Elizabeth Jackson",
+            "children": []
           }
         ]
       }

@@ -11,7 +11,11 @@
     "birth_info": "7 Sep 1883",
     "death_info": "23 Dec 1969 (aged 86)",
     "notes": "Linked to sisco-j2.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/158007890/john-sisco",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "7 Sep 1883",
+    "birth_place": null,
+    "death_date": "23 Dec 1969 (aged 86)",
+    "death_place": null
   },
   "facts": [
     {
@@ -368,7 +372,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Sarah Durham married John Sisco",
       "certainty": "confirmed",
       "rel_id": 5542,

@@ -11,7 +11,11 @@
     "birth_info": "20 Mar 1845",
     "death_info": "26 Aug 1930 (aged 85)",
     "notes": "Ingested from Wright%20Brothers%20Ontario.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/137853765/robert-wright",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "20 Mar 1845",
+    "birth_place": null,
+    "death_date": "26 Aug 1930 (aged 85)",
+    "death_place": null
   },
   "facts": [
     {
@@ -122,6 +126,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8711,
@@ -129,24 +134,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 7932,
-      "photo_id": 2558,
-      "category": "people",
-      "title_or_caption": "Wright_Robert_Family.jpg",
-      "subject_names": "Wright Robert Family",
-      "married_surname": "Wright",
-      "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/people/Wright_Robert_Family.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightRobert&Anita.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "family_group",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 7932,
       "photo_id": 2557,
@@ -161,6 +148,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 7932,
+      "photo_id": 2558,
+      "category": "people",
+      "title_or_caption": "Wright_Robert_Family.jpg",
+      "subject_names": "Wright Robert Family",
+      "married_surname": "Wright",
+      "approximate_year": "1970",
+      "local_image_path": "assets/archive_media/people/Wright_Robert_Family.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WrightRobert&Anita.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -198,13 +203,7 @@
                   {
                     "id": 8617,
                     "name": "Negro Morris Thomas",
-                    "children": [
-                      {
-                        "id": 9992,
-                        "name": "Sally Wright",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 8910,

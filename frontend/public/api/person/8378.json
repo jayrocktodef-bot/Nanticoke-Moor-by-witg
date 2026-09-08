@@ -11,7 +11,11 @@
     "birth_info": "29 apr 1872 Delaware",
     "death_info": "03 Feb 1961 Millsboro, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "29 apr 1872 Delaware",
+    "birth_place": null,
+    "death_date": "03 Feb 1961 Millsboro, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,28 +78,32 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F380@ marriage",
       "certainty": "confirmed",
       "rel_id": 8382,
       "rel_name": "Mary C Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8380,
       "rel_name": "William Thomas Conaway"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8379,
       "rel_name": "Sarah Luvenia Conaway"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10193,

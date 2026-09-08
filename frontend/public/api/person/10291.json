@@ -11,7 +11,11 @@
     "birth_info": "Abt. 1843 Indian River Hundred, Sussex County, Delaware, USA",
     "death_info": "Abt. 1905 Sussex County, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Abt. 1843 Indian River Hundred, Sussex County, Delaware, USA",
+    "birth_place": null,
+    "death_date": "Abt. 1905 Sussex County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,14 +97,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F172@ marriage",
       "certainty": "confirmed",
       "rel_id": 10292,
       "rel_name": "Ann Mariah Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10290,
@@ -108,6 +114,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10260,
@@ -115,34 +122,28 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10293,
       "rel_name": "Harriet Louisa Hansor Harmon"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 10292,
-      "rel_name": "Ann Mariah Harmon"
     }
   ],
   "photos": [
     {
       "person_id": 10291,
-      "photo_id": 1154,
+      "photo_id": 1156,
       "category": "people",
-      "title_or_caption": "Harmon_B_And_Laura_Edithdausof_Laura_Hansley_And_Charles.jpg",
-      "subject_names": "Harmon B & Laura Edithdausof Laura Hansley & Charles",
+      "title_or_caption": "Harmon_Captain_Ephraim_Charles.jpg",
+      "subject_names": "Captain Ephraim Charles Harmon",
       "married_surname": "Harmon",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Harmon_B_And_Laura_Edithdausof_Laura_Hansley_And_Charles.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonCharles.htm",
+      "approximate_year": "1830",
+      "local_image_path": "assets/archive_media/people/Harmon_Captain_Ephraim_Charles.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonCaptainEphraimCharles.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
+      "document_type": "portrait",
       "asset_type": "photograph",
-      "subtype": "group_portrait",
+      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -167,24 +168,6 @@
     },
     {
       "person_id": 10291,
-      "photo_id": 1156,
-      "category": "people",
-      "title_or_caption": "Harmon_Captain_Ephraim_Charles.jpg",
-      "subject_names": "Captain Ephraim Charles Harmon",
-      "married_surname": "Harmon",
-      "approximate_year": "1830",
-      "local_image_path": "assets/archive_media/people/Harmon_Captain_Ephraim_Charles.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonCaptainEphraimCharles.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 10291,
       "photo_id": 1169,
       "category": "people",
       "title_or_caption": "Harmon_Eunice_Nicey_Wright.jpg",
@@ -197,6 +180,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 10291,
+      "photo_id": 1154,
+      "category": "people",
+      "title_or_caption": "Harmon_B_And_Laura_Edithdausof_Laura_Hansley_And_Charles.jpg",
+      "subject_names": "Harmon B & Laura Edithdausof Laura Hansley & Charles",
+      "married_surname": "Harmon",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Harmon_B_And_Laura_Edithdausof_Laura_Hansley_And_Charles.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonCharles.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

@@ -11,7 +11,11 @@
     "birth_info": "30 Mar 1848",
     "death_info": "21 May 1850 (aged 2)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/239724944/marion-durham",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "30 Mar 1848",
+    "birth_place": null,
+    "death_date": "21 May 1850 (aged 2)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,18 +78,12 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Marion Durham married Stephen Cuyjet",
       "certainty": "confirmed",
       "rel_id": 515,
       "rel_name": "Stephen Cuyjet"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 1009,
-      "rel_name": "Marvel Durham"
     }
   ],
   "photos": [],

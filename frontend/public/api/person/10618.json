@@ -8,10 +8,14 @@
     "married_last_name": "Davis",
     "evidence_level": 2,
     "source_page": "Davis Family Tree.ged",
-    "birth_info": "1900",
-    "death_info": "1973 (aged 72\u201373)",
-    "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/197637421/william-davis (Buried at Lake View Memorial Gardens)",
-    "dataset_source": "davis_family_gedcom"
+    "birth_info": "abt 1768",
+    "death_info": "unknown",
+    "notes": "",
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1768",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -37,7 +41,7 @@
       "fact_id": 8201,
       "person_id": 10618,
       "fact_type": "Birth",
-      "date_string": "unknown",
+      "date_string": "abt 1768",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -56,7 +60,7 @@
       "fact_id": 8202,
       "person_id": 10618,
       "fact_type": "Death",
-      "date_string": "20 Oct 1933",
+      "date_string": "unknown",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -94,7 +98,7 @@
       "fact_id": 8592,
       "person_id": 10618,
       "fact_type": "Birth",
-      "date_string": "1900",
+      "date_string": "abt 1768",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -113,7 +117,7 @@
       "fact_id": 8593,
       "person_id": 10618,
       "fact_type": "Death",
-      "date_string": "1973 (aged 72\u201373)",
+      "date_string": "unknown",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -151,7 +155,7 @@
       "fact_id": 9985,
       "person_id": 10618,
       "fact_type": "Birth",
-      "date_string": "1900",
+      "date_string": "abt 1768",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -170,7 +174,7 @@
       "fact_id": 9986,
       "person_id": 10618,
       "fact_type": "Death",
-      "date_string": "1973 (aged 72\u201373)",
+      "date_string": "unknown",
       "place_string": null,
       "value_string": null,
       "citations": [
@@ -188,28 +192,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8632,
-      "rel_name": "Robert Henry Davis"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8676,
-      "rel_name": "Charles Charlie Morris Davis"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9140,
-      "rel_name": "Minnie Mae Street"
-    },
-    {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F448@ marriage",
       "certainty": "confirmed",
       "rel_id": 10136,
@@ -217,41 +201,15 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10815,
       "rel_name": "Charles Morris Charlie Davis"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 10619,
-      "rel_name": "James Edward Ned Davis"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8891,
-      "rel_name": "George F. Davis"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8892,
-      "rel_name": "Sarah J Davis"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8893,
-      "rel_name": "Mary Catherine Davis"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10620,
@@ -337,6 +295,16 @@
       "description": "Death conflict: existing='20 Oct 1933' vs XML='1973 (aged 72\u201373)'",
       "evidence": "source: preservation_output/profiles/person_10618.xml",
       "created_at": "2026-09-03T12:55:58.618412"
+    },
+    {
+      "id": 7524,
+      "category": "CHRONOLOGY_RECONCILED",
+      "severity": "info",
+      "person_id": 10618,
+      "person_id_secondary": null,
+      "description": "Corrected impossible modern FindAGrave dates to estimated ~1768",
+      "evidence": "Children born starting 1793",
+      "created_at": "2026-09-08 03:58:38"
     }
   ],
   "ancestry": {
@@ -344,71 +312,9 @@
     "name": "William H Davis",
     "children": [
       {
-        "id": 8632,
-        "name": "Robert Henry Davis",
-        "children": [
-          {
-            "id": 8791,
-            "name": "Mary E Jackson",
-            "children": [
-              {
-                "id": 409,
-                "name": "Robert B. Jackson",
-                "children": []
-              },
-              {
-                "id": 7978,
-                "name": "Lydia Ann Wright Jackson",
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": 8676,
-        "name": "Charles Charlie Morris Davis",
-        "children": [
-          {
-            "id": 8185,
-            "name": "Hester A. Morris Davis",
-            "children": [
-              {
-                "id": 8571,
-                "name": "Francis E. Frank Morris",
-                "children": [
-                  {
-                    "id": 8617,
-                    "name": "Negro Morris Thomas",
-                    "children": [
-                      {
-                        "id": 9992,
-                        "name": "Sally Wright",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 8910,
-                    "name": "Leticia Morris",
-                    "children": [
-                      {
-                        "id": 8616,
-                        "name": "Stephen Wright",
-                        "children": []
-                      },
-                      {
-                        "id": 8684,
-                        "name": "Priscilla Miller",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+        "id": 10815,
+        "name": "Charles Morris Charlie Davis",
+        "children": []
       }
     ]
   }

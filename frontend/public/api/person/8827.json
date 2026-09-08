@@ -11,7 +11,11 @@
     "birth_info": "12 Sep 1912",
     "death_info": "17 Jun 1972 (aged 59)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/197512574/samuel-davis (Buried at Pleasant Grove Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "12 Sep 1912",
+    "birth_place": null,
+    "death_date": "17 Jun 1972 (aged 59)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,13 +79,15 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8825,
       "rel_name": "Rachel Jans Davis"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F329@ marriage",
       "certainty": "confirmed",
       "rel_id": 8672,

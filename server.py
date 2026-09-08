@@ -1054,35 +1054,144 @@ def export_gedcom():
 
 
 # ─── Person Profile API Endpoint ─────────────────────────────────────────
+def parse_date_and_place(info_text: str):
+    """Parse date and place components from a raw genealogical info string."""
+    if not info_text or str(info_text).lower() in ('unknown', 'none', ''):
+        return None, None
+    text = str(info_text).strip()
+    place = None
+    date_part = text
+    m_paren = re.search(r'\(([^)]+)\)', text)
+    if m_paren:
+        inside = m_paren.group(1).strip()
+        if not re.search(r'^\s*aged\s+\d+', inside, re.IGNORECASE) and not re.match(r'^\d+$', inside):
+            place = inside
+            date_part = text[:m_paren.start()].strip()
+        else:
+            date_part = text
+    
+    m_in = re.search(r'\s+in\s+([A-Z][a-zA-Z\s,]+)$', date_part)
+    if m_in and not place:
+        place = m_in.group(1).strip()
+        date_part = date_part[:m_in.start()].strip()
+        
+    return date_part.rstrip(',. ').strip() or None, place
+
 @app.get("/api/person/{person_id}")
-def get_person_profile(person_id: int):
-    """Return detailed person profile with immediate family, photos, and obituaries."""
+def get_person_profile(person_id: str):
+    """Return detailed person profile with immediate family, photos, facts, citations, and obituaries."""
+    try:
+        clean_id = int(str(person_id).replace('.json', ''))
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid person_id format")
+
     conn = get_db()
     c = conn.cursor()
     
-    c.execute("SELECT person_id, name, source_page, birth_info, death_info, notes, dataset_source FROM persons WHERE person_id = ?", (person_id,))
+    c.execute("""
+        SELECT person_id, name, source_page, birth_info, death_info, notes, dataset_source,
+               first_name, middle_name, maiden_name, married_last_name, evidence_level
+        FROM persons WHERE person_id = ?
+    """, (clean_id,))
     row = c.fetchone()
     if not row:
         conn.close()
         raise HTTPException(status_code=404, detail="Person not found")
 
     person = dict(row)
+    b_date, b_place = parse_date_and_place(person.get("birth_info"))
+    d_date, d_place = parse_date_and_place(person.get("death_info"))
+    person["birth_date"] = b_date
+    person["birth_place"] = b_place
+    person["death_date"] = d_date
+    person["death_place"] = d_place
 
-    # Relationships
+    # Relationships from focal person's perspective
     c.execute("""
-        SELECT r.relationship_type, r.evidence_text, p2.person_id AS rel_id, p2.name AS rel_name
+        SELECT r.id, r.person_a_id, r.person_b_id, r.relationship_type, r.evidence_text, r.certainty,
+               p1.name as p1_name, p2.name as p2_name
         FROM relationships r
-        JOIN persons p2 ON (r.person_b_id = p2.person_id AND r.person_a_id = ?) 
-                        OR (r.person_a_id = p2.person_id AND r.person_b_id = ?)
-    """, (person_id, person_id))
-    rels = [dict(r) for r in c.fetchall()]
+        JOIN persons p1 ON r.person_a_id = p1.person_id
+        JOIN persons p2 ON r.person_b_id = p2.person_id
+        WHERE r.person_a_id = ? OR r.person_b_id = ?
+    """, (clean_id, clean_id))
+    rel_rows = c.fetchall()
+    rels = []
+    seen_rel_pairs = set()
+    for r in rel_rows:
+        pa, pb, rtype, ev, cert, n1, n2 = (
+            r['person_a_id'], r['person_b_id'], r['relationship_type'],
+            r['evidence_text'], r['certainty'], r['p1_name'], r['p2_name']
+        )
+        if rtype == 'cross_dataset_match':
+            continue
 
-    # Photos
+        if pa == clean_id:
+            rel_id = pb
+            rel_name = n2
+            if rtype == 'child_of':
+                role = 'parent'
+                norm_type = 'child_of'
+            elif rtype == 'parent_of':
+                role = 'child'
+                norm_type = 'parent_of'
+            elif rtype in ('spouse', 'spouse_of'):
+                role = 'spouse'
+                norm_type = 'spouse_of'
+            elif rtype in ('sibling', 'sibling_of'):
+                role = 'sibling'
+                norm_type = 'sibling_of'
+            else:
+                role = rtype
+                norm_type = rtype
+        else:
+            rel_id = pa
+            rel_name = n1
+            if rtype == 'child_of':
+                role = 'child'
+                norm_type = 'parent_of'
+            elif rtype == 'parent_of':
+                role = 'parent'
+                norm_type = 'child_of'
+            elif rtype in ('spouse', 'spouse_of'):
+                role = 'spouse'
+                norm_type = 'spouse_of'
+            elif rtype in ('sibling', 'sibling_of'):
+                role = 'sibling'
+                norm_type = 'sibling_of'
+            else:
+                role = rtype
+                norm_type = rtype
+
+        pair_key = (rel_id, role)
+        if pair_key in seen_rel_pairs:
+            continue
+        seen_rel_pairs.add(pair_key)
+
+        rels.append({
+            "rel_id": rel_id,
+            "rel_name": rel_name,
+            "relationship_type": norm_type,
+            "role": role,
+            "evidence_text": ev,
+            "certainty": cert
+        })
+
+    # Photos (Prioritizing individual studio portraits over group photos or documents)
     c.execute("""
-        SELECT pc.* FROM person_photos pp
-        JOIN photo_catalog pc ON pp.photo_id = pc.photo_id
-        WHERE pp.person_id = ?
-    """, (person_id,))
+        SELECT pc.* FROM photo_catalog pc
+        LEFT JOIN person_photos pp ON pp.photo_id = pc.photo_id AND pp.person_id = ?
+        WHERE pp.person_id = ? OR pc.primary_person_id = ?
+        GROUP BY pc.photo_id
+        ORDER BY 
+            CASE 
+                WHEN pc.subtype = 'studio_portrait' THEN 1
+                WHEN pc.asset_type = 'photograph' THEN 2
+                WHEN pc.contains_face = 1 THEN 3
+                ELSE 4 
+            END ASC,
+            pc.photo_id ASC
+    """, (clean_id, clean_id, clean_id))
     photos = [dict(r) for r in c.fetchall()]
 
     # Obituaries
@@ -1090,15 +1199,50 @@ def get_person_profile(person_id: int):
         SELECT o.* FROM person_obituaries po
         JOIN obituaries o ON po.obituary_id = o.id
         WHERE po.person_id = ?
-    """, (person_id,))
+    """, (clean_id,))
     obits = [dict(r) for r in c.fetchall()]
+
+    # Facts & Citations
+    c.execute("""
+        SELECT f.fact_id, f.fact_type, f.date_string, f.place_string, f.value_string
+        FROM facts f
+        WHERE f.person_id = ?
+        ORDER BY f.fact_id ASC
+    """, (clean_id,))
+    fact_rows = [dict(r) for r in c.fetchall()]
+
+    fact_ids = [f['fact_id'] for f in fact_rows]
+    citations_by_fact = {}
+    if fact_ids:
+        placeholders = ','.join('?' for _ in fact_ids)
+        c.execute(f"""
+            SELECT cit.citation_id, cit.fact_id, cit.evidence_text, s.title as source_title, s.url as source_url
+            FROM citations cit
+            LEFT JOIN sources s ON cit.source_id = s.source_id
+            WHERE cit.fact_id IN ({placeholders})
+        """, fact_ids)
+        for cit in c.fetchall():
+            citations_by_fact.setdefault(cit['fact_id'], []).append(dict(cit))
+
+    for f in fact_rows:
+        f['citations'] = citations_by_fact.get(f['fact_id'], [])
+
+    # Audit Flags
+    c.execute("""
+        SELECT flag_id, category, severity, description, evidence
+        FROM audit_flags
+        WHERE person_id = ?
+    """, (clean_id,))
+    audit_flags = [dict(r) for r in c.fetchall()]
 
     conn.close()
     return {
         "person": person,
         "relationships": rels,
         "photos": photos,
-        "obituaries": obits
+        "obituaries": obits,
+        "facts": fact_rows,
+        "audit_flags": audit_flags
     }
 
 @app.get("/api/search")
@@ -1209,8 +1353,13 @@ def get_cemetery_detail(cemetery_id: int):
     }
 
 @app.get("/api/person/{person_id}/timeline")
-def get_person_timeline(person_id: int):
+def get_person_timeline(person_id: str):
     """Returns an ordered chronological timeline of life facts and events with citations."""
+    try:
+        clean_id = int(str(person_id).replace('.json', ''))
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Invalid person_id format")
+
     conn = get_db()
     c = conn.cursor()
     c.execute("""

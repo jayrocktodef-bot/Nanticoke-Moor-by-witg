@@ -11,7 +11,11 @@
     "birth_info": "28 Aug 1975",
     "death_info": "27 Sep 2019 (aged 44)",
     "notes": "Ingested from CarterMaeWilsonfamily.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/203357586/brandon-carter",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "28 Aug 1975",
+    "birth_place": null,
+    "death_date": "27 Sep 2019 (aged 44)",
+    "death_place": null
   },
   "facts": [
     {
@@ -76,24 +80,6 @@
   "photos": [
     {
       "person_id": 4570,
-      "photo_id": 370,
-      "category": "people",
-      "title_or_caption": "Carter_Marianne_Brandon_And_Stephen.jpg",
-      "subject_names": "Carter Marianne Brandon & Stephen",
-      "married_surname": "Carter",
-      "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/people/Carter_Marianne_Brandon_And_Stephen.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterMaeWilsonfamily.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "family_group",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 4570,
       "photo_id": 319,
       "category": "people",
       "title_or_caption": "Carter_Brandon_Seville.jpg",
@@ -106,6 +92,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 4570,
+      "photo_id": 370,
+      "category": "people",
+      "title_or_caption": "Carter_Marianne_Brandon_And_Stephen.jpg",
+      "subject_names": "Carter Marianne Brandon & Stephen",
+      "married_surname": "Carter",
+      "approximate_year": "1970",
+      "local_image_path": "assets/archive_media/people/Carter_Marianne_Brandon_And_Stephen.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterMaeWilsonfamily.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

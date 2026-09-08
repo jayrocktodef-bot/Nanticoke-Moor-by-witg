@@ -11,7 +11,11 @@
     "birth_info": "Oct 1750",
     "death_info": "10 Feb 1836 (aged 85)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/88977286/jost-henry-davis (Buried at Yellow Church Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Oct 1750",
+    "birth_place": null,
+    "death_date": "10 Feb 1836 (aged 85)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,21 +78,24 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F177@ marriage 1781 prob Herkimer Co., NY",
       "certainty": "confirmed",
       "rel_id": 8614,
       "rel_name": "Katherina Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8613,
       "rel_name": "Joseph Henry Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 5443,
@@ -96,6 +103,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8809,

@@ -11,7 +11,11 @@
     "birth_info": "1852",
     "death_info": "1918 (aged 65\u201366)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/225260301/h-l-goldsborough",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1852",
+    "birth_place": null,
+    "death_date": "1918 (aged 65\u201366)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8430,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8429,

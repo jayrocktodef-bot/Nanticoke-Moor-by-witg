@@ -11,7 +11,11 @@
     "birth_info": "Aug 1817 Sussex Co., Delaware, USA",
     "death_info": "16 Dec 1902 Blades, Sussex, Delaware, United States",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Aug 1817 Sussex Co., Delaware, USA",
+    "birth_place": null,
+    "death_date": "16 Dec 1902 Blades, Sussex, Delaware, United States",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9073,

@@ -11,7 +11,11 @@
     "birth_info": "5 January 1944 Dover, Kent County, Delaware, United States of America",
     "death_info": "6 May 2024 Dover, Kent County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "5 January 1944 Dover, Kent County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "6 May 2024 Dover, Kent County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,14 +78,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F207@ marriage",
       "certainty": "confirmed",
       "rel_id": 10685,
       "rel_name": "James Enoch Durham"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10690,
@@ -89,6 +95,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10128,
@@ -96,6 +103,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10689,

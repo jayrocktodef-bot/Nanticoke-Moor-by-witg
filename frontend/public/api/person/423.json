@@ -11,7 +11,11 @@
     "birth_info": "31 Aug 1893",
     "death_info": "30 Aug 1943 (aged 49)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/289456268/agnes-margot-hansley",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "31 Aug 1893",
+    "birth_place": null,
+    "death_date": "30 Aug 1943 (aged 49)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Robert Street married Agnes Hansley",
       "certainty": "confirmed",
       "rel_id": 422,

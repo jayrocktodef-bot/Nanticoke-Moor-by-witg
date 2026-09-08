@@ -11,7 +11,11 @@
     "birth_info": "ABT 1780 Sussex Co., DE",
     "death_info": "35 , Sussex, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "ABT 1780 Sussex Co., DE",
+    "birth_place": null,
+    "death_date": "35 , Sussex, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,6 +88,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9350,
@@ -123,6 +128,33 @@
                   {
                     "id": 10337,
                     "name": "William CLARKE Esq",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 10421,
+                "name": "James H Clark",
+                "children": [
+                  {
+                    "id": 9335,
+                    "name": "Bowen Clark",
+                    "children": [
+                      {
+                        "id": 9336,
+                        "name": "James Clark",
+                        "children": []
+                      },
+                      {
+                        "id": 9334,
+                        "name": "Lydia E Norwood",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10420,
+                    "name": "Ann W. Johnson",
                     "children": []
                   }
                 ]

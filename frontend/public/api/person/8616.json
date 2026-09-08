@@ -11,7 +11,11 @@
     "birth_info": "6 Oct 1760 Mannington,  Salem, New Jersey",
     "death_info": "29 Jan 1801 Salem, Salem, New Jersey, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "6 Oct 1760 Mannington,  Salem, New Jersey",
+    "birth_place": null,
+    "death_date": "29 Jan 1801 Salem, Salem, New Jersey, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,62 +79,71 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8687,
       "rel_name": "Benjamin Wright"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F421@ marriage 10 Apr 1782 Salem, Salem, New Jersey, USA",
       "certainty": "confirmed",
       "rel_id": 8684,
       "rel_name": "Priscilla Miller"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9293,
       "rel_name": "Rebecca Wright"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9292,
       "rel_name": "Sarah Wright"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 2418,
       "rel_name": "Elizabeth Wright"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9294,
       "rel_name": "Ebenezer Wright"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9291,
       "rel_name": "Hannah Wright"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9290,
       "rel_name": "Ruth Wright"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8910,

@@ -11,7 +11,11 @@
     "birth_info": "abt 1727 Kent County, Del",
     "death_info": "1 Sep 1780 New Castle County, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1727 Kent County, Del",
+    "birth_place": null,
+    "death_date": "1 Sep 1780 New Castle County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10104,

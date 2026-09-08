@@ -11,7 +11,11 @@
     "birth_info": "1920",
     "death_info": "4 May 1982 (aged 61\u201362)",
     "notes": "Ingested from MosleyCharlesHenryFamily.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/283033569/charles-mosley | Verified via FindAGrave: https://www.findagrave.com/memorial/283033569/charles-mosley",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1920",
+    "birth_place": null,
+    "death_date": "4 May 1982 (aged 61\u201362)",
+    "death_place": null
   },
   "facts": [
     {
@@ -159,18 +163,12 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Bertha Wright married Charles Mosley",
       "certainty": "confirmed",
       "rel_id": 7990,
       "rel_name": "Bertha Ida Johnson Wright"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 757,
-      "rel_name": "Mamie Mosley"
     }
   ],
   "photos": [

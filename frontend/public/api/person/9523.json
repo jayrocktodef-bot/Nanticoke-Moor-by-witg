@@ -11,7 +11,11 @@
     "birth_info": "5 Sep 1882 Maryland, USA",
     "death_info": "1957",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "5 Sep 1882 Maryland, USA",
+    "birth_place": null,
+    "death_date": "1957",
+    "death_place": null
   },
   "facts": [
     {
@@ -83,14 +87,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9474,
       "rel_name": "Edna Thomas"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9898,

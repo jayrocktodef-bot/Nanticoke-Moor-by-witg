@@ -11,7 +11,11 @@
     "birth_info": "1792",
     "death_info": "1888 (aged 95\u201396)",
     "notes": "Ingested from preserved Apprentice%20Indentures%20-%20Warren%20Wright%20family%201843.htm record | Verified via FindAGrave: https://www.findagrave.com/memorial/20477075/mary-wright | Ingested from Carter_Lynn_Family.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/20477075/mary-wright",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1792",
+    "birth_place": null,
+    "death_date": "1888 (aged 95\u201396)",
+    "death_place": null
   },
   "facts": [
     {
@@ -255,6 +259,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8603,
@@ -262,6 +267,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8941,

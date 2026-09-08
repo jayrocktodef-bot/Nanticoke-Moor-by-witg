@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Ingested from DeanRobertBurton.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -541,6 +545,24 @@
   "photos": [
     {
       "person_id": 4945,
+      "photo_id": 720,
+      "category": "people",
+      "title_or_caption": "Dean_Robert.jpg",
+      "subject_names": "Robert Dean",
+      "married_surname": "Dean",
+      "approximate_year": "1830",
+      "local_image_path": "assets/archive_media/people/Dean_Robert.jpg",
+      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DeanRobert&Family.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 4945,
       "photo_id": 721,
       "category": "people",
       "title_or_caption": "Dean_Robert_Bernard.jpg",
@@ -586,24 +608,6 @@
       "local_image_path": "assets/archive_media/people/Robert_Dean_var1.jpg",
       "source_url": null,
       "dataset_source": "images",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 4945,
-      "photo_id": 720,
-      "category": "people",
-      "title_or_caption": "Dean_Robert.jpg",
-      "subject_names": "Robert Dean",
-      "married_surname": "Dean",
-      "approximate_year": "1830",
-      "local_image_path": "assets/archive_media/people/Dean_Robert.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DeanRobert&Family.htm",
-      "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",

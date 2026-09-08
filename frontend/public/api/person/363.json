@@ -8,10 +8,14 @@
     "married_last_name": "Hander",
     "evidence_level": 3,
     "source_page": "george.htm",
-    "birth_info": "unknown",
+    "birth_info": "March 15,  1773",
     "death_info": "unknown",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/156683792/jonathan-hander",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "March 15,  1773",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -37,9 +41,9 @@
       "fact_id": 605,
       "person_id": 363,
       "fact_type": "Birth",
-      "date_string": "unknown",
+      "date_string": "March 15,  1773",
       "place_string": null,
-      "value_string": null,
+      "value_string": "Born March 15,  1773",
       "citations": [
         {
           "citation_id": 605,
@@ -49,6 +53,15 @@
           "source_title": "Record: george.htm",
           "source_url": "george.htm",
           "source_dataset": "lynncjackson"
+        },
+        {
+          "citation_id": 14760,
+          "fact_id": 605,
+          "source_id": null,
+          "evidence_text": "Documented in george.htm: sy & Jamimy Deen born. 26 Aug. \n1772\n \n Jacob Hander son of Jonathan Hander & Agness his wife born 5 Day of Septem. \n1772\n \t\t\n Joshua son of William and Easter Handsor Bap. Born March 15, \n1773\n\n\n1775",
+          "source_title": null,
+          "source_url": null,
+          "source_dataset": null
         }
       ]
     },
@@ -74,25 +87,12 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Jacob Hander son of Jonathan Hander & Agness his wife born 5 Day of Septem. 1772",
       "certainty": "confirmed",
       "rel_id": 362,
       "rel_name": "Jacob Hander"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 956,
-      "rel_name": "Jonathan Muncer"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 1014,
-      "rel_name": "Jonathan Harmon"
     }
   ],
   "photos": [],

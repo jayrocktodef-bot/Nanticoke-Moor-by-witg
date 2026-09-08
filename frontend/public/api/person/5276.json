@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": "17 March, 1929",
     "notes": "Ingested from DurhamMrsMary.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "17 March, 1929",
+    "death_place": null
   },
   "facts": [
     {
@@ -47,24 +51,6 @@
   "photos": [
     {
       "person_id": 5276,
-      "photo_id": 382,
-      "category": "people",
-      "title_or_caption": "Carter_James_H_And_Marian_Delores_Durham_Wedding.jpg",
-      "subject_names": "Carter James H & Marian Delores Durham Wedding",
-      "married_surname": "Carter",
-      "approximate_year": "1889",
-      "local_image_path": "assets/archive_media/people/Carter_James_H_And_Marian_Delores_Durham_Wedding.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterJamesHShimmy.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "family_group",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 5276,
       "photo_id": 878,
       "category": "people",
       "title_or_caption": "Durham_Mrs_Mary.jpg",
@@ -77,6 +63,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 5276,
+      "photo_id": 382,
+      "category": "people",
+      "title_or_caption": "Carter_James_H_And_Marian_Delores_Durham_Wedding.jpg",
+      "subject_names": "Carter James H & Marian Delores Durham Wedding",
+      "married_surname": "Carter",
+      "approximate_year": "1889",
+      "local_image_path": "assets/archive_media/people/Carter_James_H_And_Marian_Delores_Durham_Wedding.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterJamesHShimmy.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

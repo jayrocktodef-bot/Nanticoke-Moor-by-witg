@@ -11,7 +11,11 @@
     "birth_info": "5 Mar 1937 Delaware, USA",
     "death_info": "1971 Residence",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "5 Mar 1937 Delaware, USA",
+    "birth_place": null,
+    "death_date": "1971 Residence",
+    "death_place": null
   },
   "facts": [
     {
@@ -132,6 +136,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8274,
@@ -139,6 +144,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8339,
@@ -184,13 +190,7 @@
               {
                 "id": 8617,
                 "name": "Negro Morris Thomas",
-                "children": [
-                  {
-                    "id": 9992,
-                    "name": "Sally Wright",
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
                 "id": 8910,
@@ -258,17 +258,17 @@
                     ]
                   },
                   {
-                    "id": 10290,
-                    "name": "Harriet Ann Harmon",
+                    "id": 8921,
+                    "name": "Eliza Jane Morris",
                     "children": [
                       {
-                        "id": 10291,
-                        "name": "Charles S Harmon",
+                        "id": 9958,
+                        "name": "Emma Jane Johnson",
                         "children": []
                       },
                       {
-                        "id": 10292,
-                        "name": "Ann Mariah Harmon",
+                        "id": 10539,
+                        "name": "Samuel Roland Johnson",
                         "children": []
                       }
                     ]

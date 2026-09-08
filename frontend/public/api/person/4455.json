@@ -11,7 +11,11 @@
     "birth_info": "1918",
     "death_info": "unknown",
     "notes": "Ingested from DavisLillian.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/138607958/eleanor-davis (Buried at Restland Cemetery)",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1918",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -75,13 +79,33 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8613,
       "rel_name": "Joseph Henry Davis"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 4455,
+      "photo_id": 3608,
+      "category": "documents",
+      "title_or_caption": "4193078-00225.jpg",
+      "subject_names": "1850 Federal Census - Eleanor Moseley Household",
+      "married_surname": "Davis",
+      "approximate_year": "1850",
+      "local_image_path": "ancestry_documents/delaware_census/4193078-00225.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/18400978:8054",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

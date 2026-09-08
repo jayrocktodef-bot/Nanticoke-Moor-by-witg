@@ -11,7 +11,11 @@
     "birth_info": "20 October 1921 Millsboro, Sussex County, Delaware, United States of America",
     "death_info": "20 February 1942 Lewes, Sussex County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "20 October 1921 Millsboro, Sussex County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "20 February 1942 Lewes, Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9728,

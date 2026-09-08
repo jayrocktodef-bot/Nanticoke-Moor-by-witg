@@ -9,9 +9,13 @@
     "evidence_level": 3,
     "source_page": "coker-w1.htm",
     "birth_info": "6 Mar 1945",
-    "death_info": "unknown",
+    "death_info": "3 May,  1965",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/31554876/stanley-coker",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "6 Mar 1945",
+    "birth_place": null,
+    "death_date": "3 May,  1965",
+    "death_place": null
   },
   "facts": [
     {
@@ -56,9 +60,9 @@
       "fact_id": 288,
       "person_id": 153,
       "fact_type": "Death",
-      "date_string": "unknown",
+      "date_string": "3 May,  1965",
       "place_string": null,
-      "value_string": null,
+      "value_string": "Died 3 May,  1965",
       "citations": [
         {
           "citation_id": 288,
@@ -68,13 +72,23 @@
           "source_title": "Record: coker-w1.htm",
           "source_url": "coker-w1.htm",
           "source_dataset": "lynncjackson"
+        },
+        {
+          "citation_id": 14757,
+          "fact_id": 288,
+          "source_id": null,
+          "evidence_text": "Documented in coker-w1.htm: mmons and Anna Matthews. \n\nThey had the following child: \n\n Stanley Coker married Ida May Mosley\n\t\t\t  child:\n Clarence Coker \n\t\t\t\n\n\n\n\nWilliam died on 3 May, \n1965\n and Lillie Mae on 9 November, \n1972\n",
+          "source_title": null,
+          "source_url": null,
+          "source_dataset": null
         }
       ]
     }
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Stanley Coker married Ida May Mosley",
       "certainty": "confirmed",
       "rel_id": 154,

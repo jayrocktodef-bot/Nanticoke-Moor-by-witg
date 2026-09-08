@@ -11,7 +11,11 @@
     "birth_info": "7 Oct 1933",
     "death_info": "10 May 1991 (aged 57)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/156795035/charles-harmon",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "7 Oct 1933",
+    "birth_place": null,
+    "death_date": "10 May 1991 (aged 57)",
+    "death_place": null
   },
   "facts": [
     {
@@ -94,6 +98,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9591,
@@ -101,6 +106,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9108,
@@ -108,24 +114,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 9879,
-      "photo_id": 1154,
-      "category": "people",
-      "title_or_caption": "Harmon_B_And_Laura_Edithdausof_Laura_Hansley_And_Charles.jpg",
-      "subject_names": "Harmon B & Laura Edithdausof Laura Hansley & Charles",
-      "married_surname": "Harmon",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Harmon_B_And_Laura_Edithdausof_Laura_Hansley_And_Charles.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonCharles.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 9879,
       "photo_id": 1156,
@@ -176,6 +164,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9879,
+      "photo_id": 1154,
+      "category": "people",
+      "title_or_caption": "Harmon_B_And_Laura_Edithdausof_Laura_Hansley_And_Charles.jpg",
+      "subject_names": "Harmon B & Laura Edithdausof Laura Hansley & Charles",
+      "married_surname": "Harmon",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Harmon_B_And_Laura_Edithdausof_Laura_Hansley_And_Charles.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonCharles.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

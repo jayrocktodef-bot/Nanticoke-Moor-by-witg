@@ -11,7 +11,11 @@
     "birth_info": "1794 Delaware",
     "death_info": "no record Indian River Hundred, Sussex County, Delaware, USA",
     "notes": "[Suffix 'Jr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1794 Delaware",
+    "birth_place": null,
+    "death_date": "no record Indian River Hundred, Sussex County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,28 +78,32 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9976,
       "rel_name": "Sally AnnaNancy Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9977,
       "rel_name": "Eleanor Mosley Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9096,
       "rel_name": "John C Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9970,
@@ -103,6 +111,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9974,

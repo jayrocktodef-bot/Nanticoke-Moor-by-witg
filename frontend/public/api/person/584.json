@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": "6 \t\t\tFebruary, 1876",
     "notes": "Linked to wrightp2.htm | FindAGrave: no match",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "6 \t\t\tFebruary, 1876",
+    "death_place": null
   },
   "facts": [
     {
@@ -159,14 +163,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F57@ marriage",
       "certainty": "confirmed",
       "rel_id": 774,
       "rel_name": "Elizabeth Patience Wright"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 754,
@@ -176,13 +182,13 @@
   "photos": [
     {
       "person_id": 584,
-      "photo_id": 1443,
+      "photo_id": 1442,
       "category": "people",
-      "title_or_caption": "Johnson_William_Howard_1.jpg",
-      "subject_names": "William Howard Johnson",
+      "title_or_caption": "Johnson_William_Arthur_1.jpg",
+      "subject_names": "William Arthur Johnson",
       "married_surname": "Johnson",
       "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_William_Howard_1.jpg",
+      "local_image_path": "assets/archive_media/people/Johnson_William_Arthur_1.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
@@ -194,13 +200,13 @@
     },
     {
       "person_id": 584,
-      "photo_id": 1442,
+      "photo_id": 1443,
       "category": "people",
-      "title_or_caption": "Johnson_William_Arthur_1.jpg",
-      "subject_names": "William Arthur Johnson",
+      "title_or_caption": "Johnson_William_Howard_1.jpg",
+      "subject_names": "William Howard Johnson",
       "married_surname": "Johnson",
       "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_William_Arthur_1.jpg",
+      "local_image_path": "assets/archive_media/people/Johnson_William_Howard_1.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",

@@ -11,7 +11,11 @@
     "birth_info": "15 May 1878 Kent, DE, USA",
     "death_info": "21 Apr 1948 Cheswold, Kent, Delaware, United States",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "15 May 1878 Kent, DE, USA",
+    "birth_place": null,
+    "death_date": "21 Apr 1948 Cheswold, Kent, Delaware, United States",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,14 +78,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F343@ marriage",
       "certainty": "confirmed",
       "rel_id": 3588,
       "rel_name": "Charles Edward Carey"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8194,
@@ -89,6 +95,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9620,

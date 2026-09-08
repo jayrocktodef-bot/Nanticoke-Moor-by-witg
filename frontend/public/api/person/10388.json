@@ -11,7 +11,11 @@
     "birth_info": "17 Jul 1904 Indian River Hundred, Sussex, Delaware, USA",
     "death_info": "7 Aug 1974 Lewes, Sussex, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "17 Jul 1904 Indian River Hundred, Sussex, Delaware, USA",
+    "birth_place": null,
+    "death_date": "7 Aug 1974 Lewes, Sussex, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -151,6 +155,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9239,
@@ -158,24 +163,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 10388,
-      "photo_id": 1781,
-      "category": "people",
-      "title_or_caption": "Mosley_Phyllis_Sharon_And_Raymond_Hunter.jpg",
-      "subject_names": "Mosley Phyllis Sharon & Raymond Hunter",
-      "married_surname": "Mosley",
-      "approximate_year": "1940",
-      "local_image_path": "assets/archive_media/people/Mosley_Phyllis_Sharon_And_Raymond_Hunter.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyBenjaminCFamily.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "family_group",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 10388,
       "photo_id": 1783,
@@ -190,6 +177,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 10388,
+      "photo_id": 1781,
+      "category": "people",
+      "title_or_caption": "Mosley_Phyllis_Sharon_And_Raymond_Hunter.jpg",
+      "subject_names": "Mosley Phyllis Sharon & Raymond Hunter",
+      "married_surname": "Mosley",
+      "approximate_year": "1940",
+      "local_image_path": "assets/archive_media/people/Mosley_Phyllis_Sharon_And_Raymond_Hunter.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyBenjaminCFamily.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

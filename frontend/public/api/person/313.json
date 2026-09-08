@@ -11,7 +11,11 @@
     "birth_info": "1829",
     "death_info": "30 Oct 1898 (aged 68\u201369)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/228606795/james-hughes",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "1829",
+    "birth_place": null,
+    "death_date": "30 Oct 1898 (aged 68\u201369)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Harriett Durham married James Hughes",
       "certainty": "confirmed",
       "rel_id": 312,

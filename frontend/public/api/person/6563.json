@@ -11,7 +11,11 @@
     "birth_info": "9 Jun 1915",
     "death_info": "14 May 1984 (aged 68)",
     "notes": "Ingested from MosleyJamesParis.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/24853371/paris-james-mosley",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "9 Jun 1915",
+    "birth_place": null,
+    "death_date": "14 May 1984 (aged 68)",
+    "death_place": null
   },
   "facts": [
     {
@@ -114,6 +118,24 @@
   "photos": [
     {
       "person_id": 6563,
+      "photo_id": 1774,
+      "category": "people",
+      "title_or_caption": "Mosley_Paris_Shoeshop.jpg",
+      "subject_names": "Paris Shoeshop Mosley",
+      "married_surname": "Mosley",
+      "approximate_year": "1949",
+      "local_image_path": "assets/archive_media/people/Mosley_Paris_Shoeshop.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJamesParis.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6563,
       "photo_id": 1775,
       "category": "people",
       "title_or_caption": "Mosley_Paris_Shoeshop_2.jpg",
@@ -144,24 +166,6 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 6563,
-      "photo_id": 1774,
-      "category": "people",
-      "title_or_caption": "Mosley_Paris_Shoeshop.jpg",
-      "subject_names": "Paris Shoeshop Mosley",
-      "married_surname": "Mosley",
-      "approximate_year": "1949",
-      "local_image_path": "assets/archive_media/people/Mosley_Paris_Shoeshop.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJamesParis.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

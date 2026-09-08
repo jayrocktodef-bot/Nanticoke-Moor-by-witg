@@ -11,7 +11,11 @@
     "birth_info": "11 Aug 1892",
     "death_info": "3 Feb 1965 (aged 72)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/134903248/leon-harmon",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "11 Aug 1892",
+    "birth_place": null,
+    "death_date": "3 Feb 1965 (aged 72)",
+    "death_place": null
   },
   "facts": [
     {
@@ -112,7 +116,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F77@ marriage 10 Mar 1944 Millsboro, Sussex, Delaware, USA",
       "certainty": "confirmed",
       "rel_id": 8565,
@@ -120,6 +125,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9726,
@@ -127,6 +133,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9462,

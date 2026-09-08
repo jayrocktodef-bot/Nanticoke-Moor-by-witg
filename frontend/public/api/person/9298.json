@@ -11,7 +11,11 @@
     "birth_info": "4 Jun 1918 Sussex County, Delaware, USA",
     "death_info": "31 Jan 1957 Rehoboth Beach, Sussex County, Delaware, USA",
     "notes": "[Suffix 'Sr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "4 Jun 1918 Sussex County, Delaware, USA",
+    "birth_place": null,
+    "death_date": "31 Jan 1957 Rehoboth Beach, Sussex County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -113,6 +117,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9300,
@@ -120,20 +125,23 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9299,
       "rel_name": "Annie MILLER CADE Harmon"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F412@ marriage",
       "certainty": "confirmed",
       "rel_id": 8789,
       "rel_name": "Lillian Eleanor Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8790,

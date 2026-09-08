@@ -11,7 +11,11 @@
     "birth_info": "16 Apr 1750 Broadkill Hundred, Sussex County, Delaware, USA",
     "death_info": "USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "16 Apr 1750 Broadkill Hundred, Sussex County, Delaware, USA",
+    "birth_place": null,
+    "death_date": "USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -94,6 +98,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10540,
@@ -118,29 +123,7 @@
               {
                 "id": 8862,
                 "name": "William Harmon",
-                "children": [
-                  {
-                    "id": 9407,
-                    "name": "David Roland Harmon Sr",
-                    "children": []
-                  },
-                  {
-                    "id": 8927,
-                    "name": "Eliza Jane Harmon",
-                    "children": [
-                      {
-                        "id": 5763,
-                        "name": "Robert Marshall Hanzer",
-                        "children": []
-                      },
-                      {
-                        "id": 10290,
-                        "name": "Harriet Ann Harmon",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
+                "children": []
               }
             ]
           },

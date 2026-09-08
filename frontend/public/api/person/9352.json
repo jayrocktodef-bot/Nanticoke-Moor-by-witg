@@ -11,7 +11,11 @@
     "birth_info": "30 Nov 1855",
     "death_info": "1837 Knox Co IN",
     "notes": "WikiTree: https://www.wikitree.com/wiki/Clark-93421 (Clark-93421)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "30 Nov 1855",
+    "birth_place": null,
+    "death_date": "1837 Knox Co IN",
+    "death_place": null
   },
   "facts": [
     {
@@ -179,6 +183,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9350,
@@ -186,24 +191,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 9352,
-      "photo_id": 776,
-      "category": "people",
-      "title_or_caption": "Durham_Carolyn_And_William_Parish_And_Dau.jpg",
-      "subject_names": "Durham Carolyn & William Parish & Dau",
-      "married_surname": "Durham",
-      "approximate_year": "1894",
-      "local_image_path": "assets/archive_media/people/Durham_Carolyn_And_William_Parish_And_Dau.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ParrishWilliamMabins.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "group_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
     {
       "person_id": 9352,
       "photo_id": 1918,
@@ -218,6 +205,24 @@
       "document_type": "portrait",
       "asset_type": "document",
       "subtype": "studio_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 9352,
+      "photo_id": 776,
+      "category": "people",
+      "title_or_caption": "Durham_Carolyn_And_William_Parish_And_Dau.jpg",
+      "subject_names": "Durham Carolyn & William Parish & Dau",
+      "married_surname": "Durham",
+      "approximate_year": "1894",
+      "local_image_path": "assets/archive_media/people/Durham_Carolyn_And_William_Parish_And_Dau.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ParrishWilliamMabins.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "group_portrait",
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"
@@ -255,6 +260,33 @@
                   {
                     "id": 10337,
                     "name": "William CLARKE Esq",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 10421,
+                "name": "James H Clark",
+                "children": [
+                  {
+                    "id": 9335,
+                    "name": "Bowen Clark",
+                    "children": [
+                      {
+                        "id": 9336,
+                        "name": "James Clark",
+                        "children": []
+                      },
+                      {
+                        "id": 9334,
+                        "name": "Lydia E Norwood",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10420,
+                    "name": "Ann W. Johnson",
                     "children": []
                   }
                 ]

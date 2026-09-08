@@ -11,7 +11,11 @@
     "birth_info": "26 April 1724 Northampton, Hampshire County, Massachusetts, United States of America",
     "death_info": "13 January 1811 Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "26 April 1724 Northampton, Hampshire County, Massachusetts, United States of America",
+    "birth_place": null,
+    "death_date": "13 January 1811 Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,14 +78,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F428@ marriage",
       "certainty": "confirmed",
       "rel_id": 10334,
       "rel_name": "William Russell Wyniaco Clark"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9350,

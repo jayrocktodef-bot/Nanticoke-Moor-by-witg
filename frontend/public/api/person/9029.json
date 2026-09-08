@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "5 Aug 1946",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/77472452/jacob-davis (Buried at Mount Hebron Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "5 Aug 1946",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8613,

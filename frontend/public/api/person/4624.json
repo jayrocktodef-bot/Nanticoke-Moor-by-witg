@@ -11,7 +11,11 @@
     "birth_info": "1834",
     "death_info": "27 May 1866 (aged 31\u201332)",
     "notes": "Ingested from DayHelenJohnson.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/226180999/edward-morris",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1834",
+    "birth_place": null,
+    "death_date": "27 May 1866 (aged 31\u201332)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8617,
@@ -82,31 +87,19 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8910,
       "rel_name": "Leticia Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8274,
       "rel_name": "Edgar Coil Morris Sr"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8509,
-      "rel_name": "John Morris"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9943,
-      "rel_name": "Jane Morris"
     }
   ],
   "photos": [],
@@ -119,13 +112,7 @@
       {
         "id": 8617,
         "name": "Negro Morris Thomas",
-        "children": [
-          {
-            "id": 9992,
-            "name": "Sally Wright",
-            "children": []
-          }
-        ]
+        "children": []
       },
       {
         "id": 8910,

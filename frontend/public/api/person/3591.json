@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": "1918",
     "notes": "Ingested from CareyCharlesE&DellaRidgeway.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "1918",
+    "death_place": null
   },
   "facts": [
     {
@@ -103,6 +107,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9350,
@@ -110,6 +115,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8514,
@@ -149,6 +155,33 @@
                   {
                     "id": 10337,
                     "name": "William CLARKE Esq",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 10421,
+                "name": "James H Clark",
+                "children": [
+                  {
+                    "id": 9335,
+                    "name": "Bowen Clark",
+                    "children": [
+                      {
+                        "id": 9336,
+                        "name": "James Clark",
+                        "children": []
+                      },
+                      {
+                        "id": 9334,
+                        "name": "Lydia E Norwood",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10420,
+                    "name": "Ann W. Johnson",
                     "children": []
                   }
                 ]

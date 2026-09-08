@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Wife of John Puckham, married Feb 25, 1682/3 in Somerset Co, MD | FindAGrave: no match",
-    "dataset_source": "native_american_roots_speck"
+    "dataset_source": "native_american_roots_speck",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -36,7 +40,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Married 25 Feb 1682/3 in Somerset Co, MD; minister John Huett",
       "certainty": "confirmed",
       "rel_id": 1696,

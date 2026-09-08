@@ -8,10 +8,14 @@
     "married_last_name": "Hander",
     "evidence_level": 3,
     "source_page": "george.htm",
-    "birth_info": "unknown",
+    "birth_info": "March 15,  1773",
     "death_info": "unknown",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/201874976/j-hander",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "March 15,  1773",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -37,9 +41,9 @@
       "fact_id": 602,
       "person_id": 362,
       "fact_type": "Birth",
-      "date_string": "unknown",
+      "date_string": "March 15,  1773",
       "place_string": null,
-      "value_string": null,
+      "value_string": "Born March 15,  1773",
       "citations": [
         {
           "citation_id": 602,
@@ -49,6 +53,15 @@
           "source_title": "Record: george.htm",
           "source_url": "george.htm",
           "source_dataset": "lynncjackson"
+        },
+        {
+          "citation_id": 14759,
+          "fact_id": 602,
+          "source_id": null,
+          "evidence_text": "Documented in george.htm:  Betty, Daug. of Jessy & Jamimy Deen born. 26 Aug. \n1772\n \n Jacob Hander son of Jonathan Hander & Agness his wife born 5 Day of Septem. \n1772\n \t\t\n Joshua son of William and Easter Handsor Bap. Born Ma",
+          "source_title": null,
+          "source_url": null,
+          "source_dataset": null
         }
       ]
     },
@@ -75,6 +88,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Jacob Hander son of Jonathan Hander & Agness his wife born 5 Day of Septem. 1772",
       "certainty": "confirmed",
       "rel_id": 363,

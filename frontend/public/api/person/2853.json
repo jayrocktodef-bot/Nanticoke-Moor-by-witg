@@ -11,7 +11,11 @@
     "birth_info": "4 Mar 1878",
     "death_info": "9 Sep 1977 (aged 99)",
     "notes": "Ingested from WhoAreThesePeople2.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/20954514/sadie-pierce",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "4 Mar 1878",
+    "birth_place": null,
+    "death_date": "9 Sep 1977 (aged 99)",
+    "death_place": null
   },
   "facts": [
     {
@@ -76,24 +80,6 @@
   "photos": [
     {
       "person_id": 2853,
-      "photo_id": 2008,
-      "category": "people",
-      "title_or_caption": "Pierce_Sadie_Durham_And_Unk_2.jpg",
-      "subject_names": "Pierce Sadie Durham & Unk 2",
-      "married_surname": "Pierce",
-      "approximate_year": "1914",
-      "local_image_path": "assets/archive_media/people/Pierce_Sadie_Durham_And_Unk_2.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WhoAreThesePeople2.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 2853,
       "photo_id": 1998,
       "category": "people",
       "title_or_caption": "Pierce_Gladys_Eleanor_Mary_Sadie.jpg",
@@ -106,6 +92,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 2853,
+      "photo_id": 2008,
+      "category": "people",
+      "title_or_caption": "Pierce_Sadie_Durham_And_Unk_2.jpg",
+      "subject_names": "Pierce Sadie Durham & Unk 2",
+      "married_surname": "Pierce",
+      "approximate_year": "1914",
+      "local_image_path": "assets/archive_media/people/Pierce_Sadie_Durham_And_Unk_2.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/WhoAreThesePeople2.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

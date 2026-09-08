@@ -11,7 +11,11 @@
     "birth_info": "abt 1856 Delaware",
     "death_info": null,
     "notes": "Restored connected Delmarva lineage from GEDCOM | FindAGrave: no match",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1856 Delaware",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -35,7 +39,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11137,
@@ -48,6 +53,12 @@
   "ancestry": {
     "id": 11141,
     "name": "George Ingram",
-    "children": []
+    "children": [
+      {
+        "id": 11137,
+        "name": "Abraham Ingram",
+        "children": []
+      }
+    ]
   }
 }

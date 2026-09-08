@@ -11,7 +11,11 @@
     "birth_info": "28 Jun 1898",
     "death_info": "25 Jun 1940 (aged 41)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/51457398/f-d-norwood",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "28 Jun 1898",
+    "birth_place": null,
+    "death_date": "25 Jun 1940 (aged 41)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8859,

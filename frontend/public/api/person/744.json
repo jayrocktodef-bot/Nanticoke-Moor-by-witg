@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": "1917",
     "notes": " | FindAGrave: no match",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "1917",
+    "death_place": null
   },
   "facts": [
     {
@@ -45,7 +49,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Ida Nora Wright who married Charles Sammons",
       "certainty": "confirmed",
       "rel_id": 743,
@@ -53,24 +58,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 744,
-      "photo_id": 2192,
-      "category": "people",
-      "title_or_caption": "Sammons_Charles_And_Ida_And_Gdau_Blonnie_Sammons_And_Warren_Wrightsonof_Oscar_Ww.jpg",
-      "subject_names": "Sammons Charles & Ida & Gdau Blonnie Sammons & Warren Wrightsonof Oscar Ww",
-      "married_surname": "Sammons",
-      "approximate_year": "1940",
-      "local_image_path": "assets/archive_media/people/Sammons_Charles_And_Ida_And_Gdau_Blonnie_Sammons_And_Warren_Wrightsonof_Oscar_Ww.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsCharlie&Ida.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 744,
       "photo_id": 2194,
@@ -85,24 +72,6 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 744,
-      "photo_id": 2196,
-      "category": "people",
-      "title_or_caption": "Sammons_Charlie_And_Ida_And_Kids.jpg",
-      "subject_names": "Sammons Charlie & Ida & Kids",
-      "married_surname": "Sammons",
-      "approximate_year": "1940",
-      "local_image_path": "assets/archive_media/people/Sammons_Charlie_And_Ida_And_Kids.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsCharlie&Ida.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -142,6 +111,42 @@
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"
+    },
+    {
+      "person_id": 744,
+      "photo_id": 2192,
+      "category": "people",
+      "title_or_caption": "Sammons_Charles_And_Ida_And_Gdau_Blonnie_Sammons_And_Warren_Wrightsonof_Oscar_Ww.jpg",
+      "subject_names": "Sammons Charles & Ida & Gdau Blonnie Sammons & Warren Wrightsonof Oscar Ww",
+      "married_surname": "Sammons",
+      "approximate_year": "1940",
+      "local_image_path": "assets/archive_media/people/Sammons_Charles_And_Ida_And_Gdau_Blonnie_Sammons_And_Warren_Wrightsonof_Oscar_Ww.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsCharlie&Ida.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 744,
+      "photo_id": 2196,
+      "category": "people",
+      "title_or_caption": "Sammons_Charlie_And_Ida_And_Kids.jpg",
+      "subject_names": "Sammons Charlie & Ida & Kids",
+      "married_surname": "Sammons",
+      "approximate_year": "1940",
+      "local_image_path": "assets/archive_media/people/Sammons_Charlie_And_Ida_And_Kids.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsCharlie&Ida.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

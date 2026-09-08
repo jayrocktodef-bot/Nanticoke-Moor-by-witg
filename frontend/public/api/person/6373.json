@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "Sep 1980",
     "notes": "Ingested from LoatmanJohn&Anthalinda.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/233369839/dorothy-meyers",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "Sep 1980",
+    "death_place": null
   },
   "facts": [
     {
@@ -94,24 +98,6 @@
     },
     {
       "person_id": 6373,
-      "photo_id": 1524,
-      "category": "people",
-      "title_or_caption": "Meyers_Ella_Loatman_And_Dorothy.jpg",
-      "subject_names": "Meyers Ella Loatman & Dorothy",
-      "married_surname": "Meyers",
-      "approximate_year": "1910",
-      "local_image_path": "assets/archive_media/people/Meyers_Ella_Loatman_And_Dorothy.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/LoatmanJohn&Anthalinda.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "family_group",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 6373,
       "photo_id": 1522,
       "category": "people",
       "title_or_caption": "Meyers_Dorothy.jpg",
@@ -124,6 +110,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6373,
+      "photo_id": 1524,
+      "category": "people",
+      "title_or_caption": "Meyers_Ella_Loatman_And_Dorothy.jpg",
+      "subject_names": "Meyers Ella Loatman & Dorothy",
+      "married_surname": "Meyers",
+      "approximate_year": "1910",
+      "local_image_path": "assets/archive_media/people/Meyers_Ella_Loatman_And_Dorothy.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/LoatmanJohn&Anthalinda.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

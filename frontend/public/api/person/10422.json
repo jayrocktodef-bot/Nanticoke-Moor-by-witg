@@ -11,7 +11,11 @@
     "birth_info": "1911",
     "death_info": "1968 (aged 56\u201357)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/64247842/w-clark",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1911",
+    "birth_place": null,
+    "death_date": "1968 (aged 56\u201357)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9335,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10420,
@@ -104,28 +110,6 @@
             "name": "James Clark",
             "children": [
               {
-                "id": 9334,
-                "name": "Lydia E Norwood",
-                "children": [
-                  {
-                    "id": 10542,
-                    "name": "Nathaniel Nathan Norwood",
-                    "children": []
-                  },
-                  {
-                    "id": 10374,
-                    "name": "Jemima Harmon",
-                    "children": [
-                      {
-                        "id": 10540,
-                        "name": "Job Harmon",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "id": 9350,
                 "name": "Levin Clark",
                 "children": [
@@ -136,6 +120,11 @@
                       {
                         "id": 10336,
                         "name": "William Vine Clark Jr",
+                        "children": []
+                      },
+                      {
+                        "id": 10421,
+                        "name": "James H Clark",
                         "children": []
                       }
                     ]

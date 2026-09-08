@@ -11,7 +11,11 @@
     "birth_info": "1722 Angola, Sussex County, Delaware, USA",
     "death_info": "1796 Angola, Sussex County, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1722 Angola, Sussex County, Delaware, USA",
+    "birth_place": null,
+    "death_date": "1796 Angola, Sussex County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -236,27 +240,31 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10420,
       "rel_name": "Ann W. Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10406,
       "rel_name": "Robert Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 2366,
       "rel_name": "William H. Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10408,

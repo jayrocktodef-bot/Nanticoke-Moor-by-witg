@@ -11,7 +11,11 @@
     "birth_info": "1725 Sussex Co, DE",
     "death_info": "Aft 1789 No Record",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1725 Sussex Co, DE",
+    "birth_place": null,
+    "death_date": "Aft 1789 No Record",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,27 +79,31 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 4056,
       "rel_name": "William Hansor Handsor"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10067,
       "rel_name": "Sarah Handsor"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9974,
       "rel_name": "Jacob Hanzer Sr"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10066,

@@ -45,14 +45,16 @@ export default function RecordDrawer({ record, onClose }) {
               <span className="text-slate-400 block">Wayback Snapshot Citation:</span>
               <span className="font-mono text-slate-200">{record.wayback_url}</span>
             </div>
-            <a 
-              href={record.wayback_url} 
-              target="_blank" 
-              rel="noreferrer"
-              className="flex items-center gap-1 text-sky-400 hover:text-sky-300 font-medium ml-4 shrink-0"
-            >
-              Wayback <ExternalLink className="w-3.5 h-3.5" />
-            </a>
+            {record.wayback_url && (
+              <a 
+                href={record.wayback_url} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-1 text-sky-400 hover:text-sky-300 font-medium ml-4 shrink-0"
+              >
+                Wayback <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            )}
           </div>
 
           {/* Media Assets Section */}

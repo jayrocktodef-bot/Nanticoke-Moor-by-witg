@@ -11,7 +11,11 @@
     "birth_info": "27 May 1897 Sussex County, Delaware, United States of America",
     "death_info": "17 December 1966 Millsboro, Sussex County, Delaware, United States of America",
     "notes": "[Suffix 'Sr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "27 May 1897 Sussex County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "17 December 1966 Millsboro, Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -94,6 +98,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 5971,
@@ -101,6 +106,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9831,
@@ -180,28 +186,23 @@
                 ]
               },
               {
-                "id": 10290,
-                "name": "Harriet Ann Harmon",
+                "id": 8921,
+                "name": "Eliza Jane Morris",
                 "children": [
                   {
-                    "id": 10291,
-                    "name": "Charles S Harmon",
+                    "id": 9958,
+                    "name": "Emma Jane Johnson",
                     "children": [
                       {
-                        "id": 10260,
-                        "name": "Adjoniah R. Harmon",
-                        "children": []
-                      },
-                      {
-                        "id": 10293,
-                        "name": "Harriet Louisa Hansor Harmon",
+                        "id": 9936,
+                        "name": "Sarah Adeline Hanzer",
                         "children": []
                       }
                     ]
                   },
                   {
-                    "id": 10292,
-                    "name": "Ann Mariah Harmon",
+                    "id": 10539,
+                    "name": "Samuel Roland Johnson",
                     "children": []
                   }
                 ]

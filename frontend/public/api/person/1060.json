@@ -11,7 +11,11 @@
     "birth_info": "2 Oct 1940",
     "death_info": "15 May 2005 (aged 64)",
     "notes": "Moor/Nanticoke lineage record - Carney cluster | Verified via FindAGrave: https://www.findagrave.com/memorial/195973116/robert-carney",
-    "dataset_source": "moors_delaware"
+    "dataset_source": "moors_delaware",
+    "birth_date": "2 Oct 1940",
+    "birth_place": null,
+    "death_date": "15 May 2005 (aged 64)",
+    "death_place": null
   },
   "facts": [
     {
@@ -176,15 +180,7 @@
       ]
     }
   ],
-  "relationships": [
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 482,
-      "rel_name": "Robert Muncey"
-    }
-  ],
+  "relationships": [],
   "photos": [
     {
       "person_id": 1060,
@@ -195,6 +191,24 @@
       "married_surname": "Carney",
       "approximate_year": "1875",
       "local_image_path": "assets/archive_media/people/Carney_Robert_Jancestery.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyRobertJamesSr&Family.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 1060,
+      "photo_id": 288,
+      "category": "people",
+      "title_or_caption": "Carney_Robert_James_Jr.jpg",
+      "subject_names": "Robert James Carney Jr.",
+      "married_surname": "Carney",
+      "approximate_year": "1875",
+      "local_image_path": "assets/archive_media/people/Carney_Robert_James_Jr.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyRobertJamesSr&Family.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
@@ -254,24 +268,6 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "family_group",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 1060,
-      "photo_id": 288,
-      "category": "people",
-      "title_or_caption": "Carney_Robert_James_Jr.jpg",
-      "subject_names": "Robert James Carney Jr.",
-      "married_surname": "Carney",
-      "approximate_year": "1875",
-      "local_image_path": "assets/archive_media/people/Carney_Robert_James_Jr.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarneyRobertJamesSr&Family.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

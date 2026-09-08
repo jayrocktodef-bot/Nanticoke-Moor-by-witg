@@ -11,7 +11,11 @@
     "birth_info": "15 March 1925 Elizabeth, Union County, New Jersey, United States of America",
     "death_info": "14 January 2013 Newark, New Castle County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "15 March 1925 Elizabeth, Union County, New Jersey, United States of America",
+    "birth_place": null,
+    "death_date": "14 January 2013 Newark, New Castle County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10806,
@@ -82,34 +87,39 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10807,
       "rel_name": "Clara Thomas"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F138@ marriage 3 Jun 1951 Sussex, Delaware, USA",
       "certainty": "confirmed",
       "rel_id": 10805,
       "rel_name": "Lester Charles Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10808,
       "rel_name": "Rosalind J Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10809,
       "rel_name": "Tyrone Evans Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10810,

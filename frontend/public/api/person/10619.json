@@ -11,7 +11,11 @@
     "birth_info": "6 Nov 1935",
     "death_info": "12 Mar 2019 (aged 83)",
     "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/197519175/james-davis (Buried at Wheatland Cemetery) | Ingested from NewhardArbanaBirdellaRidgway.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/197519175/james-davis (Buried at Wheatland Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "6 Nov 1935",
+    "birth_place": null,
+    "death_date": "12 Mar 2019 (aged 83)",
+    "death_place": null
   },
   "facts": [
     {
@@ -132,20 +136,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 4643,
-      "rel_name": "Henry Lovell Rees Davis"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 10618,
-      "rel_name": "William H Davis"
-    },
-    {
-      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 4997,
@@ -163,42 +154,6 @@
       "approximate_year": "1914",
       "local_image_path": "assets/archive_media/people/Davis_Ned_7.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/NewhardArbanaBirdellaRidgway.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 10619,
-      "photo_id": 676,
-      "category": "people",
-      "title_or_caption": "Davis_Whjr_And_Bea_And_Rnsr.jpg",
-      "subject_names": "Davis William Henry Jr & Bea & R. N. Sr.",
-      "married_surname": "Davis",
-      "approximate_year": "1909",
-      "local_image_path": "assets/archive_media/people/Davis_Whjr_And_Bea_And_Rnsr.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisWilliamHenry.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 10619,
-      "photo_id": 643,
-      "category": "people",
-      "title_or_caption": "Davis_Pearl.jpg",
-      "subject_names": "Pearl Davis",
-      "married_surname": "Davis",
-      "approximate_year": "1909",
-      "local_image_path": "assets/archive_media/people/Davis_Pearl.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisWilliamHenry.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
@@ -227,6 +182,24 @@
     },
     {
       "person_id": 10619,
+      "photo_id": 643,
+      "category": "people",
+      "title_or_caption": "Davis_Pearl.jpg",
+      "subject_names": "Pearl Davis",
+      "married_surname": "Davis",
+      "approximate_year": "1909",
+      "local_image_path": "assets/archive_media/people/Davis_Pearl.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisWilliamHenry.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 10619,
       "photo_id": 638,
       "category": "people",
       "title_or_caption": "Davis_Ned_And_Gladys_Dean.jpg",
@@ -234,6 +207,24 @@
       "married_surname": "Davis",
       "approximate_year": "1909",
       "local_image_path": "assets/archive_media/people/Davis_Ned_And_Gladys_Dean.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisWilliamHenry.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 10619,
+      "photo_id": 676,
+      "category": "people",
+      "title_or_caption": "Davis_Whjr_And_Bea_And_Rnsr.jpg",
+      "subject_names": "Davis William Henry Jr & Bea & R. N. Sr.",
+      "married_surname": "Davis",
+      "approximate_year": "1909",
+      "local_image_path": "assets/archive_media/people/Davis_Whjr_And_Bea_And_Rnsr.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisWilliamHenry.htm",
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",
@@ -269,67 +260,28 @@
     "name": "James Edward Ned Davis",
     "children": [
       {
-        "id": 4643,
-        "name": "Henry Lovell Rees Davis",
+        "id": 4997,
+        "name": "William Henry Davis",
         "children": [
           {
-            "id": 8538,
-            "name": "Martha Peggy Davis",
-            "children": []
-          }
-        ]
-      },
-      {
-        "id": 10618,
-        "name": "William H Davis",
-        "children": [
-          {
-            "id": 8632,
-            "name": "Robert Henry Davis",
+            "id": 8613,
+            "name": "Joseph Henry Davis",
             "children": [
               {
-                "id": 8791,
-                "name": "Mary E Jackson",
+                "id": 8629,
+                "name": "Jost Henry Davis",
                 "children": [
                   {
-                    "id": 409,
-                    "name": "Robert B. Jackson",
-                    "children": []
-                  },
-                  {
-                    "id": 7978,
-                    "name": "Lydia Ann Wright Jackson",
+                    "id": 8809,
+                    "name": "Ludwig Davis",
                     "children": []
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "id": 8676,
-            "name": "Charles Charlie Morris Davis",
-            "children": [
+              },
               {
-                "id": 8185,
-                "name": "Hester A. Morris Davis",
-                "children": [
-                  {
-                    "id": 8571,
-                    "name": "Francis E. Frank Morris",
-                    "children": [
-                      {
-                        "id": 8617,
-                        "name": "Negro Morris Thomas",
-                        "children": []
-                      },
-                      {
-                        "id": 8910,
-                        "name": "Leticia Morris",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
+                "id": 8614,
+                "name": "Katherina Davis",
+                "children": []
               }
             ]
           }

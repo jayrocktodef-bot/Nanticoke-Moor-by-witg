@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "unknown",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/138551063/annie-davis (Buried at Mount Carmel Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 4643,
@@ -82,13 +87,51 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10618,
       "rel_name": "William H Davis"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 10620,
+      "photo_id": 3502,
+      "category": "documents",
+      "title_or_caption": "31111_4327434-00823.jpg",
+      "subject_names": "1910 Federal Census - Annie Harmen Household",
+      "married_surname": "Davis",
+      "approximate_year": "1910",
+      "local_image_path": "ancestry_documents/delaware_census/31111_4327434-00823.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/2721897:7884",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 10620,
+      "photo_id": 3503,
+      "category": "documents",
+      "title_or_caption": "31111_4327434-00824.jpg",
+      "subject_names": "1910 Federal Census - Annie M Harmen Household",
+      "married_surname": "Davis",
+      "approximate_year": "1910",
+      "local_image_path": "ancestry_documents/delaware_census/31111_4327434-00824.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/157317906:7884",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -98,67 +141,16 @@
       {
         "id": 4643,
         "name": "Henry Lovell Rees Davis",
-        "children": [
-          {
-            "id": 8538,
-            "name": "Martha Peggy Davis",
-            "children": []
-          }
-        ]
+        "children": []
       },
       {
         "id": 10618,
         "name": "William H Davis",
         "children": [
           {
-            "id": 8632,
-            "name": "Robert Henry Davis",
-            "children": [
-              {
-                "id": 8791,
-                "name": "Mary E Jackson",
-                "children": [
-                  {
-                    "id": 409,
-                    "name": "Robert B. Jackson",
-                    "children": []
-                  },
-                  {
-                    "id": 7978,
-                    "name": "Lydia Ann Wright Jackson",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": 8676,
-            "name": "Charles Charlie Morris Davis",
-            "children": [
-              {
-                "id": 8185,
-                "name": "Hester A. Morris Davis",
-                "children": [
-                  {
-                    "id": 8571,
-                    "name": "Francis E. Frank Morris",
-                    "children": [
-                      {
-                        "id": 8617,
-                        "name": "Negro Morris Thomas",
-                        "children": []
-                      },
-                      {
-                        "id": 8910,
-                        "name": "Leticia Morris",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
+            "id": 10815,
+            "name": "Charles Morris Charlie Davis",
+            "children": []
           }
         ]
       }

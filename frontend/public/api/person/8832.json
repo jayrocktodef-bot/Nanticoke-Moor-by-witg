@@ -11,7 +11,11 @@
     "birth_info": "24 Sep 1914 New Jersey",
     "death_info": "19 May 1958 Bridgeton, NJ, Philadelphia, Pennsylvania, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "24 Sep 1914 New Jersey",
+    "birth_place": null,
+    "death_date": "19 May 1958 Bridgeton, NJ, Philadelphia, Pennsylvania, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,35 +78,40 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F358@ marriage",
       "certainty": "confirmed",
       "rel_id": 8703,
       "rel_name": "Jeremiah M Thompson Jr"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8833,
       "rel_name": "Rosella Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8834,
       "rel_name": "Flora Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8835,
       "rel_name": "Alice Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8836,
@@ -110,13 +119,7 @@
     },
     {
       "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8837,
-      "rel_name": "Mary Thompson"
-    },
-    {
-      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8838,

@@ -11,7 +11,11 @@
     "birth_info": "3 Jan 1819",
     "death_info": "19 Sep 1886 (aged 67)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/74730432/john-davis (Buried at Old Argyle Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "3 Jan 1819",
+    "birth_place": null,
+    "death_date": "19 Sep 1886 (aged 67)",
+    "death_place": null
   },
   "facts": [
     {
@@ -113,6 +117,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 4643,
@@ -120,6 +125,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8538,
@@ -136,13 +142,7 @@
       {
         "id": 4643,
         "name": "Henry Lovell Rees Davis",
-        "children": [
-          {
-            "id": 8538,
-            "name": "Martha Peggy Davis",
-            "children": []
-          }
-        ]
+        "children": []
       },
       {
         "id": 8538,

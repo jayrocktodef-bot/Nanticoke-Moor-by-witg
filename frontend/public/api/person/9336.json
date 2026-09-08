@@ -11,7 +11,11 @@
     "birth_info": "22 Jan 1831",
     "death_info": "1834 Delaware, USA",
     "notes": "WikiTree: https://www.wikitree.com/wiki/Clark-93419 (Clark-93419)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "22 Jan 1831",
+    "birth_place": null,
+    "death_date": "1834 Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -83,21 +87,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F47@ marriage  Sussex Co, DE",
       "certainty": "confirmed",
       "rel_id": 9334,
       "rel_name": "Lydia E Norwood"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9334,
-      "rel_name": "Lydia E Norwood"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9335,
@@ -105,6 +104,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9350,
@@ -112,6 +112,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": null,
       "certainty": "confirmed",
       "rel_id": 11249,
@@ -147,45 +148,6 @@
     "name": "James Clark",
     "children": [
       {
-        "id": 9334,
-        "name": "Lydia E Norwood",
-        "children": [
-          {
-            "id": 10542,
-            "name": "Nathaniel Nathan Norwood",
-            "children": []
-          },
-          {
-            "id": 10374,
-            "name": "Jemima Harmon",
-            "children": [
-              {
-                "id": 10540,
-                "name": "Job Harmon",
-                "children": [
-                  {
-                    "id": 2098,
-                    "name": "Edward Harmon",
-                    "children": [
-                      {
-                        "id": 8862,
-                        "name": "William Harmon",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 10554,
-                    "name": "Patience Harmon",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": 9350,
         "name": "Levin Clark",
         "children": [
@@ -200,6 +162,33 @@
                   {
                     "id": 10337,
                     "name": "William CLARKE Esq",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 10421,
+                "name": "James H Clark",
+                "children": [
+                  {
+                    "id": 9335,
+                    "name": "Bowen Clark",
+                    "children": [
+                      {
+                        "id": 9336,
+                        "name": "James Clark",
+                        "children": []
+                      },
+                      {
+                        "id": 9334,
+                        "name": "Lydia E Norwood",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10420,
+                    "name": "Ann W. Johnson",
                     "children": []
                   }
                 ]

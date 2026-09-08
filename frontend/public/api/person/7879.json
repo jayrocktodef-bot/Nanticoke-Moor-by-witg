@@ -11,7 +11,11 @@
     "birth_info": "5 Dec. 1894",
     "death_info": null,
     "notes": "Ingested from WrightAnnaHRidgeway.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "5 Dec. 1894",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -66,24 +70,6 @@
   "photos": [
     {
       "person_id": 7879,
-      "photo_id": 1394,
-      "category": "people",
-      "title_or_caption": "Johnson_Dorsey_And_Anna_And_Cwright.jpg",
-      "subject_names": "Johnson Dorsey & Anna & Cwright",
-      "married_surname": "Johnson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_Dorsey_And_Anna_And_Cwright.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ClarkLouiseWright&dauAnna.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 7879,
       "photo_id": 428,
       "category": "people",
       "title_or_caption": "Clark_Louise_Wright_And_Dau_Anna.jpg",
@@ -96,6 +82,24 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 7879,
+      "photo_id": 1394,
+      "category": "people",
+      "title_or_caption": "Johnson_Dorsey_And_Anna_And_Cwright.jpg",
+      "subject_names": "Johnson Dorsey & Anna & Cwright",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_Dorsey_And_Anna_And_Cwright.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/ClarkLouiseWright&dauAnna.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

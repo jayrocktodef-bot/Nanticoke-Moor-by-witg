@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -36,7 +40,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "as the son of William and \"Ellen\" Sisco lvining in PA (age 40)",
       "certainty": "confirmed",
       "rel_id": 11748,

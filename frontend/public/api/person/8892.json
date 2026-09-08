@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "24 Nov 1988",
     "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/77472595/sarah-davis (Buried at Mount Hebron Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "24 Nov 1988",
+    "death_place": null
   },
   "facts": [
     {
@@ -132,13 +136,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 4643,
-      "rel_name": "Henry Lovell Rees Davis"
-    },
-    {
-      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9190,
@@ -146,44 +144,39 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9191,
       "rel_name": "Sarah Collier Miller"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 10618,
-      "rel_name": "William H Davis"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 4997,
-      "rel_name": "William Henry Davis"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 8892,
+      "photo_id": 3591,
+      "category": "documents",
+      "title_or_caption": "43290879-Pennsylvania-093206-0004.jpg",
+      "subject_names": "1950 Federal Census - Sarah Johnson Household",
+      "married_surname": "Davis",
+      "approximate_year": "1950",
+      "local_image_path": "ancestry_documents/delaware_census/43290879-Pennsylvania-093206-0004.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/242143666:62308",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 8892,
     "name": "Sarah J Davis",
     "children": [
-      {
-        "id": 4643,
-        "name": "Henry Lovell Rees Davis",
-        "children": [
-          {
-            "id": 8538,
-            "name": "Martha Peggy Davis",
-            "children": []
-          }
-        ]
-      },
       {
         "id": 9190,
         "name": "Ebenezer Miller Sr",
@@ -199,6 +192,11 @@
             "children": []
           }
         ]
+      },
+      {
+        "id": 9191,
+        "name": "Sarah Collier Miller",
+        "children": []
       }
     ]
   }

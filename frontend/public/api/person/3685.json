@@ -11,7 +11,11 @@
     "birth_info": "4 Nov 1883",
     "death_info": "21 Dec 1951 (aged 68)",
     "notes": "Ingested from MorganNapoleonBonaparte.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/118541244/alonzo-durham",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "4 Nov 1883",
+    "birth_place": null,
+    "death_date": "21 Dec 1951 (aged 68)",
+    "death_place": null
   },
   "facts": [
     {
@@ -152,24 +156,6 @@
   "photos": [
     {
       "person_id": 3685,
-      "photo_id": 753,
-      "category": "people",
-      "title_or_caption": "Durham_Alonzo_And_Frances_Morgan.jpg",
-      "subject_names": "Durham Alonzo & Frances Morgan",
-      "married_surname": "Durham",
-      "approximate_year": "1862",
-      "local_image_path": "assets/archive_media/people/Durham_Alonzo_And_Frances_Morgan.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganNapoleonBonaparte.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 3685,
       "photo_id": 755,
       "category": "people",
       "title_or_caption": "Durham_Alonzo.jpg",
@@ -182,6 +168,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 3685,
+      "photo_id": 753,
+      "category": "people",
+      "title_or_caption": "Durham_Alonzo_And_Frances_Morgan.jpg",
+      "subject_names": "Durham Alonzo & Frances Morgan",
+      "married_surname": "Durham",
+      "approximate_year": "1862",
+      "local_image_path": "assets/archive_media/people/Durham_Alonzo_And_Frances_Morgan.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganNapoleonBonaparte.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

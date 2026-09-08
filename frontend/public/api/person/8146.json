@@ -11,7 +11,11 @@
     "birth_info": "27 September 1920 Sussex County, Delaware, United States of America",
     "death_info": "11 January 1981 Sussex County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "27 September 1920 Sussex County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "11 January 1981 Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,21 +78,24 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F196@ marriage",
       "certainty": "confirmed",
       "rel_id": 8609,
       "rel_name": "William W. Davis Sr"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8152,
       "rel_name": "William Davis Jr"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8155,
@@ -96,6 +103,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9097,
@@ -103,6 +111,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8147,

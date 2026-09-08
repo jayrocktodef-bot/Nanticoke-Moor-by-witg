@@ -8,10 +8,14 @@
     "married_last_name": "Dea",
     "evidence_level": 4,
     "source_page": "Probate.htm",
-    "birth_info": null,
+    "birth_info": "16 Dec 1855",
     "death_info": "1945",
     "notes": "Ingested from preserved Probate.htm record | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "16 Dec 1855",
+    "birth_place": null,
+    "death_date": "1945",
+    "death_place": null
   },
   "facts": [
     {
@@ -41,6 +45,25 @@
       "place_string": null,
       "value_string": "d. 1945",
       "citations": []
+    },
+    {
+      "fact_id": 15957,
+      "person_id": 2357,
+      "fact_type": "Birth",
+      "date_string": "16 Dec 1855",
+      "place_string": null,
+      "value_string": "Born 16 Dec 1855",
+      "citations": [
+        {
+          "citation_id": 14767,
+          "fact_id": 15957,
+          "source_id": null,
+          "evidence_text": "Documented in probate.htm: l. 2, p. 233. $360.50.\n \n            Dec \n1876\n Petition by John T. Dean for distribution of his $83.55. \n            He was born on \n16 Dec 1855\n and will become age 21 on \n16 Dec 1876\n. \n           ",
+          "source_title": null,
+          "source_url": null,
+          "source_dataset": null
+        }
+      ]
     }
   ],
   "relationships": [],

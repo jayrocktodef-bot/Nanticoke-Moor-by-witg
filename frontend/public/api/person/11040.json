@@ -11,7 +11,11 @@
     "birth_info": "6 Apr 1936 Delaware",
     "death_info": "2 Mar 2001",
     "notes": "Restored connected Delmarva lineage from GEDCOM",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "6 Apr 1936 Delaware",
+    "birth_place": null,
+    "death_date": "2 Mar 2001",
+    "death_place": null
   },
   "facts": [
     {
@@ -44,14 +48,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11039,
       "rel_name": "Charles Ambrose Turner"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Restored GEDCOM family marriage record",
       "certainty": "confirmed",
       "rel_id": 11129,
@@ -64,6 +70,30 @@
   "ancestry": {
     "id": 11040,
     "name": "Dale D Turner",
-    "children": []
+    "children": [
+      {
+        "id": 11039,
+        "name": "Charles Ambrose Turner",
+        "children": [
+          {
+            "id": 11061,
+            "name": "Ambrose Turner",
+            "children": [
+              {
+                "id": 11158,
+                "name": "Daniel Turner",
+                "children": [
+                  {
+                    "id": 11039,
+                    "name": "Charles Ambrose Turner",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

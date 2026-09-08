@@ -11,7 +11,11 @@
     "birth_info": "19 Nov 1907",
     "death_info": "2 Oct 1910 (aged 2)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/69844105/mildred-street",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "19 Nov 1907",
+    "birth_place": null,
+    "death_date": "2 Oct 1910 (aged 2)",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,7 +97,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Mildred Street married John Myers",
       "certainty": "confirmed",
       "rel_id": 425,

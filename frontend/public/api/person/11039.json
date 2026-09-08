@@ -11,7 +11,11 @@
     "birth_info": "21 Jan 1908 Bridgeville, Delaware, USA",
     "death_info": "17 Oct 2004",
     "notes": "Restored connected Delmarva lineage from GEDCOM",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "21 Jan 1908 Bridgeville, Delaware, USA",
+    "birth_place": null,
+    "death_date": "17 Oct 2004",
+    "death_place": null
   },
   "facts": [
     {
@@ -44,7 +48,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11061,
@@ -52,6 +57,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11040,
@@ -59,6 +65,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11158,
@@ -66,6 +73,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11126,
@@ -73,6 +81,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11127,
@@ -80,6 +89,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11128,
@@ -87,6 +97,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11168,
@@ -99,6 +110,24 @@
   "ancestry": {
     "id": 11039,
     "name": "Charles Ambrose Turner",
-    "children": []
+    "children": [
+      {
+        "id": 11061,
+        "name": "Ambrose Turner",
+        "children": [
+          {
+            "id": 11158,
+            "name": "Daniel Turner",
+            "children": [
+              {
+                "id": 11039,
+                "name": "Charles Ambrose Turner",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

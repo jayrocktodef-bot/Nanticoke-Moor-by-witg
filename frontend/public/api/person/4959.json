@@ -11,7 +11,11 @@
     "birth_info": "1874",
     "death_info": "7 Jul 1914 (aged 39\u201340)",
     "notes": "Ingested from DavisWilliamHenry.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/197400978/henry-davis (Buried at Melbourne General Cemetery) [Suffix 'Jr' realigned from surname field]",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "1874",
+    "birth_place": null,
+    "death_date": "7 Jul 1914 (aged 39\u201340)",
+    "death_place": null
   },
   "facts": [
     {
@@ -76,24 +80,6 @@
   "photos": [
     {
       "person_id": 4959,
-      "photo_id": 623,
-      "category": "people",
-      "title_or_caption": "Davis_Henry_And_Joan_Casey_5.jpg",
-      "subject_names": "Davis Henry & Joan Casey 5",
-      "married_surname": "Davis",
-      "approximate_year": "1927",
-      "local_image_path": "assets/archive_media/people/Davis_Henry_And_Joan_Casey_5.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DavisWHenry&Janet.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 4959,
       "photo_id": 1519,
       "category": "people",
       "title_or_caption": "Mc_Henry_Jeremy_David_Jr.jpg",
@@ -106,6 +92,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 4959,
+      "photo_id": 623,
+      "category": "people",
+      "title_or_caption": "Davis_Henry_And_Joan_Casey_5.jpg",
+      "subject_names": "Davis Henry & Joan Casey 5",
+      "married_surname": "Davis",
+      "approximate_year": "1927",
+      "local_image_path": "assets/archive_media/people/Davis_Henry_And_Joan_Casey_5.jpg",
+      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DavisWHenry&Janet.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

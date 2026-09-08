@@ -11,7 +11,11 @@
     "birth_info": "Oct 1889 Delaware, USA",
     "death_info": "Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Oct 1889 Delaware, USA",
+    "birth_place": null,
+    "death_date": "Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -179,6 +183,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10624,
@@ -203,6 +208,24 @@
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
+    },
+    {
+      "person_id": 10625,
+      "photo_id": 3614,
+      "category": "documents",
+      "title_or_caption": "1900_Levi_Mosley_33724225.json",
+      "subject_names": "1900 Federal Census - Levi Mosley Household",
+      "married_surname": "Davis",
+      "approximate_year": "1900",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/33724225:7602",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
     }
   ],
   "obituaries": [],

@@ -11,7 +11,11 @@
     "birth_info": "1822 Delaware",
     "death_info": "1870 Delaware between Nov 1860 & 1870 Census",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1822 Delaware",
+    "birth_place": null,
+    "death_date": "1870 Delaware between Nov 1860 & 1870 Census",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,21 +97,24 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F472@ marriage  Sussex County, Delaware, USA",
       "certainty": "confirmed",
       "rel_id": 9606,
       "rel_name": "Robert Clark"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9611,
       "rel_name": "Parnelpa A Penelope Clark"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9605,

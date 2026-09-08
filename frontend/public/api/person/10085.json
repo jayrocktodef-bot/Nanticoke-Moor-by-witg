@@ -11,7 +11,11 @@
     "birth_info": "1806",
     "death_info": "30 Jun 1847 Louisa County, Virginia, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1806",
+    "birth_place": null,
+    "death_date": "30 Jun 1847 Louisa County, Virginia, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,6 +88,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9992,

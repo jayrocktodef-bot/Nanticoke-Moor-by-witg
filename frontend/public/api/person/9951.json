@@ -11,7 +11,11 @@
     "birth_info": "Abt 1874 Delaware",
     "death_info": "Sussex County, Delaware, USA",
     "notes": "WikiTree: https://www.wikitree.com/wiki/Clark-93439 (Clark-93439)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Abt 1874 Delaware",
+    "birth_place": null,
+    "death_date": "Sussex County, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,6 +88,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9953,
@@ -91,6 +96,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9954,

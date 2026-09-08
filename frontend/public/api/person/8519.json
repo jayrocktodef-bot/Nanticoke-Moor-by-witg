@@ -11,7 +11,11 @@
     "birth_info": "14 Apr 1880",
     "death_info": "8 Apr 1962 (aged 81)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/288116153/james-davis (Buried at Corbally Christ Church Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "14 Apr 1880",
+    "birth_place": null,
+    "death_date": "8 Apr 1962 (aged 81)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,42 +78,48 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8521,
       "rel_name": "JOHANNA Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8522,
       "rel_name": "JOSHUA Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8523,
       "rel_name": "HENRY MORRIS Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8524,
       "rel_name": "CYNTHIA Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8525,
       "rel_name": "JOHN Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8157,
@@ -117,42 +127,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 8519,
-      "photo_id": 690,
-      "category": "people",
-      "title_or_caption": "Davis_William_H_And_Horse.jpg",
-      "subject_names": "Davis William H & Horse",
-      "married_surname": "Davis",
-      "approximate_year": "1909",
-      "local_image_path": "assets/archive_media/people/Davis_William_H_And_Horse.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisWilliamHenry.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "group_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
-    {
-      "person_id": 8519,
-      "photo_id": 638,
-      "category": "people",
-      "title_or_caption": "Davis_Ned_And_Gladys_Dean.jpg",
-      "subject_names": "Davis Ned & Gladys Dean",
-      "married_surname": "Davis",
-      "approximate_year": "1909",
-      "local_image_path": "assets/archive_media/people/Davis_Ned_And_Gladys_Dean.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisWilliamHenry.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 8519,
       "photo_id": 640,
@@ -191,6 +165,42 @@
     },
     {
       "person_id": 8519,
+      "photo_id": 643,
+      "category": "people",
+      "title_or_caption": "Davis_Pearl.jpg",
+      "subject_names": "Pearl Davis",
+      "married_surname": "Davis",
+      "approximate_year": "1909",
+      "local_image_path": "assets/archive_media/people/Davis_Pearl.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisWilliamHenry.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 8519,
+      "photo_id": 638,
+      "category": "people",
+      "title_or_caption": "Davis_Ned_And_Gladys_Dean.jpg",
+      "subject_names": "Davis Ned & Gladys Dean",
+      "married_surname": "Davis",
+      "approximate_year": "1909",
+      "local_image_path": "assets/archive_media/people/Davis_Ned_And_Gladys_Dean.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisWilliamHenry.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 8519,
       "photo_id": 676,
       "category": "people",
       "title_or_caption": "Davis_Whjr_And_Bea_And_Rnsr.jpg",
@@ -209,21 +219,21 @@
     },
     {
       "person_id": 8519,
-      "photo_id": 643,
+      "photo_id": 690,
       "category": "people",
-      "title_or_caption": "Davis_Pearl.jpg",
-      "subject_names": "Pearl Davis",
+      "title_or_caption": "Davis_William_H_And_Horse.jpg",
+      "subject_names": "Davis William H & Horse",
       "married_surname": "Davis",
       "approximate_year": "1909",
-      "local_image_path": "assets/archive_media/people/Davis_Pearl.jpg",
+      "local_image_path": "assets/archive_media/people/Davis_William_H_And_Horse.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisWilliamHenry.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "group_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     },
     {
       "person_id": 8519,

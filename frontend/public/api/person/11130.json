@@ -11,7 +11,11 @@
     "birth_info": "30 Mar 1926",
     "death_info": "15 Jan 2004 (aged 77)",
     "notes": "Restored connected Delmarva lineage from GEDCOM | Verified via FindAGrave: https://www.findagrave.com/memorial/29777817/florence-waller [Suffix 'Jr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "30 Mar 1926",
+    "birth_place": null,
+    "death_date": "15 Jan 2004 (aged 77)",
+    "death_place": null
   },
   "facts": [
     {
@@ -44,7 +48,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11129,
@@ -57,6 +62,12 @@
   "ancestry": {
     "id": 11130,
     "name": "Dale Turner Jr",
-    "children": []
+    "children": [
+      {
+        "id": 11129,
+        "name": "Vivian Turner",
+        "children": []
+      }
+    ]
   }
 }

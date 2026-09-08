@@ -11,7 +11,11 @@
     "birth_info": "27 Oct 1829 Millsboro, Sussex, Delaware, USA",
     "death_info": "08 May 1895 Sussex, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "27 Oct 1829 Millsboro, Sussex, Delaware, USA",
+    "birth_place": null,
+    "death_date": "08 May 1895 Sussex, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -188,14 +192,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F265@ marriage | GEDCOM Family @F476@ marriage",
       "certainty": "confirmed",
       "rel_id": 9980,
       "rel_name": "Sarah Ann Handsor"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10746,
@@ -203,6 +209,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9982,
@@ -210,6 +217,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9983,
@@ -217,6 +225,24 @@
     }
   ],
   "photos": [
+    {
+      "person_id": 9981,
+      "photo_id": 1442,
+      "category": "people",
+      "title_or_caption": "Johnson_William_Arthur_1.jpg",
+      "subject_names": "William Arthur Johnson",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_William_Arthur_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "document",
+      "subtype": "studio_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
     {
       "person_id": 9981,
       "photo_id": 1443,
@@ -249,24 +275,6 @@
       "document_type": "group_photo",
       "asset_type": "document",
       "subtype": "group_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
-    {
-      "person_id": 9981,
-      "photo_id": 1442,
-      "category": "people",
-      "title_or_caption": "Johnson_William_Arthur_1.jpg",
-      "subject_names": "William Arthur Johnson",
-      "married_surname": "Johnson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_William_Arthur_1.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "document",
-      "subtype": "studio_portrait",
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"

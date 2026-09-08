@@ -11,7 +11,11 @@
     "birth_info": "1815",
     "death_info": "Oct 1897 (aged 81\u201382)",
     "notes": "Moor/Nanticoke lineage record - Durham cluster | Verified via FindAGrave: https://www.findagrave.com/memorial/47705929/samuel-durham",
-    "dataset_source": "moors_delaware"
+    "dataset_source": "moors_delaware",
+    "birth_date": "1815",
+    "birth_place": null,
+    "death_date": "Oct 1897 (aged 81\u201382)",
+    "death_place": null
   },
   "facts": [
     {
@@ -81,41 +85,8 @@
       "citations": []
     }
   ],
-  "relationships": [
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 194,
-      "rel_name": "Daniel Durham"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (80.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 314,
-      "rel_name": "Mamie Durham"
-    }
-  ],
+  "relationships": [],
   "photos": [
-    {
-      "person_id": 1003,
-      "photo_id": 1444,
-      "category": "people",
-      "title_or_caption": "Johnson_Willis_And_Henny.jpg",
-      "subject_names": "Johnson Willis & Henny",
-      "married_surname": "Johnson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_Willis_And_Henny.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamSamuel&Sarah.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "group_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
     {
       "person_id": 1003,
       "photo_id": 910,
@@ -130,6 +101,24 @@
       "document_type": "family_tree",
       "asset_type": "document",
       "subtype": "ancestor_pedigree_chart",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 1003,
+      "photo_id": 1444,
+      "category": "people",
+      "title_or_caption": "Johnson_Willis_And_Henny.jpg",
+      "subject_names": "Johnson Willis & Henny",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_Willis_And_Henny.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamSamuel&Sarah.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "group_portrait",
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"

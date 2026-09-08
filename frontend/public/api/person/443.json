@@ -11,7 +11,11 @@
     "birth_info": "1800",
     "death_info": "21 Jun 1852 (aged 51\u201352)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/71004139/hester-jackson",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "1800",
+    "birth_place": null,
+    "death_date": "21 Jun 1852 (aged 51\u201352)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Hester Jackson  married Eli Hitchins on Sept. 9,",
       "certainty": "confirmed",
       "rel_id": 11667,

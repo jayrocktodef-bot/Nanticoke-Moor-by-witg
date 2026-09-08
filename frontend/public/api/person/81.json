@@ -11,7 +11,11 @@
     "birth_info": "22 Jan 1831",
     "death_info": "1907 (aged 75\u201376)",
     "notes": "Buried at Indian Mission Cemetery, Millsboro, Sussex County, DE. Son of Boen/Bowen Clark & Ann Clark; Grandson of James Clark & Lydia Nau-Gwa-Ok-Wa Norwood Clark. Married Nancy Harmon Clark.",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "22 Jan 1831",
+    "birth_place": null,
+    "death_date": "1907 (aged 75\u201376)",
+    "death_place": null
   },
   "facts": [
     {
@@ -102,18 +106,12 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Elmira Mosley married Roscoe MILLER",
       "certainty": "confirmed",
       "rel_id": 82,
       "rel_name": "Roscoe Miller"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 1017,
-      "rel_name": "Nehemiah Mosley"
     }
   ],
   "photos": [],

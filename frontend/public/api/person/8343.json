@@ -11,7 +11,11 @@
     "birth_info": "19 February 1914 Millsboro, Sussex County, Delaware, United States of America",
     "death_info": "December 1965 Sussex County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "19 February 1914 Millsboro, Sussex County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "December 1965 Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8274,
@@ -82,13 +87,15 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8339,
       "rel_name": "Sarah Jane Morris"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F491@ marriage",
       "certainty": "confirmed",
       "rel_id": 9913,
@@ -113,13 +120,7 @@
               {
                 "id": 8617,
                 "name": "Negro Morris Thomas",
-                "children": [
-                  {
-                    "id": 9992,
-                    "name": "Sally Wright",
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
                 "id": 8910,
@@ -187,17 +188,17 @@
                     ]
                   },
                   {
-                    "id": 10290,
-                    "name": "Harriet Ann Harmon",
+                    "id": 8921,
+                    "name": "Eliza Jane Morris",
                     "children": [
                       {
-                        "id": 10291,
-                        "name": "Charles S Harmon",
+                        "id": 9958,
+                        "name": "Emma Jane Johnson",
                         "children": []
                       },
                       {
-                        "id": 10292,
-                        "name": "Ann Mariah Harmon",
+                        "id": 10539,
+                        "name": "Samuel Roland Johnson",
                         "children": []
                       }
                     ]

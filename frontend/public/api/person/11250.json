@@ -11,7 +11,11 @@
     "birth_info": "1810",
     "death_info": "1885",
     "notes": "Mother of James H. Clark",
-    "dataset_source": "findagrave"
+    "dataset_source": "findagrave",
+    "birth_date": "1810",
+    "birth_place": null,
+    "death_date": "1885",
+    "death_place": null
   },
   "facts": [
     {
@@ -94,6 +98,7 @@
   "relationships": [
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": null,
       "certainty": "confirmed",
       "rel_id": 10421,

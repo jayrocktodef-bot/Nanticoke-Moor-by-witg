@@ -9,9 +9,13 @@
     "evidence_level": 3,
     "source_page": "bible-c1.htm",
     "birth_info": null,
-    "death_info": null,
+    "death_info": "July 25,  1848",
     "notes": " | FindAGrave: no match",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "July 25,  1848",
+    "death_place": null
   },
   "facts": [
     {
@@ -32,11 +36,31 @@
           "source_dataset": "lynncjackson"
         }
       ]
+    },
+    {
+      "fact_id": 15961,
+      "person_id": 11482,
+      "fact_type": "Death",
+      "date_string": "July 25,  1848",
+      "place_string": null,
+      "value_string": "Died July 25,  1848",
+      "citations": [
+        {
+          "citation_id": 14771,
+          "fact_id": 15961,
+          "source_id": null,
+          "evidence_text": "Documented in bible-c1.htm:  A. Cott died June the 5th eighteen hundred & sixty seven \n Obediah Cott the son of John Cott & Sallie Cott died July 25, \n1848\n \n Hevarin Cott the son of John & Sallie  Cott died May the (20th or 23r",
+          "source_title": null,
+          "source_url": null,
+          "source_dataset": null
+        }
+      ]
     }
   ],
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Obediah Cott the son of John Cott & Sallie Cott died July 25,",
       "certainty": "confirmed",
       "rel_id": 12,

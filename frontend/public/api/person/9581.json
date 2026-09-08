@@ -11,7 +11,11 @@
     "birth_info": "28 Sep 1930",
     "death_info": "9 May 1997 (aged 66)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/14668119/birtie-hanover",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "28 Sep 1930",
+    "birth_place": null,
+    "death_date": "9 May 1997 (aged 66)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9584,

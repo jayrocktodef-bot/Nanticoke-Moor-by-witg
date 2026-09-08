@@ -11,7 +11,11 @@
     "birth_info": "Jan 1874 Delaware, USA",
     "death_info": "7 January 1954 Lewes, Sussex County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Jan 1874 Delaware, USA",
+    "birth_place": null,
+    "death_date": "7 January 1954 Lewes, Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -169,28 +173,32 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F390@ marriage 1896",
       "certainty": "confirmed",
       "rel_id": 9299,
       "rel_name": "Annie MILLER CADE Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9301,
       "rel_name": "Otis Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9302,
       "rel_name": "Enoch Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9298,
@@ -198,6 +206,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9408,
@@ -207,13 +216,13 @@
   "photos": [
     {
       "person_id": 9300,
-      "photo_id": 1213,
+      "photo_id": 1206,
       "category": "people",
-      "title_or_caption": "Harmon_Rosa.jpg",
-      "subject_names": "Rosa Harmon",
+      "title_or_caption": "Harmon_Neocia_Duker.jpg",
+      "subject_names": "Neocia Duker Harmon",
       "married_surname": "Harmon",
       "approximate_year": "1899",
-      "local_image_path": "assets/archive_media/people/Harmon_Rosa.jpg",
+      "local_image_path": "assets/archive_media/people/Harmon_Neocia_Duker.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HanzerBishopJamesE.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
@@ -225,13 +234,13 @@
     },
     {
       "person_id": 9300,
-      "photo_id": 1206,
+      "photo_id": 1213,
       "category": "people",
-      "title_or_caption": "Harmon_Neocia_Duker.jpg",
-      "subject_names": "Neocia Duker Harmon",
+      "title_or_caption": "Harmon_Rosa.jpg",
+      "subject_names": "Rosa Harmon",
       "married_surname": "Harmon",
       "approximate_year": "1899",
-      "local_image_path": "assets/archive_media/people/Harmon_Neocia_Duker.jpg",
+      "local_image_path": "assets/archive_media/people/Harmon_Rosa.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HanzerBishopJamesE.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",

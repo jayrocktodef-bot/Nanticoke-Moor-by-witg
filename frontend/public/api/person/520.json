@@ -11,7 +11,11 @@
     "birth_info": "20 Apr 1852",
     "death_info": "17 Feb 1920 (aged 67)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/160838894/d-d-mosley",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "20 Apr 1852",
+    "birth_place": null,
+    "death_date": "17 Feb 1920 (aged 67)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,18 +78,12 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Creed Morgan married Dorthy Mosley",
       "certainty": "confirmed",
       "rel_id": 519,
       "rel_name": "Creed Morgan"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 961,
-      "rel_name": "John Mosley"
     }
   ],
   "photos": [],

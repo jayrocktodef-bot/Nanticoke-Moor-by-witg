@@ -11,7 +11,11 @@
     "birth_info": "24 Nov 1875",
     "death_info": "11 Nov 1969 (aged 93)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/42822136/hester-durham",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "24 Nov 1875",
+    "birth_place": null,
+    "death_date": "11 Nov 1969 (aged 93)",
+    "death_place": null
   },
   "facts": [
     {
@@ -178,7 +182,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Hester Durham who married David Driggers",
       "certainty": "confirmed",
       "rel_id": 182,
@@ -186,6 +191,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10394,
@@ -193,6 +199,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10395,

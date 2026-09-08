@@ -11,7 +11,11 @@
     "birth_info": "2 Mar 1915",
     "death_info": "19 Feb 2012 (aged 96)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/138569727/helen-johnson",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "2 Mar 1915",
+    "birth_place": null,
+    "death_date": "19 Feb 2012 (aged 96)",
+    "death_place": null
   },
   "facts": [
     {
@@ -102,21 +106,24 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F84@ marriage",
       "certainty": "confirmed",
       "rel_id": 9491,
       "rel_name": "Jackie Melvin Johnson Sr"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9492,
       "rel_name": "Peggy Ridgeway"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10134,
@@ -124,6 +131,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10126,

@@ -11,7 +11,11 @@
     "birth_info": "30 October, 1872",
     "death_info": null,
     "notes": " | FindAGrave: no match",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "30 October, 1872",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -102,7 +106,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Nelson Johnson who married Lottie Wright, daughter of Sarah and William Wright | Lottie Wright who married Nelson Johnson",
       "certainty": "confirmed",
       "rel_id": 761,
@@ -110,24 +115,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 746,
-      "photo_id": 1432,
-      "category": "people",
-      "title_or_caption": "Johnson_Nelson_And_Lottie_Wright_1.jpg",
-      "subject_names": "Johnson Nelson & Lottie Wright 1",
-      "married_surname": "Johnson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_Nelson_And_Lottie_Wright_1.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliam&Patience.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
     {
       "person_id": 746,
       "photo_id": 1381,
@@ -145,6 +132,24 @@
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"
+    },
+    {
+      "person_id": 746,
+      "photo_id": 1432,
+      "category": "people",
+      "title_or_caption": "Johnson_Nelson_And_Lottie_Wright_1.jpg",
+      "subject_names": "Johnson Nelson & Lottie Wright 1",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_Nelson_And_Lottie_Wright_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliam&Patience.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

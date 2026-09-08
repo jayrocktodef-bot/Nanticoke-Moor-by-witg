@@ -11,7 +11,11 @@
     "birth_info": "3 Dec 1922",
     "death_info": "28 Jun 1980 (aged 57)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/209362562/howard-mosley",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "3 Dec 1922",
+    "birth_place": null,
+    "death_date": "28 Jun 1980 (aged 57)",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,6 +88,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10632,
@@ -91,6 +96,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10626,
@@ -115,6 +121,24 @@
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
+    },
+    {
+      "person_id": 10630,
+      "photo_id": 3621,
+      "category": "documents",
+      "title_or_caption": "1930_Howard_Mosley_121476947.json",
+      "subject_names": "1930 Federal Census - Howard Mosley Household",
+      "married_surname": "Davis",
+      "approximate_year": "1930",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/121476947:6224",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
     }
   ],
   "obituaries": [],

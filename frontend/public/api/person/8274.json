@@ -11,7 +11,11 @@
     "birth_info": "26 September 1890 Kent County, Delaware, United States of America",
     "death_info": "6 September 1960 Sussex County, Delaware, United States of America",
     "notes": "[Suffix 'Sr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "26 September 1890 Kent County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "6 September 1960 Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,70 +78,80 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F379@ marriage",
       "certainty": "confirmed",
       "rel_id": 8339,
       "rel_name": "Sarah Jane Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8175,
       "rel_name": "Edgar Coil Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8343,
       "rel_name": "Uscar Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8344,
       "rel_name": "Noah O Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8348,
       "rel_name": "Ella G Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8349,
       "rel_name": "Delema Street"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8340,
       "rel_name": "Preston Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8341,
       "rel_name": "Granville Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 6377,
       "rel_name": "Walter Roland Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8345,
@@ -145,6 +159,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 4624,
@@ -184,13 +199,7 @@
           {
             "id": 8617,
             "name": "Negro Morris Thomas",
-            "children": [
-              {
-                "id": 9992,
-                "name": "Sally Wright",
-                "children": []
-              }
-            ]
+            "children": []
           },
           {
             "id": 8910,

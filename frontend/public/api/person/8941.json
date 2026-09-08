@@ -11,7 +11,11 @@
     "birth_info": "1783 Oglethorpe County, Georgia",
     "death_info": "1875 Bowdon, Carroll, Georgia, United States",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1783 Oglethorpe County, Georgia",
+    "birth_place": null,
+    "death_date": "1875 Bowdon, Carroll, Georgia, United States",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,35 +78,40 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F328@ marriage ABT 1811 VA",
       "certainty": "confirmed",
       "rel_id": 8603,
       "rel_name": "William M Wright"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9085,
       "rel_name": "Mason J Wright"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 2470,
       "rel_name": "Mary C. Simmons Wright"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9083,
       "rel_name": "Asa Asbury Wright"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9084,

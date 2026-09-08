@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "3 Apr 1955",
     "notes": "Ingested from MorganWilliam&Nora.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/115005662/harry-srabian [Suffix 'Sr' realigned from surname field]",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "3 Apr 1955",
+    "death_place": null
   },
   "facts": [
     {
@@ -142,6 +146,24 @@
   "photos": [
     {
       "person_id": 6492,
+      "photo_id": 1575,
+      "category": "people",
+      "title_or_caption": "Morgan_Harry_N.jpg",
+      "subject_names": "Harry N. Morgan",
+      "married_surname": "Morgan",
+      "approximate_year": "1912",
+      "local_image_path": "assets/archive_media/people/Morgan_Harry_N.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganHarryN.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6492,
       "photo_id": 1568,
       "category": "people",
       "title_or_caption": "Morgan_Harry_And_Frances_2.jpg",
@@ -172,24 +194,6 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 6492,
-      "photo_id": 1575,
-      "category": "people",
-      "title_or_caption": "Morgan_Harry_N.jpg",
-      "subject_names": "Harry N. Morgan",
-      "married_surname": "Morgan",
-      "approximate_year": "1912",
-      "local_image_path": "assets/archive_media/people/Morgan_Harry_N.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganHarryN.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

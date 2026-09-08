@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Linked to jacksonn.htm | FindAGrave: no match",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -95,6 +99,24 @@
   "photos": [
     {
       "person_id": 582,
+      "photo_id": 1329,
+      "category": "people",
+      "title_or_caption": "Jackson_Clarence.jpg",
+      "subject_names": "Clarence Jackson",
+      "married_surname": "Jackson",
+      "approximate_year": "1878",
+      "local_image_path": "assets/archive_media/people/Jackson_Clarence.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonClarence.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 582,
       "photo_id": 1333,
       "category": "people",
       "title_or_caption": "Jackson_Ellen_Perkins.jpg",
@@ -143,24 +165,6 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 582,
-      "photo_id": 1329,
-      "category": "people",
-      "title_or_caption": "Jackson_Clarence.jpg",
-      "subject_names": "Clarence Jackson",
-      "married_surname": "Jackson",
-      "approximate_year": "1878",
-      "local_image_path": "assets/archive_media/people/Jackson_Clarence.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonClarence.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

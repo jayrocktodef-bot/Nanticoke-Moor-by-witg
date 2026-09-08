@@ -11,7 +11,11 @@
     "birth_info": "1902 Delaware",
     "death_info": "Jan 1982",
     "notes": "Restored connected Delmarva lineage from GEDCOM",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1902 Delaware",
+    "birth_place": null,
+    "death_date": "Jan 1982",
+    "death_place": null
   },
   "facts": [
     {
@@ -44,14 +48,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11050,
       "rel_name": "Jacob B. Cordrey"
     },
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11045,
@@ -64,6 +70,17 @@
   "ancestry": {
     "id": 11058,
     "name": "Pearl H Cordrey",
-    "children": []
+    "children": [
+      {
+        "id": 11050,
+        "name": "Jacob B. Cordrey",
+        "children": []
+      },
+      {
+        "id": 11045,
+        "name": "Elizabeth Ella Carmean",
+        "children": []
+      }
+    ]
   }
 }

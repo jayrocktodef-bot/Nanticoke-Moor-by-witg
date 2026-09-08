@@ -11,7 +11,11 @@
     "birth_info": "28 Jan 1873",
     "death_info": "29 Mar 1958 (aged 85)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/20187339/edith-harmon",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "28 Jan 1873",
+    "birth_place": null,
+    "death_date": "29 Mar 1958 (aged 85)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,28 +78,32 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F105@ marriage",
       "certainty": "confirmed",
       "rel_id": 8931,
       "rel_name": "John Henson Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8932,
       "rel_name": "Sylvia Marlene Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10576,
       "rel_name": "Bettie J Harmon"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10577,

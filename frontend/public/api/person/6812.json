@@ -11,7 +11,11 @@
     "birth_info": "28 \t\tJanuary, 1857 (Maryland on 28 \t\tJanuary, 1857)",
     "death_info": "26 Mar 1970",
     "notes": "Ingested from NewlinAubrey&Letitia.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/138161794/agnes-carter | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/138161794/agnes-carter",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "28 \t\tJanuary, 1857",
+    "birth_place": "Maryland on 28 \t\tJanuary, 1857",
+    "death_date": "26 Mar 1970",
+    "death_place": null
   },
   "facts": [
     {
@@ -140,7 +144,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Agnes Carter married Aubrey Newlin",
       "certainty": "confirmed",
       "rel_id": 56,

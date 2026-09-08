@@ -11,7 +11,11 @@
     "birth_info": "22 Nov 1880 West Dover, Kent, Delaware, USA",
     "death_info": "29 Apr 1951 Fairfield, Cumberland, New Jersey, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "22 Nov 1880 West Dover, Kent, Delaware, USA",
+    "birth_place": null,
+    "death_date": "29 Apr 1951 Fairfield, Cumberland, New Jersey, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -274,24 +278,6 @@
     },
     {
       "person_id": 9843,
-      "photo_id": 839,
-      "category": "people",
-      "title_or_caption": "Durham_James_EH_And_Harriett.jpg",
-      "subject_names": "Durham James EH & Harriett",
-      "married_surname": "Durham",
-      "approximate_year": "1867",
-      "local_image_path": "assets/archive_media/people/Durham_James_EH_And_Harriett.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamJEH&Harriett.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "family_group",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 9843,
       "photo_id": 223,
       "category": "people",
       "title_or_caption": "Carney_Harriett_Durham_5.jpg",
@@ -304,6 +290,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9843,
+      "photo_id": 839,
+      "category": "people",
+      "title_or_caption": "Durham_James_EH_And_Harriett.jpg",
+      "subject_names": "Durham James EH & Harriett",
+      "married_surname": "Durham",
+      "approximate_year": "1867",
+      "local_image_path": "assets/archive_media/people/Durham_James_EH_And_Harriett.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamJEH&Harriett.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

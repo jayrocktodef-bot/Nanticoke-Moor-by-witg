@@ -11,7 +11,11 @@
     "birth_info": "3 December 1880 Delaware",
     "death_info": "28 February 1965",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "3 December 1880 Delaware",
+    "birth_place": null,
+    "death_date": "28 February 1965",
+    "death_place": null
   },
   "facts": [
     {
@@ -113,27 +117,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 10514,
-      "rel_name": "Simon Harmon"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9928,
-      "rel_name": "Lydia J Harmon"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 1024,
-      "rel_name": "Eli Harmon"
-    },
-    {
-      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8683,
@@ -141,13 +125,15 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8718,
       "rel_name": "Hester A Jackson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9715,
@@ -157,21 +143,39 @@
   "photos": [
     {
       "person_id": 9372,
-      "photo_id": 1443,
+      "photo_id": 1167,
       "category": "people",
-      "title_or_caption": "Johnson_William_Howard_1.jpg",
-      "subject_names": "William Howard Johnson",
+      "title_or_caption": "Harmon_Eliza_Jane.jpg",
+      "subject_names": "Eliza Jane Harmon",
+      "married_surname": "Harmon",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Harmon_Eliza_Jane.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonElizaJane.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 9372,
+      "photo_id": 1398,
+      "category": "people",
+      "title_or_caption": "Johnson_Eliza_Ann_Harmon_4.jpg",
+      "subject_names": "Eliza Ann Harmon Johnson",
       "married_surname": "Johnson",
       "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_William_Howard_1.jpg",
+      "local_image_path": "assets/archive_media/people/Johnson_Eliza_Ann_Harmon_4.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
-      "asset_type": "document",
+      "asset_type": "photograph",
       "subtype": "studio_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
     },
     {
       "person_id": 9372,
@@ -190,6 +194,42 @@
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
+    },
+    {
+      "person_id": 9372,
+      "photo_id": 1442,
+      "category": "people",
+      "title_or_caption": "Johnson_William_Arthur_1.jpg",
+      "subject_names": "William Arthur Johnson",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_William_Arthur_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "document",
+      "subtype": "studio_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 9372,
+      "photo_id": 1443,
+      "category": "people",
+      "title_or_caption": "Johnson_William_Howard_1.jpg",
+      "subject_names": "William Howard Johnson",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_William_Howard_1.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "document",
+      "subtype": "studio_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     },
     {
       "person_id": 9372,
@@ -226,60 +266,6 @@
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
-    },
-    {
-      "person_id": 9372,
-      "photo_id": 1442,
-      "category": "people",
-      "title_or_caption": "Johnson_William_Arthur_1.jpg",
-      "subject_names": "William Arthur Johnson",
-      "married_surname": "Johnson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_William_Arthur_1.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "document",
-      "subtype": "studio_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
-    {
-      "person_id": 9372,
-      "photo_id": 1167,
-      "category": "people",
-      "title_or_caption": "Harmon_Eliza_Jane.jpg",
-      "subject_names": "Eliza Jane Harmon",
-      "married_surname": "Harmon",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Harmon_Eliza_Jane.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonElizaJane.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 9372,
-      "photo_id": 1398,
-      "category": "people",
-      "title_or_caption": "Johnson_Eliza_Ann_Harmon_4.jpg",
-      "subject_names": "Eliza Ann Harmon Johnson",
-      "married_surname": "Johnson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_Eliza_Ann_Harmon_4.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
     }
   ],
   "obituaries": [],
@@ -289,34 +275,51 @@
     "name": "Eliza J. Harmon",
     "children": [
       {
-        "id": 10514,
-        "name": "Simon Harmon",
+        "id": 8683,
+        "name": "Josiah Joseph Morris",
         "children": [
           {
-            "id": 1022,
-            "name": "Bowen Harmon",
+            "id": 8617,
+            "name": "Negro Morris Thomas",
+            "children": []
+          },
+          {
+            "id": 8910,
+            "name": "Leticia Morris",
             "children": [
               {
-                "id": 9982,
-                "name": "Robert Emanuel Harmon",
-                "children": []
-              },
-              {
-                "id": 9983,
-                "name": "Rachel Anne Johnson",
+                "id": 8616,
+                "name": "Stephen Wright",
                 "children": [
                   {
-                    "id": 9984,
-                    "name": "Isaac Johnson",
-                    "children": []
-                  },
-                  {
-                    "id": 9985,
-                    "name": "Jemima WARD Johnson",
+                    "id": 8687,
+                    "name": "Benjamin Wright",
                     "children": [
                       {
-                        "id": 10401,
-                        "name": "Rachel Johnson",
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8684,
+                "name": "Priscilla Miller",
+                "children": [
+                  {
+                    "id": 9188,
+                    "name": "Ebenezer Miller",
+                    "children": [
+                      {
+                        "id": 9190,
+                        "name": "Ebenezer Miller Sr",
+                        "children": []
+                      },
+                      {
+                        "id": 9191,
+                        "name": "Sarah Collier Miller",
                         "children": []
                       }
                     ]
@@ -324,45 +327,22 @@
                 ]
               }
             ]
-          },
-          {
-            "id": 7577,
-            "name": "Lydia Clark",
-            "children": []
           }
         ]
       },
       {
-        "id": 9928,
-        "name": "Lydia J Harmon",
+        "id": 8718,
+        "name": "Hester A Jackson",
         "children": [
           {
-            "id": 9931,
-            "name": "Raymond Harmon",
-            "children": [
-              {
-                "id": 8860,
-                "name": "Hattie Miller",
-                "children": [
-                  {
-                    "id": 8857,
-                    "name": "John E Miller",
-                    "children": []
-                  }
-                ]
-              }
-            ]
+            "id": 18,
+            "name": "John Jackson",
+            "children": []
           },
           {
-            "id": 8860,
-            "name": "Hattie Miller",
-            "children": [
-              {
-                "id": 8857,
-                "name": "John E Miller",
-                "children": []
-              }
-            ]
+            "id": 9555,
+            "name": "Eliza Parker Jackson",
+            "children": []
           }
         ]
       }

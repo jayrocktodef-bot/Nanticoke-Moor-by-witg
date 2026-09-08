@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "Mar 1898",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/246915553/gertrude-wright",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "Mar 1898",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Gertrude Wright who married Noah Harmon, Jr.",
       "certainty": "confirmed",
       "rel_id": 5971,

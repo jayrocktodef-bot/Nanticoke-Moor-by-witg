@@ -11,7 +11,11 @@
     "birth_info": "9 Feb 1941",
     "death_info": "28 Dec 2022 (aged 81)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/248198756/margarete-davis (Buried at Tahoma National Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "9 Feb 1941",
+    "birth_place": null,
+    "death_date": "28 Dec 2022 (aged 81)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8187,
@@ -97,31 +102,36 @@
             "name": "George Davis",
             "children": [
               {
-                "id": 8613,
-                "name": "Joseph Henry Davis",
+                "id": 8519,
+                "name": "JAMES Davis",
+                "children": []
+              },
+              {
+                "id": 8185,
+                "name": "Hester A. Morris Davis",
                 "children": [
                   {
-                    "id": 8629,
-                    "name": "Jost Henry Davis",
+                    "id": 8571,
+                    "name": "Francis E. Frank Morris",
                     "children": [
                       {
-                        "id": 8809,
-                        "name": "Ludwig Davis",
+                        "id": 8617,
+                        "name": "Negro Morris Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 8910,
+                        "name": "Leticia Morris",
                         "children": []
                       }
                     ]
                   },
                   {
-                    "id": 8614,
-                    "name": "Katherina Davis",
+                    "id": 11246,
+                    "name": "Francis E. Morris",
                     "children": []
                   }
                 ]
-              },
-              {
-                "id": 8519,
-                "name": "JAMES Davis",
-                "children": []
               }
             ]
           },

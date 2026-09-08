@@ -11,7 +11,11 @@
     "birth_info": "27 Jun 1680 Roxbury, Suffolk, Massachusetts, USA",
     "death_info": "10 Mar 1756 Middletown, Middlesex, Connecticut, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "27 Jun 1680 Roxbury, Suffolk, Massachusetts, USA",
+    "birth_place": null,
+    "death_date": "10 Mar 1756 Middletown, Middlesex, Connecticut, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,14 +78,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F505@ marriage 28 Oct 1701 Middletown, Middlesex, Connecticut, USA",
       "certainty": "confirmed",
       "rel_id": 9192,
       "rel_name": "Joseph Miller Sr"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9190,

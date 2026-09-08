@@ -11,7 +11,11 @@
     "birth_info": "18 May 1884",
     "death_info": "24 Apr 1970 (aged 85)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/108328432/mattie-jackson",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "18 May 1884",
+    "birth_place": null,
+    "death_date": "24 Apr 1970 (aged 85)",
+    "death_place": null
   },
   "facts": [
     {
@@ -102,7 +106,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Mattie Jackson married Eldridge Johnson (b.c. 1889)",
       "certainty": "confirmed",
       "rel_id": 414,
@@ -112,13 +117,31 @@
   "photos": [
     {
       "person_id": 413,
-      "photo_id": 1430,
+      "photo_id": 1396,
       "category": "people",
-      "title_or_caption": "Johnson_Mattie_Jackson.jpg",
-      "subject_names": "Mattie Jackson Johnson",
+      "title_or_caption": "Johnson_Eldrege_Rancestry.jpg",
+      "subject_names": "Eldrege Rancestry Johnson",
       "married_surname": "Johnson",
       "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_Mattie_Jackson.jpg",
+      "local_image_path": "assets/archive_media/family_trees/Johnson_Eldrege_Rancestry.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonEldridge.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "document",
+      "subtype": "studio_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 413,
+      "photo_id": 1397,
+      "category": "people",
+      "title_or_caption": "Johnson_Eldridge.jpg",
+      "subject_names": "Eldridge Johnson",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_Eldridge.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonEldridge.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
@@ -130,13 +153,13 @@
     },
     {
       "person_id": 413,
-      "photo_id": 1397,
+      "photo_id": 1430,
       "category": "people",
-      "title_or_caption": "Johnson_Eldridge.jpg",
-      "subject_names": "Eldridge Johnson",
+      "title_or_caption": "Johnson_Mattie_Jackson.jpg",
+      "subject_names": "Mattie Jackson Johnson",
       "married_surname": "Johnson",
       "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_Eldridge.jpg",
+      "local_image_path": "assets/archive_media/people/Johnson_Mattie_Jackson.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonEldridge.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
@@ -163,24 +186,6 @@
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
-    },
-    {
-      "person_id": 413,
-      "photo_id": 1396,
-      "category": "people",
-      "title_or_caption": "Johnson_Eldrege_Rancestry.jpg",
-      "subject_names": "Eldrege Rancestry Johnson",
-      "married_surname": "Johnson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Johnson_Eldrege_Rancestry.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonEldridge.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "document",
-      "subtype": "studio_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
     }
   ],
   "obituaries": [],

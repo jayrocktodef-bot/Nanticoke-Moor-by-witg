@@ -11,7 +11,11 @@
     "birth_info": "Sept. 3, 1777",
     "death_info": null,
     "notes": "Ingested from DeanRobertBurton.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "Sept. 3, 1777",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -66,24 +70,6 @@
   "photos": [
     {
       "person_id": 4936,
-      "photo_id": 722,
-      "category": "people",
-      "title_or_caption": "Dean_Robert_Burton_Family_2.jpg",
-      "subject_names": "Dean Robert Burton Family 2",
-      "married_surname": "Dean",
-      "approximate_year": "1830",
-      "local_image_path": "assets/archive_media/people/Dean_Robert_Burton_Family_2.jpg",
-      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DeanRobert&Family.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 4936,
       "photo_id": 724,
       "category": "people",
       "title_or_caption": "Dean_Robet_Burton_Post_Card.jpg",
@@ -96,6 +82,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 4936,
+      "photo_id": 722,
+      "category": "people",
+      "title_or_caption": "Dean_Robert_Burton_Family_2.jpg",
+      "subject_names": "Dean Robert Burton Family 2",
+      "married_surname": "Dean",
+      "approximate_year": "1830",
+      "local_image_path": "assets/archive_media/people/Dean_Robert_Burton_Family_2.jpg",
+      "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DeanRobert&Family.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

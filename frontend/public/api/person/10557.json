@@ -11,7 +11,11 @@
     "birth_info": "1670 Northampton, Virginia",
     "death_info": "1739",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1670 Northampton, Virginia",
+    "birth_place": null,
+    "death_date": "1739",
+    "death_place": null
   },
   "facts": [
     {
@@ -103,6 +107,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8862,
@@ -130,79 +135,7 @@
       {
         "id": 8862,
         "name": "William Harmon",
-        "children": [
-          {
-            "id": 9407,
-            "name": "David Roland Harmon Sr",
-            "children": []
-          },
-          {
-            "id": 8927,
-            "name": "Eliza Jane Harmon",
-            "children": [
-              {
-                "id": 5763,
-                "name": "Robert Marshall Hanzer",
-                "children": [
-                  {
-                    "id": 9096,
-                    "name": "John C Hanzer",
-                    "children": [
-                      {
-                        "id": 9969,
-                        "name": "Jacob Hanzer Jr",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 9940,
-                    "name": "Sophia J. Hanzer",
-                    "children": [
-                      {
-                        "id": 10122,
-                        "name": "John R. Harmon",
-                        "children": []
-                      },
-                      {
-                        "id": 10123,
-                        "name": "Lavinia Lovinia Sammons",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": 10290,
-                "name": "Harriet Ann Harmon",
-                "children": [
-                  {
-                    "id": 10291,
-                    "name": "Charles S Harmon",
-                    "children": [
-                      {
-                        "id": 10260,
-                        "name": "Adjoniah R. Harmon",
-                        "children": []
-                      },
-                      {
-                        "id": 10293,
-                        "name": "Harriet Louisa Hansor Harmon",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 10292,
-                    "name": "Ann Mariah Harmon",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+        "children": []
       }
     ]
   }

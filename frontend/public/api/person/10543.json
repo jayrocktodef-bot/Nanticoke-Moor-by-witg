@@ -11,7 +11,11 @@
     "birth_info": "abt 1813 York, Maine",
     "death_info": "20 Nov 1882 Cambridge, Massachusetts, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1813 York, Maine",
+    "birth_place": null,
+    "death_date": "20 Nov 1882 Cambridge, Massachusetts, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10542,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10374,
@@ -115,18 +121,7 @@
                   {
                     "id": 8862,
                     "name": "William Harmon",
-                    "children": [
-                      {
-                        "id": 9407,
-                        "name": "David Roland Harmon Sr",
-                        "children": []
-                      },
-                      {
-                        "id": 8927,
-                        "name": "Eliza Jane Harmon",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   }
                 ]
               },

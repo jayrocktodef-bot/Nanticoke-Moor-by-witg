@@ -11,7 +11,11 @@
     "birth_info": "25 January 1786 Maryland",
     "death_info": "14 February 1851 Murderkill Hundred, Kent, DE",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "25 January 1786 Maryland",
+    "birth_place": null,
+    "death_date": "14 February 1851 Murderkill Hundred, Kent, DE",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,21 +78,24 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 1019,
       "rel_name": "Tilghman Ridgeway"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10446,
       "rel_name": "John Wesley Ridgeway"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10447,

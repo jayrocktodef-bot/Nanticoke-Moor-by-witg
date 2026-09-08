@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Ingested from HarmonSisters&Brothers&Jackson2.htm | FindAGrave: no match [Suffix 'Sr' realigned from surname field]",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -56,6 +60,24 @@
     },
     {
       "person_id": 6106,
+      "photo_id": 1472,
+      "category": "people",
+      "title_or_caption": "Lillian_Irene_Warren_Harmon.jpg",
+      "subject_names": "Lillian Irene Warren Harmon",
+      "married_surname": "Lillian",
+      "approximate_year": "1950",
+      "local_image_path": "assets/archive_media/people/Lillian_Irene_Warren_Harmon.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonCharlotteFamily.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6106,
       "photo_id": 1235,
       "category": "people",
       "title_or_caption": "Harmon_Warren_And_Linda_Wedding_2.jpg",
@@ -86,24 +108,6 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 6106,
-      "photo_id": 1472,
-      "category": "people",
-      "title_or_caption": "Lillian_Irene_Warren_Harmon.jpg",
-      "subject_names": "Lillian Irene Warren Harmon",
-      "married_surname": "Lillian",
-      "approximate_year": "1950",
-      "local_image_path": "assets/archive_media/people/Lillian_Irene_Warren_Harmon.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonCharlotteFamily.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

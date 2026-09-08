@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Ingested from MosleyCharlesMilton.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -123,24 +127,6 @@
   "photos": [
     {
       "person_id": 6623,
-      "photo_id": 1765,
-      "category": "people",
-      "title_or_caption": "Mosley_Milton_And_Mae.jpg",
-      "subject_names": "Mosley Milton & Mae",
-      "married_surname": "Mosley",
-      "approximate_year": "1861",
-      "local_image_path": "assets/archive_media/people/Mosley_Milton_And_Mae.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 6623,
       "photo_id": 1699,
       "category": "people",
       "title_or_caption": "Mosley_Charles_Milton_2.jpg",
@@ -167,6 +153,24 @@
       "approximate_year": "1893",
       "local_image_path": "assets/archive_media/people/Durham_Emma_And_Milton_Mosley.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamEmma.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6623,
+      "photo_id": 1765,
+      "category": "people",
+      "title_or_caption": "Mosley_Milton_And_Mae.jpg",
+      "subject_names": "Mosley Milton & Mae",
+      "married_surname": "Mosley",
+      "approximate_year": "1861",
+      "local_image_path": "assets/archive_media/people/Mosley_Milton_And_Mae.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyCharlesHenryFamily.htm",
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",
       "asset_type": "photograph",

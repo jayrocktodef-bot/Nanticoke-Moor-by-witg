@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "15 May 1858",
     "notes": "Ingested from DayHelenJohnson.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/21316742/rosa-morris",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "15 May 1858",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,13 +79,15 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8710,
       "rel_name": "JAMES EDWARD Morris"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8565,
@@ -106,13 +112,7 @@
               {
                 "id": 8617,
                 "name": "Negro Morris Thomas",
-                "children": [
-                  {
-                    "id": 9992,
-                    "name": "Sally Wright",
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
                 "id": 8910,

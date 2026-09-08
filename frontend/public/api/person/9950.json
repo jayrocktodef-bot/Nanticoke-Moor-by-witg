@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "25 May 1915",
     "notes": "WikiTree: https://www.wikitree.com/wiki/Clark-93438 (Clark-93438) | Verified via FindAGrave: https://www.findagrave.com/memorial/56413261/f-clark",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "25 May 1915",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9953,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9954,

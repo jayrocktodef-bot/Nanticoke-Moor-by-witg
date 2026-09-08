@@ -11,7 +11,11 @@
     "birth_info": "15 Nov 1918 Milton, Sussex, Delaware, USA",
     "death_info": "25 Feb 1997 Beebe Medical Center, Lewes, Sussex, Delaware, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "15 Nov 1918 Milton, Sussex, Delaware, USA",
+    "birth_place": null,
+    "death_date": "25 Feb 1997 Beebe Medical Center, Lewes, Sussex, Delaware, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,14 +78,16 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F226@ marriage 8 April 1938 New Jersey, New Jersey, USA",
       "certainty": "confirmed",
       "rel_id": 8159,
       "rel_name": "Harry Edward Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8248,
@@ -89,6 +95,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8193,
@@ -96,6 +103,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8194,
@@ -103,6 +111,24 @@
     }
   ],
   "photos": [
+    {
+      "person_id": 8192,
+      "photo_id": 611,
+      "category": "people",
+      "title_or_caption": "Davis_Ethel_Gwendolyn.jpg",
+      "subject_names": "Ethel Gwendolyn Davis",
+      "married_surname": "Davis",
+      "approximate_year": "1916",
+      "local_image_path": "assets/archive_media/people/Davis_Ethel_Gwendolyn.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisHarryE&EthelGClark.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 8192,
       "photo_id": 617,
@@ -123,21 +149,39 @@
     },
     {
       "person_id": 8192,
-      "photo_id": 611,
-      "category": "people",
-      "title_or_caption": "Davis_Ethel_Gwendolyn.jpg",
-      "subject_names": "Ethel Gwendolyn Davis",
+      "photo_id": 3560,
+      "category": "documents",
+      "title_or_caption": "1930_Ethel_Clark_121401507.json",
+      "subject_names": "1930 Federal Census - Ethel Clark Household",
       "married_surname": "Davis",
-      "approximate_year": "1916",
-      "local_image_path": "assets/archive_media/people/Davis_Ethel_Gwendolyn.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DavisHarryE&EthelGClark.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
+      "approximate_year": "1930",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/121401507:6224",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8192,
+      "photo_id": 3574,
+      "category": "documents",
+      "title_or_caption": "Record_Ethel_Clark_992553817.json",
+      "subject_names": "Record Federal Census - Ethel Clark Household",
+      "married_surname": "Davis",
+      "approximate_year": "Record",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/992553817:61253",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
     }
   ],
   "obituaries": [],

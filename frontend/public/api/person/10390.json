@@ -11,7 +11,11 @@
     "birth_info": "29 Aug 1909 or 1910 Millsboro, Sussex, Delaware, USA",
     "death_info": "18 Jan 1942",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "29 Aug 1909 or 1910 Millsboro, Sussex, Delaware, USA",
+    "birth_place": null,
+    "death_date": "18 Jan 1942",
+    "death_place": null
   },
   "facts": [
     {
@@ -160,6 +164,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9239,
@@ -167,42 +172,6 @@
     }
   ],
   "photos": [
-    {
-      "person_id": 10390,
-      "photo_id": 1728,
-      "category": "people",
-      "title_or_caption": "Mosley_James_E_And_Dorothy.jpg",
-      "subject_names": "Mosley James E & Dorothy",
-      "married_surname": "Mosley",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Mosley_James_E_And_Dorothy.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJames%20E.%20&%20Dorothy%20(Seeney).htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "family_group",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 10390,
-      "photo_id": 1830,
-      "category": "people",
-      "title_or_caption": "Mosley_Will_And_Street_James.jpg",
-      "subject_names": "Mosley Will & Street James",
-      "married_surname": "Mosley",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Mosley_Will_And_Street_James.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyWill&StreetJames.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "group_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
     {
       "person_id": 10390,
       "photo_id": 1413,
@@ -238,6 +207,42 @@
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
+    },
+    {
+      "person_id": 10390,
+      "photo_id": 1728,
+      "category": "people",
+      "title_or_caption": "Mosley_James_E_And_Dorothy.jpg",
+      "subject_names": "Mosley James E & Dorothy",
+      "married_surname": "Mosley",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Mosley_James_E_And_Dorothy.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyJames%20E.%20&%20Dorothy%20(Seeney).htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "family_group",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 10390,
+      "photo_id": 1830,
+      "category": "people",
+      "title_or_caption": "Mosley_Will_And_Street_James.jpg",
+      "subject_names": "Mosley Will & Street James",
+      "married_surname": "Mosley",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Mosley_Will_And_Street_James.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MosleyWill&StreetJames.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "group_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

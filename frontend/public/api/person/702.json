@@ -11,7 +11,11 @@
     "birth_info": "8 Apr 1932",
     "death_info": "14 Dec 2008 (aged 76)",
     "notes": "Linked to durhm-j1.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/46092814/john-c-srabian [Suffix 'Sr' realigned from surname field]",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "8 Apr 1932",
+    "birth_place": null,
+    "death_date": "14 Dec 2008 (aged 76)",
+    "death_place": null
   },
   "facts": [
     {
@@ -1145,23 +1149,26 @@
       ]
     }
   ],
-  "relationships": [
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (78.6% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 164,
-      "rel_name": "John W. Durham"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (89.7% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 324,
-      "rel_name": "John Durham Jr"
-    }
-  ],
+  "relationships": [],
   "photos": [
+    {
+      "person_id": 702,
+      "photo_id": 734,
+      "category": "people",
+      "title_or_caption": "Desc_John_Durham_Muncey.jpg",
+      "subject_names": "Desc John Durham Muncey",
+      "married_surname": "Desc",
+      "approximate_year": "1801",
+      "local_image_path": "assets/archive_media/people/Desc_John_Durham_Muncey.jpg",
+      "source_url": "http://mitsawokett.com/Durham-AncestralResearch.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 702,
       "photo_id": 847,
@@ -1172,6 +1179,24 @@
       "approximate_year": "1801",
       "local_image_path": "assets/archive_media/people/Durham_John_B_1737_Muncey_2.jpg",
       "source_url": "http://mitsawokett.com/Durham-AncestralResearch.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 702,
+      "photo_id": 907,
+      "category": "people",
+      "title_or_caption": "Durham_Robert_John.jpg",
+      "subject_names": "Robert John Durham",
+      "married_surname": "Durham",
+      "approximate_year": "1908",
+      "local_image_path": "assets/archive_media/people/Durham_Robert_John.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamRobertJohn.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
@@ -1230,42 +1255,6 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 702,
-      "photo_id": 907,
-      "category": "people",
-      "title_or_caption": "Durham_Robert_John.jpg",
-      "subject_names": "Robert John Durham",
-      "married_surname": "Durham",
-      "approximate_year": "1908",
-      "local_image_path": "assets/archive_media/people/Durham_Robert_John.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DurhamRobertJohn.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 702,
-      "photo_id": 734,
-      "category": "people",
-      "title_or_caption": "Desc_John_Durham_Muncey.jpg",
-      "subject_names": "Desc John Durham Muncey",
-      "married_surname": "Desc",
-      "approximate_year": "1801",
-      "local_image_path": "assets/archive_media/people/Desc_John_Durham_Muncey.jpg",
-      "source_url": "http://mitsawokett.com/Durham-AncestralResearch.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

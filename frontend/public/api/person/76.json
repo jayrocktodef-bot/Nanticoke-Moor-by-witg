@@ -11,7 +11,11 @@
     "birth_info": "1817",
     "death_info": "17 May 1874 (aged 56\u201357)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/216561278/hall-thomas",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "1817",
+    "birth_place": null,
+    "death_date": "17 May 1874 (aged 56\u201357)",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,7 +97,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Sarah Carter who married Thomas HALL",
       "certainty": "confirmed",
       "rel_id": 75,

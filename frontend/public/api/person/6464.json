@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "16 Jan 1925",
     "notes": "Ingested from JohnsonWillis&Henrietta.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/288322736/henrietta-johnson",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "16 Jan 1925",
+    "death_place": null
   },
   "facts": [
     {
@@ -95,6 +99,24 @@
   "photos": [
     {
       "person_id": 6464,
+      "photo_id": 1410,
+      "category": "people",
+      "title_or_caption": "Johnson_Henrietta_Carey.jpg",
+      "subject_names": "Henrietta Carey Johnson",
+      "married_surname": "Johnson",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Johnson_Henrietta_Carey.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CareyCharlesE&DellaRidgeway.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6464,
       "photo_id": 1446,
       "category": "people",
       "title_or_caption": "Johnson_Willis_And_Henrietta_Vcarey.jpg",
@@ -128,24 +150,6 @@
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"
-    },
-    {
-      "person_id": 6464,
-      "photo_id": 1410,
-      "category": "people",
-      "title_or_caption": "Johnson_Henrietta_Carey.jpg",
-      "subject_names": "Henrietta Carey Johnson",
-      "married_surname": "Johnson",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_Henrietta_Carey.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CareyCharlesE&DellaRidgeway.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
     }
   ],
   "obituaries": [],

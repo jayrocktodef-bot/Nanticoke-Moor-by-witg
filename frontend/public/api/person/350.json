@@ -11,7 +11,11 @@
     "birth_info": "17 Oct 1946",
     "death_info": "22 Feb 2018 (aged 71)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/304005070/donald-coombs",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "17 Oct 1946",
+    "birth_place": null,
+    "death_date": "22 Feb 2018 (aged 71)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Diana Pierce married Donald Coombs",
       "certainty": "confirmed",
       "rel_id": 349,

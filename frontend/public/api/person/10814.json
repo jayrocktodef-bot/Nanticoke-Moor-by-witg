@@ -11,7 +11,11 @@
     "birth_info": "6 Apr 1914",
     "death_info": "Jan 1997 (aged 82)",
     "notes": "Verified via FindAGrave: https://www.findagrave.com/memorial/115202822/layton-davis (Buried at Riverside Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "6 Apr 1914",
+    "birth_place": null,
+    "death_date": "Jan 1997 (aged 82)",
+    "death_place": null
   },
   "facts": [
     {
@@ -132,6 +136,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8676,
@@ -139,20 +144,69 @@
     },
     {
       "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9140,
-      "rel_name": "Minnie Mae Street"
-    },
-    {
-      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10815,
       "rel_name": "Charles Morris Charlie Davis"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 10814,
+      "photo_id": 3465,
+      "category": "documents",
+      "title_or_caption": "1930_Layton_S_Davis_121407271.json",
+      "subject_names": "1930 Federal Census - Layton S Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "1930",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/121407271:6224",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 10814,
+      "photo_id": 3466,
+      "category": "documents",
+      "title_or_caption": "1940_Layton_Davis_254762.json",
+      "subject_names": "1940 Federal Census - Layton Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "1940",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/254762:2442",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 10814,
+      "photo_id": 3470,
+      "category": "documents",
+      "title_or_caption": "Marriage_Layton_S__Davis_112240.json",
+      "subject_names": "Marriage Federal Census - Layton S. Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Marriage",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/112240:61368",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -174,13 +228,7 @@
                   {
                     "id": 8617,
                     "name": "Negro Morris Thomas",
-                    "children": [
-                      {
-                        "id": 9992,
-                        "name": "Sally Wright",
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   },
                   {
                     "id": 8910,
@@ -199,54 +247,20 @@
                     ]
                   }
                 ]
+              },
+              {
+                "id": 11246,
+                "name": "Francis E. Morris",
+                "children": []
               }
             ]
           }
         ]
       },
       {
-        "id": 9140,
-        "name": "Minnie Mae Street",
-        "children": [
-          {
-            "id": 9145,
-            "name": "Benton C Street",
-            "children": []
-          },
-          {
-            "id": 9144,
-            "name": "Anne Harmon",
-            "children": [
-              {
-                "id": 10514,
-                "name": "Simon Harmon",
-                "children": [
-                  {
-                    "id": 1022,
-                    "name": "Bowen Harmon",
-                    "children": [
-                      {
-                        "id": 9982,
-                        "name": "Robert Emanuel Harmon",
-                        "children": []
-                      },
-                      {
-                        "id": 9983,
-                        "name": "Rachel Anne Johnson",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "id": 7577,
-                    "name": "Lydia Clark",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+        "id": 10815,
+        "name": "Charles Morris Charlie Davis",
+        "children": []
       }
     ]
   }

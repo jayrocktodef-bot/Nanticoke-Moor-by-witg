@@ -11,7 +11,11 @@
     "birth_info": "17 Nov 1927",
     "death_info": "21 Nov 1965 (aged 38)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/33195720/l-thomas",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "17 Nov 1927",
+    "birth_place": null,
+    "death_date": "21 Nov 1965 (aged 38)",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,7 +97,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Letitia Durham married Thomas Lacount",
       "certainty": "confirmed",
       "rel_id": 334,

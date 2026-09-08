@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "Jul 1854",
     "notes": "Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/135886007/george-clark | WikiTree: https://www.wikitree.com/wiki/Clark-93430 (Clark-93430) | WikiTree: https://www.wikitree.com/wiki/Clark-93432 (Clark-93432)",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "Jul 1854",
+    "death_place": null
   },
   "facts": [
     {
@@ -169,7 +173,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Mary Durham who married George Clark",
       "certainty": "confirmed",
       "rel_id": 5007,

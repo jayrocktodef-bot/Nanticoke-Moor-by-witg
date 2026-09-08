@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": "Apr. 9, 1887",
     "notes": "Ingested from preserved Probate.htm record | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "Apr. 9, 1887",
+    "death_place": null
   },
   "facts": [
     {
@@ -104,24 +108,6 @@
   "photos": [
     {
       "person_id": 2205,
-      "photo_id": 199,
-      "category": "people",
-      "title_or_caption": "Carney_Carolyn_And_Sammons_Sarah_Eunice_Ridgeway_2000.jpg",
-      "subject_names": "Carney Carolyn & Sammons Sarah Eunice Ridgeway 2000",
-      "married_surname": "Carney",
-      "approximate_year": "2000",
-      "local_image_path": "assets/archive_media/people/Carney_Carolyn_And_Sammons_Sarah_Eunice_Ridgeway_2000.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsSarahEuniceRidgeway.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "group_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
-    {
-      "person_id": 2205,
       "photo_id": 224,
       "category": "people",
       "title_or_caption": "Carney_Herber_And_Sarah_Pierce.jpg",
@@ -137,6 +123,24 @@
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
+    },
+    {
+      "person_id": 2205,
+      "photo_id": 199,
+      "category": "people",
+      "title_or_caption": "Carney_Carolyn_And_Sammons_Sarah_Eunice_Ridgeway_2000.jpg",
+      "subject_names": "Carney Carolyn & Sammons Sarah Eunice Ridgeway 2000",
+      "married_surname": "Carney",
+      "approximate_year": "2000",
+      "local_image_path": "assets/archive_media/people/Carney_Carolyn_And_Sammons_Sarah_Eunice_Ridgeway_2000.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SammonsSarahEuniceRidgeway.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "group_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

@@ -11,7 +11,11 @@
     "birth_info": "NOV 1880 Delaware",
     "death_info": "19 AUG 1957 Fairfield Twp.NJ",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "NOV 1880 Delaware",
+    "birth_place": null,
+    "death_date": "19 AUG 1957 Fairfield Twp.NJ",
+    "death_place": null
   },
   "facts": [
     {
@@ -103,6 +107,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9481,
@@ -157,13 +162,7 @@
               {
                 "id": 8617,
                 "name": "Negro Morris Thomas",
-                "children": [
-                  {
-                    "id": 9992,
-                    "name": "Sally Wright",
-                    "children": []
-                  }
-                ]
+                "children": []
               },
               {
                 "id": 8910,

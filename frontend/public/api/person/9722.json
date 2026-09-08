@@ -11,7 +11,11 @@
     "birth_info": "5 July 1899 Sussex County, Delaware, United States of America",
     "death_info": "26 June 1967 Milton, Sussex County, Delaware, United States of America",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "5 July 1899 Sussex County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "26 June 1967 Milton, Sussex County, Delaware, United States of America",
+    "death_place": null
   },
   "facts": [
     {
@@ -132,6 +136,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10503,
@@ -139,55 +144,55 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10709,
       "rel_name": "Maria E Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10501,
       "rel_name": "Carl Hanzer"
     },
     {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 9721,
-      "rel_name": "Maria Elizabeth Morris"
-    },
-    {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10498,
       "rel_name": "James Jas Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10499,
       "rel_name": "Harold Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10500,
       "rel_name": "Earl Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10504,
       "rel_name": "Gene O Hanzer"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10502,
@@ -197,13 +202,13 @@
   "photos": [
     {
       "person_id": 9722,
-      "photo_id": 1206,
+      "photo_id": 1129,
       "category": "people",
-      "title_or_caption": "Harmon_Neocia_Duker.jpg",
-      "subject_names": "Neocia Duker Harmon",
-      "married_surname": "Harmon",
+      "title_or_caption": "Hanzer_James_E.jpg",
+      "subject_names": "James E. Hanzer",
+      "married_surname": "Hanzer",
       "approximate_year": "1899",
-      "local_image_path": "assets/archive_media/people/Harmon_Neocia_Duker.jpg",
+      "local_image_path": "assets/archive_media/people/Hanzer_James_E.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HanzerBishopJamesE.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
@@ -233,13 +238,13 @@
     },
     {
       "person_id": 9722,
-      "photo_id": 1129,
+      "photo_id": 1206,
       "category": "people",
-      "title_or_caption": "Hanzer_James_E.jpg",
-      "subject_names": "James E. Hanzer",
-      "married_surname": "Hanzer",
+      "title_or_caption": "Harmon_Neocia_Duker.jpg",
+      "subject_names": "Neocia Duker Harmon",
+      "married_surname": "Harmon",
       "approximate_year": "1899",
-      "local_image_path": "assets/archive_media/people/Hanzer_James_E.jpg",
+      "local_image_path": "assets/archive_media/people/Harmon_Neocia_Duker.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HanzerBishopJamesE.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",

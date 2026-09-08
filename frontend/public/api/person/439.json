@@ -11,7 +11,11 @@
     "birth_info": "1931",
     "death_info": "10 Dec 1971 (aged 39\u201340)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/20455435/william-jackson",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "1931",
+    "birth_place": null,
+    "death_date": "10 Dec 1971 (aged 39\u201340)",
+    "death_place": null
   },
   "facts": [
     {
@@ -309,48 +313,8 @@
       ]
     }
   ],
-  "relationships": [
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (75.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 368,
-      "rel_name": "William Sammons"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 7978,
-      "rel_name": "Lydia Ann Wright Jackson"
-    },
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (76.9% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 487,
-      "rel_name": "Clara Jackson"
-    }
-  ],
+  "relationships": [],
   "photos": [
-    {
-      "person_id": 439,
-      "photo_id": 1865,
-      "category": "people",
-      "title_or_caption": "Murray_William_And_Sister_Lena_Harmon_Jackson_2.jpg",
-      "subject_names": "Murray William & Sister Lena Harmon Jackson 2",
-      "married_surname": "Murray",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Murray_William_And_Sister_Lena_Harmon_Jackson_2.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MurrayWilliam.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "document",
-      "subtype": "group_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
     {
       "person_id": 439,
       "photo_id": 1589,
@@ -379,6 +343,24 @@
       "approximate_year": "1882",
       "local_image_path": "assets/archive_media/people/Morgan_Will_And_Nora.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MorganWilliam&Nora.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "document",
+      "subtype": "group_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 439,
+      "photo_id": 1865,
+      "category": "people",
+      "title_or_caption": "Murray_William_And_Sister_Lena_Harmon_Jackson_2.jpg",
+      "subject_names": "Murray William & Sister Lena Harmon Jackson 2",
+      "married_surname": "Murray",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Murray_William_And_Sister_Lena_Harmon_Jackson_2.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/MurrayWilliam.htm",
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",
       "asset_type": "document",

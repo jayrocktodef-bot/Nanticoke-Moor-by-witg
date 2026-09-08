@@ -11,7 +11,11 @@
     "birth_info": "1 Jan 1873",
     "death_info": "8 Mar 1967 (aged 94)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/228586588/walter-thompson",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1 Jan 1873",
+    "birth_place": null,
+    "death_date": "8 Mar 1967 (aged 94)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8382,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8170,

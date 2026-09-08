@@ -11,7 +11,11 @@
     "birth_info": "1936",
     "death_info": "1962",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1936",
+    "birth_place": null,
+    "death_date": "1962",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F491@ marriage",
       "certainty": "confirmed",
       "rel_id": 8343,

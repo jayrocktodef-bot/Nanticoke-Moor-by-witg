@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "1 Nov 2010",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/255991330/nancy-clark",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "1 Nov 2010",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,7 +97,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F149@ marriage 1853",
       "certainty": "confirmed",
       "rel_id": 10421,

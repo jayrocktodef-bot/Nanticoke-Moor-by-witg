@@ -11,7 +11,11 @@
     "birth_info": "abt 1808 Delaware",
     "death_info": "3 Oct 1892",
     "notes": "Restored connected Delmarva lineage from GEDCOM",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1808 Delaware",
+    "birth_place": null,
+    "death_date": "3 Oct 1892",
+    "death_place": null
   },
   "facts": [
     {
@@ -44,7 +48,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Restored GEDCOM family marriage record",
       "certainty": "confirmed",
       "rel_id": 11121,
@@ -52,6 +57,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11120,

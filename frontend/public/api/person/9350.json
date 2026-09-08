@@ -11,7 +11,11 @@
     "birth_info": "27 August 1755 , Sussex, Delaware",
     "death_info": "1 September 1835 Baltimore Hundred, Sussex, Delaware",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "27 August 1755 , Sussex, Delaware",
+    "birth_place": null,
+    "death_date": "1 September 1835 Baltimore Hundred, Sussex, Delaware",
+    "death_place": null
   },
   "facts": [
     {
@@ -83,49 +87,56 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9352,
       "rel_name": "William Aydelott Clark"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9353,
       "rel_name": "Esther Aydelott Clark"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 3591,
       "rel_name": "John Clark"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9000,
       "rel_name": "Elizabeth Clark"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9336,
       "rel_name": "James Clark"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 2492,
       "rel_name": "Nathaniel Clark"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F403@ marriage",
       "certainty": "confirmed",
       "rel_id": 10365,
@@ -133,6 +144,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10334,
@@ -140,6 +152,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10335,
@@ -175,6 +188,50 @@
               {
                 "id": 10337,
                 "name": "William CLARKE Esq",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 10421,
+            "name": "James H Clark",
+            "children": [
+              {
+                "id": 9335,
+                "name": "Bowen Clark",
+                "children": [
+                  {
+                    "id": 9336,
+                    "name": "James Clark",
+                    "children": [
+                      {
+                        "id": 9350,
+                        "name": "Levin Clark",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9334,
+                    "name": "Lydia E Norwood",
+                    "children": [
+                      {
+                        "id": 10542,
+                        "name": "Nathaniel Nathan Norwood",
+                        "children": []
+                      },
+                      {
+                        "id": 10374,
+                        "name": "Jemima Harmon",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10420,
+                "name": "Ann W. Johnson",
                 "children": []
               }
             ]

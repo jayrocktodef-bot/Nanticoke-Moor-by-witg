@@ -11,7 +11,11 @@
     "birth_info": "1867 (September 1867)",
     "death_info": "10 May 1896",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/22376426/leslie-pierce",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1867",
+    "birth_place": "September 1867",
+    "death_date": "10 May 1896",
+    "death_place": null
   },
   "facts": [
     {
@@ -83,7 +87,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8832,

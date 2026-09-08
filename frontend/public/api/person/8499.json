@@ -11,7 +11,11 @@
     "birth_info": "15 AUG 1907 Montville, OH",
     "death_info": "23 JAN 1984",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "15 AUG 1907 Montville, OH",
+    "birth_place": null,
+    "death_date": "23 JAN 1984",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8702,
@@ -82,17 +87,11 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8572,
       "rel_name": "Mary Elizabeth Thompson"
-    },
-    {
-      "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8382,
-      "rel_name": "Mary C Thompson"
     }
   ],
   "photos": [],

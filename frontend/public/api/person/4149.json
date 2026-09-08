@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Ingested from CokerMaryAnnDean.htm | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -389,24 +393,6 @@
   "photos": [
     {
       "person_id": 4149,
-      "photo_id": 714,
-      "category": "people",
-      "title_or_caption": "Dean_Dorcas_Ann_Pierce.jpg",
-      "subject_names": "Dorcas Ann Pierce Dean",
-      "married_surname": "Dean",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Dean_Dorcas_Ann_Pierce.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DeanDorcasAnnPierce.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 4149,
       "photo_id": 496,
       "category": "people",
       "title_or_caption": "Coker_Mary_Ann_Dean.jpg",
@@ -433,6 +419,24 @@
       "approximate_year": "1852",
       "local_image_path": "assets/archive_media/people/Coker_Mary_Ann_Dean_4.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CokerMaryAnnDean.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 4149,
+      "photo_id": 714,
+      "category": "people",
+      "title_or_caption": "Dean_Dorcas_Ann_Pierce.jpg",
+      "subject_names": "Dorcas Ann Pierce Dean",
+      "married_surname": "Dean",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Dean_Dorcas_Ann_Pierce.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DeanDorcasAnnPierce.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",

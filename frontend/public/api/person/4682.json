@@ -11,7 +11,11 @@
     "birth_info": "May 1865",
     "death_info": "27 May 1865 (aged less than 1 month)",
     "notes": "Ingested from DeanRobert&Family.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/66366438/robert-dean | Linked to dean-r2.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/66366438/robert-dean | Linked to dean-r.htm | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/66366438/robert-dean",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "May 1865",
+    "birth_place": null,
+    "death_date": "27 May 1865",
+    "death_place": "aged less than 1 month"
   },
   "facts": [
     {
@@ -727,15 +731,7 @@
       ]
     }
   ],
-  "relationships": [
-    {
-      "relationship_type": "cross_dataset_match",
-      "evidence_text": "Cross-dataset entity match (75.0% confidence) between Lynn C. Jackson archive and Moors of Delaware",
-      "certainty": "confirmed",
-      "rel_id": 1056,
-      "rel_name": "Robert Harmon"
-    }
-  ],
+  "relationships": [],
   "photos": [
     {
       "person_id": 4682,
@@ -747,6 +743,24 @@
       "approximate_year": "1830",
       "local_image_path": "assets/archive_media/people/Dean_Robert.jpg",
       "source_url": "http://www.mitsawokett.com/Mitsawokett%20Photos/DeanRobert&Family.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 4682,
+      "photo_id": 721,
+      "category": "people",
+      "title_or_caption": "Dean_Robert_Bernard.jpg",
+      "subject_names": "Robert Bernard Dean",
+      "married_surname": "Dean",
+      "approximate_year": "1900",
+      "local_image_path": "assets/archive_media/people/Dean_Robert_Bernard.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DeanRobertBurton.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
@@ -784,24 +798,6 @@
       "local_image_path": "assets/archive_media/people/Robert_Dean_var1.jpg",
       "source_url": null,
       "dataset_source": "images",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 4682,
-      "photo_id": 721,
-      "category": "people",
-      "title_or_caption": "Dean_Robert_Bernard.jpg",
-      "subject_names": "Robert Bernard Dean",
-      "married_surname": "Dean",
-      "approximate_year": "1900",
-      "local_image_path": "assets/archive_media/people/Dean_Robert_Bernard.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/DeanRobertBurton.htm",
-      "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",

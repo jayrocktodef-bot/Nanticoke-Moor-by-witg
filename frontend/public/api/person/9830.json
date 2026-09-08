@@ -11,7 +11,11 @@
     "birth_info": "Abt 1869 Delaware",
     "death_info": "1924 Blackwood, New Jersey, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Abt 1869 Delaware",
+    "birth_place": null,
+    "death_date": "1924 Blackwood, New Jersey, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -151,6 +155,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9834,
@@ -158,6 +163,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 7504,

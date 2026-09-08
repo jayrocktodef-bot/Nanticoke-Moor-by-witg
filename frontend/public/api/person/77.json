@@ -11,7 +11,11 @@
     "birth_info": "1890",
     "death_info": "27 Nov 1963 (aged 72\u201373)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/167829357/mabel-carter",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "1890",
+    "birth_place": null,
+    "death_date": "27 Nov 1963 (aged 72\u201373)",
+    "death_place": null
   },
   "facts": [
     {
@@ -76,24 +80,6 @@
   "photos": [
     {
       "person_id": 77,
-      "photo_id": 2480,
-      "category": "people",
-      "title_or_caption": "Wilson_Hcsr_And_Mabel.jpg",
-      "subject_names": "Wilson Hcsr & Mabel",
-      "married_surname": "Wilson",
-      "approximate_year": "1970",
-      "local_image_path": "assets/archive_media/people/Wilson_Hcsr_And_Mabel.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterMaeWilsonfamily.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 77,
       "photo_id": 2496,
       "category": "people",
       "title_or_caption": "Wilson_Mabel_Mosley.jpg",
@@ -106,6 +92,24 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 77,
+      "photo_id": 2480,
+      "category": "people",
+      "title_or_caption": "Wilson_Hcsr_And_Mabel.jpg",
+      "subject_names": "Wilson Hcsr & Mabel",
+      "married_surname": "Wilson",
+      "approximate_year": "1970",
+      "local_image_path": "assets/archive_media/people/Wilson_Hcsr_And_Mabel.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/CarterMaeWilsonfamily.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

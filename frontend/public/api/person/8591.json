@@ -11,7 +11,11 @@
     "birth_info": "1823",
     "death_info": "25 Mar 1905 (aged 81\u201382)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/280275029/wm-davis (Buried at Fernwood Cemetery and Mausoleum)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1823",
+    "birth_place": null,
+    "death_date": "25 Mar 1905 (aged 81\u201382)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F89@ marriage",
       "certainty": "confirmed",
       "rel_id": 8893,

@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "20 Jul 1916",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/56584725/c-clark",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "20 Jul 1916",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8193,
@@ -82,13 +87,33 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8194,
       "rel_name": "Lulu Rae Clark"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 8195,
+      "photo_id": 3558,
+      "category": "documents",
+      "title_or_caption": "1930_Carlisie_Clark_121401508.json",
+      "subject_names": "1930 Federal Census - Carlisie Clark Household",
+      "married_surname": "Davis",
+      "approximate_year": "1930",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/121401508:6224",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

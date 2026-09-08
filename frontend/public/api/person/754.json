@@ -11,7 +11,11 @@
     "birth_info": "30 October, 1872",
     "death_info": "2 Mar 1962",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/288102374/william-johnson",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "30 October, 1872",
+    "birth_place": null,
+    "death_date": "2 Mar 1962",
+    "death_place": null
   },
   "facts": [
     {
@@ -197,7 +201,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "William Howard Johnson who married Eliza Ann Harmon,",
       "certainty": "confirmed",
       "rel_id": 755,
@@ -205,6 +210,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 584,
@@ -212,13 +218,15 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 774,
       "rel_name": "Elizabeth Patience Wright"
     },
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F122@ marriage",
       "certainty": "confirmed",
       "rel_id": 9270,
@@ -228,13 +236,13 @@
   "photos": [
     {
       "person_id": 754,
-      "photo_id": 1443,
+      "photo_id": 1442,
       "category": "people",
-      "title_or_caption": "Johnson_William_Howard_1.jpg",
-      "subject_names": "William Howard Johnson",
+      "title_or_caption": "Johnson_William_Arthur_1.jpg",
+      "subject_names": "William Arthur Johnson",
       "married_surname": "Johnson",
       "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_William_Howard_1.jpg",
+      "local_image_path": "assets/archive_media/people/Johnson_William_Arthur_1.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
@@ -246,13 +254,13 @@
     },
     {
       "person_id": 754,
-      "photo_id": 1442,
+      "photo_id": 1443,
       "category": "people",
-      "title_or_caption": "Johnson_William_Arthur_1.jpg",
-      "subject_names": "William Arthur Johnson",
+      "title_or_caption": "Johnson_William_Howard_1.jpg",
+      "subject_names": "William Howard Johnson",
       "married_surname": "Johnson",
       "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Johnson_William_Arthur_1.jpg",
+      "local_image_path": "assets/archive_media/people/Johnson_William_Howard_1.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JohnsonWilliamHoward.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",

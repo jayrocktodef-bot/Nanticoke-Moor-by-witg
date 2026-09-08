@@ -11,7 +11,11 @@
     "birth_info": "1854 Delaware USA",
     "death_info": "25 Feb 1917",
     "notes": "Restored connected Delmarva lineage from GEDCOM [Suffix 'Jr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1854 Delaware USA",
+    "birth_place": null,
+    "death_date": "25 Feb 1917",
+    "death_place": null
   },
   "facts": [
     {
@@ -45,6 +49,7 @@
   "relationships": [
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11093,
@@ -52,6 +57,7 @@
     },
     {
       "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11094,

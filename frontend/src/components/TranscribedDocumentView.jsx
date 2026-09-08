@@ -799,7 +799,7 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
                     <a
                       href={data.source_url}
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-xs text-sky-400 hover:text-sky-300 font-mono mt-1"
                     >
                       <ExternalLink className="w-3.5 h-3.5" />

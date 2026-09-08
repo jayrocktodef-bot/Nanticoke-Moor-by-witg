@@ -8,10 +8,14 @@
     "married_last_name": "Denney",
     "evidence_level": 3,
     "source_page": "Probate.htm",
-    "birth_info": null,
+    "birth_info": "16 Dec 1855",
     "death_info": null,
     "notes": "Ingested from preserved Probate.htm record | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "16 Dec 1855",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -30,6 +34,25 @@
           "source_title": "Record: Probate.htm",
           "source_url": "Probate.htm",
           "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 15958,
+      "person_id": 2358,
+      "fact_type": "Birth",
+      "date_string": "16 Dec 1855",
+      "place_string": null,
+      "value_string": "Born 16 Dec 1855",
+      "citations": [
+        {
+          "citation_id": 14768,
+          "fact_id": 15958,
+          "source_id": null,
+          "evidence_text": "Documented in probate.htm: 79.46.\n \n            Sep \n1876\n Order to Assign a parcel to William T. Denney. Deed \n            Liber D, Vol. 2, p. 233. $360.50.\n \n            Dec \n1876\n Petition by John T. Dean for distribution of",
+          "source_title": null,
+          "source_url": null,
+          "source_dataset": null
         }
       ]
     }

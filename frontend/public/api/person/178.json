@@ -11,7 +11,11 @@
     "birth_info": "1836",
     "death_info": "30 Mar 1917 (aged 80\u201381)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/94000581/bayman-williams",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "1836",
+    "birth_place": null,
+    "death_date": "30 Mar 1917 (aged 80\u201381)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Elizabeth Durham who married Bayman Williams",
       "certainty": "confirmed",
       "rel_id": 5251,

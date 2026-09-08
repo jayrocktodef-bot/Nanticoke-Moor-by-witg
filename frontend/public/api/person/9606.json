@@ -11,7 +11,11 @@
     "birth_info": "Dec 1892",
     "death_info": "3 May 1893 Indian River Hundred, Sussex, Delaware, United States-burial in Harmony Cemetery Millsboro, Sussex, Delaware",
     "notes": "WikiTree: https://www.wikitree.com/wiki/Clark-101285 (Clark-101285)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "Dec 1892",
+    "birth_place": null,
+    "death_date": "3 May 1893 Indian River Hundred, Sussex, Delaware, United States-burial",
+    "death_place": "Harmony Cemetery Millsboro, Sussex, Delaware"
   },
   "facts": [
     {
@@ -216,21 +220,24 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F472@ marriage  Sussex County, Delaware, USA",
       "certainty": "confirmed",
       "rel_id": 9607,
       "rel_name": "Ellen Johnson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9611,
       "rel_name": "Parnelpa A Penelope Clark"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9605,

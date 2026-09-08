@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "6 Sep 1941",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/297355147/hannah-durham",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "6 Sep 1941",
+    "death_place": null
   },
   "facts": [
     {
@@ -226,7 +230,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Hannah Durham married to Elijah Concilor",
       "certainty": "confirmed",
       "rel_id": 183,

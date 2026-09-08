@@ -11,7 +11,11 @@
     "birth_info": "unknown",
     "death_info": "Aug 1832",
     "notes": "Restored connected Delmarva lineage from GEDCOM | Verified via FindAGrave: https://www.findagrave.com/memorial/268516755/sarah-ingram",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": "Aug 1832",
+    "death_place": null
   },
   "facts": [
     {
@@ -71,28 +75,32 @@
   ],
   "relationships": [
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11175,
       "rel_name": "Alfred W Ingram"
     },
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11151,
       "rel_name": "Eva C Ingram"
     },
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11138,
       "rel_name": "Harry Ingram"
     },
     {
-      "relationship_type": "parent_of",
+      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "Restored GEDCOM parent-child record",
       "certainty": "confirmed",
       "rel_id": 11143,
@@ -105,6 +113,17 @@
   "ancestry": {
     "id": 11147,
     "name": "Sarah E. Ingram",
-    "children": []
+    "children": [
+      {
+        "id": 11175,
+        "name": "Alfred W Ingram",
+        "children": []
+      },
+      {
+        "id": 11151,
+        "name": "Eva C Ingram",
+        "children": []
+      }
+    ]
   }
 }

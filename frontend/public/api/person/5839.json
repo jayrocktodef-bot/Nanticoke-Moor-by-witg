@@ -11,7 +11,11 @@
     "birth_info": "7 Jan 1847",
     "death_info": "8 Mar 1923 (aged 76)",
     "notes": "Ingested from HarmanIsaacWillie.htm | WikiTree: https://www.wikitree.com/wiki/Harmon-10342 (Harmon-10342) | Verified via FindAGrave: https://www.findagrave.com/memorial/66405904/isaac-harmon",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": "7 Jan 1847",
+    "birth_place": null,
+    "death_date": "8 Mar 1923 (aged 76)",
+    "death_place": null
   },
   "facts": [
     {
@@ -189,6 +193,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 5921,
@@ -196,6 +201,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10214,
@@ -213,6 +219,24 @@
       "approximate_year": "",
       "local_image_path": "assets/archive_media/people/Harmon_Isaac.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonLevin&Rebecca.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 5839,
+      "photo_id": 1188,
+      "category": "people",
+      "title_or_caption": "Harmon_Isaac_W_2.jpg",
+      "subject_names": "Isaac W. Harmon",
+      "married_surname": "Harmon",
+      "approximate_year": "1829",
+      "local_image_path": "assets/archive_media/people/Harmon_Isaac_W_2.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonIsaacW&SarahSockum.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
@@ -241,24 +265,6 @@
     },
     {
       "person_id": 5839,
-      "photo_id": 1221,
-      "category": "people",
-      "title_or_caption": "Harmon_Sarah_Jane_Sockum.jpg",
-      "subject_names": "Sarah Jane Sockum Harmon",
-      "married_surname": "Harmon",
-      "approximate_year": "1829",
-      "local_image_path": "assets/archive_media/people/Harmon_Sarah_Jane_Sockum.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonIsaacW&SarahSockum.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 5839,
       "photo_id": 1211,
       "category": "people",
       "title_or_caption": "Harmon_Rebecca_Jackson.jpg",
@@ -277,13 +283,13 @@
     },
     {
       "person_id": 5839,
-      "photo_id": 1188,
+      "photo_id": 1221,
       "category": "people",
-      "title_or_caption": "Harmon_Isaac_W_2.jpg",
-      "subject_names": "Isaac W. Harmon",
+      "title_or_caption": "Harmon_Sarah_Jane_Sockum.jpg",
+      "subject_names": "Sarah Jane Sockum Harmon",
       "married_surname": "Harmon",
       "approximate_year": "1829",
-      "local_image_path": "assets/archive_media/people/Harmon_Isaac_W_2.jpg",
+      "local_image_path": "assets/archive_media/people/Harmon_Sarah_Jane_Sockum.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/HarmonIsaacW&SarahSockum.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",

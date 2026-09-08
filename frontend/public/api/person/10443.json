@@ -11,7 +11,11 @@
     "birth_info": "1 March 1861 Kent, Delaware",
     "death_info": "20 Jan 1919 Little Creek, Kent, Delaware",
     "notes": "[Suffix 'Sr' realigned from surname field]",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1 March 1861 Kent, Delaware",
+    "birth_place": null,
+    "death_date": "20 Jan 1919 Little Creek, Kent, Delaware",
+    "death_place": null
   },
   "facts": [
     {
@@ -84,6 +88,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 1019,
@@ -91,6 +96,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10429,

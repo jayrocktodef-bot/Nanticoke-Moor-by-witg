@@ -11,7 +11,11 @@
     "birth_info": "27 Feb 1937",
     "death_info": "27 Jan 2026 (aged 88)",
     "notes": " | Verified via FindAGrave Memorial: https://www.findagrave.com/memorial/292031739/lola-mosley",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "27 Feb 1937",
+    "birth_place": null,
+    "death_date": "27 Jan 2026 (aged 88)",
+    "death_place": null
   },
   "facts": [
     {
@@ -93,7 +97,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Lola Mosley married Elwood BROWN",
       "certainty": "confirmed",
       "rel_id": 11516,

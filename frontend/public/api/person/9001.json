@@ -11,7 +11,11 @@
     "birth_info": "23 May 1948 Lewes, Sussex County, Delaware, United States of America",
     "death_info": "18 November 2014",
     "notes": "WikiTree: https://www.wikitree.com/wiki/Harmon-10342 (Harmon-10342)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "23 May 1948 Lewes, Sussex County, Delaware, United States of America",
+    "birth_place": null,
+    "death_date": "18 November 2014",
+    "death_place": null
   },
   "facts": [
     {
@@ -102,7 +106,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9003,

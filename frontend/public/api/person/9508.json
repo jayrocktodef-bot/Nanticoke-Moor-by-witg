@@ -11,7 +11,11 @@
     "birth_info": "8 May 1930",
     "death_info": "22 Nov 1953 (aged 23)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/155158881/ulysses-thompson",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "8 May 1930",
+    "birth_place": null,
+    "death_date": "22 Nov 1953 (aged 23)",
+    "death_place": null
   },
   "facts": [
     {
@@ -75,6 +79,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8679,
@@ -82,6 +87,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9165,

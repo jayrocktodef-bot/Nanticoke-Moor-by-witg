@@ -11,7 +11,11 @@
     "birth_info": "1912",
     "death_info": "Dec 1923 (aged 10\u201311)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/195157617/george-davis (Buried at Riverview Cemetery)",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1912",
+    "birth_place": null,
+    "death_date": "Dec 1923 (aged 10\u201311)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,28 +78,32 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F90@ marriage",
       "certainty": "confirmed",
       "rel_id": 8863,
       "rel_name": "Pearl Mae Thompson"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8187,
       "rel_name": "Alsup Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8182,
       "rel_name": "Delphine Mae Davis"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8188,
@@ -103,13 +111,7 @@
     },
     {
       "relationship_type": "child_of",
-      "evidence_text": "GEDCOM Family tree linkage",
-      "certainty": "confirmed",
-      "rel_id": 8613,
-      "rel_name": "Joseph Henry Davis"
-    },
-    {
-      "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8519,
@@ -117,6 +119,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8185,
@@ -231,6 +234,114 @@
       "contains_face": 0,
       "face_context": "none",
       "routing_target": null
+    },
+    {
+      "person_id": 8157,
+      "photo_id": 3432,
+      "category": "documents",
+      "title_or_caption": "Marriage_George_A__Davis_586068525.json",
+      "subject_names": "Marriage Federal Census - George A. Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Marriage",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/586068525:61843",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8157,
+      "photo_id": 3440,
+      "category": "documents",
+      "title_or_caption": "43068_162028006055_0664-00289.jpg",
+      "subject_names": "Record Federal Census - George Alonzo Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Record",
+      "local_image_path": "ancestry_documents/delaware_census/43068_162028006055_0664-00289.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/163601578:9279",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8157,
+      "photo_id": 3441,
+      "category": "documents",
+      "title_or_caption": "Record_George_Davis_14346296.json",
+      "subject_names": "Record Federal Census - George Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "Record",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/14346296:3693",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8157,
+      "photo_id": 3449,
+      "category": "documents",
+      "title_or_caption": "SSDI_George_A_Davis_623464553.json",
+      "subject_names": "SSDI Federal Census - George A Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "SSDI",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/623464553:60901",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8157,
+      "photo_id": 3454,
+      "category": "documents",
+      "title_or_caption": "44003_01_00002-00268.jpg",
+      "subject_names": "WWII Federal Census - George Alonzo Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "WWII",
+      "local_image_path": "ancestry_documents/delaware_census/44003_01_00002-00268.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/6305298:2238",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 8157,
+      "photo_id": 3571,
+      "category": "documents",
+      "title_or_caption": "Marriage_George_Thompson_66051.json",
+      "subject_names": "Marriage Federal Census - George Thompson Household",
+      "married_surname": "Davis",
+      "approximate_year": "Marriage",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/66051:61368",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
     }
   ],
   "obituaries": [],
@@ -240,31 +351,59 @@
     "name": "George Davis",
     "children": [
       {
-        "id": 8613,
-        "name": "Joseph Henry Davis",
+        "id": 8519,
+        "name": "JAMES Davis",
+        "children": []
+      },
+      {
+        "id": 8185,
+        "name": "Hester A. Morris Davis",
         "children": [
           {
-            "id": 8629,
-            "name": "Jost Henry Davis",
+            "id": 8571,
+            "name": "Francis E. Frank Morris",
             "children": [
               {
-                "id": 8809,
-                "name": "Ludwig Davis",
+                "id": 8617,
+                "name": "Negro Morris Thomas",
                 "children": []
+              },
+              {
+                "id": 8910,
+                "name": "Leticia Morris",
+                "children": [
+                  {
+                    "id": 8616,
+                    "name": "Stephen Wright",
+                    "children": [
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8684,
+                    "name": "Priscilla Miller",
+                    "children": [
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
           {
-            "id": 8614,
-            "name": "Katherina Davis",
+            "id": 11246,
+            "name": "Francis E. Morris",
             "children": []
           }
         ]
-      },
-      {
-        "id": 8519,
-        "name": "JAMES Davis",
-        "children": []
       }
     ]
   }

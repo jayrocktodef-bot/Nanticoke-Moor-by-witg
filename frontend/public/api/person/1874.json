@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": "Ingested from preserved MainMenu.html record | FindAGrave: no match",
-    "dataset_source": "mitsawokett_delaware"
+    "dataset_source": "mitsawokett_delaware",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -56,24 +60,6 @@
     },
     {
       "person_id": 1874,
-      "photo_id": 2869,
-      "category": "documents",
-      "title_or_caption": "Gould_Lorenzo_DC_New_Jersey_DeathCertificate_1920.jpg",
-      "subject_names": "Lorenzo Dc New Jersey Death Certificate Gould (Death Certificate)",
-      "married_surname": "",
-      "approximate_year": "1920",
-      "local_image_path": "assets/archive_media/documents/Gould_Lorenzo_DC_New_Jersey_DeathCertificate_1920.jpg",
-      "source_url": "http://nativeamericansofdelawarestate.com/MilitaryService/Lorenzo%20F.%20GOULD.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "death_certificate",
-      "asset_type": "document",
-      "subtype": "death_certificate",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
-    {
-      "person_id": 1874,
       "photo_id": 2870,
       "category": "people",
       "title_or_caption": "Gould_Lorenzo_Affiants.jpg",
@@ -86,6 +72,24 @@
       "document_type": "portrait",
       "asset_type": "document",
       "subtype": "studio_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "documents"
+    },
+    {
+      "person_id": 1874,
+      "photo_id": 2869,
+      "category": "documents",
+      "title_or_caption": "Gould_Lorenzo_DC_New_Jersey_DeathCertificate_1920.jpg",
+      "subject_names": "Lorenzo Dc New Jersey Death Certificate Gould (Death Certificate)",
+      "married_surname": "",
+      "approximate_year": "1920",
+      "local_image_path": "assets/archive_media/documents/Gould_Lorenzo_DC_New_Jersey_DeathCertificate_1920.jpg",
+      "source_url": "http://nativeamericansofdelawarestate.com/MilitaryService/Lorenzo%20F.%20GOULD.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "death_certificate",
+      "asset_type": "document",
+      "subtype": "death_certificate",
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"

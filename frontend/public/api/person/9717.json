@@ -11,7 +11,11 @@
     "birth_info": null,
     "death_info": null,
     "notes": " | FindAGrave: no match",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": null,
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -37,6 +41,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9966,
@@ -67,13 +72,13 @@
                     "name": "Eliza J. Harmon",
                     "children": [
                       {
-                        "id": 10514,
-                        "name": "Simon Harmon",
+                        "id": 8683,
+                        "name": "Josiah Joseph Morris",
                         "children": []
                       },
                       {
-                        "id": 9928,
-                        "name": "Lydia J Harmon",
+                        "id": 8718,
+                        "name": "Hester A Jackson",
                         "children": []
                       }
                     ]

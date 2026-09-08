@@ -11,7 +11,11 @@
     "birth_info": "1899",
     "death_info": "14 Jul 1950 (aged 50\u201351)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/229036681/clarence-jackson",
-    "dataset_source": "lynncjackson"
+    "dataset_source": "lynncjackson",
+    "birth_date": "1899",
+    "birth_place": null,
+    "death_date": "14 Jul 1950 (aged 50\u201351)",
+    "death_place": null
   },
   "facts": [
     {
@@ -131,7 +135,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "Eloise Harmon who married Clarence Jackson",
       "certainty": "confirmed",
       "rel_id": 764,
@@ -139,6 +144,24 @@
     }
   ],
   "photos": [
+    {
+      "person_id": 765,
+      "photo_id": 1329,
+      "category": "people",
+      "title_or_caption": "Jackson_Clarence.jpg",
+      "subject_names": "Clarence Jackson",
+      "married_surname": "Jackson",
+      "approximate_year": "1878",
+      "local_image_path": "assets/archive_media/people/Jackson_Clarence.jpg",
+      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonClarence.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 765,
       "photo_id": 1333,
@@ -153,24 +176,6 @@
       "document_type": "portrait",
       "asset_type": "photograph",
       "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 765,
-      "photo_id": 1857,
-      "category": "people",
-      "title_or_caption": "Muntz_Lawrence_And_Wythena.jpg",
-      "subject_names": "Muntz Lawrence & Wythena",
-      "married_surname": "Muntz",
-      "approximate_year": "1878",
-      "local_image_path": "assets/archive_media/people/Muntz_Lawrence_And_Wythena.jpg",
-      "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonClarence.htm",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -195,18 +200,18 @@
     },
     {
       "person_id": 765,
-      "photo_id": 1329,
+      "photo_id": 1857,
       "category": "people",
-      "title_or_caption": "Jackson_Clarence.jpg",
-      "subject_names": "Clarence Jackson",
-      "married_surname": "Jackson",
+      "title_or_caption": "Muntz_Lawrence_And_Wythena.jpg",
+      "subject_names": "Muntz Lawrence & Wythena",
+      "married_surname": "Muntz",
       "approximate_year": "1878",
-      "local_image_path": "assets/archive_media/people/Jackson_Clarence.jpg",
+      "local_image_path": "assets/archive_media/people/Muntz_Lawrence_And_Wythena.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/JacksonClarence.htm",
       "dataset_source": "mitsawokett",
-      "document_type": "portrait",
+      "document_type": "group_photo",
       "asset_type": "photograph",
-      "subtype": "studio_portrait",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

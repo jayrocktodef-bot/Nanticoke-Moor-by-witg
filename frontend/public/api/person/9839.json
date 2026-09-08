@@ -11,7 +11,11 @@
     "birth_info": "29 August 1883 Millsboro, Sussex, Delaware, USA",
     "death_info": "15 September 1930 New Castle, Delaware",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "29 August 1883 Millsboro, Sussex, Delaware, USA",
+    "birth_place": null,
+    "death_date": "15 September 1930 New Castle, Delaware",
+    "death_place": null
   },
   "facts": [
     {
@@ -113,6 +117,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9834,
@@ -120,6 +125,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 7504,

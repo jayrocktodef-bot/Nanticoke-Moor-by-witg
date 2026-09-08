@@ -11,7 +11,11 @@
     "birth_info": "20 August 1893 Philadelphia, Philadelphia County, Pennsylvania, United States of America",
     "death_info": "2 Oct 1958 Bridgeton, Cumberland County, New Jersey, USA",
     "notes": "",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "20 August 1893 Philadelphia, Philadelphia County, Pennsylvania, United States of America",
+    "birth_place": null,
+    "death_date": "2 Oct 1958 Bridgeton, Cumberland County, New Jersey, USA",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,7 +78,8 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F299@ marriage 25 Aug 1916 Cumberland County, New Jersey, USA",
       "certainty": "confirmed",
       "rel_id": 8675,

@@ -11,7 +11,11 @@
     "birth_info": "1889",
     "death_info": "28 Dec 1928 (aged 38\u201339)",
     "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/288155888/clara-thomas",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1889",
+    "birth_place": null,
+    "death_date": "28 Dec 1928 (aged 38\u201339)",
+    "death_place": null
   },
   "facts": [
     {
@@ -74,28 +78,32 @@
   ],
   "relationships": [
     {
-      "relationship_type": "spouse",
+      "relationship_type": "spouse_of",
+      "role": "spouse",
       "evidence_text": "GEDCOM Family @F137@ marriage",
       "certainty": "confirmed",
       "rel_id": 10806,
       "rel_name": "Lindsey Thomas"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10482,
       "rel_name": "Lucille Thomas"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10819,
       "rel_name": "Alfred Thomas"
     },
     {
-      "relationship_type": "child_of",
+      "relationship_type": "parent_of",
+      "role": "child",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 10820,

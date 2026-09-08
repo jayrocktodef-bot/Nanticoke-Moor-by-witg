@@ -11,7 +11,11 @@
     "birth_info": "1904 New Jersey",
     "death_info": null,
     "notes": " | FindAGrave: no match",
-    "dataset_source": "davis_family_gedcom"
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "1904 New Jersey",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null
   },
   "facts": [
     {
@@ -56,6 +60,7 @@
   "relationships": [
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 9407,
@@ -63,6 +68,7 @@
     },
     {
       "relationship_type": "child_of",
+      "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
       "rel_id": 8927,
@@ -136,39 +142,34 @@
             ]
           },
           {
-            "id": 10290,
-            "name": "Harriet Ann Harmon",
+            "id": 8921,
+            "name": "Eliza Jane Morris",
             "children": [
               {
-                "id": 10291,
-                "name": "Charles S Harmon",
+                "id": 9958,
+                "name": "Emma Jane Johnson",
                 "children": [
                   {
-                    "id": 10260,
-                    "name": "Adjoniah R. Harmon",
+                    "id": 9936,
+                    "name": "Sarah Adeline Hanzer",
                     "children": [
                       {
-                        "id": 9982,
-                        "name": "Robert Emanuel Harmon",
+                        "id": 9096,
+                        "name": "John C Hanzer",
                         "children": []
                       },
                       {
-                        "id": 9983,
-                        "name": "Rachel Anne Johnson",
+                        "id": 9940,
+                        "name": "Sophia J. Hanzer",
                         "children": []
                       }
                     ]
-                  },
-                  {
-                    "id": 10293,
-                    "name": "Harriet Louisa Hansor Harmon",
-                    "children": []
                   }
                 ]
               },
               {
-                "id": 10292,
-                "name": "Ann Mariah Harmon",
+                "id": 10539,
+                "name": "Samuel Roland Johnson",
                 "children": []
               }
             ]
