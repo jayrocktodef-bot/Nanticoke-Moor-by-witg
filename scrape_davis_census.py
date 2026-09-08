@@ -2,8 +2,17 @@
 """
 scrape_davis_census.py
 
-Focused Ancestry.com Delaware Census Scraper for the Davis Family.
-Interacts with the authenticated Chrome session (port 9222) via CDP.
+Automated Ancestry.com Historical Document Scraper for Delmarva Genealogies.
+Connects to an authenticated Chrome browser session (port 9222) via CDP.
+
+Capabilities:
+1. Reuses active authenticated Ancestry browser tabs on port 9222.
+2. Discovers tree members across all paginated tree directories.
+3. Automatically extracts Federal Censuses (1850-1950), Delaware Marriage records,
+   Draft registration cards, Vital records, and SSDI.
+4. Downloads original high-resolution microfilm/scanned sheet images.
+5. Saves structured metadata JSON files and mirror-syncs to frontend public assets.
+6. Automatically integrates newly saved records into SQLite and frontend transcriptions.
 """
 
 import asyncio
@@ -15,10 +24,13 @@ import re
 import urllib.request
 import websockets
 import sqlite3
+import shutil
+import glob
 
 CDP_HTTP_URL = "http://localhost:9222"
 TREE_ID = "68065145"
 OUTPUT_DIR = os.path.abspath("preservation_output/ancestry_documents/delaware_census")
+FRONTEND_DIR = os.path.abspath("frontend/public/ancestry_documents/delaware_census")
 DB_PATH = "preservation_output/genealogy_preservation.db"
 
 CENSUS_COLLECTIONS = {
@@ -34,6 +46,30 @@ CENSUS_COLLECTIONS = {
     "62308": "1950",
 }
 
+SUPPORTED_COLLECTIONS = {
+    # Censuses
+    "8054": ("1850", "1850 United States Federal Census"),
+    "7667": ("1860", "1860 United States Federal Census"),
+    "7163": ("1870", "1870 United States Federal Census"),
+    "6742": ("1880", "1880 United States Federal Census"),
+    "7602": ("1900", "1900 United States Federal Census"),
+    "7884": ("1910", "1910 United States Federal Census"),
+    "6061": ("1920", "1920 United States Federal Census"),
+    "6224": ("1930", "1930 United States Federal Census"),
+    "2442": ("1940", "1940 United States Federal Census"),
+    "62308": ("1950", "1950 United States Federal Census"),
+    # Delaware Vitals & Church/Probate
+    "61368": ("Marriage", "Delaware, U.S., Marriage Records, 1750-1954"),
+    "61843": ("Marriage", "Delaware, U.S., Marriage Records"),
+    "62209": ("Vital", "Delaware, U.S., Birth and Death Records"),
+    "9044": ("Probate", "Delaware Wills and Probate Records"),
+    # Military
+    "2238": ("WWII", "U.S., World War II Draft Registration Cards"),
+    "6482": ("WWI", "U.S., World War I Draft Registration Cards"),
+    # Social Security & Directory
+    "60901": ("SSDI", "U.S., Social Security Applications and Claims Index"),
+}
+
 class CDPClient:
     def __init__(self, ws_url):
         self.ws_url = ws_url
@@ -45,7 +81,10 @@ class CDPClient:
 
     async def close(self):
         if self.ws:
-            await self.ws.close()
+            try:
+                await self.ws.close()
+            except Exception:
+                pass
 
     async def call(self, method, params=None):
         self.msg_id += 1
@@ -79,69 +118,123 @@ def get_open_tabs():
 
 def open_or_get_working_tab():
     tabs = get_open_tabs()
-    # Find existing scraper tab or create new
+    # 1. Prefer existing Ancestry tab
     for t in tabs:
-        if t.get("type") == "page" and "listofallpeople" in t.get("url", ""):
+        if t.get("type") == "page" and "ancestry.com" in t.get("url", ""):
             return t
-    # Or create a new tab
+    # 2. Prefer any open page tab
+    for t in tabs:
+        if t.get("type") == "page":
+            return t
+    # 3. Create a new tab
     req = urllib.request.Request(f"{CDP_HTTP_URL}/json/new?https://www.ancestry.com", method="PUT")
     return json.loads(urllib.request.urlopen(req).read())
 
-async def extract_davis_people_from_tree():
-    """Extracts all Davis family members listed in tree 68065145."""
+def extract_coll_and_rec(url):
+    m_int = re.search(r'/interactive/(\d+)/([^/]+)/(\d+)', url)
+    m_disc = re.search(r'/discoveryui-content/view/(\d+):(\d+)', url)
+    m_search = re.search(r'/collections/(\d+)/records/(\d+)', url)
+    if m_int:
+        return m_int.group(1), m_int.group(3)
+    if m_disc:
+        return m_disc.group(2), m_disc.group(1)
+    if m_search:
+        return m_search.group(1), m_search.group(2)
+    return None, None
+
+def get_processed_keys(output_dir):
+    processed_keys = set()
+    processed_urls_file = os.path.join(output_dir, "processed_urls.txt")
+    if os.path.exists(processed_urls_file):
+        with open(processed_urls_file, "r", encoding="utf-8") as f:
+            for line in f:
+                u = line.strip()
+                cid, rid = extract_coll_and_rec(u)
+                if cid and rid:
+                    processed_keys.add(f"{cid}:{rid}")
+                if u:
+                    processed_keys.add(u)
+
+    # Also inspect all existing JSON files in directory
+    for jf in glob.glob(os.path.join(output_dir, "*.json")):
+        try:
+            with open(jf, "r", encoding="utf-8") as fp:
+                d = json.load(fp)
+                cid = str(d.get("collection_id", ""))
+                rid = str(d.get("record_id", ""))
+                if cid and rid:
+                    processed_keys.add(f"{cid}:{rid}")
+                s_url = d.get("source_url", "")
+                if s_url:
+                    processed_keys.add(s_url)
+        except Exception:
+            pass
+
+    return processed_keys
+
+async def extract_people_from_tree(surname="Davis"):
+    """Extracts all family members with given surname listed in tree 68065145 across all pages."""
     tab = open_or_get_working_tab()
     client = CDPClient(tab["webSocketDebuggerUrl"])
     await client.connect()
 
-    url = f"https://www.ancestry.com/family-tree/tree/{TREE_ID}/listofallpeople?name=Davis"
-    print(f"Navigating to Davis tree directory: {url}")
-    await client.navigate(url, wait_sec=5)
+    people_map = {}
+    page_num = 1
+    while True:
+        url = f"https://www.ancestry.com/family-tree/tree/{TREE_ID}/listofallpeople?name={surname}&rows=100#page={page_num}"
+        print(f"Navigating to {surname} tree directory page {page_num}: {url}")
+        await client.navigate(url, wait_sec=4)
 
-    js = """
-    (() => {
-        const rows = Array.from(document.querySelectorAll('a[href*="/person/"]')).map(a => {
-            const m = a.href.match(/person\\/(\\d+)/);
-            // Also look for birth/death text nearby
-            const container = a.closest('tr') || a.closest('li') || a.parentElement;
-            return {
-                name: a.innerText.trim(),
-                pid: m ? m[1] : null,
-                details: container ? container.innerText.replace(/\\n/g, ' -- ').trim() : ''
-            };
-        }).filter(p => p.name && p.pid && p.name.toLowerCase().includes('davis'));
-
-        const map = new Map();
-        for (const r of rows) {
-            if (!map.has(r.pid)) {
-                map.set(r.pid, r);
+        js = r"""
+        (() => {
+            const rows = [];
+            const anchors = document.querySelectorAll('a');
+            for (const a of anchors) {
+                const href = a.getAttribute('href') || '';
+                const match = href.match(/\/person\/(\d+)$/);
+                if (match) {
+                    const tr = a.closest('tr');
+                    rows.push({
+                        pid: match[1],
+                        name: a.innerText.trim(),
+                        details: tr ? tr.innerText.replace(/\s+/g, ' ').trim() : ''
+                    });
+                }
             }
-        }
-        return Array.from(map.values());
-    })()
-    """
-    people = await client.eval_js(js)
+            return rows;
+        })()
+        """
+        page_rows = await client.eval_js(js) or []
+        new_count = 0
+        for r in page_rows:
+            if r.get("pid") and r["pid"] not in people_map:
+                people_map[r["pid"]] = r
+                new_count += 1
+        print(f"  Page {page_num}: retrieved {len(page_rows)} entries ({new_count} new, total: {len(people_map)})")
+        if new_count == 0 or len(page_rows) < 100:
+            break
+        page_num += 1
+        if page_num > 50:
+            break
+
     await client.close()
-    return people or []
+    return list(people_map.values())
 
 async def get_person_sources(client, pid):
     """Fetches all source records attached to a person's facts page."""
     url = f"https://www.ancestry.com/family-tree/person/tree/{TREE_ID}/person/{pid}/facts"
     print(f"  Navigating to Facts page for PID {pid}: {url}")
-    await client.navigate(url, wait_sec=4)
+    await client.navigate(url, wait_sec=3.5)
 
-    js = """
+    js = r"""
     (() => {
         const results = [];
-        // Ancestry modern UI has source buttons and links
         const links = Array.from(document.querySelectorAll('a[href*="/interactive/"], a[href*="/discoveryui-content/"], a[href*="/search/collections/"]'));
-        
         for (const a of links) {
-            const href = a.href;
             const container = a.closest('li') || a.closest('tr') || a.parentElement;
-            const text = (container ? container.innerText : a.innerText).trim();
             results.push({
-                text: text,
-                href: href
+                text: (container ? container.innerText : a.innerText).replace(/\s+/g, ' ').trim(),
+                href: a.href
             });
         }
         return results;
@@ -151,12 +244,12 @@ async def get_person_sources(client, pid):
     return sources or []
 
 async def scrape_census_record(client, record_url, person_name, target_dir):
-    """Extracts transcript and downloads high-res image from a census record or interactive viewer URL."""
+    """Extracts transcript and downloads high-res image from a record or interactive viewer URL."""
     print(f"    Inspecting Record: {record_url}")
     
-    # If it is an /interactive/ URL, convert to /discoveryui-content/view/ or navigate directly
     m_int = re.search(r'/interactive/(\d+)/([^/]+)/(\d+)', record_url)
     m_disc = re.search(r'/discoveryui-content/view/(\d+):(\d+)', record_url)
+    m_search = re.search(r'/collections/(\d+)/records/(\d+)', record_url)
     
     coll_id = None
     record_id = None
@@ -169,6 +262,9 @@ async def scrape_census_record(client, record_url, person_name, target_dir):
     elif m_disc:
         record_id = m_disc.group(1)
         coll_id = m_disc.group(2)
+    elif m_search:
+        coll_id = m_search.group(1)
+        record_id = m_search.group(2)
 
     # 1. First navigate to the discoveryui-content view for full structured transcription
     if record_id and coll_id:
@@ -179,7 +275,7 @@ async def scrape_census_record(client, record_url, person_name, target_dir):
     await client.navigate(view_url, wait_sec=3)
 
     # Extract transcription data
-    transcription_js = """
+    transcription_js = r"""
     (() => {
         const bodyText = document.body.innerText;
         const title = document.title;
@@ -196,7 +292,7 @@ async def scrape_census_record(client, record_url, person_name, target_dir):
         }
 
         // Extract key-value lines
-        const lines = bodyText.split('\\n').map(l => l.trim()).filter(l => l.length > 0);
+        const lines = bodyText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
         
         // Find citation
         let citation = '';
@@ -223,7 +319,7 @@ async def scrape_census_record(client, record_url, person_name, target_dir):
         print("    [Warning] Failed to extract record metadata.")
         return None
 
-    # Parse key census fields from body text
+    # Parse key census & vital fields from body text
     body = rec_data.get("bodyText", "")
     lines = [l.strip() for l in body.split("\n") if l.strip()]
     fields = {}
@@ -235,7 +331,9 @@ async def scrape_census_record(client, record_url, person_name, target_dir):
         "Sheet Number", "Number of Dwelling in Order of Visitation", "Family Number", 
         "Race", "Gender", "Relation to Head of House", "Marital Status", 
         "Father's Name", "Father's Birthplace", "Mother's Name", "Mother's Birthplace",
-        "Occupation", "Industry"
+        "Occupation", "Industry", "Spouse", "Child", "Marriage Date", "Marriage Place",
+        "Death Date", "Death Place", "Burial Place", "Draft Board", "Employer",
+        "Complexion", "Eye Color", "Hair Color", "Weight", "Height"
     ]
 
     for i, line in enumerate(lines):
@@ -245,12 +343,14 @@ async def scrape_census_record(client, record_url, person_name, target_dir):
                 if val not in target_labels and len(val) < 150:
                     fields[lbl] = val
 
-    year = CENSUS_COLLECTIONS.get(coll_id, "Census")
+    coll_info = SUPPORTED_COLLECTIONS.get(coll_id, (CENSUS_COLLECTIONS.get(coll_id, "Record"), "Historical Record"))
+    tag_name = coll_info[0]
+    coll_title = coll_info[1]
     primary_name = fields.get("Name", person_name)
-    place = fields.get("Home in " + year, fields.get("Residence", "Delaware"))
-    print(f"    ✓ Extracted {year} Census Transcript for {primary_name} ({place})")
+    place = fields.get("Home in " + tag_name, fields.get("Residence", fields.get("Marriage Place", fields.get("Death Place", "Delaware"))))
+    print(f"    ✓ Extracted {tag_name} Transcript for {primary_name} ({place})")
 
-    # 2. Download Image Viewer
+    # 2. Download Image Viewer if scan is available
     img_link = rec_data.get("imageLink")
     if not img_link and image_slug and coll_id:
         img_link = f"https://www.ancestry.com/imageviewer/collections/{coll_id}/images/{image_slug}?pId={record_id}"
@@ -260,23 +360,36 @@ async def scrape_census_record(client, record_url, person_name, target_dir):
         print(f"    Navigating to Image Viewer: {img_link}")
         await client.navigate(img_link, wait_sec=4)
 
-        # Set download directory
-        await client.call("Page.setDownloadBehavior", {"behavior": "allow", "downloadPath": target_dir})
+        # Set download directory in Chrome
+        try:
+            await client.call("Browser.setDownloadBehavior", {"behavior": "allow", "downloadPath": target_dir, "eventsEnabled": True})
+        except Exception:
+            pass
+        try:
+            await client.call("Page.setDownloadBehavior", {"behavior": "allow", "downloadPath": target_dir})
+        except Exception:
+            pass
 
-        # Pre-count existing files
         before_files = set(os.listdir(target_dir))
+        home_downloads = os.path.expanduser("~/Downloads")
+        before_home = set(os.listdir(home_downloads)) if os.path.exists(home_downloads) else set()
 
-        # Open Tool Menu and click Download
-        click_download_js = """
+        # Click Tool Menu and Download button
+        click_download_js = r"""
         (() => {
-            const toolBtn = Array.from(document.querySelectorAll('button')).find(b => b.getAttribute('title') === 'Tool menu' || b.innerText.includes('Tool menu'));
+            const toolBtn = Array.from(document.querySelectorAll('button')).find(b => 
+                (b.getAttribute('title') || '').includes('Tool menu') || 
+                (b.innerText || '').includes('Tool menu')
+            );
             if (toolBtn) {
                 toolBtn.click();
             }
             setTimeout(() => {
-                const dl = Array.from(document.querySelectorAll('.iconDownload, button')).find(el => el.innerText.trim() === 'Download');
+                const dl = Array.from(document.querySelectorAll('.iconDownload, button')).find(el => 
+                    (el.innerText || '').trim() === 'Download' || (el.className || '').includes('iconDownload')
+                );
                 if (dl) dl.click();
-            }, 500);
+            }, 600);
             return true;
         })()
         """
@@ -291,11 +404,24 @@ async def scrape_census_record(client, record_url, person_name, target_dir):
                 saved_img_path = os.path.join(target_dir, new_files[0])
                 print(f"    ✓ Scanned Sheet Downloaded: {new_files[0]} ({os.path.getsize(saved_img_path):,} bytes)")
                 break
+                
+            # Check fallback in ~/Downloads
+            if os.path.exists(home_downloads):
+                after_home = set(os.listdir(home_downloads))
+                new_home = [f for f in (after_home - before_home) if not f.endswith(".crdownload") and (f.endswith(".jpg") or f.endswith(".jpeg"))]
+                if new_home:
+                    src = os.path.join(home_downloads, new_home[0])
+                    dst = os.path.join(target_dir, new_home[0])
+                    shutil.move(src, dst)
+                    saved_img_path = dst
+                    print(f"    ✓ Scanned Sheet Relocated from Downloads: {new_home[0]} ({os.path.getsize(saved_img_path):,} bytes)")
+                    break
 
     # Save structured metadata json
     meta = {
         "person_name": primary_name,
-        "census_year": year,
+        "census_year": tag_name,
+        "collection_title": coll_title,
         "collection_id": coll_id,
         "record_id": record_id,
         "fields": fields,
@@ -306,135 +432,143 @@ async def scrape_census_record(client, record_url, person_name, target_dir):
     }
 
     safe_name = re.sub(r'[^a-zA-Z0-9_-]', '_', primary_name)
-    meta_filename = f"{year}_{safe_name}_{record_id}.json"
+    meta_filename = f"{tag_name}_{safe_name}_{record_id}.json"
     meta_path = os.path.join(target_dir, meta_filename)
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(meta, f, indent=2)
     print(f"    ✓ Metadata JSON Saved: {meta_filename}")
 
+    # Mirror copy to frontend public directory
+    os.makedirs(FRONTEND_DIR, exist_ok=True)
+    if saved_img_path and os.path.exists(saved_img_path):
+        shutil.copy2(saved_img_path, os.path.join(FRONTEND_DIR, os.path.basename(saved_img_path)))
+    if os.path.exists(meta_path):
+        shutil.copy2(meta_path, os.path.join(FRONTEND_DIR, meta_filename))
+
     return meta
 
-async def main():
+async def run_scraper(target_surnames=None, max_new_records=50):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(FRONTEND_DIR, exist_ok=True)
+
+    if target_surnames is None:
+        target_surnames = ["Davis"]
+
     print("=" * 70)
-    print("  ANCESTRY.COM DELAWARE CENSUS SCRAPER - DAVIS FAMILY")
-    print(f"  Target Output: {OUTPUT_DIR}")
+    print("  ANCESTRY.COM DELMARVA DOCUMENT PRESERVATION SCRAPER")
+    print(f"  Target Surnames: {', '.join(target_surnames)}")
+    print(f"  Output Directory: {OUTPUT_DIR}")
+    print(f"  Frontend Mirror: {FRONTEND_DIR}")
     print("=" * 70 + "\n")
 
-    # 1. Discover Davis ancestors from tree
-    print("Phase 1: Discovering Davis Ancestors in tree...")
-    davis_people = await extract_davis_people_from_tree()
-    print(f"Found {len(davis_people)} Davis individuals in tree.\n")
-    for p in davis_people[:25]:
-        print(f"  - [{p['pid']}] {p['name']} | {p.get('details', '')[:60]}")
+    processed_keys = get_processed_keys(OUTPUT_DIR)
+    print(f"Loaded {len(processed_keys)} previously processed record keys.")
 
-    # Prioritize key Delaware Davis ancestors:
-    priority_ids = [
-        "112216028092", # Charles Morris Davis (1898-1948)
-        "112740815327", # Albert Carmenthis Davis Sr (1938-2011)
-        "40345353629",  # Delphine Mae Davis (1939-2002)
-        "112216028090", # Bertha May Davis (1893-1982)
-        "40345368274",  # Elsie Rebecca Davis (1896-1939)
-        "112441598215", # Clarence D Davis (1926-1991)
-        "40345372212",  # Alonzo F. Davis (1937-)
-    ]
-
-    import datetime
-    current_year = datetime.datetime.now().year
-
-    def is_probably_living(person_data):
-        name = person_data.get("name", "").lower()
-        details = person_data.get("details", "").lower()
-        
-        if "living" in name or "living" in details:
-            return True
-            
-        # If there's an explicit death indicator
-        if "death" in details or "died" in details or "passed away" in details:
-            return False
-            
-        # Extract 4-digit years from details
-        years = [int(y) for y in re.findall(r'\b(1[789]\d{2}|20[012]\d)\b', details)]
-        if len(years) >= 2:
-            return False # Likely has birth and death years
-            
-        if len(years) == 1:
-            birth_year = years[0]
-            if current_year - birth_year > 110:
-                return False # Over 110 years old, assume deceased
-            return True # Has birth but no death, and < 110 years old
-            
-        return False # Cannot determine, err on side of caution
-
-    # Combine priority with all discovered
-    candidate_pids = []
-    for pid in priority_ids:
-        candidate_pids.append(pid)
-    for p in davis_people:
-        if p["pid"] not in candidate_pids:
-            if is_probably_living(p):
-                print(f"  [Privacy] Skipping likely living person: {p['name']}")
-                continue
-            candidate_pids.append(p["pid"])
-
-    print(f"\nPhase 2: Extracting Census Records for {len(candidate_pids)} Davis ancestors...")
     tab = open_or_get_working_tab()
     client = CDPClient(tab["webSocketDebuggerUrl"])
     await client.connect()
 
-    processed_records_file = os.path.join(OUTPUT_DIR, "processed_urls.txt")
-    processed_records = set()
-    if os.path.exists(processed_records_file):
-        with open(processed_records_file, "r") as f:
-            for line in f:
-                processed_records.add(line.strip())
-                
+    import datetime
+    current_year = datetime.datetime.now().year
+
+    def is_probably_living(details, name):
+        details_l = details.lower()
+        name_l = name.lower()
+        if "living" in name_l or "living" in details_l:
+            return True
+        if "death" in details_l or "died" in details_l or "passed away" in details_l:
+            return False
+        years = [int(y) for y in re.findall(r'\b(1[789]\d{2}|20[012]\d)\b', details_l)]
+        if len(years) >= 2:
+            return False
+        if len(years) == 1:
+            if current_year - years[0] > 105:
+                return False
+            return True
+        return False
+
     total_saved = 0
+    processed_urls_file = os.path.join(OUTPUT_DIR, "processed_urls.txt")
 
-    for pid in candidate_pids:
-        person_info = next((p for p in davis_people if p["pid"] == pid), {"name": f"Davis Ancestor {pid}", "pid": pid})
-        print(f"\n=======================================================")
-        print(f"Processing: {person_info['name']} (PID: {pid})")
-        print(f"=======================================================")
-
+    for surname in target_surnames:
+        print(f"\n--- Gathering Ancestors for Surname: {surname} ---")
         try:
-            sources = await get_person_sources(client, pid)
-            census_sources = []
-            for s in sources:
-                href = s.get("href", "")
-                text = s.get("text", "")
-                # Check if census
-                is_census = any(coll in href for coll in CENSUS_COLLECTIONS.keys()) or "census" in text.lower()
-                if is_census and href:
-                    census_sources.append(s)
+            people = await extract_people_from_tree(surname)
+        except Exception as e:
+            print(f"Error fetching people for {surname}: {e}")
+            continue
 
-            print(f"  Found {len(census_sources)} attached census records.")
+        print(f"Found {len(people)} individuals for {surname}.")
 
-            for s in census_sources:
-                href = s["href"]
-                if href in processed_records:
-                    continue
-                processed_records.add(href)
+        for person in people:
+            if total_saved >= max_new_records:
+                print(f"Reached session goal of {max_new_records} records.")
+                break
 
-                try:
-                    meta = await scrape_census_record(client, href, person_info["name"], OUTPUT_DIR)
-                    if meta:
-                        total_saved += 1
-                        with open(processed_records_file, "a") as f:
-                            f.write(href + "\n")
-                except Exception as ex:
-                    print(f"    [Error scraping record]: {ex}")
+            pid = person["pid"]
+            name = person["name"]
+            details = person.get("details", "")
 
-                # Gentle pacing between records
-                await asyncio.sleep(2.5)
+            if is_probably_living(details, name):
+                continue
 
-        except Exception as ex:
-            print(f"  [Error processing PID {pid}]: {ex}")
+            print(f"\nProcessing: {name} (PID: {pid})")
+            try:
+                sources = await get_person_sources(client, pid)
+                matching_sources = []
+                for s in sources:
+                    href = s.get("href", "")
+                    text = s.get("text", "")
+                    cid, rid = extract_coll_and_rec(href)
+                    key = f"{cid}:{rid}" if (cid and rid) else href
+
+                    if key in processed_keys or href in processed_keys:
+                        continue
+
+                    is_match = (cid in SUPPORTED_COLLECTIONS) or \
+                               any(k in text.lower() for k in ["census", "marriage", "draft", "birth", "death", "social security"])
+                    if is_match and href:
+                        matching_sources.append((s, key))
+
+                print(f"  Found {len(matching_sources)} new records attached to {name}.")
+
+                for s, key in matching_sources:
+                    if total_saved >= max_new_records:
+                        break
+
+                    href = s["href"]
+                    try:
+                        meta = await scrape_census_record(client, href, name, OUTPUT_DIR)
+                        if meta:
+                            total_saved += 1
+                            processed_keys.add(key)
+                            processed_keys.add(href)
+                            with open(processed_urls_file, "a", encoding="utf-8") as f:
+                                f.write(href + "\n")
+                    except Exception as ex:
+                        print(f"    [Error scraping record]: {ex}")
+
+                    await asyncio.sleep(2.5)
+
+            except Exception as ex:
+                print(f"  [Error processing PID {pid}]: {ex}")
 
     await client.close()
-    print(f"\n" + "=" * 70)
-    print(f"  DAVIS FAMILY CENSUS INGESTION COMPLETE: {total_saved} records preserved!")
+
+    print("\n" + "=" * 70)
+    print(f"  SCRAPING COMPLETE: {total_saved} new records preserved and synced!")
     print("=" * 70)
 
+    # Automatically run integration
+    try:
+        print("\nTriggering database & frontend integration...")
+        import subprocess
+        subprocess.run(["python3", "integrate_census_documents.py"], check=True)
+    except Exception as e:
+        print(f"Error during integration step: {e}")
+
 if __name__ == "__main__":
-    asyncio.run(main())
+    surnames = ["Davis"]
+    if len(sys.argv) > 1 and not sys.argv[1].startswith("--"):
+        surnames = [s.strip() for s in sys.argv[1].split(",")]
+    asyncio.run(run_scraper(target_surnames=surnames, max_new_records=30))

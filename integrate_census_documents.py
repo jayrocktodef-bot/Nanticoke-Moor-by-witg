@@ -320,6 +320,10 @@ def run_integration():
         json_out_path = os.path.join(FRONTEND_TRANSCRIPTIONS_DIR, f"doc_{photo_id}.json")
         with open(json_out_path, "w", encoding="utf-8") as tf:
             json.dump(trans_data, tf, indent=2)
+
+        json_out_id = os.path.join(FRONTEND_TRANSCRIPTIONS_DIR, f"{photo_id}.json")
+        with open(json_out_id, "w", encoding="utf-8") as tf:
+            json.dump(trans_data, tf, indent=2)
             
     conn.commit()
     conn.close()
