@@ -1,6 +1,6 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react';
 import { createPortal } from 'react-dom';
-import { Search, Database, Users, FileText, Image as ImageIcon, GitFork, BookOpen, ShieldCheck, HeartHandshake, GitCommit, Bookmark, LayoutGrid, List, Sparkles, Filter, Sun, Moon, Printer, Compass, MapPin, Dna, Volume2, Menu, X } from 'lucide-react';
+import { Search, Database, Users, FileText, Image as ImageIcon, GitFork, BookOpen, ShieldCheck, HeartHandshake, GitCommit, Bookmark, LayoutGrid, List, Sparkles, Filter, Sun, Moon, Printer, Compass, MapPin, Volume2, Menu, X } from 'lucide-react';
 import SurnameCard from './SurnameCard';
 import RecordDrawer from './RecordDrawer';
 import PersonProfileView from './PersonProfileView';
@@ -9,7 +9,6 @@ import CommandPalette from './CommandPalette';
 import TranscribedDocumentView from './TranscribedDocumentView';
 import FacetedSearchPanel from './FacetedSearchPanel';
 import KinshipPathExplorer from './KinshipPathExplorer';
-import DNAMatchExplorer from './DNAMatchExplorer';
 import OralHistoryPlayer from './OralHistoryPlayer';
 import { trackPageView, trackEvent } from '../utils/analytics';
 import { fetchCachedJson } from '../utils/apiCache';
@@ -20,7 +19,6 @@ const PhotoGallery = lazy(() => import('./PhotoGallery'));
 const ObituaryViewer = lazy(() => import('./ObituaryViewer'));
 const FamilyInterconnectionMatrix = lazy(() => import('./FamilyInterconnectionMatrix'));
 const SourcesCatalog = lazy(() => import('./SourcesCatalog'));
-const AuditResolutionPanel = lazy(() => import('./AuditResolutionPanel'));
 const HistoricalMigrationMap = lazy(() => import('./HistoricalMigrationMap'));
 
 export default function HomeScreen() {
@@ -265,10 +263,8 @@ export default function HomeScreen() {
                   {[
                     { id: 'faceted_search', label: 'Faceted Search', icon: Filter },
                     { id: 'kinship', label: 'Kinship Path Finder', icon: GitCommit },
-                    { id: 'dna_matches', label: 'DNA Cousin Browser', icon: Dna },
                     { id: 'oral_history', label: 'Oral History Vault', icon: Volume2 },
-                    { id: 'sources', label: 'Sources & Archives', icon: Bookmark },
-                    { id: 'audit', label: 'Integrity Review', icon: ShieldCheck }
+                    { id: 'sources', label: 'Sources & Archives', icon: Bookmark }
                   ].map(tab => {
                     const Icon = tab.icon;
                     const isActive = activeTab === tab.id;
@@ -407,10 +403,8 @@ export default function HomeScreen() {
               {[
                 { id: 'faceted_search', label: 'Faceted Search', icon: Filter },
                 { id: 'kinship', label: 'Kinship Path Finder', icon: GitCommit },
-                { id: 'dna_matches', label: 'DNA Cousin Browser', icon: Dna },
                 { id: 'oral_history', label: 'Oral History Vault', icon: Volume2 },
-                { id: 'sources', label: 'Sources & Archives', icon: Bookmark },
-                { id: 'audit', label: 'Integrity Review', icon: ShieldCheck }
+                { id: 'sources', label: 'Sources & Archives', icon: Bookmark }
               ].map(tab => {
                 const Icon = tab.icon;
                 const isActive = activeTab === tab.id;
@@ -522,10 +516,8 @@ export default function HomeScreen() {
               {activeTab === 'obituaries' && 'Historical Obituary Vault'}
               {activeTab === 'records' && 'Family Bible & Primary Records'}
               {activeTab === 'sources' && 'Source Repositories & Archives'}
-              {activeTab === 'audit' && 'System Integrity Review'}
               {activeTab === 'faceted_search' && 'Faceted Search & Multi-Field Filter'}
               {activeTab === 'kinship' && 'Kinship Path Finder & Lineage Steps'}
-              {activeTab === 'dna_matches' && 'DNA Match & Segment Explorer'}
               {activeTab === 'oral_history' && 'Oral History Vault & Elder Recordings'}
             </h2>
           </div>
@@ -563,53 +555,6 @@ export default function HomeScreen() {
 
         {/* Main Canvas View Body */}
         <div className="p-4 sm:p-6 space-y-6 flex-1">
-        {/* Integrated Record Repositories Banner */}
-        <div className="p-3.5 sm:p-4 bg-[#1C1A17] border border-[#332D27] rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-md">
-          <div className="flex items-center gap-2.5">
-            <Database className="w-4 h-4 text-[#C68B59]" />
-            <span className="text-xs font-serif-header font-bold text-[#F3EBE3] tracking-wide uppercase">Integrated Record Repositories</span>
-          </div>
-
-          <div className="flex flex-wrap items-center gap-3 text-xs font-mono">
-            <a
-              href="https://lynncjackson.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#121110] border border-[#332D27] hover:border-[#C68B59]/50 text-[#D4A373] px-3 py-1 rounded-lg transition-all flex items-center gap-1.5"
-            >
-              <span className="font-semibold">lynncjackson.com</span>
-              <span className="text-[10px] text-[#8C8275]">(534 records)</span>
-            </a>
-            <a
-              href="http://moors-delaware.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#121110] border border-[#332D27] hover:border-sky-500/50 text-sky-300 px-3 py-1 rounded-lg transition-all flex items-center gap-1.5"
-            >
-              <span className="font-semibold">moors-delaware.com</span>
-              <span className="text-[10px] text-sky-400/70">(101 records)</span>
-            </a>
-            <a
-              href="https://nativeamericansofdelawarestate.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#121110] border border-[#332D27] hover:border-emerald-500/50 text-emerald-300 px-3 py-1 rounded-lg transition-all flex items-center gap-1.5"
-            >
-              <span className="font-semibold">nativeamericansofdelawarestate.com</span>
-              <span className="text-[10px] text-emerald-400/70">(1,945 photos / 364 obits)</span>
-            </a>
-            <a
-              href="https://americanindian.si.edu/collections-search/search/archives"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#121110] border border-[#332D27] hover:border-purple-500/50 text-purple-300 px-3 py-1 rounded-lg transition-all flex items-center gap-1.5"
-            >
-              <span className="font-semibold">Smithsonian NMAI Speck Archive</span>
-              <span className="text-[10px] text-purple-400/70">(Series 8 Nanticoke)</span>
-            </a>
-          </div>
-        </div>
-
         {/* Central Search Focal Point & Quick Filters */}
         <div className="max-w-3xl mx-auto text-center space-y-4">
           <div className="relative">
@@ -651,179 +596,181 @@ export default function HomeScreen() {
           </div>
         </div>
 
-        {/* Guided Pathways: Start Here for Elders, Families & Visitors (Expandable Bento System) */}
-        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-1 w-full">
-          {/* Pathway Bento 1: Family Lines */}
-          <div
-            className={`bento-card group text-left bg-[#1C1A17] border rounded-2xl p-5 shadow-lg transition-all flex flex-col justify-between ${
-              activeTab === 'surnames' ? 'border-[#C68B59] ring-1 ring-[#C68B59]/40' : 'border-[#332D27] hover:border-[#C68B59]/60'
-            }`}
-          >
-            <div className="min-w-0 w-full">
-              <div className="flex items-center justify-between gap-2 mb-3">
-                <div className="w-10 h-10 rounded-xl bg-[#C68B59]/15 border border-[#C68B59]/30 flex items-center justify-center text-xl shrink-0">
-                  🌳
+        {/* Guided Pathways: Start Here for Elders, Families & Visitors (Visible only on Family Portals tab) */}
+        {activeTab === 'surnames' && (
+          <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-1 w-full">
+            {/* Pathway Bento 1: Family Lines */}
+            <div
+              className={`bento-card group text-left bg-[#1C1A17] border rounded-2xl p-5 shadow-lg transition-all flex flex-col justify-between ${
+                activeTab === 'surnames' ? 'border-[#C68B59] ring-1 ring-[#C68B59]/40' : 'border-[#332D27] hover:border-[#C68B59]/60'
+              }`}
+            >
+              <div className="min-w-0 w-full">
+                <div className="flex items-center justify-between gap-2 mb-3">
+                  <div className="w-10 h-10 rounded-xl bg-[#C68B59]/15 border border-[#C68B59]/30 flex items-center justify-center text-xl shrink-0">
+                    🌳
+                  </div>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setExpandedPathway(expandedPathway === 'surnames' ? null : 'surnames');
+                    }}
+                    className="text-[11px] font-mono text-[#D4A373] hover:text-[#F3EBE3] px-2 py-1 rounded bg-[#121110] border border-[#332D27] transition-all"
+                    title="Expand or collapse featured lineages"
+                  >
+                    {expandedPathway === 'surnames' ? 'Less ▲' : 'Details ▼'}
+                  </button>
                 </div>
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setExpandedPathway(expandedPathway === 'surnames' ? null : 'surnames');
-                  }}
-                  className="text-[11px] font-mono text-[#D4A373] hover:text-[#F3EBE3] px-2 py-1 rounded bg-[#121110] border border-[#332D27] transition-all"
-                  title="Expand or collapse featured lineages"
+
+                <h3 
+                  onClick={() => handleTabChange('surnames')}
+                  className="font-serif-header text-base font-bold text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors cursor-pointer"
                 >
-                  {expandedPathway === 'surnames' ? 'Less ▲' : 'Details ▼'}
-                </button>
+                  1. Explore Family Lines
+                </h3>
+                <p className="text-xs text-[#A8A096] mt-1.5 leading-relaxed break-words">
+                  Browse preserved family portals (Davis, Harmon, Durham, Mosley, Carney...) with portraits & pedigree trees.
+                </p>
+
+                {/* Expandable Lineage Chips */}
+                {expandedPathway === 'surnames' && (
+                  <div className="mt-3 pt-3 border-t border-[#2D2722] space-y-2 animate-fade-in">
+                    <p className="text-[11px] font-mono text-[#8C8275] uppercase tracking-wider">Featured Lineage Portals:</p>
+                    <div className="flex flex-wrap gap-1.5">
+                      {['Davis', 'Harmon', 'Durham', 'Mosley', 'Carney', 'Clark', 'Pierce', 'Gould'].map(sn => (
+                        <button
+                          key={sn}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handleOpenSurnamePortal(sn);
+                          }}
+                          className="text-[11px] font-mono px-2 py-0.5 rounded bg-[#121110] text-[#D4A373] border border-[#3A322B] hover:border-[#C68B59] hover:bg-[#C68B59]/10 transition-all"
+                        >
+                          {sn} →
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
 
-              <h3 
+              <button
                 onClick={() => handleTabChange('surnames')}
-                className="font-serif-header text-base font-bold text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors cursor-pointer"
+                className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#D4A373] mt-4 font-mono hover:underline self-start"
               >
-                1. Explore Family Lines
-              </h3>
-              <p className="text-xs text-[#A8A096] mt-1.5 leading-relaxed break-words">
-                Browse preserved family portals (Davis, Harmon, Durham, Mosley, Carney...) with portraits & pedigree trees.
-              </p>
-
-              {/* Expandable Lineage Chips */}
-              {expandedPathway === 'surnames' && (
-                <div className="mt-3 pt-3 border-t border-[#2D2722] space-y-2 animate-fade-in">
-                  <p className="text-[11px] font-mono text-[#8C8275] uppercase tracking-wider">Featured Lineage Portals:</p>
-                  <div className="flex flex-wrap gap-1.5">
-                    {['Davis', 'Harmon', 'Durham', 'Mosley', 'Carney', 'Clark', 'Pierce', 'Gould'].map(sn => (
-                      <button
-                        key={sn}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleOpenSurnamePortal(sn);
-                        }}
-                        className="text-[11px] font-mono px-2 py-0.5 rounded bg-[#121110] text-[#D4A373] border border-[#3A322B] hover:border-[#C68B59] hover:bg-[#C68B59]/10 transition-all"
-                      >
-                        {sn} →
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
+                Browse 50+ Portals →
+              </button>
             </div>
 
-            <button
-              onClick={() => handleTabChange('surnames')}
-              className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#D4A373] mt-4 font-mono hover:underline self-start"
+            {/* Pathway Bento 2: Historic Photos */}
+            <div
+              className={`bento-card group text-left bg-[#1C1A17] border rounded-2xl p-5 shadow-lg transition-all flex flex-col justify-between ${
+                activeTab === 'gallery' ? 'border-[#C68B59] ring-1 ring-[#C68B59]/40' : 'border-[#332D27] hover:border-[#C68B59]/60'
+              }`}
             >
-              Browse 50+ Portals →
-            </button>
-          </div>
-
-          {/* Pathway Bento 2: Historic Photos */}
-          <div
-            className={`bento-card group text-left bg-[#1C1A17] border rounded-2xl p-5 shadow-lg transition-all flex flex-col justify-between ${
-              activeTab === 'gallery' ? 'border-[#C68B59] ring-1 ring-[#C68B59]/40' : 'border-[#332D27] hover:border-[#C68B59]/60'
-            }`}
-          >
-            <div className="min-w-0 w-full">
-              <div className="flex items-center justify-between gap-2 mb-3">
-                <div className="w-10 h-10 rounded-xl bg-[#C68B59]/15 border border-[#C68B59]/30 flex items-center justify-center text-xl shrink-0">
-                  📸
+              <div className="min-w-0 w-full">
+                <div className="flex items-center justify-between gap-2 mb-3">
+                  <div className="w-10 h-10 rounded-xl bg-[#C68B59]/15 border border-[#C68B59]/30 flex items-center justify-center text-xl shrink-0">
+                    📸
+                  </div>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setExpandedPathway(expandedPathway === 'gallery' ? null : 'gallery');
+                    }}
+                    className="text-[11px] font-mono text-[#D4A373] hover:text-[#F3EBE3] px-2 py-1 rounded bg-[#121110] border border-[#332D27] transition-all"
+                    title="Expand or collapse media breakdown"
+                  >
+                    {expandedPathway === 'gallery' ? 'Less ▲' : 'Details ▼'}
+                  </button>
                 </div>
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setExpandedPathway(expandedPathway === 'gallery' ? null : 'gallery');
-                  }}
-                  className="text-[11px] font-mono text-[#D4A373] hover:text-[#F3EBE3] px-2 py-1 rounded bg-[#121110] border border-[#332D27] transition-all"
-                  title="Expand or collapse media breakdown"
+
+                <h3 
+                  onClick={() => handleTabChange('gallery')}
+                  className="font-serif-header text-base font-bold text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors cursor-pointer"
                 >
-                  {expandedPathway === 'gallery' ? 'Less ▲' : 'Details ▼'}
-                </button>
+                  2. See Historic Photos
+                </h3>
+                <p className="text-xs text-[#A8A096] mt-1.5 leading-relaxed break-words">
+                  Over 2,600 restored ancestor portraits, reunion photos, 5-generation pedigree charts, and cemetery tombstones.
+                </p>
+
+                {/* Expandable Category Chips */}
+                {expandedPathway === 'gallery' && (
+                  <div className="mt-3 pt-3 border-t border-[#2D2722] space-y-2 animate-fade-in">
+                    <p className="text-[11px] font-mono text-[#8C8275] uppercase tracking-wider">Catalog Holdings:</p>
+                    <div className="grid grid-cols-2 gap-1.5 text-[11px] font-mono">
+                      <span className="text-[#C5BCB2] bg-[#121110] px-2 py-1 rounded border border-[#2B2520]">👤 1,647 People</span>
+                      <span className="text-[#C5BCB2] bg-[#121110] px-2 py-1 rounded border border-[#2B2520]">📜 461 Documents</span>
+                      <span className="text-[#C5BCB2] bg-[#121110] px-2 py-1 rounded border border-[#2B2520]">🌳 392 Family Trees</span>
+                      <span className="text-[#C5BCB2] bg-[#121110] px-2 py-1 rounded border border-[#2B2520]">🪦 111 Tombstones</span>
+                    </div>
+                  </div>
+                )}
               </div>
 
-              <h3 
+              <button
                 onClick={() => handleTabChange('gallery')}
-                className="font-serif-header text-base font-bold text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors cursor-pointer"
+                className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#D4A373] mt-4 font-mono hover:underline self-start"
               >
-                2. See Historic Photos
-              </h3>
-              <p className="text-xs text-[#A8A096] mt-1.5 leading-relaxed break-words">
-                Over 2,600 restored ancestor portraits, reunion photos, 5-generation pedigree charts, and cemetery tombstones.
-              </p>
-
-              {/* Expandable Category Chips */}
-              {expandedPathway === 'gallery' && (
-                <div className="mt-3 pt-3 border-t border-[#2D2722] space-y-2 animate-fade-in">
-                  <p className="text-[11px] font-mono text-[#8C8275] uppercase tracking-wider">Catalog Holdings:</p>
-                  <div className="grid grid-cols-2 gap-1.5 text-[11px] font-mono">
-                    <span className="text-[#C5BCB2] bg-[#121110] px-2 py-1 rounded border border-[#2B2520]">👤 1,647 People</span>
-                    <span className="text-[#C5BCB2] bg-[#121110] px-2 py-1 rounded border border-[#2B2520]">📜 461 Documents</span>
-                    <span className="text-[#C5BCB2] bg-[#121110] px-2 py-1 rounded border border-[#2B2520]">🌳 392 Family Trees</span>
-                    <span className="text-[#C5BCB2] bg-[#121110] px-2 py-1 rounded border border-[#2B2520]">🪦 111 Tombstones</span>
-                  </div>
-                </div>
-              )}
+                Open Media Archive →
+              </button>
             </div>
 
-            <button
-              onClick={() => handleTabChange('gallery')}
-              className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#D4A373] mt-4 font-mono hover:underline self-start"
+            {/* Pathway Bento 3: Find Relative */}
+            <div
+              className="bento-card group text-left bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59]/60 rounded-2xl p-5 shadow-lg transition-all flex flex-col justify-between"
             >
-              Open Media Archive →
-            </button>
-          </div>
-
-          {/* Pathway Bento 3: Find Relative */}
-          <div
-            className="bento-card group text-left bg-[#1C1A17] border border-[#332D27] hover:border-[#C68B59]/60 rounded-2xl p-5 shadow-lg transition-all flex flex-col justify-between"
-          >
-            <div className="min-w-0 w-full">
-              <div className="flex items-center justify-between gap-2 mb-3">
-                <div className="w-10 h-10 rounded-xl bg-[#C68B59]/15 border border-[#C68B59]/30 flex items-center justify-center text-xl shrink-0">
-                  🔍
+              <div className="min-w-0 w-full">
+                <div className="flex items-center justify-between gap-2 mb-3">
+                  <div className="w-10 h-10 rounded-xl bg-[#C68B59]/15 border border-[#C68B59]/30 flex items-center justify-center text-xl shrink-0">
+                    🔍
+                  </div>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setExpandedPathway(expandedPathway === 'search' ? null : 'search');
+                    }}
+                    className="text-[11px] font-mono text-[#D4A373] hover:text-[#F3EBE3] px-2 py-1 rounded bg-[#121110] border border-[#332D27] transition-all"
+                    title="Expand or collapse search tips"
+                  >
+                    {expandedPathway === 'search' ? 'Less ▲' : 'Details ▼'}
+                  </button>
                 </div>
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setExpandedPathway(expandedPathway === 'search' ? null : 'search');
-                  }}
-                  className="text-[11px] font-mono text-[#D4A373] hover:text-[#F3EBE3] px-2 py-1 rounded bg-[#121110] border border-[#332D27] transition-all"
-                  title="Expand or collapse search tips"
+
+                <h3 
+                  onClick={() => setIsCommandPaletteOpen(true)}
+                  className="font-serif-header text-base font-bold text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors cursor-pointer"
                 >
-                  {expandedPathway === 'search' ? 'Less ▲' : 'Details ▼'}
-                </button>
+                  3. Find a Relative
+                </h3>
+                <p className="text-xs text-[#A8A096] mt-1.5 leading-relaxed break-words">
+                  Type any name, birth year, or Delmarva cemetery to search through 3,820 ancestor records instantly.
+                </p>
+
+                {/* Expandable Search Tips */}
+                {expandedPathway === 'search' && (
+                  <div className="mt-3 pt-3 border-t border-[#2D2722] space-y-1.5 text-xs text-[#C5BCB2] animate-fade-in">
+                    <p className="text-[11px] font-mono text-[#8C8275] uppercase tracking-wider">Search Tips:</p>
+                    <p className="text-[11px] leading-relaxed">
+                      • Try maiden names or alternative spellings (e.g., <em>Mosely, Caray</em>).
+                    </p>
+                    <p className="text-[11px] leading-relaxed">
+                      • Search by cemetery name (e.g., <em>Immanuel Union, Fork Branch</em>).
+                    </p>
+                  </div>
+                )}
               </div>
 
-              <h3 
+              <button
                 onClick={() => setIsCommandPaletteOpen(true)}
-                className="font-serif-header text-base font-bold text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors cursor-pointer"
+                className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#D4A373] mt-4 font-mono hover:underline self-start"
               >
-                3. Find a Relative
-              </h3>
-              <p className="text-xs text-[#A8A096] mt-1.5 leading-relaxed break-words">
-                Type any name, birth year, or Delmarva cemetery to search through 3,820 ancestor records instantly.
-              </p>
-
-              {/* Expandable Search Tips */}
-              {expandedPathway === 'search' && (
-                <div className="mt-3 pt-3 border-t border-[#2D2722] space-y-1.5 text-xs text-[#C5BCB2] animate-fade-in">
-                  <p className="text-[11px] font-mono text-[#8C8275] uppercase tracking-wider">Search Tips:</p>
-                  <p className="text-[11px] leading-relaxed">
-                    • Try maiden names or alternative spellings (e.g., <em>Mosely, Caray</em>).
-                  </p>
-                  <p className="text-[11px] leading-relaxed">
-                    • Search by cemetery name (e.g., <em>Immanuel Union, Fork Branch</em>).
-                  </p>
-                </div>
-              )}
+                Search Database (⌘K) →
+              </button>
             </div>
-
-            <button
-              onClick={() => setIsCommandPaletteOpen(true)}
-              className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#D4A373] mt-4 font-mono hover:underline self-start"
-            >
-              Search Database (⌘K) →
-            </button>
           </div>
-        </div>
+        )}
 
         {/* Tab 1: Surname Portals */}
         {activeTab === 'surnames' && (
@@ -1154,16 +1101,6 @@ export default function HomeScreen() {
             )}
           </div>
 
-          {/* Tab 10: DNA Cousin Browser */}
-          <div
-            className={activeTab === 'dna_matches' ? 'block' : 'hidden'}
-            style={{ contentVisibility: activeTab === 'dna_matches' ? 'visible' : 'hidden' }}
-          >
-            {visitedTabs.has('dna_matches') && (
-              <DNAMatchExplorer onSelectPerson={(pid) => setSelectedPersonId(pid)} />
-            )}
-          </div>
-
           {/* Tab 11: Oral History Vault */}
           <div
             className={activeTab === 'oral_history' ? 'block' : 'hidden'}
@@ -1181,16 +1118,6 @@ export default function HomeScreen() {
           >
             {visitedTabs.has('sources') && (
               <SourcesCatalog onOpenRecord={handleOpenRecord} />
-            )}
-          </div>
-
-          {/* Tab 8: Audit Review */}
-          <div
-            className={activeTab === 'audit' ? 'block' : 'hidden'}
-            style={{ contentVisibility: activeTab === 'audit' ? 'visible' : 'hidden' }}
-          >
-            {visitedTabs.has('audit') && (
-              <AuditResolutionPanel />
             )}
           </div>
         </Suspense>
