@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
+import { fetchCachedJson } from '../utils/apiCache';
 import { 
   MapPin, 
   Compass, 
@@ -363,19 +364,27 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
 
   // Map coordinate projection to SVG viewBox (0,0 to 1000, 800) based on calibrated Delmarva Map v2
   const project = (lat, lon) => {
-    if (!lat || !lon) return { x: 0, y: 0 };
-    const absLon = Math.abs(lon);
+    const latNum = parseFloat(lat);
+    const lonNum = parseFloat(lon);
+    if (isNaN(latNum) || isNaN(lonNum)) return { x: 0, y: 0 };
+    const absLon = Math.abs(lonNum);
     
     // Longitude maps -76.6 to -74.6 => image x: 80 to 940 px
     const imgX = 80 + ((76.6 - absLon) / (76.6 - 74.6)) * (940 - 80);
     
     // Latitude maps 39.85 to 37.90 => image y: 120 to 780 px
-    const imgY = 120 + ((39.85 - lat) / (39.85 - 37.90)) * (780 - 120);
+    const imgY = 120 + ((39.85 - latNum) / (39.85 - 37.90)) * (780 - 120);
     
     // Scale 1200 x 896 image coords to 1000 x 800 SVG viewBox
     const x = (imgX / 1200.0) * 1000.0;
     const y = (imgY / 896.0) * 800.0;
     return { x, y };
+  };
+
+  // Helper for safe image paths
+  const getImagePath = (pathStr) => {
+    if (!pathStr || typeof pathStr !== 'string') return '/logo.webp';
+    return pathStr.startsWith('/') ? pathStr : '/' + pathStr;
   };
 
   // Node lookup for drawing paths
@@ -389,14 +398,17 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
 
   // Filtered cemeteries based on search
   const filteredCemeteries = useMemo(() => {
-    if (!searchQuery.trim()) return cemeteries;
+    if (!cemeteries || !Array.isArray(cemeteries)) return [];
+    if (!searchQuery || !searchQuery.trim()) return cemeteries;
     const q = searchQuery.toLowerCase();
-    return cemeteries.filter(c => 
-      c.name.toLowerCase().includes(q) ||
-      c.locality.toLowerCase().includes(q) ||
-      c.county.toLowerCase().includes(q) ||
-      c.affiliation.toLowerCase().includes(q)
-    );
+    return cemeteries.filter(c => {
+      if (!c) return false;
+      const name = (c.name || '').toLowerCase();
+      const locality = (c.locality || '').toLowerCase();
+      const county = (c.county || '').toLowerCase();
+      const affiliation = (c.affiliation || '').toLowerCase();
+      return name.includes(q) || locality.includes(q) || county.includes(q) || affiliation.includes(q);
+    });
   }, [cemeteries, searchQuery]);
 
   return (
@@ -684,16 +696,19 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
 
               {/* PROMINENT HIGH-VISIBILITY CEMETERY PINS (Plotted by exact GPS Coordinates) */}
               <g className="cemetery-markers">
-                {filteredCemeteries.map(cem => {
+                {filteredCemeteries.map((cem, idx) => {
+                  if (!cem) return null;
                   const lat = cem.latitude || cem.lat;
                   const lon = cem.longitude || cem.lon;
                   if (!lat || !lon) return null;
                   const pt = project(lat, lon);
                   const isSelected = selectedItem?.cemetery_id === cem.cemetery_id;
+                  const cName = cem.name || 'Cemetery Plot';
+                  const cLen = cName.length;
 
                   return (
                     <g
-                      key={cem.cemetery_id}
+                      key={cem.cemetery_id || cem.name || idx}
                       transform={`translate(${pt.x}, ${pt.y})`}
                       className="cursor-pointer group"
                       onClick={(e) => { e.stopPropagation(); setSelectedItem(cem); }}
@@ -726,9 +741,9 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
                       {/* Always-Visible High-Contrast Cemetery Name Pill Badge */}
                       <g transform="translate(0, -14)">
                         <rect
-                          x={-cem.name.length * 3.4 - 8}
+                          x={-cLen * 3.4 - 8}
                           y="-15"
-                          width={cem.name.length * 6.8 + 16}
+                          width={cLen * 6.8 + 16}
                           height="19"
                           rx="5"
                           fill="#141210"
@@ -746,7 +761,7 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
                           fontFamily="sans-serif"
                           fontWeight="bold"
                         >
-                          🪦 {cem.name}
+                          🪦 {cName}
                         </text>
                       </g>
                     </g>
@@ -948,13 +963,13 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
                         className="group relative aspect-square bg-[#0F141A] rounded-xl border border-[#2A3644] overflow-hidden cursor-pointer hover:border-[#C87D53] transition-all"
                       >
                         <img
-                          src={t.local_image_path.startsWith('/') ? t.local_image_path : '/' + t.local_image_path}
-                          alt={t.subject_names || 'Tombstone'}
+                          src={getImagePath(t?.local_image_path || t?.photo_url || t?.url)}
+                          alt={t?.subject_names || 'Tombstone'}
                           className="w-full h-full object-cover group-hover:scale-110 transition-transform"
                         />
                         <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-1.5">
                           <span className="text-[9px] font-mono text-white truncate">
-                            {t.subject_names || 'Tombstone'}
+                            {t?.subject_names || 'Tombstone'}
                           </span>
                         </div>
                       </div>
@@ -977,14 +992,14 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
               <div className="pt-4 border-t border-[#2A3644] text-left space-y-2 text-xs font-mono text-[#9EA9B6]">
                 <p className="text-[#C87D53] font-bold">Quick Cemetery Access:</p>
                 <div className="space-y-1 max-h-56 overflow-y-auto custom-scrollbar pr-1">
-                  {cemeteries.slice(0, 7).map(c => (
+                  {cemeteries.slice(0, 7).map((c, idx) => (
                     <button
-                      key={c.cemetery_id}
+                      key={c.cemetery_id || c.name || idx}
                       onClick={() => setSelectedItem(c)}
-                      className="w-full text-left p-2 rounded-lg bg-[#0F141A] hover:bg-[#202936] hover:text-[#F3EBE3] border border-[#2A3644] flex items-center justify-between transition-all"
+                      className="w-full text-left p-2 rounded-lg bg-[#0F141A] hover:bg-[#202936] hover:text-[#F3EBE3] border border-[#2A3644] flex items-center justify-between transition-all cursor-pointer"
                     >
-                      <span className="truncate">{c.name}</span>
-                      <span className="text-[10px] text-[#C87D53] font-bold shrink-0">{c.tombstone_count} 🪦</span>
+                      <span className="truncate">{c.name || 'Cemetery'}</span>
+                      <span className="text-[10px] text-[#C87D53] font-bold shrink-0">{c.tombstone_count || 0} 🪦</span>
                     </button>
                   ))}
                 </div>
@@ -1011,8 +1026,8 @@ export default function HistoricalMigrationMap({ onSelectPerson }) {
               <X className="w-4 h-4" />
             </button>
             <img
-              src={lightboxTombstone.local_image_path.startsWith('/') ? lightboxTombstone.local_image_path : '/' + lightboxTombstone.local_image_path}
-              alt={lightboxTombstone.subject_names}
+              src={getImagePath(lightboxTombstone?.local_image_path || lightboxTombstone?.photo_url || lightboxTombstone?.url)}
+              alt={lightboxTombstone?.subject_names || 'Preserved Tombstone Artifact'}
               className="w-full max-h-[70vh] object-contain rounded-2xl mb-4 bg-black"
             />
             <h4 className="text-lg font-bold font-serif-header text-[#F3EBE3]">
