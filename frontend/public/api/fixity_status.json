@@ -1,10 +1,10 @@
 {
   "standard": "OAIS ISO 14721 / RFC 8493 BagIt 1.0",
   "latest_audit": {
-    "audit_id": 9,
-    "audit_timestamp": "2026-09-27T20:45:10.152459",
+    "audit_id": 13,
+    "audit_timestamp": "2026-09-27T20:53:25.006499",
     "total_files_checked": 3047,
-    "total_bytes_checked": 791708967,
+    "total_bytes_checked": 791926055,
     "passed_count": 3047,
     "failed_count": 0,
     "missing_count": 0,
@@ -12,6 +12,50 @@
     "details_json": "{\"tag_errors\": [], \"failures\": [], \"total_failures\": 0}"
   },
   "recent_audits": [
+    {
+      "audit_id": 13,
+      "audit_timestamp": "2026-09-27T20:53:25.006499",
+      "total_files_checked": 3047,
+      "total_bytes_checked": 791926055,
+      "passed_count": 3047,
+      "failed_count": 0,
+      "missing_count": 0,
+      "status": "PASSED",
+      "details_json": "{\"tag_errors\": [], \"failures\": [], \"total_failures\": 0}"
+    },
+    {
+      "audit_id": 12,
+      "audit_timestamp": "2026-09-27T20:53:22.729369",
+      "total_files_checked": 3047,
+      "total_bytes_checked": 791926055,
+      "passed_count": 3047,
+      "failed_count": 0,
+      "missing_count": 0,
+      "status": "INITIALIZED",
+      "details_json": "{\"timestamp\": \"2026-09-27T20:53:22.729369\", \"action\": \"BagIt 1.0 Manifest Generated\", \"bag_size\": \"755.24 MB\", \"payload_oxum\": \"791926055.3047\", \"total_files\": 3047, \"total_bytes\": 791926055, \"status\": \"INITIALIZED\"}"
+    },
+    {
+      "audit_id": 11,
+      "audit_timestamp": "2026-09-27T20:52:04.778058",
+      "total_files_checked": 3047,
+      "total_bytes_checked": 791790887,
+      "passed_count": 3047,
+      "failed_count": 0,
+      "missing_count": 0,
+      "status": "PASSED",
+      "details_json": "{\"tag_errors\": [], \"failures\": [], \"total_failures\": 0}"
+    },
+    {
+      "audit_id": 10,
+      "audit_timestamp": "2026-09-27T20:52:02.446944",
+      "total_files_checked": 3047,
+      "total_bytes_checked": 791790887,
+      "passed_count": 3047,
+      "failed_count": 0,
+      "missing_count": 0,
+      "status": "INITIALIZED",
+      "details_json": "{\"timestamp\": \"2026-09-27T20:52:02.446944\", \"action\": \"BagIt 1.0 Manifest Generated\", \"bag_size\": \"755.11 MB\", \"payload_oxum\": \"791790887.3047\", \"total_files\": 3047, \"total_bytes\": 791790887, \"status\": \"INITIALIZED\"}"
+    },
     {
       "audit_id": 9,
       "audit_timestamp": "2026-09-27T20:45:10.152459",
@@ -77,46 +121,13 @@
       "missing_count": 0,
       "status": "PASSED",
       "details_json": "{\"tag_errors\": [], \"failures\": [], \"total_failures\": 0}"
-    },
-    {
-      "audit_id": 3,
-      "audit_timestamp": "2026-09-27T20:28:38.087675",
-      "total_files_checked": 3047,
-      "total_bytes_checked": 791483687,
-      "passed_count": 3047,
-      "failed_count": 0,
-      "missing_count": 0,
-      "status": "INITIALIZED",
-      "details_json": "{\"timestamp\": \"2026-09-27T20:28:38.087675\", \"action\": \"BagIt 1.0 Manifest Generated\", \"bag_size\": \"754.82 MB\", \"payload_oxum\": \"791483687.3047\", \"total_files\": 3047, \"total_bytes\": 791483687, \"status\": \"INITIALIZED\"}"
-    },
-    {
-      "audit_id": 2,
-      "audit_timestamp": "2026-09-27T20:28:06.559596",
-      "total_files_checked": 3047,
-      "total_bytes_checked": 814495015,
-      "passed_count": 3046,
-      "failed_count": 1,
-      "missing_count": 0,
-      "status": "FAILED",
-      "details_json": "{\"tag_errors\": [], \"failures\": [{\"file\": \"genealogy_preservation.db\", \"issue\": \"CORRUPT_OR_MODIFIED\", \"expected\": \"bc16397a621acae2430ab15ce3b3d0b9fdb635d7fddb433011fe4f158f6bd83a\", \"actual\": \"a010c2ddb6982ff55101af4484cb4266384b1c5232d3823e2160855b3d46a265\"}], \"total_failures\": 1}"
-    },
-    {
-      "audit_id": 1,
-      "audit_timestamp": "2026-09-27T20:28:00.339981",
-      "total_files_checked": 3047,
-      "total_bytes_checked": 814495015,
-      "passed_count": 3047,
-      "failed_count": 0,
-      "missing_count": 0,
-      "status": "INITIALIZED",
-      "details_json": "{\"action\": \"BagIt 1.0 Manifest Generated\", \"bag_size\": \"776.76 MB\", \"payload_oxum\": \"814495015.3047\", \"manifest_file\": \"manifest-sha256.txt\"}"
     }
   ],
   "bag_info": {
     "Bag-Software-Agent": "Antigravity-OAIS-Preservation-Engine/2.0",
     "Bagging-Date": "2026-09-27",
-    "Payload-Oxum": "791708967.3047",
-    "Bag-Size": "755.03 MB",
+    "Payload-Oxum": "791926055.3047",
+    "Bag-Size": "755.24 MB",
     "Source-Organization": "Lynn Jackson Delmarva Family Archive / Written In The Genome",
     "Organization-Address": "Millsboro, Sussex County, Delaware",
     "Contact-Name": "Jequan",
