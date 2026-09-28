@@ -8,6 +8,7 @@ import {
 import CommandPalette from '../CommandPalette';
 import CitationModal from '../CitationModal';
 import AncestorFaceMatcherModal from '../AncestorFaceMatcherModal';
+import ArchivalIntegrityModal from '../ArchivalIntegrityModal';
 import { fetchCachedJson } from '../../utils/apiCache';
 
 const NAV_ITEMS = [
@@ -28,6 +29,7 @@ export default function AppLayout() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isCitationOpen, setIsCitationOpen] = useState(false);
   const [isFaceMatcherOpen, setIsFaceMatcherOpen] = useState(false);
+  const [isIntegrityOpen, setIsIntegrityOpen] = useState(false);
   const [isParchmentMode, setIsParchmentMode] = useState(() => {
     return localStorage.getItem('archive_theme') === 'parchment';
   });
@@ -172,6 +174,15 @@ export default function AppLayout() {
             >
               <Bookmark className="w-3.5 h-3.5 text-[#C68B59]" />
               <span>Cite Archive</span>
+            </button>
+
+            <button
+              onClick={() => setIsIntegrityOpen(true)}
+              className="hidden lg:flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#1C1A17] border border-[#332D27] hover:border-emerald-500/60 text-xs font-mono text-emerald-300 hover:text-white transition-all shadow-sm"
+              title="Digital Preservation & Fixity (OAIS / BagIt 1.0)"
+            >
+              <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+              <span>OAIS Fixity</span>
             </button>
 
             <button
@@ -364,6 +375,14 @@ export default function AppLayout() {
             >
               Citation Guide
             </button>
+            <button 
+              onClick={() => setIsIntegrityOpen(true)}
+              className="inline-flex items-center gap-1.5 text-emerald-400 hover:text-emerald-300 transition-colors"
+              title="OAIS Digital Preservation Fixity (RFC 8493)"
+            >
+              <ShieldCheck className="w-3.5 h-3.5" />
+              <span>OAIS Fixity (100%)</span>
+            </button>
           </div>
         </div>
       </footer>
@@ -398,6 +417,12 @@ export default function AppLayout() {
       <AncestorFaceMatcherModal
         isOpen={isFaceMatcherOpen}
         onClose={() => setIsFaceMatcherOpen(false)}
+      />
+
+      {/* DIGITAL PRESERVATION & FIXITY MODAL */}
+      <ArchivalIntegrityModal
+        isOpen={isIntegrityOpen}
+        onClose={() => setIsIntegrityOpen(false)}
       />
     </div>
   );

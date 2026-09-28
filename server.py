@@ -22,6 +22,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 import base64
 import io
+import subprocess
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "preservation_output")
@@ -1533,6 +1534,65 @@ async def match_face_endpoint(
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Facial inference failed: {str(e)}")
+
+@app.get("/api/fixity/status")
+def get_fixity_status():
+    conn = get_db()
+    c = conn.cursor()
+    c.execute("""
+        CREATE TABLE IF NOT EXISTS fixity_audit_log (
+            audit_id INTEGER PRIMARY KEY AUTOINCREMENT,
+            audit_timestamp TEXT NOT NULL,
+            total_files_checked INTEGER NOT NULL,
+            total_bytes_checked INTEGER NOT NULL,
+            passed_count INTEGER NOT NULL,
+            failed_count INTEGER NOT NULL,
+            missing_count INTEGER NOT NULL,
+            status TEXT NOT NULL,
+            details_json TEXT
+        )
+    """)
+    c.execute("""
+        SELECT audit_id, audit_timestamp, total_files_checked, total_bytes_checked,
+               passed_count, failed_count, missing_count, status, details_json
+        FROM fixity_audit_log ORDER BY audit_id DESC LIMIT 10
+    """)
+    rows = [dict(r) for r in c.fetchall()]
+    conn.close()
+
+    bag_info = {}
+    bag_info_path = os.path.join(OUTPUT_DIR, "bag-info.txt")
+    if os.path.exists(bag_info_path):
+        with open(bag_info_path, "r", encoding="utf-8") as f:
+            for line in f:
+                if ":" in line:
+                    k, v = line.split(":", 1)
+                    bag_info[k.strip()] = v.strip()
+
+    return {
+        "standard": "OAIS ISO 14721 / RFC 8493 BagIt 1.0",
+        "latest_audit": rows[0] if rows else None,
+        "recent_audits": rows,
+        "bag_info": bag_info
+    }
+
+@app.post("/api/fixity/verify")
+def trigger_fixity_verification():
+    script_path = os.path.join(SCRIPT_DIR, "scripts", "verify_bagit_fixity.py")
+    try:
+        proc = subprocess.run(["python3", script_path], capture_output=True, text=True, check=True)
+        return {
+            "status": "success",
+            "message": "OAIS fixity verification completed successfully",
+            "output": proc.stdout
+        }
+    except subprocess.CalledProcessError as e:
+        return {
+            "status": "error",
+            "message": "Fixity verification detected discrepancies",
+            "output": e.stdout,
+            "error": e.stderr
+        }
 
 if __name__ == "__main__":
     import uvicorn
