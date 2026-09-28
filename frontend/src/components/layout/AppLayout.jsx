@@ -3,10 +3,11 @@ import { Outlet, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { 
   Users, GitFork, MapPin, FileText, HeartHandshake, 
   Search, BookOpen, Volume2, Moon, Sun, Menu, X, 
-  Sparkles, ShieldCheck, Bookmark, ChevronRight, Home
+  Sparkles, ShieldCheck, Bookmark, ChevronRight, Home, ScanFace
 } from 'lucide-react';
 import CommandPalette from '../CommandPalette';
 import CitationModal from '../CitationModal';
+import AncestorFaceMatcherModal from '../AncestorFaceMatcherModal';
 import { fetchCachedJson } from '../../utils/apiCache';
 
 const NAV_ITEMS = [
@@ -26,6 +27,7 @@ export default function AppLayout() {
   const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isCitationOpen, setIsCitationOpen] = useState(false);
+  const [isFaceMatcherOpen, setIsFaceMatcherOpen] = useState(false);
   const [isParchmentMode, setIsParchmentMode] = useState(() => {
     return localStorage.getItem('archive_theme') === 'parchment';
   });
@@ -152,6 +154,15 @@ export default function AppLayout() {
               aria-label="Search Archive"
             >
               <Search className="w-4 h-4" />
+            </button>
+
+            <button
+              onClick={() => setIsFaceMatcherOpen(true)}
+              className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#1C1A17] border border-[#332D27] hover:border-cyan-500/60 text-xs font-mono text-cyan-300 hover:text-white transition-all shadow-sm"
+              title="Biometric Facial Matcher (ONNX)"
+            >
+              <ScanFace className="w-3.5 h-3.5 text-cyan-400" />
+              <span>Face Matcher</span>
             </button>
 
             <button
@@ -382,6 +393,12 @@ export default function AppLayout() {
           type="person"
         />
       )}
+
+      {/* GLOBAL BIOMETRIC FACE MATCHER MODAL */}
+      <AncestorFaceMatcherModal
+        isOpen={isFaceMatcherOpen}
+        onClose={() => setIsFaceMatcherOpen(false)}
+      />
     </div>
   );
 }

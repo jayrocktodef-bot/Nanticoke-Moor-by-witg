@@ -16,9 +16,12 @@ import os
 import sqlite3
 import re
 import json
-from fastapi import FastAPI, Query, HTTPException, Response
+from typing import Optional
+from fastapi import FastAPI, Query, HTTPException, Response, File, UploadFile, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+import base64
+import io
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "preservation_output")
@@ -1418,6 +1421,118 @@ def get_person_timeline(person_id: str):
         "timeline_events_count": len(timeline),
         "events": timeline
     }
+
+_face_onnx_session = None
+_face_reference_bank = None
+
+def get_face_session():
+    global _face_onnx_session
+    if _face_onnx_session is None:
+        try:
+            import onnxruntime as ort
+            model_path = os.path.join(SCRIPT_DIR, "models", "ancestor_face_embedder.onnx")
+            if not os.path.exists(model_path):
+                model_path = os.path.join(SCRIPT_DIR, "frontend", "public", "models", "ancestor_face_embedder.onnx")
+            if os.path.exists(model_path):
+                _face_onnx_session = ort.InferenceSession(model_path, providers=['CPUExecutionProvider'])
+        except Exception as e:
+            print("Failed to initialize ONNX session:", e)
+    return _face_onnx_session
+
+def get_reference_bank():
+    global _face_reference_bank
+    if _face_reference_bank is None:
+        path = os.path.join(STATIC_API_DIR, "face_reference_bank.json")
+        if not os.path.exists(path):
+            path = os.path.join(PUBLIC_DIR, "api", "face_reference_bank.json")
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                _face_reference_bank = json.load(f)
+    return _face_reference_bank or []
+
+@app.get("/api/face_reference_bank.json")
+def get_face_reference_bank_endpoint():
+    bank = get_reference_bank()
+    if bank:
+        return bank
+    raise HTTPException(status_code=404, detail="Face reference bank not found")
+
+@app.post("/api/face/match")
+async def match_face_endpoint(
+    file: Optional[UploadFile] = File(None),
+    base64_image: Optional[str] = Form(None),
+    top_k: int = Form(6)
+):
+    """
+    Biometric face match endpoint:
+    Runs the ONNX MobileFaceNet embedding model against the uploaded face image
+    and computes cosine similarity against the 956 enrolled archive portraits.
+    """
+    session = get_face_session()
+    if session is None:
+        raise HTTPException(status_code=503, detail="ONNX facial biometrics session unavailable")
+
+    bank = get_reference_bank()
+    if not bank:
+        raise HTTPException(status_code=404, detail="No enrolled face reference vectors found")
+
+    image_bytes = None
+    if file and file.filename:
+        image_bytes = await file.read()
+    elif base64_image:
+        if "," in base64_image:
+            base64_image = base64_image.split(",", 1)[1]
+        image_bytes = base64.b64decode(base64_image)
+
+    if not image_bytes:
+        raise HTTPException(status_code=400, detail="No image file or base64 data provided")
+
+    try:
+        from PIL import Image
+        import numpy as np
+
+        with Image.open(io.BytesIO(image_bytes)) as img:
+            img = img.convert("RGB")
+            w, h = img.size
+            crop_size = min(w, h)
+            left = (w - crop_size) // 2
+            top = max(0, int((h - crop_size) * 0.25))
+            cropped = img.crop((left, top, left + crop_size, top + crop_size)).resize((112, 112), Image.Resampling.LANCZOS)
+            arr = (np.array(cropped, dtype=np.float32) - 127.5) / 128.0
+            tensor = np.expand_dims(np.transpose(arr, (2, 0, 1)), 0)
+
+        input_name = session.get_inputs()[0].name
+        out = session.run(None, {input_name: tensor})[0][0]
+        norm = np.linalg.norm(out)
+        query_vec = out / (norm if norm > 0 else 1.0)
+
+        results = []
+        for item in bank:
+            ref_vec = np.array(item["vector"], dtype=np.float32)
+            ref_norm = np.linalg.norm(ref_vec)
+            if ref_norm > 0:
+                ref_vec = ref_vec / ref_norm
+            sim = float(np.dot(query_vec, ref_vec))
+            results.append({
+                "person_id": item["person_id"],
+                "name": item["name"],
+                "photo_id": item["photo_id"],
+                "image_path": item["image_path"],
+                "document_type": item.get("document_type", "portrait"),
+                "similarity_score": round(sim, 4),
+                "similarity_percentage": round(max(0.0, sim) * 100, 1)
+            })
+
+        results.sort(key=lambda x: x["similarity_score"], reverse=True)
+        top_matches = results[:top_k]
+
+        return {
+            "status": "success",
+            "matches_count": len(top_matches),
+            "top_matches": top_matches
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Facial inference failed: {str(e)}")
 
 if __name__ == "__main__":
     import uvicorn
