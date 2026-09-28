@@ -72,7 +72,15 @@ def get_stats():
     photos = c.fetchone()[0]
     c.execute("SELECT COUNT(*) FROM obituaries")
     obituaries = c.fetchone()[0]
-    
+    c.execute("SELECT COUNT(*) FROM facts")
+    facts_count = c.fetchone()[0]
+    c.execute("SELECT COUNT(*) FROM citations")
+    citations_count = c.fetchone()[0]
+    c.execute("SELECT COUNT(*) FROM sources")
+    sources_count = c.fetchone()[0]
+    c.execute("SELECT COUNT(*) FROM facts WHERE fact_id NOT IN (SELECT fact_id FROM citations)")
+    uncited_facts = c.fetchone()[0]
+
     # Dataset breakdown by source
     c.execute("SELECT dataset_source, COUNT(*) FROM persons GROUP BY dataset_source")
     person_sources = {row[0]: row[1] for row in c.fetchall()}
@@ -85,6 +93,12 @@ def get_stats():
         "relationships": relationships,
         "photos": photos,
         "obituaries": obituaries,
+        "facts": facts_count,
+        "citations": citations_count,
+        "verified_sources": sources_count,
+        "uncited_facts": uncited_facts,
+        "citation_coverage_pct": round(((facts_count - uncited_facts) / max(1, facts_count)) * 100, 2),
+        "gps_level": 3,
         "sources": {
             "lynncjackson": {
                 "name": "Lynn C. Jackson Family Archive",

@@ -1,10 +1,10 @@
 {
   "standard": "OAIS ISO 14721 / RFC 8493 BagIt 1.0",
   "latest_audit": {
-    "audit_id": 7,
-    "audit_timestamp": "2026-09-27T20:32:12.686078",
+    "audit_id": 9,
+    "audit_timestamp": "2026-09-27T20:45:10.152459",
     "total_files_checked": 3047,
-    "total_bytes_checked": 791483687,
+    "total_bytes_checked": 791708967,
     "passed_count": 3047,
     "failed_count": 0,
     "missing_count": 0,
@@ -12,6 +12,28 @@
     "details_json": "{\"tag_errors\": [], \"failures\": [], \"total_failures\": 0}"
   },
   "recent_audits": [
+    {
+      "audit_id": 9,
+      "audit_timestamp": "2026-09-27T20:45:10.152459",
+      "total_files_checked": 3047,
+      "total_bytes_checked": 791708967,
+      "passed_count": 3047,
+      "failed_count": 0,
+      "missing_count": 0,
+      "status": "PASSED",
+      "details_json": "{\"tag_errors\": [], \"failures\": [], \"total_failures\": 0}"
+    },
+    {
+      "audit_id": 8,
+      "audit_timestamp": "2026-09-27T20:45:07.886568",
+      "total_files_checked": 3047,
+      "total_bytes_checked": 791708967,
+      "passed_count": 3047,
+      "failed_count": 0,
+      "missing_count": 0,
+      "status": "INITIALIZED",
+      "details_json": "{\"timestamp\": \"2026-09-27T20:45:07.886568\", \"action\": \"BagIt 1.0 Manifest Generated\", \"bag_size\": \"755.03 MB\", \"payload_oxum\": \"791708967.3047\", \"total_files\": 3047, \"total_bytes\": 791708967, \"status\": \"INITIALIZED\"}"
+    },
     {
       "audit_id": 7,
       "audit_timestamp": "2026-09-27T20:32:12.686078",
@@ -93,8 +115,8 @@
   "bag_info": {
     "Bag-Software-Agent": "Antigravity-OAIS-Preservation-Engine/2.0",
     "Bagging-Date": "2026-09-27",
-    "Payload-Oxum": "791483687.3047",
-    "Bag-Size": "754.82 MB",
+    "Payload-Oxum": "791708967.3047",
+    "Bag-Size": "755.03 MB",
     "Source-Organization": "Lynn Jackson Delmarva Family Archive / Written In The Genome",
     "Organization-Address": "Millsboro, Sussex County, Delaware",
     "Contact-Name": "Jequan",
