@@ -1331,6 +1331,77 @@ def get_settlements():
             return json.load(f)
     return {"total": 0, "settlements": []}
 
+@app.get("/api/places")
+@app.get("/api/places.json")
+def get_places(place_type: Optional[str] = None):
+    """Returns canonical Delmarva Historical Gazetteer places with fact counts."""
+    json_path = os.path.join(SCRIPT_DIR, "frontend", "public", "api", "places.json")
+    if os.path.exists(json_path) and not place_type:
+        with open(json_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    conn = get_db()
+    c = conn.cursor()
+    if place_type:
+        c.execute("""
+            SELECT p.*, COUNT(f.fact_id) as fact_count
+            FROM places p
+            LEFT JOIN facts f ON p.place_id = f.place_id
+            WHERE p.place_type = ?
+            GROUP BY p.place_id
+            ORDER BY p.name ASC
+        """, (place_type,))
+    else:
+        c.execute("""
+            SELECT p.*, COUNT(f.fact_id) as fact_count
+            FROM places p
+            LEFT JOIN facts f ON p.place_id = f.place_id
+            GROUP BY p.place_id
+            ORDER BY p.place_type, p.name ASC
+        """)
+    places = [dict(r) for r in c.fetchall()]
+    conn.close()
+    return {"total": len(places), "places": places}
+
+@app.get("/api/places/{place_id}")
+def get_place_detail(place_id: int):
+    """Returns place details, parent place, child places, and connected ancestors."""
+    conn = get_db()
+    c = conn.cursor()
+    c.execute("SELECT * FROM places WHERE place_id = ?", (place_id,))
+    place = c.fetchone()
+    if not place:
+        conn.close()
+        raise HTTPException(status_code=404, detail="Place not found")
+
+    place_dict = dict(place)
+
+    # Parent place
+    parent = None
+    if place["parent_place_id"]:
+        c.execute("SELECT place_id, name, standardized_name, place_type FROM places WHERE place_id = ?", (place["parent_place_id"],))
+        p_row = c.fetchone()
+        if p_row:
+            parent = dict(p_row)
+    place_dict["parent"] = parent
+
+    # Child places
+    c.execute("SELECT place_id, name, standardized_name, place_type, latitude, longitude FROM places WHERE parent_place_id = ?", (place_id,))
+    place_dict["children"] = [dict(r) for r in c.fetchall()]
+
+    # Connected ancestors via facts
+    c.execute("""
+        SELECT DISTINCT p.person_id, p.name, p.birth_info, p.death_info, f.fact_type, f.date_string
+        FROM facts f
+        JOIN persons p ON f.person_id = p.person_id
+        WHERE f.place_id = ?
+        LIMIT 50
+    """, (place_id,))
+    place_dict["associated_ancestors"] = [dict(r) for r in c.fetchall()]
+
+    conn.close()
+    return place_dict
+
 @app.get("/api/family-interconnections.json")
 def get_family_interconnections():
     """Returns family interconnections matrix data."""

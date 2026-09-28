@@ -755,6 +755,17 @@ def export_all():
         json.dump({"total": len(cem_list), "cemeteries": cem_list}, f, indent=2)
 
     c.execute("""
+        SELECT p.*, COUNT(f.fact_id) as fact_count
+        FROM places p
+        LEFT JOIN facts f ON p.place_id = f.place_id
+        GROUP BY p.place_id
+        ORDER BY p.place_type, p.name ASC
+    """)
+    places_list = [dict(r) for r in c.fetchall()]
+    with open(os.path.join(API_DIR, 'places.json'), 'w') as f:
+        json.dump({"total": len(places_list), "places": places_list}, f, indent=2)
+
+    c.execute("""
         SELECT doc_type, source_id, title,
                substr(full_text, 1, 150) as snippet, metadata
         FROM fts_genealogy_corpus
