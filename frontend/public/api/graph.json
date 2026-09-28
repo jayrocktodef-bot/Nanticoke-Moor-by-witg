@@ -1267,6 +1267,12 @@
       "source_page": "wrightp3.htm"
     },
     {
+      "id": 6156,
+      "label": "Ellen Perkins Jackson",
+      "group": "Jackson",
+      "source_page": "JacksonClarence.htm"
+    },
+    {
       "id": 766,
       "label": "Clinton Harmon",
       "group": "Harmon",
@@ -1577,6 +1583,18 @@
       "label": "Ebenezer Miller",
       "group": "Miller",
       "source_page": "Davis Family Tree.ged"
+    },
+    {
+      "id": 2266,
+      "label": "John B Hodge",
+      "group": "Hodge",
+      "source_page": "Probate.htm"
+    },
+    {
+      "id": 2268,
+      "label": "Fanny Jackson",
+      "group": "Jackson",
+      "source_page": "Probate.htm"
     },
     {
       "id": 2335,
@@ -2081,6 +2099,24 @@
       "label": "Martha E Thompson",
       "group": "Thompson",
       "source_page": "Davis Family Tree.ged"
+    },
+    {
+      "id": 7356,
+      "label": "Frederick Seeney",
+      "group": "Seeney",
+      "source_page": "ReedThomas&MaryMosley.htm"
+    },
+    {
+      "id": 7401,
+      "label": "Hester Dean Seeney",
+      "group": "Seeney",
+      "source_page": "SeeneyFrederick&HesterFamily.htm"
+    },
+    {
+      "id": 7813,
+      "label": "Sarah Ann Harmon Thompson",
+      "group": "Thompson",
+      "source_page": "ThompsonAsher.htm"
     },
     {
       "id": 7833,
@@ -19467,6 +19503,86 @@
       "type": "child_of",
       "evidence": "Confirmed in 1950 US Federal Census as Granddaughter of household head (Sussex, Delaware, USA)",
       "certainty": "census_confirmed"
+    },
+    {
+      "from": 765,
+      "to": 6156,
+      "label": "spouse",
+      "type": "spouse",
+      "evidence": "Verified married couple Clarence Jackson & Ellen Perkins Jackson from photo.htm",
+      "certainty": "confirmed"
+    },
+    {
+      "from": 7356,
+      "to": 7401,
+      "label": "spouse",
+      "type": "spouse",
+      "evidence": "Verified married couple Frederick Seeney & Hester Dean Seeney from SeeneyFrederick&HesterFamily.htm",
+      "certainty": "confirmed"
+    },
+    {
+      "from": 2266,
+      "to": 2268,
+      "label": "associated",
+      "type": "associated",
+      "evidence": "Documented together in Probate.htm record",
+      "certainty": "confirmed"
+    },
+    {
+      "from": 8679,
+      "to": 7813,
+      "label": "spouse",
+      "type": "spouse",
+      "evidence": "Documented parents of Asbury, Bartholomew, and Asher Thompson",
+      "certainty": "confirmed"
+    },
+    {
+      "from": 8679,
+      "to": 1681,
+      "label": "parent_of",
+      "type": "parent_of",
+      "evidence": "Buried at Indian Mission Cemetery; son of John W. Thompson",
+      "certainty": "confirmed"
+    },
+    {
+      "from": 7813,
+      "to": 1681,
+      "label": "parent_of",
+      "type": "parent_of",
+      "evidence": "Buried at Indian Mission Cemetery; son of Sarah Ann Harmon Thompson",
+      "certainty": "confirmed"
+    },
+    {
+      "from": 8679,
+      "to": 1682,
+      "label": "parent_of",
+      "type": "parent_of",
+      "evidence": "Buried at Indian Mission Cemetery; son of John W. Thompson",
+      "certainty": "confirmed"
+    },
+    {
+      "from": 7813,
+      "to": 1682,
+      "label": "parent_of",
+      "type": "parent_of",
+      "evidence": "Buried at Indian Mission Cemetery; son of Sarah Ann Harmon Thompson",
+      "certainty": "confirmed"
+    },
+    {
+      "from": 8679,
+      "to": 1683,
+      "label": "parent_of",
+      "type": "parent_of",
+      "evidence": "Buried at Indian Mission Cemetery; son of John W. Thompson",
+      "certainty": "confirmed"
+    },
+    {
+      "from": 7813,
+      "to": 1683,
+      "label": "parent_of",
+      "type": "parent_of",
+      "evidence": "Buried at Indian Mission Cemetery; son of Sarah Ann Harmon Thompson",
+      "certainty": "confirmed"
     }
   ]
 }

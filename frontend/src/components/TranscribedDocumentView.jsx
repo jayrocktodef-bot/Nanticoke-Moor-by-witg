@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { createPortal } from 'react-dom';
 import { 
   X, Copy, Check, Printer, Volume2, VolumeX, Search, 
-  FileText, ExternalLink, Bookmark, Sliders, Eye, ArrowLeft,
+  FileText, ExternalLink, Bookmark, Eye, ArrowLeft,
   FileDown, Download, BookOpen, User, ArrowRight
 } from 'lucide-react';
 import { jsPDF } from 'jspdf';
@@ -94,7 +94,7 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
         doc.setFontSize(9);
         doc.setTextColor(30, 30, 30);
 
-        const cleanLine = line.replace(/[^\x00-\x7F]/g, ' ');
+        const cleanLine = line.replace(/[^\x20-\x7E\t\n\r]/g, ' ');
         const wrapped = doc.splitTextToSize(cleanLine, contentWidth - 10);
         doc.text(wrapped, margin + 8, yPos);
         yPos += (wrapped.length * 4.2) + 1;
@@ -118,7 +118,7 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
         doc.setFont('helvetica', 'normal');
         doc.setFontSize(7.5);
         doc.setTextColor(60, 60, 60);
-        const cleanCite = data.citation.replace(/[^\x00-\x7F]/g, ' ');
+        const cleanCite = data.citation.replace(/[^\x20-\x7E\t\n\r]/g, ' ');
         const citeWrapped = doc.splitTextToSize(cleanCite, contentWidth - 6);
         doc.text(citeWrapped, margin + 3, yPos);
       }
@@ -129,7 +129,7 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
       console.error('Failed client PDF blob generation:', err);
       return `/api/pdf/${encodeURIComponent(identifier || data?.identifier || '')}`;
     }
-  }, [data, identifier]);
+  }, [data, identifier, showPdfMode]);
 
   const handleDownloadPdf = () => {
     if (!data) return;
@@ -200,7 +200,7 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
         doc.setFontSize(9);
         doc.setTextColor(30, 30, 30);
 
-        const cleanLine = line.replace(/[^\x00-\x7F]/g, ' ');
+        const cleanLine = line.replace(/[^\x20-\x7E\t\n\r]/g, ' ');
         const wrapped = doc.splitTextToSize(cleanLine, contentWidth - 10);
         doc.text(wrapped, margin + 8, yPos);
         yPos += (wrapped.length * 4.2) + 1;
@@ -224,7 +224,7 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
         doc.setFont('helvetica', 'normal');
         doc.setFontSize(7.5);
         doc.setTextColor(60, 60, 60);
-        const cleanCite = data.citation.replace(/[^\x00-\x7F]/g, ' ');
+        const cleanCite = data.citation.replace(/[^\x20-\x7E\t\n\r]/g, ' ');
         const citeWrapped = doc.splitTextToSize(cleanCite, contentWidth - 6);
         doc.text(citeWrapped, margin + 3, yPos);
       }
@@ -288,7 +288,7 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
               setLoading(false);
               return;
             }
-        } catch (e) {
+        } catch {
           // continue to next endpoint
         }
       }

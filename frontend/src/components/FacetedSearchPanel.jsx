@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Search, Filter, Calendar, MapPin, Tag, User, RotateCcw, ChevronRight, Sparkles, BookOpen, Layers } from 'lucide-react';
+import { Search, Filter, Calendar, MapPin, User, RotateCcw, ChevronRight, Sparkles } from 'lucide-react';
 import { fetchCachedJson } from '../utils/apiCache';
 
 export default function FacetedSearchPanel({ onSelectPerson }) {
@@ -20,26 +20,37 @@ export default function FacetedSearchPanel({ onSelectPerson }) {
   const pageSize = 20;
 
   useEffect(() => {
-    fetchCachedJson('/api/graph.json')
+    fetchCachedJson('/api/persons_summary.json')
       .then(data => {
-        const nodeList = (data.nodes || []).map(n => ({
-          id: n.id,
-          name: n.label || 'Unknown',
-          surname: n.group || 'Other',
-          birth_year: n.birth_date ? parseInt(n.birth_date.match(/\b\d{4}\b/)?.[0] || 0) : null,
-          death_year: n.death_date ? parseInt(n.death_date.match(/\b\d{4}\b/)?.[0] || 0) : null,
-          birth_place: n.birth_place || '',
-          death_place: n.death_place || '',
-          aliases: n.aliases || [],
-          has_photo: !!n.photo,
-          has_obituary: !!n.obituary
-        }));
-        setPersons(nodeList);
-        setLoading(false);
+        if (Array.isArray(data) && data.length > 0) {
+          setPersons(data);
+          setLoading(false);
+          return;
+        }
+        throw new Error('Empty persons_summary, falling back to graph');
       })
-      .catch(err => {
-        console.error("Failed to load search data:", err);
-        setLoading(false);
+      .catch(() => {
+        fetchCachedJson('/api/graph.json')
+          .then(data => {
+            const nodeList = (data.nodes || []).map(n => ({
+              id: n.id,
+              name: n.label || 'Unknown',
+              surname: n.group || 'Other',
+              birth_year: n.birth_date ? parseInt(n.birth_date.match(/\b\d{4}\b/)?.[0] || 0) : null,
+              death_year: n.death_date ? parseInt(n.death_date.match(/\b\d{4}\b/)?.[0] || 0) : null,
+              birth_place: n.birth_place || '',
+              death_place: n.death_place || '',
+              aliases: n.aliases || [],
+              has_photo: !!n.photo,
+              has_obituary: !!n.obituary
+            }));
+            setPersons(nodeList);
+            setLoading(false);
+          })
+          .catch(err => {
+            console.error("Failed to load search data:", err);
+            setLoading(false);
+          });
       });
   }, []);
 
@@ -53,8 +64,8 @@ export default function FacetedSearchPanel({ onSelectPerson }) {
       // Text query match (Name or Alias)
       if (query.trim()) {
         const q = query.toLowerCase().trim();
-        const nameMatch = p.name.toLowerCase().includes(q);
-        const aliasMatch = p.aliases.some(a => a.toLowerCase().includes(q));
+        const nameMatch = (p.name || '').toLowerCase().includes(q);
+        const aliasMatch = Array.isArray(p.aliases) && p.aliases.some(a => a && a.toLowerCase().includes(q));
         if (!nameMatch && !aliasMatch) return false;
       }
 
@@ -70,7 +81,7 @@ export default function FacetedSearchPanel({ onSelectPerson }) {
 
       // Location state filter
       if (selectedState !== 'ALL') {
-        const locStr = `${p.birth_place} ${p.death_place}`.toLowerCase();
+        const locStr = `${p.birth_place || ''} ${p.death_place || ''} ${p.state || ''}`.toLowerCase();
         if (selectedState === 'DE' && !locStr.includes('delaware') && !locStr.includes(', de')) return false;
         if (selectedState === 'MD' && !locStr.includes('maryland') && !locStr.includes(', md')) return false;
         if (selectedState === 'VA' && !locStr.includes('virginia') && !locStr.includes(', va')) return false;
@@ -166,10 +177,12 @@ export default function FacetedSearchPanel({ onSelectPerson }) {
 
           {/* Surname Select */}
           <div className="space-y-1.5">
-            <label className="text-[11px] font-mono text-[#8C8275] uppercase font-semibold block">
+            <label htmlFor="surname-filter" className="text-[11px] font-mono text-[#8C8275] uppercase font-semibold block">
               Maternal Lineage Surname
             </label>
             <select
+              id="surname-filter"
+              aria-label="Filter by maternal lineage surname"
               value={selectedSurname}
               onChange={e => { setSelectedSurname(e.target.value); setCurrentPage(1); }}
               className="w-full bg-[#1C1A17] border border-[#332D27] focus:border-[#C68B59] rounded-xl px-3 py-2 text-xs text-[#F3EBE3] outline-none transition-colors"
@@ -182,11 +195,13 @@ export default function FacetedSearchPanel({ onSelectPerson }) {
 
           {/* Date Range */}
           <div className="space-y-1.5">
-            <label className="text-[11px] font-mono text-[#8C8275] uppercase font-semibold block">
+            <label id="historical-era-label" className="text-[11px] font-mono text-[#8C8275] uppercase font-semibold block">
               Historical Era (Year)
             </label>
-            <div className="grid grid-cols-2 gap-2">
+            <div className="grid grid-cols-2 gap-2" role="group" aria-labelledby="historical-era-label">
               <input
+                id="min-year-filter"
+                aria-label="Filter from historical year"
                 type="number"
                 value={minYear}
                 onChange={e => { setMinYear(e.target.value); setCurrentPage(1); }}
@@ -194,6 +209,8 @@ export default function FacetedSearchPanel({ onSelectPerson }) {
                 className="bg-[#1C1A17] border border-[#332D27] focus:border-[#C68B59] rounded-xl px-3 py-1.5 text-xs text-[#F3EBE3] placeholder-[#6E665B] outline-none font-mono"
               />
               <input
+                id="max-year-filter"
+                aria-label="Filter to historical year"
                 type="number"
                 value={maxYear}
                 onChange={e => { setMaxYear(e.target.value); setCurrentPage(1); }}
@@ -290,9 +307,9 @@ export default function FacetedSearchPanel({ onSelectPerson }) {
                     <div className="space-y-1.5 min-w-0">
                       <div className="flex items-center gap-2">
                         <User className="w-4 h-4 text-[#C68B59] shrink-0" />
-                        <h4 className="font-semibold text-sm text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors truncate">
+                        <h3 className="font-semibold text-sm text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors truncate">
                           {person.name}
-                        </h4>
+                        </h3>
                       </div>
                       
                       <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-[#A8A096] font-mono">

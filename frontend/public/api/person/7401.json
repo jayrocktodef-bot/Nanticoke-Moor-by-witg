@@ -133,7 +133,16 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Verified married couple Frederick Seeney & Hester Dean Seeney from SeeneyFrederick&HesterFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 7356,
+      "rel_name": "Frederick Seeney"
+    }
+  ],
   "photos": [
     {
       "person_id": 7401,
@@ -163,6 +172,24 @@
       "approximate_year": "1920",
       "local_image_path": "assets/archive_media/people/Luckett_Sophia_Seeney.jpg",
       "source_url": "https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/SeeneyFrederick&HesterFamily.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 7401,
+      "photo_id": 2260,
+      "category": "people",
+      "title_or_caption": "Seeney_Frederick_H.jpg",
+      "subject_names": "Frederick H. Seeney",
+      "married_surname": "Seeney",
+      "approximate_year": "1962",
+      "local_image_path": "assets/archive_media/people/Seeney_Frederick_H.jpg",
+      "source_url": "http://www.mitsawokett.com/ChurchRecords/ForestGroveSDAChurchPix.htm",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",

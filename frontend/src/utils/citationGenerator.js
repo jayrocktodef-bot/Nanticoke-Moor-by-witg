@@ -92,7 +92,7 @@ export function generateChicagoCitation(item, type = 'person') {
   return { footnote: "", bibliography: "" };
 }
 
-export function generateBibTeX(item, type = 'person') {
+export function generateBibTeX(item, _type = 'person') {
   const year = new Date().getFullYear();
   const id = (item.person?.person_id || item.person_id || item.id || 'record').toString();
   const name = item.person?.name || item.name || item.deceased_name || item.title || 'Record';
@@ -161,12 +161,29 @@ export function generateGedcomExcerpt(profile) {
   lines.push(`2 PAGE Individual ID #${pid}`);
 
   // Relationships
+  const famRecords = [];
   rels.forEach((r, idx) => {
     if (r.relationship_type === 'child_of' || r.relationship_type === 'parent') {
-      lines.push(`1 NOTE Kinship: ${r.relationship_type} with ${r.rel_name} (ID #${r.rel_id})`);
+      lines.push(`1 NOTE Kinship: ${r.relationship_type} with ${r.rel_name || 'Relative'} (ID #${r.rel_id || ''})`);
     } else if (r.relationship_type === 'spouse' || r.relationship_type === 'married') {
-      lines.push(`1 FAMS @F${idx + 1}@`);
+      const famId = `F${idx + 1}`;
+      lines.push(`1 FAMS @${famId}@`);
+      famRecords.push({
+        id: famId,
+        spouseName: r.rel_name || 'Spouse',
+        spouseId: r.rel_id || null
+      });
     }
+  });
+
+  // Emitted FAM records so GEDCOM 5.5.1 parser has zero dangling FAMS references
+  famRecords.forEach(f => {
+    lines.push(`0 @${f.id}@ FAM`);
+    lines.push(`1 HUSB @I${pid}@`);
+    if (f.spouseId) {
+      lines.push(`1 WIFE @I${f.spouseId}@`);
+    }
+    lines.push(`1 NOTE Marriage family linkage with ${f.spouseName}`);
   });
 
   // Source Record

@@ -388,6 +388,55 @@ def export_all():
     if living_pids:
         print(f"  [Privacy] Redacted {len(living_pids)} living persons from exported profiles.")
 
+    print("Step 5b: Exporting /api/persons_summary.json for faceted directory...")
+    persons_summary = []
+    for p in all_persons:
+        pid = p['person_id']
+        name = p['name']
+        s_clean = get_clean_surname(name)
+        by = None
+        if p.get('birth_info'):
+            m_by = re.findall(r'\b(1[6789]\d\d|20[012]\d)\b', str(p['birth_info']))
+            if m_by: by = int(m_by[0])
+        dy = None
+        if p.get('death_info'):
+            m_dy = re.findall(r'\b(1[6789]\d\d|20[012]\d)\b', str(p['death_info']))
+            if m_dy: dy = int(m_dy[0])
+        
+        info_str = f"{p.get('birth_info') or ''} {p.get('death_info') or ''} {p.get('notes') or ''}"
+        state = 'Delaware'
+        if any(w in info_str for w in ['NJ', 'New Jersey', 'Cumberland', 'Salem', 'Gouldtown', 'Bridgeton']):
+            state = 'New Jersey'
+        elif any(w in info_str for w in ['MD', 'Maryland', 'Caroline', 'Somerset', 'Dorchester', 'Worcester']):
+            state = 'Maryland'
+        elif any(w in info_str for w in ['PA', 'Pennsylvania', 'Philadelphia']):
+            state = 'Pennsylvania'
+
+        p_photos = photos_map.get(pid, [])
+        primary_photo_path = p_photos[0].get('local_image_path') if p_photos else None
+
+        persons_summary.append({
+            "id": pid,
+            "name": name,
+            "surname": s_clean or "Other",
+            "birth": p.get('birth_info') or '',
+            "death": p.get('death_info') or '',
+            "birth_year": by,
+            "death_year": dy,
+            "state": state,
+            "birth_place": p.get('birth_info') or '',
+            "death_place": p.get('death_info') or '',
+            "dataset": p.get('dataset_source') or '',
+            "has_photo": len(p_photos) > 0,
+            "primary_photo": primary_photo_path,
+            "has_obituary": len(obits_map.get(pid, [])) > 0,
+            "has_citations": len(facts_map.get(pid, [])) > 0,
+            "connections_count": len(rels_map.get(pid, []))
+        })
+    with open(os.path.join(API_DIR, 'persons_summary.json'), 'w') as f:
+        json.dump(persons_summary, f, indent=2)
+    print(f"  ✓ Exported {len(persons_summary)} ancestors to {os.path.join(API_DIR, 'persons_summary.json')}")
+
     print("Step 6: Exporting /api/records/{filename}.json for primary pages...")
     c.execute("SELECT filename, title, clean_html, text_content, wayback_url FROM pages")
     pages = [dict(r) for r in c.fetchall()]
@@ -400,6 +449,37 @@ def export_all():
         
         with open(os.path.join(API_DIR, 'records', f'{fn}.json'), 'w') as f:
             json.dump(page, f, indent=2)
+
+    records_catalog = []
+    for page in pages:
+        fn = page['filename']
+        title = page['title'] or fn
+        text = page['text_content'] or ''
+        lines = [l.strip() for l in text.splitlines() if l.strip()]
+        snippet = " ".join(lines[:3]) if lines else "Historical document preserved in the Delmarva Afro-Indigenous archive."
+        
+        low = (fn + " " + title).lower()
+        if "bible" in low: cat = "Family Bible"
+        elif "will" in low or "probate" in low: cat = "Probate & Will"
+        elif "deed" in low or "land" in low: cat = "Deed & Record"
+        elif "census" in low or "race" in low: cat = "Census Schedule"
+        elif "apprentice" in low or "indenture" in low: cat = "Apprenticeship & Indenture"
+        elif "church" in low: cat = "Church Record"
+        elif "tax" in low: cat = "Tax Assessment"
+        else: cat = "Primary Document"
+
+        records_catalog.append({
+            "id": fn,
+            "filename": fn,
+            "title": title,
+            "category": cat,
+            "snippet": snippet[:180] + ("..." if len(snippet) > 180 else ""),
+            "lineCount": len(lines),
+            "mediaCount": len(page.get('media_assets', []))
+        })
+    with open(os.path.join(API_DIR, 'records_catalog.json'), 'w') as f:
+        json.dump(records_catalog, f, indent=2)
+    print(f"  ✓ Exported {len(records_catalog)} records to {os.path.join(API_DIR, 'records_catalog.json')}")
 
     print("Step 6b: Exporting /api/transcriptions/{identifier}.json for catalog items & pages...")
     os.makedirs(os.path.join(API_DIR, 'transcriptions'), exist_ok=True)
@@ -729,20 +809,21 @@ def export_all():
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
         f'  <url><loc>{site_url}/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>',
-        f'  <url><loc>{site_url}/surnames</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>',
-        f'  <url><loc>{site_url}/interconnections</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>',
-        f'  <url><loc>{site_url}/graph</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>',
+        f'  <url><loc>{site_url}/lineages</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>',
+        f'  <url><loc>{site_url}/ancestors</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>',
+        f'  <url><loc>{site_url}/network</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>',
+        f'  <url><loc>{site_url}/atlas</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>',
         f'  <url><loc>{site_url}/records</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>',
-        f'  <url><loc>{site_url}/gallery</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>',
         f'  <url><loc>{site_url}/obituaries</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>',
+        f'  <url><loc>{site_url}/interconnections</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>',
+        f'  <url><loc>{site_url}/oral-histories</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>',
         f'  <url><loc>{site_url}/sources</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>',
-        f'  <url><loc>{site_url}/audit</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>',
     ]
     
     # Add surname portal routes
     for s_item in surnames_data:
         sn = s_item["surname"]
-        sitemap_lines.append(f'  <url><loc>{site_url}/surname/{sn}</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>')
+        sitemap_lines.append(f'  <url><loc>{site_url}/lineages/{sn}</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>')
 
     sitemap_lines.append('</urlset>')
     

@@ -407,9 +407,11 @@ def get_transcription_endpoint(identifier: str):
         os.path.join(SCRIPT_DIR, "frontend", "public", "api", "transcriptions", f"{identifier}.json"),
         os.path.join(SCRIPT_DIR, "frontend", "public", "api", "transcriptions", f"doc_{identifier}.json")
     ]
+    trans_base = os.path.abspath(os.path.join(SCRIPT_DIR, "frontend", "public", "api", "transcriptions"))
     for djp in direct_json_paths:
-        if os.path.exists(djp):
-            with open(djp, "r", encoding="utf-8") as f:
+        abs_djp = os.path.abspath(djp)
+        if abs_djp.startswith(trans_base) and os.path.exists(abs_djp):
+            with open(abs_djp, "r", encoding="utf-8") as f:
                 return json.load(f)
 
     clean_id = identifier
@@ -1347,10 +1349,48 @@ def get_cemetery_detail(cemetery_id: int):
     """, (cemetery_id,))
     tombstones = [dict(r) for r in c.fetchall()]
     conn.close()
-    return {
-        "cemetery": dict(cem),
-        "tombstones": tombstones
-    }
+STATIC_API_DIR = os.path.join(SCRIPT_DIR, "frontend", "public", "api")
+
+@app.get("/api/search_index.json")
+def get_search_index_json():
+    path = os.path.join(STATIC_API_DIR, "search_index.json")
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    raise HTTPException(status_code=404, detail="Search index not found")
+
+@app.get("/api/sources.json")
+def get_sources_json():
+    path = os.path.join(STATIC_API_DIR, "sources.json")
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    raise HTTPException(status_code=404, detail="Sources JSON not found")
+
+@app.get("/api/layout.json")
+def get_layout_json():
+    path = os.path.join(STATIC_API_DIR, "layout.json")
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    raise HTTPException(status_code=404, detail="Layout JSON not found")
+
+@app.get("/api/persons_summary.json")
+def get_persons_summary_json():
+    path = os.path.join(STATIC_API_DIR, "persons_summary.json")
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    raise HTTPException(status_code=404, detail="Persons summary not found")
+
+@app.get("/api/records_catalog.json")
+def get_records_catalog_json():
+    path = os.path.join(STATIC_API_DIR, "records_catalog.json")
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    raise HTTPException(status_code=404, detail="Records catalog not found")
+
 
 @app.get("/api/person/{person_id}/timeline")
 def get_person_timeline(person_id: str):
@@ -1370,18 +1410,17 @@ def get_person_timeline(person_id: str):
         LEFT JOIN sources s ON c.source_id = s.source_id
         WHERE f.person_id = ?
         ORDER BY f.date_string ASC, f.fact_id ASC
-    """, (person_id,))
+    """, (clean_id,))
     timeline = [dict(r) for r in c.fetchall()]
     conn.close()
     return {
-        "person_id": person_id,
+        "person_id": clean_id,
         "timeline_events_count": len(timeline),
         "events": timeline
     }
 
-
-
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
 

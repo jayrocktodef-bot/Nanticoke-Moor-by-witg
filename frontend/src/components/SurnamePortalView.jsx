@@ -334,6 +334,7 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
                           alt={photo.subject_names || photo.normalized_filename}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                           loading="lazy"
+                          onError={(e) => { e.currentTarget.style.opacity = '0'; }}
                         />
                         
                         {/* Top Category Badge */}
@@ -363,7 +364,7 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
                               <button
                                 onClick={(e) => {
                                   e.stopPropagation();
-                                  onSelectPerson && onSelectPerson(photo.person_id);
+                                  if (onSelectPerson) onSelectPerson(photo.person_id);
                                 }}
                                 className="px-2 py-0.5 rounded bg-[#C68B59] hover:bg-[#D4A373] text-[#0E0C0B] text-[10px] font-mono font-bold transition-all shadow cursor-pointer"
                                 title={`View profile for ${photo.person_name || 'person'}`}
@@ -488,6 +489,7 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
                         alt={tree.normalized_filename}
                         className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-300"
                         loading="lazy"
+                        onError={(e) => { e.currentTarget.style.opacity = '0'; }}
                       />
                     </div>
                     <div className="p-4 border-t border-[#222C3A]">

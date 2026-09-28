@@ -11,10 +11,12 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
   const [lightboxPhoto, setLightboxPhoto] = useState(null);
   const [isCitationOpen, setIsCitationOpen] = useState(false);
   const [activeTab, setActiveTab] = useState('facts');
+  const [photoError, setPhotoError] = useState(false);
 
   useEffect(() => {
     if (!personId) return;
     setLoading(true);
+    setPhotoError(false);
     const cleanId = String(personId).replace('.json', '');
     fetchCachedJson(`/api/person/${cleanId}`)
       .then(data => {
@@ -126,18 +128,19 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
             <div className="py-5 sm:py-6 flex flex-col sm:flex-row gap-5 sm:gap-6 items-center sm:items-start text-center sm:text-left">
               {/* Profile Pic */}
               <div className="shrink-0 relative">
-                {primaryPhoto ? (
+                {primaryPhoto && !photoError ? (
                   <img 
                     src={primaryPhoto.local_image_path.startsWith('/') ? primaryPhoto.local_image_path : '/' + primaryPhoto.local_image_path} 
                     alt={`Portrait of ${profile.person?.first_name || profile.person?.name || ''} ${profile.person?.married_last_name || profile.person?.last_name || ''}`.trim() || 'Profile portrait'} 
                     style={{
                       objectPosition: primaryPhoto.face_x ? `${primaryPhoto.face_x * 100}% ${primaryPhoto.face_y * 100}%` : '50% 22%'
                     }}
+                    onError={() => setPhotoError(true)}
                     className="w-28 h-28 sm:w-40 sm:h-40 rounded-xl object-cover border-4 border-white/10 shadow-lg" 
                   />
                 ) : (
-                  <div className="w-28 h-28 sm:w-40 sm:h-40 rounded-xl bg-gray-600 border-4 border-white/10 flex items-center justify-center shadow-lg">
-                    <User className="w-14 h-14 sm:w-16 sm:h-16 text-gray-400" />
+                  <div className="w-28 h-28 sm:w-40 sm:h-40 rounded-xl bg-stone-800 border-4 border-[#C68B59]/20 flex items-center justify-center shadow-lg">
+                    <User className="w-14 h-14 sm:w-16 sm:h-16 text-[#C68B59]/70" />
                   </div>
                 )}
               </div>

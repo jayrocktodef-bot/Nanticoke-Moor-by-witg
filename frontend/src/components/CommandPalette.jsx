@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Users, Image as ImageIcon, HeartHandshake, FileText, X, ArrowRight, CornerDownLeft } from 'lucide-react';
+import { fetchCachedJson } from '../utils/apiCache';
 
 export default function CommandPalette({ isOpen, onClose, onSelectPerson, onSelectSurname, onOpenRecord }) {
   const [query, setQuery] = useState('');
@@ -25,24 +26,34 @@ export default function CommandPalette({ isOpen, onClose, onSelectPerson, onSele
   }, [isOpen, onClose]);
 
   useEffect(() => {
+    if (!isOpen) return;
+
     if (query.trim().length > 1) {
       setLoading(true);
-      fetch('/api/search_index.json')
-        .then(res => res.json())
-        .then(data => {
-          const lowerQ = query.toLowerCase();
-          const filtered = data.index.filter(item => 
-            item.title.toLowerCase().includes(lowerQ) || 
-            (item.snippet && item.snippet.toLowerCase().includes(lowerQ))
-          ).slice(0, 50); // limit to 50 results
-          setResults(filtered);
-          setLoading(false);
-        })
-        .catch(() => setLoading(false));
+      const timer = setTimeout(() => {
+        fetchCachedJson('/api/search_index.json')
+          .then(data => {
+            const list = data?.index || (Array.isArray(data) ? data : []);
+            const lowerQ = query.toLowerCase();
+            const filtered = list.filter(item => 
+              (item.title && item.title.toLowerCase().includes(lowerQ)) || 
+              (item.snippet && item.snippet.toLowerCase().includes(lowerQ))
+            ).slice(0, 50);
+            setResults(filtered);
+            setLoading(false);
+          })
+          .catch(() => {
+            setResults([]);
+            setLoading(false);
+          });
+      }, 200);
+
+      return () => clearTimeout(timer);
     } else {
       setResults([]);
+      setLoading(false);
     }
-  }, [query]);
+  }, [query, isOpen]);
 
   if (!isOpen) return null;
 

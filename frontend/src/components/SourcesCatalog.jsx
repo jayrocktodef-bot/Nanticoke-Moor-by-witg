@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ExternalLink, Database, BookOpen, FileText, Search, ShieldCheck, HeartHandshake, Bookmark } from 'lucide-react';
+import { ExternalLink, Database, FileText, Search, ShieldCheck, HeartHandshake, Bookmark } from 'lucide-react';
 
 export default function SourcesCatalog({ onOpenRecord }) {
   const [filterQuery, setFilterQuery] = useState('');

@@ -22,7 +22,7 @@ export default function ObituaryViewer({ onSelectPerson }) {
         let data = null;
         try {
           data = await fetchCachedJson('/api/obituaries.json');
-        } catch (e) {
+        } catch {
           data = await fetchCachedJson('/api/obituaries');
         }
 

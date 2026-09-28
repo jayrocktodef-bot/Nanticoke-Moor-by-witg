@@ -8,10 +8,10 @@ import {
 } from '../utils/citationGenerator';
 
 export default function CitationModal({ isOpen, onClose, data, type = 'person' }) {
-  if (!isOpen || !data) return null;
-
   const [activeTab, setActiveTab] = useState('ee'); // 'ee', 'chicago', 'plain', 'bibtex', 'gedcom'
   const [copiedKey, setCopiedKey] = useState(null);
+
+  if (!isOpen || !data) return null;
 
   const ee = generateEvidenceExplainedCitation(data, type);
   const chicago = generateChicagoCitation(data, type);

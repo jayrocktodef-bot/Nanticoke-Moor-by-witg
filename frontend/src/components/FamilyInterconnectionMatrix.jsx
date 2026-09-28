@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { GitCommit, Users, HeartHandshake, Search, Sparkles, ExternalLink, ArrowRight, ShieldCheck, MapPin, Maximize2, X, Compass, Layers } from 'lucide-react';
+import { GitCommit, HeartHandshake, Search, Sparkles, ExternalLink, ArrowRight, ShieldCheck, MapPin, Maximize2, X, Compass, Layers } from 'lucide-react';
 import { fetchCachedJson } from '../utils/apiCache';
 
 const CLAN_MAP_HOTSPOTS = [
@@ -59,7 +59,7 @@ export default function FamilyInterconnectionMatrix({ onSelectSurname }) {
         fam && 
         fam.length >= 3 && 
         !/\d/.test(fam) && 
-        !/[()\/]/.test(fam) && 
+        !/[()/]/.test(fam) && 
         !INVALID_FAMILY_CHIPS.has(fam)
       ) {
         familySet.add(fam);
@@ -323,14 +323,14 @@ export default function FamilyInterconnectionMatrix({ onSelectSurname }) {
               <div className="flex items-start justify-between">
                 <div className="flex items-center gap-2 font-serif-header">
                   <span
-                    onClick={(e) => { e.stopPropagation(); onSelectSurname && onSelectSurname(tie.family_a); }}
+                    onClick={(e) => { e.stopPropagation(); if (onSelectSurname) onSelectSurname(tie.family_a); }}
                     className="font-bold text-[#D4A373] hover:underline cursor-pointer text-base"
                   >
                     {tie.family_a}
                   </span>
                   <span className="text-[#8C8275] font-mono text-xs">⟷</span>
                   <span
-                    onClick={(e) => { e.stopPropagation(); onSelectSurname && onSelectSurname(tie.family_b); }}
+                    onClick={(e) => { e.stopPropagation(); if (onSelectSurname) onSelectSurname(tie.family_b); }}
                     className="font-bold text-[#E5E1DB] hover:underline cursor-pointer text-base"
                   >
                     {tie.family_b}

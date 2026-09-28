@@ -1,0 +1,24 @@
+# Lynn C. Jackson & Mitsawokett Delmarva Family Archive
+
+> A digital genealogical preservation archive and research engine documenting the Nanticoke, Moor, and Lenape families of the Delmarva Peninsula (Delaware, Eastern Shore Maryland, Southern New Jersey).
+
+## Archival Routes
+- [Lineages Directory](/lineages): Historical lineage portals organized by Delmarva maternal surnames (Davis, Durham, Clark, Carney, Dean, Jackson, Mosley, Seeney, Sockum).
+- [Ancestor Explorer](/ancestors): 3,780-person faceted explorer with historical era, state, surname, and media filters.
+- [Kinship Network](/network): Interactive force-directed network graph modeling interconnected Delmarva community lines.
+- [Migration Atlas & Cemeteries](/atlas): Historical migration atlas, settlement areas, and GPS coordinates for 13 community cemeteries.
+- [Primary Records & Deeds](/records): Catalog of 357 primary documents with dual-pane high-resolution transcription viewer.
+- [Community Obituaries](/obituaries): Full-text searchable vault of 401 historical obituaries.
+- [Interconnection Matrix](/interconnections): Inter-marriage matrix modeling community relationships across generations.
+- [Oral Histories](/oral-histories): Audio recordings and transcripts with community elders.
+- [Sources & Citations](/sources): GPS evidence model citation repository (Chicago 17th ed., Evidence Explained).
+
+## API Endpoints
+- [Archive Metrics](/api/stats.json): Aggregate archive metrics and dataset distributions.
+- [Surnames Directory](/api/surnames.json): Directory of cataloged surnames and member counts.
+- [Persons Summary Index](/api/persons_summary.json): Lightweight directory of all cataloged individuals.
+- [Primary Records Index](/api/records_catalog.json): Index of all 357 primary historical documents.
+- [Full-Text Search Index](/api/search_index.json): Full-text search index covering ancestors, obituaries, and deeds.
+- [Cemetery GPS Locations](/api/cemeteries.json): 13 Delmarva cemetery locations, burial counts, and GPS coordinates.
+- [Master Sources Repository](/api/sources.json): Master bibliography and archival holdings catalog.
+- [Kinship Network Graph](/api/graph.json): Kinship network graph nodes and relationship edges.

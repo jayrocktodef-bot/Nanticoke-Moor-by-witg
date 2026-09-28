@@ -13,7 +13,12 @@ const EDGE_STYLES = {
   default: { color: '#38bdf8', highlight: '#60a5fa', dashes: false, width: 1.5, label: 'Related' }
 };
 
-export default function NetworkGraph({ graphData, onSelectNode, defaultViewFormat = 'focus' }) {
+export default function NetworkGraph({ 
+  graphData, 
+  onSelectNode, 
+  onSelectPerson, 
+  defaultViewFormat = 'focus' 
+}) {
   const containerRef = useRef(null);
   const networkRef = useRef(null);
   const [viewFormat, setViewFormat] = useState(defaultViewFormat); // 'focus' | 'tree' | 'roster' | 'network'
@@ -22,6 +27,20 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
   const [focalNodeId, setFocalNodeId] = useState(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [staticLayout, setStaticLayout] = useState({});
+
+  const handleSelectPerson = (nodeOrId) => {
+    if (!nodeOrId) return;
+    const nodeObj = typeof nodeOrId === 'object'
+      ? nodeOrId
+      : graphData?.nodes?.find(n => n.id === nodeOrId) || { id: nodeOrId };
+    const id = nodeObj.id;
+    if (onSelectPerson) {
+      onSelectPerson(id);
+    }
+    if (onSelectNode) {
+      onSelectNode(nodeObj);
+    }
+  };
 
   // Fetch precomputed static generational & clan layout coordinates
   useEffect(() => {
@@ -43,6 +62,7 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
 
   const isFocalValid = focalNodeId && graphData?.nodes?.some(n => n.id === focalNodeId);
   const activeFocalId = isFocalValid ? focalNodeId : (graphData?.nodes?.[0]?.id ?? null);
+  const activeFocalNode = graphData?.nodes?.find(n => n.id === activeFocalId);
 
   // Render vis-network canvas
   useEffect(() => {
@@ -196,9 +216,15 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
       if (params.nodes.length > 0) {
         const selectedId = params.nodes[0];
         setFocalNodeId(selectedId);
-        const nodeObj = graphData.nodes.find(n => n.id === selectedId);
-        if (nodeObj && onSelectNode) {
-          onSelectNode(nodeObj);
+      }
+    });
+
+    networkRef.current.on('doubleClick', (params) => {
+      if (params.nodes && params.nodes.length > 0) {
+        const selectedId = params.nodes[0];
+        const nodeObj = graphData?.nodes?.find(n => n.id === selectedId);
+        if (nodeObj) {
+          handleSelectPerson(nodeObj);
         }
       }
     });
@@ -296,7 +322,7 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
                         setFocalNodeId(node.id);
                         setSearchFilter('');
                         setShowSearchDropdown(false);
-                        if (onSelectNode) onSelectNode(node);
+                        handleSelectPerson(node);
                       }}
                       className="w-full text-left px-3 py-2 text-xs hover:bg-[#212B37] text-[#F3EBE3] border-b border-[#2A3644]/50 flex items-center justify-between"
                     >
@@ -357,7 +383,26 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
         )}
 
         {viewFormat === 'tree' && (
-          <GenerationalTreeView graphData={graphData} onSelectNode={onSelectNode} focalId={activeFocalId} />
+          <GenerationalTreeView graphData={graphData} onSelectNode={handleSelectPerson} focalId={activeFocalId} />
+        )}
+
+        {(viewFormat === 'focus' || viewFormat === 'network') && activeFocalNode && (
+          <div className="absolute bottom-4 left-4 z-10 bg-[#171E27]/95 backdrop-blur-md border border-[#2A3644] p-3 rounded-2xl flex items-center gap-3 shadow-2xl max-w-sm animate-fade-in">
+            <div className="w-9 h-9 rounded-xl bg-[#0F141A] border border-[#2A3644] flex items-center justify-center shrink-0">
+              <User className="w-4 h-4 text-[#C87D53]" />
+            </div>
+            <div className="min-w-0 flex-1">
+              <h4 className="text-xs font-bold text-[#F3EBE3] truncate font-serif-header">{activeFocalNode.label}</h4>
+              <p className="text-[10px] font-mono text-[#9EA9B6]">ID #{activeFocalNode.id}</p>
+            </div>
+            <button
+              onClick={() => handleSelectPerson(activeFocalNode)}
+              className="px-3 py-1.5 rounded-xl bg-[#C87D53] hover:bg-[#d98d62] text-[#0F141A] font-bold text-xs transition-colors flex items-center gap-1 shrink-0 cursor-pointer"
+            >
+              <span>Profile</span>
+              <ChevronRight className="w-3.5 h-3.5" />
+            </button>
+          </div>
         )}
 
         {viewFormat === 'roster' && (
@@ -368,16 +413,19 @@ export default function NetworkGraph({ graphData, onSelectNode, defaultViewForma
                   key={n.id}
                   onClick={() => {
                     setFocalNodeId(n.id);
-                    if (onSelectNode) onSelectNode(n);
+                    handleSelectPerson(n);
                   }}
-                  className="glass-panel glass-card-hover rounded-2xl p-4 cursor-pointer flex items-center gap-3 border border-[#2A3644]"
+                  className="glass-panel glass-card-hover rounded-2xl p-4 cursor-pointer flex items-center gap-3 border border-[#2A3644] hover:border-[#C87D53] transition-all group"
                 >
-                  <div className="w-10 h-10 rounded-xl bg-[#0F141A] border border-[#2A3644] flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-[#0F141A] border border-[#2A3644] group-hover:border-[#C87D53] flex items-center justify-center shrink-0 transition-colors">
                     <User className="w-5 h-5 text-[#C87D53]" />
                   </div>
                   <div className="min-w-0 flex-1">
-                    <h4 className="font-bold text-sm text-[#F3EBE3] truncate font-serif-header">{n.label}</h4>
-                    <p className="text-[10px] font-mono text-[#9EA9B6] truncate mt-0.5">ID #{n.id}</p>
+                    <h3 className="font-bold text-sm text-[#F3EBE3] group-hover:text-[#D4A373] transition-colors truncate font-serif-header">{n.label}</h3>
+                    <div className="flex items-center justify-between gap-1 mt-0.5">
+                      <p className="text-[10px] font-mono text-[#9EA9B6] truncate">ID #{n.id}</p>
+                      <span className="text-[10px] text-[#C87D53] font-medium opacity-0 group-hover:opacity-100 transition-opacity">View Profile →</span>
+                    </div>
                   </div>
                 </div>
               ))}

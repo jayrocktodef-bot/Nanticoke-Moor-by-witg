@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Users, Image as ImageIcon, HeartHandshake, ChevronRight, Bookmark } from 'lucide-react';
+import { Users, Image as ImageIcon, HeartHandshake, ChevronRight } from 'lucide-react';
 
-export default function SurnameCard({ surname, variants, count, pages, photos, obituaries, onSelect }) {
+export default function SurnameCard({ surname, variants, count, _pages, photos, obituaries, onSelect }) {
   const [expandedVariants, setExpandedVariants] = useState(false);
 
   // Parse variant spellings into clean array

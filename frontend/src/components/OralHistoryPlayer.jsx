@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Volume2, VolumeX, Play, Pause, Sparkles, Search, Clock, MessageSquare, ShieldCheck, User, RotateCcw, FastForward, Mic } from 'lucide-react';
+import { Volume2, VolumeX, Play, Pause, Sparkles, Search, MessageSquare, Mic } from 'lucide-react';
 
 const SAMPLE_ORAL_HISTORIES = [
   {

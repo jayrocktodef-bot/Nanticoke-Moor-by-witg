@@ -10,7 +10,7 @@
     "source_page": "ReedThomas&MaryMosley.htm",
     "birth_info": "2 Mar 1972",
     "death_info": "9 May 2006 (aged 34)",
-    "notes": "Ingested from ReedThomas&MaryMosley.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/17845315/brian-lee",
+    "notes": "Ingested from ReedThomas&MaryMosley.htm | Verified via FindAGrave: https://www.findagrave.com/memorial/17845315/brian-lee | Verified via FindAGrave: https://www.findagrave.com/memorial/270319060/frederick-seeney",
     "dataset_source": "mitsawokett_delaware",
     "birth_date": "2 Mar 1972",
     "birth_place": null,
@@ -76,8 +76,36 @@
       ]
     }
   ],
-  "relationships": [],
-  "photos": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Verified married couple Frederick Seeney & Hester Dean Seeney from SeeneyFrederick&HesterFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 7401,
+      "rel_name": "Hester Dean Seeney"
+    }
+  ],
+  "photos": [
+    {
+      "person_id": 7356,
+      "photo_id": 2260,
+      "category": "people",
+      "title_or_caption": "Seeney_Frederick_H.jpg",
+      "subject_names": "Frederick H. Seeney",
+      "married_surname": "Seeney",
+      "approximate_year": "1962",
+      "local_image_path": "assets/archive_media/people/Seeney_Frederick_H.jpg",
+      "source_url": "http://www.mitsawokett.com/ChurchRecords/ForestGroveSDAChurchPix.htm",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {

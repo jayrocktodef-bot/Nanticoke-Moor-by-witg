@@ -23,12 +23,11 @@ import {
   Minimize2,
   Landmark,
   FileText,
-  Calendar,
-  Shield
+  Calendar
 } from 'lucide-react';
 
 // Bounding box for Delmarva Peninsula and South Jersey Custom Historical Map v2
-const MAP_BOUNDS = {
+const _MAP_BOUNDS = {
   minLat: 37.8,
   maxLat: 40.1,
   minLon: -76.6,
@@ -309,9 +308,8 @@ export const DEFAULT_CEMETERIES = [
   { cemetery_id: 13, name: "Cuff Family Cemetery", locality: "Salem County", county: "Salem", state: "NJ", latitude: 39.5667, longitude: -75.4667, affiliation: "Cuff Family Private Cemetery", historical_notes: "Private burial plot for the Cuff family of Salem County, NJ.", tombstone_count: 1 }
 ];
 
-export default function HistoricalMigrationMap({ onSelectPerson }) {
+export default function HistoricalMigrationMap({ onSelectPerson: _onSelectPerson }) {
   const [cemeteries, setCemeteries] = useState(DEFAULT_CEMETERIES);
-  const [loading, setLoading] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null); // cemetery or settlement
   const [activeCorridorFilter, setActiveCorridorFilter] = useState('all'); // 'all', 'maritime', 'overland', 'border', 'cemeteries_only'
   const [searchQuery, setSearchQuery] = useState('');
