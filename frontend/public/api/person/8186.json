@@ -1,20 +1,20 @@
 {
   "person": {
     "person_id": 8186,
-    "name": "Elsie Davis",
+    "name": "Elsie Rebecca Davis Clark",
     "first_name": "Elsie",
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Davis",
     "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
-    "birth_info": "10 Jan 1908",
-    "death_info": "19 Mar 1987 (aged 79)",
-    "notes": " | Verified via FindAGrave: https://www.findagrave.com/memorial/96734753/elsie-davis (Buried at Cheney Hill Cemetery)",
+    "birth_info": "1896",
+    "death_info": "1939 (aged 42\u201343)",
+    "notes": "Buried at Harmony Cemetery, Millsboro, Sussex County, Delaware. Verified via FindAGrave Memorial 41149114. Daughter of Morris Davis and Hester A. Morris Davis.",
     "dataset_source": "davis_family_gedcom",
-    "birth_date": "10 Jan 1908",
+    "birth_date": "1896",
     "birth_place": null,
-    "death_date": "19 Mar 1987 (aged 79)",
+    "death_date": "1939 (aged 42\u201343)",
     "death_place": null
   },
   "facts": [
@@ -120,7 +120,7 @@
       "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
-      "rel_id": 8185,
+      "rel_id": 11247,
       "rel_name": "Hester A. Morris Davis"
     },
     {
@@ -154,6 +154,14 @@
       "certainty": "confirmed",
       "rel_id": 9143,
       "rel_name": "Laymond William Clark"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Verified via FindAGrave Memorial 158876354 & Harmony Cemetery records",
+      "certainty": "confirmed",
+      "rel_id": 12006,
+      "rel_name": "Morris Davis"
     }
   ],
   "photos": [
@@ -234,10 +242,10 @@
   "audit_flags": [],
   "ancestry": {
     "id": 8186,
-    "name": "Elsie Davis",
+    "name": "Elsie Rebecca Davis Clark",
     "children": [
       {
-        "id": 8185,
+        "id": 11247,
         "name": "Hester A. Morris Davis",
         "children": [
           {
@@ -290,9 +298,157 @@
             ]
           },
           {
-            "id": 11246,
-            "name": "Francis E. Morris",
-            "children": []
+            "id": 8571,
+            "name": "Francis E. Frank Morris",
+            "children": [
+              {
+                "id": 8617,
+                "name": "Negro Morris Thomas",
+                "children": []
+              },
+              {
+                "id": 8910,
+                "name": "Leticia Morris",
+                "children": [
+                  {
+                    "id": 8616,
+                    "name": "Stephen Wright",
+                    "children": [
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8684,
+                    "name": "Priscilla Miller",
+                    "children": [
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      },
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11247,
+        "name": "Hester A. Morris Davis",
+        "children": [
+          {
+            "id": 8571,
+            "name": "Francis E. Frank Morris",
+            "children": [
+              {
+                "id": 8617,
+                "name": "Negro Morris Thomas",
+                "children": []
+              },
+              {
+                "id": 8910,
+                "name": "Leticia Morris",
+                "children": [
+                  {
+                    "id": 8616,
+                    "name": "Stephen Wright",
+                    "children": [
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8684,
+                    "name": "Priscilla Miller",
+                    "children": [
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      },
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8571,
+            "name": "Francis E. Frank Morris",
+            "children": [
+              {
+                "id": 8617,
+                "name": "Negro Morris Thomas",
+                "children": []
+              },
+              {
+                "id": 8910,
+                "name": "Leticia Morris",
+                "children": [
+                  {
+                    "id": 8616,
+                    "name": "Stephen Wright",
+                    "children": [
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8684,
+                    "name": "Priscilla Miller",
+                    "children": [
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      },
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       }

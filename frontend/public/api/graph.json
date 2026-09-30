@@ -5048,7 +5048,7 @@
     },
     {
       "id": 8157,
-      "label": "George Davis",
+      "label": "George A. Davis",
       "group": "Davis",
       "source_page": "Davis Family Tree.ged"
     },
@@ -5066,7 +5066,7 @@
     },
     {
       "id": 8160,
-      "label": "Stephen Davis",
+      "label": "Stephen F. Davis",
       "group": "Davis",
       "source_page": "Davis Family Tree.ged"
     },
@@ -5137,15 +5137,9 @@
       "source_page": "Davis Family Tree.ged"
     },
     {
-      "id": 8185,
-      "label": "Hester A. Morris Davis",
-      "group": "Davis",
-      "source_page": "Davis Family Tree.ged"
-    },
-    {
       "id": 8186,
-      "label": "Elsie Davis",
-      "group": "Davis",
+      "label": "Elsie Rebecca Davis Clark",
+      "group": "Clark",
       "source_page": "Davis Family Tree.ged"
     },
     {
@@ -5888,7 +5882,7 @@
     },
     {
       "id": 8609,
-      "label": "William W. Davis Sr",
+      "label": "William Wesley Davis Sr",
       "group": "Davis",
       "source_page": "Davis Family Tree.ged"
     },
@@ -5972,13 +5966,13 @@
     },
     {
       "id": 8675,
-      "label": "Bertha M Davis",
-      "group": "Davis",
+      "label": "Bertha May Davis Harmon",
+      "group": "Harmon",
       "source_page": "Davis Family Tree.ged"
     },
     {
       "id": 8676,
-      "label": "Charles Charlie Morris Davis",
+      "label": "Charles Morris Davis",
       "group": "Davis",
       "source_page": "Davis Family Tree.ged"
     },
@@ -7199,6 +7193,12 @@
       "label": "Ulysses G. Thompson",
       "group": "Thompson",
       "source_page": "Davis Family Tree.ged"
+    },
+    {
+      "id": 9509,
+      "label": "Joseph B. S. Thompson",
+      "group": "Thompson",
+      "source_page": "Davis Family Tree.ged"
     }
   ],
   "edges": [
@@ -8336,14 +8336,6 @@
       "label": "child_of",
       "type": "child_of",
       "evidence": "Grandson of John Puckham (b.1660); Nanticoke Chief 1742",
-      "certainty": "confirmed"
-    },
-    {
-      "from": 8185,
-      "to": 2646,
-      "label": "parent_of",
-      "type": "parent_of",
-      "evidence": "Hester Morris Davis mother of Hershel (Hersel) Davis (DavisHesterMorris.htm)",
       "certainty": "confirmed"
     },
     {
@@ -9571,6 +9563,22 @@
       "certainty": "confirmed"
     },
     {
+      "from": 9509,
+      "to": 8381,
+      "label": "child_of",
+      "type": "child_of",
+      "evidence": "GEDCOM Family tree linkage",
+      "certainty": "confirmed"
+    },
+    {
+      "from": 9509,
+      "to": 8382,
+      "label": "child_of",
+      "type": "child_of",
+      "evidence": "GEDCOM Family tree linkage",
+      "certainty": "confirmed"
+    },
+    {
       "from": 8371,
       "to": 8381,
       "label": "child_of",
@@ -9744,86 +9752,6 @@
       "label": "child_of",
       "type": "child_of",
       "evidence": "GEDCOM Family tree linkage",
-      "certainty": "confirmed"
-    },
-    {
-      "from": 8890,
-      "to": 8185,
-      "label": "child_of",
-      "type": "child_of",
-      "evidence": "GEDCOM Family tree linkage",
-      "certainty": "confirmed"
-    },
-    {
-      "from": 8675,
-      "to": 8185,
-      "label": "child_of",
-      "type": "child_of",
-      "evidence": "GEDCOM Family tree linkage",
-      "certainty": "confirmed"
-    },
-    {
-      "from": 8160,
-      "to": 8185,
-      "label": "child_of",
-      "type": "child_of",
-      "evidence": "GEDCOM Family tree linkage",
-      "certainty": "confirmed"
-    },
-    {
-      "from": 8186,
-      "to": 8185,
-      "label": "child_of",
-      "type": "child_of",
-      "evidence": "GEDCOM Family tree linkage",
-      "certainty": "confirmed"
-    },
-    {
-      "from": 8676,
-      "to": 8185,
-      "label": "child_of",
-      "type": "child_of",
-      "evidence": "GEDCOM Family tree linkage",
-      "certainty": "confirmed"
-    },
-    {
-      "from": 8609,
-      "to": 8185,
-      "label": "child_of",
-      "type": "child_of",
-      "evidence": "GEDCOM Family tree linkage",
-      "certainty": "confirmed"
-    },
-    {
-      "from": 8157,
-      "to": 8185,
-      "label": "child_of",
-      "type": "child_of",
-      "evidence": "GEDCOM Family tree linkage",
-      "certainty": "confirmed"
-    },
-    {
-      "from": 8158,
-      "to": 8185,
-      "label": "child_of",
-      "type": "child_of",
-      "evidence": "GEDCOM Family tree linkage",
-      "certainty": "confirmed"
-    },
-    {
-      "from": 8159,
-      "to": 8185,
-      "label": "child_of",
-      "type": "child_of",
-      "evidence": "GEDCOM Family tree linkage",
-      "certainty": "confirmed"
-    },
-    {
-      "from": 1681,
-      "to": 8185,
-      "label": "spouse",
-      "type": "spouse",
-      "evidence": "GEDCOM Family @F225@ marriage 29 Dec 1920 Millsboro, Sussex, Delaware, USA",
       "certainty": "confirmed"
     },
     {
@@ -10340,14 +10268,6 @@
     },
     {
       "from": 2516,
-      "to": 8571,
-      "label": "child_of",
-      "type": "child_of",
-      "evidence": "GEDCOM Family tree linkage",
-      "certainty": "confirmed"
-    },
-    {
-      "from": 8185,
       "to": 8571,
       "label": "child_of",
       "type": "child_of",
@@ -22197,6 +22117,14 @@
     {
       "from": 8679,
       "to": 9508,
+      "label": "parent_of",
+      "type": "parent_of",
+      "evidence": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed"
+    },
+    {
+      "from": 8679,
+      "to": 9509,
       "label": "parent_of",
       "type": "parent_of",
       "evidence": "Davis Family Tree GEDCOM parent-child record",
