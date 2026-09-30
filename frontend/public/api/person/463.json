@@ -80,9 +80,19 @@
       "person_id": 463,
       "fact_type": "Marriage",
       "date_string": "1943",
-      "place_string": "1943 and Margaret in 1973",
+      "place_string": null,
       "value_string": "married Cleo DURHAM    Alfred died in 1943 and Margaret in 1973",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15470,
+          "fact_id": 11760,
+          "source_id": 996,
+          "evidence_text": "Memorial assertion: Roland Coker documented in FindAGrave Memorial #176648047.",
+          "source_title": "Record: FindAGrave Memorial 176648047",
+          "source_url": "https://www.findagrave.com/memorial/176648047/reva-coker",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12947,
@@ -104,7 +114,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Roland Coker married Cleo Durham (married Cleo DURHAM    Alfred died in 1943 and Margaret in 1973)",
+      "certainty": "confirmed",
+      "rel_id": 11879,
+      "rel_name": "Cleo Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Roland Coker married Cleo Durham (married Cleo DURHAM    Alfred died in 1943 and Margaret in 1973)",
+      "certainty": "confirmed",
+      "rel_id": 11879,
+      "rel_name": "Cleo Durham"
+    }
+  ],
   "photos": [
     {
       "person_id": 463,

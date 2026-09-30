@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Webster",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "WebsterElmer&Ida.htm",
     "birth_info": "2 Nov 1957",
     "death_info": "13 Apr 1987 (aged 29)",
@@ -76,13 +76,57 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WebsterElmer&Ida.htm",
+      "certainty": "confirmed",
+      "rel_id": 8111,
+      "rel_name": "Ida Carter Webster"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WebsterElmer&Ida.htm",
+      "certainty": "confirmed",
+      "rel_id": 8111,
+      "rel_name": "Ida Carter Webster"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WebsterElmer&Ida.htm",
+      "certainty": "confirmed",
+      "rel_id": 8131,
+      "rel_name": "Elmer Webster"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WebsterElmer&Ida.htm",
+      "certainty": "confirmed",
+      "rel_id": 8131,
+      "rel_name": "Elmer Webster"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 8133,
     "name": "Joanne Webster",
-    "children": []
+    "children": [
+      {
+        "id": 8111,
+        "name": "Ida Carter Webster",
+        "children": []
+      },
+      {
+        "id": 8111,
+        "name": "Ida Carter Webster",
+        "children": []
+      }
+    ]
   }
 }

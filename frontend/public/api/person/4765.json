@@ -42,9 +42,19 @@
       "person_id": 4765,
       "fact_type": "Birth",
       "date_string": "August 24, 1843",
-      "place_string": "Kent County DE on August 24, 1843 , the daughter of  John D",
+      "place_string": "Kent County, Delaware",
       "value_string": "was born in Kent County DE on August 24, 1843 , the daughter of  John D.",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15812,
+          "fact_id": 12102,
+          "source_id": 278,
+          "evidence_text": "Archival assertion: was born in Kent County DE on August 24, 1843 , the daughter of John D. at/in Kent County DE on August 24, 1843 , the daughter of John D (August 24, 1843) documented in primary lineage manifest.",
+          "source_title": "Record: DeanRobert&Family.htm",
+          "source_url": "DeanRobert&Family.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 12770,
@@ -374,7 +384,7 @@
       "person_id": 4765,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 45",
       "citations": [
         {
@@ -393,7 +403,7 @@
       "person_id": 4765,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 7",
       "citations": [
         {
@@ -412,7 +422,7 @@
       "person_id": 4765,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 67",
       "citations": [
         {
@@ -427,7 +437,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DeanRobert&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4676,
+      "rel_name": "Catharine Morgan Dean"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DeanRobert&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4676,
+      "rel_name": "Catharine Morgan Dean"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DeanRobert&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4680,
+      "rel_name": "Almira Wilson Dean"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DeanRobert&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4680,
+      "rel_name": "Almira Wilson Dean"
+    }
+  ],
   "photos": [
     {
       "person_id": 4765,
@@ -510,6 +553,17 @@
   "ancestry": {
     "id": 4765,
     "name": "William F. Dean",
-    "children": []
+    "children": [
+      {
+        "id": 4676,
+        "name": "Catharine Morgan Dean",
+        "children": []
+      },
+      {
+        "id": 4676,
+        "name": "Catharine Morgan Dean",
+        "children": []
+      }
+    ]
   }
 }

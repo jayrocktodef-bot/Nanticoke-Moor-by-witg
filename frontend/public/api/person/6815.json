@@ -42,12 +42,39 @@
       "person_id": 6815,
       "fact_type": "Birth",
       "date_string": "28 \t\tJanuary, 1857",
-      "place_string": "Maryland on 28 \t\tJanuary, 1857",
+      "place_string": "Maryland",
       "value_string": "was born in Maryland on 28 \t\tJanuary, 1857 .",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15978,
+          "fact_id": 12268,
+          "source_id": 490,
+          "evidence_text": "Archival assertion: was born in Maryland on 28 January, 1857 . at/in Maryland on 28 January, 1857 (28 January, 1857) documented in primary lineage manifest.",
+          "source_title": "Record: NewlinAubrey&Letitia.htm",
+          "source_url": "NewlinAubrey&Letitia.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier NewlinAubrey&Letitia.htm",
+      "certainty": "confirmed",
+      "rel_id": 6811,
+      "rel_name": "Letitia Carter Newlin"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier NewlinAubrey&Letitia.htm",
+      "certainty": "confirmed",
+      "rel_id": 6811,
+      "rel_name": "Letitia Carter Newlin"
+    }
+  ],
   "photos": [
     {
       "person_id": 6815,

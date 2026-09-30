@@ -82,10 +82,37 @@
       "date_string": "1858",
       "place_string": null,
       "value_string": "married  Araminta Sisco     Sometime before 1858",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15412,
+          "fact_id": 11702,
+          "source_id": 943,
+          "evidence_text": "Memorial assertion: William H. Coker documented in FindAGrave Memorial #21748863.",
+          "source_title": "Record: FindAGrave Memorial 21748863",
+          "source_url": "https://www.findagrave.com/memorial/21748863/william-coker",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William H. Coker married Araminta Sisco (married  Araminta Sisco     Sometime before 1858)",
+      "certainty": "confirmed",
+      "rel_id": 503,
+      "rel_name": "Araminta Sisco"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William H. Coker married Araminta Sisco (married  Araminta Sisco     Sometime before 1858)",
+      "certainty": "confirmed",
+      "rel_id": 503,
+      "rel_name": "Araminta Sisco"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

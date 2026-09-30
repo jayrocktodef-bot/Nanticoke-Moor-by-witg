@@ -6,7 +6,7 @@
     "middle_name": "Ann",
     "maiden_name": "",
     "married_last_name": "Wimmer",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "WimmerChris&Paula.htm",
     "birth_info": null,
     "death_info": null,
@@ -38,7 +38,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WimmerChris&Paula.htm",
+      "certainty": "confirmed",
+      "rel_id": 7910,
+      "rel_name": "Joseph Daniel Wimmer"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WimmerChris&Paula.htm",
+      "certainty": "confirmed",
+      "rel_id": 7910,
+      "rel_name": "Joseph Daniel Wimmer"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WimmerChris&Paula.htm",
+      "certainty": "confirmed",
+      "rel_id": 7911,
+      "rel_name": "Renee Johnson Wimmer"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WimmerChris&Paula.htm",
+      "certainty": "confirmed",
+      "rel_id": 7911,
+      "rel_name": "Renee Johnson Wimmer"
+    }
+  ],
   "photos": [
     {
       "person_id": 7919,
@@ -64,6 +97,17 @@
   "ancestry": {
     "id": 7919,
     "name": "Rebekah Ann Wimmer",
-    "children": []
+    "children": [
+      {
+        "id": 7910,
+        "name": "Joseph Daniel Wimmer",
+        "children": []
+      },
+      {
+        "id": 7910,
+        "name": "Joseph Daniel Wimmer",
+        "children": []
+      }
+    ]
   }
 }

@@ -82,7 +82,17 @@
       "date_string": "1840",
       "place_string": null,
       "value_string": "married sometime before 1840",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15476,
+          "fact_id": 11766,
+          "source_id": 1001,
+          "evidence_text": "Memorial assertion: Elizabeth Jackson documented in FindAGrave Memorial #226184085.",
+          "source_title": "Record: FindAGrave Memorial 226184085",
+          "source_url": "https://www.findagrave.com/memorial/226184085/elizabeth-jackson",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12533,
@@ -298,7 +308,7 @@
       "person_id": 490,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Sussex",
+      "place_string": "Sussex County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 53",
       "citations": [
         {
@@ -317,7 +327,7 @@
       "person_id": 490,
       "fact_type": "Census",
       "date_string": "1900",
-      "place_string": "Lewis and Rehobeth, Sussex, Delaware",
+      "place_string": "Lewes and Rehoboth Hundred, Sussex County, Delaware",
       "value_string": "1900 US Federal Census: Wife, age 23. Household: Harry Jackson (Head, age 20), Elizabeth Jackson (Wife, age 23), Mary Jackson (Daughter, age 7), Martha Jackson (Daughter, age 4), Raymond Jackson (Son, age 3), Bessie Jackson (Daughter, age 0), Eliza Jackson (Sister, age 17)",
       "citations": [
         {
@@ -404,6 +414,22 @@
       "certainty": "confirmed",
       "rel_id": 8880,
       "rel_name": "Edmond M Jackson"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Elizabeth Jackson married Sometime Before (married sometime before 1840)",
+      "certainty": "confirmed",
+      "rel_id": 11885,
+      "rel_name": "Sometime Before"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Elizabeth Jackson married Sometime Before (married sometime before 1840)",
+      "certainty": "confirmed",
+      "rel_id": 11885,
+      "rel_name": "Sometime Before"
     }
   ],
   "photos": [

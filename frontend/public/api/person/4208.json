@@ -82,7 +82,17 @@
       "date_string": "18 October 1916",
       "place_string": null,
       "value_string": "married Joel Clemons Smith on 18 October 1916",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15776,
+          "fact_id": 12066,
+          "source_id": 1108,
+          "evidence_text": "Memorial assertion: Jeanette Mosley documented in FindAGrave Memorial #232791448.",
+          "source_title": "Record: FindAGrave Memorial 232791448",
+          "source_url": "https://www.findagrave.com/memorial/232791448/jeanette-mosley",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13096,
@@ -180,7 +190,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Jeanette Mosley married Joel Clemons (married Joel Clemons Smith on 18 October 1916)",
+      "certainty": "confirmed",
+      "rel_id": 11881,
+      "rel_name": "Joel Clemons"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Jeanette Mosley married Joel Clemons (married Joel Clemons Smith on 18 October 1916)",
+      "certainty": "confirmed",
+      "rel_id": 11881,
+      "rel_name": "Joel Clemons"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarterGeoE&MosleyRheba.htm",
+      "certainty": "confirmed",
+      "rel_id": 4207,
+      "rel_name": "Rheba Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarterGeoE&MosleyRheba.htm",
+      "certainty": "confirmed",
+      "rel_id": 4207,
+      "rel_name": "Rheba Mosley"
+    }
+  ],
   "photos": [
     {
       "person_id": 4208,

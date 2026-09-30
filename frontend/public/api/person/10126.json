@@ -82,7 +82,17 @@
       "date_string": "20 January, 1865",
       "place_string": null,
       "value_string": "married Isaac Mosley   On 20 January, 1865",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16146,
+          "fact_id": 12436,
+          "source_id": 1256,
+          "evidence_text": "Memorial assertion: Rosella Mosley documented in FindAGrave Memorial #186895815.",
+          "source_title": "Record: FindAGrave Memorial 186895815",
+          "source_url": "https://www.findagrave.com/memorial/186895815/r-c-mosley",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -109,6 +119,22 @@
       "certainty": "confirmed",
       "rel_id": 10125,
       "rel_name": "Harry Charles Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Rosella Mosley married Isaac Mosley (married Isaac Mosley   On 20 January, 1865)",
+      "certainty": "confirmed",
+      "rel_id": 11884,
+      "rel_name": "Isaac Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Rosella Mosley married Isaac Mosley (married Isaac Mosley   On 20 January, 1865)",
+      "certainty": "confirmed",
+      "rel_id": 11884,
+      "rel_name": "Isaac Mosley"
     }
   ],
   "photos": [],

@@ -196,7 +196,17 @@
       "date_string": "18 October 1916",
       "place_string": null,
       "value_string": "married Joel Clemons Smith on 18 October 1916",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16031,
+          "fact_id": 12321,
+          "source_id": 1214,
+          "evidence_text": "Memorial assertion: Mary E. Mosley Reed documented in FindAGrave Memorial #107409860.",
+          "source_title": "Record: FindAGrave Memorial 107409860",
+          "source_url": "https://www.findagrave.com/memorial/107409860/mary-reed",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13105,
@@ -237,7 +247,56 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary E. Mosley Reed married Joel Clemons (married Joel Clemons Smith on 18 October 1916)",
+      "certainty": "confirmed",
+      "rel_id": 11881,
+      "rel_name": "Joel Clemons"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary E. Mosley Reed married Joel Clemons (married Joel Clemons Smith on 18 October 1916)",
+      "certainty": "confirmed",
+      "rel_id": 11881,
+      "rel_name": "Joel Clemons"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedThomas&MaryMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 7350,
+      "rel_name": "Tom Reed"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedThomas&MaryMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 7350,
+      "rel_name": "Tom Reed"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedThomas&MaryMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 7352,
+      "rel_name": "Harry Reed"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedThomas&MaryMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 7352,
+      "rel_name": "Harry Reed"
+    }
+  ],
   "photos": [
     {
       "person_id": 7351,

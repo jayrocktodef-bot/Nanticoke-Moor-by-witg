@@ -6,7 +6,7 @@
     "middle_name": "Steven",
     "maiden_name": "",
     "married_last_name": "Massari",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MassariSteven&Brett&Diane.htm",
     "birth_info": "1901",
     "death_info": "1997 (aged 95\u201396)",
@@ -76,7 +76,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MassariSteven&Brett&Diane.htm",
+      "certainty": "confirmed",
+      "rel_id": 6378,
+      "rel_name": "Diane Reed Massari"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MassariSteven&Brett&Diane.htm",
+      "certainty": "confirmed",
+      "rel_id": 6378,
+      "rel_name": "Diane Reed Massari"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MassariSteven&Brett&Diane.htm",
+      "certainty": "confirmed",
+      "rel_id": 6379,
+      "rel_name": "Steven Massari"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MassariSteven&Brett&Diane.htm",
+      "certainty": "confirmed",
+      "rel_id": 6379,
+      "rel_name": "Steven Massari"
+    }
+  ],
   "photos": [
     {
       "person_id": 6380,
@@ -102,6 +135,17 @@
   "ancestry": {
     "id": 6380,
     "name": "Brett Steven Massari",
-    "children": []
+    "children": [
+      {
+        "id": 6378,
+        "name": "Diane Reed Massari",
+        "children": []
+      },
+      {
+        "id": 6378,
+        "name": "Diane Reed Massari",
+        "children": []
+      }
+    ]
   }
 }

@@ -19,7 +19,40 @@
     "is_living": true
   },
   "facts": [],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamMarvel&Rhoda.htm",
+      "certainty": "confirmed",
+      "rel_id": 5527,
+      "rel_name": "Rhoda Seeney Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamMarvel&Rhoda.htm",
+      "certainty": "confirmed",
+      "rel_id": 5527,
+      "rel_name": "Rhoda Seeney Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamMarvel&Rhoda.htm",
+      "certainty": "confirmed",
+      "rel_id": 5533,
+      "rel_name": "Marvel Durham Jr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamMarvel&Rhoda.htm",
+      "certainty": "confirmed",
+      "rel_id": 5533,
+      "rel_name": "Marvel Durham Jr"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [
@@ -37,6 +70,17 @@
   "ancestry": {
     "id": 5537,
     "name": "Edward Durham",
-    "children": []
+    "children": [
+      {
+        "id": 5527,
+        "name": "Rhoda Seeney Durham",
+        "children": []
+      },
+      {
+        "id": 5527,
+        "name": "Rhoda Seeney Durham",
+        "children": []
+      }
+    ]
   }
 }

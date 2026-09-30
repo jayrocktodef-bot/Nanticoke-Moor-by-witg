@@ -44,7 +44,17 @@
       "date_string": "1 Sept. 1888",
       "place_string": null,
       "value_string": "died 1 Sept. 1888",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15730,
+          "fact_id": 12020,
+          "source_id": 221,
+          "evidence_text": "Archival assertion: died 1 Sept. 1888 (1 Sept. 1888) documented in primary lineage manifest.",
+          "source_title": "Record: CarneyLeroy&Millie.htm",
+          "source_url": "CarneyLeroy&Millie.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 13535,
@@ -66,7 +76,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarneyLeroy&Millie.htm",
+      "certainty": "confirmed",
+      "rel_id": 3925,
+      "rel_name": "Pritchett Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarneyLeroy&Millie.htm",
+      "certainty": "confirmed",
+      "rel_id": 3925,
+      "rel_name": "Pritchett Durham"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

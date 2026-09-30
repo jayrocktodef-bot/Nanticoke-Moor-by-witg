@@ -42,12 +42,39 @@
       "person_id": 5987,
       "fact_type": "Birth",
       "date_string": "8 January, 1859",
-      "place_string": "Northwest Fork Hundred, Sussex Co",
+      "place_string": "Northwest Fork Hundred, Sussex County, Delaware",
       "value_string": "was born 8 January, 1859 in Northwest Fork Hundred, Sussex Co.",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15906,
+          "fact_id": 12196,
+          "source_id": 362,
+          "evidence_text": "Archival assertion: was born 8 January, 1859 in Northwest Fork Hundred, Sussex Co. at/in Northwest Fork Hundred, Sussex Co (8 January, 1859) documented in primary lineage manifest.",
+          "source_title": "Record: HarmonLevin&Rebecca.htm",
+          "source_url": "HarmonLevin&Rebecca.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonLevin&Rebecca.htm",
+      "certainty": "confirmed",
+      "rel_id": 5988,
+      "rel_name": "Rebecca Harmon"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonLevin&Rebecca.htm",
+      "certainty": "confirmed",
+      "rel_id": 5988,
+      "rel_name": "Rebecca Harmon"
+    }
+  ],
   "photos": [
     {
       "person_id": 5987,

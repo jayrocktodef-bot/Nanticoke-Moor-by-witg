@@ -82,7 +82,17 @@
       "date_string": "9 January, 1931",
       "place_string": null,
       "value_string": "married James Hughes    Daniel died on 9 January, 1931",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15471,
+          "fact_id": 11761,
+          "source_id": 997,
+          "evidence_text": "Memorial assertion: Minous Durham Sr documented in FindAGrave Memorial #145055226.",
+          "source_title": "Record: FindAGrave Memorial 145055226",
+          "source_url": "https://www.findagrave.com/memorial/145055226/m-edward-srail",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13368,
@@ -123,7 +133,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Minous Durham Sr married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Minous Durham Sr married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

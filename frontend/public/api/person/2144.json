@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 4,
+    "evidence_level": 3,
     "source_page": "Probate.htm",
     "birth_info": null,
     "death_info": null,
@@ -44,7 +44,17 @@
       "date_string": "October 28, 1896",
       "place_string": null,
       "value_string": "married Mary Elizabeth Clark on October 28, 1896",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15590,
+          "fact_id": 11880,
+          "source_id": 658,
+          "evidence_text": "...$69.44 costs...? Last Will and Testament of Nehemiah Durham, 1915 of Duck Creek Hundred, Kent County and State of Delaware. I, Nehemiah Durham, bei...",
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     },
     {
       "fact_id": 13882,
@@ -123,7 +133,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Nehemiah Durham married Mary Elizabeth (married Mary Elizabeth Clark on October 28, 1896)",
+      "certainty": "confirmed",
+      "rel_id": 7237,
+      "rel_name": "Mary Elizabeth"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Nehemiah Durham married Mary Elizabeth (married Mary Elizabeth Clark on October 28, 1896)",
+      "certainty": "confirmed",
+      "rel_id": 7237,
+      "rel_name": "Mary Elizabeth"
+    }
+  ],
   "photos": [
     {
       "person_id": 2144,

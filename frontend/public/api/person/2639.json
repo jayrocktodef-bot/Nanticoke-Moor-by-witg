@@ -25,7 +25,17 @@
       "date_string": null,
       "place_string": null,
       "value_string": "Rebecca Ridgeway",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 14952,
+          "fact_id": 2156,
+          "source_id": 120,
+          "evidence_text": "Archival assertion: Rebecca Ridgeway documented in primary lineage manifest.",
+          "source_title": "Record: mitsawokett_index.htm",
+          "source_url": "mitsawokett_index.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 11945,
@@ -34,7 +44,17 @@
       "date_string": "March 31 1918",
       "place_string": null,
       "value_string": "departed this life March 31 1918",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15655,
+          "fact_id": 11945,
+          "source_id": 120,
+          "evidence_text": "Archival assertion: departed this life March 31 1918 (March 31 1918) documented in primary lineage manifest.",
+          "source_title": "Record: mitsawokett_index.htm",
+          "source_url": "mitsawokett_index.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 12543,
@@ -75,7 +95,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Bible Register: Laura Ridgeway daughter of Cornelius and Rebecca Ridgeway was borned Oct. 30 (1st), 1866",
+      "certainty": "confirmed",
+      "rel_id": 25,
+      "rel_name": "Laura Ridgeway"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Bible Register: Laura Ridgeway daughter of Cornelius and Rebecca Ridgeway was borned Oct. 30 (1st), 1866",
+      "certainty": "confirmed",
+      "rel_id": 25,
+      "rel_name": "Laura Ridgeway"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Bible Register: Laura Ridgeway daughter of Cornelius and Rebecca Ridgeway was borned Oct. 30 (1st), 1866",
+      "certainty": "confirmed",
+      "rel_id": 26,
+      "rel_name": "Cornelius Ridgeway"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Bible Register: Laura Ridgeway daughter of Cornelius and Rebecca Ridgeway was borned Oct. 30 (1st), 1866",
+      "certainty": "confirmed",
+      "rel_id": 26,
+      "rel_name": "Cornelius Ridgeway"
+    }
+  ],
   "photos": [
     {
       "person_id": 2639,

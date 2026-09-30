@@ -63,7 +63,17 @@
       "date_string": "27 March, 1848",
       "place_string": null,
       "value_string": "married  Henrietta Carty on 27 March, 1848",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15507,
+          "fact_id": 11797,
+          "source_id": 99,
+          "evidence_text": "...ey, William (d. 1908 ) Carney, William R. (d. 1911 ) CARTY/CARTER James Carty (d. 1823 ) COKER Coker, Abner (d. 1889 ) Coker, John Hersey (d. 1889 ) Moses Coker (d. 1867 )...",
+          "source_title": "Record: probate.htm",
+          "source_url": "probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     },
     {
       "fact_id": 12590,
@@ -108,7 +118,7 @@
       "person_id": 605,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Caroline",
+      "place_string": "Caroline County, Maryland",
       "value_string": "Enumerated as 'M' (Mulatto), age 35",
       "citations": [
         {
@@ -123,7 +133,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: James Carty married Henrietta Carty (married  Henrietta Carty on 27 March, 1848)",
+      "certainty": "confirmed",
+      "rel_id": 509,
+      "rel_name": "Henrietta Carty"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: James Carty married Henrietta Carty (married  Henrietta Carty on 27 March, 1848)",
+      "certainty": "confirmed",
+      "rel_id": 509,
+      "rel_name": "Henrietta Carty"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

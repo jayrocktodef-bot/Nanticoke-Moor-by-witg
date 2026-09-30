@@ -82,7 +82,17 @@
       "date_string": "23 September, 1900",
       "place_string": null,
       "value_string": "married Cassius MOSLEY on 23 September, 1900",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15404,
+          "fact_id": 11694,
+          "source_id": 935,
+          "evidence_text": "Memorial assertion: Levin Jackson documented in FindAGrave Memorial #206094020.",
+          "source_title": "Record: FindAGrave Memorial 206094020",
+          "source_url": "https://www.findagrave.com/memorial/206094020/levin-jackson",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12529,
@@ -313,7 +323,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Levin Jackson married Cassius Mosley (married Cassius MOSLEY on 23 September, 1900)",
+      "certainty": "confirmed",
+      "rel_id": 11878,
+      "rel_name": "Cassius Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Levin Jackson married Cassius Mosley (married Cassius MOSLEY on 23 September, 1900)",
+      "certainty": "confirmed",
+      "rel_id": 11878,
+      "rel_name": "Cassius Mosley"
+    }
+  ],
   "photos": [
     {
       "person_id": 118,

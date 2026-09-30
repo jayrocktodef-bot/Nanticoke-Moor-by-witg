@@ -101,7 +101,17 @@
       "date_string": "1827",
       "place_string": null,
       "value_string": "married sometime prior to 1827",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16212,
+          "fact_id": 12505,
+          "source_id": 38,
+          "evidence_text": "...Dean Preserved Primary Document \u2022 dean-e.htm Enoch M. Dean was the son of Jesse Dean Jr.and Hester Ann Carney . He was born on the family farm along the Dover to Smyrna Rd. in Little Creek Hundred, Kent Co....",
+          "source_title": "Record: dean-e.htm",
+          "source_url": "dean-e.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     },
     {
       "fact_id": 12708,
@@ -887,7 +897,7 @@
       "person_id": 11576,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 37",
       "citations": [
         {
@@ -906,7 +916,7 @@
       "person_id": 11576,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 12",
       "citations": [
         {
@@ -921,7 +931,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Jesse Dean Jr married Sometime Prior (married sometime prior to 1827)",
+      "certainty": "confirmed",
+      "rel_id": 11880,
+      "rel_name": "Sometime Prior"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Jesse Dean Jr married Sometime Prior (married sometime prior to 1827)",
+      "certainty": "confirmed",
+      "rel_id": 11880,
+      "rel_name": "Sometime Prior"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

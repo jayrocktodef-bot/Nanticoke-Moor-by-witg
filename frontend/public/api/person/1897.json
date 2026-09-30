@@ -82,10 +82,37 @@
       "date_string": "1858",
       "place_string": null,
       "value_string": "married  Araminta Sisco     Sometime before 1858",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15582,
+          "fact_id": 11872,
+          "source_id": 1034,
+          "evidence_text": "Memorial assertion: James Songo documented in FindAGrave Memorial #49444726.",
+          "source_title": "Record: FindAGrave Memorial 49444726",
+          "source_url": "https://www.findagrave.com/memorial/49444726/william-adams",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: James Songo married Araminta Sisco (married  Araminta Sisco     Sometime before 1858)",
+      "certainty": "confirmed",
+      "rel_id": 503,
+      "rel_name": "Araminta Sisco"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: James Songo married Araminta Sisco (married  Araminta Sisco     Sometime before 1858)",
+      "certainty": "confirmed",
+      "rel_id": 503,
+      "rel_name": "Araminta Sisco"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

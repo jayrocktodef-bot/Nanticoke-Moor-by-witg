@@ -347,7 +347,7 @@ Surnames with ZERO Kinship Connections: 1092
 | Little | 1 | Bruce "Little |
 | FA | 1 | Btry A FA |
 | No | 1 | Bulletin No. |
-| lightningfawn@com.net | 1 | CC: lightningfawn@com.net |
+| [email redacted] | 1 | CC: [email redacted] |
 | Sipple | 1 | Caleb H. Sipple |
 | Betty's | 1 | Calvin & Betty's |
 | Grandmother& | 1 | Calvin's Grandmother& |
@@ -496,7 +496,7 @@ Surnames with ZERO Kinship Connections: 1092
 | Sessomes | 1 | Heather Sessomes |
 | Beatrice | 1 | Helen Beatrice |
 | Hubbard | 1 | Helen J. Hubbard |
-| [mailto:pierceh@gmail.com] | 1 | Helen Pierce [mailto:pierceh@gmail.com] |
+| [email redacted] | 1 | Helen Pierce [email redacted] |
 | Charlie | 1 | Helen Virginia & Charlie |
 | Ridgly | 1 | Henry M. Ridgly |
 | diploma | 1 | High School diploma |
@@ -603,7 +603,7 @@ Surnames with ZERO Kinship Connections: 1092
 | Eyes | 1 | Linda "Talking Eyes" |
 | Hurd | 1 | Lisa Coker Hurd |
 | Fredericks | 1 | Lisa Fredericks |
-| KURECZ@aol.com | 1 | Lisa KURECZ@aol.com |
+| [email redacted] | 1 | Lisa [email redacted] |
 | Fredricks | 1 | Lisa Parrish-Kurecz Fredricks |
 | League | 1 | Little League |
 | Muncy | 1 | Lizzie Muncy |
@@ -675,7 +675,7 @@ Surnames with ZERO Kinship Connections: 1092
 | MacKinney | 1 | N.J. to Mary A. MacKinney |
 | Baltimore | 1 | NC. Lived in Baltimore |
 | WeatherSorry | 1 | NCNews & WeatherSorry |
-| wcranden@earthlink.net | 1 | Nancy wcranden@earthlink.net |
+| [email redacted] | 1 | Nancy [email redacted] |
 | Princess | 1 | Nanticoke Lenni-Lenape Indian Princess |
 | yearbook | 1 | Nanticoke-Lenape PowWow yearbook |
 | excellent | 1 | Ned Heite for his excellent |

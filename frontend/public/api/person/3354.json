@@ -6,7 +6,7 @@
     "middle_name": "Henry Sput",
     "maiden_name": "",
     "married_last_name": "Bessellieu",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "BessellieuCharles&Connie&kids.htm",
     "birth_info": null,
     "death_info": null,
@@ -38,7 +38,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier BessellieuCharles&Connie&kids.htm",
+      "certainty": "confirmed",
+      "rel_id": 3347,
+      "rel_name": "Constance Mosley Bessellieu"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier BessellieuCharles&Connie&kids.htm",
+      "certainty": "confirmed",
+      "rel_id": 3347,
+      "rel_name": "Constance Mosley Bessellieu"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier BessellieuCharles&Connie&kids.htm",
+      "certainty": "confirmed",
+      "rel_id": 3348,
+      "rel_name": "Henry Bessellieu"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier BessellieuCharles&Connie&kids.htm",
+      "certainty": "confirmed",
+      "rel_id": 3348,
+      "rel_name": "Henry Bessellieu"
+    }
+  ],
   "photos": [
     {
       "person_id": 3354,
@@ -82,6 +115,17 @@
   "ancestry": {
     "id": 3354,
     "name": "Charles Henry Sput Bessellieu",
-    "children": []
+    "children": [
+      {
+        "id": 3347,
+        "name": "Constance Mosley Bessellieu",
+        "children": []
+      },
+      {
+        "id": 3347,
+        "name": "Constance Mosley Bessellieu",
+        "children": []
+      }
+    ]
   }
 }

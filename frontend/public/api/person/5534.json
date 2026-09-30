@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamMarvel&Rhoda.htm",
     "birth_info": "2 Feb 1942",
     "death_info": "14 Jan 2024 (aged 81)",
@@ -76,7 +76,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamMarvel&Rhoda.htm",
+      "certainty": "confirmed",
+      "rel_id": 5527,
+      "rel_name": "Rhoda Seeney Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamMarvel&Rhoda.htm",
+      "certainty": "confirmed",
+      "rel_id": 5527,
+      "rel_name": "Rhoda Seeney Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamMarvel&Rhoda.htm",
+      "certainty": "confirmed",
+      "rel_id": 5533,
+      "rel_name": "Marvel Durham Jr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamMarvel&Rhoda.htm",
+      "certainty": "confirmed",
+      "rel_id": 5533,
+      "rel_name": "Marvel Durham Jr"
+    }
+  ],
   "photos": [
     {
       "person_id": 5534,
@@ -228,6 +261,17 @@
   "ancestry": {
     "id": 5534,
     "name": "Allen Durham",
-    "children": []
+    "children": [
+      {
+        "id": 5527,
+        "name": "Rhoda Seeney Durham",
+        "children": []
+      },
+      {
+        "id": 5527,
+        "name": "Rhoda Seeney Durham",
+        "children": []
+      }
+    ]
   }
 }

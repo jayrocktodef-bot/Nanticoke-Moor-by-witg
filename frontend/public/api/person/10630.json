@@ -82,14 +82,24 @@
       "date_string": "15 November, 1917",
       "place_string": null,
       "value_string": "married Mae SAMMONS on 15 November, 1917",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16176,
+          "fact_id": 12466,
+          "source_id": 1260,
+          "evidence_text": "Memorial assertion: Howard Mosley documented in FindAGrave Memorial #209362562.",
+          "source_title": "Record: FindAGrave Memorial 209362562",
+          "source_url": "https://www.findagrave.com/memorial/209362562/howard-mosley",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 16074,
       "person_id": 10630,
       "fact_type": "Census",
       "date_string": "1930",
-      "place_string": "District 2, Kent, Delaware, USA",
+      "place_string": "District 2, Kent County, Delaware",
       "value_string": "1930 US Federal Census: Son, age 17. Household: Harry C Mosley (Head, age 43), Ella Mosley (Wife, age 50), Howard Mosley (Son, age 17), Douglas Mosley (Son, age 10), Annie Mosley (Daughter, age 9), Walter Mosley (Grandson, age 4)",
       "citations": [
         {
@@ -128,6 +138,22 @@
       "certainty": "census_confirmed",
       "rel_id": 9482,
       "rel_name": "Ella N Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Howard Mosley married Mae Sammons (married Mae SAMMONS on 15 November, 1917)",
+      "certainty": "confirmed",
+      "rel_id": 11877,
+      "rel_name": "Mae Sammons"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Howard Mosley married Mae Sammons (married Mae SAMMONS on 15 November, 1917)",
+      "certainty": "confirmed",
+      "rel_id": 11877,
+      "rel_name": "Mae Sammons"
     }
   ],
   "photos": [

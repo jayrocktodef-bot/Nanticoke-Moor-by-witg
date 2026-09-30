@@ -82,7 +82,17 @@
       "date_string": "9 January, 1931",
       "place_string": null,
       "value_string": "married James Hughes    Daniel died on 9 January, 1931",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15437,
+          "fact_id": 11727,
+          "source_id": 967,
+          "evidence_text": "Memorial assertion: Mamie Durham documented in FindAGrave Memorial #47424967.",
+          "source_title": "Record: FindAGrave Memorial 47424967",
+          "source_url": "https://www.findagrave.com/memorial/47424967/mamie-durham",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13471,
@@ -256,7 +266,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mamie Durham married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mamie Durham married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    }
+  ],
   "photos": [
     {
       "person_id": 314,

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Harmon",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DavisReg&MackHarmon.htm",
     "birth_info": "20 Jul 1933",
     "death_info": "10 Jun 2023 (aged 89)",
@@ -76,7 +76,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DavisReg&MackHarmon.htm",
+      "certainty": "confirmed",
+      "rel_id": 4632,
+      "rel_name": "Cornell Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DavisReg&MackHarmon.htm",
+      "certainty": "confirmed",
+      "rel_id": 4632,
+      "rel_name": "Cornell Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DavisReg&MackHarmon.htm",
+      "certainty": "confirmed",
+      "rel_id": 4633,
+      "rel_name": "Reginald Davis Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DavisReg&MackHarmon.htm",
+      "certainty": "confirmed",
+      "rel_id": 4633,
+      "rel_name": "Reginald Davis Harmon"
+    }
+  ],
   "photos": [
     {
       "person_id": 4634,
@@ -102,6 +135,17 @@
   "ancestry": {
     "id": 4634,
     "name": "Macklin Harmon",
-    "children": []
+    "children": [
+      {
+        "id": 4632,
+        "name": "Cornell Harmon",
+        "children": []
+      },
+      {
+        "id": 4632,
+        "name": "Cornell Harmon",
+        "children": []
+      }
+    ]
   }
 }

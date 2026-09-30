@@ -77,7 +77,7 @@
           "citation_id": 14755,
           "fact_id": 15,
           "source_id": null,
-          "evidence_text": "Documented in bible-c1.htm: th eighteen hundred & sixty seven \n Obediah Cott the son of John Cott & Sallie Cott died July 25, \n1848\n \n Hevarin Cott the son of John & Sallie  Cott died May the (20th or 23rd) eighteen \t\thundred & ",
+          "evidence_text": "Documented in bible-c1.htm: th eighteen hundred & sixty seven \n Obediah Cott the son of John Cott & Sallie Cott died July 25, \n1848\n \n Hevarin Cott the son of John & Sallie Cott died May the (20th or 23rd) eighteen hundred &",
           "source_title": null,
           "source_url": null,
           "source_dataset": null
@@ -205,7 +205,17 @@
       "date_string": "abt 1820",
       "place_string": null,
       "value_string": "born Jan. 16, 1878",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15382,
+          "fact_id": 11672,
+          "source_id": 1,
+          "evidence_text": "...ughter of Thomas Carney and Sarah his wife was born Marth (4th?) A.D. 1839 John Wesley Cott and Sarah Cott were married January 28 A.D. 1862 Catherine Cott the daughter of John D. Cott & Sarah A. Cott was bo...",
+          "source_title": "Record: bible-c1.htm",
+          "source_url": "bible-c1.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     },
     {
       "fact_id": 12609,
@@ -440,7 +450,7 @@
       "person_id": 12,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 12",
       "citations": [
         {
@@ -479,6 +489,22 @@
       "certainty": "confirmed",
       "rel_id": 14,
       "rel_name": "Obediah Cott"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Bible Register: Obediah Cott the son of John Cott & Sallie Cott died July 25, 1848",
+      "certainty": "confirmed",
+      "rel_id": 14,
+      "rel_name": "Obediah Cott"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Bible Register: John Wesley the son of John Cott and Sarah his wife was born May the 27 A.D. 1838. Died Aug. 23, 1920",
+      "certainty": "confirmed",
+      "rel_id": 8,
+      "rel_name": "John Wesley"
     }
   ],
   "photos": [

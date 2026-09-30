@@ -6,7 +6,7 @@
     "middle_name": "to James",
     "maiden_name": "",
     "married_last_name": "Coker",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CokerJamesH&MaryEDurham.htm",
     "birth_info": null,
     "death_info": null,
@@ -38,13 +38,57 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CokerJamesH&MaryEDurham.htm",
+      "certainty": "confirmed",
+      "rel_id": 4225,
+      "rel_name": "Mary Elizabeth Durham Coker"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CokerJamesH&MaryEDurham.htm",
+      "certainty": "confirmed",
+      "rel_id": 4225,
+      "rel_name": "Mary Elizabeth Durham Coker"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CokerJamesH&MaryEDurham.htm",
+      "certainty": "confirmed",
+      "rel_id": 4227,
+      "rel_name": "Elizabeth Durham Coker"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CokerJamesH&MaryEDurham.htm",
+      "certainty": "confirmed",
+      "rel_id": 4227,
+      "rel_name": "Elizabeth Durham Coker"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 4228,
     "name": "Letter to James Coker",
-    "children": []
+    "children": [
+      {
+        "id": 4225,
+        "name": "Mary Elizabeth Durham Coker",
+        "children": []
+      },
+      {
+        "id": 4225,
+        "name": "Mary Elizabeth Durham Coker",
+        "children": []
+      }
+    ]
   }
 }

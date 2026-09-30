@@ -80,9 +80,19 @@
       "person_id": 5920,
       "fact_type": "Burial",
       "date_string": "1 Aug 1931",
-      "place_string": "1 Aug 1931 in Bethel Cemetery",
+      "place_string": "Bethel AME Cemetery, Smyrna, Kent County, Delaware",
       "value_string": "buried 1 Aug 1931 in Bethel Cemetery",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15892,
+          "fact_id": 12182,
+          "source_id": 1148,
+          "evidence_text": "Memorial assertion: Sarah Jane Sockum Harmon documented in FindAGrave Memorial #41176418.",
+          "source_title": "Record: FindAGrave Memorial 41176418",
+          "source_url": "https://www.findagrave.com/memorial/41176418/sarah-c-harmon",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 14431,
@@ -115,7 +125,7 @@
           "citation_id": 14237,
           "fact_id": 15435,
           "source_id": 843,
-          "evidence_text": "...H. or K. or B. Harmon, born abt 1853 in Delaware; died in (no record). He married Jane Catherine (Jackson) Harmon. ix Sarah Harmon. x Nicey Harmon. \u00a0 \u00a0 4 views of Emmanuel Harmons's land \u00a0 \u00a0 \u00a0 \u00a0 MAIN MENU \u00a0 EMAIL US \u00a0 \u00a0 MITSAWOKETT \"The History and...",
+          "evidence_text": "...H. or K. or B. Harmon, born abt 1853 in Delaware; died in (no record). He married Jane Catherine (Jackson) Harmon. ix Sarah Harmon. x Nicey Harmon. \u00a0 \u00a0 4 views of Emmanuel Harmons's land \u00a0 \u00a0 \u00a0 \u00a0 MAIN MENU \u00a0 \u00a0 MITSAWOKETT \"The History and...",
           "source_title": "Preserved Document: Mitsawokett: A 17th Century Native American Community in Central Delaware",
           "source_url": "HarmonEmmanuelProbate.htm",
           "source_dataset": "mitsawokett_primary"
@@ -123,7 +133,136 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5921,
+      "rel_name": "Isaac W. Harmon"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5921,
+      "rel_name": "Isaac W. Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5963,
+      "rel_name": "Thomas W. Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5963,
+      "rel_name": "Thomas W. Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5964,
+      "rel_name": "Levin T. Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5964,
+      "rel_name": "Levin T. Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5971,
+      "rel_name": "Noah C. Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5971,
+      "rel_name": "Noah C. Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5973,
+      "rel_name": "Lillie Mae Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5973,
+      "rel_name": "Lillie Mae Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5977,
+      "rel_name": "Eunice W. Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5977,
+      "rel_name": "Eunice W. Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5978,
+      "rel_name": "Nancy Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5978,
+      "rel_name": "Nancy Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5979,
+      "rel_name": "Ralph B. Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5979,
+      "rel_name": "Ralph B. Harmon"
+    }
+  ],
   "photos": [
     {
       "person_id": 5920,

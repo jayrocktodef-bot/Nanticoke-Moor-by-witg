@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Carter",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CarterCalvin&Family.htm",
     "birth_info": null,
     "death_info": null,
@@ -38,7 +38,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarterCalvin&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4385,
+      "rel_name": "Calvin Carter"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarterCalvin&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4385,
+      "rel_name": "Calvin Carter"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarterCalvin&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4386,
+      "rel_name": "Betty Grigsby Carter"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarterCalvin&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4386,
+      "rel_name": "Betty Grigsby Carter"
+    }
+  ],
   "photos": [
     {
       "person_id": 4393,
@@ -82,6 +115,17 @@
   "ancestry": {
     "id": 4393,
     "name": "Betty Carter",
-    "children": []
+    "children": [
+      {
+        "id": 4385,
+        "name": "Calvin Carter",
+        "children": []
+      },
+      {
+        "id": 4385,
+        "name": "Calvin Carter",
+        "children": []
+      }
+    ]
   }
 }

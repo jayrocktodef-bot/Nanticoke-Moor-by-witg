@@ -82,10 +82,37 @@
       "date_string": "9 January, 1931",
       "place_string": null,
       "value_string": "married James Hughes    Daniel died on 9 January, 1931",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15446,
+          "fact_id": 11736,
+          "source_id": 976,
+          "evidence_text": "Memorial assertion: Sarah E. Hughes documented in FindAGrave Memorial #198269837.",
+          "source_title": "Record: FindAGrave Memorial 198269837",
+          "source_url": "https://www.findagrave.com/memorial/198269837/sarah-hughes",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Sarah E. Hughes married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Sarah E. Hughes married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

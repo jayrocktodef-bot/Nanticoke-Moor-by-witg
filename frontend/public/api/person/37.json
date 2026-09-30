@@ -196,7 +196,17 @@
       "date_string": "30 October 1967",
       "place_string": null,
       "value_string": "married Burt Schroeder   Hopewell died on 30 October 1967",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15390,
+          "fact_id": 11680,
+          "source_id": 922,
+          "evidence_text": "Memorial assertion: Hopewell Umphrey Carter documented in FindAGrave Memorial #11038847.",
+          "source_title": "Record: FindAGrave Memorial 11038847",
+          "source_url": "https://www.findagrave.com/memorial/11038847/hopewell-carter",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12538,
@@ -351,7 +361,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Hopewell Umphrey Carter married Burt Schroeder (married Burt Schroeder   Hopewell died on 30 October 1967)",
+      "certainty": "confirmed",
+      "rel_id": 11873,
+      "rel_name": "Burt Schroeder"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Hopewell Umphrey Carter married Burt Schroeder (married Burt Schroeder   Hopewell died on 30 October 1967)",
+      "certainty": "confirmed",
+      "rel_id": 11873,
+      "rel_name": "Burt Schroeder"
+    }
+  ],
   "photos": [
     {
       "person_id": 37,

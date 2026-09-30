@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 4,
+    "evidence_level": 3,
     "source_page": "Probate.htm",
     "birth_info": null,
     "death_info": "July 25, 1848",
@@ -44,7 +44,17 @@
       "date_string": "July 25, 1848",
       "place_string": null,
       "value_string": "died July 25, 1848",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15602,
+          "fact_id": 11892,
+          "source_id": 658,
+          "evidence_text": "...Joel Durham Isaac Durham Elijah Durham John Durham Elizabeth Durham David Durham M...",
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     },
     {
       "fact_id": 12522,
@@ -298,7 +308,7 @@
       "person_id": 2233,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 5",
       "citations": [
         {
@@ -317,7 +327,7 @@
       "person_id": 2233,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 39",
       "citations": [
         {
@@ -336,7 +346,7 @@
       "person_id": 2233,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 51",
       "citations": [
         {
@@ -351,7 +361,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Bible Register Marriage: Elijah Durham a son of George Durham of Kent County & state Delaware was married to Ann Cott a daughter of John Cott senior of the same hundred county & state a",
+      "certainty": "confirmed",
+      "rel_id": 5,
+      "rel_name": "Ann Cott"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Bible Register Marriage: Elijah Durham a son of George Durham of Kent County & state Delaware was married to Ann Cott a daughter of John Cott senior of the same hundred county & state a",
+      "certainty": "confirmed",
+      "rel_id": 5,
+      "rel_name": "Ann Cott"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

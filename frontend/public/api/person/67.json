@@ -82,7 +82,17 @@
       "date_string": "27 March, 1848",
       "place_string": null,
       "value_string": "married  Henrietta Carty on 27 March, 1848",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15396,
+          "fact_id": 11686,
+          "source_id": 928,
+          "evidence_text": "Memorial assertion: Elmira Carty documented in FindAGrave Memorial #60215977.",
+          "source_title": "Record: FindAGrave Memorial 60215977",
+          "source_url": "https://www.findagrave.com/memorial/60215977/elmira-carty",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12557,
@@ -279,7 +289,7 @@
       "person_id": 67,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 8",
       "citations": [
         {
@@ -294,7 +304,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Elmira Carty married Henrietta Carty (married  Henrietta Carty on 27 March, 1848)",
+      "certainty": "confirmed",
+      "rel_id": 509,
+      "rel_name": "Henrietta Carty"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Elmira Carty married Henrietta Carty (married  Henrietta Carty on 27 March, 1848)",
+      "certainty": "confirmed",
+      "rel_id": 509,
+      "rel_name": "Henrietta Carty"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Hester Durham married Elmira Carty (married Elmira Carty    Sometime before 1838)",
+      "certainty": "confirmed",
+      "rel_id": 181,
+      "rel_name": "Hester Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Hester Durham married Elmira Carty (married Elmira Carty    Sometime before 1838)",
+      "certainty": "confirmed",
+      "rel_id": 181,
+      "rel_name": "Hester Durham"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

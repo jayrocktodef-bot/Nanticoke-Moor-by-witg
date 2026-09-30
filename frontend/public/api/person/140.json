@@ -82,7 +82,17 @@
       "date_string": "30 April 1921",
       "place_string": null,
       "value_string": "married William Thomas Reed on 30 April 1921",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15411,
+          "fact_id": 11701,
+          "source_id": 942,
+          "evidence_text": "Memorial assertion: Catherine Morgan documented in FindAGrave Memorial #228644723.",
+          "source_title": "Record: FindAGrave Memorial 228644723",
+          "source_url": "https://www.findagrave.com/memorial/228644723/catherine-morgan",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13091,
@@ -237,7 +247,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Catherine Morgan married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Catherine Morgan married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    }
+  ],
   "photos": [
     {
       "person_id": 140,

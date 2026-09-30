@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Hall",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HallAmos&Laura.htm",
     "birth_info": "21 Oct 1897",
     "death_info": "1 Apr 1975 (aged 77)",
@@ -76,7 +76,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HallAmos&Laura.htm",
+      "certainty": "confirmed",
+      "rel_id": 5885,
+      "rel_name": "Howard Hall"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HallAmos&Laura.htm",
+      "certainty": "confirmed",
+      "rel_id": 5885,
+      "rel_name": "Howard Hall"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HallAmos&Laura.htm",
+      "certainty": "confirmed",
+      "rel_id": 5886,
+      "rel_name": "Laura Katherine Thompson Hall"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HallAmos&Laura.htm",
+      "certainty": "confirmed",
+      "rel_id": 5886,
+      "rel_name": "Laura Katherine Thompson Hall"
+    }
+  ],
   "photos": [
     {
       "person_id": 5887,
@@ -210,6 +243,17 @@
   "ancestry": {
     "id": 5887,
     "name": "Amos Hall",
-    "children": []
+    "children": [
+      {
+        "id": 5885,
+        "name": "Howard Hall",
+        "children": []
+      },
+      {
+        "id": 5885,
+        "name": "Howard Hall",
+        "children": []
+      }
+    ]
   }
 }

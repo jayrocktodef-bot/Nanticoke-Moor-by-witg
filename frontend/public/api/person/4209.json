@@ -139,7 +139,17 @@
       "date_string": "22 Jul 1922",
       "place_string": null,
       "value_string": "married 22 Jul 1922",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15777,
+          "fact_id": 12067,
+          "source_id": 1109,
+          "evidence_text": "Memorial assertion: Rheba Dean Mosley Carter documented in FindAGrave Memorial #28671012.",
+          "source_title": "Record: FindAGrave Memorial 28671012",
+          "source_url": "https://www.findagrave.com/memorial/28671012/rheba-d-carter",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 15578,
@@ -161,7 +171,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarterGeoE&MosleyRheba.htm",
+      "certainty": "confirmed",
+      "rel_id": 4198,
+      "rel_name": "Eloise Hughes Carter"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarterGeoE&MosleyRheba.htm",
+      "certainty": "confirmed",
+      "rel_id": 4198,
+      "rel_name": "Eloise Hughes Carter"
+    }
+  ],
   "photos": [
     {
       "person_id": 4209,

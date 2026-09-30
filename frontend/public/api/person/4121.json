@@ -82,7 +82,17 @@
       "date_string": "14 December, 1889",
       "place_string": null,
       "value_string": "was born 14 December, 1889 .",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15752,
+          "fact_id": 12042,
+          "source_id": 234,
+          "evidence_text": "Archival assertion: was born 14 December, 1889 . (14 December, 1889) documented in primary lineage manifest.",
+          "source_title": "Record: ClarkLouiseWright&dauAnna.htm",
+          "source_url": "ClarkLouiseWright&dauAnna.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 12491,
@@ -91,10 +101,53 @@
       "date_string": "14 December, 1889",
       "place_string": null,
       "value_string": "was born 14 December, 1889 .",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16199,
+          "fact_id": 12491,
+          "source_id": 234,
+          "evidence_text": "Archival assertion: was born 14 December, 1889 . (14 December, 1889) documented in primary lineage manifest.",
+          "source_title": "Record: ClarkLouiseWright&dauAnna.htm",
+          "source_url": "ClarkLouiseWright&dauAnna.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ClarkLouiseWright&dauAnna.htm",
+      "certainty": "confirmed",
+      "rel_id": 4119,
+      "rel_name": "Anna Johnson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ClarkLouiseWright&dauAnna.htm",
+      "certainty": "confirmed",
+      "rel_id": 4119,
+      "rel_name": "Anna Johnson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ClarkLouiseWright&dauAnna.htm",
+      "certainty": "confirmed",
+      "rel_id": 4120,
+      "rel_name": "Dorsey Johnson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ClarkLouiseWright&dauAnna.htm",
+      "certainty": "confirmed",
+      "rel_id": 4120,
+      "rel_name": "Dorsey Johnson"
+    }
+  ],
   "photos": [
     {
       "person_id": 4121,
@@ -213,6 +266,17 @@
   "ancestry": {
     "id": 4121,
     "name": "Anna Clark Johnson",
-    "children": []
+    "children": [
+      {
+        "id": 4119,
+        "name": "Anna Johnson",
+        "children": []
+      },
+      {
+        "id": 4119,
+        "name": "Anna Johnson",
+        "children": []
+      }
+    ]
   }
 }

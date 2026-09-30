@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Beckett",
-    "evidence_level": 4,
+    "evidence_level": 3,
     "source_page": "Probate.htm",
     "birth_info": null,
     "death_info": null,
@@ -44,10 +44,37 @@
       "date_string": "9 January, 1931",
       "place_string": null,
       "value_string": "married James Hughes    Daniel died on 9 January, 1931",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15589,
+          "fact_id": 11879,
+          "source_id": 658,
+          "evidence_text": "...to law March 21, 1841 ........................ WILLIAM BECKETT - 1757 Will, Kent County K-1-162 (The following is the scanned product of an already-typed d...",
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William Beckett married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William Beckett married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

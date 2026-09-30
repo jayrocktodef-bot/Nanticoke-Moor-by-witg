@@ -82,7 +82,17 @@
       "date_string": "18 October 1916",
       "place_string": null,
       "value_string": "married Joel Clemons Smith on 18 October 1916",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15448,
+          "fact_id": 11738,
+          "source_id": 978,
+          "evidence_text": "Memorial assertion: William Burton Dean documented in FindAGrave Memorial #259520900.",
+          "source_title": "Record: FindAGrave Memorial 259520900",
+          "source_url": "https://www.findagrave.com/memorial/259520900/william-dean",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12765,
@@ -412,7 +422,7 @@
       "person_id": 364,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 45",
       "citations": [
         {
@@ -431,7 +441,7 @@
       "person_id": 364,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 7",
       "citations": [
         {
@@ -450,7 +460,7 @@
       "person_id": 364,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 67",
       "citations": [
         {
@@ -473,6 +483,22 @@
       "certainty": "confirmed",
       "rel_id": 365,
       "rel_name": "Caleb Dean"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William Burton Dean married Joel Clemons (married Joel Clemons Smith on 18 October 1916)",
+      "certainty": "confirmed",
+      "rel_id": 11881,
+      "rel_name": "Joel Clemons"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William Burton Dean married Joel Clemons (married Joel Clemons Smith on 18 October 1916)",
+      "certainty": "confirmed",
+      "rel_id": 11881,
+      "rel_name": "Joel Clemons"
     }
   ],
   "photos": [

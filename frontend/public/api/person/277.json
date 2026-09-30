@@ -82,14 +82,24 @@
       "date_string": "30 April 1921",
       "place_string": null,
       "value_string": "married William Thomas Reed on 30 April 1921",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15429,
+          "fact_id": 11719,
+          "source_id": 960,
+          "evidence_text": "Memorial assertion: Catherine Morgan Dean documented in FindAGrave Memorial #138319344.",
+          "source_title": "Record: FindAGrave Memorial 138319344",
+          "source_url": "https://www.findagrave.com/memorial/138319344/catherine-dean",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 15735,
       "person_id": 277,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 26",
       "citations": [
         {
@@ -108,7 +118,7 @@
       "person_id": 277,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'W' (White), age 36",
       "citations": [
         {
@@ -131,6 +141,22 @@
       "certainty": "confirmed",
       "rel_id": 278,
       "rel_name": "William H. Carney"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Catherine Morgan Dean married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Catherine Morgan Dean married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
     }
   ],
   "photos": [],

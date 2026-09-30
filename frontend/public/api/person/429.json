@@ -80,9 +80,19 @@
       "person_id": 429,
       "fact_type": "Marriage",
       "date_string": "1930",
-      "place_string": "1930 ? (possibly 1945 ) in Fairfield Township, Cumberland Co",
+      "place_string": "Fairfield Township, Cumberland County, New Jersey",
       "value_string": "married Wilbert Cuff    Rebecca died in 1930 ? (possibly 1945 ) in Fairfield Township, Cumberland Co",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15464,
+          "fact_id": 11754,
+          "source_id": 990,
+          "evidence_text": "Memorial assertion: Rebecca Jackson documented in FindAGrave Memorial #277669104.",
+          "source_title": "Record: FindAGrave Memorial 277669104",
+          "source_url": "https://www.findagrave.com/memorial/277669104/rebecca-jackson",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13744,
@@ -165,7 +175,7 @@
       "person_id": 429,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Sussex",
+      "place_string": "Sussex County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 8",
       "citations": [
         {
@@ -180,7 +190,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Rebecca Jackson married Wilbert Cuff (married Wilbert Cuff    Rebecca died in 1930 ? (possibly 1945 ) in Fairfield Township, Cumberland Co)",
+      "certainty": "confirmed",
+      "rel_id": 11883,
+      "rel_name": "Wilbert Cuff"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Rebecca Jackson married Wilbert Cuff (married Wilbert Cuff    Rebecca died in 1930 ? (possibly 1945 ) in Fairfield Township, Cumberland Co)",
+      "certainty": "confirmed",
+      "rel_id": 11883,
+      "rel_name": "Wilbert Cuff"
+    }
+  ],
   "photos": [
     {
       "person_id": 429,

@@ -53,7 +53,17 @@
       "date_string": "10 April, 1913",
       "place_string": null,
       "value_string": "married Clem Carney on 10 April, 1913",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15734,
+          "fact_id": 12024,
+          "source_id": 222,
+          "evidence_text": "Archival assertion: married Clem Carney on 10 April, 1913 (10 April, 1913) documented in primary lineage manifest.",
+          "source_title": "Record: CheswoldSchool.htm",
+          "source_url": "CheswoldSchool.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 13114,
@@ -151,7 +161,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Ann Carney married Clem Carney (married Clem Carney on 10 April, 1913)",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Ann Carney married Clem Carney (married Clem Carney on 10 April, 1913)",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    }
+  ],
   "photos": [
     {
       "person_id": 3965,

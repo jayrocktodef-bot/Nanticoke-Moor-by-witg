@@ -6,7 +6,7 @@
     "middle_name": "Kate Durham",
     "maiden_name": "",
     "married_last_name": "Pierce",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamJEH&Harriett.htm",
     "birth_info": "2 Dec 1820",
     "death_info": "20 Dec 1891 (aged 71)",
@@ -133,7 +133,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamJEH&Harriett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5507,
+      "rel_name": "Mary Durham Pierce"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamJEH&Harriett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5507,
+      "rel_name": "Mary Durham Pierce"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamJEH&Harriett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5514,
+      "rel_name": "Eleanor Pierce"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamJEH&Harriett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5514,
+      "rel_name": "Eleanor Pierce"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],

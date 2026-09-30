@@ -82,7 +82,17 @@
       "date_string": "October 28, 1896",
       "place_string": null,
       "value_string": "married Mary Elizabeth Clark on October 28, 1896",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16017,
+          "fact_id": 12307,
+          "source_id": 1202,
+          "evidence_text": "Memorial assertion: Isaac L. Sammons documented in FindAGrave Memorial #14514289.",
+          "source_title": "Record: FindAGrave Memorial 14514289",
+          "source_url": "https://www.findagrave.com/memorial/14514289/isaac-sammons",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12648,
@@ -203,7 +213,7 @@
       "person_id": 7239,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 50",
       "citations": [
         {
@@ -218,7 +228,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Isaac L. Sammons married Mary Elizabeth (married Mary Elizabeth Clark on October 28, 1896)",
+      "certainty": "confirmed",
+      "rel_id": 7237,
+      "rel_name": "Mary Elizabeth"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Isaac L. Sammons married Mary Elizabeth (married Mary Elizabeth Clark on October 28, 1896)",
+      "certainty": "confirmed",
+      "rel_id": 7237,
+      "rel_name": "Mary Elizabeth"
+    }
+  ],
   "photos": [
     {
       "person_id": 7239,

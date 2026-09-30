@@ -44,7 +44,17 @@
       "date_string": "22 Jul 1922",
       "place_string": null,
       "value_string": "married 22 Jul 1922",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15775,
+          "fact_id": 12065,
+          "source_id": 239,
+          "evidence_text": "Archival assertion: married 22 Jul 1922 (22 Jul 1922) documented in primary lineage manifest.",
+          "source_title": "Record: CarterGeoE&MosleyRheba.htm",
+          "source_url": "CarterGeoE&MosleyRheba.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 15577,
@@ -66,7 +76,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarterGeoE&MosleyRheba.htm",
+      "certainty": "confirmed",
+      "rel_id": 4208,
+      "rel_name": "Jeanette Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarterGeoE&MosleyRheba.htm",
+      "certainty": "confirmed",
+      "rel_id": 4208,
+      "rel_name": "Jeanette Mosley"
+    }
+  ],
   "photos": [
     {
       "person_id": 4207,

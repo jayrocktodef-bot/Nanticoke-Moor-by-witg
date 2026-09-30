@@ -139,7 +139,17 @@
       "date_string": "1827",
       "place_string": null,
       "value_string": "married sometime prior to 1827",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15414,
+          "fact_id": 11704,
+          "source_id": 945,
+          "evidence_text": "Memorial assertion: John H. Morgan documented in FindAGrave Memorial #228663322.",
+          "source_title": "Record: FindAGrave Memorial 228663322",
+          "source_url": "https://www.findagrave.com/memorial/228663322/john-morgan",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12753,
@@ -374,7 +384,7 @@
       "person_id": 149,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 10",
       "citations": [
         {
@@ -393,7 +403,7 @@
       "person_id": 149,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 20",
       "citations": [
         {
@@ -412,7 +422,7 @@
       "person_id": 149,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 29",
       "citations": [
         {
@@ -427,7 +437,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John H. Morgan married Sometime Prior (married sometime prior to 1827)",
+      "certainty": "confirmed",
+      "rel_id": 11880,
+      "rel_name": "Sometime Prior"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John H. Morgan married Sometime Prior (married sometime prior to 1827)",
+      "certainty": "confirmed",
+      "rel_id": 11880,
+      "rel_name": "Sometime Prior"
+    }
+  ],
   "photos": [
     {
       "person_id": 149,

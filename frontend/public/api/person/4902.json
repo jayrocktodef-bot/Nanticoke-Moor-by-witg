@@ -80,12 +80,39 @@
       "person_id": 4902,
       "fact_type": "Marriage",
       "date_string": "18 January, 1922",
-      "place_string": "Cheswold DE on 18 January, 1922",
+      "place_string": "Cheswold, Kent County, Delaware",
       "value_string": "married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15821,
+          "fact_id": 12111,
+          "source_id": 1127,
+          "evidence_text": "Memorial assertion: Iona Phillena Ikey Durham documented in FindAGrave Memorial #67435585.",
+          "source_title": "Record: FindAGrave Memorial 67435585",
+          "source_url": "https://www.findagrave.com/memorial/67435585/iona-durham",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Iona Phillena Ikey Durham married Sarah Durham (married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922)",
+      "certainty": "confirmed",
+      "rel_id": 2372,
+      "rel_name": "Sarah V. Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Iona Phillena Ikey Durham married Sarah Durham (married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922)",
+      "certainty": "confirmed",
+      "rel_id": 2372,
+      "rel_name": "Sarah V. Durham"
+    }
+  ],
   "photos": [
     {
       "person_id": 4902,

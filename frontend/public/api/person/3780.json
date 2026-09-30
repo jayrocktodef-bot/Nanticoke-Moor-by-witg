@@ -82,7 +82,17 @@
       "date_string": "1827",
       "place_string": null,
       "value_string": "married sometime prior to 1827",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15716,
+          "fact_id": 12006,
+          "source_id": 1085,
+          "evidence_text": "Memorial assertion: Sarah Pierce Carney documented in FindAGrave Memorial #135882108.",
+          "source_title": "Record: FindAGrave Memorial 135882108",
+          "source_url": "https://www.findagrave.com/memorial/135882108/sarah-carney",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12835,
@@ -161,7 +171,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Sarah Pierce Carney married Sometime Prior (married sometime prior to 1827)",
+      "certainty": "confirmed",
+      "rel_id": 11880,
+      "rel_name": "Sometime Prior"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Sarah Pierce Carney married Sometime Prior (married sometime prior to 1827)",
+      "certainty": "confirmed",
+      "rel_id": 11880,
+      "rel_name": "Sometime Prior"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarneyHerbert&SarahPierce.htm",
+      "certainty": "confirmed",
+      "rel_id": 3783,
+      "rel_name": "Benjamin Harrison Carney Sr"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarneyHerbert&SarahPierce.htm",
+      "certainty": "confirmed",
+      "rel_id": 3783,
+      "rel_name": "Benjamin Harrison Carney Sr"
+    }
+  ],
   "photos": [
     {
       "person_id": 3780,

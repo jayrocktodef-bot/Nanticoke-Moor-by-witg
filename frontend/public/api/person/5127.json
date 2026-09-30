@@ -44,14 +44,24 @@
       "date_string": "Dec. 22, 1958",
       "place_string": null,
       "value_string": "d. Dec. 22, 1958",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15836,
+          "fact_id": 12126,
+          "source_id": 303,
+          "evidence_text": "Archival assertion: d. Dec. 22, 1958 (Dec. 22, 1958) documented in primary lineage manifest.",
+          "source_title": "Record: DurhamHaroldF&LoisFerguson.htm",
+          "source_url": "DurhamHaroldF&LoisFerguson.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 15634,
       "person_id": 5127,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 10",
       "citations": [
         {
@@ -66,7 +76,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamHaroldF&LoisFerguson.htm",
+      "certainty": "confirmed",
+      "rel_id": 5128,
+      "rel_name": "Lois Ferguson Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamHaroldF&LoisFerguson.htm",
+      "certainty": "confirmed",
+      "rel_id": 5128,
+      "rel_name": "Lois Ferguson Durham"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

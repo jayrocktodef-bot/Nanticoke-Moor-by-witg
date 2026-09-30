@@ -61,9 +61,19 @@
       "person_id": 3905,
       "fact_type": "Marriage",
       "date_string": "Oct. 4, 1928",
-      "place_string": "Gratiot Co",
+      "place_string": "Gratiot County, Michigan",
       "value_string": "were married Oct. 4, 1928 in Gratiot Co",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15726,
+          "fact_id": 12016,
+          "source_id": 220,
+          "evidence_text": "Archival assertion: were married Oct. 4, 1928 in Gratiot Co at/in Gratiot Co (Oct. 4, 1928) documented in primary lineage manifest.",
+          "source_title": "Record: CarneyRobertJamesSr&Family.htm",
+          "source_url": "CarneyRobertJamesSr&Family.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 12863,
@@ -161,7 +171,56 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Bible Register: Clem Carney the son of Robert & Elmira Carney was born the 29th day of August 1869",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Bible Register: Clem Carney the son of Robert & Elmira Carney was born the 29th day of August 1869",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarneyRobertJamesSr&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 3904,
+      "rel_name": "Cordelia Mosley Carney"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarneyRobertJamesSr&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 3904,
+      "rel_name": "Cordelia Mosley Carney"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarneyRobertJamesSr&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 3906,
+      "rel_name": "Roy Carney"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarneyRobertJamesSr&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 3906,
+      "rel_name": "Roy Carney"
+    }
+  ],
   "photos": [
     {
       "person_id": 3905,

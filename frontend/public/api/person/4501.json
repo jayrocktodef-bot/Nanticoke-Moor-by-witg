@@ -42,9 +42,19 @@
       "person_id": 4501,
       "fact_type": "Death",
       "date_string": "1978",
-      "place_string": "1978",
+      "place_string": null,
       "value_string": "died in 1978",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15797,
+          "fact_id": 12087,
+          "source_id": 262,
+          "evidence_text": "Archival assertion: died in 1978 at/in 1978 (1978) documented in primary lineage manifest.",
+          "source_title": "Record: ChappelleJohn&Pearl.htm",
+          "source_url": "ChappelleJohn&Pearl.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 12923,
@@ -85,7 +95,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ChappelleJohn&Pearl.htm",
+      "certainty": "confirmed",
+      "rel_id": 4500,
+      "rel_name": "Charles Henry Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ChappelleJohn&Pearl.htm",
+      "certainty": "confirmed",
+      "rel_id": 4500,
+      "rel_name": "Charles Henry Mosley"
+    }
+  ],
   "photos": [
     {
       "person_id": 4501,

@@ -196,7 +196,17 @@
       "date_string": "4 August 1909",
       "place_string": null,
       "value_string": "married Alonzo DURHAM on 4 August 1909",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15702,
+          "fact_id": 11992,
+          "source_id": 1080,
+          "evidence_text": "Memorial assertion: Napoleon Bonaparte Morgan documented in FindAGrave Memorial #203315934.",
+          "source_title": "Record: FindAGrave Memorial 203315934",
+          "source_url": "https://www.findagrave.com/memorial/203315934/napoleon-morgan",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13828,
@@ -279,7 +289,7 @@
       "person_id": 3679,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 10",
       "citations": [
         {
@@ -294,7 +304,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Napoleon Bonaparte Morgan married Alonzo Durham (married Alonzo DURHAM on 4 August 1909)",
+      "certainty": "confirmed",
+      "rel_id": 3685,
+      "rel_name": "Alonzo Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Napoleon Bonaparte Morgan married Alonzo Durham (married Alonzo DURHAM on 4 August 1909)",
+      "certainty": "confirmed",
+      "rel_id": 3685,
+      "rel_name": "Alonzo Durham"
+    }
+  ],
   "photos": [
     {
       "person_id": 3679,

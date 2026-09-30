@@ -82,10 +82,69 @@
       "date_string": "18 December 1920",
       "place_string": null,
       "value_string": "married Howard Clifton Wilson on 18 December 1920",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16064,
+          "fact_id": 12354,
+          "source_id": 1238,
+          "evidence_text": "Memorial assertion: Charles Edward Wilson documented in FindAGrave Memorial #288479743.",
+          "source_title": "Record: FindAGrave Memorial 288479743",
+          "source_url": "https://www.findagrave.com/memorial/288479743/charles-wilson",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Charles Edward Wilson married Howard Clifton (married Howard Clifton Wilson on 18 December 1920)",
+      "certainty": "confirmed",
+      "rel_id": 8000,
+      "rel_name": "Howard Clifton"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Charles Edward Wilson married Howard Clifton (married Howard Clifton Wilson on 18 December 1920)",
+      "certainty": "confirmed",
+      "rel_id": 8000,
+      "rel_name": "Howard Clifton"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8025,
+      "rel_name": "Howard C. Wilson Sr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8025,
+      "rel_name": "Howard C. Wilson Sr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8032,
+      "rel_name": "Mary Augusta Carter Wilson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8032,
+      "rel_name": "Mary Augusta Carter Wilson"
+    }
+  ],
   "photos": [
     {
       "person_id": 8053,
@@ -158,6 +217,17 @@
   "ancestry": {
     "id": 8053,
     "name": "Charles Edward Wilson",
-    "children": []
+    "children": [
+      {
+        "id": 8025,
+        "name": "Howard C. Wilson Sr",
+        "children": []
+      },
+      {
+        "id": 8025,
+        "name": "Howard C. Wilson Sr",
+        "children": []
+      }
+    ]
   }
 }

@@ -44,7 +44,17 @@
       "date_string": "20 January, 1865",
       "place_string": null,
       "value_string": "married Isaac Mosley   On 20 January, 1865",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15510,
+          "fact_id": 11800,
+          "source_id": 103,
+          "evidence_text": "...ficult to read ---- some of the names of the purchasers were: James Mosley Henrietta Morgan (the widow) Isaac Johnson Elijah Durham Robert Dean Sherry Carney John Mosley George Drigers Levi Carney...",
+          "source_title": "Record: probt-m5.htm",
+          "source_url": "probt-m5.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     },
     {
       "fact_id": 14140,
@@ -89,7 +99,7 @@
       "person_id": 683,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 24",
       "citations": [
         {
@@ -108,7 +118,7 @@
       "person_id": 683,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 35",
       "citations": [
         {
@@ -123,7 +133,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Henrietta Morgan married Isaac Mosley (married Isaac Mosley   On 20 January, 1865)",
+      "certainty": "confirmed",
+      "rel_id": 11884,
+      "rel_name": "Isaac Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Henrietta Morgan married Isaac Mosley (married Isaac Mosley   On 20 January, 1865)",
+      "certainty": "confirmed",
+      "rel_id": 11884,
+      "rel_name": "Isaac Mosley"
+    }
+  ],
   "photos": [
     {
       "person_id": 683,

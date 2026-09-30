@@ -82,7 +82,17 @@
       "date_string": "23 September, 1900",
       "place_string": null,
       "value_string": "married Cassius MOSLEY on 23 September, 1900",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16144,
+          "fact_id": 12434,
+          "source_id": 1255,
+          "evidence_text": "Memorial assertion: Mary E. Clark documented in FindAGrave Memorial #107340353.",
+          "source_title": "Record: FindAGrave Memorial 107340353",
+          "source_url": "https://www.findagrave.com/memorial/107340353/mary-clark",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -93,6 +103,22 @@
       "certainty": "confirmed",
       "rel_id": 8514,
       "rel_name": "Elizabeth Morris"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary E. Clark married Cassius Mosley (married Cassius MOSLEY on 23 September, 1900)",
+      "certainty": "confirmed",
+      "rel_id": 11878,
+      "rel_name": "Cassius Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary E. Clark married Cassius Mosley (married Cassius MOSLEY on 23 September, 1900)",
+      "certainty": "confirmed",
+      "rel_id": 11878,
+      "rel_name": "Cassius Mosley"
     }
   ],
   "photos": [],

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Wright",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "27 Apr 1786 Salem County, New Jersey",
     "death_info": "23 Oct 1786 Salem County, New Jersey",
@@ -82,14 +82,24 @@
       "date_string": "1840",
       "place_string": null,
       "value_string": "married sometime before 1840",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16105,
+          "fact_id": 12395,
+          "source_id": 622,
+          "evidence_text": "Archival assertion: married sometime before 1840 (1840) documented in primary lineage manifest.",
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     },
     {
       "fact_id": 15904,
       "person_id": 9292,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Sussex",
+      "place_string": "Sussex County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 5",
       "citations": [
         {
@@ -120,6 +130,22 @@
       "certainty": "confirmed",
       "rel_id": 8684,
       "rel_name": "Priscilla Miller"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Sarah Wright married Sometime Before (married sometime before 1840)",
+      "certainty": "confirmed",
+      "rel_id": 11885,
+      "rel_name": "Sometime Before"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Sarah Wright married Sometime Before (married sometime before 1840)",
+      "certainty": "confirmed",
+      "rel_id": 11885,
+      "rel_name": "Sometime Before"
     }
   ],
   "photos": [

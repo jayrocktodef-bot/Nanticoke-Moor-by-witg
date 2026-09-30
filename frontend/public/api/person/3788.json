@@ -42,9 +42,19 @@
       "person_id": 3788,
       "fact_type": "Marriage",
       "date_string": "April 5, 1893",
-      "place_string": "the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
+      "place_string": "Jackson-Perkins Cemetery, Millsboro, Sussex County, Delaware",
       "value_string": "married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15718,
+          "fact_id": 12008,
+          "source_id": 209,
+          "evidence_text": "Archival assertion: married Ruth both are buried at the Jackson/Perkins Cemetary Mattie Jackson Nora Jackson (April 5, 1893 -Nov at/in the Jackson/Perkins Cemetary Mattie Jackson Nora Jackson (April 5, 1893 -Nov (April 5, 1893) documented in primary lineage manifest.",
+          "source_title": "Record: CarneyWanda.htm",
+          "source_url": "CarneyWanda.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 13830,
@@ -66,7 +76,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Ethel Sammons Carney married Ruth Both (married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov)",
+      "certainty": "confirmed",
+      "rel_id": 11882,
+      "rel_name": "Ruth Both"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Ethel Sammons Carney married Ruth Both (married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov)",
+      "certainty": "confirmed",
+      "rel_id": 11882,
+      "rel_name": "Ruth Both"
+    }
+  ],
   "photos": [
     {
       "person_id": 3788,

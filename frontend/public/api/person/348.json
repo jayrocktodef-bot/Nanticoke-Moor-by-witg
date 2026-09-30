@@ -82,7 +82,17 @@
       "date_string": "1858",
       "place_string": null,
       "value_string": "married  Araminta Sisco     Sometime before 1858",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15443,
+          "fact_id": 11733,
+          "source_id": 973,
+          "evidence_text": "Memorial assertion: Araminta Morgan documented in FindAGrave Memorial #5906675.",
+          "source_title": "Record: FindAGrave Memorial 5906675",
+          "source_url": "https://www.findagrave.com/memorial/5906675/araminta-morgan",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12883,
@@ -237,7 +247,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Araminta Morgan married Araminta Sisco (married  Araminta Sisco     Sometime before 1858)",
+      "certainty": "confirmed",
+      "rel_id": 503,
+      "rel_name": "Araminta Sisco"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Araminta Morgan married Araminta Sisco (married  Araminta Sisco     Sometime before 1858)",
+      "certainty": "confirmed",
+      "rel_id": 503,
+      "rel_name": "Araminta Sisco"
+    }
+  ],
   "photos": [
     {
       "person_id": 348,

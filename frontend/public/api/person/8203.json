@@ -63,7 +63,17 @@
       "date_string": "9 January, 1931",
       "place_string": null,
       "value_string": "married James Hughes    Daniel died on 9 January, 1931",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16071,
+          "fact_id": 12361,
+          "source_id": 622,
+          "evidence_text": "Archival assertion: married James Hughes Daniel died on 9 January, 1931 (9 January, 1931) documented in primary lineage manifest.",
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     },
     {
       "fact_id": 13595,
@@ -104,7 +114,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William Augustus Pierce married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William Augustus Pierce married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

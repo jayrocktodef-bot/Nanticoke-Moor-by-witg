@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 4,
+    "evidence_level": 3,
     "source_page": "Probate.htm",
     "birth_info": null,
     "death_info": null,
@@ -44,7 +44,17 @@
       "date_string": "30 April 1921",
       "place_string": null,
       "value_string": "married William Thomas Reed on 30 April 1921",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15618,
+          "fact_id": 11908,
+          "source_id": 658,
+          "evidence_text": "...; Robert Dean, 16; William Dean, 13; Hester Dean, 11; Annie Dean, 9; Ulysses Grant Dean, 4; has $83.55 on deposit at the Farmer's Bank, Dover, and is entitled to about $20...",
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     },
     {
       "fact_id": 13094,
@@ -161,7 +171,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Annie Dean married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Annie Dean married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    }
+  ],
   "photos": [
     {
       "person_id": 2351,

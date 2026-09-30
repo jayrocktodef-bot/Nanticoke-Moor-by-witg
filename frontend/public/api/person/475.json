@@ -82,7 +82,17 @@
       "date_string": "20 January, 1865",
       "place_string": null,
       "value_string": "married Isaac Mosley   On 20 January, 1865",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15474,
+          "fact_id": 11764,
+          "source_id": 999,
+          "evidence_text": "Memorial assertion: James K. Morgan documented in FindAGrave Memorial #288411430.",
+          "source_title": "Record: FindAGrave Memorial 288411430",
+          "source_url": "https://www.findagrave.com/memorial/288411430/james-morgan",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12575,
@@ -260,7 +270,7 @@
       "person_id": 475,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 29",
       "citations": [
         {
@@ -279,7 +289,7 @@
       "person_id": 475,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 565",
       "citations": [
         {
@@ -298,7 +308,7 @@
       "person_id": 475,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 12",
       "citations": [
         {
@@ -313,7 +323,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: James K. Morgan married Isaac Mosley (married Isaac Mosley   On 20 January, 1865)",
+      "certainty": "confirmed",
+      "rel_id": 11884,
+      "rel_name": "Isaac Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: James K. Morgan married Isaac Mosley (married Isaac Mosley   On 20 January, 1865)",
+      "certainty": "confirmed",
+      "rel_id": 11884,
+      "rel_name": "Isaac Mosley"
+    }
+  ],
   "photos": [
     {
       "person_id": 475,

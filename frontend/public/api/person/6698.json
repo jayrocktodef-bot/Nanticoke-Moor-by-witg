@@ -44,7 +44,17 @@
       "date_string": "30 April 1921",
       "place_string": null,
       "value_string": "married William Thomas Reed on 30 April 1921",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15956,
+          "fact_id": 12246,
+          "source_id": 481,
+          "evidence_text": "Archival assertion: married William Thomas Reed on 30 April 1921 (30 April 1921) documented in primary lineage manifest.",
+          "source_title": "Record: MosleyCharlesHenryFamily.htm",
+          "source_url": "MosleyCharlesHenryFamily.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 14928,
@@ -70,7 +80,7 @@
       "person_id": 6698,
       "fact_type": "Census",
       "date_string": "1900",
-      "place_string": "Kenton, Kent, Delaware",
+      "place_string": "Kenton Hundred, Kent County, Delaware",
       "value_string": "1900 US Federal Census: Mother-in-law, age 86. Household: Purnell P Mosley (Head, age 56), Eliza Mosley (Wife, age 52), Levi Mosley (Son, age 20), Ellen Mosley (Daughter, age 19), Rebecca Mosley (Daughter, age 16), Wingate Mosley (Son, age 14), Emma Mosley (Daughter, age 12), Thomas Mosley (Son, age 9), Alfred Mosley (Son, age 8), Annie Mosley (Mother-in-law, age 86)",
       "citations": [
         {
@@ -89,7 +99,7 @@
       "person_id": 6698,
       "fact_type": "Census",
       "date_string": "1930",
-      "place_string": "District 2, Kent, Delaware, USA",
+      "place_string": "District 2, Kent County, Delaware",
       "value_string": "1930 US Federal Census: Daughter, age 9. Household: Harry C Mosley (Head, age 43), Ella Mosley (Wife, age 50), Howard Mosley (Son, age 17), Douglas Mosley (Son, age 10), Annie Mosley (Daughter, age 9), Walter Mosley (Grandson, age 4)",
       "citations": [
         {
@@ -128,6 +138,22 @@
       "certainty": "census_confirmed",
       "rel_id": 9482,
       "rel_name": "Ella N Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Annie Mosley married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Annie Mosley married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
     }
   ],
   "photos": [

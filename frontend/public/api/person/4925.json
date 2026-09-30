@@ -6,7 +6,7 @@
     "middle_name": "Green",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamBen&Sally.htm",
     "birth_info": "10 May 1878",
     "death_info": "2 Mar 1965 (aged 86)",
@@ -80,7 +80,7 @@
       "person_id": 4925,
       "fact_type": "Racial Classification",
       "date_string": "1840",
-      "place_string": "Kenton Hd.",
+      "place_string": "Kenton Hundred, Kent County, Delaware",
       "value_string": "Enumerated as 'B' (Black)",
       "citations": [
         {
@@ -95,7 +95,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamBen&Sally.htm",
+      "certainty": "confirmed",
+      "rel_id": 4924,
+      "rel_name": "Franklin Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamBen&Sally.htm",
+      "certainty": "confirmed",
+      "rel_id": 4924,
+      "rel_name": "Franklin Durham"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],

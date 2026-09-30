@@ -42,9 +42,19 @@
       "person_id": 6115,
       "fact_type": "Marriage",
       "date_string": "1919",
-      "place_string": "the Jackson/Perkins Cemetary   Clifford Jackson ( 1919 - 1972 ) buried at the Jackson/Perkins Cemetary Philip A",
+      "place_string": "Jackson-Perkins Cemetery, Millsboro, Sussex County, Delaware",
       "value_string": "married Ruth both are buried at the Jackson/Perkins Cemetary   Clifford Jackson ( 1919 - 1972 ) buried at the Jackson/Perkins Cemetary Philip A",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15911,
+          "fact_id": 12201,
+          "source_id": 381,
+          "evidence_text": "Archival assertion: married Ruth both are buried at the Jackson/Perkins Cemetary Clifford Jackson ( 1919 - 1972 ) buried at the Jackson/Perkins Cemetary Philip A at/in the Jackson/Perkins Cemetary Clifford Jackson ( 1919 - 1972 ) buried at the Jackson/Perkins Cemetary Philip A (1919) documented in primary lineage manifest.",
+          "source_title": "Record: JacksonCliffordT.htm",
+          "source_url": "JacksonCliffordT.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 13832,
@@ -66,7 +76,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Clifford T. Jackson married Ruth Both (married Ruth both are buried at the Jackson/Perkins Cemetary   Clifford Jackson ( 1919 - 1972 ) buried at the Jackson/Perkins Cemetary Philip A)",
+      "certainty": "confirmed",
+      "rel_id": 11882,
+      "rel_name": "Ruth Both"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Clifford T. Jackson married Ruth Both (married Ruth both are buried at the Jackson/Perkins Cemetary   Clifford Jackson ( 1919 - 1972 ) buried at the Jackson/Perkins Cemetary Philip A)",
+      "certainty": "confirmed",
+      "rel_id": 11882,
+      "rel_name": "Ruth Both"
+    }
+  ],
   "photos": [
     {
       "person_id": 6115,

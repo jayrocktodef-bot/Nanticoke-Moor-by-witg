@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 4,
+    "evidence_level": 3,
     "source_page": "Probate.htm",
     "birth_info": "1888",
     "death_info": "7 Oct 1936 (aged 47\u201348)",
@@ -91,7 +91,17 @@
       "date_string": "1858",
       "place_string": null,
       "value_string": "married  Araminta Sisco     Sometime before 1858",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15612,
+          "fact_id": 11902,
+          "source_id": 1043,
+          "evidence_text": "Memorial assertion: Rebecca Durham documented in FindAGrave Memorial #201665191.",
+          "source_title": "Record: FindAGrave Memorial 201665191",
+          "source_url": "https://www.findagrave.com/memorial/201665191/rebecca-durham",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13423,
@@ -250,7 +260,7 @@
       "person_id": 2317,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 38",
       "citations": [
         {
@@ -273,6 +283,22 @@
       "certainty": "inferred_nlp",
       "rel_id": 10934,
       "rel_name": "Buena Boni Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Rebecca Durham married Araminta Sisco (married  Araminta Sisco     Sometime before 1858)",
+      "certainty": "confirmed",
+      "rel_id": 503,
+      "rel_name": "Araminta Sisco"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Rebecca Durham married Araminta Sisco (married  Araminta Sisco     Sometime before 1858)",
+      "certainty": "confirmed",
+      "rel_id": 503,
+      "rel_name": "Araminta Sisco"
     }
   ],
   "photos": [],
@@ -285,7 +311,7 @@
       "birth_date": "",
       "death_date": "2012",
       "cemetery_location": "",
-      "full_text": "Buena \"Boni\" Durham, 92, passed away April 7, 2012 of natural causes \n  in Yuma, Az. Mrs. Durham is survived by her sisters, Marie Turner, Los Angeles \n  Area and Nola Buffins, Honolulu. She is also survived by six children, Benjamin \n  Durham, Manteca, Katharine Durham, Los Angeles, Margaret Mckinzie, Yuma, Gwendolyn \n  Cureton, San Jose, Nola Williams, San Jose, Ernest Durham, Oakland and 12 grandchildren, \n  25 great-grandchildren and 1 great-great-grandchild. She was preceded in death \n  by her husband Leonard Durham and her daughters, Lynell Durham and Rebecca Durham.",
+      "full_text": "Buena \"Boni\" Durham, 92, passed away April 7, 2012 of natural causes \n in Yuma, Az. Mrs. Durham is survived by her sisters, Marie Turner, Los Angeles \n Area and Nola Buffins, Honolulu. She is also survived by six children, Benjamin \n Durham, Manteca, Katharine Durham, Los Angeles, Margaret Mckinzie, Yuma, Gwendolyn \n Cureton, San Jose, Nola Williams, San Jose, Ernest Durham, Oakland and 12 grandchildren, \n 25 great-grandchildren and 1 great-great-grandchild. She was preceded in death \n by her husband Leonard Durham and her daughters, Lynell Durham and Rebecca Durham.",
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],

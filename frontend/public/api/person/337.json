@@ -76,6 +76,44 @@
       ]
     },
     {
+      "fact_id": 11568,
+      "person_id": 337,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "daughter Hannah",
+      "citations": [
+        {
+          "citation_id": 11161,
+          "fact_id": 11568,
+          "source_id": 659,
+          "evidence_text": "...my case it talks about Jeremiah Councilor son of Elijah and Jeremiah's widow Elizabeth. It also states that Jeremiah's daughter Hannah married Perry Cork. 4 Oct 1864 Kent Co. (Delaware) Orphan's Court Petition of Joel Durham of Dover Hd. states he is...",
+          "source_title": "Record: Durham%20Joel%20Petition%201864.htm",
+          "source_url": "Durham%20Joel%20Petition%201864.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 12518,
+      "person_id": 337,
+      "fact_type": "Death",
+      "date_string": "1840",
+      "place_string": null,
+      "value_string": "d. 1840",
+      "citations": [
+        {
+          "citation_id": 16225,
+          "fact_id": 12518,
+          "source_id": 659,
+          "evidence_text": "...Elijah and Jeremiah's widow Elizabeth. It also states that Jeremiah's daughter Hannah married Perry Cork. 4 Oct 1864 Kent Co. (Delaware) Orphan's Court Petition of Joel Durham of Dover Hd. state...",
+          "source_title": "Record: Durham%20Joel%20Petition%201864.htm",
+          "source_url": "Durham%20Joel%20Petition%201864.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
       "fact_id": 12953,
       "person_id": 337,
       "fact_type": "Document Mention",
@@ -236,6 +274,22 @@
       "certainty": "confirmed",
       "rel_id": 183,
       "rel_name": "Elijah Concilor"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "daughter Hannah married Perry Cork.",
+      "certainty": "confirmed",
+      "rel_id": 186,
+      "rel_name": "Perry Cork"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Bible Register Marriage: Hannah Durham married to Elijah Concilor",
+      "certainty": "confirmed",
+      "rel_id": 183,
+      "rel_name": "Elijah Concilor"
     }
   ],
   "photos": [],
@@ -250,6 +304,26 @@
       "description": "Multiple disjoint occurrences of 'Hannah Durham' \u2014 requires human review",
       "evidence": "source: durhm-j1.htm, matches: 19",
       "created_at": "2026-09-03T12:54:23.360997"
+    },
+    {
+      "id": 7404,
+      "category": "AMBIGUOUS_MATCH",
+      "severity": "warning",
+      "person_id": 337,
+      "person_id_secondary": null,
+      "description": "Multiple disjoint occurrences of 'daughter Hannah' \u2014 requires human review",
+      "evidence": "source: Durham%20Joel%20Petition%201864.htm, matches: 3",
+      "created_at": "2026-09-03T12:56:05.268052"
+    },
+    {
+      "id": 7405,
+      "category": "ENRICHMENT_ADDED",
+      "severity": "info",
+      "person_id": 337,
+      "person_id_secondary": null,
+      "description": "[XPAGE:concl-j1.htm] Death: date='1840'",
+      "evidence": "verbatim: d. 1840",
+      "created_at": "2026-09-03T12:56:05.271657"
     }
   ],
   "ancestry": {

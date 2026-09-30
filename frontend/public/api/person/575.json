@@ -44,7 +44,17 @@
       "date_string": "10 April, 1913",
       "place_string": null,
       "value_string": "married Clem Carney on 10 April, 1913",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15500,
+          "fact_id": 11790,
+          "source_id": 569,
+          "evidence_text": "...abeth Carty : (4/20/ 1821 - 3/26/ 1901 ) John Clayton Coker ( 1884 - 1915 ) Robert J. Coker (9/7/ 1874 - died after 1957 ) Hester Annie Cork : (1/4/ 1837 - 8/23/ 1904 ) Anna B. Davis Mary Ann Dean...",
+          "source_title": "Record: photo.htm",
+          "source_url": "photo.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 14365,
@@ -66,7 +76,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Robert J. Coker married Clem Carney (married Clem Carney on 10 April, 1913)",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Robert J. Coker married Clem Carney (married Clem Carney on 10 April, 1913)",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    }
+  ],
   "photos": [
     {
       "person_id": 575,

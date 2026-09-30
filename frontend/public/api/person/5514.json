@@ -95,7 +95,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamJEH&Harriett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5507,
+      "rel_name": "Mary Durham Pierce"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamJEH&Harriett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5507,
+      "rel_name": "Mary Durham Pierce"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamJEH&Harriett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5509,
+      "rel_name": "Catherine Kate Durham Pierce"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamJEH&Harriett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5509,
+      "rel_name": "Catherine Kate Durham Pierce"
+    }
+  ],
   "photos": [
     {
       "person_id": 5514,
@@ -121,6 +154,17 @@
   "ancestry": {
     "id": 5514,
     "name": "Eleanor Pierce",
-    "children": []
+    "children": [
+      {
+        "id": 5507,
+        "name": "Mary Durham Pierce",
+        "children": []
+      },
+      {
+        "id": 5507,
+        "name": "Mary Durham Pierce",
+        "children": []
+      }
+    ]
   }
 }

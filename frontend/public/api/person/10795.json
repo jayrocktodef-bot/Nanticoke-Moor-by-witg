@@ -82,7 +82,17 @@
       "date_string": "23 September, 1900",
       "place_string": null,
       "value_string": "married Cassius MOSLEY on 23 September, 1900",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16183,
+          "fact_id": 12473,
+          "source_id": 1262,
+          "evidence_text": "Memorial assertion: William C Mosley documented in FindAGrave Memorial #191208007.",
+          "source_title": "Record: FindAGrave Memorial 191208007",
+          "source_url": "https://www.findagrave.com/memorial/191208007/william-mosley",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13684,
@@ -108,7 +118,7 @@
       "person_id": 10795,
       "fact_type": "Census",
       "date_string": "1930",
-      "place_string": "Commercial, Cumberland, New Jersey, USA",
+      "place_string": "Commercial Township, Cumberland County, New Jersey",
       "value_string": "1930 US Federal Census: Son, age 7. Household: John H Mosley (Head, age 30), Anna Mosley (Wife, age 29), William C Mosley (Son, age 7), Ida M Mosley (Daughter, age 2)",
       "citations": [
         {
@@ -147,6 +157,22 @@
       "certainty": "census_confirmed",
       "rel_id": 1046,
       "rel_name": "John H Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William C Mosley married Cassius Mosley (married Cassius MOSLEY on 23 September, 1900)",
+      "certainty": "confirmed",
+      "rel_id": 11878,
+      "rel_name": "Cassius Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William C Mosley married Cassius Mosley (married Cassius MOSLEY on 23 September, 1900)",
+      "certainty": "confirmed",
+      "rel_id": 11878,
+      "rel_name": "Cassius Mosley"
     }
   ],
   "photos": [

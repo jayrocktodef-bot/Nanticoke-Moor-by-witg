@@ -137,9 +137,19 @@
       "person_id": 5007,
       "fact_type": "Marriage",
       "date_string": "18 January, 1922",
-      "place_string": "Cheswold DE on 18 January, 1922",
+      "place_string": "Cheswold, Kent County, Delaware",
       "value_string": "married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15831,
+          "fact_id": 12121,
+          "source_id": 1132,
+          "evidence_text": "Memorial assertion: Mary Elizabeth Durham documented in FindAGrave Memorial #228935118.",
+          "source_title": "Record: FindAGrave Memorial 228935118",
+          "source_url": "https://www.findagrave.com/memorial/228935118/mary-durham",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12967,
@@ -374,7 +384,7 @@
       "person_id": 5007,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 16",
       "citations": [
         {
@@ -393,7 +403,7 @@
       "person_id": 5007,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 55",
       "citations": [
         {
@@ -416,6 +426,38 @@
       "certainty": "confirmed",
       "rel_id": 180,
       "rel_name": "George Clark"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary Elizabeth Durham married Sarah Durham (married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922)",
+      "certainty": "confirmed",
+      "rel_id": 2372,
+      "rel_name": "Sarah V. Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary Elizabeth Durham married Sarah Durham (married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922)",
+      "certainty": "confirmed",
+      "rel_id": 2372,
+      "rel_name": "Sarah V. Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamBenjaminR&AnnaFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 5001,
+      "rel_name": "Mae Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamBenjaminR&AnnaFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 5001,
+      "rel_name": "Mae Durham"
     }
   ],
   "photos": [

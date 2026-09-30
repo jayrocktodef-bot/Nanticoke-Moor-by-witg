@@ -44,7 +44,17 @@
       "date_string": "Aug. 10, 1995",
       "place_string": null,
       "value_string": "d. Aug. 10, 1995",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16003,
+          "fact_id": 12293,
+          "source_id": 536,
+          "evidence_text": "Archival assertion: d. Aug. 10, 1995 (Aug. 10, 1995) documented in primary lineage manifest.",
+          "source_title": "Record: ReedCharlesBuck&Family.htm",
+          "source_url": "ReedCharlesBuck&Family.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 13541,
@@ -104,7 +114,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7062,
+      "rel_name": "William Thomas Reed"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7062,
+      "rel_name": "William Thomas Reed"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7063,
+      "rel_name": "Mary Mosley Reed"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7063,
+      "rel_name": "Mary Mosley Reed"
+    }
+  ],
   "photos": [
     {
       "person_id": 7073,
@@ -213,6 +256,17 @@
   "ancestry": {
     "id": 7073,
     "name": "Allen Thomas Reed",
-    "children": []
+    "children": [
+      {
+        "id": 7062,
+        "name": "William Thomas Reed",
+        "children": []
+      },
+      {
+        "id": 7062,
+        "name": "William Thomas Reed",
+        "children": []
+      }
+    ]
   }
 }

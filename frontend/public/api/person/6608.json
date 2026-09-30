@@ -80,12 +80,55 @@
       "person_id": 6608,
       "fact_type": "Burial",
       "date_string": "1851",
-      "place_string": "John Wesley  Church is a SELLEYSTEAN HANSLEY ( 1851 - 1882 )",
+      "place_string": "John Wesley United Methodist Cemetery, Milford, Sussex County, Delaware",
       "value_string": "buried at John Wesley  Church is a SELLEYSTEAN HANSLEY ( 1851 - 1882 )",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15943,
+          "fact_id": 12233,
+          "source_id": 1168,
+          "evidence_text": "Memorial assertion: Elva Mosley documented in FindAGrave Memorial #12146527.",
+          "source_title": "Record: FindAGrave Memorial 12146527",
+          "source_url": "https://www.findagrave.com/memorial/12146527/elva-a-mosley",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MosleyKermit&ElvaFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 6606,
+      "rel_name": "Elva Perry Mosley"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MosleyKermit&ElvaFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 6606,
+      "rel_name": "Elva Perry Mosley"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MosleyKermit&ElvaFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 6607,
+      "rel_name": "Kermit Mosley"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MosleyKermit&ElvaFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 6607,
+      "rel_name": "Kermit Mosley"
+    }
+  ],
   "photos": [
     {
       "person_id": 6608,
@@ -140,6 +183,17 @@
   "ancestry": {
     "id": 6608,
     "name": "Elva Mosley",
-    "children": []
+    "children": [
+      {
+        "id": 6606,
+        "name": "Elva Perry Mosley",
+        "children": []
+      },
+      {
+        "id": 6606,
+        "name": "Elva Perry Mosley",
+        "children": []
+      }
+    ]
   }
 }

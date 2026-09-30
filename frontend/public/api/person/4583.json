@@ -6,7 +6,7 @@
     "middle_name": "Reed",
     "maiden_name": "",
     "married_last_name": "Ridgeway",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CustisCarol&Lorraine&Parker.htm",
     "birth_info": "4 Jan 1907",
     "death_info": "12 Sep 2002 (aged 95)",
@@ -76,7 +76,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CustisCarol&Lorraine&Parker.htm",
+      "certainty": "confirmed",
+      "rel_id": 4576,
+      "rel_name": "Viola Reed Ridgeway"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CustisCarol&Lorraine&Parker.htm",
+      "certainty": "confirmed",
+      "rel_id": 4576,
+      "rel_name": "Viola Reed Ridgeway"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CustisCarol&Lorraine&Parker.htm",
+      "certainty": "confirmed",
+      "rel_id": 4578,
+      "rel_name": "Winfield Ridgeway Sr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CustisCarol&Lorraine&Parker.htm",
+      "certainty": "confirmed",
+      "rel_id": 4578,
+      "rel_name": "Winfield Ridgeway Sr"
+    }
+  ],
   "photos": [
     {
       "person_id": 4583,
@@ -102,6 +135,17 @@
   "ancestry": {
     "id": 4583,
     "name": "Ola Reed Ridgeway",
-    "children": []
+    "children": [
+      {
+        "id": 4576,
+        "name": "Viola Reed Ridgeway",
+        "children": []
+      },
+      {
+        "id": 4576,
+        "name": "Viola Reed Ridgeway",
+        "children": []
+      }
+    ]
   }
 }

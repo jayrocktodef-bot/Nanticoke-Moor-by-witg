@@ -6,7 +6,7 @@
     "middle_name": "Weldon",
     "maiden_name": "Morris",
     "married_last_name": "Morris",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "5 June 1899 Lewes, Sussex County, Delaware, United States of America",
     "death_info": "11 August 1965 Lewes, Sussex County, Delaware, United States of America",
@@ -82,7 +82,17 @@
       "date_string": "4 August 1909",
       "place_string": null,
       "value_string": "married Alonzo DURHAM on 4 August 1909",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16082,
+          "fact_id": 12372,
+          "source_id": 622,
+          "evidence_text": "Archival assertion: married Alonzo DURHAM on 4 August 1909 (4 August 1909) documented in primary lineage manifest.",
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -101,6 +111,22 @@
       "certainty": "confirmed",
       "rel_id": 8915,
       "rel_name": "John Weldon Morris Jr"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John Weldon Morris Sr married Alonzo Durham (married Alonzo DURHAM on 4 August 1909)",
+      "certainty": "confirmed",
+      "rel_id": 3685,
+      "rel_name": "Alonzo Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John Weldon Morris Sr married Alonzo Durham (married Alonzo DURHAM on 4 August 1909)",
+      "certainty": "confirmed",
+      "rel_id": 3685,
+      "rel_name": "Alonzo Durham"
     }
   ],
   "photos": [],

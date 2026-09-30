@@ -82,14 +82,24 @@
       "date_string": "22 Jul 1922",
       "place_string": null,
       "value_string": "married 22 Jul 1922",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15815,
+          "fact_id": 12105,
+          "source_id": 1124,
+          "evidence_text": "Memorial assertion: George Elwood Dick Carter documented in FindAGrave Memorial #288041442.",
+          "source_title": "Record: FindAGrave Memorial 288041442",
+          "source_url": "https://www.findagrave.com/memorial/288041442/george-carter",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 15794,
       "person_id": 4824,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 24",
       "citations": [
         {
@@ -104,7 +114,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarterGeorge&SallyBelleCarney.htm",
+      "certainty": "confirmed",
+      "rel_id": 4816,
+      "rel_name": "Sally Belle Carney Carter"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarterGeorge&SallyBelleCarney.htm",
+      "certainty": "confirmed",
+      "rel_id": 4816,
+      "rel_name": "Sally Belle Carney Carter"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarterGeorge&SallyBelleCarney.htm",
+      "certainty": "confirmed",
+      "rel_id": 4820,
+      "rel_name": "Sally Carney Carter"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarterGeorge&SallyBelleCarney.htm",
+      "certainty": "confirmed",
+      "rel_id": 4820,
+      "rel_name": "Sally Carney Carter"
+    }
+  ],
   "photos": [
     {
       "person_id": 4824,
@@ -249,6 +292,17 @@
   "ancestry": {
     "id": 4824,
     "name": "George Elwood Dick Carter",
-    "children": []
+    "children": [
+      {
+        "id": 4816,
+        "name": "Sally Belle Carney Carter",
+        "children": []
+      },
+      {
+        "id": 4816,
+        "name": "Sally Belle Carney Carter",
+        "children": []
+      }
+    ]
   }
 }

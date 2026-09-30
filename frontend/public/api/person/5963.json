@@ -44,10 +44,53 @@
       "date_string": "January 6th, 1896",
       "place_string": null,
       "value_string": "d.  January 6th, 1896",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15897,
+          "fact_id": 12187,
+          "source_id": 360,
+          "evidence_text": "Archival assertion: d. January 6th, 1896 (January 6th, 1896) documented in primary lineage manifest.",
+          "source_title": "Record: HarmonIsaacW&SarahSockum.htm",
+          "source_url": "HarmonIsaacW&SarahSockum.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5920,
+      "rel_name": "Sarah Jane Sockum Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5920,
+      "rel_name": "Sarah Jane Sockum Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5921,
+      "rel_name": "Isaac W. Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5921,
+      "rel_name": "Isaac W. Harmon"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [
@@ -65,6 +108,17 @@
   "ancestry": {
     "id": 5963,
     "name": "Thomas W. Harmon",
-    "children": []
+    "children": [
+      {
+        "id": 5920,
+        "name": "Sarah Jane Sockum Harmon",
+        "children": []
+      },
+      {
+        "id": 5920,
+        "name": "Sarah Jane Sockum Harmon",
+        "children": []
+      }
+    ]
   }
 }

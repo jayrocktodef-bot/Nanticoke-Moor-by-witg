@@ -6,7 +6,7 @@
     "middle_name": "Annie",
     "maiden_name": "",
     "married_last_name": "Green",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "GrinageJames&Harriet.htm",
     "birth_info": "1853",
     "death_info": "23 Nov 1916 (aged 62\u201363)",
@@ -76,7 +76,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier GrinageJames&Harriet.htm",
+      "certainty": "confirmed",
+      "rel_id": 5645,
+      "rel_name": "James Green"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier GrinageJames&Harriet.htm",
+      "certainty": "confirmed",
+      "rel_id": 5645,
+      "rel_name": "James Green"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],

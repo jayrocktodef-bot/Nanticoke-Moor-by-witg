@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Wilson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "WilsonHowardC&BessieMosley.htm",
     "birth_info": "28 Mar 1939",
     "death_info": "7 Apr 2024 (aged 85)",
@@ -76,13 +76,57 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8025,
+      "rel_name": "Howard C. Wilson Sr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8025,
+      "rel_name": "Howard C. Wilson Sr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8032,
+      "rel_name": "Mary Augusta Carter Wilson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8032,
+      "rel_name": "Mary Augusta Carter Wilson"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 8037,
     "name": "Geneva Wilson",
-    "children": []
+    "children": [
+      {
+        "id": 8025,
+        "name": "Howard C. Wilson Sr",
+        "children": []
+      },
+      {
+        "id": 8025,
+        "name": "Howard C. Wilson Sr",
+        "children": []
+      }
+    ]
   }
 }

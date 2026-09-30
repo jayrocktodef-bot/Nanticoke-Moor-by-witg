@@ -6,7 +6,7 @@
     "middle_name": "of Parker",
     "maiden_name": "",
     "married_last_name": "Custis",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CustisCarol&Lorraine&Parker.htm",
     "birth_info": "unknown",
     "death_info": "6 Dec 1856",
@@ -76,13 +76,57 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CustisCarol&Lorraine&Parker.htm",
+      "certainty": "confirmed",
+      "rel_id": 4584,
+      "rel_name": "Lorraine Custis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CustisCarol&Lorraine&Parker.htm",
+      "certainty": "confirmed",
+      "rel_id": 4584,
+      "rel_name": "Lorraine Custis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CustisCarol&Lorraine&Parker.htm",
+      "certainty": "confirmed",
+      "rel_id": 4590,
+      "rel_name": "Son-in-law Peter Parker Custis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CustisCarol&Lorraine&Parker.htm",
+      "certainty": "confirmed",
+      "rel_id": 4590,
+      "rel_name": "Son-in-law Peter Parker Custis"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 4596,
     "name": "Children of Parker Custis",
-    "children": []
+    "children": [
+      {
+        "id": 4584,
+        "name": "Lorraine Custis",
+        "children": []
+      },
+      {
+        "id": 4584,
+        "name": "Lorraine Custis",
+        "children": []
+      }
+    ]
   }
 }

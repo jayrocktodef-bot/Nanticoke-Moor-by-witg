@@ -125,7 +125,7 @@
           "citation_id": 14771,
           "fact_id": 15961,
           "source_id": null,
-          "evidence_text": "Documented in bible-c1.htm:  A. Cott died June the 5th eighteen hundred & sixty seven \n Obediah Cott the son of John Cott & Sallie Cott died July 25, \n1848\n \n Hevarin Cott the son of John & Sallie  Cott died May the (20th or 23r",
+          "evidence_text": "Documented in bible-c1.htm: A. Cott died June the 5th eighteen hundred & sixty seven \n Obediah Cott the son of John Cott & Sallie Cott died July 25, \n1848\n \n Hevarin Cott the son of John & Sallie Cott died May the (20th or 23r",
           "source_title": null,
           "source_url": null,
           "source_dataset": null
@@ -138,6 +138,14 @@
       "relationship_type": "child_of",
       "role": "parent",
       "evidence_text": "Obediah Cott the son of John Cott & Sallie Cott died July 25, 1848",
+      "certainty": "confirmed",
+      "rel_id": 12,
+      "rel_name": "John Wesley Cott"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Bible Register: Obediah Cott the son of John Cott & Sallie Cott died July 25, 1848",
       "certainty": "confirmed",
       "rel_id": 12,
       "rel_name": "John Wesley Cott"
@@ -161,6 +169,11 @@
     "id": 14,
     "name": "Obediah Cott",
     "children": [
+      {
+        "id": 12,
+        "name": "John Wesley Cott",
+        "children": []
+      },
       {
         "id": 12,
         "name": "John Wesley Cott",

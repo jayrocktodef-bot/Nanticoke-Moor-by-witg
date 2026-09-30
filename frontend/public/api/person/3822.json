@@ -82,7 +82,17 @@
       "date_string": "30 October 1967",
       "place_string": null,
       "value_string": "married Burt Schroeder   Hopewell died on 30 October 1967",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15721,
+          "fact_id": 12011,
+          "source_id": 1088,
+          "evidence_text": "Memorial assertion: John Cyrus Carter documented in FindAGrave Memorial #258568244.",
+          "source_title": "Record: FindAGrave Memorial 258568244",
+          "source_url": "https://www.findagrave.com/memorial/258568244/john-carter",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12546,
@@ -298,7 +308,7 @@
       "person_id": 3822,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 38",
       "citations": [
         {
@@ -313,7 +323,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John Cyrus Carter married Burt Schroeder (married Burt Schroeder   Hopewell died on 30 October 1967)",
+      "certainty": "confirmed",
+      "rel_id": 11873,
+      "rel_name": "Burt Schroeder"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John Cyrus Carter married Burt Schroeder (married Burt Schroeder   Hopewell died on 30 October 1967)",
+      "certainty": "confirmed",
+      "rel_id": 11873,
+      "rel_name": "Burt Schroeder"
+    }
+  ],
   "photos": [
     {
       "person_id": 3822,

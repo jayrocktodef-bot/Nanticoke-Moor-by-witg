@@ -6,7 +6,7 @@
     "middle_name": "Johnson",
     "maiden_name": "",
     "married_last_name": "Mosley",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MosleyKermit&ElvaFamily.htm",
     "birth_info": "30 May 1916",
     "death_info": "22 Feb 2004 (aged 87)",
@@ -76,7 +76,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MosleyKermit&ElvaFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 6606,
+      "rel_name": "Elva Perry Mosley"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MosleyKermit&ElvaFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 6606,
+      "rel_name": "Elva Perry Mosley"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MosleyKermit&ElvaFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 6607,
+      "rel_name": "Kermit Mosley"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MosleyKermit&ElvaFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 6607,
+      "rel_name": "Kermit Mosley"
+    }
+  ],
   "photos": [
     {
       "person_id": 6616,
@@ -156,6 +189,17 @@
   "ancestry": {
     "id": 6616,
     "name": "Lucille Johnson Mosley",
-    "children": []
+    "children": [
+      {
+        "id": 6606,
+        "name": "Elva Perry Mosley",
+        "children": []
+      },
+      {
+        "id": 6606,
+        "name": "Elva Perry Mosley",
+        "children": []
+      }
+    ]
   }
 }

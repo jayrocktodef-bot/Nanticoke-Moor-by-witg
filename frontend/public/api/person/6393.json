@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Loatman",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "LoatmanOscar&Dolly.htm",
     "birth_info": "10 Jul 2006",
     "death_info": "14 Dec 2012 (aged 6)",
@@ -76,7 +76,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier LoatmanOscar&Dolly.htm",
+      "certainty": "confirmed",
+      "rel_id": 6391,
+      "rel_name": "Helen Durham Loatman"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier LoatmanOscar&Dolly.htm",
+      "certainty": "confirmed",
+      "rel_id": 6391,
+      "rel_name": "Helen Durham Loatman"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier LoatmanOscar&Dolly.htm",
+      "certainty": "confirmed",
+      "rel_id": 6392,
+      "rel_name": "Oscar Loatman"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier LoatmanOscar&Dolly.htm",
+      "certainty": "confirmed",
+      "rel_id": 6392,
+      "rel_name": "Oscar Loatman"
+    }
+  ],
   "photos": [
     {
       "person_id": 6393,
@@ -102,6 +135,17 @@
   "ancestry": {
     "id": 6393,
     "name": "Dolly Loatman",
-    "children": []
+    "children": [
+      {
+        "id": 6391,
+        "name": "Helen Durham Loatman",
+        "children": []
+      },
+      {
+        "id": 6391,
+        "name": "Helen Durham Loatman",
+        "children": []
+      }
+    ]
   }
 }

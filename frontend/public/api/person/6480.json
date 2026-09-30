@@ -82,7 +82,17 @@
       "date_string": "23 September, 1900",
       "place_string": null,
       "value_string": "married Cassius MOSLEY on 23 September, 1900",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15932,
+          "fact_id": 12222,
+          "source_id": 449,
+          "evidence_text": "Archival assertion: married Cassius MOSLEY on 23 September, 1900 (23 September, 1900) documented in primary lineage manifest.",
+          "source_title": "Record: MorrisEdgar&JacksonMary.htm",
+          "source_url": "MorrisEdgar&JacksonMary.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 12827,
@@ -203,7 +213,7 @@
       "person_id": 6480,
       "fact_type": "Census",
       "date_string": "1900",
-      "place_string": "Lewis and Rehobeth, Sussex, Delaware",
+      "place_string": "Lewes and Rehoboth Hundred, Sussex County, Delaware",
       "value_string": "1900 US Federal Census: Daughter, age 7. Household: Harry Jackson (Head, age 20), Elizabeth Jackson (Wife, age 23), Mary Jackson (Daughter, age 7), Martha Jackson (Daughter, age 4), Raymond Jackson (Son, age 3), Bessie Jackson (Daughter, age 0), Eliza Jackson (Sister, age 17)",
       "citations": [
         {
@@ -258,6 +268,22 @@
       "certainty": "confirmed",
       "rel_id": 9520,
       "rel_name": "Charles Jackson"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary Jackson married Cassius Mosley (married Cassius MOSLEY on 23 September, 1900)",
+      "certainty": "confirmed",
+      "rel_id": 11878,
+      "rel_name": "Cassius Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary Jackson married Cassius Mosley (married Cassius MOSLEY on 23 September, 1900)",
+      "certainty": "confirmed",
+      "rel_id": 11878,
+      "rel_name": "Cassius Mosley"
     }
   ],
   "photos": [

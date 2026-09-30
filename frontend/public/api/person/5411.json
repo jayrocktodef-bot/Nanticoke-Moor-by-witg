@@ -44,7 +44,17 @@
       "date_string": "1858",
       "place_string": null,
       "value_string": "married  Araminta Sisco     Sometime before 1858",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15853,
+          "fact_id": 12143,
+          "source_id": 316,
+          "evidence_text": "Archival assertion: married Araminta Sisco Sometime before 1858 (1858) documented in primary lineage manifest.",
+          "source_title": "Record: DurhamIsaiahZed.htm",
+          "source_url": "DurhamIsaiahZed.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 13322,
@@ -108,7 +118,7 @@
       "person_id": 5411,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 28",
       "citations": [
         {
@@ -123,7 +133,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mahala Songo Durham married Araminta Sisco (married  Araminta Sisco     Sometime before 1858)",
+      "certainty": "confirmed",
+      "rel_id": 503,
+      "rel_name": "Araminta Sisco"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mahala Songo Durham married Araminta Sisco (married  Araminta Sisco     Sometime before 1858)",
+      "certainty": "confirmed",
+      "rel_id": 503,
+      "rel_name": "Araminta Sisco"
+    }
+  ],
   "photos": [
     {
       "person_id": 5411,

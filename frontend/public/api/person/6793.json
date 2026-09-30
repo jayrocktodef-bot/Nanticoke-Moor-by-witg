@@ -6,7 +6,7 @@
     "middle_name": "Kristina",
     "maiden_name": "",
     "married_last_name": "Matteo.",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MuntzClarence&Elaine.htm",
     "birth_info": "6 Jan 1948",
     "death_info": "5 Oct 1989 (aged 41)",
@@ -76,13 +76,57 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MuntzClarence&Elaine.htm",
+      "certainty": "confirmed",
+      "rel_id": 6791,
+      "rel_name": "Muntz. She"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MuntzClarence&Elaine.htm",
+      "certainty": "confirmed",
+      "rel_id": 6791,
+      "rel_name": "Muntz. She"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MuntzClarence&Elaine.htm",
+      "certainty": "confirmed",
+      "rel_id": 6792,
+      "rel_name": "Domonic Matteo"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MuntzClarence&Elaine.htm",
+      "certainty": "confirmed",
+      "rel_id": 6792,
+      "rel_name": "Domonic Matteo"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 6793,
     "name": "Kristina Matteo",
-    "children": []
+    "children": [
+      {
+        "id": 6791,
+        "name": "Muntz. She",
+        "children": []
+      },
+      {
+        "id": 6791,
+        "name": "Muntz. She",
+        "children": []
+      }
+    ]
   }
 }

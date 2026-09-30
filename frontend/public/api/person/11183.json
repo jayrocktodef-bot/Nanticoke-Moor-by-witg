@@ -82,7 +82,17 @@
       "date_string": "30 October 1967",
       "place_string": null,
       "value_string": "married Burt Schroeder   Hopewell died on 30 October 1967",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16195,
+          "fact_id": 12486,
+          "source_id": 624,
+          "evidence_text": "Archival assertion: married Burt Schroeder Hopewell died on 30 October 1967 (30 October 1967) documented in primary lineage manifest.",
+          "source_title": "Record: Obituary Archive",
+          "source_url": "Obituary Archive",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     },
     {
       "fact_id": 12550,
@@ -298,7 +308,7 @@
       "person_id": 11183,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 38",
       "citations": [
         {
@@ -313,7 +323,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John W. Carter married Burt Schroeder (married Burt Schroeder   Hopewell died on 30 October 1967)",
+      "certainty": "confirmed",
+      "rel_id": 11873,
+      "rel_name": "Burt Schroeder"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John W. Carter married Burt Schroeder (married Burt Schroeder   Hopewell died on 30 October 1967)",
+      "certainty": "confirmed",
+      "rel_id": 11873,
+      "rel_name": "Burt Schroeder"
+    }
+  ],
   "photos": [
     {
       "person_id": 11183,

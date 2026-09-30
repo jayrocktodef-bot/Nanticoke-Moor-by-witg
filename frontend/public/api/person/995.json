@@ -82,7 +82,17 @@
       "date_string": "1918",
       "place_string": null,
       "value_string": "married Lillie White in 1918",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15544,
+          "fact_id": 11834,
+          "source_id": 1018,
+          "evidence_text": "Memorial assertion: John Harmon documented in FindAGrave Memorial #168666415.",
+          "source_title": "Record: FindAGrave Memorial 168666415",
+          "source_url": "https://www.findagrave.com/memorial/168666415/john-harmon",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12717,
@@ -188,6 +198,22 @@
       "certainty": "confirmed",
       "rel_id": 8862,
       "rel_name": "William Harmon"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John Harmon married Lillie White (married Lillie White in 1918)",
+      "certainty": "confirmed",
+      "rel_id": 11872,
+      "rel_name": "Lillie White"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John Harmon married Lillie White (married Lillie White in 1918)",
+      "certainty": "confirmed",
+      "rel_id": 11872,
+      "rel_name": "Lillie White"
     }
   ],
   "photos": [],

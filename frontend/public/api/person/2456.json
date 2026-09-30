@@ -82,10 +82,37 @@
       "date_string": "9 January, 1931",
       "place_string": null,
       "value_string": "married James Hughes    Daniel died on 9 January, 1931",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15640,
+          "fact_id": 11930,
+          "source_id": 1057,
+          "evidence_text": "Memorial assertion: Sarah Elizabeth documented in FindAGrave Memorial #281911608.",
+          "source_title": "Record: FindAGrave Memorial 281911608",
+          "source_url": "https://www.findagrave.com/memorial/281911608/sarah-elizabeth",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Sarah Elizabeth married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Sarah Elizabeth married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    }
+  ],
   "photos": [
     {
       "person_id": 2456,

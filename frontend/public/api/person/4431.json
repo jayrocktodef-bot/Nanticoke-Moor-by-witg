@@ -6,7 +6,7 @@
     "middle_name": "Jane",
     "maiden_name": "",
     "married_last_name": "Cuff",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CuffLeonard&Margaret&TheodoreG.htm",
     "birth_info": "unknown",
     "death_info": "1 Sep 1879",
@@ -76,13 +76,57 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CuffLeonard&Margaret&TheodoreG.htm",
+      "certainty": "confirmed",
+      "rel_id": 4406,
+      "rel_name": "Leonard Cuff"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CuffLeonard&Margaret&TheodoreG.htm",
+      "certainty": "confirmed",
+      "rel_id": 4406,
+      "rel_name": "Leonard Cuff"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CuffLeonard&Margaret&TheodoreG.htm",
+      "certainty": "confirmed",
+      "rel_id": 4407,
+      "rel_name": "Hannah Pierce Cuff"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CuffLeonard&Margaret&TheodoreG.htm",
+      "certainty": "confirmed",
+      "rel_id": 4407,
+      "rel_name": "Hannah Pierce Cuff"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 4431,
     "name": "Eliza Jane Cuff",
-    "children": []
+    "children": [
+      {
+        "id": 4406,
+        "name": "Leonard Cuff",
+        "children": []
+      },
+      {
+        "id": 4406,
+        "name": "Leonard Cuff",
+        "children": []
+      }
+    ]
   }
 }

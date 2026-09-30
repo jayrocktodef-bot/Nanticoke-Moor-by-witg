@@ -253,7 +253,17 @@
       "date_string": "1840",
       "place_string": null,
       "value_string": "married sometime before 1840",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15643,
+          "fact_id": 11933,
+          "source_id": 1058,
+          "evidence_text": "Memorial assertion: Mary C. Simmons Wright documented in FindAGrave Memorial #20477075.",
+          "source_title": "Record: FindAGrave Memorial 20477075",
+          "source_url": "https://www.findagrave.com/memorial/20477075/mary-wright",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -272,6 +282,22 @@
       "certainty": "confirmed",
       "rel_id": 8941,
       "rel_name": "Winnie Ann Wright"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary C. Simmons Wright married Sometime Before (married sometime before 1840)",
+      "certainty": "confirmed",
+      "rel_id": 11885,
+      "rel_name": "Sometime Before"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary C. Simmons Wright married Sometime Before (married sometime before 1840)",
+      "certainty": "confirmed",
+      "rel_id": 11885,
+      "rel_name": "Sometime Before"
     }
   ],
   "photos": [

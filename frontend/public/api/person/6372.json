@@ -6,7 +6,7 @@
     "middle_name": "Heveren",
     "maiden_name": "",
     "married_last_name": "Loatman",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "LoatmanJohn&Anthalinda.htm",
     "birth_info": "16 May 1862",
     "death_info": "5 Mar 1938 (aged 75)",
@@ -76,7 +76,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier LoatmanJohn&Anthalinda.htm",
+      "certainty": "confirmed",
+      "rel_id": 6364,
+      "rel_name": "Anthalinda Carney Loatman"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier LoatmanJohn&Anthalinda.htm",
+      "certainty": "confirmed",
+      "rel_id": 6364,
+      "rel_name": "Anthalinda Carney Loatman"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier LoatmanJohn&Anthalinda.htm",
+      "certainty": "confirmed",
+      "rel_id": 6365,
+      "rel_name": "John Loatman"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier LoatmanJohn&Anthalinda.htm",
+      "certainty": "confirmed",
+      "rel_id": 6365,
+      "rel_name": "John Loatman"
+    }
+  ],
   "photos": [
     {
       "person_id": 6372,
@@ -120,6 +153,17 @@
   "ancestry": {
     "id": 6372,
     "name": "James Heveren Loatman",
-    "children": []
+    "children": [
+      {
+        "id": 6364,
+        "name": "Anthalinda Carney Loatman",
+        "children": []
+      },
+      {
+        "id": 6364,
+        "name": "Anthalinda Carney Loatman",
+        "children": []
+      }
+    ]
   }
 }

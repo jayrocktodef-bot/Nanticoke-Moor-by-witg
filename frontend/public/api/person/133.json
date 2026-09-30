@@ -80,9 +80,19 @@
       "person_id": 133,
       "fact_type": "Marriage",
       "date_string": "1943",
-      "place_string": "1943 and Margaret in 1973",
+      "place_string": null,
       "value_string": "married Cleo DURHAM    Alfred died in 1943 and Margaret in 1973",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15409,
+          "fact_id": 11699,
+          "source_id": 940,
+          "evidence_text": "Memorial assertion: James Russell Coker documented in FindAGrave Memorial #269799645.",
+          "source_title": "Record: FindAGrave Memorial 269799645",
+          "source_url": "https://www.findagrave.com/memorial/269799645/james-coker",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12887,
@@ -279,7 +289,7 @@
       "person_id": 133,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 34",
       "citations": [
         {
@@ -298,7 +308,7 @@
       "person_id": 133,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 52",
       "citations": [
         {
@@ -321,6 +331,22 @@
       "certainty": "confirmed",
       "rel_id": 134,
       "rel_name": "Dorothy Johnson"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: James Russell Coker married Cleo Durham (married Cleo DURHAM    Alfred died in 1943 and Margaret in 1973)",
+      "certainty": "confirmed",
+      "rel_id": 11879,
+      "rel_name": "Cleo Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: James Russell Coker married Cleo Durham (married Cleo DURHAM    Alfred died in 1943 and Margaret in 1973)",
+      "certainty": "confirmed",
+      "rel_id": 11879,
+      "rel_name": "Cleo Durham"
     }
   ],
   "photos": [

@@ -82,7 +82,17 @@
       "date_string": "30 April 1921",
       "place_string": null,
       "value_string": "married William Thomas Reed on 30 April 1921",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16023,
+          "fact_id": 12313,
+          "source_id": 1208,
+          "evidence_text": "Memorial assertion: Bertha D. Dean documented in FindAGrave Memorial #258534861.",
+          "source_title": "Record: FindAGrave Memorial 258534861",
+          "source_url": "https://www.findagrave.com/memorial/258534861/bertha-dean",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 14319,
@@ -104,7 +114,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Bertha D. Dean married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Bertha D. Dean married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    }
+  ],
   "photos": [
     {
       "person_id": 7290,

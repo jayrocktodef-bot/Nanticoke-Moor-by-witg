@@ -42,9 +42,19 @@
       "person_id": 5432,
       "fact_type": "Death",
       "date_string": "1978",
-      "place_string": "1978",
+      "place_string": null,
       "value_string": "died in 1978",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15854,
+          "fact_id": 12144,
+          "source_id": 317,
+          "evidence_text": "Archival assertion: died in 1978 at/in 1978 (1978) documented in primary lineage manifest.",
+          "source_title": "Record: DurhamMildred&Brett.htm",
+          "source_url": "DurhamMildred&Brett.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 12878,
@@ -123,7 +133,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamMildred&Brett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5426,
+      "rel_name": "Mildred Mosley Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamMildred&Brett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5426,
+      "rel_name": "Mildred Mosley Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamMildred&Brett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5429,
+      "rel_name": "Brett Alan Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamMildred&Brett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5429,
+      "rel_name": "Brett Alan Durham"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [
@@ -141,6 +184,17 @@
   "ancestry": {
     "id": 5432,
     "name": "Presley Durham",
-    "children": []
+    "children": [
+      {
+        "id": 5426,
+        "name": "Mildred Mosley Durham",
+        "children": []
+      },
+      {
+        "id": 5426,
+        "name": "Mildred Mosley Durham",
+        "children": []
+      }
+    ]
   }
 }

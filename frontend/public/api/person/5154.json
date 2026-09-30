@@ -251,9 +251,19 @@
       "person_id": 5154,
       "fact_type": "Marriage",
       "date_string": "18 January, 1922",
-      "place_string": "Cheswold DE on 18 January, 1922",
+      "place_string": "Cheswold, Kent County, Delaware",
       "value_string": "married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15839,
+          "fact_id": 12129,
+          "source_id": 1134,
+          "evidence_text": "Memorial assertion: Sarah Catharine Mosley Durham documented in FindAGrave Memorial #173720455.",
+          "source_title": "Record: FindAGrave Memorial 173720455",
+          "source_url": "https://www.findagrave.com/memorial/173720455/sarah-durham",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12562,
@@ -545,7 +555,7 @@
       "person_id": 5154,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 7",
       "citations": [
         {
@@ -564,7 +574,7 @@
       "person_id": 5154,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 5",
       "citations": [
         {
@@ -583,7 +593,7 @@
       "person_id": 5154,
       "fact_type": "Racial Classification",
       "date_string": "1840",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'B' (Black)",
       "citations": [
         {
@@ -598,7 +608,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Sarah Catharine Mosley Durham married Sarah Durham (married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922)",
+      "certainty": "confirmed",
+      "rel_id": 2372,
+      "rel_name": "Sarah V. Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Sarah Catharine Mosley Durham married Sarah Durham (married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922)",
+      "certainty": "confirmed",
+      "rel_id": 2372,
+      "rel_name": "Sarah V. Durham"
+    }
+  ],
   "photos": [
     {
       "person_id": 5154,

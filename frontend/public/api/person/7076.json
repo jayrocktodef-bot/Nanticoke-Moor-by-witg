@@ -44,7 +44,17 @@
       "date_string": "18 December 1920",
       "place_string": null,
       "value_string": "married Howard Clifton Wilson on 18 December 1920",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16004,
+          "fact_id": 12294,
+          "source_id": 536,
+          "evidence_text": "Archival assertion: married Howard Clifton Wilson on 18 December 1920 (18 December 1920) documented in primary lineage manifest.",
+          "source_title": "Record: ReedCharlesBuck&Family.htm",
+          "source_url": "ReedCharlesBuck&Family.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 15572,
@@ -66,7 +76,56 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Charles William Chatty Reed married Howard Clifton (married Howard Clifton Wilson on 18 December 1920)",
+      "certainty": "confirmed",
+      "rel_id": 8000,
+      "rel_name": "Howard Clifton"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Charles William Chatty Reed married Howard Clifton (married Howard Clifton Wilson on 18 December 1920)",
+      "certainty": "confirmed",
+      "rel_id": 8000,
+      "rel_name": "Howard Clifton"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7062,
+      "rel_name": "William Thomas Reed"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7062,
+      "rel_name": "William Thomas Reed"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7063,
+      "rel_name": "Mary Mosley Reed"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7063,
+      "rel_name": "Mary Mosley Reed"
+    }
+  ],
   "photos": [
     {
       "person_id": 7076,
@@ -121,6 +180,17 @@
   "ancestry": {
     "id": 7076,
     "name": "Charles William Chatty Reed",
-    "children": []
+    "children": [
+      {
+        "id": 7062,
+        "name": "William Thomas Reed",
+        "children": []
+      },
+      {
+        "id": 7062,
+        "name": "William Thomas Reed",
+        "children": []
+      }
+    ]
   }
 }

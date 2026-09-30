@@ -44,7 +44,17 @@
       "date_string": "20 September, 1923",
       "place_string": null,
       "value_string": "died on 20 September, 1923",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15940,
+          "fact_id": 12230,
+          "source_id": 458,
+          "evidence_text": "Archival assertion: died on 20 September, 1923 (20 September, 1923) documented in primary lineage manifest.",
+          "source_title": "Record: MorganRaymond&MaryVirginia.htm",
+          "source_url": "MorganRaymond&MaryVirginia.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 14609,
@@ -70,7 +80,7 @@
       "person_id": 6522,
       "fact_type": "Racial Classification",
       "date_string": "1840",
-      "place_string": "Kenton Hd.",
+      "place_string": "Kenton Hundred, Kent County, Delaware",
       "value_string": "Enumerated as 'W' (White), age 60",
       "citations": [
         {
@@ -85,7 +95,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MorganRaymond&MaryVirginia.htm",
+      "certainty": "confirmed",
+      "rel_id": 6523,
+      "rel_name": "Raymond Morgan"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MorganRaymond&MaryVirginia.htm",
+      "certainty": "confirmed",
+      "rel_id": 6523,
+      "rel_name": "Raymond Morgan"
+    }
+  ],
   "photos": [
     {
       "person_id": 6522,

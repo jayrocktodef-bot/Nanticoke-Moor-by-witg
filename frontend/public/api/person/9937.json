@@ -6,7 +6,7 @@
     "middle_name": "W.",
     "maiden_name": "",
     "married_last_name": "Hanzer",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1881",
     "death_info": "1960",
@@ -82,14 +82,24 @@
       "date_string": "1 April 1747",
       "place_string": null,
       "value_string": "was married to Nancy before 1 April 1747",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16138,
+          "fact_id": 12428,
+          "source_id": 622,
+          "evidence_text": "Archival assertion: was married to Nancy before 1 April 1747 (1 April 1747) documented in primary lineage manifest.",
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     },
     {
       "fact_id": 16005,
       "person_id": 9937,
       "fact_type": "Census",
       "date_string": "1910",
-      "place_string": "Representative District 8, Sussex, Delaware, USA",
+      "place_string": "Representative District 8, Sussex County, Delaware",
       "value_string": "1910 US Federal Census: Brother, age 28. Household: Robert M Hanzer (Head, age 35), Harriet A Hanzer (Wife, age 45), Elmer Hanzer (Son, age 20), Nora Hanzer (Daughter, age 13), Marshall ? Hanzer (Son, age 4), John W Hanzer (Brother, age 28), Annie Harmen (Mother-in-law, age 68)",
       "citations": [
         {
@@ -120,6 +130,22 @@
       "certainty": "confirmed",
       "rel_id": 9940,
       "rel_name": "Sophia J. Hanzer"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John W. Hanzer married To Nancy (was married to Nancy before 1 April 1747)",
+      "certainty": "confirmed",
+      "rel_id": 11889,
+      "rel_name": "To Nancy"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John W. Hanzer married To Nancy (was married to Nancy before 1 April 1747)",
+      "certainty": "confirmed",
+      "rel_id": 11889,
+      "rel_name": "To Nancy"
     }
   ],
   "photos": [],

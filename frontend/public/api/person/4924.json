@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamBen&Sally.htm",
     "birth_info": "18 Feb 1906",
     "death_info": "5 Mar 1906 (aged 15 days)",
@@ -76,7 +76,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamBen&Sally.htm",
+      "certainty": "confirmed",
+      "rel_id": 4925,
+      "rel_name": "Sallie Green Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamBen&Sally.htm",
+      "certainty": "confirmed",
+      "rel_id": 4925,
+      "rel_name": "Sallie Green Durham"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],

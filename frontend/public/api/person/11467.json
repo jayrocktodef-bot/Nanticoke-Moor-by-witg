@@ -6,7 +6,7 @@
     "middle_name": null,
     "maiden_name": null,
     "married_last_name": "Chappelle",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": null,
     "death_info": null,
@@ -25,7 +25,17 @@
       "date_string": null,
       "place_string": null,
       "value_string": "John Chappelle",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15351,
+          "fact_id": 11222,
+          "source_id": 120,
+          "evidence_text": "Archival assertion: John Chappelle documented in primary lineage manifest.",
+          "source_title": "Record: mitsawokett_index.htm",
+          "source_url": "mitsawokett_index.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 12501,
@@ -34,10 +44,37 @@
       "date_string": "15 November, 1917",
       "place_string": null,
       "value_string": "married Mae SAMMONS on 15 November, 1917",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16208,
+          "fact_id": 12501,
+          "source_id": 120,
+          "evidence_text": "Archival assertion: married Mae SAMMONS on 15 November, 1917 (15 November, 1917) documented in primary lineage manifest.",
+          "source_title": "Record: mitsawokett_index.htm",
+          "source_url": "mitsawokett_index.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John Chappelle married Mae Sammons (married Mae SAMMONS on 15 November, 1917)",
+      "certainty": "confirmed",
+      "rel_id": 11877,
+      "rel_name": "Mae Sammons"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John Chappelle married Mae Sammons (married Mae SAMMONS on 15 November, 1917)",
+      "certainty": "confirmed",
+      "rel_id": 11877,
+      "rel_name": "Mae Sammons"
+    }
+  ],
   "photos": [
     {
       "person_id": 11467,

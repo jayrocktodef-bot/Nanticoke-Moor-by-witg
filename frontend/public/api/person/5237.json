@@ -44,10 +44,37 @@
       "date_string": "18 December 1920",
       "place_string": null,
       "value_string": "married Howard Clifton Wilson on 18 December 1920",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15848,
+          "fact_id": 12138,
+          "source_id": 309,
+          "evidence_text": "Archival assertion: married Howard Clifton Wilson on 18 December 1920 (18 December 1920) documented in primary lineage manifest.",
+          "source_title": "Record: DurhamWilliamH&Verna.htm",
+          "source_url": "DurhamWilliamH&Verna.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William Henry married Howard Clifton (married Howard Clifton Wilson on 18 December 1920)",
+      "certainty": "confirmed",
+      "rel_id": 8000,
+      "rel_name": "Howard Clifton"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William Henry married Howard Clifton (married Howard Clifton Wilson on 18 December 1920)",
+      "certainty": "confirmed",
+      "rel_id": 8000,
+      "rel_name": "Howard Clifton"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

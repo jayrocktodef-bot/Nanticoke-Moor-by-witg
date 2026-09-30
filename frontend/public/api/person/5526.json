@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DurhamJEH&Harriett.htm",
     "birth_info": "9 Feb 1908",
     "death_info": "10 Apr 1992 (aged 84)",
@@ -76,13 +76,57 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamJEH&Harriett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5496,
+      "rel_name": "Edward H. Porter Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamJEH&Harriett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5496,
+      "rel_name": "Edward H. Porter Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamJEH&Harriett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5504,
+      "rel_name": "Anna Mae Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DurhamJEH&Harriett.htm",
+      "certainty": "confirmed",
+      "rel_id": 5504,
+      "rel_name": "Anna Mae Durham"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 5526,
     "name": "Roy Durham",
-    "children": []
+    "children": [
+      {
+        "id": 5496,
+        "name": "Edward H. Porter Durham",
+        "children": []
+      },
+      {
+        "id": 5496,
+        "name": "Edward H. Porter Durham",
+        "children": []
+      }
+    ]
   }
 }

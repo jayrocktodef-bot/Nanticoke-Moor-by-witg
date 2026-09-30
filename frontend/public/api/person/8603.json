@@ -6,7 +6,7 @@
     "middle_name": "M",
     "maiden_name": "",
     "married_last_name": "Wright",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "1780 Fredrick, Virginia, USA",
     "death_info": "1870 Carroll, Georgia, USA",
@@ -82,7 +82,17 @@
       "date_string": "October 28, 1896",
       "place_string": null,
       "value_string": "married Mary Elizabeth Clark on October 28, 1896",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16080,
+          "fact_id": 12370,
+          "source_id": 622,
+          "evidence_text": "Archival assertion: married Mary Elizabeth Clark on October 28, 1896 (October 28, 1896) documented in primary lineage manifest.",
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -125,6 +135,22 @@
       "certainty": "confirmed",
       "rel_id": 9084,
       "rel_name": "Melissa Wright"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William M Wright married Mary Elizabeth (married Mary Elizabeth Clark on October 28, 1896)",
+      "certainty": "confirmed",
+      "rel_id": 7237,
+      "rel_name": "Mary Elizabeth"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William M Wright married Mary Elizabeth (married Mary Elizabeth Clark on October 28, 1896)",
+      "certainty": "confirmed",
+      "rel_id": 7237,
+      "rel_name": "Mary Elizabeth"
     }
   ],
   "photos": [

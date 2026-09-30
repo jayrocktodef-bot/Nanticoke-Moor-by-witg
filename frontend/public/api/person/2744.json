@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Durham_EnochD&Martha.htm",
     "birth_info": "6 Sep 1875",
     "death_info": "16 Aug 1945 (aged 69)",
@@ -80,7 +80,7 @@
       "person_id": 2744,
       "fact_type": "Racial Classification",
       "date_string": "1840",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 6",
       "citations": [
         {
@@ -95,7 +95,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier Durham_EnochD&Martha.htm",
+      "certainty": "confirmed",
+      "rel_id": 2733,
+      "rel_name": "Martha Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier Durham_EnochD&Martha.htm",
+      "certainty": "confirmed",
+      "rel_id": 2733,
+      "rel_name": "Martha Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier Durham_EnochD&Martha.htm",
+      "certainty": "confirmed",
+      "rel_id": 2739,
+      "rel_name": "Mae Cuff Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier Durham_EnochD&Martha.htm",
+      "certainty": "confirmed",
+      "rel_id": 2739,
+      "rel_name": "Mae Cuff Durham"
+    }
+  ],
   "photos": [
     {
       "person_id": 2744,
@@ -229,6 +262,17 @@
   "ancestry": {
     "id": 2744,
     "name": "Roland Durham",
-    "children": []
+    "children": [
+      {
+        "id": 2733,
+        "name": "Martha Durham",
+        "children": []
+      },
+      {
+        "id": 2733,
+        "name": "Martha Durham",
+        "children": []
+      }
+    ]
   }
 }

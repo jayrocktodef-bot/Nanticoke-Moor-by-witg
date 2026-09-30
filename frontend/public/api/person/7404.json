@@ -82,10 +82,37 @@
       "date_string": "June 12, 1904",
       "place_string": null,
       "value_string": "married June 12, 1904",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16034,
+          "fact_id": 12324,
+          "source_id": 1216,
+          "evidence_text": "Memorial assertion: Oscar Sammons documented in FindAGrave Memorial #20608568.",
+          "source_title": "Record: FindAGrave Memorial 20608568",
+          "source_url": "https://www.findagrave.com/memorial/20608568/oscar-sammons",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier SammonsOscar&Grace.htm",
+      "certainty": "confirmed",
+      "rel_id": 7408,
+      "rel_name": "Perkins Sammons"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier SammonsOscar&Grace.htm",
+      "certainty": "confirmed",
+      "rel_id": 7408,
+      "rel_name": "Perkins Sammons"
+    }
+  ],
   "photos": [
     {
       "person_id": 7404,

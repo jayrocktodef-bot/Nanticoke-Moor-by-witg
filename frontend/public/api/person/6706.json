@@ -82,10 +82,37 @@
       "date_string": "1 September, 1888",
       "place_string": null,
       "value_string": "married Lola Durham    On 1 September, 1888",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15957,
+          "fact_id": 12247,
+          "source_id": 1175,
+          "evidence_text": "Memorial assertion: Both Annie documented in FindAGrave Memorial #55082995.",
+          "source_title": "Record: FindAGrave Memorial 55082995",
+          "source_url": "https://www.findagrave.com/memorial/55082995/b-annie",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Both Annie married Lola Durham (married Lola Durham    On 1 September, 1888)",
+      "certainty": "confirmed",
+      "rel_id": 11874,
+      "rel_name": "Lola Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Both Annie married Lola Durham (married Lola Durham    On 1 September, 1888)",
+      "certainty": "confirmed",
+      "rel_id": 11874,
+      "rel_name": "Lola Durham"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

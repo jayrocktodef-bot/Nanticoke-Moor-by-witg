@@ -82,7 +82,17 @@
       "date_string": "1 September, 1888",
       "place_string": null,
       "value_string": "married Lola Durham    On 1 September, 1888",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15435,
+          "fact_id": 11725,
+          "source_id": 965,
+          "evidence_text": "Memorial assertion: Mariah Minnie Durham documented in FindAGrave Memorial #6966798.",
+          "source_title": "Record: FindAGrave Memorial 6966798",
+          "source_url": "https://www.findagrave.com/memorial/6966798/mariah-durham",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13464,
@@ -142,7 +152,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mariah Minnie Durham married Lola Durham (married Lola Durham    On 1 September, 1888)",
+      "certainty": "confirmed",
+      "rel_id": 11874,
+      "rel_name": "Lola Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mariah Minnie Durham married Lola Durham (married Lola Durham    On 1 September, 1888)",
+      "certainty": "confirmed",
+      "rel_id": 11874,
+      "rel_name": "Lola Durham"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

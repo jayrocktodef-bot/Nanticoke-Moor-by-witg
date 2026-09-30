@@ -253,7 +253,17 @@
       "date_string": "10 April, 1913",
       "place_string": null,
       "value_string": "married Clem Carney on 10 April, 1913",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15810,
+          "fact_id": 12100,
+          "source_id": 1121,
+          "evidence_text": "Memorial assertion: Robert Bernard Jack Dean documented in FindAGrave Memorial #66366438.",
+          "source_title": "Record: FindAGrave Memorial 66366438",
+          "source_url": "https://www.findagrave.com/memorial/66366438/robert-dean",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12934,
@@ -678,7 +688,7 @@
       "person_id": 4682,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 11",
       "citations": [
         {
@@ -697,7 +707,7 @@
       "person_id": 4682,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 9",
       "citations": [
         {
@@ -716,7 +726,7 @@
       "person_id": 4682,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 36",
       "citations": [
         {
@@ -731,7 +741,56 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Robert Bernard Jack Dean married Clem Carney (married Clem Carney on 10 April, 1913)",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Robert Bernard Jack Dean married Clem Carney (married Clem Carney on 10 April, 1913)",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DeanRobert&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4676,
+      "rel_name": "Catharine Morgan Dean"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DeanRobert&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4676,
+      "rel_name": "Catharine Morgan Dean"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DeanRobert&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4680,
+      "rel_name": "Almira Wilson Dean"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DeanRobert&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4680,
+      "rel_name": "Almira Wilson Dean"
+    }
+  ],
   "photos": [
     {
       "person_id": 4682,
@@ -832,6 +891,17 @@
   "ancestry": {
     "id": 4682,
     "name": "Robert Bernard Jack Dean",
-    "children": []
+    "children": [
+      {
+        "id": 4676,
+        "name": "Catharine Morgan Dean",
+        "children": []
+      },
+      {
+        "id": 4676,
+        "name": "Catharine Morgan Dean",
+        "children": []
+      }
+    ]
   }
 }

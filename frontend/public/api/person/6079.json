@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Street",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HarmonFedora&Children.htm",
     "birth_info": null,
     "death_info": null,
@@ -38,13 +38,57 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonFedora&Children.htm",
+      "certainty": "confirmed",
+      "rel_id": 6075,
+      "rel_name": "Gardiner Street Jr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonFedora&Children.htm",
+      "certainty": "confirmed",
+      "rel_id": 6075,
+      "rel_name": "Gardiner Street Jr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonFedora&Children.htm",
+      "certainty": "confirmed",
+      "rel_id": 6077,
+      "rel_name": "Gardiner Street"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonFedora&Children.htm",
+      "certainty": "confirmed",
+      "rel_id": 6077,
+      "rel_name": "Gardiner Street"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 6079,
     "name": "Bud Street",
-    "children": []
+    "children": [
+      {
+        "id": 6075,
+        "name": "Gardiner Street Jr",
+        "children": []
+      },
+      {
+        "id": 6075,
+        "name": "Gardiner Street Jr",
+        "children": []
+      }
+    ]
   }
 }

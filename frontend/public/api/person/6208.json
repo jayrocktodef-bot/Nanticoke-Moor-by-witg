@@ -82,7 +82,17 @@
       "date_string": "April 22 1784",
       "place_string": null,
       "value_string": "Born April 22 1784 .",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15920,
+          "fact_id": 12210,
+          "source_id": 1159,
+          "evidence_text": "Memorial assertion: Jane Street Jackson documented in FindAGrave Memorial #107976367.",
+          "source_title": "Record: FindAGrave Memorial 107976367",
+          "source_url": "https://www.findagrave.com/memorial/107976367/jane-jackson",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13759,
@@ -146,7 +156,7 @@
       "person_id": 6208,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Sussex",
+      "place_string": "Sussex County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 3",
       "citations": [
         {
@@ -161,7 +171,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier JacksonJanie&Kids.htm",
+      "certainty": "confirmed",
+      "rel_id": 6210,
+      "rel_name": "Janie Jackson"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier JacksonJanie&Kids.htm",
+      "certainty": "confirmed",
+      "rel_id": 6210,
+      "rel_name": "Janie Jackson"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

@@ -177,7 +177,17 @@
       "date_string": "1918",
       "place_string": null,
       "value_string": "married Lillie White in 1918",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15899,
+          "fact_id": 12189,
+          "source_id": 1152,
+          "evidence_text": "Memorial assertion: Noah C. Harmon documented in FindAGrave Memorial #235534805.",
+          "source_title": "Record: FindAGrave Memorial 235534805",
+          "source_url": "https://www.findagrave.com/memorial/235534805/noah-harmon",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -276,6 +286,54 @@
       "certainty": "confirmed",
       "rel_id": 9916,
       "rel_name": "Salina A. Harmon"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Noah C. Harmon married Lillie White (married Lillie White in 1918)",
+      "certainty": "confirmed",
+      "rel_id": 11872,
+      "rel_name": "Lillie White"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Noah C. Harmon married Lillie White (married Lillie White in 1918)",
+      "certainty": "confirmed",
+      "rel_id": 11872,
+      "rel_name": "Lillie White"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5920,
+      "rel_name": "Sarah Jane Sockum Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5920,
+      "rel_name": "Sarah Jane Sockum Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5921,
+      "rel_name": "Isaac W. Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5921,
+      "rel_name": "Isaac W. Harmon"
     }
   ],
   "photos": [],

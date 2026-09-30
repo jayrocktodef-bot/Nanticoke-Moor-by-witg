@@ -63,7 +63,17 @@
       "date_string": "18 December 1920",
       "place_string": null,
       "value_string": "married Howard Clifton Wilson on 18 December 1920",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15813,
+          "fact_id": 12103,
+          "source_id": 278,
+          "evidence_text": "Archival assertion: married Howard Clifton Wilson on 18 December 1920 (18 December 1920) documented in primary lineage manifest.",
+          "source_title": "Record: DeanRobert&Family.htm",
+          "source_url": "DeanRobert&Family.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 13069,
@@ -184,7 +194,7 @@
       "person_id": 4768,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 36",
       "citations": [
         {
@@ -231,6 +241,22 @@
       "certainty": "confirmed",
       "rel_id": 10128,
       "rel_name": "John Henry Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Elizabeth Mosley married Howard Clifton (married Howard Clifton Wilson on 18 December 1920)",
+      "certainty": "confirmed",
+      "rel_id": 8000,
+      "rel_name": "Howard Clifton"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Elizabeth Mosley married Howard Clifton (married Howard Clifton Wilson on 18 December 1920)",
+      "certainty": "confirmed",
+      "rel_id": 8000,
+      "rel_name": "Howard Clifton"
     }
   ],
   "photos": [

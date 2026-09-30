@@ -148,7 +148,17 @@
       "date_string": "1 September, 1888",
       "place_string": null,
       "value_string": "married Lola Durham    On 1 September, 1888",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15393,
+          "fact_id": 11683,
+          "source_id": 925,
+          "evidence_text": "Memorial assertion: Benjamin R. Durham documented in FindAGrave Memorial #52989631.",
+          "source_title": "Record: FindAGrave Memorial 52989631",
+          "source_url": "https://www.findagrave.com/memorial/52989631/benjamin-durham",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13295,
@@ -630,7 +640,7 @@
       "person_id": 61,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 27",
       "citations": [
         {
@@ -649,7 +659,7 @@
       "person_id": 61,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 35",
       "citations": [
         {
@@ -668,7 +678,7 @@
       "person_id": 61,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 50",
       "citations": [
         {
@@ -687,7 +697,7 @@
       "person_id": 61,
       "fact_type": "Racial Classification",
       "date_string": "1840",
-      "place_string": "Caroline",
+      "place_string": "Caroline County, Maryland",
       "value_string": "Enumerated as 'M' (Mulatto), age 17",
       "citations": [
         {
@@ -726,6 +736,22 @@
       "certainty": "inferred_nlp",
       "rel_id": 10934,
       "rel_name": "Buena Boni Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Benjamin R. Durham married Lola Durham (married Lola Durham    On 1 September, 1888)",
+      "certainty": "confirmed",
+      "rel_id": 11874,
+      "rel_name": "Lola Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Benjamin R. Durham married Lola Durham (married Lola Durham    On 1 September, 1888)",
+      "certainty": "confirmed",
+      "rel_id": 11874,
+      "rel_name": "Lola Durham"
     }
   ],
   "photos": [

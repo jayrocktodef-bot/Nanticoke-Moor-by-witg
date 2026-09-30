@@ -44,7 +44,17 @@
       "date_string": "9 January, 1931",
       "place_string": null,
       "value_string": "married James Hughes    Daniel died on 9 January, 1931",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15852,
+          "fact_id": 12142,
+          "source_id": 315,
+          "evidence_text": "Archival assertion: married James Hughes Daniel died on 9 January, 1931 (9 January, 1931) documented in primary lineage manifest.",
+          "source_title": "Record: DurhamWilliamT&Mamie.htm",
+          "source_url": "DurhamWilliamT&Mamie.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 13390,
@@ -237,7 +247,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mamie Beckett Durham married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mamie Beckett Durham married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    }
+  ],
   "photos": [
     {
       "person_id": 5402,

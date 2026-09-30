@@ -82,14 +82,24 @@
       "date_string": "23 September, 1900",
       "place_string": null,
       "value_string": "married Cassius MOSLEY on 23 September, 1900",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16122,
+          "fact_id": 12412,
+          "source_id": 1252,
+          "evidence_text": "Memorial assertion: Robert Jackson documented in FindAGrave Memorial #228378199.",
+          "source_title": "Record: FindAGrave Memorial 228378199",
+          "source_url": "https://www.findagrave.com/memorial/228378199/robert-jackson",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 15665,
       "person_id": 9564,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Sussex",
+      "place_string": "Sussex County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 7",
       "citations": [
         {
@@ -108,7 +118,7 @@
       "person_id": 9564,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Sussex",
+      "place_string": "Sussex County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 17",
       "citations": [
         {
@@ -127,7 +137,7 @@
       "person_id": 9564,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Sussex",
+      "place_string": "Sussex County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 27",
       "citations": [
         {
@@ -146,7 +156,7 @@
       "person_id": 9564,
       "fact_type": "Census",
       "date_string": "1940",
-      "place_string": "Sussex, Delaware",
+      "place_string": "Sussex County, Delaware",
       "value_string": "1940 US Federal Census: Son, age 5. Household: Samuel Jackson (Head, age 30), Agnes Jackson (Wife, age 26), William E Jackson (Son, age 9), Bettis Jackson (Daughter, age 7), Robert Jackson (Son, age 5), Benson Jackson (Son, age 4), Bendel Jackson (Son, age 2)",
       "citations": [
         {
@@ -201,6 +211,22 @@
       "certainty": "census_confirmed",
       "rel_id": 11663,
       "rel_name": "Agnes Jackson"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Robert Jackson married Cassius Mosley (married Cassius MOSLEY on 23 September, 1900)",
+      "certainty": "confirmed",
+      "rel_id": 11878,
+      "rel_name": "Cassius Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Robert Jackson married Cassius Mosley (married Cassius MOSLEY on 23 September, 1900)",
+      "certainty": "confirmed",
+      "rel_id": 11878,
+      "rel_name": "Cassius Mosley"
     }
   ],
   "photos": [

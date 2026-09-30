@@ -6,7 +6,7 @@
     "middle_name": "Jenna",
     "maiden_name": "",
     "married_last_name": "Fleming",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MuntzClarence&Elaine.htm",
     "birth_info": "1989",
     "death_info": "1990 (aged 0\u20131)",
@@ -76,7 +76,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MuntzClarence&Elaine.htm",
+      "certainty": "confirmed",
+      "rel_id": 6789,
+      "rel_name": "Justin Fleming"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MuntzClarence&Elaine.htm",
+      "certainty": "confirmed",
+      "rel_id": 6789,
+      "rel_name": "Justin Fleming"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],

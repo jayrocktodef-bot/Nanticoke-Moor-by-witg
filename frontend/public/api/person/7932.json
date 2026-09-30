@@ -82,14 +82,24 @@
       "date_string": "1840",
       "place_string": null,
       "value_string": "married sometime before 1840",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16048,
+          "fact_id": 12338,
+          "source_id": 1225,
+          "evidence_text": "Memorial assertion: Robert Wright documented in FindAGrave Memorial #137853765.",
+          "source_title": "Record: FindAGrave Memorial 137853765",
+          "source_url": "https://www.findagrave.com/memorial/137853765/robert-wright",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 15817,
       "person_id": 7932,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Sussex",
+      "place_string": "Sussex County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 8",
       "citations": [
         {
@@ -108,7 +118,7 @@
       "person_id": 7932,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Sussex",
+      "place_string": "Sussex County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 19",
       "citations": [
         {
@@ -131,6 +141,22 @@
       "certainty": "confirmed",
       "rel_id": 8711,
       "rel_name": "Mamie Morris"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Robert Wright married Sometime Before (married sometime before 1840)",
+      "certainty": "confirmed",
+      "rel_id": 11885,
+      "rel_name": "Sometime Before"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Robert Wright married Sometime Before (married sometime before 1840)",
+      "certainty": "confirmed",
+      "rel_id": 11885,
+      "rel_name": "Sometime Before"
     }
   ],
   "photos": [

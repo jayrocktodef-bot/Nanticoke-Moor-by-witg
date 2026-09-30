@@ -6,7 +6,7 @@
     "middle_name": "Mae Ridgeway",
     "maiden_name": "",
     "married_last_name": "Carey",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CareyCharlesH&NellieVRidgeway.htm",
     "birth_info": "26 Aug 1866",
     "death_info": "10 Dec 1902 (aged 36)",
@@ -247,7 +247,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CareyCharlesH&NellieVRidgeway.htm",
+      "certainty": "confirmed",
+      "rel_id": 3532,
+      "rel_name": "Charles Howard Carey"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CareyCharlesH&NellieVRidgeway.htm",
+      "certainty": "confirmed",
+      "rel_id": 3532,
+      "rel_name": "Charles Howard Carey"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CareyCharlesH&NellieVRidgeway.htm",
+      "certainty": "confirmed",
+      "rel_id": 3534,
+      "rel_name": "Wilmore Carey"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CareyCharlesH&NellieVRidgeway.htm",
+      "certainty": "confirmed",
+      "rel_id": 3534,
+      "rel_name": "Wilmore Carey"
+    }
+  ],
   "photos": [
     {
       "person_id": 3536,
@@ -327,6 +360,17 @@
   "ancestry": {
     "id": 3536,
     "name": "Della Mae Ridgeway Carey",
-    "children": []
+    "children": [
+      {
+        "id": 3532,
+        "name": "Charles Howard Carey",
+        "children": []
+      },
+      {
+        "id": 3532,
+        "name": "Charles Howard Carey",
+        "children": []
+      }
+    ]
   }
 }

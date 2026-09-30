@@ -44,10 +44,53 @@
       "date_string": "1840",
       "place_string": null,
       "value_string": "d. 1840",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15723,
+          "fact_id": 12013,
+          "source_id": 216,
+          "evidence_text": "Archival assertion: d. 1840 (1840) documented in primary lineage manifest.",
+          "source_title": "Record: MunceJames&HesterFamily.htm",
+          "source_url": "MunceJames&HesterFamily.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MunceJames&HesterFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 3867,
+      "rel_name": "Councilor Cork"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MunceJames&HesterFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 3867,
+      "rel_name": "Councilor Cork"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MunceJames&HesterFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 3876,
+      "rel_name": "Munceys grave Cork"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MunceJames&HesterFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 3876,
+      "rel_name": "Munceys grave Cork"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [
@@ -65,6 +108,17 @@
   "ancestry": {
     "id": 3882,
     "name": "Hannah Concealler Cork",
-    "children": []
+    "children": [
+      {
+        "id": 3867,
+        "name": "Councilor Cork",
+        "children": []
+      },
+      {
+        "id": 3867,
+        "name": "Councilor Cork",
+        "children": []
+      }
+    ]
   }
 }

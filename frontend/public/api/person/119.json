@@ -137,9 +137,19 @@
       "person_id": 119,
       "fact_type": "Death",
       "date_string": "14 December, 1992",
-      "place_string": "Philadelphia on 14 December, 1992",
+      "place_string": "Philadelphia, Philadelphia County, Pennsylvania",
       "value_string": "died in Philadelphia on 14 December, 1992",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15405,
+          "fact_id": 11695,
+          "source_id": 936,
+          "evidence_text": "Memorial assertion: Francis Lawrence Jackson documented in FindAGrave Memorial #259704597.",
+          "source_title": "Record: FindAGrave Memorial 259704597",
+          "source_url": "https://www.findagrave.com/memorial/259704597/francis-jackson",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 11762,
@@ -148,7 +158,17 @@
       "date_string": "13 July, 1981",
       "place_string": null,
       "value_string": "died on 13 July, 1981",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15472,
+          "fact_id": 11762,
+          "source_id": 936,
+          "evidence_text": "Memorial assertion: Francis Lawrence Jackson documented in FindAGrave Memorial #259704597.",
+          "source_title": "Record: FindAGrave Memorial 259704597",
+          "source_url": "https://www.findagrave.com/memorial/259704597/francis-jackson",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13778,
@@ -303,7 +323,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Araminta Jackson married Francis Jackson (married Francis Jackson  on 26 June, 1948)",
+      "certainty": "confirmed",
+      "rel_id": 6280,
+      "rel_name": "Araminta Jackson"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Araminta Jackson married Francis Jackson (married Francis Jackson  on 26 June, 1948)",
+      "certainty": "confirmed",
+      "rel_id": 6280,
+      "rel_name": "Araminta Jackson"
+    }
+  ],
   "photos": [
     {
       "person_id": 119,

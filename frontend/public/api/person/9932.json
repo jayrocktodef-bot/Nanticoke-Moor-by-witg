@@ -6,7 +6,7 @@
     "middle_name": "M",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "9 March 1922 Delaware, United States of America",
     "death_info": "2 February 1980 Lewes, Sussex County, Delaware, United States of America",
@@ -82,7 +82,17 @@
       "date_string": "30 April 1921",
       "place_string": null,
       "value_string": "married William Thomas Reed on 30 April 1921",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16136,
+          "fact_id": 12426,
+          "source_id": 622,
+          "evidence_text": "Archival assertion: married William Thomas Reed on 30 April 1921 (30 April 1921) documented in primary lineage manifest.",
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -101,6 +111,22 @@
       "certainty": "confirmed",
       "rel_id": 8860,
       "rel_name": "Hattie Miller"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Beulah M Dean married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Beulah M Dean married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
     }
   ],
   "photos": [

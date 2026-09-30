@@ -82,10 +82,69 @@
       "date_string": "18 October 1916",
       "place_string": null,
       "value_string": "married Joel Clemons Smith on 18 October 1916",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16063,
+          "fact_id": 12353,
+          "source_id": 1237,
+          "evidence_text": "Memorial assertion: Clifton Wilson documented in FindAGrave Memorial #87496513.",
+          "source_title": "Record: FindAGrave Memorial 87496513",
+          "source_url": "https://www.findagrave.com/memorial/87496513/clifton-wilson",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Clifton Wilson married Joel Clemons (married Joel Clemons Smith on 18 October 1916)",
+      "certainty": "confirmed",
+      "rel_id": 11881,
+      "rel_name": "Joel Clemons"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Clifton Wilson married Joel Clemons (married Joel Clemons Smith on 18 October 1916)",
+      "certainty": "confirmed",
+      "rel_id": 11881,
+      "rel_name": "Joel Clemons"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8025,
+      "rel_name": "Howard C. Wilson Sr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8025,
+      "rel_name": "Howard C. Wilson Sr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8032,
+      "rel_name": "Mary Augusta Carter Wilson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8032,
+      "rel_name": "Mary Augusta Carter Wilson"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [
@@ -103,6 +162,17 @@
   "ancestry": {
     "id": 8046,
     "name": "Clifton Wilson",
-    "children": []
+    "children": [
+      {
+        "id": 8025,
+        "name": "Howard C. Wilson Sr",
+        "children": []
+      },
+      {
+        "id": 8025,
+        "name": "Howard C. Wilson Sr",
+        "children": []
+      }
+    ]
   }
 }

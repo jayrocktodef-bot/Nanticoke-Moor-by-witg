@@ -82,10 +82,69 @@
       "date_string": "18 December 1920",
       "place_string": null,
       "value_string": "married Howard Clifton Wilson on 18 December 1920",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16002,
+          "fact_id": 12292,
+          "source_id": 1197,
+          "evidence_text": "Memorial assertion: Edith Pearl Reed documented in FindAGrave Memorial #269053409.",
+          "source_title": "Record: FindAGrave Memorial 269053409",
+          "source_url": "https://www.findagrave.com/memorial/269053409/edith-reed",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Edith Pearl Reed married Howard Clifton (married Howard Clifton Wilson on 18 December 1920)",
+      "certainty": "confirmed",
+      "rel_id": 8000,
+      "rel_name": "Howard Clifton"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Edith Pearl Reed married Howard Clifton (married Howard Clifton Wilson on 18 December 1920)",
+      "certainty": "confirmed",
+      "rel_id": 8000,
+      "rel_name": "Howard Clifton"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7062,
+      "rel_name": "William Thomas Reed"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7062,
+      "rel_name": "William Thomas Reed"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7063,
+      "rel_name": "Mary Mosley Reed"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7063,
+      "rel_name": "Mary Mosley Reed"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [
@@ -103,6 +162,17 @@
   "ancestry": {
     "id": 7070,
     "name": "Edith Pearl Reed",
-    "children": []
+    "children": [
+      {
+        "id": 7062,
+        "name": "William Thomas Reed",
+        "children": []
+      },
+      {
+        "id": 7062,
+        "name": "William Thomas Reed",
+        "children": []
+      }
+    ]
   }
 }

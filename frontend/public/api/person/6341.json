@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Holder",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HolderJess&EllenTerry.htm",
     "birth_info": "unknown",
     "death_info": "Nov 1912",
@@ -95,7 +95,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HolderJess&EllenTerry.htm",
+      "certainty": "confirmed",
+      "rel_id": 6334,
+      "rel_name": "Ellen Terry Holder"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HolderJess&EllenTerry.htm",
+      "certainty": "confirmed",
+      "rel_id": 6334,
+      "rel_name": "Ellen Terry Holder"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HolderJess&EllenTerry.htm",
+      "certainty": "confirmed",
+      "rel_id": 6338,
+      "rel_name": "Jess Holder"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HolderJess&EllenTerry.htm",
+      "certainty": "confirmed",
+      "rel_id": 6338,
+      "rel_name": "Jess Holder"
+    }
+  ],
   "photos": [
     {
       "person_id": 6341,
@@ -175,6 +208,17 @@
   "ancestry": {
     "id": 6341,
     "name": "David Holder",
-    "children": []
+    "children": [
+      {
+        "id": 6334,
+        "name": "Ellen Terry Holder",
+        "children": []
+      },
+      {
+        "id": 6334,
+        "name": "Ellen Terry Holder",
+        "children": []
+      }
+    ]
   }
 }

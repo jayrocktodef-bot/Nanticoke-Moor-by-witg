@@ -82,7 +82,17 @@
       "date_string": "1858",
       "place_string": null,
       "value_string": "married  Araminta Sisco     Sometime before 1858",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15571,
+          "fact_id": 11861,
+          "source_id": 1029,
+          "evidence_text": "Memorial assertion: Rebecca North Durham documented in FindAGrave Memorial #127999643.",
+          "source_title": "Record: FindAGrave Memorial 127999643",
+          "source_url": "https://www.findagrave.com/memorial/127999643/rebecca-durham",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13422,
@@ -260,7 +270,7 @@
       "person_id": 1345,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 38",
       "citations": [
         {
@@ -275,7 +285,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Rebecca North Durham married Araminta Sisco (married  Araminta Sisco     Sometime before 1858)",
+      "certainty": "confirmed",
+      "rel_id": 503,
+      "rel_name": "Araminta Sisco"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Rebecca North Durham married Araminta Sisco (married  Araminta Sisco     Sometime before 1858)",
+      "certainty": "confirmed",
+      "rel_id": 503,
+      "rel_name": "Araminta Sisco"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

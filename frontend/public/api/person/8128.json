@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Cuff",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "WebsterElmer&Ida.htm",
     "birth_info": "12 Feb 1874",
     "death_info": "15 Sep 1966 (aged 92)",
@@ -76,13 +76,57 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WebsterElmer&Ida.htm",
+      "certainty": "confirmed",
+      "rel_id": 8123,
+      "rel_name": "Billye Pierce Cuff"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WebsterElmer&Ida.htm",
+      "certainty": "confirmed",
+      "rel_id": 8123,
+      "rel_name": "Billye Pierce Cuff"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WebsterElmer&Ida.htm",
+      "certainty": "confirmed",
+      "rel_id": 8124,
+      "rel_name": "Deano Cuff"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WebsterElmer&Ida.htm",
+      "certainty": "confirmed",
+      "rel_id": 8124,
+      "rel_name": "Deano Cuff"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 8128,
     "name": "Rufus Cuff",
-    "children": []
+    "children": [
+      {
+        "id": 8123,
+        "name": "Billye Pierce Cuff",
+        "children": []
+      },
+      {
+        "id": 8123,
+        "name": "Billye Pierce Cuff",
+        "children": []
+      }
+    ]
   }
 }

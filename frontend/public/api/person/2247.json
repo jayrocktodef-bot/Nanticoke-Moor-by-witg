@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Miller",
-    "evidence_level": 4,
+    "evidence_level": 3,
     "source_page": "Probate.htm",
     "birth_info": "7 Jun 1872",
     "death_info": "16 Jul 1952 (aged 80)",
@@ -101,7 +101,17 @@
       "date_string": "23 September, 1900",
       "place_string": null,
       "value_string": "married Cassius MOSLEY on 23 September, 1900",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15605,
+          "fact_id": 11895,
+          "source_id": 1039,
+          "evidence_text": "Memorial assertion: Robert Miller documented in FindAGrave Memorial #46787514.",
+          "source_title": "Record: FindAGrave Memorial 46787514",
+          "source_url": "https://www.findagrave.com/memorial/46787514/robert-miller",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12960,
@@ -165,7 +175,7 @@
       "person_id": 2247,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 26",
       "citations": [
         {
@@ -184,7 +194,7 @@
       "person_id": 2247,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Sussex",
+      "place_string": "Sussex County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 43",
       "citations": [
         {
@@ -199,7 +209,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Robert Miller married Cassius Mosley (married Cassius MOSLEY on 23 September, 1900)",
+      "certainty": "confirmed",
+      "rel_id": 11878,
+      "rel_name": "Cassius Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Robert Miller married Cassius Mosley (married Cassius MOSLEY on 23 September, 1900)",
+      "certainty": "confirmed",
+      "rel_id": 11878,
+      "rel_name": "Cassius Mosley"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

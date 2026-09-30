@@ -80,9 +80,19 @@
       "person_id": 6490,
       "fact_type": "Marriage",
       "date_string": "April 5, 1893",
-      "place_string": "the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
+      "place_string": "Jackson-Perkins Cemetery, Millsboro, Sussex County, Delaware",
       "value_string": "married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15933,
+          "fact_id": 12223,
+          "source_id": 1166,
+          "evidence_text": "Memorial assertion: Nora D. Morgan documented in FindAGrave Memorial #45031357.",
+          "source_title": "Record: FindAGrave Memorial 45031357",
+          "source_url": "https://www.findagrave.com/memorial/45031357/nora-morgan",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 14155,
@@ -104,7 +114,56 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Nora D. Morgan married Ruth Both (married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov)",
+      "certainty": "confirmed",
+      "rel_id": 11882,
+      "rel_name": "Ruth Both"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Nora D. Morgan married Ruth Both (married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov)",
+      "certainty": "confirmed",
+      "rel_id": 11882,
+      "rel_name": "Ruth Both"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MorganWilliam&Nora.htm",
+      "certainty": "confirmed",
+      "rel_id": 6493,
+      "rel_name": "Alice Morgan"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MorganWilliam&Nora.htm",
+      "certainty": "confirmed",
+      "rel_id": 6493,
+      "rel_name": "Alice Morgan"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MorganWilliam&Nora.htm",
+      "certainty": "confirmed",
+      "rel_id": 6496,
+      "rel_name": "Henry Morgan"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MorganWilliam&Nora.htm",
+      "certainty": "confirmed",
+      "rel_id": 6496,
+      "rel_name": "Henry Morgan"
+    }
+  ],
   "photos": [
     {
       "person_id": 6490,

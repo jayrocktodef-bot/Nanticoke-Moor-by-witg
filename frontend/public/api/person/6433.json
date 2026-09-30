@@ -139,7 +139,17 @@
       "date_string": "18 December 1920",
       "place_string": null,
       "value_string": "married Howard Clifton Wilson on 18 December 1920",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15930,
+          "fact_id": 12220,
+          "source_id": 1164,
+          "evidence_text": "Memorial assertion: Elizabeth Johnson Mosley documented in FindAGrave Memorial #66508065.",
+          "source_title": "Record: FindAGrave Memorial 66508065",
+          "source_url": "https://www.findagrave.com/memorial/66508065/elizabeth-mosley",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13070,
@@ -260,7 +270,7 @@
       "person_id": 6433,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 36",
       "citations": [
         {
@@ -275,7 +285,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Elizabeth Johnson Mosley married Howard Clifton (married Howard Clifton Wilson on 18 December 1920)",
+      "certainty": "confirmed",
+      "rel_id": 8000,
+      "rel_name": "Howard Clifton"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Elizabeth Johnson Mosley married Howard Clifton (married Howard Clifton Wilson on 18 December 1920)",
+      "certainty": "confirmed",
+      "rel_id": 8000,
+      "rel_name": "Howard Clifton"
+    }
+  ],
   "photos": [
     {
       "person_id": 6433,

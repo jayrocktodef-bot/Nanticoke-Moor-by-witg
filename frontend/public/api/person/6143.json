@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Hart",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "HartBill&PunchMosley.htm",
     "birth_info": null,
     "death_info": null,
@@ -38,7 +38,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HartBill&PunchMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 6141,
+      "rel_name": "Gloria Mosley Hart"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HartBill&PunchMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 6141,
+      "rel_name": "Gloria Mosley Hart"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HartBill&PunchMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 6142,
+      "rel_name": "Bill Hart"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HartBill&PunchMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 6142,
+      "rel_name": "Bill Hart"
+    }
+  ],
   "photos": [
     {
       "person_id": 6143,
@@ -82,6 +115,17 @@
   "ancestry": {
     "id": 6143,
     "name": "Punch Hart",
-    "children": []
+    "children": [
+      {
+        "id": 6141,
+        "name": "Gloria Mosley Hart",
+        "children": []
+      },
+      {
+        "id": 6141,
+        "name": "Gloria Mosley Hart",
+        "children": []
+      }
+    ]
   }
 }

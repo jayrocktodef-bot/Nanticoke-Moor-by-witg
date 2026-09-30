@@ -82,10 +82,37 @@
       "date_string": "30 April 1921",
       "place_string": null,
       "value_string": "married William Thomas Reed on 30 April 1921",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15660,
+          "fact_id": 11950,
+          "source_id": 1066,
+          "evidence_text": "Memorial assertion: Anna Mae documented in FindAGrave Memorial #209182684.",
+          "source_title": "Record: FindAGrave Memorial 209182684",
+          "source_url": "https://www.findagrave.com/memorial/209182684/anna-mae",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Anna Mae married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Anna Mae married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    }
+  ],
   "photos": [
     {
       "person_id": 2680,

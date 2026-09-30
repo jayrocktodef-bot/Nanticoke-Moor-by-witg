@@ -139,7 +139,17 @@
       "date_string": "27 March, 1848",
       "place_string": null,
       "value_string": "married  Henrietta Carty on 27 March, 1848",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15703,
+          "fact_id": 11993,
+          "source_id": 1081,
+          "evidence_text": "Memorial assertion: Elizabeth Wyatt Carty documented in FindAGrave Memorial #198255936.",
+          "source_title": "Record: FindAGrave Memorial 198255936",
+          "source_url": "https://www.findagrave.com/memorial/198255936/elizabeth-carty",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12553,
@@ -298,7 +308,7 @@
       "person_id": 3680,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Caroline",
+      "place_string": "Caroline County, Maryland",
       "value_string": "Enumerated as 'M' (Mulatto), age 60",
       "citations": [
         {
@@ -313,7 +323,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Elizabeth Wyatt Carty married Henrietta Carty (married  Henrietta Carty on 27 March, 1848)",
+      "certainty": "confirmed",
+      "rel_id": 509,
+      "rel_name": "Henrietta Carty"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Elizabeth Wyatt Carty married Henrietta Carty (married  Henrietta Carty on 27 March, 1848)",
+      "certainty": "confirmed",
+      "rel_id": 509,
+      "rel_name": "Henrietta Carty"
+    }
+  ],
   "photos": [
     {
       "person_id": 3680,

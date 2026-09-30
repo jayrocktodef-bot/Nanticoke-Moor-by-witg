@@ -6,7 +6,7 @@
     "middle_name": "Handsor",
     "maiden_name": "",
     "married_last_name": "Muncey",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "MunceJames&HesterFamily.htm",
     "birth_info": "1931",
     "death_info": "1 Mar 1991 (aged 59\u201360)",
@@ -76,13 +76,57 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MunceJames&HesterFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 3858,
+      "rel_name": "Hester Ann Cork Muncey"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MunceJames&HesterFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 3858,
+      "rel_name": "Hester Ann Cork Muncey"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MunceJames&HesterFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 3863,
+      "rel_name": "Middle James Muncey"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MunceJames&HesterFamily.htm",
+      "certainty": "confirmed",
+      "rel_id": 3863,
+      "rel_name": "Middle James Muncey"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 3877,
     "name": "Jemima Handsor Muncey",
-    "children": []
+    "children": [
+      {
+        "id": 3858,
+        "name": "Hester Ann Cork Muncey",
+        "children": []
+      },
+      {
+        "id": 3858,
+        "name": "Hester Ann Cork Muncey",
+        "children": []
+      }
+    ]
   }
 }

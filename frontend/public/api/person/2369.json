@@ -6,7 +6,7 @@
     "middle_name": "E.",
     "maiden_name": "",
     "married_last_name": "Durham",
-    "evidence_level": 4,
+    "evidence_level": 3,
     "source_page": "Probate.htm",
     "birth_info": "1857",
     "death_info": "1948 (aged 90\u201391)",
@@ -139,7 +139,17 @@
       "date_string": "1 September, 1888",
       "place_string": null,
       "value_string": "married Lola Durham    On 1 September, 1888",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15623,
+          "fact_id": 11913,
+          "source_id": 1049,
+          "evidence_text": "Memorial assertion: Annie E. Durham documented in FindAGrave Memorial #288626682.",
+          "source_title": "Record: FindAGrave Memorial 288626682",
+          "source_url": "https://www.findagrave.com/memorial/288626682/annie-durham",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13318,
@@ -203,7 +213,7 @@
       "person_id": 2369,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 15",
       "citations": [
         {
@@ -218,7 +228,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Annie E. Durham married Lola Durham (married Lola Durham    On 1 September, 1888)",
+      "certainty": "confirmed",
+      "rel_id": 11874,
+      "rel_name": "Lola Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Annie E. Durham married Lola Durham (married Lola Durham    On 1 September, 1888)",
+      "certainty": "confirmed",
+      "rel_id": 11874,
+      "rel_name": "Lola Durham"
+    }
+  ],
   "photos": [
     {
       "person_id": 2369,

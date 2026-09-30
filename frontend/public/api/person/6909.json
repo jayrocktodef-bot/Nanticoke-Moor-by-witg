@@ -53,7 +53,17 @@
       "date_string": "20 January, 1865",
       "place_string": null,
       "value_string": "married Isaac Mosley   On 20 January, 1865",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15986,
+          "fact_id": 12276,
+          "source_id": 508,
+          "evidence_text": "Archival assertion: married Isaac Mosley On 20 January, 1865 (20 January, 1865) documented in primary lineage manifest.",
+          "source_title": "Record: MosleyJames&Sherren.htm",
+          "source_url": "MosleyJames&Sherren.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 12858,
@@ -132,7 +142,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: James Mosley married Isaac Mosley (married Isaac Mosley   On 20 January, 1865)",
+      "certainty": "confirmed",
+      "rel_id": 11884,
+      "rel_name": "Isaac Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: James Mosley married Isaac Mosley (married Isaac Mosley   On 20 January, 1865)",
+      "certainty": "confirmed",
+      "rel_id": 11884,
+      "rel_name": "Isaac Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MosleyJames&Sherren.htm",
+      "certainty": "confirmed",
+      "rel_id": 6910,
+      "rel_name": "Sherren Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MosleyJames&Sherren.htm",
+      "certainty": "confirmed",
+      "rel_id": 6910,
+      "rel_name": "Sherren Mosley"
+    }
+  ],
   "photos": [
     {
       "person_id": 6909,

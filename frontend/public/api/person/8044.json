@@ -82,10 +82,69 @@
       "date_string": "30 April 1921",
       "place_string": null,
       "value_string": "married William Thomas Reed on 30 April 1921",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16062,
+          "fact_id": 12352,
+          "source_id": 1236,
+          "evidence_text": "Memorial assertion: Mae Wilson documented in FindAGrave Memorial #135818042.",
+          "source_title": "Record: FindAGrave Memorial 135818042",
+          "source_url": "https://www.findagrave.com/memorial/135818042/mae-wilson",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mae Wilson married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mae Wilson married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8025,
+      "rel_name": "Howard C. Wilson Sr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8025,
+      "rel_name": "Howard C. Wilson Sr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8032,
+      "rel_name": "Mary Augusta Carter Wilson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8032,
+      "rel_name": "Mary Augusta Carter Wilson"
+    }
+  ],
   "photos": [
     {
       "person_id": 8044,
@@ -176,6 +235,17 @@
   "ancestry": {
     "id": 8044,
     "name": "Mae Wilson",
-    "children": []
+    "children": [
+      {
+        "id": 8025,
+        "name": "Howard C. Wilson Sr",
+        "children": []
+      },
+      {
+        "id": 8025,
+        "name": "Howard C. Wilson Sr",
+        "children": []
+      }
+    ]
   }
 }

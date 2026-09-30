@@ -82,10 +82,37 @@
       "date_string": "1918",
       "place_string": null,
       "value_string": "married Lillie White in 1918",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15556,
+          "fact_id": 11846,
+          "source_id": 1024,
+          "evidence_text": "Memorial assertion: Nehemiah Harmon documented in FindAGrave Memorial #121531550.",
+          "source_title": "Record: FindAGrave Memorial 121531550",
+          "source_url": "https://www.findagrave.com/memorial/121531550/nehemiah-harmon",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Nehemiah Harmon married Lillie White (married Lillie White in 1918)",
+      "certainty": "confirmed",
+      "rel_id": 11872,
+      "rel_name": "Lillie White"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Nehemiah Harmon married Lillie White (married Lillie White in 1918)",
+      "certainty": "confirmed",
+      "rel_id": 11872,
+      "rel_name": "Lillie White"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

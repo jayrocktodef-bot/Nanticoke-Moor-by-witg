@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "Pierce",
     "married_last_name": "Pierce",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Pierce&Bowles.htm",
     "birth_info": null,
     "death_info": null,
@@ -38,7 +38,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier Pierce&Bowles.htm",
+      "certainty": "confirmed",
+      "rel_id": 7173,
+      "rel_name": "Enos Pierce"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier Pierce&Bowles.htm",
+      "certainty": "confirmed",
+      "rel_id": 7173,
+      "rel_name": "Enos Pierce"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier Pierce&Bowles.htm",
+      "certainty": "confirmed",
+      "rel_id": 7175,
+      "rel_name": "Em Pierce"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier Pierce&Bowles.htm",
+      "certainty": "confirmed",
+      "rel_id": 7175,
+      "rel_name": "Em Pierce"
+    }
+  ],
   "photos": [
     {
       "person_id": 7176,
@@ -100,6 +133,17 @@
   "ancestry": {
     "id": 7176,
     "name": "Enos Pierce Jr",
-    "children": []
+    "children": [
+      {
+        "id": 7173,
+        "name": "Enos Pierce",
+        "children": []
+      },
+      {
+        "id": 7173,
+        "name": "Enos Pierce",
+        "children": []
+      }
+    ]
   }
 }

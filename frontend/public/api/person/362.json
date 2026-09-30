@@ -58,7 +58,7 @@
           "citation_id": 14759,
           "fact_id": 602,
           "source_id": null,
-          "evidence_text": "Documented in george.htm:  Betty, Daug. of Jessy & Jamimy Deen born. 26 Aug. \n1772\n \n Jacob Hander son of Jonathan Hander & Agness his wife born 5 Day of Septem. \n1772\n \t\t\n Joshua son of William and Easter Handsor Bap. Born Ma",
+          "evidence_text": "Documented in george.htm: Betty, Daug. of Jessy & Jamimy Deen born. 26 Aug. \n1772\n \n Jacob Hander son of Jonathan Hander & Agness his wife born 5 Day of Septem. \n1772\n \n Joshua son of William and Easter Handsor Bap. Born Ma",
           "source_title": null,
           "source_url": null,
           "source_dataset": null
@@ -93,6 +93,14 @@
       "certainty": "confirmed",
       "rel_id": 363,
       "rel_name": "Jonathan Hander"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Bible Register: Jacob Hander son of Jonathan Hander & Agness his wife born 5 Day of Septem. 1772",
+      "certainty": "confirmed",
+      "rel_id": 363,
+      "rel_name": "Jonathan Hander"
     }
   ],
   "photos": [],
@@ -113,6 +121,11 @@
     "id": 362,
     "name": "Jacob Hander",
     "children": [
+      {
+        "id": 363,
+        "name": "Jonathan Hander",
+        "children": []
+      },
       {
         "id": 363,
         "name": "Jonathan Hander",

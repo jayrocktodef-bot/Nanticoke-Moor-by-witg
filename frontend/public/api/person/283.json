@@ -139,7 +139,17 @@
       "date_string": "10 April, 1913",
       "place_string": null,
       "value_string": "married Clem Carney on 10 April, 1913",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15431,
+          "fact_id": 11721,
+          "source_id": 962,
+          "evidence_text": "Memorial assertion: Mary Elizabeth Dean documented in FindAGrave Memorial #285702054.",
+          "source_title": "Record: FindAGrave Memorial 285702054",
+          "source_url": "https://www.findagrave.com/memorial/285702054/mary-dean",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13156,
@@ -279,7 +289,7 @@
       "person_id": 283,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "New Castle",
+      "place_string": "New Castle County, Delaware",
       "value_string": "Enumerated as 'B' (Black), age 3",
       "citations": [
         {
@@ -298,7 +308,7 @@
       "person_id": 283,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 11",
       "citations": [
         {
@@ -313,7 +323,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary Elizabeth Dean married Clem Carney (married Clem Carney on 10 April, 1913)",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary Elizabeth Dean married Clem Carney (married Clem Carney on 10 April, 1913)",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    }
+  ],
   "photos": [
     {
       "person_id": 283,

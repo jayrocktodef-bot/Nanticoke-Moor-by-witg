@@ -137,9 +137,19 @@
       "person_id": 5251,
       "fact_type": "Marriage",
       "date_string": "18 January, 1922",
-      "place_string": "Cheswold DE on 18 January, 1922",
+      "place_string": "Cheswold, Kent County, Delaware",
       "value_string": "married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15850,
+          "fact_id": 12140,
+          "source_id": 1137,
+          "evidence_text": "Memorial assertion: Elizabeth Durham documented in FindAGrave Memorial #277669760.",
+          "source_title": "Record: FindAGrave Memorial 277669760",
+          "source_url": "https://www.findagrave.com/memorial/277669760/elizabeth-durham",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -166,6 +176,22 @@
       "certainty": "confirmed",
       "rel_id": 93,
       "rel_name": "Jesse Dean"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Elizabeth Durham married Sarah Durham (married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922)",
+      "certainty": "confirmed",
+      "rel_id": 2372,
+      "rel_name": "Sarah V. Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Elizabeth Durham married Sarah Durham (married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922)",
+      "certainty": "confirmed",
+      "rel_id": 2372,
+      "rel_name": "Sarah V. Durham"
     }
   ],
   "photos": [],
@@ -178,7 +204,7 @@
       "birth_date": "2009",
       "death_date": "1930",
       "cemetery_location": "",
-      "full_text": "Charles G. Coker Sr., 79, of Dover, passed away Tuesday, Sept. 29, 2009, at \n  the VA Hospital, Wilmington. He was born on April 23, 1930, in Dover, to the \n  late James and Elizabeth Durham Coker.",
+      "full_text": "Charles G. Coker Sr., 79, of Dover, passed away Tuesday, Sept. 29, 2009, at \n the VA Hospital, Wilmington. He was born on April 23, 1930, in Dover, to the \n late James and Elizabeth Durham Coker.",
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],

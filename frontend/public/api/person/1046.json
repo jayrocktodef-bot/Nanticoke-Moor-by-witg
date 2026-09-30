@@ -82,7 +82,17 @@
       "date_string": "15 November, 1917",
       "place_string": null,
       "value_string": "married Mae SAMMONS on 15 November, 1917",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15560,
+          "fact_id": 11850,
+          "source_id": 1026,
+          "evidence_text": "Memorial assertion: John H Mosley documented in FindAGrave Memorial #228567598.",
+          "source_title": "Record: FindAGrave Memorial 228567598",
+          "source_url": "https://www.findagrave.com/memorial/228567598/john-mosley",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12643,
@@ -298,7 +308,7 @@
       "person_id": 1046,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 50",
       "citations": [
         {
@@ -317,7 +327,7 @@
       "person_id": 1046,
       "fact_type": "Census",
       "date_string": "1930",
-      "place_string": "Commercial, Cumberland, New Jersey, USA",
+      "place_string": "Commercial Township, Cumberland County, New Jersey",
       "value_string": "1930 US Federal Census: Head, age 30. Household: John H Mosley (Head, age 30), Anna Mosley (Wife, age 29), William C Mosley (Son, age 7), Ida M Mosley (Daughter, age 2)",
       "citations": [
         {
@@ -348,6 +358,22 @@
       "certainty": "census_confirmed",
       "rel_id": 10795,
       "rel_name": "William C Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John H Mosley married Mae Sammons (married Mae SAMMONS on 15 November, 1917)",
+      "certainty": "confirmed",
+      "rel_id": 11877,
+      "rel_name": "Mae Sammons"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John H Mosley married Mae Sammons (married Mae SAMMONS on 15 November, 1917)",
+      "certainty": "confirmed",
+      "rel_id": 11877,
+      "rel_name": "Mae Sammons"
     }
   ],
   "photos": [

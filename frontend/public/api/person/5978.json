@@ -139,10 +139,69 @@
       "date_string": "1918",
       "place_string": null,
       "value_string": "married Lillie White in 1918",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15902,
+          "fact_id": 12192,
+          "source_id": 1154,
+          "evidence_text": "Memorial assertion: Nancy Harmon documented in FindAGrave Memorial #290800593.",
+          "source_title": "Record: FindAGrave Memorial 290800593",
+          "source_url": "https://www.findagrave.com/memorial/290800593/nancy-harmon",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Nancy Harmon married Lillie White (married Lillie White in 1918)",
+      "certainty": "confirmed",
+      "rel_id": 11872,
+      "rel_name": "Lillie White"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Nancy Harmon married Lillie White (married Lillie White in 1918)",
+      "certainty": "confirmed",
+      "rel_id": 11872,
+      "rel_name": "Lillie White"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5920,
+      "rel_name": "Sarah Jane Sockum Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5920,
+      "rel_name": "Sarah Jane Sockum Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5921,
+      "rel_name": "Isaac W. Harmon"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier HarmonIsaacW&SarahSockum.htm",
+      "certainty": "confirmed",
+      "rel_id": 5921,
+      "rel_name": "Isaac W. Harmon"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [
@@ -160,6 +219,17 @@
   "ancestry": {
     "id": 5978,
     "name": "Nancy Harmon",
-    "children": []
+    "children": [
+      {
+        "id": 5920,
+        "name": "Sarah Jane Sockum Harmon",
+        "children": []
+      },
+      {
+        "id": 5920,
+        "name": "Sarah Jane Sockum Harmon",
+        "children": []
+      }
+    ]
   }
 }

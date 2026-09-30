@@ -82,10 +82,37 @@
       "date_string": "May 9th 1849",
       "place_string": null,
       "value_string": "born May 9th 1849",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16029,
+          "fact_id": 12319,
+          "source_id": 1212,
+          "evidence_text": "Memorial assertion: Mary E. Reed Thomas documented in FindAGrave Memorial #135888074.",
+          "source_title": "Record: FindAGrave Memorial 135888074",
+          "source_url": "https://www.findagrave.com/memorial/135888074/mary-thomas",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedThomas&MaryMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedThomas&MaryMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

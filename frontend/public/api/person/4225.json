@@ -139,14 +139,24 @@
       "date_string": "10 April, 1913",
       "place_string": null,
       "value_string": "married Clem Carney on 10 April, 1913",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15781,
+          "fact_id": 12071,
+          "source_id": 1111,
+          "evidence_text": "Memorial assertion: Mary Elizabeth Durham Coker documented in FindAGrave Memorial #228965366.",
+          "source_title": "Record: FindAGrave Memorial 228965366",
+          "source_url": "https://www.findagrave.com/memorial/228965366/mary-coker",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 15611,
       "person_id": 4225,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 5",
       "citations": [
         {
@@ -161,7 +171,56 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary Elizabeth Durham Coker married Clem Carney (married Clem Carney on 10 April, 1913)",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary Elizabeth Durham Coker married Clem Carney (married Clem Carney on 10 April, 1913)",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CokerJamesH&MaryEDurham.htm",
+      "certainty": "confirmed",
+      "rel_id": 4227,
+      "rel_name": "Elizabeth Durham Coker"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CokerJamesH&MaryEDurham.htm",
+      "certainty": "confirmed",
+      "rel_id": 4227,
+      "rel_name": "Elizabeth Durham Coker"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CokerJamesH&MaryEDurham.htm",
+      "certainty": "confirmed",
+      "rel_id": 4228,
+      "rel_name": "Letter to James Coker"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CokerJamesH&MaryEDurham.htm",
+      "certainty": "confirmed",
+      "rel_id": 4228,
+      "rel_name": "Letter to James Coker"
+    }
+  ],
   "photos": [
     {
       "person_id": 4225,

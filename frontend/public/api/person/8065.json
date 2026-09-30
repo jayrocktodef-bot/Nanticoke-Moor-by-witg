@@ -139,10 +139,69 @@
       "date_string": "18 October 1916",
       "place_string": null,
       "value_string": "married Joel Clemons Smith on 18 October 1916",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16066,
+          "fact_id": 12356,
+          "source_id": 1240,
+          "evidence_text": "Memorial assertion: Anna Elizabeth Wilson documented in FindAGrave Memorial #107431155.",
+          "source_title": "Record: FindAGrave Memorial 107431155",
+          "source_url": "https://www.findagrave.com/memorial/107431155/anna-wilson",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Anna Elizabeth Wilson married Joel Clemons (married Joel Clemons Smith on 18 October 1916)",
+      "certainty": "confirmed",
+      "rel_id": 11881,
+      "rel_name": "Joel Clemons"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Anna Elizabeth Wilson married Joel Clemons (married Joel Clemons Smith on 18 October 1916)",
+      "certainty": "confirmed",
+      "rel_id": 11881,
+      "rel_name": "Joel Clemons"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8025,
+      "rel_name": "Howard C. Wilson Sr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8025,
+      "rel_name": "Howard C. Wilson Sr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8032,
+      "rel_name": "Mary Augusta Carter Wilson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier WilsonHowardC&BessieMosley.htm",
+      "certainty": "confirmed",
+      "rel_id": 8032,
+      "rel_name": "Mary Augusta Carter Wilson"
+    }
+  ],
   "photos": [
     {
       "person_id": 8065,
@@ -197,6 +256,17 @@
   "ancestry": {
     "id": 8065,
     "name": "Anna Elizabeth Wilson",
-    "children": []
+    "children": [
+      {
+        "id": 8025,
+        "name": "Howard C. Wilson Sr",
+        "children": []
+      },
+      {
+        "id": 8025,
+        "name": "Howard C. Wilson Sr",
+        "children": []
+      }
+    ]
   }
 }

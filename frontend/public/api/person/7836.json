@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Hitchens",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "ThompsonAddie&HitchensKids.htm",
     "birth_info": "3 May 1916",
     "death_info": "20 Jul 2001 (aged 85)",
@@ -76,13 +76,181 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ThompsonAddie&HitchensKids.htm",
+      "certainty": "confirmed",
+      "rel_id": 7833,
+      "rel_name": "Reginald Hitchens"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ThompsonAddie&HitchensKids.htm",
+      "certainty": "confirmed",
+      "rel_id": 7833,
+      "rel_name": "Reginald Hitchens"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ThompsonAddie&HitchensKids.htm",
+      "certainty": "confirmed",
+      "rel_id": 7834,
+      "rel_name": "Layton Hitchens"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ThompsonAddie&HitchensKids.htm",
+      "certainty": "confirmed",
+      "rel_id": 7834,
+      "rel_name": "Layton Hitchens"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 7836,
     "name": "Sara Hitchens",
-    "children": []
+    "children": [
+      {
+        "id": 7833,
+        "name": "Reginald Hitchens",
+        "children": [
+          {
+            "id": 9812,
+            "name": "Harvey Eli Hitchens",
+            "children": [
+              {
+                "id": 9728,
+                "name": "Joshua S. Hitchens",
+                "children": [
+                  {
+                    "id": 9732,
+                    "name": "Joshua Hitchens",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10050,
+            "name": "Vigire Mae Thompson",
+            "children": [
+              {
+                "id": 9167,
+                "name": "Addie F. Thompson",
+                "children": [
+                  {
+                    "id": 8679,
+                    "name": "John W Thompson",
+                    "children": [
+                      {
+                        "id": 8639,
+                        "name": "Clemmon Thompson",
+                        "children": []
+                      },
+                      {
+                        "id": 8638,
+                        "name": "Melisa Molly Street",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9165,
+                    "name": "Sarah A Thompson",
+                    "children": [
+                      {
+                        "id": 10122,
+                        "name": "John R. Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10123,
+                        "name": "Lavinia Lovinia Sammons",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7833,
+        "name": "Reginald Hitchens",
+        "children": [
+          {
+            "id": 9812,
+            "name": "Harvey Eli Hitchens",
+            "children": [
+              {
+                "id": 9728,
+                "name": "Joshua S. Hitchens",
+                "children": [
+                  {
+                    "id": 9732,
+                    "name": "Joshua Hitchens",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10050,
+            "name": "Vigire Mae Thompson",
+            "children": [
+              {
+                "id": 9167,
+                "name": "Addie F. Thompson",
+                "children": [
+                  {
+                    "id": 8679,
+                    "name": "John W Thompson",
+                    "children": [
+                      {
+                        "id": 8639,
+                        "name": "Clemmon Thompson",
+                        "children": []
+                      },
+                      {
+                        "id": 8638,
+                        "name": "Melisa Molly Street",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9165,
+                    "name": "Sarah A Thompson",
+                    "children": [
+                      {
+                        "id": 10122,
+                        "name": "John R. Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10123,
+                        "name": "Lavinia Lovinia Sammons",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

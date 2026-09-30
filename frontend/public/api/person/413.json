@@ -80,9 +80,19 @@
       "person_id": 413,
       "fact_type": "Marriage",
       "date_string": "April 5, 1893",
-      "place_string": "the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
+      "place_string": "Jackson-Perkins Cemetery, Millsboro, Sussex County, Delaware",
       "value_string": "married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15456,
+          "fact_id": 11746,
+          "source_id": 984,
+          "evidence_text": "Memorial assertion: Mattie Jackson documented in FindAGrave Memorial #108328432.",
+          "source_title": "Record: FindAGrave Memorial 108328432",
+          "source_url": "https://www.findagrave.com/memorial/108328432/mattie-jackson",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13820,
@@ -112,6 +122,22 @@
       "certainty": "confirmed",
       "rel_id": 414,
       "rel_name": "Eldridge Johnson"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mattie Jackson married Ruth Both (married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov)",
+      "certainty": "confirmed",
+      "rel_id": 11882,
+      "rel_name": "Ruth Both"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mattie Jackson married Ruth Both (married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov)",
+      "certainty": "confirmed",
+      "rel_id": 11882,
+      "rel_name": "Ruth Both"
     }
   ],
   "photos": [

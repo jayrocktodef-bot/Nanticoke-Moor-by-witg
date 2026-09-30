@@ -139,7 +139,17 @@
       "date_string": "1918",
       "place_string": null,
       "value_string": "married Lillie White in 1918",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15554,
+          "fact_id": 11844,
+          "source_id": 1022,
+          "evidence_text": "Memorial assertion: Elsey Hitchins Mosley documented in FindAGrave Memorial #133214363.",
+          "source_title": "Record: FindAGrave Memorial 133214363",
+          "source_url": "https://www.findagrave.com/memorial/133214363/e-b-mosley",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 14935,
@@ -161,7 +171,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Elsey Hitchins Mosley married Lillie White (married Lillie White in 1918)",
+      "certainty": "confirmed",
+      "rel_id": 11872,
+      "rel_name": "Lillie White"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Elsey Hitchins Mosley married Lillie White (married Lillie White in 1918)",
+      "certainty": "confirmed",
+      "rel_id": 11872,
+      "rel_name": "Lillie White"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

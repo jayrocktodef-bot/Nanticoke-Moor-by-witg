@@ -6,7 +6,7 @@
     "middle_name": "T.",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 4,
+    "evidence_level": 3,
     "source_page": "Probate.htm",
     "birth_info": "1838",
     "death_info": "15 Feb 1911 (aged 72\u201373)",
@@ -82,7 +82,17 @@
       "date_string": "30 April 1921",
       "place_string": null,
       "value_string": "married William Thomas Reed on 30 April 1921",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15621,
+          "fact_id": 11911,
+          "source_id": 1048,
+          "evidence_text": "Memorial assertion: James T. Dean documented in FindAGrave Memorial #168115618.",
+          "source_title": "Record: FindAGrave Memorial 168115618",
+          "source_url": "https://www.findagrave.com/memorial/168115618/james-dean",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12622,
@@ -564,7 +574,7 @@
       "person_id": 2361,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "New Castle",
+      "place_string": "New Castle County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 25",
       "citations": [
         {
@@ -583,7 +593,7 @@
       "person_id": 2361,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 34",
       "citations": [
         {
@@ -602,7 +612,7 @@
       "person_id": 2361,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 46",
       "citations": [
         {
@@ -617,7 +627,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: James T. Dean married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: James T. Dean married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    }
+  ],
   "photos": [
     {
       "person_id": 2361,

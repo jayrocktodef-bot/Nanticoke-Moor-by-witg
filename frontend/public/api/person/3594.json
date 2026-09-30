@@ -6,7 +6,7 @@
     "middle_name": "Rae",
     "maiden_name": "",
     "married_last_name": "Carey",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CareyCharlesE&DellaRidgeway.htm",
     "birth_info": null,
     "death_info": null,
@@ -38,7 +38,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CareyCharlesE&DellaRidgeway.htm",
+      "certainty": "confirmed",
+      "rel_id": 3582,
+      "rel_name": "Edward Carey"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CareyCharlesE&DellaRidgeway.htm",
+      "certainty": "confirmed",
+      "rel_id": 3582,
+      "rel_name": "Edward Carey"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CareyCharlesE&DellaRidgeway.htm",
+      "certainty": "confirmed",
+      "rel_id": 3588,
+      "rel_name": "Charles Edward Carey"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CareyCharlesE&DellaRidgeway.htm",
+      "certainty": "confirmed",
+      "rel_id": 3588,
+      "rel_name": "Charles Edward Carey"
+    }
+  ],
   "photos": [
     {
       "person_id": 3594,
@@ -154,6 +187,17 @@
   "ancestry": {
     "id": 3594,
     "name": "Lulu Rae Carey",
-    "children": []
+    "children": [
+      {
+        "id": 3582,
+        "name": "Edward Carey",
+        "children": []
+      },
+      {
+        "id": 3582,
+        "name": "Edward Carey",
+        "children": []
+      }
+    ]
   }
 }

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Sterrett",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CourseyCharlesM&family.htm",
     "birth_info": null,
     "death_info": null,
@@ -38,13 +38,57 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CourseyCharlesM&family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4507,
+      "rel_name": "Hope Smith Sterrett"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CourseyCharlesM&family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4507,
+      "rel_name": "Hope Smith Sterrett"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CourseyCharlesM&family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4508,
+      "rel_name": "Paris Sterrett Jr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CourseyCharlesM&family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4508,
+      "rel_name": "Paris Sterrett Jr"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 4512,
     "name": "Cecilia Sterrett",
-    "children": []
+    "children": [
+      {
+        "id": 4507,
+        "name": "Hope Smith Sterrett",
+        "children": []
+      },
+      {
+        "id": 4507,
+        "name": "Hope Smith Sterrett",
+        "children": []
+      }
+    ]
   }
 }

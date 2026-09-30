@@ -82,7 +82,17 @@
       "date_string": "18 December 1920",
       "place_string": null,
       "value_string": "married Howard Clifton Wilson on 18 December 1920",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16005,
+          "fact_id": 12295,
+          "source_id": 1198,
+          "evidence_text": "Memorial assertion: Charles William Reed Jr documented in FindAGrave Memorial #305240836.",
+          "source_title": "Record: FindAGrave Memorial 305240836",
+          "source_url": "https://www.findagrave.com/memorial/305240836/charles-lindsay-darsey",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 15573,
@@ -104,7 +114,56 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Charles William Reed Jr married Howard Clifton (married Howard Clifton Wilson on 18 December 1920)",
+      "certainty": "confirmed",
+      "rel_id": 8000,
+      "rel_name": "Howard Clifton"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Charles William Reed Jr married Howard Clifton (married Howard Clifton Wilson on 18 December 1920)",
+      "certainty": "confirmed",
+      "rel_id": 8000,
+      "rel_name": "Howard Clifton"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7062,
+      "rel_name": "William Thomas Reed"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7062,
+      "rel_name": "William Thomas Reed"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7063,
+      "rel_name": "Mary Mosley Reed"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier ReedCharlesBuck&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 7063,
+      "rel_name": "Mary Mosley Reed"
+    }
+  ],
   "photos": [
     {
       "person_id": 7086,
@@ -159,6 +218,17 @@
   "ancestry": {
     "id": 7086,
     "name": "Charles William Reed Jr",
-    "children": []
+    "children": [
+      {
+        "id": 7062,
+        "name": "William Thomas Reed",
+        "children": []
+      },
+      {
+        "id": 7062,
+        "name": "William Thomas Reed",
+        "children": []
+      }
+    ]
   }
 }

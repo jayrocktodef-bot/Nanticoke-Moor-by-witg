@@ -82,7 +82,17 @@
       "date_string": "October 28, 1896",
       "place_string": null,
       "value_string": "married Mary Elizabeth Clark on October 28, 1896",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16021,
+          "fact_id": 12311,
+          "source_id": 1206,
+          "evidence_text": "Memorial assertion: Nehemiah Morris Sammons documented in FindAGrave Memorial #74985381.",
+          "source_title": "Record: FindAGrave Memorial 74985381",
+          "source_url": "https://www.findagrave.com/memorial/74985381/nehemiah-leonard-sammons",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13936,
@@ -123,7 +133,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Nehemiah Morris Sammons married Mary Elizabeth (married Mary Elizabeth Clark on October 28, 1896)",
+      "certainty": "confirmed",
+      "rel_id": 7237,
+      "rel_name": "Mary Elizabeth"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Nehemiah Morris Sammons married Mary Elizabeth (married Mary Elizabeth Clark on October 28, 1896)",
+      "certainty": "confirmed",
+      "rel_id": 7237,
+      "rel_name": "Mary Elizabeth"
+    }
+  ],
   "photos": [
     {
       "person_id": 7278,

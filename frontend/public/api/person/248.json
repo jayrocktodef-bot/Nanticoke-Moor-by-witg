@@ -82,7 +82,17 @@
       "date_string": "1827",
       "place_string": null,
       "value_string": "married sometime prior to 1827",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15427,
+          "fact_id": 11717,
+          "source_id": 958,
+          "evidence_text": "Memorial assertion: Hester Concilor Dean documented in FindAGrave Memorial #137891380.",
+          "source_title": "Record: FindAGrave Memorial 137891380",
+          "source_url": "https://www.findagrave.com/memorial/137891380/hester-dean",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13080,
@@ -203,7 +213,7 @@
       "person_id": 248,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 28",
       "citations": [
         {
@@ -222,7 +232,7 @@
       "person_id": 248,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'W' (White), age 2",
       "citations": [
         {
@@ -237,7 +247,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Hester Concilor Dean married Sometime Prior (married sometime prior to 1827)",
+      "certainty": "confirmed",
+      "rel_id": 11880,
+      "rel_name": "Sometime Prior"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Hester Concilor Dean married Sometime Prior (married sometime prior to 1827)",
+      "certainty": "confirmed",
+      "rel_id": 11880,
+      "rel_name": "Sometime Prior"
+    }
+  ],
   "photos": [
     {
       "person_id": 248,

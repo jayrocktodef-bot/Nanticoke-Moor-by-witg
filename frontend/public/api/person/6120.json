@@ -44,7 +44,17 @@
       "date_string": "October 28th 1747",
       "place_string": null,
       "value_string": "Born October 28th 1747",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15913,
+          "fact_id": 12203,
+          "source_id": 384,
+          "evidence_text": "Archival assertion: Born October 28th 1747 (October 28th 1747) documented in primary lineage manifest.",
+          "source_title": "Record: Jackson7&PerryHughes.htm",
+          "source_url": "Jackson7&PerryHughes.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 13788,
@@ -89,7 +99,7 @@
       "person_id": 6120,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Sussex",
+      "place_string": "Sussex County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 22",
       "citations": [
         {
@@ -104,7 +114,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier Jackson7&PerryHughes.htm",
+      "certainty": "confirmed",
+      "rel_id": 6128,
+      "rel_name": "Arthur Jackson"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier Jackson7&PerryHughes.htm",
+      "certainty": "confirmed",
+      "rel_id": 6128,
+      "rel_name": "Arthur Jackson"
+    }
+  ],
   "photos": [
     {
       "person_id": 6120,

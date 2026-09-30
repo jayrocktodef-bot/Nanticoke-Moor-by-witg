@@ -80,9 +80,19 @@
       "person_id": 344,
       "fact_type": "Marriage",
       "date_string": "April 5, 1893",
-      "place_string": "the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
+      "place_string": "Jackson-Perkins Cemetery, Millsboro, Sussex County, Delaware",
       "value_string": "married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15442,
+          "fact_id": 11732,
+          "source_id": 972,
+          "evidence_text": "Memorial assertion: Lucy Carney documented in FindAGrave Memorial #244810168.",
+          "source_title": "Record: FindAGrave Memorial 244810168",
+          "source_url": "https://www.findagrave.com/memorial/244810168/lucy-carney",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13819,
@@ -112,6 +122,22 @@
       "certainty": "confirmed",
       "rel_id": 343,
       "rel_name": "George Carney"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Lucy Carney married Ruth Both (married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov)",
+      "certainty": "confirmed",
+      "rel_id": 11882,
+      "rel_name": "Ruth Both"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Lucy Carney married Ruth Both (married Ruth both are buried at the Jackson/Perkins Cemetary   Mattie Jackson   Nora Jackson (April 5, 1893 -Nov)",
+      "certainty": "confirmed",
+      "rel_id": 11882,
+      "rel_name": "Ruth Both"
     }
   ],
   "photos": [],

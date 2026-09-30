@@ -95,7 +95,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier Durham_EnochD&Martha.htm",
+      "certainty": "confirmed",
+      "rel_id": 2733,
+      "rel_name": "Martha Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier Durham_EnochD&Martha.htm",
+      "certainty": "confirmed",
+      "rel_id": 2733,
+      "rel_name": "Martha Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier Durham_EnochD&Martha.htm",
+      "certainty": "confirmed",
+      "rel_id": 2739,
+      "rel_name": "Mae Cuff Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier Durham_EnochD&Martha.htm",
+      "certainty": "confirmed",
+      "rel_id": 2739,
+      "rel_name": "Mae Cuff Durham"
+    }
+  ],
   "photos": [
     {
       "person_id": 2745,
@@ -139,6 +172,17 @@
   "ancestry": {
     "id": 2745,
     "name": "Clara Durham",
-    "children": []
+    "children": [
+      {
+        "id": 2733,
+        "name": "Martha Durham",
+        "children": []
+      },
+      {
+        "id": 2733,
+        "name": "Martha Durham",
+        "children": []
+      }
+    ]
   }
 }

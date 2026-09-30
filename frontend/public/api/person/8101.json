@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Terry",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "TerryBetty&Ray.htm",
     "birth_info": "16 Jul 1940",
     "death_info": "2 May 2014 (aged 73)",
@@ -76,13 +76,57 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier TerryBetty&Ray.htm",
+      "certainty": "confirmed",
+      "rel_id": 8084,
+      "rel_name": "Betty Terry"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier TerryBetty&Ray.htm",
+      "certainty": "confirmed",
+      "rel_id": 8084,
+      "rel_name": "Betty Terry"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier TerryBetty&Ray.htm",
+      "certainty": "confirmed",
+      "rel_id": 8085,
+      "rel_name": "Ray Terry"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier TerryBetty&Ray.htm",
+      "certainty": "confirmed",
+      "rel_id": 8085,
+      "rel_name": "Ray Terry"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 8101,
     "name": "Aaron Terry",
-    "children": []
+    "children": [
+      {
+        "id": 8084,
+        "name": "Betty Terry",
+        "children": []
+      },
+      {
+        "id": 8084,
+        "name": "Betty Terry",
+        "children": []
+      }
+    ]
   }
 }

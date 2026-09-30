@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Thomas",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "5 Sep 1882 Maryland, USA",
     "death_info": "1957",
@@ -82,7 +82,17 @@
       "date_string": "18 October 1916",
       "place_string": null,
       "value_string": "married Joel Clemons Smith on 18 October 1916",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16120,
+          "fact_id": 12410,
+          "source_id": 622,
+          "evidence_text": "Archival assertion: married Joel Clemons Smith on 18 October 1916 (18 October 1916) documented in primary lineage manifest.",
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -101,6 +111,22 @@
       "certainty": "confirmed",
       "rel_id": 9898,
       "rel_name": "Chester R Thomas"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: George Thomas married Joel Clemons (married Joel Clemons Smith on 18 October 1916)",
+      "certainty": "confirmed",
+      "rel_id": 11881,
+      "rel_name": "Joel Clemons"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: George Thomas married Joel Clemons (married Joel Clemons Smith on 18 October 1916)",
+      "certainty": "confirmed",
+      "rel_id": 11881,
+      "rel_name": "Joel Clemons"
     }
   ],
   "photos": [],
@@ -124,7 +150,7 @@
       "birth_date": "",
       "death_date": "2009",
       "cemetery_location": "",
-      "full_text": "George Thomas Jones of Milford died Thursday December 24, 2009 at Delaware \n  Hospice Center, Milford. He was 65.",
+      "full_text": "George Thomas Jones of Milford died Thursday December 24, 2009 at Delaware \n Hospice Center, Milford. He was 65.",
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],

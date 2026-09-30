@@ -80,9 +80,19 @@
       "person_id": 1060,
       "fact_type": "Marriage",
       "date_string": "Oct. 4, 1928",
-      "place_string": "Gratiot Co",
+      "place_string": "Gratiot County, Michigan",
       "value_string": "were married Oct. 4, 1928 in Gratiot Co",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15564,
+          "fact_id": 11854,
+          "source_id": 1028,
+          "evidence_text": "Memorial assertion: Robert Carney documented in FindAGrave Memorial #195973116.",
+          "source_title": "Record: FindAGrave Memorial 195973116",
+          "source_url": "https://www.findagrave.com/memorial/195973116/robert-carney",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12862,
@@ -180,7 +190,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Bible Register: Clem Carney the son of Robert & Elmira Carney was born the 29th day of August 1869",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Bible Register: Clem Carney the son of Robert & Elmira Carney was born the 29th day of August 1869",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    }
+  ],
   "photos": [
     {
       "person_id": 1060,

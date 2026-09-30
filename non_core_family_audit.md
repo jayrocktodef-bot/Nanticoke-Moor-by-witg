@@ -1313,7 +1313,7 @@
 | #8231 | Harry Judy | Judy | Davis Family Tree.ged | davis_family_gedcom |
 | #8232 | Mary Alma Judy | Judy | Davis Family Tree.ged | davis_family_gedcom |
 | #7009 | Walter A. & Justine | Justine | ReedWalterAIII&JustineLamont-Hill.htm | mitsawokett_delaware |
-| #6986 | Lisa KURECZ@aol.com | KURECZ@aol.com | ParrishWilliamMabins.htm | mitsawokett_delaware |
+| #6986 | Lisa [email redacted] | [email redacted] | ParrishWilliamMabins.htm | mitsawokett_delaware |
 | #4826 | Dora Carter Kalb | Kalb | CarterGeorge&SallyBelleCarney.htm | mitsawokett_delaware |
 | #4828 | Charles Joseph Kalb | Kalb | CarterGeorge&SallyBelleCarney.htm | mitsawokett_delaware |
 | #8886 | Martin Kalbfehl | Kalbfehl | Davis Family Tree.ged | davis_family_gedcom |
@@ -2417,7 +2417,7 @@
 | #6063 | New York | York | HarmonSacajawea.htm | mitsawokett_delaware |
 | #9578 | Marion Young | Young | Davis Family Tree.ged | davis_family_gedcom |
 | #9579 | Ada Young | Young | Davis Family Tree.ged | davis_family_gedcom |
-| #4297 | Helen Pierce [mailto:pierceh@gmail.com] | [mailto:pierceh@gmail.com] | WhoAreThesePeople.htm | mitsawokett_delaware |
+| #4297 | Helen Pierce [email redacted] | [email redacted] | WhoAreThesePeople.htm | mitsawokett_delaware |
 | #10782 | Lydia _____ | _____ | Davis Family Tree.ged | davis_family_gedcom |
 | #7671 | which I was later able | able | SockumeLevin&Eunice.htm | mitsawokett_delaware |
 | #4354 | continued from above | above | Cuff_Elmer_family.htm | mitsawokett_delaware |
@@ -2614,7 +2614,7 @@
 | #3309 | Blakey leaves | leaves | BlakeyKatusR.htm | mitsawokett_delaware |
 | #3322 | After leaving | leaving | BlakeyKatusR.htm | mitsawokett_delaware |
 | #2987 | flying Piper Cub type light | light | BassKLorraine.htm | mitsawokett_delaware |
-| #2782 | CC: lightningfawn@com.net | lightningfawn@com.net | WhoAreThesePeople3.htm | mitsawokett_delaware |
+| #2782 | CC: [email redacted] | [email redacted] | WhoAreThesePeople3.htm | mitsawokett_delaware |
 | #3417 | kind o' like | like | CarneyClem.htm | mitsawokett_delaware |
 | #2536 | Ancestry.com link | link | IdentifiedIndians.htm | mitsawokett_delaware |
 | #4420 | wreck link | link | CuffLeonard&Margaret&TheodoreG.htm | mitsawokett_delaware |
@@ -2761,7 +2761,7 @@
 | #6383 | last name given variously | variously | MassariSteven&Brett&Diane.htm | mitsawokett_delaware |
 | #4233 | Italy is a very | very | CokerJamesH&MaryEDurham.htm | mitsawokett_delaware |
 | #4746 | whether the vill | vill | DeanRobert&Family.htm | mitsawokett_delaware |
-| #6987 | Nancy wcranden@earthlink.net | wcranden@earthlink.net | ParrishWilliamMabins.htm | mitsawokett_delaware |
+| #6987 | Nancy [email redacted] | [email redacted] | ParrishWilliamMabins.htm | mitsawokett_delaware |
 | #7662 | but much weathered | weathered | SockumeLevin&Eunice.htm | mitsawokett_delaware |
 | #3415 | last week | week | CarneyClem.htm | mitsawokett_delaware |
 | #6555 | visted DE almost every weekend | weekend | MosleyMark.htm | mitsawokett_delaware |

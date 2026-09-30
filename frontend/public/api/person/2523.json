@@ -82,7 +82,17 @@
       "date_string": "27 March, 1848",
       "place_string": null,
       "value_string": "married  Henrietta Carty on 27 March, 1848",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15645,
+          "fact_id": 11935,
+          "source_id": 1060,
+          "evidence_text": "Memorial assertion: William Carty documented in FindAGrave Memorial #228956275.",
+          "source_title": "Record: FindAGrave Memorial 228956275",
+          "source_url": "https://www.findagrave.com/memorial/228956275/william-carty",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12551,
@@ -127,7 +137,7 @@
       "person_id": 2523,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Caroline",
+      "place_string": "Caroline County, Maryland",
       "value_string": "Enumerated as 'M' (Mulatto), age 57",
       "citations": [
         {
@@ -142,7 +152,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William Carty married Henrietta Carty (married  Henrietta Carty on 27 March, 1848)",
+      "certainty": "confirmed",
+      "rel_id": 509,
+      "rel_name": "Henrietta Carty"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William Carty married Henrietta Carty (married  Henrietta Carty on 27 March, 1848)",
+      "certainty": "confirmed",
+      "rel_id": 509,
+      "rel_name": "Henrietta Carty"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

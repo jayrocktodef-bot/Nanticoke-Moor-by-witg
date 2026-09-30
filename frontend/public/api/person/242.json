@@ -82,7 +82,17 @@
       "date_string": "1827",
       "place_string": null,
       "value_string": "married sometime prior to 1827",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15425,
+          "fact_id": 11715,
+          "source_id": 956,
+          "evidence_text": "Memorial assertion: Hester Ann Carney documented in FindAGrave Memorial #236066532.",
+          "source_title": "Record: FindAGrave Memorial 236066532",
+          "source_url": "https://www.findagrave.com/memorial/236066532/hester-carney",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13052,
@@ -123,7 +133,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Hester Ann Carney married Sometime Prior (married sometime prior to 1827)",
+      "certainty": "confirmed",
+      "rel_id": 11880,
+      "rel_name": "Sometime Prior"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Hester Ann Carney married Sometime Prior (married sometime prior to 1827)",
+      "certainty": "confirmed",
+      "rel_id": 11880,
+      "rel_name": "Sometime Prior"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

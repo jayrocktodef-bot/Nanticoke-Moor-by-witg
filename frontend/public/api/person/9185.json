@@ -6,7 +6,7 @@
     "middle_name": "Elizabeth",
     "maiden_name": "",
     "married_last_name": "Thomas",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "Davis Family Tree.ged",
     "birth_info": "25 June 1927 Rehoboth Beach, Sussex County, Delaware, United States of America",
     "death_info": "15 July 1969 Lewes, Sussex County, Delaware, United States of America",
@@ -82,10 +82,37 @@
       "date_string": "18 October 1916",
       "place_string": null,
       "value_string": "married Joel Clemons Smith on 18 October 1916",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16103,
+          "fact_id": 12393,
+          "source_id": 622,
+          "evidence_text": "Archival assertion: married Joel Clemons Smith on 18 October 1916 (18 October 1916) documented in primary lineage manifest.",
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary Elizabeth Thomas married Joel Clemons (married Joel Clemons Smith on 18 October 1916)",
+      "certainty": "confirmed",
+      "rel_id": 11881,
+      "rel_name": "Joel Clemons"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Mary Elizabeth Thomas married Joel Clemons (married Joel Clemons Smith on 18 October 1916)",
+      "certainty": "confirmed",
+      "rel_id": 11881,
+      "rel_name": "Joel Clemons"
+    }
+  ],
   "photos": [
     {
       "person_id": 9185,

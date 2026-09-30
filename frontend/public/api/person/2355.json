@@ -6,7 +6,7 @@
     "middle_name": "T.",
     "maiden_name": "",
     "married_last_name": "Dean",
-    "evidence_level": 4,
+    "evidence_level": 3,
     "source_page": "Probate.htm",
     "birth_info": "1801",
     "death_info": "20 Aug 1866 (aged 64\u201365)",
@@ -82,7 +82,17 @@
       "date_string": "30 April 1921",
       "place_string": null,
       "value_string": "married William Thomas Reed on 30 April 1921",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15619,
+          "fact_id": 11909,
+          "source_id": 1047,
+          "evidence_text": "Memorial assertion: John T. Dean documented in FindAGrave Memorial #226181420.",
+          "source_title": "Record: FindAGrave Memorial 226181420",
+          "source_url": "https://www.findagrave.com/memorial/226181420/john-dean",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 15501,
@@ -123,7 +133,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John T. Dean married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: John T. Dean married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

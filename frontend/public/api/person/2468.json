@@ -101,10 +101,37 @@
       "date_string": "1840",
       "place_string": null,
       "value_string": "married sometime before 1840",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15642,
+          "fact_id": 11932,
+          "source_id": 139,
+          "evidence_text": "...I found apprentice indentures for Walter Wright, Mary Wright and Eunice Wright the children of Warren Wright. All three children were indentured to Levin Sockum, who may...",
+          "source_title": "Record: Apprentice%20Indentures%20-%20Warren%20Wright%20family%201843.htm",
+          "source_url": "Apprentice%20Indentures%20-%20Warren%20Wright%20family%201843.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Eunice Wright married Sometime Before (married sometime before 1840)",
+      "certainty": "confirmed",
+      "rel_id": 11885,
+      "rel_name": "Sometime Before"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Eunice Wright married Sometime Before (married sometime before 1840)",
+      "certainty": "confirmed",
+      "rel_id": 11885,
+      "rel_name": "Sometime Before"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

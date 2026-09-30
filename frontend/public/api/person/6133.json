@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Jackson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "JacksonBlaine&Gladys.htm",
     "birth_info": "1853",
     "death_info": "1930 (aged 76\u201377)",
@@ -76,7 +76,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier JacksonBlaine&Gladys.htm",
+      "certainty": "confirmed",
+      "rel_id": 6129,
+      "rel_name": "Blaine Jackson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier JacksonBlaine&Gladys.htm",
+      "certainty": "confirmed",
+      "rel_id": 6129,
+      "rel_name": "Blaine Jackson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier JacksonBlaine&Gladys.htm",
+      "certainty": "confirmed",
+      "rel_id": 6130,
+      "rel_name": "Gladys Harmon Jackson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier JacksonBlaine&Gladys.htm",
+      "certainty": "confirmed",
+      "rel_id": 6130,
+      "rel_name": "Gladys Harmon Jackson"
+    }
+  ],
   "photos": [
     {
       "person_id": 6133,
@@ -138,6 +171,17 @@
   "ancestry": {
     "id": 6133,
     "name": "Layton Jackson",
-    "children": []
+    "children": [
+      {
+        "id": 6129,
+        "name": "Blaine Jackson",
+        "children": []
+      },
+      {
+        "id": 6129,
+        "name": "Blaine Jackson",
+        "children": []
+      }
+    ]
   }
 }

@@ -80,12 +80,39 @@
       "person_id": 5944,
       "fact_type": "Marriage",
       "date_string": "1936",
-      "place_string": "Bridgeton, NJ in 1936",
+      "place_string": "Bridgeton, Cumberland County, New Jersey",
       "value_string": "married Ulysses Owens    Jeremiah died in Bridgeton, NJ in 1936",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15893,
+          "fact_id": 12183,
+          "source_id": 1149,
+          "evidence_text": "Memorial assertion: William Augustus documented in FindAGrave Memorial #208674232.",
+          "source_title": "Record: FindAGrave Memorial 208674232",
+          "source_url": "https://www.findagrave.com/memorial/208674232/william-augustus",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William Augustus married Ulysses Owens (married Ulysses Owens    Jeremiah died in Bridgeton, NJ in 1936)",
+      "certainty": "confirmed",
+      "rel_id": 542,
+      "rel_name": "Ulysses Owens"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William Augustus married Ulysses Owens (married Ulysses Owens    Jeremiah died in Bridgeton, NJ in 1936)",
+      "certainty": "confirmed",
+      "rel_id": 542,
+      "rel_name": "Ulysses Owens"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

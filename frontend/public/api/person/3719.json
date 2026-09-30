@@ -82,7 +82,17 @@
       "date_string": "9 January, 1931",
       "place_string": null,
       "value_string": "married James Hughes    Daniel died on 9 January, 1931",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15708,
+          "fact_id": 11998,
+          "source_id": 1083,
+          "evidence_text": "Memorial assertion: James R. Carney documented in FindAGrave Memorial #197406196.",
+          "source_title": "Record: FindAGrave Memorial 197406196",
+          "source_url": "https://www.findagrave.com/memorial/197406196/james-carney",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12873,
@@ -222,7 +232,7 @@
       "person_id": 3719,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 19",
       "citations": [
         {
@@ -237,7 +247,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: James R. Carney married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: James R. Carney married James Hughes (married James Hughes    Daniel died on 9 January, 1931)",
+      "certainty": "confirmed",
+      "rel_id": 313,
+      "rel_name": "James Hughes"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarneyJamesR&EffieReed.htm",
+      "certainty": "confirmed",
+      "rel_id": 3718,
+      "rel_name": "Effilinda Reed Carney"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarneyJamesR&EffieReed.htm",
+      "certainty": "confirmed",
+      "rel_id": 3718,
+      "rel_name": "Effilinda Reed Carney"
+    }
+  ],
   "photos": [
     {
       "person_id": 3719,

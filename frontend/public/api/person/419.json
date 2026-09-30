@@ -82,7 +82,17 @@
       "date_string": "23 September, 1900",
       "place_string": null,
       "value_string": "married Cassius MOSLEY on 23 September, 1900",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15462,
+          "fact_id": 11752,
+          "source_id": 988,
+          "evidence_text": "Memorial assertion: Caroline Jackson documented in FindAGrave Memorial #281894894.",
+          "source_title": "Record: FindAGrave Memorial 281894894",
+          "source_url": "https://www.findagrave.com/memorial/281894894/caroline-jackson",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 13796,
@@ -218,7 +228,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Caroline Jackson married Cassius Mosley (married Cassius MOSLEY on 23 September, 1900)",
+      "certainty": "confirmed",
+      "rel_id": 11878,
+      "rel_name": "Cassius Mosley"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Caroline Jackson married Cassius Mosley (married Cassius MOSLEY on 23 September, 1900)",
+      "certainty": "confirmed",
+      "rel_id": 11878,
+      "rel_name": "Cassius Mosley"
+    }
+  ],
   "photos": [
     {
       "person_id": 419,

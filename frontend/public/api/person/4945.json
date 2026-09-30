@@ -44,7 +44,17 @@
       "date_string": "10 April, 1913",
       "place_string": null,
       "value_string": "married Clem Carney on 10 April, 1913",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15829,
+          "fact_id": 12119,
+          "source_id": 296,
+          "evidence_text": "Archival assertion: married Clem Carney on 10 April, 1913 (10 April, 1913) documented in primary lineage manifest.",
+          "source_title": "Record: DeanRobertBurton.htm",
+          "source_url": "DeanRobertBurton.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     },
     {
       "fact_id": 12936,
@@ -488,7 +498,7 @@
       "person_id": 4945,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 11",
       "citations": [
         {
@@ -507,7 +517,7 @@
       "person_id": 4945,
       "fact_type": "Racial Classification",
       "date_string": "1860",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 9",
       "citations": [
         {
@@ -526,7 +536,7 @@
       "person_id": 4945,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 36",
       "citations": [
         {
@@ -541,7 +551,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Robert Bernard Dean married Clem Carney (married Clem Carney on 10 April, 1913)",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Robert Bernard Dean married Clem Carney (married Clem Carney on 10 April, 1913)",
+      "certainty": "confirmed",
+      "rel_id": 571,
+      "rel_name": "Clem Carney Sr"
+    }
+  ],
   "photos": [
     {
       "person_id": 4945,

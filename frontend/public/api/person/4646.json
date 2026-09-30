@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Davis",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "DavisRobert&Bunny.htm",
     "birth_info": "1836",
     "death_info": "8 Oct 1882 (aged 45\u201346)",
@@ -76,7 +76,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DavisRobert&Bunny.htm",
+      "certainty": "confirmed",
+      "rel_id": 4637,
+      "rel_name": "Barbara Jannuzzio Davis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DavisRobert&Bunny.htm",
+      "certainty": "confirmed",
+      "rel_id": 4637,
+      "rel_name": "Barbara Jannuzzio Davis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DavisRobert&Bunny.htm",
+      "certainty": "confirmed",
+      "rel_id": 4641,
+      "rel_name": "Robby Davis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DavisRobert&Bunny.htm",
+      "certainty": "confirmed",
+      "rel_id": 4641,
+      "rel_name": "Robby Davis"
+    }
+  ],
   "photos": [
     {
       "person_id": 4646,
@@ -174,6 +207,17 @@
   "ancestry": {
     "id": 4646,
     "name": "Libby Davis",
-    "children": []
+    "children": [
+      {
+        "id": 4637,
+        "name": "Barbara Jannuzzio Davis",
+        "children": []
+      },
+      {
+        "id": 4637,
+        "name": "Barbara Jannuzzio Davis",
+        "children": []
+      }
+    ]
   }
 }

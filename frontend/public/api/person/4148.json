@@ -82,7 +82,17 @@
       "date_string": "30 April 1921",
       "place_string": null,
       "value_string": "married William Thomas Reed on 30 April 1921",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15756,
+          "fact_id": 12046,
+          "source_id": 1098,
+          "evidence_text": "Memorial assertion: Morgan Dean documented in FindAGrave Memorial #5088421.",
+          "source_title": "Record: FindAGrave Memorial 5088421",
+          "source_url": "https://www.findagrave.com/memorial/5088421/morgan-dean",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12931,
@@ -199,7 +209,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Morgan Dean married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Morgan Dean married William Thomas (married William Thomas Reed on 30 April 1921)",
+      "certainty": "confirmed",
+      "rel_id": 7347,
+      "rel_name": "William Thomas"
+    }
+  ],
   "photos": [
     {
       "person_id": 4148,

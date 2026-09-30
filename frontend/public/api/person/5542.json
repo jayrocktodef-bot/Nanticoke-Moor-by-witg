@@ -137,9 +137,19 @@
       "person_id": 5542,
       "fact_type": "Marriage",
       "date_string": "18 January, 1922",
-      "place_string": "Cheswold DE on 18 January, 1922",
+      "place_string": "Cheswold, Kent County, Delaware",
       "value_string": "married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15868,
+          "fact_id": 12158,
+          "source_id": 1142,
+          "evidence_text": "Memorial assertion: Sarah Beatrice Morris Durham documented in FindAGrave Memorial #136717812.",
+          "source_title": "Record: FindAGrave Memorial 136717812",
+          "source_url": "https://www.findagrave.com/memorial/136717812/sarah-durham",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12563,
@@ -412,7 +422,7 @@
       "person_id": 5542,
       "fact_type": "Racial Classification",
       "date_string": "1850",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 7",
       "citations": [
         {
@@ -431,7 +441,7 @@
       "person_id": 5542,
       "fact_type": "Racial Classification",
       "date_string": "1870",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 5",
       "citations": [
         {
@@ -450,7 +460,7 @@
       "person_id": 5542,
       "fact_type": "Racial Classification",
       "date_string": "1840",
-      "place_string": "Kent",
+      "place_string": "Kent County, Delaware",
       "value_string": "Enumerated as 'B' (Black)",
       "citations": [
         {
@@ -481,6 +491,22 @@
       "certainty": "confirmed",
       "rel_id": 322,
       "rel_name": "John Sisco"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Sarah Beatrice Morris Durham married Sarah Durham (married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922)",
+      "certainty": "confirmed",
+      "rel_id": 2372,
+      "rel_name": "Sarah V. Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Sarah Beatrice Morris Durham married Sarah Durham (married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922)",
+      "certainty": "confirmed",
+      "rel_id": 2372,
+      "rel_name": "Sarah V. Durham"
     }
   ],
   "photos": [

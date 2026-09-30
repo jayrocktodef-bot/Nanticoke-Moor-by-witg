@@ -6,7 +6,7 @@
     "middle_name": "Ann",
     "maiden_name": "Sarah",
     "married_last_name": "Thompson",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "FindAGrave Memorial 5207278",
     "birth_info": "1844",
     "death_info": "1929",
@@ -80,9 +80,19 @@
       "person_id": 11248,
       "fact_type": "Marriage",
       "date_string": "18 January, 1922",
-      "place_string": "Cheswold DE on 18 January, 1922",
+      "place_string": "Cheswold, Kent County, Delaware",
       "value_string": "married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 16206,
+          "fact_id": 12499,
+          "source_id": 627,
+          "evidence_text": "Archival assertion: married Sarah Durham Elmira died in Cheswold DE on 18 January, 1922 at/in Cheswold DE on 18 January, 1922 (18 January, 1922) documented in primary lineage manifest.",
+          "source_title": "Record: FindAGrave Memorial 5207278",
+          "source_url": "FindAGrave Memorial 5207278",
+          "source_dataset": "findagrave"
+        }
+      ]
     }
   ],
   "relationships": [
@@ -93,6 +103,22 @@
       "certainty": "confirmed",
       "rel_id": 1681,
       "rel_name": "John Asbury Thompson"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Sara Ann Thompson married Sarah Durham (married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922)",
+      "certainty": "confirmed",
+      "rel_id": 2372,
+      "rel_name": "Sarah V. Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Sara Ann Thompson married Sarah Durham (married \t\t\t\t\tSarah Durham    Elmira died in Cheswold DE on 18 January, 1922)",
+      "certainty": "confirmed",
+      "rel_id": 2372,
+      "rel_name": "Sarah V. Durham"
     }
   ],
   "photos": [],

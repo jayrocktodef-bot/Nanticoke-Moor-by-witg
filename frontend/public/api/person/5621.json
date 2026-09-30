@@ -42,12 +42,39 @@
       "person_id": 5621,
       "fact_type": "Death",
       "date_string": "19 December, 1940",
-      "place_string": "Wilmington on 19 December, 1940",
+      "place_string": "Wilmington, New Castle County, Delaware",
       "value_string": "died in Wilmington on 19 December, 1940",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15872,
+          "fact_id": 12162,
+          "source_id": 336,
+          "evidence_text": "Archival assertion: died in Wilmington on 19 December, 1940 at/in Wilmington on 19 December, 1940 (19 December, 1940) documented in primary lineage manifest.",
+          "source_title": "Record: FaulknerJames&Theresa.htm",
+          "source_url": "FaulknerJames&Theresa.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier FaulknerJames&Theresa.htm",
+      "certainty": "confirmed",
+      "rel_id": 5622,
+      "rel_name": "Theresa A. Dean Faulkner"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier FaulknerJames&Theresa.htm",
+      "certainty": "confirmed",
+      "rel_id": 5622,
+      "rel_name": "Theresa A. Dean Faulkner"
+    }
+  ],
   "photos": [
     {
       "person_id": 5621,

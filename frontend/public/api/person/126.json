@@ -80,9 +80,19 @@
       "person_id": 126,
       "fact_type": "Marriage",
       "date_string": "1943",
-      "place_string": "1943 and Margaret in 1973",
+      "place_string": null,
       "value_string": "married Cleo DURHAM    Alfred died in 1943 and Margaret in 1973",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15406,
+          "fact_id": 11696,
+          "source_id": 937,
+          "evidence_text": "Memorial assertion: Alfred Wilbank Coker documented in FindAGrave Memorial #144665382.",
+          "source_title": "Record: FindAGrave Memorial 144665382",
+          "source_url": "https://www.findagrave.com/memorial/144665382/alfred-coker",
+          "source_dataset": "findagrave"
+        }
+      ]
     },
     {
       "fact_id": 12844,
@@ -123,7 +133,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Alfred Wilbank Coker married Cleo Durham (married Cleo DURHAM    Alfred died in 1943 and Margaret in 1973)",
+      "certainty": "confirmed",
+      "rel_id": 11879,
+      "rel_name": "Cleo Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: Alfred Wilbank Coker married Cleo Durham (married Cleo DURHAM    Alfred died in 1943 and Margaret in 1973)",
+      "certainty": "confirmed",
+      "rel_id": 11879,
+      "rel_name": "Cleo Durham"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

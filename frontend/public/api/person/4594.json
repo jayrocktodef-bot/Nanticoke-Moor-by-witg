@@ -6,7 +6,7 @@
     "middle_name": "Pierce",
     "maiden_name": "",
     "married_last_name": "Custis",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CustisCarol&Lorraine&Parker.htm",
     "birth_info": null,
     "death_info": null,
@@ -38,7 +38,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CustisCarol&Lorraine&Parker.htm",
+      "certainty": "confirmed",
+      "rel_id": 4584,
+      "rel_name": "Lorraine Custis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CustisCarol&Lorraine&Parker.htm",
+      "certainty": "confirmed",
+      "rel_id": 4584,
+      "rel_name": "Lorraine Custis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CustisCarol&Lorraine&Parker.htm",
+      "certainty": "confirmed",
+      "rel_id": 4590,
+      "rel_name": "Son-in-law Peter Parker Custis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CustisCarol&Lorraine&Parker.htm",
+      "certainty": "confirmed",
+      "rel_id": 4590,
+      "rel_name": "Son-in-law Peter Parker Custis"
+    }
+  ],
   "photos": [
     {
       "person_id": 4594,
@@ -64,6 +97,17 @@
   "ancestry": {
     "id": 4594,
     "name": "Hazel Pierce Custis",
-    "children": []
+    "children": [
+      {
+        "id": 4584,
+        "name": "Lorraine Custis",
+        "children": []
+      },
+      {
+        "id": 4584,
+        "name": "Lorraine Custis",
+        "children": []
+      }
+    ]
   }
 }

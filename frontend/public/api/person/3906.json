@@ -44,10 +44,53 @@
       "date_string": "1969",
       "place_string": null,
       "value_string": "d. 1969",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15727,
+          "fact_id": 12017,
+          "source_id": 220,
+          "evidence_text": "Archival assertion: d. 1969 (1969) documented in primary lineage manifest.",
+          "source_title": "Record: CarneyRobertJamesSr&Family.htm",
+          "source_url": "CarneyRobertJamesSr&Family.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarneyRobertJamesSr&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 3904,
+      "rel_name": "Cordelia Mosley Carney"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarneyRobertJamesSr&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 3904,
+      "rel_name": "Cordelia Mosley Carney"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarneyRobertJamesSr&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 3905,
+      "rel_name": "Robert James Carney Jr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CarneyRobertJamesSr&Family.htm",
+      "certainty": "confirmed",
+      "rel_id": 3905,
+      "rel_name": "Robert James Carney Jr"
+    }
+  ],
   "photos": [],
   "obituaries": [
     {
@@ -58,7 +101,7 @@
       "birth_date": "",
       "death_date": "2016",
       "cemetery_location": "",
-      "full_text": "SMYRNA - LeRoy Carney Jr. passed away on Wednesday January 27, 2016 at Bayhealth \n  Medical Center, Dover. He was born in Dover and graduated from Dover High School.",
+      "full_text": "SMYRNA - LeRoy Carney Jr. passed away on Wednesday January 27, 2016 at Bayhealth \n Medical Center, Dover. He was born in Dover and graduated from Dover High School.",
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     },
     {
@@ -69,7 +112,7 @@
       "birth_date": "",
       "death_date": "",
       "cemetery_location": "",
-      "full_text": "He was preceded in death by his parents, the late LeRoy and Annabelle Carney. \n  He is survived by a son, LeRoy Carney III; two sisters, Victoria and Angela \n  Carney; his step-children, Michael A. Brown, George Brown, and Kimberly Lattomus; \n  his fianc\u00e9e, Sue Ksenich, and her family, Cathy and Greg Diven, and daughters \n  Emily, Haley, and Megan; aunts, Anne Seeney, Gloria Attix, and Betty Seeney; \n  and various cousins.",
+      "full_text": "He was preceded in death by his parents, the late LeRoy and Annabelle Carney. \n He is survived by a son, LeRoy Carney III; two sisters, Victoria and Angela \n Carney; his step-children, Michael A. Brown, George Brown, and Kimberly Lattomus; \n his fianc\u00e9e, Sue Ksenich, and her family, Cathy and Greg Diven, and daughters \n Emily, Haley, and Megan; aunts, Anne Seeney, Gloria Attix, and Betty Seeney; \n and various cousins.",
       "source_url": "https://nativeamericansofdelawarestate.com/Obituaries%20added%202016-04-03.htm"
     }
   ],
@@ -88,6 +131,17 @@
   "ancestry": {
     "id": 3906,
     "name": "Roy Carney",
-    "children": []
+    "children": [
+      {
+        "id": 3904,
+        "name": "Cordelia Mosley Carney",
+        "children": []
+      },
+      {
+        "id": 3904,
+        "name": "Cordelia Mosley Carney",
+        "children": []
+      }
+    ]
   }
 }

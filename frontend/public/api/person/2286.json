@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Morris",
-    "evidence_level": 4,
+    "evidence_level": 3,
     "source_page": "Probate.htm",
     "birth_info": null,
     "death_info": null,
@@ -44,10 +44,37 @@
       "date_string": "4 August 1909",
       "place_string": null,
       "value_string": "married Alonzo DURHAM on 4 August 1909",
-      "citations": []
+      "citations": [
+        {
+          "citation_id": 15607,
+          "fact_id": 11897,
+          "source_id": 658,
+          "evidence_text": "...l Washington Seney seal Wm. Scotten seal William Morris seal James Wilson seal Isaac Shorts seal John F. Hendrickson seal W...",
+          "source_title": "Record: Probate.htm",
+          "source_url": "Probate.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William Morris married Alonzo Durham (married Alonzo DURHAM on 4 August 1909)",
+      "certainty": "confirmed",
+      "rel_id": 3685,
+      "rel_name": "Alonzo Durham"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Documented Marriage: William Morris married Alonzo Durham (married Alonzo DURHAM on 4 August 1909)",
+      "certainty": "confirmed",
+      "rel_id": 3685,
+      "rel_name": "Alonzo Durham"
+    }
+  ],
   "photos": [
     {
       "person_id": 2286,

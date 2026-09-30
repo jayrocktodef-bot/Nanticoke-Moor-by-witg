@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Coursey",
-    "evidence_level": 2,
+    "evidence_level": 3,
     "source_page": "CourseyCharlesM&family.htm",
     "birth_info": null,
     "death_info": null,
@@ -38,7 +38,40 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CourseyCharlesM&family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4502,
+      "rel_name": "Cecilia Sterrett Coursey"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CourseyCharlesM&family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4502,
+      "rel_name": "Cecilia Sterrett Coursey"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CourseyCharlesM&family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4505,
+      "rel_name": "Marshall Coursey"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CourseyCharlesM&family.htm",
+      "certainty": "confirmed",
+      "rel_id": 4505,
+      "rel_name": "Marshall Coursey"
+    }
+  ],
   "photos": [
     {
       "person_id": 4515,
@@ -82,6 +115,17 @@
   "ancestry": {
     "id": 4515,
     "name": "Amos Coursey",
-    "children": []
+    "children": [
+      {
+        "id": 4502,
+        "name": "Cecilia Sterrett Coursey",
+        "children": []
+      },
+      {
+        "id": 4502,
+        "name": "Cecilia Sterrett Coursey",
+        "children": []
+      }
+    ]
   }
 }
