@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { 
   Users, LayoutGrid, List, Sparkles, Database, FileText, 
-  Image as ImageIcon, GitFork, ArrowRight, Compass, ShieldCheck 
+  Image as ImageIcon, GitFork, ArrowRight, Compass, ShieldCheck,
+  BookOpen, ChevronDown, ChevronUp, MapPin, Landmark
 } from 'lucide-react';
 import SurnameCard from '../components/SurnameCard';
 import { fetchCachedJson } from '../utils/apiCache';
@@ -15,6 +16,7 @@ export default function LineagesPage() {
   const [selectedLetter, setSelectedLetter] = useState('ALL');
   const [currentPage, setCurrentPage] = useState(1);
   const [expandedPathway, setExpandedPathway] = useState(null);
+  const [showHistoryDrawer, setShowHistoryDrawer] = useState(false);
   const pageSize = 24;
 
   const navigate = useNavigate();
@@ -74,6 +76,54 @@ export default function LineagesPage() {
             A comprehensive digital preservation catalog and primary evidence dossier tracing the remnant
             communities of the Nanticoke, Lenape (Moor), and associated colonial lineages across Delaware, Maryland Eastern Shore, and Southern New Jersey.
           </p>
+
+          <button
+            onClick={() => setShowHistoryDrawer(!showHistoryDrawer)}
+            className="mt-4 inline-flex items-center gap-2 text-xs font-mono font-semibold px-3 py-1.5 rounded-lg bg-[#26221E] hover:bg-[#332D27] border border-[#3E362F] hover:border-[#C68B59]/60 text-[#D4A373] transition-all shadow-sm"
+          >
+            <BookOpen className="w-3.5 h-3.5 text-[#C68B59]" />
+            <span>{showHistoryDrawer ? 'Hide Regional Historical Context' : 'Read Historical Overview & Regional Context'}</span>
+            {showHistoryDrawer ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
+          </button>
+
+          {showHistoryDrawer && (
+            <div className="mt-5 p-5 sm:p-6 rounded-xl bg-[#141210]/95 border border-[#332D27] text-xs sm:text-sm text-[#C5BCB2] space-y-4 animate-fade-in shadow-2xl">
+              <div>
+                <h4 className="font-serif-header text-base sm:text-lg font-bold text-[#F3EBE3] flex items-center gap-2">
+                  <MapPin className="w-4 h-4 text-[#C68B59]" /> The Historical & Ecological Landscape
+                </h4>
+                <p className="text-[#A8A096] text-xs leading-relaxed mt-1.5">
+                  Stretching between the Chesapeake Bay to the west and the Delaware Bay and Atlantic coastline to the east, the Delmarva Peninsula and the coastal marshes of Southern New Jersey formed an interconnected geographic haven for historic remnant communities. For centuries prior to European contact, Algonquian-speaking peoples—predominantly the Nanticoke of the Nanticoke and Indian River watersheds, the Lenape (Unami and Munsee) of the Delaware River valley, the Pocomoke, and the Choptank—sustained deep maritime, hunting, and agricultural networks across these estuaries.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 pt-2">
+                <div className="bg-[#1A1815] p-3 rounded-lg border border-[#2D2722]">
+                  <strong className="text-[#D4A373] text-xs font-semibold block mb-1">Delaware Settlements (Kent & Sussex):</strong>
+                  <p className="text-[11px] text-[#A8A096] leading-relaxed">
+                    <strong>Cheswold / Moortown:</strong> Durham, Seeney, Consellor, Carney, Morgan, Ridgeway, Greenage.<br />
+                    <strong>Indian River / Millsboro:</strong> Harmon, Clark, Street, Davis, Sockum, Wright, Norwood.
+                  </p>
+                </div>
+                <div className="bg-[#1A1815] p-3 rounded-lg border border-[#2D2722]">
+                  <strong className="text-[#D4A373] text-xs font-semibold block mb-1">South Jersey & Eastern Shore MD:</strong>
+                  <p className="text-[11px] text-[#A8A096] leading-relaxed">
+                    <strong>Gouldtown & Salem Co. NJ:</strong> Gould, Pierce, Cuff, Murray, Stewart.<br />
+                    <strong>Jackson Town & Somerset MD:</strong> Jackson, Puckham / Bookram, Cottman, Handzer.
+                  </p>
+                </div>
+              </div>
+
+              <div className="pt-1">
+                <h4 className="font-serif-header text-base sm:text-lg font-bold text-[#F3EBE3] flex items-center gap-2">
+                  <Landmark className="w-4 h-4 text-[#C68B59]" /> Cultural Invisibility & Kinship Preservation
+                </h4>
+                <p className="text-[#A8A096] text-xs leading-relaxed mt-1.5">
+                  Facing colonial pressures and shifting racial reclassification schemes that compressed identities into binary classifications, these families preserved their heritage through endogamous cousin marriages, independent community-funded schools (such as the State-aided Nanticoke Indian School and Fork Branch School), dedicated AME/Methodist churches, and economic independence as skilled shipbuilders, oystermen, and landowners.
+                </p>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* METRICS ROW */}
