@@ -126,18 +126,18 @@ export default function SplashScreen({ onEnter }) {
                 </div>
                 <p className="text-[#A8A096] text-sm leading-relaxed mb-3">
                   A comprehensive digital preservation effort documenting the rich history,
-                  lineage, and interconnected families of the Nanticoke Indians.
-                  This archive permanently safeguards obituaries, photos, relationships,
-                  and historical records for future generations.
+                  lineages, and interconnected families of the Delmarva and Tidewater region.
+                  This archive permanently safeguards photographs, oral histories, kinship ties,
+                  and historical primary records for future generations.
                 </p>
 
                 {expandedAbout && (
                   <div className="mt-3 pt-3 border-t border-[#2D2722] text-xs text-[#C5BCB2] space-y-2 animate-fade-in">
                     <p className="leading-relaxed">
-                      Focuses on the historic Native American and tri-racial isolate communities centered in Kent and Sussex Counties (Delaware) and Cumberland and Salem Counties (Southern New Jersey).
+                      Encompasses the historic Indigenous, mixed-ancestry, and tri-racial remnant communities of the Chesapeake and Delaware Bay Tidewater basins—spanning the Delaware counties, Maryland's Eastern Shore, and coastal Southern New Jersey.
                     </p>
                     <p className="leading-relaxed">
-                      Features 3,820 individual records, 2,609 verified photographs and descent charts, 522 historical obituaries, and 357 primary documentation sources.
+                      Features over 3,800 individual records, 2,800+ preserved photographs, 400+ historical obituaries, and 330+ transcribed colonial land deeds, family Bibles, and census enumerations.
                     </p>
                   </div>
                 )}
