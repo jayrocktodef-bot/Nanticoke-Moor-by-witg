@@ -1,236 +1,557 @@
-import React, { useState } from 'react';
-import { User, Users, ChevronDown, ChevronUp, GitBranch, ArrowUpRight, ShieldCheck, Heart, Sparkles, Target, Eye, EyeOff } from 'lucide-react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
+import { 
+  User, Users, GitBranch, ArrowUpRight, ShieldCheck, Heart, 
+  Sparkles, Target, Eye, EyeOff, Download, Copy, Check, ZoomIn, 
+  ZoomOut, RotateCcw, Maximize2, Move, ExternalLink, ChevronRight,
+  Layers, Search
+} from 'lucide-react';
+import { 
+  buildGenealogicalHierarchy, 
+  computePedigreeLayout, 
+  generateDrawioXml, 
+  downloadDrawioFile, 
+  copyDrawioToClipboard 
+} from '../utils/drawioPedigreeGenerator';
+import { fetchCachedJson } from '../utils/apiCache';
 
-export default function GenerationalTreeView({ graphData, onSelectNode, focalId: propFocalId }) {
-  const defaultFocal = graphData?.nodes?.[0]?.id ?? null;
-  const [currentFocalId, setCurrentFocalId] = useState(propFocalId || defaultFocal);
-  const [isFocusMode, setIsFocusMode] = useState(false);
+export default function GenerationalTreeView({ 
+  graphData: propGraphData, 
+  initialGraphData, 
+  rootPersonId, 
+  focalId: propFocalId, 
+  onSelectPerson, 
+  onSelectNode 
+}) {
+  const containerRef = useRef(null);
+  const [internalGraphData, setInternalGraphData] = useState(null);
+  
+  const rawGraph = propGraphData || initialGraphData || internalGraphData;
 
-  const focalNodeId = propFocalId || currentFocalId || defaultFocal;
+  useEffect(() => {
+    if (!propGraphData && !initialGraphData && !internalGraphData) {
+      fetchCachedJson('/api/graph.json')
+        .then(res => {
+          if (res && res.nodes) setInternalGraphData(res);
+        })
+        .catch(console.error);
+    }
+  }, [propGraphData, initialGraphData, internalGraphData]);
 
-  if (!graphData || !graphData.nodes || graphData.nodes.length === 0) {
-    return (
-      <div className="p-8 text-center text-[#9EA9B6] italic font-mono text-xs">
-        No lineage data available for Generational Tree View.
-      </div>
-    );
-  }
+  const targetFocalProp = rootPersonId || propFocalId;
+  const defaultFocal = rawGraph?.nodes?.[0]?.id ?? null;
+  const [currentFocalId, setCurrentFocalId] = useState(targetFocalProp || defaultFocal);
+  const [maxGenerations, setMaxGenerations] = useState(4);
+  const [treeMode, setTreeMode] = useState('descendancy'); // 'descendancy' or 'ancestors'
+  const [copiedXml, setCopiedXml] = useState(false);
+  const [showDrawioInfo, setShowDrawioInfo] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [showSearchDropdown, setShowSearchDropdown] = useState(false);
 
-  const nodesById = {};
-  graphData.nodes.forEach(n => { nodesById[n.id] = n; });
+  // Pan and Zoom State
+  const [zoom, setZoom] = useState(0.9);
+  const [pan, setPan] = useState({ x: 40, y: 30 });
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
 
-  const focalPerson = nodesById[focalNodeId] || graphData.nodes[0];
-  const actualFocalId = focalPerson?.id;
+  const focalNodeId = currentFocalId || targetFocalProp || defaultFocal;
 
-  // Find Parents (Gen 2)
-  const parentIds = new Set();
-  (graphData.edges || []).forEach(e => {
-    if (e.to === actualFocalId && (e.type === 'child_of' || e.type === 'parent_of')) parentIds.add(e.from);
-    if (e.from === actualFocalId && e.type === 'parent_of') parentIds.add(e.to);
-  });
-  const parents = Array.from(parentIds).map(id => nodesById[id]).filter(Boolean);
+  // Sync if prop changes
+  useEffect(() => {
+    if (targetFocalProp) {
+      setCurrentFocalId(targetFocalProp);
+    }
+  }, [targetFocalProp]);
 
-  // Find Grandparents (Gen 1)
-  const grandparentIds = new Set();
-  (graphData.edges || []).forEach(e => {
-    if (parentIds.has(e.to) && (e.type === 'child_of' || e.type === 'parent_of')) grandparentIds.add(e.from);
-    if (parentIds.has(e.from) && e.type === 'parent_of') grandparentIds.add(e.to);
-  });
-  const grandparents = Array.from(grandparentIds).map(id => nodesById[id]).filter(Boolean);
+  const handleSelect = (p) => {
+    if (!p) return;
+    if (onSelectPerson) {
+      onSelectPerson(p.id ?? p.person_id ?? p);
+    } else if (onSelectNode) {
+      onSelectNode(p);
+    }
+  };
 
-  // Find Spouses (Gen 3)
-  const spouseIds = new Set();
-  (graphData.edges || []).forEach(e => {
-    if (e.from === actualFocalId && e.type === 'spouse') spouseIds.add(e.to);
-    if (e.to === actualFocalId && e.type === 'spouse') spouseIds.add(e.from);
-  });
-  const spouses = Array.from(spouseIds).map(id => nodesById[id]).filter(Boolean);
+  const graphData = rawGraph;
 
-  // Find Children (Gen 4)
-  const childrenIds = new Set();
-  (graphData.edges || []).forEach(e => {
-    if (e.from === actualFocalId && (e.type === 'child_of' || e.type === 'parent_of')) childrenIds.add(e.to);
-    if (e.to === actualFocalId && e.type === 'child_of') childrenIds.add(e.from);
-  });
-  const children = Array.from(childrenIds).map(id => nodesById[id]).filter(Boolean);
+  // Index nodes by ID
+  const nodesById = useMemo(() => {
+    const map = {};
+    (graphData?.nodes || []).forEach(n => {
+      map[Number(n.id)] = n;
+    });
+    return map;
+  }, [graphData]);
+
+  // Compute Layout via drawio-genetic-pedigree geometry engine
+  const layout = useMemo(() => {
+    if (!graphData || !nodesById[focalNodeId]) {
+      return { nodes: [], edges: [], busBars: [], bounds: { width: 800, height: 600 } };
+    }
+
+    const model = buildGenealogicalHierarchy(focalNodeId, nodesById, graphData.edges || [], {
+      mode: treeMode,
+      maxGenerations
+    });
+
+    return computePedigreeLayout(model);
+  }, [graphData, nodesById, focalNodeId, treeMode, maxGenerations]);
+
+  const focalPerson = nodesById[focalNodeId] || graphData?.nodes?.[0];
+
+  // Mouse pan handlers
+  const handleMouseDown = (e) => {
+    // Only drag on canvas background, not on buttons or cards
+    if (e.target.closest('.pedigree-node-card') || e.target.closest('button') || e.target.closest('input')) {
+      return;
+    }
+    setIsDragging(true);
+    setDragStart({ x: e.clientX - pan.x, y: e.clientY - pan.y });
+  };
+
+  const handleMouseMove = (e) => {
+    if (!isDragging) return;
+    setPan({
+      x: e.clientX - dragStart.x,
+      y: e.clientY - dragStart.y
+    });
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
+  const handleWheel = (e) => {
+    e.preventDefault();
+    const zoomFactor = e.deltaY < 0 ? 1.08 : 0.92;
+    setZoom(prev => Math.min(Math.max(prev * zoomFactor, 0.35), 2.2));
+  };
+
+  // Attach non-passive wheel event
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    el.addEventListener('wheel', handleWheel, { passive: false });
+    return () => el.removeEventListener('wheel', handleWheel);
+  }, []);
+
+  const handleZoomIn = () => setZoom(prev => Math.min(prev * 1.2, 2.2));
+  const handleZoomOut = () => setZoom(prev => Math.max(prev * 0.8, 0.35));
+  const handleResetView = () => {
+    setZoom(0.9);
+    setPan({ x: 40, y: 30 });
+  };
 
   const handleReRoot = (e, personId) => {
     e.stopPropagation();
     setCurrentFocalId(personId);
   };
 
-  const handleCardClick = (person) => {
-    if (onSelectNode) onSelectNode(person);
+  // Draw.io Export Handlers
+  const handleDownloadDrawio = () => {
+    const title = `${focalPerson?.label || 'Lineage'}_Genetic_Pedigree`;
+    const xml = generateDrawioXml(layout, { title });
+    downloadDrawioFile(xml, `${title}.drawio`);
   };
 
-  const PersonCard = ({ person, roleTag, badgeColor }) => {
-    const isFocal = person.id === actualFocalId;
+  const handleCopyDrawioXml = async () => {
+    const title = `${focalPerson?.label || 'Lineage'}_Genetic_Pedigree`;
+    const xml = generateDrawioXml(layout, { title });
+    const ok = await copyDrawioToClipboard(xml);
+    if (ok) {
+      setCopiedXml(true);
+      setTimeout(() => setCopiedXml(false), 2500);
+    }
+  };
 
+  // Ancestor Search candidates
+  const searchResults = useMemo(() => {
+    if (!searchQuery.trim() || !graphData?.nodes) return [];
+    const q = searchQuery.toLowerCase();
+    return graphData.nodes
+      .filter(n => (n.label || '').toLowerCase().includes(q))
+      .slice(0, 8);
+  }, [searchQuery, graphData]);
+
+  if (!graphData || !graphData.nodes || graphData.nodes.length === 0) {
     return (
-      <div
-        onClick={() => handleCardClick(person)}
-        className={`group relative flex items-center gap-3 p-3.5 rounded-2xl border transition-all cursor-pointer shadow-md glass-card-hover ${
-          isFocal
-            ? 'bg-[#171E27] border-[#C87D53] ring-2 ring-[#C87D53]/40 scale-[1.02]'
-            : isFocusMode
-            ? 'bg-[#0F141A]/50 border-[#2A3644]/50 opacity-40 hover:opacity-100'
-            : 'bg-[#171E27]/90 border-[#2A3644] hover:border-[#C87D53]'
-        }`}
-      >
-        <div className="w-10 h-10 rounded-full bg-[#0F141A] border border-[#2A3644] flex items-center justify-center shrink-0 overflow-hidden group-hover:border-[#C87D53]">
-          <User className="w-5 h-5 text-[#9EA9B6] group-hover:text-[#D4A373] transition-colors" />
-        </div>
-
-        <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-1.5 mb-0.5">
-            <span className={`text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full font-mono ${badgeColor || 'bg-[#2A3644] text-[#9EA9B6]'}`}>
-              {roleTag}
-            </span>
-          </div>
-          <h4 className="font-serif-header text-sm text-[#F3EBE3] group-hover:text-[#D4A373] font-bold truncate leading-tight">
-            {person.label}
-          </h4>
-          <p className="text-[10px] text-[#9EA9B6] font-mono truncate mt-0.5">
-            {person.source_page || 'Preserved Record'}
-          </p>
-        </div>
-
-        {!isFocal && (
-          <button
-            onClick={(e) => handleReRoot(e, person.id)}
-            className="p-1.5 rounded-xl bg-[#0F141A] border border-[#2A3644] text-[#9EA9B6] hover:text-[#C87D53] hover:border-[#C87D53] transition-all opacity-0 group-hover:opacity-100"
-            title="Re-root tree view on this person"
-          >
-            <Target className="w-3.5 h-3.5" />
-          </button>
-        )}
+      <div className="w-full h-full flex items-center justify-center p-8 text-center text-[#9EA9B6] italic font-mono text-xs">
+        No lineage data available for Generational Tree View.
       </div>
     );
-  };
+  }
 
   return (
-    <div className="w-full h-full p-4 sm:p-6 bg-[#0F141A] text-[#F3EBE3] overflow-y-auto space-y-6 custom-scrollbar">
+    <div className="w-full h-full relative bg-[#0B0F14] text-[#F3EBE3] flex flex-col overflow-hidden select-none">
       
-      {/* Active Focus Header */}
-      <div className="glass-panel rounded-2xl p-5 flex flex-wrap items-center justify-between gap-4 shadow-xl">
-        <div className="flex items-center gap-3.5">
-          <div className="p-3 bg-[#C87D53]/10 border border-[#C87D53]/30 text-[#C87D53] rounded-2xl">
-            <GitBranch className="w-5 h-5" />
+      {/* TOP CONTROL TOOLBAR */}
+      <div className="bg-[#121820]/95 backdrop-blur-md border-b border-[#243040] p-3 px-4 sm:px-6 flex flex-wrap items-center justify-between gap-3 z-30 shadow-md">
+        
+        {/* Left: Active Root Indicator & Search */}
+        <div className="flex items-center gap-3">
+          <div className="p-2 bg-[#C87D53]/15 border border-[#C87D53]/40 text-[#D4A373] rounded-xl shrink-0">
+            <GitBranch className="w-4 h-4" />
           </div>
           <div>
-            <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-[#D4A373]">
-              Generational Tree Root
-            </span>
-            <h3 className="font-serif-header text-2xl text-[#F3EBE3] font-bold">
-              {focalPerson?.label}
-            </h3>
+            <div className="flex items-center gap-1.5">
+              <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-[#D4A373]">
+                Pedigree Root:
+              </span>
+              <span className="text-xs font-serif-header font-bold text-[#F3EBE3] truncate max-w-[200px]">
+                {focalPerson?.label || 'Unknown Progenitor'}
+              </span>
+            </div>
+            <p className="text-[10px] text-[#9EA9B6] font-mono">
+              {layout.nodes.length} individuals in {maxGenerations} generations
+            </p>
+          </div>
+
+          {/* Quick-Jump Search */}
+          <div className="relative ml-2 hidden md:block">
+            <div className="flex items-center bg-[#0F141A] border border-[#243040] rounded-xl px-2.5 py-1 text-xs text-[#F3EBE3] focus-within:border-[#C87D53]">
+              <Search className="w-3.5 h-3.5 text-[#9EA9B6] mr-1.5 shrink-0" />
+              <input
+                type="text"
+                placeholder="Jump to ancestor..."
+                value={searchQuery}
+                onChange={(e) => {
+                  setSearchQuery(e.target.value);
+                  setShowSearchDropdown(true);
+                }}
+                onFocus={() => setShowSearchDropdown(true)}
+                className="bg-transparent border-none outline-none text-xs text-[#F3EBE3] w-36 placeholder:text-[#64748B]"
+              />
+            </div>
+
+            {showSearchDropdown && searchResults.length > 0 && (
+              <div className="absolute top-full left-0 mt-1 w-64 bg-[#171E27] border border-[#243040] rounded-xl shadow-2xl overflow-hidden z-50">
+                {searchResults.map(n => (
+                  <button
+                    key={n.id}
+                    onClick={() => {
+                      setCurrentFocalId(n.id);
+                      setSearchQuery('');
+                      setShowSearchDropdown(false);
+                    }}
+                    className="w-full text-left px-3 py-2 text-xs hover:bg-[#C87D53]/20 hover:text-[#D4A373] flex items-center justify-between border-b border-[#243040]/50 last:border-none"
+                  >
+                    <span className="font-semibold truncate">{n.label}</span>
+                    <span className="text-[10px] font-mono text-[#9EA9B6]">ID #{n.id}</span>
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
         </div>
 
-        {/* Focus Mode Toggle */}
+        {/* Right: Generations & Draw.io Actions */}
+        <div className="flex items-center gap-2">
+          
+          {/* Generation Depth Selector */}
+          <div className="flex items-center gap-1 bg-[#171E27] border border-[#243040] rounded-xl p-0.5 text-xs font-mono">
+            <span className="px-2 text-[10px] text-[#9EA9B6] font-bold">DEPTH:</span>
+            {[2, 3, 4, 5].map(gen => (
+              <button
+                key={gen}
+                onClick={() => setMaxGenerations(gen)}
+                className={`px-2 py-0.5 rounded-lg transition-all ${
+                  maxGenerations === gen
+                    ? 'bg-[#C87D53] text-[#0F141A] font-bold'
+                    : 'text-[#9EA9B6] hover:text-[#F3EBE3]'
+                }`}
+              >
+                {gen}G
+              </button>
+            ))}
+          </div>
+
+          {/* Draw.io Export Action Group */}
+          <div className="flex items-center gap-1.5 ml-1">
+            <button
+              onClick={handleDownloadDrawio}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#26221E] hover:bg-[#332D27] border border-[#C87D53]/50 hover:border-[#C87D53] text-[#D4A373] text-xs font-mono font-bold transition-all shadow-sm"
+              title="Download uncompressed Draw.io / diagrams.net XML"
+            >
+              <Download className="w-3.5 h-3.5 text-[#C87D53]" />
+              <span className="hidden sm:inline">Export Draw.io</span>
+            </button>
+
+            <button
+              onClick={handleCopyDrawioXml}
+              className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-[#171E27] hover:bg-[#202936] border border-[#243040] text-xs font-mono text-[#F3EBE3] transition-all shadow-sm"
+              title="Copy Draw.io XML to clipboard for direct pasting into diagrams.net"
+            >
+              {copiedXml ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Copy className="w-3.5 h-3.5 text-[#9EA9B6]" />}
+              <span className="hidden sm:inline">{copiedXml ? 'Copied XML!' : 'Copy XML'}</span>
+            </button>
+
+            <button
+              onClick={() => setShowDrawioInfo(!showDrawioInfo)}
+              className="p-1.5 rounded-xl bg-[#171E27] border border-[#243040] text-[#9EA9B6] hover:text-[#D4A373] text-xs transition-all"
+              title="Draw.io Genetic Pedigree Instructions"
+            >
+              <ExternalLink className="w-3.5 h-3.5" />
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      {/* DRAW.IO INTEGRATION MODAL / DRAWER */}
+      {showDrawioInfo && (
+        <div className="bg-[#141A22] border-b border-[#243040] p-4 px-6 text-xs text-[#C5BCB2] space-y-2 z-20 animate-fade-in shadow-xl">
+          <div className="flex items-center justify-between">
+            <h4 className="font-serif-header text-sm font-bold text-[#E5B269] flex items-center gap-2">
+              <ShieldCheck className="w-4 h-4 text-emerald-400" /> Draw.io / diagrams.net Standardized Pedigree Integration
+            </h4>
+            <button
+              onClick={() => setShowDrawioInfo(false)}
+              className="text-[#9EA9B6] hover:text-[#F3EBE3] text-xs font-mono"
+            >
+              Close
+            </button>
+          </div>
+          <p className="text-[11px] leading-relaxed text-[#9EA9B6]">
+            This lineage diagram adheres strictly to the <strong>drawio-genetic-pedigree</strong> specification. It uses mathematical coordinate indexing (60px height, 100px row delta), orthogonal bus-bar routing with 20px junction drops, and distinct vertex styling for ancestral unions and genetic matches.
+          </p>
+          <div className="flex flex-wrap items-center gap-4 pt-1 text-[11px] font-mono">
+            <span className="text-[#D4A373]">1. Click &quot;Export Draw.io&quot; or &quot;Copy XML&quot;</span>
+            <span className="text-slate-400">→</span>
+            <a
+              href="https://app.diagrams.net/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-amber-400 hover:underline flex items-center gap-1 font-bold"
+            >
+              <span>2. Open app.diagrams.net</span>
+              <ExternalLink className="w-3 h-3" />
+            </a>
+            <span className="text-slate-400">→</span>
+            <span className="text-[#D4A373]">3. Choose &quot;Open Existing Diagram&quot; or paste XML via Arrange &gt; Insert &gt; Advanced</span>
+          </div>
+        </div>
+      )}
+
+      {/* FLOATING ZOOM / CANVAS CONTROLS */}
+      <div className="absolute bottom-5 right-5 z-20 flex items-center gap-1 bg-[#171E27]/90 backdrop-blur-md border border-[#243040] p-1.5 rounded-2xl shadow-2xl">
         <button
-          onClick={() => setIsFocusMode(!isFocusMode)}
-          className={`flex items-center gap-2 px-3.5 py-1.5 rounded-xl border text-xs font-mono transition-all ${
-            isFocusMode
-              ? 'bg-[#C87D53] text-[#0F141A] font-bold border-[#C87D53]'
-              : 'bg-[#171E27] border-[#2A3644] text-[#9EA9B6] hover:border-[#C87D53]'
-          }`}
+          onClick={handleZoomIn}
+          className="p-2 hover:bg-[#243040] text-[#F3EBE3] rounded-xl transition-all"
+          title="Zoom In"
         >
-          {isFocusMode ? <EyeOff className="w-3.5 h-3.5" /> : <Eye className="w-3.5 h-3.5" />}
-          <span>{isFocusMode ? 'Focus Mode Active' : 'Enable Focus Mode'}</span>
+          <ZoomIn className="w-4 h-4" />
         </button>
+        <button
+          onClick={handleZoomOut}
+          className="p-2 hover:bg-[#243040] text-[#F3EBE3] rounded-xl transition-all"
+          title="Zoom Out"
+        >
+          <ZoomOut className="w-4 h-4" />
+        </button>
+        <button
+          onClick={handleResetView}
+          className="p-2 hover:bg-[#243040] text-[#F3EBE3] rounded-xl transition-all"
+          title="Reset View"
+        >
+          <RotateCcw className="w-4 h-4" />
+        </button>
+        <div className="px-2 text-[10px] font-mono text-[#9EA9B6]">
+          {Math.round(zoom * 100)}%
+        </div>
       </div>
 
-      {/* GENERATION 1: GRANDPARENTS */}
-      <div className="glass-panel rounded-2xl p-5 relative">
-        <div className="flex items-center justify-between border-b border-[#2A3644] pb-3 mb-4">
-          <span className="text-xs font-bold text-[#E5B269] uppercase tracking-widest flex items-center gap-2 font-mono">
-            <Sparkles className="w-3.5 h-3.5 text-[#C87D53]" />
-            Generation I — Grandparents & Ancestors ({grandparents.length})
-          </span>
-        </div>
+      {/* INTERACTIVE PEDIGREE CANVAS */}
+      <div
+        ref={containerRef}
+        onMouseDown={handleMouseDown}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUp}
+        onMouseLeave={handleMouseUp}
+        className={`flex-1 w-full h-full overflow-hidden relative cursor-grab ${
+          isDragging ? 'cursor-grabbing' : ''
+        }`}
+        style={{
+          backgroundImage: `
+            radial-gradient(circle at 1px 1px, rgba(42, 54, 68, 0.45) 1px, transparent 0)
+          `,
+          backgroundSize: '24px 24px'
+        }}
+      >
+        <div
+          style={{
+            transform: `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`,
+            transformOrigin: '0 0',
+            width: `${layout.bounds.width}px`,
+            height: `${layout.bounds.height}px`,
+            position: 'absolute',
+            top: 0,
+            left: 0
+          }}
+        >
+          {/* SVG LAYER: ORTHOGONAL BUS-BAR CONNECTORS */}
+          <svg
+            className="absolute top-0 left-0 pointer-events-none"
+            width={layout.bounds.width}
+            height={layout.bounds.height}
+            style={{ overflow: 'visible' }}
+          >
+            <defs>
+              <linearGradient id="edgeGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stopColor="#C87D53" />
+                <stop offset="100%" stopColor="#E5B269" />
+              </linearGradient>
+            </defs>
 
-        {grandparents.length === 0 ? (
-          <div className="text-xs text-[#9EA9B6] italic font-mono py-2">No preceding ancestors linked in index.</div>
-        ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
-            {grandparents.map(p => (
-              <PersonCard key={p.id} person={p} roleTag="Grandparent" badgeColor="bg-[#1B3B2B] text-[#E5B269] border border-[#C87D53]/30" />
+            {/* Render Orthogonal Bus-Bar Systems */}
+            {layout.busBars.map((bus) => (
+              <g key={bus.id} className="transition-opacity duration-300">
+                {/* 1. Parent drop line to bus */}
+                <line
+                  x1={bus.parentX}
+                  y1={bus.yParentBottom}
+                  x2={bus.parentX}
+                  y2={bus.yBus}
+                  stroke="#C87D53"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                />
+
+                {/* 2. Horizontal bus bar spanning children */}
+                <line
+                  x1={bus.minChildX}
+                  y1={bus.yBus}
+                  x2={bus.maxChildX}
+                  y2={bus.yBus}
+                  stroke="#D4A373"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                />
+
+                {/* Parent drop junction point */}
+                <circle
+                  cx={bus.parentX}
+                  cy={bus.yBus}
+                  r="3.5"
+                  fill="#D4A373"
+                  stroke="#0F141A"
+                  strokeWidth="1.5"
+                />
+
+                {/* 3. Drops to individual children */}
+                {bus.childDrops.map((drop) => (
+                  <g key={`${bus.id}_drop_${drop.childId}`}>
+                    <line
+                      x1={drop.x}
+                      y1={bus.yBus}
+                      x2={drop.x}
+                      y2={drop.yTop}
+                      stroke="#C87D53"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                    />
+                    <circle
+                      cx={drop.x}
+                      cy={drop.yTop}
+                      r="3"
+                      fill="#C87D53"
+                      stroke="#0F141A"
+                      strokeWidth="1.5"
+                    />
+                  </g>
+                ))}
+              </g>
             ))}
-          </div>
-        )}
-      </div>
+          </svg>
 
-      {/* GENERATION CONNECTOR BAR */}
-      <div className="flex justify-center -my-2 z-10 relative">
-        <div className="w-0.5 h-6 bg-gradient-to-b from-[#C87D53] to-[#D4A373]" />
-      </div>
+          {/* HTML LAYER: MATHEMATICALLY INDEXED VERTEX NODES */}
+          {layout.nodes.map((node) => {
+            const p1 = node.primaryPerson;
+            const p2 = node.spousePerson;
+            const isFocal = p1.id === focalNodeId;
+            const isRootGen = node.genIndex === 1;
 
-      {/* GENERATION 2: PARENTS */}
-      <div className="glass-panel rounded-2xl p-5 relative">
-        <div className="flex items-center justify-between border-b border-[#2A3644] pb-3 mb-4">
-          <span className="text-xs font-bold text-[#D4A373] uppercase tracking-widest flex items-center gap-2 font-mono">
-            <Users className="w-3.5 h-3.5 text-[#C87D53]" />
-            Generation II — Parents ({parents.length})
-          </span>
+            return (
+              <div
+                key={`node_${node.genIndex}_${node.id}`}
+                style={{
+                  position: 'absolute',
+                  left: `${node.x}px`,
+                  top: `${node.y}px`,
+                  width: `${node.width}px`,
+                  height: `${node.height}px`
+                }}
+                onClick={() => handleSelect(p1)}
+                className={`pedigree-node-card group rounded-2xl border transition-all cursor-pointer shadow-lg p-2.5 flex items-center justify-between ${
+                  isFocal
+                    ? 'bg-[#1C2633] border-[#C87D53] ring-2 ring-[#C87D53]/50 scale-[1.02] z-10'
+                    : isRootGen
+                    ? 'bg-[#18212D] border-[#D4A373]/60 hover:border-[#C87D53]'
+                    : 'bg-[#121820]/95 border-[#243040] hover:border-[#C87D53] hover:bg-[#18212D]'
+                }`}
+              >
+                {/* Node Content */}
+                <div className="flex-1 min-w-0 pr-1">
+                  
+                  {/* Top Badge: Gen & Type */}
+                  <div className="flex items-center gap-1.5 mb-1">
+                    <span className="text-[8px] font-mono font-bold uppercase px-1.5 py-0.2 rounded bg-[#243040] text-[#9EA9B6]">
+                      GEN {node.genIndex}
+                    </span>
+                    {node.isCouple && (
+                      <span className="text-[8px] font-mono font-semibold px-1.5 py-0.2 rounded bg-[#C87D53]/20 text-[#D4A373] flex items-center gap-0.5">
+                        <Heart className="w-2.5 h-2.5 text-[#C87D53]" /> Union
+                      </span>
+                    )}
+                    {isFocal && (
+                      <span className="text-[8px] font-mono font-bold px-1.5 py-0.2 rounded bg-[#C87D53] text-[#0F141A]">
+                        ROOT
+                      </span>
+                    )}
+                  </div>
+
+                  {/* Names Display */}
+                  {node.isCouple && p2 ? (
+                    <div className="space-y-0.5">
+                      <h4 
+                        onClick={(e) => { e.stopPropagation(); handleSelect(p1); }}
+                        className="font-serif-header text-[11px] font-bold text-[#F3EBE3] hover:text-[#D4A373] truncate leading-tight"
+                        title={`View profile for ${p1.label || p1.name}`}
+                      >
+                        {p1.label || p1.name}
+                      </h4>
+                      <h4 
+                        onClick={(e) => { e.stopPropagation(); handleSelect(p2); }}
+                        className="font-serif-header text-[11px] font-semibold text-[#D4A373] hover:text-[#F3EBE3] truncate leading-tight"
+                        title={`View profile for ${p2.label || p2.name}`}
+                      >
+                        & {p2.label || p2.name}
+                      </h4>
+                    </div>
+                  ) : (
+                    <div>
+                      <h4 className="font-serif-header text-xs font-bold text-[#F3EBE3] group-hover:text-[#D4A373] truncate leading-tight">
+                        {p1.label || p1.name}
+                      </h4>
+                      <p className="text-[9px] text-[#9EA9B6] font-mono truncate mt-0.5">
+                        {p1.birth_info || p1.source_page || 'Historical Ancestor'}
+                      </p>
+                    </div>
+                  )}
+                </div>
+
+                {/* Right Action: Re-Root Button */}
+                {!isFocal && (
+                  <button
+                    onClick={(e) => handleReRoot(e, p1.id)}
+                    className="p-1.5 rounded-lg bg-[#0F141A] border border-[#243040] text-[#9EA9B6] hover:text-[#C87D53] hover:border-[#C87D53] transition-all opacity-0 group-hover:opacity-100 shrink-0 ml-1"
+                    title="Re-root pedigree tree on this ancestor"
+                  >
+                    <Target className="w-3.5 h-3.5" />
+                  </button>
+                )}
+              </div>
+            );
+          })}
         </div>
-
-        {parents.length === 0 ? (
-          <div className="text-xs text-[#9EA9B6] italic font-mono py-2">No parent records directly indexed.</div>
-        ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
-            {parents.map(p => (
-              <PersonCard key={p.id} person={p} roleTag="Parent" badgeColor="bg-[#1B3B2B] text-[#E5B269] border border-[#C87D53]/30" />
-            ))}
-          </div>
-        )}
-      </div>
-
-      {/* GENERATION CONNECTOR BAR */}
-      <div className="flex justify-center -my-2 z-10 relative">
-        <div className="w-0.5 h-6 bg-gradient-to-b from-[#D4A373] to-[#C87D53]" />
-      </div>
-
-      {/* GENERATION 3: FOCAL PERSON & SPOUSES */}
-      <div className="glass-panel rounded-2xl p-5 border-[#C87D53]/50 ring-1 ring-[#C87D53]/20 relative">
-        <div className="flex items-center justify-between border-b border-[#2A3644] pb-3 mb-4">
-          <span className="text-xs font-bold text-[#C87D53] uppercase tracking-widest flex items-center gap-2 font-mono">
-            <Target className="w-3.5 h-3.5 text-[#C87D53]" />
-            Generation III — Primary Subject & Spouses
-          </span>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
-          <PersonCard person={focalPerson} roleTag="Primary Subject" badgeColor="bg-[#C87D53] text-[#0F141A] font-bold" />
-          {spouses.map(p => (
-            <PersonCard key={p.id} person={p} roleTag="Spouse" badgeColor="bg-[#171E27] text-[#D4A373] border border-[#C87D53]/40" />
-          ))}
-        </div>
-      </div>
-
-      {/* GENERATION CONNECTOR BAR */}
-      <div className="flex justify-center -my-2 z-10 relative">
-        <div className="w-0.5 h-6 bg-gradient-to-b from-[#C87D53] to-[#E5B269]" />
-      </div>
-
-      {/* GENERATION 4: CHILDREN & DESCENDANTS */}
-      <div className="glass-panel rounded-2xl p-5 relative">
-        <div className="flex items-center justify-between border-b border-[#2A3644] pb-3 mb-4">
-          <span className="text-xs font-bold text-[#E5B269] uppercase tracking-widest flex items-center gap-2 font-mono">
-            <GitBranch className="w-3.5 h-3.5 text-[#C87D53]" />
-            Generation IV — Children & Offspring ({children.length})
-          </span>
-        </div>
-
-        {children.length === 0 ? (
-          <div className="text-xs text-[#9EA9B6] italic font-mono py-2">No child records indexed for this individual.</div>
-        ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
-            {children.map(p => (
-              <PersonCard key={p.id} person={p} roleTag="Child" badgeColor="bg-[#1B3B2B] text-[#E5B269] border border-[#C87D53]/30" />
-            ))}
-          </div>
-        )}
       </div>
 
     </div>

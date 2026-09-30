@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import { createPortal } from 'react-dom';
 import { 
   Users, User, Camera, GitFork, ArrowLeft, Search, HeartHandshake, 
-  FileText, ExternalLink, Calendar, MapPin, ChevronRight, X, Sparkles, Filter, Printer
+  FileText, ExternalLink, Calendar, MapPin, ChevronRight, X, Sparkles, Filter, Printer, GitBranch
 } from 'lucide-react';
 import TranscribedDocumentView from './TranscribedDocumentView';
+import GenerationalTreeView from './GenerationalTreeView';
 import { fetchCachedJson } from '../utils/apiCache';
 
 export default function SurnamePortalView({ surname, onClose, onSelectPerson, onOpenGraph }) {
@@ -16,6 +17,8 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
   const [lightboxPhoto, setLightboxPhoto] = useState(null);
   const [transcribedDocId, setTranscribedDocId] = useState(null);
   const [expandedNotes, setExpandedNotes] = useState({});
+  const [graphData, setGraphData] = useState(null);
+  const [treeViewMode, setTreeViewMode] = useState('interactive'); // 'interactive' or 'scanned'
 
   const toggleNote = (id) => {
     setExpandedNotes(prev => ({ ...prev, [id]: !prev[id] }));
@@ -56,12 +59,38 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [lightboxPhoto, onClose]);
 
+  useEffect(() => {
+    if (activeTab === 'trees' && !graphData) {
+      fetchCachedJson('/api/graph.json')
+        .then(res => {
+          if (res && res.nodes) setGraphData(res);
+        })
+        .catch(console.error);
+    }
+  }, [activeTab, graphData]);
+
   if (!surname) return null;
 
   const photos = data?.photos || [];
   const individuals = data?.individuals || [];
   const obituaries = data?.obituaries || [];
   const categoryCounts = data?.category_counts || {};
+
+  const progenitorId = useMemo(() => {
+    if (!individuals || individuals.length === 0) return null;
+    if (surname === 'Puckham' || surname === 'Bookram') {
+      const elias = individuals.find(i => i.person_id === 11965);
+      if (elias) return elias.person_id;
+      const john = individuals.find(i => i.person_id === 1696);
+      if (john) return john.person_id;
+    }
+    const sorted = [...individuals].sort((a, b) => {
+      const yA = parseInt((a.birth_info || '').match(/\d{4}/)?.[0] || '9999');
+      const yB = parseInt((b.birth_info || '').match(/\d{4}/)?.[0] || '9999');
+      return yA - yB;
+    });
+    return sorted[0]?.person_id;
+  }, [individuals, surname]);
 
   // Filter photos
   const filteredPhotos = photos.filter(p => {
@@ -465,46 +494,114 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
           {/* TAB CONTENT: 3. PEDIGREE TREES */}
           {activeTab === 'trees' && (
             <div className="space-y-6">
-              <div className="bg-[#141A22] border border-[#263342] rounded-2xl p-6">
-                <h3 className="font-serif-header text-xl font-bold text-[#F3EBE3] mb-2 flex items-center gap-2">
-                  <GitFork className="w-5 h-5 text-[#C87D53]" />
-                  {surname} Pedigree & Descent Charts ({familyTrees.length})
-                </h3>
-                <p className="text-sm text-[#9EA9B6]">
-                  Preserved multi-generation lineage charts compiled by Lynn C. Jackson and Delmarva genealogists.
-                  Click on any chart to open full-resolution zoom.
-                </p>
+              <div className="bg-[#141A22] border border-[#263342] rounded-2xl p-6 flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div>
+                  <h3 className="font-serif-header text-xl font-bold text-[#F3EBE3] mb-1 flex items-center gap-2">
+                    <GitFork className="w-5 h-5 text-[#C87D53]" />
+                    {surname} Lineage & Pedigree Architecture
+                  </h3>
+                  <p className="text-sm text-[#9EA9B6]">
+                    Explore generational ancestry reconstructed according to Draw.io Genetic Pedigree standards or inspect archival charts.
+                  </p>
+                </div>
+                
+                {/* Mode Selector */}
+                <div className="flex items-center gap-2 bg-[#0E1217] p-1.5 rounded-xl border border-[#222C3A] shrink-0">
+                  <button
+                    onClick={() => setTreeViewMode('interactive')}
+                    className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                      treeViewMode === 'interactive'
+                        ? 'bg-[#C87D53] text-[#12161E] font-bold shadow'
+                        : 'text-[#9EA9B6] hover:text-[#F3EBE3]'
+                    }`}
+                  >
+                    <GitBranch className="w-3.5 h-3.5" />
+                    Interactive Pedigree
+                  </button>
+                  <button
+                    onClick={() => setTreeViewMode('scanned')}
+                    className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                      treeViewMode === 'scanned'
+                        ? 'bg-[#C87D53] text-[#12161E] font-bold shadow'
+                        : 'text-[#9EA9B6] hover:text-[#F3EBE3]'
+                    }`}
+                  >
+                    <FileText className="w-3.5 h-3.5" />
+                    Archival Scanned ({familyTrees.length})
+                  </button>
+                </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {familyTrees.map(tree => (
-                  <div
-                    key={tree.photo_id}
-                    onClick={() => setLightboxPhoto(tree)}
-                    className="group bg-[#12161E] border border-[#24303F] hover:border-[#C87D53]/60 rounded-2xl overflow-hidden shadow-lg cursor-pointer transition-all"
-                  >
-                    <div className="aspect-[4/3] bg-[#0A0D11] relative overflow-hidden">
-                      <img
-                        src={tree.local_image_path.startsWith('/') ? tree.local_image_path : '/' + tree.local_image_path}
-                        alt={tree.normalized_filename}
-                        className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-300"
-                        loading="lazy"
-                        onError={(e) => { e.currentTarget.style.opacity = '0'; }}
-                      />
+              {treeViewMode === 'interactive' && (
+                <div className="h-[680px] bg-[#0E1217] rounded-2xl border border-[#24303F] overflow-hidden shadow-2xl relative">
+                  {progenitorId ? (
+                    <GenerationalTreeView 
+                      rootPersonId={progenitorId}
+                      initialGraphData={graphData}
+                      onSelectPerson={onSelectPerson}
+                    />
+                  ) : (
+                    <div className="h-full flex flex-col items-center justify-center p-8 text-center text-[#7D8B9B]">
+                      <GitFork className="w-12 h-12 text-[#3A4859] mb-3 animate-pulse" />
+                      <p className="text-base text-[#F3EBE3] font-serif-header">Building Ancestral Lineage Architecture</p>
+                      <p className="text-xs text-[#7D8B9B] max-w-md mt-1">
+                        Analyzing relationship edges and generational spans for {surname} family lineages...
+                      </p>
                     </div>
-                    <div className="p-4 border-t border-[#222C3A]">
-                      <h4 className="font-serif-header font-bold text-[#F3EBE3] group-hover:text-[#D4A373] text-sm truncate">
-                        {tree.normalized_filename.replace(/_/g, ' ').replace(/\.jpg|\.gif|\.png/g, '')}
-                      </h4>
-                      {tree.subject_names && (
-                        <p className="text-xs text-[#7D8B9B] mt-1 truncate">
-                          Focus: {tree.subject_names}
-                        </p>
-                      )}
+                  )}
+                </div>
+              )}
+
+              {treeViewMode === 'scanned' && (
+                <div>
+                  {familyTrees.length === 0 ? (
+                    <div className="bg-[#12161E] border border-[#24303F] rounded-2xl p-12 text-center text-[#7D8B9B]">
+                      <FileText className="w-12 h-12 mx-auto text-[#3A4859] mb-3" />
+                      <h4 className="font-serif-header text-lg text-[#F3EBE3] mb-1">No Scanned Charts Archived</h4>
+                      <p className="text-xs max-w-md mx-auto mb-4">
+                        There are no static hand-drawn or scanned charts archived specifically for {surname}. Use the Interactive Pedigree tab to explore mathematically reconstructed lines.
+                      </p>
+                      <button
+                        onClick={() => setTreeViewMode('interactive')}
+                        className="px-4 py-2 bg-[#C87D53]/20 hover:bg-[#C87D53]/30 text-[#D4A373] border border-[#C87D53]/40 rounded-xl text-xs font-semibold transition-all inline-flex items-center gap-2"
+                      >
+                        <GitBranch className="w-3.5 h-3.5" />
+                        Switch to Interactive Pedigree
+                      </button>
                     </div>
-                  </div>
-                ))}
-              </div>
+                  ) : (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                      {familyTrees.map(tree => (
+                        <div
+                          key={tree.photo_id}
+                          onClick={() => setLightboxPhoto(tree)}
+                          className="group bg-[#12161E] border border-[#24303F] hover:border-[#C87D53]/60 rounded-2xl overflow-hidden shadow-lg cursor-pointer transition-all"
+                        >
+                          <div className="aspect-[4/3] bg-[#0A0D11] relative overflow-hidden">
+                            <img
+                              src={tree.local_image_path.startsWith('/') ? tree.local_image_path : '/' + tree.local_image_path}
+                              alt={tree.normalized_filename}
+                              className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-300"
+                              loading="lazy"
+                              onError={(e) => { e.currentTarget.style.opacity = '0'; }}
+                            />
+                          </div>
+                          <div className="p-4 border-t border-[#222C3A]">
+                            <h4 className="font-serif-header font-bold text-[#F3EBE3] group-hover:text-[#D4A373] text-sm truncate">
+                              {tree.normalized_filename.replace(/_/g, ' ').replace(/\.jpg|\.gif|\.png/g, '')}
+                            </h4>
+                            {tree.subject_names && (
+                              <p className="text-xs text-[#7D8B9B] mt-1 truncate">
+                                Focus: {tree.subject_names}
+                              </p>
+                            )}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           )}
 

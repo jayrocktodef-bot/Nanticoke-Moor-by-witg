@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import { User, Users, Camera, HeartHandshake, FileText, ExternalLink, Calendar, GitBranch, ArrowLeft, ShieldCheck, MapPin, X, BookOpen, Clock, ChevronRight } from 'lucide-react';
 import CitationModal from './CitationModal';
 import NarrativeBioGenerator from './NarrativeBioGenerator';
+import GenerationalTreeView from './GenerationalTreeView';
 import { fetchCachedJson } from '../utils/apiCache';
 
 export default function PersonProfileView({ personId, onClose, onSelectPerson }) {
@@ -12,6 +13,7 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
   const [isCitationOpen, setIsCitationOpen] = useState(false);
   const [activeTab, setActiveTab] = useState('facts');
   const [photoError, setPhotoError] = useState(false);
+  const [graphData, setGraphData] = useState(null);
 
   useEffect(() => {
     if (!personId) return;
@@ -51,6 +53,16 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [lightboxPhoto, onClose]);
+
+  useEffect(() => {
+    if (activeTab === 'pedigree' && !graphData) {
+      fetchCachedJson('/api/graph.json')
+        .then(data => {
+          if (data && data.nodes) setGraphData(data);
+        })
+        .catch(console.error);
+    }
+  }, [activeTab, graphData]);
 
   if (!personId) return null;
 
@@ -181,7 +193,7 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
           {/* Tabs */}
           {profile && (
             <div className="flex space-x-4 sm:space-x-8 mt-2 overflow-x-auto no-scrollbar border-t border-gray-600/40 sm:border-t-0" role="tablist" aria-label="Profile Sections">
-              {['Facts', 'Gallery', 'LifeStory'].map(tab => (
+              {['Facts', 'Gallery', 'LifeStory', 'Pedigree'].map(tab => (
                 <button
                   key={tab}
                   role="tab"
@@ -439,6 +451,48 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
           {activeTab === 'lifestory' && (
             <div className="max-w-4xl mx-auto">
               <NarrativeBioGenerator person={profile.person} onSelectPerson={onSelectPerson} />
+            </div>
+          )}
+
+          {activeTab === 'pedigree' && (
+            <div className="space-y-4 animate-fade-in">
+              <div className="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm flex flex-wrap items-center justify-between gap-4">
+                <div>
+                  <h3 className="font-bold text-gray-900 text-lg flex items-center gap-2">
+                    <GitBranch className="w-5 h-5 text-[#C87D53]" />
+                    {profile.person.name} — Genetic Pedigree & Lineage Tree
+                  </h3>
+                  <p className="text-xs text-gray-600 mt-1">
+                    Mathematical 2D generational layout with orthogonal bus-bar connectors adhering to the drawio-genetic-pedigree standard. Exportable directly to Draw.io / diagrams.net.
+                  </p>
+                </div>
+              </div>
+
+              <div className="w-full h-[640px] rounded-2xl overflow-hidden border border-gray-300 shadow-md bg-[#0B0F14]">
+                <GenerationalTreeView
+                  graphData={graphData || {
+                    nodes: [
+                      { id: profile.person.person_id, label: profile.person.name, birth_info: profile.person.birth_info, source_page: profile.person.source_page },
+                      ...(profile.relationships || []).map(r => ({
+                        id: r.rel_id,
+                        label: r.rel_name,
+                        birth_info: r.role
+                      }))
+                    ],
+                    edges: (profile.relationships || []).map(r => ({
+                      from: r.role === 'child' ? r.rel_id : profile.person.person_id,
+                      to: r.role === 'child' ? profile.person.person_id : r.rel_id,
+                      type: r.relationship_type
+                    }))
+                  }}
+                  onSelectNode={(p) => {
+                    if (onSelectPerson && p.id !== profile.person.person_id) {
+                      onSelectPerson(p.id);
+                    }
+                  }}
+                  focalId={profile.person.person_id}
+                />
+              </div>
             </div>
           )}
 
