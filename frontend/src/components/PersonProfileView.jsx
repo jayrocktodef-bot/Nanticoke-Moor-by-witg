@@ -287,7 +287,7 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
                           
                           {fact.citations && fact.citations.map((cit, cIdx) => (
                             <div key={cIdx} className="mt-2 pl-3 border-l-2 border-gray-200">
-                              {cit.source_url && cit.source_url !== '#' ? (
+                              {cit.source_url && cit.source_url !== '#' && !cit.source_url.includes('lynncjackson') && !cit.source_url.includes('mitsawokett') && !cit.source_url.includes('nativeamericansofdelawarestate') ? (
                                 <a 
                                   href={cit.source_url} 
                                   target="_blank" 
@@ -469,7 +469,7 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
                 {lightboxPhoto.date_text && <div><span className="text-gray-500 uppercase text-[11px] font-bold block mb-0.5">Est. Date</span>{lightboxPhoto.date_text}</div>}
                 {lightboxPhoto.description && <div><span className="text-gray-500 uppercase text-[11px] font-bold block mb-0.5">Description</span>{lightboxPhoto.description}</div>}
                 {lightboxPhoto.source_collection && <div><span className="text-gray-500 uppercase text-[11px] font-bold block mb-0.5">Collection</span>{lightboxPhoto.source_collection}</div>}
-                {lightboxPhoto.original_source_url && (
+                {lightboxPhoto.original_source_url && !lightboxPhoto.original_source_url.includes('lynncjackson') && !lightboxPhoto.original_source_url.includes('mitsawokett') && !lightboxPhoto.original_source_url.includes('nativeamericansofdelawarestate') ? (
                   <div className="pt-4 sm:pt-6 mt-4 sm:mt-6 border-t border-gray-800">
                     <a 
                       href={lightboxPhoto.original_source_url} 
@@ -479,6 +479,11 @@ export default function PersonProfileView({ personId, onClose, onSelectPerson })
                     >
                       <ExternalLink className="w-4 h-4"/> View Original Archival Source
                     </a>
+                  </div>
+                ) : (
+                  <div className="pt-4 sm:pt-6 mt-4 sm:mt-6 border-t border-gray-800">
+                    <span className="text-emerald-400 text-xs font-semibold uppercase tracking-wider block">Preserved in Digital Archive</span>
+                    <span className="text-gray-400 text-xs mt-1 block">Preserved offline in unified photo catalog.</span>
                   </div>
                 )}
               </div>

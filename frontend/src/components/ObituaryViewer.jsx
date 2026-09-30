@@ -288,7 +288,7 @@ export default function ObituaryViewer({ onSelectPerson }) {
               {selectedObit.full_text}
             </div>
 
-            {selectedObit.source_url && (
+            {selectedObit.source_url && !selectedObit.source_url.includes('lynncjackson') && !selectedObit.source_url.includes('mitsawokett') && !selectedObit.source_url.includes('nativeamericansofdelawarestate') ? (
               <a
                 href={selectedObit.source_url}
                 target="_blank"
@@ -298,6 +298,10 @@ export default function ObituaryViewer({ onSelectPerson }) {
                 <ExternalLink className="w-3.5 h-3.5" />
                 View Original Preserved Broadsheet Source URL
               </a>
+            ) : (
+              <div className="mt-6 inline-flex items-center gap-2 text-xs font-mono text-emerald-400/90 bg-[#0F141A] border border-[#2A3644] px-4 py-2 rounded-xl">
+                <span>Preserved in Digital Archive • Offline Provenance</span>
+              </div>
             )}
           </div>
         </div>

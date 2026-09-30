@@ -1198,14 +1198,12 @@ export default function HomeScreen() {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://nativeamericansofdelawarestate.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-[#D4A373] transition-colors"
+                  <button
+                    onClick={() => { setActiveTab('photos'); setVisitedTabs(prev => new Set(prev).add('photos')); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                    className="hover:text-[#D4A373] transition-colors text-left"
                   >
                     Mitsawokett Photo Archive
-                  </a>
+                  </button>
                 </li>
                 <li>
                   <a

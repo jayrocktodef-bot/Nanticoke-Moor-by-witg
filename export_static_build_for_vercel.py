@@ -71,6 +71,12 @@ def parse_date_and_place(info_text: str):
     return date_part.rstrip(',. ').strip() or None, place
 
 def export_all():
+    for sub in ['person', 'records', 'transcriptions']:
+        subdir = os.path.join(API_DIR, sub)
+        if os.path.exists(subdir):
+            shutil.rmtree(subdir)
+        os.makedirs(subdir, exist_ok=True)
+
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     c = conn.cursor()
@@ -95,9 +101,9 @@ def export_all():
         "obituaries": total_obits,
         "sources": {
             "davis_family_gedcom": {"name": "Davis Family Tree GEDCOM", "domain": "Desktop/Davis Family Tree.ged", "persons": 2697},
-            "lynncjackson": {"name": "Lynn C. Jackson Family Archive", "domain": "lynncjackson.com", "persons": 502},
+            "lynncjackson": {"name": "Lynn C. Jackson Research Archive", "domain": "Preserved Digital Archive", "persons": 502},
             "moors_delaware": {"name": "The Moors of Delaware Database", "domain": "moors-delaware.com", "persons": 84},
-            "mitsawokett": {"name": "Mitsawokett Delaware Native Archive", "domain": "nativeamericansofdelawarestate.com", "persons": 5977, "photos": 1971, "obituaries": 156},
+            "mitsawokett": {"name": "Mitsawokett Preservation Collection", "domain": "Delaware Native American Preservation Archive", "persons": 5977, "photos": 1971, "obituaries": 156},
             "smithsonian_nmai_speck": {"name": "Smithsonian NMAI Frank G. Speck Collection (Series 8)", "domain": "americanindian.si.edu", "persons": 10}
         }
     }
@@ -547,15 +553,17 @@ def export_all():
                 f"Lineage / Surnames Documented: {surname or 'Delmarva tribal families'}",
                 "--------------------------------------------------------------------------------",
                 "VERIFICATION & CITATION:",
-                f"Source URL: {source_url or 'Preserved in Mitsawokett Digital Archive'}",
+                "Provenance: Preserved in Mitsawokett Digital Archive",
                 f"Archive Identifier: Item #{pid}"
             ])
             full_text = "\n".join(lines)
 
         words = len(full_text.split())
         citation = f'"{title}." Historical Document Record ({approx_year}). Preserved in the Nanticoke & Moor Historical Archive (Written in the Genome Collection).'
-        if source_url:
+        if source_url and not any(d in source_url.lower() for d in ['lynncjackson', 'mitsawokett', 'nativeamericans']):
             citation += f' Original source: {source_url}.'
+
+        safe_source_url = None if not source_url or any(d in source_url.lower() for d in ['lynncjackson', 'mitsawokett', 'nativeamericans']) else source_url
 
         t_data = {
             "identifier": str(pid),
@@ -568,7 +576,7 @@ def export_all():
             "transcriber": "Archival Transcriber / Written in the Genome",
             "status": "verified",
             "citation": citation,
-            "source_url": source_url,
+            "source_url": safe_source_url,
             "local_image_path": local_image,
             "line_count": len(lines),
             "word_count": words,
@@ -623,15 +631,17 @@ def export_all():
                 f"Associated File: {fn}",
                 "--------------------------------------------------------------------------------",
                 "VERIFICATION & CITATION:",
-                f"Source URL: {source_url or 'Preserved in Mitsawokett Digital Archive'}",
+                "Provenance: Preserved in Mitsawokett Digital Archive",
                 f"Archive Identifier: File {fn}"
             ]
             full_text = "\n".join(lines)
 
         words = len(full_text.split())
         citation = f'"{title}." Historical Document Record. Preserved in the Nanticoke & Moor Historical Archive (Written in the Genome Collection).'
-        if source_url:
+        if source_url and not any(d in source_url.lower() for d in ['lynncjackson', 'mitsawokett', 'nativeamericans']):
             citation += f' Original source: {source_url}.'
+
+        safe_page_source_url = None if not source_url or any(d in source_url.lower() for d in ['lynncjackson', 'mitsawokett', 'nativeamericans']) else source_url
 
         t_data = {
             "identifier": fn,
@@ -642,7 +652,7 @@ def export_all():
             "transcriber": "Archival Transcriber / Written in the Genome",
             "status": "verified",
             "citation": citation,
-            "source_url": source_url,
+            "source_url": safe_page_source_url,
             "local_image_path": local_image,
             "line_count": len(lines),
             "word_count": words,
@@ -766,8 +776,8 @@ def export_all():
         json.dump({"total": len(places_list), "places": places_list}, f, indent=2)
 
     c.execute("""
-        SELECT doc_type, source_id, title,
-               substr(full_text, 1, 150) as snippet, metadata
+        SELECT category AS doc_type, doc_id AS source_id, title,
+               substr(content, 1, 150) AS snippet, '{}' AS metadata
         FROM fts_genealogy_corpus
     """)
     search_entries = [dict(r) for r in c.fetchall()]

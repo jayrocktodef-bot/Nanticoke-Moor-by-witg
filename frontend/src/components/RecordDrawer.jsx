@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, ExternalLink, Image as ImageIcon, FileText } from 'lucide-react';
+import { X, ExternalLink, Image as ImageIcon, FileText, ShieldCheck } from 'lucide-react';
 
 export default function RecordDrawer({ record, onClose }) {
   const [lightboxMedia, setLightboxMedia] = useState(null);
@@ -39,13 +39,13 @@ export default function RecordDrawer({ record, onClose }) {
 
         {/* Drawer Content */}
         <div className="flex-1 overflow-y-auto p-6 space-y-6 custom-scrollbar">
-          {/* Wayback Source Citation */}
-          <div className="bg-slate-800/60 border border-slate-700/50 rounded-lg p-4 flex items-center justify-between text-xs">
-            <div className="text-slate-300">
-              <span className="text-slate-400 block">Wayback Snapshot Citation:</span>
-              <span className="font-mono text-slate-200">{record.wayback_url}</span>
-            </div>
-            {record.wayback_url && (
+          {/* Archival Provenance / Citation */}
+          {record.wayback_url && !record.wayback_url.includes('lynncjackson') && !record.wayback_url.includes('mitsawokett') && !record.wayback_url.includes('nativeamericansofdelawarestate') ? (
+            <div className="bg-slate-800/60 border border-slate-700/50 rounded-lg p-4 flex items-center justify-between text-xs">
+              <div className="text-slate-300">
+                <span className="text-slate-400 block">External Archive Citation:</span>
+                <span className="font-mono text-slate-200">{record.wayback_url}</span>
+              </div>
               <a 
                 href={record.wayback_url} 
                 target="_blank" 
@@ -54,8 +54,18 @@ export default function RecordDrawer({ record, onClose }) {
               >
                 Wayback <ExternalLink className="w-3.5 h-3.5" />
               </a>
-            )}
-          </div>
+            </div>
+          ) : (
+            <div className="bg-slate-800/60 border border-slate-700/50 rounded-lg p-4 flex items-center justify-between text-xs">
+              <div className="text-slate-300 flex items-center gap-3">
+                <ShieldCheck className="w-5 h-5 text-emerald-400 shrink-0" />
+                <div>
+                  <span className="text-emerald-400 font-semibold block">Preserved Archival Provenance</span>
+                  <span className="text-slate-400 text-[11px]">Item preserved in offline digital vault • Complete local transcription & media</span>
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* Media Assets Section */}
           {record.media_assets && record.media_assets.length > 0 && (

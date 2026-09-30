@@ -795,7 +795,7 @@ export default function TranscribedDocumentView({ identifier, initialData, onClo
                   <p className="text-xs font-mono text-[#A8A096] leading-relaxed bg-[#0E0D0C] p-3 rounded-lg border border-[#221E1A] break-words">
                     {data.citation}
                   </p>
-                  {data.source_url && (
+                  {data.source_url && !data.source_url.includes('lynncjackson') && !data.source_url.includes('mitsawokett') && !data.source_url.includes('nativeamericansofdelawarestate') && (
                     <a
                       href={data.source_url}
                       target="_blank"
