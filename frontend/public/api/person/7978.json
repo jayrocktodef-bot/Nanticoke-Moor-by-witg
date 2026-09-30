@@ -190,6 +190,25 @@
       ]
     },
     {
+      "fact_id": 5368,
+      "person_id": 7978,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Lydia A. Wright Jackson",
+      "citations": [
+        {
+          "citation_id": 5362,
+          "fact_id": 5368,
+          "source_id": 384,
+          "evidence_text": null,
+          "source_title": "Record: Jackson7&PerryHughes.htm",
+          "source_url": "Jackson7&PerryHughes.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
       "fact_id": 7388,
       "person_id": 7978,
       "fact_type": "Name",
@@ -255,6 +274,15 @@
       "value_string": "Born October 28th 1747",
       "citations": [
         {
+          "citation_id": 15913,
+          "fact_id": 12342,
+          "source_id": 384,
+          "evidence_text": "Archival assertion: Born October 28th 1747 (October 28th 1747) documented in primary lineage manifest.",
+          "source_title": "Record: Jackson7&PerryHughes.htm",
+          "source_url": "Jackson7&PerryHughes.htm",
+          "source_dataset": "mitsawokett_delaware"
+        },
+        {
           "citation_id": 16052,
           "fact_id": 12342,
           "source_id": 1229,
@@ -266,6 +294,25 @@
       ]
     },
     {
+      "fact_id": 13788,
+      "person_id": 7978,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Jackson",
+      "citations": [
+        {
+          "citation_id": 12590,
+          "fact_id": 13788,
+          "source_id": 71,
+          "evidence_text": "...we can say that: John Jackson was the father of William Jackson & Patience Jackson William Jackson was the father of Lydia Jackson Annanias Jackson was the father of Hester Jackson James, Stephen and Annanias were POSSIBLY children of the original...",
+          "source_title": "Record: jackson.htm",
+          "source_url": "jackson.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
       "fact_id": 15257,
       "person_id": 7978,
       "fact_type": "Document Mention",
@@ -273,6 +320,15 @@
       "place_string": "Delmarva Peninsula",
       "value_string": "Documented in primary record: Tax Lists",
       "citations": [
+        {
+          "citation_id": 14058,
+          "fact_id": 15257,
+          "source_id": 837,
+          "evidence_text": "...Francisco.........................3 Cornelius Harman.......................2 Edwd. Hichin...........................1 Lydia Jackson..........................2 Jno. Johnson...........................1 Obed: Johnson..........................3 Richd....",
+          "source_title": "Preserved Document: Tax Lists",
+          "source_url": "taxlist3.htm",
+          "source_dataset": "mitsawokett_primary"
+        },
         {
           "citation_id": 14059,
           "fact_id": 15257,
@@ -292,6 +348,15 @@
       "place_string": "Sussex County, Delaware",
       "value_string": "Enumerated as 'M' (Mulatto), age 22",
       "citations": [
+        {
+          "citation_id": 14677,
+          "fact_id": 15876,
+          "source_id": 688,
+          "evidence_text": "1870 Census: Jackson, Lydia \u2014 Lydia | 22 | F | M | keep house | Mary E.",
+          "source_title": "Preserved Document: Census-1870",
+          "source_url": "census20.htm",
+          "source_dataset": "mitsawokett_primary"
+        },
         {
           "citation_id": 14678,
           "fact_id": 15876,
@@ -320,6 +385,14 @@
       "certainty": "confirmed",
       "rel_id": 8791,
       "rel_name": "Mary E Jackson"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier Jackson7&PerryHughes.htm",
+      "certainty": "confirmed",
+      "rel_id": 6128,
+      "rel_name": "Arthur Jackson"
     }
   ],
   "photos": [

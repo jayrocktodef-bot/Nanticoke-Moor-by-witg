@@ -19,6 +19,25 @@
   },
   "facts": [
     {
+      "fact_id": 2905,
+      "person_id": 3588,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Charles Howard Carey",
+      "citations": [
+        {
+          "citation_id": 2899,
+          "fact_id": 2905,
+          "source_id": 195,
+          "evidence_text": null,
+          "source_title": "Record: CareyCharlesH&NellieVRidgeway.htm",
+          "source_url": "CareyCharlesH&NellieVRidgeway.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
       "fact_id": 2961,
       "person_id": 3588,
       "fact_type": "Name",
@@ -46,6 +65,15 @@
       "value_string": null,
       "citations": [
         {
+          "citation_id": 2900,
+          "fact_id": 2962,
+          "source_id": 195,
+          "evidence_text": null,
+          "source_title": "Record: CareyCharlesH&NellieVRidgeway.htm",
+          "source_url": "CareyCharlesH&NellieVRidgeway.htm",
+          "source_dataset": "mitsawokett_delaware"
+        },
+        {
           "citation_id": 2956,
           "fact_id": 2962,
           "source_id": 197,
@@ -64,6 +92,15 @@
       "place_string": null,
       "value_string": null,
       "citations": [
+        {
+          "citation_id": 2901,
+          "fact_id": 2963,
+          "source_id": 195,
+          "evidence_text": null,
+          "source_title": "Record: CareyCharlesH&NellieVRidgeway.htm",
+          "source_url": "CareyCharlesH&NellieVRidgeway.htm",
+          "source_dataset": "mitsawokett_delaware"
+        },
         {
           "citation_id": 2957,
           "fact_id": 2963,
@@ -108,6 +145,30 @@
       "certainty": "confirmed",
       "rel_id": 3594,
       "rel_name": "Lulu Rae Carey"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CareyCharlesH&NellieVRidgeway.htm",
+      "certainty": "confirmed",
+      "rel_id": 3534,
+      "rel_name": "Wilmore Carey"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CareyCharlesH&NellieVRidgeway.htm",
+      "certainty": "confirmed",
+      "rel_id": 3536,
+      "rel_name": "Della Mae Ridgeway Carey"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier CareyCharlesH&NellieVRidgeway.htm",
+      "certainty": "confirmed",
+      "rel_id": 3537,
+      "rel_name": "Howard Carey"
     }
   ],
   "photos": [

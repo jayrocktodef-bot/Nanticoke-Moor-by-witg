@@ -19,6 +19,25 @@
   },
   "facts": [
     {
+      "fact_id": 7837,
+      "person_id": 8877,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Cherita Thompson",
+      "citations": [
+        {
+          "citation_id": 7831,
+          "fact_id": 7837,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
+    {
       "fact_id": 8375,
       "person_id": 8877,
       "fact_type": "Name",
@@ -46,6 +65,15 @@
       "value_string": null,
       "citations": [
         {
+          "citation_id": 7832,
+          "fact_id": 8376,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        },
+        {
           "citation_id": 8370,
           "fact_id": 8376,
           "source_id": 622,
@@ -64,6 +92,15 @@
       "place_string": null,
       "value_string": null,
       "citations": [
+        {
+          "citation_id": 7833,
+          "fact_id": 8377,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        },
         {
           "citation_id": 8371,
           "fact_id": 8377,
@@ -92,6 +129,14 @@
       "certainty": "confirmed",
       "rel_id": 8640,
       "rel_name": "Elizabeth Thompson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 8170,
+      "rel_name": "Dale Thompson"
     }
   ],
   "photos": [],

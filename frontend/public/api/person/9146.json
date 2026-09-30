@@ -19,6 +19,25 @@
   },
   "facts": [
     {
+      "fact_id": 4018,
+      "person_id": 9146,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Reginald Davis Harmon",
+      "citations": [
+        {
+          "citation_id": 4012,
+          "fact_id": 4018,
+          "source_id": 271,
+          "evidence_text": null,
+          "source_title": "Record: DavisReg&MackHarmon.htm",
+          "source_url": "DavisReg&MackHarmon.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
       "fact_id": 8588,
       "person_id": 9146,
       "fact_type": "Name",
@@ -46,6 +65,15 @@
       "value_string": null,
       "citations": [
         {
+          "citation_id": 4013,
+          "fact_id": 8589,
+          "source_id": 271,
+          "evidence_text": null,
+          "source_title": "Record: DavisReg&MackHarmon.htm",
+          "source_url": "DavisReg&MackHarmon.htm",
+          "source_dataset": "mitsawokett_delaware"
+        },
+        {
           "citation_id": 8583,
           "fact_id": 8589,
           "source_id": 622,
@@ -64,6 +92,15 @@
       "place_string": null,
       "value_string": null,
       "citations": [
+        {
+          "citation_id": 4014,
+          "fact_id": 8590,
+          "source_id": 271,
+          "evidence_text": null,
+          "source_title": "Record: DavisReg&MackHarmon.htm",
+          "source_url": "DavisReg&MackHarmon.htm",
+          "source_dataset": "mitsawokett_delaware"
+        },
         {
           "citation_id": 8584,
           "fact_id": 8590,
@@ -92,6 +129,22 @@
       "certainty": "confirmed",
       "rel_id": 10815,
       "rel_name": "Charles Morris Charlie Davis"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DavisReg&MackHarmon.htm",
+      "certainty": "confirmed",
+      "rel_id": 4632,
+      "rel_name": "Cornell Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DavisReg&MackHarmon.htm",
+      "certainty": "confirmed",
+      "rel_id": 4634,
+      "rel_name": "Macklin Harmon"
     },
     {
       "relationship_type": "child_of",

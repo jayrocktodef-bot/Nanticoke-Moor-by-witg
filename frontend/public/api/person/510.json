@@ -38,6 +38,25 @@
       ]
     },
     {
+      "fact_id": 11455,
+      "person_id": 510,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "He then",
+      "citations": [
+        {
+          "citation_id": 11048,
+          "fact_id": 11455,
+          "source_id": 88,
+          "evidence_text": "...whose family was from Maryland (possibly related to the mixed blood Kent Co. Carter family). Elva died in 1949 . He then married Alberta HARMON from Millsboro, DE. He and Alberta spent most summers at Alberta's cottage along the Indian...",
+          "source_title": "Record: morganl2.htm",
+          "source_url": "morganl2.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
       "fact_id": 11776,
       "person_id": 510,
       "fact_type": "Death",
@@ -52,6 +71,25 @@
           "evidence_text": "...After the death of her mother in 1929 she was sent to live with her uncle Leomond Morgan and she continued to live with him after her father and sisters moved back to Delaware. In 1948 , she married E...",
           "source_title": "Record: morgan-m.htm",
           "source_url": "morgan-m.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    },
+    {
+      "fact_id": 12513,
+      "person_id": 510,
+      "fact_type": "Death",
+      "date_string": "1949",
+      "place_string": null,
+      "value_string": "died in 1949",
+      "citations": [
+        {
+          "citation_id": 16220,
+          "fact_id": 12513,
+          "source_id": 88,
+          "evidence_text": "...ssibly related to the mixed blood Kent Co. Carter family). Elva died in 1949 . He then married Alberta HARMON from Millsboro, DE. He and Alberta spent most summers at Alberta's cottage along the Indian Riv...",
+          "source_title": "Record: morganl2.htm",
+          "source_url": "morganl2.htm",
           "source_dataset": "lynncjackson"
         }
       ]
@@ -152,7 +190,16 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": ". He then married Mary Jane Norwood Jackson (widow of Isreal Jackson).",
+      "certainty": "confirmed",
+      "rel_id": 752,
+      "rel_name": "Mary Jane Norwood Jackson"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

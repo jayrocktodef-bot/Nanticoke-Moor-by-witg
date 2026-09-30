@@ -19,6 +19,44 @@
   },
   "facts": [
     {
+      "fact_id": 4045,
+      "person_id": 4960,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Robert Davis",
+      "citations": [
+        {
+          "citation_id": 4039,
+          "fact_id": 4045,
+          "source_id": 273,
+          "evidence_text": null,
+          "source_title": "Record: DavisRobert&Lillie&son.htm",
+          "source_url": "DavisRobert&Lillie&son.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4179,
+      "person_id": 4960,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Robert N. Davis",
+      "citations": [
+        {
+          "citation_id": 4173,
+          "fact_id": 4179,
+          "source_id": 286,
+          "evidence_text": null,
+          "source_title": "Record: DavisMichael.htm",
+          "source_url": "DavisMichael.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
       "fact_id": 4300,
       "person_id": 4960,
       "fact_type": "Name",
@@ -46,12 +84,39 @@
       "value_string": null,
       "citations": [
         {
+          "citation_id": 4040,
+          "fact_id": 4301,
+          "source_id": 273,
+          "evidence_text": null,
+          "source_title": "Record: DavisRobert&Lillie&son.htm",
+          "source_url": "DavisRobert&Lillie&son.htm",
+          "source_dataset": "mitsawokett_delaware"
+        },
+        {
+          "citation_id": 4174,
+          "fact_id": 4301,
+          "source_id": 286,
+          "evidence_text": null,
+          "source_title": "Record: DavisMichael.htm",
+          "source_url": "DavisMichael.htm",
+          "source_dataset": "mitsawokett_delaware"
+        },
+        {
           "citation_id": 4295,
           "fact_id": 4301,
           "source_id": 297,
           "evidence_text": null,
           "source_title": "Record: DavisWilliamHenry.htm",
           "source_url": "DavisWilliamHenry.htm",
+          "source_dataset": "mitsawokett_delaware"
+        },
+        {
+          "citation_id": 4690,
+          "fact_id": 4301,
+          "source_id": 319,
+          "evidence_text": null,
+          "source_title": "Record: DavisRobertNehemiahFamily.htm",
+          "source_url": "DavisRobertNehemiahFamily.htm",
           "source_dataset": "mitsawokett_delaware"
         }
       ]
@@ -65,12 +130,58 @@
       "value_string": null,
       "citations": [
         {
+          "citation_id": 4041,
+          "fact_id": 4302,
+          "source_id": 273,
+          "evidence_text": null,
+          "source_title": "Record: DavisRobert&Lillie&son.htm",
+          "source_url": "DavisRobert&Lillie&son.htm",
+          "source_dataset": "mitsawokett_delaware"
+        },
+        {
+          "citation_id": 4175,
+          "fact_id": 4302,
+          "source_id": 286,
+          "evidence_text": null,
+          "source_title": "Record: DavisMichael.htm",
+          "source_url": "DavisMichael.htm",
+          "source_dataset": "mitsawokett_delaware"
+        },
+        {
           "citation_id": 4296,
           "fact_id": 4302,
           "source_id": 297,
           "evidence_text": null,
           "source_title": "Record: DavisWilliamHenry.htm",
           "source_url": "DavisWilliamHenry.htm",
+          "source_dataset": "mitsawokett_delaware"
+        },
+        {
+          "citation_id": 4691,
+          "fact_id": 4302,
+          "source_id": 319,
+          "evidence_text": null,
+          "source_title": "Record: DavisRobertNehemiahFamily.htm",
+          "source_url": "DavisRobertNehemiahFamily.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4695,
+      "person_id": 4960,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Robert H. Davis",
+      "citations": [
+        {
+          "citation_id": 4689,
+          "fact_id": 4695,
+          "source_id": 319,
+          "evidence_text": null,
+          "source_title": "Record: DavisRobertNehemiahFamily.htm",
+          "source_url": "DavisRobertNehemiahFamily.htm",
           "source_dataset": "mitsawokett_delaware"
         }
       ]
@@ -91,11 +202,29 @@
           "source_title": "Record: FindAGrave Memorial 287947066",
           "source_url": "https://www.findagrave.com/memorial/287947066/robert-davis",
           "source_dataset": "findagrave"
+        },
+        {
+          "citation_id": 15855,
+          "fact_id": 12120,
+          "source_id": 1131,
+          "evidence_text": "Memorial assertion: Robert H. Davis documented in FindAGrave Memorial #287947066.",
+          "source_title": "Record: FindAGrave Memorial 287947066",
+          "source_url": "https://www.findagrave.com/memorial/287947066/robert-davis",
+          "source_dataset": "findagrave"
         }
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 8629,
+      "rel_name": "Jost Henry Davis"
+    }
+  ],
   "photos": [
     {
       "person_id": 4960,
@@ -106,6 +235,24 @@
       "married_surname": "Davis",
       "approximate_year": "1997",
       "local_image_path": "assets/archive_media/people/Davis_Robby.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 4960,
+      "photo_id": 658,
+      "category": "people",
+      "title_or_caption": "Davis_Robert_Jr_18.jpg",
+      "subject_names": "Robert Davis Jr.",
+      "married_surname": "Davis",
+      "approximate_year": "1997",
+      "local_image_path": "assets/archive_media/people/Davis_Robert_Jr_18.jpg",
       "source_url": "",
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
@@ -225,6 +372,24 @@
     },
     {
       "person_id": 4960,
+      "photo_id": 655,
+      "category": "people",
+      "title_or_caption": "Davis_Robert_Jr_bunny_And_Kids.jpg",
+      "subject_names": "Davis Robert Jr bunny & Kids",
+      "married_surname": "Davis",
+      "approximate_year": "1997",
+      "local_image_path": "assets/archive_media/people/Davis_Robert_Jr_bunny_And_Kids.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 4960,
       "photo_id": 660,
       "category": "people",
       "title_or_caption": "Davis_Robert_N_And_Libby_And_Grace.jpg",
@@ -263,16 +428,6 @@
   "obituaries": [],
   "audit_flags": [
     {
-      "id": 5734,
-      "category": "Duplicate Candidate",
-      "severity": "warning",
-      "person_id": 5443,
-      "person_id_secondary": 4960,
-      "description": "Potential duplicate profile (matching name and birth year)",
-      "evidence": "Key: robert|davis|1874",
-      "created_at": "2026-08-31 00:17:14"
-    },
-    {
       "id": 6920,
       "category": "ENRICHMENT_ADDED",
       "severity": "info",
@@ -286,6 +441,18 @@
   "ancestry": {
     "id": 4960,
     "name": "Robert Nehemiah Davis Sr",
-    "children": []
+    "children": [
+      {
+        "id": 8629,
+        "name": "Jost Henry Davis",
+        "children": [
+          {
+            "id": 8809,
+            "name": "Ludwig Davis",
+            "children": []
+          }
+        ]
+      }
+    ]
   }
 }

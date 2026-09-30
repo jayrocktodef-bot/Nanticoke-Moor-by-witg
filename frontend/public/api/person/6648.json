@@ -53,6 +53,15 @@
           "source_title": "Record: MosleyPearl&Hazel.htm",
           "source_url": "MosleyPearl&Hazel.htm",
           "source_dataset": "mitsawokett_delaware"
+        },
+        {
+          "citation_id": 6261,
+          "fact_id": 5958,
+          "source_id": 508,
+          "evidence_text": null,
+          "source_title": "Record: MosleyJames&Sherren.htm",
+          "source_url": "MosleyJames&Sherren.htm",
+          "source_dataset": "mitsawokett_delaware"
         }
       ]
     },
@@ -72,11 +81,47 @@
           "source_title": "Record: MosleyPearl&Hazel.htm",
           "source_url": "MosleyPearl&Hazel.htm",
           "source_dataset": "mitsawokett_delaware"
+        },
+        {
+          "citation_id": 6262,
+          "fact_id": 5959,
+          "source_id": 508,
+          "evidence_text": null,
+          "source_title": "Record: MosleyJames&Sherren.htm",
+          "source_url": "MosleyJames&Sherren.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 6266,
+      "person_id": 6648,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Sherren Mosley",
+      "citations": [
+        {
+          "citation_id": 6260,
+          "fact_id": 6266,
+          "source_id": 508,
+          "evidence_text": null,
+          "source_title": "Record: MosleyJames&Sherren.htm",
+          "source_url": "MosleyJames&Sherren.htm",
+          "source_dataset": "mitsawokett_delaware"
         }
       ]
     }
   ],
   "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier MosleyJames&Sherren.htm",
+      "certainty": "confirmed",
+      "rel_id": 6909,
+      "rel_name": "James Mosley"
+    },
     {
       "relationship_type": "spouse_of",
       "role": "spouse",
@@ -87,6 +132,96 @@
     }
   ],
   "photos": [
+    {
+      "person_id": 6648,
+      "photo_id": 1811,
+      "category": "people",
+      "title_or_caption": "Mosley_Sherren_Who_4.jpg",
+      "subject_names": "Sherren Who Mosley",
+      "married_surname": "Mosley",
+      "approximate_year": "1978",
+      "local_image_path": "assets/archive_media/people/Mosley_Sherren_Who_4.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6648,
+      "photo_id": 1812,
+      "category": "people",
+      "title_or_caption": "Mosley_Sherren_Who_5.jpg",
+      "subject_names": "Sherren Who Mosley",
+      "married_surname": "Mosley",
+      "approximate_year": "1978",
+      "local_image_path": "assets/archive_media/people/Mosley_Sherren_Who_5.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6648,
+      "photo_id": 1813,
+      "category": "people",
+      "title_or_caption": "Mosley_Sherren_Who_6.jpg",
+      "subject_names": "Sherren Who Mosley",
+      "married_surname": "Mosley",
+      "approximate_year": "1978",
+      "local_image_path": "assets/archive_media/people/Mosley_Sherren_Who_6.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "studio_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6648,
+      "photo_id": 1726,
+      "category": "people",
+      "title_or_caption": "Mosley_James_And_Sherren_Tammy.jpg",
+      "subject_names": "Mosley James & Sherren Tammy",
+      "married_surname": "Mosley",
+      "approximate_year": "1978",
+      "local_image_path": "assets/archive_media/people/Mosley_James_And_Sherren_Tammy.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6648,
+      "photo_id": 1809,
+      "category": "people",
+      "title_or_caption": "Mosley_Sherren_And_Husband.jpg",
+      "subject_names": "Mosley Sherren & Husband",
+      "married_surname": "Mosley",
+      "approximate_year": "1978",
+      "local_image_path": "assets/archive_media/people/Mosley_Sherren_And_Husband.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
     {
       "person_id": 6648,
       "photo_id": 2290,

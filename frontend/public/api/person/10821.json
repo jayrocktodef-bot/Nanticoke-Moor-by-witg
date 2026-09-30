@@ -10,7 +10,7 @@
     "source_page": "Davis Family Tree.ged",
     "birth_info": "unknown",
     "death_info": "2000",
-    "notes": "| Verified via FindAGrave: https://www.findagrave.com/memorial/197186036/albert-davis (Buried at Green Haven Memorial Gardens) [Suffix 'Jr' realigned from surname field]",
+    "notes": "",
     "dataset_source": "davis_family_gedcom",
     "birth_date": null,
     "birth_place": null,
@@ -18,6 +18,25 @@
     "death_place": null
   },
   "facts": [
+    {
+      "fact_id": 9479,
+      "person_id": 10821,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Albert Davis",
+      "citations": [
+        {
+          "citation_id": 9473,
+          "fact_id": 9479,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        }
+      ]
+    },
     {
       "fact_id": 10218,
       "person_id": 10821,
@@ -46,6 +65,15 @@
       "value_string": null,
       "citations": [
         {
+          "citation_id": 9474,
+          "fact_id": 10219,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        },
+        {
           "citation_id": 10213,
           "fact_id": 10219,
           "source_id": 622,
@@ -65,6 +93,15 @@
       "value_string": null,
       "citations": [
         {
+          "citation_id": 9475,
+          "fact_id": 10220,
+          "source_id": 622,
+          "evidence_text": null,
+          "source_title": "Record: Davis Family Tree.ged",
+          "source_url": "Davis Family Tree.ged",
+          "source_dataset": "davis_family_gedcom"
+        },
+        {
           "citation_id": 10214,
           "fact_id": 10220,
           "source_id": 622,
@@ -82,11 +119,146 @@
       "role": "parent",
       "evidence_text": "GEDCOM Family tree linkage",
       "certainty": "confirmed",
-      "rel_id": 10087,
-      "rel_name": "Albert Davis"
+      "rel_id": 8676,
+      "rel_name": "Charles Morris Davis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "GEDCOM Family tree linkage",
+      "certainty": "confirmed",
+      "rel_id": 9140,
+      "rel_name": "Minnie Mae Street"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "person_id": 10821,
+      "photo_id": 3384,
+      "category": "documents",
+      "title_or_caption": "1940 Federal Census - Carmenthis Davis Household",
+      "subject_names": "1940 Federal Census - Carmenthis Davis Household",
+      "married_surname": "Davis",
+      "approximate_year": "1940",
+      "local_image_path": "",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/254767:2442",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 10821,
+      "photo_id": 3387,
+      "category": "documents",
+      "title_or_caption": "1950 Federal Census - Augustus Doris Household",
+      "subject_names": "1950 Federal Census - Augustus Doris Household",
+      "married_surname": "Davis",
+      "approximate_year": "1950",
+      "local_image_path": "ancestry_documents/delaware_census/43290879-Delaware-072502-0018.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/1211903:62308",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 10821,
+      "photo_id": 3501,
+      "category": "documents",
+      "title_or_caption": "1910 Federal Census - Albert Harman Household",
+      "subject_names": "1910 Federal Census - Albert Harman Household",
+      "married_surname": "Davis",
+      "approximate_year": "1910",
+      "local_image_path": "ancestry_documents/delaware_census/31111_4330855-01461.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/171658730:7884",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 10821,
+      "photo_id": 3510,
+      "category": "documents",
+      "title_or_caption": "1950 Federal Census - Albert Harmon Household",
+      "subject_names": "1950 Federal Census - Albert Harmon Household",
+      "married_surname": "Davis",
+      "approximate_year": "1950",
+      "local_image_path": "ancestry_documents/delaware_census/43290879-Delaware-072502-0009.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/1211722:62308",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 10821,
+      "photo_id": 3513,
+      "category": "documents",
+      "title_or_caption": "Record Federal Census - Albert Harmon Household",
+      "subject_names": "Record Federal Census - Albert Harmon Household",
+      "married_surname": "Davis",
+      "approximate_year": "Record",
+      "local_image_path": "ancestry_documents/delaware_census/i2252918-00009.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/6152660:61252",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 10821,
+      "photo_id": 3523,
+      "category": "documents",
+      "title_or_caption": "WWII Federal Census - Albert Harmon Household",
+      "subject_names": "WWII Federal Census - Albert Harmon Household",
+      "married_surname": "Davis",
+      "approximate_year": "WWII",
+      "local_image_path": "ancestry_documents/delaware_census/44025_05_00032-03291.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/301887266:2238",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 10821,
+      "photo_id": 3550,
+      "category": "documents",
+      "title_or_caption": "1880 Federal Census - Albert P. Clark Household",
+      "subject_names": "1880 Federal Census - Albert P. Clark Household",
+      "married_surname": "Davis",
+      "approximate_year": "1880",
+      "local_image_path": "ancestry_documents/delaware_census/4240109-00724.jpg",
+      "source_url": "https://www.ancestry.com/discoveryui-content/view/27033261:6742",
+      "dataset_source": "Ancestry.com Delaware Census Records",
+      "document_type": "census_record",
+      "asset_type": "document",
+      "subtype": "census",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    }
+  ],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
@@ -94,45 +266,34 @@
     "name": "Albert C. Davis Jr",
     "children": [
       {
-        "id": 10087,
-        "name": "Albert Davis",
+        "id": 8676,
+        "name": "Charles Morris Davis",
         "children": [
           {
-            "id": 8676,
-            "name": "Charles Morris Davis",
+            "id": 11247,
+            "name": "Hester A. Morris Davis",
             "children": [
               {
-                "id": 11247,
-                "name": "Hester A. Morris Davis",
+                "id": 8571,
+                "name": "Francis E. Frank Morris",
                 "children": [
                   {
-                    "id": 8571,
-                    "name": "Francis E. Frank Morris",
-                    "children": [
-                      {
-                        "id": 8617,
-                        "name": "Negro Morris Thomas",
-                        "children": []
-                      },
-                      {
-                        "id": 8910,
-                        "name": "Leticia Morris",
-                        "children": []
-                      }
-                    ]
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": []
                   },
                   {
-                    "id": 8571,
-                    "name": "Francis E. Frank Morris",
+                    "id": 8910,
+                    "name": "Leticia Morris",
                     "children": [
                       {
-                        "id": 8617,
-                        "name": "Negro Morris Thomas",
+                        "id": 8616,
+                        "name": "Stephen Wright",
                         "children": []
                       },
                       {
-                        "id": 8910,
-                        "name": "Leticia Morris",
+                        "id": 8684,
+                        "name": "Priscilla Miller",
                         "children": []
                       }
                     ]
@@ -140,37 +301,26 @@
                 ]
               },
               {
-                "id": 11247,
-                "name": "Hester A. Morris Davis",
+                "id": 8571,
+                "name": "Francis E. Frank Morris",
                 "children": [
                   {
-                    "id": 8571,
-                    "name": "Francis E. Frank Morris",
-                    "children": [
-                      {
-                        "id": 8617,
-                        "name": "Negro Morris Thomas",
-                        "children": []
-                      },
-                      {
-                        "id": 8910,
-                        "name": "Leticia Morris",
-                        "children": []
-                      }
-                    ]
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": []
                   },
                   {
-                    "id": 8571,
-                    "name": "Francis E. Frank Morris",
+                    "id": 8910,
+                    "name": "Leticia Morris",
                     "children": [
                       {
-                        "id": 8617,
-                        "name": "Negro Morris Thomas",
+                        "id": 8616,
+                        "name": "Stephen Wright",
                         "children": []
                       },
                       {
-                        "id": 8910,
-                        "name": "Leticia Morris",
+                        "id": 8684,
+                        "name": "Priscilla Miller",
                         "children": []
                       }
                     ]
@@ -180,33 +330,104 @@
             ]
           },
           {
-            "id": 9140,
-            "name": "Minnie Mae Street",
+            "id": 11247,
+            "name": "Hester A. Morris Davis",
             "children": [
               {
-                "id": 9145,
-                "name": "Benton C Street",
-                "children": []
-              },
-              {
-                "id": 9144,
-                "name": "Anne Harmon",
+                "id": 8571,
+                "name": "Francis E. Frank Morris",
                 "children": [
                   {
-                    "id": 10514,
-                    "name": "Simon Harmon",
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": []
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
                     "children": [
                       {
-                        "id": 1022,
-                        "name": "Bowen Harmon",
+                        "id": 8616,
+                        "name": "Stephen Wright",
                         "children": []
                       },
                       {
-                        "id": 7577,
-                        "name": "Lydia Clark",
+                        "id": 8684,
+                        "name": "Priscilla Miller",
                         "children": []
                       }
                     ]
+                  }
+                ]
+              },
+              {
+                "id": 8571,
+                "name": "Francis E. Frank Morris",
+                "children": [
+                  {
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": []
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9140,
+        "name": "Minnie Mae Street",
+        "children": [
+          {
+            "id": 9145,
+            "name": "Benton C Street",
+            "children": []
+          },
+          {
+            "id": 9144,
+            "name": "Anne Harmon",
+            "children": [
+              {
+                "id": 10514,
+                "name": "Simon Harmon",
+                "children": [
+                  {
+                    "id": 1022,
+                    "name": "Bowen Harmon",
+                    "children": [
+                      {
+                        "id": 9982,
+                        "name": "Robert Emanuel Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 9983,
+                        "name": "Rachel Anne Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 7577,
+                    "name": "Lydia Clark",
+                    "children": []
                   }
                 ]
               }

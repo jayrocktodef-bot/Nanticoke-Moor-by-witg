@@ -62,6 +62,15 @@
           "source_title": "Record: WrightAnnaCatherineDavis.htm",
           "source_url": "WrightAnnaCatherineDavis.htm",
           "source_dataset": "mitsawokett_delaware"
+        },
+        {
+          "citation_id": 4046,
+          "fact_id": 2576,
+          "source_id": 273,
+          "evidence_text": null,
+          "source_title": "Record: DavisRobert&Lillie&son.htm",
+          "source_url": "DavisRobert&Lillie&son.htm",
+          "source_dataset": "mitsawokett_delaware"
         }
       ]
     },
@@ -81,11 +90,67 @@
           "source_title": "Record: WrightAnnaCatherineDavis.htm",
           "source_url": "WrightAnnaCatherineDavis.htm",
           "source_dataset": "mitsawokett_delaware"
+        },
+        {
+          "citation_id": 4047,
+          "fact_id": 2577,
+          "source_id": 273,
+          "evidence_text": null,
+          "source_title": "Record: DavisRobert&Lillie&son.htm",
+          "source_url": "DavisRobert&Lillie&son.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 4051,
+      "person_id": 3177,
+      "fact_type": "Name",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Sylvia Davis",
+      "citations": [
+        {
+          "citation_id": 4045,
+          "fact_id": 4051,
+          "source_id": 273,
+          "evidence_text": null,
+          "source_title": "Record: DavisRobert&Lillie&son.htm",
+          "source_url": "DavisRobert&Lillie&son.htm",
+          "source_dataset": "mitsawokett_delaware"
+        }
+      ]
+    },
+    {
+      "fact_id": 15550,
+      "person_id": 3177,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": "Delmarva Peninsula",
+      "value_string": "Documented in primary record: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+      "citations": [
+        {
+          "citation_id": 14352,
+          "fact_id": 15550,
+          "source_id": 846,
+          "evidence_text": "...Preserved Primary Document \u2022 Perkins-Adams-Morris-JacksonBible.htm Family Bible Register Entries Contributed by Sylvia Davis Pinkett 1 July 2006 MAIN MENU MAIN MENU MAIN MENU MITSAWOKETT \"The History and...",
+          "source_title": "Preserved Document: Mitsawokett: A 17th Century Native American Community in Central Delaware",
+          "source_url": "Perkins-Adams-Morris-JacksonBible.htm",
+          "source_dataset": "mitsawokett_primary"
         }
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Family Group Record: Enumerated in family dossier DavisRobert&Lillie&son.htm",
+      "certainty": "confirmed",
+      "rel_id": 4653,
+      "rel_name": "Pinkett Davis"
+    }
+  ],
   "photos": [
     {
       "person_id": 3177,
