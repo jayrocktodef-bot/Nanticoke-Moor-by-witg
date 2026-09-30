@@ -76,13 +76,28 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8322,
+      "rel_name": "Ida May Hitchens"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11086,
     "name": "William P Carmean",
-    "children": []
+    "children": [
+      {
+        "id": 8322,
+        "name": "Ida May Hitchens",
+        "children": []
+      }
+    ]
   }
 }

@@ -135,6 +135,30 @@
       "certainty": "census_confirmed",
       "rel_id": 961,
       "rel_name": "John Mosley"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 10690,
+      "rel_name": "James Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 10128,
+      "rel_name": "John Henry Mosley"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 10689,
+      "rel_name": "Anna Mosley"
     }
   ],
   "photos": [
@@ -179,6 +203,11 @@
                     "id": 9969,
                     "name": "Jacob Hanzer Jr",
                     "children": [
+                      {
+                        "id": 9974,
+                        "name": "Jacob Hanzer Sr",
+                        "children": []
+                      },
                       {
                         "id": 9974,
                         "name": "Jacob Hanzer Sr",

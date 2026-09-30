@@ -35,6 +35,14 @@
       "certainty": "census_confirmed",
       "rel_id": 8349,
       "rel_name": "Delema Street"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 10200,
+      "rel_name": "Richard Street"
     }
   ],
   "photos": [],
@@ -57,6 +65,33 @@
             "id": 8274,
             "name": "Edgar Coil Morris Sr",
             "children": [
+              {
+                "id": 4624,
+                "name": "Edward Morris",
+                "children": [
+                  {
+                    "id": 8617,
+                    "name": "Negro Morris Thomas",
+                    "children": []
+                  },
+                  {
+                    "id": 8910,
+                    "name": "Leticia Morris",
+                    "children": [
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      },
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "id": 4624,
                 "name": "Edward Morris",

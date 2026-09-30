@@ -100,6 +100,14 @@
       "certainty": "confirmed",
       "rel_id": 8250,
       "rel_name": "Dwayne Davis"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8250,
+      "rel_name": "Dwayne Davis"
     }
   ],
   "photos": [
@@ -189,7 +197,13 @@
           {
             "id": 8519,
             "name": "JAMES Davis",
-            "children": []
+            "children": [
+              {
+                "id": 8519,
+                "name": "JAMES Davis",
+                "children": []
+              }
+            ]
           },
           {
             "id": 8185,
@@ -294,6 +308,22 @@
                       {
                         "id": 8921,
                         "name": "Eliza Jane Morris",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9520,
+                    "name": "Charles Jackson",
+                    "children": [
+                      {
+                        "id": 9564,
+                        "name": "Robert Jackson",
+                        "children": []
+                      },
+                      {
+                        "id": 6480,
+                        "name": "Mary Jackson",
                         "children": []
                       }
                     ]

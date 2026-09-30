@@ -140,6 +140,22 @@
       "certainty": "confirmed",
       "rel_id": 11177,
       "rel_name": "Agnes Ingram"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11172,
+      "rel_name": "Kate Ingram"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11144,
+      "rel_name": "Jerry Ingram"
     }
   ],
   "photos": [],
@@ -148,6 +164,45 @@
   "ancestry": {
     "id": 11151,
     "name": "Eva C Ingram",
-    "children": []
+    "children": [
+      {
+        "id": 11144,
+        "name": "Jerry Ingram",
+        "children": [
+          {
+            "id": 11138,
+            "name": "Harry Ingram",
+            "children": [
+              {
+                "id": 11137,
+                "name": "Abraham Ingram",
+                "children": [
+                  {
+                    "id": 11137,
+                    "name": "Abraham Ingram",
+                    "children": []
+                  },
+                  {
+                    "id": 9111,
+                    "name": "Rachel Harmon",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 9111,
+                "name": "Rachel Harmon",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 11143,
+            "name": "Emma A. Ingram",
+            "children": []
+          }
+        ]
+      }
+    ]
   }
 }

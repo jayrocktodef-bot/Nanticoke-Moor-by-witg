@@ -165,6 +165,14 @@
       "certainty": "confirmed",
       "rel_id": 11873,
       "rel_name": "Burt Schroeder"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 10429,
+      "rel_name": "Sina Mosley"
     }
   ],
   "photos": [
@@ -255,6 +263,11 @@
         "id": 10429,
         "name": "Sina Mosley",
         "children": [
+          {
+            "id": 961,
+            "name": "John Mosley",
+            "children": []
+          },
           {
             "id": 961,
             "name": "John Mosley",

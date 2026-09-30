@@ -245,18 +245,19 @@ export default function LineagesPage() {
             Core Lineages:
           </span>
           {[
-            { name: 'Davis', count: 161 },
-            { name: 'Harmon', count: 274 },
-            { name: 'Durham', count: 272 },
-            { name: 'Mosley', count: 191 },
+            { name: 'Davis', count: 160 },
+            { name: 'Harmon', count: 272 },
+            { name: 'Durham', count: 274 },
+            { name: 'Mosley', count: 193 },
+            { name: 'Moore', count: 75 },
             { name: 'Carney', count: 105 },
-            { name: 'Clark', count: 98 },
-            { name: 'Street', count: 87 },
-            { name: 'Wright', count: 114 },
-            { name: 'Sockum', count: 23 },
-            { name: 'Pierce', count: 142 },
-            { name: 'Gould', count: 48 },
-            { name: 'Cuff', count: 32 }
+            { name: 'Clark', count: 90 },
+            { name: 'Street', count: 61 },
+            { name: 'Wright', count: 115 },
+            { name: 'Seeney', count: 32 },
+            { name: 'Pierce', count: 76 },
+            { name: 'Gould', count: 22 },
+            { name: 'Cuff', count: 35 }
           ].map(item => (
             <button
               key={item.name}

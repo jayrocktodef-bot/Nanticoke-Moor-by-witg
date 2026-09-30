@@ -22,7 +22,7 @@ NON_PERSON_PATTERNS = [
     r'^\(?born\s+.*$',
     r'^\(?died\s+.*$',
     r'^\d+\s+(June|July|August|January|February|March|April|May|September|October|November|December).*$',
-    r'^.*(Archive|Directory|Settlement|Book|Journal|News|Tombstones|Site|Chapter|State|County|Church|Meeting|Probate|Inventory|Orphans|Case|File|Files|Court|Petition|Table|Contents|Guide|Index|Search|Email|Copyright|Wayback|Wikipedia).*$',
+    r'^.*(Archive|Directory|Settlement|\bBook\b|Journal|News|Tombstones|Site|Chapter|State|County|Church|Meeting|Probate|Inventory|Orphans|Case|File|Files|Court|Petition|Table|Contents|Guide|Index|Search|Email|Copyright|Wayback|Wikipedia).*$',
     r'^\(?color removed.*\)?$',
     r'^\(?no parents listed.*\)?$',
     r'^.*\(Outside site removed.*\).*$',

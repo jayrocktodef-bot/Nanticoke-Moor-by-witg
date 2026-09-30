@@ -51,6 +51,30 @@
       "certainty": "confirmed",
       "rel_id": 10374,
       "rel_name": "Jemima Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9336,
+      "rel_name": "James Clark"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9335,
+      "rel_name": "Bowen Clark"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 10374,
+      "rel_name": "Jemima Harmon"
     }
   ],
   "photos": [],
@@ -80,7 +104,83 @@
                   {
                     "id": 8862,
                     "name": "William Harmon",
-                    "children": []
+                    "children": [
+                      {
+                        "id": 10540,
+                        "name": "Job Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 8861,
+                        "name": "Eunice Hester Miller",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8862,
+                    "name": "William Harmon",
+                    "children": [
+                      {
+                        "id": 10540,
+                        "name": "Job Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 8861,
+                        "name": "Eunice Hester Miller",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10554,
+                "name": "Patience Harmon",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 10540,
+            "name": "Job Harmon",
+            "children": [
+              {
+                "id": 2098,
+                "name": "Edward Harmon",
+                "children": [
+                  {
+                    "id": 8862,
+                    "name": "William Harmon",
+                    "children": [
+                      {
+                        "id": 10540,
+                        "name": "Job Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 8861,
+                        "name": "Eunice Hester Miller",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8862,
+                    "name": "William Harmon",
+                    "children": [
+                      {
+                        "id": 10540,
+                        "name": "Job Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 8861,
+                        "name": "Eunice Hester Miller",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               },

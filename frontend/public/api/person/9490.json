@@ -100,6 +100,22 @@
       "certainty": "confirmed",
       "rel_id": 8990,
       "rel_name": "Isaiah Johnson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 3722,
+      "rel_name": "Franklin Johnson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8990,
+      "rel_name": "Isaiah Johnson"
     }
   ],
   "photos": [],
@@ -126,6 +142,44 @@
                 "id": 10407,
                 "name": "John Johnson",
                 "children": [
+                  {
+                    "id": 10420,
+                    "name": "Ann W. Johnson",
+                    "children": []
+                  },
+                  {
+                    "id": 10420,
+                    "name": "Ann W. Johnson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8990,
+        "name": "Isaiah Johnson",
+        "children": [
+          {
+            "id": 2366,
+            "name": "William H. Johnson",
+            "children": [
+              {
+                "id": 10420,
+                "name": "Ann W. Johnson",
+                "children": []
+              },
+              {
+                "id": 10407,
+                "name": "John Johnson",
+                "children": [
+                  {
+                    "id": 10420,
+                    "name": "Ann W. Johnson",
+                    "children": []
+                  },
                   {
                     "id": 10420,
                     "name": "Ann W. Johnson",

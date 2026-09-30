@@ -288,7 +288,7 @@ export default function ObituaryViewer({ onSelectPerson }) {
               {selectedObit.full_text}
             </div>
 
-            {selectedObit.source_url && !selectedObit.source_url.includes('lynncjackson') && !selectedObit.source_url.includes('mitsawokett') && !selectedObit.source_url.includes('nativeamericansofdelawarestate') ? (
+            {selectedObit.source_url && !selectedObit.source_url.includes('lynncjackson') ? (
               <a
                 href={selectedObit.source_url}
                 target="_blank"

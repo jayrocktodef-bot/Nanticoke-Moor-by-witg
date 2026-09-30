@@ -65,6 +65,14 @@
       "certainty": "confirmed",
       "rel_id": 11137,
       "rel_name": "Abraham Ingram"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9111,
+      "rel_name": "Rachel Harmon"
     }
   ],
   "photos": [],
@@ -77,6 +85,22 @@
       {
         "id": 11137,
         "name": "Abraham Ingram",
+        "children": [
+          {
+            "id": 11137,
+            "name": "Abraham Ingram",
+            "children": []
+          },
+          {
+            "id": 9111,
+            "name": "Rachel Harmon",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 9111,
+        "name": "Rachel Harmon",
         "children": []
       }
     ]

@@ -111,6 +111,14 @@
       "certainty": "census_confirmed",
       "rel_id": 8147,
       "rel_name": "Martha E Thompson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8146,
+      "rel_name": "Phoebe Thompson"
     }
   ],
   "photos": [
@@ -241,6 +249,22 @@
                         "children": []
                       }
                     ]
+                  },
+                  {
+                    "id": 9520,
+                    "name": "Charles Jackson",
+                    "children": [
+                      {
+                        "id": 9564,
+                        "name": "Robert Jackson",
+                        "children": []
+                      },
+                      {
+                        "id": 6480,
+                        "name": "Mary Jackson",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               },
@@ -277,6 +301,44 @@
                       {
                         "id": 10539,
                         "name": "Samuel Roland Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 9520,
+                "name": "Charles Jackson",
+                "children": [
+                  {
+                    "id": 9564,
+                    "name": "Robert Jackson",
+                    "children": [
+                      {
+                        "id": 10725,
+                        "name": "Samuel Jackson",
+                        "children": []
+                      },
+                      {
+                        "id": 11663,
+                        "name": "Agnes Jackson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 6480,
+                    "name": "Mary Jackson",
+                    "children": [
+                      {
+                        "id": 9519,
+                        "name": "Harry Jackson",
+                        "children": []
+                      },
+                      {
+                        "id": 490,
+                        "name": "Elizabeth Jackson",
                         "children": []
                       }
                     ]

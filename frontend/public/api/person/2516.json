@@ -84,6 +84,14 @@
       "certainty": "confirmed",
       "rel_id": 8571,
       "rel_name": "Francis E. Frank Morris"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11120,
+      "rel_name": "Hester Jemima Carmean"
     }
   ],
   "photos": [],
@@ -129,6 +137,27 @@
                         "id": 8684,
                         "name": "Priscilla Miller",
                         "children": []
+                      },
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8687,
+                    "name": "Benjamin Wright",
+                    "children": [
+                      {
+                        "id": 8684,
+                        "name": "Priscilla Miller",
+                        "children": []
+                      },
+                      {
+                        "id": 8616,
+                        "name": "Stephen Wright",
+                        "children": []
                       }
                     ]
                   }
@@ -153,10 +182,42 @@
                         "children": []
                       }
                     ]
+                  },
+                  {
+                    "id": 9188,
+                    "name": "Ebenezer Miller",
+                    "children": [
+                      {
+                        "id": 9190,
+                        "name": "Ebenezer Miller Sr",
+                        "children": []
+                      },
+                      {
+                        "id": 9191,
+                        "name": "Sarah Collier Miller",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               }
             ]
+          }
+        ]
+      },
+      {
+        "id": 11120,
+        "name": "Hester Jemima Carmean",
+        "children": [
+          {
+            "id": 11155,
+            "name": "Nathaniel Carmean",
+            "children": []
+          },
+          {
+            "id": 11121,
+            "name": "Hettie Carmean",
+            "children": []
           }
         ]
       }

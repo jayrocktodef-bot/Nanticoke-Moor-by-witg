@@ -157,6 +157,22 @@
       "certainty": "confirmed",
       "rel_id": 10406,
       "rel_name": "Robert Johnson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 10280,
+      "rel_name": "Burton H Johnson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 10406,
+      "rel_name": "Robert Johnson"
     }
   ],
   "photos": [],
@@ -174,6 +190,65 @@
             "id": 10407,
             "name": "John Johnson",
             "children": [
+              {
+                "id": 10420,
+                "name": "Ann W. Johnson",
+                "children": []
+              },
+              {
+                "id": 10420,
+                "name": "Ann W. Johnson",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 10407,
+            "name": "John Johnson",
+            "children": [
+              {
+                "id": 10420,
+                "name": "Ann W. Johnson",
+                "children": []
+              },
+              {
+                "id": 10420,
+                "name": "Ann W. Johnson",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10406,
+        "name": "Robert Johnson",
+        "children": [
+          {
+            "id": 10407,
+            "name": "John Johnson",
+            "children": [
+              {
+                "id": 10420,
+                "name": "Ann W. Johnson",
+                "children": []
+              },
+              {
+                "id": 10420,
+                "name": "Ann W. Johnson",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 10407,
+            "name": "John Johnson",
+            "children": [
+              {
+                "id": 10420,
+                "name": "Ann W. Johnson",
+                "children": []
+              },
               {
                 "id": 10420,
                 "name": "Ann W. Johnson",

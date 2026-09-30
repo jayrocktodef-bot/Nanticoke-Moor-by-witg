@@ -160,6 +160,14 @@
       "certainty": "census_confirmed",
       "rel_id": 10624,
       "rel_name": "Eliza Mosley"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 10624,
+      "rel_name": "Eliza Mosley"
     }
   ],
   "photos": [],
@@ -169,6 +177,11 @@
     "id": 10629,
     "name": "Alfred Mosley",
     "children": [
+      {
+        "id": 10624,
+        "name": "Eliza Mosley",
+        "children": []
+      },
       {
         "id": 10624,
         "name": "Eliza Mosley",

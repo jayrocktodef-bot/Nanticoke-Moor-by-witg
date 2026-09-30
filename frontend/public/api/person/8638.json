@@ -132,6 +132,46 @@
       "certainty": "confirmed",
       "rel_id": 8680,
       "rel_name": "Jerry Street"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8848,
+      "rel_name": "Isaac James Thompson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8850,
+      "rel_name": "Ellender Thompson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8849,
+      "rel_name": "Hazel Thompson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8679,
+      "rel_name": "John W Thompson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 7502,
+      "rel_name": "Jeremiah Street"
     }
   ],
   "photos": [],
@@ -144,6 +184,17 @@
       {
         "id": 8680,
         "name": "Jerry Street",
+        "children": [
+          {
+            "id": 9510,
+            "name": "David Street",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 7502,
+        "name": "Jeremiah Street",
         "children": [
           {
             "id": 9510,

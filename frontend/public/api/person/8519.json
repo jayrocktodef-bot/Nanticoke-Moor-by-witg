@@ -124,6 +124,70 @@
       "certainty": "confirmed",
       "rel_id": 8157,
       "rel_name": "George Davis"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8519,
+      "rel_name": "JAMES Davis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8519,
+      "rel_name": "JAMES Davis"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8521,
+      "rel_name": "JOHANNA Davis"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8522,
+      "rel_name": "JOSHUA Davis"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8523,
+      "rel_name": "HENRY MORRIS Davis"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8524,
+      "rel_name": "CYNTHIA Davis"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8525,
+      "rel_name": "JOHN Davis"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8157,
+      "rel_name": "George Davis"
     }
   ],
   "photos": [
@@ -259,6 +323,12 @@
   "ancestry": {
     "id": 8519,
     "name": "JAMES Davis",
-    "children": []
+    "children": [
+      {
+        "id": 8519,
+        "name": "JAMES Davis",
+        "children": []
+      }
+    ]
   }
 }

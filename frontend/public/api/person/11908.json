@@ -1,0 +1,90 @@
+{
+  "person": {
+    "person_id": 11908,
+    "name": "Mabel Moore",
+    "first_name": "Mabel",
+    "middle_name": "",
+    "maiden_name": null,
+    "married_last_name": "Moore",
+    "evidence_level": 1,
+    "source_page": null,
+    "birth_info": "abt 1908 Pennsylvania",
+    "death_info": "1953",
+    "notes": "Preserved Delmarva Moore lineage from Davis Family Tree GEDCOM",
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1908 Pennsylvania",
+    "birth_place": null,
+    "death_date": "1953",
+    "death_place": null
+  },
+  "facts": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11890,
+      "rel_name": "Aldridge J Moore"
+    }
+  ],
+  "photos": [],
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11908,
+    "name": "Mabel Moore",
+    "children": [
+      {
+        "id": 11890,
+        "name": "Aldridge J Moore",
+        "children": [
+          {
+            "id": 11893,
+            "name": "Benjamin Thomas Moore",
+            "children": [
+              {
+                "id": 11923,
+                "name": "Charles W Moore",
+                "children": [
+                  {
+                    "id": 11931,
+                    "name": "Josiah F Moore",
+                    "children": [
+                      {
+                        "id": 11946,
+                        "name": "MOMMA MOORE",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 11917,
+                    "name": "Nurmala Moore",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 11892,
+                "name": "Charles Moore",
+                "children": [
+                  {
+                    "id": 11917,
+                    "name": "Nurmala Moore",
+                    "children": []
+                  },
+                  {
+                    "id": 11947,
+                    "name": "unknown slave man Moore",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

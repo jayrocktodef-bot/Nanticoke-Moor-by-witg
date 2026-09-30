@@ -92,6 +92,14 @@
       "certainty": "confirmed",
       "rel_id": 9165,
       "rel_name": "Sarah A Thompson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8679,
+      "rel_name": "John W Thompson"
     }
   ],
   "photos": [],
@@ -128,6 +136,17 @@
               {
                 "id": 8680,
                 "name": "Jerry Street",
+                "children": [
+                  {
+                    "id": 9510,
+                    "name": "David Street",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 7502,
+                "name": "Jeremiah Street",
                 "children": [
                   {
                     "id": 9510,

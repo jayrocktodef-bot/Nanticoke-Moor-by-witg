@@ -1,0 +1,122 @@
+{
+  "person": {
+    "person_id": 11928,
+    "name": "Henry Alfred Moore",
+    "first_name": "Henry",
+    "middle_name": "Alfred",
+    "maiden_name": null,
+    "married_last_name": "Moore",
+    "evidence_level": 1,
+    "source_page": null,
+    "birth_info": "8 Mar 1918 Waterloo, Fauquier, Virginia",
+    "death_info": "24 Nov 2004 Marshall, Fauquier, Virginia, USA",
+    "notes": "Preserved Delmarva Moore lineage from Davis Family Tree GEDCOM",
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "8 Mar 1918 Waterloo, Fauquier, Virginia",
+    "birth_place": null,
+    "death_date": "24 Nov 2004 Marshall, Fauquier, Virginia, USA",
+    "death_place": null
+  },
+  "facts": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11927,
+      "rel_name": "Carroll Moore"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11945,
+      "rel_name": "Mary Moore"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11959,
+      "rel_name": "Robert Moore"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11958,
+      "rel_name": "Celeste Moore"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11901,
+      "rel_name": "Henry Moore"
+    }
+  ],
+  "photos": [],
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11928,
+    "name": "Henry Alfred Moore",
+    "children": [
+      {
+        "id": 11927,
+        "name": "Carroll Moore",
+        "children": [
+          {
+            "id": 11912,
+            "name": "William H Moore",
+            "children": [
+              {
+                "id": 11923,
+                "name": "Charles W Moore",
+                "children": [
+                  {
+                    "id": 11931,
+                    "name": "Josiah F Moore",
+                    "children": [
+                      {
+                        "id": 11946,
+                        "name": "MOMMA MOORE",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 11917,
+                    "name": "Nurmala Moore",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 11892,
+                "name": "Charles Moore",
+                "children": [
+                  {
+                    "id": 11917,
+                    "name": "Nurmala Moore",
+                    "children": []
+                  },
+                  {
+                    "id": 11947,
+                    "name": "unknown slave man Moore",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -84,6 +84,14 @@
       "certainty": "confirmed",
       "rel_id": 8214,
       "rel_name": "Josiah Pierce"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8214,
+      "rel_name": "Josiah Pierce"
     }
   ],
   "photos": [],
@@ -93,6 +101,11 @@
     "id": 8215,
     "name": "Leprum Pierce",
     "children": [
+      {
+        "id": 8214,
+        "name": "Josiah Pierce",
+        "children": []
+      },
       {
         "id": 8214,
         "name": "Josiah Pierce",

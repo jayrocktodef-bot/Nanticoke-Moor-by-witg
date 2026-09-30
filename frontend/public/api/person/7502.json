@@ -57,7 +57,24 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8638,
+      "rel_name": "Melisa Molly Street"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9510,
+      "rel_name": "David Street"
+    }
+  ],
   "photos": [
     {
       "person_id": 7502,
@@ -94,6 +111,12 @@
   "ancestry": {
     "id": 7502,
     "name": "Jeremiah Street",
-    "children": []
+    "children": [
+      {
+        "id": 9510,
+        "name": "David Street",
+        "children": []
+      }
+    ]
   }
 }

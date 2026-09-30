@@ -191,12 +191,10 @@ export default function SplashScreen({ onEnter }) {
                   <ul className="text-[#A8A096] text-xs sm:text-sm space-y-2.5">
                     {[
                       {
-                        title: 'Lynn C. Jackson Family Research',
-                        desc: 'Preserved Delmarva family lineages, census extractions, and ancestor dossiers (preserved locally in digital archive).'
-                      },
-                      {
                         title: 'Mitsawokett Archives',
-                        desc: 'Foundational historical records, survey collections, and lineage data.'
+                        desc: 'Foundational historical records, survey collections, and lineage data.',
+                        url: 'https://web.archive.org/web/20160403/https://nativeamericansofdelawarestate.com',
+                        label: 'Mitsawokett Archive'
                       },
                       {
                         title: 'Find A Grave',
@@ -232,7 +230,7 @@ export default function SplashScreen({ onEnter }) {
                   {expandedSources && (
                     <div className="mt-3 pt-3 border-t border-[#2D2722] text-xs text-[#C5BCB2] space-y-2 animate-fade-in">
                       <p className="leading-relaxed">
-                        <strong className="text-[#D4A373]">Primary Lineage Repositories:</strong> Preserved Lynn C. Jackson Family Archive, Mitsawokett Delaware Native Archive, and The Moors of Delaware Database.
+                        <strong className="text-[#D4A373]">Primary Lineage Repositories:</strong> Mitsawokett Delaware Native Archive and The Moors of Delaware Database.
                       </p>
                       <p className="leading-relaxed">
                         <strong className="text-[#D4A373]">Institutional Repositories:</strong> Smithsonian National Museum of the American Indian (NMAI) Frank G. Speck Collections, Delaware Public Archives, and Salem County Historical Society.

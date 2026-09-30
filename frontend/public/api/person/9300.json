@@ -211,6 +211,38 @@
       "certainty": "confirmed",
       "rel_id": 9408,
       "rel_name": "George W Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9301,
+      "rel_name": "Otis Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9302,
+      "rel_name": "Enoch Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9298,
+      "rel_name": "Oscar Edward Harmon Sr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9408,
+      "rel_name": "George W Harmon"
     }
   ],
   "photos": [
@@ -257,6 +289,11 @@
     "id": 9300,
     "name": "James Harmon",
     "children": [
+      {
+        "id": 9408,
+        "name": "George W Harmon",
+        "children": []
+      },
       {
         "id": 9408,
         "name": "George W Harmon",

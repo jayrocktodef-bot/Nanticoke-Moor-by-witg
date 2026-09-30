@@ -84,6 +84,14 @@
       "certainty": "confirmed",
       "rel_id": 9523,
       "rel_name": "George Thomas"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9523,
+      "rel_name": "George Thomas"
     }
   ],
   "photos": [],
@@ -93,6 +101,11 @@
     "id": 9898,
     "name": "Chester R Thomas",
     "children": [
+      {
+        "id": 9523,
+        "name": "George Thomas",
+        "children": []
+      },
       {
         "id": 9523,
         "name": "George Thomas",

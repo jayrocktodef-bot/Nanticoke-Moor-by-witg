@@ -76,13 +76,61 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11144,
+      "rel_name": "Jerry Ingram"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11164,
     "name": "Harris A Ingram",
-    "children": []
+    "children": [
+      {
+        "id": 11144,
+        "name": "Jerry Ingram",
+        "children": [
+          {
+            "id": 11138,
+            "name": "Harry Ingram",
+            "children": [
+              {
+                "id": 11137,
+                "name": "Abraham Ingram",
+                "children": [
+                  {
+                    "id": 11137,
+                    "name": "Abraham Ingram",
+                    "children": []
+                  },
+                  {
+                    "id": 9111,
+                    "name": "Rachel Harmon",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 9111,
+                "name": "Rachel Harmon",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 11143,
+            "name": "Emma A. Ingram",
+            "children": []
+          }
+        ]
+      }
+    ]
   }
 }

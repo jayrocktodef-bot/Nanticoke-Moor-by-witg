@@ -235,6 +235,14 @@
       "certainty": "census_confirmed",
       "rel_id": 4574,
       "rel_name": "Alonzo Davis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8519,
+      "rel_name": "JAMES Davis"
     }
   ],
   "photos": [
@@ -464,7 +472,13 @@
       {
         "id": 8519,
         "name": "JAMES Davis",
-        "children": []
+        "children": [
+          {
+            "id": 8519,
+            "name": "JAMES Davis",
+            "children": []
+          }
+        ]
       },
       {
         "id": 8185,
@@ -491,6 +505,11 @@
                         "id": 8687,
                         "name": "Benjamin Wright",
                         "children": []
+                      },
+                      {
+                        "id": 8687,
+                        "name": "Benjamin Wright",
+                        "children": []
                       }
                     ]
                   },
@@ -498,6 +517,11 @@
                     "id": 8684,
                     "name": "Priscilla Miller",
                     "children": [
+                      {
+                        "id": 9188,
+                        "name": "Ebenezer Miller",
+                        "children": []
+                      },
                       {
                         "id": 9188,
                         "name": "Ebenezer Miller",

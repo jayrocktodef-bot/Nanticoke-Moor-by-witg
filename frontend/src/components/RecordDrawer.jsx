@@ -40,7 +40,7 @@ export default function RecordDrawer({ record, onClose }) {
         {/* Drawer Content */}
         <div className="flex-1 overflow-y-auto p-6 space-y-6 custom-scrollbar">
           {/* Archival Provenance / Citation */}
-          {record.wayback_url && !record.wayback_url.includes('lynncjackson') && !record.wayback_url.includes('mitsawokett') && !record.wayback_url.includes('nativeamericansofdelawarestate') ? (
+          {record.wayback_url && !record.wayback_url.includes('lynncjackson') ? (
             <div className="bg-slate-800/60 border border-slate-700/50 rounded-lg p-4 flex items-center justify-between text-xs">
               <div className="text-slate-300">
                 <span className="text-slate-400 block">External Archive Citation:</span>

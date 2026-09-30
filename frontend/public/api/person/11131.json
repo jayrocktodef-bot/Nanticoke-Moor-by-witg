@@ -84,6 +84,14 @@
       "certainty": "confirmed",
       "rel_id": 11129,
       "rel_name": "Vivian Turner"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11040,
+      "rel_name": "Dale D Turner"
     }
   ],
   "photos": [],
@@ -97,6 +105,106 @@
         "id": 11129,
         "name": "Vivian Turner",
         "children": []
+      },
+      {
+        "id": 11040,
+        "name": "Dale D Turner",
+        "children": [
+          {
+            "id": 11039,
+            "name": "Charles Ambrose Turner",
+            "children": [
+              {
+                "id": 11061,
+                "name": "Ambrose Turner",
+                "children": [
+                  {
+                    "id": 11158,
+                    "name": "Daniel Turner",
+                    "children": [
+                      {
+                        "id": 11039,
+                        "name": "Charles Ambrose Turner",
+                        "children": []
+                      },
+                      {
+                        "id": 11158,
+                        "name": "Daniel Turner",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8875,
+            "name": "Edith Marie Thompson",
+            "children": [
+              {
+                "id": 9097,
+                "name": "Samuel L. Thompson",
+                "children": [
+                  {
+                    "id": 8381,
+                    "name": "James W Thompson",
+                    "children": [
+                      {
+                        "id": 9109,
+                        "name": "Robert Thompson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8382,
+                    "name": "Mary C Thompson",
+                    "children": [
+                      {
+                        "id": 8606,
+                        "name": "Richard Dickerson",
+                        "children": []
+                      },
+                      {
+                        "id": 9071,
+                        "name": "Minnie Dickerson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8147,
+                "name": "Martha E Thompson",
+                "children": [
+                  {
+                    "id": 9519,
+                    "name": "Harry Jackson",
+                    "children": [
+                      {
+                        "id": 9149,
+                        "name": "Mary A. Jackson",
+                        "children": []
+                      },
+                      {
+                        "id": 9520,
+                        "name": "Charles Jackson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 490,
+                    "name": "Elizabeth Jackson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   }

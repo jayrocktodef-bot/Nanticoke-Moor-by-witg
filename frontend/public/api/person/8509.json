@@ -128,6 +128,22 @@
       "certainty": "confirmed",
       "rel_id": 3685,
       "rel_name": "Alonzo Durham"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11120,
+      "rel_name": "Hester Jemima Carmean"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 4624,
+      "rel_name": "Edward Morris"
     }
   ],
   "photos": [],
@@ -159,6 +175,23 @@
   "ancestry": {
     "id": 8509,
     "name": "John Morris",
-    "children": []
+    "children": [
+      {
+        "id": 11120,
+        "name": "Hester Jemima Carmean",
+        "children": [
+          {
+            "id": 11155,
+            "name": "Nathaniel Carmean",
+            "children": []
+          },
+          {
+            "id": 11121,
+            "name": "Hettie Carmean",
+            "children": []
+          }
+        ]
+      }
+    ]
   }
 }

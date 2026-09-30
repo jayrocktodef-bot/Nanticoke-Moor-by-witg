@@ -119,6 +119,30 @@
       "certainty": "confirmed",
       "rel_id": 8509,
       "rel_name": "John Morris"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 2492,
+      "rel_name": "Nathaniel Clark"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9986,
+      "rel_name": "Eunice Clark"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 4624,
+      "rel_name": "Edward Morris"
     }
   ],
   "photos": [
@@ -217,6 +241,11 @@
         "id": 9986,
         "name": "Eunice Clark",
         "children": [
+          {
+            "id": 9987,
+            "name": "John Ridgeway",
+            "children": []
+          },
           {
             "id": 9987,
             "name": "John Ridgeway",

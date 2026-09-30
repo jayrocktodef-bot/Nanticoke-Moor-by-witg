@@ -84,6 +84,14 @@
       "certainty": "confirmed",
       "rel_id": 8182,
       "rel_name": "Delphine Mae Davis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8182,
+      "rel_name": "Delphine Mae Davis"
     }
   ],
   "photos": [],
@@ -104,7 +112,13 @@
               {
                 "id": 8519,
                 "name": "JAMES Davis",
-                "children": []
+                "children": [
+                  {
+                    "id": 8519,
+                    "name": "JAMES Davis",
+                    "children": []
+                  }
+                ]
               },
               {
                 "id": 8185,
@@ -183,6 +197,127 @@
                       {
                         "id": 9149,
                         "name": "Mary A. Jackson",
+                        "children": []
+                      },
+                      {
+                        "id": 9520,
+                        "name": "Charles Jackson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 490,
+                    "name": "Elizabeth Jackson",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8182,
+        "name": "Delphine Mae Davis",
+        "children": [
+          {
+            "id": 8157,
+            "name": "George Davis",
+            "children": [
+              {
+                "id": 8519,
+                "name": "JAMES Davis",
+                "children": [
+                  {
+                    "id": 8519,
+                    "name": "JAMES Davis",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 8185,
+                "name": "Hester A. Morris Davis",
+                "children": [
+                  {
+                    "id": 8571,
+                    "name": "Francis E. Frank Morris",
+                    "children": [
+                      {
+                        "id": 8617,
+                        "name": "Negro Morris Thomas",
+                        "children": []
+                      },
+                      {
+                        "id": 8910,
+                        "name": "Leticia Morris",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 11246,
+                    "name": "Francis E. Morris",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8863,
+            "name": "Pearl Mae Thompson",
+            "children": [
+              {
+                "id": 9097,
+                "name": "Samuel L. Thompson",
+                "children": [
+                  {
+                    "id": 8381,
+                    "name": "James W Thompson",
+                    "children": [
+                      {
+                        "id": 9109,
+                        "name": "Robert Thompson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8382,
+                    "name": "Mary C Thompson",
+                    "children": [
+                      {
+                        "id": 8606,
+                        "name": "Richard Dickerson",
+                        "children": []
+                      },
+                      {
+                        "id": 9071,
+                        "name": "Minnie Dickerson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8147,
+                "name": "Martha E Thompson",
+                "children": [
+                  {
+                    "id": 9519,
+                    "name": "Harry Jackson",
+                    "children": [
+                      {
+                        "id": 9149,
+                        "name": "Mary A. Jackson",
+                        "children": []
+                      },
+                      {
+                        "id": 9520,
+                        "name": "Charles Jackson",
                         "children": []
                       }
                     ]

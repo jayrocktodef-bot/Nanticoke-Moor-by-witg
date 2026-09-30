@@ -116,6 +116,38 @@
       "certainty": "confirmed",
       "rel_id": 11142,
       "rel_name": "Peter Ingram"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9109,
+      "rel_name": "Robert Thompson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11137,
+      "rel_name": "Abraham Ingram"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11137,
+      "rel_name": "Abraham Ingram"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9111,
+      "rel_name": "Rachel Harmon"
     }
   ],
   "photos": [],
@@ -124,6 +156,17 @@
   "ancestry": {
     "id": 11137,
     "name": "Abraham Ingram",
-    "children": []
+    "children": [
+      {
+        "id": 11137,
+        "name": "Abraham Ingram",
+        "children": []
+      },
+      {
+        "id": 9111,
+        "name": "Rachel Harmon",
+        "children": []
+      }
+    ]
   }
 }

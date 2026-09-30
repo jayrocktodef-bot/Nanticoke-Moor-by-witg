@@ -103,6 +103,46 @@
       "certainty": "confirmed",
       "rel_id": 8862,
       "rel_name": "William Harmon"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9519,
+      "rel_name": "Harry Jackson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9669,
+      "rel_name": "Lillie Mae Jackson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9570,
+      "rel_name": "William Joseph Jackson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9565,
+      "rel_name": "Rachel Ann Jackson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8862,
+      "rel_name": "William Harmon"
     }
   ],
   "photos": [
@@ -134,7 +174,102 @@
       {
         "id": 8862,
         "name": "William Harmon",
-        "children": []
+        "children": [
+          {
+            "id": 10540,
+            "name": "Job Harmon",
+            "children": [
+              {
+                "id": 2098,
+                "name": "Edward Harmon",
+                "children": [
+                  {
+                    "id": 8862,
+                    "name": "William Harmon",
+                    "children": []
+                  },
+                  {
+                    "id": 8862,
+                    "name": "William Harmon",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 10554,
+                "name": "Patience Harmon",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8861,
+            "name": "Eunice Hester Miller",
+            "children": [
+              {
+                "id": 11119,
+                "name": "Eunice Carmean",
+                "children": [
+                  {
+                    "id": 11121,
+                    "name": "Hettie Carmean",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8862,
+        "name": "William Harmon",
+        "children": [
+          {
+            "id": 10540,
+            "name": "Job Harmon",
+            "children": [
+              {
+                "id": 2098,
+                "name": "Edward Harmon",
+                "children": [
+                  {
+                    "id": 8862,
+                    "name": "William Harmon",
+                    "children": []
+                  },
+                  {
+                    "id": 8862,
+                    "name": "William Harmon",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 10554,
+                "name": "Patience Harmon",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 8861,
+            "name": "Eunice Hester Miller",
+            "children": [
+              {
+                "id": 11119,
+                "name": "Eunice Carmean",
+                "children": [
+                  {
+                    "id": 11121,
+                    "name": "Hettie Carmean",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   }

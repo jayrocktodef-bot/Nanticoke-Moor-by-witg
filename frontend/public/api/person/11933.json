@@ -1,0 +1,104 @@
+{
+  "person": {
+    "person_id": 11933,
+    "name": "Helen Joyce Moore",
+    "first_name": "Helen",
+    "middle_name": "Joyce",
+    "maiden_name": null,
+    "married_last_name": "Moore",
+    "evidence_level": 1,
+    "source_page": null,
+    "birth_info": "Private",
+    "death_info": "",
+    "notes": "",
+    "dataset_source": "davis_family_gedcom",
+    "birth_date": "abt 1949 Virginia",
+    "birth_place": null,
+    "death_date": null,
+    "death_place": null,
+    "is_living": true
+  },
+  "facts": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9576,
+      "rel_name": "Marris J Reed"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11932,
+      "rel_name": "Gladys Moore"
+    }
+  ],
+  "photos": [],
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11933,
+    "name": "Helen Joyce Moore",
+    "children": [
+      {
+        "id": 9576,
+        "name": "Marris J Reed",
+        "children": []
+      },
+      {
+        "id": 11932,
+        "name": "Gladys Moore",
+        "children": [
+          {
+            "id": 11897,
+            "name": "Emmett C Moore",
+            "children": [
+              {
+                "id": 11893,
+                "name": "Benjamin Thomas Moore",
+                "children": [
+                  {
+                    "id": 11923,
+                    "name": "Charles W Moore",
+                    "children": [
+                      {
+                        "id": 11931,
+                        "name": "Josiah F Moore",
+                        "children": []
+                      },
+                      {
+                        "id": 11917,
+                        "name": "Nurmala Moore",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 11892,
+                    "name": "Charles Moore",
+                    "children": [
+                      {
+                        "id": 11917,
+                        "name": "Nurmala Moore",
+                        "children": []
+                      },
+                      {
+                        "id": 11947,
+                        "name": "unknown slave man Moore",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

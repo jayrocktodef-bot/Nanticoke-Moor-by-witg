@@ -84,6 +84,14 @@
       "certainty": "confirmed",
       "rel_id": 9988,
       "rel_name": "Martha Clark"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9988,
+      "rel_name": "Martha Clark"
     }
   ],
   "photos": [],
@@ -93,6 +101,11 @@
     "id": 10104,
     "name": "MURDERED Clark",
     "children": [
+      {
+        "id": 9988,
+        "name": "Martha Clark",
+        "children": []
+      },
       {
         "id": 9988,
         "name": "Martha Clark",

@@ -84,6 +84,14 @@
       "certainty": "confirmed",
       "rel_id": 4997,
       "rel_name": "William Henry Davis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 4997,
+      "rel_name": "William Henry Davis"
     }
   ],
   "photos": [],
@@ -93,6 +101,34 @@
     "id": 8222,
     "name": "Ferdando E. Davis",
     "children": [
+      {
+        "id": 4997,
+        "name": "William Henry Davis",
+        "children": [
+          {
+            "id": 8613,
+            "name": "Joseph Henry Davis",
+            "children": [
+              {
+                "id": 8629,
+                "name": "Jost Henry Davis",
+                "children": [
+                  {
+                    "id": 8809,
+                    "name": "Ludwig Davis",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 8614,
+                "name": "Katherina Davis",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
       {
         "id": 4997,
         "name": "William Henry Davis",

@@ -208,6 +208,22 @@
       "certainty": "census_confirmed",
       "rel_id": 6647,
       "rel_name": "Raymond Mosley"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9243,
+      "rel_name": "Peter Mosley"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 10388,
+      "rel_name": "Raymond Burton Mosley"
     }
   ],
   "photos": [
@@ -254,6 +270,11 @@
     "id": 9239,
     "name": "Harry Mosley",
     "children": [
+      {
+        "id": 9243,
+        "name": "Peter Mosley",
+        "children": []
+      },
       {
         "id": 9243,
         "name": "Peter Mosley",

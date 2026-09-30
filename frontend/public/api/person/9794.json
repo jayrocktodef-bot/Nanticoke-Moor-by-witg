@@ -92,6 +92,22 @@
       "certainty": "confirmed",
       "rel_id": 9793,
       "rel_name": "Roland Miller"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9795,
+      "rel_name": "Chester D. Miller"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9793,
+      "rel_name": "Roland Miller"
     }
   ],
   "photos": [],
@@ -104,7 +120,36 @@
       {
         "id": 9793,
         "name": "Roland Miller",
-        "children": []
+        "children": [
+          {
+            "id": 11119,
+            "name": "Eunice Carmean",
+            "children": [
+              {
+                "id": 11121,
+                "name": "Hettie Carmean",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9793,
+        "name": "Roland Miller",
+        "children": [
+          {
+            "id": 11119,
+            "name": "Eunice Carmean",
+            "children": [
+              {
+                "id": 11121,
+                "name": "Hettie Carmean",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   }

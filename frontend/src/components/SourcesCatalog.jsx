@@ -8,7 +8,8 @@ export default function SourcesCatalog({ onOpenRecord }) {
   const mainRepositories = [
     {
       name: 'Mitsawokett Delaware Native Archive',
-      isPreservedLocal: true,
+      url: 'https://nativeamericansofdelawarestate.com/MainMenu.html',
+      wayback: 'https://web.archive.org/web/20160403/https://nativeamericansofdelawarestate.com',
       badge: '1,948 Photos • 364 Obituaries • 1,023 Persons',
       color: 'border-emerald-500/40 bg-emerald-500/10 text-emerald-300',
       description: 'Primary repository for Nanticoke & Moor history in Kent & Sussex Counties, Delaware. Features all 28 Photographic Survey tabs, family Bibles, probate wills, and census records.'
@@ -67,7 +68,8 @@ export default function SourcesCatalog({ onOpenRecord }) {
     },
     {
       name: 'Delaware’s Invisible Indians (Heite Consulting Monograph)',
-      isPreservedLocal: true,
+      url: 'https://nativeamericansofdelawarestate.com/HeiteReport1.htm',
+      wayback: 'https://web.archive.org/web/20160403/https://nativeamericansofdelawarestate.com/HeiteReport1.htm',
       localRecord: 'HeiteReport1.htm',
       badge: '17th–18th C. Archaeological & Deed Survey',
       color: 'border-purple-500/40 bg-purple-500/10 text-purple-300',

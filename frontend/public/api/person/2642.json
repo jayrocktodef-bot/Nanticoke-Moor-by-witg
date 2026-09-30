@@ -57,7 +57,48 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9507,
+      "rel_name": "Mary Johnson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9254,
+      "rel_name": "Annie V. Thompson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9410,
+      "rel_name": "John Wesley Thompson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8377,
+      "rel_name": "Sarah E Thompson"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8376,
+      "rel_name": "Emeline Thompson"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [
@@ -75,6 +116,177 @@
   "ancestry": {
     "id": 2642,
     "name": "Mary Hanzer",
-    "children": []
+    "children": [
+      {
+        "id": 9507,
+        "name": "Mary Johnson",
+        "children": [
+          {
+            "id": 10280,
+            "name": "Burton H Johnson",
+            "children": [
+              {
+                "id": 10404,
+                "name": "Nancy E Clark Johnson",
+                "children": [
+                  {
+                    "id": 9000,
+                    "name": "Elizabeth Clark",
+                    "children": [
+                      {
+                        "id": 9350,
+                        "name": "Levin Clark",
+                        "children": []
+                      },
+                      {
+                        "id": 8998,
+                        "name": "George E Clark",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9000,
+                    "name": "Elizabeth Clark",
+                    "children": [
+                      {
+                        "id": 9350,
+                        "name": "Levin Clark",
+                        "children": []
+                      },
+                      {
+                        "id": 8998,
+                        "name": "George E Clark",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10405,
+                "name": "Robert B Johnson",
+                "children": [
+                  {
+                    "id": 10406,
+                    "name": "Robert Johnson",
+                    "children": [
+                      {
+                        "id": 10407,
+                        "name": "John Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 10407,
+                        "name": "John Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10406,
+                    "name": "Robert Johnson",
+                    "children": [
+                      {
+                        "id": 10407,
+                        "name": "John Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 10407,
+                        "name": "John Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10280,
+            "name": "Burton H Johnson",
+            "children": [
+              {
+                "id": 10404,
+                "name": "Nancy E Clark Johnson",
+                "children": [
+                  {
+                    "id": 9000,
+                    "name": "Elizabeth Clark",
+                    "children": [
+                      {
+                        "id": 9350,
+                        "name": "Levin Clark",
+                        "children": []
+                      },
+                      {
+                        "id": 8998,
+                        "name": "George E Clark",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9000,
+                    "name": "Elizabeth Clark",
+                    "children": [
+                      {
+                        "id": 9350,
+                        "name": "Levin Clark",
+                        "children": []
+                      },
+                      {
+                        "id": 8998,
+                        "name": "George E Clark",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 10405,
+                "name": "Robert B Johnson",
+                "children": [
+                  {
+                    "id": 10406,
+                    "name": "Robert Johnson",
+                    "children": [
+                      {
+                        "id": 10407,
+                        "name": "John Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 10407,
+                        "name": "John Johnson",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 10406,
+                    "name": "Robert Johnson",
+                    "children": [
+                      {
+                        "id": 10407,
+                        "name": "John Johnson",
+                        "children": []
+                      },
+                      {
+                        "id": 10407,
+                        "name": "John Johnson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

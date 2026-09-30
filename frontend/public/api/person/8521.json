@@ -84,6 +84,14 @@
       "certainty": "confirmed",
       "rel_id": 8519,
       "rel_name": "JAMES Davis"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8519,
+      "rel_name": "JAMES Davis"
     }
   ],
   "photos": [],
@@ -96,7 +104,24 @@
       {
         "id": 8519,
         "name": "JAMES Davis",
-        "children": []
+        "children": [
+          {
+            "id": 8519,
+            "name": "JAMES Davis",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 8519,
+        "name": "JAMES Davis",
+        "children": [
+          {
+            "id": 8519,
+            "name": "JAMES Davis",
+            "children": []
+          }
+        ]
       }
     ]
   }

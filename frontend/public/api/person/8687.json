@@ -92,6 +92,30 @@
       "certainty": "confirmed",
       "rel_id": 8684,
       "rel_name": "Priscilla Miller"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8616,
+      "rel_name": "Stephen Wright"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8616,
+      "rel_name": "Stephen Wright"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8684,
+      "rel_name": "Priscilla Miller"
     }
   ],
   "photos": [],
@@ -131,6 +155,49 @@
                 "children": []
               }
             ]
+          },
+          {
+            "id": 9188,
+            "name": "Ebenezer Miller",
+            "children": [
+              {
+                "id": 9190,
+                "name": "Ebenezer Miller Sr",
+                "children": [
+                  {
+                    "id": 9192,
+                    "name": "Joseph Miller Sr",
+                    "children": []
+                  },
+                  {
+                    "id": 9193,
+                    "name": "Rebekah Johnson",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 9191,
+                "name": "Sarah Collier Miller",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8616,
+        "name": "Stephen Wright",
+        "children": [
+          {
+            "id": 8687,
+            "name": "Benjamin Wright",
+            "children": []
+          },
+          {
+            "id": 8687,
+            "name": "Benjamin Wright",
+            "children": []
           }
         ]
       }

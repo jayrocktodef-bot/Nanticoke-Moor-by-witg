@@ -76,13 +76,51 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11039,
+      "rel_name": "Charles Ambrose Turner"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11243,
     "name": "Gertrude Turner",
-    "children": []
+    "children": [
+      {
+        "id": 11039,
+        "name": "Charles Ambrose Turner",
+        "children": [
+          {
+            "id": 11061,
+            "name": "Ambrose Turner",
+            "children": [
+              {
+                "id": 11158,
+                "name": "Daniel Turner",
+                "children": [
+                  {
+                    "id": 11039,
+                    "name": "Charles Ambrose Turner",
+                    "children": []
+                  },
+                  {
+                    "id": 11158,
+                    "name": "Daniel Turner",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

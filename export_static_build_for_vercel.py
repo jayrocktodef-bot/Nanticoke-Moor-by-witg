@@ -112,77 +112,104 @@ def export_all():
 
     print("Step 2: Exporting /api/surnames.json...")
     # Canonical Delmarva & Nanticoke Protected Surnames
+    # Empty ethnographic stubs replaced with fully populated core Delmarva families
     key_surnames = [
-        "Bantum", "Bookram", "Butcher", "Carmean", "Carney", "Clark", "Coker", "Conaway",
-        "Copes", "Cordrey", "Cork", "Cottman", "Counselor", "Cremeen", "Davis", "Dean",
-        "Dickerson", "Durham", "Francisco", "Goldsborough", "Green", "Handsor", "Hanzer",
-        "Harmon", "Hitchens", "Hughes", "Ingram", "Jackson", "Johnson", "Kinyon", "Loatman",
-        "Miller", "Moore", "Morris", "Mosley", "Muncey", "Norwood", "Oakley", "Pierce",
-        "Pinder", "Puckham", "Reed", "Ridgeway", "Sammons", "Sockum", "Street", "Thomas",
-        "Thompson", "Turner", "Wilson", "Wright"
+        "Beckett", "Bookram", "Butcher", "Carmean", "Carney", "Carty", "Clark", "Coker", "Conaway",
+        "Cordrey", "Cork", "Cottman", "Counselor", "Coursey", "Cuff", "Davis", "Dean",
+        "Dickerson", "Driggus", "Durham", "Francisco", "Goldsborough", "Gould", "Green",
+        "Greenage", "Handsor", "Hanzer", "Harmon", "Hitchens", "Hughes", "Ingram", "Jackson",
+        "Johnson", "Loatman", "Miller", "Moore", "Morgan", "Morris", "Mosley", "Muncey",
+        "Norwood", "Oakley", "Pierce", "Puckham", "Reed", "Ridgeway", "Sammons", "Seeney",
+        "Sisco", "Sockum", "Street", "Thomas", "Thompson", "Turner", "Wilson", "Wright"
     ]
-    
+
+    # Pre-fetch all alias mappings from surname_aliases
+    c.execute("SELECT canonical_name, variant_name FROM surname_aliases")
+    alias_map = defaultdict(set)
+    for c_name, v_name in c.fetchall():
+        alias_map[c_name.lower()].add(v_name)
+        alias_map[v_name.lower()].add(c_name)
+
     surnames_data = []
     os.makedirs(os.path.join(API_DIR, 'surnames'), exist_ok=True)
 
     for s in sorted(key_surnames):
-        c.execute("SELECT COUNT(*) FROM persons WHERE name LIKE ?", (f"%{s}%",))
+        # Resolve all aliases and spelling variants for this surname
+        s_variants = {s}
+        for v in alias_map.get(s.lower(), set()):
+            s_variants.add(v)
+
+        # Build dynamic queries covering canonical name and all known variants
+        name_likes = " OR ".join(["p.name LIKE ?" for _ in s_variants] + ["p.maiden_name LIKE ?" for _ in s_variants] + ["p.married_last_name LIKE ?" for _ in s_variants])
+        like_params = [f"%{v}%" for v in s_variants] * 3
+
+        c.execute(f"SELECT COUNT(*) FROM persons p WHERE {name_likes}", like_params)
         p_cnt = c.fetchone()[0]
-        
-        c.execute("""
+
+        # Photo counts across all variants
+        ps_placeholders = ",".join(["LOWER(?)" for _ in s_variants])
+        c.execute(f"""
             SELECT COUNT(DISTINCT ps.photo_id) 
             FROM photo_surnames ps 
-            WHERE LOWER(ps.surname) = LOWER(?)
-        """, (s,))
+            WHERE LOWER(ps.surname) IN ({ps_placeholders})
+        """, [v.lower() for v in s_variants])
         ph_cnt = c.fetchone()[0]
 
         # Category breakdown of photos for this surname
-        c.execute("""
+        c.execute(f"""
             SELECT upc.category, COUNT(DISTINCT upc.photo_id)
             FROM photo_surnames ps
             JOIN unified_photo_catalog upc ON ps.photo_id = upc.photo_id
-            WHERE LOWER(ps.surname) = LOWER(?)
+            WHERE LOWER(ps.surname) IN ({ps_placeholders})
             GROUP BY upc.category
-        """, (s,))
+        """, [v.lower() for v in s_variants])
         cat_counts = dict(c.fetchall())
 
-        c.execute("SELECT COUNT(*) FROM obituaries WHERE deceased_name LIKE ? OR full_text LIKE ?", (f"%{s}%", f"%{s}%"))
+        # Obituaries across all variants
+        obit_likes = " OR ".join(["o.deceased_name LIKE ? OR o.full_text LIKE ?" for _ in s_variants])
+        obit_params = []
+        for v in s_variants:
+            obit_params.extend([f"%{v}%", f"%{v}%"])
+        c.execute(f"SELECT COUNT(*) FROM obituaries o WHERE {obit_likes}", obit_params)
         ob_cnt = c.fetchone()[0]
-        
-        variants = f"{s}s, {s}e"
-        if s == "Sammons":
-            variants = "Salmons, Samons, Sammon, Sammons"
 
-        # Fetch detailed photos for this surname
-        c.execute("""
-            SELECT upc.photo_id, upc.category, upc.normalized_filename, upc.local_image_path,
+        # Pretty-printed variant list for card pills
+        var_list = sorted(list(s_variants))
+        if s in var_list:
+            var_list.remove(s)
+            var_list.insert(0, s)
+        variants = ", ".join(var_list)
+
+        # Fetch detailed photos for this surname and its variants
+        c.execute(f"""
+            SELECT DISTINCT upc.photo_id, upc.category, upc.normalized_filename, upc.local_image_path,
                    upc.subject_names, upc.approximate_year, upc.document_type,
                    upc.primary_person_id as person_id, upc.primary_person_name as person_name
             FROM photo_surnames ps
             JOIN unified_photo_catalog upc ON ps.photo_id = upc.photo_id
-            WHERE LOWER(ps.surname) = LOWER(?)
+            WHERE LOWER(ps.surname) IN ({ps_placeholders})
             ORDER BY upc.category ASC, upc.approximate_year DESC
-        """, (s,))
+        """, [v.lower() for v in s_variants])
         sn_photos = [dict(r) for r in c.fetchall()]
 
-        # Fetch individuals belonging to this surname
-        c.execute("""
-            SELECT p.person_id, p.name, p.first_name, p.middle_name, p.maiden_name,
+        # Fetch individuals belonging to this surname and its variants
+        c.execute(f"""
+            SELECT DISTINCT p.person_id, p.name, p.first_name, p.middle_name, p.maiden_name,
                    p.married_last_name, p.birth_info, p.death_info, p.notes,
                    (SELECT COUNT(*) FROM person_photos pp WHERE pp.person_id = p.person_id) as photo_count
             FROM persons p
-            WHERE p.name LIKE ? OR p.maiden_name LIKE ? OR p.married_last_name LIKE ?
+            WHERE {name_likes}
             ORDER BY p.name ASC
-        """, (f"%{s}%", f"%{s}%", f"%{s}%"))
+        """, like_params)
         sn_individuals = [dict(r) for r in c.fetchall()]
 
-        # Fetch obituaries for this surname
-        c.execute("""
-            SELECT o.id, o.deceased_name, o.age, o.birth_date, o.death_date, o.cemetery_location, o.full_text, o.source_url
+        # Fetch obituaries for this surname and its variants
+        c.execute(f"""
+            SELECT DISTINCT o.id, o.deceased_name, o.age, o.birth_date, o.death_date, o.cemetery_location, o.full_text, o.source_url
             FROM obituaries o
-            WHERE o.deceased_name LIKE ? OR o.full_text LIKE ?
+            WHERE {obit_likes}
             ORDER BY o.deceased_name ASC
-        """, (f"%{s}%", f"%{s}%"))
+        """, obit_params)
         sn_obits = [dict(r) for r in c.fetchall()]
 
         surname_detail = {
@@ -560,10 +587,10 @@ def export_all():
 
         words = len(full_text.split())
         citation = f'"{title}." Historical Document Record ({approx_year}). Preserved in the Nanticoke & Moor Historical Archive (Written in the Genome Collection).'
-        if source_url and not any(d in source_url.lower() for d in ['lynncjackson', 'mitsawokett', 'nativeamericans']):
+        if source_url and 'lynncjackson' not in source_url.lower():
             citation += f' Original source: {source_url}.'
 
-        safe_source_url = None if not source_url or any(d in source_url.lower() for d in ['lynncjackson', 'mitsawokett', 'nativeamericans']) else source_url
+        safe_source_url = None if not source_url or 'lynncjackson' in source_url.lower() else source_url
 
         t_data = {
             "identifier": str(pid),
@@ -638,10 +665,10 @@ def export_all():
 
         words = len(full_text.split())
         citation = f'"{title}." Historical Document Record. Preserved in the Nanticoke & Moor Historical Archive (Written in the Genome Collection).'
-        if source_url and not any(d in source_url.lower() for d in ['lynncjackson', 'mitsawokett', 'nativeamericans']):
+        if source_url and 'lynncjackson' not in source_url.lower():
             citation += f' Original source: {source_url}.'
 
-        safe_page_source_url = None if not source_url or any(d in source_url.lower() for d in ['lynncjackson', 'mitsawokett', 'nativeamericans']) else source_url
+        safe_page_source_url = None if not source_url or 'lynncjackson' in source_url.lower() else source_url
 
         t_data = {
             "identifier": fn,

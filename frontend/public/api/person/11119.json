@@ -76,13 +76,44 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 9793,
+      "rel_name": "Roland Miller"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8861,
+      "rel_name": "Eunice Hester Miller"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 11121,
+      "rel_name": "Hettie Carmean"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [],
   "ancestry": {
     "id": 11119,
     "name": "Eunice Carmean",
-    "children": []
+    "children": [
+      {
+        "id": 11121,
+        "name": "Hettie Carmean",
+        "children": []
+      }
+    ]
   }
 }

@@ -173,6 +173,38 @@
       "certainty": "census_confirmed",
       "rel_id": 10277,
       "rel_name": "Amanda Thompson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8703,
+      "rel_name": "Jeremiah M Thompson Jr"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8832,
+      "rel_name": "Martha E. Pierce"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8840,
+      "rel_name": "Levin Game Thompson"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 8841,
+      "rel_name": "Leah Thompson"
     }
   ],
   "photos": [],
@@ -186,6 +218,94 @@
         "id": 8841,
         "name": "Leah Thompson",
         "children": []
+      },
+      {
+        "id": 8703,
+        "name": "Jeremiah M Thompson Jr",
+        "children": [
+          {
+            "id": 8702,
+            "name": "John Thompson",
+            "children": [
+              {
+                "id": 8701,
+                "name": "Jeremiah Thompson",
+                "children": [
+                  {
+                    "id": 8604,
+                    "name": "Wallace B Thompson",
+                    "children": [
+                      {
+                        "id": 8639,
+                        "name": "Clemmon Thompson",
+                        "children": []
+                      },
+                      {
+                        "id": 8638,
+                        "name": "Melisa Molly Street",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 8640,
+                    "name": "Elizabeth Thompson",
+                    "children": [
+                      {
+                        "id": 8382,
+                        "name": "Mary C Thompson",
+                        "children": []
+                      },
+                      {
+                        "id": 8381,
+                        "name": "James W Thompson",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8375,
+                "name": "Mary A. Thompson",
+                "children": [
+                  {
+                    "id": 9096,
+                    "name": "John C Hanzer",
+                    "children": [
+                      {
+                        "id": 9969,
+                        "name": "Jacob Hanzer Jr",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 9940,
+                    "name": "Sophia J. Hanzer",
+                    "children": [
+                      {
+                        "id": 10122,
+                        "name": "John R. Harmon",
+                        "children": []
+                      },
+                      {
+                        "id": 10123,
+                        "name": "Lavinia Lovinia Sammons",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 8572,
+            "name": "Mary Elizabeth Thompson",
+            "children": []
+          }
+        ]
       }
     ]
   }

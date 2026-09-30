@@ -100,6 +100,14 @@
       "certainty": "confirmed",
       "rel_id": 11058,
       "rel_name": "Pearl H Cordrey"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
+      "certainty": "confirmed",
+      "rel_id": 4997,
+      "rel_name": "William Henry Davis"
     }
   ],
   "photos": [],
@@ -108,6 +116,35 @@
   "ancestry": {
     "id": 11045,
     "name": "Elizabeth Ella Carmean",
-    "children": []
+    "children": [
+      {
+        "id": 4997,
+        "name": "William Henry Davis",
+        "children": [
+          {
+            "id": 8613,
+            "name": "Joseph Henry Davis",
+            "children": [
+              {
+                "id": 8629,
+                "name": "Jost Henry Davis",
+                "children": [
+                  {
+                    "id": 8809,
+                    "name": "Ludwig Davis",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 8614,
+                "name": "Katherina Davis",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
