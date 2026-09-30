@@ -543,7 +543,8 @@ def export_all():
         SELECT photo_id, category, normalized_filename, original_filename,
                local_image_path, subject_names, surname, given_names,
                approximate_year, document_type, dataset_source, source_url,
-               primary_person_id as person_id, primary_person_name as person_name
+               primary_person_id as person_id, primary_person_name as person_name,
+               transcription
         FROM unified_photo_catalog
     """)
     catalog_items = [dict(r) for r in c.fetchall()]
@@ -558,10 +559,10 @@ def export_all():
         surname = doc.get("surname")
         person_id = doc.get("person_id")
         person_name = doc.get("person_name")
-        transcribed_text = None
+        transcribed_text = doc.get("transcription")
         clean_html = None
 
-        if source_url:
+        if not transcribed_text and source_url:
             p = pages_by_url.get(source_url)
             if not p:
                 slug = source_url.split("/")[-1]
