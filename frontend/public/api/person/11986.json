@@ -1,0 +1,145 @@
+{
+  "person": {
+    "person_id": 11986,
+    "name": "Alfred Bookram",
+    "first_name": "Alfred",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Bookram",
+    "evidence_level": 1,
+    "source_page": null,
+    "birth_info": "1833 Granville Co, NC",
+    "death_info": "aft. 1880 Franklin Co, NC",
+    "notes": "Son of Elias Bookram and Chashe Scott. Married Anna Peed in 1852; portrait preserved.",
+    "dataset_source": "nativeamericanroots",
+    "birth_date": "1833 Granville Co, NC",
+    "birth_place": null,
+    "death_date": "aft. 1880 Franklin Co, NC",
+    "death_place": null
+  },
+  "facts": [
+    {
+      "fact_id": 16152,
+      "person_id": 11986,
+      "fact_type": "Marriage",
+      "date_string": "10 Dec 1852",
+      "place_string": "Granville County, North Carolina",
+      "value_string": "Married Anna Peed",
+      "citations": [
+        {
+          "citation_id": 16237,
+          "fact_id": 16152,
+          "source_id": 1269,
+          "evidence_text": "Documented in Kianga Lucas archival monograph on Elias Bookram / Puckham lineage: Married Anna Peed",
+          "source_title": "Native American Roots: Elias Bookram - A Nanticoke Indian from Maryland in Granville County (Kianga Lucas, 2016)",
+          "source_url": "https://nativeamericanroots.wordpress.com/2016/03/01/elias-bookram-a-nanticoke-indian-from-maryland-in-granville-county/",
+          "source_dataset": "nativeamericanroots"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Father of Alfred Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11965,
+      "rel_name": "Elias Bookram"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Mother of Alfred Bookram",
+      "certainty": "confirmed",
+      "rel_id": 1700,
+      "rel_name": "Chashe Scott"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Married 10 Dec 1852 in Granville County, NC",
+      "certainty": "confirmed",
+      "rel_id": 11975,
+      "rel_name": "Anna Peed"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Father of Zibra Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11999,
+      "rel_name": "Zibra Bookram"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Father of Adeline Bookram",
+      "certainty": "confirmed",
+      "rel_id": 12002,
+      "rel_name": "Adeline Bookram"
+    }
+  ],
+  "photos": [
+    {
+      "person_id": 11986,
+      "photo_id": 3644,
+      "category": "people",
+      "title_or_caption": "Alfred Bookram (b. 1833)",
+      "subject_names": "Alfred Bookram",
+      "married_surname": "Bookram",
+      "approximate_year": "c. 1880",
+      "local_image_path": "assets/archive_media/people/alfred-bookram.jpg",
+      "source_url": "https://nativeamericanroots.wordpress.com/2016/03/01/elias-bookram-a-nanticoke-indian-from-maryland-in-granville-county/",
+      "dataset_source": "nativeamericanroots",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "individual_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": null
+    }
+  ],
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11986,
+    "name": "Alfred Bookram",
+    "children": [
+      {
+        "id": 11965,
+        "name": "Elias Bookram",
+        "children": [
+          {
+            "id": 1698,
+            "name": "George Puckham",
+            "children": [
+              {
+                "id": 1696,
+                "name": "John Puckham",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11965,
+        "name": "Elias Bookram",
+        "children": [
+          {
+            "id": 1698,
+            "name": "George Puckham",
+            "children": [
+              {
+                "id": 1696,
+                "name": "John Puckham",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

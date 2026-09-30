@@ -1,0 +1,167 @@
+{
+  "person": {
+    "person_id": 12005,
+    "name": "Alice Bookram",
+    "first_name": "Alice",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Bookram",
+    "evidence_level": 1,
+    "source_page": null,
+    "birth_info": "1864 Franklin Co, NC",
+    "death_info": "1935 Oberlin, Lorain Co, OH",
+    "notes": "Daughter of Solomon Bookram and Sallie Ann Pettiford; relocated to Oberlin, Ohio; portrait preserved.",
+    "dataset_source": "nativeamericanroots",
+    "birth_date": "1864 Franklin Co, NC",
+    "birth_place": null,
+    "death_date": "1935 Oberlin, Lorain Co, OH",
+    "death_place": null
+  },
+  "facts": [
+    {
+      "fact_id": 16153,
+      "person_id": 12005,
+      "fact_type": "Residence",
+      "date_string": "aft. 1880",
+      "place_string": "Oberlin, Lorain County, Ohio",
+      "value_string": "Relocated from NC to Oberlin, OH; buried in Oberlin",
+      "citations": [
+        {
+          "citation_id": 16238,
+          "fact_id": 16153,
+          "source_id": 1269,
+          "evidence_text": "Documented in Kianga Lucas archival monograph on Elias Bookram / Puckham lineage: Relocated from NC to Oberlin, OH; buried in Oberlin",
+          "source_title": "Native American Roots: Elias Bookram - A Nanticoke Indian from Maryland in Granville County (Kianga Lucas, 2016)",
+          "source_url": "https://nativeamericanroots.wordpress.com/2016/03/01/elias-bookram-a-nanticoke-indian-from-maryland-in-granville-county/",
+          "source_dataset": "nativeamericanroots"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Father of Alice Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11988,
+      "rel_name": "Solomon Bookram"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Mother of Alice Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11977,
+      "rel_name": "Sallie Ann Pettiford"
+    }
+  ],
+  "photos": [
+    {
+      "person_id": 12005,
+      "photo_id": 3645,
+      "category": "people",
+      "title_or_caption": "Alice Bookram (1864\u20131935)",
+      "subject_names": "Alice Bookram",
+      "married_surname": "Bookram",
+      "approximate_year": "c. 1900",
+      "local_image_path": "assets/archive_media/people/alice-bookram.jpeg",
+      "source_url": "https://nativeamericanroots.wordpress.com/2016/03/01/elias-bookram-a-nanticoke-indian-from-maryland-in-granville-county/",
+      "dataset_source": "nativeamericanroots",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "individual_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": null
+    }
+  ],
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 12005,
+    "name": "Alice Bookram",
+    "children": [
+      {
+        "id": 11988,
+        "name": "Solomon Bookram",
+        "children": [
+          {
+            "id": 11965,
+            "name": "Elias Bookram",
+            "children": [
+              {
+                "id": 1698,
+                "name": "George Puckham",
+                "children": [
+                  {
+                    "id": 1696,
+                    "name": "John Puckham",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 11965,
+            "name": "Elias Bookram",
+            "children": [
+              {
+                "id": 1698,
+                "name": "George Puckham",
+                "children": [
+                  {
+                    "id": 1696,
+                    "name": "John Puckham",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11988,
+        "name": "Solomon Bookram",
+        "children": [
+          {
+            "id": 11965,
+            "name": "Elias Bookram",
+            "children": [
+              {
+                "id": 1698,
+                "name": "George Puckham",
+                "children": [
+                  {
+                    "id": 1696,
+                    "name": "John Puckham",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 11965,
+            "name": "Elias Bookram",
+            "children": [
+              {
+                "id": 1698,
+                "name": "George Puckham",
+                "children": [
+                  {
+                    "id": 1696,
+                    "name": "John Puckham",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

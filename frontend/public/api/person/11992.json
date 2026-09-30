@@ -1,0 +1,90 @@
+{
+  "person": {
+    "person_id": 11992,
+    "name": "Mary Bookram",
+    "first_name": "Mary",
+    "middle_name": "",
+    "maiden_name": "Bookram",
+    "married_last_name": "Chavis",
+    "evidence_level": 1,
+    "source_page": null,
+    "birth_info": "1843 Granville Co, NC",
+    "death_info": "aft. 1880 Granville Co, NC",
+    "notes": "Daughter of Elias Bookram and Chashe Scott. Married William Foster Chavis in 1862.",
+    "dataset_source": "nativeamericanroots",
+    "birth_date": "1843 Granville Co, NC",
+    "birth_place": null,
+    "death_date": "aft. 1880 Granville Co, NC",
+    "death_place": null
+  },
+  "facts": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Father of Mary Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11965,
+      "rel_name": "Elias Bookram"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Mother of Mary Bookram",
+      "certainty": "confirmed",
+      "rel_id": 1700,
+      "rel_name": "Chashe Scott"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Married 19 Dec 1862 in Granville County, NC",
+      "certainty": "confirmed",
+      "rel_id": 11979,
+      "rel_name": "William Foster Chavis"
+    }
+  ],
+  "photos": [],
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11992,
+    "name": "Mary Bookram",
+    "children": [
+      {
+        "id": 11965,
+        "name": "Elias Bookram",
+        "children": [
+          {
+            "id": 1698,
+            "name": "George Puckham",
+            "children": [
+              {
+                "id": 1696,
+                "name": "John Puckham",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11965,
+        "name": "Elias Bookram",
+        "children": [
+          {
+            "id": 1698,
+            "name": "George Puckham",
+            "children": [
+              {
+                "id": 1696,
+                "name": "John Puckham",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

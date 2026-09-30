@@ -16,11 +16,17 @@ export default defineConfig({
         target: 'http://localhost:8000',
         changeOrigin: true,
         bypass: (req) => {
-          // If the static file exists directly in public/, serve it via Vite static server
           const cleanPath = (req.url || '').split('?')[0];
           const localPath = path.join(process.cwd(), 'public', cleanPath);
           if (fs.existsSync(localPath) && fs.statSync(localPath).isFile()) {
             return req.url;
+          }
+          if (!cleanPath.endsWith('.json')) {
+            const jsonPath = localPath + '.json';
+            if (fs.existsSync(jsonPath) && fs.statSync(jsonPath).isFile()) {
+              req.url = cleanPath + '.json';
+              return req.url;
+            }
           }
         }
       }

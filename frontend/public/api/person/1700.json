@@ -4,17 +4,17 @@
     "name": "Chashe Scott",
     "first_name": "Chashe",
     "middle_name": "",
-    "maiden_name": "",
-    "married_last_name": "Scott",
-    "evidence_level": 3,
+    "maiden_name": "Scott",
+    "married_last_name": "Bookram",
+    "evidence_level": 1,
     "source_page": "census.htm",
-    "birth_info": null,
-    "death_info": null,
-    "notes": "Second spouse of Elias Bookram, married June 24, 1824 in Granville Co, NC | FindAGrave: no match",
-    "dataset_source": "native_american_roots_speck",
-    "birth_date": null,
+    "birth_info": "c. 1805 North Carolina",
+    "death_info": "aft. 1860 Granville County, North Carolina",
+    "notes": "Second wife of Elias Bookram; married 24 Jun 1824 in Granville Co, NC. Enumerated as widow in 1860 Granville County census.",
+    "dataset_source": "nativeamericanroots",
+    "birth_date": "c. 1805 North Carolina",
     "birth_place": null,
-    "death_date": null,
+    "death_date": "aft. 1860 Granville County, North Carolina",
     "death_place": null
   },
   "facts": [
@@ -38,7 +38,96 @@
       ]
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Married 24 Jun 1824 in Granville Co, NC",
+      "certainty": "confirmed",
+      "rel_id": 11965,
+      "rel_name": "Elias Bookram"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Mother of Emaline Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11983,
+      "rel_name": "Emaline Bookram"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Mother of Sally Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11984,
+      "rel_name": "Sally Bookram"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Mother of Dilly Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11985,
+      "rel_name": "Dilly Bookram"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Mother of Alfred Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11986,
+      "rel_name": "Alfred Bookram"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Mother of Betsy Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11987,
+      "rel_name": "Betsy Bookram"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Mother of Solomon Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11988,
+      "rel_name": "Solomon Bookram"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Mother of Nancy Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11989,
+      "rel_name": "Nancy Bookram"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Mother of Rena Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11990,
+      "rel_name": "Rena Bookram"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Mother of Frances Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11991,
+      "rel_name": "Frances Bookram"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Mother of Mary Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11992,
+      "rel_name": "Mary Bookram"
+    }
+  ],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

@@ -1,0 +1,106 @@
+{
+  "person": {
+    "person_id": 11981,
+    "name": "William Bookram",
+    "first_name": "William",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Bookram",
+    "evidence_level": 1,
+    "source_page": null,
+    "birth_info": "1812 Granville Co, NC",
+    "death_info": "aft. 1860 North Carolina",
+    "notes": "Son of Elias Bookram and first wife. Enumerated in 1850 Orange County census.",
+    "dataset_source": "nativeamericanroots",
+    "birth_date": "1812 Granville Co, NC",
+    "birth_place": null,
+    "death_date": "aft. 1860 North Carolina",
+    "death_place": null
+  },
+  "facts": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Elias Bookram father of William Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11965,
+      "rel_name": "Elias Bookram"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Mother of William Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11966,
+      "rel_name": "First Wife of Elias Bookram"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "First marriage recorded in 1850 Orange County census",
+      "certainty": "confirmed",
+      "rel_id": 11969,
+      "rel_name": "Betsy Bookram (Wife of William)"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Married 17 Oct 1852 in Wake County, NC",
+      "certainty": "confirmed",
+      "rel_id": 11968,
+      "rel_name": "Susan Mitchell"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Father of Henry Haywood Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11993,
+      "rel_name": "Henry Haywood Bookram"
+    }
+  ],
+  "photos": [],
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11981,
+    "name": "William Bookram",
+    "children": [
+      {
+        "id": 11965,
+        "name": "Elias Bookram",
+        "children": [
+          {
+            "id": 1698,
+            "name": "George Puckham",
+            "children": [
+              {
+                "id": 1696,
+                "name": "John Puckham",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11965,
+        "name": "Elias Bookram",
+        "children": [
+          {
+            "id": 1698,
+            "name": "George Puckham",
+            "children": [
+              {
+                "id": 1696,
+                "name": "John Puckham",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

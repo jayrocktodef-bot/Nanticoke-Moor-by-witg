@@ -1,0 +1,147 @@
+{
+  "person": {
+    "person_id": 11980,
+    "name": "Walter Bookram",
+    "first_name": "Walter",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Bookram",
+    "evidence_level": 1,
+    "source_page": null,
+    "birth_info": "1810 Granville Co, NC",
+    "death_info": "1893 North Carolina",
+    "notes": "Son of Elias Bookram and first wife. Prominent practical tanner and civic leader; published political letters in The Weekly Era.",
+    "dataset_source": "nativeamericanroots",
+    "birth_date": "1810 Granville Co, NC",
+    "birth_place": null,
+    "death_date": "1893 North Carolina",
+    "death_place": null
+  },
+  "facts": [
+    {
+      "fact_id": 16151,
+      "person_id": 11980,
+      "fact_type": "Occupation",
+      "date_string": "1875",
+      "place_string": "Raleigh, Wake County, North Carolina",
+      "value_string": "Master practical tanner; advertised leather business in The Weekly Era",
+      "citations": [
+        {
+          "citation_id": 16236,
+          "fact_id": 16151,
+          "source_id": 1269,
+          "evidence_text": "Documented in Kianga Lucas archival monograph on Elias Bookram / Puckham lineage: Master practical tanner; advertised leather business in The Weekly Era",
+          "source_title": "Native American Roots: Elias Bookram - A Nanticoke Indian from Maryland in Granville County (Kianga Lucas, 2016)",
+          "source_url": "https://nativeamericanroots.wordpress.com/2016/03/01/elias-bookram-a-nanticoke-indian-from-maryland-in-granville-county/",
+          "source_dataset": "nativeamericanroots"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Elias Bookram father of Walter Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11965,
+      "rel_name": "Elias Bookram"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Mother of Walter Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11966,
+      "rel_name": "First Wife of Elias Bookram"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Married 28 Nov 1841 in Wake County, NC",
+      "certainty": "confirmed",
+      "rel_id": 11967,
+      "rel_name": "Nancy Copeland"
+    }
+  ],
+  "photos": [
+    {
+      "person_id": 11980,
+      "photo_id": 3659,
+      "category": "documents",
+      "title_or_caption": "Letter to the Editor by Walter Bookram: Representation and Public Rights",
+      "subject_names": "Walter Bookram",
+      "married_surname": "Bookram",
+      "approximate_year": "c. 1873",
+      "local_image_path": "assets/archive_media/documents/walter-bookram-letters-to-the-editor.jpg",
+      "source_url": "https://nativeamericanroots.wordpress.com/2016/03/01/elias-bookram-a-nanticoke-indian-from-maryland-in-granville-county/",
+      "dataset_source": "nativeamericanroots",
+      "document_type": "newspaper",
+      "asset_type": "document",
+      "subtype": "newspaper_clipping",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    },
+    {
+      "person_id": 11980,
+      "photo_id": 3660,
+      "category": "documents",
+      "title_or_caption": "Newspaper Advertisement: Walter Bookram, Practical Tanner (1875)",
+      "subject_names": "Walter Bookram",
+      "married_surname": "Bookram",
+      "approximate_year": "1875",
+      "local_image_path": "assets/archive_media/documents/walter-bookram-tanner.jpg",
+      "source_url": "https://nativeamericanroots.wordpress.com/2016/03/01/elias-bookram-a-nanticoke-indian-from-maryland-in-granville-county/",
+      "dataset_source": "nativeamericanroots",
+      "document_type": "newspaper",
+      "asset_type": "document",
+      "subtype": "newspaper_clipping",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": null
+    }
+  ],
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11980,
+    "name": "Walter Bookram",
+    "children": [
+      {
+        "id": 11965,
+        "name": "Elias Bookram",
+        "children": [
+          {
+            "id": 1698,
+            "name": "George Puckham",
+            "children": [
+              {
+                "id": 1696,
+                "name": "John Puckham",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11965,
+        "name": "Elias Bookram",
+        "children": [
+          {
+            "id": 1698,
+            "name": "George Puckham",
+            "children": [
+              {
+                "id": 1696,
+                "name": "John Puckham",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

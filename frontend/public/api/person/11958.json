@@ -21,6 +21,14 @@
   "facts": [],
   "relationships": [
     {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Davis Family Tree GEDCOM family marriage record",
+      "certainty": "confirmed",
+      "rel_id": 11928,
+      "rel_name": "Henry Alfred Moore"
+    },
+    {
       "relationship_type": "child_of",
       "role": "parent",
       "evidence_text": "Davis Family Tree GEDCOM parent-child record",
@@ -43,22 +51,6 @@
       "certainty": "confirmed",
       "rel_id": 11959,
       "rel_name": "Robert Moore"
-    },
-    {
-      "relationship_type": "parent_of",
-      "role": "child",
-      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
-      "certainty": "confirmed",
-      "rel_id": 11958,
-      "rel_name": "Celeste Moore"
-    },
-    {
-      "relationship_type": "child_of",
-      "role": "parent",
-      "evidence_text": "Davis Family Tree GEDCOM parent-child record",
-      "certainty": "confirmed",
-      "rel_id": 11958,
-      "rel_name": "Celeste Moore"
     },
     {
       "relationship_type": "parent_of",
@@ -125,11 +117,6 @@
             ]
           }
         ]
-      },
-      {
-        "id": 11958,
-        "name": "Celeste Moore",
-        "children": []
       }
     ]
   }

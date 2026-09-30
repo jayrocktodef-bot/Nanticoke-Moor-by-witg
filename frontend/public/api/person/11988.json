@@ -1,0 +1,98 @@
+{
+  "person": {
+    "person_id": 11988,
+    "name": "Solomon Bookram",
+    "first_name": "Solomon",
+    "middle_name": "",
+    "maiden_name": "",
+    "married_last_name": "Bookram",
+    "evidence_level": 1,
+    "source_page": null,
+    "birth_info": "1836 Granville Co, NC",
+    "death_info": "bet. 1860-1870 North Carolina",
+    "notes": "Son of Elias Bookram and Chashe Scott. Married Sallie Ann Pettiford in 1859.",
+    "dataset_source": "nativeamericanroots",
+    "birth_date": "1836 Granville Co, NC",
+    "birth_place": null,
+    "death_date": "bet. 1860-1870 North Carolina",
+    "death_place": null
+  },
+  "facts": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Father of Solomon Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11965,
+      "rel_name": "Elias Bookram"
+    },
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Mother of Solomon Bookram",
+      "certainty": "confirmed",
+      "rel_id": 1700,
+      "rel_name": "Chashe Scott"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Married 11 Sep 1859 in Granville County, NC",
+      "certainty": "confirmed",
+      "rel_id": 11977,
+      "rel_name": "Sallie Ann Pettiford"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Father of Alice Bookram",
+      "certainty": "confirmed",
+      "rel_id": 12005,
+      "rel_name": "Alice Bookram"
+    }
+  ],
+  "photos": [],
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 11988,
+    "name": "Solomon Bookram",
+    "children": [
+      {
+        "id": 11965,
+        "name": "Elias Bookram",
+        "children": [
+          {
+            "id": 1698,
+            "name": "George Puckham",
+            "children": [
+              {
+                "id": 1696,
+                "name": "John Puckham",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11965,
+        "name": "Elias Bookram",
+        "children": [
+          {
+            "id": 1698,
+            "name": "George Puckham",
+            "children": [
+              {
+                "id": 1696,
+                "name": "John Puckham",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

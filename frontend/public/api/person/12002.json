@@ -1,0 +1,136 @@
+{
+  "person": {
+    "person_id": 12002,
+    "name": "Adeline Bookram",
+    "first_name": "Adeline",
+    "middle_name": "",
+    "maiden_name": "Bookram",
+    "married_last_name": "Harris",
+    "evidence_level": 1,
+    "source_page": null,
+    "birth_info": "c. 1860 Granville Co, NC",
+    "death_info": "aft. 1890 North Carolina",
+    "notes": "Daughter of Alfred Bookram and Anna Peed. Married George Harris.",
+    "dataset_source": "nativeamericanroots",
+    "birth_date": "c. 1860 Granville Co, NC",
+    "birth_place": null,
+    "death_date": "aft. 1890 North Carolina",
+    "death_place": null
+  },
+  "facts": [],
+  "relationships": [
+    {
+      "relationship_type": "child_of",
+      "role": "parent",
+      "evidence_text": "Father of Adeline Bookram",
+      "certainty": "confirmed",
+      "rel_id": 11986,
+      "rel_name": "Alfred Bookram"
+    },
+    {
+      "relationship_type": "spouse_of",
+      "role": "spouse",
+      "evidence_text": "Married in North Carolina",
+      "certainty": "confirmed",
+      "rel_id": 12003,
+      "rel_name": "George Harris"
+    },
+    {
+      "relationship_type": "parent_of",
+      "role": "child",
+      "evidence_text": "Mother of Eula Harris",
+      "certainty": "confirmed",
+      "rel_id": 12004,
+      "rel_name": "Eula Harris"
+    }
+  ],
+  "photos": [],
+  "obituaries": [],
+  "audit_flags": [],
+  "ancestry": {
+    "id": 12002,
+    "name": "Adeline Bookram",
+    "children": [
+      {
+        "id": 11986,
+        "name": "Alfred Bookram",
+        "children": [
+          {
+            "id": 11965,
+            "name": "Elias Bookram",
+            "children": [
+              {
+                "id": 1698,
+                "name": "George Puckham",
+                "children": [
+                  {
+                    "id": 1696,
+                    "name": "John Puckham",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 11965,
+            "name": "Elias Bookram",
+            "children": [
+              {
+                "id": 1698,
+                "name": "George Puckham",
+                "children": [
+                  {
+                    "id": 1696,
+                    "name": "John Puckham",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11986,
+        "name": "Alfred Bookram",
+        "children": [
+          {
+            "id": 11965,
+            "name": "Elias Bookram",
+            "children": [
+              {
+                "id": 1698,
+                "name": "George Puckham",
+                "children": [
+                  {
+                    "id": 1696,
+                    "name": "John Puckham",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 11965,
+            "name": "Elias Bookram",
+            "children": [
+              {
+                "id": 1698,
+                "name": "George Puckham",
+                "children": [
+                  {
+                    "id": 1696,
+                    "name": "John Puckham",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

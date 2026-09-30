@@ -116,8 +116,8 @@ def export_all():
     key_surnames = [
         "Beckett", "Bookram", "Butcher", "Carmean", "Carney", "Carty", "Clark", "Coker", "Conaway",
         "Cordrey", "Cork", "Cottman", "Counselor", "Coursey", "Cuff", "Davis", "Dean",
-        "Dickerson", "Driggus", "Durham", "Francisco", "Goldsborough", "Gould", "Green",
-        "Greenage", "Handsor", "Hanzer", "Harmon", "Hitchens", "Hughes", "Ingram", "Jackson",
+        "Dickerson", "Driggus", "Durham", "Evans", "Francisco", "Goldsborough", "Gould", "Green",
+        "Greenage", "Handsor", "Hanzer", "Harmon", "Harris", "Hedgepeth", "Hitchens", "Hughes", "Ingram", "Jackson",
         "Johnson", "Loatman", "Miller", "Moore", "Morgan", "Morris", "Mosley", "Muncey",
         "Norwood", "Oakley", "Pierce", "Puckham", "Reed", "Ridgeway", "Sammons", "Seeney",
         "Sisco", "Sockum", "Street", "Thomas", "Thompson", "Turner", "Wilson", "Wright"
@@ -183,10 +183,13 @@ def export_all():
         # Fetch detailed photos for this surname and its variants
         c.execute(f"""
             SELECT DISTINCT upc.photo_id, upc.category, upc.normalized_filename, upc.local_image_path,
+                   COALESCE(pc.title_or_caption, upc.subject_names, upc.normalized_filename) as title_or_caption,
                    upc.subject_names, upc.approximate_year, upc.document_type,
+                   upc.transcription,
                    upc.primary_person_id as person_id, upc.primary_person_name as person_name
             FROM photo_surnames ps
             JOIN unified_photo_catalog upc ON ps.photo_id = upc.photo_id
+            LEFT JOIN photo_catalog pc ON upc.photo_id = pc.photo_id
             WHERE LOWER(ps.surname) IN ({ps_placeholders})
             ORDER BY upc.category ASC, upc.approximate_year DESC
         """, [v.lower() for v in s_variants])
@@ -254,13 +257,15 @@ def export_all():
 
     print("Step 4: Exporting /api/photos.json...")
     c.execute("""
-        SELECT photo_id, category, normalized_filename as title_or_caption,
-               subject_names, surname as married_surname, approximate_year,
-               local_image_path, source_url, dataset_source, document_type,
-               asset_type, subtype, confidence_score, contains_face,
-               face_context, routing_target, transcription, dates_mentioned, flag_for_human_review
-        FROM unified_photo_catalog
-        ORDER BY photo_id DESC
+        SELECT upc.photo_id, upc.category,
+               COALESCE(pc.title_or_caption, upc.subject_names, upc.normalized_filename) as title_or_caption,
+               upc.subject_names, upc.surname as married_surname, upc.approximate_year,
+               upc.local_image_path, upc.source_url, upc.dataset_source, upc.document_type,
+               upc.asset_type, upc.subtype, upc.confidence_score, upc.contains_face,
+               upc.face_context, upc.routing_target, upc.transcription, upc.dates_mentioned, upc.flag_for_human_review
+        FROM unified_photo_catalog upc
+        LEFT JOIN photo_catalog pc ON upc.photo_id = pc.photo_id
+        ORDER BY upc.photo_id DESC
     """)
     photos = [dict(r) for r in c.fetchall()]
     with open(os.path.join(API_DIR, 'photos.json'), 'w') as f:
@@ -295,7 +300,7 @@ def export_all():
             rels_map.setdefault(pa, []).append({"relationship_type": "parent_of", "role": "child", "evidence_text": ev, "certainty": cert, "rel_id": pb, "rel_name": n2})
             rels_map.setdefault(pb, []).append({"relationship_type": "child_of", "role": "parent", "evidence_text": ev, "certainty": cert, "rel_id": pa, "rel_name": n1})
             parents_map.setdefault(pb, []).append({"id": pa, "name": n1})
-        elif rtype in ('spouse', 'spouse_of'):
+        elif rtype in ('spouse', 'spouse_of', 'spouses'):
             rels_map.setdefault(pa, []).append({"relationship_type": "spouse_of", "role": "spouse", "evidence_text": ev, "certainty": cert, "rel_id": pb, "rel_name": n2})
             rels_map.setdefault(pb, []).append({"relationship_type": "spouse_of", "role": "spouse", "evidence_text": ev, "certainty": cert, "rel_id": pa, "rel_name": n1})
         elif rtype in ('sibling', 'sibling_of'):
@@ -304,16 +309,18 @@ def export_all():
 
     # Pre-fetch all photos prioritizing studio portraits
     c.execute("""
-        SELECT COALESCE(pp.person_id, upc.primary_person_id) as person_id, upc.photo_id, upc.category, upc.normalized_filename as title_or_caption,
+        SELECT COALESCE(pp.person_id, upc.primary_person_id) as person_id, upc.photo_id, upc.category,
+               COALESCE(pc.title_or_caption, upc.subject_names, upc.normalized_filename) as title_or_caption,
                upc.subject_names, upc.surname as married_surname, upc.approximate_year,
                upc.local_image_path, upc.source_url, upc.dataset_source, upc.document_type,
                upc.asset_type, upc.subtype, upc.contains_face, upc.face_context, upc.routing_target
         FROM unified_photo_catalog upc
         LEFT JOIN person_photos pp ON pp.photo_id = upc.photo_id
+        LEFT JOIN photo_catalog pc ON pc.photo_id = upc.photo_id
         WHERE pp.person_id IS NOT NULL OR upc.primary_person_id IS NOT NULL
         ORDER BY 
             CASE 
-                WHEN upc.subtype = 'studio_portrait' THEN 1
+                WHEN upc.subtype IN ('studio_portrait', 'individual_portrait') THEN 1
                 WHEN upc.asset_type = 'photograph' THEN 2
                 WHEN upc.contains_face = 1 THEN 3
                 ELSE 4 
@@ -406,10 +413,19 @@ def export_all():
             exported_photos = []  # Don't export photos of living people
             exported_obits = []  # Living people don't have obituaries but be safe
 
+        raw_rels = rels_map.get(pid, [])
+        seen_rel = set()
+        dedup_rels = []
+        for r in raw_rels:
+            key = (r.get("role"), r.get("rel_id"))
+            if key not in seen_rel:
+                seen_rel.add(key)
+                dedup_rels.append(r)
+
         p_data = {
             "person": person_record,
             "facts": exported_facts,
-            "relationships": rels_map.get(pid, []),
+            "relationships": dedup_rels,
             "photos": exported_photos,
             "obituaries": exported_obits,
             "audit_flags": audit_map.get(pid, []),
