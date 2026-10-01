@@ -206,8 +206,12 @@ class PPOCRTextEngine:
         avg_conf = float(np.mean(char_confidences)) if char_confidences else 0.0
         return line_str, avg_conf
 
-    def transcribe_image(self, img_bgr):
+    def transcribe_image(self, img_bgr, max_boxes=30):
         boxes = self.detect_boxes(img_bgr)
+        # Sort in reading order (top-to-bottom, then left-to-right)
+        boxes = sorted(boxes, key=lambda b: (b[0] // 30, b[1]))
+        if max_boxes and len(boxes) > max_boxes:
+            boxes = boxes[:max_boxes]
         h, w = img_bgr.shape[:2]
         results = []
         for (y1, x1, y2, x2) in boxes:

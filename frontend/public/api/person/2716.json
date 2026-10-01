@@ -316,24 +316,6 @@
   "photos": [
     {
       "person_id": 2716,
-      "photo_id": 154,
-      "category": "people",
-      "title_or_caption": "Bowles_Helen_Durham_Pierce.jpg",
-      "subject_names": "Helen Durham Pierce Bowles",
-      "married_surname": "Bowles",
-      "approximate_year": null,
-      "local_image_path": "assets/archive_media/people/Bowles_Helen_Durham_Pierce.jpg",
-      "source_url": null,
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 2716,
       "photo_id": 69,
       "category": "people",
       "title_or_caption": "Alfred_Pierce_Helen_Durham_And_Enos_Pierce.jpg",
@@ -345,7 +327,7 @@
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",
       "asset_type": "photograph",
-      "subtype": "family_group",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -364,6 +346,24 @@
       "document_type": "group_photo",
       "asset_type": "photograph",
       "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 2716,
+      "photo_id": 154,
+      "category": "people",
+      "title_or_caption": "Bowles_Helen_Durham_Pierce.jpg",
+      "subject_names": "Helen Durham Pierce Bowles",
+      "married_surname": "Bowles",
+      "approximate_year": null,
+      "local_image_path": "assets/archive_media/people/Bowles_Helen_Durham_Pierce.jpg",
+      "source_url": null,
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "historical_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -435,7 +435,7 @@
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",
       "asset_type": "photograph",
-      "subtype": "family_group",
+      "subtype": "group_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"

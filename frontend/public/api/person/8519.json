@@ -232,6 +232,24 @@
   "photos": [
     {
       "person_id": 8519,
+      "photo_id": 638,
+      "category": "people",
+      "title_or_caption": "Davis_Ned_And_Gladys_Dean.jpg",
+      "subject_names": "Ned & Gladys Dean Davis",
+      "married_surname": "Davis",
+      "approximate_year": "1909",
+      "local_image_path": "assets/archive_media/people/Davis_Ned_And_Gladys_Dean.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "group_photo",
+      "asset_type": "photograph",
+      "subtype": "group_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 8519,
       "photo_id": 640,
       "category": "people",
       "title_or_caption": "Davis_Ned_7.jpg",
@@ -243,7 +261,7 @@
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
-      "subtype": "studio_portrait",
+      "subtype": "historical_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -261,7 +279,7 @@
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
-      "subtype": "studio_portrait",
+      "subtype": "historical_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -279,25 +297,7 @@
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 8519,
-      "photo_id": 638,
-      "category": "people",
-      "title_or_caption": "Davis_Ned_And_Gladys_Dean.jpg",
-      "subject_names": "Ned & Gladys Dean Davis",
-      "married_surname": "Davis",
-      "approximate_year": "1909",
-      "local_image_path": "assets/archive_media/people/Davis_Ned_And_Gladys_Dean.jpg",
-      "source_url": "",
-      "dataset_source": "mitsawokett",
-      "document_type": "group_photo",
-      "asset_type": "photograph",
-      "subtype": "group_portrait",
+      "subtype": "historical_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -332,11 +332,11 @@
       "source_url": "",
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",
-      "asset_type": "document",
+      "asset_type": "photograph",
       "subtype": "group_portrait",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": "documents"
+      "routing_target": "photos"
     },
     {
       "person_id": 8519,
@@ -346,15 +346,15 @@
       "subject_names": "1870 Federal Census - James H Davis Household",
       "married_surname": "Davis",
       "approximate_year": "1870",
-      "local_image_path": "",
+      "local_image_path": "assets/archive_media/documents/1870_James_H_Davis_153445.json",
       "source_url": "https://www.ancestry.com/discoveryui-content/view/153445:7163",
       "dataset_source": "Ancestry.com Delaware Census Records",
       "document_type": "census_record",
       "asset_type": "document",
-      "subtype": "census",
+      "subtype": "historical_document",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": null
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

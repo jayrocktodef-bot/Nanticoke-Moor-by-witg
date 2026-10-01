@@ -280,7 +280,7 @@
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
-      "subtype": "studio_portrait",
+      "subtype": "historical_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -297,11 +297,11 @@
       "source_url": "",
       "dataset_source": "mitsawokett",
       "document_type": "family_tree",
-      "asset_type": "document",
-      "subtype": "ancestor_pedigree_chart",
+      "asset_type": "diagram",
+      "subtype": "pedigree_chart",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": "documents"
+      "routing_target": "family_trees"
     },
     {
       "person_id": 8223,
@@ -311,15 +311,15 @@
       "subject_names": "1940 Federal Census - Myrtle Mosley Household",
       "married_surname": "Davis",
       "approximate_year": "1940",
-      "local_image_path": "",
+      "local_image_path": "assets/archive_media/documents/1940_Myrtle_Mosley_254820.json",
       "source_url": "https://www.ancestry.com/discoveryui-content/view/254820:2442",
       "dataset_source": "Ancestry.com Delaware Census Records",
       "document_type": "census_record",
       "asset_type": "document",
-      "subtype": "census",
+      "subtype": "historical_document",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": null
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

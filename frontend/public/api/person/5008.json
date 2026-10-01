@@ -127,24 +127,6 @@
   "photos": [
     {
       "person_id": 5008,
-      "photo_id": 810,
-      "category": "people",
-      "title_or_caption": "Durham_Floyd_1996.jpg",
-      "subject_names": "Floyd Durham (1996)",
-      "married_surname": "Durham",
-      "approximate_year": "1996",
-      "local_image_path": "assets/archive_media/people/Durham_Floyd_1996.jpg",
-      "source_url": "",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 5008,
       "photo_id": 808,
       "category": "people",
       "title_or_caption": "Durham_Floyd_And_Cleo_Young.jpg",
@@ -163,6 +145,24 @@
     },
     {
       "person_id": 5008,
+      "photo_id": 810,
+      "category": "people",
+      "title_or_caption": "Durham_Floyd_1996.jpg",
+      "subject_names": "Floyd Durham (1996)",
+      "married_surname": "Durham",
+      "approximate_year": "1996",
+      "local_image_path": "assets/archive_media/people/Durham_Floyd_1996.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "historical_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 5008,
       "photo_id": 820,
       "category": "family_trees",
       "title_or_caption": "Durham_Harlan_Ancestry.jpg",
@@ -173,11 +173,11 @@
       "source_url": "",
       "dataset_source": "mitsawokett",
       "document_type": "family_tree",
-      "asset_type": "document",
-      "subtype": "ancestor_pedigree_chart",
+      "asset_type": "diagram",
+      "subtype": "pedigree_chart",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": "documents"
+      "routing_target": "family_trees"
     }
   ],
   "obituaries": [],

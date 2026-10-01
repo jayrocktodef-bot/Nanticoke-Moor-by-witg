@@ -303,7 +303,7 @@
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
-      "subtype": "studio_portrait",
+      "subtype": "historical_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -321,7 +321,7 @@
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
-      "subtype": "studio_portrait",
+      "subtype": "historical_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -338,11 +338,11 @@
       "source_url": "",
       "dataset_source": "mitsawokett",
       "document_type": "family_tree",
-      "asset_type": "document",
-      "subtype": "ancestor_pedigree_chart",
+      "asset_type": "diagram",
+      "subtype": "pedigree_chart",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": "documents"
+      "routing_target": "family_trees"
     },
     {
       "person_id": 8158,
@@ -352,15 +352,15 @@
       "subject_names": "1930 Federal Census - Hersel R Davis Household",
       "married_surname": "Davis",
       "approximate_year": "1930",
-      "local_image_path": "",
+      "local_image_path": "assets/archive_media/documents/1930_Hersel_R_Davis_121407355.json",
       "source_url": "https://www.ancestry.com/discoveryui-content/view/121407355:6224",
       "dataset_source": "Ancestry.com Delaware Census Records",
       "document_type": "census_record",
       "asset_type": "document",
-      "subtype": "census",
+      "subtype": "historical_document",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": null
+      "routing_target": "documents"
     },
     {
       "person_id": 8158,
@@ -370,15 +370,15 @@
       "subject_names": "Marriage Federal Census - Hersel Davis Household",
       "married_surname": "Davis",
       "approximate_year": "Marriage",
-      "local_image_path": "ancestry_documents/delaware_census/TH-266-12314-8855-84.jpg",
+      "local_image_path": "assets/archive_media/documents/TH-266-12314-8855-84.jpg",
       "source_url": "https://www.ancestry.com/discoveryui-content/view/1050108763:61368",
       "dataset_source": "Ancestry.com Delaware Census Records",
       "document_type": "census_record",
       "asset_type": "document",
-      "subtype": "census",
+      "subtype": "historical_document",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": null
+      "routing_target": "documents"
     },
     {
       "person_id": 8158,
@@ -388,15 +388,15 @@
       "subject_names": "Marriage Federal Census - Hersel Davis Household",
       "married_surname": "Davis",
       "approximate_year": "Marriage",
-      "local_image_path": "",
+      "local_image_path": "assets/archive_media/documents/Marriage_Hersel_Davis_715233979.json",
       "source_url": "https://www.ancestry.com/discoveryui-content/view/715233979:61843",
       "dataset_source": "Ancestry.com Delaware Census Records",
       "document_type": "census_record",
       "asset_type": "document",
-      "subtype": "census",
+      "subtype": "historical_document",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": null
+      "routing_target": "documents"
     },
     {
       "person_id": 8158,
@@ -406,15 +406,15 @@
       "subject_names": "SSDI Federal Census - Hersel Rodney Davis Household",
       "married_surname": "Davis",
       "approximate_year": "SSDI",
-      "local_image_path": "",
+      "local_image_path": "assets/archive_media/documents/SSDI_Hersel_Rodney_Davis_25225965.json",
       "source_url": "https://www.ancestry.com/discoveryui-content/view/25225965:60901",
       "dataset_source": "Ancestry.com Delaware Census Records",
       "document_type": "census_record",
       "asset_type": "document",
-      "subtype": "census",
+      "subtype": "historical_document",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": null
+      "routing_target": "documents"
     },
     {
       "person_id": 8158,
@@ -424,15 +424,15 @@
       "subject_names": "WWII Federal Census - Hersel Rodney Davis Household",
       "married_surname": "Davis",
       "approximate_year": "WWII",
-      "local_image_path": "ancestry_documents/delaware_census/44003_01_00002-00373.jpg",
+      "local_image_path": "assets/archive_media/documents/44003_01_00002-00373.jpg",
       "source_url": "https://www.ancestry.com/discoveryui-content/view/6305350:2238",
       "dataset_source": "Ancestry.com Delaware Census Records",
       "document_type": "census_record",
       "asset_type": "document",
-      "subtype": "census",
+      "subtype": "historical_document",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": null
+      "routing_target": "documents"
     },
     {
       "person_id": 8158,
@@ -442,15 +442,15 @@
       "subject_names": "Record Federal Census - Hersel P. Davis Household",
       "married_surname": "Davis",
       "approximate_year": "Record",
-      "local_image_path": "",
+      "local_image_path": "assets/archive_media/documents/Record_Hersel_P__Davis_75871438.json",
       "source_url": "https://www.ancestry.com/discoveryui-content/view/75871438:3693",
       "dataset_source": "Ancestry.com Delaware Census Records",
       "document_type": "census_record",
       "asset_type": "document",
-      "subtype": "census",
+      "subtype": "historical_document",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": null
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

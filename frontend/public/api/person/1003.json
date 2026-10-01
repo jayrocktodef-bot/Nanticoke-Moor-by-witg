@@ -182,24 +182,6 @@
   "photos": [
     {
       "person_id": 1003,
-      "photo_id": 910,
-      "category": "family_trees",
-      "title_or_caption": "Durham_Samuel_Hjr_Ancestry.jpg",
-      "subject_names": "Samuel Hjr Ancestry Durham",
-      "married_surname": "Durham",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Durham_Samuel_Hjr_Ancestry.jpg",
-      "source_url": "",
-      "dataset_source": "mitsawokett",
-      "document_type": "family_tree",
-      "asset_type": "document",
-      "subtype": "ancestor_pedigree_chart",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
-    {
-      "person_id": 1003,
       "photo_id": 1444,
       "category": "people",
       "title_or_caption": "Johnson_Willis_And_Henny.jpg",
@@ -210,11 +192,29 @@
       "source_url": "",
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",
-      "asset_type": "document",
+      "asset_type": "photograph",
       "subtype": "group_portrait",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": "documents"
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 1003,
+      "photo_id": 910,
+      "category": "family_trees",
+      "title_or_caption": "Durham_Samuel_Hjr_Ancestry.jpg",
+      "subject_names": "Samuel Hjr Ancestry Durham",
+      "married_surname": "Durham",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/family_trees/Durham_Samuel_Hjr_Ancestry.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "family_tree",
+      "asset_type": "diagram",
+      "subtype": "pedigree_chart",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "family_trees"
     }
   ],
   "obituaries": [],

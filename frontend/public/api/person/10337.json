@@ -183,24 +183,6 @@
   "photos": [
     {
       "person_id": 10337,
-      "photo_id": 1918,
-      "category": "people",
-      "title_or_caption": "Parrish_William_Mabins.jpg",
-      "subject_names": "William Mabins Parrish",
-      "married_surname": "Parrish",
-      "approximate_year": "1894",
-      "local_image_path": "assets/archive_media/people/Parrish_William_Mabins.jpg",
-      "source_url": "",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "document",
-      "subtype": "studio_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
-    {
-      "person_id": 10337,
       "photo_id": 776,
       "category": "people",
       "title_or_caption": "Durham_Carolyn_And_William_Parish_And_Dau.jpg",
@@ -211,11 +193,29 @@
       "source_url": "",
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",
-      "asset_type": "document",
+      "asset_type": "photograph",
       "subtype": "group_portrait",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": "documents"
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 10337,
+      "photo_id": 1918,
+      "category": "people",
+      "title_or_caption": "Parrish_William_Mabins.jpg",
+      "subject_names": "William Mabins Parrish",
+      "married_surname": "Parrish",
+      "approximate_year": "1894",
+      "local_image_path": "assets/archive_media/people/Parrish_William_Mabins.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "historical_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

@@ -268,7 +268,7 @@
       "dataset_source": "mitsawokett",
       "document_type": "portrait",
       "asset_type": "photograph",
-      "subtype": "studio_portrait",
+      "subtype": "historical_portrait",
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
@@ -285,11 +285,11 @@
       "source_url": "",
       "dataset_source": "mitsawokett",
       "document_type": "family_tree",
-      "asset_type": "document",
-      "subtype": "ancestor_pedigree_chart",
+      "asset_type": "diagram",
+      "subtype": "pedigree_chart",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": "documents"
+      "routing_target": "family_trees"
     },
     {
       "person_id": 10813,
@@ -299,15 +299,15 @@
       "subject_names": "1930 Federal Census - Clarence D Davis Household",
       "married_surname": "Davis",
       "approximate_year": "1930",
-      "local_image_path": "ancestry_documents/delaware_census/4531895_00742.jpg",
+      "local_image_path": "assets/archive_media/documents/4531895_00742.jpg",
       "source_url": "https://www.ancestry.com/discoveryui-content/view/121407272:6224",
       "dataset_source": "Ancestry.com Delaware Census Records",
       "document_type": "census_record",
       "asset_type": "document",
-      "subtype": "census",
+      "subtype": "historical_document",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": null
+      "routing_target": "documents"
     },
     {
       "person_id": 10813,
@@ -317,15 +317,15 @@
       "subject_names": "1940 Federal Census - Clarence Davis Household",
       "married_surname": "Davis",
       "approximate_year": "1940",
-      "local_image_path": "",
+      "local_image_path": "assets/archive_media/documents/1940_Clarence_Davis_254763.json",
       "source_url": "https://www.ancestry.com/discoveryui-content/view/254763:2442",
       "dataset_source": "Ancestry.com Delaware Census Records",
       "document_type": "census_record",
       "asset_type": "document",
-      "subtype": "census",
+      "subtype": "historical_document",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": null
+      "routing_target": "documents"
     },
     {
       "person_id": 10813,
@@ -335,15 +335,15 @@
       "subject_names": "SSDI Federal Census - Clarence Drexel Davis Household",
       "married_surname": "Davis",
       "approximate_year": "SSDI",
-      "local_image_path": "",
+      "local_image_path": "assets/archive_media/documents/SSDI_Clarence_Drexel_Davis_32274394.json",
       "source_url": "https://www.ancestry.com/discoveryui-content/view/32274394:60901",
       "dataset_source": "Ancestry.com Delaware Census Records",
       "document_type": "census_record",
       "asset_type": "document",
-      "subtype": "census",
+      "subtype": "historical_document",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": null
+      "routing_target": "documents"
     }
   ],
   "obituaries": [],

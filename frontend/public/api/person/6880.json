@@ -183,24 +183,6 @@
   "photos": [
     {
       "person_id": 6880,
-      "photo_id": 1867,
-      "category": "people",
-      "title_or_caption": "Murray_William.jpg",
-      "subject_names": "William Murray",
-      "married_surname": "Murray",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Murray_William.jpg",
-      "source_url": "",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "document",
-      "subtype": "studio_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
-    {
-      "person_id": 6880,
       "photo_id": 1865,
       "category": "people",
       "title_or_caption": "Murray_William_And_Sister_Lena_Harmon_Jackson_2.jpg",
@@ -211,11 +193,29 @@
       "source_url": "",
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",
-      "asset_type": "document",
+      "asset_type": "photograph",
       "subtype": "group_portrait",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": "documents"
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6880,
+      "photo_id": 1867,
+      "category": "people",
+      "title_or_caption": "Murray_William.jpg",
+      "subject_names": "William Murray",
+      "married_surname": "Murray",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Murray_William.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "historical_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "photos"
     }
   ],
   "obituaries": [],

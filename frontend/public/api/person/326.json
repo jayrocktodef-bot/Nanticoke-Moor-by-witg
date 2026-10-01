@@ -553,24 +553,6 @@
   "photos": [
     {
       "person_id": 326,
-      "photo_id": 835,
-      "category": "people",
-      "title_or_caption": "Durham_Isaiah_35.jpg",
-      "subject_names": "Isaiah 35 Durham",
-      "married_surname": "Durham",
-      "approximate_year": "1940",
-      "local_image_path": "assets/archive_media/people/Durham_Isaiah_35.jpg",
-      "source_url": "",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 326,
       "photo_id": 831,
       "category": "people",
       "title_or_caption": "Durham_Isaiah_And_Gertrude_2.jpg",
@@ -607,6 +589,24 @@
     },
     {
       "person_id": 326,
+      "photo_id": 835,
+      "category": "people",
+      "title_or_caption": "Durham_Isaiah_35.jpg",
+      "subject_names": "Isaiah 35 Durham",
+      "married_surname": "Durham",
+      "approximate_year": "1940",
+      "local_image_path": "assets/archive_media/people/Durham_Isaiah_35.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "historical_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 326,
       "photo_id": 836,
       "category": "family_trees",
       "title_or_caption": "Durham_Isaiah_Ancestry.jpg",
@@ -617,11 +617,11 @@
       "source_url": "",
       "dataset_source": "mitsawokett",
       "document_type": "family_tree",
-      "asset_type": "document",
-      "subtype": "ancestor_pedigree_chart",
+      "asset_type": "diagram",
+      "subtype": "pedigree_chart",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": "documents"
+      "routing_target": "family_trees"
     }
   ],
   "obituaries": [],

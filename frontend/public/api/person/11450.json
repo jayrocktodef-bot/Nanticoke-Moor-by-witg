@@ -127,24 +127,6 @@
   "photos": [
     {
       "person_id": 11450,
-      "photo_id": 171,
-      "category": "people",
-      "title_or_caption": "Bush_Edward_Bancestry.jpg",
-      "subject_names": "Edward Bancestry Bush",
-      "married_surname": "Bush",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/family_trees/Bush_Edward_Bancestry.jpg",
-      "source_url": "",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "document",
-      "subtype": "studio_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
-    {
-      "person_id": 11450,
       "photo_id": 170,
       "category": "people",
       "title_or_caption": "Bush_Ed_Family.jpg",
@@ -160,6 +142,24 @@
       "contains_face": 1,
       "face_context": "primary_subject",
       "routing_target": "photos"
+    },
+    {
+      "person_id": 11450,
+      "photo_id": 171,
+      "category": "family_trees",
+      "title_or_caption": "Bush_Edward_Bancestry.jpg",
+      "subject_names": "Edward Bancestry Bush",
+      "married_surname": "Bush",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/family_trees/Bush_Edward_Bancestry.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "family_tree",
+      "asset_type": "diagram",
+      "subtype": "pedigree_chart",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "family_trees"
     }
   ],
   "obituaries": [],

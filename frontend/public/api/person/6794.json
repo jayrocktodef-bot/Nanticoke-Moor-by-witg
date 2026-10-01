@@ -136,24 +136,6 @@
   "photos": [
     {
       "person_id": 6794,
-      "photo_id": 1834,
-      "category": "people",
-      "title_or_caption": "Mosley_Willard.jpg",
-      "subject_names": "Willard Mosley",
-      "married_surname": "Mosley",
-      "approximate_year": "1861",
-      "local_image_path": "assets/archive_media/people/Mosley_Willard.jpg",
-      "source_url": "",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "document",
-      "subtype": "studio_portrait",
-      "contains_face": 0,
-      "face_context": "none",
-      "routing_target": "documents"
-    },
-    {
-      "person_id": 6794,
       "photo_id": 1832,
       "category": "people",
       "title_or_caption": "Mosley_Willard_And_Prudence_Gould.jpg",
@@ -164,11 +146,29 @@
       "source_url": "",
       "dataset_source": "mitsawokett",
       "document_type": "group_photo",
-      "asset_type": "document",
+      "asset_type": "photograph",
       "subtype": "group_portrait",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": "documents"
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 6794,
+      "photo_id": 1834,
+      "category": "people",
+      "title_or_caption": "Mosley_Willard.jpg",
+      "subject_names": "Willard Mosley",
+      "married_surname": "Mosley",
+      "approximate_year": "1861",
+      "local_image_path": "assets/archive_media/people/Mosley_Willard.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "historical_portrait",
+      "contains_face": 0,
+      "face_context": "none",
+      "routing_target": "photos"
     },
     {
       "person_id": 6794,
@@ -183,7 +183,7 @@
       "dataset_source": "mitsawokett",
       "document_type": "family_tree",
       "asset_type": "document",
-      "subtype": "ancestor_pedigree_chart",
+      "subtype": "historical_document",
       "contains_face": 0,
       "face_context": "none",
       "routing_target": "documents"

@@ -164,24 +164,6 @@
   "photos": [
     {
       "person_id": 4399,
-      "photo_id": 527,
-      "category": "people",
-      "title_or_caption": "Conley_Alice_Morgan.jpg",
-      "subject_names": "Alice Morgan Conley",
-      "married_surname": "Conley",
-      "approximate_year": "2000",
-      "local_image_path": "assets/archive_media/people/Conley_Alice_Morgan.jpg",
-      "source_url": "",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 4399,
       "photo_id": 522,
       "category": "people",
       "title_or_caption": "Conley_Alice_And_B_And_Dterry.jpg",
@@ -218,6 +200,24 @@
     },
     {
       "person_id": 4399,
+      "photo_id": 527,
+      "category": "people",
+      "title_or_caption": "Conley_Alice_Morgan.jpg",
+      "subject_names": "Alice Morgan Conley",
+      "married_surname": "Conley",
+      "approximate_year": "2000",
+      "local_image_path": "assets/archive_media/people/Conley_Alice_Morgan.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "historical_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 4399,
       "photo_id": 524,
       "category": "family_trees",
       "title_or_caption": "Conley_Alice_May_Morgan_Ancestry.jpg",
@@ -228,11 +228,11 @@
       "source_url": "",
       "dataset_source": "mitsawokett",
       "document_type": "family_tree",
-      "asset_type": "document",
-      "subtype": "ancestor_pedigree_chart",
+      "asset_type": "diagram",
+      "subtype": "pedigree_chart",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": "documents"
+      "routing_target": "family_trees"
     }
   ],
   "obituaries": [],

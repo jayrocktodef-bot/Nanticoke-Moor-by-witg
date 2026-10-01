@@ -117,24 +117,6 @@
   "photos": [
     {
       "person_id": 7310,
-      "photo_id": 2246,
-      "category": "people",
-      "title_or_caption": "Sammons_Stanley.jpg",
-      "subject_names": "Stanley Sammons",
-      "married_surname": "Sammons",
-      "approximate_year": "",
-      "local_image_path": "assets/archive_media/people/Sammons_Stanley.jpg",
-      "source_url": "",
-      "dataset_source": "mitsawokett",
-      "document_type": "portrait",
-      "asset_type": "photograph",
-      "subtype": "studio_portrait",
-      "contains_face": 1,
-      "face_context": "primary_subject",
-      "routing_target": "photos"
-    },
-    {
-      "person_id": 7310,
       "photo_id": 2244,
       "category": "people",
       "title_or_caption": "Sammons_Stanley_And_Daisey_London.jpg",
@@ -153,6 +135,24 @@
     },
     {
       "person_id": 7310,
+      "photo_id": 2246,
+      "category": "people",
+      "title_or_caption": "Sammons_Stanley.jpg",
+      "subject_names": "Stanley Sammons",
+      "married_surname": "Sammons",
+      "approximate_year": "",
+      "local_image_path": "assets/archive_media/people/Sammons_Stanley.jpg",
+      "source_url": "",
+      "dataset_source": "mitsawokett",
+      "document_type": "portrait",
+      "asset_type": "photograph",
+      "subtype": "historical_portrait",
+      "contains_face": 1,
+      "face_context": "primary_subject",
+      "routing_target": "photos"
+    },
+    {
+      "person_id": 7310,
       "photo_id": 2247,
       "category": "family_trees",
       "title_or_caption": "Sammons_Stanley_Ancestry.jpg",
@@ -163,11 +163,11 @@
       "source_url": "",
       "dataset_source": "mitsawokett",
       "document_type": "family_tree",
-      "asset_type": "document",
-      "subtype": "ancestor_pedigree_chart",
+      "asset_type": "diagram",
+      "subtype": "pedigree_chart",
       "contains_face": 0,
       "face_context": "none",
-      "routing_target": "documents"
+      "routing_target": "family_trees"
     }
   ],
   "obituaries": [],
