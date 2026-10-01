@@ -6,7 +6,7 @@
     "middle_name": "Jane",
     "maiden_name": "Howell",
     "married_last_name": "Hedgepeth",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "c. 1855 Granville Co, NC",
     "death_info": "aft. 1910 Granville Co, NC",
@@ -17,7 +17,93 @@
     "death_date": "aft. 1910 Granville Co, NC",
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 28246,
+      "person_id": 11995,
+      "fact_type": "Birth",
+      "date_string": "c. 1855 Granville Co, NC",
+      "place_string": "Delaware",
+      "value_string": "Born c. 1855 Granville Co, NC",
+      "citations": [
+        {
+          "citation_id": 37616,
+          "fact_id": 28246,
+          "source_id": 1271,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Adeline Jane Howell, born c. 1855 Granville Co, NC.",
+          "source_title": "Colonial Delmarva Church and Civil Vital Register (Pre-1860)",
+          "source_url": "https://archives.delaware.gov/historical-records/",
+          "source_dataset": "colonial_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28247,
+      "person_id": 11995,
+      "fact_type": "Death",
+      "date_string": "aft. 1910 Granville Co, NC",
+      "place_string": "Delaware",
+      "value_string": "Died aft. 1910 Granville Co, NC",
+      "citations": [
+        {
+          "citation_id": 37617,
+          "fact_id": 28247,
+          "source_id": 1270,
+          "evidence_text": "Bureau of Vital Statistics, Certificate and Return of Death; Official vital registration recording Adeline Jane Howell, deceased aft. 1910 Granville Co, NC.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28248,
+      "person_id": 11995,
+      "fact_type": "Census",
+      "date_string": "1860",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1860 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37618,
+          "fact_id": 28248,
+          "source_id": 854,
+          "evidence_text": "1860 United States Federal Census Schedule; Population schedule enumeration record for Adeline Jane Howell in Delmarva.",
+          "source_title": "1860 United States Federal Census",
+          "source_url": "4211358_00440.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37619,
+          "fact_id": 28248,
+          "source_id": 858,
+          "evidence_text": "1910 United States Federal Census Schedule; Population schedule enumeration record for Adeline Jane Howell in Delmarva.",
+          "source_title": "1910 United States Federal Census",
+          "source_url": "31111_4330855-01461.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 28249,
+      "person_id": 11995,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Adeline Jane Howell",
+      "citations": [
+        {
+          "citation_id": 37620,
+          "fact_id": 28249,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Adeline Jane Howell.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse_of",

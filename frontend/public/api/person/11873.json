@@ -17,7 +17,84 @@
     "death_date": null,
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 27804,
+      "person_id": 11873,
+      "fact_type": "Birth",
+      "date_string": "1967",
+      "place_string": "Delaware",
+      "value_string": "Born 1967",
+      "citations": [
+        {
+          "citation_id": 37058,
+          "fact_id": 27804,
+          "source_id": 1270,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Burt Schroeder, born 1967.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27805,
+      "person_id": 11873,
+      "fact_type": "Social Security Application",
+      "date_string": "1967",
+      "place_string": "United States",
+      "value_string": "Social Security Account Application (Form SS-5) on file for Burt Schroeder",
+      "citations": [
+        {
+          "citation_id": 37059,
+          "fact_id": 27805,
+          "source_id": 1281,
+          "evidence_text": "Social Security Administration Numerical Identification (NUMIDENT) Files; Form SS-5 Application for Account Number filed for Burt Schroeder.",
+          "source_title": "Social Security Administration: Application for Account Number (Form SS-5) & Numerical Identification Files (NUMIDENT)",
+          "source_url": "https://www.archives.gov/research/genealogy/social-security",
+          "source_dataset": "social_security_administration"
+        }
+      ]
+    },
+    {
+      "fact_id": 27806,
+      "person_id": 11873,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Burt Schroeder",
+      "citations": [
+        {
+          "citation_id": 37060,
+          "fact_id": 27806,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Burt Schroeder.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28306,
+      "person_id": 11873,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Attested as spouse of family member (Person #37)",
+      "citations": [
+        {
+          "citation_id": 37691,
+          "fact_id": 28306,
+          "source_id": 5,
+          "evidence_text": "Primary Kinship Attestation: Documented as spouse of family member in Record: carty-e.htm, establishing contemporaneous family residence and community lineage.",
+          "source_title": "Record: carty-e.htm",
+          "source_url": "carty-e.htm",
+          "source_dataset": "lynncjackson"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse_of",

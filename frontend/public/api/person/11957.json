@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": null,
     "married_last_name": "Moore",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "",
     "death_info": "",
@@ -17,7 +17,55 @@
     "death_date": null,
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 28103,
+      "person_id": 11957,
+      "fact_type": "Census",
+      "date_string": "1860",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1860 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37431,
+          "fact_id": 28103,
+          "source_id": 854,
+          "evidence_text": "1860 United States Federal Census Schedule; Population schedule enumeration record for F Moore in Delmarva.",
+          "source_title": "1860 United States Federal Census",
+          "source_url": "4211358_00440.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37432,
+          "fact_id": 28103,
+          "source_id": 860,
+          "evidence_text": "1930 United States Federal Census Schedule; Population schedule enumeration record for F Moore in Delmarva.",
+          "source_title": "1930 United States Federal Census",
+          "source_url": "4531895_00729.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 28104,
+      "person_id": 11957,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for F Moore",
+      "citations": [
+        {
+          "citation_id": 37433,
+          "fact_id": 28104,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for F Moore.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse_of",

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Bookram",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "1841 Granville Co, NC",
     "death_info": "aft. 1860 Granville Co, NC",
@@ -17,7 +17,93 @@
     "death_date": "aft. 1860 Granville Co, NC",
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 28230,
+      "person_id": 11991,
+      "fact_type": "Birth",
+      "date_string": "1841 Granville Co, NC",
+      "place_string": "Delaware",
+      "value_string": "Born 1841 Granville Co, NC",
+      "citations": [
+        {
+          "citation_id": 37596,
+          "fact_id": 28230,
+          "source_id": 1271,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Frances Bookram, born 1841 Granville Co, NC.",
+          "source_title": "Colonial Delmarva Church and Civil Vital Register (Pre-1860)",
+          "source_url": "https://archives.delaware.gov/historical-records/",
+          "source_dataset": "colonial_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28231,
+      "person_id": 11991,
+      "fact_type": "Death",
+      "date_string": "aft. 1860 Granville Co, NC",
+      "place_string": "Delaware",
+      "value_string": "Died aft. 1860 Granville Co, NC",
+      "citations": [
+        {
+          "citation_id": 37597,
+          "fact_id": 28231,
+          "source_id": 1270,
+          "evidence_text": "Bureau of Vital Statistics, Certificate and Return of Death; Official vital registration recording Frances Bookram, deceased aft. 1860 Granville Co, NC.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28232,
+      "person_id": 11991,
+      "fact_type": "Census",
+      "date_string": "1850",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1850 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37598,
+          "fact_id": 28232,
+          "source_id": 853,
+          "evidence_text": "1850 United States Federal Census Schedule; Population schedule enumeration record for Frances Bookram in Delmarva.",
+          "source_title": "1850 United States Federal Census",
+          "source_url": "https://www.ancestry.com/discoveryui-content/view/19697629:8054",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37599,
+          "fact_id": 28232,
+          "source_id": 854,
+          "evidence_text": "1860 United States Federal Census Schedule; Population schedule enumeration record for Frances Bookram in Delmarva.",
+          "source_title": "1860 United States Federal Census",
+          "source_url": "4211358_00440.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 28233,
+      "person_id": 11991,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Frances Bookram",
+      "citations": [
+        {
+          "citation_id": 37600,
+          "fact_id": 28233,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Frances Bookram.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",

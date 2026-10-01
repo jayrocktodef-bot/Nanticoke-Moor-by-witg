@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "Howell",
     "married_last_name": "Hedgepeth",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "c. 1868 Granville Co, NC",
     "death_info": "aft. 1920 Granville Co, NC",
@@ -17,7 +17,93 @@
     "death_date": "aft. 1920 Granville Co, NC",
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 28259,
+      "person_id": 11998,
+      "fact_type": "Birth",
+      "date_string": "c. 1868 Granville Co, NC",
+      "place_string": "Delaware",
+      "value_string": "Born c. 1868 Granville Co, NC",
+      "citations": [
+        {
+          "citation_id": 37632,
+          "fact_id": 28259,
+          "source_id": 1270,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Lula Howell, born c. 1868 Granville Co, NC.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28260,
+      "person_id": 11998,
+      "fact_type": "Death",
+      "date_string": "aft. 1920 Granville Co, NC",
+      "place_string": "Delaware",
+      "value_string": "Died aft. 1920 Granville Co, NC",
+      "citations": [
+        {
+          "citation_id": 37633,
+          "fact_id": 28260,
+          "source_id": 1270,
+          "evidence_text": "Bureau of Vital Statistics, Certificate and Return of Death; Official vital registration recording Lula Howell, deceased aft. 1920 Granville Co, NC.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28261,
+      "person_id": 11998,
+      "fact_type": "Census",
+      "date_string": "1870",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1870 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37634,
+          "fact_id": 28261,
+          "source_id": 855,
+          "evidence_text": "1870 United States Federal Census Schedule; Population schedule enumeration record for Lula Howell in Delmarva.",
+          "source_title": "1870 United States Federal Census",
+          "source_url": "4263346_00449.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37635,
+          "fact_id": 28261,
+          "source_id": 859,
+          "evidence_text": "1920 United States Federal Census Schedule; Population schedule enumeration record for Lula Howell in Delmarva.",
+          "source_title": "1920 United States Federal Census",
+          "source_url": "4295769-00352.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 28262,
+      "person_id": 11998,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Lula Howell",
+      "citations": [
+        {
+          "citation_id": 37636,
+          "fact_id": 28262,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Lula Howell.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse_of",

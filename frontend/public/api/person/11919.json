@@ -6,7 +6,7 @@
     "middle_name": "Edward",
     "maiden_name": null,
     "married_last_name": "Moore",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "26 Jul 1950 Warrenton, Fauquier, Virginia, USA",
     "death_info": "9 Jun 1975 Fairfax County, Virginia, USA",
@@ -17,7 +17,103 @@
     "death_date": "9 Jun 1975 Fairfax County, Virginia, USA",
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 27970,
+      "person_id": 11919,
+      "fact_type": "Birth",
+      "date_string": "26 Jul 1950 Warrenton, Fauquier, Virginia, USA",
+      "place_string": "Delaware",
+      "value_string": "Born 26 Jul 1950 Warrenton, Fauquier, Virginia, USA",
+      "citations": [
+        {
+          "citation_id": 37262,
+          "fact_id": 27970,
+          "source_id": 1270,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Michael Edward Moore, born 26 Jul 1950 Warrenton, Fauquier, Virginia, USA.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27971,
+      "person_id": 11919,
+      "fact_type": "Death",
+      "date_string": "9 Jun 1975 Fairfax County, Virginia, USA",
+      "place_string": "Delaware",
+      "value_string": "Died 9 Jun 1975 Fairfax County, Virginia, USA",
+      "citations": [
+        {
+          "citation_id": 37263,
+          "fact_id": 27971,
+          "source_id": 1270,
+          "evidence_text": "Bureau of Vital Statistics, Certificate and Return of Death; Official vital registration recording Michael Edward Moore, deceased 9 Jun 1975 Fairfax County, Virginia, USA.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27972,
+      "person_id": 11919,
+      "fact_type": "Census",
+      "date_string": "1950",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1950 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37264,
+          "fact_id": 27972,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census Schedule; Population schedule enumeration record for Michael Edward Moore in Delmarva.",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 27973,
+      "person_id": 11919,
+      "fact_type": "Social Security Application",
+      "date_string": "1950",
+      "place_string": "United States",
+      "value_string": "Social Security Account Application (Form SS-5) on file for Michael Edward Moore",
+      "citations": [
+        {
+          "citation_id": 37265,
+          "fact_id": 27973,
+          "source_id": 1281,
+          "evidence_text": "Social Security Administration Numerical Identification (NUMIDENT) Files; Form SS-5 Application for Account Number filed for Michael Edward Moore.",
+          "source_title": "Social Security Administration: Application for Account Number (Form SS-5) & Numerical Identification Files (NUMIDENT)",
+          "source_url": "https://www.archives.gov/research/genealogy/social-security",
+          "source_dataset": "social_security_administration"
+        }
+      ]
+    },
+    {
+      "fact_id": 27974,
+      "person_id": 11919,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Michael Edward Moore",
+      "citations": [
+        {
+          "citation_id": 37266,
+          "fact_id": 27974,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Michael Edward Moore.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",

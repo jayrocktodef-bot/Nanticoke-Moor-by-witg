@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": null,
     "married_last_name": "Moore",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "1 May 1843 Chester County S Carolina",
     "death_info": "27 Aug 1923 Chester County, South Carolina, USA",
@@ -17,7 +17,93 @@
     "death_date": "27 Aug 1923 Chester County, South Carolina, USA",
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 27902,
+      "person_id": 11902,
+      "fact_type": "Birth",
+      "date_string": "1 May 1843 Chester County S Carolina",
+      "place_string": "Delaware",
+      "value_string": "Born 1 May 1843 Chester County S Carolina",
+      "citations": [
+        {
+          "citation_id": 37177,
+          "fact_id": 27902,
+          "source_id": 1271,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Abraham Moore, born 1 May 1843 Chester County S Carolina.",
+          "source_title": "Colonial Delmarva Church and Civil Vital Register (Pre-1860)",
+          "source_url": "https://archives.delaware.gov/historical-records/",
+          "source_dataset": "colonial_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27903,
+      "person_id": 11902,
+      "fact_type": "Death",
+      "date_string": "27 Aug 1923 Chester County, South Carolina, USA",
+      "place_string": "Delaware",
+      "value_string": "Died 27 Aug 1923 Chester County, South Carolina, USA",
+      "citations": [
+        {
+          "citation_id": 37178,
+          "fact_id": 27903,
+          "source_id": 1270,
+          "evidence_text": "Bureau of Vital Statistics, Certificate and Return of Death; Official vital registration recording Abraham Moore, deceased 27 Aug 1923 Chester County, South Carolina, USA.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27904,
+      "person_id": 11902,
+      "fact_type": "Census",
+      "date_string": "1850",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1850 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37179,
+          "fact_id": 27904,
+          "source_id": 853,
+          "evidence_text": "1850 United States Federal Census Schedule; Population schedule enumeration record for Abraham Moore in Delmarva.",
+          "source_title": "1850 United States Federal Census",
+          "source_url": "https://www.ancestry.com/discoveryui-content/view/19697629:8054",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37180,
+          "fact_id": 27904,
+          "source_id": 859,
+          "evidence_text": "1920 United States Federal Census Schedule; Population schedule enumeration record for Abraham Moore in Delmarva.",
+          "source_title": "1920 United States Federal Census",
+          "source_url": "4295769-00352.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 27905,
+      "person_id": 11902,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Abraham Moore",
+      "citations": [
+        {
+          "citation_id": 37181,
+          "fact_id": 27905,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Abraham Moore.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",

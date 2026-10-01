@@ -17,7 +17,93 @@
     "death_date": null,
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 27838,
+      "person_id": 11883,
+      "fact_type": "Birth",
+      "date_string": "1930",
+      "place_string": "Delaware",
+      "value_string": "Born 1930",
+      "citations": [
+        {
+          "citation_id": 37097,
+          "fact_id": 27838,
+          "source_id": 1273,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Wilbert Cuff, born 1930.",
+          "source_title": "New Jersey State Archives: Cumberland & Salem County Civil Birth Returns (1848\u20131930)",
+          "source_url": "https://www.nj.gov/state/archives/",
+          "source_dataset": "new_jersey_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27839,
+      "person_id": 11883,
+      "fact_type": "Census",
+      "date_string": "1930",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1930 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37098,
+          "fact_id": 27839,
+          "source_id": 860,
+          "evidence_text": "1930 United States Federal Census Schedule; Population schedule enumeration record for Wilbert Cuff in Delmarva.",
+          "source_title": "1930 United States Federal Census",
+          "source_url": "4531895_00729.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37099,
+          "fact_id": 27839,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census Schedule; Population schedule enumeration record for Wilbert Cuff in Delmarva.",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 27840,
+      "person_id": 11883,
+      "fact_type": "Social Security Application",
+      "date_string": "1930",
+      "place_string": "United States",
+      "value_string": "Social Security Account Application (Form SS-5) on file for Wilbert Cuff",
+      "citations": [
+        {
+          "citation_id": 37100,
+          "fact_id": 27840,
+          "source_id": 1281,
+          "evidence_text": "Social Security Administration Numerical Identification (NUMIDENT) Files; Form SS-5 Application for Account Number filed for Wilbert Cuff.",
+          "source_title": "Social Security Administration: Application for Account Number (Form SS-5) & Numerical Identification Files (NUMIDENT)",
+          "source_url": "https://www.archives.gov/research/genealogy/social-security",
+          "source_dataset": "social_security_administration"
+        }
+      ]
+    },
+    {
+      "fact_id": 27841,
+      "person_id": 11883,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Wilbert Cuff",
+      "citations": [
+        {
+          "citation_id": 37101,
+          "fact_id": 27841,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Wilbert Cuff.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse_of",

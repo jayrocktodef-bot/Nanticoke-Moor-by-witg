@@ -53,6 +53,15 @@
           "source_title": "Record: cott.htm",
           "source_url": "cott.htm",
           "source_dataset": "lynncjackson"
+        },
+        {
+          "citation_id": 16818,
+          "fact_id": 365,
+          "source_id": 1270,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Jesse Dean Sr, born Aug 1895.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
         }
       ]
     },
@@ -72,6 +81,15 @@
           "source_title": "Record: cott.htm",
           "source_url": "cott.htm",
           "source_dataset": "lynncjackson"
+        },
+        {
+          "citation_id": 16819,
+          "fact_id": 366,
+          "source_id": 1270,
+          "evidence_text": "Bureau of Vital Statistics, Certificate and Return of Death; Official vital registration recording Jesse Dean Sr, deceased 12 May 1934 (aged 38).",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
         }
       ]
     },
@@ -148,6 +166,15 @@
           "source_title": "Record: FindAGrave Memorial 250905376",
           "source_url": "https://www.findagrave.com/memorial/250905376/jesse-belle-srachta",
           "source_dataset": "findagrave"
+        },
+        {
+          "citation_id": 16823,
+          "fact_id": 11712,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Jesse Dean Sr.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
         }
       ]
     },
@@ -967,18 +994,56 @@
           "source_dataset": "mitsawokett_primary"
         }
       ]
-    }
-  ],
-  "relationships": [
+    },
     {
-      "relationship_type": "spouse_of",
-      "role": "spouse",
-      "evidence_text": "Documented Marriage: Jesse Dean Sr married Sometime Prior (married sometime prior to 1827)",
-      "certainty": "confirmed",
-      "rel_id": 11880,
-      "rel_name": "Sometime Prior"
+      "fact_id": 16446,
+      "person_id": 232,
+      "fact_type": "Burial",
+      "date_string": "12 May 1934 (aged 38)",
+      "place_string": "Delmarva",
+      "value_string": "Interred in Delmarva cemetery (Find a Grave #250905376)",
+      "citations": [
+        {
+          "citation_id": 16820,
+          "fact_id": 16446,
+          "source_id": 953,
+          "evidence_text": "Gravestone photographic survey and memorial record for Jesse Dean Sr (Find a Grave Memorial #250905376).",
+          "source_title": "Record: FindAGrave Memorial 250905376",
+          "source_url": "https://www.findagrave.com/memorial/250905376/jesse-belle-srachta",
+          "source_dataset": "findagrave"
+        }
+      ]
+    },
+    {
+      "fact_id": 16447,
+      "person_id": 232,
+      "fact_type": "Census",
+      "date_string": "1900",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1900 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 16821,
+          "fact_id": 16447,
+          "source_id": 857,
+          "evidence_text": "1900 United States Federal Census Schedule; Population schedule enumeration record for Jesse Dean Sr in Delmarva.",
+          "source_title": "1900 United States Federal Census",
+          "source_url": "4119668_00216.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 16822,
+          "fact_id": 16447,
+          "source_id": 860,
+          "evidence_text": "1930 United States Federal Census Schedule; Population schedule enumeration record for Jesse Dean Sr in Delmarva.",
+          "source_title": "1930 United States Federal Census",
+          "source_url": "4531895_00729.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
+  "relationships": [],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

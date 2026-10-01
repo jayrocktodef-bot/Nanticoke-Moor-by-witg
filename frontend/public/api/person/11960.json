@@ -6,7 +6,7 @@
     "middle_name": "E",
     "maiden_name": null,
     "married_last_name": "Moore",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "abt 1913 Virginia",
     "death_info": "",
@@ -17,7 +17,93 @@
     "death_date": null,
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 28113,
+      "person_id": 11960,
+      "fact_type": "Birth",
+      "date_string": "abt 1913 Virginia",
+      "place_string": "Delaware",
+      "value_string": "Born abt 1913 Virginia",
+      "citations": [
+        {
+          "citation_id": 37443,
+          "fact_id": 28113,
+          "source_id": 1270,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording James E Moore, born abt 1913 Virginia.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28114,
+      "person_id": 11960,
+      "fact_type": "Census",
+      "date_string": "1920",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1920 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37444,
+          "fact_id": 28114,
+          "source_id": 859,
+          "evidence_text": "1920 United States Federal Census Schedule; Population schedule enumeration record for James E Moore in Delmarva.",
+          "source_title": "1920 United States Federal Census",
+          "source_url": "4295769-00352.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37445,
+          "fact_id": 28114,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census Schedule; Population schedule enumeration record for James E Moore in Delmarva.",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 28115,
+      "person_id": 11960,
+      "fact_type": "Social Security Application",
+      "date_string": "1913",
+      "place_string": "United States",
+      "value_string": "Social Security Account Application (Form SS-5) on file for James E Moore",
+      "citations": [
+        {
+          "citation_id": 37446,
+          "fact_id": 28115,
+          "source_id": 1281,
+          "evidence_text": "Social Security Administration Numerical Identification (NUMIDENT) Files; Form SS-5 Application for Account Number filed for James E Moore.",
+          "source_title": "Social Security Administration: Application for Account Number (Form SS-5) & Numerical Identification Files (NUMIDENT)",
+          "source_url": "https://www.archives.gov/research/genealogy/social-security",
+          "source_dataset": "social_security_administration"
+        }
+      ]
+    },
+    {
+      "fact_id": 28116,
+      "person_id": 11960,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for James E Moore",
+      "citations": [
+        {
+          "citation_id": 37447,
+          "fact_id": 28116,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for James E Moore.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",

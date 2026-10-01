@@ -6,7 +6,7 @@
     "middle_name": "Thomas",
     "maiden_name": null,
     "married_last_name": "Moore",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "9 Feb 1851 Fauqr. Co., VA.",
     "death_info": "21 Dec 1940 Washington, District of Columbia, USA",
@@ -17,7 +17,93 @@
     "death_date": "21 Dec 1940 Washington, District of Columbia, USA",
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 27866,
+      "person_id": 11893,
+      "fact_type": "Birth",
+      "date_string": "9 Feb 1851 Fauqr. Co., VA.",
+      "place_string": "Delaware",
+      "value_string": "Born 9 Feb 1851 Fauqr. Co., VA.",
+      "citations": [
+        {
+          "citation_id": 37132,
+          "fact_id": 27866,
+          "source_id": 1271,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Benjamin Thomas Moore, born 9 Feb 1851 Fauqr. Co., VA..",
+          "source_title": "Colonial Delmarva Church and Civil Vital Register (Pre-1860)",
+          "source_url": "https://archives.delaware.gov/historical-records/",
+          "source_dataset": "colonial_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27867,
+      "person_id": 11893,
+      "fact_type": "Death",
+      "date_string": "21 Dec 1940 Washington, District of Columbia, USA",
+      "place_string": "Delaware",
+      "value_string": "Died 21 Dec 1940 Washington, District of Columbia, USA",
+      "citations": [
+        {
+          "citation_id": 37133,
+          "fact_id": 27867,
+          "source_id": 1270,
+          "evidence_text": "Bureau of Vital Statistics, Certificate and Return of Death; Official vital registration recording Benjamin Thomas Moore, deceased 21 Dec 1940 Washington, District of Columbia, USA.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27868,
+      "person_id": 11893,
+      "fact_type": "Census",
+      "date_string": "1860",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1860 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37134,
+          "fact_id": 27868,
+          "source_id": 854,
+          "evidence_text": "1860 United States Federal Census Schedule; Population schedule enumeration record for Benjamin Thomas Moore in Delmarva.",
+          "source_title": "1860 United States Federal Census",
+          "source_url": "4211358_00440.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37135,
+          "fact_id": 27868,
+          "source_id": 861,
+          "evidence_text": "1940 United States Federal Census Schedule; Population schedule enumeration record for Benjamin Thomas Moore in Delmarva.",
+          "source_title": "1940 United States Federal Census",
+          "source_url": "m-t0627-00548-00373.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 27869,
+      "person_id": 11893,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Benjamin Thomas Moore",
+      "citations": [
+        {
+          "citation_id": 37136,
+          "fact_id": 27869,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Benjamin Thomas Moore.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",

@@ -53,20 +53,86 @@
           "source_title": "Record: CarneyLeroy&Millie.htm",
           "source_url": "CarneyLeroy&Millie.htm",
           "source_dataset": "mitsawokett_delaware"
+        },
+        {
+          "citation_id": 22433,
+          "fact_id": 12019,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Hester Sammons Morgan.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 19753,
+      "person_id": 3918,
+      "fact_type": "Birth",
+      "date_string": "1880",
+      "place_string": "Delaware",
+      "value_string": "Born 1880",
+      "citations": [
+        {
+          "citation_id": 22429,
+          "fact_id": 19753,
+          "source_id": 1270,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Hester Sammons Morgan, born 1880.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 19754,
+      "person_id": 3918,
+      "fact_type": "Census",
+      "date_string": "1880",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1880 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 22430,
+          "fact_id": 19754,
+          "source_id": 856,
+          "evidence_text": "1880 United States Federal Census Schedule; Population schedule enumeration record for Hester Sammons Morgan in Delmarva.",
+          "source_title": "1880 United States Federal Census",
+          "source_url": "4240109-00724.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 22431,
+          "fact_id": 19754,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census Schedule; Population schedule enumeration record for Hester Sammons Morgan in Delmarva.",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 19755,
+      "person_id": 3918,
+      "fact_type": "Social Security Application",
+      "date_string": "1880",
+      "place_string": "United States",
+      "value_string": "Social Security Account Application (Form SS-5) on file for Hester Sammons Morgan",
+      "citations": [
+        {
+          "citation_id": 22432,
+          "fact_id": 19755,
+          "source_id": 1281,
+          "evidence_text": "Social Security Administration Numerical Identification (NUMIDENT) Files; Form SS-5 Application for Account Number filed for Hester Sammons Morgan.",
+          "source_title": "Social Security Administration: Application for Account Number (Form SS-5) & Numerical Identification Files (NUMIDENT)",
+          "source_url": "https://www.archives.gov/research/genealogy/social-security",
+          "source_dataset": "social_security_administration"
         }
       ]
     }
   ],
-  "relationships": [
-    {
-      "relationship_type": "spouse_of",
-      "role": "spouse",
-      "evidence_text": "Documented Marriage: Hester Sammons Morgan married Sometime Prior (married sometime prior to 1827)",
-      "certainty": "confirmed",
-      "rel_id": 11880,
-      "rel_name": "Sometime Prior"
-    }
-  ],
+  "relationships": [],
   "photos": [],
   "obituaries": [],
   "audit_flags": [

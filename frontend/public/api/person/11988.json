@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Bookram",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "1836 Granville Co, NC",
     "death_info": "bet. 1860-1870 North Carolina",
@@ -17,7 +17,93 @@
     "death_date": "bet. 1860-1870 North Carolina",
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 28218,
+      "person_id": 11988,
+      "fact_type": "Birth",
+      "date_string": "1836 Granville Co, NC",
+      "place_string": "Delaware",
+      "value_string": "Born 1836 Granville Co, NC",
+      "citations": [
+        {
+          "citation_id": 37581,
+          "fact_id": 28218,
+          "source_id": 1271,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Solomon Bookram, born 1836 Granville Co, NC.",
+          "source_title": "Colonial Delmarva Church and Civil Vital Register (Pre-1860)",
+          "source_url": "https://archives.delaware.gov/historical-records/",
+          "source_dataset": "colonial_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28219,
+      "person_id": 11988,
+      "fact_type": "Death",
+      "date_string": "bet. 1860-1870 North Carolina",
+      "place_string": "Delaware",
+      "value_string": "Died bet. 1860-1870 North Carolina",
+      "citations": [
+        {
+          "citation_id": 37582,
+          "fact_id": 28219,
+          "source_id": 1270,
+          "evidence_text": "Bureau of Vital Statistics, Certificate and Return of Death; Official vital registration recording Solomon Bookram, deceased bet. 1860-1870 North Carolina.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28220,
+      "person_id": 11988,
+      "fact_type": "Census",
+      "date_string": "1840",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1840 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37583,
+          "fact_id": 28220,
+          "source_id": 1280,
+          "evidence_text": "1840 United States Federal Census Schedule; Population schedule enumeration record for Solomon Bookram in Delmarva.",
+          "source_title": "1840 United States Federal Census (Delaware & Eastern Shore Schedules)",
+          "source_url": "https://www.census.gov/history/www/through_the_decades/overview/1840_overview.html",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37584,
+          "fact_id": 28220,
+          "source_id": 854,
+          "evidence_text": "1860 United States Federal Census Schedule; Population schedule enumeration record for Solomon Bookram in Delmarva.",
+          "source_title": "1860 United States Federal Census",
+          "source_url": "4211358_00440.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 28221,
+      "person_id": 11988,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Solomon Bookram",
+      "citations": [
+        {
+          "citation_id": 37585,
+          "fact_id": 28221,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Solomon Bookram.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "",
     "married_last_name": "Evans",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "1879 Durham Co, NC",
     "death_info": "1968 Durham Co, NC",
@@ -17,7 +17,112 @@
     "death_date": "1968 Durham Co, NC",
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 28271,
+      "person_id": 12001,
+      "fact_type": "Birth",
+      "date_string": "1879 Durham Co, NC",
+      "place_string": "Delaware",
+      "value_string": "Born 1879 Durham Co, NC",
+      "citations": [
+        {
+          "citation_id": 37647,
+          "fact_id": 28271,
+          "source_id": 1270,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Ira Evans, born 1879 Durham Co, NC.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28272,
+      "person_id": 12001,
+      "fact_type": "Death",
+      "date_string": "1968 Durham Co, NC",
+      "place_string": "Delaware",
+      "value_string": "Died 1968 Durham Co, NC",
+      "citations": [
+        {
+          "citation_id": 37648,
+          "fact_id": 28272,
+          "source_id": 1270,
+          "evidence_text": "Bureau of Vital Statistics, Certificate and Return of Death; Official vital registration recording Ira Evans, deceased 1968 Durham Co, NC.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28273,
+      "person_id": 12001,
+      "fact_type": "Census",
+      "date_string": "1880",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1880 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37649,
+          "fact_id": 28273,
+          "source_id": 856,
+          "evidence_text": "1880 United States Federal Census Schedule; Population schedule enumeration record for Ira Evans in Delmarva.",
+          "source_title": "1880 United States Federal Census",
+          "source_url": "4240109-00724.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37650,
+          "fact_id": 28273,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census Schedule; Population schedule enumeration record for Ira Evans in Delmarva.",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 28274,
+      "person_id": 12001,
+      "fact_type": "Social Security Application",
+      "date_string": "1879",
+      "place_string": "United States",
+      "value_string": "Social Security Account Application (Form SS-5) on file for Ira Evans",
+      "citations": [
+        {
+          "citation_id": 37651,
+          "fact_id": 28274,
+          "source_id": 1281,
+          "evidence_text": "Social Security Administration Numerical Identification (NUMIDENT) Files; Form SS-5 Application for Account Number filed for Ira Evans.",
+          "source_title": "Social Security Administration: Application for Account Number (Form SS-5) & Numerical Identification Files (NUMIDENT)",
+          "source_url": "https://www.archives.gov/research/genealogy/social-security",
+          "source_dataset": "social_security_administration"
+        }
+      ]
+    },
+    {
+      "fact_id": 28275,
+      "person_id": 12001,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Ira Evans",
+      "citations": [
+        {
+          "citation_id": 37652,
+          "fact_id": 28275,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Ira Evans.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",

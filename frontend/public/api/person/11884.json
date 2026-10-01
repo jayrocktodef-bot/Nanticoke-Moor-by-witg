@@ -17,7 +17,93 @@
     "death_date": null,
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 27842,
+      "person_id": 11884,
+      "fact_type": "Birth",
+      "date_string": "1865",
+      "place_string": "Delaware",
+      "value_string": "Born 1865",
+      "citations": [
+        {
+          "citation_id": 37102,
+          "fact_id": 27842,
+          "source_id": 1270,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Isaac Mosley, born 1865.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27843,
+      "person_id": 11884,
+      "fact_type": "Census",
+      "date_string": "1870",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1870 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37103,
+          "fact_id": 27843,
+          "source_id": 855,
+          "evidence_text": "1870 United States Federal Census Schedule; Population schedule enumeration record for Isaac Mosley in Delmarva.",
+          "source_title": "1870 United States Federal Census",
+          "source_url": "4263346_00449.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37104,
+          "fact_id": 27843,
+          "source_id": 861,
+          "evidence_text": "1940 United States Federal Census Schedule; Population schedule enumeration record for Isaac Mosley in Delmarva.",
+          "source_title": "1940 United States Federal Census",
+          "source_url": "m-t0627-00548-00373.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 27844,
+      "person_id": 11884,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Documented in Manship M.E. Church Register",
+      "citations": [
+        {
+          "citation_id": 37105,
+          "fact_id": 27844,
+          "source_id": 1282,
+          "evidence_text": "Manship Methodist Episcopal Church Historical Register (Cheswold, Kent County); Historical class roll record for Isaac Mosley.",
+          "source_title": "Harmony Methodist Episcopal Church Parish Register & Minutes (Millsboro, Sussex County)",
+          "source_url": "https://archives.delaware.gov/",
+          "source_dataset": "church_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27845,
+      "person_id": 11884,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Isaac Mosley",
+      "citations": [
+        {
+          "citation_id": 37106,
+          "fact_id": 27845,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Isaac Mosley.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse_of",

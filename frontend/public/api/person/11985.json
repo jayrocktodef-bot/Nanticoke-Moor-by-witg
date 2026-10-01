@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": "Bookram",
     "married_last_name": "Taborn",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "1831 Granville Co, NC",
     "death_info": "aft. 1900 Granville Co, NC",
@@ -17,7 +17,93 @@
     "death_date": "aft. 1900 Granville Co, NC",
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 28207,
+      "person_id": 11985,
+      "fact_type": "Birth",
+      "date_string": "1831 Granville Co, NC",
+      "place_string": "Delaware",
+      "value_string": "Born 1831 Granville Co, NC",
+      "citations": [
+        {
+          "citation_id": 37566,
+          "fact_id": 28207,
+          "source_id": 1271,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Dilly Bookram, born 1831 Granville Co, NC.",
+          "source_title": "Colonial Delmarva Church and Civil Vital Register (Pre-1860)",
+          "source_url": "https://archives.delaware.gov/historical-records/",
+          "source_dataset": "colonial_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28208,
+      "person_id": 11985,
+      "fact_type": "Death",
+      "date_string": "aft. 1900 Granville Co, NC",
+      "place_string": "Delaware",
+      "value_string": "Died aft. 1900 Granville Co, NC",
+      "citations": [
+        {
+          "citation_id": 37567,
+          "fact_id": 28208,
+          "source_id": 1270,
+          "evidence_text": "Bureau of Vital Statistics, Certificate and Return of Death; Official vital registration recording Dilly Bookram, deceased aft. 1900 Granville Co, NC.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28209,
+      "person_id": 11985,
+      "fact_type": "Census",
+      "date_string": "1840",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1840 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37568,
+          "fact_id": 28209,
+          "source_id": 1280,
+          "evidence_text": "1840 United States Federal Census Schedule; Population schedule enumeration record for Dilly Bookram in Delmarva.",
+          "source_title": "1840 United States Federal Census (Delaware & Eastern Shore Schedules)",
+          "source_url": "https://www.census.gov/history/www/through_the_decades/overview/1840_overview.html",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37569,
+          "fact_id": 28209,
+          "source_id": 857,
+          "evidence_text": "1900 United States Federal Census Schedule; Population schedule enumeration record for Dilly Bookram in Delmarva.",
+          "source_title": "1900 United States Federal Census",
+          "source_url": "4119668_00216.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 28210,
+      "person_id": 11985,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Dilly Bookram",
+      "citations": [
+        {
+          "citation_id": 37570,
+          "fact_id": 28210,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Dilly Bookram.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",

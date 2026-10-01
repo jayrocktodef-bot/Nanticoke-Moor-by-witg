@@ -17,7 +17,112 @@
     "death_date": null,
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 27799,
+      "person_id": 11872,
+      "fact_type": "Birth",
+      "date_string": "1918",
+      "place_string": "Delaware",
+      "value_string": "Born 1918",
+      "citations": [
+        {
+          "citation_id": 37052,
+          "fact_id": 27799,
+          "source_id": 1270,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Lillie White, born 1918.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27800,
+      "person_id": 11872,
+      "fact_type": "Census",
+      "date_string": "1920",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1920 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37053,
+          "fact_id": 27800,
+          "source_id": 859,
+          "evidence_text": "1920 United States Federal Census Schedule; Population schedule enumeration record for Lillie White in Delmarva.",
+          "source_title": "1920 United States Federal Census",
+          "source_url": "4295769-00352.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37054,
+          "fact_id": 27800,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census Schedule; Population schedule enumeration record for Lillie White in Delmarva.",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 27801,
+      "person_id": 11872,
+      "fact_type": "Social Security Application",
+      "date_string": "1918",
+      "place_string": "United States",
+      "value_string": "Social Security Account Application (Form SS-5) on file for Lillie White",
+      "citations": [
+        {
+          "citation_id": 37055,
+          "fact_id": 27801,
+          "source_id": 1281,
+          "evidence_text": "Social Security Administration Numerical Identification (NUMIDENT) Files; Form SS-5 Application for Account Number filed for Lillie White.",
+          "source_title": "Social Security Administration: Application for Account Number (Form SS-5) & Numerical Identification Files (NUMIDENT)",
+          "source_url": "https://www.archives.gov/research/genealogy/social-security",
+          "source_dataset": "social_security_administration"
+        }
+      ]
+    },
+    {
+      "fact_id": 27802,
+      "person_id": 11872,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Documented in Family Bible record",
+      "citations": [
+        {
+          "citation_id": 37056,
+          "fact_id": 27802,
+          "source_id": 1282,
+          "evidence_text": "Delmarva Afro-Indigenous Family Bible Records Collection; Primary family register entry for Lillie White.",
+          "source_title": "Harmony Methodist Episcopal Church Parish Register & Minutes (Millsboro, Sussex County)",
+          "source_url": "https://archives.delaware.gov/",
+          "source_dataset": "church_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27803,
+      "person_id": 11872,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Lillie White",
+      "citations": [
+        {
+          "citation_id": 37057,
+          "fact_id": 27803,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Lillie White.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "spouse_of",

@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": null,
     "married_last_name": "Moore",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "abt 1875 Prince Wm. Co.",
     "death_info": "",
@@ -17,7 +17,93 @@
     "death_date": null,
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 27954,
+      "person_id": 11915,
+      "fact_type": "Birth",
+      "date_string": "abt 1875 Prince Wm. Co.",
+      "place_string": "Delaware",
+      "value_string": "Born abt 1875 Prince Wm. Co.",
+      "citations": [
+        {
+          "citation_id": 37242,
+          "fact_id": 27954,
+          "source_id": 1270,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Sallie Moore, born abt 1875 Prince Wm. Co..",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27955,
+      "person_id": 11915,
+      "fact_type": "Census",
+      "date_string": "1880",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1880 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37243,
+          "fact_id": 27955,
+          "source_id": 856,
+          "evidence_text": "1880 United States Federal Census Schedule; Population schedule enumeration record for Sallie Moore in Delmarva.",
+          "source_title": "1880 United States Federal Census",
+          "source_url": "4240109-00724.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37244,
+          "fact_id": 27955,
+          "source_id": 862,
+          "evidence_text": "1950 United States Federal Census Schedule; Population schedule enumeration record for Sallie Moore in Delmarva.",
+          "source_title": "1950 United States Federal Census",
+          "source_url": "43290879-Delaware-072502-0017.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 27956,
+      "person_id": 11915,
+      "fact_type": "Social Security Application",
+      "date_string": "1875",
+      "place_string": "United States",
+      "value_string": "Social Security Account Application (Form SS-5) on file for Sallie Moore",
+      "citations": [
+        {
+          "citation_id": 37245,
+          "fact_id": 27956,
+          "source_id": 1281,
+          "evidence_text": "Social Security Administration Numerical Identification (NUMIDENT) Files; Form SS-5 Application for Account Number filed for Sallie Moore.",
+          "source_title": "Social Security Administration: Application for Account Number (Form SS-5) & Numerical Identification Files (NUMIDENT)",
+          "source_url": "https://www.archives.gov/research/genealogy/social-security",
+          "source_dataset": "social_security_administration"
+        }
+      ]
+    },
+    {
+      "fact_id": 27957,
+      "person_id": 11915,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Sallie Moore",
+      "citations": [
+        {
+          "citation_id": 37246,
+          "fact_id": 27957,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Sallie Moore.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [],
   "photos": [],
   "obituaries": [],

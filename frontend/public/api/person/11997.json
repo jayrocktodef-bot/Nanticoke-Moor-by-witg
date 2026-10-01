@@ -6,7 +6,7 @@
     "middle_name": "Turner",
     "maiden_name": "",
     "married_last_name": "Hedgepeth",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "1863 Granville Co, NC",
     "death_info": "1946 Granville Co, NC",
@@ -17,7 +17,93 @@
     "death_date": "1946 Granville Co, NC",
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 28255,
+      "person_id": 11997,
+      "fact_type": "Birth",
+      "date_string": "1863 Granville Co, NC",
+      "place_string": "Delaware",
+      "value_string": "Born 1863 Granville Co, NC",
+      "citations": [
+        {
+          "citation_id": 37627,
+          "fact_id": 28255,
+          "source_id": 1270,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording William Turner Hedgepeth, born 1863 Granville Co, NC.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28256,
+      "person_id": 11997,
+      "fact_type": "Death",
+      "date_string": "1946 Granville Co, NC",
+      "place_string": "Delaware",
+      "value_string": "Died 1946 Granville Co, NC",
+      "citations": [
+        {
+          "citation_id": 37628,
+          "fact_id": 28256,
+          "source_id": 1270,
+          "evidence_text": "Bureau of Vital Statistics, Certificate and Return of Death; Official vital registration recording William Turner Hedgepeth, deceased 1946 Granville Co, NC.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28257,
+      "person_id": 11997,
+      "fact_type": "Census",
+      "date_string": "1870",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1870 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37629,
+          "fact_id": 28257,
+          "source_id": 855,
+          "evidence_text": "1870 United States Federal Census Schedule; Population schedule enumeration record for William Turner Hedgepeth in Delmarva.",
+          "source_title": "1870 United States Federal Census",
+          "source_url": "4263346_00449.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37630,
+          "fact_id": 28257,
+          "source_id": 861,
+          "evidence_text": "1940 United States Federal Census Schedule; Population schedule enumeration record for William Turner Hedgepeth in Delmarva.",
+          "source_title": "1940 United States Federal Census",
+          "source_url": "m-t0627-00548-00373.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 28258,
+      "person_id": 11997,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for William Turner Hedgepeth",
+      "citations": [
+        {
+          "citation_id": 37631,
+          "fact_id": 28258,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for William Turner Hedgepeth.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",

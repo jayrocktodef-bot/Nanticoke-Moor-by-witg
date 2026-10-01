@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": null,
     "married_last_name": "Moore",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "Jan 1882 Philomath, Rayle, Wilkes, Georgia, USA",
     "death_info": "Nov 1949 Washington, Wilkes, Georgia, USA",
@@ -17,7 +17,112 @@
     "death_date": "Nov 1949 Washington, Wilkes, Georgia, USA",
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 27913,
+      "person_id": 11905,
+      "fact_type": "Birth",
+      "date_string": "Jan 1882 Philomath, Rayle, Wilkes, Georgia, USA",
+      "place_string": "Delaware",
+      "value_string": "Born Jan 1882 Philomath, Rayle, Wilkes, Georgia, USA",
+      "citations": [
+        {
+          "citation_id": 37191,
+          "fact_id": 27913,
+          "source_id": 1270,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording SAM Moore, born Jan 1882 Philomath, Rayle, Wilkes, Georgia, USA.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27914,
+      "person_id": 11905,
+      "fact_type": "Death",
+      "date_string": "Nov 1949 Washington, Wilkes, Georgia, USA",
+      "place_string": "Delaware",
+      "value_string": "Died Nov 1949 Washington, Wilkes, Georgia, USA",
+      "citations": [
+        {
+          "citation_id": 37192,
+          "fact_id": 27914,
+          "source_id": 1270,
+          "evidence_text": "Bureau of Vital Statistics, Certificate and Return of Death; Official vital registration recording SAM Moore, deceased Nov 1949 Washington, Wilkes, Georgia, USA.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27915,
+      "person_id": 11905,
+      "fact_type": "Census",
+      "date_string": "1900",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1900 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37193,
+          "fact_id": 27915,
+          "source_id": 857,
+          "evidence_text": "1900 United States Federal Census Schedule; Population schedule enumeration record for SAM Moore in Delmarva.",
+          "source_title": "1900 United States Federal Census",
+          "source_url": "4119668_00216.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37194,
+          "fact_id": 27915,
+          "source_id": 861,
+          "evidence_text": "1940 United States Federal Census Schedule; Population schedule enumeration record for SAM Moore in Delmarva.",
+          "source_title": "1940 United States Federal Census",
+          "source_url": "m-t0627-00548-00373.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 27916,
+      "person_id": 11905,
+      "fact_type": "Social Security Application",
+      "date_string": "1882",
+      "place_string": "United States",
+      "value_string": "Social Security Account Application (Form SS-5) on file for SAM Moore",
+      "citations": [
+        {
+          "citation_id": 37195,
+          "fact_id": 27916,
+          "source_id": 1281,
+          "evidence_text": "Social Security Administration Numerical Identification (NUMIDENT) Files; Form SS-5 Application for Account Number filed for SAM Moore.",
+          "source_title": "Social Security Administration: Application for Account Number (Form SS-5) & Numerical Identification Files (NUMIDENT)",
+          "source_url": "https://www.archives.gov/research/genealogy/social-security",
+          "source_dataset": "social_security_administration"
+        }
+      ]
+    },
+    {
+      "fact_id": 27917,
+      "person_id": 11905,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for SAM Moore",
+      "citations": [
+        {
+          "citation_id": 37196,
+          "fact_id": 27917,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for SAM Moore.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [],
   "photos": [],
   "obituaries": [],

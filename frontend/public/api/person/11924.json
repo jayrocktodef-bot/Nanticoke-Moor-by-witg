@@ -6,7 +6,7 @@
     "middle_name": "E",
     "maiden_name": null,
     "married_last_name": "Moore",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "abt 1844 Virginia",
     "death_info": "",
@@ -17,7 +17,74 @@
     "death_date": null,
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 27988,
+      "person_id": 11924,
+      "fact_type": "Birth",
+      "date_string": "abt 1844 Virginia",
+      "place_string": "Delaware",
+      "value_string": "Born abt 1844 Virginia",
+      "citations": [
+        {
+          "citation_id": 37284,
+          "fact_id": 27988,
+          "source_id": 1271,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Lucy E Moore, born abt 1844 Virginia.",
+          "source_title": "Colonial Delmarva Church and Civil Vital Register (Pre-1860)",
+          "source_url": "https://archives.delaware.gov/historical-records/",
+          "source_dataset": "colonial_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 27989,
+      "person_id": 11924,
+      "fact_type": "Census",
+      "date_string": "1850",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1850 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37285,
+          "fact_id": 27989,
+          "source_id": 853,
+          "evidence_text": "1850 United States Federal Census Schedule; Population schedule enumeration record for Lucy E Moore in Delmarva.",
+          "source_title": "1850 United States Federal Census",
+          "source_url": "https://www.ancestry.com/discoveryui-content/view/19697629:8054",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37286,
+          "fact_id": 27989,
+          "source_id": 858,
+          "evidence_text": "1910 United States Federal Census Schedule; Population schedule enumeration record for Lucy E Moore in Delmarva.",
+          "source_title": "1910 United States Federal Census",
+          "source_url": "31111_4330855-01461.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 27990,
+      "person_id": 11924,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Lucy E Moore",
+      "citations": [
+        {
+          "citation_id": 37287,
+          "fact_id": 27990,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Lucy E Moore.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",

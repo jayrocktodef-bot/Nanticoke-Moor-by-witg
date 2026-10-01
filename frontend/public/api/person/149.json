@@ -53,6 +53,15 @@
           "source_title": "Record: coker-m3.htm",
           "source_url": "coker-m3.htm",
           "source_dataset": "lynncjackson"
+        },
+        {
+          "citation_id": 16690,
+          "fact_id": 284,
+          "source_id": 1270,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording John H. Morgan, born unknown.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
         }
       ]
     },
@@ -72,6 +81,15 @@
           "source_title": "Record: coker-m3.htm",
           "source_url": "coker-m3.htm",
           "source_dataset": "lynncjackson"
+        },
+        {
+          "citation_id": 16691,
+          "fact_id": 285,
+          "source_id": 1270,
+          "evidence_text": "Bureau of Vital Statistics, Certificate and Return of Death; Official vital registration recording John H. Morgan, deceased 1912.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
         }
       ]
     },
@@ -148,6 +166,15 @@
           "source_title": "Record: FindAGrave Memorial 228663322",
           "source_url": "https://www.findagrave.com/memorial/228663322/john-morgan",
           "source_dataset": "findagrave"
+        },
+        {
+          "citation_id": 16695,
+          "fact_id": 11704,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for John H. Morgan.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
         }
       ]
     },
@@ -435,18 +462,56 @@
           "source_dataset": "mitsawokett_primary"
         }
       ]
-    }
-  ],
-  "relationships": [
+    },
     {
-      "relationship_type": "spouse_of",
-      "role": "spouse",
-      "evidence_text": "Documented Marriage: John H. Morgan married Sometime Prior (married sometime prior to 1827)",
-      "certainty": "confirmed",
-      "rel_id": 11880,
-      "rel_name": "Sometime Prior"
+      "fact_id": 16384,
+      "person_id": 149,
+      "fact_type": "Burial",
+      "date_string": "1912",
+      "place_string": "Delmarva",
+      "value_string": "Interred in Delmarva cemetery (Find a Grave #228663322)",
+      "citations": [
+        {
+          "citation_id": 16692,
+          "fact_id": 16384,
+          "source_id": 945,
+          "evidence_text": "Gravestone photographic survey and memorial record for John H. Morgan (Find a Grave Memorial #228663322).",
+          "source_title": "Record: FindAGrave Memorial 228663322",
+          "source_url": "https://www.findagrave.com/memorial/228663322/john-morgan",
+          "source_dataset": "findagrave"
+        }
+      ]
+    },
+    {
+      "fact_id": 16385,
+      "person_id": 149,
+      "fact_type": "Census",
+      "date_string": "1850",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1850 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 16693,
+          "fact_id": 16385,
+          "source_id": 853,
+          "evidence_text": "1850 United States Federal Census Schedule; Population schedule enumeration record for John H. Morgan in Delmarva.",
+          "source_title": "1850 United States Federal Census",
+          "source_url": "https://www.ancestry.com/discoveryui-content/view/19697629:8054",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 16694,
+          "fact_id": 16385,
+          "source_id": 858,
+          "evidence_text": "1910 United States Federal Census Schedule; Population schedule enumeration record for John H. Morgan in Delmarva.",
+          "source_title": "1910 United States Federal Census",
+          "source_url": "31111_4330855-01461.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
     }
   ],
+  "relationships": [],
   "photos": [
     {
       "person_id": 149,

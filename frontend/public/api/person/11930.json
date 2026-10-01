@@ -6,7 +6,7 @@
     "middle_name": "",
     "maiden_name": null,
     "married_last_name": "Moore",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "1857 Fauqr Co VA",
     "death_info": "1924 Hines, Fauquier, Virginia, USA",
@@ -17,7 +17,93 @@
     "death_date": "1924 Hines, Fauquier, Virginia, USA",
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 28009,
+      "person_id": 11930,
+      "fact_type": "Birth",
+      "date_string": "1857 Fauqr Co VA",
+      "place_string": "Delaware",
+      "value_string": "Born 1857 Fauqr Co VA",
+      "citations": [
+        {
+          "citation_id": 37311,
+          "fact_id": 28009,
+          "source_id": 1271,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Hattie Moore, born 1857 Fauqr Co VA.",
+          "source_title": "Colonial Delmarva Church and Civil Vital Register (Pre-1860)",
+          "source_url": "https://archives.delaware.gov/historical-records/",
+          "source_dataset": "colonial_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28010,
+      "person_id": 11930,
+      "fact_type": "Death",
+      "date_string": "1924 Hines, Fauquier, Virginia, USA",
+      "place_string": "Delaware",
+      "value_string": "Died 1924 Hines, Fauquier, Virginia, USA",
+      "citations": [
+        {
+          "citation_id": 37312,
+          "fact_id": 28010,
+          "source_id": 1270,
+          "evidence_text": "Bureau of Vital Statistics, Certificate and Return of Death; Official vital registration recording Hattie Moore, deceased 1924 Hines, Fauquier, Virginia, USA.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28011,
+      "person_id": 11930,
+      "fact_type": "Census",
+      "date_string": "1860",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1860 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37313,
+          "fact_id": 28011,
+          "source_id": 854,
+          "evidence_text": "1860 United States Federal Census Schedule; Population schedule enumeration record for Hattie Moore in Delmarva.",
+          "source_title": "1860 United States Federal Census",
+          "source_url": "4211358_00440.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37314,
+          "fact_id": 28011,
+          "source_id": 859,
+          "evidence_text": "1920 United States Federal Census Schedule; Population schedule enumeration record for Hattie Moore in Delmarva.",
+          "source_title": "1920 United States Federal Census",
+          "source_url": "4295769-00352.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 28012,
+      "person_id": 11930,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Hattie Moore",
+      "citations": [
+        {
+          "citation_id": 37315,
+          "fact_id": 28012,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Hattie Moore.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",

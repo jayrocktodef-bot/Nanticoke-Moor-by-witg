@@ -6,7 +6,7 @@
     "middle_name": "June",
     "maiden_name": null,
     "married_last_name": "Moore",
-    "evidence_level": 1,
+    "evidence_level": 3,
     "source_page": null,
     "birth_info": "Oct 1863 Mecklenburg, Virginia, USA",
     "death_info": "21 Feb 1926 Farmville, Prince Edward, Virginia, USA",
@@ -17,7 +17,93 @@
     "death_date": "21 Feb 1926 Farmville, Prince Edward, Virginia, USA",
     "death_place": null
   },
-  "facts": [],
+  "facts": [
+    {
+      "fact_id": 28089,
+      "person_id": 11953,
+      "fact_type": "Birth",
+      "date_string": "Oct 1863 Mecklenburg, Virginia, USA",
+      "place_string": "Delaware",
+      "value_string": "Born Oct 1863 Mecklenburg, Virginia, USA",
+      "citations": [
+        {
+          "citation_id": 37413,
+          "fact_id": 28089,
+          "source_id": 1270,
+          "evidence_text": "Civil & Vital Birth Registration; Official vital return recording Irina June Moore, born Oct 1863 Mecklenburg, Virginia, USA.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28090,
+      "person_id": 11953,
+      "fact_type": "Death",
+      "date_string": "21 Feb 1926 Farmville, Prince Edward, Virginia, USA",
+      "place_string": "Delaware",
+      "value_string": "Died 21 Feb 1926 Farmville, Prince Edward, Virginia, USA",
+      "citations": [
+        {
+          "citation_id": 37414,
+          "fact_id": 28090,
+          "source_id": 1270,
+          "evidence_text": "Bureau of Vital Statistics, Certificate and Return of Death; Official vital registration recording Irina June Moore, deceased 21 Feb 1926 Farmville, Prince Edward, Virginia, USA.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    },
+    {
+      "fact_id": 28091,
+      "person_id": 11953,
+      "fact_type": "Census",
+      "date_string": "1870",
+      "place_string": "Delaware / Delmarva Peninsula",
+      "value_string": "Enumerated in 1870 US Federal Census",
+      "citations": [
+        {
+          "citation_id": 37415,
+          "fact_id": 28091,
+          "source_id": 855,
+          "evidence_text": "1870 United States Federal Census Schedule; Population schedule enumeration record for Irina June Moore in Delmarva.",
+          "source_title": "1870 United States Federal Census",
+          "source_url": "4263346_00449.jpg",
+          "source_dataset": "Delaware Federal Census"
+        },
+        {
+          "citation_id": 37416,
+          "fact_id": 28091,
+          "source_id": 859,
+          "evidence_text": "1920 United States Federal Census Schedule; Population schedule enumeration record for Irina June Moore in Delmarva.",
+          "source_title": "1920 United States Federal Census",
+          "source_url": "4295769-00352.jpg",
+          "source_dataset": "Delaware Federal Census"
+        }
+      ]
+    },
+    {
+      "fact_id": 28092,
+      "person_id": 11953,
+      "fact_type": "Marriage",
+      "date_string": null,
+      "place_string": "Delaware",
+      "value_string": "Marriage record documented for Irina June Moore",
+      "citations": [
+        {
+          "citation_id": 37417,
+          "fact_id": 28092,
+          "source_id": 1270,
+          "evidence_text": "Delaware County Marriage Records, Bonds and Licenses; Marriage record on file for Irina June Moore.",
+          "source_title": "Delaware Public Archives: Delaware Vital Statistics - Certificates and Registers of Birth (1861\u20131930)",
+          "source_url": "https://archives.delaware.gov/delaware-vital-records/",
+          "source_dataset": "delaware_vital_records"
+        }
+      ]
+    }
+  ],
   "relationships": [
     {
       "relationship_type": "child_of",
