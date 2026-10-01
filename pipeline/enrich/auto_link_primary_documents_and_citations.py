@@ -41,6 +41,7 @@ def clean_text(raw_text: str) -> str:
     if not raw_text:
         return ""
     t = html.unescape(raw_text)
+    t = t.replace('\xa0', ' ')
     # Collapse multiple spaces/newlines
     t = re.sub(r'[\r\n\t]+', ' ', t)
     t = re.sub(r' {2,}', ' ', t)
@@ -69,6 +70,83 @@ def extract_excerpt(text: str, match_pos: int, match_len: int, window: int = 140
         snippet = snippet + "..."
         
     return clean_text(snippet)
+
+def generate_name_variants(name, first=None, last=None, maiden=None):
+    """Build standardized name variants for cross-document entity matching."""
+    variants = []
+    if name and str(name).strip():
+        variants.append(str(name).strip())
+    if first and last:
+        f_strip, l_strip = str(first).strip(), str(last).strip()
+        variants.append(f"{f_strip} {l_strip}")
+        variants.append(f"{l_strip}, {f_strip}")
+    if first and maiden:
+        f_strip, m_strip = str(first).strip(), str(maiden).strip()
+        variants.append(f"{f_strip} {m_strip}")
+    
+    seen = set()
+    result = []
+    for v in variants:
+        v_clean = v.strip()
+        if v_clean.lower() not in seen and len(v_clean) >= 4:
+            seen.add(v_clean.lower())
+            result.append(v_clean)
+    return result
+
+def find_best_name_match(text_raw: str, name_variants: list, target_year=None, window: int = 150):
+    """
+    Find best verbatim match position and length for candidate name variants within document text.
+    Prioritizes occurrences closest to `target_year` if provided.
+    """
+    if not text_raw or not name_variants:
+        return -1, 0
+    text_lower = text_raw.lower()
+    target_year_str = str(target_year).strip() if target_year else None
+
+    best_match_pos = -1
+    best_match_len = 0
+    best_year_dist = float('inf')
+
+    for var in name_variants:
+        var_lower = var.lower()
+        if len(var_lower) < 4:
+            continue
+
+        start_idx = 0
+        while True:
+            pos = text_lower.find(var_lower, start_idx)
+            if pos == -1:
+                break
+
+            is_left_boundary = (pos == 0 or not text_lower[pos - 1].isalnum())
+            end_pos = pos + len(var_lower)
+            is_right_boundary = (end_pos == len(text_lower) or not text_lower[end_pos].isalnum())
+
+            if is_left_boundary and is_right_boundary:
+                if target_year_str:
+                    # Find distance to closest target year occurrence
+                    y_idx = 0
+                    min_dist_to_year = float('inf')
+                    while True:
+                        found_y = text_lower.find(target_year_str, y_idx)
+                        if found_y == -1:
+                            break
+                        dist = abs(pos - found_y)
+                        if dist < min_dist_to_year:
+                            min_dist_to_year = dist
+                        y_idx = found_y + len(target_year_str)
+
+                    if min_dist_to_year < best_year_dist:
+                        best_year_dist = min_dist_to_year
+                        best_match_pos = pos
+                        best_match_len = len(var_lower)
+                elif best_match_pos == -1:
+                    best_match_pos = pos
+                    best_match_len = len(var_lower)
+
+            start_idx = pos + len(var_lower)
+
+    return best_match_pos, best_match_len
 
 def main():
     conn = sqlite3.connect(DB_PATH)
