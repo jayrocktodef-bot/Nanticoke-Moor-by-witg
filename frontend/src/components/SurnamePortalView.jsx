@@ -69,8 +69,6 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
     }
   }, [activeTab, graphData]);
 
-  if (!surname) return null;
-
   const photos = data?.photos || [];
   const individuals = data?.individuals || [];
   const obituaries = data?.obituaries || [];
@@ -91,6 +89,8 @@ export default function SurnamePortalView({ surname, onClose, onSelectPerson, on
     });
     return sorted[0]?.person_id;
   }, [individuals, surname]);
+
+  if (!surname) return null;
 
   // Filter photos
   const filteredPhotos = photos.filter(p => {
