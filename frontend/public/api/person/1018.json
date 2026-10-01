@@ -244,6 +244,44 @@
           "source_dataset": "social_security_administration"
         }
       ]
+    },
+    {
+      "fact_id": 28309,
+      "person_id": 1018,
+      "fact_type": "Death",
+      "date_string": "1939",
+      "place_string": "Delmarva",
+      "value_string": "Death documented in primary record (1939)",
+      "citations": [
+        {
+          "citation_id": 37694,
+          "fact_id": 28309,
+          "source_id": 2691,
+          "evidence_text": "ONNX Transcription Verified: 'CARNEnSaem.Non Thursday.March 16.1939.John A aged 90 years Reatiyes and friends are inyitec o attendthefuneral Hitchner's funeral parlors. 20 Oak Iromthe St..Sa em.NJ. on Sunday af' (Document: Carney_John_A_Obit_1939_Obituary.jpg)",
+          "source_title": "Archival Document Record: Carney_John_A_Obit_1939_Obituary.jpg",
+          "source_url": "frontend/public/assets/archive_media/documents/Carney_John_A_Obit_1939_Obituary.jpg",
+          "source_dataset": "primary_archive_ingest"
+        }
+      ]
+    },
+    {
+      "fact_id": 28310,
+      "person_id": 1018,
+      "fact_type": "Document Mention",
+      "date_string": null,
+      "place_string": null,
+      "value_string": "Primary transcription assertion: Carney John A Obit 1939 Obituary.jpg CARNEnSaem.Non Thursday.March 16.1939.John A aged 90 years Reatiyes and friends are...",
+      "citations": [
+        {
+          "citation_id": 37695,
+          "fact_id": 28310,
+          "source_id": 2691,
+          "evidence_text": "ONNX Transcription Verified: 'CARNEnSaem.Non Thursday.March 16.1939.John A aged 90 years Reatiyes and friends are inyitec o attendthefuneral Hitchner's funeral parlors. 20 Oak Iromthe St..Sa em.NJ. on Sunday af' (Document: Carney_John_A_Obit_1939_Obituary.jpg)",
+          "source_title": "Archival Document Record: Carney_John_A_Obit_1939_Obituary.jpg",
+          "source_url": "frontend/public/assets/archive_media/documents/Carney_John_A_Obit_1939_Obituary.jpg",
+          "source_dataset": "primary_archive_ingest"
+        }
+      ]
     }
   ],
   "relationships": [],
@@ -450,6 +488,16 @@
       "description": "[XPAGE:bible-c1.htm] Marriage: date='Dec. 31, 1908'",
       "evidence": "verbatim: were married \t\tDec. 31, 1908",
       "created_at": "2026-09-03T12:54:32.761458"
+    },
+    {
+      "id": 7544,
+      "category": "AI Proposal Ambiguity",
+      "severity": "warning",
+      "person_id": 1018,
+      "person_id_secondary": null,
+      "description": "Ambiguous ONNX asset match (85%) for Carney_John_A_Obit_1939_Obituary.jpg",
+      "evidence": "Proposal #3: Both First ('John') and Surname ('Carney') matched in document",
+      "created_at": "2026-10-01 04:11:07"
     }
   ],
   "ancestry": {

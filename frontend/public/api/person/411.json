@@ -201,6 +201,26 @@
       "description": "Multiple disjoint occurrences of 'John later' \u2014 requires human review",
       "evidence": "source: jacksnja.htm, matches: 4",
       "created_at": "2026-09-03T12:54:24.541556"
+    },
+    {
+      "id": 7542,
+      "category": "AI Proposal Ambiguity",
+      "severity": "warning",
+      "person_id": 411,
+      "person_id_secondary": null,
+      "description": "Ambiguous ONNX asset match (65%) for Carney_John_A_Obit_1939_Obituary.jpg",
+      "evidence": "Proposal #1: Full name 'John' exact match in transcript",
+      "created_at": "2026-10-01 04:09:51"
+    },
+    {
+      "id": 7543,
+      "category": "AI Proposal Ambiguity",
+      "severity": "warning",
+      "person_id": 411,
+      "person_id_secondary": null,
+      "description": "Ambiguous ONNX asset match (80%) for Carney_John_A_Obit_1939_Obituary.jpg",
+      "evidence": "Proposal #2: Both First ('John') and Surname ('John') matched in document",
+      "created_at": "2026-10-01 04:10:35"
     }
   ],
   "ancestry": {
