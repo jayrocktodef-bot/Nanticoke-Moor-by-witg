@@ -29,7 +29,7 @@ import hashlib
 import numpy as np
 import cv2
 
-BASE_DIR = '/home/jequan/Desktop/Antigravity Projects/lynncjackson-genealogy-scraper'
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 DB_PATH = os.path.join(BASE_DIR, 'preservation_output', 'genealogy_preservation.db')
 MEDIA_BASE = os.path.join(BASE_DIR, 'preservation_output', 'assets', 'archive_media')
 CENSUS_DIR = os.path.join(BASE_DIR, 'preservation_output', 'ancestry_documents', 'delaware_census')

@@ -21,7 +21,7 @@ import json
 import sqlite3
 from datetime import datetime
 
-BASE_DIR = '/home/jequan/Desktop/Antigravity Projects/lynncjackson-genealogy-scraper'
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 DB_PATH = os.path.join(BASE_DIR, 'preservation_output', 'genealogy_preservation.db')
 SOURCE_MEDIA_DIR = os.path.join(BASE_DIR, 'preservation_output', 'scraped_media', 'puckham_collection')
 FRONTEND_MEDIA_DIR = os.path.join(BASE_DIR, 'frontend', 'public', 'assets', 'archive_media')

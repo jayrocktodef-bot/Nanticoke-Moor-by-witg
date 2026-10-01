@@ -69,10 +69,16 @@ An archival digital preservation platform, genealogical proof engine, and cartog
 │       │   └── ObituaryViewer.jsx          # Broadsheet obituary vault & audio reader
 │       └── utils/
 │           └── citationGenerator.js        # Academic citation & GEDCOM export engine
-├── auto_link_primary_documents_and_citations.py    # Primary document citation auto-linker
-├── model_racial_classifications_and_conflicts.py   # Census race fluidity & conflict modeler
-├── migrate_archival_schema.py                      # DeepSeek preservation schema migration
-└── export_static_build_for_vercel.py               # Production static API & asset exporter
+├── pipeline/                               # Modular archival preservation & processing pipeline
+│   ├── ingest/                             # Web, OCR, census & archival document ingestion
+│   ├── clean/                              # Deduplication, name normalization, & entity resolution
+│   ├── audit/                              # Data validation, image audits, & GPS reconciliation
+│   ├── enrich/                             # Primary citations, facial embeddings, & kinship graph
+│   ├── export/                             # Static API builds, BagIt packages, & GEDCOM X
+│   └── privacy/                            # Archivist privacy cleansing & email redaction
+├── auto_link_primary_documents_and_citations.py    # Root wrapper -> pipeline.enrich
+├── model_racial_classifications_and_conflicts.py   # Root wrapper -> pipeline.enrich
+└── export_static_build_for_vercel.py               # Root wrapper -> pipeline.export
 ```
 
 ---
@@ -82,22 +88,25 @@ An archival digital preservation platform, genealogical proof engine, and cartog
 ### 1. Ingest & Auto-Link Primary Document Citations
 ```bash
 python3 auto_link_primary_documents_and_citations.py
+# or: python3 -m pipeline.enrich.auto_link_primary_documents_and_citations
 ```
 
 ### 2. Model Racial Classifications & Evidence Conflicts
 ```bash
 python3 model_racial_classifications_and_conflicts.py
+# or: python3 -m pipeline.enrich.model_racial_classifications_and_conflicts
 ```
 
 ### 3. Export Static APIs for Production Hosting
 ```bash
 python3 export_static_build_for_vercel.py
+# or: python3 -m pipeline.export.export_static_build_for_vercel
 ```
 
 ### 4. Build Frontend Application
 ```bash
 cd frontend
-npm install
+npm ci
 npm run build
 ```
 

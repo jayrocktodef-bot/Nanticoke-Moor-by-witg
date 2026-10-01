@@ -14,7 +14,7 @@ import json
 import sys
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "preservation_output")
 DB_PATH = os.path.join(OUTPUT_DIR, "genealogy_preservation.db")
 LEDGER_PATH = os.path.join(OUTPUT_DIR, "fixity_audit_ledger.jsonl")
@@ -28,13 +28,19 @@ def calculate_sha256(filepath, chunk_size=65536):
             hasher.update(chunk)
     return hasher.hexdigest()
 
-def verify_fixity():
-    manifest_path = os.path.join(BAG_DIR, "manifest-sha256.txt")
-    tagmanifest_path = os.path.join(BAG_DIR, "tagmanifest-sha256.txt")
+def verify_fixity(bag_dir=None, db_path=None, ledger_path=None, exit_on_failure=False):
+    target_bag_dir = bag_dir or BAG_DIR
+    target_db_path = db_path or DB_PATH
+    target_ledger = ledger_path or (os.path.join(target_bag_dir, "fixity_audit_ledger.jsonl") if bag_dir else LEDGER_PATH)
+
+    manifest_path = os.path.join(target_bag_dir, "manifest-sha256.txt")
+    tagmanifest_path = os.path.join(target_bag_dir, "tagmanifest-sha256.txt")
 
     if not os.path.exists(manifest_path):
         print(f"Error: Manifest not found at {manifest_path}. Run generate_bagit_package.py first.")
-        sys.exit(1)
+        if exit_on_failure:
+            sys.exit(1)
+        return "FAILED"
 
     # 1. Verify tagmanifest
     tag_errors = []
@@ -44,7 +50,7 @@ def verify_fixity():
                 parts = line.strip().split(None, 1)
                 if len(parts) == 2:
                     expected_hash, rel_path = parts[0], parts[1].strip()
-                    file_path = os.path.join(BAG_DIR, rel_path)
+                    file_path = os.path.join(target_bag_dir, rel_path)
                     if not os.path.exists(file_path):
                         tag_errors.append(f"Missing tag file: {rel_path}")
                     else:
@@ -69,7 +75,7 @@ def verify_fixity():
         if len(parts) != 2:
             continue
         expected_hash, rel_path = parts[0], parts[1].strip()
-        full_path = os.path.join(BAG_DIR, rel_path)
+        full_path = os.path.join(target_bag_dir, rel_path)
         total_files += 1
 
         if not os.path.exists(full_path):
@@ -111,45 +117,46 @@ def verify_fixity():
         "tag_errors": tag_errors,
         "failures_sample": failures[:20]
     }
-    with open(LEDGER_PATH, "a", encoding="utf-8") as f:
+    with open(target_ledger, "a", encoding="utf-8") as f:
         f.write(json.dumps(audit_record) + "\n")
 
-    # 4. Log to SQLite fixity_audit_log
-    conn = sqlite3.connect(DB_PATH)
-    cur = conn.cursor()
-    cur.execute("""
-        CREATE TABLE IF NOT EXISTS fixity_audit_log (
-            audit_id INTEGER PRIMARY KEY AUTOINCREMENT,
-            audit_timestamp TEXT NOT NULL,
-            total_files_checked INTEGER NOT NULL,
-            total_bytes_checked INTEGER NOT NULL,
-            passed_count INTEGER NOT NULL,
-            failed_count INTEGER NOT NULL,
-            missing_count INTEGER NOT NULL,
-            status TEXT NOT NULL,
-            details_json TEXT
-        )
-    """)
-    cur.execute("""
-        INSERT INTO fixity_audit_log (
-            audit_timestamp, total_files_checked, total_bytes_checked, passed_count, failed_count, missing_count, status, details_json
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-    """, (
-        timestamp,
-        total_files,
-        total_bytes,
-        passed_count,
-        failed_count,
-        missing_count,
-        overall_status,
-        json.dumps({
-            "tag_errors": tag_errors,
-            "failures": failures[:100],
-            "total_failures": len(failures)
-        })
-    ))
-    conn.commit()
-    conn.close()
+    # 4. Log to SQLite fixity_audit_log if db exists
+    if target_db_path and os.path.exists(target_db_path):
+        conn = sqlite3.connect(target_db_path)
+        cur = conn.cursor()
+        cur.execute("""
+            CREATE TABLE IF NOT EXISTS fixity_audit_log (
+                audit_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                audit_timestamp TEXT NOT NULL,
+                total_files_checked INTEGER NOT NULL,
+                total_bytes_checked INTEGER NOT NULL,
+                passed_count INTEGER NOT NULL,
+                failed_count INTEGER NOT NULL,
+                missing_count INTEGER NOT NULL,
+                status TEXT NOT NULL,
+                details_json TEXT
+            )
+        """)
+        cur.execute("""
+            INSERT INTO fixity_audit_log (
+                audit_timestamp, total_files_checked, total_bytes_checked, passed_count, failed_count, missing_count, status, details_json
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        """, (
+            timestamp,
+            total_files,
+            total_bytes,
+            passed_count,
+            failed_count,
+            missing_count,
+            overall_status,
+            json.dumps({
+                "tag_errors": tag_errors,
+                "failures": failures[:100],
+                "total_failures": len(failures)
+            })
+        ))
+        conn.commit()
+        conn.close()
 
     print("\n=== OAIS Fixity Verification Report ===")
     print(f"  Overall Status : {overall_status}")
@@ -161,11 +168,11 @@ def verify_fixity():
     if tag_errors:
         print(f"  Tag Manifest Errors: {tag_errors}")
 
-    if overall_status != "PASSED":
+    if overall_status != "PASSED" and exit_on_failure:
         print("  Failures sample:", failures[:5])
         sys.exit(1)
 
     return overall_status
 
 if __name__ == "__main__":
-    verify_fixity()
+    verify_fixity(exit_on_failure=True)

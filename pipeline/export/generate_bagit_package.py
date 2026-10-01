@@ -13,7 +13,7 @@ import sqlite3
 import json
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "preservation_output")
 DB_PATH = os.path.join(OUTPUT_DIR, "genealogy_preservation.db")
 CANONICAL_DB_PATH = os.path.join(OUTPUT_DIR, "genealogy_preservation_canonical.db")
@@ -58,22 +58,32 @@ def ensure_fixity_table(db_path):
     conn.commit()
     conn.close()
 
-def create_canonical_db_snapshot():
+def create_canonical_db_snapshot(db_path=None, canonical_path=None):
     """Create a pristine, defragmented immutable snapshot of the active database."""
-    print(f"Creating canonical immutable database snapshot: {CANONICAL_DB_PATH}...")
-    if os.path.exists(CANONICAL_DB_PATH):
-        os.remove(CANONICAL_DB_PATH)
+    target_db = db_path or DB_PATH
+    target_canonical = canonical_path or CANONICAL_DB_PATH
+    print(f"Creating canonical immutable database snapshot: {target_canonical}...")
+    if os.path.exists(target_canonical):
+        os.remove(target_canonical)
     
-    conn = sqlite3.connect(DB_PATH)
-    conn.execute(f"VACUUM INTO '{CANONICAL_DB_PATH}'")
+    conn = sqlite3.connect(target_db)
+    conn.execute(f"VACUUM INTO '{target_canonical}'")
     conn.close()
     
-    size_mb = os.path.getsize(CANONICAL_DB_PATH) / (1024 * 1024)
+    size_mb = os.path.getsize(target_canonical) / (1024 * 1024)
     print(f"Canonical snapshot created successfully ({size_mb:.2f} MB).")
 
-def generate_bagit_manifest():
-    ensure_fixity_table(DB_PATH)
-    create_canonical_db_snapshot()
+def generate_bagit_manifest(bag_dir=None, db_path=None, payload_subdirs=None, skip_db_snapshot=False):
+    target_bag_dir = bag_dir or BAG_DIR
+    target_db_path = db_path or DB_PATH
+    target_payloads = payload_subdirs or PAYLOAD_SUBDIRS
+    target_ledger = os.path.join(target_bag_dir, "fixity_audit_ledger.jsonl")
+
+    if target_db_path and os.path.exists(target_db_path):
+        ensure_fixity_table(target_db_path)
+        if not skip_db_snapshot:
+            canonical_path = os.path.join(target_bag_dir, "genealogy_preservation_canonical.db")
+            create_canonical_db_snapshot(target_db_path, canonical_path)
 
     manifest_entries = []
     total_bytes = 0
@@ -81,8 +91,8 @@ def generate_bagit_manifest():
 
     print("Hashing preservation assets for RFC 8493 BagIt manifest...")
 
-    for item in PAYLOAD_SUBDIRS:
-        full_path = os.path.join(BAG_DIR, item)
+    for item in target_payloads:
+        full_path = os.path.join(target_bag_dir, item)
         if not os.path.exists(full_path):
             print(f"Warning: path does not exist: {full_path}")
             continue
@@ -90,7 +100,7 @@ def generate_bagit_manifest():
         if os.path.isfile(full_path):
             file_hash = calculate_sha256(full_path)
             file_size = os.path.getsize(full_path)
-            rel_path = os.path.relpath(full_path, BAG_DIR)
+            rel_path = os.path.relpath(full_path, target_bag_dir)
             manifest_entries.append((file_hash, rel_path))
             total_bytes += file_size
             total_files += 1
@@ -102,7 +112,7 @@ def generate_bagit_manifest():
                         continue
                     file_hash = calculate_sha256(file_path)
                     file_size = os.path.getsize(file_path)
-                    rel_path = os.path.relpath(file_path, BAG_DIR)
+                    rel_path = os.path.relpath(file_path, target_bag_dir)
                     manifest_entries.append((file_hash, rel_path))
                     total_bytes += file_size
                     total_files += 1
@@ -113,14 +123,14 @@ def generate_bagit_manifest():
     manifest_entries.sort(key=lambda x: x[1])
 
     # 1. Write manifest-sha256.txt
-    manifest_path = os.path.join(BAG_DIR, "manifest-sha256.txt")
+    manifest_path = os.path.join(target_bag_dir, "manifest-sha256.txt")
     with open(manifest_path, "w", encoding="utf-8") as f:
         for fhash, rpath in manifest_entries:
             f.write(f"{fhash}  {rpath}\n")
     print(f"Wrote {len(manifest_entries)} entries to {manifest_path}")
 
     # 2. Write bagit.txt
-    bagit_path = os.path.join(BAG_DIR, "bagit.txt")
+    bagit_path = os.path.join(target_bag_dir, "bagit.txt")
     with open(bagit_path, "w", encoding="utf-8") as f:
         f.write("BagIt-Version: 1.0\n")
         f.write("Tag-File-Character-Encoding: UTF-8\n")
@@ -131,7 +141,7 @@ def generate_bagit_manifest():
     payload_oxum = f"{total_bytes}.{total_files}"
     today = datetime.date.today().isoformat()
 
-    bag_info_path = os.path.join(BAG_DIR, "bag-info.txt")
+    bag_info_path = os.path.join(target_bag_dir, "bag-info.txt")
     with open(bag_info_path, "w", encoding="utf-8") as f:
         f.write(f"Bag-Software-Agent: Antigravity-OAIS-Preservation-Engine/2.0\n")
         f.write(f"Bagging-Date: {today}\n")
@@ -145,11 +155,11 @@ def generate_bagit_manifest():
     print(f"Wrote {bag_info_path}")
 
     # 4. Write tagmanifest-sha256.txt
-    tagmanifest_path = os.path.join(BAG_DIR, "tagmanifest-sha256.txt")
+    tagmanifest_path = os.path.join(target_bag_dir, "tagmanifest-sha256.txt")
     tag_files = ["bagit.txt", "bag-info.txt", "manifest-sha256.txt"]
     with open(tagmanifest_path, "w", encoding="utf-8") as f:
         for tf in tag_files:
-            tf_path = os.path.join(BAG_DIR, tf)
+            tf_path = os.path.join(target_bag_dir, tf)
             tf_hash = calculate_sha256(tf_path)
             f.write(f"{tf_hash}  {tf}\n")
     print(f"Wrote {tagmanifest_path}")
@@ -166,33 +176,43 @@ def generate_bagit_manifest():
         "status": "INITIALIZED"
     }
 
-    with open(LEDGER_PATH, "a", encoding="utf-8") as f:
+    with open(target_ledger, "a", encoding="utf-8") as f:
         f.write(json.dumps(log_data) + "\n")
 
-    conn = sqlite3.connect(DB_PATH)
-    cur = conn.cursor()
-    cur.execute("""
-        INSERT INTO fixity_audit_log (
-            audit_timestamp, total_files_checked, total_bytes_checked, passed_count, failed_count, missing_count, status, details_json
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-    """, (
-        timestamp,
-        total_files,
-        total_bytes,
-        total_files,
-        0,
-        0,
-        "INITIALIZED",
-        json.dumps(log_data)
-    ))
-    conn.commit()
-    conn.close()
+    if target_db_path and os.path.exists(target_db_path):
+        conn = sqlite3.connect(target_db_path)
+        cur = conn.cursor()
+        cur.execute("""
+            INSERT INTO fixity_audit_log (
+                audit_timestamp, total_files_checked, total_bytes_checked, passed_count, failed_count, missing_count, status, details_json
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        """, (
+            timestamp,
+            total_files,
+            total_bytes,
+            total_files,
+            0,
+            0,
+            "INITIALIZED",
+            json.dumps(log_data)
+        ))
+        conn.commit()
+        conn.close()
 
     print(f"\nBagIt 1.0 Packaging Complete:")
     print(f"  Total Files : {total_files}")
     print(f"  Total Bytes : {total_bytes:,} bytes ({bag_size_mb})")
     print(f"  Payload Oxum: {payload_oxum}")
     print(f"  Status      : INITIALIZED")
+    return {
+        "total_files": total_files,
+        "total_bytes": total_bytes,
+        "payload_oxum": payload_oxum,
+        "manifest_path": manifest_path,
+        "bagit_path": bagit_path,
+        "tagmanifest_path": tagmanifest_path
+    }
+
 
 if __name__ == "__main__":
     generate_bagit_manifest()

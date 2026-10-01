@@ -1,6 +1,7 @@
 import sqlite3
 from fuzzywuzzy import fuzz
-conn = sqlite3.connect('/home/jequan/Desktop/Antigravity Projects/lynncjackson-genealogy-scraper/preservation_output/genealogy_preservation.db')
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+conn = sqlite3.connect(os.path.join(BASE_DIR, 'preservation_output', 'genealogy_preservation.db'))
 c = conn.cursor()
 c.execute("SELECT person_id, name FROM persons")
 persons = c.fetchall()

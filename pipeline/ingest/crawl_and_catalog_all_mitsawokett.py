@@ -6,8 +6,9 @@ import re
 import concurrent.futures
 from bs4 import BeautifulSoup
 
-DB_PATH = '/home/jequan/Desktop/Antigravity Projects/lynncjackson-genealogy-scraper/preservation_output/genealogy_preservation.db'
-ASSETS_DIR = '/home/jequan/Desktop/Antigravity Projects/lynncjackson-genealogy-scraper/preservation_output/assets/mitsawokett_photos'
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+DB_PATH = os.path.join(BASE_DIR, 'preservation_output', 'genealogy_preservation.db')
+ASSETS_DIR = os.path.join(BASE_DIR, 'preservation_output', 'assets', 'mitsawokett_photos')
 os.makedirs(ASSETS_DIR, exist_ok=True)
 
 BASE_URL = 'https://nativeamericansofdelawarestate.com/Mitsawokett%20Photos/'

@@ -4,8 +4,12 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 from collections import defaultdict
 
-DB_PATH = 'preservation_output/genealogy_preservation.db'
-OUTPUT_DIR = 'preservation_output/profiles'
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+DEFAULT_DB_PATH = os.path.join(PROJECT_ROOT, 'preservation_output', 'genealogy_preservation.db')
+DEFAULT_OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'preservation_output', 'profiles')
+
+DB_PATH = DEFAULT_DB_PATH
+OUTPUT_DIR = DEFAULT_OUTPUT_DIR
 
 def prettify(elem):
     """Return a pretty-printed XML string for the Element."""
@@ -13,14 +17,18 @@ def prettify(elem):
     reparsed = minidom.parseString(rough_string)
     return reparsed.toprettyxml(indent="  ")
 
-def export_to_gedcomx():
+def export_to_gedcomx(db_path=None, output_dir=None):
+    if db_path is None:
+        db_path = DEFAULT_DB_PATH
+    if output_dir is None:
+        output_dir = DEFAULT_OUTPUT_DIR
     print("Exporting database to individual GEDCOM X XML profiles using Strict Evidence Model...")
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     c = conn.cursor()
 
-    if not os.path.exists(OUTPUT_DIR):
-        os.makedirs(OUTPUT_DIR)
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir, exist_ok=True)
 
     # Cache sources
     c.execute("SELECT source_id, title, url FROM sources")
@@ -129,12 +137,12 @@ def export_to_gedcomx():
                 title_elem.text = s_data['title']
 
         # Save individual file
-        file_path = os.path.join(OUTPUT_DIR, f"person_{pid}.xml")
+        file_path = os.path.join(output_dir, f"person_{pid}.xml")
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(prettify(gedcomx))
 
     conn.close()
-    print(f"Exported {len(persons)} evidence-backed GEDCOM X XML profiles to {OUTPUT_DIR}.")
+    print(f"Exported {len(persons)} evidence-backed GEDCOM X XML profiles to {output_dir}.")
 
 if __name__ == "__main__":
     export_to_gedcomx()

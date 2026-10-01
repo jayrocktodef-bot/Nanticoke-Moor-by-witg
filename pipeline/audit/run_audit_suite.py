@@ -2,7 +2,8 @@ import sqlite3
 import re
 from collections import defaultdict
 
-DB_PATH = '/home/jequan/Desktop/Antigravity Projects/lynncjackson-genealogy-scraper/preservation_output/genealogy_preservation.db'
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+DB_PATH = os.path.join(BASE_DIR, 'preservation_output', 'genealogy_preservation.db')
 
 def run_audit():
     conn = sqlite3.connect(DB_PATH)

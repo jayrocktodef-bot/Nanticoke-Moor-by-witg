@@ -2,7 +2,8 @@ import sqlite3
 import re
 from bs4 import BeautifulSoup
 
-DB_PATH = '/home/jequan/Desktop/Antigravity Projects/lynncjackson-genealogy-scraper/preservation_output/genealogy_preservation.db'
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+DB_PATH = os.path.join(BASE_DIR, 'preservation_output', 'genealogy_preservation.db')
 
 def format_html_content(raw_html, filename, title):
     if not raw_html:

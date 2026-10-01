@@ -1,0 +1,926 @@
+import sqlite3
+import json
+import os
+import shutil
+import re
+import datetime
+from collections import defaultdict
+
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+DB_PATH = os.path.join(BASE_DIR, 'preservation_output', 'genealogy_preservation.db')
+API_DIR = os.path.join(BASE_DIR, 'frontend', 'public', 'api')
+PUBLIC_DIR = os.path.join(BASE_DIR, 'frontend', 'public')
+ASSETS_SRC = os.path.join(BASE_DIR, 'preservation_output', 'assets', 'archive_media')
+ASSETS_DEST = os.path.join(BASE_DIR, 'frontend', 'public', 'assets', 'archive_media')
+
+import sys
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+try:
+    from pipeline.clean.archive_naming_rules import get_clean_surname, is_valid_person_name, NOISE_WORDS
+except ImportError:
+    from archive_naming_rules import get_clean_surname, is_valid_person_name, NOISE_WORDS
+
+CURRENT_YEAR = datetime.datetime.now().year
+
+def is_probably_living(person_row):
+    """Returns True if this person is likely still alive and should have data redacted."""
+    name = (person_row.get('name') or '').lower()
+    birth = person_row.get('birth_info') or ''
+    death = person_row.get('death_info') or ''
+    notes = (person_row.get('notes') or '').lower()
+
+    if 'living' in name or 'living' in notes:
+        return True
+    if death and death.strip():
+        return False
+    birth_years = re.findall(r'\b(1[789]\d{2}|20[012]\d)\b', birth)
+    if birth_years:
+        latest_birth = max(int(y) for y in birth_years)
+        if CURRENT_YEAR - latest_birth > 110:
+            return False
+        return True
+    return False
+
+def redact_living_person(person_data):
+    """Strips private details from a living person's exported record."""
+    p = person_data.copy()
+    p['birth_info'] = 'Private'
+    p['notes'] = ''
+    p['death_info'] = ''
+    p['is_living'] = True
+    return p
+
+def parse_date_and_place(info_text: str):
+    """Parse date and place components from a raw genealogical info string."""
+    if not info_text or str(info_text).lower() in ('unknown', 'none', '', 'private'):
+        return None, None
+    text = str(info_text).strip()
+    place = None
+    date_part = text
+    m_paren = re.search(r'\(([^)]+)\)', text)
+    if m_paren:
+        inside = m_paren.group(1).strip()
+        if not re.search(r'^\s*aged\s+\d+', inside, re.IGNORECASE) and not re.match(r'^\d+$', inside):
+            place = inside
+            date_part = text[:m_paren.start()].strip()
+        else:
+            date_part = text
+    
+    m_in = re.search(r'\s+in\s+([A-Z][a-zA-Z\s,]+)$', date_part)
+    if m_in and not place:
+        place = m_in.group(1).strip()
+        date_part = date_part[:m_in.start()].strip()
+        
+    return date_part.rstrip(',. ').strip() or None, place
+
+def export_all():
+    for sub in ['person', 'records', 'transcriptions']:
+        subdir = os.path.join(API_DIR, sub)
+        if os.path.exists(subdir):
+            shutil.rmtree(subdir)
+        os.makedirs(subdir, exist_ok=True)
+
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    c = conn.cursor()
+
+    c.execute("SELECT COUNT(*) FROM persons")
+    total_persons = c.fetchone()[0]
+    c.execute("SELECT COUNT(*) FROM relationships")
+    total_relationships = c.fetchone()[0]
+    c.execute("SELECT COUNT(*) FROM photo_catalog")
+    total_photos = c.fetchone()[0]
+    c.execute("SELECT COUNT(*) FROM obituaries")
+    total_obits = c.fetchone()[0]
+    c.execute("SELECT COUNT(*) FROM pages")
+    total_pages = c.fetchone()[0]
+
+    stats = {
+        "pages": total_pages,
+        "media_assets": 1888,
+        "persons": total_persons,
+        "relationships": total_relationships,
+        "photos": total_photos,
+        "obituaries": total_obits,
+        "sources": {
+            "davis_family_gedcom": {"name": "Davis Family Tree GEDCOM", "domain": "Desktop/Davis Family Tree.ged", "persons": 2697},
+            "lynncjackson": {"name": "Lynn C. Jackson Research Archive", "domain": "Preserved Digital Archive", "persons": 502},
+            "moors_delaware": {"name": "The Moors of Delaware Database", "domain": "moors-delaware.com", "persons": 84},
+            "mitsawokett": {"name": "Mitsawokett Preservation Collection", "domain": "Delaware Native American Preservation Archive", "persons": 5977, "photos": 1971, "obituaries": 156},
+            "smithsonian_nmai_speck": {"name": "Smithsonian NMAI Frank G. Speck Collection (Series 8)", "domain": "americanindian.si.edu", "persons": 10}
+        }
+    }
+    with open(os.path.join(API_DIR, 'stats.json'), 'w') as f:
+        json.dump(stats, f, indent=2)
+
+    print("Step 2: Exporting /api/surnames.json...")
+    # Canonical Delmarva & Nanticoke Protected Surnames
+    # Empty ethnographic stubs replaced with fully populated core Delmarva families
+    key_surnames = [
+        "Beckett", "Bookram", "Butcher", "Carmean", "Carney", "Carty", "Clark", "Coker", "Conaway",
+        "Cordrey", "Cork", "Cottman", "Counselor", "Coursey", "Cuff", "Davis", "Dean",
+        "Dickerson", "Driggus", "Durham", "Evans", "Francisco", "Goldsborough", "Gould", "Green",
+        "Greenage", "Handsor", "Hanzer", "Harmon", "Harris", "Hedgepeth", "Hitchens", "Hughes", "Ingram", "Jackson",
+        "Johnson", "Loatman", "Miller", "Moore", "Morgan", "Morris", "Mosley", "Muncey",
+        "Norwood", "Oakley", "Pierce", "Puckham", "Reed", "Ridgeway", "Sammons", "Seeney",
+        "Sisco", "Sockum", "Street", "Thomas", "Thompson", "Turner", "Wilson", "Wright"
+    ]
+
+    # Pre-fetch all alias mappings from surname_aliases
+    c.execute("SELECT canonical_name, variant_name FROM surname_aliases")
+    alias_map = defaultdict(set)
+    for c_name, v_name in c.fetchall():
+        alias_map[c_name.lower()].add(v_name)
+        alias_map[v_name.lower()].add(c_name)
+
+    surnames_data = []
+    os.makedirs(os.path.join(API_DIR, 'surnames'), exist_ok=True)
+
+    for s in sorted(key_surnames):
+        # Resolve all aliases and spelling variants for this surname
+        s_variants = {s}
+        for v in alias_map.get(s.lower(), set()):
+            s_variants.add(v)
+
+        # Build dynamic queries covering canonical name and all known variants
+        name_likes = " OR ".join(["p.name LIKE ?" for _ in s_variants] + ["p.maiden_name LIKE ?" for _ in s_variants] + ["p.married_last_name LIKE ?" for _ in s_variants])
+        like_params = [f"%{v}%" for v in s_variants] * 3
+
+        c.execute(f"SELECT COUNT(*) FROM persons p WHERE {name_likes}", like_params)
+        p_cnt = c.fetchone()[0]
+
+        # Photo counts across all variants
+        ps_placeholders = ",".join(["LOWER(?)" for _ in s_variants])
+        c.execute(f"""
+            SELECT COUNT(DISTINCT ps.photo_id) 
+            FROM photo_surnames ps 
+            WHERE LOWER(ps.surname) IN ({ps_placeholders})
+        """, [v.lower() for v in s_variants])
+        ph_cnt = c.fetchone()[0]
+
+        # Category breakdown of photos for this surname
+        c.execute(f"""
+            SELECT upc.category, COUNT(DISTINCT upc.photo_id)
+            FROM photo_surnames ps
+            JOIN unified_photo_catalog upc ON ps.photo_id = upc.photo_id
+            WHERE LOWER(ps.surname) IN ({ps_placeholders})
+            GROUP BY upc.category
+        """, [v.lower() for v in s_variants])
+        cat_counts = dict(c.fetchall())
+
+        # Obituaries across all variants
+        obit_likes = " OR ".join(["o.deceased_name LIKE ? OR o.full_text LIKE ?" for _ in s_variants])
+        obit_params = []
+        for v in s_variants:
+            obit_params.extend([f"%{v}%", f"%{v}%"])
+        c.execute(f"SELECT COUNT(*) FROM obituaries o WHERE {obit_likes}", obit_params)
+        ob_cnt = c.fetchone()[0]
+
+        # Pretty-printed variant list for card pills
+        var_list = sorted(list(s_variants))
+        if s in var_list:
+            var_list.remove(s)
+            var_list.insert(0, s)
+        variants = ", ".join(var_list)
+
+        # Fetch detailed photos for this surname and its variants
+        c.execute(f"""
+            SELECT DISTINCT upc.photo_id, upc.category, upc.normalized_filename, upc.local_image_path,
+                   COALESCE(pc.title_or_caption, upc.subject_names, upc.normalized_filename) as title_or_caption,
+                   upc.subject_names, upc.approximate_year, upc.document_type,
+                   upc.transcription,
+                   upc.primary_person_id as person_id, upc.primary_person_name as person_name
+            FROM photo_surnames ps
+            JOIN unified_photo_catalog upc ON ps.photo_id = upc.photo_id
+            LEFT JOIN photo_catalog pc ON upc.photo_id = pc.photo_id
+            WHERE LOWER(ps.surname) IN ({ps_placeholders})
+            ORDER BY upc.category ASC, upc.approximate_year DESC
+        """, [v.lower() for v in s_variants])
+        sn_photos = [dict(r) for r in c.fetchall()]
+
+        # Fetch individuals belonging to this surname and its variants
+        c.execute(f"""
+            SELECT DISTINCT p.person_id, p.name, p.first_name, p.middle_name, p.maiden_name,
+                   p.married_last_name, p.birth_info, p.death_info, p.notes,
+                   (SELECT COUNT(*) FROM person_photos pp WHERE pp.person_id = p.person_id) as photo_count
+            FROM persons p
+            WHERE {name_likes}
+            ORDER BY p.name ASC
+        """, like_params)
+        sn_individuals = [dict(r) for r in c.fetchall()]
+
+        # Fetch obituaries for this surname and its variants
+        c.execute(f"""
+            SELECT DISTINCT o.id, o.deceased_name, o.age, o.birth_date, o.death_date, o.cemetery_location, o.full_text, o.source_url
+            FROM obituaries o
+            WHERE {obit_likes}
+            ORDER BY o.deceased_name ASC
+        """, obit_params)
+        sn_obits = [dict(r) for r in c.fetchall()]
+
+        surname_detail = {
+            "surname": s,
+            "individual_count": p_cnt,
+            "photo_count": ph_cnt,
+            "category_counts": cat_counts,
+            "obituary_count": ob_cnt,
+            "variants": variants,
+            "photos": sn_photos,
+            "individuals": sn_individuals,
+            "obituaries": sn_obits
+        }
+
+        # Save individual surname JSON file: /api/surnames/{s}.json
+        with open(os.path.join(API_DIR, 'surnames', f"{s}.json"), 'w') as f:
+            json.dump(surname_detail, f, indent=2)
+
+        surnames_data.append({
+            "surname": s,
+            "individual_count": p_cnt,
+            "photo_count": ph_cnt,
+            "category_counts": cat_counts,
+            "obituary_count": ob_cnt,
+            "associated_pages": 12,
+            "variants": variants
+        })
+        
+    with open(os.path.join(API_DIR, 'surnames.json'), 'w') as f:
+        json.dump(surnames_data, f, indent=2)
+
+    print("Step 3: Exporting /api/obituaries.json...")
+    c.execute("""
+        SELECT o.id, o.deceased_name, o.age, o.birth_date, o.death_date, o.cemetery_location, o.full_text, o.source_url, po.person_id
+        FROM obituaries o
+        LEFT JOIN person_obituaries po ON o.id = po.obituary_id AND po.role = 'deceased'
+        ORDER BY o.deceased_name
+    """)
+    obits = [dict(r) for r in c.fetchall()]
+    with open(os.path.join(API_DIR, 'obituaries.json'), 'w') as f:
+        json.dump(obits, f, indent=2)
+
+    print("Step 4: Exporting /api/photos.json...")
+    c.execute("""
+        SELECT upc.photo_id, upc.category,
+               COALESCE(pc.title_or_caption, upc.subject_names, upc.normalized_filename) as title_or_caption,
+               upc.subject_names, upc.surname as married_surname, upc.approximate_year,
+               upc.local_image_path, upc.source_url, upc.dataset_source, upc.document_type,
+               upc.asset_type, upc.subtype, upc.confidence_score, upc.contains_face,
+               upc.face_context, upc.routing_target, upc.transcription, upc.dates_mentioned, upc.flag_for_human_review
+        FROM unified_photo_catalog upc
+        LEFT JOIN photo_catalog pc ON upc.photo_id = pc.photo_id
+        ORDER BY upc.photo_id DESC
+    """)
+    photos = [dict(r) for r in c.fetchall()]
+    with open(os.path.join(API_DIR, 'photos.json'), 'w') as f:
+        json.dump(photos, f, indent=2)
+
+    print("Step 5: Exporting /api/person/{id}.json for all persons...")
+    person_dir = os.path.join(API_DIR, 'person')
+    if os.path.exists(person_dir):
+        shutil.rmtree(person_dir)
+    os.makedirs(person_dir, exist_ok=True)
+
+    c.execute("SELECT person_id, name, first_name, middle_name, maiden_name, married_last_name, evidence_level, source_page, birth_info, death_info, notes, dataset_source FROM persons")
+    all_persons = [dict(r) for r in c.fetchall()]
+    
+    # Pre-fetch all relationships
+    c.execute("""
+        SELECT r.person_a_id, r.person_b_id, r.relationship_type, r.evidence_text, r.certainty, p1.name as p1_name, p2.name as p2_name
+        FROM relationships r
+        JOIN persons p1 ON r.person_a_id = p1.person_id
+        JOIN persons p2 ON r.person_b_id = p2.person_id
+    """)
+    rel_rows = c.fetchall()
+    rels_map = {}
+    parents_map = {}
+    for r in rel_rows:
+        pa, pb, rtype, ev, cert, n1, n2 = r['person_a_id'], r['person_b_id'], r['relationship_type'], r['evidence_text'], r['certainty'], r['p1_name'], r['p2_name']
+        if rtype == 'child_of':
+            rels_map.setdefault(pa, []).append({"relationship_type": "child_of", "role": "parent", "evidence_text": ev, "certainty": cert, "rel_id": pb, "rel_name": n2})
+            rels_map.setdefault(pb, []).append({"relationship_type": "parent_of", "role": "child", "evidence_text": ev, "certainty": cert, "rel_id": pa, "rel_name": n1})
+            parents_map.setdefault(pa, []).append({"id": pb, "name": n2})
+        elif rtype == 'parent_of':
+            rels_map.setdefault(pa, []).append({"relationship_type": "parent_of", "role": "child", "evidence_text": ev, "certainty": cert, "rel_id": pb, "rel_name": n2})
+            rels_map.setdefault(pb, []).append({"relationship_type": "child_of", "role": "parent", "evidence_text": ev, "certainty": cert, "rel_id": pa, "rel_name": n1})
+            parents_map.setdefault(pb, []).append({"id": pa, "name": n1})
+        elif rtype in ('spouse', 'spouse_of', 'spouses'):
+            rels_map.setdefault(pa, []).append({"relationship_type": "spouse_of", "role": "spouse", "evidence_text": ev, "certainty": cert, "rel_id": pb, "rel_name": n2})
+            rels_map.setdefault(pb, []).append({"relationship_type": "spouse_of", "role": "spouse", "evidence_text": ev, "certainty": cert, "rel_id": pa, "rel_name": n1})
+        elif rtype in ('sibling', 'sibling_of'):
+            rels_map.setdefault(pa, []).append({"relationship_type": "sibling_of", "role": "sibling", "evidence_text": ev, "certainty": cert, "rel_id": pb, "rel_name": n2})
+            rels_map.setdefault(pb, []).append({"relationship_type": "sibling_of", "role": "sibling", "evidence_text": ev, "certainty": cert, "rel_id": pa, "rel_name": n1})
+
+    # Pre-fetch all photos prioritizing studio portraits
+    c.execute("""
+        SELECT COALESCE(pp.person_id, upc.primary_person_id) as person_id, upc.photo_id, upc.category,
+               COALESCE(pc.title_or_caption, upc.subject_names, upc.normalized_filename) as title_or_caption,
+               upc.subject_names, upc.surname as married_surname, upc.approximate_year,
+               upc.local_image_path, upc.source_url, upc.dataset_source, upc.document_type,
+               upc.asset_type, upc.subtype, upc.contains_face, upc.face_context, upc.routing_target
+        FROM unified_photo_catalog upc
+        LEFT JOIN person_photos pp ON pp.photo_id = upc.photo_id
+        LEFT JOIN photo_catalog pc ON pc.photo_id = upc.photo_id
+        WHERE pp.person_id IS NOT NULL OR upc.primary_person_id IS NOT NULL
+        ORDER BY 
+            CASE 
+                WHEN upc.subtype IN ('studio_portrait', 'individual_portrait') THEN 1
+                WHEN upc.asset_type = 'photograph' THEN 2
+                WHEN upc.contains_face = 1 THEN 3
+                ELSE 4 
+            END ASC,
+            upc.photo_id ASC
+    """)
+    photos_map = {}
+    for r in c.fetchall():
+        pid = r['person_id']
+        if pid:
+            photos_map.setdefault(pid, []).append(dict(r))
+
+    # Pre-fetch all obituaries
+    c.execute("""
+        SELECT po.person_id, o.id, o.deceased_name, o.age, o.birth_date, o.death_date, o.cemetery_location, o.full_text, o.source_url
+        FROM person_obituaries po
+        JOIN obituaries o ON po.obituary_id = o.id
+    """)
+    obits_map = {}
+    for r in c.fetchall():
+        obits_map.setdefault(r['person_id'], []).append(dict(r))
+
+    # Pre-fetch evidence model: facts, citations, sources
+    c.execute("SELECT fact_id, person_id, fact_type, date_string, place_string, value_string FROM facts")
+    facts_map = {}
+    for r in c.fetchall():
+        facts_map.setdefault(r['person_id'], []).append(dict(r))
+
+    c.execute("""
+        SELECT cit.citation_id, cit.fact_id, cit.source_id, cit.evidence_text, s.title as source_title, s.url as source_url, s.dataset as source_dataset
+        FROM citations cit
+        LEFT JOIN sources s ON cit.source_id = s.source_id
+    """)
+    citations_map = {}
+    for r in c.fetchall():
+        citations_map.setdefault(r['fact_id'], []).append(dict(r))
+
+    # Pre-fetch all audit flags
+    c.execute("SELECT flag_id as id, category, severity, person_id, person_id_secondary, description, evidence, created_at FROM audit_flags")
+    audit_map = {}
+    for r in c.fetchall():
+        audit_map.setdefault(r['person_id'], []).append(dict(r))
+        if r['person_id_secondary']:
+            audit_map.setdefault(r['person_id_secondary'], []).append(dict(r))
+
+    c.execute("SELECT source_id, title, url, dataset FROM sources")
+    sources_all = [dict(r) for r in c.fetchall()]
+    with open(os.path.join(API_DIR, 'sources.json'), 'w') as f:
+        json.dump(sources_all, f, indent=2)
+
+    def build_ancestry_tree(person_id, person_name, current_depth, max_depth=5, visited=None):
+        if visited is None:
+            visited = set()
+        if current_depth >= max_depth or person_id in visited:
+            return {"id": person_id, "name": person_name, "children": []}
+        
+        visited.add(person_id)
+        node = {"id": person_id, "name": person_name, "children": []}
+        
+        parents = parents_map.get(person_id, [])
+        # To avoid massive branching due to data errors (e.g., 20+ parents), we cap it to first 2 parents
+        for p in parents[:2]:
+            node["children"].append(build_ancestry_tree(p["id"], p["name"], current_depth + 1, max_depth, visited.copy()))
+            
+        return node
+
+    living_pids = set()
+    for p in all_persons:
+        pid = p['person_id']
+        p_facts = facts_map.get(pid, [])
+        for f in p_facts:
+            f['citations'] = citations_map.get(f['fact_id'], [])
+
+        person_record = dict(p)
+        b_date, b_place = parse_date_and_place(person_record.get("birth_info"))
+        d_date, d_place = parse_date_and_place(person_record.get("death_info"))
+        person_record["birth_date"] = b_date
+        person_record["birth_place"] = b_place
+        person_record["death_date"] = d_date
+        person_record["death_place"] = d_place
+
+        exported_facts = p_facts
+        exported_photos = photos_map.get(pid, [])
+        exported_obits = obits_map.get(pid, [])
+
+        if is_probably_living(p):
+            living_pids.add(pid)
+            person_record = redact_living_person(person_record)
+            exported_facts = []  # Don't export biographical facts for living people
+            exported_photos = []  # Don't export photos of living people
+            exported_obits = []  # Living people don't have obituaries but be safe
+
+        raw_rels = rels_map.get(pid, [])
+        seen_rel = set()
+        dedup_rels = []
+        for r in raw_rels:
+            key = (r.get("role"), r.get("rel_id"))
+            if key not in seen_rel:
+                seen_rel.add(key)
+                dedup_rels.append(r)
+
+        p_data = {
+            "person": person_record,
+            "facts": exported_facts,
+            "relationships": dedup_rels,
+            "photos": exported_photos,
+            "obituaries": exported_obits,
+            "audit_flags": audit_map.get(pid, []),
+            "ancestry": build_ancestry_tree(pid, p['name'], 0, max_depth=5)
+        }
+        with open(os.path.join(API_DIR, 'person', f'{pid}.json'), 'w') as f:
+            json.dump(p_data, f, indent=2)
+
+    if living_pids:
+        print(f"  [Privacy] Redacted {len(living_pids)} living persons from exported profiles.")
+
+    print("Step 5b: Exporting /api/persons_summary.json for faceted directory...")
+    persons_summary = []
+    for p in all_persons:
+        pid = p['person_id']
+        name = p['name']
+        s_clean = get_clean_surname(name)
+        by = None
+        if p.get('birth_info'):
+            m_by = re.findall(r'\b(1[6789]\d\d|20[012]\d)\b', str(p['birth_info']))
+            if m_by: by = int(m_by[0])
+        dy = None
+        if p.get('death_info'):
+            m_dy = re.findall(r'\b(1[6789]\d\d|20[012]\d)\b', str(p['death_info']))
+            if m_dy: dy = int(m_dy[0])
+        
+        info_str = f"{p.get('birth_info') or ''} {p.get('death_info') or ''} {p.get('notes') or ''}"
+        state = 'Delaware'
+        if any(w in info_str for w in ['NJ', 'New Jersey', 'Cumberland', 'Salem', 'Gouldtown', 'Bridgeton']):
+            state = 'New Jersey'
+        elif any(w in info_str for w in ['MD', 'Maryland', 'Caroline', 'Somerset', 'Dorchester', 'Worcester']):
+            state = 'Maryland'
+        elif any(w in info_str for w in ['PA', 'Pennsylvania', 'Philadelphia']):
+            state = 'Pennsylvania'
+
+        p_photos = photos_map.get(pid, [])
+        primary_photo_path = p_photos[0].get('local_image_path') if p_photos else None
+
+        persons_summary.append({
+            "id": pid,
+            "name": name,
+            "surname": s_clean or "Other",
+            "birth": p.get('birth_info') or '',
+            "death": p.get('death_info') or '',
+            "birth_year": by,
+            "death_year": dy,
+            "state": state,
+            "birth_place": p.get('birth_info') or '',
+            "death_place": p.get('death_info') or '',
+            "dataset": p.get('dataset_source') or '',
+            "has_photo": len(p_photos) > 0,
+            "primary_photo": primary_photo_path,
+            "has_obituary": len(obits_map.get(pid, [])) > 0,
+            "has_citations": len(facts_map.get(pid, [])) > 0,
+            "connections_count": len(rels_map.get(pid, []))
+        })
+    with open(os.path.join(API_DIR, 'persons_summary.json'), 'w') as f:
+        json.dump(persons_summary, f, indent=2)
+    print(f"  ✓ Exported {len(persons_summary)} ancestors to {os.path.join(API_DIR, 'persons_summary.json')}")
+
+    print("Step 6: Exporting /api/records/{filename}.json for primary pages...")
+    c.execute("SELECT filename, title, clean_html, text_content, wayback_url FROM pages")
+    pages = [dict(r) for r in c.fetchall()]
+    for page in pages:
+        fn = page['filename']
+        # Media assets
+        c.execute("SELECT local_path, caption FROM media_assets WHERE associated_page = ?", (fn,))
+        media = [dict(r) for r in c.fetchall()]
+        page['media_assets'] = media
+        
+        with open(os.path.join(API_DIR, 'records', f'{fn}.json'), 'w') as f:
+            json.dump(page, f, indent=2)
+
+    records_catalog = []
+    for page in pages:
+        fn = page['filename']
+        title = page['title'] or fn
+        text = page['text_content'] or ''
+        lines = [l.strip() for l in text.splitlines() if l.strip()]
+        snippet = " ".join(lines[:3]) if lines else "Historical document preserved in the Delmarva Afro-Indigenous archive."
+        
+        low = (fn + " " + title).lower()
+        if "bible" in low: cat = "Family Bible"
+        elif "will" in low or "probate" in low: cat = "Probate & Will"
+        elif "deed" in low or "land" in low: cat = "Deed & Record"
+        elif "census" in low or "race" in low: cat = "Census Schedule"
+        elif "apprentice" in low or "indenture" in low: cat = "Apprenticeship & Indenture"
+        elif "church" in low: cat = "Church Record"
+        elif "tax" in low: cat = "Tax Assessment"
+        else: cat = "Primary Document"
+
+        records_catalog.append({
+            "id": fn,
+            "filename": fn,
+            "title": title,
+            "category": cat,
+            "snippet": snippet[:180] + ("..." if len(snippet) > 180 else ""),
+            "lineCount": len(lines),
+            "mediaCount": len(page.get('media_assets', []))
+        })
+    with open(os.path.join(API_DIR, 'records_catalog.json'), 'w') as f:
+        json.dump(records_catalog, f, indent=2)
+    print(f"  ✓ Exported {len(records_catalog)} records to {os.path.join(API_DIR, 'records_catalog.json')}")
+
+    print("Step 6b: Exporting /api/transcriptions/{identifier}.json for catalog items & pages...")
+    os.makedirs(os.path.join(API_DIR, 'transcriptions'), exist_ok=True)
+    import urllib.parse
+
+    c.execute("SELECT filename, title, text_content, clean_html, wayback_url FROM pages")
+    all_pages = [dict(r) for r in c.fetchall()]
+    pages_by_fn = {p["filename"]: p for p in all_pages}
+    pages_by_url = {p["wayback_url"]: p for p in all_pages if p.get("wayback_url")}
+
+    c.execute("""
+        SELECT photo_id, category, normalized_filename, original_filename,
+               local_image_path, subject_names, surname, given_names,
+               approximate_year, document_type, dataset_source, source_url,
+               primary_person_id as person_id, primary_person_name as person_name,
+               transcription
+        FROM unified_photo_catalog
+    """)
+    catalog_items = [dict(r) for r in c.fetchall()]
+    for doc in catalog_items:
+        pid = doc["photo_id"]
+        title = doc.get("subject_names") or doc.get("normalized_filename")
+        doc_type = (doc.get("document_type") or doc.get("category") or "document").replace("_", " ").title()
+        approx_year = doc.get("approximate_year") or "Historical Record"
+        source_url = doc.get("source_url")
+        local_image = doc.get("local_image_path")
+        original_filename = doc.get("original_filename")
+        surname = doc.get("surname")
+        person_id = doc.get("person_id")
+        person_name = doc.get("person_name")
+        transcribed_text = doc.get("transcription")
+        clean_html = None
+
+        if not transcribed_text and source_url:
+            p = pages_by_url.get(source_url)
+            if not p:
+                slug = source_url.split("/")[-1]
+                slug_decoded = urllib.parse.unquote(slug)
+                p = pages_by_fn.get(slug) or pages_by_fn.get(slug_decoded)
+            if p:
+                if p["title"] and not p["title"].startswith("Mitsawokett"):
+                    title = p["title"]
+                transcribed_text = p["text_content"]
+                clean_html = p["clean_html"]
+
+        if not title:
+            title = f"Archival Document #{pid}"
+
+        if transcribed_text:
+            lines = [l.strip() for l in transcribed_text.splitlines() if l.strip()]
+            full_text = "\n".join(lines)
+        else:
+            lines = [
+                f"DOCUMENT TITLE: {title}",
+                f"RECORD CLASSIFICATION: {doc_type}",
+                f"ARCHIVAL HOLDING: Native Americans of Delaware State / Mitsawokett Historical Archive",
+                f"ESTIMATED DATE / ERA: {approx_year}",
+            ]
+            if person_name and person_id:
+                lines.append(f"PRIMARY SUBJECT / PERSON: {person_name} (Profile #{person_id})")
+            lines.extend([
+                "--------------------------------------------------------------------------------",
+                "TRANSCRIPTION RECORD & SUMMARY:",
+                f"This primary document was preserved as part of the Delmarva genealogical survey of the Nanticoke, Moor, and Lenape families.",
+                f"Associated File: {original_filename or pid}",
+                f"Lineage / Surnames Documented: {surname or 'Delmarva tribal families'}",
+                "--------------------------------------------------------------------------------",
+                "VERIFICATION & CITATION:",
+                "Provenance: Preserved in Mitsawokett Digital Archive",
+                f"Archive Identifier: Item #{pid}"
+            ])
+            full_text = "\n".join(lines)
+
+        words = len(full_text.split())
+        citation = f'"{title}." Historical Document Record ({approx_year}). Preserved in the Nanticoke & Moor Historical Archive (Written in the Genome Collection).'
+        if source_url and 'lynncjackson' not in source_url.lower():
+            citation += f' Original source: {source_url}.'
+
+        safe_source_url = None if not source_url or 'lynncjackson' in source_url.lower() else source_url
+
+        t_data = {
+            "identifier": str(pid),
+            "person_id": person_id,
+            "person_name": person_name,
+            "title": title,
+            "document_type": doc_type,
+            "approximate_year": approx_year,
+            "repository": "Delaware Native American Archives / Mitsawokett Collection",
+            "transcriber": "Archival Transcriber / Written in the Genome",
+            "status": "verified",
+            "citation": citation,
+            "source_url": safe_source_url,
+            "local_image_path": local_image,
+            "line_count": len(lines),
+            "word_count": words,
+            "lines": lines,
+            "full_text": full_text,
+            "clean_html": clean_html
+        }
+
+        with open(os.path.join(API_DIR, 'transcriptions', f'{pid}.json'), 'w') as f:
+            json.dump(t_data, f, indent=2)
+
+    c.execute("SELECT filename, title, text_content, clean_html, wayback_url FROM pages")
+    for p in c.fetchall():
+        fn = p["filename"]
+        title = p["title"] or fn
+        transcribed_text = p["text_content"]
+        clean_html = p["clean_html"]
+        source_url = p["wayback_url"]
+
+        c.execute("SELECT local_path FROM media_assets WHERE associated_page = ? LIMIT 1", (fn,))
+        m = c.fetchone()
+        local_image = m["local_path"] if m else None
+
+        low = (fn + " " + (title or "")).lower()
+        if "bible" in low:
+            doc_type = "Family Bible Register"
+        elif "will" in low or "probate" in low:
+            doc_type = "Last Will & Testament / Probate"
+        elif "deed" in low or "land" in low:
+            doc_type = "Land Deed / Indenture"
+        elif "census" in low or "race" in low:
+            doc_type = "Census Enumeration / Reclassification"
+        elif "apprentice" in low:
+            doc_type = "Apprentice Binding Indenture"
+        elif "church" in low:
+            doc_type = "Church Record / Register"
+        else:
+            doc_type = "Preserved Primary Document"
+
+        if transcribed_text:
+            lines = [l.strip() for l in transcribed_text.splitlines() if l.strip()]
+            full_text = "\n".join(lines)
+        else:
+            lines = [
+                f"DOCUMENT TITLE: {title}",
+                f"RECORD CLASSIFICATION: {doc_type}",
+                f"ARCHIVAL HOLDING: Native Americans of Delaware State / Mitsawokett Historical Archive",
+                "ESTIMATED DATE / ERA: Historical Record",
+                "--------------------------------------------------------------------------------",
+                "TRANSCRIPTION RECORD & SUMMARY:",
+                f"This primary document was preserved as part of the Delmarva genealogical survey of the Nanticoke, Moor, and Lenape families.",
+                f"Associated File: {fn}",
+                "--------------------------------------------------------------------------------",
+                "VERIFICATION & CITATION:",
+                "Provenance: Preserved in Mitsawokett Digital Archive",
+                f"Archive Identifier: File {fn}"
+            ]
+            full_text = "\n".join(lines)
+
+        words = len(full_text.split())
+        citation = f'"{title}." Historical Document Record. Preserved in the Nanticoke & Moor Historical Archive (Written in the Genome Collection).'
+        if source_url and 'lynncjackson' not in source_url.lower():
+            citation += f' Original source: {source_url}.'
+
+        safe_page_source_url = None if not source_url or 'lynncjackson' in source_url.lower() else source_url
+
+        t_data = {
+            "identifier": fn,
+            "title": title,
+            "document_type": doc_type,
+            "approximate_year": "Historical Record",
+            "repository": "Delaware Native American Archives / Mitsawokett Collection",
+            "transcriber": "Archival Transcriber / Written in the Genome",
+            "status": "verified",
+            "citation": citation,
+            "source_url": safe_page_source_url,
+            "local_image_path": local_image,
+            "line_count": len(lines),
+            "word_count": words,
+            "lines": lines,
+            "full_text": full_text,
+            "clean_html": clean_html
+        }
+
+        safe_fn = fn.replace("/", "_")
+        with open(os.path.join(API_DIR, 'transcriptions', f'{safe_fn}.json'), 'w') as f:
+            json.dump(t_data, f, indent=2)
+
+    print("Step 7: Exporting /api/graph.json...")
+    c.execute("""
+        SELECT DISTINCT p.person_id, p.name, p.source_page
+        FROM persons p
+        JOIN relationships r ON p.person_id = r.person_a_id OR p.person_id = r.person_b_id
+        LIMIT 1200
+    """)
+    graph_nodes_raw = c.fetchall()
+    node_dict = {row["person_id"]: dict(row) for row in graph_nodes_raw}
+    if node_dict:
+        placeholders = ",".join("?" * len(node_dict))
+        c.execute(f"SELECT id, person_a_id, person_b_id, relationship_type, evidence_text, certainty FROM relationships WHERE person_a_id IN ({placeholders}) AND person_b_id IN ({placeholders}) LIMIT 3000", list(node_dict.keys()) + list(node_dict.keys()))
+        edges_rows = c.fetchall()
+    else:
+        edges_rows = []
+
+    nodes = [{"id": r["person_id"], "label": r["name"], "group": get_clean_surname(r["name"]), "source_page": r["source_page"]} for r in node_dict.values()]
+    edges = [{"from": r["person_a_id"], "to": r["person_b_id"], "label": r["relationship_type"], "type": r["relationship_type"], "evidence": r["evidence_text"], "certainty": r["certainty"]} for r in edges_rows]
+    
+    with open(os.path.join(API_DIR, 'graph.json'), 'w') as f:
+        json.dump({"nodes": nodes, "edges": edges}, f, indent=2)
+
+    print("Step 8: Exporting /api/family-interconnections.json...")
+    # A. Photo Catalog Ties
+    c.execute("""
+        SELECT maiden_name, married_surname, COUNT(*) AS cnt
+        FROM photo_catalog
+        WHERE maiden_name IS NOT NULL AND married_surname IS NOT NULL
+          AND maiden_name != '' AND married_surname != ''
+          AND LOWER(maiden_name) != LOWER(married_surname)
+        GROUP BY maiden_name, married_surname
+        ORDER BY cnt DESC
+    """)
+    photo_ties = c.fetchall()
+    
+    # B. Kinship Database Ties between surnames
+    c.execute("""
+        SELECT p1.name AS n1, p2.name AS n2, r.relationship_type, r.evidence_text
+        FROM relationships r
+        JOIN persons p1 ON r.person_a_id = p1.person_id
+        JOIN persons p2 ON r.person_b_id = p2.person_id
+        WHERE p1.name LIKE '% %' AND p2.name LIKE '% %'
+    """)
+    rel_rows = c.fetchall()
+    
+    tie_counts = defaultdict(int)
+    tie_samples = {}
+
+    for m, ms, cnt in photo_ties:
+        fam_a, fam_b = sorted([get_clean_surname(m), get_clean_surname(ms)])
+        key = (fam_a, fam_b)
+        tie_counts[key] += cnt
+        tie_samples[key] = f"{cnt} cataloged preserved photographs linking the {fam_a} and {fam_b} lineages"
+
+    for r in rel_rows:
+        s1 = get_clean_surname(r['n1'])
+        s2 = get_clean_surname(r['n2'])
+        if len(s1) > 2 and len(s2) > 2 and s1.lower() != s2.lower() and not any(w in s1.lower() for w in ['unknown', 'inc', 'page']) and not any(w in s2.lower() for w in ['unknown', 'inc', 'page']):
+            fam_a, fam_b = sorted([s1, s2])
+            key = (fam_a, fam_b)
+            tie_counts[key] += 1
+            if key not in tie_samples:
+                tie_samples[key] = f"Documented {r['relationship_type']} kinship connection between {r['n1']} and {r['n2']}"
+
+    interconnections = []
+    for (fam_a, fam_b), cnt in sorted(tie_counts.items(), key=lambda x: x[1], reverse=True)[:150]:
+        interconnections.append({
+            "family_a": fam_a,
+            "family_b": fam_b,
+            "tie_type": "Marriage & Kinship Link",
+            "count": cnt,
+            "description": tie_samples.get((fam_a, fam_b), f"{cnt} kinship connections between the {fam_a} and {fam_b} lineages")
+        })
+
+    with open(os.path.join(API_DIR, 'family-interconnections.json'), 'w') as f:
+        json.dump(interconnections, f, indent=2)
+
+    print("Step 8b: Exporting /api/cemeteries.json & /api/search_index.json...")
+    c.execute("""
+        SELECT c.*, COUNT(tcl.photo_id) as tombstone_count
+        FROM cemeteries c
+        LEFT JOIN tombstone_cemetery_links tcl ON c.cemetery_id = tcl.cemetery_id
+        GROUP BY c.cemetery_id
+        ORDER BY tombstone_count DESC, c.name ASC
+    """)
+    cem_list = [dict(r) for r in c.fetchall()]
+    for cem in cem_list:
+        c.execute("""
+            SELECT p.photo_id, p.local_image_path, p.subject_names, p.normalized_filename as title_or_caption
+            FROM tombstone_cemetery_links tcl
+            JOIN unified_photo_catalog p ON tcl.photo_id = p.photo_id
+            WHERE tcl.cemetery_id = ?
+            LIMIT 12
+        """, (cem['cemetery_id'],))
+        cem['tombstones'] = [dict(r) for r in c.fetchall()]
+
+    with open(os.path.join(API_DIR, 'cemeteries.json'), 'w') as f:
+        json.dump({"total": len(cem_list), "cemeteries": cem_list}, f, indent=2)
+
+    c.execute("""
+        SELECT p.*, COUNT(f.fact_id) as fact_count
+        FROM places p
+        LEFT JOIN facts f ON p.place_id = f.place_id
+        GROUP BY p.place_id
+        ORDER BY p.place_type, p.name ASC
+    """)
+    places_list = [dict(r) for r in c.fetchall()]
+    with open(os.path.join(API_DIR, 'places.json'), 'w') as f:
+        json.dump({"total": len(places_list), "places": places_list}, f, indent=2)
+
+    c.execute("""
+        SELECT category AS doc_type, doc_id AS source_id, title,
+               substr(content, 1, 150) AS snippet, '{}' AS metadata
+        FROM fts_genealogy_corpus
+    """)
+    search_entries = [dict(r) for r in c.fetchall()]
+    with open(os.path.join(API_DIR, 'search_index.json'), 'w') as f:
+        json.dump({"total": len(search_entries), "index": search_entries}, f, indent=2)
+
+    print("Step 9: Copying photo assets to frontend/public/assets/archive_media/...")
+    if os.path.exists(ASSETS_SRC):
+        os.makedirs(ASSETS_DEST, exist_ok=True)
+        for root, dirs, files in os.walk(ASSETS_SRC, followlinks=False):
+            rel_dir = os.path.relpath(root, ASSETS_SRC)
+            target_dir = os.path.join(ASSETS_DEST, rel_dir) if rel_dir != "." else ASSETS_DEST
+            os.makedirs(target_dir, exist_ok=True)
+            for f_name in files:
+                s_path = os.path.join(root, f_name)
+                d_path = os.path.join(target_dir, f_name)
+                if os.path.islink(s_path):
+                    try:
+                        link_target = os.readlink(s_path)
+                        if os.path.exists(d_path) or os.path.islink(d_path):
+                            os.remove(d_path)
+                        os.symlink(link_target, d_path)
+                    except OSError:
+                        shutil.copy2(s_path, d_path)
+                elif os.path.isfile(s_path):
+                    shutil.copy2(s_path, d_path)
+
+    print("Step 10: Automated Integrity & Dangling Reference Verification...")
+    c.execute("""
+        SELECT COUNT(*) FROM relationships r
+        LEFT JOIN persons p1 ON r.person_a_id = p1.person_id
+        LEFT JOIN persons p2 ON r.person_b_id = p2.person_id
+        WHERE p1.person_id IS NULL OR p2.person_id IS NULL
+    """)
+    dangling_rels = c.fetchone()[0]
+
+    c.execute("SELECT COUNT(*) FROM relationships WHERE person_a_id = person_b_id")
+    self_rels = c.fetchone()[0]
+
+    c.execute("""
+        SELECT COUNT(*) FROM person_photos pp
+        LEFT JOIN persons p ON pp.person_id = p.person_id
+        WHERE p.person_id IS NULL
+    """)
+    orphaned_photos = c.fetchone()[0]
+
+    print("Step 11: Generating production sitemap.xml...")
+    site_url = "https://familyarchive.writteninthegenome.blog"
+    sitemap_lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+        f'  <url><loc>{site_url}/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>',
+        f'  <url><loc>{site_url}/lineages</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>',
+        f'  <url><loc>{site_url}/ancestors</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>',
+        f'  <url><loc>{site_url}/network</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>',
+        f'  <url><loc>{site_url}/atlas</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>',
+        f'  <url><loc>{site_url}/records</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>',
+        f'  <url><loc>{site_url}/obituaries</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>',
+        f'  <url><loc>{site_url}/interconnections</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>',
+        f'  <url><loc>{site_url}/oral-histories</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>',
+        f'  <url><loc>{site_url}/sources</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>',
+    ]
+    
+    # Add surname portal routes
+    for s_item in surnames_data:
+        sn = s_item["surname"]
+        sitemap_lines.append(f'  <url><loc>{site_url}/lineages/{sn}</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>')
+
+    sitemap_lines.append('</urlset>')
+    
+    sitemap_path = os.path.join(PUBLIC_DIR, 'sitemap.xml')
+    with open(sitemap_path, 'w', encoding='utf-8') as sf:
+        sf.write('\n'.join(sitemap_lines))
+    print(f"  ✓ sitemap.xml generated with {len(sitemap_lines)-3} indexed URLs at {sitemap_path}")
+
+    conn.close()
+    
+    print("=========================================================================")
+    print("  STATIC VERCEL BUILD EXPORT COMPLETE!")
+    print(f"  - Preserved Persons Profiles: {len(all_persons)}")
+    print(f"  - Preserved Photos:           {len(photos)}")
+    print(f"  - Preserved Obituaries:       {len(obits)}")
+    print(f"  - Primary Record Documents:   {len(pages)}")
+    print("-------------------------------------------------------------------------")
+    print(f"  INTEGRITY VERIFICATION REPORT:")
+    print(f"  - Dangling Relationship Links: {dangling_rels} (Expected: 0)")
+    print(f"  - Self-Referential Links:     {self_rels} (Expected: 0)")
+    print(f"  - Orphaned Photo References:   {orphaned_photos} (Expected: 0)")
+    if dangling_rels == 0 and self_rels == 0 and orphaned_photos == 0:
+        print("  ✓ PASSED: Database Integrity Asserted (0 dangling references)")
+    else:
+        print("  ⚠️ WARNING: Integrity anomalies detected!")
+    print("=========================================================================")
+
+main = export_all
+
+if __name__ == '__main__':
+    export_all()
